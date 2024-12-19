@@ -1,0 +1,35 @@
+---
+import { getCollection, render } from "astro:content";
+import { SHOW_BUY_BUTTON } from "astro:env/server";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths (){ 
+    const blog = await getCollection("blog")
+    
+    return blog.map((book)=>({
+        params:{id:book.slug},
+        props:{book}
+    }))
+}
+
+const {book} = Astro.props
+const {data, slug} = book
+const { title, description, img} = data
+
+const {Content} = await render(book)
+---
+
+<Layout title={`${title} - Libros`}>
+    <div class="flex gap-12">
+        <aside class="flex flex-col items-center gap-4">
+            <a href="/" class="hover:underline opacity-70">Volver atrás</a>
+            <img transition:name={`img-${slug}`} src={`/${img}`} alt={title} class="rounded w-72 h-auto" >
+        </aside>
+        <main class="max-w-3xl">
+            <h1 class="text-4xl font-bold mb-4">{title}</h1>
+            <div class="prose">
+                <Content/>
+            </div>
+        </main>
+    </div>
+</Layout>
