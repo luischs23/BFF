@@ -1,6 +1,6 @@
 ---
 title: 'Genesis'
-description: 'Lorem ipsum dolor sit amet'
+description: 'El primer libro de la Biblia'
 img: blog-placeholder-1.jpg
 ---
 
@@ -81,3 +81,26 @@ todo era confusión y no había nada en la tierra. Las tinieblas cubrían los ab
 
 **<sup>23</sup>** Y así fue como Dios lo expulsó del jardín del Edén para que trabajara la tierra de la que había sido formado. **<sup>24</sup>** Habiendo expulsado al hombre, puso querubines al oriente del jardín del Edén, y también un remolino que disparaba rayos, para guardar el camino hacia el Árbol de la Vida.
 
+**La caída del hombre**
+
+**4** **<sup>1</sup>** El Adán se unió a Eva, su mujer, que quedó embarazada y dio a luz a Caín. Entonces dijo: «Gracias a Yavé me conseguí un hijo.» **<sup>2</sup>** Después dio a luz a Abel, el hermano de Caín. Abel fue pastor de ovejas, mientras que Caín labraba la tierra.  
+
+**<sup>3</sup>** Pasado algún tiempo, Caín presentó a Yavé una ofrenda de los frutos de la tierra. **<sup>4</sup>** También Abel le hizo una ofrenda, sacrificando los primeros nacidos de sus rebaños y quemando su grasa. **<sup>5</sup>** A Yavé le agradó Abel y su ofrenda, mientras que le desagradó Caín y la suya. Ante esto Caín se enojó mucho y andaba cabizbajo.  
+
+**<sup>6</sup>** Yavé le dijo: «¿Por qué andas enojado y con la cabeza baja? Si obras bien andarás con la cabeza levantada. **<sup>7</sup>** Encambio, si obras mal el pecado está a las puertas como fiera al acecho: ¡tú debes dominarlo.»  
+
+**<sup>8</sup>** Caín dijo después a su hermano Abel: «Vamos al campo.» Y cuando estaban en el campo, Caín se lanzó contra su hermano Abel y lo mató. **<sup>9</sup>** Yavé preguntó a Caín: «¿Dónde está tu hermano?» Respondió: «No lo sé. ¿Soy acaso el guardián de mi hermano?»  
+
+**<sup>10</sup>** Entonces Yavé le dijo: «¿Qué has hecho? Clama la sangre de tu hermano y su grito me llega desde la tierra. **<sup>11</sup>** En adelante serás maldito, y vivirás lejos de este suelo fértil que se ha abierto para recibir la sangre de tu hermano, que tu mano ha derramado. **<sup>12</sup>** Cuando cultives la tierra, no te dará frutos; andarás errante y fugitivo sobre la tierra.»  
+
+**<sup>13</sup>** Caín dijo a Yavé: «Mi castigo es más grande de lo que puedo soportar. **<sup>14</sup>** Tú me arrojas hoy de esta tierra, y me dejas privado de tu presencia. Si he de ser un errante y de andar vagando sobre la tierra, cualquiera que me encuentre me matará.» **<sup>15</sup>** Yavé le dijo: «No será así: me vengaré siete veces de quien mate a Caín.» Y Yavé puso una marca a Caín para que no lo matara el que lo encontrara. **<sup>16</sup>** Caín se fue de la presencia de Yavé y habitó en el país de Nod, al oriente del Edén.  
+
+**Los hijos de Caín y Set**
+
+**<sup>17</sup>** Caín tuvo relaciones con su mujer, la cual dio a luz un hijo, al que llamó Henoc. Construyó una ciudad y la llamó Henoc, con el mismo nombre de su hijo. **<sup>18</sup>** Con el tiempo Henoc tuvo un hijo, que llamó Irad. Irad fue padre de Mavael, Mavael padre de Matusael y éste de Lamec.  
+
+**<sup>19</sup>** Lamec tuvo dos mujeres: Ada y Sella. **<sup>20</sup>** Ada dio a luz a Jabel, que fue el padre de los que habitan en cabañas y cuidan rebaños. **<sup>21</sup>** Tuvo un hermano llamado Jubal, que fue el padre de los que tocan la cítara y la flauta. **<sup>22</sup>** Sella, por su parte, dio a luz a Tubal-Caín; ése es el que forja toda clase de herramientas en cobre y hierro. La hermana de Tubal-Caín se llamaba Nohema.  
+
+**<sup>23</sup>** Dijo Lamec a sus mujeres: «Escúchenme ustedes, Ada y Sella; oigan mis palabras, mujeres de Lamec: yo he matado a un hombre por herirme y a un muchacho porque me golpeó. **<sup>24</sup>** Si Caín ha de ser vengado siete veces, Lamec ha de serlo setenta y siete veces.»  
+
+**<sup>25</sup>** Adán tuvo de nuevo relaciones con su mujer, que dio a luz otro hijo, a quien llamó Set, pues dijo: «Dios me ha concedido otro hijo en lugar de Abel que fue matado por Caín.» **<sup>26</sup>** A Set también le nació un hijo, y le puso el nombre de Enós; él fue el primero que invocó el nombre de Yavé.

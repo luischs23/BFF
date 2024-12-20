@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import type { FormEvent } from 'react';
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
@@ -8,17 +8,13 @@ interface SearchResult {
   chapter: number;
   verses: string;
   content: string;
+  title: string;
 }
 
 const BibleSearch: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<SearchResult[]>([])
   const [error, setError] = useState('')
-  const [isMounted, setIsMounted] = useState(false)
-
-  useEffect(() => {
-    setIsMounted(true)
-  }, [])
 
   const handleSearch = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -46,10 +42,6 @@ const BibleSearch: React.FC = () => {
     }
   }
 
-  if (!isMounted) {
-    return null;
-  }
-
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Bible Search</h1>
@@ -73,10 +65,21 @@ const BibleSearch: React.FC = () => {
           <h2 className="text-xl font-bold mb-4">Results:</h2>
           {searchResults.map((result, index) => (
             <div key={index} className="mb-4 p-4 border rounded">
-              <h3 className="font-bold">
-                {result.book} {result.chapter}:{result.verses}
-              </h3>
-              <p className="mt-2">{result.content}</p>
+              <div className="mb-4">
+                <h3 className="text-lg font-bold">{result.title}</h3>
+                <p className="text-sm text-gray-600">
+                  {result.book} {result.chapter}:{result.verses}
+                </p>
+              </div>
+              <div 
+                className="prose max-w-none space-y-4 text-justify"
+                dangerouslySetInnerHTML={{ 
+                  __html: result.content
+                    .split('\n\n')
+                    .map(paragraph => `<p>${paragraph}</p>`)
+                    .join('')
+                }}
+              />
             </div>
           ))}
         </div>

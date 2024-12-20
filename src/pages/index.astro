@@ -1,10 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 
-const blog = await getCollection('blog')
+const blog = await getCollection('blog');
 ---
+
 <Layout title="Biblia Latinoamericana">
 	<main>
 	<h1 class="text-center text-4xl font-bold mb-24">Vamos con toda!</h1>
@@ -13,11 +13,11 @@ const blog = await getCollection('blog')
 		<div class="px-4 mx-auto max-w-screen-lg">
 			<div class="grid gap-6 md:grid-cols-2">
 			{
-				blog.map(book=>{
-					const {slug, data}=book
-					const {title, description, img}=data
+				blog.map(book => {
+					const { slug, data } = book;
+					const { title, description, img } = data;
 
-					return(
+					return (
 						<article class="flex">
 							<a href={`/biblia/${slug}`} class="mb-2 xl:mb-0 transition hover:scale-110">
 								<img 
@@ -25,7 +25,7 @@ const blog = await getCollection('blog')
 									class="mr-5 w-48 rounded" 
 									src={`/${img}`} 
 									alt={title} 
-									/>
+								/>
 							</a>
 							<div class="flex flex-col justify-center">
 							   <h2 class="mb-2 text-2xl font-bold leading-tight">{title}</h2>
@@ -40,3 +40,4 @@ const blog = await getCollection('blog')
 	</section>
 	</main>
 </Layout>
+
