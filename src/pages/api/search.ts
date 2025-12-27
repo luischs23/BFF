@@ -1,130 +1,233 @@
+// src/pages/api/search.ts
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
 export const prerender = false;
+
+interface SearchResult {
+  book: string;
+  chapter: number;
+  verses: string;
+  content: string;
+  title: string;
+}
+
+function parseContent(content: string, targetChapter: number, startVerse?: number, endVerse?: number): SearchResult {
+  const lines = content.split('\n');
+  
+  let currentTitle = '';
+  let verses = new Map<number, { title: string; text: string }>();
+  let chapterTitle = '';
+  let inTargetChapter = false;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    
+    if (!line) continue;
+
+    // Detectar títulos (líneas que empiezan con ##)
+    if (line.startsWith('##')) {
+      currentTitle = line.replace(/^##\s*/, '').trim();
+      continue;
+    }
+
+    // Buscar todos los versículos en la línea (puede haber múltiples)
+    // Patrón: CAPITULO:VERSO seguido de texto hasta el siguiente CAPITULO:VERSO o fin de línea
+    const versePattern = /(\d+):(\d+)\s*([^]*?)(?=\d+:\d+|$)/g;
+    let match;
+    let foundVerseInLine = false;
+
+    while ((match = versePattern.exec(line)) !== null) {
+      const [, chapter, verse, text] = match;
+      const chapterNum = parseInt(chapter);
+      const verseNum = parseInt(verse);
+
+      if (chapterNum === targetChapter) {
+        inTargetChapter = true;
+        foundVerseInLine = true;
+        
+        // Si es el primer verso del capítulo, guardamos el título
+        if (verseNum === 1 && currentTitle) {
+          chapterTitle = currentTitle;
+        }
+
+        // Limpiar el texto (quitar espacios extra)
+        const cleanText = text.trim();
+
+        verses.set(verseNum, {
+          title: verseNum === 1 || !verses.has(verseNum) ? currentTitle : verses.get(verseNum)?.title || '',
+          text: cleanText
+        });
+      } else if (chapterNum > targetChapter && inTargetChapter) {
+        // Ya pasamos el capítulo que buscamos
+        break;
+      }
+    }
+
+    // Reset título solo si encontramos versos en esta línea
+    if (foundVerseInLine) {
+      currentTitle = '';
+    }
+  }
+
+  // Si no encontramos versículos
+  if (verses.size === 0) {
+    return {
+      book: '',
+      chapter: targetChapter,
+      verses: '',
+      content: '',
+      title: ''
+    };
+  }
+
+  // Si se especificaron versículos concretos
+  if (startVerse !== undefined) {
+    const end = endVerse || startVerse;
+    const selectedVerses: string[] = [];
+    let sectionTitle = '';
+
+    for (let v = startVerse; v <= end; v++) {
+      const verseData = verses.get(v);
+      if (verseData) {
+        // Guardar el título de la primera sección
+        if (verseData.title && !sectionTitle) {
+          sectionTitle = verseData.title;
+        }
+        
+        // Agregar nuevo título si es diferente y no es el primero
+        if (verseData.title && verseData.title !== sectionTitle && selectedVerses.length > 0) {
+          selectedVerses.push(`\n\n<strong>${verseData.title}</strong>\n\n`);
+          sectionTitle = verseData.title;
+        }
+        
+        selectedVerses.push(`<sup>${v}</sup>${verseData.text}`);
+      }
+    }
+
+    if (selectedVerses.length === 0) {
+      return {
+        book: '',
+        chapter: targetChapter,
+        verses: '',
+        content: '',
+        title: ''
+      };
+    }
+
+    return {
+      book: '',
+      chapter: targetChapter,
+      verses: endVerse ? `${startVerse}-${endVerse}` : `${startVerse}`,
+      content: selectedVerses.join(' '),
+      title: sectionTitle || chapterTitle
+    };
+  }
+
+  // Si se pide el capítulo completo
+  const allVerses: string[] = [];
+  let lastTitle = '';
+  
+  Array.from(verses.entries())
+    .sort(([a], [b]) => a - b)
+    .forEach(([num, data]) => {
+      // Agregar título si es diferente al anterior
+      if (data.title && data.title !== lastTitle) {
+        if (allVerses.length > 0) {
+          allVerses.push(`\n\n`);
+        }
+        allVerses.push(`<strong>${data.title}</strong>\n\n`);
+        lastTitle = data.title;
+      }
+      allVerses.push(`<sup>${num}</sup>${data.text}`);
+    });
+
+  return {
+    book: '',
+    chapter: targetChapter,
+    verses: 'all',
+    content: allVerses.join(' '),
+    title: chapterTitle
+  };
+}
 
 export const POST: APIRoute = async ({ request }) => {
   try {
     const { query } = await request.json();
 
     if (!query) {
-      return new Response(JSON.stringify({ message: 'Invalid search query' }), { status: 400 });
+      return new Response(
+        JSON.stringify({ message: 'Consulta de búsqueda inválida' }), 
+        { status: 400 }
+      );
     }
 
-    const [book, reference] = query.split(' ', 2);
-    const [chapter, verses] = reference.split(',', 2);
-    const [start, end] = verses ? verses.split('-', 2) : [null, null];
+    // Parsear: "1Pedro 1,2-7" o "Genesis 1" o "1 Pedro 1,1"
+    const queryMatch = query.match(/^([a-zA-ZáéíóúÁÉÍÓÚñÑ\s\d]+?)\s+(\d+)(?:,(\d+)(?:-(\d+))?)?$/);
+    
+    if (!queryMatch) {
+      return new Response(
+        JSON.stringify({ message: 'Formato inválido. Use: "Libro Capítulo,Verso" o "Libro Capítulo,Verso-Verso"' }), 
+        { status: 400 }
+      );
+    }
+
+    const [, bookName, chapterStr, startVerseStr, endVerseStr] = queryMatch;
+    const chapter = parseInt(chapterStr);
+    const startVerse = startVerseStr ? parseInt(startVerseStr) : undefined;
+    const endVerse = endVerseStr ? parseInt(endVerseStr) : undefined;
+
+    // Normalizar nombre del libro
+    const normalizedBookName = bookName.trim().toLowerCase()
+      .replace(/\s+/g, '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '');
 
     const books = await getCollection('blog');
-    const file = books.find((b) => b.slug.toLowerCase() === book.toLowerCase());
+    const file = books.find((b) => {
+      const slug = b.slug.toLowerCase()
+        .replace(/\s+/g, '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+      
+      return slug === normalizedBookName || 
+             slug.includes(normalizedBookName) ||
+             normalizedBookName.includes(slug);
+    });
 
     if (!file) {
-      return new Response(JSON.stringify({ message: 'Book not found' }), { status: 404 });
-    }
-
-    const content = file.body;
-
-    // Find chapter start and content
-    const chapterStartPattern = `\\*\\*${chapter}\\*\\*\\s*\\*\\*<sup>1</sup>\\*\\*`;
-    const chapterTitlePattern = `\\*\\*([^*]+?)\\*\\*\\s*${chapterStartPattern}`;
-    
-    // Try to find chapter with title first
-    let chapterMatch = content.match(new RegExp(chapterTitlePattern, 's'));
-    let chapterTitle = '';
-    let chapterStartIndex = -1;
-
-    if (chapterMatch) {
-      chapterTitle = chapterMatch[1].trim();
-      chapterStartIndex = chapterMatch.index!;
-    } else {
-      // Try finding just the chapter start if no title
-      chapterMatch = content.match(new RegExp(chapterStartPattern, 's'));
-      if (chapterMatch) {
-        chapterStartIndex = chapterMatch.index!;
-      }
-    }
-
-    if (chapterStartIndex === -1) {
-      return new Response(JSON.stringify({ message: 'Chapter not found' }), { status: 404 });
-    }
-
-    // Find where the chapter ends
-    const nextChapterPattern = `\\*\\*${parseInt(chapter) + 1}\\*\\*\\s*\\*\\*<sup>1</sup>\\*\\*`;
-    const nextChapterMatch = content.slice(chapterStartIndex).match(new RegExp(nextChapterPattern, 's'));
-    const chapterEndIndex = nextChapterMatch 
-      ? chapterStartIndex + nextChapterMatch.index 
-      : content.length;
-
-    let chapterContent = content.slice(chapterStartIndex, chapterEndIndex);
-
-    // If specific verses are requested
-    if (start) {
-      const versesContent = [];
-      // Updated regex pattern to capture verses in different contexts
-      const verseRegex = new RegExp(
-        `\\*\\*<sup>(\\d+)</sup>\\*\\*([^]*?)(?=\\*\\*<sup>\\d+</sup>\\*\\*|\\*\\*\\d+\\*\\*|\\*\\*[^*]+?\\*\\*\\s*\\*\\*\\d+\\*\\*|$)`,
-        'g'
+      return new Response(
+        JSON.stringify({ message: `Libro "${bookName}" no encontrado` }), 
+        { status: 404 }
       );
-      
-      let verseMatch;
-      const verses = new Map();
-      
-      while ((verseMatch = verseRegex.exec(chapterContent)) !== null) {
-        const verseNum = parseInt(verseMatch[1]);
-        const verseContent = verseMatch[2].trim();
-        verses.set(verseNum, verseContent);
-      }
-
-      const startNum = parseInt(start);
-      const endNum = end ? parseInt(end) : startNum;
-
-      for (let i = startNum; i <= endNum; i++) {
-        const verseContent = verses.get(i);
-        if (verseContent) {
-          versesContent.push(`<sup>${i}</sup>${verseContent}`);
-        }
-      }
-
-      if (versesContent.length > 0) {
-        chapterContent = versesContent.join(' ');
-      } else {
-        return new Response(JSON.stringify({ message: 'Verses not found' }), { status: 404 });
-      }
     }
 
-    // Clean up the content
-    chapterContent = chapterContent
-      // Remove chapter number and title
-      .replace(new RegExp(`\\*\\*${chapter}\\*\\*\\s*`), '')
-      .replace(/\*\*[^*<]+?\*\*(?=\s|$)/g, '')
-      // Convert verse numbers to superscript (if any remaining)
-      .replace(/\*\*<sup>(\d+)<\/sup>\*\*/g, '<sup>$1</sup>')
-      // Remove any remaining markdown bold syntax
-      .replace(/\*\*/g, '')
-      .trim();
+    const result = parseContent(file.body, chapter, startVerse, endVerse);
+    
+    if (!result.content) {
+      return new Response(
+        JSON.stringify({ message: 'Capítulo o versículos no encontrados' }), 
+        { status: 404 }
+      );
+    }
 
-    const result = {
-      book,
-      chapter: parseInt(chapter),
-      verses: verses || 'all',
-      content: chapterContent,
-      title: chapterTitle
-    };
+    result.book = file.data.title;
 
-    return new Response(JSON.stringify({ results: [result] }), { 
-      status: 200,
-      headers: {
-        'Content-Type': 'application/json'
+    return new Response(
+      JSON.stringify({ results: [result] }), 
+      { 
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
       }
-    });
+    );
   } catch (error) {
-    console.error('Search error:', error);
-    return new Response(JSON.stringify({ message: 'An error occurred while searching' }), { 
-      status: 500,
-      headers: {
-        'Content-Type': 'application/json'
+    console.error('Error en búsqueda:', error);
+    return new Response(
+      JSON.stringify({ message: 'Ocurrió un error durante la búsqueda' }), 
+      { 
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
       }
-    });
+    );
   }
 };
-
