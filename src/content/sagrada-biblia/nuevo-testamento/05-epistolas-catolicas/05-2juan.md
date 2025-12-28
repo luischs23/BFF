@@ -5,15 +5,15 @@ img: blog-placeholder-2.jpg
 ---
 # SEGUNDA EPÍSTOLA DE SAN JUAN
 ## Saludo.
-1:1 El Presbítero* a la Señora Elegida* y a sus hijos, a quienes amo en la verdad; y no sólo yo, sino también todos los que han conocido la Verdad. 1:2 Os amo en razón de la verdad que se mantiene en nosotros y que estará con nosotros para siempre. 1:3 La gracia, la misericordia y la paz* de parte de Dios Padre y de Jesucristo, el Hijo del Padre, estarán con nosotros según la verdad y el amor.
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> El Presbítero* a la Señora Elegida* y a sus hijos, a quienes amo en la verdad; y no sólo yo, sino también todos los que han conocido la Verdad. <sup>2</sup> Os amo en razón de la verdad que se mantiene en nosotros y que estará con nosotros para siempre. <sup>3</sup> La gracia, la misericordia y la paz* de parte de Dios Padre y de Jesucristo, el Hijo del Padre, estarán con nosotros según la verdad y el amor.
 
 ## El mandamiento de amor.
-1:4 Me alegré mucho al encontrar entre tus hijos a quienes viven conforme a la verdad*, al mandamiento que recibimos del Padre. 1:5 Y ahora te ruego, Señora —y no te escribo un mandamiento nuevo, sino el que tenemos desde el principio—, que nos amemos unos a otros. 1:6 Y el amor consiste en que vivamos según sus mandamientos. Éste es el mandamiento que oísteis desde el principio*: que caminéis en el amor.
+<sup>4</sup> Me alegré mucho al encontrar entre tus hijos a quienes viven conforme a la verdad*, al mandamiento que recibimos del Padre. <sup>5</sup> Y ahora te ruego, Señora —y no te escribo un mandamiento nuevo, sino el que tenemos desde el principio—, que nos amemos unos a otros. <sup>6</sup> Y el amor consiste en que vivamos según sus mandamientos. Éste es el mandamiento que oísteis desde el principio*: que caminéis en el amor.
 
 ## Los anticristos.
-1:7 Han venido al mundo muchos seductores negando que Jesucristo haya venido en carne mortal. Ése es el Seductor y el Anticristo. 1:8 Cuidad de vosotros, para no perder el fruto de vuestro trabajo*, sino para que recibáis una amplia recompensa. 1:9 Todo el que se excede* y no permanece en la doctrina de Cristo*, no posee a Dios. En cambio, el que permanece en la doctrina posee al Padre y al Hijo. 1:10 Si alguno va a visitaros y no os lleva esta doctrina, no lo recibáis en casa ni lo saludéis, 1:11 pues el que lo saluda se hace solidario de sus malas obras.
+<sup>7</sup> Han venido al mundo muchos seductores negando que Jesucristo haya venido en carne mortal. Ése es el Seductor y el Anticristo. <sup>8</sup> Cuidad de vosotros, para no perder el fruto de vuestro trabajo*, sino para que recibáis una amplia recompensa. <sup>9</sup> Todo el que se excede* y no permanece en la doctrina de Cristo*, no posee a Dios. En cambio, el que permanece en la doctrina posee al Padre y al Hijo. <sup>10</sup> Si alguno va a visitaros y no os lleva esta doctrina, no lo recibáis en casa ni lo saludéis, <sup>11</sup> pues el que lo saluda se hace solidario de sus malas obras.
 
 ## Conclusión.
-1:12 Aunque me queda mucho por escribir, prefiero no hacerlo con papel y tinta, pues espero ir a veros y hablar de viva voz, para que nuestro gozo* sea completo.
+<sup>12</sup> Aunque me queda mucho por escribir, prefiero no hacerlo con papel y tinta, pues espero ir a veros y hablar de viva voz, para que nuestro gozo* sea completo.
 
-1:13 Te saludan los hijos de tu hermana Elegida*.
+<sup>13</sup> Te saludan los hijos de tu hermana Elegida*.

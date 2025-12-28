@@ -30,13 +30,26 @@ function parseContent(content: string, targetChapter: number, startVerse?: numbe
       continue;
     }
 
-    // Buscar si la línea contiene versículos con formato CAPITULO:VERSO
-    const verseMatches = [...line.matchAll(/(\d+):(\d+)/g)];
+    // Detectar marcadores de capítulo con formato <span ... data-chapter="X">
+    const chapterMarkerMatches = [...line.matchAll(/data-chapter="(\d+)"/g)];
+    if (chapterMarkerMatches.length > 0) {
+      currentVerseChapter = parseInt(chapterMarkerMatches[0][1]);
+    }
 
-    if (verseMatches.length > 0) {
-      // Procesar cada versículo encontrado en la línea
-      for (let j = 0; j < verseMatches.length; j++) {
-        const match = verseMatches[j];
+    // Buscar versículos en dos formatos:
+    // 1. Formato X:Y (archivo preparado pero no formateado)
+    // 2. Formato <sup>Y</sup> (archivo formateado)
+
+    // Primero buscar formato X:Y
+    const colonVerseMatches = [...line.matchAll(/(\d+):(\d+)/g)];
+
+    // Luego buscar formato <sup>Y</sup> con posible marcador de capítulo antes
+    const supVerseMatches = [...line.matchAll(/<sup>(\d+)<\/sup>/g)];
+
+    if (colonVerseMatches.length > 0) {
+      // Formato X:Y - procesar cada versículo encontrado
+      for (let j = 0; j < colonVerseMatches.length; j++) {
+        const match = colonVerseMatches[j];
         const chapterNum = parseInt(match[1]);
         const verseNum = parseInt(match[2]);
         const matchStart = match.index!;
@@ -44,18 +57,15 @@ function parseContent(content: string, targetChapter: number, startVerse?: numbe
 
         // Determinar dónde termina el texto de este versículo
         let textEnd: number;
-        if (j + 1 < verseMatches.length) {
-          // Hay otro versículo en la misma línea
-          textEnd = verseMatches[j + 1].index!;
+        if (j + 1 < colonVerseMatches.length) {
+          textEnd = colonVerseMatches[j + 1].index!;
         } else {
-          // Es el último versículo de la línea
           textEnd = line.length;
         }
 
         const verseText = line.substring(matchEnd, textEnd).trim();
 
         if (chapterNum === targetChapter) {
-          // Si es el primer verso del capítulo, guardamos el título
           if (verseNum === 1 && currentTitle) {
             chapterTitle = currentTitle;
           }
@@ -68,17 +78,63 @@ function parseContent(content: string, targetChapter: number, startVerse?: numbe
           currentTitle = '';
         }
 
-        // Actualizar el versículo actual para las líneas siguientes
         currentVerseChapter = chapterNum;
+        currentVerseNum = verseNum;
+      }
+    } else if (supVerseMatches.length > 0) {
+      // Formato <sup>Y</sup> - usar el capítulo del marcador o el actual
+      for (let j = 0; j < supVerseMatches.length; j++) {
+        const match = supVerseMatches[j];
+        const verseNum = parseInt(match[1]);
+        const matchStart = match.index!;
+        const matchEnd = matchStart + match[0].length;
+
+        // Si es versículo 1 y hay marcador de capítulo, actualizar capítulo
+        if (verseNum === 1 && chapterMarkerMatches.length > 0) {
+          currentVerseChapter = parseInt(chapterMarkerMatches[0][1]);
+        }
+
+        // Si aún no tenemos capítulo, asumir capítulo 1
+        if (currentVerseChapter === null) {
+          currentVerseChapter = 1;
+        }
+
+        // Determinar dónde termina el texto de este versículo
+        let textEnd: number;
+        if (j + 1 < supVerseMatches.length) {
+          textEnd = supVerseMatches[j + 1].index!;
+        } else {
+          textEnd = line.length;
+        }
+
+        let verseText = line.substring(matchEnd, textEnd).trim();
+        // Limpiar HTML tags del texto
+        verseText = verseText.replace(/<[^>]*>/g, '').trim();
+
+        if (currentVerseChapter === targetChapter) {
+          if (verseNum === 1 && currentTitle) {
+            chapterTitle = currentTitle;
+          }
+
+          verses.set(verseNum, {
+            title: !verses.has(verseNum) ? currentTitle : verses.get(verseNum)?.title || '',
+            text: verseText
+          });
+
+          currentTitle = '';
+        }
+
         currentVerseNum = verseNum;
       }
     } else if (line && currentVerseNum !== null && currentVerseChapter === targetChapter) {
       // Línea sin número de versículo - es continuación del versículo actual
       const existing = verses.get(currentVerseNum);
       if (existing) {
+        // Limpiar HTML tags de la continuación
+        const cleanLine = line.replace(/<[^>]*>/g, '').trim();
         verses.set(currentVerseNum, {
           title: existing.title,
-          text: existing.text + ' ' + line
+          text: existing.text + ' ' + cleanLine
         });
       }
     }

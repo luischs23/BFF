@@ -189,6 +189,9 @@ export const POST: APIRoute = async ({ request }) => {
 
     body = formattedLines.join('\n');
 
+    // Convertir X:Y a <sup>Y</sup> para mostrar versículos como superíndice
+    body = body.replace(/(\d+):(\d+)\s+/g, '<sup>$2</sup> ');
+
     // Reconstruir el archivo
     const newContent = `---\n${frontmatter}\n---\n${body}`;
 

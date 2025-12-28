@@ -138,7 +138,7 @@ Object.values(estructura).forEach(testamento => {
 		<!-- Contenido principal -->
 		<main class="flex-1 overflow-y-auto">
 			<div class="p-4 md:p-8 max-w-4xl mx-auto pt-16 md:pt-8">
-				<article id="bible-content" class="bible-content prose prose-lg max-w-none prose-headings:text-amber-900 prose-h1:text-2xl md:prose-h1:text-3xl prose-h2:text-lg md:prose-h2:text-xl prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-2 prose-h2:mt-8">
+				<article class="bible-content prose prose-lg max-w-none prose-headings:text-amber-900 prose-h1:text-2xl md:prose-h1:text-3xl prose-h2:text-lg md:prose-h2:text-xl prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-2 prose-h2:mt-8">
 					<h1>{title}</h1>
 					<Content />
 				</article>
@@ -166,8 +166,20 @@ Object.values(estructura).forEach(testamento => {
 		background: #aaa;
 	}
 
-	/* Estilos para versículos */
-	.bible-content :global(.verse-num) {
+	/* Estilos para marcadores de capítulo */
+	.bible-content :global(.chapter-marker) {
+		font-size: 2.5rem;
+		font-weight: 700;
+		color: #92400e;
+		float: left;
+		line-height: 1;
+		margin-right: 0.25rem;
+		margin-top: 0.1rem;
+		padding-right: 0.25rem;
+	}
+
+	/* Estilos para versículos en superíndice */
+	.bible-content :global(sup) {
 		font-size: 0.7em;
 		vertical-align: super;
 		line-height: 0;
@@ -183,46 +195,6 @@ Object.values(estructura).forEach(testamento => {
 </style>
 
 <script>
-	// Transformar números de versículo en superíndices
-	function formatVerseNumbers() {
-		const content = document.getElementById('bible-content');
-		if (!content) return;
-
-		const walker = document.createTreeWalker(
-			content,
-			NodeFilter.SHOW_TEXT,
-			null
-		);
-
-		const nodesToReplace: { node: Text; html: string }[] = [];
-
-		while (walker.nextNode()) {
-			const node = walker.currentNode as Text;
-			const text = node.textContent || '';
-
-			// Buscar patrón X:Y donde X es capítulo y Y es versículo
-			if (/\d+:\d+/.test(text)) {
-				const newHtml = text.replace(
-					/(\d+):(\d+)/g,
-					'<span class="verse-num">$2</span>'
-				);
-				if (newHtml !== text) {
-					nodesToReplace.push({ node, html: newHtml });
-				}
-			}
-		}
-
-		// Reemplazar nodos de texto con el HTML formateado
-		nodesToReplace.forEach(({ node, html }) => {
-			const span = document.createElement('span');
-			span.innerHTML = html;
-			node.parentNode?.replaceChild(span, node);
-		});
-	}
-
-	// Ejecutar cuando el DOM esté listo
-	formatVerseNumbers();
-
 	const menuToggle = document.getElementById('menuToggle');
 	const sidebar = document.getElementById('sidebar');
 	const overlay = document.getElementById('sidebarOverlay');
