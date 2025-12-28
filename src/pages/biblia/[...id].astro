@@ -98,20 +98,26 @@ Object.values(estructura).forEach(testamento => {
 				<a href="/" class="text-amber-700 hover:underline text-sm mb-4 block">&larr; Inicio</a>
 				<h2 class="text-xl font-bold mb-4">Sagrada Biblia</h2>
 
-				{Object.entries(estructura).map(([_, testamento]) => (
+				{Object.entries(estructura).map(([testamentoKey, testamento]) => (
 					<div class="mb-6">
 						<h3 class="font-bold text-gray-800 mb-2 text-sm uppercase tracking-wide">
 							{testamento.titulo}
 						</h3>
 
-						{Object.entries(testamento.secciones).map(([__, seccion]) => (
+						{Object.entries(testamento.secciones).map(([seccionKey, seccion]) => (
 							seccion.libros.length > 0 && (
 								<div class="mb-3">
-									<h4 class="text-xs font-semibold text-gray-500 mb-1 pl-2">
-										{seccion.titulo}
-									</h4>
-									<ul class="space-y-1">
-										{seccion.libros.map(libro => (
+									<button
+										class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 mb-1 pl-2 pr-2 py-1 hover:bg-gray-100 rounded transition"
+										data-section={`${testamentoKey}-${seccionKey}`}
+									>
+										<span>{seccion.titulo}</span>
+										<svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+										</svg>
+									</button>
+									<ul class="section-content space-y-1" data-section={`${testamentoKey}-${seccionKey}`}>
+										{seccion.libros.filter(libro => !libro.data.isIntro).map(libro => (
 											<li>
 												<a
 													href={`/biblia/${libro.slug}`}
@@ -191,6 +197,27 @@ Object.values(estructura).forEach(testamento => {
 	.bible-content :global(p) {
 		text-align: justify;
 		line-height: 1.8;
+	}
+
+	/* Estilos para secciones contraíbles */
+	.section-content {
+		overflow: hidden;
+		transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+		max-height: 1000px;
+		opacity: 1;
+	}
+
+	.section-content.collapsed {
+		max-height: 0;
+		opacity: 0;
+	}
+
+	.toggle-icon {
+		transition: transform 0.3s ease;
+	}
+
+	.toggle-icon.rotated {
+		transform: rotate(-90deg);
 	}
 </style>
 

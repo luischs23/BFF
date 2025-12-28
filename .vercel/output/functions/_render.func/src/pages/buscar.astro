@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import BibleSearch from "../components/BibleSearch";
+
+export const prerender = false; // This ensures the page is not pre-rendered
+---
+
+<Layout title="Buscar Pasajes">
+  <BibleSearch client:load />
+</Layout>
+

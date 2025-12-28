@@ -189,8 +189,8 @@ export const POST: APIRoute = async ({ request }) => {
 
     body = formattedLines.join('\n');
 
-    // Convertir X:Y a <sup>Y</sup> para mostrar versículos como superíndice
-    body = body.replace(/(\d+):(\d+)\s+/g, '<sup>$2</sup> ');
+    // NO convertir a <sup> - este endpoint solo prepara el formato X:Y
+    // Para convertir a superíndice, usar el botón "Formatear" (F)
 
     // Reconstruir el archivo
     const newContent = `---\n${frontmatter}\n---\n${body}`;
