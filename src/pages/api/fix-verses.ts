@@ -6,8 +6,6 @@ export const prerender = false;
 
 // Función para encontrar el archivo real basándose en el slug (busca recursivamente)
 async function findFileBySlug(baseDir: string, slug: string): Promise<string | null> {
-  // El slug de Astro para carpetas anidadas es: "antiguo-testamento/01-pentateuco/01-genesis"
-  // Extraemos solo el nombre del archivo del final
   const slugParts = slug.split('/');
   const fileName = slugParts[slugParts.length - 1];
 
@@ -60,7 +58,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     // Leer el archivo y normalizar saltos de línea
     let content = await fs.readFile(filePath, 'utf-8');
-    content = content.replace(/\r\n/g, '\n'); // Normalizar Windows a Unix
+    content = content.replace(/\r\n/g, '\n');
 
     // Separar frontmatter del contenido
     const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -75,92 +73,42 @@ export const POST: APIRoute = async ({ request }) => {
     const frontmatter = frontmatterMatch[1];
     let body = frontmatterMatch[2];
 
-    // Transformación 1: Convertir el título principal a # (H1)
-    // Busca líneas que empiezan con texto en mayúsculas que parecen títulos principales
-    // Por ejemplo: "SEGUNDA EPÍSTOLA DE SAN PEDRO" -> "# SEGUNDA EPÍSTOLA DE SAN PEDRO"
-    body = body.replace(/^([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ\s]+)$/gm, (match) => {
-      // Solo si la línea está completamente en mayúsculas y parece un título
-      if (match.trim().length > 5 && match === match.toUpperCase()) {
-        return `# ${match}`;
-      }
-      return match;
-    });
-
-    // Transformación 2: Convertir subtítulos a ## (H2)
-    // Detecta varios formatos de subtítulos:
-    // - "Saludo." -> termina en punto
-    // - "D. El sacrificio de reparación." -> empieza con letra y punto
-    // - "a) sacrificio en alabanza *." -> empieza con letra minúscula y paréntesis
-    // - "El sacerdocio y los sacrificios*:" -> termina en *:
-    // - "Sanciones*:" -> termina en *:
-    // - "A. El holocausto." -> letra mayúscula, punto, espacio, texto
-
-    // Subtítulos que terminan en . o .*  (formato clásico)
-    body = body.replace(/^(?!#)(?!\d)([A-ZÁÉÍÓÚÑ][^.\n]{2,60}\.\*?)$/gm, '## $1');
-
-    // Subtítulos que empiezan con letra mayúscula + punto + espacio (ej: "A. El holocausto.")
-    body = body.replace(/^(?!#)([A-Z]\.\s[A-ZÁÉÍÓÚÑa-záéíóúñ][^.\n]{2,60}\.\*?)$/gm, '## $1');
-
-    // Subtítulos que empiezan con letra minúscula + paréntesis (ej: "a) sacrificio en alabanza *.")
-    body = body.replace(/^(?!#)([a-z]\)\s[A-ZÁÉÍÓÚÑa-záéíóúñ][^.\n]{2,60}[\.\*]+)$/gm, '## $1');
-
-    // Subtítulos que terminan en *: (ej: "Sanciones*:" o "El sacerdocio*:")
-    body = body.replace(/^(?!#)(?!\d)([A-ZÁÉÍÓÚÑ][^\n]{2,60}\*:)$/gm, '## $1');
-
-    // Subtítulos que empiezan con números romanos (ej: "II. La investidura...", "I. Caminar en la luz")
-    body = body.replace(/^(?!#)((?:I{1,3}|IV|V|VI{0,3}|IX|X{1,3})\.\s[A-ZÁÉÍÓÚÑa-záéíóúñ][^\n]{2,80})$/gm, '## $1');
-
-    // Transformación 3: Formatear versículos
-    // Cambiar "1 1 Texto" o "2 1 Texto" a "1:1 Texto" o "2:1 Texto"
-    // También manejar versículos subsecuentes como "2 Texto" -> añadir capítulo actual
-
+    // Procesar línea por línea para corregir versículos
     let currentChapter = '1';
     const lines = body.split('\n');
     const formattedLines: string[] = [];
+    let fixedCount = 0;
 
     for (let i = 0; i < lines.length; i++) {
       let line = lines[i];
 
-      // Primero, detectar si la línea ya tiene versículos formateados (X:Y) para obtener el capítulo actual
+      // Saltar líneas de títulos y vacías
+      if (line.startsWith('#') || line.trim() === '') {
+        formattedLines.push(line);
+        continue;
+      }
+
+      // Detectar el capítulo actual de versículos ya formateados
       const existingChapterMatch = line.match(/(\d+):\d+/);
       if (existingChapterMatch) {
         currentChapter = existingChapterMatch[1];
       }
 
-      // Detectar inicio de capítulo nuevo con patrón "X Y Texto" donde X es capítulo y Y es versículo
-      const chapterVerseMatch = line.match(/^(\d+)\s+(\d+)\s+(.+)$/);
-      if (chapterVerseMatch) {
-        currentChapter = chapterVerseMatch[1];
-        const verse = chapterVerseMatch[2];
-        const text = chapterVerseMatch[3];
-        line = `${currentChapter}:${verse} ${text}`;
-      } else {
-        // Detectar versículos sueltos "Y Texto" y añadir capítulo actual
-        // Solo si la línea empieza con un número seguido de espacio y texto
-        // Acepta mayúsculas, «, ", ', (, [, etc.
-        const verseOnlyMatch = line.match(/^(\d+)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[].+)$/);
-        if (verseOnlyMatch) {
-          const verse = verseOnlyMatch[1];
-          const text = verseOnlyMatch[2];
-          // Solo formatear si parece un versículo (número <= 200, texto largo)
-          if (parseInt(verse) <= 200 && text.length > 10) {
-            line = `${currentChapter}:${verse} ${text}`;
-          }
-        }
-      }
+      const originalLine = line;
 
-      // Formatear versículos inline que empiezan con mayúscula o caracteres especiales
+      // Corregir versículos inline que empiezan con mayúscula o caracteres especiales
       // Buscar patrones como "palabra. 2 Siguiente" o "palabra. 10 «Si..."
       line = line.replace(/(\S)\s+(\d+)\s+([A-ZÁÉÍÓÚÑ«"'\(\[])/g, (match, before, verse, textStart) => {
+        // Verificar que no sea ya parte de un versículo formateado (X:Y)
+        if (before === ':') return match;
         if (parseInt(verse) <= 200) {
           return `${before} ${currentChapter}:${verse} ${textStart}`;
         }
         return match;
       });
 
-      // Formatear versículos inline que empiezan con minúscula
+      // Corregir versículos inline que empiezan con minúscula
       // Buscar patrones como "pasiones, 4 que" o "Dios; 6 y" o "cabeza: 12 se"
-      // Detecta: puntuación + espacio + número + espacio + palabra minúscula
       line = line.replace(/([,;.:!?»"'\)])\s+(\d+)\s+([a-záéíóúñ])/g, (match, punct, verse, textStart) => {
         if (parseInt(verse) <= 200) {
           return `${punct} ${currentChapter}:${verse} ${textStart}`;
@@ -168,16 +116,17 @@ export const POST: APIRoute = async ({ request }) => {
         return match;
       });
 
-      // Formatear versículos inline que empiezan con número (ej: "guerra: 25 45.650")
+      // Corregir versículos inline que empiezan con número (ej: "guerra: 25 45.650")
       // Buscar patrones como ": 25 45" o ". 26 12" donde el texto empieza con dígito
       line = line.replace(/([:.;,!?])\s+(\d+)\s+(\d)/g, (match, punct, verse, textStart) => {
+        // Verificar que el número sea razonable para un versículo
         if (parseInt(verse) <= 200) {
           return `${punct} ${currentChapter}:${verse} ${textStart}`;
         }
         return match;
       });
 
-      // Formatear versículos que empiezan con * (ej: "34 *La Nube" o "11 *El año")
+      // Corregir versículos que empiezan con * (ej: "34 *La Nube" o "11 *El año")
       line = line.replace(/([:.;,!?»])\s+(\d+)\s+(\*[A-ZÁÉÍÓÚÑ])/g, (match, punct, verse, textStart) => {
         if (parseInt(verse) <= 200) {
           return `${punct} ${currentChapter}:${verse} ${textStart}`;
@@ -185,7 +134,7 @@ export const POST: APIRoute = async ({ request }) => {
         return match;
       });
 
-      // Formatear versículos que empiezan con ¡ o ¿ (ej: "5 ¡Cómo")
+      // Corregir versículos que empiezan con ¡ o ¿ (ej: "5 ¡Cómo")
       line = line.replace(/([:.;,!?»"'\)])\s+(\d+)\s+([¡¿])/g, (match, punct, verse, textStart) => {
         if (parseInt(verse) <= 200) {
           return `${punct} ${currentChapter}:${verse} ${textStart}`;
@@ -193,7 +142,7 @@ export const POST: APIRoute = async ({ request }) => {
         return match;
       });
 
-      // Formatear versículos después de guión largo (ej: "» —56 El" o "— 12 Pero")
+      // Corregir versículos después de guión largo (ej: "» —56 El" o "— 12 Pero")
       line = line.replace(/(—)\s*(\d+)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[])/g, (match, dash, verse, textStart) => {
         if (parseInt(verse) <= 200) {
           return `${dash}${currentChapter}:${verse} ${textStart}`;
@@ -201,7 +150,7 @@ export const POST: APIRoute = async ({ request }) => {
         return match;
       });
 
-      // Formatear versículos seguidos de guión largo (ej: "diga. 56— El")
+      // Corregir versículos seguidos de guión largo (ej: "diga. 56— El")
       line = line.replace(/([.;,!?»"'\)])\s+(\d+)\s*—\s*([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[])/g, (match, punct, verse, textStart) => {
         if (parseInt(verse) <= 200) {
           return `${punct} ${currentChapter}:${verse} —${textStart}`;
@@ -209,7 +158,7 @@ export const POST: APIRoute = async ({ request }) => {
         return match;
       });
 
-      // Formatear versículos después de palabra sin puntuación (ej: "día 7 y les")
+      // Corregir versículos después de palabra sin puntuación (ej: "día 7 y les")
       // Buscar: palabra + espacio + número + espacio + palabra minúscula corta (y, o, a, etc.)
       line = line.replace(/([a-záéíóúñ])\s+(\d+)\s+([yoa]\s)/g, (match, before, verse, textStart) => {
         if (parseInt(verse) <= 200) {
@@ -217,6 +166,23 @@ export const POST: APIRoute = async ({ request }) => {
         }
         return match;
       });
+
+      // Corregir versículos al inicio de línea (sin formato X:Y)
+      // Solo si la línea empieza con número + espacio + texto (no X Y patrón de capítulo)
+      if (!line.match(/^\d+:\d+/) && !line.match(/^\d+\s+\d+\s+/)) {
+        const verseStartMatch = line.match(/^(\d+)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[].+)$/);
+        if (verseStartMatch) {
+          const verse = verseStartMatch[1];
+          const text = verseStartMatch[2];
+          if (parseInt(verse) <= 200 && text.length > 10) {
+            line = `${currentChapter}:${verse} ${text}`;
+          }
+        }
+      }
+
+      if (line !== originalLine) {
+        fixedCount++;
+      }
 
       formattedLines.push(line);
     }
@@ -231,14 +197,15 @@ export const POST: APIRoute = async ({ request }) => {
 
     return new Response(JSON.stringify({
       success: true,
-      message: `Archivo ${slug}.md formateado correctamente`
+      fixedCount,
+      message: `Se corrigieron ${fixedCount} líneas con versículos sin formatear`
     }), {
       status: 200,
       headers: { 'Content-Type': 'application/json' }
     });
 
   } catch (error) {
-    console.error('Error al formatear:', error);
+    console.error('Error al corregir:', error);
     return new Response(JSON.stringify({
       error: 'Error al procesar el archivo',
       details: error instanceof Error ? error.message : 'Error desconocido'

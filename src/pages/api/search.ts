@@ -14,16 +14,15 @@ interface SearchResult {
 
 function parseContent(content: string, targetChapter: number, startVerse?: number, endVerse?: number): SearchResult {
   const lines = content.split('\n');
-  
+
   let currentTitle = '';
   let verses = new Map<number, { title: string; text: string }>();
   let chapterTitle = '';
-  let inTargetChapter = false;
+  let currentVerseNum: number | null = null;
+  let currentVerseChapter: number | null = null;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    
-    if (!line) continue;
 
     // Detectar títulos (líneas que empiezan con ##)
     if (line.startsWith('##')) {
@@ -31,42 +30,57 @@ function parseContent(content: string, targetChapter: number, startVerse?: numbe
       continue;
     }
 
-    // Buscar todos los versículos en la línea (puede haber múltiples)
-    // Patrón: CAPITULO:VERSO seguido de texto hasta el siguiente CAPITULO:VERSO o fin de línea
-    const versePattern = /(\d+):(\d+)\s*([^]*?)(?=\d+:\d+|$)/g;
-    let match;
-    let foundVerseInLine = false;
+    // Buscar si la línea contiene versículos con formato CAPITULO:VERSO
+    const verseMatches = [...line.matchAll(/(\d+):(\d+)/g)];
 
-    while ((match = versePattern.exec(line)) !== null) {
-      const [, chapter, verse, text] = match;
-      const chapterNum = parseInt(chapter);
-      const verseNum = parseInt(verse);
+    if (verseMatches.length > 0) {
+      // Procesar cada versículo encontrado en la línea
+      for (let j = 0; j < verseMatches.length; j++) {
+        const match = verseMatches[j];
+        const chapterNum = parseInt(match[1]);
+        const verseNum = parseInt(match[2]);
+        const matchStart = match.index!;
+        const matchEnd = matchStart + match[0].length;
 
-      if (chapterNum === targetChapter) {
-        inTargetChapter = true;
-        foundVerseInLine = true;
-        
-        // Si es el primer verso del capítulo, guardamos el título
-        if (verseNum === 1 && currentTitle) {
-          chapterTitle = currentTitle;
+        // Determinar dónde termina el texto de este versículo
+        let textEnd: number;
+        if (j + 1 < verseMatches.length) {
+          // Hay otro versículo en la misma línea
+          textEnd = verseMatches[j + 1].index!;
+        } else {
+          // Es el último versículo de la línea
+          textEnd = line.length;
         }
 
-        // Limpiar el texto (quitar espacios extra)
-        const cleanText = text.trim();
+        const verseText = line.substring(matchEnd, textEnd).trim();
 
-        verses.set(verseNum, {
-          title: verseNum === 1 || !verses.has(verseNum) ? currentTitle : verses.get(verseNum)?.title || '',
-          text: cleanText
-        });
-      } else if (chapterNum > targetChapter && inTargetChapter) {
-        // Ya pasamos el capítulo que buscamos
-        break;
+        if (chapterNum === targetChapter) {
+          // Si es el primer verso del capítulo, guardamos el título
+          if (verseNum === 1 && currentTitle) {
+            chapterTitle = currentTitle;
+          }
+
+          verses.set(verseNum, {
+            title: !verses.has(verseNum) ? currentTitle : verses.get(verseNum)?.title || '',
+            text: verseText
+          });
+
+          currentTitle = '';
+        }
+
+        // Actualizar el versículo actual para las líneas siguientes
+        currentVerseChapter = chapterNum;
+        currentVerseNum = verseNum;
       }
-    }
-
-    // Reset título solo si encontramos versos en esta línea
-    if (foundVerseInLine) {
-      currentTitle = '';
+    } else if (line && currentVerseNum !== null && currentVerseChapter === targetChapter) {
+      // Línea sin número de versículo - es continuación del versículo actual
+      const existing = verses.get(currentVerseNum);
+      if (existing) {
+        verses.set(currentVerseNum, {
+          title: existing.title,
+          text: existing.text + ' ' + line
+        });
+      }
     }
   }
 
@@ -183,7 +197,7 @@ export const POST: APIRoute = async ({ request }) => {
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '');
 
-    const books = await getCollection('blog');
+    const books = await getCollection('sagrada-biblia');
     const file = books.find((b) => {
       const slug = b.slug.toLowerCase()
         .replace(/\s+/g, '')

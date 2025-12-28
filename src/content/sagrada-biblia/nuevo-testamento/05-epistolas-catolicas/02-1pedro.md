@@ -3,7 +3,6 @@ title: '1 PEDRO'
 description: 'El primer libro de la Biblia'
 img: blog-placeholder-1.jpg
 ---
-
 # PRIMERA EPÍSTOLA DE SAN PEDRO
 ## Saludo.
 1:1 Pedro, apóstol de Jesucristo, a los elegidos que viven como extranjeros* en la Dispersión*: en el Ponto, Galacia, Capadocia, Asia y Bitinia, 1:2 a quienes Dios Padre había elegido previamente, con la acción santificadora del Espíritu, para obedecer a Jesucristo y ser rociados con su sangre*. A vosotros gracia y paz abundantes.

@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(npx astro sync:*)",
+      "Bash(npm run dev:*)"
     ]
   }
 }

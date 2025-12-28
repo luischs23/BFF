@@ -6,7 +6,7 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react()],
-  output: 'hybrid', 
+  output: 'server', 
   env:{
     schema:{
       SHOW_BUY_BUTTON: envField.boolean({context:'server', access:'public'})

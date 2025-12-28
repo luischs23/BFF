@@ -1,0 +1,275 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+    const libros = await getCollection("sagrada-biblia");
+
+    return libros.map((book) => ({
+        params: { id: book.slug },
+        props: { book }
+    }));
+}
+
+const { id } = Astro.params;
+const { book } = Astro.props;
+
+if (!book) {
+    return Astro.redirect('/404');
+}
+
+const { data, slug, render } = book;
+const { title } = data;
+const { Content } = await render();
+
+// Obtener todos los libros para el sidebar
+const libros = await getCollection('sagrada-biblia');
+
+// Organizar libros por sección
+const estructura = {
+	'antiguo-testamento': {
+		titulo: 'Antiguo Testamento',
+		secciones: {
+			'01-pentateuco': { titulo: 'El Pentateuco', libros: [] as any[] },
+			'02-libros-historicos': { titulo: 'Libros Históricos', libros: [] as any[] },
+			'03-lirica': { titulo: 'Lírica', libros: [] as any[] },
+			'04-libros-sapienciales': { titulo: 'Libros Sapienciales', libros: [] as any[] },
+			'05-libros-profeticos': { titulo: 'Libros Proféticos', libros: [] as any[] },
+		}
+	},
+	'nuevo-testamento': {
+		titulo: 'Nuevo Testamento',
+		secciones: {
+			'01-evangelios': { titulo: 'Evangelios', libros: [] as any[] },
+			'02-hechos': { titulo: 'Hechos', libros: [] as any[] },
+			'03-epistolas-pablo': { titulo: 'Epístolas de Pablo', libros: [] as any[] },
+			'04-hebreos': { titulo: 'Hebreos', libros: [] as any[] },
+			'05-epistolas-catolicas': { titulo: 'Epístolas Católicas', libros: [] as any[] },
+			'06-apocalipsis': { titulo: 'Apocalipsis', libros: [] as any[] },
+		}
+	}
+};
+
+libros.forEach(libro => {
+	const slugParts = libro.slug.split('/');
+	if (slugParts.length >= 2) {
+		const testamento = slugParts[0] as keyof typeof estructura;
+		const seccion = slugParts[1] as keyof typeof estructura[typeof testamento]['secciones'];
+		if (estructura[testamento]?.secciones?.[seccion]) {
+			(estructura[testamento].secciones as any)[seccion].libros.push(libro);
+		}
+	}
+});
+
+Object.values(estructura).forEach(testamento => {
+	Object.values(testamento.secciones).forEach(seccion => {
+		seccion.libros.sort((a, b) => a.slug.localeCompare(b.slug));
+	});
+});
+---
+
+<Layout title={`${title} - Sagrada Biblia`}>
+	<div class="flex h-[calc(100vh-64px)] relative">
+		<!-- Overlay para móvil -->
+		<div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
+
+		<!-- Botón menú móvil -->
+		<button
+			id="menuToggle"
+			class="md:hidden fixed top-20 left-4 z-50 bg-amber-700 text-white p-3 rounded-lg shadow-lg hover:bg-amber-800 transition"
+			aria-label="Abrir menú"
+		>
+			<svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+			</svg>
+			<svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		</button>
+
+		<!-- Sidebar -->
+		<aside
+			id="sidebar"
+			class="fixed md:relative w-72 h-full bg-gray-50 border-r border-gray-200 overflow-y-auto flex-shrink-0 z-50 transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out"
+		>
+			<div class="p-4">
+				<a href="/" class="text-amber-700 hover:underline text-sm mb-4 block">&larr; Inicio</a>
+				<h2 class="text-xl font-bold mb-4">Sagrada Biblia</h2>
+
+				{Object.entries(estructura).map(([_, testamento]) => (
+					<div class="mb-6">
+						<h3 class="font-bold text-gray-800 mb-2 text-sm uppercase tracking-wide">
+							{testamento.titulo}
+						</h3>
+
+						{Object.entries(testamento.secciones).map(([__, seccion]) => (
+							seccion.libros.length > 0 && (
+								<div class="mb-3">
+									<h4 class="text-xs font-semibold text-gray-500 mb-1 pl-2">
+										{seccion.titulo}
+									</h4>
+									<ul class="space-y-1">
+										{seccion.libros.map(libro => (
+											<li>
+												<a
+													href={`/biblia/${libro.slug}`}
+													class:list={[
+														"block px-3 py-1.5 text-sm rounded transition",
+														libro.slug === slug
+															? "bg-amber-200 text-amber-900 font-semibold"
+															: "text-gray-700 hover:bg-amber-100 hover:text-amber-800"
+													]}
+												>
+													{libro.data.title}
+												</a>
+											</li>
+										))}
+									</ul>
+								</div>
+							)
+						))}
+					</div>
+				))}
+			</div>
+		</aside>
+
+		<!-- Contenido principal -->
+		<main class="flex-1 overflow-y-auto">
+			<div class="p-4 md:p-8 max-w-4xl mx-auto pt-16 md:pt-8">
+				<article id="bible-content" class="bible-content prose prose-lg max-w-none prose-headings:text-amber-900 prose-h1:text-2xl md:prose-h1:text-3xl prose-h2:text-lg md:prose-h2:text-xl prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-2 prose-h2:mt-8">
+					<h1>{title}</h1>
+					<Content />
+				</article>
+			</div>
+		</main>
+	</div>
+</Layout>
+
+<style>
+	aside::-webkit-scrollbar,
+	main::-webkit-scrollbar {
+		width: 6px;
+	}
+	aside::-webkit-scrollbar-track,
+	main::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+	aside::-webkit-scrollbar-thumb,
+	main::-webkit-scrollbar-thumb {
+		background: #ccc;
+		border-radius: 3px;
+	}
+	aside::-webkit-scrollbar-thumb:hover,
+	main::-webkit-scrollbar-thumb:hover {
+		background: #aaa;
+	}
+
+	/* Estilos para versículos */
+	.bible-content :global(.verse-num) {
+		font-size: 0.7em;
+		vertical-align: super;
+		line-height: 0;
+		color: #b45309;
+		font-weight: 600;
+		margin-right: 2px;
+	}
+
+	.bible-content :global(p) {
+		text-align: justify;
+		line-height: 1.8;
+	}
+</style>
+
+<script>
+	// Transformar números de versículo en superíndices
+	function formatVerseNumbers() {
+		const content = document.getElementById('bible-content');
+		if (!content) return;
+
+		const walker = document.createTreeWalker(
+			content,
+			NodeFilter.SHOW_TEXT,
+			null
+		);
+
+		const nodesToReplace: { node: Text; html: string }[] = [];
+
+		while (walker.nextNode()) {
+			const node = walker.currentNode as Text;
+			const text = node.textContent || '';
+
+			// Buscar patrón X:Y donde X es capítulo y Y es versículo
+			if (/\d+:\d+/.test(text)) {
+				const newHtml = text.replace(
+					/(\d+):(\d+)/g,
+					'<span class="verse-num">$2</span>'
+				);
+				if (newHtml !== text) {
+					nodesToReplace.push({ node, html: newHtml });
+				}
+			}
+		}
+
+		// Reemplazar nodos de texto con el HTML formateado
+		nodesToReplace.forEach(({ node, html }) => {
+			const span = document.createElement('span');
+			span.innerHTML = html;
+			node.parentNode?.replaceChild(span, node);
+		});
+	}
+
+	// Ejecutar cuando el DOM esté listo
+	formatVerseNumbers();
+
+	const menuToggle = document.getElementById('menuToggle');
+	const sidebar = document.getElementById('sidebar');
+	const overlay = document.getElementById('sidebarOverlay');
+	const menuIcon = document.getElementById('menuIcon');
+	const closeIcon = document.getElementById('closeIcon');
+
+	let isOpen = false;
+
+	function toggleMenu() {
+		isOpen = !isOpen;
+
+		if (isOpen) {
+			sidebar?.classList.remove('-translate-x-full');
+			sidebar?.classList.add('translate-x-0');
+			overlay?.classList.remove('hidden');
+			menuIcon?.classList.add('hidden');
+			closeIcon?.classList.remove('hidden');
+		} else {
+			sidebar?.classList.add('-translate-x-full');
+			sidebar?.classList.remove('translate-x-0');
+			overlay?.classList.add('hidden');
+			menuIcon?.classList.remove('hidden');
+			closeIcon?.classList.add('hidden');
+		}
+	}
+
+	menuToggle?.addEventListener('click', toggleMenu);
+	overlay?.addEventListener('click', toggleMenu);
+
+	// Cerrar menú al hacer click en un enlace (móvil)
+	sidebar?.querySelectorAll('a').forEach(link => {
+		link.addEventListener('click', () => {
+			if (window.innerWidth < 768 && isOpen) {
+				toggleMenu();
+			}
+		});
+	});
+
+	// Cerrar menú al cambiar tamaño de ventana a desktop
+	window.addEventListener('resize', () => {
+		if (window.innerWidth >= 768 && isOpen) {
+			isOpen = false;
+			sidebar?.classList.add('-translate-x-full');
+			sidebar?.classList.remove('translate-x-0');
+			overlay?.classList.add('hidden');
+			menuIcon?.classList.remove('hidden');
+			closeIcon?.classList.add('hidden');
+		}
+	});
+</script>

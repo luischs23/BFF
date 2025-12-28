@@ -1,97 +1,33 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-
-const blog = await getCollection('blog');
 ---
 
-<Layout title="Biblia Latinoamericana">
-	<main>
-	<h1 class="text-center text-4xl font-bold mb-24">Vamos con toda!</h1>
+<Layout title="Sagrada Biblia">
+	<main class="min-h-screen flex flex-col items-center justify-center">
+		<h1 class="text-center text-5xl font-bold mb-8">Sagrada Biblia</h1>
+		<p class="text-gray-600 text-center mb-12 max-w-md">
+			Biblia Jerusalén - Explora las Sagradas Escrituras
+		</p>
 
-	<section aria-label="Biblia Latinoamericana">
-		<div class="px-4 mx-auto max-w-screen-lg">
-			<div class="grid gap-6 md:grid-cols-2">
-			{
-				blog.map(book => {
-					const { slug, data } = book;
-					const { title, description, img } = data;
-
-					return (
-						<article class="flex">
-							<a href={`/biblia/${slug}`} class="mb-2 xl:mb-0 transition hover:scale-110">
-								<img
-									transition:name={`img-${slug}`}
-									class="mr-5 w-48 rounded"
-									src={`/${img}`}
-									alt={title}
-								/>
-							</a>
-							<div class="flex flex-col justify-center">
-							   <h2 class="mb-2 text-2xl font-bold leading-tight">{title}</h2>
-								<p class="mb-4 text-gray-800 max-w-sm">{description}</p>
-								<button
-									data-slug={slug}
-									class="format-btn px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition text-sm w-fit"
-								>
-									Formatear
-								</button>
-							</div>
-						</article>
-					)
-				})
-			}
-			</div>
+		<div class="flex flex-col sm:flex-row gap-4">
+			<a
+				href="/biblia"
+				class="px-8 py-4 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition text-lg font-semibold text-center"
+			>
+				Leer la Biblia
+			</a>
+			<a
+				href="/buscar"
+				class="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-lg font-semibold text-center"
+			>
+				Buscar Pasajes
+			</a>
+			<a
+				href="/admin"
+				class="px-8 py-4 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition text-lg font-semibold text-center"
+			>
+				Administrar
+			</a>
 		</div>
-	</section>
 	</main>
 </Layout>
-
-<script>
-	document.querySelectorAll('.format-btn').forEach(btn => {
-		btn.addEventListener('click', async (e) => {
-			const button = e.target as HTMLButtonElement;
-			const slug = button.dataset.slug;
-			const originalText = button.textContent;
-
-			button.textContent = 'Formateando...';
-			button.disabled = true;
-
-			try {
-				const response = await fetch('/api/format-book', {
-					method: 'POST',
-					headers: { 'Content-Type': 'application/json' },
-					body: JSON.stringify({ slug })
-				});
-
-				const data = await response.json();
-
-				if (response.ok) {
-					button.textContent = 'Formateado!';
-					button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
-					button.classList.add('bg-green-600');
-					setTimeout(() => {
-						button.textContent = originalText;
-						button.classList.remove('bg-green-600');
-						button.classList.add('bg-blue-600', 'hover:bg-blue-700');
-						button.disabled = false;
-					}, 2000);
-				} else {
-					throw new Error(data.error || 'Error desconocido');
-				}
-			} catch (error) {
-				console.error('Error:', error);
-				button.textContent = 'Error!';
-				button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
-				button.classList.add('bg-red-600');
-				setTimeout(() => {
-					button.textContent = originalText;
-					button.classList.remove('bg-red-600');
-					button.classList.add('bg-blue-600', 'hover:bg-blue-700');
-					button.disabled = false;
-				}, 2000);
-			}
-		});
-	});
-</script>
-
