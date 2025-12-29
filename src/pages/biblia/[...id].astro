@@ -230,52 +230,43 @@ Object.values(estructura).forEach(testamento => {
 		padding: 0;
 	}
 
-	/* Cada página es un contenedor con dos columnas y altura fija */
+	/* Cada página es un contenedor */
 	.bible-content :global(.bible-page-content) {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 2rem;
 		padding: 2rem 2.5rem;
-		min-height: 600px;
 		position: relative;
 	}
 
 	@media (min-width: 768px) {
 		.bible-content :global(.bible-page-content) {
 			padding: 2.5rem 3rem;
-			gap: 2.5rem;
 		}
 	}
 
-	/* Línea divisoria central entre columnas */
-	.bible-content :global(.bible-page-content)::after {
-		content: '';
-		position: absolute;
-		left: 50%;
-		top: 2rem;
-		bottom: 2rem;
-		width: 1px;
-		background: linear-gradient(to bottom, transparent, #d6d3d1 10%, #d6d3d1 90%, transparent);
-	}
-
-	:global(.dark) .bible-content :global(.bible-page-content)::after {
-		background: linear-gradient(to bottom, transparent, #374151 10%, #374151 90%, transparent);
-	}
-
-	/* Columnas */
-	.bible-content :global(.bible-column) {
+	/* Contenedor de columnas CSS - permite que el texto fluya naturalmente */
+	.bible-content :global(.bible-columns-wrapper) {
+		columns: 2;
+		column-gap: 3rem;
+		column-rule: 1px solid #d6d3d1;
+		min-height: 700px;
 		text-align: justify;
+	}
+
+	:global(.dark) .bible-content :global(.bible-columns-wrapper) {
+		column-rule-color: #374151;
+	}
+
+	/* Evitar que los encabezados se queden solos al final de una columna */
+	.bible-content :global(.bible-columns-wrapper h2),
+	.bible-content :global(.bible-columns-wrapper h3) {
+		break-after: avoid;
 	}
 
 	/* Responsive: una columna en móvil */
 	@media (max-width: 768px) {
-		.bible-content :global(.bible-page-content) {
-			grid-template-columns: 1fr;
-			gap: 1rem;
+		.bible-content :global(.bible-columns-wrapper) {
+			columns: 1;
+			column-rule: none;
 			min-height: auto;
-		}
-		.bible-content :global(.bible-page-content)::after {
-			display: none;
 		}
 	}
 
@@ -618,28 +609,34 @@ Object.values(estructura).forEach(testamento => {
 
 	darkModeToggle?.addEventListener('click', toggleDarkMode);
 
-	// Organizar contenido en páginas con dos columnas
+	// Organizar contenido en páginas con dos columnas usando CSS columns
 	function organizeBiblePages() {
 		const bibleContent = document.querySelector('.bible-content');
 		if (!bibleContent) return;
 
-		// Obtener todos los elementos hijos directos
-		const elements = Array.from(bibleContent.children);
-		if (elements.length === 0) return;
+		// Guardar el contenido original
+		const originalHTML = bibleContent.innerHTML;
+		if (!originalHTML.trim()) return;
 
-		// Limpiar el contenedor
+		// Limpiar y reorganizar
 		bibleContent.innerHTML = '';
 
-		const COLUMN_HEIGHT = 550; // Altura aproximada por columna en px
-		let currentPage = null;
-		let currentColumn = null;
-		let columnHeight = 0;
-		let columnIndex = 0; // 0 = izquierda, 1 = derecha
+		const PAGE_HEIGHT = 750; // Altura de cada página en px
+
+		// Crear contenedor temporal para medir
+		const tempContainer = document.createElement('div');
+		tempContainer.style.cssText = 'position:absolute;visibility:hidden;width:' + (bibleContent.offsetWidth || 800) + 'px;';
+		tempContainer.innerHTML = originalHTML;
+		document.body.appendChild(tempContainer);
+
+		// Obtener todos los elementos
+		const allElements = Array.from(tempContainer.children);
+		document.body.removeChild(tempContainer);
+
 		let pageNumber = 1;
 
-		function createNewPage() {
-			// Si hay una página anterior, cerrarla
-			if (currentPage && pageNumber > 1) {
+		function createPage() {
+			if (pageNumber > 1) {
 				// Agregar divisor entre páginas
 				const divider = document.createElement('div');
 				divider.className = 'page-divider';
@@ -647,62 +644,42 @@ Object.values(estructura).forEach(testamento => {
 				bibleContent.appendChild(divider);
 			}
 
-			currentPage = document.createElement('div');
-			currentPage.className = 'bible-page-content';
-			bibleContent.appendChild(currentPage);
+			const page = document.createElement('div');
+			page.className = 'bible-page-content';
 
-			// Crear ambas columnas
-			const leftColumn = document.createElement('div');
-			leftColumn.className = 'bible-column bible-column-left';
-			currentPage.appendChild(leftColumn);
+			// Contenedor interno que usará CSS columns
+			const columnsContainer = document.createElement('div');
+			columnsContainer.className = 'bible-columns-wrapper';
+			page.appendChild(columnsContainer);
 
-			const rightColumn = document.createElement('div');
-			rightColumn.className = 'bible-column bible-column-right';
-			currentPage.appendChild(rightColumn);
-
-			columnIndex = 0;
-			currentColumn = leftColumn;
-			columnHeight = 0;
+			bibleContent.appendChild(page);
 			pageNumber++;
-		}
 
-		function switchToNextColumn() {
-			if (columnIndex === 0) {
-				// Pasar a columna derecha
-				columnIndex = 1;
-				currentColumn = currentPage.querySelector('.bible-column-right');
-				columnHeight = 0;
-			} else {
-				// Crear nueva página
-				createNewPage();
-			}
+			return columnsContainer;
 		}
 
 		// Crear primera página
-		createNewPage();
+		let currentContainer = createPage();
+		let currentHeight = 0;
 
-		// Procesar cada elemento
-		elements.forEach(el => {
-			// Clonar el elemento para medir su altura
+		// Agregar elementos midiendo alturas
+		allElements.forEach(el => {
 			const clone = el.cloneNode(true);
-			currentColumn.appendChild(clone);
+			currentContainer.appendChild(clone);
 
-			// Medir altura real
-			const elHeight = clone.offsetHeight;
+			// Medir altura del contenedor (con columnas CSS, el contenido se distribuye)
+			const containerHeight = currentContainer.offsetHeight;
 
-			// Si excede la altura de columna, mover a siguiente columna
-			if (columnHeight + elHeight > COLUMN_HEIGHT && columnHeight > 0) {
-				// Remover de la columna actual
-				currentColumn.removeChild(clone);
+			// Si excede la altura de página, crear nueva página
+			if (containerHeight > PAGE_HEIGHT) {
+				// Remover el elemento que causó el overflow
+				currentContainer.removeChild(clone);
 
-				// Cambiar a siguiente columna o página
-				switchToNextColumn();
+				// Crear nueva página
+				currentContainer = createPage();
 
-				// Agregar a la nueva columna
-				currentColumn.appendChild(clone);
-				columnHeight = elHeight;
-			} else {
-				columnHeight += elHeight;
+				// Agregar a la nueva página
+				currentContainer.appendChild(clone);
 			}
 		});
 	}
