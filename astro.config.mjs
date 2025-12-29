@@ -14,6 +14,7 @@ export default defineConfig({
       SHOW_BUY_BUTTON: envField.boolean({
         context: 'server',
         access: 'public',
+        default: false,
       }),
     },
   },
