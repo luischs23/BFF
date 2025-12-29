@@ -8,18 +8,23 @@ interface Props{
 const {title} = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
 		<ClientRouter/>
+		<script is:inline>
+			// Aplicar dark mode antes de que se renderice la página para evitar flash
+			const darkMode = localStorage.getItem('biblia-dark-mode');
+			if (darkMode === 'true' || (darkMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script>
 	</head>
-	<body>
-		<div>
-			<slot />
-		</div>
+	<body class="bg-amber-50/70 dark:bg-gray-900 h-screen overflow-hidden transition-colors duration-300">
+		<slot />
 	</body>
 </html>
 

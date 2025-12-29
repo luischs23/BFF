@@ -9,4 +9,7 @@ export default defineConfig({
   integrations: [tailwind(), react()],
   output: 'server',
   adapter: vercel(),
+  devToolbar: {
+    enabled: false,
+  },
 });
