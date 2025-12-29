@@ -158,17 +158,34 @@ Object.values(estructura).forEach(testamento => {
 		</aside>
 
 		<!-- Contenido principal -->
-		<main class="flex-1 overflow-y-auto bg-amber-50/50 dark:bg-gray-900 transition-colors duration-300">
-			<div class="p-4 md:p-8 max-w-3xl mx-auto pt-16 md:pt-8">
-				<article class="bible-content prose prose-base max-w-none
-					prose-headings:text-gray-800 dark:prose-headings:text-gray-100
-					prose-h1:text-xl md:prose-h1:text-2xl prose-h1:font-bold
-					prose-h2:text-base md:prose-h2:text-lg prose-h2:border-b prose-h2:border-stone-300 dark:prose-h2:border-gray-700 prose-h2:pb-2 prose-h2:mt-6
-					prose-p:text-gray-700 dark:prose-p:text-gray-300
-					dark:prose-invert">
-					<h1>{title}</h1>
-					<Content />
-				</article>
+		<main class="flex-1 overflow-y-auto bg-stone-300 dark:bg-gray-950 transition-colors duration-300">
+			<div class="p-4 md:p-8 pt-16 md:pt-4">
+				<!-- Contenedor del libro -->
+				<div class="bible-book max-w-5xl mx-auto">
+					<!-- Encabezado del libro -->
+					<div class="bible-page-header bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-b-0 rounded-t-sm shadow-lg px-8 py-4">
+						<h1 class="text-center text-xl md:text-2xl font-serif font-bold text-gray-800 dark:text-gray-100">{title}</h1>
+					</div>
+
+					<!-- Contenido en dos columnas con divisores de página -->
+					<article class="bible-content prose prose-sm max-w-none
+						prose-headings:text-gray-800 dark:prose-headings:text-gray-100
+						prose-h2:text-sm md:prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
+						prose-p:text-gray-700 dark:prose-p:text-gray-300
+						dark:prose-invert
+						bg-amber-50 dark:bg-gray-800
+						border-x border-stone-300 dark:border-gray-700
+						shadow-lg">
+						<Content />
+					</article>
+
+					<!-- Pie del libro -->
+					<div class="bible-page-footer bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-t-0 rounded-b-sm shadow-lg px-8 py-3">
+						<div class="flex justify-center">
+							<span class="text-sm text-stone-400 dark:text-gray-500 font-serif">— ✝ —</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
 	</div>
@@ -208,6 +225,60 @@ Object.values(estructura).forEach(testamento => {
 		background: #6b7280;
 	}
 
+	/* Contenido de la biblia - página con dos columnas */
+	.bible-content {
+		padding: 0;
+	}
+
+	/* Cada página es un contenedor con dos columnas y altura fija */
+	.bible-content :global(.bible-page-content) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+		padding: 2rem 2.5rem;
+		min-height: 600px;
+		position: relative;
+	}
+
+	@media (min-width: 768px) {
+		.bible-content :global(.bible-page-content) {
+			padding: 2.5rem 3rem;
+			gap: 2.5rem;
+		}
+	}
+
+	/* Línea divisoria central entre columnas */
+	.bible-content :global(.bible-page-content)::after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		top: 2rem;
+		bottom: 2rem;
+		width: 1px;
+		background: linear-gradient(to bottom, transparent, #d6d3d1 10%, #d6d3d1 90%, transparent);
+	}
+
+	:global(.dark) .bible-content :global(.bible-page-content)::after {
+		background: linear-gradient(to bottom, transparent, #374151 10%, #374151 90%, transparent);
+	}
+
+	/* Columnas */
+	.bible-content :global(.bible-column) {
+		text-align: justify;
+	}
+
+	/* Responsive: una columna en móvil */
+	@media (max-width: 768px) {
+		.bible-content :global(.bible-page-content) {
+			grid-template-columns: 1fr;
+			gap: 1rem;
+			min-height: auto;
+		}
+		.bible-content :global(.bible-page-content)::after {
+			display: none;
+		}
+	}
+
 	/* Estilos para marcadores de capítulo */
 	.bible-content :global(.chapter-marker) {
 		font-size: 2rem;
@@ -217,7 +288,8 @@ Object.values(estructura).forEach(testamento => {
 		line-height: 1;
 		margin-right: 0.25rem;
 		margin-top: 0.1rem;
-		padding-right: 0.25rem;
+		padding-right: 0.15rem;
+		font-family: Georgia, 'Times New Roman', serif;
 	}
 
 	:global(.dark) .bible-content :global(.chapter-marker) {
@@ -226,25 +298,86 @@ Object.values(estructura).forEach(testamento => {
 
 	/* Estilos para versículos en superíndice */
 	.bible-content :global(sup) {
-		font-size: 0.65em;
+		font-size: 0.6em;
 		vertical-align: super;
 		line-height: 0;
 		color: #4b5563;
 		font-weight: 600;
-		margin-right: 2px;
+		margin-right: 1px;
 	}
 
 	:global(.dark) .bible-content :global(sup) {
 		color: #9ca3af;
 	}
 
+	/* Párrafos */
 	.bible-content :global(p) {
 		text-align: justify;
-		line-height: 1.75;
-		font-size: 0.95rem;
+		line-height: 1.7;
+		font-size: 0.9rem;
+		margin-bottom: 0.75rem;
 	}
 
-	/* Estilos para secciones contraíbles */
+	/* Divisor de página */
+	.bible-content :global(.page-divider) {
+		grid-column: 1 / -1;
+		width: 100%;
+		height: 30px;
+		margin: 1rem 0;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: linear-gradient(to bottom,
+			#fffbeb,
+			#f5f0e1 45%,
+			#d6d3d1 50%,
+			#f5f0e1 55%,
+			#fffbeb
+		);
+	}
+
+	:global(.dark) .bible-content :global(.page-divider) {
+		background: linear-gradient(to bottom,
+			#1f2937,
+			#263243 45%,
+			#374151 50%,
+			#263243 55%,
+			#1f2937
+		);
+	}
+
+	.bible-content :global(.page-divider)::before {
+		content: '';
+		position: absolute;
+		left: 10%;
+		right: 10%;
+		top: 50%;
+		height: 1px;
+		background: #a8a29e;
+		transform: translateY(-50%);
+	}
+
+	:global(.dark) .bible-content :global(.page-divider)::before {
+		background: #4b5563;
+	}
+
+	.bible-content :global(.page-divider) span {
+		position: relative;
+		z-index: 1;
+		background: #fffbeb;
+		padding: 0 1rem;
+		color: #78716c;
+		font-size: 0.7rem;
+		font-family: Georgia, serif;
+	}
+
+	:global(.dark) .bible-content :global(.page-divider) span {
+		background: #1f2937;
+		color: #6b7280;
+	}
+
+	/* Estilos para secciones contraíbles del sidebar */
 	.section-content {
 		overflow: hidden;
 		transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
@@ -263,6 +396,33 @@ Object.values(estructura).forEach(testamento => {
 
 	.toggle-icon.rotated {
 		transform: rotate(-90deg);
+	}
+
+	/* Sombras laterales del libro */
+	.bible-book {
+		position: relative;
+	}
+
+	.bible-content::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 20px;
+		background: linear-gradient(to right, rgba(0,0,0,0.05), transparent);
+		pointer-events: none;
+	}
+
+	.bible-content::after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 20px;
+		background: linear-gradient(to left, rgba(0,0,0,0.05), transparent);
+		pointer-events: none;
 	}
 </style>
 
@@ -458,7 +618,99 @@ Object.values(estructura).forEach(testamento => {
 
 	darkModeToggle?.addEventListener('click', toggleDarkMode);
 
+	// Organizar contenido en páginas con dos columnas
+	function organizeBiblePages() {
+		const bibleContent = document.querySelector('.bible-content');
+		if (!bibleContent) return;
+
+		// Obtener todos los elementos hijos directos
+		const elements = Array.from(bibleContent.children);
+		if (elements.length === 0) return;
+
+		// Limpiar el contenedor
+		bibleContent.innerHTML = '';
+
+		const COLUMN_HEIGHT = 550; // Altura aproximada por columna en px
+		let currentPage = null;
+		let currentColumn = null;
+		let columnHeight = 0;
+		let columnIndex = 0; // 0 = izquierda, 1 = derecha
+		let pageNumber = 1;
+
+		function createNewPage() {
+			// Si hay una página anterior, cerrarla
+			if (currentPage && pageNumber > 1) {
+				// Agregar divisor entre páginas
+				const divider = document.createElement('div');
+				divider.className = 'page-divider';
+				divider.innerHTML = `<span>— Página ${pageNumber} —</span>`;
+				bibleContent.appendChild(divider);
+			}
+
+			currentPage = document.createElement('div');
+			currentPage.className = 'bible-page-content';
+			bibleContent.appendChild(currentPage);
+
+			// Crear ambas columnas
+			const leftColumn = document.createElement('div');
+			leftColumn.className = 'bible-column bible-column-left';
+			currentPage.appendChild(leftColumn);
+
+			const rightColumn = document.createElement('div');
+			rightColumn.className = 'bible-column bible-column-right';
+			currentPage.appendChild(rightColumn);
+
+			columnIndex = 0;
+			currentColumn = leftColumn;
+			columnHeight = 0;
+			pageNumber++;
+		}
+
+		function switchToNextColumn() {
+			if (columnIndex === 0) {
+				// Pasar a columna derecha
+				columnIndex = 1;
+				currentColumn = currentPage.querySelector('.bible-column-right');
+				columnHeight = 0;
+			} else {
+				// Crear nueva página
+				createNewPage();
+			}
+		}
+
+		// Crear primera página
+		createNewPage();
+
+		// Procesar cada elemento
+		elements.forEach(el => {
+			// Clonar el elemento para medir su altura
+			const clone = el.cloneNode(true);
+			currentColumn.appendChild(clone);
+
+			// Medir altura real
+			const elHeight = clone.offsetHeight;
+
+			// Si excede la altura de columna, mover a siguiente columna
+			if (columnHeight + elHeight > COLUMN_HEIGHT && columnHeight > 0) {
+				// Remover de la columna actual
+				currentColumn.removeChild(clone);
+
+				// Cambiar a siguiente columna o página
+				switchToNextColumn();
+
+				// Agregar a la nueva columna
+				currentColumn.appendChild(clone);
+				columnHeight = elHeight;
+			} else {
+				columnHeight += elHeight;
+			}
+		});
+	}
+
 	// Inicializar todo
 	initSectionToggles();
 	scrollToActiveBook();
+
+	// Organizar páginas después de que el contenido esté listo
+	setTimeout(organizeBiblePages, 150);
 </script>
