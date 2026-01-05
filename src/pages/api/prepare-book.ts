@@ -110,8 +110,8 @@ export const POST: APIRoute = async ({ request }) => {
         const text = chapterVerseMatch[3];
         line = `${currentChapter}:${verse} ${text}`;
       } else {
-        // Detectar versículos sueltos "Y Texto"
-        const verseOnlyMatch = line.match(/^(\d+)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[].+)$/);
+        // Detectar versículos sueltos "Y Texto" (incluyendo ¿¡ al inicio)
+        const verseOnlyMatch = line.match(/^(\d+)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[¿¡\*].+)$/);
         if (verseOnlyMatch) {
           const verse = verseOnlyMatch[1];
           const text = verseOnlyMatch[2];
@@ -119,7 +119,25 @@ export const POST: APIRoute = async ({ request }) => {
             line = `${currentChapter}:${verse} ${text}`;
           }
         }
+
+        // Detectar versículos con espacio al inicio de línea " Y Texto"
+        const verseWithLeadingSpaceMatch = line.match(/^\s+(\d+)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[¿¡\*].+)$/);
+        if (verseWithLeadingSpaceMatch) {
+          const verse = verseWithLeadingSpaceMatch[1];
+          const text = verseWithLeadingSpaceMatch[2];
+          if (parseInt(verse) <= 200 && text.length > 5) {
+            line = `${currentChapter}:${verse} ${text}`;
+          }
+        }
       }
+
+      // Formatear versículos que empiezan con asterisco "* Y Texto"
+      line = line.replace(/^\*\s+(\d+)\s+([A-ZÁÉÍÓÚÑa-záéíóúñ«"'\(\[¿¡].+)$/gm, (match: string, verse: string, text: string) => {
+        if (parseInt(verse) <= 200) {
+          return `* ${currentChapter}:${verse} ${text}`;
+        }
+        return match;
+      });
 
       // Formatear versículos inline que empiezan con mayúscula
       line = line.replace(/(\S)\s+(\d+)\s+([A-ZÁÉÍÓÚÑ«"'\(\[])/g, (match, before, verse, textStart) => {
@@ -179,6 +197,14 @@ export const POST: APIRoute = async ({ request }) => {
 
       // Formatear versículos después de palabra sin puntuación
       line = line.replace(/([a-záéíóúñ])\s+(\d+)\s+([yoa]\s)/g, (match, before, verse, textStart) => {
+        if (parseInt(verse) <= 200) {
+          return `${before} ${currentChapter}:${verse} ${textStart}`;
+        }
+        return match;
+      });
+
+      // Formatear versículos después de palabra (minúscula) seguido de guión largo
+      line = line.replace(/([a-záéíóúñ])\s+(\d+)\s+(—[A-ZÁÉÍÓÚÑa-záéíóúñ])/g, (match: string, before: string, verse: string, textStart: string) => {
         if (parseInt(verse) <= 200) {
           return `${before} ${currentChapter}:${verse} ${textStart}`;
         }
