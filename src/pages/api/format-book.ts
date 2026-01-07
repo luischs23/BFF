@@ -226,10 +226,11 @@ export const POST: APIRoute = async ({ request }) => {
     // Transformación 4: Agregar marcadores de capítulo antes del primer versículo de cada capítulo
     // Esto permite identificar fácilmente el inicio de cada capítulo para la búsqueda
     // El número del capítulo se muestra visible dentro del span
+    // Ahora también soporta versículos con letras como 6a, 10b, etc.
     let lastChapterMarked = '';
-    body = body.replace(/(\d+):(\d+)\s+/g, (match, chapter, verse) => {
-      // Solo agregar marcador si es el versículo 1 o si es un capítulo nuevo
-      if (verse === '1' && chapter !== lastChapterMarked) {
+    body = body.replace(/(\d+):(\d+[a-z]?)\s+/g, (match, chapter, verse) => {
+      // Solo agregar marcador si es el versículo 1 (o 1a, 1b, etc.) y si es un capítulo nuevo
+      if (verse.startsWith('1') && verse.length <= 2 && chapter !== lastChapterMarked) {
         lastChapterMarked = chapter;
         return `<span id="chapter-${chapter}" class="chapter-marker" data-chapter="${chapter}">${chapter}</span><sup>${verse}</sup> `;
       }
