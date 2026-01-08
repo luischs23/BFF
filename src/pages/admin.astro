@@ -101,6 +101,13 @@ Object.values(estructura).forEach(testamento => {
 														>
 															V
 														</button>
+														<button
+															data-slug={slug}
+															class="letter-btn px-2 py-1 bg-pink-600 text-white rounded hover:bg-pink-700 transition text-xs"
+															title="Corregir versículos con letras (47:5a → <sup>5a</sup>)"
+														>
+															L
+														</button>
 													</div>
 												</div>
 											</article>
@@ -288,6 +295,82 @@ Object.values(estructura).forEach(testamento => {
 			fixVersesBtn.textContent = originalText;
 			fixVersesBtn.disabled = false;
 		}
+	});
+
+	// Botón Letras (L) - Convierte "47:5a" a "<sup>5a</sup>"
+	document.querySelectorAll('.letter-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/fix-letter-verses', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-pink-600', 'hover:bg-pink-700');
+					button.classList.add('bg-green-600');
+
+					// Mostrar resultado en el dialog
+					dialogTitle.textContent = `Versículos con letras: ${data.book}`;
+					if (data.fixed > 0) {
+						dialogContent.innerHTML = `
+							<div class="text-center py-8">
+								<div class="text-6xl mb-4">✅</div>
+								<p class="text-green-600 font-bold text-lg">¡Corrección completada!</p>
+								<p class="text-gray-600">Se corrigieron ${data.fixed} versículos con letras</p>
+								${data.examples ? `
+									<div class="mt-4 text-left bg-gray-50 p-3 rounded max-h-48 overflow-y-auto">
+										<p class="text-sm font-bold mb-2">Ejemplos corregidos:</p>
+										${data.examples.map((ex: string) => `<p class="text-xs text-gray-600 font-mono">${ex}</p>`).join('')}
+									</div>
+								` : ''}
+							</div>
+						`;
+					} else {
+						dialogContent.innerHTML = `
+							<div class="text-center py-8">
+								<div class="text-6xl mb-4">📝</div>
+								<p class="text-blue-600 font-bold text-lg">Sin cambios</p>
+								<p class="text-gray-600">No se encontraron versículos con letras para corregir</p>
+							</div>
+						`;
+					}
+					fixVersesBtn.classList.add('hidden');
+					dialog.showModal();
+
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-pink-600', 'hover:bg-pink-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-pink-600', 'hover:bg-pink-700');
+				button.classList.add('bg-red-600');
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-pink-600', 'hover:bg-pink-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
 	});
 
 	document.querySelectorAll('.check-btn').forEach(btn => {

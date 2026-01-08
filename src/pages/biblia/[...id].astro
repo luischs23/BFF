@@ -420,32 +420,18 @@ Object.values(estructura).forEach(testamento => {
 	}
 	/* Estilos para secciones introductorias */
 	.bible-content :global(.section-intro) {
+		display: block;
 		font-style: italic;
 		text-align: center;
 		font-size: 1.1rem;
 		color: #3f444d;
-		margin: 0.25rem 0 0.5rem 0;
+		margin: 0.75rem 0 0.5rem 0;
 		font-weight: 500;
 		letter-spacing: 0.025em;
 		line-height: 1.3;
 	}
 
 	:global(.dark) .bible-content :global(.section-intro) {
-		color: #9ca3af;
-	}
-
-	/* Alternativa: si prefieres usar un h2 estilizado */
-	.bible-content :global(h2.section-intro) {
-		font-style: italic;
-		text-align: center;
-		font-size: 1.1rem;
-		color: #6b7280;
-		margin: 0.75rem 0 1rem 0;
-		font-weight: 500;
-		letter-spacing: 0.025em;
-	}
-
-	:global(.dark) .bible-content :global(h2.section-intro) {
 		color: #9ca3af;
 	}
 
@@ -461,6 +447,33 @@ Object.values(estructura).forEach(testamento => {
 	}
 
 	:global(.dark) .bible-content :global(h2 .subsection-title) {
+		color: #e5e7eb;
+	}
+
+	/* Referencias paralelas - con indentación y números de capítulo en negrita */
+	.bible-content :global(.parallel-ref) {
+		display: block;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 0.85rem;
+		color: #4b5563;
+		margin: 0.1rem 0 0.1rem 1.5rem;
+		padding-left: 0.5rem;
+		line-height: 1.3;
+		font-weight: 400;
+		break-inside: avoid;
+	}
+
+	:global(.dark) .bible-content :global(.parallel-ref) {
+		color: #9ca3af;
+	}
+
+	/* Números de capítulo en negrita dentro de paralelos */
+	.bible-content :global(.parallel-ref strong) {
+		font-weight: 700;
+		color: #374151;
+	}
+
+	:global(.dark) .bible-content :global(.parallel-ref strong) {
 		color: #e5e7eb;
 	}
 	/* Título principal del libro (h1) - más pequeño y centrado */

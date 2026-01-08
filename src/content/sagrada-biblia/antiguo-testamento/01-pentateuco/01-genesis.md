@@ -4,10 +4,13 @@ description: 'Here is a sample of .'
 img: blog-placeholder-4.jpg
 ---
 # GÉNESIS
-<div class="section-intro">I. Orígenes del mundo y de la humanidad</div>
+<span class="section-intro">I. Orígenes del mundo y de la humanidad</span>
 
 ## <span class="subsection-title">1. LA CREACIÓN Y LA CAÍDA</span>
 ## Primer relato de la creación*.
+<span class="parallel-ref"><strong>2</strong> 4-25 ↗Jn <strong>1</strong> 1-3</span>
+<span class="parallel-ref">↗Col <strong>1</strong> 15-17; Hb <strong>1</strong> 2-3</span>
+
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> En el principio creó Dios el cielo y la tierra*. <sup>2</sup> La tierra era caos y confusión*: oscuridad cubría el abismo, y un viento* de Dios aleteaba por encima de las aguas.
 
 <sup>3</sup> Dijo Dios: «Haya luz», y hubo luz. <sup>4</sup> Vio Dios que la luz estaba bien, y separó Dios la luz de la oscuridad*; <sup>5</sup> llamó Dios a la luz «día», y a la oscuridad llamó «noche». Atardeció y amaneció: día primero.
@@ -173,7 +176,7 @@ El día en que Dios creó a Adán, lo hizo a imagen de Dios. <sup>2</sup> Los cr
 ## Los hijos de Dios y las hijas de los hombres*.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Cuando la humanidad comenzó a multiplicarse sobre la faz de la tierra y les nacieron hijas, <sup>2</sup> vieron los hijos de Dios que las hijas de los hombres eran atractivas, y tomaron por mujeres a las que prefirieron de entre todas ellas. <sup>3</sup> Entonces dijo Yahvé: «No permanecerá* para siempre mi espíritu en el hombre, porque no es más que carne; que sus días sean ciento veinte años*.» <sup>4</sup> Los nefilim aparecieron en la tierra por aquel entonces (y también después), cuando los hijos de Dios se unieron a las hijas de los hombres y éstas les dieron hijos: éstos fueron los héroes de la antigüedad, hombres famosos.
 
-## 2. EL DILUVIO
+## <span class="subsection-title">2. EL DILUVIO</span>
 ## Corrupción de la humanidad*.
 <sup>5</sup> Viendo Yahvé que la maldad del hombre cundía en la tierra y que todos los proyectos de su mente eran puro mal de continuo, <sup>6</sup> le pesó a Yahvé de haber creado al hombre en la tierra, y se indignó en su corazón*. <sup>7</sup> Así pues, dijo Yahvé: «Voy a exterminar de sobre la faz del suelo al hombre que he creado —desde el hombre hasta los ganados, los reptiles, y hasta las aves del cielo—, porque me pesa haberlos hecho.» <sup>8</sup> Pero Noé halló gracia a los ojos de Yahvé.
 
@@ -196,7 +199,7 @@ Noé fue el varón más justo y cabal de su tiempo. Noé andaba con Dios. <sup>1
 
 <sup>13</sup> Aquel mismo día entró Noé en el arca con sus hijos, Sem, Cam y Jafet, su mujer, y las tres mujeres de sus hijos. <sup>14</sup> Con ellos entraron los animales de cada especie, los ganados de cada especie, los reptiles de cada especie que reptan sobre la tierra, y las aves de cada especie: toda clase de pájaros y seres alados. <sup>15</sup> Entraron, pues, con Noé en el arca sendas parejas de todos los vivientes en los que hay aliento de vida. <sup>16</sup> Y los que iban entrando eran macho y hembra de cada especie, como Dios se lo había mandado.
 
-## Yahvé cerró la puerta detrás de Noé.
+Yahvé cerró la puerta detrás de Noé.
 
 ## La inundación.
 <sup>17</sup> El diluvio descargó sobre la tierra durante cuarenta días. Crecieron las aguas y levantaron el arca, que se alzó de encima de la tierra. <sup>18</sup> Las aguas arreciaron y crecieron mucho sobre la tierra, mientras el arca flotaba sobre la superficie de las aguas. <sup>19</sup> Las aguas arreciaron muchísimo sobre la tierra, hasta el punto que los montes más altos que hay debajo del cielo quedaron cubiertos. <sup>20</sup> El nivel de las aguas los sobrepasó quince codos, quedando cubiertos los montes. <sup>21</sup> Pereció toda ser viviente: lo que repta por la tierra, junto con aves, ganados, animales y todo lo que pulula sobre la tierra, así como toda la humanidad. <sup>22</sup> Todo cuanto respira hálito vital, todo cuanto existe en tierra firme, murió. <sup>23</sup> Yahvé exterminó todo ser que había sobre la faz del suelo, desde el hombre hasta los ganados, incluidos los reptiles y las aves del cielo: todos fueron exterminados de la tierra. Sólo quedaron Noé y los que con él estaban en el arca. <sup>24</sup> Las aguas inundaron la tierra por espacio de ciento cincuenta días.
@@ -246,7 +249,7 @@ porque a imagen de Dios hizo Él al hombre*.
 
 <sup>17</sup> Reiteró Dios a Noé: «Ésta es la señal de la alianza que he establecido entre yo y toda la vida que existe sobre la tierra.»
 
-## 3. DESDE EL DILUVIO HASTA ABRAHÁN
+## <span class="subsection-title">3. DESDE EL DILUVIO HASTA ABRAHÁN</span>
 ## Noé y sus hijos*.
 <sup>18</sup> Los hijos de Noé que salieron del arca eran Sem, Cam y Jafet. Cam es el padre de Canaán. <sup>19</sup> Estos tres fueron los hijos de Noé, y a partir de ellos se pobló toda la tierra.
 
@@ -334,7 +337,8 @@ Téraj engendró a Abrán, a Najor y a Harán. Harán engendró a Lot. <sup>28</
 
 <sup>32</sup> Téraj vivió doscientos cinco años*, y murió en Jarán.
 
-## II. Historia de Abrahán*
+<span class="section-intro">II. Historia de Abrahán*</span>
+
 ## Vocación de Abrahán*.
 <span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Yahvé dijo a Abrán: «Vete de tu tierra, de tu patria y de la casa de tu padre a la tierra que yo te mostraré. <sup>2</sup> De ti haré una nación grande y te bendeciré. Engrandeceré tu nombre; y sé tú una bendición.
 
@@ -351,6 +355,7 @@ todos los linajes de la tierra*.»
 Llegaron a Canaán <sup>6</sup> y Abrán atravesó el país hasta el lugar sagrado de Siquén, hasta la encina de Moré. Por entonces estaban los cananeos en el país. <sup>7</sup> Yahvé se apareció a Abrán y le dijo: «A tu descendencia he de dar esta tierra*.» Entonces él edificó allí un altar a Yahvé que se le había aparecido. <sup>8</sup> De allí pasó a la montaña, al oriente de Betel, y desplegó su tienda, entre Betel al occidente y Ay al oriente. Allí edificó un altar a Yahvé e invocó su nombre. <sup>9</sup> Luego Abrán fue desplazándose por acampadas hacia el Negueb.
 
 ## Abrahán en Egipto*.
+<span class="parallel-ref">=<strong>20</strong>; =<strong>26</strong> 1-11</span>
 <sup>10</sup> A causa de una hambruna en el país, Abrán bajó a Egipto a pasar allí una temporada, pues el hambre era insoportable en el país*. <sup>11</sup> Estando ya próximo a entrar en Egipto, dijo a su mujer Saray: «Mira, yo sé que eres mujer hermosa. <sup>12</sup> En cuanto te vean los egipcios, dirán: ‘Es su mujer’, y me matarán a mí, pero a ti te dejarán viva. <sup>13</sup> Di, por favor, que eres mi hermana*, para que me vaya bien y pueda vivir gracias a ti.» <sup>14</sup> Efectivamente, cuando Abrán entró en Egipto, se dieron cuenta los egipcios que la mujer era muy hermosa. <sup>15</sup> La vieron los oficiales del faraón, que se la ponderaron, y la mujer fue llevada al palacio del faraón. <sup>16</sup> Éste trató bien gracias a ella a Abrán, que se hizo con ovejas, vacas, asnos, siervos, siervas, asnas y camellos. <sup>17</sup> Pero Yahvé castigó al faraón y a su casa con grandes plagas por lo de Saray, la mujer de Abrán. <sup>18</sup> Entonces el faraón llamó a Abrán y le dijo: «¿Qué has hecho commigo? ¿Por qué no me avisaste de que era tu mujer? <sup>19</sup> ¿Por qué dijiste que era tu hermana, y yo la tomé por mujer? Ahora, pues, aquí tienes a tu mujer: tómala y vete.» <sup>20</sup> Y el faraón ordenó a unos cuantos hombres que le despidieran con su mujer y todo lo suyo.
 
 ## Separación de Abrahán y Lot.
@@ -385,6 +390,7 @@ Y Abrán le dio el diezmo de todo.
 <sup>21</sup> Dijo luego el rey de Sodoma a Abrán: «Dame las personas y quédate con la hacienda.» <sup>22</sup> Pero Abrán dijo al rey de Sodoma: «Alzo mi mano ante el Dios Altísimo*, creador de cielos y tierra: <sup>23</sup> ni un hilo, ni la correa de un zapato, ni nada de lo tuyo tomaré. Así no dirás que me has enriquecido. <sup>24</sup> Nada en absoluto, salvo lo que han comido los mozos y la parte de los hombres que fueron conmigo: Aner, Escol y Mambré. Ellos que tomen su parte.»
 
 ## Las promesas divinas y la alianza*.
+<span class="parallel-ref"><strong>12</strong> 2.7;<strong>13</strong> 14-17; =<strong>17</strong></span>
 <span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Después de estos sucesos, Yahvé dirigió la palabra a Abrán en visión, en estos términos:
 
 «No temas, Abrán. Yo soy para ti un escudo. Tu premio será muy grande.»
@@ -429,6 +435,7 @@ plantará su tienda*.»
 <sup>15</sup> Agar dio a luz un hijo a Abrán, y éste llamó Ismael al hijo que Agar le había dado. <sup>16</sup> Tenía Abrán ochenta y seis años cuando Agar le dio su hijo Ismael.
 
 ## La alianza y la circuncisión*.
+<span class="parallel-ref">=<strong>15</strong>.</span>
 <span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> Cuando Abrán tenía noventa y nueve años, se le apareció Yahvé y le dijo:
 
 «Yo soy El Sadday*, anda en mi presencia y sé perfecto. <sup>2</sup> Yo establezco mi alianza entre nosotros dos, y te multiplicaré sobremanera.»
@@ -482,6 +489,7 @@ plantará su tienda*.»
 <sup>31</sup> La mayor dijo a la menor: «Nuestro padre es viejo y no hay ningún hombre en el país que se una a nosotras, como se hace en todo el mundo. <sup>32</sup> Ven, vamos a darle vino a nuestro padre, nos acostaremos con él y así tendremos descendencia.» <sup>33</sup> En efecto, aquella misma noche dieron vino a su padre; entró la mayor y se acostó con su padre, sin que él se enterase de cuándo se acostó ni cuándo se levantó. <sup>34</sup> Al día siguiente dijo la mayor a la menor: «Mira, yo me he acostado anoche con mi padre. Vamos a darle vino también esta noche, y entras tú a acoinicioe con él, y así tendremos descendencia de nuestro padre.» <sup>35</sup> Dieron, pues, también aquella noche vino a su padre, y la menor se acostó con él, sin que él se enterase de cuándo se acostó ni cuándo se levantó. <sup>36</sup> Las dos hijas de Lot quedaron encintas de su padre. <sup>37</sup> La mayor dio a luz un hijo, a quien llamó Moab: es el padre de los actuales moabitas. <sup>38</sup> La menor también dio a luz un hijo, a quien llamó Ben Amí: es el padre de los actuales amonitas*.
 
 ## Abrahán en Guerar*.
+<span class="parallel-ref">=<strong>12</strong> 10-20; =<strong>26</strong> 1-11</span>
 <span id="chapter-20" class="chapter-marker" data-chapter="20">20</span><sup>1</sup> Abrahán se trasladó de allí al país del Negueb y se estableció entre Cades y Sur. Una vez avecindado en Guerar, <sup>2</sup> solía decir Abrahán de su mujer Sara: «Es mi hermana.» Entonces el rey de Guerar, Abimélec, envió por Sara y la tomó. <sup>3</sup> Pero vino Dios a Abimélec en un sueño nocturno y le dijo: «Date por muerto, pues esa mujer que has tomado está casada.» <sup>4</sup> Abimélec, que no se había acercado a ella, dijo: «Señor, ¿es que asesinas a la gente aunque sea honrada? <sup>5</sup> ¿No me dijo él que ella era su hermana, y ella que él era su hermano? Con corazón íntegro y con manos limpias he procedido.» <sup>6</sup> Le dijo Dios en el sueño: «También yo sé que has procedido con corazón íntegro, como que yo mismo te he estorbado de faltar contra mí. Por eso no te he dejado tocarla. <sup>7</sup> Pero ahora devuelve la mujer a ese hombre, porque es un profeta*; él rogará por ti para que vivas. Pero si no la devuelves, sábete que morirás sin remedio, tú y todos los tuyos*.»
 
 <sup>8</sup> Abimélec se levantó de mañana, llamó a todos sus siervos y les refirió todas estas cosas; los hombres se asustaron mucho. <sup>9</sup> Luego llamó Abimélec a Abrahán y le dijo: «¿Qué has hecho con nosotros, o en qué te he faltado, para que trajeras sobre mí y mi reino una falta tan grande? Lo que has hecho conmigo no se hace.» <sup>10</sup> Y añadió Abimélec a Abrahán: «¿Qué te ha movido a hacer esto?» <sup>11</sup> Contestó Abrahán: «Es que pensé que seguramente no habría temor de Dios en este lugar y que me asesinarían por mi mujer. <sup>12</sup> Pero es que, además, es cierto que es hermana mía. Es hija de mi padre, aunque no de mi madre; y acabó siendo mi mujer. <sup>13</sup> Y desde que Dios me hizo vagar lejos de mi familia, le dije que me hiciera el favor de decir, allá donde fuéramos, que yo era su hermano.»
@@ -509,6 +517,7 @@ Ella se fue y anduvo errante por el desierto de Berseba. <sup>15</sup> Como lleg
 <sup>20</sup> Dios asistió al chico, que se hizo mayor y habitó en el desierto. Llegó a ser un gran arquero. <sup>21</sup> Vivía en el desierto de Parán, y su madre tomó para él una mujer del país de Egipto.
 
 ## Abrahán y Abimélec en Berseba*.
+<span class="parallel-ref">=<strong>26</strong> 15-33</span>
 <sup>22</sup> Por aquel tiempo Abimélec, junto con Picol, capitán de su tropa, dijo a Abrahán: «Dios está contigo en todo lo que haces. <sup>23</sup> Ahora, pues, júrame por Dios aquí mismo sin mentir, y tanto a mí como a mis hijos y mis nietos, que la misma benevolencia que he mostrado contigo, la tendrás tú conmigo y con el país donde te hemos recibido como huésped.» <sup>24</sup> Abrahán dijo: «Lo juro».
 
 <sup>25</sup> Entonces Abrahán se quejó a Abimélec con motivo de un pozo que habían usurpado los súbditos de Abimélec. <sup>26</sup> Dijo éste: «No sé quién ha hecho eso. Ni tú me lo habías notificado, ni yo había oído nada hasta hoy.» <sup>27</sup> Abrahán tomó unas ovejas y vacas, se las dio a Abimélec e hicieron los dos un pacto. <sup>28</sup> Abrahán puso siete corderas aparte. <sup>29</sup> Dijo Abimélec a Abrahán: «¿Para qué son esas siete corderas que has apartado?» <sup>30</sup> Contestó: «Estas siete corderas las vas a aceptar de mi mano, para que me sirvan de testimonio de que yo he excavado este pozo.» <sup>31</sup> Por eso se llamó a aquel lugar Berseba, porque allí juraron ambos.
@@ -580,6 +589,7 @@ la puerta de sus enemigos!»
 <sup>66</sup> El siervo contó a Isaac todo lo que había hecho. <sup>67</sup> Isaac introdujo a Rebeca en la tienda y la tomó por esposa. Isaac la amó, y así se consoló por la pérdida de su madre.
 
 ## La descendencia de Queturá*.
+<span class="parallel-ref">|| 1 Cro <strong>1</strong> 32-33.</span>
 <span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Abrahán tomó otra mujer, llamada Queturá, <sup>2</sup> que le dio a Zimrán, Yocsán, Medán, Madián, Yisbac y Súaj. —<sup>3</sup> Yocsán engendró a Seba y a Dedán. Hijos de Dedán fueron los asuritas, los letusíes y los leumíes.— <sup>4</sup> Hijos de Madián: Efá, Éfer, Henoc, Abidá y Eldaá. Todos éstos fueron descendientes de Queturá.
 
 <sup>5</sup> Abrahán dio todo cuanto tenía a Isaac. <sup>6</sup> A los hijos de las concubinas que tenía Abrahán les hizo donaciones y, viviendo aún él, los separó de Isaac, enviándolos hacia levante, al país de Oriente.
@@ -588,11 +598,13 @@ la puerta de sus enemigos!»
 <sup>7</sup> Abrahán vivió ciento setenta y cinco años. <sup>8</sup> Abrahán murió, pues, en buena ancianidad, viejo y lleno de días, y fue a juntarse con su gente. <sup>9</sup> Sus hijos Isaac e Ismael lo sepultaron en la cueva de Macpelá, al borde de la finca de Efrón, hijo de Sójar, el hitita, enfrente de Mambré. <sup>10</sup> Era la finca que Abrahán había comprado a los hijos de Het. Allí fue sepultado Abrahán con su mujer Sara. <sup>11</sup> Después de la muerte de Abrahán, bendijo Dios a su hijo Isaac, que se estableció en las inmediaciones del pozo de Lajay Roí.
 
 ## Descendientes de Ismael*.
+<span class="parallel-ref">|| 1 Cro <strong>1</strong> 29-31.</span>
 <sup>12</sup> Ismael, el hijo que engendró Abrahán de la egipcia Agar, esclava de Sara, tuvo descendientes. <sup>13</sup> Éstos son los nombres de los hijos de Ismael, por orden de nacimiento: el primogénito de Ismael fue Nebayot; después nacieron Quedar, Adbeel, Mibsán, <sup>14</sup> Mismá, Dumá, Masá, <sup>15</sup> Jadad, Temá, Yetur, Nafís y Quedmá. <sup>16</sup> Éstos son los hijos de Ismael, y éstos sus nombres según sus poblados y sus aduares: doce caudillos de otros tantos pueblos.
 
 <sup>17</sup> Ismael vivió ciento treinta y siete años. Luego murió y fue a juntarse con su gente. <sup>18</sup> Ocupó desde Javilá hasta Sur, que cae enfrente de Egipto, según se va a Asur. Se estableció enfrente de todos sus hermanos*.
 
-## III. Historia de Isaac y de Jacob
+<span class="section-intro">III. Historia de Isaac y de Jacob</span>
+
 ## Nacimiento de Esaú y de Jacob*.
 <sup>19</sup> Ésta es la historia de Isaac, hijo de Abrahán:
 
@@ -616,6 +628,7 @@ el mayor servirá al pequeño*.»
 <sup>29</sup> Una vez, Jacob había preparado un guiso. En esto llegó Esaú del campo, agotado. <sup>30</sup> Dijo Esaú a Jacob: «Oye, dame a probar de lo rojo, de eso rojo, porque estoy agotado.» —Por eso se le llamó Edom*.— <sup>31</sup> Respondió Jacob: «Véndeme ahora mismo tu primogenitura.» <sup>32</sup> Contestó Esaú: «Estoy que me muero. ¿Qué me importa la primogenitura?» <sup>33</sup> Dijo Jacob: «Júramelo ahora mismo.» Él se lo juró, vendiendo así su primogenitura a Jacob. <sup>34</sup> Jacob dio a Esaú pan y el guiso de lentejas. Tras haber comido, se levantó y se fue. Así desdeñó Esaú la primogenitura.
 
 ## Isaac en Guerar*.
+<span class="parallel-ref">=<strong>12</strong> 10-20; =<strong>20</strong>.</span>
 <span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> Debido a una hambruna que azoto él país —aparte de la primera que tuvo lugar en tiempo de Abrahán*— fue Isaac a Guerar, adonde Abimélec, rey de los filisteos. <sup>2</sup> Yahvé se le apareció y le dijo: «No bajes a Egipto. Quédate en la tierra que yo te indique. <sup>3</sup> Reside en esta tierra, que yo te asistiré y bendeciré, pues a ti y a tu descendencia he de dar todas estas tierras. Mantendré el juramento que hice a tu padre Abrahán. <sup>4</sup> Multiplicaré tu descendencia como las estrellas del cielo y le daré todas estas tierras. Y por tu descendencia se bendecirán todas las naciones de la tierra, <sup>5</sup> en pago de que Abrahán me obedeció y guardó mis observancias, mis mandamientos, mis preceptos y mis instrucciones.» <sup>6</sup> Se estableció, pues, Isaac en Guerar.
 
 <sup>7</sup> Cuando los del lugar le preguntaban por su mujer, él decía que era su hermana. En efecto, le daba reparo decir que era su mujer, no fuesen a matarle los del lugar por causa de Rebeca, pues era de buen ver. <sup>8</sup> Ya llevaba largo tiempo allí, cuando aconteció que Abimélec, rey de los filisteos, atisbando por una ventana, observó que Isaac estaba solazándose* con su mujer Rebeca. <sup>9</sup> Llamó Abimélec a Isaac y le dijo: «¡Conque es tu mujer! ¿Pues cómo has venido diciendo que era tu hermana?» Respondió Isaac: «Es que pensé que podría morir por causa de ella.» <sup>10</sup> Replicó Abimélec: «¿Cómo nos has hecho esto? Si por casualidad llega a acostarse cualquiera del pueblo con tu mujer, tú nos habrías considerado culpables.» <sup>11</sup> Entonces Abimélec ordenó a todo el pueblo: «Quien tocare a este hombre o a su mujer, será condenado a muerte.»
@@ -623,6 +636,7 @@ el mayor servirá al pequeño*.»
 <sup>12</sup> Isaac sembró en aquella tierra y cosechó aquel año el ciento por uno. Yahvé le bendecía <sup>13</sup> y él se enriquecía; sus riquezas fueron multiplicándose hasta que se hizo riquísimo. <sup>14</sup> Tenía rebaños de ovejas y vacadas, así como copiosa servidumbre. Los filisteos le tenían envidia.
 
 ## Los pozos entre Guerar y Berseba.
+<span class="parallel-ref">=<strong>21</strong> 25-31.</span>
 <sup>15</sup> Todos los pozos que habían cavado los siervos de su padre —en tiempos de su padre Abrahán— los habían cegado los filisteos, llenándolos de tierra. <sup>16</sup> Entonces Abimélec dijo a Isaac: «Vete a otra parte, porque te has hecho mucho más poderoso que nosotros.» <sup>17</sup> Isaac se fue de allí, acampó en la vaguada de Guerar y allí se estableció. <sup>18</sup> Isaac volvió a cavar los pozos de agua que habían cavado los siervos* de su padre Abrahán, y que los filisteos habían cegado después de la muerte de Abrahán, y les puso los mismos nombres que les había puesto su padre.
 
 <sup>19</sup> Cavaron los siervos de Isaac en la vaguada y encontraron allí un pozo de aguas vivas*. <sup>20</sup> Pero riñeron los pastores de Guerar con los pastores de Isaac, pues decían que el agua era suya. Isaac llamó al pozo Ésec, ya que se habían querellado con él. <sup>21</sup> Excavaron otro pozo, y también riñeron por él: lo llamó Sitná. <sup>22</sup> Se fue de allí y cavó otro pozo, y ya no riñeron por él: lo llamó Rejobot, pues se dijo: «Ahora Yahvé nos ha dado desahogo y prosperaremos en esta tierra*.»
@@ -640,6 +654,7 @@ por amor de Abrahán, mi siervo.»
 <sup>25</sup> Construyó allí un altar e invocó el nombre de Yahvé. Allí desplegó Isaac su tienda, y sus siervos perforaron un pozo.
 
 ## Alianza con Abimélec.
+<span class="parallel-ref">=<strong>21</strong> 22-33.</span>
 <sup>26</sup> Entonces Abimélec fue adonde él desde Guerar, con Ajuzat, uno de sus familiares, y Picol, capitán de su tropa. <sup>27</sup> Les dijo Isaac: «¿Cómo venís a mí, si me habéis sido hostiles y me habéis echado de vuestra compañía?» <sup>28</sup> Contestaron ellos: «Hemos visto claramente que Yahvé se ha puesto de tu parte, y hemos pensado que es mejor que haya un juramento entre nosotros, entre tú y nosotros. Haremos un pacto contigo: <sup>29</sup> no nos causarás daño, pues tampoco nosotros te hemos tocado a ti. No te hemos hecho sino bien, y además te hemos dejado ir en paz, bendito de Yahvé.» <sup>30</sup> Isaac les preparó un banquete. Todos comieron y bebieron.
 
 <sup>31</sup> Se levantaron de madrugada y se hicieron mutuo juramento. Luego los despidió Isaac, y se fueron en paz de su lado. <sup>32</sup> Aquel mismo día llegaron unos siervos de Isaac y le trajeron noticias del pozo que habían cavado, diciéndole que habían encontrado agua.» <sup>33</sup> Él llamó al pozo Seba*, de donde el nombre de la ciudad de Berseba, hasta la fecha.
@@ -695,6 +710,7 @@ partirás su yugo de sobre tu cerviz*.»
 <sup>41</sup> Esaú se enemistó con Jacob a causa de la bendición que le había dado su padre. Se dijo Esaú: «Se acercan ya los días del luto por mi padre. Entonces mataré a mi hermano Jacob.» <sup>42</sup> Al enterarse Rebeca de las palabras de Esaú, su hijo mayor, mandó llamar a Jacob, su hijo pequeño, y le dijo: «Mira, tu hermano Esaú va a vengarse de ti matándote. <sup>43</sup> Ahora, pues, hijo mío, hazme caso: avíate y huye a Jarán, a donde mi hermano Labán, <sup>44</sup> y te quedas con él una temporada, hasta que se calme la cólera de tu hermano. <sup>45</sup> Cuando se calme la ira de tu hermano contra ti y olvide lo que has hecho, enviaré a que te traigan de allí. ¿Por qué he de perderos a los dos en un mismo día*?»
 
 ## Isaac manda a Jacob a casa de Labán*.
+<span class="parallel-ref">=<strong>27</strong> 41-45.</span>
 <sup>46</sup> Rebeca dijo a Isaac: «Me da asco vivir al lado de las hijas de Het. Si Jacob toma mujer de las hijas de Het como las que hay por aquí, ¿para qué seguir viviendo?»
 
 <span id="chapter-28" class="chapter-marker" data-chapter="28">28</span><sup>1</sup> Llamó, pues, Isaac a Jacob, lo bendijo y le dio esta orden: «No tomes mujer de las hijas de Canaán. <sup>2</sup> Avíate y ve a Padán Aram, a casa de Betuel, padre de tu madre, y toma allí mujer de entre las hijas de Labán, hermano de tu madre. <sup>3</sup> Que El Sadday te bendiga, te haga fecundo y te acreciente, y que te conviertas en multitud de pueblos. <sup>4</sup> Que te dé la bendición de Abrahán a ti y a tu descendencia, para que te hagas dueño de la tierra donde has vivido y que Dios ha dado a Abrahán.» <sup>5</sup> Y despidió Isaac a Jacob, que se fue a Padán Aram, a casa de Labán, hijo de Betuel el arameo, hermano de Rebeca, la madre de Jacob y de Esaú.
@@ -756,7 +772,7 @@ partirás su yugo de sobre tu cerviz*.»
 
 <sup>45</sup> Jacob tomó una piedra y la erigió como estela. <sup>46</sup> Dijo luego a sus parientes: «Recoged piedras.» Tomaron piedras, hicieron un majano y comieron allí sobre el majano. <sup>47</sup> Labán lo llamó Yegar Sahdutá, y Jacob lo llamó Galed*. <sup>48</sup> Labán dijo: «Este majano es hoy testigo entre nosotros dos.» Por eso le llamó Galed, <sup>49</sup> y también Mispá, pues dijo: «Que Yahvé nos vigile a los dos, cuando nos alejemos el uno del otro. <sup>50</sup> Si tú humillas a mis hijas, si tomas otras mujeres, además de mis hijas, bien que nadie esté con nosotros que nos vea, sea Dios testigo entre los dos.» <sup>51</sup> Añadió Labán a Jacob: «Aquí está este majano, y aquí esta estela que he erigido entre nosotros dos. <sup>52</sup> Testigo sea este majano y testigo sea esta estela de que yo no he de traspasar este majano hacia ti, ni tú has de traspasar este majano y esta estela hacia mí para nada malo. <sup>53</sup> El Dios de Abrahán y el Dios de Najor juzguen entre nosotros*.» Y Jacob juró por el Padrino de su padre Isaac. <sup>54</sup> Jacob hizo un sacrificio en el monte e invitó a sus parientes a tomar parte. Ellos tomaron parte, e hicieron noche en el monte.
 
-<span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>32</sup><sup>1</sup> A la mañana siguiente, Labán besó a sus hijos e hijas, los bendijo y se volvió a su lugar. <sup>2</sup> Jacob prosiguió su camino, y le salieron al encuentro mensajeros de Dios. <sup>3</sup> Al verlos, pensó Jacob: «Éste es el campamento de Dios»; y llamó a aquel lugar Majanáin*.
+<span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> A la mañana siguiente, Labán besó a sus hijos e hijas, los bendijo y se volvió a su lugar. <sup>2</sup> Jacob prosiguió su camino, y le salieron al encuentro mensajeros de Dios. <sup>3</sup> Al verlos, pensó Jacob: «Éste es el campamento de Dios»; y llamó a aquel lugar Majanáin*.
 
 ## Jacob prepara el encuentro con Esaú*.
 <sup>4</sup> Jacob envió mensajeros por delante hacia su hermano Esaú, al país de Seír, la estepa de Edom. <sup>5</sup> Les encargó: «Diréis a mi señor Esaú: Esto dice tu siervo Jacob: Fui a pasar una temporada con Labán y me he demorado hasta hoy. <sup>6</sup> Me hice con bueyes, asnos, ovejas, siervos y siervas; y he decidido avisar a mi señor, por ver si hallo gracia a tus ojos.»
@@ -818,6 +834,7 @@ Tomó de lo que tenía a mano un regalo para su hermano Esaú, <sup>15</sup> con
 <sup>21</sup> Israel partió y desplegó su tienda más allá de Migdal Éder. <sup>22</sup> Por aquel entonces, mientras Israel residía en aquel país, fue Rubén y se acostó con Bilhá, la concubina de su padre, e Israel se enteró de ello.
 
 ## Hijos de Jacob.
+<span class="parallel-ref"><strong>29</strong> 31 - <strong>30</strong> 42</span>
 Los hijos de Jacob fueron doce. <sup>23</sup> Hijos de Lía: el primogénito de Jacob, Rubén; después Simeón, Leví, Judá, Isacar y Zabulón. <sup>24</sup> Hijos de Raquel: José y Benjamín. <sup>25</sup> Hijos de Bilhá, la esclava de Raquel: Dan y Neftalí. <sup>26</sup> Hijos de Zilpá, la esclava de Lía: Gad y Aser. Éstos fueron los hijos de Jacob, que le nacieron en Padán Aram.
 
 ## Muerte de Isaac*.
@@ -830,6 +847,7 @@ Los hijos de Jacob fueron doce. <sup>23</sup> Hijos de Lía: el primogénito de 
 <sup>6</sup> Esaú tomó a sus mujeres, hijos e hijas y a todas la personas de su casa, su ganado, todas sus bestias y toda la hacienda que había logrado en territorio cananeo, y se fue al país de Seír*, enfrente de su hermano Jacob, <sup>7</sup> porque los bienes de entrambos eran demasiados para poder vivir juntos, y el país donde residían no daba abasto para tanto ganado como tenían. <sup>8</sup> Esaú se estableció, pues, en la tierra de Seír. Esaú es Edom.
 
 ## Descendencia de Esaú en Seír.
+<span class="parallel-ref">=<strong>36</strong> 15-19; 1 Cro <strong>1</strong> 35s.</span>
 <sup>9</sup> Éstos son los descendientes de Esaú, padre de Edom, en la montaña de Seír, <sup>10</sup> y éstos los nombres de sus hijos: Elifaz, hijo de Adá, mujer de Esaú, y Reuel, hijo de Basmat, mujer de Esaú.
 
 <sup>11</sup> Los hijos de Elifaz fueron: Temán, Omar, Sefó, Gatán y Quenaz. <sup>12</sup> Timná fue concubina de Elifaz, hijo de Esaú, y dio a luz a Amalec. Éstos son los descendientes de Adá, mujer de Esaú.
@@ -839,6 +857,7 @@ Los hijos de Jacob fueron doce. <sup>23</sup> Hijos de Lía: el primogénito de 
 <sup>14</sup> Los hijos de la mujer de Esaú, Oholibamá, hija de Aná, hijo de Sibeón, que ella dio a luz a Esaú, fueron éstos: Yeús, Yalán y Coré.
 
 ## Caudillos de Edom.
+<span class="parallel-ref">=<strong>36</strong> 9-14.</span>
 <sup>15</sup> Éstos son los jeques de los hijos de Esaú.
 
 De los hijos de Elifaz, primogénito de Esaú: el jeque Temán, el jeque Omar, el jeque Sefó, el jeque Quenaz, <sup>16</sup> * el jeque Gatán, el jeque Amalec. Éstos son los jeques de Elifaz, en el país de Edom, y éstos los descendientes de Adá.
@@ -855,14 +874,17 @@ De los hijos de Elifaz, primogénito de Esaú: el jeque Temán, el jeque Omar, e
 <sup>29</sup> Éstos son los jeques joritas: el jeque Lotán, el jeque Sobal, el jeque Sibeón, el jeque Aná, <sup>30</sup> el jeque Disón, el jeque Éser, el jeque Disán. Éstos son los jeques joritas según sus clanes* en el país de Seír.
 
 ## Reyes edomitas.
+<span class="parallel-ref">|| 1 Cro <strong>1</strong> 43-50.</span>
 <sup>31</sup> Éstos son los reyes que reinaron en Edom, antes de reinar rey alguno de los israelitas*. <sup>32</sup> Reinó en Edom Belá, hijo de Beor; y el nombre de su ciudad era Dinhabá. <sup>33</sup> Murió Belá, y reinó en su lugar Yobab, hijo de Zéraj, de Bosrá. <sup>34</sup> Murió Yobab, y reinó en su lugar Jusán, del país de los temanitas. <sup>35</sup> Murió Jusán, y reinó en su lugar Hadad, hijo de Bedad, el que derrotó a Madián en el campo de Moab; y el nombre de su ciudad era Avit. <sup>36</sup> Murió Hadad, y reinó en su lugar Samlá de Masrecá. <sup>37</sup> Murió Samlá, y reinó en su lugar Saúl, de Rejobot del Río. <sup>38</sup> Murió Saúl, y reinó en su lugar Baal Janán, hijo de Acbor. <sup>39</sup> Murió Baal Janán, hijo de Acbor, y reinó en su lugar Hadad*; el nombre de su ciudad era Pau, y el nombre de su mujer, Mehetabel, hija de Matred, hija de Mezahab.
 
 ## Otra lista de caudillos edomitas.
+<span class="parallel-ref">|| 1 Cro <strong>1</strong> 51-54.</span>
 <sup>40</sup> Éstos son los nombres de los jeques de Esaú, según sus familias y territorios, y por sus nombres. El jeque Timná, el jeque Alvá, el jeque Yetet, <sup>41</sup> el jeque Oholibamá, el jeque Elá, el jeque Pinón, <sup>42</sup> el jeque Quenaz, el jeque Temán, el jeque Mibsar, <sup>43</sup> el jeque Magdiel, el jeque Irán. Éstos son los jeques de Edom, según sus moradas, en las tierras que ocupan. Éste es Esaú padre de Edom.
 
 <span id="chapter-37" class="chapter-marker" data-chapter="37">37</span><sup>1</sup> Jacob, por su parte, se estableció en el que fue país residencial de su padre, el país de Canaán.
 
-## IV. Historia de José*
+<span class="section-intro">IV. Historia de José*</span>
+
 ## José y sus hermanos.
 <sup>2</sup> Ésta es la historia de Jacob*.
 
@@ -1038,10 +1060,10 @@ Y allí se quedó, en presidio. <sup>21</sup> Pero Yahvé asistió a José y lo 
 <sup>31</sup> José dijo a sus hermanos y a la familia de su padre: «Voy a subir a avisar al faraón y decirle: ‘Han venido a mí mis hermanos y la casa de mi padre que estaban en Canaán. <sup>32</sup> Son pastores de ovejas, pues siempre fueron ganaderos, y han traído ovejas, vacadas y todo lo suyo’. <sup>33</sup> Así, cuando os llame el faraón y os pregunte cuál es vuestro oficio, <sup>34</sup> le decís que habéis sido ganaderos desde la mocedad hasta ahora, lo mismo que vuestros padres. De esta suerte os quedaréis en el país de Gosen.» (Y es que los egipcios detestan a todos los pastores de ovejas*.)
 
 ## Audiencia del faraón.
-<span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> Vino, pues, José a dar parte al faraón. Le dijo: «Mi padre y mis hermanos han llegado de Canaán, junto con sus ovejas, vacadas y cuanto les pertenece. Ya están en el país de Gosen.» <sup>2</sup> Luego, de entre todos sus hermanos, tomó consigo a cinco varones y se los presentó al faraón. <sup>3</sup> Dijo el faraón a los hermanos: «¿Cuál es vuestro oficio?» Respondieron al faraón: «Pastores de ovejas son tus siervos, lo mismo que nuestros padres.» <sup>4</sup> Y dijeron al faraón: «Hemos venido a residir en esta tierra, porque no hay pastos para los rebaños que tienen tus siervos, por ser terrible la hambruna en Canaán. Así pues, deja morar a tus siervos en el país de Gosen.» 47:5a Dijo el faraón a José*: 47:6b «Que residan en el país de Gosen. Y, si te consta que hay entre ellos gente capacitada, ponles por rabadanes de lo mío.»
+<span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> Vino, pues, José a dar parte al faraón. Le dijo: «Mi padre y mis hermanos han llegado de Canaán, junto con sus ovejas, vacadas y cuanto les pertenece. Ya están en el país de Gosen.» <sup>2</sup> Luego, de entre todos sus hermanos, tomó consigo a cinco varones y se los presentó al faraón. <sup>3</sup> Dijo el faraón a los hermanos: «¿Cuál es vuestro oficio?» Respondieron al faraón: «Pastores de ovejas son tus siervos, lo mismo que nuestros padres.» <sup>4</sup> Y dijeron al faraón: «Hemos venido a residir en esta tierra, porque no hay pastos para los rebaños que tienen tus siervos, por ser terrible la hambruna en Canaán. Así pues, deja morar a tus siervos en el país de Gosen.» <sup>5a</sup> Dijo el faraón a José*: <sup>6b</sup> «Que residan en el país de Gosen. Y, si te consta que hay entre ellos gente capacitada, ponles por rabadanes de lo mío.»
 
 ## Otro relato*.
-47:5b Jacob y sus hijos vinieron a Egipto, donde José. El faraón, rey de Egipto, se enteró y dijo a José: «Tu padre y tus hermanos han venido a ti. 47:6a Tienes el territorio egipcio por delante: en lo mejor del país instala a tu padre y tus hermanos.» <sup>7</sup> José llevó a su padre Jacob y lo presentó al faraón, y Jacob bendijo al faraón. <sup>8</sup> Dijo el faraón a Jacob: «¿Cuántos años tienes?» <sup>9</sup> Respondió Jacob al faraón: «Los años de mis andanzas hacen ciento treinta años; pocos y malos han sido los años de mi vida, y no han llegado a igualar los años de vida de mis padres, en el tiempo de sus andanzas.» <sup>10</sup> Bendijo, pues, Jacob al faraón, y salió de su presencia. <sup>11</sup> José instaló a su padre y a sus hermanos, asignándoles predio en territorio egipcio, en lo mejor del país, en el país de Ramsés*, según lo había mandado el faraón.
+<sup>5b</sup> Jacob y sus hijos vinieron a Egipto, donde José. El faraón, rey de Egipto, se enteró y dijo a José: «Tu padre y tus hermanos han venido a ti. <sup>6a</sup> Tienes el territorio egipcio por delante: en lo mejor del país instala a tu padre y tus hermanos.» <sup>7</sup> José llevó a su padre Jacob y lo presentó al faraón, y Jacob bendijo al faraón. <sup>8</sup> Dijo el faraón a Jacob: «¿Cuántos años tienes?» <sup>9</sup> Respondió Jacob al faraón: «Los años de mis andanzas hacen ciento treinta años; pocos y malos han sido los años de mi vida, y no han llegado a igualar los años de vida de mis padres, en el tiempo de sus andanzas.» <sup>10</sup> Bendijo, pues, Jacob al faraón, y salió de su presencia. <sup>11</sup> José instaló a su padre y a sus hermanos, asignándoles predio en territorio egipcio, en lo mejor del país, en el país de Ramsés*, según lo había mandado el faraón.
 
 <sup>12</sup> Y José proveyó al sustento familiar de su padre y sus hermanos y toda la casa de su padre.
 
@@ -1057,6 +1079,7 @@ Y allí se quedó, en presidio. <sup>21</sup> Pero Yahvé asistió a José y lo 
 <sup>23</sup> Dijo entonces José al pueblo: «Veis que os he adquirido hoy para el faraón a vosotros y vuestras tierras. Ahí tenéis simiente: sembrad la tierra, <sup>24</sup> y luego, cuando la cosecha, daréis el quinto al faraón y las otras cuatro partes serán para vosotros, para siembra del campo, y para alimento vuestro y de vuestros familiares, para alimento de vuestras criaturas.» <sup>25</sup> Dijeron ellos: «Nos has salvado la vida. Ojalá caigamos bien a mi señor y podamos seguir siendo siervos del faraón.» <sup>26</sup> José les impuso por norma, vigente hasta la fecha respecto a todo el agro egipcio, dar la quinta parte al faraón. Tan sólo el territorio de los sacerdotes no pasó a ser del faraón.
 
 ## Testamento de Jacob*.
+<span class="parallel-ref">=<strong>49</strong> 29-32; <strong>50</strong> 6.</span>
 <sup>27</sup> Israel residió en Egipto, en el país de Gosen. Se afincaron en él, fueron fecundos y se multiplicaron sobremanera. <sup>28</sup> Jacob vivió en Egipto diecisiete años. Los días de Jacob, los años de su vida, sumaban ciento cuarenta y siete años. <sup>29</sup> Cuando la vida de Israel tocaba a su fin, llamó a su hijo José y le dijo: «Si quieres mostrarte benévolo conmigo, júrame con tu mano debajo de mi muslo que me serás leal y me harás este favor: no me sepultes en Egipto. <sup>30</sup> Cuando yo me acueste con mis padres, sácame de Egipto y entiérrame en el sepulcro de ellos.» Respondió: «Lo haré como dices.» —<sup>31</sup> «Júramelo», dijo. Y José se lo juró. Entonces Israel se inclinó sobre la cabecera de su lecho*.
 
 ## Jacob adopta y bendice a los hijos de José*.
@@ -1089,6 +1112,7 @@ y multiplíquense y crezcan en medio de la tierra.»
 <sup>21</sup> Dijo entonces Israel a José: «Yo voy a morir; pero Dios estará con vosotros y os devolverá a la tierra de vuestros padres. <sup>22</sup> Por mi parte, te doy Siquén* a ti, mejorándote sobre tus hermanos: lo que tomé al amorreo con mi espada y con mi arco.»
 
 ## Bendiciones de Jacob*.
+<span class="parallel-ref">Jc <strong>5</strong>; Dt <strong>33</strong>.</span>
 <span id="chapter-49" class="chapter-marker" data-chapter="49">49</span><sup>1</sup> Llamó Jacob a sus hijos y dijo: «Reuníos, que yo os muestre lo que os sucederá al cabo de los días.
 
 <sup>2</sup> Apiñaos y oíd, hijos de Jacob,
