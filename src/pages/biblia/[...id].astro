@@ -228,6 +228,7 @@ Object.values(estructura).forEach(testamento => {
 	/* Contenido de la biblia - página con dos columnas */
 	.bible-content {
 		padding: 0;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	/* Cada página es un contenedor */
@@ -280,7 +281,7 @@ Object.values(estructura).forEach(testamento => {
 		margin-right: 0.25rem;
 		margin-top: 0.1rem;
 		padding-right: 0.15rem;
-		font-family: Georgia, 'Times New Roman', serif;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	:global(.dark) .bible-content :global(.chapter-marker) {
@@ -307,6 +308,7 @@ Object.values(estructura).forEach(testamento => {
 		line-height: 1.7;
 		font-size: 0.9rem;
 		margin-bottom: 0.75rem;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	/* Divisor de página */
@@ -353,20 +355,21 @@ Object.values(estructura).forEach(testamento => {
 		background: #4b5563;
 	}
 
-	.bible-content :global(.page-divider) span {
+	:global(.bible-content .page-divider span) {
 		position: relative;
 		z-index: 1;
 		background: #fffbeb;
 		padding: 0 1rem;
 		color: #78716c;
 		font-size: 0.7rem;
-		font-family: Georgia, serif;
+		font-family: "Times New Roman", Times, serif;
 	}
 
-	:global(.dark) .bible-content :global(.page-divider) span {
+	:global(.dark .bible-content .page-divider span) {
 		background: #1f2937;
 		color: #6b7280;
 	}
+
 
 	/* Estilos para secciones contraíbles del sidebar */
 	.section-content {
@@ -414,6 +417,89 @@ Object.values(estructura).forEach(testamento => {
 		width: 20px;
 		background: linear-gradient(to left, rgba(0,0,0,0.05), transparent);
 		pointer-events: none;
+	}
+	/* Estilos para secciones introductorias */
+	.bible-content :global(.section-intro) {
+		font-style: italic;
+		text-align: center;
+		font-size: 1.1rem;
+		color: #3f444d;
+		margin: 0.25rem 0 0.5rem 0;
+		font-weight: 500;
+		letter-spacing: 0.025em;
+		line-height: 1.3;
+	}
+
+	:global(.dark) .bible-content :global(.section-intro) {
+		color: #9ca3af;
+	}
+
+	/* Alternativa: si prefieres usar un h2 estilizado */
+	.bible-content :global(h2.section-intro) {
+		font-style: italic;
+		text-align: center;
+		font-size: 1.1rem;
+		color: #6b7280;
+		margin: 0.75rem 0 1rem 0;
+		font-weight: 500;
+		letter-spacing: 0.025em;
+	}
+
+	:global(.dark) .bible-content :global(h2.section-intro) {
+		color: #9ca3af;
+	}
+
+	/* Subtítulos de subsección centrados */
+	.bible-content :global(h2 .subsection-title) {
+		display: block;
+		text-align: center;
+		font-weight: 600;
+		color: #374151;
+		letter-spacing: 0.05em;
+		margin: 0.25rem 0;
+		line-height: 1.2;
+	}
+
+	:global(.dark) .bible-content :global(h2 .subsection-title) {
+		color: #e5e7eb;
+	}
+	/* Título principal del libro (h1) - más pequeño y centrado */
+	.bible-content :global(h1) {
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #1f2937;
+		margin: 0.5rem 0 0.25rem 0;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		line-height: 1.2;
+	}
+
+	:global(.dark) .bible-content :global(h1) {
+		color: #f3f4f6;
+	}
+
+	@media (min-width: 768px) {
+		.bible-content :global(h1) {
+			font-size: 1.75rem;
+		}
+	}
+	/* Reducir margen de TODOS los h2 */
+	.bible-content :global(h2) {
+		margin-top: 0.5rem; /* Reducido desde el valor por defecto de prose */
+		margin-bottom: 0.25rem; /* Reducido */
+		line-height: 1.3; /* Agregado */
+	}
+
+	/* También puedes sobrescribir los estilos de prose que vienen de Tailwind */
+	.bible-content {
+		--tw-prose-headings: inherit;
+	}
+
+	/* Sobrescribir estilos específicos de prose para h2 */
+	.bible-content :global(h2) {
+		margin-top: 0.5rem !important;
+		margin-bottom: 0.25rem !important;
 	}
 </style>
 

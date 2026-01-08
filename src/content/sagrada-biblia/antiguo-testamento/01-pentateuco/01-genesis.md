@@ -4,8 +4,9 @@ description: 'Here is a sample of .'
 img: blog-placeholder-4.jpg
 ---
 # GÉNESIS
-## I. Orígenes del mundo y de la humanidad
-## 1. LA CREACIÓN Y LA CAÍDA
+<div class="section-intro">I. Orígenes del mundo y de la humanidad</div>
+
+## <span class="subsection-title">1. LA CREACIÓN Y LA CAÍDA</span>
 ## Primer relato de la creación*.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> En el principio creó Dios el cielo y la tierra*. <sup>2</sup> La tierra era caos y confusión*: oscuridad cubría el abismo, y un viento* de Dios aleteaba por encima de las aguas.
 
