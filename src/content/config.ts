@@ -5,7 +5,9 @@ const sagradaBiblia = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		img: z.string()
+		img: z.string().optional(),
+		type: z.enum(['libro', 'comentarios', 'paralelos']).optional(),
+		libro: z.string().optional()
 	}),
 });
 
@@ -15,7 +17,7 @@ const blog = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		img: z.string()
+		img: z.string().optional()
 	}),
 });
 

@@ -4,7 +4,9 @@
       "Bash(git checkout:*)",
       "Bash(npx astro sync:*)",
       "Bash(npm run dev:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(Select-String -Path \"c:\\\\Users\\\\Usuario\\\\Documents\\\\Platzi\\\\BFF\\\\src\\\\content\\\\sagrada-biblia\\\\antiguo-testamento\\\\01-pentateuco\\\\01-genesis.md\" -Pattern \"<\\\\sup>\")",
+      "Bash(Select-Object -First 20)"
     ]
   }
 }

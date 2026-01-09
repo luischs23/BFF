@@ -188,6 +188,24 @@ Object.values(estructura).forEach(testamento => {
 				</div>
 			</div>
 		</main>
+
+		<!-- Dialog para mostrar comentarios -->
+		<dialog id="commentDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-full mx-4 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600">
+			<div class="rounded-lg">
+				<div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-amber-100/50 dark:bg-gray-700/50 rounded-t-lg">
+					<h3 id="commentTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Comentario</h3>
+					<button id="closeCommentDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button>
+				</div>
+				<div id="commentContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm">
+					<!-- Contenido dinámico -->
+				</div>
+				<div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-amber-100/30 dark:bg-gray-700/30 rounded-b-lg">
+					<button id="closeCommentBtn" class="w-full px-4 py-2 bg-amber-700 dark:bg-amber-600 text-white rounded hover:bg-amber-800 dark:hover:bg-amber-700 transition text-sm">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</dialog>
 	</div>
 </Layout>
 
@@ -514,6 +532,53 @@ Object.values(estructura).forEach(testamento => {
 		margin-top: 0.5rem !important;
 		margin-bottom: 0.25rem !important;
 	}
+
+	/* Estilos para notas al pie (asteriscos clicables) */
+	.bible-content :global(.note-ref) {
+		color: #b45309;
+		cursor: pointer;
+		font-weight: 700;
+		font-size: 1em;
+		transition: color 0.2s;
+		display: inline;
+		user-select: none;
+		padding: 0 1px;
+		position: relative;
+	}
+
+	.bible-content :global(.note-ref:hover) {
+		color: #92400e;
+		text-decoration: underline;
+	}
+
+	:global(.dark) .bible-content :global(.note-ref) {
+		color: #fbbf24;
+	}
+
+	:global(.dark) .bible-content :global(.note-ref:hover) {
+		color: #fcd34d;
+		text-decoration: underline;
+	}
+
+	/* Dialog de comentarios */
+	#commentDialog::backdrop {
+		background: rgba(0, 0, 0, 0.6);
+	}
+
+	#commentDialog[open] {
+		animation: dialogFadeIn 0.2s ease-out;
+	}
+
+	@keyframes dialogFadeIn {
+		from {
+			opacity: 0;
+			transform: scale(0.95);
+		}
+		to {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
 </style>
 
 <script define:vars={{ slug }}>
@@ -789,4 +854,75 @@ Object.values(estructura).forEach(testamento => {
 
 	// Organizar páginas después de que el contenido esté listo
 	setTimeout(organizeBiblePages, 150);
+
+	// ========================================
+	// Sistema de comentarios (notas al pie)
+	// ========================================
+	const commentDialog = document.getElementById('commentDialog');
+	const commentTitle = document.getElementById('commentTitle');
+	const commentContent = document.getElementById('commentContent');
+	const closeCommentDialog = document.getElementById('closeCommentDialog');
+	const closeCommentBtn = document.getElementById('closeCommentBtn');
+
+	// Cerrar dialog
+	closeCommentDialog?.addEventListener('click', () => commentDialog?.close());
+	closeCommentBtn?.addEventListener('click', () => commentDialog?.close());
+	commentDialog?.addEventListener('click', (e) => {
+		if (e.target === commentDialog) commentDialog.close();
+	});
+
+	// Manejar clics en asteriscos de notas
+	function initNoteRefs() {
+		document.querySelectorAll('.note-ref').forEach(noteRef => {
+			noteRef.addEventListener('click', async (e) => {
+				e.preventDefault();
+				const ref = (e.target).dataset.ref;
+				if (!ref) return;
+
+				// Mostrar loading
+				if (commentTitle) commentTitle.textContent = 'Cargando...';
+				if (commentContent) commentContent.innerHTML = '<div class="text-center py-4"><span class="animate-pulse">Cargando comentario...</span></div>';
+				commentDialog?.showModal();
+
+				try {
+					const response = await fetch('/api/get-comment', {
+						method: 'POST',
+						headers: { 'Content-Type': 'application/json' },
+						body: JSON.stringify({ ref, bookSlug: currentSlug })
+					});
+
+					const data = await response.json();
+
+					if (response.ok && data.success) {
+						if (commentTitle) commentTitle.textContent = data.title;
+						if (commentContent) commentContent.innerHTML = `<p>${data.comment}</p>`;
+					} else {
+						if (commentTitle) commentTitle.textContent = 'Comentario no disponible';
+						if (commentContent) commentContent.innerHTML = `
+							<div class="text-center py-4 text-gray-500">
+								<p>No se encontró el comentario para esta referencia.</p>
+								<p class="text-xs mt-2 font-mono">${ref}</p>
+							</div>
+						`;
+					}
+				} catch (error) {
+					console.error('Error al obtener comentario:', error);
+					if (commentTitle) commentTitle.textContent = 'Error';
+					if (commentContent) commentContent.innerHTML = '<p class="text-red-500">Error al cargar el comentario.</p>';
+				}
+			});
+		});
+	}
+
+	// Inicializar después de que se organicen las páginas
+	setTimeout(initNoteRefs, 200);
+
+	// Re-inicializar si el contenido se reorganiza
+	const observer = new MutationObserver(() => {
+		setTimeout(initNoteRefs, 100);
+	});
+	const bibleContent = document.querySelector('.bible-content');
+	if (bibleContent) {
+		observer.observe(bibleContent, { childList: true, subtree: true });
+	}
 </script>

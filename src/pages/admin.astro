@@ -31,15 +31,32 @@ const estructura = {
 	}
 };
 
+// Separar libros principales de comentarios
+const librosprincipales = libros.filter(libro => !libro.slug.includes('-comentarios'));
+const comentarios = libros.filter(libro => libro.slug.includes('-comentarios'));
+
+// Crear un mapa de comentarios por libro base
+const comentariosPorLibro = new Map<string, typeof libros[0]>();
+comentarios.forEach(comentario => {
+	// Extraer el slug base (sin -comentarios)
+	const slugBase = comentario.slug.replace('-comentarios', '');
+	comentariosPorLibro.set(slugBase, comentario);
+});
+
 // Clasificar los libros en sus secciones
-libros.forEach(libro => {
+librosprincipales.forEach(libro => {
 	const slugParts = libro.slug.split('/');
 	if (slugParts.length >= 2) {
 		const testamento = slugParts[0] as keyof typeof estructura;
 		const seccion = slugParts[1] as keyof typeof estructura[typeof testamento]['secciones'];
 
 		if (estructura[testamento]?.secciones?.[seccion]) {
-			(estructura[testamento].secciones as any)[seccion].libros.push(libro);
+			// Añadir el libro con su comentario asociado si existe
+			const libroConComentario = {
+				...libro,
+				comentario: comentariosPorLibro.get(libro.slug)
+			};
+			(estructura[testamento].secciones as any)[seccion].libros.push(libroConComentario);
 		}
 	}
 });
@@ -72,11 +89,12 @@ Object.values(estructura).forEach(testamento => {
 								</h3>
 								<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 									{seccion.libros.map(libro => {
-										const { slug, data } = libro;
+										const { slug, data, comentario } = libro;
 										const { title } = data;
 
 										return (
 											<article class="bg-white border rounded-lg p-3 shadow-sm hover:shadow-md transition">
+												{/* Libro principal */}
 												<div class="flex items-center justify-between gap-2">
 													<h4 class="font-medium text-gray-800 truncate flex-1">{title}</h4>
 													<div class="flex gap-1 flex-shrink-0">
@@ -108,8 +126,30 @@ Object.values(estructura).forEach(testamento => {
 														>
 															L
 														</button>
+														<button
+															data-slug={slug}
+															class="link-notes-btn px-2 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition text-xs"
+															title="Vincular notas (* → clicable)"
+														>
+															N
+														</button>
 													</div>
 												</div>
+												{/* Comentarios del libro */}
+												{comentario && (
+													<div class="mt-2 pt-2 border-t border-gray-100 flex items-center justify-between gap-2">
+														<span class="text-xs text-gray-500 italic truncate flex-1">Comentarios</span>
+														<div class="flex gap-1 flex-shrink-0">
+															<button
+																data-slug={comentario.slug}
+																class="format-comments-btn px-2 py-1 bg-teal-600 text-white rounded hover:bg-teal-700 transition text-xs"
+																title="Formatear párrafos de comentarios"
+															>
+																FC
+															</button>
+														</div>
+													</div>
+												)}
 											</article>
 										);
 									})}
@@ -367,6 +407,148 @@ Object.values(estructura).forEach(testamento => {
 					button.textContent = originalText;
 					button.classList.remove('bg-red-600');
 					button.classList.add('bg-pink-600', 'hover:bg-pink-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	// Botón Formatear Comentarios (FC) - Une párrafos y separa por cita bíblica
+	document.querySelectorAll('.format-comments-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/format-comments', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-teal-600', 'hover:bg-teal-700');
+					button.classList.add('bg-green-600');
+
+					// Mostrar resultado en el dialog
+					dialogTitle.textContent = `Comentarios: ${data.book}`;
+					dialogContent.innerHTML = `
+						<div class="text-center py-8">
+							<div class="text-6xl mb-4">✅</div>
+							<p class="text-green-600 font-bold text-lg">¡Formateo completado!</p>
+							<p class="text-gray-600">Se formatearon ${data.comments} comentarios</p>
+							<p class="text-xs text-gray-500 mt-2">Los párrafos ahora están unidos y separados por cita bíblica</p>
+						</div>
+					`;
+					fixVersesBtn.classList.add('hidden');
+					dialog.showModal();
+
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-teal-600', 'hover:bg-teal-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-teal-600', 'hover:bg-teal-700');
+				button.classList.add('bg-red-600');
+
+				dialogTitle.textContent = 'Error';
+				dialogContent.innerHTML = `
+					<div class="text-center py-8">
+						<div class="text-6xl mb-4">❌</div>
+						<p class="text-red-600 font-bold">${error instanceof Error ? error.message : 'Error desconocido'}</p>
+					</div>
+				`;
+				dialog.showModal();
+
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-teal-600', 'hover:bg-teal-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	// Botón Vincular Notas (N) - Convierte * en elementos clicables
+	document.querySelectorAll('.link-notes-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/link-notes', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-indigo-600', 'hover:bg-indigo-700');
+					button.classList.add('bg-green-600');
+
+					// Mostrar resultado en el dialog
+					dialogTitle.textContent = `Notas vinculadas: ${data.book}`;
+					dialogContent.innerHTML = `
+						<div class="text-center py-8">
+							<div class="text-6xl mb-4">✅</div>
+							<p class="text-green-600 font-bold text-lg">¡Vinculación completada!</p>
+							<p class="text-gray-600">Se vincularon ${data.notesLinked} notas al pie</p>
+							<p class="text-xs text-gray-500 mt-2">Los asteriscos ahora son clicables y mostrarán sus comentarios</p>
+						</div>
+					`;
+					fixVersesBtn.classList.add('hidden');
+					dialog.showModal();
+
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-indigo-600', 'hover:bg-indigo-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-indigo-600', 'hover:bg-indigo-700');
+				button.classList.add('bg-red-600');
+
+				dialogTitle.textContent = 'Error';
+				dialogContent.innerHTML = `
+					<div class="text-center py-8">
+						<div class="text-6xl mb-4">❌</div>
+						<p class="text-red-600 font-bold">${error instanceof Error ? error.message : 'Error desconocido'}</p>
+					</div>
+				`;
+				dialog.showModal();
+
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-indigo-600', 'hover:bg-indigo-700');
 					button.disabled = false;
 				}, 2000);
 			}
