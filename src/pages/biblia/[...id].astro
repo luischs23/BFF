@@ -206,6 +206,24 @@ Object.values(estructura).forEach(testamento => {
 				</div>
 			</div>
 		</dialog>
+
+		<!-- Dialog para mostrar paralelos/referencias cruzadas -->
+		<dialog id="parallelsDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-full mx-4 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600">
+			<div class="rounded-lg">
+				<div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-blue-100/50 dark:bg-blue-900/30 rounded-t-lg">
+					<h3 id="parallelsTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Referencias Paralelas</h3>
+					<button id="closeParallelsDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button>
+				</div>
+				<div id="parallelsContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm">
+					<!-- Contenido dinámico -->
+				</div>
+				<div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-blue-100/20 dark:bg-blue-900/20 rounded-b-lg">
+					<button id="closeParallelsBtn" class="w-full px-4 py-2 bg-blue-700 dark:bg-blue-600 text-white rounded hover:bg-blue-800 dark:hover:bg-blue-700 transition text-sm">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</dialog>
 	</div>
 </Layout>
 
@@ -579,6 +597,118 @@ Object.values(estructura).forEach(testamento => {
 			transform: scale(1);
 		}
 	}
+
+	/* Dialog de paralelos */
+	#parallelsDialog::backdrop {
+		background: rgba(0, 0, 0, 0.6);
+	}
+
+	#parallelsDialog[open] {
+		animation: dialogFadeIn 0.2s ease-out;
+	}
+
+	/* Estilos para versículos clicables */
+	.bible-content :global(sup.verse-clickable) {
+		cursor: pointer;
+		transition: all 0.2s ease;
+		padding: 0 2px;
+		border-radius: 2px;
+	}
+
+	.bible-content :global(sup.verse-clickable:hover) {
+		background-color: rgba(59, 130, 246, 0.2);
+		color: #2563eb;
+	}
+
+	:global(.dark) .bible-content :global(sup.verse-clickable:hover) {
+		background-color: rgba(96, 165, 250, 0.2);
+		color: #60a5fa;
+	}
+
+	/* Indicador de que el versículo tiene paralelos - color ámbar */
+	.bible-content :global(sup.verse-clickable.has-parallels) {
+		color: #b45309;
+		font-weight: 700;
+	}
+
+	:global(.dark) .bible-content :global(sup.verse-clickable.has-parallels) {
+		color: #fbbf24;
+	}
+
+	.bible-content :global(sup.verse-clickable.has-parallels:hover) {
+		background-color: rgba(180, 83, 9, 0.15);
+		color: #92400e;
+	}
+
+	:global(.dark) .bible-content :global(sup.verse-clickable.has-parallels:hover) {
+		background-color: rgba(251, 191, 36, 0.2);
+		color: #fcd34d;
+	}
+
+	/* Lista de paralelos en el dialog */
+	:global(.parallels-list) {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	:global(.parallels-list li) {
+		padding: 0.75rem 1rem;
+		border-bottom: 1px solid #e5e7eb;
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+	}
+
+	:global(.dark .parallels-list li) {
+		border-bottom-color: #374151;
+	}
+
+	:global(.parallels-list li:last-child) {
+		border-bottom: none;
+	}
+
+	:global(.parallels-list a) {
+		color: #2563eb;
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	:global(.parallels-list a:hover) {
+		text-decoration: underline;
+	}
+
+	:global(.dark .parallels-list a) {
+		color: #60a5fa;
+	}
+
+	:global(.parallel-badge) {
+		font-size: 0.65rem;
+		padding: 0.15rem 0.4rem;
+		border-radius: 0.25rem;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	:global(.parallel-badge.nt) {
+		background-color: #dbeafe;
+		color: #1e40af;
+	}
+
+	:global(.dark .parallel-badge.nt) {
+		background-color: #1e3a5f;
+		color: #93c5fd;
+	}
+
+	:global(.parallel-badge.at) {
+		background-color: #fef3c7;
+		color: #92400e;
+	}
+
+	:global(.dark .parallel-badge.at) {
+		background-color: #451a03;
+		color: #fcd34d;
+	}
 </style>
 
 <script define:vars={{ slug }}>
@@ -920,9 +1050,169 @@ Object.values(estructura).forEach(testamento => {
 	// Re-inicializar si el contenido se reorganiza
 	const observer = new MutationObserver(() => {
 		setTimeout(initNoteRefs, 100);
+		setTimeout(initVerseClickHandlers, 150);
 	});
 	const bibleContent = document.querySelector('.bible-content');
 	if (bibleContent) {
 		observer.observe(bibleContent, { childList: true, subtree: true });
 	}
+
+	// ========================================
+	// Sistema de paralelos (referencias cruzadas)
+	// ========================================
+	const parallelsDialog = document.getElementById('parallelsDialog');
+	const parallelsTitle = document.getElementById('parallelsTitle');
+	const parallelsContent = document.getElementById('parallelsContent');
+	const closeParallelsDialog = document.getElementById('closeParallelsDialog');
+	const closeParallelsBtn = document.getElementById('closeParallelsBtn');
+
+	// Cerrar dialog de paralelos
+	closeParallelsDialog?.addEventListener('click', () => parallelsDialog?.close());
+	closeParallelsBtn?.addEventListener('click', () => parallelsDialog?.close());
+	parallelsDialog?.addEventListener('click', (e) => {
+		if (e.target === parallelsDialog) parallelsDialog.close();
+	});
+
+	// Variable para rastrear el capítulo actual
+	let currentChapter = 1;
+
+	// Función para detectar el capítulo actual basado en el chapter-marker más cercano
+	function getChapterForVerse(verseElement) {
+		// Buscar hacia atrás el chapter-marker más cercano
+		let sibling = verseElement.previousElementSibling;
+		let parent = verseElement.parentElement;
+
+		while (parent) {
+			// Buscar en el mismo párrafo primero
+			const chapterMarker = parent.querySelector('.chapter-marker');
+			if (chapterMarker) {
+				return parseInt(chapterMarker.dataset.chapter) || 1;
+			}
+
+			// Buscar en elementos anteriores
+			let prevElement = parent.previousElementSibling;
+			while (prevElement) {
+				const marker = prevElement.querySelector?.('.chapter-marker') ||
+							   (prevElement.classList?.contains('chapter-marker') ? prevElement : null);
+				if (marker) {
+					return parseInt(marker.dataset?.chapter || marker.getAttribute('data-chapter')) || 1;
+				}
+				// También verificar si el elemento mismo es un chapter-marker
+				if (prevElement.classList?.contains('chapter-marker')) {
+					return parseInt(prevElement.dataset?.chapter) || 1;
+				}
+				prevElement = prevElement.previousElementSibling;
+			}
+
+			parent = parent.parentElement;
+		}
+
+		return currentChapter;
+	}
+
+	// Función para hacer los versículos clicables
+	function initVerseClickHandlers() {
+		const allSups = document.querySelectorAll('.bible-content sup');
+
+		allSups.forEach(sup => {
+			// Ignorar si ya está procesado o si es un note-ref
+			if (sup.classList.contains('verse-clickable') || sup.closest('.note-ref')) {
+				return;
+			}
+
+			// Obtener el número del versículo
+			const verseText = sup.textContent?.trim();
+			const verseNum = parseInt(verseText);
+
+			if (isNaN(verseNum)) return;
+
+			// Agregar clase para hacerlo clicable
+			sup.classList.add('verse-clickable');
+			sup.setAttribute('data-verse', verseNum.toString());
+			sup.setAttribute('title', 'Ver referencias paralelas');
+
+			// Manejar clic
+			sup.addEventListener('click', async (e) => {
+				e.preventDefault();
+				e.stopPropagation();
+
+				const verse = parseInt(sup.getAttribute('data-verse') || '1');
+				const chapter = getChapterForVerse(sup);
+
+				// Actualizar capítulo actual para futuras referencias
+				currentChapter = chapter;
+
+				// Mostrar loading
+				if (parallelsTitle) parallelsTitle.textContent = 'Cargando...';
+				if (parallelsContent) parallelsContent.innerHTML = '<div class="text-center py-4"><span class="animate-pulse">Buscando referencias paralelas...</span></div>';
+				parallelsDialog?.showModal();
+
+				try {
+					const response = await fetch('/api/get-parallels', {
+						method: 'POST',
+						headers: { 'Content-Type': 'application/json' },
+						body: JSON.stringify({
+							bookSlug: currentSlug,
+							chapter: chapter,
+							verse: verse
+						})
+					});
+
+					const data = await response.json();
+
+					if (response.ok && data.success) {
+						if (parallelsTitle) parallelsTitle.textContent = data.title;
+
+						if (data.parallels && data.parallels.length > 0) {
+							const listItems = data.parallels.map(p => {
+								const badge = p.isNT
+									? '<span class="parallel-badge nt">NT</span>'
+									: '<span class="parallel-badge at">AT</span>';
+
+								const link = p.bookPath
+									? `<a href="${p.bookPath}#chapter-${p.chapter}">${p.reference}</a>`
+									: `<span>${p.reference}</span>`;
+
+								return `<li>${badge}${link}<span class="text-gray-500 dark:text-gray-400 text-xs ml-auto">${p.bookName}</span></li>`;
+							}).join('');
+
+							if (parallelsContent) {
+								parallelsContent.innerHTML = `
+									<p class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+										${data.count} referencia${data.count !== 1 ? 's' : ''} paralela${data.count !== 1 ? 's' : ''} encontrada${data.count !== 1 ? 's' : ''}
+									</p>
+									<ul class="parallels-list">${listItems}</ul>
+								`;
+							}
+						} else {
+							if (parallelsContent) {
+								parallelsContent.innerHTML = `
+									<div class="text-center py-6 text-gray-500">
+										<svg class="w-12 h-12 mx-auto mb-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+										</svg>
+										<p>No hay referencias paralelas para este versículo.</p>
+									</div>
+								`;
+							}
+						}
+					} else {
+						if (parallelsTitle) parallelsTitle.textContent = 'Sin paralelos';
+						if (parallelsContent) parallelsContent.innerHTML = `
+							<div class="text-center py-4 text-gray-500">
+								<p>No se encontraron referencias paralelas.</p>
+							</div>
+						`;
+					}
+				} catch (error) {
+					console.error('Error al obtener paralelos:', error);
+					if (parallelsTitle) parallelsTitle.textContent = 'Error';
+					if (parallelsContent) parallelsContent.innerHTML = '<p class="text-red-500">Error al cargar las referencias paralelas.</p>';
+				}
+			});
+		});
+	}
+
+	// Inicializar versículos clicables después de que se organicen las páginas
+	setTimeout(initVerseClickHandlers, 250);
 </script>
