@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 interface TitleMatch {
   line: number;
   original: string;
-  type: 'section-intro' | 'subsection-title' | 'parallel';
+  type: 'section-intro' | 'section-title' | 'subsection-title' | 'parallel';
   converted: string;
 }
 
@@ -196,6 +196,13 @@ export default function TitleEditor() {
     setMessage({ type: 'success', text: 'Convertido a section-intro' });
   };
 
+  const convertToSectionTitle = (index: number) => {
+    const title = titles[index];
+    const titleText = title.original.replace(/^## /, '');
+    applyConversion(index, `<span class="section-title">${titleText}</span>`);
+    setMessage({ type: 'success', text: 'Convertido a section-title' });
+  };
+
   const convertToSubsectionTitle = (index: number) => {
     const title = titles[index];
     const titleText = title.original.replace(/^## /, '');
@@ -352,6 +359,13 @@ export default function TitleEditor() {
                       → section-intro
                     </button>
                     <button
+                      onClick={() => convertToSectionTitle(index)}
+                      className="px-3 py-2 bg-teal-600 text-white text-sm rounded hover:bg-teal-700 transition"
+                      title="Convertir a título de sección (tamaño intermedio, centrado, negro)"
+                    >
+                      → section-title
+                    </button>
+                    <button
                       onClick={() => convertToSubsectionTitle(index)}
                       className="px-3 py-2 bg-purple-600 text-white text-sm rounded hover:bg-purple-700 transition"
                       title="Convertir a subtítulo de subsección"
@@ -417,6 +431,13 @@ export default function TitleEditor() {
               <br />
               <code className="bg-amber-100 dark:bg-amber-800 px-1 rounded text-xs">
                 {'<span class="section-intro">II. Historia de Abrahán</span>'}
+              </code>
+            </li>
+            <li>
+              <strong className="text-teal-700 dark:text-teal-300">section-title:</strong> Título intermedio, centrado y negro (ej: "LIBRO PRIMERO", "PRIMERA PARTE")
+              <br />
+              <code className="bg-amber-100 dark:bg-amber-800 px-1 rounded text-xs">
+                {'<span class="section-title">LIBRO PRIMERO</span>'}
               </code>
             </li>
             <li>

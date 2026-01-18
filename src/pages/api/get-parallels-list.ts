@@ -17,7 +17,9 @@ function parseParallelsFile(content: string, bookAbbrev: string): Set<string> {
   for (const line of lines) {
     // Detectar si es una referencia de origen del libro actual
     // Formatos: "Gn 1 1", "Gn 1 1-2", "Gn 1 1 - 2 4"
-    const mainRefMatch = line.match(new RegExp(`^${bookAbbrev}\\s+(\\d+)\\s+(\\d+)(?:-(\\d+))?(?:\\s+-\\s+(\\d+)\\s+(\\d+))?$`));
+    // Para abreviaturas como "1S", "2S", etc., el archivo puede tener "1 S" con espacio
+    const escapedAbbrev = bookAbbrev.replace(/([123])([A-Za-z])/, '$1\\s?$2');
+    const mainRefMatch = line.match(new RegExp(`^${escapedAbbrev}\\s+(\\d+)\\s+(\\d+)(?:-(\\d+))?(?:\\s+-\\s+(\\d+)\\s+(\\d+))?$`));
 
     if (mainRefMatch) {
       const chapter = mainRefMatch[1];

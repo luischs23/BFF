@@ -101,6 +101,7 @@ Object.values(estructura).forEach(testamento => {
 												<a
 													href={`/biblia/${libro.slug}`}
 													class="block px-3 py-1.5 text-sm text-gray-700 hover:bg-amber-100 hover:text-amber-800 rounded transition"
+													data-astro-prefetch="false"
 												>
 													{libro.data.title}
 												</a>

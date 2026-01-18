@@ -147,7 +147,9 @@ function parseParallelsFile(content: string, bookAbbrev: string): Map<string, Pa
     // "Gn 1 1-2" - capítulo 1, versículos 1-2 (guión pegado)
     // "Gn 1 1 - 2 4" - desde cap 1 vers 1 hasta cap 2 vers 4 (guión con espacios)
     // "Gn 1 1-32" - capítulo 1, versículos 1-32
-    const mainRefMatch = line.match(new RegExp(`^${bookAbbrev}\\s+(\\d+)\\s+(\\d+)(?:-(\\d+))?(?:\\s+-\\s+(\\d+)\\s+(\\d+))?$`));
+    // Para abreviaturas como "1S", "2S", etc., el archivo puede tener "1 S" con espacio
+    const escapedAbbrev = bookAbbrev.replace(/([123])([A-Za-z])/, '$1\\s?$2');
+    const mainRefMatch = line.match(new RegExp(`^${escapedAbbrev}\\s+(\\d+)\\s+(\\d+)(?:-(\\d+))?(?:\\s+-\\s+(\\d+)\\s+(\\d+))?$`));
 
     if (mainRefMatch) {
       const chapter = mainRefMatch[1];

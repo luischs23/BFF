@@ -61,8 +61,11 @@ function extractCommentRefs(content: string, bookAbbrev: string): string[] {
 
   // Patrón para detectar inicio de comentario: "Gn 1 2 (a)" o "Gn 1" o "Gn 1 2"
   // El formato es: ABBREV CAPITULO [VERSICULO] [(LETRA)]
+  // Para abreviaturas como "1S", "2S", etc., el archivo puede tener "1 S" con espacio
+  // Escapamos caracteres especiales y permitimos espacio opcional después del número inicial
+  const escapedAbbrev = bookAbbrev.replace(/([123])([A-Za-z])/, '$1\\s?$2');
   const commentPattern = new RegExp(
-    `^${bookAbbrev}\\s+(\\d+)(?:\\s+(\\d+))?(?:\\s+\\(([a-z])\\))?\\s`,
+    `^${escapedAbbrev}\\s+(\\d+)(?:\\s+(\\d+))?(?:\\s+\\(([a-z])\\))?\\s`,
     'gm'
   );
 
