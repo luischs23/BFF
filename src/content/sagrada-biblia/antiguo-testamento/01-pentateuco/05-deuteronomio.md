@@ -5,7 +5,7 @@ img: blog-placeholder-4.jpg
 ---
 # DEUTERONOMIO
 ## I. Discursos introductorios
-# PRIMER DISCURSO DE MOISÉS
+## PRIMER DISCURSO DE MOISÉS
 ## Tiempo y lugar*.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Éstas son las palabras que dirigió Moisés a todo Israel al otro lado del Jordán, en el desierto, en la Arabá, frente a Suf, entre Parán, Tófel, Labán, Jaserot y Di Zahab. <sup>2</sup> Once son las jornadas desde el Horeb, por el camino del monte Seír, hasta Cades Barnea. <sup>3</sup> El año cuarenta, el día uno del undécimo mes, comunicó Moisés a los israelitas todo cuanto Yahvé había dispuesto para ellos. <sup>4</sup> Después de haber derrotado a Sijón, rey de los amorreos, que moraba en Jesbón, y a Og, rey de Basán, que habitaba en Astarot y en Edreí, <sup>5</sup> al otro lado del Jordán, en el país de Moab, comenzó Moisés a promulgar esta Ley. Les dijo*:
 
@@ -560,7 +560,7 @@ Estarás oprimido y despojado toda la vida, y no habrá quien te socorra. <sup>3
 
 <sup>63</sup> Y así como Yahvé se complacía en haceros el bien y en multiplicaros, así se gozará en perderos y destruiros. Seréis arrancados de la tierra adonde vas a entrar para tomarla en posesión. <sup>64</sup> Yahvé te dispersará entre todos los pueblos, de un extremo a otro de la tierra, y allí servirás a otros dioses, de madera y de piedra, que no conocíais ni tú ni tus padres. <sup>65</sup> No hallarás sosiego en aquellas naciones, ni habrá descanso para la planta de tus pies, pues Yahvé te dará allí corazón tembloroso, languidez de ojos y ansiedad de alma, es decir, <sup>66</sup> sentirás que tu vida está pendiente de un hilo, tendrás miedo de noche y de día y no estarás seguro ni de tu vida. <sup>67</sup> Por la mañana dirás: «¡Quién me diera que anocheciese!», y por la tarde suspirarás: «¡Quién me diera que amaneciese!», a causa del espanto que estremecerá tu corazón y del espectáculo que verán tus ojos. <sup>68</sup> Yahvé volverá a llevarte a Egipto en barcos, por ese camino del que yo te había dicho: «No volverás a verlo más.» Y allí os ofreceréis en venta a vuestros enemigos como esclavos y esclavas, pero no habrá ni comprador*.
 
-# TERCER DISCURSO
+## TERCER DISCURSO
 <sup>69</sup> Éstas son las palabras de la alianza que Yahvé mandó a Moisés concluir con los israelitas en el país de Moab, aparte de la alianza que había concluido con ellos en el Horeb*.
 
 ## Prólogo histórico*.

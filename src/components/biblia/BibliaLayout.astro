@@ -348,9 +348,8 @@ const { title, slug, estructura } = Astro.props;
 	/* ========================================
 	   BIBLE CONTENT ESTILOS
 	   ======================================== */
-	/* Contenido de la biblia - página con dos columnas */
+	/* Contenido de la biblia */
 	.bible-content {
-		padding: 0;
 		font-family: "Times New Roman", Times, serif;
 	}
 
@@ -715,40 +714,36 @@ const { title, slug, estructura } = Astro.props;
 	import { initHeaderAutoHide } from "../../scripts/biblia/headerAutoHide";
 	import { initVerseNavigation } from "../../scripts/biblia/verseNavigation";
 
-	// Obtener el slug desde la variable global
-	const currentSlug = (window as any).currentBibliaSlug;
+	// Función para inicializar todos los sistemas
+	function initializeAll() {
+		const currentSlug = (window as any).currentBibliaSlug;
 
-	// Inicializar todos los sistemas
-	document.addEventListener('DOMContentLoaded', () => {
 		// Sistemas básicos
 		initSectionToggles(currentSlug);
 		scrollToActiveBook();
 		initMobileMenu();
 		initDarkMode();
 
-		// Organizar páginas después de que el contenido esté listo
-		setTimeout(() => {
+		// Organizar páginas y mostrar contenido inmediatamente
+		requestAnimationFrame(() => {
 			organizeBiblePages();
-		}, 150);
 
-		// Sistemas de comentarios y paralelos
-		setTimeout(() => {
+			// Inicializar sistemas después de que el contenido esté visible
 			initCommentSystem(currentSlug);
-		}, 200);
-
-		setTimeout(async () => {
-			await initParallelsSystem(currentSlug);
-		}, 300);
+			initParallelsSystem(currentSlug);
+			initVerseNavigation();
+		});
 
 		// Navegación
 		initChapterNavigation();
 		initHeaderAutoHide();
+	}
 
-		// Navegación por versículos desde hash
-		setTimeout(() => {
-			initVerseNavigation();
-		}, 600);
-	});
+	// Inicializar en la primera carga
+	document.addEventListener('DOMContentLoaded', initializeAll);
+
+	// Re-inicializar cuando Astro hace una navegación SPA (ClientRouter)
+	document.addEventListener('astro:page-load', initializeAll);
 
 	// También ejecutar navegación si el hash cambia
 	window.addEventListener('hashchange', () => {
