@@ -125,22 +125,18 @@ const { title, slug, estructura } = Astro.props;
 		transform: translateY(-100%);
 	}
 
-	/* Ajustar padding del contenido principal en móvil */
-	@media (max-width: 767px) {
-		#bibliaContainer > main {
-			padding-top: 4rem !important;
-		}
-
-		#bibliaContainer > main > div:first-child {
-			padding-top: 0.5rem;
-		}
+	/* Ajustar padding del contenido principal para el header fijo */
+	#bibliaContainer > main {
+		padding-top: 4rem !important;
 	}
 
-	/* Asegurar que el header esté por encima de todo en móvil */
-	@media (max-width: 767px) {
-		#mobileHeader {
-			z-index: 60 !important;
-		}
+	#bibliaContainer > main > div:first-child {
+		padding-top: 0.5rem;
+	}
+
+	/* Asegurar que el header esté por encima de todo */
+	#mobileHeader {
+		z-index: 60 !important;
 	}
 
 	/* Padding para compensar la barra de progreso en móvil */

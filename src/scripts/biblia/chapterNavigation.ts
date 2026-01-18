@@ -12,6 +12,16 @@ let chapterNavOpen = false;
 let chapters: ChapterInfo[] = [];
 let currentVisibleChapter = 1;
 
+// Función para actualizar el capítulo visible desde otros módulos
+export function setCurrentVisibleChapter(chapter: number): void {
+	currentVisibleChapter = chapter;
+}
+
+// Función para obtener el capítulo visible actual
+export function getCurrentVisibleChapter(): number {
+	return currentVisibleChapter;
+}
+
 // Detectar todos los capítulos en el contenido
 function detectChapters(): ChapterInfo[] {
 	const mainContent = document.querySelector('main');
