@@ -11,6 +11,7 @@ interface ChapterInfo {
 let chapterNavOpen = false;
 let chapters: ChapterInfo[] = [];
 let currentVisibleChapter = 1;
+let initialized = false;
 
 // Función para actualizar el capítulo visible desde otros módulos
 export function setCurrentVisibleChapter(chapter: number): void {
@@ -160,26 +161,39 @@ function toggleChapterNav(): void {
 }
 
 export function initChapterNavigation(): void {
-	const chapterNavToggle = document.getElementById('chapterNavToggle');
-	const chapterNavPanel = document.getElementById('chapterNavPanel');
-	const closeChapterNav = document.getElementById('closeChapterNav');
+	// Resetear estado
+	chapterNavOpen = false;
+	chapters = [];
 
-	// Cerrar panel al hacer clic fuera
-	document.addEventListener('click', (e) => {
-		if (chapterNavOpen &&
-			!chapterNavPanel?.contains(e.target as Node) &&
-			!chapterNavToggle?.contains(e.target as Node)) {
-			chapterNavOpen = false;
-			chapterNavPanel?.classList.add('hidden');
-		}
-	});
+	// Solo agregar listeners del document una vez
+	if (!initialized) {
+		initialized = true;
 
-	chapterNavToggle?.addEventListener('click', (e) => {
-		e.stopPropagation();
-		toggleChapterNav();
-	});
-	closeChapterNav?.addEventListener('click', (e) => {
-		e.stopPropagation();
-		closeChapterNavPanel();
-	});
+		// Usar delegación de eventos para manejar clics
+		document.addEventListener('click', (e) => {
+			const target = e.target as HTMLElement;
+			const panel = document.getElementById('chapterNavPanel');
+			const toggle = document.getElementById('chapterNavToggle');
+			const closeBtn = document.getElementById('closeChapterNav');
+
+			// Clic en el botón toggle
+			if (toggle && (target === toggle || toggle.contains(target))) {
+				e.stopPropagation();
+				toggleChapterNav();
+				return;
+			}
+
+			// Clic en el botón cerrar
+			if (closeBtn && (target === closeBtn || closeBtn.contains(target))) {
+				e.stopPropagation();
+				closeChapterNavPanel();
+				return;
+			}
+
+			// Clic fuera del panel - cerrar
+			if (chapterNavOpen && panel && !panel.contains(target)) {
+				closeChapterNavPanel();
+			}
+		});
+	}
 }
