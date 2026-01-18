@@ -424,10 +424,16 @@ const { title, slug, estructura } = Astro.props;
 	.bible-content p {
 		text-align: justify;
 		line-height: 1.7;
-		font-size: 0.9rem;
+		font-size: 1rem;
 		margin-bottom: 0.75rem;
 		font-family: "Times New Roman", Times, serif;
 	}
+
+	/* Tamaños de texto dinámicos */
+	.bible-content.text-sm p { font-size: 0.875rem !important; }
+	.bible-content.text-base p { font-size: 1rem !important; }
+	.bible-content.text-lg p { font-size: 1.125rem !important; }
+	.bible-content.text-xl p { font-size: 1.25rem !important; }
 
 	/* Divisor de página */
 	.bible-content .page-divider {

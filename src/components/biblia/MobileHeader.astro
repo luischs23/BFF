@@ -373,7 +373,6 @@ const { title } = Astro.props;
 	function initFontSize() {
 		// Evitar inicialización múltiple
 		if (fontSizeInitialized && document.getElementById('fontSizePanel')) {
-			console.log('🔤 Ya inicializado, aplicando solo tamaño guardado');
 			const bibleContent = document.querySelector('.bible-content');
 			const savedSize = localStorage.getItem('bibleFontSize') || 'medium';
 			const fontSizes: Record<string, string> = {
@@ -390,7 +389,6 @@ const { title } = Astro.props;
 		}
 
 		fontSizeInitialized = true;
-		console.log('🔤 initFontSize() ejecutado');
 
 		const fontSizeToggle = document.getElementById('fontSizeToggle');
 		const bibleContent = document.querySelector('.bible-content');
