@@ -1,5 +1,5 @@
 ---
-import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown } from "lucide-astro";
+import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown, AArrowUp } from "lucide-astro";
 
 interface Props {
 	title: string;
@@ -14,8 +14,8 @@ const { title } = Astro.props;
 >
 	<!-- Vista normal del header -->
 	<div id="headerNormal" class="flex items-center justify-between px-4 py-3">
-		<!-- Botón de búsqueda a la izquierda -->
-		<div class="absolute left-3">
+		<!-- Botones a la izquierda -->
+		<div class="absolute left-3 flex items-center gap-2">
 			<button
 				id="searchToggle"
 				class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition"
@@ -23,6 +23,15 @@ const { title } = Astro.props;
 				title="Buscar"
 			>
 				<Search class="h-5 w-5" />
+			</button>
+			<!-- Botón tamaño de texto -->
+			<button
+				id="fontSizeToggle"
+				class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition"
+				aria-label="Cambiar tamaño de texto"
+				title="Tamaño de texto"
+			>
+				<AArrowUp class="h-5 w-5" />
 			</button>
 		</div>
 
@@ -357,4 +366,142 @@ const { title } = Astro.props;
 	// Inicializar en carga
 	document.addEventListener('DOMContentLoaded', initSearch);
 	document.addEventListener('astro:page-load', initSearch);
+
+	// Control de tamaño de texto
+	let fontSizeInitialized = false;
+
+	function initFontSize() {
+		// Evitar inicialización múltiple
+		if (fontSizeInitialized && document.getElementById('fontSizePanel')) {
+			console.log('🔤 Ya inicializado, aplicando solo tamaño guardado');
+			const bibleContent = document.querySelector('.bible-content');
+			const savedSize = localStorage.getItem('bibleFontSize') || 'medium';
+			const fontSizes: Record<string, string> = {
+				small: 'text-sm',
+				medium: 'text-base',
+				large: 'text-lg',
+				xlarge: 'text-xl'
+			};
+			if (bibleContent) {
+				Object.values(fontSizes).forEach(cls => bibleContent.classList.remove(cls));
+				bibleContent.classList.add(fontSizes[savedSize] || fontSizes.medium);
+			}
+			return;
+		}
+
+		fontSizeInitialized = true;
+		console.log('🔤 initFontSize() ejecutado');
+
+		const fontSizeToggle = document.getElementById('fontSizeToggle');
+		const bibleContent = document.querySelector('.bible-content');
+
+		const fontSizes: Record<string, string> = {
+			small: 'text-sm',
+			medium: 'text-base',
+			large: 'text-lg',
+			xlarge: 'text-xl'
+		};
+
+		// Crear el panel dinámicamente
+		let fontSizePanel = document.getElementById('fontSizePanel');
+
+		if (!fontSizePanel) {
+			fontSizePanel = document.createElement('div');
+			fontSizePanel.id = 'fontSizePanel';
+			fontSizePanel.setAttribute('style', 'position: fixed; background: white; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); border: 1px solid #d1d5db; padding: 12px; min-width: 160px; z-index: 9999; display: none;');
+			fontSizePanel.innerHTML = `
+				<p style="font-size: 12px; color: #6b7280; margin-bottom: 8px; font-weight: 500;">Tamaño de texto</p>
+				<div style="display: flex; flex-direction: column; gap: 4px;">
+					<button class="font-size-option" data-size="small" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151; font-size: 14px;">
+						<span style="font-size: 12px; font-weight: bold; margin-right: 8px;">A</span> Pequeño
+					</button>
+					<button class="font-size-option" data-size="medium" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151;">
+						<span style="font-size: 16px; font-weight: bold; margin-right: 8px;">A</span> Mediano
+					</button>
+					<button class="font-size-option" data-size="large" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151;">
+						<span style="font-size: 18px; font-weight: bold; margin-right: 8px;">A</span> Grande
+					</button>
+					<button class="font-size-option" data-size="xlarge" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151;">
+						<span style="font-size: 20px; font-weight: bold; margin-right: 8px;">A</span> Muy grande
+					</button>
+				</div>
+			`;
+			document.body.appendChild(fontSizePanel);
+		}
+
+		const fontSizeOptions = fontSizePanel.querySelectorAll('.font-size-option');
+
+		// Cargar tamaño guardado
+		const savedSize = localStorage.getItem('bibleFontSize') || 'medium';
+		applyFontSize(savedSize);
+		updateActiveOption(savedSize);
+
+		// Toggle panel - usar variable para controlar estado
+		let panelOpen = false;
+
+		if (fontSizeToggle && !fontSizeToggle.hasAttribute('data-initialized')) {
+			fontSizeToggle.setAttribute('data-initialized', 'true');
+
+			fontSizeToggle.addEventListener('click', (e) => {
+				e.stopPropagation();
+				e.preventDefault();
+
+				panelOpen = !panelOpen;
+
+				if (panelOpen) {
+					const rect = fontSizeToggle.getBoundingClientRect();
+					fontSizePanel!.style.top = `${rect.bottom + 8}px`;
+					fontSizePanel!.style.left = `${rect.left}px`;
+					fontSizePanel!.style.display = 'block';
+				} else {
+					fontSizePanel!.style.display = 'none';
+				}
+			});
+
+			// Cerrar panel al hacer clic fuera - solo una vez
+			document.addEventListener('click', (e) => {
+				const target = e.target as Node;
+				if (panelOpen && fontSizePanel && !fontSizePanel.contains(target) && target !== fontSizeToggle && !fontSizeToggle.contains(target)) {
+					fontSizePanel.style.display = 'none';
+					panelOpen = false;
+				}
+			});
+		}
+
+		// Opciones de tamaño
+		fontSizeOptions.forEach(option => {
+			if (!option.hasAttribute('data-initialized')) {
+				option.setAttribute('data-initialized', 'true');
+				option.addEventListener('click', (e) => {
+					e.stopPropagation();
+					const size = (option as HTMLElement).dataset.size || 'medium';
+					applyFontSize(size);
+					updateActiveOption(size);
+					localStorage.setItem('bibleFontSize', size);
+					fontSizePanel!.style.display = 'none';
+					panelOpen = false;
+				});
+			}
+		});
+
+		function applyFontSize(size: string) {
+			if (!bibleContent) return;
+			Object.values(fontSizes).forEach(cls => bibleContent.classList.remove(cls));
+			bibleContent.classList.add(fontSizes[size] || fontSizes.medium);
+		}
+
+		function updateActiveOption(size: string) {
+			fontSizeOptions.forEach(option => {
+				const optionSize = (option as HTMLElement).dataset.size;
+				if (optionSize === size) {
+					(option as HTMLElement).style.background = '#fde68a';
+				} else {
+					(option as HTMLElement).style.background = 'transparent';
+				}
+			});
+		}
+	}
+
+	document.addEventListener('DOMContentLoaded', initFontSize);
+	document.addEventListener('astro:page-load', initFontSize);
 </script>
