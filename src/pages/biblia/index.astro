@@ -2,7 +2,12 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 
-const libros = await getCollection('sagrada-biblia');
+const todosLosLibros = await getCollection('sagrada-biblia');
+
+// Filtrar solo libros principales (excluir comentarios y paralelos)
+const libros = todosLosLibros.filter(libro =>
+	!libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos')
+);
 
 // Organizar libros por sección
 const estructura = {

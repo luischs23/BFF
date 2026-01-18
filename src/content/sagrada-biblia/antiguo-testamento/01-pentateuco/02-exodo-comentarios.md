@@ -4,4 +4,536 @@ description: 'Comentarios y notas al libro del Éxodo'
 type: 'comentarios'
 libro: 'exodo'
 ---
+Ex 1 La lista inicial, vv. 1-5.7, pertenece probablemente a la redacción sacerdotal del Pentateuco. En el resto del capítulo están presentes las tradiciones yahvista, vv. 6 y 8-12, elohista, vv. 15-22, y sacerdotal, vv. 13-14. De la vida de los grupos israelitas durante su estancia en Egipto, el autor sagrado no retiene más que lo que interesa a la historia religiosa que quiere escribir: la expansión numérica de las familias nacidas de Jacob y la opresión egipcia, cuyo relato prepara el del Éxodo y el de la Alianza en el Sinaí.
 
+Ex 1 5 El griego precisa «setenta y cinco personas», ver Gn 46 27+, y pone «José estaba en Egipto» al principio del v.
+
+Ex 1 11 (a) No parece que en Egipto se conociera una organización regular de prestación personal, pero para los grandes trabajos públicos reclutaban la mano de obra entre los prisioneros de guerra y los siervos adscritos a los dominios reales, ver en cuanto a Israel 2 S 12 31. Los israelitas recibieron como una opresión insoportable su equiparación a estas categorías inferiores: es comprensible que quisieran recuperar la vida libre del desierto; es también comprensible que los egipcios consideraran su propuesta como una rebelión de esclavos.
+
+Ex 1 11 (b) Trascripción del egipcio Per-âa, «la gran Casa», fórmula protocolaria que designa el Palacio, la Corte y, desde la dinastía XVIII, la misma persona del rey. «Faraón» se utiliza aquí como nombre propio (en adelante, utilizaremos, sin embargo, la minúscula).
+
+Ex 1 11 (c) Nombre de la residencia del faraón Ramsés II en el Delta, y que se identifica con Tanis o con Cantir. Esta mención designa a Ramsés II (1290- 1224) como faraón opresor y da aproximadamente la fecha del Éxodo.
+
+Ex 1 14 La historia de la opresión seguirá en 5 6-23. En los vv. siguientes, las medidas tomadas para el exterminio de los niños varones no están acordes con las necesidades de los trabajos forzados, pero preparan la historia del nacimiento de Moisés.
+
+Ex 1 15 Los descendientes de Jacob son llamados aquí, en los textos de la opresión, “hebreos”. En la perspectiva del Pentateuco este nombre proviene sin duda del antepasado de Abrahán (véase Gn 10 24-30; 11 16-26). Es el nombre que los demás dan a los israelitas, como en 1 16 o en 2 6-7; o que ellos se dan a sí mismos frente a los otros, como en 1 19; pero que también se utiliza en la narración, como en 1 15; 2 11, 13 etc. Se ha pretendido explicar por los textos no bíblicos del segundo milenio a. C. que hablan de Habiru/Apiru. Fuera de la posible correspondencia de ‘ibrî, “hebreo”, con ‘apiru, es posible que en Egipto los israelitas fueran asimilados a los ‘apiru, prisioneros de guerra.
+
+Ex 1 16 Lit. «Fijaos en las dos piedras». Unos entienden que las dos piedras eran el asiento de la parturienta; otros opinan que la expresión se refiere al sexo del recién nacido. La versión siríaca dice: «las dos rodillas»; el griego traduce libremente: «cuando están a punto de dar a luz».
+
+Ex 1 22 La palabra designa el río por excelencia de Egipto, el Nilo, pero se aplica también a cualquiera de sus principales brazos o ramificaciones.
+
+Ex 2 Atribuido a las tradiciones yahvista-elohísta, o sólo a la tradición elohísta.
+
+Ex 2 10 Etimología popular del nombre de Moisés (hebreo mošeh) a partir del verbo māšâ «sacar». ¡Pero la hija del faraón no hablaba hebreo! En realidad, este nombre es egipcio, conocido en su forma abreviada, moses, o en una forma completa, por ejemplo, Tutmosis, «ha nacido el dios Thot». —Se ha comparado la historia de Moisés sacado de las aguas con las leyendas acerca de la infancia de algunos personajes célebres, especialmente Sargón de Agadé, rey de Mesopotamia en el milenio III, a quien su madre había abandonado junto al río en una cesta de junco.
+
+Ex 2 11 (a) Vv. 11-22 (o, según algunos, sólo 15-22) de tradición yahvista. A Madián generalmente se le sitúa en Arabia, al sur de Edom, al este del golfo de Ácaba; el folklore árabe ha conservado el recuerdo de una estancia de Moisés en esa región. Sin embargo, esta localización es posterior, y cierto número de textos nos presentan a los madianitas como grandes nómadas que frecuentaban las rutas de Palestina, Gn 37 28.36, o de la península sinaítica, Nm 10 29-32, y que realizaban incursiones en Moab, Gn 36 35. 1 R 11 18 nos da una indicación más precisa sobre su territorio: un príncipe de Edom, en su huida a Egipto, atraviesa Madián y luego Farán (el sur del Negueb, entre Cadés y Egipto). Así pues, habría que situar a Madián, no en Arabia, sino en la península del Sinaí, al este del desierto de Farán, donde Dios se reveló a Moisés.
+
+Ex 2 11 (b) El texto nada dice de la educación recibida por Moisés; 11 3 dirá simplemente que se había convertido en un «gran personaje», y Hch 7 22 que «fue educado en toda la sabiduría de los egipcios». Josefo y Filón añaden detalles legendarios.
+
+Ex 2 15 El hebreo repite dos veces el mismo verbo: primero «se instaló», después «se sentó» (el verbo tiene este doble significado). Nosotros, siguiendo las versiones griega y siríaca, leemos la primera vez otro verbo que parece más lógico.
+
+Ex 2 16 Ver 18 1+.
+
+Ex 2 18 Los textos no concuerdan en cuanto al nombre y la persona del suegro de Moisés. Tenemos aquí a Reuel, sacerdote de Madián; en 3 1; 4 18; 18 1, se llama Jetró; Nm 10 29 habla de Jobab, hijo de Reuel, el madianita, y Jc 1 16; 4 11, de Jobab el quenita. Podemos descartar aquí la mención de Reuel como secundaria, y ver en Nm 10 29 un intento para armonizar las dos tradiciones: matrimonio quenita y matrimonio madianita. Ambas tradiciones son en realidad encontradas y no hay por qué tratar de conciliarlas. La primera, yahvista y originaria de la Palestina del sur, refleja la existencia de lazos de amistad entre Judá y los quenitas, aun conservando el recuerdo del matrimonio de Moisés con una extranjera. La segunda es elohísta y está estrechamente unida a la salida de Egipto.
+
+Ex 2 22 (a) Etimología popular que no tiene en cuenta más que la primera sílaba: gēr, forastero residente.
+
+Ex 2 22 (b) La Vulgata añade (según 18 4): «Ella dio a luz otro, a quien llamó Eliezer, pues dijo “el dios de mi padre es mi auxilio; me ha librado de la mano del faraón”».
+
+Ex 2 23 Tradición sacerdotal.
+
+Ex 2 25 Se suele considerar, con buen criterio, que el final del v. está truncado. Otros críticos opinan que podría traducirse en pasiva por «Dios se dio a conocer». Según ellos, la vocalización actual se debería a que no parecía conveniente hablar de la acción de Dios hasta que se hubiese manifestado a Moisés, cap. 3.
+
+Ex 3 Este primer relato (3 1 - 4 17) de la vocación de Moisés combina elementos yahvistas, vv. 1-5.16-20 (teofanía y misión de Moisés), y elohísta, vv. 6.9-15 (revelación del nombre divino). Un segundo relato, sacerdotal, de la revelación del nombre divino y de la vocación de Moisés, esta vez en Egipto, aparece en 6 2-13 y 6 28 - 7 7.
+
+Ex 3 1 Horeb es el nombre de la montaña del Sinaí en el marco histórico del Deuteronomio y en la redacción deuteronomista del libro de los Reyes. Aquí es una glosa, como en 17 6.
+
+Ex 3 2 A lo largo del Antiguo Testamento, el fuego, entre otras connotaciones, es un elemento que describe tanto la naturaleza divina como su presencia. En este caso acompaña a una manifestación de Yahvé, que convierte en sagrado el suelo de los alrededores, v. 5. Esta escena, que tiene lugar en los aledaños de la montaña sagrada de Horeb, v. 1, pretende ser, desde el punto de vista de la estructura del relato, una prefiguración de la teofanía del Sinaí (= Horeb), donde Yahvé se manifiesta entre fuego, 19 18, y no permite que la gente se aventure en territorio sagrado, 24 2.
+
+Ex 3 6 Hasta tal punto es trascendente Dios, que una criatura no puede verle y vivir.
+
+Ex 3 8 «Tierra que mana leche y miel»: designación de la Tierra Prometida, frecuente en el Pentateuco, pero que probablemente proviene de una redacción deuteronomista. Podría ser que Nm 16 13, que dice lo mismo de Egipto, sea el texto más antiguo.
+
+Ex 3 12 Si la segunda parte del v. es una adición, la señal dada es la asistencia misma de Dios y no un acto de culto en la «montaña de Dios», v. 1 b .
+
+Ex 3 13 La tradición yahvista hace remontarse el culto de Yahvé a los orígenes de la humanidad, Gn 4 26, y emplea este nombre divino en toda la historia patriarcal. Según la tradición elohísta, a la que pertenece este texto, el nombre de Yahvé no fue revelado más que a Moisés, como el nombre del Dios de los Padres. La tradición sacerdotal, Ex 6 2-3, concuerda con ella precisando únicamente que el nombre del Dios de los Padres era El Šadday; ver Gn 17 1+. Este relato, uno de los pasajes culminantes del AT, plantea dos problemas: el primero, filológico, atañe a la etimología del nombre de «Yahvé»; el segundo, exegético y teológico, atañe al sentido general del relato y al alcance de la revelación que trasmite. 1. o Se ha tratado de explicar el nombre de Yahvé por lenguas distintas a la hebrea o por diversas raíces hebraicas. Ciertamente debe verse en él una forma arcaica del verbo «ser». Algunos reconocen aquí una forma factitiva de este verbo: «hace ser», «trae a la existencia». Con mucha mayor probabilidad se trata de una forma de tema simple, y la palabra significaría «es». 2. o En cuanto a la interpretación, la palabra se explica en el v. 14, que es una adición antigua de la misma tradición. Se discute sobre el sentido de esta explicación: ’ehyeh ’ašer ’ehyeh. Dios, hablando de sí mismo, no puede emplear más que la primera persona: «Yo soy». El hebreo puede traducirse literalmente: «Yo soy lo que yo soy» o «Yo seré quien seré», y esto querría decir que Dios no quiere revelar su nombre; pero precisamente Dios da aquí su nombre que, según la mentalidad semítica, parece definirlo de alguna manera. Pero el hebreo también puede traducirse literalmente «Yo soy el que soy», y según las reglas de la sintaxis hebrea, esto corresponde a «Yo soy el que es», «Yo soy el existente»; así lo entendieron los traductores de los Setenta: Egô eimi ho ôn. Dios es el único verdaderamente existente. Ello significa que es trascendente y sigue siendo un misterio para el hombre, y también que actúa en la historia de su pueblo y en la historia humana a las que él dirige hacia un fin. Este pasaje contiene en potencia los desarrollos que le conferirá la Revelación futura, véase Ap 1 8: «Aquel que es, que era y que va a venir, el Todopoderoso».
+
+Ex 3 16 Cuando se trata de Dios, la «visita» implica un derecho absoluto de inspección, de juicio y de sanción. Sus intervenciones en el destino de los individuos o de los pueblos pueden aportar beneficio, 4 31; Gn 21 1; 50 24-25; Sal 65 10; 80 15; Sb 3 7-13; Jr 29 10; ver Lc 1 68+; o castigo, 1 S 15 2; Sb 14 11; 19 15; Jr 6 15; 23 34; Am 3 2.
+
+Ex 4 4 El v. 5, que interrumpe el relato pero reitera la idea central del desarrollo, vv. 1 y 8-9, podría ser una adición.
+
+Ex 4 17 Dios entrega a Moisés un cayado (de ahí su nombre de «cayado de Dios», ver v. 20), que será el instrumento de los prodigios, 7 20 b ; 9 22s; 10 13s, etc. Ver el cayado de Eliseo, 2 R 4 29.
+
+Ex 4 18 Lo esencial de 4 18-31 pertenece a la tradición yahvista, pero hay probablemente elementos de tradición elohísta y de otras posteriores, redaccionales, sobre todo en los vv. 21-23, 27-28, 30-31. Algunos de éstos se hallan en relación con los vv. 1-17, donde se encuentran las mismas ideas, especialmente la asociación de Aarón con Moisés y los signos de credibilidad.
+
+Ex 4 20 «su hijo» conj., ver 2 22; 4 25; «sus hijos» hebr.
+
+Ex 4 23 Estos vv. anuncian las plagas de Egipto: el v. 21, las nueve primeras plagas y el endurecimiento del corazón del faraón, véase 7 3+; los vv. 22-23, la décima plaga, véase 11 1+.
+
+Ex 4 24 Relato misterioso por su brevedad y la ausencia de un contexto; no se nombra a Moisés y no se sabe a quién se refieren los pronombres personales. Se puede conjeturar que la incircuncisión de Moisés le atrae la cólera divina; ésta queda aplacada cuando Seforá circuncida realmente a su hijo y simula una circuncisión de Moisés tocando su sexo («sus pies», ver Is 6 2; 7 20) con el prepucio del niño. Sobre la circuncisión, ver Gn 17 10+.
+
+Ex 4 31 El griego ha entendido «y se regocijó» en lugar de «al oír».
+
+Ex 5 En su conjunto, este cap. (comprendido 6 1), es de tradición yahvista, pero con algunas armonizaciones redaccionales, por ejemplo en la mención de Aarón con Moisés.
+
+Ex 5 1 La mención de este culto en el desierto, ver ya 3 18, se repetirá como un estribillo en el relato de cada una de las nueve primeras plagas, excepto en la tercera y la sexta, ver 7 16.26; 8 4.16.23; 9 1.13; 10 3.24. Esta fiesta probablemente es ya la Pascua, ver 12 1+.
+
+Ex 5 7 La paja picada se mezclaba con arcilla para dar mayor consistencia a los ladrillos crudos.
+
+Ex 5 16 El texto del final del v., «el pecado de tu pueblo», no tiene ningún sentido.
+
+Ex 6 2 El texto que va de 6 2 a 7 7 constituye el relato sacerdotal (paralelo a los caps. 3-4) de la vocación de Moisés, pero la genealogía, vv. 14-25, y la reanudación del relato en los vv. 26-30 han sido añadidas por una redacción tardía.
+
+Ex 6 6 Expresión equivalente a «mano férrea» de 6 1. El Deuteronomio unirá las dos expresiones, ver Dt 4 34; 5 15; 7 19; 26 8, etc.
+
+Ex 6 7 Estos dos términos correlativos que indican las nuevas relaciones de Dios con su pueblo son la expresión consagrada de la elección y de la alianza divinas, especialmente Lv 26 12; Dt 26 17-19; 29 12, y frecuentemente en Jr y Ez.
+
+Ex 6 12 Lit. «a mí (que soy) incircunciso de labios».
+
+Ex 7 8 Expresión tardía, pero que en realidad el texto no aplica más que a la décima plaga; las nueve primeras plagas son «prodigios» o «señales», como las «señales» y «prodigios» de Ex 4 1-9.30; 7 9. Lo mismo que esos prodigios estaban destinados a acreditar a Moisés delante de los israelitas y del faraón, las «plagas» están destinadas a acreditar a Yahvé, es decir, a hacer que sea reconocido su poder por el faraón. Las nueve primeras plagas se distinguen de la décima tanto por su esquema como por su vocabulario; pero hay diferencias estructurales que no se derivan solamente de la desigual longitud de la narración correspondiente. El relato acaba con el rechazo definitivo del faraón, a quien Moisés no volverá a ver, 10 28-29; no le queda más que huir. La historia continúa con la persecución de los fugitivos y el milagro del mar, Ex 14. Esta tradición del éxodo-huida era originariamente independiente de la tradición de la décima plaga, en la que los israelitas son expulsados de Egipto, Ex 12 31-33; véase 4 21; 6 1; 11 1. Había otras tradiciones sobre estas «señales», véase Sal 78 43-51; 105 27-36, a la espera de los desarrollos de Sab 11 14-20; 16-18. Igual que estas otras presentaciones, el relato de Ex 7 14 - 10 29 es en sí mismo complejo; una buena parte del texto pertenece a redacciones tardías, ya que la parte que se puede atribuir a las tradiciones yahvista y sacerdotal es reducida (probablemente no interviene la tradición elohista). Es propio de la tradición sacerdotal la señal del cayado que se convierte en serpiente, 7 8-13, y las plagas III y VI; algunos elementos de esta tradición se encuentran en otras narraciones. La tradición yahvista interviene probablemente en cuatro plagas (I, II, IV y V), pero buena parte del relato actual ha sido añadido, como se han añadido también las plagas en que no intervienen las tradiciones yahvista o sacerdotal. Hay, pues, una buena parte de elementos redaccionales, pero una redacción parece ser presacerdotal. - No hay que tratar de justificar estos prodigios por la astronomía o las ciencias naturales; pero es verdad que el relato resultante utiliza fenómenos naturales que son conocidos en Egipto y desconocidos en Palestina (el Nilo rojo, las ranas, el siroco negro), o que son conocidos tanto en Egipto como en Palestina (las langostas), o conocidos en Palestina pero excepcionales en Egipto (el pedrisco). — La intención del relato en general es poner de manifiesto ante los israelitas y el propio faraón el poder absoluto de Yahvé. Pero pueden señalarse intenciones particulares. Así, en los prodigios de tradición sacerdotal, los magos egipcios son vencidos en su propio terreno: al principio pueden hacer lo mismo que Moisés y Aarón, 7 11-12.22; 8 3, pero después son incapaces y se confiesan vencidos por el «dedo de Dios», 8 14-15, o son incluso incapaces de presentarse ante el faraón, 9 11.
+
+Ex 7 10 Es decir, los que le rodean, cortesanos y dignatarios.
+
+Ex 7 14 Los vv. 14-15 a .16 a .18.23-25 provienen de la tradición yahvista; el resto, de los redactores.
+
+Ex 7 17 La mano de Moisés, ejecutor de las decisiones divinas.
+
+Ex 7 26 La parte de la tradición yahvista se encuentra en los vv. 26-27.29 (en parte); 8 4.5 a (en parte), 6 (en parte), 7 a (en parte) y 8-10.11 a (comienzo); la de la tradición sacerdotal en 8 1-3.11 a (final), 11 b .
+
+Ex 8 5 Traducción según el griego. Lit. «Glorifícate a costa mía.»
+
+Ex 8 12 Relato de tradición enteramente sacerdotal.
+
+Ex 8 15 O: «el dedo de un dios», fórmula que se halla en los textos mágicoreligiosos egipcios.
+
+Ex 8 16 Relato yahvista con algunos complementos, sobre todo vv. 18-19.
+
+Ex 8 19 «haré distinción» versiones; «yo realizaré una redención» hebr.
+
+Ex 8 22 Los israelitas pastores ofrecían animales de sus rebaños; el ritual egipcio era muy diferente: ofrendas vegetales, aves, reses de matadero. Además, el carnero y el macho cabrío eran animales sagrados en Egipto.
+
+Ex 9 Relato posterior a la tradición yahvista.
+
+Ex 9 8 Relato de tradición sacerdotal.
+
+Ex 9 13 Relato posterior a la tradición yahvista.
+
+Ex 9 14 Lit. «sobre tu corazón».
+
+Ex 9 23 Lit. «dio voces». La «voz de Yahvé» es el trueno, ver v. 29; 19 19; Sal 18 14; 29 3-9; Jb 37 2.
+
+Ex 9 24 Traducción dudosa; lit. «granizo y fuego en medio del granizo». Ver
+
+Ez 1 4.
+
+Ex 10 Relato de tradición yahvista, vv. 1 a .3-5 a .6 b -11.13.15. 16-19, con adiciones redaccionales, algunas dentro de los vv. indicados como yahvistas.
+
+Ex 10 11 En vez de una salida en masa (v. 9), el faraón, desconfiado, preferiría que las mujeres y los niños quedaran como rehenes.
+
+Ex 10 15 «oscurecer», hebr.; griego y Vulg. «devastar».
+
+Ex 10 19 Lit. «del mar», desde el punto de vista de un habitante de Palestina, donde el mar está al oeste.
+
+Ex 10 21 Los vv. 24-26 son de tradición yahvista, pero eran la continuación del relato precedente: el resto de la sección proviene de los redactores.
+
+Ex 11 Los vv. 9-10 provienen de la tradición sacerdotal, y v. 8 b podría ser la continuación de 10 24-26 en la tradición yahvista; el resto del cap. se debería a los redactores.
+
+Ex 11 1 Los últimos vv. del cap. 10 concluyen la historia de las nueve plagas, que pertenecen a la tradición del éxodo-huida, véase 7 8+. La historia de la décima plaga, que comienza aquí, presenta el éxodo como una expulsión, véase 12 31-33, y antes 4 21; 6 1. Las dos concepciones serían incompatibles si se hubiese tratado del mismo grupo, pero una y otra pueden justificarse si se trataba de grupos diferentes, o si las tradiciones anteriores a los textos concebían la cosa de manera diferente. Es más arriesgado afirmar que la tradición del éxodo-huida se refería al grupo de Moisés y la del éxodo-expulsión a otro grupo emparentado, y que la doble tradición se manifiesta también en los datos sobre el itinerario de la salida de Egipto, 13 17. Es evidente que la doble tradición ha sido armonizada en torno a un único grupo liderado por Moisés.
+
+Ex 11 2 El despojo de los egipcios es un motivo secundario que aparece ya en 3 21 y volverá a aparecer en 12 35-36. El hecho de mencionarlo aquí excluye que los egipcios hubieran padecido las nueve primeras plagas.
+
+Ex 11 5 Los primogénitos del ganado han sido añadidos según 12 12 porque, al igual que los primogénitos de los hombres, pertenecen a las primicias reservadas a la divinidad.
+
+Ex 11 10 Es decir, las nueve primeras plagas en la perspectiva actual del texto. Pero el lenguaje parece indicar que antes era la conclusión de la tradición sacerdotal.
+
+Ex 12 Este largo pasaje, 12 1 - 13 16, reúne por primera vez narración, 12 28- 42.50-51, y legislación-instrucción. El relato, núcleo del desarrollo, contiene sobre todo elementos de tradición yahvista, 12 29-30.32-34 y 37-39, pero también algunos de tradición elohista, 12 31, sacerdotal, 12 28.40-42.50-51, o particular, 12 35-36. Las leyes rituales son, en su conjunto, más recientes: 12 21- 23 podría pertenecer a la tradición yahvista; 12 1-10.43-49, y quizás 13 1-2, forman parte de la tradición sacerdotal o de sus complementos; los vv. 28 y 50- 51 son un marco para la legislación sobre la Pascua y los ázimos. La mención de la masa sin fermentar, 12 34 y 39, y de la muerte de los primogénitos de los egipcios, 12 29, así como el empalme posterior de la Pascua con la salida de Egipto, proporcionan el engarce con las leyes e instrucciones sobre la Pascua, 12 1-14.21-27 a .43-49, sobre los ázimos, 12 15-20; 13 3-10, y sobre los primogénitos, 13 1-2.11-16. El lenguaje de 12 24-27 a y 13 3-16 recuerda la tradición deuteronómica o deuteronomista. Estas leyes rituales deben ser cotejadas con Lv 23 5-8; Nm 28 16-25 y Dt 16 1-8. Aunque el texto parece decir que las celebraciones de la Pascua y los ázimos nacieron con la salida de Egipto, en realidad se trata de dos fiestas originalmente distintas. Los ázimos era una fiesta agrícola que comenzó a celebrarse en Canaán, y que no se unió con la Pascua hasta la reforma de Josías. La Pascua, de origen preisraelita, era una fiesta anual de los pastores nómadas, orientada a la protección de los rebaños. El comienzo del relato antiguo, v. 21, que la menciona sin explicación, supone que era ya conocida, probablemente «la fiesta de Yahvé» para cuya celebración pedía Moisés permiso al faraón, véase 5 1+. Así, pues, la unión entre la Pascua, la décima plaga y la salida de Egipto sería puramente ocasional: esa salida pudo tener lugar en el momento de la fiesta. Pero esta coincidencia temporal justifica que las adiciones deuteronomizantes de Ex 12 24-27; 13 3-10 expliquen la fiesta de la Pascua (y de los ázimos) como el memorial de la salida de Egipto, véase el Dt mismo, 16 1-3. La tradición sacerdotal relaciona todo el ritual de la Pascua con la décima plaga y con la salida de Egipto, 12 11 b -14.42. Pero esa relación es más antigua, porque el relato yahvista, 12 34+.39, pone el viejo rito pascual de los panes sin levadura en relación con la salida de Egipto. Al ser puestos estos ritos en relación histórica con este acontecimiento decisivo de la vocación de Israel, adquirieron una significación religiosa enteramente nueva: expresaban que Dios había salvado a su pueblo, como explicaba la instrucción que acompañaba a la fiesta, 12 26-27; 13 8. La Pascua judía preparaba así la fiesta cristiana: Cristo, cordero de Dios, es inmolado (en la Cruz) y comido (en la Cena), en el marco de la Pascua judía (la Semana Santa). Trae así la salvación al mundo, y la renovación mística de este acto de redención viene a ser el centro de la liturgia cristiana, que se organiza alrededor de la Misa, sacrificio y banquete.
+
+Ex 12 2 El primer mes de la primavera, correspondiente a nuestro marzoabril, que se llamaba Abib en el antiguo calendario, Dt 16 1, y que se llamará Nisán en el calendario postexílico de origen babilónico.
+
+Ex 12 6 Lit. «entre las dos tardes», es decir, entre el ocaso del sol y la noche cerrada (samaritanos) o entre la caída y la puesta del sol (fariseos y Talmud).
+
+Ex 12 8 Es decir, los panes sin levadura, ver 12 1+.
+
+Ex 12 10 Para evitar la profanación. El griego añade: «No se ha de quebrar ni uno de sus huesos», ver v. 46.
+
+Ex 12 11 (a) Como para emprender viaje.
+
+Ex 12 11 (b) Se desconoce la etimología de pesaḥ. La Vulg. lo explica: «es decir, el paso», pero esto no tiene apoyo en el hebreo. Ex 12 13. 23. 27 explica que Yavhé ha «saltado» u «omitido» o «protegido» las casas de los israelitas, pero se trata de una explicación secundaria.
+
+Ex 12 13 O, corrigiendo: «no habrá contra vosotros golpe alguno del Exterminador» (ver v. 23).
+
+Ex 12 22 Planta aromática utilizada en diversos ritos de purificación, Nm 19 6; Sal 51 9; Hb 9 19.
+
+Ex 12 23 En el ritual preisraelita de la Pascua, el Exterminador era el demonio que personificaba los peligros que amenazaban al rebaño y a la familia; y para protegerse de sus ataques se ponía sangre en las puertas de las casas, primitivamente de las tiendas.
+
+Ex 12 26 Este pasaje, véase también 13 8-9.14-16; Dt 6 21-25; Jos 4 7-8.21- 24, nos informa de una práctica de época tardía: el padre de familia explica el sentido de los ritos, lo mismo que en otras partes el sentido de la ley, o de un monumento de doce piedras, como respuesta a la pregunta del hijo. Se puede hablar de «catequesis etiológicas», ya que el padre de familia da una explicación del origen, real o supuesto, de algo: aquí de la Pascua.
+
+Ex 12 37 Esta cifra, muy exagerada, puede representar un censo de todo el pueblo de Israel en la época en que la tradición ha quedado fijada por escrito.
+
+Ex 12 39 Estos panes sin fermentar no son los ázimos del ritual posterior, sino un elemento del ritual antiguo de la Pascua, fiesta de los nómadas que habitualmente comen pan no fermentado, ver Jos 5 11. La tradición yahvista vio en ello una señal de las prisas con que se había salido de Egipto.
+
+Ex 12 40 Sam. y griego incluyen en esta cifra toda la estancia de los Patriarcas en Canaán.
+
+Ex 12 43 La víctima, no la fiesta. Los vv. 43-50 precisan en qué condiciones podrán tomar parte los que no pertenecen a Israel en la manducación de la Pascua y cómo ha de ser preparada ésta. Estas disposiciones completan el ritual sacerdotal de los vv. 3-11. El israelita es considerado aquí como el «ciudadano» del país, v. 48, el verdadero autóctono en Canaán.
+
+Ex 12 48 El forastero asentado en Israel, el gēr, goza de un estatuto especial, como el meteco en Atenas y el incola en Roma. Así pues, los Patriarcas han sido forasteros con residencia en Canaán, Gn 23 4; los israelitas lo fueron en Egipto,
+
+Gn 15 13; Ex 2 22. Después de la conquista de Tierra Santa, los papeles se han invertido: los israelitas son los ciudadanos del país y acogen a los forasteros como residentes, Dt 10 19. Estos extranjeros domiciliados se hallan sometidos a las leyes, Lv 17 15; 24 16-22, obligados al sábado, Ex 20 10; Dt 5 14. Son admitidos a presentar ofrendas a Yahvé, Nm 15 15-16, y a celebrar la Pascua, Nm 9 14, mas para esto deben circuncidarse, aquí 12 48. Así se va preparando el estatuto de los prosélitos de la época griega, ver ya Is 14 1. La ley protege a los «económicamente débiles», Lv 23 22; 25 35; Dt 24 passim; 26 12. Este último texto y Dt 12 12 los equipara a los levitas, que tampoco tienen parte en Israel; ya Jc 17 7 llama al levita de Belén «forastero residente» en Judá; comp. Jc 19 1. En la versión griega, el gēr será el «prosélito», Mt 23 15.
+
+Ex 13 La ley de los primogénitos, vv. 1-2 y 11-16, es una adición al relato antiguo; no se relaciona con la Pascua, sino con la muerte de los primogénitos egipcios; en el Código de la Alianza, Ex 22 28-29, es independiente de la Pascua.
+
+Ex 13 11 Ver v. 1+. Según los más antiguos códigos de Israel, Ex 22 28-29; 34 19-20, los primogénitos del hombre y de los animales pertenecen a Dios. Los primogénitos de los animales se ofrecen en sacrificio, Dt 15 19-20, y una parte de ellos corresponde a los sacerdotes, Nm 18 15-18, excepto el asno que es rescatado o desnucado, aquí v. 13; 34 20; Nm 18 15, así como en general los animales impuros, Lv 27 26-27. Los primogénitos del hombre siempre son rescatados, aquí v. 13; 34 19-20; Nm 3 46-47; ver Gn 22. Los textos de Ex 13 14s; Nm 3 13; 8 17 vinculan esta consagración a la salida de Egipto y a la décima plaga. Los levitas son consagrados a Dios en sustitución de los primogénitos de Israel, entonces salvados de la muerte, Nm 3 12.40-51; 8 16-18.
+
+Ex 13 13 No se podía ofrecer en sacrificio el asno, animal impuro.
+
+Ex 13 17 (a) Aquí comienza propiamente el Éxodo, la marcha del pueblo de Dios por el desierto, a la Tierra Prometida, período de la vida de Israel al que los Profetas se referirán como al tiempo del noviazgo del pueblo con Dios, Jr 2 2; Os 2 16+; 11 1s; Ez 16 8. Yahvé es, en toda la Biblia, «El que hizo subir de Egipto al pueblo», Jos 24 17; Am 2 10; 3 1; Mi 6 4; Sal 81 11. Ésa era la primera declaración que Dios hacía al manifestarse a Moisés, 3 8-10. El Segundo Isaías anuncia la vuelta de Babilonia como una repetición del éxodo, Is 40 3+. A su vez, la tradición cristiana verá en la marcha por el desierto la figura de la marcha de la Iglesia (o del alma fiel) hacia la eternidad.
+
+Ex 13 17 (b) El conjunto del relato (13 17 - 14 31) es complejo. La tradición elohista, que probablemente era muy parecida a la yahvista, ha dejado pocos rastros, 13 17-19; 14 5 a .19 a . 25 a . En el resto hay un entramado de dos tradiciones conservadas de manera más sustancial: yahvista, 13 21-22; 14 5 b -6.9-14.19 b - 20.21 b .24.25 b .27 b .30.31, y sacerdotal, 13 20; 14 1-4.8-9.15-18.21 a .22-23.27 a .28- 29, pero algunos elementos han podido ser añadidos por los redactores, por ejemplo 14 31 (o sólo 31 b ); comparar con 4 1+.5.8-9.31. La determinación del itinerario del éxodo y la localización precisa de las etapas es muy difícil. A pesar del v. 17, algunos nombres tienden a indicar un itinerario por el norte, por el «País de los Filisteos» (término que, por lo demás, es anacrónico). Parecen quedar rastros de dos tradiciones diferentes, sea lo que fuere de su base histórica.
+
+Ex 13 17 (c) Era la ruta normal, paralela a la costa, que pasaba por Sile (elKantara actual), jalonada de pozos y de guarniciones militares. Ciertamente no tomó esta ruta el grupo fugitivo. Pudo tomarla el grupo expulsado de Egipto. De hecho, en esta ruta se pueden situar con más probabilidad los tres nombres geográficos mencionados en 14 2; pero el Éxodo-huida, el más importante, ha incorporado los recuerdos de la otra tradición.
+
+Ex 13 18 Las palabras «el mar del Suf», en hebreo yam sûf o mar de las Cañas son una adición. El texto primitivo sólo daba una indicación general: los israelitas tomaron la ruta del desierto, hacia el este o el sudeste. —El sentido de este término y la localización del «mar de Suf» son dudosos; no se le menciona en el relato de Ex 14, que sólo habla del «mar». El único texto antiguo que menciona el «mar de Suf» o «mar de las Cañas» (según el egipcio) como teatro del milagro es Ex 15 4, que es poético.
+
+Ex 13 22 En el Pentateuco se encuentran diversas manifestaciones de la presencia divina: la columna de nube y la columna de fuego (tradición yahvista); el nublado oscuro y la nube (tradición elohísta); finalmente, asociada a la nube, la «gloria» de Yahvé, 24 16+, fuego devorador que se mueve como el mismo Yahvé (tradición sacerdotal), comp. 19 16s+. Son nociones o imágenes de las que ha hecho abundante uso la teología mística.
+
+Ex 14 15 Este relato nos presenta el milagro de dos maneras: 1. o Moisés alza su cayado sobre el mar, que se divide formando dos murallas de agua entre las cuales pasan los israelitas a pie enjuto. Luego, cuando los egipcios entran tras ellos, las aguas refluyen y los engullen. Este relato es atribuido a la tradición sacerdotal o elohísta. 2. o Moisés tranquiliza a los israelitas perseguidos, asegurándoles que nada tendrán que hacer ellos. Luego Yahvé hace soplar un viento que seca el «mar», entran en él los egipcios y son engullidos por su reflujo. En este relato, atribuido al yahvista, sólo interviene Yahvé; no hay aquí paso del mar por los israelitas, sino sólo la destrucción milagrosa de los egipcios. Este relato representa la tradición primitiva. El antiquísimo canto de Ex 15 21, desarrollado en el poema 15 1-18, únicamente recoge la destrucción de los egipcios. No es posible determinar el lugar y el modo de este acontecimiento; pero a los ojos de los testigos se presentó como una intervención brillante de «Yahvé guerrero», Ex 15 3, y se convirtió en artículo fundamental de la fe yahvista, Dt 11 4; Jos 24 7 y ver Dt 1 30; 6 21-22; 26 7-8. Se ha comparado este milagro del mar con otro milagro del agua, el paso del Jordán, Jos 3-4; la salida de Egipto fue concebida secundariamente a imagen de esta entrada en Canaán, y las dos presentaciones se mezclan en el cap. 14. La tradición cristiana ha considerado este milagro como figura de salvación, y en especial del bautismo (1 Co 10 1).
+
+Ex 14 20 «transcurrió la noche» griego. El hebreo dice: «hubo la nube y la oscuridad; y aquélla iluminó la noche». En Jos 24 7 leemos que Yahvé extendió una densa niebla entre los israelitas y los egipcios. La traducción que aquí se da es conjetural.
+
+Ex 14 24 Última vigilia de la noche, de 2 a 6 de la mañana.
+
+Ex 15 Con ocasión del exterminio del ejército del faraón, este salmo de acción de gracias (el primero y más célebre de los «cánticos» que la liturgia cristiana toma del AT) trata en toda su amplitud del tema de la salvación milagrosa que el poder y la solicitud de Yavhé garantizan a su pueblo; el canto de victoria del v. 21 es amplificado hasta englobar el conjunto de las maravillas del Éxodo y de la conquista de Canaán, e incluso la edificación del templo de Jerusalén.
+
+Ex 15 2 (a) «mi canción» mss; «la canción» hebr.; «me protege» (mi protección) griego.
+
+Ex 15 2 (b) Otra forma del nombre de Yahvé.
+
+Ex 15 17 La montaña de Jerusalén en la que se levantará el Templo, o acaso más genéricamente la Tierra prometida, como país montañoso en que habitaban los israelitas.
+
+Ex 15 19 Adición redaccional en relación con 14 26-28.
+
+Ex 15 22 Pasaje probablemente de tradición yahvista, pero con rasgos de estilo deuteronómico, v. 26. Las noticias sobre la partida, vv. 22 y 27, provienen de la tradición sacerdotal.
+
+Ex 15 23 Mará: amarga, amargura, en hebr. mar.
+
+Ex 15 24 En las narraciones de Ex y Nm, al revés que en algunos Profetas, 13 17+, la marcha por el desierto está jalonada por las murmuraciones de Israel: por la sed, aquí y en 17 3; Nm 20 2s; por el hambre, Ex 16 2; Nm 11 4s; por los peligros de guerra, Nm 14 2s. Israel es ya el pueblo recalcitrante que rechaza hasta los beneficios de su Dios, véase Sal 78; 106, imagen del alma que se resiste a los avances de la gracia.
+
+Ex 15 25 (a) Yahvé.
+
+Ex 15 25 (b) Idénticos términos en Jos 24 25. Este fragmento rítmico, que no armoniza con el contexto, parece referirse al manantial de Massá («tentación»), de cuyo nombre da una explicación distinta de 17 7. Pero ha sido empalmado al contexto actual gracias a la palabra ḥoq («estatuto, mandamiento»), que sirve de enganche, ya que se encuentra también (en plural) en el v. siguiente.
+
+Ex 16 Pasaje compuesto y de difícil análisis. Algunos elementos de un relato sobre el maná, acaso desplazados de Nm 11, podrían provenir de la tradición yahvista, pero la parte más considerable, un relato sobre el maná y las codornices, pertenece a la tradición sacerdotal (ver la estricta reglamentación de la recogida del maná, sometida a las exigencias del sábado); los redactores tardíos han podido añadir mucho de su invención. La reunión del maná y las codornices en un mismo relato plantea un problema. El maná es debido a la secreción de unos insectos que viven en cierta especie de tamarindo, pero que sólo se halla en la región central del Sinaí; se recoge en mayo-junio. Las codornices, agotadas por su travesía del Mediterráneo a su regreso de la migración a Europa, caen en gran número en la costa, al norte de la península, empujadas por el viento del oeste, véase Nm 11 31. Es posible que este relato combine los recuerdos de dos grupos que habrían abandonado Egipto separadamente, véase 7 8+; 11 1+, cuyos itinerarios fueron diferentes, véase 13 17+. Estas curiosidades naturales sirven para ilustrar la providencia especial de Dios para con su pueblo. El alimento del maná es celebrado en los Salmos (sobre todo 78 20.23-27) y en el libro de la Sabiduría. Ha venido a ser en la tradición cristiana (ver Jn 6 26-58) la figura de la Eucaristía, alimento espiritual de la Iglesia durante su éxodo terrestre.
+
+Ex 16 14 O bien «redondo» o «coagulado». —La escarcha se consideraba como rocío congelado que caía del cielo, ver Sal 147 16; Si 43 19.
+
+Ex 16 15 En hebreo man hû’: etimología popular de la palabra «maná», cuyo significado exacto se desconoce.
+
+Ex 16 30 O «guardó el sábado».
+
+Ex 16 32 «Llenad (un gomor)» griego, sam.; «el contenido» (de un gomor) hebr.
+
+Ex 16 34 Son las tablas de la Ley, ver 31 18, etc., conservadas en el arca, llamada con frecuencia «arca del Testimonio», ver 25 22+. Aquí es una anticipación del redactor sacerdotal.
+
+Ex 17 Un milagro análogo es narrado en Nm 20 1-13 (véase 1+), que lo sitúa en la región de Cades. Aquí es localizado en Refidín, la última etapa antes del Sinaí. Si prescindimos de la noticia de la partida y de la acampada, v. 1a, que es de tradición sacerdotal, el relato parece combinar elementos de las tradiciones yahvista y elohista. Nos encontramos otra vez con el tema de las murmuraciones en el desierto, véase 15 24+.
+
+Ex 17 6 «del Horeb» parece ser una glosa de lector. Algunos rabinos suponían que la roca había seguido a los israelitas en sus peregrinaciones. Ver 1 Co 10 4. Respecto de la designación del mismo Dios como «Roca», ver Sal 18 3+.
+
+Ex 17 7 Massá: tentación. Meribá: querella.
+
+Ex 17 8 Este relato antiguo, probablemente de tradición yahvista, representa una tradición de las tribus del Sur. Está unido redaccionalmente a Refidín, donde se situaba el episodio precedente. En realidad, los amalecitas moraban más al norte, en el Négueb y en el monte Seír, Gn 14 7; Nm 13 29; Jc 1 16; 1 Cro 4 42s, y aquí en esta región, debe localizarse Jormá, Nm 14 39-45, ver Dt 25 17-19; 1 S 15. Amalec, presentado por Gn 36 12.16 como nieto de Esaú, es en realidad un pueblo muy antiguo, Nm 24 20. En tiempo de los Jueces se asocia a los salteadores de Madián. Todavía David lucha contra él. Luego ya no se le menciona más que en 1 Cro 4 43 y Sal 83 8.
+
+Ex 17 9 Primera mención de Josué en el Pentateuco.
+
+Ex 17 16 «La bandera de Yahvé» (nēs yah) corr. en lugar de «el trono de Yahvé» de Vulg., que interpreta el hebr. como kisseh yah.
+
+Ex 18 Relato de tradición probablemente elohista, que se vincula con el de la estancia de Moisés en Madián, 2 11 - 4 31. —Se ha querido dar al yahvismo un origen madianita: en Madián recibió Moisés la revelación del nombre divino, 3 1; Jetró es «sacerdote de Madián», 18 1, invoca el nombre de Yahvé, v. 10, le ofrece sacrificios y preside la comida que sigue, v. 12. En realidad, Jetró reconoce la grandeza y el poder de Yahvé, lo cual no significa que Yahvé fuera su Dios, ni siquiera que se convirtiera a Yahvé (ver, p.e., las profesiones de fe del faraón, 9 27, y de Rajab, Jos 2 9-10), aunque la tradición pudo interpretarlo así, v. 12. El «monte de Dios», v. 5, no es un santuario madianita servido por Jetró: acude a él para reunirse con Moisés y desde él regresa a su país, v. 27. También el origen madianita del nombre de Yahvé sigue siendo pura hipótesis, ver 3 13+. De todos modos, préstamo o no, el nombre de Yahvé expresará una realidad religiosa totalmente nueva.
+
+Ex 18 2 Única mención del despido de la mujer de Moisés. Tradición independiente de la de Ex 4 19-20 y 24-26.
+
+Ex 18 4 Guersón: ver 2 22. Eliezer: ’Elî —mi Dios— (es) ‘ēzer —protección —.
+
+Ex 18 11 El final del v.: «porque en el asunto en que obraban orgullosamente contra ellos», probablemente está incompleto o viciado.
+
+Ex 18 12 «ofreció» versiones; «tomó» hebr. —Este v. que parece interpretar la declaración de Jetró como una conversión (ofrece sacrificios) y no habla de Moisés, es probablemente una adición.
+
+Ex 18 13 Medida que supone un pueblo numeroso ya y sedentario, ver v. 23, y atribuye a Moisés una descentralización del poder judicial, que con toda seguridad es muy posterior. Con todo, el hecho de que una medida como ésta se atribuya a la intervención de Jetró puede testificar la influencia madianita en la primera organización del pueblo.
+
+Ex 19 Esta larga sección contiene sobre todo materiales de tradición o redacción sacerdotal, 19 1-2 a ; 24 15 b - 31 18; 34 29 - 40 38. Hay que poner aparte el Código de la Alianza, 20 22 - 23 19, con su apéndice parenético, 23 20- 33. El resto parece pertenecer a las tradiciones yahvista y elohista, pero con muchas adiciones de las redacciones recientes; la distinción de los diferentes elementos es difícil. En su composición final, la alianza mosaica sella la elección del pueblo y las promesas ya hechas en 6 6-8, así como la alianza con Abrahán, recordada en 6 5, confirmó las primeras promesas, Gn 17. Pero la alianza con Abrahán se había concluido con un solo individuo (si bien alcanzaba a su descendencia) y no contenía más que una sola prescripción, la circuncisión. La alianza del Sinaí compromete a todo el pueblo, que recibe una Ley: el Decálogo y el Código de la Alianza. Con sus desarrollos posteriores, esta Ley se convertirá en la carta magna del Judaísmo, y Si 24 9-27 la identificará con la Sabiduría. Pero, al mismo tiempo, es un «testimonio contra el pueblo», Dt 31 26, pues su transgresión hace vanas las promesas y atrae la maldición de Dios. Seguirá siendo una instrucción y una exigencia, preparando al hombre a la venida de Cristo, que sellará la Nueva Alianza. San Pablo explicará, contra los judaizantes, el papel transitorio de la Ley, Ga 3; Rm 7.
+
+Ex 19 2 Es difícil la localización del Sinaí. Desde el s. IV de nuestra era la tradición cristiana lo sitúa al sur de la península que de él toma el nombre, el Yébel-Musa (2.245 m). Pero una opinión hoy difundida se apoya en los elementos de carácter volcánico de la descripción de la teofanía, 19 16+, y en el itinerario de Nm 33 (ver 33 1+), para situar el Sinaí en Arabia, donde aún había volcanes activos en la época histórica. Estos argumentos no son decisivos (ver las notas mencionadas), y otros textos suponen una localización más próxima a Egipto y al sur de Palestina. En consecuencia, otra teoría sitúa al Sinaí cerca de Cadés, apoyándose en los textos que señalan una relación entre Seír, Edom y el monte Farán con la manifestación divina, Jc 5 4; Dt 33 2; Ha 3 3. Pero ningún pasaje relaciona a Cadés con el desierto del Sinaí, y algunos textos claramente sitúan a éste lejos de Cadés, Nm 11-13; 33; Dt 1 2.19. La localización en el sur de la península sigue siendo la más probable. A pesar de la importancia duradera de los acontecimientos y de la legislación vinculados al Sinaí, Ex 3 1 – 4 17; 18; 19-40; Nm 1-10, parece que los israelitas olvidaron pronto su localización precisa. El episodio de Elías, 1 R 19 (véase Si 48 7), es una excepción. Para san Pablo, Ga 4 24s, el Sinaí representa la Antigua Alianza.
+
+Ex 19 3 La Alianza hará de Israel propiedad personal y sagrada de Yahvé, Jr 2 3, un pueblo consagrado, Dt 7 6; 26 19, o santo (la palabra hebrea significa las dos cosas) como es santo su Dios, Lv 19 2, ver 11 44s; 20 7.26, y también un pueblo de sacerdotes, ver Is 61 6, porque lo sagrado dice relación inmediata al culto. La promesa tendrá su plena realización en el Israel espiritual, la Iglesia, en la cual los fieles serán llamados «santos», Hch 9 13+, y, unidos a Cristo Sacerdote, ofrecerán a Dios un sacrificio de alabanza, 1 P 2 5.9; Ap 1 6; 5 10; 20 6. —Los vv. 3-6 tienen estilo y fraseología deuteronómicos.
+
+Ex 19 9 El final de los vv. 8 y 9 es idéntico, pero la repetición es un indicio del origen diferente de los pasajes (7s y 9s, respectivamente).
+
+Ex 19 12 Trascendencia y santidad son inseparables, y la santidad implica una separación de lo profano. Los lugares en que Dios se hace presente son lugares prohibidos, Gn 28 16-17; Ex 3 5; 40 35; Lv 16 2; Nm 1 51; 18 22. Asi‐ mismo, el arca será intocable, 2 S 6 7. Esta concepción primitiva de lo sagrado implica una enseñanza permanente sobre la grandeza inaccesible y la terrible majestad de Dios.
+
+Ex 19 13 La segunda parte del v. contiene una indicación que resulta enigmática en el contexto inmediato; podría estar fuera de contexto y en relación con 24 [1-2] 9-11: es el único pasaje que habla de que suben al monte Sinaí otras personas además de Moisés.
+
+Ex 19 15 Las relaciones sexuales hacen impuro para todo acto sagrado. Ver 1 S 21 5.
+
+Ex 19 16 Aunque nuestras atribuciones siguen siendo conjeturales, las tradiciones yahvista, 19 18, sacerdotal, 24 15 b -17, y deuteronomista, Dt 4 11 b - 12 a ; 5 23-24; 9 15, describen la teofanía del Sinaí en el marco de una erupción volcánica. La tradición elohísta la describe como una tempestad, Ex 19 16, ver v. 19. Se trata de dos presentaciones inspiradas en los más impresionantes espectáculos de la naturaleza: una erupción volcánica, como las que los israelitas conocían por los relatos de los visitantes del norte de Arabia, o como las que podían haber contemplado de lejos, desde la época de Salomón (expediciones a Ofir); o una tormenta de montaña, como las que podían ver en Galilea o en el Hermón. Se comprende que la primera tradición sea la yahvista, originaria del Sur, y que la segunda sea la elohísta, procedente del Norte. Estas imágenes expresan la majestad y la gloria de Yahvé, ver 24 16+, su trascendencia y el temor religioso que inspira, ver Jc 5 4s; Sal 29; 68 8; 77 18-19; 97 3-5; Ha 3 3- 15.
+
+Ex 19 19 Lit. «con (o en) una voz». Esta palabra, cuando se la emplea en plural siempre significa el trueno, ver v. 16. También en singular puede significar «el trueno», pero aquí puede expresar la voz inteligible de Dios que «responde» a Moisés.
+
+Ex 19 21 Los vv. 21-24 son una adición que se refiere a los vv. 12-13. En ella se menciona a los sacerdotes, quienes, según la tradición sacerdotal, la única que habla de ello, y largamente (28 1 - 29 35; 39 1-21; Lv 8-10), no han sido instituidos aún.
+
+Ex 19 25 La frase queda manca; el relato ha sido interrumpido por la inserción del Decálogo en su lugar actual. En 20 18-21 nos encontramos de nuevo con el tema de la teofanía, pero esos vv. no son la continuación lógica del relato de este capítulo: nos informan del miedo del pueblo, estando Moisés en el campamento.
+
+Ex 20 En el estado actual del libro, el Decálogo no enlaza con el relato que lo enmarca, 19 4-24 y 20 18-21; parece estar relacionado más bien con la orden de hablar al pueblo, 19 25. El Decálogo, las «diez Palabras» de Dt 4 13; 10 4 (ver Ex 34 28), ha sido conservado en dos lugares del Pentateuco: aquí y en Dt 5 6- 21. Las indicaciones de la introducción aquí (v. 1), del contexto inmediato en Dt 5 (sobre todo, vv. 4-22) y de la conclusión de la alianza en Ex 24 3-8 permiten decir que esta lista de mandamientos, de hecho más que nada prohibiciones, contiene las «Palabras» de Yahvé. El Decálogo señala al pueblo las obligaciones de la alianza, y el pueblo se compromete a poner en práctica sus exigencias, 24 3 y 7; véase 19 8. Por tal motivo se hablará también de un «libro de la alianza», 24 4 y 7; véase Dt 5 2-3: «libro» porque Moisés puso por escrito las «Palabras»; «de la alianza» porque sus mandamientos son las cláusulas de la alianza entre Yahvé e Israel, 24 8. - El origen del Decálogo es una cuestión discutida. El texto actual tiene tras de sí una larga historia. Dt 5 6-21, con el contexto inmediato, pertenece a una de las últimas redacciones del Deuteronomio, y algunas de sus formulaciones han pasado a Ex 20 2-17. Aquí parece que algunas de sus fórmulas, sobre todo la motivación del sábado, pertenecen a una redacción sacerdotal, todavía más reciente. Pero eso vale de los desarrollos posteriores: explicaciones y motivaciones. Se puede pensar que una lista de prohibiciones («Honra a tu padre y a tu madre» podría haber tenido también una formulación negativa, véase Ex 21 15.17; Dt 27 16, y la mención del sábado es un elemento tardío en el Decálogo) con una introducción más breve: «Yo soy Yahvé tu Dios desde el país de Egipto» (véase Os 12 10; 13 4) es más antigua, quizás de tradición elohista. Os 4 2 sería probablemente la primera cita explícita de una parte de las prohibiciones del Decálogo; una cita posterior es la Jr 7, sobre todo v. 9. En el estado actual de nuestros conocimientos, nos podemos remontar aproximadamente al s. VIII, pero no hasta Moisés. El Decálogo abarca todo el campo de la vida religiosa y moral. Se han propuesto dos divisiones de los mandamientos: a) vv. 2-3; 4-6; 7; 8-11; 12; 13; 14; 15; 16; 17; b) vv. 3-6; 7; 8- 11; 12; 13; 14; 15; 16; 17 a y 17 b . La primera, que es la de los Padres griegos, se ha conservado en las Iglesias ortodoxas y reformadas. Las Iglesias católica y luterana han adoptado la segunda, establecida por San Agustín conforme al Deu‐ teronomio. La polémica de San Pablo contra la Ley, Rm y Ga, no afecta a estos deberes esenciales para con Dios y para con el prójimo.
+
+Ex 20 3 Yahvé exige a Israel un culto exclusivo; es la condición de la Alianza. La negación de la existencia de otros dioses no vendrá hasta más adelante, ver Dt 4 35+.
+
+Ex 20 4 Prohibición de hacer imágenes cultuales de Yahvé (véase la justificación dada en Dt 4 15). Esta prohibición separa a Israel de todos los pueblos que lo rodean. Se puede observar el paso casi imperceptible de la prohibición de toda imagen cultual a la polémica contra los ídolos, v. 5s.
+
+Ex 20 5 «ante ellas», es decir, los dioses del v. 3, con el que está relacionado este verso.
+
+Ex 20 7 Lo cual podría incluir, además del perjurio, Mt 5 33, y el falso testimonio, v. 16 y Dt 5 20, el empleo mágico del nombre divino: el griego y la Vulg. lo han traducido «en vano».
+
+Ex 20 8 El nombre del sábado es relacionado explícitamente por la Biblia, Ex 16 29-30; 23 12; 34 21, con una raíz que significa «cesar», «descansar». Es un día de reposo semanal, consagrado a Yahvé, que descansó el séptimo día de la creación, v. 11, ver Gn 2 2-3. A este motivo religioso se añade una preocupación humanitaria, Ex 23 12; Dt 5 14. La institución del sábado es muy antigua, pero su observancia cobró especial importancia a partir del Destierro y se convirtió en un distintivo del Judaísmo, Ne 13 15-22; 1 M 2 32-41.
+
+Ex 20 18 (a) Los vv. 18-19, sin ser la continuación inmediata del relato de la teofanía en el cap. 19, se relacionan sobre todo con la descripción, quizás de tradición elohista, de la teofanía como una tormenta, 19 16+.19.
+
+Ex 20 18 (b) «temblando de miedo», sam., griego; «percibió» hebr. (simple cambio de vocalización).
+
+Ex 20 20 Aquí se distingue entre el terror ante las manifestaciones sensibles de la grandeza divina, en especial los fenómenos de la naturaleza que acompañan a las teofanías, y el temor, que es sumisión sin reserva a la voluntad de Dios, ver Gn 22 12; Dt 6 2+.
+
+Ex 20 22 El «Código de la Alianza», 20 22 - 23 33, es llamado así por los modernos, conforme a 24 7, aunque este pasaje se refiere más bien al Decálogo. Esta colección de leyes y costumbres no se promulgó en el Sinaí: sus preceptos suponen una colectividad sedentaria y agrícola. Data de los primeros tiempos del establecimiento en Canaán, antes de la monarquía. Puesto que aplica el espíritu de los mandamientos del Decálogo, se le ha considerado como la carta de la Alianza del Sinaí y, por esta razón, se le ha incluido aquí a continuación del Decálogo. Sus contactos con el Código de Hammurabi, el Código hitita y el Decreto de Horemheb no prueban necesariamente una dependencia directa, sino más bien una fuente común: un viejo derecho consuetudinario que se ha diferenciado según los ambientes y los pueblos. —Pueden clasificarse las prescripciones del Código, conforme a su contenido, en tres capítulos: derecho civil y penal, 21 1 - 22 20; reglas para el culto, 20 22-26; 22 28-31; 23 10-19; moral social, 22 21-27; 23 1-9. Según su forma literaria, estas prescripciones se dividen en dos categorías: «casuística» o condicional en la línea de los códigos mesopotámicos; «apodíctica» o imperativa según el estilo del Decálogo y de los textos de la sabiduría egipcia.
+
+Ex 20 24 Contrariamente a Dt 12 5, etc., el Código de la Alianza admite la pluralidad de lugares de culto. El culto es legítimo en cualquier lugar en el que Yahvé haya manifestado su presencia, en el que se haya revelado y del que, por lo mismo, haya tomado posesión.
+
+Ex 20 26 El sacrificador debía cubrirse con un simple paño al modo egipcio, de ahí el peligro de indecencia cuando subía las gradas del altar.
+
+Ex 21 7 Esclava que también será la concubina, vv. siguientes.
+
+Ex 21 8 «al que había sido destinada» griego; «que no la había destinado» hebr.
+
+Ex 21 9 Las hijas del dueño de la casa.
+
+Ex 21 13 (a) Se atribuyen a Dios los encuentros fortuitos. Estas palabras se aplican al homicidio sin premeditación.
+
+Ex 21 13 (b) En esta sociedad, donde la Justicia de Estado no ha sustituido aún a la venganza privada, el homicida involuntario debe ser protegido contra el vengador de sangre, ver Nm 35 19+; el lugar de asilo es primitivamente el santuario, 1 R 1 50; 2 28-34 (pero el derecho de asilo no se aplica al homicida con premeditación, v. 14). Esta disposición originó la institución de las ciudades de asilo, ver Jos 20 1+.
+
+Ex 21 25 Esta ley del talión, ver Lv 24 17-20; Dt 19 21, que se encuentra en el Código de Hammurabi y en las leyes asirias, es de naturaleza social, no individual. Al imponer un castigo igual al daño causado, trata de limitar los excesos de la venganza, ver Gn 4 23-24. El caso más claro es la ejecución de un homicida, vv. 31-34; ver 21 12-17+; Lv 24 17. De hecho parece que la aplicación de esta regla perdió muy pronto su brutalidad primitiva. Las obligaciones del «vengador de sangre» gō’ēl, Nm 35 19+, se fueron clarificando hasta abarcar esencialmente sólo el rescate, Rt 2 20+, y protección, Sal 19 15+; Is 41 14+. El enunciado de principio siguió en uso, pero con formas suavizadas, Si 27 25-29; Sb 11 16+; ver 12 22. Dentro del pueblo israelita estaba prescrito el perdón, Lv 19 17-18; Si 10 6; 27 30 - 28 7, y Cristo subrayará más aún éste, Mt 5 38-39+; 18 21-22+.
+
+Ex 22 8 Por decisión judicial, ordalía, oráculo o juramento.
+
+Ex 22 10 Otra traducción: «El propietario tomará lo que quede».
+
+Ex 22 15 En hebreo mōhar, suma entregada por el novio a la familia de su futura esposa.
+
+Ex 22 28 «las primicias de tu era y de tu lagar», según griego. Hebr. dice «de tu abundancia y de tus jugos». Se trata de contribuciones para el culto con los productos de la tierra.
+
+Ex 23 Los vv. 1-3 y 6-9 tratan de refrenar las faltas que se pueden dar en la administración de la justicia. La formulación prohibitiva hace que esta lista sea semejante a la que está en la base del Decálogo.
+
+Ex 23 6 Es decir, el pobre que a ti se dirige.
+
+Ex 23 7 «ni absuelvas» griego; «porque yo no absolveré» hebr.
+
+Ex 23 8 O «los testigos oculares».
+
+Ex 23 14 Diferentes textos del Pentateuco, Ex 23 14-17 (¿de tradición elohista?), Ex 34 18-23 (¿de tradición yahvista?), Dt 16 1-16 y Lv 23 con las reglas de Nm 28-29 (los dos últimos son de tradición sacerdotal), contienen un calendario de las grandes fiestas religiosas. El ritual se va precisando de un texto a otro, pero las tres fiestas principales siguen siendo las que prescribe Ex 23: 1. o En la primavera, la fiesta de los Ázimos. 2. o La fiesta de la siega, llamada fiesta de las Semanas en Ex 34 22, que se celebraba durante siete semanas, Dt 16 9, o cincuenta días, Lv 23 16, después de la Pascua (de donde su nombre griego de Pentecostés, Tb 2 1), y señalaba el fin de la cosecha del trigo; en época posterior se le asoció el recuerdo de la promulgación de la Ley en el Sinaí. 3. o La fiesta de la Recolección en otoño, al final de la estación de los frutos, llamada fiesta de las Tiendas o de los Tabernáculos, Dt 16 13; Lv 23 34, porque se utilizaban chozas de ramaje como las que se preparaban en los huertos en el momento de la recolección: evocaban el recuerdo de los campamentos de Israel en el desierto, Lv 23 43. La más popular de estas tres fiestas parece haber sido la de la Recolección, o de las Tiendas, que simplemente es llamada «la fiesta» en 1 R 8 2 y 65; Ez 45 25. Estas tres fiestas agrícolas no se celebraron sino hasta después de la entrada en Canaán. No se da ninguna fecha concreta en el calendario de Ex 23 ni de Ex 34, porque las dos son anteriores a la centralización del culto y porque las fiestas podían celebrarse en los santuarios locales en fechas que tenían en cuenta el estado de las labores agrícolas en la región. Luego se les añadieron otras fiestas: el Año Nuevo religioso, Lv 23 24; el Día de la Expiación, Lv 16 y 23 27-32; y, después del Destierro, los Purim, Est 9 24; la Dedicación, 1 M 4 59; el día de Nicanor, 1 M 7 49. Esta relación establecida de antiguo entre los Ázimos y la salida de Egipto, en primavera, facilitó la conexión de esta fiesta con la de la Pascua, ver 12 1+.
+
+Ex 23 18 Ex 34 25 dice explícitamente que se trata de la Pascua, pero en ambos casos la prescripción se da sin conexión con el calendario religioso, vv. 14-17 y 34 18-23, que no abarca la Pascua. Ésta se vino celebrando en familia hasta la reforma deuteronomista, ver Dt 16 5-6.
+
+Ex 23 19 Costumbre cananea, señalada en Ugarit.
+
+Ex 23 20 (a) Este párrafo heterogéneo muestra señales claras de una redacción deuteronomista. Sirve de conclusión al Código de la Alianza que, de este modo, es presentado como ley dada en el Sinaí que prepara el establecimiento en Canaán.
+
+Ex 23 20 (b) Este ángel parece distinto de Dios, ver Gn 16 7+, aun cuando su actuación es la de Yahvé. Es un ángel custodio, Gn 24 7; Nm 20 16, que preludia al del libro de Tobías, ver Tb 5 4+.
+
+Ex 23 21 «no te rebeles contra él» griego; «no le exasperes» hebr. —El nombre expresa y representa a la persona.
+
+Ex 23 24 Estelas o piedras levantadas, en hebreo maṣṣebôt, eran, en la religión cananea, símbolos de la divinidad masculina. Su culto es condenado por la ley, aquí y 34 13; Dt 7 5; 12 3; 16 22; Lv 26 1, y por los profetas, Os 3 4; 10 1; Mi 5 12. La religión patriarcal las aceptaba, ver Gn 28 18 y 22.
+
+Ex 23 30 La lentitud de la conquista se explica aquí como en Dt 7 22; otras explicaciones se habían dado, ver Jc 2 6+.
+
+Ex 23 31 Es decir: el golfo de Ácaba - el Mediterráneo - el Sinaí - el Éufrates. Se trata de los límites ideales del imperio de David y Salomón, 1 R 5 1. Sobre otras descripciones de la Tierra Prometida, ver Nm 34 1+; Jc 20 1+.
+
+Ex 24 El relato de los vv. 1-11 se compone de segmentos claramente distintos. 1 o Los vv. 1-2 y 9-11, de origen difícil de determinar, pueden estar preparados por 19 13 b+. Se ha considerado el pasaje como un paralelo de 3-8, y por tanto como un relato de conclusión de alianza; pero esto no está justificado. De hecho este texto subraya que Moisés y sus compañeros han podido ver a Dios sin que Él haya descargado su mano sobre ellos, vv. 10-11. Únicamente la frase «comieron y bebieron» (v. 11), junto con paralelos de alianzas humanas, véase
+
+Gn 31 43-54, han permitido decir que habría habido allí una conclusión de alianza; pero probablemente el final del v. 11 se ha de leer junto con 3-8. Estos vv. tampoco son homogéneos: en contra de los vv. 9-11, los vv. 1-2 dicen que sólo Moisés se acercó a Yahvé. 2 o Los vv. 3-8, quizás de tradición elohista. Aquí se trata claramente de una conclusión de alianza entre Dios e Israel. La sangre derramada sobre el altar y sobre el pueblo, así como la lectura solemne del «libro de la Alianza», son elementos esenciales del rito. La importancia que tiene para todo Israel queda expresada con la mención de las doce estelas, v. 4. Habríamos esperado alguna otra cosa, algo así como un banquete festivo, véase Ex 32 1-6, tanto más cuanto que se ofrecen sacrificios pacíficos o de comunión, v. 5. Es probable que la frase «comieron y bebieron», del final del v. 11, sea el final del relato de conclusión de la alianza; puede haber sido desplazado para romper el paralelismo con Ex 32 1-6, mientras que este paralelismo entre la conclusión de la alianza y su ruptura tenía una dimensión altamente significativa.
+
+Ex 24 3 Las «palabras», únicas que se mencionan a continuación, se refieren al Decálogo, ver 20 1, llamado «libro de la Alianza» en el v. 7. La expresión «todas sus normas» ha sido introducida más tarde para justificar la inserción del Código de la Alianza en este contexto, véase 21 1, y para hacer de él también una parte de las cláusulas de la alianza.
+
+Ex 24 8 Moisés, intermediario entre Yahvé y el pueblo, los une simbólicamente derramando sobre el altar, que representa a Yahvé, y luego sobre el pueblo, la sangre de una misma víctima. De este modo, el pacto es ratificado por la sangre, ver Lv 1 5+, como la Nueva Alianza lo será por la sangre de Cristo, Mt 26 28+; Hb 9 12-16+.
+
+Ex 24 12 Los vv. 12-15 y 18 b serían de origen elohísta y asegurarían la transición con el cap. 32 (Moisés ausente del campamento); los vv. 15 b -18 son un relato paralelo de tradición sacerdotal. Aquí lo esencial es introducir el tema de la gloria de Yahvé.
+
+Ex 24 13 «subieron» griego; «y Moisés subió» hebr.
+
+Ex 24 16 La «gloria de Yahvé», en la tradición sacerdotal, 13 22+, es la manifestación de la presencia divina. Es un fuego que se distingue claramente, aquí y 40 34-35, de la nube que lo acompaña y lo envuelve. Estos rasgos están tomados de las grandes teofanías que se desarrollan en el marco de una tempestad, 19 16+, pero se impregnan de un sentido superior: esta brillante luz, cuyos reflejos irradiará el rostro de Moisés, 34 29, expresa la majestad inaccesible y temible de Dios, y puede aparecer con independencia de toda tempestad, 33 22. La «gloria» llena la Tienda recién levantada, 40 34-35, como también tomará posesión del templo de Salomón, 1 R 8 10-11. Ezequiel ve cómo abandona Jerusalén en vísperas de su destrucción, Ez 9 3; 10 4.18-19; 11 22-23, y vuelve al nuevo santuario, Ez 43 1s, pero esta «gloria» es para él una luminosa apariencia humana, Ez 1 26-28. En otros textos, especialmente en los Salmos, la gloria de Yahvé expresa únicamente la majestad de Dios o el honor que se le debe, a menudo con un matiz escatológico, o también, Ex 15 7, su poder milagroso; ver la «gloria» de Jesús, Jn 2 11; 11 40.
+
+Ex 24 18 Compárense los cuarenta días del viaje de Elías hacia el Sinaí, 1 R 19 8, y los cuarenta días de Cristo en el desierto, Mt 4 2p.
+
+Ex 25 Los caps. 25-31, de tradición sacerdotal, amalgaman elementos antiguos como el Arca y su Tienda, que seguramente, como el mismo culto, se remontan a Moisés, mientras que otros elementos proceden de la evolución del culto en el decurso de la historia de Israel. Al atribuir todo a órdenes expresas de Yahvé a Moisés, el texto afirma el carácter divino de las instituciones religiosas de Israel.
+
+Ex 25 5 Lit. «piel de taḥaš»; sentido dudoso.
+
+Ex 25 8 (a) «Hazme» griego, sir.; «me han de hacer» hebr.
+
+Ex 25 8 (b) Dios es venerado en los lugares donde de un modo especial se ha hecho presente por una teofanía Gn 12 7; 28 12-19, etc. El Sinaí, donde con más esplendor se ha manifestado, es el «Monte de Dios», 3 1; 1 R 19 8, su residencia,
+
+Dt 33 1; Jc 5 4-5; Ha 3 3; Sal 68 9. El Arca es la señal de esta presencia, 25 22; ver 1 S 4 4; 2 S 6 2, y la Tienda que contiene el Arca es la Morada de Yahvé, v. 9 y 40 34, que sigue peregrinando con su pueblo, 2 S 7 6, hasta que el templo de Jerusalén se convierta en su Casa, 1 R 8 10.
+
+Ex 25 10 (a) El arca era un cofre rectangular, trasportado con la ayuda de varales de madera. Sobre su historia, ver especialmente Jos 3 3; 6 4s; 1 S 4-6; 2 S 6; 1 R 8 3-9. Desapareció en la ruina de Jerusalén (o quizá desde el reinado impío de Manasés) y ya nunca fue reconstruida, ver Jr 3 16.
+
+Ex 25 10 (b) Un codo mide unos 44 cm.
+
+Ex 25 16 «Testimonio»: traducción corriente de la palabra ‘edût que, conforme a los paralelos orientales, designa propiamente las cláusulas de un tratado impuesto por un soberano a su vasallo. El «Testimonio» aquí es el Decá‐ logo, escrito en tablas de piedra que algunas veces son llamadas «tablas del Testimonio», 31 18; 32 15; 34 29. En consecuencia, al arca se le llama «arca del Testimonio», 25 22; 26 33; 40 21.
+
+Ex 25 17 Traducción corriente de la palabra kappôret, de la raíz kafar: «cubrir», pero también «hacer la expiación», «borrar». Aquí se presenta el kappôret como distinto del arca. Interviene, sin arca, en el ritual postexílico del día de la Expiación, Lv 16 15, y 1 Cro 28 11 llama al Santo de los Santos el «lugar del Propiciatorio». Parece ser que el propiciatorio y los querubines que le son anexos eran en el templo postexílico el sustituto del arca y de los querubines del templo de Salomón. La descripción sacerdotal los ha reunido, ver v. 21. Yahvé aparece sobre el propiciatorio y desde allí habla a Moisés, v. 22; Lv 16 2; Nm 7 89.
+
+Ex 25 18 El nombre corresponde al de los kâribu babilónicos: genios de figura semihumana y semianimal, que velaban a la puerta de los templos y de los palacios. Según las descripciones bíblicas y la iconografía oriental, los que‐ rubines son esfinges aladas. En el templo de Jerusalén rodean el arca, 1 R 6 23- 28. No aparecen con seguridad en el culto de Yahvé más que a partir de la estancia del arca en Silo, donde se dirá que Yahvé «está sentado sobre los que‐ rubines», 1 S 4 4; 2 S 6 2; ver 2 R 19 15; Sal 80 2; 99 1, o «cabalga sobre los querubines», 2 S 22 11; ver Sal 18 11. En Ez 1 y 10 tiran del carro de Dios. Los querubines no existían en el culto del destierro. Los del templo de Salomón desaparecieron con el arca. En el templo postexílico, se añadieron al propiciatorio dos pequeñas figuras de querubines, ver n. precedente.
+
+Ex 25 23 Lit. «panes de la faz», es decir, los panes propios de Yahvé; ver, sobre ellos, Lv 24 5-9; 1 S 21 5.
+
+Ex 26 «Morada», miškan, es el término propio de la tradición sacerdotal para el santuario del desierto; el término generalmente se emplea sin precisiones, pero a veces se dice «Morada del Testimonio», ver 25 16+, o «Morada de la Tienda del Encuentro». Vuelve, pues, la tradición sacerdotal a coincidir con el nombre dado a este santuario en las tradiciones antiguas, la «Tienda del Encuentro», ’ohel mô‘ed, nombre que ella misma emplea con mayor frecuencia. —La descripción, difícilmente inteligible en sus detalles, es la de un santuario desmontable, adaptado a los desplazamientos del período nómada. Proyecta sobre el desierto el plano del templo de Salomón; pero los tapices que cubren la Morada conservan el recuerdo del santuario mosaico. Era una tienda, que las tradiciones antiguas no nos describen pero de las que sí nos hablan, ver Ex 37 7- 11; 38 8; Nm 11 16s; 12 4-10; Dt 31 14-15.
+
+Ex 26 6 Hay, pues, dos series de tapices que forman techo para la Morada, techo que será cubierto por el tejido más basto de los vv. 7-13 y por los toldos del v. 14.
+
+Ex 26 17 Cada basa debía estar provista de dos muescas en las que venían a insertarse las espigas colocadas en la parte inferior de cada tablero.
+
+Ex 26 33 El velo aísla de los fieles el Santo de los Santos, morada de Yahvé. Sólo el sumo sacerdote penetra en él el gran día de la Expiación, Lv 16 (y ver Hb 9 6-14). La misma separación existe entre el Santo y el Santo de los Santos en el templo de Salomón, 1 R 6 16; el velo se encuentra también en el templo de Herodes, Mt 27 51p.
+
+Ex 27 1 El altar por excelencia, el de los holocaustos, 1 R 8 64+.
+
+Ex 27 2 Los «cuernos» son unos salientes en los cuatro ángulos del altar. A estos cuernos se les atribuía una santidad especial. La sangre del sacrificio se aplicaba a ellos, 29 12, así como también a los cuernos del altar de los perfumes, 30 10. El criminal podía asirse a ellos para eludir el castigo, 1 R 1 50; 2 28.
+
+Ex 27 9 Espacio consagrado en torno al santuario. Aquí queda cerrado por una barrera de madera y de lienzo. Equivale a los patios del templo de Jerusalén, 1 R 6 36; Ez 40; Mt 21 12p; Hch 21 27-30.
+
+Ex 27 18 «cincuenta codos» sam.; «cincuenta por cincuenta» hebr.
+
+Ex 28 3 Lit. «los sabios de corazón».
+
+Ex 28 6 El hebreo bíblico aplica el nombre de efod (etimología incierta) a tres realidades diferentes: 1. o el efod instrumento adivinatorio que servía para consultar a Yahvé, ver 1 S 2 18+; 2. o el efod bad, «paño de lino», que vestían los ministros del culto ver 1 S 2 18+; 3. o el efod del sumo sacerdote, especie de coselete sujeto por un ceñidor y hombreras. A este coselete va adherido el «pectoral del juicio», vv. 15s, que contiene las suertes sagradas, el Urim y el Tumim, v. 30; Lv 8 7-8, ver 1 S 14 41+. Así pues, el efod del sumo sacerdote queda relacionado con el efod adivinatorio, y su nombre recuerda el antiguo vestido de los sacerdotes. Pero estas correlaciones son artificiales: la descripción del vestido del sumo sacerdote sólo vale para la época postexílica, y no hay testimonio del uso del efod adivinatorio, con las suertes sagradas, después de David. —Ver, además, Jc 8 27+.
+
+Ex 28 16 Unos 22 cm.
+
+Ex 28 23 Los vv. 23-28 del hebreo han sido abreviados en el griego y colocados después del v. 29.
+
+Ex 28 30 Es decir, el procedimiento que servía para juzgar, por medio de los oráculos, a los israelitas, ver 28 6+.
+
+Ex 28 33 «y lino fino torzal» griego, sam.; omitido por hebr.
+
+Ex 28 35 Vestigio de una concepción primitiva ampliamente difundida, según la cual el tintineo de las campanillas alejaba a los demonios.
+
+Ex 28 38 El sumo sacerdote, por hallarse consagrado a Yahvé, reparaba en su persona las faltas rituales involuntarias.
+
+Ex 28 41 (a) Este v., que se anticipa a 29 1 y extiende a los simples sacerdotes la unción que 29 7 y Lv 8 12 reservan al sumo sacerdote, es una adición posterior.
+
+Ex 28 41 (b) Lit. «llenarás sus manos». Es el gesto simbólico de poner por vez primera entre las manos del sacerdote las porciones de la víctima que aquél debe ofrecer en sacrificio, 29 9; 32 29; Lv 8 27-28; Jc 17 5.12; 1 R 13 33. Equivale al rito de la «entrega de los instrumentos» en la ordenación romana.
+
+Ex 28 42 Para evitar toda indecencia. El Código de la Alianza, 20 26, prohibía por esta razón los altares con gradas; pero en el templo había uno de éstos.
+
+Ex 29 4 Baño completo diferente de las abluciones de 30 19-21, y destinado a conferir la pureza ritual requerida.
+
+Ex 29 10 Para hacer de él su propio sacrificio.
+
+Ex 29 18 Este antropomorfismo expresa la satisfacción que Dios encuentra en la ofrenda que se le hace, ver más abajo passim; Gn 8 21; Lv 1 9; Nm 28 2.
+
+Ex 29 20 «la oreja derecha» versiones; «la oreja» hebr.
+
+Ex 29 21 Adición posterior cuyo lugar varía. Griego: antes del 20 b ; sam.: después de 28. En Lv después de 8 29, que corresponde a 29 26 de Ex.
+
+Ex 29 24 Este rito de presentación consistía en balancear de delante hacia atrás el objeto que así quedaba ofrecido a la divinidad antes que pasara a posesión del sacerdote.
+
+Ex 29 40 (a) Es decir, unos cuatro litros y medio.
+
+Ex 29 40 (b) Es decir 1,87 litros poco más o menos.
+
+Ex 29 42 «contigo» sam., griego; «con vosotros» hebr.
+
+Ex 30 1 En el templo de Salomón está colocado ante el Santo de los Santos, 1 R 6 20-21. Altares semejantes se empleaban en todo el Oriente antiguo.
+
+Ex 30 15 Ricos y pobres son iguales ante Dios. —El «siclo del santuario» sólo aparece en textos posteriores, aquí 38 24-26; ver Lv 5 15; 27 25; Nm 3 47; 18 16. Acaso sea el siclo antiguo que valía la quincuagésima parte de la mina y que pesaba unos 11,4 gr., mientras que el siclo corriente había bajado a la sexagésima parte de la mina, ver Ez 45 12.
+
+Ex 30 22 Estas prescripciones referentes al uso del aceite, como las que siguen, sobre el perfume, son posteriores; todos los sacerdotes son ungidos, ningún laico puede serlo. En los textos históricos antiguos, la unción se reserva para el rey: 1 S 10 1s; 16 1s; 1 R 1 39; 2 R 9 6; 11 12. Esta unción confiere al rey carácter sagrado: es el Ungido de Yahvé, 1 S 24 7; 26 9.11.23; 2 S 1 14.16; 19 22, en hebreo «el Mesías», en griego «el Cristo». Este título, aplicado con frecuencia por los Salmos a David y a su dinastía, se ha convertido en título por excelencia del futuro Rey, el Mesías, de quien David era tipo, y el NT se lo otorga a Cristo Jesús. En cuanto a los miembros del sacerdocio, no parece que se les confiriera la unción antes de la época persa. Los textos sacerdotales antiguos la reservaban para el sumo sacerdote, Ex 29 7.29; Lv 4 3.5.16; 8 12. Luego se aplicó a todos los sacerdotes, aquí v. 30 y 28 41; 40 15; Lv 7 36; 10 7; Nm 3 3.
+
+Ex 30 31 «será para vosotros» griego; «será para mí» hebr.
+
+Ex 30 32 Para uso profano.
+
+Ex 31 3 Se considera al espíritu de Dios como dispensador de las cualidades extraordinarias: aquí, la habilidad técnica, concebida como una cierta participación de la Sabiduría divina.
+
+Ex 31 12 La ley del descanso sabático, sin relación con lo que precede, quizá se ha incluido aquí para subrayar su sentido cultual.
+
+Ex 31 18 Este v. enlaza con 24 12-15 y reanuda los relatos antiguos independientemente de la extensa añadidura sacerdotal. —Las tablas contienen el Decálogo llamado el testimonio, ver 25 16+, que trae las cláusulas de la Alian‐ za. Del mismo modo, los tratados orientales se hallaban inscritos en tabletas o en estelas, y se conservaban en un santuario.
+
+Ex 32 (a) Desde el punto de vista de la crítica literaria, los caps. 32-34 son complejos, y resulta prácticamente imposible distinguir sus componentes hasta el detalle. Una parte del texto parece provenir de las tradiciones yahvista y elohista, pero otra –por cierto considerable– ha sido añadida por redactores tardíos, con rasgos acá y allá de estilo o de fraseología deuteronómicos. El texto actual presenta la conclusión de la alianza de la tradición yahvista, Ex 34, como una renovación de la del cap. 24, rota por una rebelión de Israel: la adoración del becerro de oro. Se puede pensar que éste es un arreglo artificial y que el episodio del becerro de oro ha sido colocado aquí para separar los dos relatos de la alianza y permitir conservarlos. Pero la parte más antigua del cap. 32 tenía en sí mismo su significación como segunda hoja de un díptico, en el que la primera era el relato de la conclusión de la alianza en 24 2-8+.11 b .
+
+Ex 32 (b) El «Becerro» de oro, así llamado en son de burla, es en realidad la imagen de un toro joven, uno de los símbolos divinos del Oriente antiguo. Un grupo rival del grupo de Moisés, o una fracción disidente de este último grupo, tuvo o quiso tener como símbolo de la presencia de su Dios a una figura de toro en lugar del arca de la Alianza. Pero en todo caso se trata de Yahvé, v. 5, que sacó a Israel de Egipto, vv. 4 y 8. Se ha dicho que este relato trasladaba al desierto los becerros de oro de Jeroboán; más bien parece que este último quiso reanudar una tradición antigua, ver 1 R 12 28+. El relato contiene una parte antigua, probablemente de tradición elohista, en los vv. 1-6.15-16, pero quizás con adiciones de tradición o redacción sacerdotal, 19-20 y 35. Los vv. 17-18 y el episodio de 25-29 parecen pertenecer a otro contexto, pero se les ha dado un sentido aquí, sobre todo al episodio de los levitas. Los vv. 7-14 (Dios revela el pecado del pueblo a Moisés; éste intercede y obtiene un perdón incondicional), 20-24 (Aarón no es culpable, porque ha actuado a petición del pueblo) y 30-34 (nueva intercesión de Moisés; esta vez el castigo se dilata hasta un futuro indeterminado), proceden de los redactores; la tercera de estas secciones prepara los desarrollos, igualmente tardíos, de 33 1-6.12-23 y 34 6-9.
+
+Ex 32 4 Este toro no es imagen de Yahvé; según los paralelos orientales, es la peana de la divinidad invisible, como lo es el arca, cuyo papel de guía debe asumir, ver v. 1.
+
+Ex 32 9 Este v., que falta en el griego, podría proceder de Dt 9 13.
+
+Ex 32 11 Moisés aparece como el gran intercesor: ya con ocasión de las plagas de Egipto, Ex 5 22-23; 8 4; 9 28; 10 17; en favor de su hermana María, Nm 12 13; pero especialmente en favor de todo el pueblo en el desierto, Ex 5 22- 23; 32 11-14.30-32; Nm 11 2; 14 13-19; 16 22; 21 7; Dt 9 25-29. Estos textos pertenecen en lo esencial a los estadios recientes, redaccionales, de la formación del Pentateuco. Este papel intercesor es recordado por Jr 15 1; Sal 99 6; 106 23; Si 45 3. Véase 2 M 15 14+. Esta intercesión de Moisés prefigura la de Cristo.
+
+Ex 32 20 De este modo el agua se convierte en «agua de maldición», véase Nm 5 11-31. Se trata de una ordalía, lo que quiere decir que Yahvé mismo será quien aplique el castigo a los culpables, no castigando a todos, o no a todos en el mismo grado (el castigo por mano de los levitas, vv. 22-25, es de otro contexto). El desenlace del castigo se encontraría en el v. 35. Dt 9 21 elimina la ordalía.
+
+Ex 32 25 Este episodio, probablemente fuera de contexto, presenta las pretensiones de los levitas al sacerdocio, v. 29, por razón de su celo por Yahvé.
+
+Ex 32 28 La Vulg. dice 23.000, quizá conforme a 1 Co 10 8, que pudo inspirarse en Nm 25 1-9.
+
+Ex 32 29 «habéis recibido la investidura» (Lit. «habéis llenado las manos», ver 28 41+) griego; «recibid la investidura» hebr.
+
+Ex 32 32 El libro que contiene las acciones de los hombres y describe su destino, ver Sal 69 29; 139 16, etc.
+
+Ex 33 El cap. 33 reúne elementos cuyo único lazo es el tema de la presencia de Yahvé en medio de su pueblo. La parte más considerable del capítulo, vv. 1-6 y 12-23, parece ser la prolongación de 32 7-14.30-34; su desenlace no se encuentra hasta 34 6-9. El estilo es deuteronomizante.
+
+Ex 33 6 Los vv. 1-6, de estilo deuteronomizante, no están unificados: Yahvé ordena lo que el pueblo ha hecho ya por sí mismo, vv. 2-3.
+
+Ex 33 7 (a) Aquí aparece uno de los raros textos antiguos que hablan de la Tienda: ésta es el lugar del «encuentro» de Yahvé con Moisés y el pueblo, Nm 11 16s; 12 4-10; ver Ex 29 42-43; Lv 1 1.
+
+Ex 33 7 (b) Después de este verbo, el hebr. añade lô «para él». Este pronombre puede referirse a Moisés, a Yahvé, o al arca (nombre masculino en hebreo), que habría sido mencionada anteriormente en el relato del que procede el pasaje. En efecto, es probable que la Tienda del desierto fuera el santuario del arca, y que Josué estuviera a su servicio según el v. 11.
+
+Ex 33 7 (c) Es decir, pedir un oráculo por medio de Moisés, quien, en la Tienda, conversa a solas con Yahvé; sobre este papel de Moisés, ver ya 18 15. Más tarde, se «consultará» a Yahvé por medio de un hombre de Dios o de un profeta, 1 R 14 5; 22 5.8; 2 R 3 11; 8 8, etc., o por medio de suertes sagradas, ver 1 S 2 28+; 14 41+.
+
+Ex 33 14 Tema deuteronomista, ver Dt 3 10; 12 10; 25 19; Jos 1 13; 22 4; 23 1; ver también Sal 95 11. Es el cumplimiento de las promesas.
+
+Ex 33 18 Ver nota a 24 16.
+
+Ex 33 19 Dios, al pronunciar su nombre, se revela de algún modo a Moisés, ver 3 13-15+.
+
+Ex 33 20 Es tan grande el abismo entre la indignidad del hombre y la santidad de Dios, ver Lv 17 1+, que el hombre debería morir con sólo ver a Dios, Ex 19 21; Lv 16 2; Nm 4 20, ver 6 25+, o con sólo oírle, Ex 20 19; Dt 5 24-26; ver 18 16. Por esto, Moisés Ex 3 6, Elías 1 R 19 13, y los mismos serafines, Is 6 2, se cubren la cara ante Yahvé. Al quedar con vida después de ver a Dios, se experimenta una agradecida admiración, Gn 32 31; Dt 5 24, o un temor religioso, Jc 6 22-23; 13 22; Is 6 5. Es un favor singular que Dios hace Ex 24 11, especialmente a Moisés, como «amigo» suyo, Ex 33 11; Nm 12 7-8; Dt 34 10, y a Elías, 1 R 19 11s, que serán testigos de la Transfiguración de Cristo, teofanía del NT, Mt 17 3p. En el NT, la «gloria» de Dios, ver aquí v. 18 y Ex 24 16+, se manifiesta en Jesús, Jn 1 14+; 11 40, ver 2 Co 4 4.6, pero sólo Jesús ha contemplado a Dios su Padre, Jn 1 18; 6 46; 1 Jn 4 12.
+
+Ex 34 El cap. 34 1-28 es el relato de tradición yahvista de la conclusión de la alianza, pero glosas en los vv. 1 y 4 (ver nota al comienzo del cap. 32) hacen de él sólo una renovación de la alianza. Fuera de esas glosas y de los vv. 6-9 hay adiciones de los redactores.
+
+Ex 34 1 «sube donde mí, al monte» griego; omitido por hebr.
+
+Ex 34 6 No se sabe si el sujeto de «exclamó» es Yahvé o Moisés, pero, aunque lo que sigue parece una confesión de fe, Yahvé había prometido proclamar su nombre. Lo mejor es ver aquí la realización de la promesa de 33 19-23. La cita de Nm 14 17-18 lo confirma.
+
+Ex 34 10 La Alianza contiene a la vez promesas y mandamientos: no hay oposición entre «gracia» y «ley». A los vv. 14-26 se les llama a veces el «Decálogo cultual» (aunque no hay conformidad en su distribución en diez mandamientos) o el Código yahvista de la Alianza, cuyas condiciones precisa; además del descanso sabático y de la prohibición de la idolatría, que también se hallan en el Decálogo de Ex 20, se trata de prescripciones cultuales: fiestas, primicias, sacrificios.
+
+Ex 34 13 Para las estelas, ver 23 24+. El poste sagrado, ašerá, era el emblema de la diosa del amor y de la fecundidad, Aserá (griego: Astarté), de donde toma su nombre.
+
+Ex 34 15 Por oposición al culto de Yahvé, comparado a un matrimonio legal, el culto de los falsos dioses es equiparado a una prostitución. Ver Ez 16 y 23; Os 1-3; Ap 17.
+
+Ex 34 19 Se omite aquí con el griego: «todos tus rebaños» de hebr. —«todo primer nacido, macho» griego; «que nazca macho» hebr.
+
+Ex 34 28 Moisés, véase v. 27, o Yahvé, véase 34 1; Dt 10 4. —«Las diez palabras» es probablemente una glosa. Véase Dt 4 13; 10 4.
+
+Ex 34 29 Los vv 29-35 son de origen dudoso. Refieren una tradición sobre la irradiación del rostro de Moisés, expresada por el verbo qāran, derivado de qeren, «cuerno», de donde la traducción literal de la Vulg.: «su rostro tenía cuernos». Los vv. 29-33 utilizan esta tradición para describir a Moisés cuando bajó del monte; los vv. 34-35 la relacionan con la Tienda del Encuentro, siguiendo la tradición de 33 7-11.
+
+Ex 34 35 El hebr. añade aquí: «el cutis del rostro de Moisés»; omitido por el griego.
+
+Ex 35 Esta sección, 35-39, menciona la ejecución de las órdenes dadas en los caps. 25-31, de los que es una repetición casi literal.
+
+Ex 36 8 (a) En 36 8 b - 39 43, el griego, que ha traducido un texto hebreo bastante diferente del nuestro, lo distribuye en un orden distinto, es decir: 36 8; 39 1-3; 36 8-9. 35-38; 38 9-20. 21-23; 37 1-23; 36 34. 36. 38; 38 20; 38 1-7; 37 5; 38 8 y 40 30-32; 38 24-31; 39 32; 39 1; 39 33-43 (con alteraciones de orden en el texto); 40 1-38.
+
+Ex 36 8 (b) El singular sustituye al plural: el autor repite textualmente, con los cambios gramaticales exigidos, las órdenes dadas a Moisés en persona.
+
+Ex 38 8 Los espejos antiguos eran de bronce pulido. —No se sabe qué función ejecutaban estas mujeres. Quizá oigamos aquí el eco purificado de 2 R 23 7. Este texto ha servido para glosar 1 S 2 22.
+
+Ex 38 21 Este trozo es una adición redaccional: supone la institución de los levitas, Nm 3, y el censo del pueblo, Nm 1.
+
+Ex 39 2 Aquí y en los vv. 3.7.8.22, ponemos en plural, con sam. y sir., algunos verbos que el hebr. pone en singular.
+
+Ex 39 17 La Vulg. omite en 39 17-21 ciertos detalles y tiene dos vv. menos que el hebr. La concordancia de las dos numeraciones no se restablece hasta el final del cap.
+
+Ex 39 24 «y lino fino torzal» sam.; «torzal» hebr.
+
+Ex 39 25 El hebr. repite «entre las granadas».
+
+Ex 40 13 También aquí abrevia un poco la Vulg. y pronto se retrasa en dos unidades al numerar los versículos siguientes.

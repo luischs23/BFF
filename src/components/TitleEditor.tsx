@@ -145,7 +145,7 @@ export default function TitleEditor() {
             line: index,
             original: line,
             type: 'section-intro',
-            converted: `<span class="section-intro">${titleText}</span>\n`
+            converted: `<span class="section-intro">${titleText}</span>` 
           });
         } else if (isParallel) {
           // Referencias paralelas
@@ -189,17 +189,20 @@ export default function TitleEditor() {
   };
 
   const convertToSectionIntro = (index: number) => {
-    const title = titles[index];
-    const titleText = title.original.replace(/^## /, '');
-    // Incluye línea en blanco después para que el siguiente ## funcione
-    applyConversion(index, `<span class="section-intro">${titleText}</span>\n`);
+  const title = titles[index];
+  const titleText = title.original.replace(/^## /, '');
+  // NO incluir línea en blanco extra, solo reemplazar el contenido
+    applyConversion(index, `<span class="section-intro">${titleText}</span>`);
     setMessage({ type: 'success', text: 'Convertido a section-intro' });
   };
 
   const convertToSubsectionTitle = (index: number) => {
     const title = titles[index];
     const titleText = title.original.replace(/^## /, '');
-    applyConversion(index, `## <span class="subsection-title">${titleText}</span>`);
+    // Mantener el ## solo si no está presente ya
+    const hasHashtag = title.original.startsWith('## ');
+    const prefix = hasHashtag ? '## ' : '';
+    applyConversion(index, `${prefix}<span class="subsection-title">${titleText}</span>`);
     setMessage({ type: 'success', text: 'Convertido a subsection-title' });
   };
 

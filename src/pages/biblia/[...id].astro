@@ -78,13 +78,13 @@ Object.values(estructura).forEach(testamento => {
 		<!-- Botón menú móvil -->
 		<button
 			id="menuToggle"
-			class="md:hidden fixed top-20 left-4 z-50 bg-amber-700 text-white p-3 rounded-lg shadow-lg hover:bg-amber-800 transition"
+			class="md:hidden fixed top-3 right-3 z-50 bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition backdrop-blur-sm"
 			aria-label="Abrir menú"
 		>
-			<svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+			<svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 			</svg>
-			<svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+			<svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
 			</svg>
 		</button>
@@ -133,21 +133,23 @@ Object.values(estructura).forEach(testamento => {
 										</svg>
 									</button>
 									<ul class="section-content space-y-1" data-section={`${testamentoKey}-${seccionKey}`}>
-										{seccion.libros.filter(libro => !libro.data.isIntro).map(libro => (
-											<li>
-												<a
-													href={`/biblia/${libro.slug}`}
-													class:list={[
-														"block px-3 py-1.5 text-sm rounded transition",
-														libro.slug === slug
-															? "bg-amber-200 dark:bg-amber-700 text-amber-900 dark:text-amber-100 font-semibold"
-															: "text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"
-													]}
-												>
-													{libro.data.title}
-												</a>
-											</li>
-										))}
+										{seccion.libros
+											.filter(libro => !libro.data.isIntro && !libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos'))
+											.map(libro => (
+												<li>
+													<a	
+														href={`/biblia/${libro.slug}`}
+														class:list={[
+															"block px-3 py-1.5 text-sm rounded transition",
+															libro.slug === slug
+																? "bg-amber-200 dark:bg-amber-700 text-amber-900 dark:text-amber-100 font-semibold"
+																: "text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"
+														]}
+													>
+														{libro.data.title}
+													</a>
+												</li>
+											))}
 									</ul>
 								</div>
 							)
@@ -159,14 +161,37 @@ Object.values(estructura).forEach(testamento => {
 
 		<!-- Contenido principal -->
 		<main class="flex-1 overflow-y-auto bg-stone-300 dark:bg-gray-950 transition-colors duration-300">
-			<div class="p-4 md:p-8 pt-16 md:pt-4">
-				<!-- Contenedor del libro -->
-				<div class="bible-book max-w-5xl mx-auto">
-					<!-- Encabezado del libro -->
-					<div class="bible-page-header bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-b-0 rounded-t-sm shadow-lg px-8 py-4">
-						<h1 class="text-center text-xl md:text-2xl font-serif font-bold text-gray-800 dark:text-gray-100">{title}</h1>
+			<div class="p-4 md:p-8 pt-8 md:pt-4">
+				<!-- Estado de carga -->
+				<div id="loadingState" class="max-w-5xl mx-auto">
+					<div class="bg-amber-50 dark:bg-gray-800 border-x border-stone-300 dark:border-gray-700 shadow-lg p-8">
+						<div class="animate-pulse space-y-4">
+							<div class="h-8 bg-stone-200 dark:bg-gray-700 rounded w-1/3 mx-auto"></div>
+							<div class="h-4 bg-stone-200 dark:bg-gray-700 rounded w-2/3 mx-auto"></div>
+							<div class="grid grid-cols-2 gap-8 mt-8">
+								<div class="space-y-3">
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div>
+								</div>
+								<div class="space-y-3">
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div>
+									<div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-3/6"></div>
+								</div>
+							</div>
+						</div>
 					</div>
+				</div>
 
+				<!-- Contenedor del libro (oculto hasta que se formatee) -->
+				<div id="bibleBook" class="bible-book max-w-5xl mx-auto hidden">
 					<!-- Contenido en dos columnas con divisores de página -->
 					<article class="bible-content prose prose-sm max-w-none
 						prose-headings:text-gray-800 dark:prose-headings:text-gray-100
@@ -190,7 +215,7 @@ Object.values(estructura).forEach(testamento => {
 		</main>
 
 		<!-- Dialog para mostrar comentarios -->
-		<dialog id="commentDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-full mx-4 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600">
+		<dialog id="commentDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0">
 			<div class="rounded-lg">
 				<div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-amber-100/50 dark:bg-gray-700/50 rounded-t-lg">
 					<h3 id="commentTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Comentario</h3>
@@ -208,7 +233,7 @@ Object.values(estructura).forEach(testamento => {
 		</dialog>
 
 		<!-- Dialog para mostrar paralelos/referencias cruzadas -->
-		<dialog id="parallelsDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-full mx-4 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600">
+		<dialog id="parallelsDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0">
 			<div class="rounded-lg">
 				<div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-blue-100/50 dark:bg-blue-900/30 rounded-t-lg">
 					<h3 id="parallelsTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Referencias Paralelas</h3>
@@ -578,33 +603,35 @@ Object.values(estructura).forEach(testamento => {
 		text-decoration: underline;
 	}
 
-	/* Dialog de comentarios */
-	#commentDialog::backdrop {
+	/* Dialog de comentarios y paralelos - centrado */
+	#commentDialog,
+	#parallelsDialog {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0;
+	}
+
+	#commentDialog::backdrop,
+	#parallelsDialog::backdrop {
 		background: rgba(0, 0, 0, 0.6);
 	}
 
-	#commentDialog[open] {
+	#commentDialog[open],
+	#parallelsDialog[open] {
 		animation: dialogFadeIn 0.2s ease-out;
 	}
 
 	@keyframes dialogFadeIn {
 		from {
 			opacity: 0;
-			transform: scale(0.95);
+			transform: translate(-50%, -50%) scale(0.95);
 		}
 		to {
 			opacity: 1;
-			transform: scale(1);
+			transform: translate(-50%, -50%) scale(1);
 		}
-	}
-
-	/* Dialog de paralelos */
-	#parallelsDialog::backdrop {
-		background: rgba(0, 0, 0, 0.6);
-	}
-
-	#parallelsDialog[open] {
-		animation: dialogFadeIn 0.2s ease-out;
 	}
 
 	/* Estilos para versículos clicables */
@@ -906,6 +933,9 @@ Object.values(estructura).forEach(testamento => {
 	// Organizar contenido en páginas con dos columnas usando CSS columns
 	function organizeBiblePages() {
 		const bibleContent = document.querySelector('.bible-content');
+		const loadingState = document.getElementById('loadingState');
+		const bibleBook = document.getElementById('bibleBook');
+
 		if (!bibleContent) return;
 
 		// Guardar el contenido original
@@ -976,6 +1006,10 @@ Object.values(estructura).forEach(testamento => {
 				currentContainer.appendChild(clone);
 			}
 		});
+
+		// Ocultar loading y mostrar contenido
+		if (loadingState) loadingState.classList.add('hidden');
+		if (bibleBook) bibleBook.classList.remove('hidden');
 	}
 
 	// Inicializar todo
@@ -1111,7 +1145,7 @@ Object.values(estructura).forEach(testamento => {
 	}
 
 	// Función para hacer los versículos clicables
-	function initVerseClickHandlers() {
+	async function initVerseClickHandlers() {
 		const allSups = document.querySelectorAll('.bible-content sup');
 
 		allSups.forEach(sup => {
@@ -1164,6 +1198,9 @@ Object.values(estructura).forEach(testamento => {
 						if (parallelsTitle) parallelsTitle.textContent = data.title;
 
 						if (data.parallels && data.parallels.length > 0) {
+							// Marcar este versículo como que tiene paralelos
+							sup.classList.add('has-parallels');
+							
 							const listItems = data.parallels.map(p => {
 								const badge = p.isNT
 									? '<span class="parallel-badge nt">NT</span>'
@@ -1212,7 +1249,46 @@ Object.values(estructura).forEach(testamento => {
 			});
 		});
 	}
+	// Función para pre-cargar y marcar versículos con paralelos (una sola petición)
+	async function preloadParallels() {
+		try {
+			// Obtener lista de todos los versículos con paralelos en una sola petición
+			const response = await fetch('/api/get-parallels-list', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ bookSlug: currentSlug })
+			});
 
-	// Inicializar versículos clicables después de que se organicen las páginas
-	setTimeout(initVerseClickHandlers, 250);
+			const data = await response.json();
+
+			if (!response.ok || !data.success || !data.verses) {
+				return;
+			}
+
+			// Crear un Set para búsqueda rápida
+			const versesWithParallels = new Set(data.verses);
+
+			// Marcar todos los versículos que tienen paralelos
+			const allSups = document.querySelectorAll('.bible-content sup.verse-clickable');
+
+			allSups.forEach(sup => {
+				const verse = sup.getAttribute('data-verse');
+				const chapter = getChapterForVerse(sup);
+				const key = `${chapter}:${verse}`;
+
+				if (versesWithParallels.has(key)) {
+					sup.classList.add('has-parallels');
+					sup.setAttribute('title', 'Ver referencias paralelas');
+				}
+			});
+		} catch (error) {
+			console.error('Error al precargar paralelos:', error);
+		}
+	}
+
+	// Inicializar versículos clicables y luego precargar paralelos
+	setTimeout(async () => {
+		await initVerseClickHandlers();
+		await preloadParallels();
+	}, 300);
 </script>

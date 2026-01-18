@@ -31,8 +31,10 @@ const estructura = {
 	}
 };
 
-// Separar libros principales de comentarios
-const librosprincipales = libros.filter(libro => !libro.slug.includes('-comentarios'));
+// Separar libros principales de comentarios y paralelos
+const librosprincipales = libros.filter(libro =>
+	!libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos')
+);
 const comentarios = libros.filter(libro => libro.slug.includes('-comentarios'));
 
 // Crear un mapa de comentarios por libro base
