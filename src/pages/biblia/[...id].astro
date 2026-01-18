@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import { List, BookOpen, Menu, X } from "lucide-astro";
 
 export const prerender = true;
 
@@ -81,13 +82,10 @@ Object.values(estructura).forEach(testamento => {
 			class="md:hidden fixed top-3 right-3 z-50 bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition backdrop-blur-sm"
 			aria-label="Abrir menú"
 		>
-			<svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-			</svg>
-			<svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-			</svg>
+			<Menu id="menuIcon" class="h-5 w-5" />
+			<X id="closeIcon" class="h-5 w-5 hidden" />
 		</button>
+
 
 		<!-- Controles de navegación flotantes -->
 		<div class="fixed right-3 top-16 md:top-3 z-40 flex flex-col gap-2">
@@ -98,33 +96,7 @@ Object.values(estructura).forEach(testamento => {
 				aria-label="Navegar capítulos"
 				title="Ir a capítulo"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-				</svg>
-			</button>
-
-			<!-- Botón scroll arriba -->
-			<button
-				id="scrollTopBtn"
-				class="bg-stone-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-stone-700 transition backdrop-blur-sm opacity-0 pointer-events-none"
-				aria-label="Ir arriba"
-				title="Ir al inicio"
-			>
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-				</svg>
-			</button>
-
-			<!-- Botón scroll abajo -->
-			<button
-				id="scrollBottomBtn"
-				class="bg-stone-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-stone-700 transition backdrop-blur-sm"
-				aria-label="Ir abajo"
-				title="Ir al final"
-			>
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-				</svg>
+				<BookOpen class="h-5 w-5" />
 			</button>
 		</div>
 
@@ -143,27 +115,6 @@ Object.values(estructura).forEach(testamento => {
 			</div>
 			<div id="chapterGrid" class="grid grid-cols-5 gap-1.5">
 				<!-- Capítulos se generan dinámicamente -->
-			</div>
-		</div>
-
-		<!-- Barra de progreso de lectura -->
-		<div
-			id="readingProgressBar"
-			class="fixed left-0 top-0 bottom-0 w-1.5 md:w-2 bg-stone-200 dark:bg-gray-700 z-30 md:left-[288px]"
-		>
-			<div
-				id="progressIndicator"
-				class="w-full bg-amber-500 dark:bg-amber-400 transition-all duration-150 rounded-b"
-				style="height: 0%"
-			></div>
-			<!-- Marcador de posición actual (draggable) -->
-			<div
-				id="progressHandle"
-				class="absolute left-0 w-full h-8 bg-amber-600 dark:bg-amber-500 rounded cursor-pointer hover:bg-amber-700 dark:hover:bg-amber-400 transition flex items-center justify-center shadow-md"
-				style="top: 0%"
-				title="Arrastra para navegar"
-			>
-				<div class="w-3 h-0.5 bg-white/70 rounded"></div>
 			</div>
 		</div>
 
@@ -1607,12 +1558,7 @@ Object.values(estructura).forEach(testamento => {
 	const chapterNavPanel = document.getElementById('chapterNavPanel');
 	const closeChapterNav = document.getElementById('closeChapterNav');
 	const chapterGrid = document.getElementById('chapterGrid');
-	const scrollTopBtn = document.getElementById('scrollTopBtn');
-	const scrollBottomBtn = document.getElementById('scrollBottomBtn');
 	const mainContent = document.querySelector('main');
-	const progressIndicator = document.getElementById('progressIndicator');
-	const progressHandle = document.getElementById('progressHandle');
-	const readingProgressBar = document.getElementById('readingProgressBar');
 
 	let chapterNavOpen = false;
 	let chapters = [];
@@ -1757,84 +1703,7 @@ Object.values(estructura).forEach(testamento => {
 	chapterNavToggle?.addEventListener('click', toggleChapterNav);
 	closeChapterNav?.addEventListener('click', toggleChapterNav);
 
-	// ========================================
-	// Botones de scroll rápido
-	// ========================================
-	scrollTopBtn?.addEventListener('click', () => {
-		mainContent?.scrollTo({ top: 0, behavior: 'smooth' });
-	});
-
-	scrollBottomBtn?.addEventListener('click', () => {
-		if (mainContent) {
-			mainContent.scrollTo({ top: mainContent.scrollHeight, behavior: 'smooth' });
-		}
-	});
-
-	// ========================================
-	// Barra de progreso de lectura
-	// ========================================
 	let isDragging = false;
-
-	function updateProgressBar() {
-		if (!mainContent || !progressIndicator || !progressHandle) return;
-
-		const scrollTop = mainContent.scrollTop;
-		const scrollHeight = mainContent.scrollHeight - mainContent.clientHeight;
-		const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
-
-		progressIndicator.style.height = `${progress}%`;
-		progressHandle.style.top = `${progress}%`;
-
-		// Mostrar/ocultar botón de scroll arriba
-		if (scrollTop > 300) {
-			scrollTopBtn?.classList.add('visible');
-		} else {
-			scrollTopBtn?.classList.remove('visible');
-		}
-
-		// Detectar capítulo visible actual
-		detectCurrentChapter();
-	}
-
-	function detectCurrentChapter() {
-		if (!mainContent) return;
-
-		const scrollTop = mainContent.scrollTop;
-		const viewportMiddle = scrollTop + mainContent.clientHeight / 3;
-
-		let visibleChapter = 1;
-
-		// Buscar el capítulo más cercano a la parte superior visible
-		const chapterMarkers = document.querySelectorAll('.chapter-marker');
-		chapterMarkers.forEach(marker => {
-			const markerTop = marker.getBoundingClientRect().top + scrollTop - mainContent.getBoundingClientRect().top;
-			const chapterNum = parseInt(marker.getAttribute('data-chapter') || marker.textContent);
-
-			if (!isNaN(chapterNum) && markerTop <= viewportMiddle) {
-				visibleChapter = chapterNum;
-			}
-		});
-
-		if (visibleChapter !== currentVisibleChapter) {
-			currentVisibleChapter = visibleChapter;
-			// Actualizar botón activo en el panel si está abierto
-			if (chapterNavOpen) {
-				updateActiveChapterButton();
-			}
-		}
-	}
-
-	function updateActiveChapterButton() {
-		const buttons = chapterGrid?.querySelectorAll('button');
-		buttons?.forEach(btn => {
-			const num = parseInt(btn.textContent || '0');
-			if (num === currentVisibleChapter) {
-				btn.classList.add('current-chapter');
-			} else {
-				btn.classList.remove('current-chapter');
-			}
-		});
-	}
 
 	// Manejar drag en la barra de progreso
 	function handleProgressDrag(e) {
@@ -1883,9 +1752,6 @@ Object.values(estructura).forEach(testamento => {
 			});
 		}
 	});
-
-	// Escuchar scroll
-	mainContent?.addEventListener('scroll', updateProgressBar);
 
 	// Inicializar barra de progreso
 	setTimeout(updateProgressBar, 500);
