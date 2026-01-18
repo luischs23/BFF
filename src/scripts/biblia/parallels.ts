@@ -55,15 +55,19 @@ async function initVerseClickHandlers(currentSlug: string): Promise<void> {
 
 		if (isNaN(verseNum)) return;
 
-		// Agregar clase para hacerlo clicable
+		// Agregar clase y datos del versículo
 		sup.classList.add('verse-clickable');
 		sup.setAttribute('data-verse', verseNum.toString());
-		sup.setAttribute('title', 'Ver referencias paralelas');
 
 		// Manejar clic
 		sup.addEventListener('click', async (e) => {
 			e.preventDefault();
 			e.stopPropagation();
+
+			// Solo procesar si el versículo tiene paralelos
+			if (!sup.classList.contains('has-parallels')) {
+				return;
+			}
 
 			const verse = parseInt(sup.getAttribute('data-verse') || '1');
 			const chapter = getChapterForVerse(sup);

@@ -95,9 +95,10 @@ function generateChapterButtons(): void {
 			btn.classList.add('current-chapter');
 		}
 
-		btn.addEventListener('click', () => {
+		btn.addEventListener('click', (e) => {
+			e.stopPropagation();
 			navigateToChapter(chapter.number);
-			toggleChapterNav();
+			closeChapterNavPanel();
 		});
 
 		chapterGrid.appendChild(btn);
@@ -138,6 +139,13 @@ function showChapterIndicator(chapterNum: number): void {
 	}, 1500);
 }
 
+// Cerrar panel de navegación
+function closeChapterNavPanel(): void {
+	const chapterNavPanel = document.getElementById('chapterNavPanel');
+	chapterNavOpen = false;
+	chapterNavPanel?.classList.add('hidden');
+}
+
 // Toggle panel de navegación
 function toggleChapterNav(): void {
 	const chapterNavPanel = document.getElementById('chapterNavPanel');
@@ -166,6 +174,12 @@ export function initChapterNavigation(): void {
 		}
 	});
 
-	chapterNavToggle?.addEventListener('click', toggleChapterNav);
-	closeChapterNav?.addEventListener('click', toggleChapterNav);
+	chapterNavToggle?.addEventListener('click', (e) => {
+		e.stopPropagation();
+		toggleChapterNav();
+	});
+	closeChapterNav?.addEventListener('click', (e) => {
+		e.stopPropagation();
+		closeChapterNavPanel();
+	});
 }

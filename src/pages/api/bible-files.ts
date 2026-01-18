@@ -13,7 +13,12 @@ async function getFilesRecursively(dir: string, baseDir: string = ''): Promise<s
     if (entry.isDirectory()) {
       const subFiles = await getFilesRecursively(fullPath, relativePath);
       files.push(...subFiles);
-    } else if (entry.name.endsWith('.md') && !entry.name.startsWith('_')) {
+    } else if (
+      entry.name.endsWith('.md') &&
+      !entry.name.startsWith('_') &&
+      !entry.name.endsWith('-comentarios.md') &&
+      !entry.name.endsWith('-paralelos.md')
+    ) {
       files.push(`src/content/sagrada-biblia/${relativePath}`);
     }
   }
