@@ -1,0 +1,20 @@
+---
+// Panel de navegación rápida de capítulos
+---
+
+<div
+	id="chapterNavPanel"
+	class="fixed right-3 top-20 md:right-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"
+>
+	<div class="flex justify-between items-center mb-2 pb-2 border-b border-stone-200 dark:border-gray-700">
+		<span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Ir a capítulo</span>
+		<button id="closeChapterNav" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		</button>
+	</div>
+	<div id="chapterGrid" class="grid grid-cols-5 gap-1.5">
+		<!-- Capítulos se generan dinámicamente -->
+	</div>
+</div>

@@ -1,0 +1,33 @@
+---
+// Contenedor del contenido bíblico con estilos de libro
+
+interface Props {
+	class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<div
+	id="bibleBook"
+	class:list={["bible-book hidden w-full md:max-w-3xl md:mx-auto", className]}
+>
+	<!-- Contenido en dos columnas con divisores de página -->
+	<article class="bible-content prose prose-sm max-w-none
+		prose-headings:text-gray-800 dark:prose-headings:text-gray-100
+		prose-h2:text-sm md:prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
+		prose-p:text-gray-700 dark:prose-p:text-gray-300
+		dark:prose-invert
+		bg-amber-50 dark:bg-gray-800
+		border-x border-stone-300 dark:border-gray-700
+		shadow-lg">
+		<slot />
+	</article>
+
+	<!-- Pie del libro -->
+	<div class="bible-page-footer bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-t-0 rounded-b-sm shadow-lg px-8 py-3">
+		<div class="flex justify-center">
+			<span class="text-sm text-stone-400 dark:text-gray-500 font-serif">— ✝ —</span>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,44 @@
+---
+import { BookOpen, Menu, X } from "lucide-astro";
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<header
+	id="mobileHeader"
+	class="md:hidden fixed top-0 left-0 right-0 z-50 bg-amber-50/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-stone-300 dark:border-gray-700 shadow-md transition-transform duration-300"
+>
+	<div class="flex items-center justify-between px-4 py-3">
+		<!-- Título del libro centrado -->
+		<h1 class="flex-1 text-center text-lg font-bold text-gray-800 dark:text-gray-100 truncate px-12">
+			{title}
+		</h1>
+
+		<!-- Controles a la derecha -->
+		<div class="absolute right-3 flex items-center gap-2">
+			<!-- Botón navegación de capítulos -->
+			<button
+				id="chapterNavToggle"
+				class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition"
+				aria-label="Navegar capítulos"
+				title="Ir a capítulo"
+			>
+				<BookOpen class="h-5 w-5" />
+			</button>
+
+			<!-- Botón menú móvil -->
+			<button
+				id="menuToggle"
+				class="bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition"
+				aria-label="Abrir menú"
+			>
+				<Menu id="menuIcon" class="h-5 w-5" />
+				<X id="closeIcon" class="h-5 w-5 hidden" />
+			</button>
+		</div>
+	</div>
+</header>

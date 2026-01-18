@@ -1,0 +1,152 @@
+/* Estilos para secciones contraíbles del sidebar */
+.section-content {
+	overflow: hidden;
+	transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+	max-height: 1000px;
+	opacity: 1;
+}
+
+.section-content.collapsed {
+	max-height: 0;
+	opacity: 0;
+}
+
+.toggle-icon {
+	transition: transform 0.3s ease;
+}
+
+.toggle-icon.rotated {
+	transform: rotate(-90deg);
+}
+
+/* Header auto-hide - mejorado */
+#mobileHeader {
+	transform: translateY(0);
+	transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#mobileHeader.header-hidden {
+	transform: translateY(-100%);
+}
+
+/* Ajustar padding del contenido principal en móvil */
+@media (max-width: 767px) {
+	#bibliaContainer > main {
+		padding-top: 4rem !important; /* Compensar altura del header - importante para override */
+	}
+
+	/* Asegurar que el contenido interno también tenga espacio */
+	#bibliaContainer > main > div:first-child {
+		padding-top: 0.5rem;
+	}
+}
+
+/* Asegurar que el header esté por encima de todo en móvil */
+@media (max-width: 767px) {
+	#mobileHeader {
+		z-index: 60 !important;
+	}
+}
+
+/* Padding para compensar la barra de progreso en móvil */
+@media (max-width: 767px) {
+	#bibliaContainer > main {
+		padding-left: 0.5rem;
+	}
+}
+
+/* Panel de navegación de capítulos */
+#chapterNavPanel {
+	animation: slideIn 0.2s ease-out;
+}
+
+@keyframes slideIn {
+	from {
+		opacity: 0;
+		transform: translateX(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+#chapterGrid button {
+	width: 36px;
+	height: 36px;
+	font-size: 0.85rem;
+	font-weight: 500;
+	border-radius: 6px;
+	transition: all 0.15s ease;
+}
+
+#chapterGrid button:hover {
+	transform: scale(1.1);
+}
+
+#chapterGrid button.current-chapter {
+	background-color: #b45309;
+	color: white;
+	font-weight: 700;
+}
+
+:global(.dark) #chapterGrid button.current-chapter {
+	background-color: #f59e0b;
+	color: #1f2937;
+}
+
+/* Mostrar capítulo actual en el panel */
+.chapter-indicator {
+	position: fixed;
+	right: 3.5rem;
+	bottom: 1rem;
+	background: rgba(180, 83, 9, 0.9);
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 9999px;
+	font-weight: 600;
+	font-size: 0.875rem;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	z-index: 40;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	pointer-events: none;
+}
+
+.chapter-indicator.visible {
+	opacity: 1;
+}
+
+:global(.dark) .chapter-indicator {
+	background: rgba(245, 158, 11, 0.9);
+	color: #1f2937;
+}
+
+/* Scroll suave para los botones */
+#scrollTopBtn,
+#scrollBottomBtn {
+	transition: opacity 0.3s ease, transform 0.15s ease;
+}
+
+#scrollTopBtn:hover,
+#scrollBottomBtn:hover {
+	transform: scale(1.1);
+}
+
+#scrollTopBtn.visible {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/* Estilos para la barra de progreso */
+#readingProgressBar {
+	transition: opacity 0.3s ease;
+}
+
+#progressHandle {
+	transform: translateY(-50%);
+}
+
+#progressHandle:active {
+	cursor: grabbing;
+}

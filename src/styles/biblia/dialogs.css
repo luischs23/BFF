@@ -1,0 +1,95 @@
+/* Dialog de comentarios y paralelos - centrado */
+#commentDialog,
+#parallelsDialog {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+#commentDialog::backdrop,
+#parallelsDialog::backdrop {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#commentDialog[open],
+#parallelsDialog[open] {
+	animation: dialogFadeIn 0.2s ease-out;
+}
+
+@keyframes dialogFadeIn {
+	from {
+		opacity: 0;
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+/* Lista de paralelos en el dialog */
+:global(.parallels-list) {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+:global(.parallels-list li) {
+	padding: 0.75rem 1rem;
+	border-bottom: 1px solid #e5e7eb;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+:global(.dark .parallels-list li) {
+	border-bottom-color: #374151;
+}
+
+:global(.parallels-list li:last-child) {
+	border-bottom: none;
+}
+
+:global(.parallels-list a) {
+	color: #2563eb;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+:global(.parallels-list a:hover) {
+	text-decoration: underline;
+}
+
+:global(.dark .parallels-list a) {
+	color: #60a5fa;
+}
+
+:global(.parallel-badge) {
+	font-size: 0.65rem;
+	padding: 0.15rem 0.4rem;
+	border-radius: 0.25rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+:global(.parallel-badge.nt) {
+	background-color: #dbeafe;
+	color: #1e40af;
+}
+
+:global(.dark .parallel-badge.nt) {
+	background-color: #1e3a5f;
+	color: #93c5fd;
+}
+
+:global(.parallel-badge.at) {
+	background-color: #fef3c7;
+	color: #92400e;
+}
+
+:global(.dark .parallel-badge.at) {
+	background-color: #451a03;
+	color: #fcd34d;
+}

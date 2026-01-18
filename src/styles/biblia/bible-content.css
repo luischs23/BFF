@@ -1,0 +1,360 @@
+/* Contenido de la biblia - página con dos columnas */
+.bible-content {
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* Cada página es un contenedor */
+.bible-content :global(.bible-page-content) {
+	padding: 2rem 2.5rem;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.bible-content :global(.bible-page-content) {
+		padding: 2.5rem 3rem;
+	}
+}
+
+/* Contenedor de columnas CSS - permite que el texto fluya naturalmente */
+.bible-content :global(.bible-columns-wrapper) {
+	columns: 1;
+	column-gap: 3rem;
+	column-rule: 1px solid #d6d3d1;
+	min-height: 700px;
+	text-align: justify;
+}
+
+:global(.dark) .bible-content :global(.bible-columns-wrapper) {
+	column-rule-color: #374151;
+}
+
+/* Evitar que los encabezados se queden solos al final de una columna */
+.bible-content :global(.bible-columns-wrapper h2),
+.bible-content :global(.bible-columns-wrapper h3) {
+	break-after: avoid;
+}
+
+/* Responsive: una columna en móvil */
+@media (max-width: 768px) {
+	.bible-content :global(.bible-columns-wrapper) {
+		columns: 1;
+		column-rule: none;
+		min-height: auto;
+	}
+}
+
+/* Estilos para marcadores de capítulo */
+.bible-content :global(.chapter-marker) {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #374151;
+	float: left;
+	line-height: 1;
+	margin-right: 0.25rem;
+	margin-top: 0.1rem;
+	padding-right: 0.15rem;
+	font-family: "Times New Roman", Times, serif;
+}
+
+:global(.dark) .bible-content :global(.chapter-marker) {
+	color: #e5e7eb;
+}
+
+/* Estilos para versículos en superíndice */
+.bible-content :global(sup) {
+	font-size: 0.6em;
+	vertical-align: super;
+	line-height: 0;
+	color: #4b5563;
+	font-weight: 600;
+	margin-right: 1px;
+}
+
+:global(.dark) .bible-content :global(sup) {
+	color: #9ca3af;
+}
+
+/* Párrafos */
+.bible-content :global(p) {
+	text-align: justify;
+	line-height: 1.7;
+	font-size: 0.9rem;
+	margin-bottom: 0.75rem;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* Divisor de página */
+.bible-content :global(.page-divider) {
+	grid-column: 1 / -1;
+	width: 100%;
+	height: 30px;
+	margin: 1rem 0;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom,
+		#fffbeb,
+		#f5f0e1 45%,
+		#d6d3d1 50%,
+		#f5f0e1 55%,
+		#fffbeb
+	);
+}
+
+:global(.dark) .bible-content :global(.page-divider) {
+	background: linear-gradient(to bottom,
+		#1f2937,
+		#263243 45%,
+		#374151 50%,
+		#263243 55%,
+		#1f2937
+	);
+}
+
+.bible-content :global(.page-divider)::before {
+	content: '';
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	top: 50%;
+	height: 1px;
+	background: #a8a29e;
+	transform: translateY(-50%);
+}
+
+:global(.dark) .bible-content :global(.page-divider)::before {
+	background: #4b5563;
+}
+
+:global(.bible-content .page-divider span) {
+	position: relative;
+	z-index: 1;
+	background: #fffbeb;
+	padding: 0 1rem;
+	color: #78716c;
+	font-size: 0.7rem;
+	font-family: "Times New Roman", Times, serif;
+}
+
+:global(.dark .bible-content .page-divider span) {
+	background: #1f2937;
+	color: #6b7280;
+}
+
+/* Sombras laterales del libro */
+.bible-book {
+	position: relative;
+}
+
+.bible-content::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: linear-gradient(to right, rgba(0,0,0,0.05), transparent);
+	pointer-events: none;
+}
+
+.bible-content::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	background: linear-gradient(to left, rgba(0,0,0,0.05), transparent);
+	pointer-events: none;
+}
+
+/* Estilos para secciones introductorias */
+.bible-content :global(.section-intro) {
+	display: block;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.1rem;
+	color: #3f444d;
+	margin: 0.75rem 0 0.5rem 0;
+	font-weight: 500;
+	letter-spacing: 0.025em;
+	line-height: 1.3;
+}
+
+:global(.dark) .bible-content :global(.section-intro) {
+	color: #9ca3af;
+}
+
+/* Subtítulos de subsección centrados */
+.bible-content :global(h2 .subsection-title) {
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	color: #374151;
+	letter-spacing: 0.05em;
+	margin: 0.25rem 0;
+	line-height: 1.2;
+}
+
+:global(.dark) .bible-content :global(h2 .subsection-title) {
+	color: #e5e7eb;
+}
+
+/* Referencias paralelas - con indentación y números de capítulo en negrita */
+.bible-content :global(.parallel-ref) {
+	display: block;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 0.85rem;
+	color: #4b5563;
+	margin: 0.1rem 0 0.1rem 1.5rem;
+	padding-left: 0.5rem;
+	line-height: 1.3;
+	font-weight: 400;
+	break-inside: avoid;
+}
+
+:global(.dark) .bible-content :global(.parallel-ref) {
+	color: #9ca3af;
+}
+
+/* Números de capítulo en negrita dentro de paralelos */
+.bible-content :global(.parallel-ref strong) {
+	font-weight: 700;
+	color: #374151;
+}
+
+:global(.dark) .bible-content :global(.parallel-ref strong) {
+	color: #e5e7eb;
+}
+
+/* Título principal del libro (h1) - más pequeño y centrado */
+.bible-content :global(h1) {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #1f2937;
+	margin: 0.5rem 0 0.25rem 0;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+:global(.dark) .bible-content :global(h1) {
+	color: #f3f4f6;
+}
+
+@media (min-width: 768px) {
+	.bible-content :global(h1) {
+		font-size: 1.75rem;
+	}
+}
+
+/* Reducir margen de TODOS los h2 */
+.bible-content :global(h2) {
+	margin-top: 0.5rem; /* Reducido desde el valor por defecto de prose */
+	margin-bottom: 0.25rem; /* Reducido */
+	line-height: 1.3; /* Agregado */
+}
+
+/* También puedes sobrescribir los estilos de prose que vienen de Tailwind */
+.bible-content {
+	--tw-prose-headings: inherit;
+}
+
+/* Sobrescribir estilos específicos de prose para h2 */
+.bible-content :global(h2) {
+	margin-top: 0.5rem !important;
+	margin-bottom: 0.25rem !important;
+}
+
+/* Estilos para notas al pie (asteriscos clicables) */
+.bible-content :global(.note-ref) {
+	color: #b45309;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 1em;
+	transition: color 0.2s;
+	display: inline;
+	user-select: none;
+	padding: 0 1px;
+	position: relative;
+}
+
+.bible-content :global(.note-ref:hover) {
+	color: #92400e;
+	text-decoration: underline;
+}
+
+:global(.dark) .bible-content :global(.note-ref) {
+	color: #fbbf24;
+}
+
+:global(.dark) .bible-content :global(.note-ref:hover) {
+	color: #fcd34d;
+	text-decoration: underline;
+}
+
+/* Estilos para versículos clicables */
+.bible-content :global(sup.verse-clickable) {
+	cursor: pointer;
+	transition: all 0.2s ease;
+	padding: 0 2px;
+	border-radius: 2px;
+}
+
+.bible-content :global(sup.verse-clickable:hover) {
+	background-color: rgba(59, 130, 246, 0.2);
+	color: #2563eb;
+}
+
+:global(.dark) .bible-content :global(sup.verse-clickable:hover) {
+	background-color: rgba(96, 165, 250, 0.2);
+	color: #60a5fa;
+}
+
+/* Indicador de que el versículo tiene paralelos - color ámbar */
+.bible-content :global(sup.verse-clickable.has-parallels) {
+	color: #b45309;
+	font-weight: 700;
+}
+
+:global(.dark) .bible-content :global(sup.verse-clickable.has-parallels) {
+	color: #fbbf24;
+}
+
+.bible-content :global(sup.verse-clickable.has-parallels:hover) {
+	background-color: rgba(180, 83, 9, 0.15);
+	color: #92400e;
+}
+
+:global(.dark) .bible-content :global(sup.verse-clickable.has-parallels:hover) {
+	background-color: rgba(251, 191, 36, 0.2);
+	color: #fcd34d;
+}
+
+/* Highlight temporal para versículo navegado */
+:global(.verse-highlight) {
+	background-color: #fef08a !important;
+	padding: 2px 6px;
+	border-radius: 4px;
+	animation: verseHighlightFade 2s ease-out forwards;
+}
+
+:global(.dark .verse-highlight) {
+	background-color: #854d0e !important;
+	animation: verseHighlightFadeDark 2s ease-out forwards;
+}
+
+@keyframes verseHighlightFade {
+	0% { background-color: #fef08a; }
+	70% { background-color: #fef08a; }
+	100% { background-color: transparent; }
+}
+
+@keyframes verseHighlightFadeDark {
+	0% { background-color: #854d0e; }
+	70% { background-color: #854d0e; }
+	100% { background-color: transparent; }
+}
