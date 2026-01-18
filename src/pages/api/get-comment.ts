@@ -189,11 +189,11 @@ export const POST: APIRoute = async ({ request }) => {
     if (letter) {
       // Buscar: "Gn 1 2 (a)" o similar
       searchPattern = `${bookAbbrev} ${chapter} ${verse} (${letter})`;
-      searchTitle = `${bookAbbrev} ${chapter}:${verse}${letter}`;
+      searchTitle = `${bookAbbrev} ${chapter},${verse}${letter}`;
     } else if (verse) {
       // Buscar: "Gn 1 1" (sin letra)
       searchPattern = `${bookAbbrev} ${chapter} ${verse}`;
-      searchTitle = `${bookAbbrev} ${chapter}:${verse}`;
+      searchTitle = `${bookAbbrev} ${chapter},${verse}`;
     } else {
       // Buscar comentario del capítulo: "Gn 1 " seguido de texto (no número)
       searchPattern = `${bookAbbrev} ${chapter} `;

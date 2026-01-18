@@ -120,6 +120,9 @@ interface ParallelRef {
   verses: string;
   isNT: boolean;
   bookPath?: string;
+  // Campos para navegación precisa
+  firstChapter: string;  // Primer capítulo (para rangos como 38-39, será 38)
+  firstVerse: string;    // Primer versículo (para rangos como 22-31, será 22)
 }
 
 // Parsear el archivo de paralelos y construir un mapa
@@ -284,14 +287,27 @@ function parseParallelReference(ref: string, currentChapter: string, currentBook
   const bookKey = bookAbbrev.toLowerCase();
   const bookPath = BOOK_PATHS[bookKey];
 
+  // Extraer primer capítulo (para rangos como "38-39" -> "38")
+  const chapterMatch = chapter.match(/^(\d+)/);
+  const firstChapter = chapterMatch ? chapterMatch[1] : chapter;
+
+  // Extraer primer versículo (para rangos como "22-31" -> "22", o "1.3" -> "1")
+  let firstVerse = '';
+  if (verses) {
+    const verseMatch = verses.match(/^(\d+)/);
+    firstVerse = verseMatch ? verseMatch[1] : '';
+  }
+
   return {
-    reference: verses ? `${bookAbbrev} ${chapter}:${verses}` : `${bookAbbrev} ${chapter}`,
+    reference: verses ? `${bookAbbrev} ${chapter},${verses}` : `${bookAbbrev} ${chapter}`,
     bookAbbrev,
     bookName,
     chapter,
     verses,
     isNT: isNT || ntBooks.has(bookAbbrev),
-    bookPath: bookPath ? `/biblia/${bookPath}` : undefined
+    bookPath: bookPath ? `/biblia/${bookPath}` : undefined,
+    firstChapter,
+    firstVerse
   };
 }
 
@@ -387,7 +403,7 @@ export const POST: APIRoute = async ({ request }) => {
     } catch {
       return new Response(JSON.stringify({
         success: true,
-        title: `${bookAbbrev} ${chapter}:${verse}`,
+        title: `${bookAbbrev} ${chapter},${verse}`,
         parallels: [],
         message: 'No hay paralelos disponibles para este libro'
       }), {
@@ -402,8 +418,8 @@ export const POST: APIRoute = async ({ request }) => {
 
     return new Response(JSON.stringify({
       success: true,
-      title: `${bookName} ${chapter}:${verse}`,
-      reference: `${bookAbbrev} ${chapter}:${verse}`,
+      title: `${bookName} ${chapter},${verse}`,
+      reference: `${bookAbbrev} ${chapter},${verse}`,
       parallels,
       count: parallels.length
     }), {
