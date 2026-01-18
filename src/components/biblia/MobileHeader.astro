@@ -185,14 +185,33 @@ const { title } = Astro.props;
 				textNodes.push(node as Text);
 			}
 
-			const regex = new RegExp(`(${escapeRegExp(query)})`, 'gi');
-
 			textNodes.forEach(textNode => {
 				const text = textNode.textContent || '';
-				if (regex.test(text)) {
-					const span = document.createElement('span');
-					span.innerHTML = text.replace(regex, '<mark class="search-highlight bg-yellow-300 dark:bg-yellow-600 rounded px-0.5">$1</mark>');
-					textNode.parentNode?.replaceChild(span, textNode);
+				const matches = findFlexibleMatches(text, query);
+
+				if (matches.length > 0) {
+					const fragment = document.createDocumentFragment();
+					let lastIndex = 0;
+
+					matches.forEach(match => {
+						// Texto antes del match
+						if (match.start > lastIndex) {
+							fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.start)));
+						}
+						// El match resaltado
+						const mark = document.createElement('mark');
+						mark.className = 'search-highlight bg-yellow-300 dark:bg-yellow-600 rounded px-0.5';
+						mark.textContent = text.slice(match.start, match.end);
+						fragment.appendChild(mark);
+						lastIndex = match.end;
+					});
+
+					// Texto restante después del último match
+					if (lastIndex < text.length) {
+						fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+					}
+
+					textNode.parentNode?.replaceChild(fragment, textNode);
 				}
 			});
 
@@ -213,6 +232,62 @@ const { title } = Astro.props;
 
 		function escapeRegExp(string: string) {
 			return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+		}
+
+		// Normalizar texto: quita tildes, comas y otros signos de puntuación
+		function normalizeText(text: string): string {
+			return text
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '') // Quita tildes
+				.replace(/[,;:.!?¡¿'"«»""'']/g, '') // Quita puntuación
+				.toLowerCase();
+		}
+
+		// Buscar coincidencias flexibles (sin importar tildes ni puntuación)
+		function findFlexibleMatches(text: string, query: string): { start: number; end: number }[] {
+			const normalizedText = normalizeText(text);
+			const normalizedQuery = normalizeText(query);
+			const matches: { start: number; end: number }[] = [];
+
+			if (!normalizedQuery) return matches;
+
+			let searchStart = 0;
+			while (true) {
+				const foundIndex = normalizedText.indexOf(normalizedQuery, searchStart);
+				if (foundIndex === -1) break;
+
+				// Encontrar los índices correspondientes en el texto original
+				// Necesitamos mapear desde el texto normalizado al original
+				let originalStart = 0;
+				let normalizedCount = 0;
+
+				// Encontrar el inicio en el texto original
+				for (let i = 0; i < text.length && normalizedCount < foundIndex; i++) {
+					const char = text[i];
+					const normalizedChar = normalizeText(char);
+					if (normalizedChar.length > 0) {
+						normalizedCount++;
+					}
+					originalStart = i + 1;
+				}
+
+				// Encontrar el final en el texto original
+				let originalEnd = originalStart;
+				let matchedLength = 0;
+				for (let i = originalStart; i < text.length && matchedLength < normalizedQuery.length; i++) {
+					const char = text[i];
+					const normalizedChar = normalizeText(char);
+					if (normalizedChar.length > 0) {
+						matchedLength++;
+					}
+					originalEnd = i + 1;
+				}
+
+				matches.push({ start: originalStart, end: originalEnd });
+				searchStart = foundIndex + 1;
+			}
+
+			return matches;
 		}
 
 		function updateSearchCount() {
