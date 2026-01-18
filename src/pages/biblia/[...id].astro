@@ -76,34 +76,46 @@ Object.values(estructura).forEach(testamento => {
 		<!-- Overlay para móvil -->
 		<div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
 
-		<!-- Botón menú móvil -->
-		<button
-			id="menuToggle"
-			class="md:hidden fixed top-3 right-3 z-50 bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition backdrop-blur-sm"
-			aria-label="Abrir menú"
+		<!-- Header móvil con auto-hide -->
+		<header
+			id="mobileHeader"
+			class="md:hidden fixed top-0 left-0 right-0 z-50 bg-amber-50/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-stone-300 dark:border-gray-700 shadow-md transition-transform duration-300"
 		>
-			<Menu id="menuIcon" class="h-5 w-5" />
-			<X id="closeIcon" class="h-5 w-5 hidden" />
-		</button>
-
-
-		<!-- Controles de navegación flotantes -->
-		<div class="fixed right-3 top-16 md:top-3 z-40 flex flex-col gap-2">
-			<!-- Botón navegación de capítulos -->
-			<button
-				id="chapterNavToggle"
-				class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition backdrop-blur-sm"
-				aria-label="Navegar capítulos"
-				title="Ir a capítulo"
-			>
-				<BookOpen class="h-5 w-5" />
-			</button>
-		</div>
+			<div class="flex items-center justify-between px-4 py-3">
+				<!-- Título del libro centrado -->
+				<h1 class="flex-1 text-center text-lg font-bold text-gray-800 dark:text-gray-100 truncate px-12">
+					{title}
+				</h1>
+				
+				<!-- Controles a la derecha -->
+				<div class="absolute right-3 flex items-center gap-2">
+					<!-- Botón navegación de capítulos -->
+					<button
+						id="chapterNavToggle"
+						class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition"
+						aria-label="Navegar capítulos"
+						title="Ir a capítulo"
+					>
+						<BookOpen class="h-5 w-5" />
+					</button>
+					
+					<!-- Botón menú móvil -->
+					<button
+						id="menuToggle"
+						class="bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition"
+						aria-label="Abrir menú"
+					>
+						<Menu id="menuIcon" class="h-5 w-5" />
+						<X id="closeIcon" class="h-5 w-5 hidden" />
+					</button>
+				</div>
+			</div>
+		</header>
 
 		<!-- Panel de navegación de capítulos -->
 		<div
 			id="chapterNavPanel"
-			class="fixed right-16 top-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"
+    		class="fixed right-3 top-20 md:right-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"
 		>
 			<div class="flex justify-between items-center mb-2 pb-2 border-b border-stone-200 dark:border-gray-700">
 				<span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Ir a capítulo</span>
@@ -189,8 +201,12 @@ Object.values(estructura).forEach(testamento => {
 		</aside>
 
 		<!-- Contenido principal -->
-		<main class="flex-1 overflow-y-auto bg-stone-300 dark:bg-gray-950 transition-colors duration-300">
-			<div class="p-4 md:p-8 pt-8 md:pt-4">
+		<main
+			class="flex-1 overflow-y-auto
+					bg-amber-50 dark:bg-gray-950
+					md:bg-stone-300 md:dark:bg-gray-950
+					transition-colors duration-300">
+			<div class="p-0 md:p-8">
 				<!-- Estado de carga -->
 				<div id="loadingState" class="max-w-5xl mx-auto">
 					<div class="bg-amber-50 dark:bg-gray-800 border-x border-stone-300 dark:border-gray-700 shadow-lg p-8">
@@ -220,7 +236,11 @@ Object.values(estructura).forEach(testamento => {
 				</div>
 
 				<!-- Contenedor del libro (oculto hasta que se formatee) -->
-				<div id="bibleBook" class="bible-book max-w-3xl mx-auto hidden">
+				<div
+					id="bibleBook"
+					class="bible-book hidden
+							w-full
+							md:max-w-3xl md:mx-auto">
 					<!-- Contenido en dos columnas con divisores de página -->
 					<article class="bible-content prose prose-sm max-w-none
 						prose-headings:text-gray-800 dark:prose-headings:text-gray-100
@@ -891,6 +911,35 @@ Object.values(estructura).forEach(testamento => {
 	:global(.dark) .chapter-indicator {
 		background: rgba(245, 158, 11, 0.9);
 		color: #1f2937;
+	}
+
+	/* Header auto-hide - mejorado */
+	#mobileHeader {
+		transform: translateY(0);
+		transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	#mobileHeader.header-hidden {
+		transform: translateY(-100%);
+	}
+
+	/* Ajustar padding del contenido principal en móvil */
+	@media (max-width: 767px) {
+		#bibliaContainer > main {
+			padding-top: 4rem !important; /* Compensar altura del header - importante para override */
+		}
+		
+		/* Asegurar que el contenido interno también tenga espacio */
+		#bibliaContainer > main > div:first-child {
+			padding-top: 0.5rem;
+		}
+	}
+
+	/* Asegurar que el header esté por encima de todo en móvil */
+	@media (max-width: 767px) {
+		#mobileHeader {
+			z-index: 60 !important;
+		}
 	}
 </style>
 
@@ -1755,4 +1804,94 @@ Object.values(estructura).forEach(testamento => {
 
 	// Inicializar barra de progreso
 	setTimeout(updateProgressBar, 500);
+
+	// ========================================
+	// Auto-hide header en scroll (solo móvil)
+	// ========================================
+	(function initHeaderAutoHide() {
+		let lastScrollTop = 0;
+		const scrollThreshold = 5; // Píxeles de tolerancia (reducido para mayor sensibilidad)
+		let isHeaderVisible = true;
+		let ticking = false;
+
+		function handleHeaderAutoHide() {
+			// Solo en móvil
+			if (window.innerWidth >= 768) {
+				const header = document.getElementById('mobileHeader');
+				if (header) {
+					header.classList.remove('header-hidden');
+					isHeaderVisible = true;
+				}
+				return;
+			}
+
+			const header = document.getElementById('mobileHeader');
+			const main = document.querySelector('main');
+			
+			if (!header || !main) return;
+
+			const scrollTop = main.scrollTop;
+			const scrollDelta = scrollTop - lastScrollTop;
+
+			// Si el scroll es muy pequeño, ignorar
+			if (Math.abs(scrollDelta) < scrollThreshold) {
+				lastScrollTop = scrollTop;
+				return;
+			}
+
+			// Scroll hacia abajo - ocultar header
+			if (scrollDelta > 0 && scrollTop > 80 && isHeaderVisible) {
+				header.classList.add('header-hidden');
+				isHeaderVisible = false;
+			}
+			// Scroll hacia arriba - mostrar header
+			else if (scrollDelta < 0 && !isHeaderVisible) {
+				header.classList.remove('header-hidden');
+				isHeaderVisible = true;
+			}
+
+			lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+		}
+
+		// Throttle para mejor rendimiento
+		function requestTick() {
+			if (!ticking) {
+				window.requestAnimationFrame(() => {
+					handleHeaderAutoHide();
+					ticking = false;
+				});
+				ticking = true;
+			}
+		}
+
+		// Agregar listener cuando el DOM esté listo
+		function attachScrollListener() {
+			const main = document.querySelector('main');
+			if (main) {
+				main.addEventListener('scroll', requestTick, { passive: true });
+				console.log('Header auto-hide inicializado');
+			} else {
+				console.warn('Main content no encontrado para header auto-hide');
+			}
+		}
+
+		// Resetear al cambiar tamaño de ventana
+		window.addEventListener('resize', () => {
+			const header = document.getElementById('mobileHeader');
+			if (window.innerWidth >= 768 && header) {
+				header.classList.remove('header-hidden');
+				isHeaderVisible = true;
+			}
+		});
+
+		// Inicializar cuando el DOM esté listo
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', attachScrollListener);
+		} else {
+			attachScrollListener();
+		}
+
+		// También intentar después de un delay por si acaso
+		setTimeout(attachScrollListener, 100);
+	})();
 </script>
