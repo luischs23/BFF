@@ -1752,146 +1752,67 @@ Object.values(estructura).forEach(testamento => {
 	chapterNavToggle?.addEventListener('click', toggleChapterNav);
 	closeChapterNav?.addEventListener('click', toggleChapterNav);
 
-	let isDragging = false;
-
-	// Manejar drag en la barra de progreso
-	function handleProgressDrag(e) {
-		if (!isDragging || !mainContent || !readingProgressBar) return;
-
-		const rect = readingProgressBar.getBoundingClientRect();
-		const y = e.clientY || (e.touches && e.touches[0].clientY);
-		const percentage = Math.max(0, Math.min(100, ((y - rect.top) / rect.height) * 100));
-
-		const scrollHeight = mainContent.scrollHeight - mainContent.clientHeight;
-		mainContent.scrollTop = (percentage / 100) * scrollHeight;
-	}
-
-	progressHandle?.addEventListener('mousedown', (e) => {
-		isDragging = true;
-		e.preventDefault();
-	});
-
-	progressHandle?.addEventListener('touchstart', (e) => {
-		isDragging = true;
-	});
-
-	document.addEventListener('mousemove', handleProgressDrag);
-	document.addEventListener('touchmove', handleProgressDrag);
-
-	document.addEventListener('mouseup', () => {
-		isDragging = false;
-	});
-
-	document.addEventListener('touchend', () => {
-		isDragging = false;
-	});
-
-	// Click directo en la barra de progreso para saltar
-	readingProgressBar?.addEventListener('click', (e) => {
-		if (e.target === progressHandle) return;
-
-		const rect = readingProgressBar.getBoundingClientRect();
-		const percentage = ((e.clientY - rect.top) / rect.height) * 100;
-
-		if (mainContent) {
-			const scrollHeight = mainContent.scrollHeight - mainContent.clientHeight;
-			mainContent.scrollTo({
-				top: (percentage / 100) * scrollHeight,
-				behavior: 'smooth'
-			});
-		}
-	});
-
-	// Inicializar barra de progreso
-	setTimeout(updateProgressBar, 500);
-
 	// ========================================
 	// Auto-hide header en scroll (solo móvil)
 	// ========================================
 	(function initHeaderAutoHide() {
-		let lastScrollTop = 0;
-		const scrollThreshold = 5; // Píxeles de tolerancia (reducido para mayor sensibilidad)
-		let isHeaderVisible = true;
-		let ticking = false;
+		const mobileHeader = document.getElementById('mobileHeader');
+		const scrollableMain = document.querySelector('#bibliaContainer > main');
 
-		function handleHeaderAutoHide() {
-			// Solo en móvil
+		if (!mobileHeader || !scrollableMain) {
+			console.warn('Header auto-hide: elementos no encontrados');
+			return;
+		}
+
+		let lastScrollY = 0;
+		let isHeaderVisible = true;
+		const scrollThreshold = 10;
+
+		function updateHeader() {
+			const currentScrollY = scrollableMain.scrollTop;
+
+			// Solo en móvil (md:hidden = < 768px)
 			if (window.innerWidth >= 768) {
-				const header = document.getElementById('mobileHeader');
-				if (header) {
-					header.classList.remove('header-hidden');
+				mobileHeader.classList.remove('header-hidden');
+				isHeaderVisible = true;
+				return;
+			}
+
+			const scrollDelta = currentScrollY - lastScrollY;
+
+			// Ignorar movimientos pequeños
+			if (Math.abs(scrollDelta) < scrollThreshold) {
+				lastScrollY = currentScrollY;
+				return;
+			}
+
+			// Scroll hacia abajo → ocultar (solo si ya scrolleamos un poco)
+			if (scrollDelta > 0 && currentScrollY > 60) {
+				if (isHeaderVisible) {
+					mobileHeader.classList.add('header-hidden');
+					isHeaderVisible = false;
+				}
+			}
+			// Scroll hacia arriba → mostrar
+			else if (scrollDelta < 0) {
+				if (!isHeaderVisible) {
+					mobileHeader.classList.remove('header-hidden');
 					isHeaderVisible = true;
 				}
-				return;
 			}
 
-			const header = document.getElementById('mobileHeader');
-			const main = document.querySelector('main');
-			
-			if (!header || !main) return;
-
-			const scrollTop = main.scrollTop;
-			const scrollDelta = scrollTop - lastScrollTop;
-
-			// Si el scroll es muy pequeño, ignorar
-			if (Math.abs(scrollDelta) < scrollThreshold) {
-				lastScrollTop = scrollTop;
-				return;
-			}
-
-			// Scroll hacia abajo - ocultar header
-			if (scrollDelta > 0 && scrollTop > 80 && isHeaderVisible) {
-				header.classList.add('header-hidden');
-				isHeaderVisible = false;
-			}
-			// Scroll hacia arriba - mostrar header
-			else if (scrollDelta < 0 && !isHeaderVisible) {
-				header.classList.remove('header-hidden');
-				isHeaderVisible = true;
-			}
-
-			lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+			lastScrollY = currentScrollY <= 0 ? 0 : currentScrollY;
 		}
 
-		// Throttle para mejor rendimiento
-		function requestTick() {
-			if (!ticking) {
-				window.requestAnimationFrame(() => {
-					handleHeaderAutoHide();
-					ticking = false;
-				});
-				ticking = true;
-			}
-		}
+		// Listener directo sin throttle para debug
+		scrollableMain.addEventListener('scroll', updateHeader, { passive: true });
 
-		// Agregar listener cuando el DOM esté listo
-		function attachScrollListener() {
-			const main = document.querySelector('main');
-			if (main) {
-				main.addEventListener('scroll', requestTick, { passive: true });
-				console.log('Header auto-hide inicializado');
-			} else {
-				console.warn('Main content no encontrado para header auto-hide');
-			}
-		}
-
-		// Resetear al cambiar tamaño de ventana
+		// Resetear en resize
 		window.addEventListener('resize', () => {
-			const header = document.getElementById('mobileHeader');
-			if (window.innerWidth >= 768 && header) {
-				header.classList.remove('header-hidden');
+			if (window.innerWidth >= 768) {
+				mobileHeader.classList.remove('header-hidden');
 				isHeaderVisible = true;
 			}
 		});
-
-		// Inicializar cuando el DOM esté listo
-		if (document.readyState === 'loading') {
-			document.addEventListener('DOMContentLoaded', attachScrollListener);
-		} else {
-			attachScrollListener();
-		}
-
-		// También intentar después de un delay por si acaso
-		setTimeout(attachScrollListener, 100);
 	})();
 </script>
