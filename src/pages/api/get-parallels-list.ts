@@ -31,10 +31,8 @@ function parseParallelsFile(content: string, bookAbbrev: string): Set<string> {
         // Por simplicidad, solo marcamos el versículo inicial
         versesWithParallels.add(`${chapter}:${startVerse}`);
       } else if (endVerseInChapter) {
-        // Rango en mismo capítulo - agregar todos los versículos del rango
-        for (let v = startVerse; v <= endVerseInChapter; v++) {
-          versesWithParallels.add(`${chapter}:${v}`);
-        }
+        // Rango en mismo capítulo - solo marcar el primer versículo
+        versesWithParallels.add(`${chapter}:${startVerse}`);
       } else {
         // Versículo único
         versesWithParallels.add(`${chapter}:${startVerse}`);
