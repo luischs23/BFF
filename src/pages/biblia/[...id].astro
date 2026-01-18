@@ -89,52 +89,82 @@ Object.values(estructura).forEach(testamento => {
 			</svg>
 		</button>
 
-		<!-- Control de rueda de capítulos -->
+		<!-- Controles de navegación flotantes -->
+		<div class="fixed right-3 top-16 md:top-3 z-40 flex flex-col gap-2">
+			<!-- Botón navegación de capítulos -->
+			<button
+				id="chapterNavToggle"
+				class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition backdrop-blur-sm"
+				aria-label="Navegar capítulos"
+				title="Ir a capítulo"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+				</svg>
+			</button>
+
+			<!-- Botón scroll arriba -->
+			<button
+				id="scrollTopBtn"
+				class="bg-stone-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-stone-700 transition backdrop-blur-sm opacity-0 pointer-events-none"
+				aria-label="Ir arriba"
+				title="Ir al inicio"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+				</svg>
+			</button>
+
+			<!-- Botón scroll abajo -->
+			<button
+				id="scrollBottomBtn"
+				class="bg-stone-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-stone-700 transition backdrop-blur-sm"
+				aria-label="Ir abajo"
+				title="Ir al final"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+				</svg>
+			</button>
+		</div>
+
+		<!-- Panel de navegación de capítulos -->
 		<div
-			id="chapterWheel"
-			class="fixed right-3 top-1/2 -translate-y-1/2 z-40 flex flex-col items-center select-none"
+			id="chapterNavPanel"
+			class="fixed right-16 top-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"
 		>
-			<!-- Flecha arriba -->
-			<button
-				id="chapterUp"
-				class="text-amber-700 dark:text-amber-400 hover:text-amber-900 dark:hover:text-amber-300 transition p-1 opacity-70 hover:opacity-100"
-				aria-label="Capítulo anterior"
-			>
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
-				</svg>
-			</button>
-
-			<!-- Rueda con número de capítulo -->
-			<div
-				id="chapterWheelDial"
-				class="relative w-12 h-16 bg-amber-600 dark:bg-amber-500 rounded-lg shadow-lg cursor-ns-resize flex items-center justify-center overflow-hidden"
-				title="Arrastra para cambiar de capítulo"
-			>
-				<!-- Indicadores de textura de rueda -->
-				<div class="absolute inset-x-0 top-1 h-0.5 bg-amber-800/30 dark:bg-amber-700/40 rounded"></div>
-				<div class="absolute inset-x-0 bottom-1 h-0.5 bg-amber-800/30 dark:bg-amber-700/40 rounded"></div>
-
-				<!-- Número del capítulo -->
-				<span
-					id="chapterNumber"
-					class="text-white dark:text-gray-900 font-bold text-xl z-10 pointer-events-none"
-				>1</span>
-
-				<!-- Efecto de brillo -->
-				<div class="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-black/20 pointer-events-none"></div>
+			<div class="flex justify-between items-center mb-2 pb-2 border-b border-stone-200 dark:border-gray-700">
+				<span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Ir a capítulo</span>
+				<button id="closeChapterNav" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</button>
 			</div>
+			<div id="chapterGrid" class="grid grid-cols-5 gap-1.5">
+				<!-- Capítulos se generan dinámicamente -->
+			</div>
+		</div>
 
-			<!-- Flecha abajo -->
-			<button
-				id="chapterDown"
-				class="text-amber-700 dark:text-amber-400 hover:text-amber-900 dark:hover:text-amber-300 transition p-1 opacity-70 hover:opacity-100"
-				aria-label="Capítulo siguiente"
+		<!-- Barra de progreso de lectura -->
+		<div
+			id="readingProgressBar"
+			class="fixed left-0 top-0 bottom-0 w-1.5 md:w-2 bg-stone-200 dark:bg-gray-700 z-30 md:left-[288px]"
+		>
+			<div
+				id="progressIndicator"
+				class="w-full bg-amber-500 dark:bg-amber-400 transition-all duration-150 rounded-b"
+				style="height: 0%"
+			></div>
+			<!-- Marcador de posición actual (draggable) -->
+			<div
+				id="progressHandle"
+				class="absolute left-0 w-full h-8 bg-amber-600 dark:bg-amber-500 rounded cursor-pointer hover:bg-amber-700 dark:hover:bg-amber-400 transition flex items-center justify-center shadow-md"
+				style="top: 0%"
+				title="Arrastra para navegar"
 			>
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-				</svg>
-			</button>
+				<div class="w-3 h-0.5 bg-white/70 rounded"></div>
+			</div>
 		</div>
 
 		<!-- Sidebar -->
@@ -239,7 +269,7 @@ Object.values(estructura).forEach(testamento => {
 				</div>
 
 				<!-- Contenedor del libro (oculto hasta que se formatee) -->
-				<div id="bibleBook" class="bible-book max-w-5xl mx-auto hidden">
+				<div id="bibleBook" class="bible-book max-w-3xl mx-auto hidden">
 					<!-- Contenido en dos columnas con divisores de página -->
 					<article class="bible-content prose prose-sm max-w-none
 						prose-headings:text-gray-800 dark:prose-headings:text-gray-100
@@ -342,7 +372,7 @@ Object.values(estructura).forEach(testamento => {
 
 	/* Cada página es un contenedor */
 	.bible-content :global(.bible-page-content) {
-		padding: 2rem 2.5rem;
+		padding: 2rem 3.5rem;
 		position: relative;
 	}
 
@@ -354,13 +384,11 @@ Object.values(estructura).forEach(testamento => {
 
 	/* Contenedor de columnas CSS - permite que el texto fluya naturalmente */
 	.bible-content :global(.bible-columns-wrapper) {
-		columns: 1; /* Cambiado de 2 a 1 */
+		columns: 1;
 		column-gap: 3rem;
-		column-rule: none; /* Removido el divisor ya que no hay columnas */
+		column-rule: 1px solid #d6d3d1;
 		min-height: 700px;
 		text-align: justify;
-		max-width: 650px; /* Limitar ancho para simular una columna */
-		margin: 0 auto; /* Centrar */
 	}
 
 	:global(.dark) .bible-content :global(.bible-columns-wrapper) {
@@ -379,7 +407,6 @@ Object.values(estructura).forEach(testamento => {
 			columns: 1;
 			column-rule: none;
 			min-height: auto;
-			max-width: 100%; /* Ancho completo en móvil */
 		}
 	}
 
@@ -812,73 +839,107 @@ Object.values(estructura).forEach(testamento => {
 		100% { background-color: transparent; }
 	}
 
-	/* Estilos para la rueda de capítulos */
-	#chapterWheel {
-		touch-action: none;
+	/* Estilos para la barra de progreso */
+	#readingProgressBar {
+		transition: opacity 0.3s ease;
 	}
 
-	#chapterWheelDial {
-		transition: transform 0.1s ease, box-shadow 0.2s ease;
+	#progressHandle {
+		transform: translateY(-50%);
 	}
 
-	#chapterWheelDial:hover {
-		box-shadow: 0 8px 25px rgba(180, 83, 9, 0.4);
-	}
-
-	#chapterWheelDial:active {
+	#progressHandle:active {
 		cursor: grabbing;
 	}
 
-	#chapterWheelDial.dragging {
-		transform: scale(1.05);
-		box-shadow: 0 10px 30px rgba(180, 83, 9, 0.5);
+	/* Panel de navegación de capítulos */
+	#chapterNavPanel {
+		animation: slideIn 0.2s ease-out;
 	}
 
-	:global(.dark) #chapterWheelDial:hover {
-		box-shadow: 0 8px 25px rgba(245, 158, 11, 0.4);
+	@keyframes slideIn {
+		from {
+			opacity: 0;
+			transform: translateX(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
 	}
 
-	:global(.dark) #chapterWheelDial.dragging {
-		box-shadow: 0 10px 30px rgba(245, 158, 11, 0.5);
+	#chapterGrid button {
+		width: 36px;
+		height: 36px;
+		font-size: 0.85rem;
+		font-weight: 500;
+		border-radius: 6px;
+		transition: all 0.15s ease;
 	}
 
-	/* Animación del número al cambiar */
-	#chapterNumber {
-		transition: transform 0.15s ease;
+	#chapterGrid button:hover {
+		transform: scale(1.1);
 	}
 
-	#chapterNumber.changing-up {
-		animation: slideUp 0.15s ease;
+	#chapterGrid button.current-chapter {
+		background-color: #b45309;
+		color: white;
+		font-weight: 700;
 	}
 
-	#chapterNumber.changing-down {
-		animation: slideDown 0.15s ease;
+	:global(.dark) #chapterGrid button.current-chapter {
+		background-color: #f59e0b;
+		color: #1f2937;
 	}
 
-	@keyframes slideUp {
-		0% { transform: translateY(100%); opacity: 0; }
-		100% { transform: translateY(0); opacity: 1; }
+	/* Scroll suave para los botones */
+	#scrollTopBtn,
+	#scrollBottomBtn {
+		transition: opacity 0.3s ease, transform 0.15s ease;
 	}
 
-	@keyframes slideDown {
-		0% { transform: translateY(-100%); opacity: 0; }
-		100% { transform: translateY(0); opacity: 1; }
+	#scrollTopBtn:hover,
+	#scrollBottomBtn:hover {
+		transform: scale(1.1);
 	}
 
-	/* Botones de flecha */
-	#chapterUp,
-	#chapterDown {
-		transition: transform 0.15s ease, opacity 0.2s ease;
+	#scrollTopBtn.visible {
+		opacity: 1;
+		pointer-events: auto;
 	}
 
-	#chapterUp:hover,
-	#chapterDown:hover {
-		transform: scale(1.2);
+	/* Padding para compensar la barra de progreso en móvil */
+	@media (max-width: 767px) {
+		#bibliaContainer > main {
+			padding-left: 0.5rem;
+		}
 	}
 
-	#chapterUp:active,
-	#chapterDown:active {
-		transform: scale(0.95);
+	/* Mostrar capítulo actual en el panel */
+	.chapter-indicator {
+		position: fixed;
+		right: 3.5rem;
+		bottom: 1rem;
+		background: rgba(180, 83, 9, 0.9);
+		color: white;
+		padding: 0.5rem 1rem;
+		border-radius: 9999px;
+		font-weight: 600;
+		font-size: 0.875rem;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		z-index: 40;
+		opacity: 0;
+		transition: opacity 0.3s ease;
+		pointer-events: none;
+	}
+
+	.chapter-indicator.visible {
+		opacity: 1;
+	}
+
+	:global(.dark) .chapter-indicator {
+		background: rgba(245, 158, 11, 0.9);
+		color: #1f2937;
 	}
 </style>
 
@@ -1540,21 +1601,22 @@ Object.values(estructura).forEach(testamento => {
 	}, 300);
 
 	// ========================================
-	// Sistema de rueda de navegación de capítulos
+	// Sistema de navegación rápida de capítulos
 	// ========================================
-	const chapterWheel = document.getElementById('chapterWheel');
-	const chapterWheelDial = document.getElementById('chapterWheelDial');
-	const chapterNumberEl = document.getElementById('chapterNumber');
-	const chapterUpBtn = document.getElementById('chapterUp');
-	const chapterDownBtn = document.getElementById('chapterDown');
+	const chapterNavToggle = document.getElementById('chapterNavToggle');
+	const chapterNavPanel = document.getElementById('chapterNavPanel');
+	const closeChapterNav = document.getElementById('closeChapterNav');
+	const chapterGrid = document.getElementById('chapterGrid');
+	const scrollTopBtn = document.getElementById('scrollTopBtn');
+	const scrollBottomBtn = document.getElementById('scrollBottomBtn');
 	const mainContent = document.querySelector('main');
+	const progressIndicator = document.getElementById('progressIndicator');
+	const progressHandle = document.getElementById('progressHandle');
+	const readingProgressBar = document.getElementById('readingProgressBar');
 
+	let chapterNavOpen = false;
 	let chapters = [];
 	let currentVisibleChapter = 1;
-	let totalChapters = 1;
-	let isDragging = false;
-	let dragStartY = 0;
-	let dragStartChapter = 1;
 
 	// Detectar todos los capítulos en el contenido
 	function detectChapters() {
@@ -1566,7 +1628,8 @@ Object.values(estructura).forEach(testamento => {
 			if (!isNaN(chapterNum)) {
 				chapters.push({
 					number: chapterNum,
-					element: marker
+					element: marker,
+					offsetTop: marker.getBoundingClientRect().top + (mainContent?.scrollTop || 0)
 				});
 			}
 		});
@@ -1577,10 +1640,12 @@ Object.values(estructura).forEach(testamento => {
 			const match = anchor.id.match(/chapter-(\d+)/);
 			if (match) {
 				const chapterNum = parseInt(match[1]);
+				// Solo agregar si no existe ya
 				if (!chapters.find(c => c.number === chapterNum)) {
 					chapters.push({
 						number: chapterNum,
-						element: anchor
+						element: anchor,
+						offsetTop: anchor.getBoundingClientRect().top + (mainContent?.scrollTop || 0)
 					});
 				}
 			}
@@ -1589,8 +1654,17 @@ Object.values(estructura).forEach(testamento => {
 		// Ordenar por número
 		chapters.sort((a, b) => a.number - b.number);
 
+		return chapters;
+	}
+
+	// Generar botones de capítulo
+	function generateChapterButtons() {
+		if (!chapterGrid) return;
+
+		detectChapters();
+
 		if (chapters.length === 0) {
-			// Fallback: detectar desde versículos
+			// Si no hay capítulos detectados, crear un rango basado en el contenido
 			const allSups = document.querySelectorAll('.bible-content sup.verse-clickable');
 			let maxChapter = 1;
 
@@ -1600,164 +1674,219 @@ Object.values(estructura).forEach(testamento => {
 			});
 
 			for (let i = 1; i <= maxChapter; i++) {
-				chapters.push({ number: i, element: null });
+				chapters.push({ number: i, element: null, offsetTop: 0 });
 			}
 		}
 
-		totalChapters = chapters.length > 0 ? Math.max(...chapters.map(c => c.number)) : 1;
+		chapterGrid.innerHTML = '';
 
-		return chapters;
+		chapters.forEach(chapter => {
+			const btn = document.createElement('button');
+			btn.textContent = chapter.number.toString();
+			btn.className = 'bg-stone-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-amber-200 dark:hover:bg-amber-600';
+
+			if (chapter.number === currentVisibleChapter) {
+				btn.classList.add('current-chapter');
+			}
+
+			btn.addEventListener('click', () => {
+				navigateToChapter(chapter.number);
+				toggleChapterNav();
+			});
+
+			chapterGrid.appendChild(btn);
+		});
 	}
 
 	// Navegar a un capítulo específico
-	function navigateToChapter(chapterNum, animate = true) {
+	function navigateToChapter(chapterNum) {
 		const chapterAnchor = document.getElementById(`chapter-${chapterNum}`);
 		if (chapterAnchor) {
-			chapterAnchor.scrollIntoView({ behavior: animate ? 'smooth' : 'instant', block: 'start' });
+			chapterAnchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
 		} else {
+			// Buscar el chapter-marker correspondiente
 			const marker = document.querySelector(`.chapter-marker[data-chapter="${chapterNum}"]`);
 			if (marker) {
-				marker.scrollIntoView({ behavior: animate ? 'smooth' : 'instant', block: 'start' });
+				marker.scrollIntoView({ behavior: 'smooth', block: 'start' });
 			}
 		}
+
+		// Mostrar indicador de capítulo brevemente
+		showChapterIndicator(chapterNum);
 	}
 
-	// Actualizar el número mostrado en la rueda
-	function updateChapterDisplay(newChapter, direction = null) {
-		if (!chapterNumberEl) return;
-
-		const oldChapter = parseInt(chapterNumberEl.textContent || '1');
-		if (newChapter === oldChapter) return;
-
-		// Agregar animación según dirección
-		if (direction) {
-			chapterNumberEl.classList.remove('changing-up', 'changing-down');
-			void chapterNumberEl.offsetWidth; // Force reflow
-			chapterNumberEl.classList.add(direction === 'up' ? 'changing-up' : 'changing-down');
-
-			setTimeout(() => {
-				chapterNumberEl.classList.remove('changing-up', 'changing-down');
-			}, 150);
+	// Mostrar indicador de capítulo
+	function showChapterIndicator(chapterNum) {
+		let indicator = document.querySelector('.chapter-indicator');
+		if (!indicator) {
+			indicator = document.createElement('div');
+			indicator.className = 'chapter-indicator';
+			document.body.appendChild(indicator);
 		}
 
-		chapterNumberEl.textContent = newChapter.toString();
-		currentVisibleChapter = newChapter;
+		indicator.textContent = `Capítulo ${chapterNum}`;
+		indicator.classList.add('visible');
+
+		setTimeout(() => {
+			indicator.classList.remove('visible');
+		}, 1500);
 	}
 
-	// Detectar capítulo visible al hacer scroll
+	// Toggle panel de navegación
+	function toggleChapterNav() {
+		chapterNavOpen = !chapterNavOpen;
+
+		if (chapterNavOpen) {
+			generateChapterButtons();
+			chapterNavPanel?.classList.remove('hidden');
+		} else {
+			chapterNavPanel?.classList.add('hidden');
+		}
+	}
+
+	// Cerrar panel al hacer clic fuera
+	document.addEventListener('click', (e) => {
+		if (chapterNavOpen &&
+			!chapterNavPanel?.contains(e.target) &&
+			!chapterNavToggle?.contains(e.target)) {
+			chapterNavOpen = false;
+			chapterNavPanel?.classList.add('hidden');
+		}
+	});
+
+	chapterNavToggle?.addEventListener('click', toggleChapterNav);
+	closeChapterNav?.addEventListener('click', toggleChapterNav);
+
+	// ========================================
+	// Botones de scroll rápido
+	// ========================================
+	scrollTopBtn?.addEventListener('click', () => {
+		mainContent?.scrollTo({ top: 0, behavior: 'smooth' });
+	});
+
+	scrollBottomBtn?.addEventListener('click', () => {
+		if (mainContent) {
+			mainContent.scrollTo({ top: mainContent.scrollHeight, behavior: 'smooth' });
+		}
+	});
+
+	// ========================================
+	// Barra de progreso de lectura
+	// ========================================
+	let isDragging = false;
+
+	function updateProgressBar() {
+		if (!mainContent || !progressIndicator || !progressHandle) return;
+
+		const scrollTop = mainContent.scrollTop;
+		const scrollHeight = mainContent.scrollHeight - mainContent.clientHeight;
+		const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+
+		progressIndicator.style.height = `${progress}%`;
+		progressHandle.style.top = `${progress}%`;
+
+		// Mostrar/ocultar botón de scroll arriba
+		if (scrollTop > 300) {
+			scrollTopBtn?.classList.add('visible');
+		} else {
+			scrollTopBtn?.classList.remove('visible');
+		}
+
+		// Detectar capítulo visible actual
+		detectCurrentChapter();
+	}
+
 	function detectCurrentChapter() {
 		if (!mainContent) return;
 
 		const scrollTop = mainContent.scrollTop;
-		const viewportTop = scrollTop + 100; // Un poco debajo del top
+		const viewportMiddle = scrollTop + mainContent.clientHeight / 3;
 
 		let visibleChapter = 1;
 
+		// Buscar el capítulo más cercano a la parte superior visible
 		const chapterMarkers = document.querySelectorAll('.chapter-marker');
 		chapterMarkers.forEach(marker => {
-			const markerRect = marker.getBoundingClientRect();
-			const markerTop = markerRect.top + scrollTop - mainContent.getBoundingClientRect().top;
+			const markerTop = marker.getBoundingClientRect().top + scrollTop - mainContent.getBoundingClientRect().top;
 			const chapterNum = parseInt(marker.getAttribute('data-chapter') || marker.textContent);
 
-			if (!isNaN(chapterNum) && markerTop <= viewportTop) {
+			if (!isNaN(chapterNum) && markerTop <= viewportMiddle) {
 				visibleChapter = chapterNum;
 			}
 		});
 
 		if (visibleChapter !== currentVisibleChapter) {
-			const direction = visibleChapter > currentVisibleChapter ? 'down' : 'up';
-			updateChapterDisplay(visibleChapter, direction);
+			currentVisibleChapter = visibleChapter;
+			// Actualizar botón activo en el panel si está abierto
+			if (chapterNavOpen) {
+				updateActiveChapterButton();
+			}
 		}
 	}
 
-	// Manejar clic en botones de flecha
-	chapterUpBtn?.addEventListener('click', () => {
-		if (currentVisibleChapter > 1) {
-			const newChapter = currentVisibleChapter - 1;
-			updateChapterDisplay(newChapter, 'up');
-			navigateToChapter(newChapter);
-		}
-	});
+	function updateActiveChapterButton() {
+		const buttons = chapterGrid?.querySelectorAll('button');
+		buttons?.forEach(btn => {
+			const num = parseInt(btn.textContent || '0');
+			if (num === currentVisibleChapter) {
+				btn.classList.add('current-chapter');
+			} else {
+				btn.classList.remove('current-chapter');
+			}
+		});
+	}
 
-	chapterDownBtn?.addEventListener('click', () => {
-		if (currentVisibleChapter < totalChapters) {
-			const newChapter = currentVisibleChapter + 1;
-			updateChapterDisplay(newChapter, 'down');
-			navigateToChapter(newChapter);
-		}
-	});
+	// Manejar drag en la barra de progreso
+	function handleProgressDrag(e) {
+		if (!isDragging || !mainContent || !readingProgressBar) return;
 
-	// Manejar drag en la rueda
-	function handleWheelDragStart(e) {
+		const rect = readingProgressBar.getBoundingClientRect();
+		const y = e.clientY || (e.touches && e.touches[0].clientY);
+		const percentage = Math.max(0, Math.min(100, ((y - rect.top) / rect.height) * 100));
+
+		const scrollHeight = mainContent.scrollHeight - mainContent.clientHeight;
+		mainContent.scrollTop = (percentage / 100) * scrollHeight;
+	}
+
+	progressHandle?.addEventListener('mousedown', (e) => {
 		isDragging = true;
-		dragStartY = e.clientY || (e.touches && e.touches[0].clientY);
-		dragStartChapter = currentVisibleChapter;
-		chapterWheelDial?.classList.add('dragging');
 		e.preventDefault();
-	}
+	});
 
-	function handleWheelDrag(e) {
-		if (!isDragging) return;
+	progressHandle?.addEventListener('touchstart', (e) => {
+		isDragging = true;
+	});
 
-		const currentY = e.clientY || (e.touches && e.touches[0].clientY);
-		const deltaY = dragStartY - currentY;
+	document.addEventListener('mousemove', handleProgressDrag);
+	document.addEventListener('touchmove', handleProgressDrag);
 
-		// Cada 30px de arrastre = 1 capítulo
-		const chapterDelta = Math.round(deltaY / 30);
-		let newChapter = dragStartChapter + chapterDelta;
+	document.addEventListener('mouseup', () => {
+		isDragging = false;
+	});
 
-		// Limitar al rango válido
-		newChapter = Math.max(1, Math.min(totalChapters, newChapter));
+	document.addEventListener('touchend', () => {
+		isDragging = false;
+	});
 
-		if (newChapter !== currentVisibleChapter) {
-			const direction = newChapter > currentVisibleChapter ? 'down' : 'up';
-			updateChapterDisplay(newChapter, direction);
-			navigateToChapter(newChapter, false);
+	// Click directo en la barra de progreso para saltar
+	readingProgressBar?.addEventListener('click', (e) => {
+		if (e.target === progressHandle) return;
+
+		const rect = readingProgressBar.getBoundingClientRect();
+		const percentage = ((e.clientY - rect.top) / rect.height) * 100;
+
+		if (mainContent) {
+			const scrollHeight = mainContent.scrollHeight - mainContent.clientHeight;
+			mainContent.scrollTo({
+				top: (percentage / 100) * scrollHeight,
+				behavior: 'smooth'
+			});
 		}
-	}
+	});
 
-	function handleWheelDragEnd() {
-		if (isDragging) {
-			isDragging = false;
-			chapterWheelDial?.classList.remove('dragging');
-		}
-	}
+	// Escuchar scroll
+	mainContent?.addEventListener('scroll', updateProgressBar);
 
-	// Manejar scroll con rueda del mouse sobre el dial
-	chapterWheelDial?.addEventListener('wheel', (e) => {
-		e.preventDefault();
-
-		const direction = e.deltaY > 0 ? 'down' : 'up';
-		let newChapter = currentVisibleChapter;
-
-		if (direction === 'down' && currentVisibleChapter < totalChapters) {
-			newChapter = currentVisibleChapter + 1;
-		} else if (direction === 'up' && currentVisibleChapter > 1) {
-			newChapter = currentVisibleChapter - 1;
-		}
-
-		if (newChapter !== currentVisibleChapter) {
-			updateChapterDisplay(newChapter, direction);
-			navigateToChapter(newChapter);
-		}
-	}, { passive: false });
-
-	// Event listeners para drag
-	chapterWheelDial?.addEventListener('mousedown', handleWheelDragStart);
-	chapterWheelDial?.addEventListener('touchstart', handleWheelDragStart);
-
-	document.addEventListener('mousemove', handleWheelDrag);
-	document.addEventListener('touchmove', handleWheelDrag);
-
-	document.addEventListener('mouseup', handleWheelDragEnd);
-	document.addEventListener('touchend', handleWheelDragEnd);
-
-	// Escuchar scroll para actualizar el capítulo visible
-	mainContent?.addEventListener('scroll', detectCurrentChapter);
-
-	// Inicializar
-	setTimeout(() => {
-		detectChapters();
-		detectCurrentChapter();
-	}, 500);
+	// Inicializar barra de progreso
+	setTimeout(updateProgressBar, 500);
 </script>
