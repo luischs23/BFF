@@ -9,7 +9,8 @@
       "Bash(Select-Object -First 20)",
       "Bash(curl:*)",
       "Bash(find:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)"
     ]
   }
 }

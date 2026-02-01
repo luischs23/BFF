@@ -12,7 +12,11 @@ const {title} = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="theme-color" content="#0f172a" />
+		<meta name="description" content="Lee la Biblia en cualquier momento y lugar" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+		<link rel="manifest" href="/manifest.json" />
 		<title>{title}</title>
 		<ClientRouter/>
 		<script is:inline>
@@ -25,6 +29,11 @@ const {title} = Astro.props;
 	</head>
 	<body class="bg-amber-50/70 dark:bg-gray-900 min-h-screen transition-colors duration-300">
 		<slot />
+		<script is:inline>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/sw.js');
+			}
+		</script>
 	</body>
 </html>
 
