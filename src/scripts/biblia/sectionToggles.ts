@@ -36,9 +36,15 @@ export function initSectionToggles(currentSlug: string): void {
 	const sectionState = loadSectionState();
 	const currentSection = getCurrentSection(currentSlug);
 
-	toggleButtons.forEach(button => {
+	toggleButtons.forEach((button) => {
 		const sectionId = button.getAttribute('data-section');
 		if (!sectionId) return;
+
+		// Evitar agregar listeners duplicados
+		if (button.hasAttribute('data-initialized')) {
+			return;
+		}
+		button.setAttribute('data-initialized', 'true');
 
 		const content = document.querySelector(`.section-content[data-section="${sectionId}"]`);
 		const icon = button.querySelector('.toggle-icon');
