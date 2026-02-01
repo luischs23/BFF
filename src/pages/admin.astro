@@ -2,6 +2,11 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 
+// Solo permitir acceso en modo desarrollo (localhost)
+if (import.meta.env.PROD) {
+	return Astro.redirect('/404');
+}
+
 const libros = await getCollection('sagrada-biblia');
 
 // Organizar libros por sección (igual que en biblia/index.astro)
