@@ -11,7 +11,9 @@ export default defineConfig({
     tailwind(),
     react(),
     AstroPWA({
+      mode: 'production',
       registerType: 'autoUpdate',
+      includeAssets: ['icons/*.png', 'icons/*.svg'],
       manifest: {
         name: 'Biblia en Línea',
         short_name: 'Biblia',
@@ -56,7 +58,24 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff,woff2}'],
+        navigateFallback: null,
+        globPatterns: ['**/*.{css,js,svg,png,ico,txt,woff,woff2}'],
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/.*\.vercel\.app\/.*/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'api-cache',
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 60 * 60 * 24,
+              },
+            },
+          },
+        ],
+      },
+      devOptions: {
+        enabled: false,
       },
     }),
   ],
