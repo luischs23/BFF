@@ -1,0 +1,853 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>Oseas - Sagrada Biblia</title><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.BScVxmeO.js"></script><script>
+			// Aplicar dark mode antes de que se renderice la página para evitar flash
+			const darkMode = localStorage.getItem('biblia-dark-mode');
+			if (darkMode === 'true' || (darkMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script><link rel="stylesheet" href="/_astro/admin.DFS-n7nW.css">
+<link rel="stylesheet" href="/_astro/_id_.CuWeqEV8.css">
+<link rel="stylesheet" href="/_astro/_id_.C67thEwx.css">
+<style>[data-astro-image]{width:100%;height:auto;-o-object-fit:var(--fit);object-fit:var(--fit);-o-object-position:var(--pos);object-position:var(--pos);aspect-ratio:var(--w) / var(--h)}[data-astro-image=responsive]{max-width:calc(var(--w) * 1px);max-height:calc(var(--h) * 1px)}[data-astro-image=fixed]{width:calc(var(--w) * 1px);height:calc(var(--h) * 1px)}
+</style></head> <body class="bg-amber-50/70 dark:bg-gray-900 min-h-screen transition-colors duration-300">  <div id="bibliaContainer" class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300"> <!-- Overlay para móvil --> <div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>   <header id="mobileHeader" class="fixed top-0 left-0 right-0 z-50 bg-amber-50/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-stone-300 dark:border-gray-700 shadow-md transition-transform duration-300 md:left-72"> <!-- Vista normal del header --> <div id="headerNormal" class="flex items-center justify-between px-4 py-3"> <!-- Botones a la izquierda --> <div class="absolute left-3 flex items-center gap-2"> <button id="searchToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Buscar en el libro" title="Buscar"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search h-5 w-5">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </button> <!-- Botón tamaño de texto --> <button id="fontSizeToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Cambiar tamaño de texto" title="Tamaño de texto"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-a-arrow-up h-5 w-5">  <path d="m14 11 4-4 4 4"></path> <path d="M18 16V7"></path> <path d="m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16"></path> <path d="M3.304 13h6.392"></path>  </svg> </button> </div> <!-- Título del libro y capítulo centrado --> <h1 class="flex-1 text-center text-lg md:text-xl font-bold text-gray-800 dark:text-gray-100 truncate px-12"> Oseas <span id="currentChapterDisplay" class="text-amber-700 dark:text-amber-400"></span> </h1> <!-- Controles a la derecha --> <div class="absolute right-3 flex items-center gap-2"> <!-- Botón navegación de capítulos --> <button id="chapterNavToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Navegar capítulos" title="Ir a capítulo"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-book-open h-5 w-5">  <path d="M12 7v14"></path> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>  </svg> </button> <!-- Botón menú móvil (oculto en desktop) --> <button id="menuToggle" class="md:hidden bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition" aria-label="Abrir menú"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="menuIcon" class="lucide lucide-menu h-5 w-5">  <path d="M4 5h16"></path> <path d="M4 12h16"></path> <path d="M4 19h16"></path>  </svg> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="closeIcon" class="lucide lucide-x h-5 w-5 hidden">  <path d="M18 6 6 18"></path> <path d="m6 6 12 12"></path>  </svg> </button> </div> </div> <!-- Vista de búsqueda expandida --> <div id="headerSearch" class="hidden flex items-center gap-2 px-3 py-2"> <!-- Botón volver --> <button id="searchClose" class="text-gray-600 dark:text-gray-300 p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Cerrar búsqueda"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-left h-5 w-5">  <path d="m15 18-6-6 6-6"></path>  </svg> </button> <!-- Input de búsqueda --> <div class="flex-1 relative"> <input type="text" id="searchInput" placeholder="Buscar en este libro..." class="w-full px-4 py-2 pr-10 rounded-full bg-white dark:bg-gray-800 border border-stone-300 dark:border-gray-600 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </div> <!-- Navegación de resultados --> <div id="searchNavigation" class="hidden flex items-center gap-1"> <span id="searchCount" class="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap"></span> <button id="searchPrev" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Resultado anterior"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-up h-4 w-4">  <path d="m18 15-6-6-6 6"></path>  </svg> </button> <button id="searchNext" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Siguiente resultado"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-down h-4 w-4">  <path d="m6 9 6 6 6-6"></path>  </svg> </button> </div> </div> </header> <script type="module" src="/_astro/MobileHeader.astro_astro_type_script_index_0_lang.BE11JRIP.js"></script>  <div id="chapterNavPanel" class="fixed right-3 top-20 md:right-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"> <div class="flex justify-between items-center mb-2 pb-2 border-b border-stone-200 dark:border-gray-700"> <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Ir a capítulo</span> <button id="closeChapterNav" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> <div id="chapterGrid" class="grid grid-cols-5 gap-1.5"> <!-- Capítulos se generan dinámicamente --> </div> </div>  <!-- Sidebar --> <aside id="sidebar" class="fixed md:relative w-72 h-full bg-stone-100 dark:bg-gray-800 border-r border-stone-200 dark:border-gray-700 overflow-y-auto flex-shrink-0 z-50 transform -translate-x-full md:translate-x-0 transition-all duration-300 ease-in-out"> <div class="p-4"> <div class="flex items-center justify-between mb-4"> <a href="/" class="text-amber-700 dark:text-amber-400 hover:underline text-sm">&larr; Inicio</a> <button id="darkModeToggle" class="p-2 rounded-lg bg-stone-200 dark:bg-gray-700 hover:bg-stone-300 dark:hover:bg-gray-600 transition-colors" aria-label="Cambiar tema"> <!-- Sol (modo claro) --> <svg id="sunIcon" class="w-5 h-5 text-amber-600 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path> </svg> <!-- Luna (modo oscuro) --> <svg id="moonIcon" class="w-5 h-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path> </svg> </button> </div> <h2 class="text-lg font-bold mb-4 text-gray-800 dark:text-gray-100">Sagrada Biblia</h2> <div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Antiguo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-01-pentateuco"> <span>El Pentateuco</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-01-pentateuco"> <li> <a href="/biblia/antiguo-testamento/01-pentateuco/01-genesis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Génesis </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/02-exodo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Éxodo </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/03-levitico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Levitico </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/04-numeros" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Numeros </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/05-deuteronomio" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Deuteronomio </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-02-libros-historicos"> <span>Libros Históricos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-02-libros-historicos"> <li> <a href="/biblia/antiguo-testamento/02-libros-historicos/01-josue" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Josué </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/02-jueces" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jueces </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/03-rut" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Rut </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/04-1samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/05-2samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/06-1reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/07-2reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/08-1cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/09-2cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/10-esdras" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Esdras </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/11-nehemias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nehemías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/12-tobias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tobías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/13-judit" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judit </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/14-ester" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ester </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/15-1macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Macabeos </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/16-2macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Macabeos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-03-lirica"> <span>Lírica</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-03-lirica"> <li> <a href="/biblia/antiguo-testamento/03-lirica/01-job" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Job </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/02-salmos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Salmos </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/03-cantar-de-los-cantares" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Cantar de los Cantares </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/04-lamentaciones" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lamentaciones </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-04-libros-sapienciales"> <span>Libros Sapienciales</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-04-libros-sapienciales"> <li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/01-proverbios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Proverbios </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/02-eclesiastes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiastés </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/03-sabiduria" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Sabiduría </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/04-eclesiastico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiástico </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-05-libros-profeticos"> <span>Libros Proféticos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-05-libros-profeticos"> <li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/01-isaias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Isaías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/02-jeremias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jeremías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/03-baruc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Baruc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/04-ezequiel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ezequiel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/05-daniel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Daniel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/06-oseas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition bg-amber-200 dark:bg-amber-700 text-amber-900 dark:text-amber-100 font-semibold"> Oseas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/07-joel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Joel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/08-amos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Amós </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/09-abdias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Abdías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/10-jonas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jonás </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/11-miqueas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Miqueas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/12-nahum" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nahúm </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/13-habacuc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Habacuc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/14-sofonias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Sofonías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/15-ageo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ageo </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/16-zacarias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Zacarías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/17-malaquias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Malaquías </a> </li> </ul> </div> </div><div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Nuevo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-01-evangelios"> <span>Evangelios</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-01-evangelios"> <li> <a href="/biblia/nuevo-testamento/01-evangelios/01-mateo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Mateo </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/02-marcos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Marcos </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/03-lucas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lucas </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/04-juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Juan </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-02-hechos"> <span>Hechos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-02-hechos"> <li> <a href="/biblia/nuevo-testamento/02-hechos/01-hechos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hechos de los Apóstoles </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-03-epistolas-pablo"> <span>Epístolas de Pablo</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-03-epistolas-pablo"> <li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/01-romanos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Romanos </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/02-1corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/03-2corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/04-galatas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Gálatas </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/05-efesios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Efesios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/06-filipenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filipenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/07-colosenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Colosenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/08-1tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/09-2tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/10-1timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/11-2timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/12-tito" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tito </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/13-filemon" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filemón </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-04-hebreos"> <span>Hebreos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-04-hebreos"> <li> <a href="/biblia/nuevo-testamento/04-hebreos/01-hebreos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hebreos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-05-epistolas-catolicas"> <span>Epístolas Católicas</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-05-epistolas-catolicas"> <li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/01-santiago" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Santiago </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/02-1pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/03-2pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/04-1juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/05-2juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/06-3juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 3 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/07-judas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judas </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-06-apocalipsis"> <span>Apocalipsis</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-06-apocalipsis"> <li> <a href="/biblia/nuevo-testamento/06-apocalipsis/01-apocalipsis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Apocalipsis </a> </li> </ul> </div> </div> </div> </aside> <!-- Contenido principal --> <main class="flex-1 overflow-y-auto
+					bg-amber-50 dark:bg-gray-950
+					md:bg-stone-300 md:dark:bg-gray-950
+					transition-colors duration-300"> <div class="p-0 md:p-8"> <!-- Estado de carga --> <div id="loadingState" class="max-w-5xl mx-auto"> <div class="bg-amber-50 dark:bg-gray-800 border-x border-stone-300 dark:border-gray-700 shadow-lg p-8"> <div class="animate-pulse space-y-4"> <div class="h-8 bg-stone-200 dark:bg-gray-700 rounded w-1/3 mx-auto"></div> <div class="h-4 bg-stone-200 dark:bg-gray-700 rounded w-2/3 mx-auto"></div> <div class="grid grid-cols-2 gap-8 mt-8"> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> </div> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-3/6"></div> </div> </div> </div> </div> </div> <!-- Contenedor del libro --> <div id="bibleBook" class="bible-book hidden w-full md:max-w-3xl md:mx-auto"> <!-- Contenido en dos columnas con divisores de página --> <article class="bible-content prose prose-sm max-w-none
+		prose-headings:text-gray-800 dark:prose-headings:text-gray-100
+		prose-h2:text-sm md:prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
+		prose-p:text-gray-700 dark:prose-p:text-gray-300
+		dark:prose-invert
+		bg-amber-50 dark:bg-gray-800
+		border-x border-stone-300 dark:border-gray-700
+		shadow-lg
+		px-6 py-4 md:px-8 md:py-6">  <h1 id="oseas">OSEAS</h1>
+<h2 id="título">Título.</h2>
+<p><span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> En tiempo de Ozías, Jotán, Ajaz y Ezequías, reyes de Judá, y en tiempo de Jeroboán, hijo de Joás, rey de Israel*, fue dirigida la palabra de Yahvé a Oseas, hijo de Beerí.</p>
+<h2 id="i-matrimonio-de-oseas-y-su-valor-simbólico">I. Matrimonio de Oseas y su valor simbólico*</h2>
+<h2 id="matrimonio-e-hijos-de-oseas">Matrimonio e hijos de Oseas.</h2>
+<p><sup>2</sup> Comienzo de las palabras de Yahvé, transmitidas por medio de Oseas.</p>
+<p>Dijo Yahvé a Oseas: «Anda, toma para ti una mujer dada a la prostitución* e hijos de prostitución*, porque el país se está prostituyendo completamente, apartándose de Yahvé.»</p>
+<p><sup>3</sup> Oseas tomó a Gómer, hija de Dibláin, que concibió y le dio a luz un hijo. <sup>4</sup> Yahvé le dijo: «Ponle por nombre* Yizreel, porque dentro de poco voy a castigar a la casa de Jehú por la sangre derramada en Yizreel*, y pondré fin al reinado de la casa de Israel*. <sup>5</sup> Aquel día romperé el arco de Israel en el valle de Yizreel*.»</p>
+<p><sup>6</sup> Concibió ella de nuevo y dio a luz una hija. Yahvé dijo a Oseas*: «Ponle por nombre ‘No-compadecida*’, porque ya no me compadeceré de la casa de Israel, soportándoles todavía*. (<sup>7</sup> Pero me compadeceré de la casa de Judá y los salvaré por Yahvé su Dios. No los salvaré con arco ni espada ni guerra, ni con caballos ni jinetes*.)»</p>
+<p><sup>8</sup> Después de destetar a «No-compadecida», concibió y dio a luz un hijo. <sup>9</sup> Dijo Yahvé*: «Ponle por nombre ‘No-mi-pueblo*’, porque vosotros no sois mi pueblo, y yo no existo para vosotros*.»</p>
+<h2 id="perspectivas-del-futuro">Perspectivas del futuro.</h2>
+<p><span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> El número de los hijos de Israel</p>
+<p>será como la arena del mar*,</p>
+<p>que ni se mide ni se cuenta.</p>
+<p>Y en aquel mismo lugar*</p>
+<p>donde se les decía «No-mi-pueblo»,</p>
+<p>se les dirá: «Hijos-de-Dios-vivo.»</p>
+<p><sup>2</sup> Se juntarán los hijos de Judá</p>
+<p>y los hijos de Israel en uno;</p>
+<p>se nombrarán un solo jefe</p>
+<p>y desbordarán de la tierra*,</p>
+<p>porque será grande el día de Yizreel.</p>
+<p><sup>3</sup> Decid a vuestros hermanos:</p>
+<p>«Mi-pueblo»,</p>
+<p>y a vuestras hermanas:</p>
+<p>«Compadecida*».</p>
+<h2 id="yahvé-y-su-esposa-infiel">Yahvé y su esposa infiel*.</h2>
+<p><sup>4</sup> ¡Pleitead con vuestra madre, pleitead*,</p>
+<p>porque ella ya no es mi mujer,</p>
+<p>y yo no soy su marido*!</p>
+<p>¡Que quite de su rostro</p>
+<p>sus prostituciones,</p>
+<p>que retire de sus pechos</p>
+<p>sus adulterios*,</p>
+<p><sup>5</sup> no sea que yo la desnude del todo*</p>
+<p>y la deje como el día en que nació,</p>
+<p>la convierta en desierto*,</p>
+<p>la reduzca a tierra árida</p>
+<p>y la haga morir de sed!</p>
+<p><sup>6</sup> No me compadeceré de sus hijos,</p>
+<p>porque son hijos de prostitución.</p>
+<p><sup>7</sup> Pues su madre se ha prostituido,</p>
+<p>se ha deshonrado la que los concibió,</p>
+<p>cuando decía:</p>
+<p>«Me iré detrás de mis amantes*,</p>
+<p>los que me dan mi pan y mi agua,</p>
+<p>mi lana y mi lino,</p>
+<p>mi aceite y mis bebidas.»</p>
+<p><sup>8</sup> Por eso, yo cerraré</p>
+<p>su camino* con espinos,</p>
+<p>la cercaré con seto</p>
+<p>y ya no encontrará sus senderos;</p>
+<p><sup>9</sup> perseguirá a sus amantes,</p>
+<p>pero no les dará alcance;</p>
+<p>los buscará, pero no los hallará.</p>
+<p>Para que diga:</p>
+<p>«Volveré a mi primer marido,</p>
+<p>cuando me iba mejor que ahora.»</p>
+<p><sup>10</sup> Pero ella no sabía que era yo</p>
+<p>quien le daba el trigo,</p>
+<p>el mosto y el aceite virgen.</p>
+<p>¡Yo le multiplicaba la plata,</p>
+<p>y el oro lo empleaban en Baal*!</p>
+<p><sup>11</sup> Por eso, volveré a tomar</p>
+<p>mi trigo a su tiempo</p>
+<p>y mi mosto en su estación;</p>
+<p>retiraré mi lana y mi lino</p>
+<p>con que cubría su desnudez.</p>
+<p><sup>12</sup> Y ahora descubriré sus vergüenzas</p>
+<p>ante los ojos de sus amantes,</p>
+<p>y nadie la librará de mi mano.</p>
+<p><sup>13</sup> Acallaré todo su alborozo,</p>
+<p>sus fiestas, novilunios y sábados,</p>
+<p>y todas sus solemnidades.</p>
+<p><sup>14</sup> Arrasaré sus viñedos e higueras*,</p>
+<p>ésos de los que decía:</p>
+<p>«Ellos son mi salario,</p>
+<p>lo que me han dado mis amantes»;</p>
+<p>los convertiré en matorral</p>
+<p>y los devorará la bestia del campo.</p>
+<p><sup>15</sup> La visitaré por los días* de los Baales,</p>
+<p>cuando suele quemarles incienso.</p>
+<p>Adornada con su anillo y su collar,</p>
+<p>se fue detrás de sus amantes,</p>
+<p>olvidándose de mí</p>
+<p>—oráculo de Yahvé—.</p>
+<p><sup>16</sup> Por eso voy a seducirla*:</p>
+<p>voy a llevarla al desierto*</p>
+<p>y le hablaré al corazón.</p>
+<p><sup>17</sup> Allí le daré sus viñas,</p>
+<p>convertiré el valle de Acor*</p>
+<p>en puerta de esperanza;</p>
+<p>y ella responderá allí</p>
+<p>como en los días de su juventud,</p>
+<p>como cuando subió del país de Egipto.</p>
+<p><sup>18</sup> Aquel día —oráculo de Yahvé—</p>
+<p>ella me llamará* «Marido mío»;</p>
+<p>ya no me llamará «Baal mío*.»</p>
+<p><sup>19</sup> Retiraré de su boca</p>
+<p>los nombres de los Baales,</p>
+<p>que nunca más volverá a invocar.</p>
+<p><sup>20</sup> Aquel día</p>
+<p>sellaré un pacto en su favor</p>
+<p>con las bestias del campo,</p>
+<p>las aves del cielo y los reptiles del suelo;</p>
+<p>quebraré y alejaré de esta tierra</p>
+<p>el arco, la espada y la guerra,</p>
+<p>y los haré reposar en seguro*.</p>
+<p><sup>21</sup> Te haré mi esposa* para siempre;</p>
+<p>te desposaré en justicia y en derecho,</p>
+<p>en amor* y en compasión;</p>
+<p><sup>22</sup> te desposaré en fidelidad,</p>
+<p>y tú conocerás a Yahvé*.</p>
+<p><sup>23</sup> Aquel día yo responderé</p>
+<p>—oráculo de Yahvé—,</p>
+<p>responderé a los cielos,</p>
+<p>y ellos responderán a la tierra;</p>
+<p><sup>24</sup> la tierra responderá al trigo,</p>
+<p>al mosto y al aceite virgen,</p>
+<p>y ellos responderán* a Yizreel.</p>
+<p><sup>25</sup> Me la sembraré* en la tierra,</p>
+<p>compadecido de «No-compadecida»,</p>
+<p>y diré a «No-mi-pueblo»:</p>
+<p>Tú eres «Mi pueblo»,</p>
+<p>y él responderá: «¡Dios mío*!»</p>
+<h2 id="oseas-vuelve-a-tomar-a-la-esposa-infiel-y-la-pone-a-prueba">Oseas vuelve a tomar a la esposa infiel y la pone a prueba.</h2>
+<h2 id="explicación-del-símbolo">Explicación del símbolo.</h2>
+<p><span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Yahvé me dijo: «Dispónte de nuevo a amar a una mujer que ama* a otro y comete adulterio. Así ama Yahvé a los hijos de Israel, mientras ellos se vuelven a otros dioses y gustan de las tortas de uva*.» <sup>2</sup> Yo la adquirí por quince siclos de plata y carga y media de cebada*. <sup>3</sup> Y le dije: «Vivirás conmigo* mucho tiempo sin prostituirte ni ser de ningún hombre; tampoco yo me uniré a ti.»</p>
+<p><sup>4</sup> Porque los israelitas se quedarán durante mucho tiempo sin rey ni príncipe, sin sacrificios ni estela, sin efod ni terafim. <sup>5</sup> Después volverán los israelitas; buscarán a Yahvé su Dios y a David, su rey*, y acudirán con temor a Yahvé y a sus bienes en los días venideros.</p>
+<h2 id="ii-crímenes-y-castigo-de-israel">II. Crímenes y castigo de Israel</h2>
+<h2 id="corrupción-general">Corrupción general.</h2>
+<p><span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Escuchad la palabra de Yahvé,</p>
+<p>hijos de Israel,</p>
+<p>que Yahvé pone pleito</p>
+<p>a los habitantes de esta tierra,</p>
+<p>pues no hay fidelidad ni amor,</p>
+<p>ni conocimiento de Dios en esta tierra,</p>
+<p><sup>2</sup> sino perjurio y mentira,</p>
+<p>asesinato y robo,</p>
+<p>adulterio y violencia,</p>
+<p>sangre y más sangre.</p>
+<p><sup>3</sup> Por eso, la tierra está en duelo,</p>
+<p>y se marchita cuanto en ella habita:</p>
+<p>las bestias del campo y las aves;</p>
+<p>y hasta los peces desaparecen*.</p>
+<h2 id="contra-los-sacerdotes">Contra los sacerdotes.</h2>
+<p><sup>4</sup> ¡Que nadie pleitee ni reprenda;</p>
+<p>sacerdote, sólo contigo va mi pleito*!</p>
+<p><sup>5</sup> Tropezarás en pleno día,</p>
+<p>y de noche tropezará contigo el profeta;</p>
+<p>y haré perecer a tu madre*.</p>
+<p><sup>6</sup> Mi pueblo se va muriendo</p>
+<p>por falta de conocimiento.</p>
+<p>Por haber rechazado el conocimiento*,</p>
+<p>yo te rechazaré de mi sacerdocio;</p>
+<p>por haber olvidado la Ley de tu Dios,</p>
+<p>también yo me olvidaré de tus hijos.</p>
+<p><sup>7</sup> Cuantos más son, más me ofenden;</p>
+<p>han cambiado su Gloria por la Ignominia*.</p>
+<p><sup>8</sup> Viven del pecado de mi pueblo</p>
+<p>y ansían su culpa*.</p>
+<p><sup>9</sup> Pero al pueblo va a sucederle</p>
+<p>lo mismo que al sacerdote:</p>
+<p>le tomaré cuenta de sus andanzas</p>
+<p>y le pagaré conforme a sus acciones.</p>
+<p><sup>10</sup> Comerán, pero no se saciarán;</p>
+<p>se prostituirán*, pero no proliferarán,</p>
+<p>porque han abandonado a Yahvé</p>
+<p>para dedicarse <sup>11</sup> a la prostitución.</p>
+<h2 id="el-culto-de-israel-no-es-más-que-idolatría-y-desenfreno">El culto de Israel no es más que idolatría y desenfreno.</h2>
+<p>¡El vino y el mosto</p>
+<p>hacen perder el sentido*!</p>
+<p><sup>12</sup> Mi pueblo consulta a su madero,</p>
+<p>y su palo les instruye*;</p>
+<p>un espíritu de prostitución los extravía,</p>
+<p>se prostituyen y prescinden de su Dios.</p>
+<p><sup>13</sup> Sacrifican en las cimas de los montes,</p>
+<p>queman incienso en las colinas,</p>
+<p>bajo la encina, el chopo o el terebinto,</p>
+<p>¡porque es buena su sombra!</p>
+<p>Sí, vuestras hijas se prostituyen</p>
+<p>y vuestras nueras cometen adulterio,</p>
+<p><sup>14</sup> pero no castigaré a vuestras hijas</p>
+<p>porque se prostituyen,</p>
+<p>ni voy a castigar a vuestras nueras</p>
+<p>porque cometen adulterio*,</p>
+<p>porque ellos son quienes acuden</p>
+<p>donde esas prostitutas</p>
+<p>y sacrifican con las mujeres</p>
+<p>consagradas a la prostitución.</p>
+<p>¡Y el pueblo, ignorante, se pierde!</p>
+<h2 id="advertencia-a-judá-y-a-israel">Advertencia a Judá y a Israel.</h2>
+<p><sup>15</sup> Si tú, Israel, te prostituyes,</p>
+<p>que no sea culpable Judá.</p>
+<p>¡No vayáis a Guilgal,</p>
+<p>no subáis a Bet Avén*,</p>
+<p>no juréis «por vida de Yahvé»!*</p>
+<p><sup>16</sup> Si Israel se ha desmandado</p>
+<p>como una vaca brava,</p>
+<p>¿los va a apacentar ahora Yahvé</p>
+<p>como a un cordero en el prado?</p>
+<p><sup>17</sup> Efraín se ha unido a sus ídolos,</p>
+<p>¡pero déjalo!</p>
+<p><sup>18</sup> Se retiran a sus borracheras,</p>
+<p>se prostituyen más y más,</p>
+<p>prefieren la Ignominia a su Prez*;</p>
+<p><sup>19</sup> pero el viento los cerrará en sus alas</p>
+<p>y se avergonzarán de sus sacrificios.</p>
+<h2 id="sacerdotes-grandes-y-rey-conducen-al-pueblo-a-la-ruina">Sacerdotes, grandes y rey conducen al pueblo a la ruina.</h2>
+<p><span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Escuchad esto, sacerdotes,</p>
+<p>estad atentos, casa de Israel;</p>
+<p>casa real, prestad oído,</p>
+<p>pues el juicio va contra vosotros,</p>
+<p>porque habéis sido un lazo en Mispá*</p>
+<p>y una red tendida en el Tabor</p>
+<p><sup>2</sup> (han ahondado la fosa de Sitín*,</p>
+<p>pero yo seré escarmiento de todos ellos).</p>
+<p><sup>3</sup> Yo conozco a Efraín,</p>
+<p>e Israel no se me oculta.</p>
+<p>Sí, tú* te has prostituido, Efraín;</p>
+<p>te has contaminado, Israel.</p>
+<p><sup>4</sup> Sus obras no les permiten</p>
+<p>reconciliarse con su Dios,</p>
+<p>pues todos están imbuidos</p>
+<p>de un espíritu de prostitución,</p>
+<p>y no conocen a Yahvé.</p>
+<p><sup>5</sup> El orgullo de Israel testifica contra él;</p>
+<p>tropiezan por sus culpas</p>
+<p>Israel y Efraín,</p>
+<p>y con ellos tropieza Judá.</p>
+<p><sup>6</sup> Con sus ovejas y vacunos</p>
+<p>irán en busca de Yahvé,</p>
+<p>pero no lo encontrarán:</p>
+<p>¡se ha retirado de ellos!</p>
+<p><sup>7</sup> Han sido infieles a Yahvé,</p>
+<p>han engendrado hijos bastardos;</p>
+<p>pues ahora el novilunio*</p>
+<p>les va a devorar sus campos.</p>
+<h2 id="la-guerra-fratricida">La guerra fratricida*.</h2>
+<p><sup>8</sup> Tocad el cuerno en Guibeá,</p>
+<p>la trompeta en Ramá,</p>
+<p>dad la alarma en Bet Avén,</p>
+<p>¡detrás de ti*, Benjamín!</p>
+<p><sup>9</sup> Efraín será una desolación</p>
+<p>el día del castigo;</p>
+<p>en las tribus de Israel</p>
+<p>anuncio una cosa cierta*.</p>
+<p><sup>10</sup> Los príncipes de Judá</p>
+<p>son como los que corren los linderos*,</p>
+<p>sobre ellos voy a derramar</p>
+<p>como agua mi furor.</p>
+<p><sup>11</sup> Está oprimido Efraín,</p>
+<p>quebrantado el derecho*,</p>
+<p>porque le gusta ir tras la Vanidad*.</p>
+<p><sup>12</sup> Así que voy a ser</p>
+<p>como una polilla para Efraín,</p>
+<p>como carcoma para la casa de Judá.</p>
+<h2 id="inutilidad-de-las-alianzas-con-extranjeros">Inutilidad de las alianzas con extranjeros.</h2>
+<p><sup>13</sup> Efraín ha visto su dolencia</p>
+<p>y Judá su llaga.</p>
+<p>Efraín entonces ha acudido a Asiria,</p>
+<p>Judá envía mensajeros al gran rey*;</p>
+<p>pero éste no podrá sanaros</p>
+<p>ni curar vuestra llaga.</p>
+<p><sup>14</sup> ¡Yo soy como un león para Efraín,</p>
+<p>un leoncillo para la casa de Judá!</p>
+<p>Yo mismo desgarraré y me iré,</p>
+<p>haré presa y no habrá quien salve.</p>
+<p><sup>15</sup> Voy a volverme a mi refugio*,</p>
+<p>hasta que expíen su falta*</p>
+<p>y acudan a buscarme.</p>
+<h2 id="en-su-angustia-me-buscarán">En su angustia me buscarán.</h2>
+<h2 id="vuelta-superficial-a-yahvé">Vuelta superficial a Yahvé*.</h2>
+<p><span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> «Venid, volvamos a Yahvé;</p>
+<p>él ha desgarrado, pero nos curará;</p>
+<p>él ha herido, pero nos vendará.</p>
+<p><sup>2</sup> Dentro de dos días nos dará la vida,</p>
+<p>al tercer día* nos hará resurgir</p>
+<p>y viviremos en su presencia.</p>
+<p><sup>3</sup> Dispongámonos a conocer,</p>
+<p>alcancemos el conocimiento de Yahvé:</p>
+<p>su salida es cierta como la aurora;</p>
+<p>nos llegará como lluvia temprana,</p>
+<p>igual que la lluvia tardía</p>
+<p>que empapa la tierra.»</p>
+<p><sup>4</sup> ¿Qué voy a hacer contigo, Efraín?</p>
+<p>¿Qué voy a hacer contigo, Judá?</p>
+<p>¡Vuestro amor es nube mañanera,</p>
+<p>rocío matinal que se evapora!</p>
+<p><sup>5</sup> Por eso los he hecho trizas</p>
+<p>por medio de los profetas*,</p>
+<p>los he castigado</p>
+<p>con las palabras de mi boca;</p>
+<p>y mi juicio surgirá como la luz*.</p>
+<p><sup>6</sup> Porque yo quiero amor,</p>
+<p>no sacrificio,</p>
+<p>conocimiento de Dios</p>
+<p>mejor que holocaustos*.</p>
+<h2 id="los-crímenes-pasados-y-presentes-de-israel">Los crímenes pasados y presentes de Israel.</h2>
+<p><sup>7</sup> Pero ellos en Adam</p>
+<p>han violado la alianza*;</p>
+<p>allí me han sido infieles.</p>
+<p><sup>8</sup> Galaad* es ciudad de malhechores,</p>
+<p>llena de rastros de sangre.</p>
+<p><sup>9</sup> Como bandidos emboscados</p>
+<p>son la pandilla de sacerdotes:</p>
+<p>asesinan por el camino de Siquén,</p>
+<p>y cometen infamias.</p>
+<p><sup>10</sup> Algo horrible he visto en Betel*:</p>
+<p>allí se prostituye Efraín,</p>
+<p>se contamina Israel.</p>
+<p><sup>11</sup> También para ti, Judá*,</p>
+<p>hay preparada una cosecha,</p>
+<p>cuando yo haga que cambie</p>
+<p>la suerte de mi pueblo.</p>
+<p><span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Cuando pretendo sanar a Israel,</p>
+<p>se descubre la culpa de Efraín</p>
+<p>y las maldades de Samaría,</p>
+<p>porque practican la mentira;</p>
+<p>mientras el ladrón entra dentro,</p>
+<p>se despliega la pandilla fuera.</p>
+<p><sup>2</sup> Y no les da por pensar</p>
+<p>que yo recuerdo toda su maldad:</p>
+<p>ahora los envuelven sus acciones,</p>
+<p>están siempre presentes ante mí.</p>
+<p><sup>3</sup> Con su maldad recrean al rey,</p>
+<p>con sus mentiras a los príncipes*.</p>
+<p><sup>4</sup> Todos ellos, adúlteros,</p>
+<p>son como un horno ardiente,</p>
+<p>que el panadero deja de atizar</p>
+<p>desde que amasa la pasta</p>
+<p>hasta que por fin fermenta.</p>
+<p><sup>5</sup> En el día de nuestro rey*</p>
+<p>los príncipes enferman</p>
+<p>por los vapores del vino,</p>
+<p>¡y aquél tiende la mano a agitadores!</p>
+<p><sup>6</sup> Cuando acechan con intrigas</p>
+<p>su corazón es igual que un horno:</p>
+<p>toda la noche duerme su cólera*,</p>
+<p>pero, al llegar la mañana,</p>
+<p>arde con fuego llameante.</p>
+<p><sup>7</sup> Todos abrasan como un horno,</p>
+<p>y devoran a sus propios jueces.</p>
+<p>Han caído todos sus reyes,</p>
+<p>pero ninguno de ellos me invoca.</p>
+<h2 id="ruina-de-israel-por-acudir-a-los-extranjeros">Ruina de Israel por acudir a los extranjeros.</h2>
+<p><sup>8</sup> Efraín se mezcla con los pueblos;</p>
+<p>Efraín se parece a una torta</p>
+<p>a la que no se ha dado vuelta*.</p>
+<p><sup>9</sup> Extranjeros devoran su vigor,</p>
+<p>¡y él ni siquiera se entera!</p>
+<p>Ya las canas blanquean su cabeza,</p>
+<p>¡y él ni siquiera se entera!</p>
+<p><sup>10</sup> (El orgullo de Israel testifica contra él,</p>
+<p>pero no se vuelven a Yahvé su Dios,</p>
+<p>ni aun así le buscan).</p>
+<p><sup>11</sup> Efraín es como una paloma</p>
+<p>ingenua*, sin cordura;</p>
+<p>llaman a Egipto, acuden a Asiria.</p>
+<p><sup>12</sup> Adondequiera que vayan*,</p>
+<p>yo echaré mi red sobre ellos;</p>
+<p>como ave del cielo los haré caer</p>
+<p>y los castigaré por su maldad*.</p>
+<h2 id="ingratitud-y-castigo-de-israel">Ingratitud y castigo de Israel.</h2>
+<p><sup>13</sup> ¡Ay de ellos, que se han alejado de mí!</p>
+<p>¡Pero que sufran la desgracia</p>
+<p>por haberse rebelado contra mí!</p>
+<p>Yo los rescataría,</p>
+<p>pero ellos mienten sobre mí.</p>
+<p><sup>14</sup> Y no claman a mí de corazón</p>
+<p>cuando gimen en sus lechos*;</p>
+<p>por el trigo y el mosto</p>
+<p>se hacen incisiones</p>
+<p>y se rebelan contra mí*.</p>
+<p><sup>15</sup> Yo* robustecí su brazo,</p>
+<p>¡pero ellos maquinaron contra mí!</p>
+<p><sup>16</sup> Apuntan al vacío*,</p>
+<p>son como un arco destensado.</p>
+<p>Sus príncipes caerán a espada,</p>
+<p>por la virulencia de su lengua:</p>
+<p>¡serán motivo de burla en Egipto!</p>
+<h2 id="alarma">Alarma.</h2>
+<p><span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> ¡Emboca la trompeta!</p>
+<p>Soy como un águila</p>
+<p>contra la casa de Yahvé*;</p>
+<p>porque han quebrantado mi alianza</p>
+<p>y han sido rebeldes a mi Ley*.</p>
+<p><sup>2</sup> Ellos me gritan: «¡Dios mío,</p>
+<p>los de Israel te reconocemos!»</p>
+<p><sup>3</sup> Pero Israel ha rechazado el bien:</p>
+<p>¡el enemigo* lo perseguirá!</p>
+<h2 id="anarquía-política-e-idolátrica">Anarquía política e idolátrica.</h2>
+<p><sup>4</sup> Han entronizado reyes</p>
+<p>sin contar conmigo;</p>
+<p>han nombrado príncipes</p>
+<p>sin mi conocimiento*.</p>
+<p>Con su plata y su oro</p>
+<p>se han fabricado ídolos,</p>
+<p>para su perdición.</p>
+<p><sup>5</sup> ¡Rechaza tu becerro, Samaría!</p>
+<p>Mi cólera está ardiendo contra ellos:</p>
+<p>¿hasta cuándo no podrán purificarse?</p>
+<p><sup>6</sup> ¡Es obra de Israel!,</p>
+<p>pues lo ha fabricado un artesano,</p>
+<p>y eso no puede ser Dios*.</p>
+<p>Así que quedará hecho trizas</p>
+<p>el becerro de Samaría.</p>
+<p><sup>7</sup> Si siembran viento,</p>
+<p>cosecharán tempestades:</p>
+<p>tallo que no tenga brote,</p>
+<p>no dará harina;</p>
+<p>y si la da, extranjeros la devorarán.</p>
+<h2 id="ruina-de-israel-por-acudir-a-los-extranjeros-1">Ruina de Israel por acudir a los extranjeros*.</h2>
+<p><sup>8</sup> ¡Israel ha sido devorado!</p>
+<p>Está ahora entre las naciones</p>
+<p>como objeto indeseado.</p>
+<p><sup>9</sup> Porque ha subido a Asiria,</p>
+<p>Efraín, ese onagro solitario,</p>
+<p>a comprarse amores*;</p>
+<p><sup>10</sup> pues aunque los compre</p>
+<p>en medio de las naciones,</p>
+<p>yo voy a reunirlos* ahora,</p>
+<p>y pronto tendrán que soportar</p>
+<p>la carga del rey de príncipes*.</p>
+<h2 id="contra-el-culto-meramente-exterior">Contra el culto meramente exterior.</h2>
+<p><sup>11</sup> Efraín ha multiplicado</p>
+<p>los altares* para pecar,</p>
+<p>pues sólo para pecar</p>
+<p>le han servido los altares.</p>
+<p><sup>12</sup> Aunque le deje escritas</p>
+<p>las excelencias de mi ley,</p>
+<p>las considera algo extraño.</p>
+<p><sup>13</sup> ¡Ya pueden ofrecer, si quieren,</p>
+<p>sacrificios en mi honor,</p>
+<p>y comerse la carne*!</p>
+<p>Yahvé no los acepta;</p>
+<p>recordará sus culpas</p>
+<p>y castigará sus pecados:</p>
+<p>habrán de volver a Egipto.</p>
+<h2 id="contra-el-lujo-de-las-construcciones">Contra el lujo de las construcciones.</h2>
+<p><sup>14</sup> Olvida Israel a su Hacedor,</p>
+<p>y edifica templos;</p>
+<h2 id="judá-multiplica-ciudades-fortificadas">Judá multiplica ciudades fortificadas.</h2>
+<p>Pero yo prenderé fuego a sus ciudades,</p>
+<p>que devorará sus palacios.</p>
+<h2 id="triste-destierro">Triste destierro*.</h2>
+<p><span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> No celebres fiesta, Israel,</p>
+<p>no te alegres* como los pueblos,</p>
+<p>pues te has prostituido;</p>
+<p>te has alejado de tu Dios,</p>
+<p>y amas ese salario</p>
+<p>más que las eras de trigo*.</p>
+<p><sup>2</sup> Ni la era ni el lagar los alimentarán,</p>
+<p>y el mosto los dejará corridos*.</p>
+<p><sup>3</sup> Ya no habitarán en la tierra de Yahvé:</p>
+<p>Efraín volverá a Egipto,</p>
+<p>y en Asiria tendrán que comer</p>
+<p>alimentos impuros*.</p>
+<p><sup>4</sup> No harán a Yahvé libaciones de vino,</p>
+<p>ni sus sacrificios le agradarán:</p>
+<p>serán para ellos como pan de duelo,</p>
+<p>que deja impuro a cuantos lo comen*.</p>
+<p>Ese pan es sólo para ellos;</p>
+<p>no entrará en el templo de Yahvé*.</p>
+<p><sup>5</sup> ¿Qué ofreceréis el día de solemnidad,</p>
+<p>el día de la fiesta de Yahvé*?</p>
+<p><sup>6</sup> Vedlos, han huido de la devastación:</p>
+<p>Egipto los reunirá</p>
+<p>y Menfis los sepultará.</p>
+<p>Las ortigas heredarán</p>
+<p>sus tesoros de plata;</p>
+<p>las zarzas invadirán sus tiendas.</p>
+<h2 id="el-profeta-perseguido-por-anunciar-el-castigo">El profeta perseguido por anunciar el castigo.</h2>
+<p><sup>7</sup> Han llegado los días del castigo,</p>
+<p>han llegado los días de la retribución.</p>
+<p>¡Que lo sepa Israel!</p>
+<p>—«¡El profeta es un necio,</p>
+<p>un loco el hombre del espíritu!»</p>
+<p>—Por la magnitud de tu culpa,</p>
+<p>por tu enorme hostilidad.</p>
+<p><sup>8</sup> El vigía de Efraín</p>
+<p>es un profeta junto a mi Dios:</p>
+<p>una trampa de cazador</p>
+<p>en todos sus caminos,</p>
+<p>hostilidad en la Casa de su Dios*.</p>
+<p><sup>9</sup> Han tocado fondo</p>
+<p>en su vida de corrupción,</p>
+<p>como en los días de Guibeá;</p>
+<p>él recordará sus culpas</p>
+<p>y castigará sus pecados.</p>
+<h2 id="castigo-del-crimen-de-baal-peor">Castigo del crimen de Baal Peor.</h2>
+<p><sup>10</sup> Yo encontré a Israel</p>
+<p>como uvas en el desierto;</p>
+<p>yo vi a vuestros antepasados</p>
+<p>como breva que brota en la higuera.</p>
+<p>Pero al llegar a Baal Peor*</p>
+<p>se consagraron a la Infamia*,</p>
+<p>y se hicieron tan abominables</p>
+<p>como el objeto de su amor.</p>
+<p><sup>11</sup> Efraín es como un pájaro,</p>
+<p>se le vuela su gloria desde el nido,</p>
+<p>desde el seno, desde la concepción.</p>
+<p><sup>12</sup> Y aunque críen a sus hijos,</p>
+<p>yo les privaré de ellos</p>
+<p>antes que se hagan hombres:</p>
+<p>y ¡ay de ellos cuando yo los abandone!</p>
+<p><sup>13</sup> Efraín, cuando veo a Tiro,</p>
+<p>estaba plantada en la pradera*,</p>
+<p>pero Efraín tendrá que sacar</p>
+<p>sus hijos al verdugo.</p>
+<p><sup>14</sup> Dales, Yahvé…, ¿qué les darás?</p>
+<p>¡Un seno que aborte y pechos resecos!</p>
+<h2 id="castigo-del-crimen-de-guilgal">Castigo del crimen de Guilgal.</h2>
+<p><sup>15</sup> Toda su maldad apareció en Guilgal*,</p>
+<p>sí, allí comencé a odiarlos.</p>
+<p>Por la maldad de sus acciones,</p>
+<p>los expulsaré de mi Casa;</p>
+<p>ya no volveré a amarlos:</p>
+<p>todos sus príncipes son rebeldes.</p>
+<p><sup>16</sup> Efraín está herido,</p>
+<p>su raíz seca,</p>
+<p>ya no darán más fruto.</p>
+<p>Aunque den a luz,</p>
+<p>haré morir el tesoro de su seno.</p>
+<p><sup>17</sup> Mi Dios los rechazará</p>
+<p>porque no le han escuchado,</p>
+<p>y andarán errantes entre las naciones.</p>
+<h2 id="destrucción-de-los-emblemas-idolátricos-de-israel">Destrucción de los emblemas idolátricos de Israel.</h2>
+<p><span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Israel era Vid frondosa,</p>
+<p>acumulaba frutos*:</p>
+<p>cuanto más fruto producía,</p>
+<p>más multiplicaba los altares;</p>
+<p>cuanto mejor era su tierra,</p>
+<p>mejores estelas construía.</p>
+<p><sup>2</sup> Su corazón está dividido*,</p>
+<p>pero ahora lo van a pagar;</p>
+<p>él romperá sus altares,</p>
+<p>demolerá sus estelas.</p>
+<p><sup>3</sup> Entonces dirán: «No tenemos rey*,</p>
+<p>porque no hemos temido a Yahvé,</p>
+<p>y el rey, ¿qué nos podría hacer?»</p>
+<p><sup>4</sup> Pronuncian palabras,</p>
+<p>juramentos falsos, pactan alianzas,</p>
+<p>y el juicio brota y florece</p>
+<p>como hierba venenosa*</p>
+<p>en los surcos del campo.</p>
+<p><sup>5</sup> Tiemblan por el becerro* de Bet Avén</p>
+<p>los habitantes de Samaría;</p>
+<p>sí, su pueblo hace duelo por él,</p>
+<p>sus sacerdotes se agitan por él,</p>
+<p>¡por su gloria,</p>
+<p>ya que ha sido deportado!</p>
+<p><sup>6</sup> Él también será llevado a Asiria,</p>
+<p>como ofrenda para el gran rey*.</p>
+<p>Efraín soportará el sonrojo</p>
+<p>e Israel se avergonzará de su plan.</p>
+<p><sup>7</sup> ¡Se acabó Samaría!</p>
+<p>Su rey es como espuma</p>
+<p>flotando sobre el agua.</p>
+<p><sup>8</sup> Serán destruidos, demolidos</p>
+<p>los altozanos de Bet Avén,</p>
+<p>el pecado de Israel.</p>
+<h2 id="cardos-y-zarzas-cubrirán-sus-altares">Cardos y zarzas cubrirán sus altares.</h2>
+<p>Entonces dirán a los montes:</p>
+<p>«¡Aplastadnos!»</p>
+<p>y a las colinas:</p>
+<p>«¡Caed sobre nosotros*!»</p>
+<p><sup>9</sup> Israel ha venido pecando</p>
+<p>desde los días de Guibeá;</p>
+<p>¡allí siguen!</p>
+<p>No les bastó la batalla de Guibeá*</p>
+<p>contra los hijos de la injusticia.</p>
+<p><sup>10</sup> Voy a castigarlos*:</p>
+<p>se aliarán pueblos contra ellos,</p>
+<p>para castigarlos por su doble culpa*.</p>
+<h2 id="israel-ha-defraudado-la-esperanza-de-yahvé">Israel ha defraudado la esperanza de Yahvé*.</h2>
+<p><sup>11</sup> Efraín era una novilla domesticada,</p>
+<p>le gustaba la trilla;</p>
+<p>yo uncí su hermoso cuello.</p>
+<p>Montaré a Efraín,</p>
+<p>Judá abrirá surco,</p>
+<h2 id="jacob-destripará-terrones">Jacob destripará terrones.</h2>
+<p><sup>12</sup> Sembrad justicia*,</p>
+<p>cosechad amor,</p>
+<p>cultivad lo que es barbecho;</p>
+<p>ya es tiempo de buscar a Yahvé,</p>
+<p>hasta que venga a enseñaros justicia.</p>
+<p><sup>13</sup> Cultivasteis maldad,</p>
+<p>cosecháis iniquidad,</p>
+<p>coméis el fruto de la mentira.</p>
+<p>Por haber confiado en tus carros*,</p>
+<p>en la multitud de tus soldados,</p>
+<p><sup>14</sup> se alzará un tumulto</p>
+<p>de guerra contra tu pueblo;</p>
+<p>todas tus fortalezas serán devastadas,</p>
+<p>como Salmán* devastó Bet Arbel</p>
+<p>el día de la batalla,</p>
+<p>cuando las madres eran estrelladas</p>
+<p>contra sus hijos*.</p>
+<p><sup>15</sup> Eso os ha conseguido Betel</p>
+<p>por vuestra redoblada maldad.</p>
+<p>¡Coincidiendo con la aurora</p>
+<p>desaparecerá el rey de Israel*!</p>
+<h2 id="yahvé-va-a-vengar-su-amor-despreciado">Yahvé va a vengar su amor despreciado*.</h2>
+<p><span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Cuando Israel era niño, lo amé,</p>
+<p>y de Egipto llamé a mi hijo*.</p>
+<p><sup>2</sup> Y cuanto más los llamaba,</p>
+<p>más se alejaban de mí*:</p>
+<p>ofrecían sacrificios a los Baales</p>
+<p>e incienso a los ídolos.</p>
+<p><sup>3</sup> Yo enseñé a caminar a Efraín,</p>
+<p>tomándole por los brazos,</p>
+<p>pero no sabían que yo los cuidaba.</p>
+<p><sup>4</sup> Los atraía con cuerdas humanas,</p>
+<p>con lazos de amor;</p>
+<p>yo era para ellos como las personas</p>
+<p>que alzan a un niño contra su mejilla;</p>
+<p>me inclinaba y le daba de comer*.</p>
+<p><sup>5</sup> Pues volverá al país de Egipto*,</p>
+<p>y Asur será su rey,</p>
+<p>porque se han negado a convertirse.</p>
+<p><sup>6</sup> La espada dejará indefensas</p>
+<p>a sus ciudades,</p>
+<p>aniquilará sus cerrojos,</p>
+<p>y devorará por sus maquinaciones.</p>
+<h2 id="pero-el-amor-triunfará">Pero el amor triunfará.</h2>
+<p><sup>7</sup> Mi pueblo está acostumbrado</p>
+<p>a apostatar de mí;</p>
+<p>cuando invocan a lo alto,</p>
+<p>nadie los levanta*.</p>
+<p><sup>8</sup> ¿Cómo voy a entregarte, Efraín?,</p>
+<p>¿cómo dejarte a tu suerte, Israel?</p>
+<p>¿Voy a entregarte como a Admá,</p>
+<p>y tratarte como a Seboín*?</p>
+<p>Mi corazón se convulsiona*</p>
+<p>dentro de mí,</p>
+<p>y al mismo tiempo</p>
+<p>se estremecen mis entrañas.</p>
+<p><sup>9</sup> No daré curso al furor de mi cólera,</p>
+<p>no volveré a destruir a Efraín,</p>
+<p>porque soy Dios, no un hombre;</p>
+<p>el Santo* en medio de ti,</p>
+<p>y no es mi deseo aniquilar*.</p>
+<h2 id="vuelta-del-destierro">Vuelta del destierro*.</h2>
+<p><sup>10</sup> Marcharán tras Yahvé,</p>
+<p>y él rugirá como león;</p>
+<p>y cuando ruja, los hijos</p>
+<p>vendrán temblando de occidente:</p>
+<p><sup>11</sup> cuando vengan de Egipto,</p>
+<p>temblarán como un pajarillo;</p>
+<p>cuando lleguen de Asiria,</p>
+<p>temblarán como una paloma.</p>
+<p>Y yo los haré habitar en sus casas</p>
+<p>—oráculo de Yahvé—.</p>
+<h2 id="perversión-religiosa-y-política-de-israel">Perversión religiosa y política de Israel.</h2>
+<p><span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Efraín me ha rodeado de mentira*,</p>
+<p>la casa de Israel de engaño.</p>
+<p>(Pero Judá todavía anda con Dios,</p>
+<p>y sigue fiel al Santo*.)</p>
+<p><sup>2</sup> Efraín se apacienta de viento,</p>
+<p>va en busca del Levante* todo el día;</p>
+<p>multiplica mentira y pillaje;</p>
+<p>sellan alianza con Asiria</p>
+<p>y llevan aceite* a Egipto.</p>
+<h2 id="contra-jacob-y-efraín">Contra Jacob y Efraín.</h2>
+<p><sup>3</sup> Yahvé pone pleito a Judá*,</p>
+<p>castigará a Jacob por su conducta,</p>
+<p>le retribuirá según sus obras.</p>
+<p><sup>4</sup> Estando en el seno materno</p>
+<p>suplantó a su hermano,</p>
+<p>y de mayor luchó con Dios*.</p>
+<p><sup>5</sup> Luchó con el ángel y le pudo,</p>
+<p>lloró y le suplicó*.</p>
+<p>En Betel lo encontró</p>
+<p>y allí habló con él*.</p>
+<p><sup>6</sup> Sí, Yahvé Dios Sebaot,</p>
+<h2 id="yahvé-es-su-título">Yahvé es su título.</h2>
+<p><sup>7</sup> Y tú conviértete a tu Dios:</p>
+<p>observa el amor y el derecho,</p>
+<p>y confía siempre en tu Dios*.</p>
+<p><sup>8</sup> Canaán tiene en su mano</p>
+<p>una balanza trucada,</p>
+<p>le gusta defraudar*.</p>
+<p><sup>9</sup> Efraín dice: «Sí, me he enriquecido,</p>
+<p>he amasado una fortuna.»</p>
+<p>¡Pero de todas sus ganancias,</p>
+<p>ninguna encontrará,</p>
+<p>debido a la injusticia</p>
+<p>con la que se ha hecho culpable*!</p>
+<h2 id="perspectivas-de-reconciliación">Perspectivas de reconciliación.</h2>
+<p><sup>10</sup> Yo soy Yahvé, tu Dios,</p>
+<p>desde el país de Egipto:</p>
+<p>aún te haré morar en tiendas</p>
+<p>como en los días del Encuentro*;</p>
+<p><sup>11</sup> hablaré a los profetas,</p>
+<p>yo mismo multiplicaré las visiones*,</p>
+<p>y hablaré en parábolas</p>
+<p>por medio de los profetas*.</p>
+<h2 id="nuevas-amenazas">Nuevas amenazas.</h2>
+<p><sup>12</sup> Si Galaad es iniquidad,</p>
+<p>ellos no son más que mentira.</p>
+<p>En Guilgal sacrificaron toros;</p>
+<p>por eso sus altares serán escombros</p>
+<p>sobre los surcos de los campos.</p>
+<h2 id="contra-jacob-y-efraín-1">Contra Jacob y Efraín.</h2>
+<p><sup>13</sup> Huyó Jacob a la campiña de Aram,</p>
+<p>sirvió Israel por una mujer,</p>
+<p>por una mujer guardó rebaños.</p>
+<p><sup>14</sup> También por un profeta</p>
+<p>subió Yahvé a Israel de Egipto,</p>
+<p>y por un profeta fue guardado.</p>
+<p><sup>15</sup> Efraín le ha irritado amargamente:</p>
+<p>sobre él hará recaer su sangre,</p>
+<p>su Señor le pagará su agravio.</p>
+<h2 id="castigo-de-la-idolatría">Castigo de la idolatría.</h2>
+<p><span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Cuando hablaba Efraín,</p>
+<p>cundía el terror;</p>
+<p>se había impuesto en Israel*.</p>
+<p>Pero se hizo culpable</p>
+<p>con Baal, y murió.</p>
+<p><sup>2</sup> Y todavía continúan pecando:</p>
+<p>se han hecho imágenes fundidascon su plata, ídolos de su invención:</p>
+<p>¡todo obra de artesanos!</p>
+<p>¡Los llaman dioses,</p>
+<p>sacrifican hombres,</p>
+<p>besan becerros*!</p>
+<p><sup>3</sup> Por eso, serán como nube mañanera,</p>
+<p>como rocío matinal que pasa,</p>
+<p>como paja aventada de la era,</p>
+<p>como humo por la ventana.</p>
+<h2 id="castigo-de-la-ingratitud">Castigo de la ingratitud.</h2>
+<p><sup>4</sup> Pero yo soy Yahvé, tu Dios,</p>
+<p>desde el país de Egipto*.</p>
+<p>No conoces otro Dios fuera de mí,</p>
+<p>ni hay más salvador que yo.</p>
+<p><sup>5</sup> Yo te conocí en el desierto,</p>
+<p>en la tierra ardiente.</p>
+<p><sup>6</sup> Estando en su pasto* se saciaron,</p>
+<p>se saciaron y se engrió su corazón,</p>
+<p>por eso se olvidaron de mí.</p>
+<p><sup>7</sup> Pues yo seré* para ellos como león,</p>
+<p>un leopardo acechando en el camino*.</p>
+<p><sup>8</sup> Caeré sobre ellos</p>
+<p>como osa privada de sus crías,</p>
+<p>desgarraré el recinto de su corazón,</p>
+<p>los devoraré allí mismo como leona,</p>
+<p>la bestia del campo los despedazará.</p>
+<h2 id="fin-de-la-dinastía-real">Fin de la dinastía real.</h2>
+<p><sup>9</sup> Cuando te destruyan, Israel,</p>
+<p>¿quién te ayudará*?</p>
+<p><sup>10</sup> ¿Dónde estará tu rey,</p>
+<p>para salvarte* en todas tus ciudades,</p>
+<p>y tus jueces, de quienes decías:</p>
+<p>«Dame rey y príncipes»?</p>
+<p><sup>11</sup> Rey te daré en mi cólera,</p>
+<p>y te lo quitaré en mi furor.</p>
+<h2 id="la-ruina-inevitable">La ruina inevitable.</h2>
+<p><sup>12</sup> Amarrada está la culpa de Efraín,</p>
+<p>bien guardado su pecado.</p>
+<p><sup>13</sup> Le vienen dolores de parturienta,</p>
+<p>pero es un hijo torpe,</p>
+<p>que no se presenta a tiempo</p>
+<p>por donde rompen los hijos*.</p>
+<p><sup>14</sup> ¿Voy a librarlos de la garra del Seol,</p>
+<p>voy a rescatarlos de la muerte?</p>
+<p>¿Dónde están, muerte, tus pestes,</p>
+<p>dónde tu contagio, Seol*?</p>
+<h2 id="la-compasión-se-esconde-a-mis-ojos">La compasión se esconde a mis ojos.</h2>
+<p><sup>15</sup> Aunque Efraín* dé fruto</p>
+<p>en medio de sus hermanos,</p>
+<p>soplará el Levante,</p>
+<p>se levantará del desierto</p>
+<p>el viento de Yahvé,</p>
+<p>que secará su manantial</p>
+<p>y agotará su fuente;</p>
+<p>él* arrebatará el tesoro,</p>
+<p>todos los objetos preciosos.</p>
+<p><span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Samaría es culpable,</p>
+<p>porque se rebeló contra su Dios.</p>
+<p>Ellos caerán a espada,</p>
+<p>sus niños serán estrellados,</p>
+<p>y sus embarazadas abiertas en canal.</p>
+<h2 id="iii-conversión-de-israel-y-vuelta-a-la-gracia">III. Conversión de Israel y vuelta a la gracia*</h2>
+<h2 id="vuelta-sincera-de-israel-a-yahvé">Vuelta sincera de Israel a Yahvé.</h2>
+<p><sup>2</sup> Vuelve, Israel, a Yahvé tu Dios,</p>
+<p>pues tus culpas te han hecho caer.</p>
+<p><sup>3</sup> Preparaos unas palabras*,</p>
+<p>y volved a Yahvé.</p>
+<p>Decidle: «Quita toda culpa;</p>
+<p>acepta lo bueno;</p>
+<p>y en vez de novillos,</p>
+<p>ofrecemos nuestros labios.</p>
+<p><sup>4</sup> Asiria no nos salvará,</p>
+<p>no montaremos a caballo,</p>
+<p>y no diremos más ‘Dios nuestro’</p>
+<p>a la obra de nuestras manos*,</p>
+<p>oh tú, que te apiadas del huérfano.»</p>
+<p><sup>5</sup> —Yo sanaré su infidelidad,</p>
+<p>los amaré graciosamente,</p>
+<p>pues mi cólera se ha apartado de él.</p>
+<p><sup>6</sup> Seré como rocío para Israel:</p>
+<p>florecerá como el lirio</p>
+<p>y hundirá sus raíces como el Líbano.</p>
+<p><sup>7</sup> Sus ramas se desplegarán,</p>
+<p>su esplendor será como el del olivo,</p>
+<p>y su fragancia como la del Líbano.</p>
+<p><sup>8</sup> Volverán donde él</p>
+<p>los que habitaban a su sombra*;</p>
+<p>harán que renazca el trigo,</p>
+<p>florecerán como la vid,</p>
+<p>su fama será igual</p>
+<p>que la del vino del Líbano.</p>
+<p><sup>9</sup> Efraín…</p>
+<p>¿qué tengo yo que ver con los ídolos?</p>
+<p>Yo respondo y lo protejo;</p>
+<p>yo soy como un ciprés siempre verde,</p>
+<p>y de mí procede tu fruto*.</p>
+<h2 id="amonestación-final">Amonestación final*.</h2>
+<p><sup>10</sup> ¿Quién es la persona sabia</p>
+<p>capaz de entender estas cosas?,</p>
+<p>¿quién el inteligente para conocerlas?:</p>
+<p>rectos son los caminos de Yahvé,</p>
+<p>y por ellos caminan los justos,</p>
+<p>mas los rebeldes en ellos tropiezan.</p>  </article> <!-- Pie del libro --> <div class="bible-page-footer bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-t-0 rounded-b-sm shadow-lg px-8 py-3"> <div class="flex justify-center"> <span class="text-sm text-stone-400 dark:text-gray-500 font-serif">— ✝ —</span> </div> </div> </div> </div> </main> <!-- Dialogs --> <dialog id="commentDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-amber-100/50 dark:bg-gray-700/50 rounded-t-lg"> <h3 id="commentTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Comentario</h3> <button id="closeCommentDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="commentContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-amber-100/30 dark:bg-gray-700/30 rounded-b-lg"> <button id="closeCommentBtn" class="w-full px-4 py-2 bg-amber-700 dark:bg-amber-600 text-white rounded hover:bg-amber-800 dark:hover:bg-amber-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> <dialog id="parallelsDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-blue-100/50 dark:bg-blue-900/30 rounded-t-lg"> <h3 id="parallelsTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Referencias Paralelas</h3> <button id="closeParallelsDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="parallelsContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-blue-100/20 dark:bg-blue-900/20 rounded-b-lg"> <button id="closeParallelsBtn" class="w-full px-4 py-2 bg-blue-700 dark:bg-blue-600 text-white rounded hover:bg-blue-800 dark:hover:bg-blue-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> </div>  </body></html>  <script>(function(){const slug = "antiguo-testamento/05-libros-profeticos/06-oseas";
+
+	// Variable global para el slug actual
+	window.currentBibliaSlug = slug;
+})();</script> <script type="module" src="/_astro/BibliaLayout.astro_astro_type_script_index_0_lang.DMp7HT_N.js"></script>

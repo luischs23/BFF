@@ -8,30 +8,67 @@ export const prerender = true;
 export async function getStaticPaths() {
 	const libros = await getCollection("sagrada-biblia");
 
-	return libros.map((book) => ({
-		params: { id: book.slug },
-		props: { book }
-	}));
+	// Agregar ruta base /biblia (sin parámetros)
+	const paths = [
+		{ params: { id: undefined }, props: { book: null } },
+		...libros.map((book) => ({
+			params: { id: book.slug },
+			props: { book }
+		}))
+	];
+
+	return paths;
 }
 
-const { id } = Astro.params;
 const { book } = Astro.props;
-
-if (!book) {
-	return Astro.redirect('/404');
-}
-
-const { data, slug, render } = book;
-const { title } = data;
-const { Content } = await render();
 
 // Obtener todos los libros para el sidebar
 const libros = await getCollection('sagrada-biblia');
 
 // Organizar libros por sección
 const estructura = organizarLibrosPorSeccion(libros);
+
+// Si no hay libro seleccionado, mostrar página de bienvenida
+const isWelcomePage = !book;
+const title = book ? book.data.title : "Sagrada Biblia";
+const slug = book ? book.slug : "";
+const Content = book ? (await book.render()).Content : null;
 ---
 
-<BibliaLayout title={title} slug={slug} estructura={estructura}>
-	<Content />
+<BibliaLayout title={title} slug={slug} estructura={estructura} isWelcomePage={isWelcomePage}>
+	{Content ? (
+		<Content />
+	) : (
+		<div class="welcome-content max-w-3xl mx-auto py-8 px-4">
+			<h1 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800 dark:text-gray-100">Bienvenido a la Sagrada Biblia</h1>
+			<p class="text-gray-600 dark:text-gray-300 mb-8">
+				<span class="hidden md:inline">Selecciona un libro del menú lateral para comenzar a leer.</span>
+				<span class="md:hidden">Toca el botón del menú para seleccionar un libro.</span>
+			</p>
+
+			<div class="grid md:grid-cols-2 gap-4 md:gap-6">
+				<div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded-lg p-4 md:p-6">
+					<h2 class="text-lg md:text-xl font-bold text-amber-800 dark:text-amber-300 mb-2">Antiguo Testamento</h2>
+					<p class="text-amber-700 dark:text-amber-400 text-sm mb-4">
+						Los libros de la antigua alianza, desde el Génesis hasta los Profetas.
+					</p>
+					<p class="text-xl md:text-2xl font-bold text-amber-800 dark:text-amber-300">
+						{Object.values(estructura['antiguo-testamento'].secciones)
+							.reduce((acc, s) => acc + s.libros.filter(l => !l.data.isIntro && !l.slug.includes('-comentarios') && !l.slug.includes('-paralelos')).length, 0)} libros disponibles
+					</p>
+				</div>
+
+				<div class="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-4 md:p-6">
+					<h2 class="text-lg md:text-xl font-bold text-blue-800 dark:text-blue-300 mb-2">Nuevo Testamento</h2>
+					<p class="text-blue-700 dark:text-blue-400 text-sm mb-4">
+						Los Evangelios, Hechos, Epístolas y el Apocalipsis.
+					</p>
+					<p class="text-xl md:text-2xl font-bold text-blue-800 dark:text-blue-300">
+						{Object.values(estructura['nuevo-testamento'].secciones)
+							.reduce((acc, s) => acc + s.libros.filter(l => !l.data.isIntro && !l.slug.includes('-comentarios') && !l.slug.includes('-paralelos')).length, 0)} libros disponibles
+					</p>
+				</div>
+			</div>
+		</div>
+	)}
 </BibliaLayout>

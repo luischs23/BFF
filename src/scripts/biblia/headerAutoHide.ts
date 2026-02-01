@@ -73,6 +73,14 @@ export function initHeaderAutoHide(): void {
 			return;
 		}
 
+		// No ocultar si estamos en modo búsqueda
+		const headerSearch = document.getElementById('headerSearch');
+		if (headerSearch && !headerSearch.classList.contains('hidden')) {
+			mobileHeader!.classList.remove('header-hidden');
+			isHeaderVisible = true;
+			return;
+		}
+
 		const scrollDelta = currentScrollY - lastScrollY;
 
 		// Ignorar movimientos pequeños

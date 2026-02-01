@@ -1,0 +1,1958 @@
+---
+title: 'Ezequiel'
+description: 'Libro del Profeta Ezequiel'
+img: blog-placeholder-4.jpg
+---
+# EZEQUIEL
+Introducción
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> El año treinta, el día cinco del cuarto mes, encontrándome yo entre los deportados, a orillas del río Quebar, se abrió el cielo y contemplé sobrecogedoras visiones. <sup>2</sup> El día cinco del mes —era el año quinto de la deportación del rey Jeconías—, <sup>3</sup> el sacerdote Ezequiel, hijo de Buzí, recibió la palabra de Yahvé en el país de los caldeos, a orillas del río Quebar*. Allí vino sobre él la mano de Yahvé*.
+
+## Visión del «Carro de Yahvé*».
+<sup>4</sup> Yo miré: un viento huracanado venía del norte; y vi una gran nube con fuego fulgurante y resplandeciente a su alrededor, y, en su interior, como el destello de un relámpago en medio del fuego. <sup>5</sup> En el centro se veía la figura de cuatro seres, cuyo aspecto era parecido al de una figura humana. <sup>6</sup> Cada uno tenía cuatro caras y cuatro alas. <sup>7</sup> Sus piernas eran rectas, y la planta de sus pies se parecía a una pezuña de buey. Relucían como el fulgor del bronce bruñido. <sup>8</sup> Bajo sus alas había unas manos humanas por los cuatro costados; los cuatro tenían sus propias caras y alas. <sup>9</sup> Sus alas se tocaban unas a otras; al andar no se volvían; cada uno marchaba de frente. <sup>10</sup> Sus caras tenían la forma de un rostro humano, y los cuatro tenían cara de león a la derecha, los cuatro tenían cara de toro a la izquierda, y los cuatro tenían cara de águila*. <sup>11</sup> Sus alas* estaban desplegadas hacia lo alto; dos alas se tocaban entre sí y otras dos les cubrían el cuerpo. <sup>12</sup> Cada uno marchaba de frente; iban donde el espíritu les hacía ir, y no se volvían en su marcha.
+
+<sup>13</sup> Entre los seres había como* brasas incandescentes, con aspecto de antorchas, que se movían entre los seres; el fuego despedía un resplandor, y del fuego salían rayos. <sup>14</sup> Y los seres iban y venían como el aspecto del rayo*.
+
+<sup>15</sup> Miré entonces a los seres: había una rueda en el suelo al lado de los seres, por los cuatro costados. <sup>16</sup> El aspecto de las ruedas y su estructura era como el destello del crisólito. Tenían las cuatro la misma forma y parecían dispuestas como si una rueda estuviese dentro de la otra. <sup>17</sup> En su marcha avanzaban en las cuatro direcciones*; no se volvían en su marcha. <sup>18</sup> Su circunferencia era enorme, imponente, y la circunferencia de las cuatro estaba llena de destellos* todo alrededor. <sup>19</sup> Cuando los seres avanzaban, avanzaban las ruedas junto a ellos, y cuando los seres se elevaban del suelo, se elevaban las ruedas. <sup>20</sup> Donde el espíritu les hacía ir, allí iban*, y las ruedas se elevaban juntamente con ellos, porque el espíritu del ser estaba en las ruedas. <sup>21</sup> Cuando avanzaban ellos, avanzaban ellas; cuando ellos se paraban, se paraban ellas; y cuando ellos se elevaban del suelo, las ruedas se elevaban juntamente con ellos, porque el espíritu del ser estaba en las ruedas. <sup>22</sup> Sobre las cabezas del ser había una especie de bóveda como de cristal resplandeciente*, extendida por encima de sus cabezas*, <sup>23</sup> y bajo la bóveda sus alas estaban emparejadas una con otra; cada uno tenía dos que le cubrían el cuerpo*.
+
+<sup>24</sup> Oí el ruido de sus alas, parecido al de aguas caudalosas, como la voz de Sadday. Cuando marchaban, se oía un ruido atronador, como el estruendo de una batalla; cuando se paraban, replegaban sus alas. <sup>25</sup> Y se produjo un ruido*.
+
+<sup>26</sup> Por encima de la bóveda que estaba sobre sus cabezas, había como una piedra de zafiro en forma de trono, y sobre esta forma de trono, por encima, en lo más alto, una figura de apariencia humana.
+
+<sup>27</sup> Vi luego como el destello de un relámpago, como un fuego que la envolvía alrededor, desde lo que parecía ser sus caderas para arriba; y desde lo que parecía ser sus caderas para abajo, vi como un fuego resplandeciente que la envolvía. <sup>28</sup> Se parecía al arco iris que aparece en las nubes los días de lluvia: tal era el aspecto de este resplandor a su alrededor. Parecía la gloria de Yahvé*. A su vista caí rostro en tierra y oí una voz que hablaba.
+
+## Visión del libro*.
+<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Me dijo: «Hijo de hombre*, ponte en pie, que voy a hablarte.» <sup>2</sup> Me invadió el espíritu mientras me hablaba y me puso en pie; y oí al que me hablaba. <sup>3</sup> Me dijo: «Hijo de hombre, yo te envío a los israelitas, nación rebelde*, que se han rebelado contra mí. Ellos y sus padres se rebelaron contra mí hasta el día de hoy. <sup>4</sup> Los hijos tienen dura cerviz y corazón obstinado*; a ellos te envío para decirles: Esto dice el señor Yahvé. <sup>5</sup> Y ellos, escuchen o no escuchen (ya que son casa rebelde), sabrán que había un profeta entre ellos. <sup>6</sup> Y tú, hijo de hombre, no les tengas miedo ni a ellos ni a lo que digan; no temas aunque te rodeen amenazantes y te veas sentado sobre escorpiones. No tengas miedo de lo que digan, ni te asustes de ellos, porque son una casa rebelde. <sup>7</sup> Les comunicarás mis palabras, escuchen o no escuchen (porque son una casa rebelde*).
+
+<sup>8</sup> «Por tu parte, hijo de hombre, escucha lo que voy a decirte; no seas rebelde como ellos. Abre la boca y come lo que te voy a dar.» <sup>9</sup> Al mirar, vi una mano tendida hacia mí, que sostenía un libro enrollado. <sup>10</sup> Lo desenrolló ante mí: estaba escrito por el anverso y por el reverso; había escrito*: «Lamentaciones, gemidos y ayes.»
+
+<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Luego me dijo: «Hijo de hombre, come lo que se te ofrece; come este rollo y ve luego a hablar a la casa de Israel.» <sup>2</sup> Yo abrí mi boca y él me hizo comer el rollo, <sup>3</sup> y me dijo: «Hijo de hombre, aliméntate y sáciate de este rollo que yo te doy.» Lo comí y me supo dulce como la miel*.
+
+<sup>4</sup> Entonces me dijo: «Hijo de hombre, ve a la casa de Israel y háblales con mis palabras. <sup>5</sup> Ten en cuenta que no eres enviado a un pueblo de habla oscura y lengua difícil, sino a la casa de Israel; <sup>6</sup> no a pueblos numerosos, de habla oscura y lengua difícil, cuyas palabras no entenderías. Por cierto, si te enviara a ellos, te escucharían. <sup>7</sup> Pero la casa de Israel no querrá escucharte, porque no está dispuesta a escucharme a mí, ya que toda la casa de Israel tiene dura cerviz y corazón obstinado. <sup>8</sup> Mira, yo endureceré tu rostro como el de ellos, y haré tu frente tan dura como la suya; <sup>9</sup> haré tu frente como el diamante, que es más duro que la roca. No les temas, no tengas miedo de ellos (porque son una casa rebelde).»
+
+<sup>10</sup> Luego me dijo: «Hijo de hombre, recuerda bien todas las palabras que yo te dirija, y escúchalas atentamente. <sup>11</sup> Anda, ve donde los deportados, tus compatriotas; háblales y diles: ‘Esto dice el Señor Yahvé’, escuchen o no escuchen.»
+
+<sup>12</sup> Entonces, el espíritu me levantó y oí a mis espaldas el estruendo de un gran terremoto: «Bendita sea la gloria de Yahvé desde su morada.» <sup>13</sup> (El ruido que hacían las alas de los seres al chocar entre sí y el ruido de las ruedas que había junto a ellos parecía el estruendo de un gran terremoto.) <sup>14</sup> Entonces el espíritu me levantó y me arrebató. Yo iba apesadumbrado e irritado, mientras Yahvé dejaba sentir su mano pesadamente sobre mí. <sup>15</sup> Llegué donde los deportados de Tel Abib que residían junto al río Quebar —aquí residían ellos—, y permanecí allí siete días, aturdido, en medio de ellos.
+
+## El profeta como centinela*.
+<sup>16</sup> Al cabo de los siete días, Yahvé me dirigió su palabra en estos términos: <sup>17</sup> «Hijo de hombre, te he constituido centinela de la casa de Israel. Cuando oigas una palabra de mi boca, les darás la alarma de mi parte. <sup>18</sup> Si yo digo al malvado: ‘Vas a morir’, y tú no le das la alarma ni le hablas para advertirle que abandone su mala conducta y viva, él, el malvado, morirá por su culpa, pero de su sangre te pediré cuentas a ti. <sup>19</sup> Pero si el malvado, a pesar de tu advertencia, no se aparta de su maldad y de su mala conducta, morirá por su culpa, pero tú habrás salvado tu vida.
+
+<sup>20</sup> Y si el justo se aparta de su buen obrar y comete injusticia, yo pondré un obstáculo ante él y morirá; por no haberle advertido tú, morirá por su pecado y no se recordará la justicia que había practicado, pero de su sangre te pediré cuentas a ti. <sup>21</sup> Pero si tú adviertes al justo que no peque, y te hace caso, ciertamente vivirá por haber sido advertido, y tú habrás salvado tu vida.»
+
+# I. Antes del asedio de Jerusalén
+## Ezequiel privado de la palabra.
+<sup>22</sup> Allí vino sobre mí la mano de Yahvé; me dijo: «Sal hacia la vega, que voy a hablarte allí.» <sup>23</sup> Me puse en marcha y, al llegar a la vega, allí estaba la gloria de Yahvé (semejante a la gloria que yo había visto junto al río Quebar). Entonces caí rostro en tierra. <sup>24</sup> El espíritu me invadió, me puso en pie y me habló así: «Ve a encerrarte en tu casa. <sup>25</sup> Hijo de hombre, sábete que te van a echar cuerdas y que te atarán con ellas*, de modo que no puedas salir en medio* de ellos. <sup>26</sup> Voy a pegar tu lengua al paladar; te quedarás mudo y dejarás de ser su acusador (porque son una casa rebelde). <sup>27</sup> Pero cuando vuelva a hablarte, abriré tu boca y les dirás: ‘Esto dice el Señor Yahvé’; el que quiera que escuche y el que no, que lo deje (porque son una casa rebelde).
+
+## Anuncio del asedio de Jerusalén.
+<span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> «Tú, hijo de hombre, toma un ladrillo y ponlo delante de ti. Graba en él una ciudad (Jerusalén) <sup>2</sup> y diseña contra ella un asedio*: construye frente a ella torres de asalto, levántale terraplenes, emplázale campamentos, instálale arietes frente a ella a su alrededor. <sup>3</sup> Toma luego una sartén de hierro y colócala como un muro de hierro entre ti y la ciudad. Y fija tu mirada en ella; quedará en estado de sitio: tú la sitiarás. Es una señal para la casa de Israel.
+
+<sup>4</sup> «Tú acuéstate del lado izquierdo y pon en él la culpa de la casa de Israel. Los días que estés acostado sobre él, cargarás con su culpa. <sup>5</sup> Yo te impongo en días los años de su culpa: trescientos noventa días; cargarás con la culpa de la casa de Israel. <sup>6</sup> Cuando los concluyas, te acostarás otra vez del lado derecho, y cargarás con la culpa de la casa de Judá durante cuarenta días. Yo te impongo un día por año*. <sup>7</sup> Después fijarás tu mirada y tu brazo desnudo sobre el asedio de Jerusalén, y profetizarás contra ella. <sup>8</sup> Como te he atado con cuerdas, no podrás darte la vuelta de un lado a otro, hasta que no hayas cumplido los días de tu reclusión.
+
+<sup>9</sup> «Toma trigo, cebada, habas, lentejas, mijo y espelta; ponlo todo en una artesa y haz con ello tu pan. Comerás de él durante todo el tiempo que estés acostado de un lado —trescientos noventa días—. <sup>10</sup> El alimento que comas estará racionado: veinte siclos por día; y lo comerás a hora fija. <sup>11</sup> También tendrás racionada el agua: beberás la sexta parte de un sextario a hora fija*. <sup>12</sup> Comerás una torta de cebada, que hornearás ante ellos sobre excrementos humanos.» <sup>13</sup> Y añadió Yahvé: «Así comerán los israelitas su alimento impuro* en medio de las naciones donde yo voy a arrojarlos.» <sup>14</sup> Yo dije entonces: «¡Ah, Señor Yahvé!, yo no estoy impuro. Desde mi infancia hasta el presente jamás he comido bestia muerta o despedazada, ni ha entrado en mi boca carne contaminada.»
+
+<sup>15</sup> Él me respondió: «Bien, en lugar de excrementos humanos te permito usar boñigas de buey*, para que hagas sobre ellas tu pan.» <sup>16</sup> Luego me dijo: «Hijo de hombre, he decidido destruir la provisión de pan* en Jerusalén: comerán el pan tasado y con angustia, y beberán el agua racionada y con ansiedad, <sup>17</sup> para que, al faltar pan y agua, acaben todos desfallecidos y consumidos por sus culpas.
+
+<span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> «Tú, hijo de hombre, toma una espada afilada; úsala como navaja de barbero y pásatela por tu cabeza y tu barba. Toma luego una balanza y divide en partes lo que hayas cortado. <sup>2</sup> Prende fuego a un tercio en medio de la ciudad, al cumplirse los días del asedio. Toma otro tercio y ve cortándolo con la espada alrededor de la ciudad. El último tercio espárcelo al viento, que yo desenvainaré la espada contra ellos*. <sup>3</sup> Pero toma de ahí una pequeña cantidad* y recógelo en el vuelo de tu manto; <sup>4</sup> y de éstos vuelve a tomar un poco, échalo en medio del fuego y quémalo. De él saldrá fuego* contra toda la casa de Israel.
+
+<sup>5</sup> «Esto dice el Señor Yahvé: Ésta es Jerusalén. Yo la había colocado en medio de las naciones, rodeada de países, <sup>6</sup> pero ella se ha rebelado contra mis normas con más perversidad que las naciones, y contra mis decretos más que los países de su alrededor. Sí, han rechazado mis normas y no se han conducido según mis decretos.
+
+<sup>7</sup> «Por eso, esto dice el Señor Yahvé: Ya que vuestra rebeldía es mayor que la de las naciones que os rodean; ya que no os habéis conducido según mis decretos, ni habéis observado mis normas, y ni siquiera os habéis ajustado a las normas de las naciones que os rodean, <sup>8</sup> por eso, esto dice el Señor Yahvé: También yo me declaro contra ti: ejecutaré mi sentencia* en medio de ti, a la vista de las naciones; <sup>9</sup> y, debido a tus abominaciones, haré contigo lo que nunca he hecho ni volveré a hacer jamás. <sup>10</sup> Por eso, los padres devorarán a sus hijos en medio de ti y los hijos devorarán a sus padres. Ejecutaré mi sentencia contra ti y esparciré a todos los vientos lo que quede de ti. <sup>11</sup> Por eso, juro por mi vida, —oráculo del Señor Yahvé—, que así como tú has contaminado mi santuario con todos tus horrores y todas tus abominaciones, yo también te rechazaré*; no me apiadaré, ni perdonaré. <sup>12</sup> Un tercio de los tuyos morirá de peste o perecerá de hambre dentro de ti; otro tercio caerá a espada en torno a ti; y al otro tercio lo esparciré yo a todos los vientos, desenvainando personalmente la espada contra ellos*. <sup>13</sup> Voy a desahogar mi cólera y saciar en ellos mi furor; me vengaré y desahogaré mi furor en ellos; y sabrán entonces que yo, Yahvé, he hablado lleno de celo. <sup>14</sup> Haré de ti una ruina, oprobio y burla entre las naciones que te rodean, a la vista de todos los transeúntes. <sup>15</sup> Serás oprobio y blanco de insultos, ejemplo y asombro para las naciones que te rodean, cuando en ti ejecute mis juicios con cólera y furor, con furiosos castigos. Yo, Yahvé, he hablado. <sup>16</sup> Lanzaré contra ellos las terribles flechas exterminadoras del hambre, que yo enviaré para acabar con vosotros*; acrecentaré entre vosotros el hambre y destruiré vuestras provisiones de pan. <sup>17</sup> Enviaré contra vosotros hambre y bestias feroces, que te dejarán sin hijos; la peste y la sangre se cebarán en ti, y enviaré contra ti la espada. Yo, Yahvé, he hablado.»
+
+## Contra los montes de Israel.
+<span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, vuelve tu rostro hacia los montes de Israel y profetiza contra ellos*. <sup>3</sup> Dirás: Montes de Israel, escuchad la palabra del Señor Yahvé. Esto dice el Señor Yahvé a los montes, a las colinas, a los barrancos y a los valles: He decidido traer contra vosotros la espada y destruir vuestros altozanos. <sup>4</sup> Vuestros altares serán devastados, rotas vuestras estelas; arrojaré vuestros caídos ante vuestras basuras*, <sup>5</sup> pondré los cadáveres de los israelitas delante de sus basuras, y esparciré sus huesos en torno a vuestros altares. <sup>6</sup> En todas vuestras comarcas, las ciudades serán destruidas y los altozanos devastados, de forma que vuestros altares queden en ruinas y paguen la culpa, vuestras basuras sean destrozadas y aventadas, vuestras estelas hechas pedazos y aniquiladas vuestras obras. <sup>7</sup> Habrá caídos entre vosotros, y sabréis que yo soy Yahvé*.
+
+<sup>8</sup> «Pero, cuando seáis dispersados por los países, os dejaré entre las naciones algunos supervivientes de la espada. <sup>9</sup> Y esos supervivientes se acordarán de mí en las naciones en las que estén deportados, ésos a quienes yo haya quebrantado* el corazón adúltero que se apartó de mí y los ojos que se prostituyeron tras sus basuras. Se horrorizarán de sí mismos por las maldades que cometieron, por todas sus abominaciones. <sup>10</sup> Y sabrán que yo, Yahvé, no les había amenazado en vano con todos estos males.
+
+## Los pecados de Israel.
+<sup>11</sup> «Esto dice el Señor Yahvé. Bate las manos, patalea y lanza ayes por todas las execrables abominaciones de la casa de Israel, que va a caer por la espada, el hambre y la peste. <sup>12</sup> El que esté lejos morirá de peste; el que esté cerca caerá a espada; el que quede y el sitiado morirán de hambre, porque voy a desahogar mi furor en ellos. <sup>13</sup> Y sabréis que yo soy Yahvé, cuando sus caídos queden allí ante sus basuras alrededor de sus altares, en toda colina elevada, en la cima de todos los montes, bajo cualquier árbol verde o encina frondosa, dondequiera que ofrecen aroma suave a todas sus basuras. <sup>14</sup> Extenderé mi mano contra ellos y dejaré esta tierra desolada, desde el desierto hasta Riblá*, en todas sus comarcas. Y sabrán que yo soy Yahvé.»
+
+## El fin cercano.
+<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, di*: Esto dice el Señor Yahvé a la tierra de Israel: ¡El fin! Llega el fin sobre los cuatro extremos de esta tierra. <sup>3</sup> Te ha tocado el fin. Voy a desencadenar mi cólera contra ti; te juzgaré según tu conducta y te pediré cuentas de todas tus abominaciones. <sup>4</sup> No me apiadaré de ti, ni te perdonaré; te pagaré según tu conducta, cuando aparezcan tus abominaciones en medio de ti. Y sabréis que yo soy Yahvé.
+
+<sup>5</sup> «Esto dice el Señor Yahvé: ¡Desgracia única! ¡Ya viene la desgracia! <sup>6</sup> Se acerca el fin, el fin se acerca sobre ti; es ya inminente. <sup>7</sup> Te llega el turno*, habitante del país; llega el tiempo, está cercano el día*. En los montes habrá consternación, y no saltos de alegría. <sup>8</sup> Ahora voy a derramar sin tregua mi furor sobre ti y a desahogar mi cólera en ti; voy a juzgarte según tu conducta y a pedirte cuentas de todas tus abominaciones. <sup>9</sup> No me apiadaré de ti, ni te perdonaré; te pagaré según tu conducta, cuando tus abominaciones aparezcan en medio de ti. Y sabréis que yo soy Yahvé, el que hiere.
+
+<sup>10</sup> «¡Está llegando el día! ¡Te ha tocado el turno! Florece la injusticia*, despunta la arrogancia, <sup>11</sup> se alza la violencia para hacerse vara de maldad...* <sup>12</sup> Llega el tiempo, se acerca el día. Que el comprador no se alegre, ni se entristezca el vendedor, porque la ira va dirigida contra toda su multitud*. <sup>13</sup> El vendedor no recobrará lo vendido, y eso si se encuentra entre los vivos, pues la ira* contra toda su multitud no será revocada; nadie tendrá segura la vida a causa de su iniquidad. <sup>14</sup> Tocad la trompeta, tened todo dispuesto, pero que nadie entre en combate, porque mi ira va contra toda su multitud.
+
+## Los pecados de Israel.
+<sup>15</sup> «Fuera está la espada; en casa, la peste y el hambre. El que se encuentre en el campo morirá a espada, y al que esté en la ciudad lo devorarán el hambre y la peste. <sup>16</sup> Escaparán sus supervivientes y andarán por los montes como las palomas de los valles*; todos irán gimiendo, cada uno por sus culpas. <sup>17</sup> Todas las manos desfallecerán, las rodillas se irán en agua; <sup>18</sup> se ceñirán de sayal, un escalofrío los invadirá; todos los rostros sonrojados, las cabezas rapadas*. <sup>19</sup> Arrojarán su plata por las calles y su oro se convertirá en inmundicia; ni su plata ni su oro podrán salvarlos el día de la ira de Yahvé; no se saciarán, ni llenarán su vientre, porque ello constituía la ocasión de su pecado. <sup>20</sup> Se enorgullecían de la hermosura de sus joyas: con ellas fabricaron las imágenes de sus ídolos abominables; por eso yo las convertiré en basura. <sup>21</sup> Las entregaré como botín a los extranjeros, como presa a los malvados de la tierra, para que las profanen. <sup>22</sup> Apartaré de ellos mi vista, y mi tesoro* será profanado: los invasores penetrarán en él y lo profanarán.
+
+<sup>23</sup> «Haz unas cadenas*, porque el país está lleno de sangre, la ciudad repleta de violencia. <sup>24</sup> Yo haré venir las maldades de los pueblos, que se apoderarán de sus casas. Pondré fin al orgullo de los poderosos, y sus santuarios serán profanados. <sup>25</sup> Llegará el terror y ellos buscarán la paz, pero no la habrá; <sup>26</sup> vendrá un desastre tras otro, una mala noticia tras otra. En vano pedirán una visión al profeta; al sacerdote le faltará la ley, y el consejo a los ancianos. <sup>27</sup> El rey estará en duelo*, el príncipe hundido en la desolación, al pueblo de la tierra le temblarán las manos. Yo los trataré según su conducta, los juzgaré según sus juicios. Y sabrán que yo soy Yahvé.»
+
+## Visión de los pecados de Jerusalén.
+<span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> El año sexto, el día cinco del sexto mes*, estando yo sentado en mi casa con los ancianos de Judá, se posó allí sobre mí la mano del Señor Yahvé.
+
+<sup>2</sup> Miré y vi allí una figura con aspecto de hombre*. Desde lo que parecían ser sus caderas para abajo era de fuego, y desde sus caderas para arriba era resplandeciente, semejante al destello del relámpago*. <sup>3</sup> Alargó una especie de mano y me agarró por los cabellos; el espíritu me elevó entre el cielo y la tierra y me llevó a Jerusalén en medio de sobrecogedoras visiones*, a la puerta septentrional del atrio interior, allí donde se alza el ídolo de los celos, que provoca los celos*. <sup>4</sup> Y allí estaba la gloria del Dios de Israel, con el mismo aspecto que yo la había visto en la vega. <sup>5</sup> Él me dijo: «Hijo de hombre, mira hacia el norte.» Miré hacia el norte y vi que al norte del pórtico del altar estaba este ídolo de los celos, a la entrada. <sup>6</sup> Me dijo: «Hijo de hombre, ¿ves lo que hacen éstos? La casa de Israel comete aquí grandes abominaciones para alejarme de mi santuario. Pues todavía has de ver mayores abominaciones.»
+
+<sup>7</sup> Me llevó a la entrada del atrio. Me fijé y vi un agujero en la pared. <sup>8</sup> Él me dijo: «Hijo de hombre, perfora la pared.» Perforé la pared y se hizo una abertura. <sup>9</sup> Y añadió: «Entra y contempla las execrables abominaciones que éstos cometen ahí.» <sup>10</sup> Al entrar, contemplé toda clase de representaciones de reptiles y animales repugnantes; todas las basuras* de la casa de Israel estaban grabadas en la pared, todo alrededor. <sup>11</sup> Delante de ellas, de pie, estaban setenta ancianos de la casa de Israel —uno de ellos era Jazanías, hijo de Safán—, cada uno empuñando su incensario. Y el perfume de la nube de incienso se expandía. <sup>12</sup> Me dijo entonces: «¿Has visto, hijo de hombre, lo que hacen en la oscuridad los ancianos de la casa de Israel, cada uno en su estancia adornada de pinturas? Piensan que Yahvé no los ve, que ha abandonado el país.» <sup>13</sup> Y añadió: «Todavía les verás cometer mayores abominaciones.»
+
+<sup>14</sup> Me llevó a la puerta septentrional del templo de Yahvé; allí estaban sentadas las mujeres, plañiendo a Tamuz*. <sup>15</sup> Me dijo: «¿Has visto, hijo de hombre? Todavía verás mayores abominaciones que éstas.»
+
+<sup>16</sup> Me condujo luego al atrio interior del templo de Yahvé. A la entrada del santuario de Yahvé, entre el vestíbulo y el altar, había unos veinticinco hombres de espaldas al santuario de Yahvé y de cara a oriente; se postraban en dirección a oriente, hacia el sol. <sup>17</sup> Me dijo: «¿Has visto, hijo de hombre? ¿No le basta a la casa de Judá con cometer las abominaciones que cometen aquí, que además llenan el país de violencia, irritándome cada vez más? Mira cómo se llevan el ramo a la nariz*. <sup>18</sup> Pues yo también voy a actuar con furor; no me apiadaré, ni perdonaré. Me gritarán con fuerza, pero no les escucharé.»
+
+## El castigo*.
+<span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Entonces gritó a mis oídos con voz potente: «¡Que se acerquen los que van a castigar a la ciudad con su instrumento de castigo en la mano!» <sup>2</sup> En esto, por el camino de la puerta superior que mira al norte, vinieron seis hombres con su instrumento de castigo en la mano. Entre ellos había un hombre vestido de lino con una cartera de escribano a la cintura. Entraron y se detuvieron ante al altar de bronce. <sup>3</sup> La gloria del Dios de Israel se elevó por encima de los querubines sobre los que descansaba, en dirección al umbral del templo. Llamó entonces al hombre vestido de lino que tenía la cartera de escribano a la cintura, <sup>4</sup> y Yahvé le dijo: «Recorre Jerusalén, y marca con una cruz* la frente de los hombres que gimen y lloran por todas las abominaciones que se cometen en ella.» <sup>5</sup> Y oí que dijo a los otros: «Recorred la ciudad detrás de él e id hiriendo a la gente. No tengáis piedad, no perdonéis a nadie; <sup>6</sup> matad a viejos, jóvenes, doncellas, niños y mujeres, hasta que no quede uno. Pero no toquéis a quien lleve la cruz en la frente. Empezad por mi santuario.» Empezaron, pues, por los ancianos que estaban delante del templo. <sup>7</sup> Luego les dijo: «Profanad el templo, llenad de víctimas los atrios; en marcha.» Y salieron a herir por la ciudad.
+
+<sup>8</sup> Mientras ellos herían, me quedé solo allí; caí rostro a tierra y grité: «¡Ah, Señor Yahvé!, ¿vas a exterminar a todo el resto de Israel, derramando tu furor contra Jerusalén?» <sup>9</sup> Me dijo: «La culpa de la casa de Israel y de Judá es muy grande, mucho. El país está lleno de sangre, y la ciudad repleta de perversidad. Andan diciendo que Yahvé ha abandonado el país, que Yahvé no ve nada; <sup>10</sup> pues entonces tampoco yo podré apiadarme ni perdonar. Les haré responsables de su conducta.» <sup>11</sup> En aquel momento el hombre vestido de lino que llevaba la cartera a la cintura vino a dar cuenta: «He ejecutado lo que me ordenaste.»
+
+<span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> *Miré y vi sobre la plataforma que estaba por encima de los querubines una especie de piedra de zafiro, semejante a un trono. <sup>2</sup> Y dijo al hombre vestido de lino: «Métete bajo la carroza, debajo de los querubines, y llena los cuencos de tus manos con las brasas que hay entre los querubines; luego las esparces por la ciudad.» Y apareció ante mi vista.
+
+<sup>3</sup> Cuando entró el hombre, los querubines estaban situados a la derecha del templo, y la nube llenaba el atrio interior. <sup>4</sup> La gloria de Yahvé se elevó de encima de los querubines hacia el umbral del templo, que se llenó de la nube, mientras el atrio entero resplandecía con la gloria de Yahvé. <sup>5</sup> El ruido de las alas de los querubines se oía hasta en el atrio exterior, y se parecía a la voz del Dios Sadday cuando habla.
+
+<sup>6</sup> Cuando ordenó al hombre vestido de lino que tomase fuego de la carroza en medio de los querubines, éste fue y se detuvo junto a la rueda. <sup>7</sup> Entonces el querubín alargó su mano de entre los querubines hacia el fuego que había en medio de éstos; lo tomó y lo puso en las manos del hombre vestido de lino. Éste lo tomó y salió. <sup>8</sup> Entonces apareció una especie de mano humana debajo de las alas de los querubines. <sup>9</sup> Al mirar, vi que había cuatro ruedas al lado de los querubines, una por querubín, y que el aspecto de las ruedas era como el destello del crisólito. <sup>10</sup> Las cuatro tenían la misma forma, como si una rueda estuviese dentro de la otra. <sup>11</sup> Cuando se movían, avanzaban en las cuatro direcciones; y no se desviaban mientras marchaban, pues seguían la dirección hacia la que estaban orientadas, sin desviarse. <sup>12</sup> Todo su cuerpo, su espalda, sus manos y sus alas, así como las ruedas, estaban llenos de destellos* todo alrededor, por los cuatro costados. <sup>13</sup> (Oí que a las ruedas se les daba el nombre de «galgal*».) <sup>14</sup> Cada uno tenía cuatro caras: la primera era la cara del querubín; la segunda, una cara de hombre; la tercera, una cara de león; y la cuarta, una cara de águila*. <sup>15</sup> Los querubines se levantaron (era el ser que yo había visto junto al río Quebar). <sup>16</sup> Cuando los querubines avanzaban, avanzaban también las ruedas a su lado; y cuando desplegaban sus alas para elevarse del suelo, tampoco las ruedas se desviaban de su lado. <sup>17</sup> Cuando ellos se detenían, se detenían ellas, y cuando ellos se elevaban, las ruedas se elevaban con ellos, porque el espíritu del ser estaba en ellas.
+
+## La gloria de Yahvé abandona el templo.
+<sup>18</sup> La gloria de Yahvé traspasó el umbral del templo y se posó sobre los querubines. <sup>19</sup> Éstos desplegaron sus alas y se elevaron del suelo en mi presencia. Cuando salían los querubines, las ruedas iban con ellos; se detuvieron junto a la puerta oriental* del templo de Yahvé. La gloria del Dios de Israel estaba encima de ellos <sup>20</sup> (era el ser que yo había visto debajo del Dios de Israel en el río Quebar); y supe que eran querubines. <sup>21</sup> Cada uno tenía cuatro caras y cuatro alas, y como manos humanas bajo sus alas. <sup>22</sup> En cuanto a sus rostros, se parecían a los que yo había visto junto al río Quebar*. Cada uno marchaba de frente.
+
+## Continuación de los pecados de Jerusalén*.
+<span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> El espíritu me elevó y me condujo al pórtico oriental del templo de Yahvé, el que mira a oriente. A la entrada del pórtico había veinticinco hombres, entre los cuales vi a Jazanías, hijo de Azur, y a Pelatías, hijo de Benaías, jefes del pueblo. <sup>2</sup> Él* me dijo: «Hijo de hombre, éstos son los hombres que maquinan el mal, que dan malos consejos en esta ciudad. <sup>3</sup> Dicen: ‘¡No será pronto cuando haya que construir casas! Ella es la olla y nosotros somos la carne*.’ <sup>4</sup> Por eso, profetiza contra ellos; profetiza, hijo de hombre.» <sup>5</sup> El espíritu de Yahvé irrumpió en mí y me dijo: «Di: Esto dice Yahvé: Sé bien lo que habéis dicho, casa de Israel; conozco bien vuestra insolencia: <sup>6</sup> habéis multiplicado vuestras víctimas en esta ciudad; habéis llenado de víctimas sus calles. <sup>7</sup> Por eso, esto dice el Señor Yahvé: las víctimas que habéis tirado en medio de esta ciudad son la carne, y ella es la olla; pero yo os haré* salir de ella. <sup>8</sup> ¿Teméis la espada?, pues yo traeré espada contra vosotros —oráculo del Señor Yahvé—. <sup>9</sup> Os sacaré de la ciudad, os entregaré en mano de extranjeros, y así haré justicia con vosotros. <sup>10</sup> A espada caeréis; en el término de Israel os juzgaré yo, y sabréis que yo soy Yahvé. <sup>11</sup> Esta ciudad no será olla para vosotros, ni vosotros seréis carne en medio de ella; dentro del término de Israel os juzgaré yo. <sup>12</sup> Y sabréis que yo soy Yahvé, cuyos preceptos no habéis seguido y cuyas normas no habéis guardado —por el contrario habéis obrado según las normas de las naciones que os circundan—.»
+
+<sup>13</sup> En esto, mientras yo estaba profetizando, Pelatías, hijo de Benaías, murió. Yo caí rostro en tierra y grité con voz fuerte: «¡Ah, Señor Yahvé!, ¿vas a aniquilar al resto de Israel?»
+
+## La nueva alianza prometida a los desterrados.
+<sup>14</sup> Entonces Yahvé me dirigió la palabra en estos términos: <sup>15</sup> «Hijo de hombre, los habitantes de Jerusalén andan diciendo a tus hermanos, a tus parientes y a toda la casa de Israel: Seguid lejos de Yahvé; esta tierra se nos ha dado a nosotros en posesión*. <sup>16</sup> Por eso, di: Esto dice el Señor Yahvé: Sí, yo los he alejado entre las naciones y los he dispersado por los países, pero yo he sido un santuario para ellos, por poco tiempo, en los países adonde han ido. <sup>17</sup> Por eso, di: Esto dice el Señor Yahvé: Yo os recogeré de en medio de los pueblos, os congregaré de los países en los que habéis sido dispersados, y os daré la tierra de Israel. <sup>18</sup> Vendrán y quitarán de ella todos sus ídolos y abominaciones. <sup>19</sup> Les daré un solo corazón y pondré en ellos* un espíritu nuevo; quitaré de su carne el corazón de piedra y les daré un corazón de carne, <sup>20</sup> para que caminen según mis preceptos, observen mis normas y las pongan en práctica, y así sean mi pueblo y yo sea su Dios. <sup>21</sup> En cuanto a aquellos cuyo corazón* va en pos de sus ídolos y abominaciones, yo les haré responsables de su conducta —oráculo del Señor Yahvé—.»
+
+## La gloria de Yahvé abandona Jerusalén.
+<sup>22</sup> Los querubines desplegaron sus alas y las ruedas les siguieron, mientras la gloria del Dios de Israel estaba encima de ellos. <sup>23</sup> La gloria de Yahvé se elevó de en medio de la ciudad y se detuvo sobre el monte que está al oriente de la ciudad.
+
+<sup>24</sup> El espíritu me elevó y me llevó a Caldea, donde los desterrados, en visión, en el espíritu de Dios; y la visión que había contemplado se retiró de mí. <sup>25</sup> Yo conté a los desterrados* todo lo que Yahvé me había concedido ver.
+
+## El gesto del deportado *.
+<span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, tú vives en medio de una casa rebelde, pues tienen ojos para ver y no ven, oídos para oír y no oyen (porque son una casa rebelde). <sup>3</sup> Ahora, pues, hijo de hombre, prepárate un equipo de deportado y sal como deportado en pleno día, para que te vean. Saldrás de tu lugar habitual hacia otro lugar. Y que te vean. Acaso reconozcan que son una casa rebelde. <sup>4</sup> Arreglarás tu equipo de deportado de día, para que te vean, y saldrás por la tarde, como salen los deportados. Y que te vean. <sup>5</sup> Harás en su presencia un agujero en la pared, y saldrás* por él. <sup>6</sup> Cuando ellos te vean, cargarás con tu equipaje a la espalda y saldrás en la oscuridad, y te cubrirás el rostro para no ver la tierra. Yo he hecho de ti un símbolo para la casa de Israel.»
+
+<sup>7</sup> Yo hice como se me había ordenado: preparé de día mi equipo, como el de un deportado, y por la tarde hice un agujero en la pared con la mano; y salí* en la oscuridad, cargando con el equipaje a mis espaldas, a la vista de todos ellos.
+
+<sup>8</sup> Por la mañana, Yahvé me dirigió su palabra en estos términos: <sup>9</sup> «Hijo de hombre, ¿no te ha preguntado la casa de Israel, esta casa rebelde: ‘Qué es lo que haces’? <sup>10</sup> Diles: Esto dice el Señor Yahvé. Este oráculo* se refiere a Jerusalén y a todos los israelitas que hay en ella. <sup>11</sup> Di: Yo soy un símbolo para vosotros; como he hecho yo, así se hará con ellos: serán deportados, irán al destierro. <sup>12</sup> El príncipe que los gobierna cargará con su equipo a la espalda, en la oscuridad, y saldrá. Horadarán la muralla para hacerle salir por ella, y se tapará la cara para no ver la tierra con sus propios ojos*. <sup>13</sup> Mas yo tenderé mi lazo sobre él y quedará preso en mi red: lo conduciré a Babilonia, al país de los caldeos. Pero no lo verá, y morirá allí. <sup>14</sup> Por lo que respecta a todo su séquito, su guardia y sus tropas, yo los esparciré a todos los vientos y desenvainaré la espada tras ellos. <sup>15</sup> Y sabrán que yo soy Yahvé cuando los disperse entre las naciones y los esparza por los países. <sup>16</sup> Sin embargo, dejaré que un pequeño número de ellos escapen a la espada, al hambre y a la peste, para que cuenten todas sus abominaciones entre las naciones adonde vayan, a fin de que sepan que yo soy Yahvé.»
+
+<sup>17</sup> Yahvé me dirigió su palabra en estos términos: <sup>18</sup> «Hijo de hombre, comerás tu pan tembloroso y beberás tu agua inquieto y angustiado*; <sup>19</sup> y dirás al pueblo de la tierra: Esto dice el Señor Yahvé a los habitantes de Jerusalén que pisan el suelo de Israel: comerán su pan angustiados y beberán su agua estremecidos, para que esta tierra y los que en ella se encuentran queden libres* de la violencia de todos sus habitantes. <sup>20</sup> Las ciudades populosas serán destruidas y esta tierra se convertirá en desolación. Y sabréis que yo soy Yahvé.»
+
+## Proverbios populares.
+<sup>21</sup> Yahvé me dirigió su palabra en estos términos: <sup>22</sup> «Hijo de hombre, ¿qué queréis decir con ese proverbio que circula acerca del suelo de Israel:
+
+Los días se prolongan y toda visión se desvanece*?
+
+<sup>23</sup> Pues bien, diles: Esto dice el Señor Yahvé: Yo haré que calle ese proverbio; no se volverá a repetir en Israel. Diles en cambio:
+
+Llegan los días en que toda visión se cumplirá, <sup>24</sup> pues ya no habrá ni visión vana ni presagio mentiroso en la casa de Israel. <sup>25</sup> Yo, Yahvé, hablaré, y lo que yo hablo es una palabra que se cumple sin dilación. Sí, en vuestros días, casa rebelde, yo pronunciaré una palabra y la ejecutaré —oráculo del Señor Yahvé—.»
+
+<sup>26</sup> Yahvé me dirigió su palabra en estos términos: <sup>27</sup> «Hijo de hombre, mira, la casa de Israel está diciendo: ‘La visión que éste contempla es para un futuro lejano; éste profetiza para una época remota.’ <sup>28</sup> Pues bien, diles: Esto dice el Señor Yahvé: Ya no habrá más dilación para ninguna de mis palabras. Lo que yo hablo es una palabra que se cumple —oráculo del Señor Yahvé—.»
+
+## Contra los falsos profetas.
+<span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, profetiza contra los profetas de Israel; profetiza* y di a los que profetizan por su propia cuenta: Escuchad la palabra de Yahvé. <sup>3</sup> Esto dice el Señor Yahvé: ¡Ay de los profetas insensatos que siguen su propia inspiración, sin haber visto nada! <sup>4</sup> Como raposos entre las ruinas, tales han sido tus profetas, Israel.
+
+<sup>5</sup> «No habéis escalado las brechas, no habéis construido una muralla en torno a la casa de Israel, para que pueda resistir en el combate, en el día de Yahvé. <sup>6</sup> Tienen visiones vanas, presagios mentirosos los que dicen: ‘Oráculo de Yahvé’, sin que Yahvé les haya enviado; ¡y esperan que se confirme su palabra! <sup>7</sup> ¿No es cierto que no tenéis más que visiones vanas, y no anunciáis más que presagios mentirosos, cuando decís: ‘Oráculo de Yahvé’, siendo así que yo no he hablado?
+
+<sup>8</sup> «Pues bien, esto dice el Señor Yahvé: Por causa de vuestras palabras vanas y vuestras visiones mentirosas, sí, aquí estoy contra vosotros —oráculo del Señor Yahvé—. <sup>9</sup> Extenderé* mi mano contra los profetas de visiones vanas y presagios mentirosos; no serán admitidos en la asamblea de mi pueblo, no serán inscritos en el libro de la casa de Israel, ni entrarán en el suelo de Israel. Y sabréis que yo soy el Señor Yahvé. <sup>10</sup> Porque, en efecto, extravían a mi pueblo diciendo: «¡Paz*!», cuando no hay paz. Y mientras él construye un muro, ellos lo recubren de argamasa*. <sup>11</sup> Di a los que lo recubren de argamasa*: ¡Habrá una lluvia torrencial, caerá granizo* y se desencadenará un viento tormentoso, <sup>12</sup> y el muro quedará derrumbado! Entonces seguramente se os dirá: ¿‘Dónde está la argamasa con que lo recubristeis’? <sup>13</sup> Pues bien, esto dice el Señor Yahvé: Voy a desencadenar furioso un viento de tormenta, lanzaré encolerizado una lluvia torrencial, haré que caiga granizo en mi furia destructora. <sup>14</sup> Derribaré el muro que habéis recubierto de argamasa, lo echaré por tierra, y sus cimientos quedarán al desnudo. Caerá y vosotros pereceréis debajo de él. Y sabréis que yo soy Yahvé.
+
+<sup>15</sup> «Cuando haya desahogado mi furor contra el muro y contra los que lo recubren de argamasa, os diré: Ya no existe el muro ni los que lo revocaban: <sup>16</sup> esos profetas de Israel que profetizaban sobre Jerusalén y le ofrecían visiones de paz, cuando no había paz —oráculo del Señor Yahvé—.
+
+## Las falsas profetisas.
+<sup>17</sup> «Y tú, hijo de hombre, vuélvete hacia las hijas de tu pueblo que profetizan por su propia cuenta, y profetiza contra ellas*. <sup>18</sup> Dirás: Esto dice el Señor Yahvé: ¡Ay de aquellas que cosen bandas para todos los puños*, que hacen velos para cabezas de todas las tallas, con ánimo de atrapar a la gente! Vosotras atrapáis a la gente de mi pueblo, ¿y vais a asegurar vuestras propias vidas? <sup>19</sup> Me deshonráis delante de mi pueblo por unos puñados de cebada y unos pedazos de pan, haciendo morir a las personas que no deben morir y dejando vivir a las personas que no deben vivir, diciendo mentiras al pueblo que escucha la mentira.
+
+<sup>20</sup> «Pues bien, esto dice el Señor Yahvé: Aquí me tenéis contra vuestras bandas, con las que atrapáis a las personas como pájaros. Yo las arrancaré de vuestros brazos y dejaré libres a las personas que atrapáis como pájaros*. <sup>21</sup> Rasgaré vuestros velos y libraré a mi pueblo de vuestras manos, para que no vuelvan a ser presa vuestra. Y sabréis que yo soy Yahvé.
+
+<sup>22</sup> «Porque afligís* el corazón del justo con mentiras, cuando yo no lo aflijo, y aseguráis las manos del malvado para que no se convierta de su mala conducta y pueda salvar su vida; <sup>23</sup> por eso, ya no tendréis más visiones vanas ni pronunciaréis más presagios. Yo libraré a mi pueblo de vuestras manos. Y sabréis que yo soy Yahvé.»
+
+## Contra la idolatría.
+<span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Algunos ancianos de Israel vinieron a mi casa y se sentaron ante mí. <sup>2</sup> Entonces Yahvé me dirigió su palabra en estos términos: <sup>3</sup> «Hijo de hombre, estos hombres han erigido sus basuras* en su corazón, han puesto delante de su rostro la ocasión de sus culpas, ¿y voy a dejarme consultar por ellos? <sup>4</sup> Habla, pues, y diles: Esto dice el Señor Yahvé: Si alguien de la casa de Israel erige sus basuras en su corazón o pone delante de su rostro la ocasión de sus culpas, y luego acude a consultar al profeta, yo mismo, Yahvé, le responderé (a causa de la multitud de sus basuras), <sup>5</sup> a fin de atrapar por el corazón a la casa de Israel, a todos aquellos que se han alejado de mí a causa de sus basuras.
+
+<sup>6</sup> «Por eso, di a la casa de Israel: Esto dice el Señor Yahvé: Convertíos, apartaos de vuestras basuras, apartad vuestro rostro de todas vuestras abominaciones, <sup>7</sup> porque a todo hombre de la casa de Israel, o de los forasteros residentes en Israel*, que se aleje de mí para erigir sus basuras en su corazón, que ponga delante de su rostro la ocasión de sus culpas, y luego se presente al profeta para consultarme, yo mismo*, Yahvé, le responderé. <sup>8</sup> Volveré mi rostro contra ese hombre, haré de él ejemplo y proverbio, y lo extirparé de en medio de mi pueblo. Y sabréis que yo soy Yahvé. <sup>9</sup> Y si el profeta se deja seducir y pronuncia una palabra, es que yo, Yahvé, he seducido a ese profeta*; extenderé mi mano contra él y lo exterminaré de en medio de mi pueblo Israel. <sup>10</sup> Cargarán con el peso de sus culpas ambos: igual de culpables serán el profeta y quien le consulte. <sup>11</sup> Así, la casa de Israel ya no se desviará lejos de mí ni seguirá manchándose con todas sus culpas. Ellos serán mi pueblo y yo seré su Dios —oráculo del Señor Yahvé—.»
+
+## Responsabilidad personal *.
+<sup>12</sup> Yahvé me dirigió su palabra en estos términos: <sup>13</sup> «Hijo de hombre, supongamos que un país peca contra mí cometiendo infidelidad y que yo extiendo mi mano contra él, destruyo su provisión de pan y envío contra él el hambre para aniquilar hombres y bestias; <sup>14</sup> si resulta que en ese país se hallan Noé, Danel y Job*, estos tres salvarán su vida por su justicia —oráculo del Señor Yahvé—.
+
+<sup>15</sup> «Supongamos que suelto las bestias feroces contra ese país para privarle de sus habitantes y convertirlo en una desolación por donde nadie pase a causa de las bestias; <sup>16</sup> si resulta que en ese país se hallan esos tres hombres, juro por mi vida —oráculo del Señor Yahvé— que ni hijos ni hijas podrán salvar. Sólo se salvarán a sí mismos, y el país quedará convertido en desolación. <sup>17</sup> O bien, supongamos que hago venir contra ese país la espada, diciendo: ‘Que cruce la espada por este país’, y extirpo de él hombres y bestias; <sup>18</sup> si resulta que esos tres hombres se hallan en ese país, juro por mi vida —oráculo del Señor Yahvé— que no podrán salvar ni hijos ni hijas. Sólo ellos se salvarán. <sup>19</sup> Supongamos que envío la peste sobre ese país y derramo en sangre mi furor contra ellos, extirpando de él hombres y bestias; <sup>20</sup> si resulta que en ese país se hallan Noé, Danel y Job, juro por mi vida —oráculo del Señor Yahvé— que ni hijos ni hijas podrán salvar. Sólo se salvarán a sí mismos por su justicia.
+
+<sup>21</sup> «Pues esto dice el Señor Yahvé: Cuando yo mande contra Jerusalén mis cuatro terribles azotes: espada, hambre, bestias feroces y peste, para extirpar de ella hombres y bestias, <sup>22</sup> puede que queden en ella algunos supervivientes que sacan a sus hijos e hijas. Y, cuando salgan hacia vosotros y veáis su conducta y sus obras, os consolaréis de la desgracia que yo he acarreado sobre Jerusalén, de todo lo que he acarreado sobre ella. <sup>23</sup> Ellos os consolarán cuando veáis su conducta y sus obras, y sabréis que no sin motivo hice yo todo lo que hice en ella —oráculo del Señor Yahvé—.»
+
+## Parábola de la vid.
+<span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos:
+
+<sup>2</sup> «Hijo de hombre,
+
+¿tiene más valor el leño de la vid
+
+que el leño de cualquier rama
+
+que haya entre los árboles del bosque?
+
+<sup>3</sup> ¿Se toma de él madera
+
+para hacer alguna cosa?
+
+¿Se hace con él un gancho
+
+para colgar algún objeto?
+
+<sup>4</sup> Si se tira al fuego para que arda,
+
+si el fuego devora los dos extremos
+
+y el centro está quemado,
+
+¿servirá aún para hacer algo*?
+
+<sup>5</sup> Si ya, cuando estaba intacto,
+
+no se podía hacer nada con él,
+
+¡cuánto menos, cuando lo ha devorado
+
+el fuego y lo ha quemado,
+
+se podrá hacer con él alguna cosa!
+
+<sup>6</sup> Por eso, esto dice el Señor Yahvé:
+
+Lo mismo que el leño de la vid,
+
+entre los árboles del bosque,
+
+al cual he arrojado al fuego
+
+para que lo devore,
+
+así he entregado
+
+a los habitantes de Jerusalén.
+
+<sup>7</sup> He vuelto mi rostro contra ellos.
+
+Han escapado al fuego,
+
+pero el fuego los devorará.
+
+Y sabréis que yo soy Yahvé,
+
+cuando vuelva mi rostro contra ellos.
+
+<sup>8</sup> Convertiré esta tierra en desolación,
+
+porque han cometido infidelidad
+
+—oráculo del Señor Yahvé—.»
+
+## Historia simbólica de Jerusalén *.
+<span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, haz saber a Jerusalén sus abominaciones. <sup>3</sup> Dirás: Esto dice el Señor Yahvé a Jerusalén: Por tu origen y tu nacimiento eres del país de Canaán. Tu padre era amorreo y tu madre hitita. <sup>4</sup> Cuando naciste, el día en que viniste al mundo, no te cortaron el cordón, no te lavaron con agua para limpiarte, no te frotaron con sal, ni te envolvieron en pañales. <sup>5</sup> Nadie se fijó en ti ni se apiadó compasivo para brindarte alguno de estos menesteres. El día en que viniste al mundo, quedaste expuesta en pleno campo, porque dabas repugnancia.
+
+<sup>6</sup> «Yo pasé junto a ti y te vi agitándote en tu sangre. Y te dije, al verte llena de sangre*: ‘Vive’, <sup>7</sup> y te hice crecer como la hierba de los campos. Tú creciste, te desarrollaste y llegaste a la edad núbil*. Se formaron tus senos y tu cabellera creció, pero estabas completamente desnuda. <sup>8</sup> Entonces pasé junto a ti y te vi. Era tu tiempo el tiempo de los amores. Extendí sobre ti el borde de mi manto y cubrí tu desnudez; me comprometí con juramento, hice alianza contigo —oráculo del señor Yahvé— y tú fuiste mía. <sup>9</sup> Te bañé con agua, lavé la sangre que te cubría, te ungí con óleo. <sup>10</sup> Te puse vestidos recamados, zapatos de cuero fino, una banda de lino fino y un manto de seda. <sup>11</sup> Te adorné con joyas, puse brazaletes en tus muñecas y un collar a tu cuello. <sup>12</sup> Puse un anillo en tu nariz, pendientes en tus orejas, y una espléndida diadema en tu cabeza. <sup>13</sup> Brillabas así de oro y plata, vestida de lino fino, de seda y recamados. Te alimentabas de flor de harina, miel y aceite. Te hiciste cada día más hermosa, y llegaste al esplendor de una reina. <sup>14</sup> Tu nombre se difundió entre las naciones, debido a tu belleza, que era perfecta, gracias al esplendor del que yo te había revestido —oráculo del Señor Yahvé—.
+
+<sup>15</sup> «Pero tú te pagaste de tu belleza, te aprovechaste de tu fama para prostituirte, prodigaste tu lascivia a todo transeúnte entregándote a él*. <sup>16</sup> Tomaste tus vestidos para hacerte altos de ricos colores* y te prostituiste en ellos*. <sup>17</sup> Tomaste tus joyas de oro y plata que yo te había dado y te hiciste imágenes de hombres para prostituirte ante ellas; <sup>18</sup> tomaste tus vestidos recamados y las recubriste con ellos. Les hiciste dones con mi aceite y mi incienso, y <sup>19</sup> les ofreciste, como calmante aroma, el pan que yo te había dado, la flor de harina, el aceite y la miel con que yo te alimentaba.
+
+«Y sucedió incluso —oráculo del Señor Yahvé—<sup>20</sup> que tomaste a tus hijos y a tus hijas que me habías dado a luz y se los sacrificaste como alimento. ¿No era suficiente tu prostitución, <sup>21</sup> que además inmolaste a mis hijos y los entregaste haciéndolos pasar por el fuego en su honor? <sup>22</sup> Así, en medio de todas tus abominaciones y tus prostituciones, no te acordaste de cuando eras joven, cuando estabas completamente desnuda, agitándote en tu sangre.
+
+<sup>23</sup> «Y para colmo de maldad —¡ay, ay de ti!, oráculo del Señor Yahvé—<sup>24</sup> te construiste un prostíbulo, te hiciste un altillo en todas las plazas. <sup>25</sup> En la cabecera de todo camino te construiste tu altillo y allí contaminaste tu hermosura; entregaste tu cuerpo a todo transeúnte y multiplicaste tus prostituciones. <sup>26</sup> Te prostituiste a los egipcios, tus vecinos, de enormes miembros, y multiplicaste tus prostituciones para irritarme. <sup>27</sup> Entonces levanté mi mano contra ti: disminuí tu ración y te entregué a la animosidad de tus enemigas, las hijas de los filisteos*, que se avergonzaban de la infamia de tu conducta. <sup>28</sup> Y no harta todavía, te prostituiste a los asirios; te prostituiste sin hartarte tampoco*. <sup>29</sup> Luego, multiplicaste tus prostituciones en el país de los mercaderes, en Caldea; y tampoco esta vez quedaste harta.
+
+<sup>30</sup> «¡Oh, qué débil era tu corazón* —oráculo del Señor Yahvé— para cometer todas estas acciones, dignas de una prostituta descarada! <sup>31</sup> Cuando te construías* un prostíbulo a la cabecera de todo camino, cuando te hacías un altillo en todas las plazas, despreciando el salario, no eras como la prostituta. <sup>32</sup> La mujer adúltera, en lugar de su marido, toma ajenos. <sup>33</sup> A toda prostituta se le da un regalo. Tú, en cambio, dabas regalos a todos tus amantes, y los atraías con mercedes para que vinieran a ti de los alrededores y se prestasen a tus prostituciones. <sup>34</sup> Con tus prostituciones ha pasado al revés que con otras mujeres, pues nadie andaba detrás de ti solicitándote. No te pagaban, pues eras tú la que pagabas. ¡Justamente al revés!
+
+<sup>35</sup> «Pues bien, prostituta, escucha la palabra de Yahvé. <sup>36</sup> Esto dice el Señor Yahvé: Por haber prodigado tu bronce* y descubierto tu desnudez en tus prostituciones con tus amantes y con todas tus abominables basuras, por la sangre* de tus hijos que les has ofrecido, <sup>37</sup> por todo esto he decidido reunir a todos los amantes a quienes complaciste, a todos los que amaste y también a los que aborreciste. Los voy a congregar de todas partes contra ti, y descubriré tu desnudez delante de ellos, para que te vean completamente desnuda. <sup>38</sup> Voy a aplicarte el castigo de las mujeres adúlteras y criminales: te entregaré al furor* y a los celos, <sup>39</sup> te entregaré en sus manos. Ellos arrasarán tu prostíbulo y demolerán tus alturas, te despojarán de tus vestidos, te arrancarán tus joyas y te dejarán completamente desnuda. <sup>40</sup> Luego incitarán a la multitud contra ti: te lapidarán, te acribillarán con sus espadas, <sup>41</sup> prenderán fuego a tus casas y harán justicia de ti, a la vista de una multitud de mujeres. Yo pondré fin a tus prostituciones, y no volverás a dar salario de prostituta. <sup>42</sup> Desahogaré mi furor en ti, pero luego dejaré de tenerte celos; me apaciguaré y no volveré a encolerizarme. <sup>43</sup> Por no haberte acordado de cuando eras joven, y por haberme provocado con todas estas cosas, he decidido, por mi parte, hacer recaer tu conducta sobre tu* cabeza —oráculo del Señor Yahvé—. ¡Bien sabes las infamias que has cometido con todas tus abominaciones!
+
+<sup>44</sup> «Mira, todos los autores de proverbios harán uno a propósito de ti; dirán: «De tal madre, tal hija.» <sup>45</sup> Hija eres, sí, de tu madre, que dejó de amar a sus maridos y a sus hijos, y hermana de tus hermanas*, que dejaron de amar a sus maridos y a sus hijos. Vuestra madre era una hitita y vuestro padre un amorreo.
+
+<sup>46</sup> «Tu hermana mayor es Samaría, que habita a tu izquierda con sus hijas; tu hermana menor es Sodoma, que habita a tu derecha* con sus hijas. <sup>47</sup> No has sido parca en imitar su conducta y en cometer sus abominaciones*; te has mostrado más corrompida que ellas en toda tu conducta. <sup>48</sup> Por mi vida —oráculo del Señor Yahvé—, que tu hermana Sodoma y sus hijas no obraron como habéis obrado tú y tus hijas. <sup>49</sup> El crimen de tu hermana Sodoma y sus hijas fue: orgullo, voracidad e indolencia nacida de una vida placentera; no socorrieron al pobre y al indigente, <sup>50</sup> se enorgullecieron y cometieron abominaciones ante mí. Por eso las hice desaparecer, como tú has visto*. <sup>51</sup> En cuanto a Samaría, ni la mitad de tus pecados ha cometido.
+
+«Tú has cometido muchas más abominaciones que ellas, tantas que has hecho que tus hermanas parezcan honradas. <sup>52</sup> Así, pues, carga con tu ignominia, pues tú misma has decidido el fallo en favor de tus hermanas. Ellas resultan ser más honradas que tú, pues los pecados que has cometido son mucho más abominables que los suyos. Avergüénzate, pues, y carga con tu ignominia, por hacer parecer honradas a tus hermanas*.
+
+<sup>53</sup> «Yo las restableceré. Restableceré a Sodoma y a sus hijas; restableceré a Samaría y a sus hijas. Y después te restableceré a ti en medio de ellas, <sup>54</sup> a fin de que soportes tu ignominia y te avergüences de todo lo que has hecho, para consuelo de ellas. <sup>55</sup> Tu hermana Sodoma y sus hijas serán restablecidas en su antiguo estado; Samaría y sus hijas serán restablecidas en su antiguo estado. Tú y tus hijas seréis restablecidas también en vuestro antiguo estado. <sup>56</sup> ¿No hiciste burla de tu hermana Sodoma, en un arrebato de orgullo, <sup>57</sup> antes que fuese puesta al descubierto tu desnudez? Como ella, ahora te has convertido en blanco de las burlas de las hijas de Edom* y de todas las de los alrededores, así como de las hijas de los filisteos, que por todas partes te agobian a desprecios. <sup>58</sup> Tú misma soportas las consecuencias de tu infamia y tus abominaciones —oráculo de Yahvé—.
+
+<sup>59</sup> «Pues esto dice el Señor Yahvé: Voy a hacer contigo lo mismo que has hecho tú, que menospreciaste el juramento y rompiste la alianza. <sup>60</sup> Pero yo me acordaré de la alianza que hice contigo cuando eras joven, y estableceré en tu favor una alianza eterna. <sup>61</sup> Y tú te acordarás de tu conducta y te avergonzarás de ella, cuando acojas a tus hermanas, las mayores y las menores, y yo te las dé como hijas, si bien no en virtud de tu alianza. <sup>62</sup> Yo mismo restableceré mi alianza contigo*, y sabrás que yo soy Yahvé. <sup>63</sup> Así, cuando te haya perdonado todo lo que has hecho, te acordarás y te avergonzarás, y la vergüenza ya no te dejará volver a abrir la boca —oráculo del Señor Yahvé—.»
+
+## Alegoría del águila.
+<span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, propón un enigma; presenta una parábola a la casa de Israel. <sup>3</sup> Dirás: Esto dice el Señor Yahvé:
+
+El águila* grande, de enormes alas
+
+y colosal envergadura,
+
+de espeso plumaje abigarrado,
+
+vino al Líbano
+
+y cortó la cima del cedro;
+
+<sup>4</sup> arrancó la punta más alta de sus ramas,
+
+la llevó a un país de mercaderes
+
+y la colocó
+
+en una ciudad de comerciantes.
+
+<sup>5</sup> Luego, tomó de la semilla de la tierra
+
+y la puso en un campo de siembra;
+
+junto a una corriente
+
+de agua abundante*
+
+la colocó como un sauce.
+
+<sup>6</sup> Brotó y se hizo una vid aparrada,
+
+de pequeña talla,
+
+que volvió sus ramas hacia el águila,
+
+aunque sus raíces no se movieron.
+
+Se hizo una vid,
+
+echó cepas y alargó sarmientos.
+
+<sup>7</sup> Había otra águila grande*,
+
+de grandes alas y de abundante plumaje,
+
+y entonces la vid tendió sus raíces
+
+hacia ella,
+
+hacia ella alargó sus ramas,
+
+para que la regase
+
+desde el terreno donde estaba plantada.
+
+<sup>8</sup> Estaba plantada en campo fértil,
+
+junto a una corriente
+
+de agua abundante,
+
+para echar ramaje y dar fruto,
+
+para hacerse una vid magnífica.
+
+<sup>9</sup> Di: Esto dice el Señor Yahvé:
+
+¿Prosperará*?
+
+¿No arrancará sus raíces el águila,
+
+no cortará sus frutos,
+
+de suerte que se sequen
+
+todos los brotes tiernos que eche,
+
+sin que sea menester
+
+brazo grande ni pueblo numeroso
+
+para arrancarla de raíz?
+
+<sup>10</sup> Vedla ahí plantada,
+
+¿prosperará tal vez?
+
+¿No se secará totalmente
+
+al soplar el viento del este?
+
+En el terreno en que brotó, se secará.»
+
+<sup>11</sup> Yahvé me dirigió su palabra en estos términos:
+
+<sup>12</sup> «Di a esa casa rebelde: ¿No sabéis lo que significa esto? Di: Mirad, el rey de Babilonia vino a Jerusalén, tomó al rey y a los príncipes y los llevó con él a Babilonia. <sup>13</sup> Escogió luego a uno de estirpe real, concluyó un pacto con él y le hizo prestar juramento, después de haberse llevado a los grandes del país, <sup>14</sup> a fin de que el reino quedase modesto y sin ambición, para guardar su alianza y mantenerla. <sup>15</sup> Pero este príncipe se ha rebelado contra él enviando mensajeros a Egipto en busca de caballos y tropas en gran número. ¿Prosperará? ¿Se salvará el que ha hecho esto? Ha roto el pacto, ¿y va a salvarse? <sup>16</sup> Por mi vida —oráculo del Señor Yahvé— que morirá en Babilonia, donde habita el rey que le puso en el trono, cuyo juramento despreció y cuyo pacto rompió. <sup>17</sup> Ni con su gran ejército y sus numerosas tropas le salvará* el faraón en la guerra, cuando se levanten terraplenes y se hagan trincheras para exterminar muchas vidas humanas. <sup>18</sup> Ha despreciado el juramento y ha roto el pacto; ha hecho todo esto aun después de haber dado su palabra. ¡No tendrá remedio!
+
+<sup>19</sup> «Por eso, esto dice el Señor Yahvé: Por mi vida que le haré culpable de haber despreciado mi juramento y haber roto mi alianza. <sup>20</sup> Extenderé mi lazo sobre él y quedará preso en mi red; lo llevaré a Babilonia y allí le pediré cuentas de la infidelidad que ha cometido contra mí. <sup>21</sup> Lo más selecto* de sus tropas caerá a espada, y los que queden serán dispersados a todos los vientos. Y sabréis que yo, Yahvé, he hablado.
+
+<sup>22</sup> «Esto dice el Señor Yahvé*:
+
+También yo tomaré
+
+un tallo de la copa del alto cedro*,
+
+de la punta de sus ramas
+
+escogeré un ramo
+
+y lo plantaré yo mismo
+
+en una montaña elevada y excelsa:
+
+<sup>23</sup> en la alta montaña de Israel lo plantaré.
+
+Echará ramaje y producirá fruto,
+
+y se hará un cedro magnífico.
+
+Debajo de él habitarán
+
+toda clase de pájaros;
+
+toda clase de aves
+
+morarán a la sombra de sus ramas.
+
+<sup>24</sup> Y todos los árboles del campo
+
+sabrán que yo, Yahvé,
+
+humillo al árbol elevado
+
+y elevo al árbol humilde,
+
+hago secarse al árbol verde
+
+y reverdecer al árbol seco.
+
+Yo, Yahvé, he hablado y lo haré.»
+
+## La responsabilidad personal.
+<span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «¿Por qué andáis repitiendo este proverbio en la tierra de Israel:
+
+Los padres comieron el agraz,
+
+y los dientes de los hijos
+
+sufren la dentera?
+
+<sup>3</sup> «Por mi vida —oráculo del Señor Yahvé— que no repetiréis más este proverbio en Israel. <sup>4</sup> Mirad: todas las vidas son mías; tanto la vida del padre como la del hijo son mías. Morirá el que peque.
+
+<sup>5</sup> «El que es justo* y practica el derecho y la justicia, <sup>6</sup> no come en los altozanos* ni alza sus ojos a las basuras de la casa de Israel, no contamina a la mujer de su prójimo, ni se acerca a una mujer durante su impureza, <sup>7</sup> no oprime a nadie, devuelve la prenda de una deuda, no comete rapiñas, da su pan al hambriento y viste al desnudo, <sup>8</sup> no presta con usura ni cobra intereses, aparta su mano de la injusticia, pronuncia dictámenes justos entre hombre y hombre, <sup>9</sup> se conduce según mis preceptos y observa mis normas, obrando conforme a la verdad..., un hombre así es justo. Sin duda que vivirá —oráculo del Señor Yahvé—.
+
+<sup>10</sup> «Si éste engendra un hijo violento y sanguinario, que hace alguna de estas cosas* <sup>11</sup> que él mismo no había hecho, un hijo que come en los altozanos, contamina a la mujer de su prójimo, <sup>12</sup> oprime al pobre y al indigente, comete rapiñas, no devuelve la prenda, alza sus ojos a las basuras*, comete abominación, <sup>13</sup> presta con usura y cobra intereses..., éste no vivirá en modo alguno después de haber cometido todas estas abominaciones. Morirá sin remedio, y sólo él será reo de culpa.
+
+<sup>14</sup> «Y si éste, a su vez, engendra un hijo que, a pesar de haber visto todos los pecados que ha cometido su padre, no los imita, <sup>15</sup> que no come en los altozanos ni alza sus ojos a las basuras de la casa de Israel, no contamina a la mujer de su prójimo, <sup>16</sup> no oprime a nadie, no guarda la prenda, no comete rapiñas, da su pan al hambriento, viste al desnudo, <sup>17</sup> aparta su mano de la injusticia*, no presta con usura, ni cobra intereses, practica mis normas y se conduce según mis preceptos..., éste no morirá por la culpa de su padre. Seguro que vivirá. <sup>18</sup> Su padre morirá por su propia culpa, por haber sido violento, haber cometido rapiñas* y no haber obrado bien entre su gente. <sup>19</sup> Vosotros decís: ‘¿Por qué no carga el hijo con la culpa de su padre?’ Pues porque el hijo ha practicado el derecho y la justicia, ha observado todos mis preceptos y los ha puesto en práctica. Seguro que vivirá. <sup>20</sup> El que peque es quien morirá. El hijo no cargará con la culpa de su padre, ni el padre con la culpa de su hijo: al justo se le imputará su justicia y al malvado su maldad.
+
+<sup>21</sup> «En cuanto al malvado, si se aparta de todos los pecados que ha cometido, observa todos mis preceptos y practica el derecho y la justicia, vivirá sin duda; no morirá*. <sup>22</sup> Ninguno de los crímenes que cometió se le volverá a recordar; vivirá a causa de la justicia que ha practicado. <sup>23</sup> ¿Acaso me complazco yo en la muerte del malvado —oráculo del Señor Yahvé— y no más bien en que se convierta de su conducta y viva?
+
+<sup>24</sup> «Pero si el justo se aparta de su justicia y comete el mal, imitando todas las abominaciones que comete el malvado, ¿creéis que vivirá? No, no quedará ya memoria de ninguna de las obras justas que había practicado, sino que morirá a causa de la infidelidad en que ha incurrido y del pecado que ha cometido. <sup>25</sup> Vosotros decís: ‘No es justo el proceder del Señor.’ Escuchad, casa de Israel: ¿Que no es justo mi proceder? ¿No es más bien vuestro proceder el que no es justo? <sup>26</sup> Si el justo se aparta de su justicia, comete el mal y muere*, habrá muerto por el mal que ha cometido. <sup>27</sup> Pero si el malvado se aparta del mal que ha cometido y practica el derecho y la justicia, conservará su vida. <sup>28</sup> Ha abierto los ojos y se ha apartado de todos los crímenes que había cometido. Seguro que vivirá; no morirá. <sup>29</sup> Sin embargo, la casa de Israel dice: ‘No es justo el proceder del Señor.’ ¿Que mi proceder no es justo, casa de Israel? ¿No es más bien vuestro proceder el que no es justo? <sup>30</sup> Pues pienso juzgar a cada uno según su proceder, casa de Israel —oráculo del Señor Yahvé—. Convertíos y apartaos de todos vuestros crímenes, de modo que no incurráis en ocasión de culpa. <sup>31</sup> Descargaos de todos los crímenes que habéis cometido contra mí, y haceos un corazón nuevo y un espíritu nuevo. ¿Por qué habéis de morir, casa de Israel? <sup>32</sup> Yo no me complazco en la muerte de nadie, sea quien fuere —oráculo del Señor Yahvé—. Convertíos y vivid.
+
+## Elegía sobre los príncipes de Israel*.
+<span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> «Y tú entona una elegía sobre los príncipes de Israel. <sup>2</sup> Dirás:
+
+¿Qué era tu madre?
+
+Una leona entre leones;
+
+echada entre los leoncillos,
+
+criaba a sus cachorros*.
+
+ <sup>3</sup> Crió bien a uno de sus cachorros,
+
+que se hizo un león joven;
+
+aprendió a desgarrar su presa
+
+y devoró hombres.
+
+ <sup>4</sup> Oyeron hablar de él las naciones,
+
+que lo atraparon en la fosa que cavaron;
+
+con garfios lo llevaron
+
+al país de Egipto*.
+
+ <sup>5</sup> Como vio que su espera era fallida,
+
+fallida su esperanza,
+
+tomó otro de sus cachorros
+
+e hizo de él un león joven.
+
+ <sup>6</sup> Andaba éste entre los leones,
+
+y se hizo un león joven;
+
+aprendió a desgarrar su presa
+
+y devoró hombres.
+
+ <sup>7</sup> Derribó sus palacios*,
+
+devastó sus ciudades;
+
+la tierra y sus habitantes
+
+estaban aterrados
+
+por su violento rugido.
+
+ <sup>8</sup> Se alzaron contra él las naciones,
+
+las provincias circundantes;
+
+tendieron sobre él su red
+
+y en su fosa quedó preso.
+
+ <sup>9</sup> Lo enjaularon atado con garfios
+
+y lo llevaron al rey de Babilonia;
+
+en calabozos lo metieron,
+
+para que no se oyese más su rugido
+
+por los montes de Israel*.
+
+<sup>10</sup> Tu madre se parecía a una vid*
+
+plantada a orillas de las aguas.
+
+Era fecunda, exuberante,
+
+por la abundancia de agua.
+
+<sup>11</sup> Tenía ramas fuertes
+
+para ser cetros reales;
+
+su talla se elevó
+
+hasta dentro de las nubes.
+
+Era imponente por su altura,
+
+por su abundante ramaje.
+
+<sup>12</sup> Pero ha sido arrancada con furor,
+
+tirada por tierra;
+
+el viento del este ha agostado su fruto;
+
+ha sido rota*,
+
+su rama fuerte se ha secado,
+
+la ha devorado el fuego.
+
+<sup>13</sup> Y ahora está plantada en el desierto,
+
+en tierra de sequía y de sed.
+
+<sup>14</sup> Ha salido fuego de su rama,
+
+que ha devorado sus sarmientos y su fruto.
+
+No volverá a tener su rama fuerte,
+
+su cetro real.»
+
+## Esto es una elegía; y de elegía sirvió.
+
+## Historia de las infidelidades de Israel.
+<span id="chapter-20" class="chapter-marker" data-chapter="20">20</span><sup>1</sup> El año séptimo, el día diez del quinto mes*, algunos de los ancianos de Israel vinieron a consultar a Yahvé y se sentaron ante mí. <sup>2</sup> Entonces Yahvé me dirigió su palabra en estos términos: <sup>3</sup> «Hijo de hombre, habla a los ancianos de Israel y diles: Esto dice el Señor Yahvé: ¿Venís a consultarme? Por mi vida, que no me dejaré consultar por vosotros —oráculo del Señor Yahvé—. <sup>4</sup> ¿Vas a juzgarlos? ¿Vas a juzgar, hijo de hombre? Pues hazles saber las abominaciones de sus antepasados. <sup>5</sup> Les dirás: Esto dice el Señor Yahvé: El día que yo elegí a Israel, alcé mi mano hacia la raza de la casa de Jacob; me manifesté a ellos en el país de Egipto y levanté mi mano hacia ellos* diciendo: Yo soy Yahvé, vuestro Dios. <sup>6</sup> Aquel día alcé mi mano hacia ellos jurando sacarlos del país de Egipto hacia una tierra que había explorado para ellos, que mana leche y miel, la más hermosa de todas las tierras. <sup>7</sup> Pero les advertí: Arrojad los ídolos que seducen vuestros ojos, no os contaminéis con las basuras* de Egipto; yo soy Yahvé, vuestro Dios. <sup>8</sup> Pero ellos se rebelaron contra mí y no quisieron escucharme. Ninguno arrojó los ídolos que seducían sus ojos; ninguno abandonó las basuras de Egipto. Pensé entonces derramar mi furor sobre ellos y desahogar en ellos mi cólera, allí en el país de Egipto. <sup>9</sup> Pero tuve consideración a mi nombre y procedí de modo que no fuese yo profanado a los ojos de las naciones entre las que ellos se encontraban*, y a la vista de las cuales me había manifestado a ellos, sacándolos del país de Egipto. <sup>10</sup> Por eso, los saqué del país de Egipto y los conduje al desierto. <sup>11</sup> Les dicté mis preceptos y les di a conocer mis normas, por las que el hombre vive, si las pone en práctica. <sup>12</sup> Y les di además mis sábados como señal entre ellos y yo, para que supieran que yo soy Yahvé, que los santifico. <sup>13</sup> Pero la casa de Israel se rebeló contra mí en el desierto; no se condujeron según mis preceptos, rechazaron mis normas, por las que vive el hombre, si las pone en práctica, y no hicieron más que profanar mis sábados. Entonces pensé en derramar mi furor sobre ellos en el desierto, para exterminarlos. <sup>14</sup> Pero tuve consideración a mi nombre y procedí de modo que no fuese yo profanado a los ojos de las naciones, a la vista de las cuales los había sacado. <sup>15</sup> Y, una vez más alcé mi mano hacia ellos en el desierto, jurando que no les dejaría entrar en la tierra que les había dado, que mana leche y miel, la más hermosa de todas las tierras. <sup>16</sup> Y es que habían despreciado mis normas, no se habían conducido según mis preceptos y habían profanado mis sábados; porque su corazón se iba tras sus basuras. <sup>17</sup> Pero los miré con piedad y decidí no exterminarlos, ni acabar con ellos en el desierto.
+
+<sup>18</sup> «Pero advertí a sus hijos en el desierto: No sigáis las reglas de vuestros padres, no imitéis sus normas, no os contaminéis con sus basuras. <sup>19</sup> Yo soy Yahvé, vuestro Dios. Seguid mis preceptos, guardad mis normas y ponedlas en práctica. <sup>20</sup> Santificad mis sábados; que sean una señal entre yo y vosotros, para que se sepa que yo soy Yahvé, vuestro Dios. <sup>21</sup> Pero los hijos se rebelaron contra mí, no se condujeron según mis preceptos, no guardaron ni pusieron en práctica mis normas, aquéllas por las que vive el hombre, si las pone en práctica, y profanaron mis sábados. Entonces pensé en derramar mi furor sobre ellos y desahogar en ellos mi cólera, en el desierto. <sup>22</sup> Pero retiré mi mano y tuve consideración a mi nombre, procediendo de modo que no fuese yo profanado a los ojos de las naciones, a la vista de las cuales los había sacado. <sup>23</sup> Pero, una vez más, alcé mi mano hacia ellos, en el desierto, jurando dispersarlos entre las naciones y esparcirlos por los países. <sup>24</sup> Y es que no habían puesto en práctica mis normas, habían despreciado mis preceptos y profanado mis sábados, y sus ojos se habían ido tras las basuras de sus padres. <sup>25</sup> E incluso llegué a darles preceptos que no eran buenos y normas con las que no podrían vivir*, <sup>26</sup> y los contaminé con sus propias ofrendas, haciendo que pasaran por el fuego a todo primogénito, a fin de infundirles horror, para que supiesen que yo soy Yahvé.
+
+<sup>27</sup> «Por eso, hijo de hombre, habla a la casa de Israel. Les dirás: Esto dice el Señor Yahvé: Vuestros antepasados siguieron ultrajándome, siéndome infieles. <sup>28</sup> Yo los conduje a la tierra que, mano en alto, había jurado darles. Allí vieron toda clase de colinas elevadas, toda suerte de árboles frondosos, y en ellos ofrecieron sus sacrificios y presentaron sus ofrendas provocadoras; allí depositaron el calmante aroma y derramaron sus libaciones. <sup>29</sup> Yo les dije: ¿Qué es el altozano adonde vosotros vais? (y se le puso el nombre de Bamá, hasta el día de hoy*). <sup>30</sup> Pues bien, di a la casa de Israel: Esto dice el Señor Yahvé: Conque vosotros os contamináis conduciéndoos como vuestros antepasados, prostituyéndoos detrás de sus ídolos, <sup>31</sup> presentando vuestras ofrendas, haciendo pasar a vuestros hijos por el fuego; os contamináis con todas vuestras basuras, hasta el día de hoy, ¿y pensáis que voy a dejarme consultar por vosotros, casa de Israel? Por mi vida —oráculo del Señor Yahvé—, que no me dejaré consultar por vosotros. <sup>32</sup> Y no se realizará jamás lo que se os pasa por la imaginación, cuando decís: ‘Seremos como las naciones, como las tribus de los otros países, adoradores del leño y de la piedra.’ <sup>33</sup> Por mi vida —oráculo del Señor Yahvé—, que yo reinaré sobre vosotros, con mano fuerte y tenso brazo, desbordando furor. <sup>34</sup> Os haré salir de entre los pueblos y os reuniré de los países donde fuisteis dispersados, con mano fuerte y tenso brazo, desbordando furor; <sup>35</sup> os conduciré al desierto de los pueblos* y allí os juzgaré cara a cara. <sup>36</sup> Os juzgaré como juzgué a vuestros antepasados en el desierto de Egipto —oráculo del Señor Yahvé—. <sup>37</sup> Os haré pasar bajo el cayado* y os haré entrar por el aro de la alianza; <sup>38</sup> separaré de vosotros a los rebeldes, a los que se han rebelado contra mí: los haré salir del país en que residen, pero no entrarán en la tierra de Israel. Y sabréis que yo soy Yahvé. <sup>39</sup> En cuanto a vosotros, casa de Israel, esto dice el Señor Yahvé: Que vaya cada uno a servir a sus basuras; después, juro que me escucharéis y no volveréis a profanar mi santo nombre con vuestras ofrendas y vuestras basuras. <sup>40</sup> Porque toda la casa de Israel, toda ella ya en esta tierra, me servirá en mi santa montaña, en la alta montaña de Israel —oráculo del Señor Yahvé—. Allí los acogeré amorosamente y allí solicitaré vuestras ofrendas y las primicias de vuestros dones, con todas vuestras cosas santas. <sup>41</sup> Os acogeré amorosamente como calmante aroma, una vez que os haya hecho salir de entre los pueblo y os reúna de en medio de los países en los que habéis sido dispersados. Y así, por vosotros, me mostraré santo a los ojos de las naciones. <sup>42</sup> Sabréis que yo soy Yahvé, cuando os conduzca al suelo de Israel, a la tierra que, mano en alto, juré dar a vuestros antepasados. <sup>43</sup> Allí os acordaréis de vuestra conducta y de todas las acciones con las que os habíais contaminado, y cobraréis asco de vosotros mismos por todas las maldades que habíais cometido. <sup>44</sup> Sabréis que yo soy Yahvé, cuando actúe con vosotros por consideración a mi nombre, y no con arreglo a vuestra mala conducta y a vuestras corrompidas acciones, casa de Israel —oráculo del Señor Yahvé—.»
+
+## La espada de Yahvé.
+<span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, vuelve tu rostro hacia el mediodía, y que tus palabras fluyan hacia el sur; profetiza contra el bosque de la región del Negueb. <sup>3</sup> Dirás al bosque del Negueb: Escucha la palabra de Yahvé. Esto dice el Señor Yahvé: Yo mismo voy a prenderte fuego, un fuego que devorará todo árbol verde y todo árbol seco; será una llama que no se apagará, y arderá todo, desde el Negueb hasta el Norte. <sup>4</sup> Toda la gente verá que yo, Yahvé, lo he encendido; y no se apagará.» <sup>5</sup> —Yo dije: «¡Ah, Señor Yahvé!, ésos andan diciendo de mí que no soy más que un charlatán de parábolas»— <sup>6</sup> Entonces, Yahvé me dirigió su palabra en estos términos: <sup>7</sup> «Hijo de hombre, vuelve tu rostro hacia Jerusalén, y que tus palabras fluyan hacia su santuario*; profetiza contra la tierra de Israel. <sup>8</sup> Dirás a la tierra de Israel: Esto dice el Señor Yahvé: Aquí estoy contra ti; voy a sacar mi espada de la vaina y a extirpar de ti al justo y al malvado*. <sup>9</sup> Para extirpar de ti al justo y al malvado va a salir mi espada de la vaina, dirigida contra todos, desde el Negueb hasta el Norte. <sup>10</sup> Y toda la gente sabrá que yo, Yahvé, he sacado mi espada de la vaina, y no será envainada.
+
+<sup>11</sup> «Y tú, hijo de hombre, lanza gemidos, con corazón quebrantado; lanza gemidos en su presencia, lleno de amargura. <sup>12</sup> Y si te preguntan por la razón de esos gemidos, les dirás: ‘Por causa de una noticia a cuya llegada todos los corazones desfallecerán, desmayarán todos los brazos, todos los espíritus se amilanarán, y todas las rodillas se irán en agua’. Ya está llegando; es cosa hecha —oráculo del Señor Yahvé—.»
+
+<sup>13</sup> Yahvé me dirigió su palabra en estos términos: <sup>14</sup> «Hijo de hombre, profetiza.
+
+## Dirás: Esto dice el Señor. Di*:
+
+¡Espada, espada!
+
+## Afilada está, bruñida.
+
+<sup>15</sup> Está afilada para la matanza,
+
+para centellear está bruñida...*
+
+<sup>16</sup> Ha sido bruñida para empuñarla;
+
+ha sido afilada la espada,
+
+ha sido bruñida
+
+para que la empuñe un asesino.
+
+<sup>17</sup> Grita, da alaridos, hijo de hombre,
+
+porque está destinada a mi pueblo,
+
+a todos los príncipes de Israel
+
+destinados a la espada con mi pueblo.
+
+Por eso golpéate el pecho*,
+
+<sup>18</sup> pues la prueba está hecha...*
+
+—oráculo del Señor Yahvé—.
+
+<sup>19</sup> Y tú, hijo de hombre,
+
+profetiza y bate palmas.
+
+¡Golpee la espada dos, tres veces,
+
+la espada de las víctimas,
+
+la espada de la gran víctima*,
+
+que les amenaza en torno!
+
+<sup>20</sup> A fin de que desmaye el corazón
+
+y abunden las ocasiones de caída,
+
+en todas sus puertas he puesto yo
+
+víctimas de la espada,
+
+hecha para centellear,
+
+bruñida para la matanza*.
+
+<sup>21</sup> ¡Gírate*: a la derecha,
+
+vuélvete a la izquierda,
+
+donde tus filos sean requeridos!
+
+<sup>22</sup> Yo también batiré palmas,
+
+saciaré mi furor.
+
+Yo, Yahvé, he hablado.»
+
+## El rey de Babilonia en el cruce de los caminos.
+<sup>23</sup> Yahvé me dirigió su palabra en estos términos: <sup>24</sup> «Y tú, hijo de hombre, marca dos caminos por donde venga la espada del rey de Babilonia; que salgan los dos del mismo país. Y marca una señal, márcala en la cabecera del camino de la ciudad. <sup>25</sup> Después traza el camino para que venga la espada hacia Rabá de los amonitas y hacia Judá, a la fortaleza de Jerusalén. <sup>26</sup> Porque el rey de Babilonia se ha detenido en el cruce, en la cabecera de los dos caminos, para consultar a la suerte. Ha sacudido las flechas, ha interrogado a los terafim, ha observado el hígado. <sup>27</sup> En su mano derecha está la suerte de Jerusalén: para situar arietes, dar la orden de matanza, lanzar el grito de guerra, situar arietes contra las puertas, levantar un terraplén, hacer trincheras*. <sup>28</sup> Ellos opinan que no es más que un vano presagio: se les había dado un juramento... Pero él recuerda las culpas por las que caerán presos. <sup>29</sup> Por eso, esto dice el Señor Yahvé: Por haber hecho recordar vuestras culpas, descubriendo vuestros crímenes, haciendo aparecer vuestros pecados en todas vuestras acciones, y porque así se os ha recordado, caeréis presos en su mano. <sup>30</sup> En cuanto a ti, vil criminal, príncipe de Israel, cuya hora ha llegado con la última culpa, <sup>31</sup> esto dice el Señor Yahvé: Quitad la tiara, retirad la corona. Las cosas cambiarán; lo humilde será elevado, lo elevado será humillado. <sup>32</sup> Ruina, ruina, ruina, eso es lo que haré con él, como jamás la hubo, hasta que llegue aquél a quien corresponde el juicio y a quien yo se lo entregaré*.
+
+## Castigo de Amón*.
+<sup>33</sup> «Y tú, hijo de hombre, profetiza y di: Esto dice el Señor Yahvé respecto de las burlas de los amonitas. Dirás: ¡La espada, la espada está desenvainada para la matanza, bruñida para devorar, para centellear <sup>34</sup> —mientras te ofrecen visiones vanas y te presagian mentiras—, para degollar* a los viles criminales cuya hora ha llegado con la última culpa! <sup>35</sup> Hazla volver a su vaina. Voy a juzgarte en el lugar donde fuiste creada, en tu tierra de origen; <sup>36</sup> derramaré sobre ti mi ira, soplaré contra ti el fuego de mi furia, y te entregaré en manos de hombres bárbaros, agentes de destrucción. <sup>37</sup> Serás pasto del fuego; tu sangre correrá en medio del país; no quedará de ti recuerdo alguno. Yo, Yahvé, he hablado.»
+
+## Los crímenes de Jerusalén*.
+<span id="chapter-22" class="chapter-marker" data-chapter="22">22</span><sup>1</sup> La palabra de Yahvé se dirigió a mí en estos términos: <sup>2</sup> «Y tú, hijo de hombre, ¿no vas a juzgar? ¿No vas a juzgar a la ciudad sanguinaria? Haz que conozca todas sus abominaciones. <sup>3</sup> Dirás: Esto dice el Señor Yahvé: ¡Ciudad que derrama la sangre de sus habitantes, haciendo que llegue su hora; que fabrica basuras* en su suelo para contaminarse! <sup>4</sup> La sangre que derramaste te ha hecho culpable, con las basuras que hiciste te has contaminado; has adelantado tu hora, ha llegado el término de tus años. Por eso, te he convertido en la burla de las naciones y en la irrisión de todos los países. <sup>5</sup> Próximos y lejanos se reirán de ti, ciudad de nombre impuro, repleta de desórdenes. <sup>6</sup> Ahí están dentro de ti los príncipes de Israel, cada uno según su poder*, sólo ocupados en derramar sangre. <sup>7</sup> En ti se desprecia al padre y a la madre, en ti se maltrata al forastero residente, en ti se oprime al huérfano y a la viuda. <sup>8</sup> No tienes respeto a mis cosas sagradas, profanas mis sábados. <sup>9</sup> Hay en ti gente que calumnia para provocar crímenes. En ti hay gente que come en los montes y comete infamias. <sup>10</sup> En ti se descubre la desnudez del propio padre, en ti se fuerza a la mujer en estado de menstruación. <sup>11</sup> Hay quien comete impureza con la mujer de su prójimo, quien se contamina cometiendo acciones infames con su nuera, o quien fuerza a su hermana, la hija de su propio padre. <sup>12</sup> En ti se acepta soborno para provocar crímenes; practicas la usura y el interés, explotas a tu prójimo con violencia, y así te has olvidado de mí —oráculo del Señor Yahvé—.
+
+<sup>13</sup> «Así que voy a descargar mi mano a causa de los actos de pillaje que has cometido y de la sangre que corre en medio de ti. <sup>14</sup> ¿Tendrás suficiente valor y firmeza para hacer frente al día en que yo actúe contra ti? Yo, Yahvé, he hablado y lo haré: <sup>15</sup> Te dispersaré entre las naciones, te esparciré por los países, borraré la inmundicia que hay en tus moradores, <sup>16</sup> por ti misma te verás profanada* a la vista de las naciones. Y sabrás que yo soy Yahvé.»
+
+<sup>17</sup> Yahvé me dirigió su palabra en estos términos: <sup>18</sup> «Hijo de hombre, la casa de Israel se me ha convertido en escoria; todos son cobre, estaño, hierro, plomo, en medio de un horno. ¡Sólo son escoria*! <sup>19</sup> Por eso, esto dice el Señor Yahvé: Por haberos convertido todos vosotros en escoria, voy a juntaros en medio de Jerusalén*. <sup>20</sup> Del mismo modo que se ponen juntos plata, cobre, hierro, plomo y estaño en el horno, y se atiza el fuego por debajo para fundirlo todo, así os juntaré yo en mi cólera y mi furor, y os fundiré. <sup>21</sup> Os reuniré, atizaré contra vosotros el fuego de mi furia y os fundiré dentro de la ciudad. <sup>22</sup> Como se funde la plata en medio del horno, así seréis fundidos vosotros dentro de ella. Y sabréis que yo, Yahvé, he derramado mi furor sobre vosotros.»
+
+<sup>23</sup> Yahvé me dirigió su palabra en estos términos*: <sup>24</sup> «Hijo de hombre, dile: Eres una tierra que no ha tenido lluvia* ni ha quedado empapada el día de la Ira. <sup>25</sup> Los príncipes* que en ella residen son como un león rugiente que desgarra su presa; han devorado a la gente, se han apoderado de haciendas y joyas, han multiplicado las viudas que la habitan. <sup>26</sup> Sus sacerdotes han violado mi ley y profanado mis cosas sagradas; no han hecho diferencia entre lo sagrado y lo profano, ni han enseñado a distinguir entre lo puro y lo impuro; se han tapado los ojos para no ver mis sábados, y yo he sido deshonrado entre ellos. <sup>27</sup> Los jefes que viven en ella son como lobos que desgarran su presa, acostumbrados al crimen, que asesinan a las personas para robar sus bienes. <sup>28</sup> Sus profetas los han recubierto de argamasa* con sus vanas visiones y sus presagios mentirosos, pues dicen: ‘Esto dice el Señor Yahvé’, cuando Yahvé no había hablado. <sup>29</sup> El pueblo de la tierra ha hecho violencia y cometido pillaje, ha oprimido al pobre y al indigente, ha maltratado al forastero sin ningún derecho. <sup>30</sup> Busqué entre ellos alguno que construyera un muro y se mantuviera de pie en la brecha ante mí, para proteger la tierra e impedir que yo la destruyera, pero no he encontrado a nadie. <sup>31</sup> Entonces derramé mi ira sobre ellos y los exterminé en el fuego de mi furia, haciéndolos así responsables de su conducta —oráculo del Señor Yahvé—.»
+
+## Historia simbólica de Jerusalén y Samaría *.
+<span id="chapter-23" class="chapter-marker" data-chapter="23">23</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre: Había una vez dos mujeres, hijas de la misma madre, que <sup>3</sup> se prostituyeron en Egipto siendo todavía jóvenes. Allí fueron palpados sus pechos y acariciado su seno virginal. <sup>4</sup> La mayor se llamaba Oholá, y su hermana, Oholibá*. Fueron mías y dieron a luz hijos e hijas. Oholá era Samaría, y Oholibá, Jerusalén. <sup>5</sup> Oholá se prostituyó cuando estaba bajo mi autoridad: se enamoró perdidamente de sus amantes, sus vecinos asirios, <sup>6</sup> que iban vestidos de púrpura; eran gobernadores y prefectos, todos ellos jóvenes apuestos y hábiles caballeros. <sup>7</sup> Les otorgó sus favores —eran todos ellos la flor de los asirios— y, con todos aquellos de los que se había enamorado, se contaminó al contacto de todas sus basuras. <sup>8</sup> No cejó en las prostituciones que había comenzado en Egipto, donde se habían acostado con ella en su juventud, acariciando su seno virginal y desahogando con ella su lascivia. <sup>9</sup> Por eso la entregué en manos de sus amantes asirios, de los que se había enamorado. <sup>10</sup> Éstos descubrieron su desnudez, se llevaron a sus hijos y sus hijas, y a ella misma la mataron a espada. Vino así a ser ejemplo para las mujeres, porque se había hecho justicia de ella.
+
+<sup>11</sup> «Su hermana Oholibá había sido testigo de esto, pero su pasión y sus prostituciones fueron todavía más escandalosas que las de su hermana. <sup>12</sup> Se enamoró de sus vecinos asirios, de sus gobernadores y prefectos, que vestían espléndidamente; todos ellos eran hábiles caballeros y jóvenes apuestos. <sup>13</sup> Yo me di cuenta que estaba impura (pues las dos adoptaron la misma conducta). <sup>14</sup> Pero ésta superó a la otra en sus prostituciones. Vio hombres pintados en la pared, figuras de caldeos pintadas con bermellón, <sup>15</sup> con cinto en las caderas y amplios turbantes en sus cabezas, con aspecto de escuderos todos ellos, que representaban a los babilonios, caldeos de origen, <sup>16</sup> y en cuanto los vio se enamoró de ellos y les envió mensajeros a Caldea*. <sup>17</sup> Los babilonios vinieron donde ella, a compartir el lecho de los amores y a mancillarla con su lascivia; pero, una vez mancillada por ellos, dejó de desearlos. <sup>18</sup> Así, al quedar al descubierto sus prostituciones y su desnudez, me aparté de ella, como me había apartado de su hermana. <sup>19</sup> Pero ésta multiplicó sus prostituciones, acordándose de cuando era joven, cuando se prostituía en Egipto <sup>20</sup> y se enamoraba de aquellos disolutos de sexo de asnos y esperma de caballos.
+
+<sup>21</sup> «Has renovado así la inmoralidad de tu juventud, cuando en Egipto acariciaban tu busto palpando tus pechos juveniles*. <sup>22</sup> Pues bien, Oholibá, esto dice el Señor Yahvé: Voy a incitar contra ti a todos tus amantes, ésos de los que te hartaste. Los voy a traer contra ti de todas partes: <sup>23</sup> a los babilonios y a todos los caldeos, los de Pecod, de Soa y de Coa*, y con ellos a todos los asirios, jóvenes apuestos, gobernadores y prefectos, todos ellos escuderos de título y hábiles caballeros. <sup>24</sup> Te atacarán desde el norte* con carros y carretas, con una multitud de soldados. Por todas partes te opondrán el pavés, el escudo y el yelmo. Yo les daré el encargo de juzgarte, y te juzgarán conforme a su derecho. <sup>25</sup> Desencadenaré mis celos contra ti y te tratarán con furor; te cortarán la nariz y las orejas, y tus supervivientes caerán a espada; se llevarán a tus hijos y a tus hijas, y tus supervivientes serán devorados por el fuego. <sup>26</sup> Te despojarán de tus vestidos y se apoderarán de tus joyas. <sup>27</sup> Yo pondré fin a tu inmoralidad y a las prostituciones que comenzaste en Egipto; no volverás a ansiar su presencia ni volverás a acordarte de Egipto. <sup>28</sup> Porque esto dice el Señor Yahvé: Voy a entregarte en manos de los que detestas, en manos de aquellos de los que te has hartado. <sup>29</sup> Ellos te tratarán con odio, se apoderarán de todo el fruto de tu trabajo y te dejarán completamente desnuda. Así quedará al descubierto la vergüenza de tus prostituciones. Tu inmoralidad y tus prostituciones <sup>30</sup> te han acarreado todo esto, por haberte prostituido a las naciones, por haberte contaminado con sus basuras. <sup>31</sup> Por haber imitado la conducta de tu hermana, pondré su copa en tu mano. <sup>32</sup> Esto dice el Señor Yahvé:
+
+Beberás la copa de tu hermana*,
+
+copa ancha y profunda,
+
+que servirá de burla e irrisión,
+
+una copa de gran capacidad.
+
+<sup>33</sup> Te empaparás de embriaguez
+
+y de aflicción.
+
+Copa de desolación y de angustia,
+
+la copa de tu hermana Samaría.
+
+<sup>34</sup> La beberás, la apurarás;
+
+apurarás hasta sus heces,
+
+y te desgarrarás el seno.
+
+## Yo soy quien ha hablado —oráculo del Señor Yahvé—.
+
+<sup>35</sup> «Por eso, esto dice el Señor Yahvé: Puesto que me has olvidado y me has arrojado a tus espaldas, carga tú también con tu inmoralidad y tus prostituciones.» <sup>36</sup> Después, Yahvé me dijo: «Hijo de hombre, ¿vas a juzgar a Oholá y Oholibá? Pues repróchales sus abominaciones. <sup>37</sup> Han cometido adulterio, tienen las manos ensangrentadas, han cometido adulterio con sus basuras y hasta han hecho pasar por el fuego a los hijos que me habían dado a luz, como alimento para ellas*. <sup>38</sup> Han llegado a hacerme hasta esto: contaminaron mi santuario (aquel día) y profanaron mis sábados; <sup>39</sup> y, después de haber inmolado sus hijos a sus basuras, ese mismo día, entraron en mi santuario para profanarlo. Esto es lo que han hecho en mi propia casa.
+
+<sup>40</sup> «Más aún*, enviaron mensajeros para que vinieran hombres de países lejanos. Y, cuando llegaron, te bañaste, te pintaste los ojos y te pusiste tus joyas. <sup>41</sup> Luego te reclinaste en un espléndido diván, ante el cual estaba aderezada una mesa en la que habías puesto mi incienso y mi aceite. <sup>42</sup> Se oían allí las voces de una turba indolente, de una multitud de bebedores traídos del desierto*, que ponían brazaletes en las manos de ellas y preciosas coronas en su cabeza. <sup>43</sup> Y yo me preguntaba cómo era posible que aquella mujer, desgastada de tantos adulterios, siguiese entregándose a sus prostituciones* <sup>44</sup> (pues venían donde ella como se viene donde una prostituta). Así venían donde Oholá y Oholibá, estas mujeres depravadas. <sup>45</sup> Pero hay hombres justos que les aplicarán el castigo reservado a las adúlteras y asesinas, porque ellas son adúlteras y hay sangre en sus manos.
+
+<sup>46</sup> «Pues esto dice el Señor Yahvé: Convóquese contra ellas un ejército que las someta al terror y al pillaje, <sup>47</sup> un ejército que las mate a pedradas y las acribille a golpes de espada; que mate a sus hijos y a sus hijas y prenda fuego a sus casas. <sup>48</sup> Yo pondré fin a la inmoralidad en esta tierra; todas las mujeres quedarán así avisadas y no imitarán vuestra inmoralidad. <sup>49</sup> Vosotras seréis responsables de vuestra inmoralidad y cargaréis con los pecados cometidos con vuestras basuras. Y sabréis que yo soy el Señor Yahvé.»
+
+## Anuncio del asedio de Jerusalén.
+<span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> El año noveno, el día diez del décimo mes*, Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, escribe la fecha de hoy, de este mismo día, porque el rey de Babilonia se ha lanzado sobre Jerusalén precisamente en este día*. <sup>3</sup> Compón una parábola sobre esta casa rebelde. Les dirás: Esto dice el Señor Yahvé:
+
+Arrima la olla al fuego, arrímala,
+
+y ve llenándola de agua*.
+
+ <sup>4</sup> Echa en ella trozos de carne,
+
+todos los trozos buenos,
+
+tajadas de pierna y espalda;
+
+llénala de huesos selectos;
+
+ <sup>5</sup> toma los mejores corderos.
+
+Apila en torno la leña*, debajo,
+
+y hazla hervir a borbotones,
+
+de modo que se cuezan los huesos.
+
+ <sup>6</sup> Porque esto dice el Señor Yahvé:
+
+¡Ay de la ciudad sanguinaria,
+
+olla toda roñosa,
+
+que no desprende su herrumbre!
+
+¡Vacíala trozo a trozo,
+
+pues no es posible el perdón!
+
+ <sup>7</sup> Sigue manchada de sangre,
+
+esparcida sobre la roca desnuda,
+
+pues no la ha derramado en tierra,
+
+recubriéndola de polvo.
+
+ <sup>8</sup> Para que el furor desborde,
+
+para tomar venganza,
+
+he puesto yo su sangre
+
+sobre roca desnuda,
+
+para que no fuera recubierta.
+
+ <sup>9</sup> Pues bien, esto dice el Señor Yahvé:
+
+¡Ay de la ciudad sanguinaria!
+
+También yo voy a hacer
+
+un gran montón de leña:
+
+<sup>10</sup> apila bien la leña, enciende el fuego,
+
+cuece la carne a punto,
+
+prepara las especias,
+
+que los huesos se abrasen.
+
+<sup>11</sup> Mantén la olla vacía en las brasas,
+
+para que se caliente,
+
+se ponga al rojo el bronce,
+
+se funda dentro de ella su suciedad,
+
+y su herrumbre se consuma.
+
+<sup>12</sup> «*Pero ni el fuego desprende la herrumbre de la que está roñosa. <sup>13</sup> He querido purificarte de la impureza de tu inmoralidad, pero no te has dejado. En consecuencia, no serás purificada hasta que haya desahogado mi furor en ti. <sup>14</sup> Yo, Yahvé, he hablado, y cumplo la palabra*: no me retraeré, no tendré piedad ni me compadeceré. Te juzgarán conforme a tu conducta y tus obras —oráculo del Señor Yahvé—.»
+
+## Sufrimientos del profeta.
+<sup>15</sup> Yahvé me dirigió su palabra en estos términos: <sup>16</sup> «Hijo de hombre, mira, voy a quitarte de golpe el encanto de tus ojos*. Pero no te lamentarás ni llorarás; no verterás ni una lágrima. <sup>17</sup> Suspira en silencio, no hagas duelo de difuntos; ciñe el turbante a tu cabeza, cálzate tus sandalias, no te cubras la barba, ni comas pan ordinario*.» <sup>18</sup> Por la mañana hablé a la gente, y por la tarde murió mi mujer. Al día siguiente por la mañana hice como se me había ordenado. <sup>19</sup> La gente me preguntó: «¿No vas a explicarnos qué significado tiene para nosotros lo que estás haciendo?» <sup>20</sup> Yo les respondí: «Yahvé me ha dirigido su palabra en estos términos: <sup>21</sup> Di a la casa de Israel: Esto dice el Señor Yahvé: He decidido profanar mi santuario, orgullo de vuestra fuerza, encanto de vuestros ojos, por el que suspiráis apasionados. Vuestros hijos e hijas, que habéis abandonado, caerán a espada. <sup>22</sup> Y vosotros haréis lo mismo que yo*: no os cubriréis la barba, no comeréis pan ordinario, <sup>23</sup> seguiréis llevando vuestros adornos en la cabeza y vuestras sandalias en los pies; no os lamentaréis ni lloraréis. Os consumiréis por las culpas cometidas y gemiréis los unos por los otros. <sup>24</sup> Ezequiel será para vosotros un símbolo; haréis todo lo que él ha hecho. Y cuando esto suceda, sabréis que yo soy el Señor Yahvé.
+
+<sup>25</sup> «Respecto a ti, hijo de hombre, el día en que les despoje de su apoyo, de su alegre ornato, del encanto de sus ojos, de aquello por lo que suspiran apasionados, de sus hijos y sus hijas, <sup>26</sup> ese día llegará donde ti un fugitivo que traerá la noticia. <sup>27</sup> Aquel día se abrirá tu boca, podrás hablar con el fugitivo y ya no seguirás mudo. Serás un símbolo para ellos, y sabrán que yo soy Yahvé.»
+
+## II. Oráculos contra las naciones*
+## Contra los amonitas *.
+<span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, vuelve tu rostro hacia los amonitas y profetiza contra ellos. <sup>3</sup> Dirás a los amonitas: Escuchad la palabra del Señor Yahvé. Esto dice el Señor Yahvé:
+
+Por haberte reído* cuando mi santuario era profanado, cuando la tierra de Israel era devastada y cuando la casa de Judá marchaba al destierro, <sup>4</sup> voy a entregarte en manos de los hijos de Oriente*; emplazarán sus campamentos en tu territorio, y en él instalarán sus tiendas; comerán tus frutos y se beberán tu leche. <sup>5</sup> Yo haré de Rabá un establo de camellos, y de las ciudades de* Amón un redil de ovejas. Y sabréis que yo soy Yahvé.»
+
+<sup>6</sup> Esto dice el Señor Yahvé:
+
+«Por haber batido palmas y haber pataleado de alegría, por haberte regocijado, con todo tu desprecio y animosidad, a costa de la tierra de Israel, <sup>7</sup> voy a extender mi mano contra ti y a entregarte a las naciones, para que te saqueen; te extirparé de entre los pueblos y te exterminaré de entre los países. Te destruiré, y sabrás que yo soy Yahvé.»
+
+## Contra Moab.
+<sup>8</sup> Esto dice el Señor Yahvé:
+
+«Por haber dicho Moab y Seír*: ‘Mirad, la casa de Judá es igual que todas las naciones’, <sup>9</sup> voy a abrir las espaldas de Moab y a destruir de un extremo al otro sus ciudades*, las joyas de ese país: Bet Yesimot, Baal Meón, Quiriatáin. <sup>10</sup> La entregaré en posesión a los hijos de Oriente, además de los amonitas, para que no vuelva a ser recordada entre las naciones. <sup>11</sup> Haré justicia de Moab, y sabrán que yo soy Yahvé.»
+
+## Contra Edom.
+<sup>12</sup> Esto dice el Señor Yahvé:
+
+«Por haber ejecutado Edom su venganza sobre la casa de Judá y haber incurrido en grave culpa al vengarse de ella, <sup>13</sup> esto dice el Señor Yahvé: Voy a extender mi mano contra Edom y a extirpar de ella hombres y bestias; la convertiré en desierto. Caerán a espada desde Temán a Dedán*. <sup>14</sup> Dejaré mi venganza contra Edom en manos de mi pueblo Israel, que tratará a Edom según mi cólera y mi furor, y sabrán lo que es mi venganza —oráculo del Señor Yahvé—.»
+
+## Contra los filisteos.
+<sup>15</sup> Esto dice el Señor Yahvé:
+
+«Por haber actuado vengativamente los filisteos y haber ejecutado su venganza con desprecio y animosidad, tratando de destruir a impulsos de un odio eterno, <sup>16</sup> esto dice el Señor Yahvé: Voy a extender mi mano contra los filisteos; extirparé a los quereteos* y destruiré lo que queda en el litoral del mar. <sup>17</sup> Ejecutaré contra ellos terribles venganzas y furiosos escarmientos, y sabrán que yo soy Yahvé, cuando les aplique mi venganza.»
+
+## Contra Tiro*.
+<span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> El año undécimo, el día primero del mes*, Yahvé me dirigió su palabra en estos términos:
+
+<sup>2</sup> «Hijo de hombre,
+
+Tiro se ha burlado de Jerusalén:
+
+‘Ahí está hecha pedazos
+
+la puerta de las naciones;
+
+todo ha pasado a mí,
+
+su riqueza; está en ruinas*’.
+
+ <sup>3</sup> Por eso, esto dice el Señor Yahvé:
+
+## Aquí estoy contra ti, Tiro.
+
+Voy a hacer que suban contra ti
+
+naciones numerosas,
+
+como el mar hace subir sus olas.
+
+ <sup>4</sup> Derruirán las murallas de Tiro
+
+y abatirán sus torres.
+
+Yo barreré de ella hasta el polvo
+
+y la dejaré como roca pelada*.
+
+ <sup>5</sup> Quedará, en medio del mar,
+
+como un secadero de redes.
+
+Yo mismo lo he dicho
+
+—oráculo del Señor Yahvé—:
+
+Tiro será presa propicia
+
+para el concierto de las naciones.
+
+ <sup>6</sup> Sus hijas*, que están tierra adentro,
+
+serán víctimas de la espada.
+
+## Y sabrán que yo soy Yahvé.
+
+ <sup>7</sup> Pues esto dice el Señor Yahvé:
+
+Voy a traer contra Tiro,
+
+por el norte, a Nabucodonosor,
+
+rey de Babilonia, rey de reyes,
+
+con caballos, carros y jinetes,
+
+y gran número de tropas*.
+
+ <sup>8</sup> A tus hijas, tierra adentro,
+
+las hará caer a espada.
+
+Te atacará con torres de asalto,
+
+levantará contra ti un terraplén,
+
+alzará contra ti un testudo,
+
+ <sup>9</sup> lanzará los golpes de su ariete
+
+contra tus murallas; demolerá
+
+tus torres con sus máquinas*.
+
+<sup>10</sup> Sus numerosos caballos
+
+te cubrirán de polvo;
+
+el estrépito de su caballería,
+
+de sus carros y carretas,
+
+hará que trepiden tus murallas,
+
+cuando él entre por tus puertas,
+
+como se entra en una ciudad
+
+en la que han abierto brecha;
+
+<sup>11</sup> los cascos de sus caballos
+
+hollarán todas tus calles.
+
+Pasará a cuchillo a tu gente,
+
+y tus grandiosas estelas
+
+se desplomarán en tierra.
+
+<sup>12</sup> Se llevarán como botín tus riquezas,
+
+saquearán tus mercancías,
+
+destruirán tus murallas,
+
+demolerán tus casas suntuosas.
+
+Tus piedras, tus vigas y tus escombros
+
+los echarán al fondo de las aguas.
+
+<sup>13</sup> Yo mismo pondré fin
+
+a la armonía de tus canciones;
+
+ya no se oirá el son de tus cítaras.
+
+<sup>14</sup> Te convertiré en roca pelada,
+
+quedarás como secadero de redes;
+
+no volverás a ser reconstruida,
+
+porque yo, Yahvé, he hablado
+
+—oráculo del Señor Yahvé—.»
+
+## Lamentación por Tiro.
+<sup>15</sup> Esto dice el Señor Yahvé a Tiro: «Al estruendo de tu caída, cuando giman las víctimas y hierva la carnicería dentro de ti, ¿no temblarán las islas*? <sup>16</sup> Bajarán de sus tronos todos los príncipes del mar, se quitarán sus mantos y dejarán sus vestidos recamados; se vestirán de pavor, se sentarán en tierra, temblarán sin parar y quedarán pasmados al verte.
+
+<sup>17</sup> «Entonarán por ti esta elegía*:
+
+¡Cómo has quedado destruida,
+
+desaparecida de los mares,
+
+la otrora ciudad famosa!
+
+Fuiste poderosa en el mar,
+
+con tus habitantes,
+
+que infundían el terror
+
+en todo el continente*.
+
+<sup>18</sup> Ahora tiemblan las islas,
+
+ahora que presencian tu caída;
+
+las islas del mar están aterradas
+
+al ver en qué has acabado.
+
+<sup>19</sup> «Porque esto dice el Señor Yahvé:
+
+Cuando yo te convierta en una ciudad en ruinas, como las ciudades despobladas; cuando yo empuje sobre ti el océano y te cubran sus aguas caudalosas, <sup>20</sup> entonces te haré bajar a la fosa con los muertos, con la gente de antaño; te haré habitar en el mundo subterráneo (parecido a unas ruinas de antaño), con los que ya han muerto, para que no vuelvas a ser restablecida en la tierra de los vivos*. <sup>21</sup> Haré de ti un objeto de espanto, y no existirás más. Te buscarán, pero ya nunca te encontrarán —oráculo del Señor Yahvé—.»
+
+## Segunda lamentación por la caída de Tiro*.
+<span id="chapter-27" class="chapter-marker" data-chapter="27">27</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Y tú, hijo de hombre, entona una elegía sobre Tiro. <sup>3</sup> Dirás a Tiro, la ciudad asentada a la entrada del mar, centro del tráfico de los pueblos hacia islas sin cuento: Esto dice el Señor Yahvé:
+
+Tiro, tú decías: ‘Yo soy un navío*
+
+de perfecta hermosura’.
+
+ <sup>4</sup> En el corazón de los mares
+
+estaban tus fronteras.
+
+Tus constructores hicieron
+
+perfecta tu hermosura.
+
+ <sup>5</sup> Con cipreses de Senir*
+
+construyeron todas tus planchas.
+
+Del Líbano tomaron un cedro
+
+para erigirte un mástil.
+
+ <sup>6</sup> De las encinas de Basán
+
+fabricaron tus remos.
+
+El puente lo construyeron
+
+de marfil incrustado en cedro
+
+de las islas de Quitín*.
+
+ <sup>7</sup> Tu vela, de lino egipcio recamado,
+
+te servía de enseña.
+
+Púrpura y escarlata de las islas de Elisá
+
+formaban tu toldo.
+
+ <sup>8</sup> Los habitantes de Sidón y de Arvad*
+
+eran tus remeros.
+
+Tus sabios, que iban a bordo,
+
+servían como timoneles.
+
+ <sup>9</sup> Llevabas a los ancianos de Guebal*,
+
+cuyos expertos reparaban tus averías.
+
+Contabas con todas las naves* del mar y sus marineros, para asegurar tu comercio. <sup>10</sup> Los de Persia, Lud y Put servían en tu ejército como soldados; colgaban en ti sus escudos y yelmos, y así te daban esplendor. <sup>11</sup> Los hijos de Arvad, con tu ejército, guarnecían por todas partes tus murallas, y los gamadeos tus torres. Colgaban sus escudos en torno a tus murallas y hacían perfecta tu hermosura. <sup>12</sup> Tarsis era cliente tuya, debido a la abundancia de tus riquezas; a cambio te daba plata, hierro, estaño y plomo. <sup>13</sup> También Yaván, Túbal y Mésec* traficaban contigo, y te daban a cambio hombres y utensilios de bronce. <sup>14</sup> Los de Bet Togarmá* daban por tus mercancías caballos de tiro y de silla, y mulos. <sup>15</sup> Los hijos de Rodán* traficaban también contigo; numerosas islas eran clientes tuyas, que te pagaban con colmillos de marfil y madera de ébano. <sup>16</sup> La abundancia de tus productos atraía asimismo a Edom*, que, a cambio de tus mercancías, te daba malaquita, púrpura, recamados, batista, coral y rubíes. <sup>17</sup> Judá y la tierra de Israel traficaban también contigo: te daban a cambio trigo de Minit, pannag*, miel, aceite y resina. <sup>18</sup> La abundancia de tus productos atraía igualmente a Damasco; debido a la abundancia de tus riquezas, te proveía de vino de Jelbón y lana de Sajar*. <sup>19</sup> Dan y Yaván, desde Uzal*, daban por tus mercancías hierro forjado, canela y caña. <sup>20</sup> Dedán traficaba contigo en sillas de montar. <sup>21</sup> Arabia y todos los príncipes de Quedar eran también tus clientes: pagaban con corderos, carneros y machos cabríos. <sup>22</sup> Los mercaderes de Sabá y de Ramá traficaban también contigo; a cambio de tus mercancías te daban aromas de primera calidad y toda clase de piedras preciosas y oro. <sup>23</sup> Jarán, Cané y Edén, los mercaderes de Sabá, de Asiria y de Quilmad* traficaban contigo; <sup>24</sup> traían a tu mercado vestidos de lujo, mantos de púrpura y brocado, tapices multicolores y maromas trenzadas. <sup>25</sup> Las naves de Tarsis formaban tu flota comercial.
+
+Pero estabas repleta y pesada*
+
+en el corazón de los mares.
+
+<sup>26</sup> A alta mar te condujeron
+
+los que a remo te llevaban.
+
+El viento de oriente te ha quebrado
+
+en el corazón de los mares.
+
+<sup>27</sup> Tus riquezas, mercancías y fletes,
+
+tus marineros y timoneles,
+
+tus calafates y agentes comerciales,
+
+todos los guerreros que llevas,
+
+toda la tripulación que transportas,
+
+se hundirán en el corazón de los mares
+
+el día en que naufragues.
+
+<sup>28</sup> Al oír los gritos de tus marinos,
+
+se asustarán las costas;
+
+<sup>29</sup> entonces desembarcarán
+
+de sus naves todos los remeros;
+
+los marineros,
+
+todos los hombres de mar,
+
+se quedarán en tierra.
+
+<sup>30</sup> Lanzarán gritos por ti,
+
+gemirán amargamente;
+
+se echarán polvo en la cabeza,
+
+se revolcarán en la ceniza;
+
+<sup>31</sup> se raparán el pelo por tu causa,
+
+se ceñirán de sayal.
+
+Llorarán por ti,
+
+repletos de amargura;
+
+su lamento será amargo.
+
+<sup>32</sup> Entonarán por ti,
+
+en su duelo, una elegía;
+
+se lamentarán así por ti:
+
+«¿Quién era semejante a Tiro*
+
+en medio del mar?
+
+<sup>33</sup> Cuando tus mercancías
+
+se desembarcaban,
+
+saciabas a muchos pueblos;
+
+con la abundancia
+
+de tus riquezas y productos
+
+enriquecías a los reyes de la tierra.
+
+<sup>34</sup> Mas ahora estás ahí,
+
+quebrada por las olas,
+
+en las profundidades del mar.
+
+Tu carga y toda tu tripulación
+
+se han hundido contigo.
+
+<sup>35</sup> Todos los habitantes de las islas
+
+están pasmados por tu causa.
+
+Sus reyes están estremecidos de terror,
+
+tienen el rostro descompuesto.
+
+<sup>36</sup> Los mercaderes de los pueblos
+
+silban asombrados por ti,
+
+porque te has convertido
+
+en objeto de espanto,
+
+y has desaparecido para siempre.»
+
+## Contra el rey de Tiro.
+<span id="chapter-28" class="chapter-marker" data-chapter="28">28</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, di al príncipe de Tiro:
+
+Esto dice el Señor Yahvé:
+
+Tu corazón se ha engreído
+
+y has dicho: ‘Soy un dios,
+
+sentado en un trono divino,
+
+instalado en el corazón del mar.’
+
+Tú que eres un hombre y no un dios,
+
+equiparas tu mente a la de Dios.
+
+ <sup>3</sup> ¡Claro, eres más sabio que Danel;
+
+ningún sabio* se te puede comparar!
+
+ <sup>4</sup> Con tu sabiduría y tu inteligencia
+
+te amasaste una fortuna;
+
+amontonaste tesoros de oro y plata.
+
+ <sup>5</sup> Tu gran sabiduría y tu comercio
+
+multiplicaron tu fortuna,
+
+y tu fortuna fue la causa
+
+del engreimiento de tu corazón.
+
+ <sup>6</sup> Por eso, esto dice el Señor Yahvé:
+
+Por haber equiparado tu mente
+
+a la mente de Dios,
+
+ <sup>7</sup> he decidido traer
+
+extranjeros contra ti,
+
+los más bárbaros entre las naciones.
+
+Desenvainarán la espada
+
+contra tu linda sabiduría,
+
+y profanarán tu esplendor;
+
+ <sup>8</sup> te precipitarán en la fosa,
+
+y morirás de muerte violenta
+
+en el corazón de los mares.
+
+ <sup>9</sup> ¿Podrás decir: ‘Soy un dios’,
+
+estando ante tus verdugos?
+
+¡Sólo serás un hombre, no un dios,
+
+en manos de los que te traspasen!
+
+<sup>10</sup> Morirás como los incircuncisos,
+
+a manos de gente extranjera.
+
+Yo soy quien ha hablado
+
+—oráculo del Señor Yahvé—.»
+
+## La caída del rey de Tiro*.
+<sup>11</sup> Yahvé me dirigió su palabra en estos términos: <sup>12</sup> «Hijo de hombre, entona una elegía* sobre el rey de Tiro. Le dirás: Esto dice el Señor Yahvé:
+
+Eras el sello de una obra maestra*,
+
+colmado de sabiduría,
+
+de consumada belleza.
+
+<sup>13</sup> Morabas en Edén, en el jardín de Dios.
+
+Toda suerte de piedras preciosas
+
+engalanaban tu manto:
+
+rubí, topacio, diamante,
+
+crisólito, piedra de ónice, jaspe,
+
+zafiro, malaquita, esmeralda;
+
+en oro estaban labrados los aretes
+
+y pinjantes que llevabas*,
+
+preparados desde el día de tu creación.
+
+<sup>14</sup> Hice de ti un querubín
+
+protector, centelleante;
+
+estabas en el monte santo de Dios,
+
+caminabas entre piedras de fuego*.
+
+<sup>15</sup> Tu conducta fue perfecta
+
+desde el día de tu creación,
+
+hasta el día en que se halló
+
+en ti iniquidad.
+
+<sup>16</sup> Por la amplitud de tu comercio
+
+te llenaste de violencia, y pecaste.
+
+Y yo te degradé del monte de Dios;
+
+te eliminé, querubín protector,
+
+de en medio de las piedras de fuego.
+
+<sup>17</sup> Tu belleza te hizo altanero,
+
+corrompiste tu sabiduría
+
+por causa de tu esplendor.
+
+Y yo te precipité por tierra,
+
+convertido en espectáculo de reyes.
+
+<sup>18</sup> Por tantas y tantas culpas,
+
+por la inmoralidad de tu comercio,
+
+profanaste tus santuarios.
+
+Y yo he sacado de ti mismo
+
+el fuego que te ha devorado;
+
+te he reducido a ceniza sobre la tierra,
+
+a los ojos de cuantos te miraban.
+
+<sup>19</sup> Todos los pueblos que te conocían
+
+quedaron pasmados por ti.
+
+Eres un objeto de espanto;
+
+has desaparecido para siempre.»
+
+## Contra Sidón*.
+<sup>20</sup> Yahvé me dirigió su palabra en estos términos: <sup>21</sup> «Hijo de hombre, vuelve tu rostro hacia Sidón y profetiza contra ella. <sup>22</sup> Dirás: Esto dice el Señor Yahvé:
+
+Aquí estoy contra ti, Sidón;
+
+en medio de ti seré glorificado.
+
+Sabrán que yo soy Yahvé,
+
+cuando yo haga justicia de ella
+
+y manifieste en ella mi santidad.
+
+<sup>23</sup> Mandaré contra ella la peste,
+
+habrá sangre por sus calles;
+
+caerán víctimas en medio de ella,
+
+pues será cercada por la espada.
+
+## Y sabrán que yo soy Yahvé.
+
+## Israel, librada de las naciones.
+<sup>24</sup> «Ya no padecerá la casa de Israel
+
+pinchazos de espina ni heridas de zarza,
+
+de todos sus vecinos que la desprecian.
+
+## Y sabrán que yo soy el Señor Yahvé.
+
+<sup>25</sup> «Esto dice el Señor Yahvé: Cuando yo reúna a la casa de Israel de en medio de los pueblos donde está dispersa, manifestaré en ellos mi santidad a la vista de las naciones. Habitarán en la tierra que yo di a mi siervo Jacob; <sup>26</sup> habitarán allí con seguridad, construirán casas y plantarán viñas. Vivirán seguros cuando yo haga justicia con todos sus vecinos que los desprecian. Y sabrán que yo soy Yahvé su Dios.»
+
+## Contra Egipto.
+<span id="chapter-29" class="chapter-marker" data-chapter="29">29</span><sup>1</sup> El año décimo, el día doce del décimo mes*, Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, vuelve tu rostro hacia el faraón, rey de Egipto*, y profetiza contra él y contra todo Egipto. <sup>3</sup> Les dirás: Esto dice el Señor Yahvé:
+
+Aquí estoy contra ti, faraón,
+
+rey de Egipto,
+
+gran cocodrilo, recostado
+
+en medio de sus Nilos,
+
+tú que has dicho: ‘Mi Nilo es mío,
+
+yo mismo lo he hecho*.’
+
+ <sup>4</sup> Voy a ponerte garfios en las quijadas,
+
+pegaré a tus escamas
+
+los peces de tus Nilos,
+
+y te sacaré fuera de tus Nilos,
+
+con todos los peces de tus Nilos,
+
+pegados a tus escamas.
+
+ <sup>5</sup> Te arrojaré al desierto,
+
+junto con los peces de tus Nilos;
+
+yacerás en medio del campo,
+
+no serás recogido ni enterrado*.
+
+Te entregaré como pasto
+
+a las bestias de la tierra
+
+y a las aves del cielo,
+
+ <sup>6</sup> y todos los habitantes de Egipto
+
+sabrán que yo soy Yahvé.
+
+Porque has* sido un apoyo de caña
+
+para la casa de Israel;
+
+ <sup>7</sup> cuando ellos te agarraban,
+
+te rompías en sus manos
+
+y desgarrabas toda su palma;
+
+cuando se apoyaban en ti,
+
+te hacías pedazos
+
+y hacías vacilar todos los riñones*.
+
+<sup>8</sup> «Por eso, esto dice el Señor Yahvé: Voy a traer contra ti la espada, para extirpar de ti personas y bestias. <sup>9</sup> El país de Egipto se convertirá en desolación y ruina, y sabrán que yo soy Yahvé. Por haber dicho: ‘El Nilo es mío, yo mismo lo he hecho’, <sup>10</sup> aquí estoy contra ti y contra tus Nilos. Convertiré el país de Egipto en ruinas, devastación y desolación, desde Migdol hasta Sevené y hasta la frontera de Etiopía*. <sup>11</sup> Ningún hombre lo pisará, ningún animal lo pateará. Quedará deshabitado durante cuarenta años. <sup>12</sup> Voy a hacer del país de Egipto una desolación en medio de países desolados; sus ciudades estarán desoladas entre ciudades en ruinas, durante cuarenta años. Dispersaré a los egipcios entre las naciones y los esparciré por los países. <sup>13</sup> Porque esto dice el Señor Yahvé: Al cabo de cuarenta años, reuniré a los habitantes de Egipto de entre los pueblos en los que habían sido dispersados*. <sup>14</sup> Recogeré a los cautivos egipcios y los haré volver al país de Patrós*, su lugar de origen. Allí formarán un reino modesto. <sup>15</sup> Egipto será el más modesto de los reinos y ya no se alzará por encima de las naciones; le haré pequeño para que no vuelva a imponerse a las naciones. <sup>16</sup> No volverá a ser para la casa de Israel apoyo de su confianza, que provoque el delito de irse en pos de él. Y sabrán que yo soy el Señor Yahvé.»
+
+<sup>17</sup> El año veintisiete, el día uno del primer mes*, Yahvé me dirigió su palabra en estos términos:
+
+<sup>18</sup> «Hijo de hombre, Nabucodonosor, rey de Babilonia, ha emprendido con su ejército una violenta campaña contra Tiro. Todas las cabezas han quedado peladas y todas las espaldas llagadas, pero no ha obtenido de Tiro, ni para sí ni para su ejército, ningún provecho de la empresa acometida contra ella. <sup>19</sup> Por eso, esto dice el Señor Yahvé: He decidido entregar a Nabucodonosor, rey de Babilonia, el país de Egipto. Él saqueará sus riquezas, se apoderará de sus despojos y se llevará su botín, que servirá de paga para su ejército. <sup>20</sup> En compensación de su esfuerzo contra Tiro, yo le voy a entregar el país de Egipto, porque han trabajado para mí —oráculo del Señor Yahvé—.
+
+<sup>21</sup> «Aquel día yo haré brotar un cuerno* a la casa de Israel, y a ti te permitiré abrir la boca en medio de ellos*. Y sabrán que yo soy Yahvé.»
+
+## El día de Yahvé contra Egipto.
+<span id="chapter-30" class="chapter-marker" data-chapter="30">30</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos*: <sup>2</sup> «Hijo de hombre, profetiza y di: Esto dice el Señor Yahvé:
+
+Gemid diciendo: «¡Ay, aquel día!»,
+
+ <sup>3</sup> porque está cercano el día,
+
+está cercano el día de Yahvé,
+
+día cargado de nubarrones;
+
+será la hora de las naciones.
+
+ <sup>4</sup> La espada descargará sobre Egipto,
+
+cundirá el pánico en Cus,
+
+cuando las víctimas caigan en Egipto,
+
+cuando sean saqueadas sus riquezas
+
+y sus cimientos derruidos.
+
+ <sup>5</sup> Cus, Put y Lud, toda Arabia y Cub*,
+
+y la gente de los países aliados,
+
+caerán con ellos a espada.
+
+ <sup>6</sup> Esto dice Yahvé:
+
+Caerán los apoyos de Egipto,
+
+se desplomará el orgullo de su fuerza;
+
+desde Migdol a Sevené,
+
+caerán todos a espada
+
+—oráculo del Señor Yahvé—.
+
+ <sup>7</sup> Quedarán desolados
+
+entre países desolados;
+
+sus ciudades estarán
+
+entre ciudades en ruinas.
+
+ <sup>8</sup> Sabrán que yo soy Yahvé,
+
+cuando prenda fuego a Egipto,
+
+y se rompan todos sus apoyos.
+
+ <sup>9</sup> «Aquel día enviaré mensajeros en navíos a sembrar el terror en Cus, que se cree segura. Cundirá el pánico entre sus habitantes cuando llegue el día de Egipto. Miradlo, está llegando.
+
+<sup>10</sup> Esto dice el Señor Yahvé:
+
+Pondré fin a la opulencia de Egipto,
+
+por mano de Nabucodonosor,
+
+rey de Babilonia.
+
+<sup>11</sup> Él, junto con su ejército,
+
+los más violentos de las naciones,
+
+serán enviados a asolar el país.
+
+Desenvainarán la espada contra Egipto
+
+y llenarán el país de víctimas.
+
+<sup>12</sup> Yo dejaré secos los Nilos,
+
+y entregaré el país
+
+en manos de gente malvada.
+
+Devastaré el país y cuanto contiene
+
+por mano de extranjeros.
+
+## Yo, Yahvé, he hablado.
+
+<sup>13</sup> Esto dice el Señor Yahvé:
+
+Haré desaparecer las basuras
+
+y pondré fin a los dioses de Nof*.
+
+No habrá más príncipes en Egipto,
+
+y sembraré el terror en el país.
+
+<sup>14</sup> Devastaré Patrós,
+
+prenderé fuego a Soán,
+
+haré justicia de No.
+
+<sup>15</sup> Derramaré mi furor en Sin,
+
+la fortaleza de Egipto;
+
+pondré fin a la opulencia de No.
+
+<sup>16</sup> «Prenderé fuego a Egipto, Sin se retorcerá de dolor, abrirán brecha en No y cundirán las aguas*. <sup>17</sup> Los jóvenes de On y de Pi Béset caerán a espada, y las ciudades mismas partirán al cautiverio. <sup>18</sup> En Tafnis el día se convertirá en tinieblas, cuando yo quiebre allí el yugo de Egipto y se acabe el orgullo de su fuerza. Quedará cubierta por nubarrones, y la gente de sus pueblos partirá al cautiverio. <sup>19</sup> Así haré justicia de Egipto, y sabrán que yo soy Yahvé.»
+
+<sup>20</sup> El año undécimo, el día siete del primer mes*, Yahvé me dirigió su palabra en estos términos: <sup>21</sup> «Hijo de hombre, yo he roto el brazo del faraón, rey de Egipto, y nadie ha curado su herida aplicándole medicamentos y vendas para curarle, de modo que recobre el vigor para empuñar la espada*. <sup>22</sup> Por eso, esto dice el Señor Yahvé: Aquí estoy yo contra el faraón, rey de Egipto; quebraré sus brazos, el que está sano y el roto, y haré que la espada caiga de su mano*. <sup>23</sup> Dispersaré a Egipto entre las naciones, lo esparciré por los países. <sup>24</sup> Robusteceré los brazos del rey de Babilonia, pondré mi espada en su mano y romperé los brazos del faraón, que lanzará ante él gemidos de víctima. <sup>25</sup> Robusteceré los brazos del rey de Babilonia, mientras que los brazos del faraón desmayarán. Y sabrán que yo soy Yahvé, cuando ponga mi espada en la mano del rey de Babilonia y él la esgrima contra el país de Egipto. <sup>26</sup> Dispersaré a Egipto entre las naciones y lo esparciré por los países. Y sabrán que yo soy Yahvé.»
+
+## El cedro.
+<span id="chapter-31" class="chapter-marker" data-chapter="31">31</span><sup>1</sup> El año undécimo, el día uno del tercer mes*, Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, di al faraón, rey de Egipto, y a la multitud de sus súbditos*:
+
+¿A quién compararte en tu grandeza?
+
+ <sup>3</sup> A una esbelta conífera*,
+
+ a un cedro del Líbano
+
+de espléndido ramaje,
+
+de fronda de amplia sombra
+
+y de elevada talla.
+
+## Su copa despuntaba entre las nubes*.
+
+ <sup>4</sup> Las aguas lo hicieron crecer,
+
+el abismo le dotó de altura,
+
+derramando sus aguas
+
+en torno a sus raíces,
+
+y enviando sus acequias
+
+a todos los árboles del campo.
+
+ <sup>5</sup> Así su tronco superaba en altura
+
+a todos los árboles del campo;
+
+sus ramas se multiplicaban,
+
+se alargaba su ramaje,
+
+por el agua abundante
+
+que lo hacía crecer*.
+
+ <sup>6</sup> En sus ramas anidaban
+
+todos los pájaros del cielo;
+
+bajo su fronda parían
+
+todas las bestias del campo;
+
+a su sombra se instalaban
+
+naciones numerosas.
+
+ <sup>7</sup> Era hermoso por su grandeza,
+
+por el despliegue de su ramaje,
+
+porque sus raíces se alargaban
+
+hacia aguas abundantes.
+
+ <sup>8</sup> Ningún cedro le igualaba
+
+en el jardín de Dios;
+
+los cipreses no podían competir
+
+con su hermoso ramaje;
+
+los plátanos no tenían
+
+ramas como las suyas.
+
+Ningún árbol, en el jardín de Dios,
+
+le igualaba en belleza.
+
+ <sup>9</sup> Yo lo había embellecido
+
+con follaje abundante,
+
+y le envidiaban
+
+todos los árboles de Edén,
+
+los del jardín de Dios.
+
+<sup>10</sup> «Pues bien, esto dice el Señor Yahvé: Por haber exagerado su talla, levantando su copa por entre las nubes, y haberse henchido su corazón de orgullo, <sup>11</sup> yo lo he entregado en manos del conductor de las naciones*, para que lo trate conforme a su maldad. ¡Lo he desechado! <sup>12</sup> Extranjeros, los más bárbaros entre las naciones, lo han talado y lo han abandonado. En los montes y por todos los valles yace su fronda; sus ramas están destrozadas por todos los barrancos del país. Todos los pueblos de la tierra se han retirado* de su sombra y lo han abandonado.
+
+<sup>13</sup> Sobre sus despojos se han posado
+
+todos los pájaros del cielo;
+
+han pisoteado sus ramas
+
+todas las bestias del campo.
+
+<sup>14</sup> «Ha sido para que ningún árbol plantado junto a las aguas se engría de su talla, ni levante su copa por entre las nubes, y para que ningún árbol bien regado se estire por encima de su altura.
+
+¡Porque todos ellos
+
+están destinados a la muerte,
+
+a lo profundo de la tierra,
+
+como el común de las personas,
+
+como los que bajan a la fosa!
+
+<sup>15</sup> «Esto dice el Señor Yahvé: El día que bajó al Seol, cerré el abismo tras él, en señal de duelo; detuve sus ríos, y las aguas abundantes cesaron. En su memoria, cubrí de sombra el Líbano, y todos los árboles del campo se amustiaron por él. <sup>16</sup> Hice temblar a las naciones con el estrépito de su caída, cuando lo precipité en el Seol, con los que bajan a la fosa. En el mundo subterráneo se consolaron todos los árboles de Edén, lo más selecto y más bello del Líbano, regados todos por las aguas. <sup>17</sup> Y con él bajaron también al Seol, donde las víctimas de la espada, los que eran su brazo y moraban a su sombra en medio de las naciones*.
+
+<sup>18</sup> «¿A quién eras comparable en gloria y en grandeza, entre los árboles de Edén? Sin embargo, has sido precipitado, con los árboles de Edén, en el mundo subterráneo. Allí yaces, en medio de incircuncisos, con las víctimas de la espada. Se trata del faraón y de todo su ejército —oráculo del Señor Yahvé—.»
+
+## El cocodrilo.
+<span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> El año duodécimo, el día uno del duodécimo mes*, Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, entona una elegía sobre el faraón, rey de Egipto. Le dirás:
+
+¡Estás perdido, león de las naciones!
+
+Eras como un cocodrilo acuático,
+
+chapoteabas en tus ríos,
+
+enturbiabas el agua con tus patas,
+
+agitabas su corriente.
+
+ <sup>3</sup> Esto dice el Señor Yahvé:
+
+Echaré mi red para pescarte
+
+entre una asamblea
+
+de pueblos numerosos;
+
+en mi red te sacarán.
+
+ <sup>4</sup> Te dejaré varado en tierra,
+
+tirado en medio del campo;
+
+haré que se ceben en ti
+
+todos los pájaros del cielo;
+
+haré que se harten contigo
+
+todas las bestias de la tierra.
+
+ <sup>5</sup> Echaré tu carne por los montes,
+
+de tu carroña llenaré los valles;
+
+ <sup>6</sup> regaré el país con la aguaza
+
+que desprendan tus despojos;
+
+los barrancos rebosarán de tu sangre.
+
+ <sup>7</sup> Cuando te extingas, velaré los cielos
+
+y enlutaré las estrellas;
+
+cubriré el sol de nubarrones
+
+y la luna no dará más su claridad.
+
+ <sup>8</sup> Oscureceré por tu causa
+
+todos los astros que brillan en el cielo,
+
+y cubriré tu país de tinieblas
+
+—oráculo del Señor Yahvé—.
+
+<sup>9</sup> «Haré que cunda el desánimo entre mucha gente, cuando se difunda la noticia de tu ruina* entre las naciones, incluso en países que no conoces. <sup>10</sup> Dejaré pasmados por ti a muchos pueblos, y sus reyes se estremecerán de horror por tu causa, cuando yo blanda mi espada ante ellos. Temblarán sin parar, cada uno por su vida, el día de tu caída*.
+
+<sup>11</sup> Porque esto dice el Señor Yahvé:
+
+La espada del rey de Babilonia
+
+caerá sobre ti.
+
+<sup>12</sup> Abatiré a tu numerosa tropa
+
+con la espada de guerreros,
+
+los más crueles de las naciones;
+
+arrasarán el orgullo de Egipto
+
+y todo su ejército será exterminado.
+
+<sup>13</sup> Haré perecer a todo tu ganado,
+
+que pasta junto a aguas abundantes;
+
+ya no las enturbiarán pies humanos,
+
+no volverán a enturbiarlas
+
+pezuñas de animal.
+
+<sup>14</sup> Entonces yo amansaré sus aguas,
+
+haré correr sus ríos como aceite
+
+—oráculo del Señor Yahvé—.
+
+<sup>15</sup> Cuando yo convierta
+
+a Egipto en desolación,
+
+y el país sea despojado
+
+de cuanto contiene,
+
+cuando hiera a todos sus habitantes,
+
+sabrán que yo soy Yahvé.»
+
+<sup>16</sup> Una elegía es ésta, que cantarán las capitales de las naciones. La cantarán por Egipto y por todo su ejército. Cantarán esta elegía —oráculo del Señor Yahvé—.
+
+## Bajada del faraón al Seol.
+<sup>17</sup> El año duodécimo, el quince del primer mes*, Yahvé me dirigió su palabra en estos términos: <sup>18</sup> «Hijo de hombre, entona una lamentación por el ejército de Egipto, y hazle bajar, junto con la gente de las capitales de naciones majestuosas, al mundo subterráneo, con los que bajan a la fosa*.
+
+<sup>19</sup> «*¿Crees que superas a alguien en belleza? ¡Pues baja y acuéstate con los incircuncisos! <sup>20</sup> En medio de las víctimas de la espada caen (la espada ha sido entregada, la han sacado) él y todas sus tropas*. <sup>21</sup> Dicen de ellos en pleno Seol los más esclarecidos héroes: ‘Han bajado con sus aliados; yacen con los incircuncisos, víctimas de la espada*’.
+
+<sup>22</sup> «Allí está Asiria y toda su gente en torno a su sepulcro; todos cayeron víctimas de la espada. <sup>23</sup> Sus sepulcros se encuentran en las profundidades de la fosa (y su gente está en torno a su sepulcro; todos cayeron víctimas de la espada), ellos que sembraban el pánico en la tierra de los vivos.
+
+<sup>24</sup> «Allí está Elam con todo su ejército en torno a su sepulcro; todos cayeron víctimas de la espada. Han bajado con los incircuncisos al mundo subterráneo, ellos que sembraron el pánico en la tierra de los vivos. Pero ahora soportan su ignominia con los que han bajado a la fosa. <sup>25</sup> En medio de estas víctimas se le ha preparado un lecho; todo su ejército, todas las víctimas de la espada, yacen en torno a su sepulcro. Todos ellos son incircuncisos, víctimas de la espada, que sembraron el pánico en la tierra de los vivos, pero que ahora soportan su ignominia con los que han bajado a la fosa. Se les ha puesto en medio de estas víctimas.
+
+<sup>26</sup> «Allí están Mésec, Túbal y sus ejércitos en torno a sus sepulcros; todos son incircuncisos, víctimas de la espada, que sembraron el pánico en la tierra de los vivos. <sup>27</sup> No yacen con los héroes caídos de antaño, aquellos que bajaron al Seol con sus armas de guerra, a los que se les puso la espada bajo su cabeza y los escudos* sobre sus huesos, porque hicieron cundir el pánico en la tierra de los vivos. <sup>28</sup> Pero tú, Egipto, yacerás en medio de incircuncisos, con las víctimas de la espada.
+
+<sup>29</sup> «Allí está Edom, sus reyes y todos sus príncipes, que fueron puestos, a pesar de su prepotencia, entre las víctimas de la espada. Yacen entre incircuncisos, con los que bajan a la fosa.
+
+<sup>30</sup> «Allí están todos los príncipes del norte, todos los sidonios, que bajaron con las víctimas, a pesar del pánico que sembraba su prepotencia. Confundidos yacen, incircuncisos, entre las víctimas de la espada, y soportan su ignominia con los que bajan a la fosa.
+
+<sup>31</sup> «Cuando el faraón los vea, se consolará de la pérdida de su ejército (víctima de la espada, el faraón y todo su ejército) —oráculo del Señor Yahvé—. <sup>32</sup> Había sembrado* el pánico en la tierra de los vivos; por eso yacerá en medio de incircuncisos, con las víctimas de la espada, el faraón y todo su ejército —oráculo del Señor Yahvé—.»
+
+# III. Durante y después del asedio de Jerusalen*
+## El profeta como centinela.
+<span id="chapter-33" class="chapter-marker" data-chapter="33">33</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos*: <sup>2</sup> «Hijo de hombre, habla a tus compatriotas y diles: Supongamos que ordeno a la espada que ataque un país, y que la gente de ese país escoge a uno de los suyos y lo ponen como centinela; <sup>3</sup> y que éste, al ver que la espada ataca el país, toca el cuerno para advertir a la gente. <sup>4</sup> Si resulta que alguien oye bien el sonido del cuerno, pero no hace caso, de suerte que la espada sobreviene y lo mata, sólo él será responsable de su muerte. <sup>5</sup> Como ha oído el sonido del cuerno y no ha hecho caso, será responsable de su muerte. En cambio, el que haya hecho caso salvará su vida.
+
+<sup>6</sup> «Si, por el contrario, el centinela ve venir la espada y no toca el cuerno, de suerte que la gente no es advertida, y la espada sobreviene y mata a alguno de ellos, éste perecerá por su culpa, pero pediré cuentas de su muerte al centinela.
+
+<sup>7</sup> «A ti, también, hijo de hombre, te he hecho yo centinela de la casa de Israel. Cuando oigas una palabra de mi boca, les advertirás de mi parte. <sup>8</sup> Si yo digo al malvado: ‘Malvado, eres reo de muerte’, y tú no hablas con él para advertirle que deje su conducta, él, el malvado, morirá por su culpa, pero te pediré cuentas a ti de su muerte. <sup>9</sup> Si, por el contrario, adviertes al malvado que se convierta de su conducta, pero él no se convierte, morirá él debido a su culpa, mientras que tú habrás salvado tu vida.
+
+## Conversión y perversión.
+<sup>10</sup> «Y tú, hijo de hombre, di a la casa de Israel: Vosotros andáis diciendo: ‘Nuestros crímenes y nuestros pecados pesan sobre nosotros; por causa de ellos nos consumimos. ¿Cómo podremos vivir*?’ <sup>11</sup> Pues diles: ‘Por mi vida —oráculo del Señor Yahvé—, que yo no me complazco en la muerte del malvado, sino en que el malvado se convierta de su conducta y viva. Convertíos, convertíos de vuestra mala conducta. ¿Por qué habéis de morir, casa de Israel?’
+
+<sup>12</sup> «Y tú, hijo de hombre, di a los hijos de tu pueblo: La honradez del justo no le salvará el día en que se pervierta, ni la maldad del malvado le hará sucumbir el día en que se aparte de su maldad. Pero tampoco el justo vivirá en virtud de su honradez el día en que peque. <sup>13</sup> Si yo digo al justo: ‘Vivirás*’, pero él, fiándose de su honradez, comete una injusticia, no quedará memoria de toda su honradez, sino que morirá por la injusticia que cometió. <sup>14</sup> Y si digo al malvado: ‘Vas a morir’, pero él se aparta de su pecado y practica el derecho y la justicia, <sup>15</sup> si devuelve la prenda*, restituye lo que robó, observa los preceptos que dan la vida y deja de cometer injusticias, ciertamente vivirá; no morirá. <sup>16</sup> Ninguno de los pecados que cometió se le recordará más: ciertamente vivirá, por haber observado el derecho y la justicia.
+
+<sup>17</sup> «Tus compatriotas dicen: ‘No es justo el proceder del Señor.’ ¡Lo que no es justo es su proceder! <sup>18</sup> Cuando el justo se aparta de su honradez y comete una injusticia, muere por ello. <sup>19</sup> Y cuando el malvado se aparta de su maldad y observa el derecho y la justicia, vive por ello. <sup>20</sup> Y vosotros decís: ‘No es justo el proceder del Señor.’ ¡Yo os juzgaré, a cada uno según su conducta, casa de Israel!»
+
+## La toma de la ciudad.
+<sup>21</sup> El año duodécimo, el día cinco del décimo mes de nuestra cautividad*, llegó donde mí el fugitivo de Jerusalén y me anunció: «La ciudad ha sido tomada.» <sup>22</sup> La tarde anterior a la llegada del fugitivo, la mano de Yahvé había venido sobre mí y me había abierto la boca. Cuando aquél llegó donde mí por la mañana, mi boca se había abierto y ya no estuve mudo*.
+
+## La devastación del país.
+<sup>23</sup> Entonces, Yahvé me dirigió su palabra en estos términos: <sup>24</sup> «Hijo de hombre, los que habitan esas ruinas, en el suelo de Israel, dicen: ‘Abrahán, que era uno solo, obtuvo en posesión esta tierra. Nosotros, que somos muchos, hemos recibido esta tierra en posesión*.’
+
+<sup>25</sup> «Pues bien, diles: Esto dice el Señor Yahvé: Vosotros coméis con sangre*, alzáis los ojos hacia vuestras basuras*, derramáis sangre, ¡y vais a poseer esta tierra! <sup>26</sup> Confiáis en vuestras espadas, cometéis abominación, cada cual contamina a la mujer de su prójimo, ¡y vais a poseer esta tierra! <sup>27</sup> Les dirás: Esto dice el Señor Yahvé: Por mi vida, que los que están entre las ruinas caerán a espada, a los que andan por el campo los entregaré a las bestias como pasto, y los que están en las escarpaduras y en las cuevas morirán de peste. <sup>28</sup> Convertiré esta tierra en pura desolación, y se acabará su orgullo prepotente. Los montes de Israel serán devastados y nadie pasará más por ellos. <sup>29</sup> Y sabrán que yo soy Yahvé, cuando convierta esta tierra en pura desolación, por todas las abominaciones que han cometido.
+
+## Resultados de la predicación.
+<sup>30</sup> «En cuanto a ti, hijo de hombre, tus compatriotas andan hablando de ti junto a los muros y a las puertas de las casas. Comentan entre sí: ‘Vamos a escuchar qué palabra viene de parte de Yahvé.’ <sup>31</sup> Y mi pueblo acude a ti en masa y se sienta delante de ti; pero, tras escuchar tus palabras, no las ponen en práctica. Me lanzan lisonjas de palabra, pero su corazón sólo anda buscando su interés. <sup>32</sup> Te han tomado por un intérprete de cantos de amor, de voz encantadora, que se acompaña de buenos instrumentos. Sí, escuchan tus palabras, pero luego nadie las cumple. <sup>33</sup> Mas cuando todo esto llegue —ya está llegando—, sabrán que había un profeta en medio de ellos.»
+
+## Los pastores de Israel *.
+<span id="chapter-34" class="chapter-marker" data-chapter="34">34</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, profetiza contra los pastores de Israel; profetiza y diles: Esto dice el Señor Yahvé: ¡Ay de los pastores de Israel que se apacientan a sí mismos! ¿No deben los pastores apacentar el rebaño? <sup>3</sup> Pues vosotros os habéis bebido la leche* de las ovejas, os habéis vestido con su lana y habéis sacrificado las más rollizas. No habéis apacentado el rebaño. <sup>4</sup> No habéis fortalecido a las débiles, no habéis cuidado a la enferma ni curado a la que estaba herida; no habéis hecho volver a la descarriada ni buscado a la perdida. Al contrario, las habéis dominado con violencia y dureza. <sup>5</sup> Ellas se han dispersado, por falta de pastor, y se han convertido en presa de todas las fieras del campo. <sup>6</sup> Mi rebaño anda errante por todos los montes y altos collados*; mi rebaño anda disperso por todo el país, sin que nadie se ocupe de él ni salga en su busca.
+
+<sup>7</sup> «Por eso, pastores, escuchad la palabra de Yahvé: <sup>8</sup> Lo juro por mi vida —oráculo del Señor Yahvé—: Ya que mi rebaño ha sido expuesto al pillaje, hasta convertirse en pasto de todas las fieras del campo por falta de pastor; ya que mis pastores no se ocupan de mi rebaño, sino que se apacientan a sí mismos y no se ocupan de mis ovejas, <sup>9</sup> tendréis que escuchar, pastores, la palabra de Yahvé. <sup>10</sup> Esto dice el Señor Yahvé: Aquí estoy yo contra los pastores: reclamaré mi rebaño de sus manos y no les dejaré apacentar mi rebaño. Así los pastores no volverán a apacentarse a sí mismos. Yo arrancaré a mis ovejas de su boca, para que ya no sean su presa.
+
+<sup>11</sup> «Porque esto dice el Señor Yahvé: Aquí estoy yo, para cuidar personalmente de mi rebaño y velar por él. <sup>12</sup> Como un pastor vela por su rebaño cuando se encuentra en medio de sus ovejas dispersas, así velaré yo por mis ovejas. Las recobraré de todos los lugares donde se habían dispersado en día de densa niebla. <sup>13</sup> Las sacaré de en medio de los pueblos, las reuniré de los países y las conduciré de nuevo a su suelo. Las pastorearé por los montes de Israel, por los barrancos y por todos los poblados de esta tierra. <sup>14</sup> Las apacentaré en tiernos pastos, y su majada estará en los montes de la encumbrada Israel. Allí reposarán en buena majada, y pacerán pingües pastos por los montes de Israel. <sup>15</sup> Yo mismo apacentaré mis ovejas y yo las llevaré a reposar —oráculo del Señor Yahvé—. <sup>16</sup> Buscaré la oveja perdida, haré volver a la descarriada, curaré a la herida, confortaré a la enferma; pero a la que está gorda y robusta la exterminaré*; las pastorearé con justicia.
+
+<sup>17</sup> «En cuanto a vosotras, ovejas mías, esto dice el Señor Yahvé: Tengo pensado juzgar entre oveja y oveja, entre carnero y macho cabrío. <sup>18</sup> ¿Os parece poco pacer en tiernos pastos, para que pisoteéis además el resto de vuestros pastos? ¿Os parece poco beber en agua limpia, para que enturbiéis el resto con los pies? <sup>19</sup> ¡Mis ovejas tienen que pastar lo que vuestros pies han pisoteado y beber lo que vuestros pies han enturbiado! <sup>20</sup> Por eso, esto les dice el Señor Yahvé: Yo mismo voy a juzgar entre la oveja gorda y la flaca. <sup>21</sup> Puesto que vosotras habéis empujado con el flanco y con el lomo y habéis topado con los cuernos a todas las ovejas más débiles hasta dispersarlas fuera, <sup>22</sup> yo vendré a salvar a mis ovejas, para que ya no estén expuestas al pillaje. Voy a juzgar entre oveja y oveja.
+
+<sup>23</sup> «Yo suscitaré un solo pastor que las guíe y las apaciente: a mi siervo David. Él las apacentará y será su pastor. <sup>24</sup> Yo, Yahvé, seré su Dios, y mi siervo David será su príncipe. Yo, Yahvé, he hablado. <sup>25</sup> Concluiré con ellos una alianza de paz, y haré desaparecer de esta tierra a las bestias feroces. Habitarán seguros en la estepa y dormirán en los bosques. <sup>26</sup> Los asentaré en los alrededores de mi colina*, y mandaré a su tiempo la lluvia: será una lluvia de bendición. <sup>27</sup> El árbol del campo dará su fruto, la tierra dará sus productos, y ellos vivirán seguros en su tierra. Y sabrán que yo soy Yahvé, cuando despedace las barras de su yugo y los libre de la mano de los que los tienen esclavizados. <sup>28</sup> No volverán a ser presa de las naciones; las bestias salvajes no volverán a devorarlos. Habitarán seguros y no volverán a ser atemorizados. <sup>29</sup> Haré que les broten plantíos prósperos; no habrá más víctimas del hambre en el país, ni volverán a sufrir el ultraje de las naciones. <sup>30</sup> Y sabrán que yo, Yahvé su Dios, estoy con ellos, y que ellos, la casa de Israel, son mi pueblo —oráculo del Señor Yahvé—. <sup>31</sup> Vosotras, ovejas mías, sois el rebaño humano que yo apaciento, y yo soy vuestro Dios —oráculo del Señor Yahvé—.»
+
+## Contra los montes de Edom *.
+<span id="chapter-35" class="chapter-marker" data-chapter="35">35</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, vuelve tu rostro hacia la montaña de Seír, y profetiza contra ella. <sup>3</sup> Le dirás: Esto dice el Señor Yahvé: Aquí me tienes contra ti, montaña de Seír. Voy a extender mi mano contra ti: te convertiré en pura desolación <sup>4</sup> y dejaré en ruinas tus ciudades; serás una desolación, y sabrás que yo soy Yahvé. <sup>5</sup> Por haber alimentado un odio eterno y haber entregado a la espada* a los israelitas cuando les llegó el desastre, el último día, cuando pagaron por su culpa, <sup>6</sup> por eso, por mi vida —oráculo del Señor Yahvé—, voy a reducirte a sangre, y la sangre te perseguirá. Sí, eres rea de sangre*, ¡y la sangre te perseguirá! <sup>7</sup> Convertiré a la montaña de Seír en pura desolación, y extirparé de allí al que va y al que vuelve. <sup>8</sup> Llenaré de heridos tus montes; tus colinas, valles y barrancos se llenarán de víctimas de la espada. <sup>9</sup> Te convertiré en perpetua desolación; tus ciudades no volverán a ser habitadas. Y sabréis que yo soy Yahvé.
+
+<sup>10</sup> «Tú has dicho: ‘Las dos naciones, los dos países son míos, vamos a tomarlos en posesión’, siendo así que Yahvé estaba allí*. <sup>11</sup> Pues por haberlo dicho, juro por mí mismo —oráculo del Señor Yahvé—, que procederé con la misma cólera y el mismo celo con que tú los has odiado, y me daré a conocer a ellos cuando te castigue. <sup>12</sup> Sabrás que yo, Yahvé, he oído todos los insultos que lanzabas contra los montes de Israel, cuando decías: ‘Están devastados, nos han sido entregados como pasto.’ <sup>13</sup> Me habéis desafiado de palabra, no habéis hecho más que hablar contra mí; lo he oído todo. <sup>14</sup> Esto dice el Señor Yahvé: Para que toda esta tierra se alegre, haré de ti una desolación. <sup>15</sup> Tú te alegraste cuando la heredad de la casa de Israel era una desolación; pues yo te trataré de la misma manera. Serás una desolación, montaña de Seír, y lo mismo el conjunto de Edom. Y sabrán que yo soy Yahvé.»
+
+## Oráculo sobre los montes de Israel*.
+<span id="chapter-36" class="chapter-marker" data-chapter="36">36</span><sup>1</sup> «Tú, hijo de hombre, profetiza sobre los montes de Israel. Diles: Montes de Israel, escuchad la palabra de Yahvé. <sup>2</sup> Esto dice el Señor Yahvé: Por haber dicho el enemigo de vosotros: ‘¡Ja, ja, estas alturas eternas han pasado a ser posesión nuestra!’, <sup>3</sup> profetiza y diles: Esto dice el Señor Yahvé: Ya que habéis sido asolados y codiciados por cuantos os rodean, hasta pasar a ser posesión de las otras naciones, y ya que habéis sido el blanco de las habladurías y difamaciones de la gente, <sup>4</sup> escuchad ahora, montes de Israel, la palabra del Señor Yahvé. Esto dice el Señor Yahvé a los montes, a las colinas, a los barrancos y a los valles, a las ruinas desoladas y a las ciudades abandonadas que han sido entregadas al pillaje y a la irrisión del resto de las naciones circunvecinas; <sup>5</sup> sí, esto dice el Señor Yahvé: Movido por el ardor de mi celo, voy a hablar contra las otras naciones y contra el conjunto de Edom, que, con alegría en el corazón y desprecio en el alma, se apoderaron de mi tierra como si fuera suya, para entregar su pastizal al pillaje.
+
+<sup>6</sup> «Por ello, profetiza sobre la tierra de Israel. Dirás a los montes y a las colinas, a los barrancos y a los valles: Esto dice el Señor Yahvé: Aquí estoy, lleno de celo y de furor, pues habéis sufrido el ultraje de las naciones. <sup>7</sup> Por eso, esto dice el Señor Yahvé: Juro mano en alto que las naciones que os rodean cargarán con sus propios ultrajes.
+
+<sup>8</sup> «Por vuestra parte, montes de Israel, vais a echar ramas y a producir frutos para mi pueblo Israel, porque está a punto de volver*. <sup>9</sup> Sí, aquí me tenéis, vuelto hacia vosotros: vais a ser cultivados y sembrados. <sup>10</sup> Multiplicaré los habitantes de toda la casa de Israel; las ciudades serán habitadas y las ruinas reconstruidas. <sup>11</sup> Os multiplicaré personas y bestias, que serán numerosos y fecundos. Os repoblaré como antaño y mejoraré vuestra condición precedente. Y sabréis que yo soy Yahvé. <sup>12</sup> Haré que circulen por vosotros personas: mi pueblo Israel. Tomarán posesión de ti y serás su heredad, y no volverás a privarles de sus hijos.
+
+<sup>13</sup> «Esto dice el Señor Yahvé: Se ha dicho de ti* que devoras a la gente y que has privado a tu nación de hijos*; <sup>14</sup> pues bien, ya no devorarás más hombres, ni volverás a privar de hijos a tu nación*  —oráculo del Señor Yahvé—. <sup>15</sup> No consentiré que vuelvas a oír el ultraje de las naciones y a soportar los insultos de los pueblos; y no volverás a privar de hijos a tu nación —oráculo del Señor Yahvé—.»
+
+<sup>16</sup> Yahvé me dirigió su palabra en estos términos: <sup>17</sup> «Hijo de hombre, los de la casa de Israel que habitaban en su tierra la contaminaron con su conducta y sus obras; su conducta me resultaba impura, como la de una menstruación. <sup>18</sup> Entonces derramé mi furor sobre ellos, por la sangre que habían vertido en su tierra y por las basuras con las que la habían contaminado. <sup>19</sup> Los dispersé entre las naciones y fueron esparcidos por los países. Los juzgué según su conducta y sus obras. <sup>20</sup> *Y en las naciones donde llegaron, profanaron mi santo nombre, haciendo que se dijera a propósito de ellos: ‘Son el pueblo de Yahvé, y han tenido que salir de su tierra.’ <sup>21</sup> Pero yo he tenido consideración a mi santo nombre, que la casa de Israel profanó entre las naciones adonde había ido. <sup>22</sup> Por eso, di a la casa de Israel: Esto dice el Señor Yahvé: No hago esto por consideración a vosotros, casa de Israel, sino por mi santo nombre, que vosotros habéis profanado entre las naciones adonde fuisteis. <sup>23</sup> Yo santificaré mi gran nombre, profanado por vosotros entre las naciones; y las naciones sabrán que yo soy Yahvé —oráculo del Señor Yahvé— cuando vean que me sirvo de vosotros para manifestarles mi santidad. <sup>24</sup> Os tomaré de entre las naciones, os recogeré de todos los países y os llevaré a vuestro suelo. <sup>25</sup> Os rociaré con agua pura y quedaréis purificados; os purificaré de todas vuestras inmundicias y de todas vuestras basuras. <sup>26</sup> Os daré un corazón nuevo, infundiré en vosotros un espíritu nuevo, quitaré de vuestra carne el corazón de piedra y os daré un corazón de carne. <sup>27</sup> Infundiré mi espíritu en vosotros y haré que os conduzcáis según mis preceptos y observéis y practiquéis mis normas*. <sup>28</sup> Habitaréis la tierra que yo di a vuestros padres. Vosotros seréis mi pueblo y yo seré vuestro Dios. <sup>29</sup> Os pondré a salvo de todas vuestras inmundicias. Haré que el trigo se multiplique, y no os someteré más al hambre. <sup>30</sup> Multiplicaré los frutos de los árboles y los productos de los campos, para que no sufráis más el oprobio del hambre entre las naciones. <sup>31</sup> Entonces os acordaréis de vuestra mala conducta y de vuestras acciones, que no eran buenas, y sentiréis asco de vosotros mismos por vuestras culpas y vuestras abominaciones. <sup>32</sup> No hago esto por vosotros —oráculo del Señor Yahvé—, sabedlo bien. Avergonzaos y confundíos de vuestra conducta, casa de Israel.
+
+<sup>33</sup> «Esto dice el Señor Yahvé: El día que os purifique de todas vuestras culpas, repoblaré las ciudades y las ruinas serán reconstruidas; <sup>34</sup> la tierra devastada será cultivada, después de haber sido una desolación a la vista de todos los transeúntes. <sup>35</sup> Y se dirá: ‘Esta tierra, hasta ahora devastada, parece un jardín de Edén; y las ciudades en ruinas, devastadas y demolidas, están de nuevo fortificadas y habitadas.’ <sup>36</sup> Así, las naciones que quedan a vuestro alrededor sabrán que yo, Yahvé, he reconstruido lo que estaba demolido y he replantado lo que estaba devastado. Yo, Yahvé, lo digo y lo hago.
+
+<sup>37</sup> «Esto dice el Señor Yahvé: Me dejaré todavía buscar por la casa de Israel, para multiplicarlos como si fueran un rebaño humano, <sup>38</sup> un rebaño de reses consagradas, como el que se concentra en Jerusalén con ocasión de las fiestas solemnes. De manera parecida, vuestras ciudades en ruinas se llenarán de un rebaño humano. Y sabrán que yo soy Yahvé.»
+
+## Los huesos secos.
+<span id="chapter-37" class="chapter-marker" data-chapter="37">37</span><sup>1</sup> Yahvé puso su mano sobre mí y, por su espíritu, me sacó y me colocó en medio de la vega*, que estaba llena de huesos. <sup>2</sup> Me hizo pasar por entre ellos en todas direcciones. Los huesos eran numerosos y cubrían la superficie de la vega, y estaban completamente secos. <sup>3</sup> Me dijo: «Hijo de hombre, ¿podrán vivir estos huesos?» Yo respondí: «Señor Yahvé, tú lo sabrás.» <sup>4</sup> Entonces me dijo: «Profetiza sobre estos huesos. Les dirás: Huesos secos, escuchad la palabra de Yahvé. <sup>5</sup> Esto dice el Señor Yahvé a estos huesos: Voy a infundir en vosotros un espíritu* que os hará vivir. <sup>6</sup> Os cubriré de nervios, haré crecer carne en vosotros, os cubriré de piel, os infundiré espíritu y viviréis. Y sabréis que yo soy Yahvé.» <sup>7</sup> Yo profeticé como se me había ordenado, y mientras yo profetizaba se produjo un ruido. Hubo un temblor, y los huesos se juntaron* unos con otros. <sup>8</sup> Me fijé y vi que se recubrían de nervios, que la carne brotaba y que la piel se extendía por encima. Pero no había espíritu en ellos. <sup>9</sup> Él me dijo: «Profetiza al espíritu, profetiza, hijo de hombre. Dirás al espíritu: Esto dice el Señor Yahvé: Ven, espíritu, de los cuatro vientos, y sopla sobre estos muertos para que vivan.» <sup>10</sup> Yo profeticé como se me había ordenado, y el espíritu entró en ellos. Entonces revivieron y se pusieron de pie: era un ejército* enorme, inmenso.
+
+<sup>11</sup> Entonces me dijo: «Hijo de hombre, estos huesos son toda la casa de Israel. Ellos andan diciendo: ‘Se han secado nuestros huesos, se ha desvanecido nuestra esperanza, todo ha acabado para nosotros*.’ <sup>12</sup> Por eso, profetiza y diles: Esto dice el Señor Yahvé: Voy a abrir vuestras tumbas; os sacaré de ellas, pueblo mío, y os llevaré de nuevo al suelo de Israel. <sup>13</sup> Sabréis que yo soy Yahvé cuando abra vuestras tumbas y os haga salir de ellas, pueblo mío. <sup>14</sup> Infundiré mi espíritu en vosotros y viviréis; os estableceré en vuestro suelo, y sabréis que yo, Yahvé, lo digo y lo hago —oráculo de Yahvé—.»
+
+## Judá e Israel en un solo reino.
+<sup>15</sup> Yahvé me dirigió su palabra en estos términos: <sup>16</sup> «Por tu parte, hijo de hombre, toma una vara y escribe en ella: ‘Judá y los israelitas* asociados a él.’ Toma luego otra vara y escribe en ella: ‘José, vara de Efraín, y toda la casa de Israel asociada a él*.’ <sup>17</sup> Júntalas después una con otra, de suerte que, cuando las tengas en tu mano, formen una sola vara. <sup>18</sup> Y cuando tus compatriotas te pregunten: ‘¿No nos vas a explicar qué es eso que tienes ahí?’, <sup>19</sup> les responderás: Esto dice el Señor Yahvé: Voy a tomar la vara de José (que está en la mano de Efraín) y las tribus de Israel asociadas a él, y pondré junto a ella la vara de Judá, de suerte que, cuando las tenga en mi mano, sean una sola cosa.
+
+<sup>20</sup> «Sujeta con tu mano las varas en las que has escrito, de modo que las vean, <sup>21</sup> y diles: Esto dice el Señor Yahvé: Voy a recoger a los israelitas de entre las naciones a las que marcharon. Los reuniré de todas partes para conducirlos a su suelo. <sup>22</sup> Haré de ellos una sola nación en esta tierra, en los montes de Israel, y los gobernará un solo rey. Ya no formarán dos naciones, ni volverán a estar divididos en dos reinos. <sup>23</sup> No se contaminarán más con sus basuras, con sus ídolos y con todos sus crímenes. Los pondré a salvo de las infidelidades* por las que pecaron y los purificaré, y serán mi pueblo y yo seré su Dios. <sup>24</sup> Mi siervo David reinará sobre ellos; será el único pastor que tengan. Obedecerán mis normas, observarán mis preceptos y los pondrán en práctica. <sup>25</sup> Habitarán en la tierra que yo di a mi siervo Jacob, donde habitaron vuestros padres. Allí habitarán ellos, sus hijos y sus descendientes para siempre, y mi siervo David será su príncipe eternamente. <sup>26</sup> Concluiré con ellos una alianza de paz, que será para ellos una alianza eterna. Los estableceré, los multiplicaré y pondré mi santuario en medio de ellos para siempre. <sup>27</sup> Mi morada estará junto a ellos; seré su Dios y ellos serán mi pueblo. <sup>28</sup> Y, cuando mi santuario esté en medio de ellos para siempre, sabrán las naciones que yo soy Yahvé, que santifico a Israel.»
+
+## Contra Gog, rey de Magog*.
+<span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Yahvé me dirigió su palabra en estos términos: <sup>2</sup> «Hijo de hombre, vuelve tu rostro hacia Gog, en el país de Magog, príncipe supremo de Mésec y Túbal*, y profetiza contra él. <sup>3</sup> Le dirás: Esto dice el Señor Yahvé: Aquí estoy contra ti, Gog, príncipe supremo de Mésec y Túbal. <sup>4</sup> Te haré dar media vuelta, te pondré garfios en las quijadas* y te haré salir con todo tu ejército, caballos y caballeros, todos bien equipados, una inmensa asamblea con escudos y paveses, y diestros en el manejo de la espada. <sup>5</sup> Entre ellos están Persia, Cus y Put, todos con escudo y yelmo. <sup>6</sup> Contigo están Gómer, con todas sus huestes, Bet Togarmá, en el extremo norte, con todas sus huestes*; en fin, pueblos numerosos. <sup>7</sup> Disponte y prepárate, junto con toda la muchedumbre concentrada en torno a ti, y ponte a mi servicio*.
+
+<sup>8</sup> «Al cabo de mucho tiempo, recibirás órdenes. Después de muchos años, atacarás el país cuyos habitantes escaparon a la espada y fueron reunidos, de entre una multitud de pueblos, en los montes de Israel, que durante tanto tiempo habían estado desérticos. Desde que fueron separados de los otros pueblos, viven todos tranquilos*. <sup>9</sup> Tú subirás y te desplazarás como un huracán, como un nubarrón que cubrirá la tierra, junto con todas tus huestes y los numerosos pueblos que estén contigo.
+
+<sup>10</sup> «Esto dice el Señor Yahvé: Aquel día te vendrán a la mente proyectos y concebirás perversos planes*. <sup>11</sup> Dirás: ‘Voy a atacar un país lleno de brechas; marcharé contra toda esa gente confiada que habita tranquilamente en ciudades sin murallas, sin cerrojos ni puertas.’ <sup>12</sup> Irás a saquear, a hacer botín, a poner tu mano sobre ruinas repobladas, actuando contra un pueblo reunido de entre las naciones, entregado a reponer ganado y hacienda, que habita en el centro de la tierra*. <sup>13</sup> Sabá, Dedán, los mercaderes de Tarsis y todos sus leoncillos te dirán: ‘¿A saquear has venido? ¿Para hacer botín has concentrado tu ejército? ¿Para llevarte el oro y la plata, para apoderarte de ganados y haciendas, para hacer un gran botín?’
+
+<sup>14</sup> «Por eso, profetiza, hijo de hombre. Dirás a Gog: Esto dice el Señor Yahvé: ¿No es verdad que aquel día, cuando mi pueblo Israel viva en seguridad, te pondrás en movimiento*? <sup>15</sup> Vendrás de tu tierra, del extremo norte, acompañado de pueblos numerosos, todos montados a caballo: una enorme muchedumbre, un ejército innumerable. <sup>16</sup> Atacarás a mi pueblo Israel, como un nublado que recubre la tierra. Será después de mucho tiempo, cuando te haga venir contra mi tierra para que las naciones me conozcan, y vean que manifiesto mi santidad a costa tuya, Gog.
+
+<sup>17</sup> «Esto dice el Señor Yahvé: Tú eres* aquél de quien yo hablé antaño, por medio de mis siervos los profetas de Israel, que profetizaron en aquel tiempo, durante años, que yo te traería para atacarlos*. <sup>18</sup> Aquel día, cuando Gog avance contra el suelo de Israel —oráculo del Señor Yahvé— estallará mi furor*. Lo digo lleno de cólera <sup>19</sup> y de celo, enardecido por la furia: Sí, aquel día habrá un gran terremoto en la tierra de Israel. <sup>20</sup> Entonces mi presencia hará temblar a los peces del mar y a los pájaros del cielo, a las bestias del campo y a todos los reptiles que serpean por el suelo, y a toda la gente que hay en la tierra. Se desplomarán los montes, caerán las rocas, todas las murallas se derrumbarán por tierra. <sup>21</sup> Convocaré contra él toda clase de terrores* —oráculo del Señor Yahvé—. Volverán la espada unos contra otros. <sup>22</sup> Mi pleito con él irá acompañado de peste y sangre; haré caer una lluvia torrencial, granizo, fuego y azufre, sobre él, sobre sus huestes y sobre los numerosos pueblos aliados con él. <sup>23</sup> Manifestaré mi grandeza y mi santidad; me daré a conocer a numerosas naciones. Y sabrán que yo soy Yahvé.
+
+<span id="chapter-39" class="chapter-marker" data-chapter="39">39</span><sup>1</sup> «Por tu parte, hijo de hombre, profetiza contra Gog. Le dirás: Esto dice el Señor Yahvé: Aquí estoy contra ti, Gog, príncipe supremo de Mésec y Túbal. <sup>2</sup> Te haré dar media vuelta, te conduciré, te haré subir desde el extremo norte y te guiaré a los montes de Israel. <sup>3</sup> Romperé tu arco en tu mano izquierda y haré caer tus flechas de tu mano derecha; <sup>4</sup> caerás en los montes de Israel, junto con tus huestes y los pueblos aliados contigo. Te entregaré como pasto a toda clase de aves de rapiña y a las fieras salvajes; <sup>5</sup> quedarás tendido en el campo. Soy yo quien lo dice —oráculo del Señor Yahvé—. <sup>6</sup> Mandaré fuego contra Magog y contra los que viven confiados en las costas. Y sabrán que yo soy Yahvé. <sup>7</sup> Manifestaré mi santo nombre en medio de mi pueblo Israel; no dejaré que vuelva a ser profanado mi santo nombre. Y las naciones sabrán que yo soy Yahvé, santo en Israel*.
+
+<sup>8</sup> «Todo esto ya está llegando, y se va a realizar —oráculo del Señor Yahvé—: éste es el día que yo he anunciado.
+
+<sup>9</sup> «Entonces los habitantes de las ciudades de Israel saldrán a entregar a las llamas las armas, paveses y escudos, arcos y flechas, mazas y lanzas. Harán fuego con ello durante siete años. <sup>10</sup> No irán ya a buscar leña en el campo, ni la recogerán en el bosque, porque harán el fuego con las armas. Saquearán a sus saqueadores y harán botín de sus depredadores —oráculo del Señor Yahvé—.
+
+<sup>11</sup> «Aquel día, yo daré a Gog como sepulcro en Israel un lugar famoso, el valle de los Oberín*, al este del mar, el que corta el paso a los viajeros: allí será enterrado Gog con todo su ejército, y será llamado valle de Hamón Gog*. <sup>12</sup> La casa de Israel los enterrará para purificar la tierra, y tardará siete meses. <sup>13</sup> Todo el pueblo de la tierra será movilizado para enterrarlos, y tal acción les dará renombre el día que yo manifieste mi gloria —oráculo del Señor Yahvé—. <sup>14</sup> Luego escogerán hombres que recorran constantemente el país y entierren a los que hayan quedado por el suelo, para purificarlo. Al cabo de siete meses empezarán su búsqueda*. <sup>15</sup> Cuando, al recorrer el país, alguno de ellos vea huesos humanos, pondrá al lado una señal hasta que los sepultureros los entierren en el valle de Hamón Gog, <sup>16</sup> (Hamoná es también el nombre de una ciudad*) y purifiquen así la tierra.
+
+<sup>17</sup> «En cuanto a ti, hijo de hombre, esto dice el Señor Yahvé: Di a los pájaros de todas clases y a todas las fieras del campo: Congregaos, venid, reuníos de todas partes para el sacrificio al que yo os invito: toda una hecatombe sobre los montes de Israel. Comeréis carne y beberéis sangre; <sup>18</sup> comeréis carne de héroes y beberéis sangre de príncipes de la tierra: todos son carneros, corderos, machos cabríos, pingües toros de Basán. <sup>19</sup> En este sacrificio que yo os brindo, comeréis grasa hasta la saciedad y beberéis sangre hasta la embriaguez. <sup>20</sup> Os hartaréis a mi mesa de caballos y caballeros, de héroes y de toda clase de guerreros —oráculo del Señor Yahvé—.
+
+## Conclusión*.
+<sup>21</sup> «Así manifestaré yo mi gloria entre las naciones: todas podrán ver el juicio que voy a ejecutar cuando ponga mi mano sobre ellos. <sup>22</sup> A partir de ese día, la casa de Israel sabrá que yo soy Yahvé su Dios. <sup>23</sup> Y las naciones sabrán que la casa de Israel fue deportada por sus culpas, pues me fueron infieles. Yo les oculté mi rostro y los entregué en manos de sus enemigos, y cayeron todos a espada. <sup>24</sup> Los traté como lo merecían sus inmundicias y sus crímenes, y les oculté mi rostro.
+
+<sup>25</sup> «Por eso, esto dice el Señor Yahvé: Ahora cambiaré la suerte de Jacob, me compadeceré de toda la casa de Israel y me mostraré celoso de mi santo nombre. <sup>26</sup> Cuando vivan seguros en su tierra, sin que nadie los inquiete, olvidarán su ignominia y todas las infidelidades que cometieron contra mí. <sup>27</sup> Cuando yo los haga volver de entre los pueblos y los recoja de los países de sus enemigos, manifestaré en ellos mi santidad a la vista de numerosas naciones. <sup>28</sup> Y sabrán que yo soy Yahvé su Dios, cuando, después de haberlos desterrado por las naciones, los reúna en su tierra, sin dejar allí a ninguno de ellos. <sup>29</sup> No les ocultaré más mi rostro, pues derramaré mi espíritu sobre la casa de Israel —oráculo del Señor Yahvé—.»
+
+# IV. La «torá» de Ezequiel*
+## El Templo futuro.
+<span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> El año veinticinco de nuestra cautividad, al comienzo del año, el día diez del mes, catorce años después de la caída de la ciudad*, el mismo día, Yahvé dejó sentir su mano sobre mí, y me llevó allá. <sup>2</sup> En medio de sobrecogedoras visiones, me llevó a la tierra de Israel y me posó sobre un monte muy alto, en cuya cima parecía que estaba edificada una ciudad*, al mediodía. <sup>3</sup> Cuando me llevó allá, vi un hombre* que parecía de bronce. Tenía en la mano una cuerda de lino y una vara de medir, y estaba de pie junto al pórtico. <sup>4</sup> El hombre me dijo: «Hijo de hombre, mira bien, escucha atentamente y presta atención a todo lo que te voy a mostrar, porque has sido traído aquí para que yo te lo muestre. Comunica a la casa de Israel todo lo que vas a ver.»
+
+## El muro exterior.
+<sup>5</sup> Vi un muro que rodeaba el templo por la parte exterior. La vara de medir que el hombre tenía en la mano era de seis codos de codo y palmo*. Con ella midió la construcción: una vara de espesor y otra vara de altura.
+
+## El pórtico oriental*.
+<sup>6</sup> Fue luego al pórtico que miraba a oriente, subió sus gradas y midió el umbral del pórtico: una vara de profundidad*. <sup>7</sup> La lonja medía una vara de largo por una de ancho; la pilastra* entre las lonjas, cinco codos; y el umbral del pórtico por el lado del vestíbulo del pórtico, hacia el interior, una vara. <sup>8</sup> Luego midió el vestíbulo del pórtico, que estaba situado hacia el interior: medía ocho codos; <sup>9</sup> su pilastra medía dos codos. <sup>10</sup> El pórtico oriental tenía tres lonjas por cada lado, todas de la misma dimensión; las pilastras que había a cada lado tenían también las mismas dimensiones. <sup>11</sup> Luego midió la anchura del vano del pórtico, que era de diez codos, y la longitud del pórtico, que era de trece codos. <sup>12</sup> Delante de las lonjas había parapetos, que medían un codo por ambos lados. Y la lonja tenía seis codos por cada lado. <sup>13</sup> Después midió el pórtico desde el fondo de una lonja hasta el fondo de la otra*; su anchura era de veinticinco codos, de una entrada a la otra. <sup>14</sup> Midió el vestíbulo: veinte codos; el atrio rodeaba totalmente el pórtico*. <sup>15</sup> Desde la fachada del pórtico donde estaba la entrada, hasta el fondo del vestíbulo interior del pórtico, había cincuenta codos. <sup>16</sup> Había ventanas enrejadas* sobre las lonjas y sobre sus pilastras, hacia el interior del pórtico, todo alrededor, e igualmente el vestíbulo tenía, por el interior, ventanas todo alrededor; y sobre las pilastras había palmeras*.
+
+## El atrio exterior.
+<sup>17</sup> Me llevó al atrio exterior, y vi allí varias salas y un enlosado construido alrededor del atrio: treinta salas daban a este enlosado. <sup>18</sup> El enlosado, o sea, el enlosado inferior, flanqueaba los pórticos, y su anchura se correspondía con la longitud de éstos. <sup>19</sup> Midió la anchura del atrio*, desde la fachada del pórtico inferior hasta la fachada del atrio interior, por fuera: cien codos (a oriente y al norte).
+
+## El pórtico septentrional.
+<sup>20</sup> Midió después la longitud y la anchura del pórtico que daba al norte del atrio exterior. <sup>21</sup> Tenía tres lonjas por cada lado; sus pilastras y vestíbulos ofrecían las mismas dimensiones que los del primer pórtico: cincuenta codos de largo y veinticinco de ancho. <sup>22</sup> Sus ventanas, su vestíbulo y sus palmeras medían lo mismo que las del pórtico que daba a oriente. Se subía a él por siete gradas, y su vestíbulo estaba situado hacia el interior*. <sup>23</sup> Había un pórtico en el atrio interior, frente al pórtico septentrional, lo mismo que en el pórtico oriental*. Midió la distancia de un pórtico a otro: cien codos.
+
+## El pórtico meridional.
+<sup>24</sup> Me condujo luego hacia el lado del mediodía, donde había un pórtico. Midió sus lonjas*, sus pilastras y su vestíbulo, y tenían las mismas dimensiones. <sup>25</sup> Tenía, lo mismo que su vestíbulo, ventanas todo alrededor, iguales que las otras ventanas. El pórtico medía cincuenta codos de largo y veinticinco de ancho. <sup>26</sup> Su escalera tenía siete gradas; su vestíbulo estaba situado hacia el interior, y tenía palmeras, una a cada lado, sobre sus pilastras. <sup>27</sup> El atrio interior tenía también un pórtico hacia el mediodía; midió la distancia de un pórtico a otro, en dirección del mediodía: cien codos.
+
+## El atrio interior. Pórtico meridional.
+<sup>28</sup> Luego me llevó al atrio, por el pórtico meridional. Midió el pórtico meridional, que tenía las mismas dimensiones que los otros. <sup>29</sup> Sus lonjas, pilastras y vestíbulo medían lo mismo que antes. Al igual que su vestíbulo, tenía ventanas todo alrededor. Medía cincuenta codos de largo por veinticinco de ancho. <sup>30</sup> El perímetro del vestíbulo era de veinticinco codos de largo por cinco de ancho*. <sup>31</sup> Su vestíbulo daba al atrio exterior. Había palmeras sobre sus pilastras, y su escalera tenía ocho gradas.
+
+## El pórtico oriental.
+<sup>32</sup> Me llevó al pórtico interior, hacia oriente*, y midió el pórtico, <sup>33</sup> que tenía las mismas dimensiones que los otros. Sus lonjas, pilastras y vestíbulo medían lo mismo que antes. Tenía ventanas alrededor, como su vestíbulo. Medía cincuenta codos de largo por veinticinco de ancho. <sup>34</sup> Su vestíbulo daba al atrio exterior. Había palmeras sobre sus pilastras, a cada lado, y su escalera tenía ocho gradas.
+
+## El pórtico septentrional.
+<sup>35</sup> Me llevó luego al pórtico septentrional y lo midió; tenía las mismas dimensiones que los otros. <sup>36</sup> Alrededor podían verse sus lonjas, sus pilastras*, su vestíbulo y sus ventanas. Dimensiones: cincuenta codos de largo y veinticinco de ancho. <sup>37</sup> Su vestíbulo* daba al atrio exterior. Había palmeras sobre sus pilastras, a cada lado, y su escalera tenía ocho gradas.
+
+## Anejos de los pórticos.
+<sup>38</sup> Había una sala cuya entrada estaba en el vestíbulo del pórtico*. Allí se lavaba el holocausto. <sup>39</sup> El vestíbulo del pórtico tenía, a cada lado, dos mesas para inmolar sobre ellas el holocausto, el sacrificio expiatorio y el sacrificio penitencial. <sup>40</sup> Por el lado exterior, subiendo hacia la entrada del pórtico, al norte, había dos mesas, y al otro lado, hacia el vestíbulo del pórtico, otras dos. <sup>41</sup> Había, pues, cuatro mesas en la parte interior del pórtico y otras cuatro fuera, o sea, ocho mesas sobre las que se hacía la inmolación. <sup>42</sup> Además había cuatro mesas para el holocausto. Eran de piedra de sillería, de codo y medio de largo, codo y medio de ancho y un codo de alto. Sobre ellas se colocaban los instrumentos con los que se inmolaba el holocausto y el sacrificio. <sup>43</sup> Las ranuras, de un palmo de anchura, estaban dispuestas en el interior, todo en torno. Sobre estas mesas se ponía la carne de las ofrendas.
+
+<sup>44</sup> Me llevó al atrio interior, donde había dos salas, una al lado del pórtico septentrional, con su fachada al mediodía, y la otra al lado del pórtico meridional, con su fachada al norte*. <sup>45</sup> Me dijo: «Esta sala que mira al mediodía está destinada a los sacerdotes que cumplen el ministerio del templo. <sup>46</sup> Y la sala que mira al norte está destinada a los sacerdotes que cumplen el ministerio del altar. Son los hijos de Sadoc, los que, entre los hijos de Leví, se acercan a Yahvé para servirle.»
+
+## El atrio interior.
+<sup>47</sup> Midió el atrio, que tenía cien codos de largo por cien codos de ancho. Era, pues, cuadrado. El altar estaba delante del templo.
+
+## El templo *. El Ulam o Vestíbulo.
+<sup>48</sup> Me llevó al vestíbulo del templo y midió las pilastras del vestíbulo*: cinco codos por cada lado; luego la anchura del pórtico: catorce codos; y las paredes laterales del pórtico*: tres codos por cada lado. <sup>49</sup> El vestíbulo medía veinte codos de largo por doce ancho. Se subía a él por diez gradas*, y tenía columnas junto a las pilastras, una a cada lado.
+
+## El Hekal o Santo.
+<span id="chapter-41" class="chapter-marker" data-chapter="41">41</span><sup>1</sup> Me llevó dentro del Santo y midió sus pilastras: seis codos de ancho por cada uno de sus lados*. <sup>2</sup> El vano de la entrada medía diez codos. Las paredes laterales de la entrada medían cinco codos de ancho por cada lado. Midió su longitud, que resultó ser de cuarenta codos; y su anchura, de veinte codos.
+
+## El Debir o Santo de los Santos.
+<sup>3</sup> Penetró en el interior y midió la pilastra de la entrada: dos codos; después la entrada: seis codos; y las paredes laterales* de la entrada: siete codos. <sup>4</sup> Midió su longitud, que fue de veinte codos; y su anchura, de veinte codos delante del Santo. Y me dijo: «Esto es el Santo de los Santos.»
+
+## Las celdas laterales *.
+<sup>5</sup> Midió el muro del templo, que tenía seis codos; la anchura del tránsito lateral, que rodeaba el templo, era de cuatro codos. <sup>6</sup> Las celdas laterales estaban superpuestas en tres pisos de treinta celdas cada uno*. Se habían dispuesto en el muro del templo salientes para estribar las celdas que lo rodeaban: así las celdas no estribaban en el muro del templo. <sup>7</sup> La anchura de las celdas aumentaba a medida que se subía, ensanchamiento que se lograba, a costa del muro, según se subía, y todo alrededor del templo; por eso el interior se ensanchaba por arriba. Del piso inferior se subía al del medio, y de éste al superior*. <sup>8</sup> Vi también que el templo tenía un talud todo alrededor, que servía de base de las celdas laterales; medía una vara entera de seis codos*. <sup>9</sup> El espesor del muro de las celdas laterales, por el exterior, era de cinco codos; quedaba un pasadizo entre las celdas laterales del templo. <sup>10</sup> Entre las salas había una anchura de veinte codos, todo alrededor del templo. <sup>11</sup> Y las celdas laterales tenían dos entradas sobre el pasadizo, una hacia el norte y otra hacia el mediodía. El pasadizo medía cinco codos en todo su perímetro.
+
+## El edificio occidental*.
+<sup>12</sup> El edificio que bordeaba el patio por el lado occidental tenía setenta codos de anchura. La pared de este edificio tenía un espesor de cinco codos, todo alrededor, y una longitud de noventa codos. <sup>13</sup> Después midió el templo, que tenía cien codos de largo. El patio más el edificio y sus muros tenían una longitud de cien codos. <sup>14</sup> La anchura de la fachada del templo más el patio oriental era de cien codos. <sup>15</sup> Midió también la longitud del edificio a lo largo del patio que tenía detrás, y sus galerías a cada lado: cien codos.
+
+## Ornamentación interior.
+El interior del Santo y los vestíbulos del atrio, <sup>16</sup> los umbrales, las ventanas enrejadas, las galerías de los tres lados, alrededor, frente al umbral, estaban recubiertos de madera todo alrededor, desde el suelo hasta las ventanas*, y éstas estaban guarnecidas de un enrejado. <sup>17</sup> Desde la entrada hasta el interior del templo, y por fuera, así como en todo el ámbito del muro, por fuera y por dentro*, <sup>18</sup> había representados querubines y palmeras, una palmera entre querubín y querubín; cada querubín tenía dos caras: <sup>19</sup> una cara de hombre vuelta hacia la palmera de un lado y una cara de león hacia la palmera del otro lado; así por todo el ámbito del templo. <sup>20</sup> Desde el suelo hasta encima de la entrada estaban representados los querubines y las palmeras en el muro*. <sup>21</sup> El jambaje del Santo era cuadrado.
+
+## El altar de madera.
+Delante del Santuario se veía una especie <sup>22</sup> de altar de madera de tres codos de alto, dos codos de largo y dos de ancho*. Sus ángulos, su base y sus lados eran de madera. El hombre me dijo: «Ésta es la mesa que está delante de Yahvé.»
+
+## Las puertas.
+<sup>23</sup> El Santo tenía una puerta doble, y también el Santuario. <sup>24</sup> Eran puertas de dos hojas movibles, dos hojas en una puerta y dos en la otra. <sup>25</sup> Y por encima (sobre las puertas del Santo), había representados querubines y palmeras como los representados en los muros. Sobre la fachada del vestíbulo, por el exterior, había un arquitrabe de madera. <sup>26</sup> Ventanas enrejadas y palmeras había a ambos lados, en las paredes laterales del vestíbulo, las celdas laterales del templo y los arquitrabes*.
+
+## Dependencias del templo*.
+<span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Luego me hizo salir al atrio exterior, hacia el norte, y me llevó a las salas situadas cara al patio, es decir, frente al edificio, al norte. <sup>2</sup> La longitud era de cien codos, hacia el norte*, y la anchura de cincuenta codos. <sup>3</sup> Frente a los pórticos* del atrio interior, y frente al enlosado del atrio exterior, había una galería a lo largo de la galería triple, <sup>4</sup> y, por delante de las salas, un corredor de diez codos de ancho hacia el interior, y cien codos de largo*; sus puertas daban al norte. <sup>5</sup> Las salas superiores eran estrechas, porque las galerías les comían parte de su espacio, más estrechas que las de abajo y las del medio del edificio, <sup>6</sup> porque estaban divididas en tres pisos y no tenían columnas como el atrio. Por eso, se iban estrechando con relación a las de abajo y las del medio (a partir del suelo). <sup>7</sup> Y el muro exterior, paralelo a las salas, en dirección al atrio exterior, frente a las salas, tenía cincuenta codos de longitud. <sup>8</sup> Pues la longitud de las salas que daban al atrio exterior era de cincuenta codos, mientras que las que miraban al Santo tenían cien codos. <sup>9</sup> Por debajo de las salas había una entrada del lado de oriente, que daba acceso desde el atrio exterior.
+
+<sup>10</sup> A todo lo largo del muro del atrio, en dirección del mediodía*, cara al patio y al edificio, había salas. <sup>11</sup> Un corredor pasaba por delante de ellas, como en las salas situadas en dirección norte; tenían igual longitud e igual anchura; iguales salidas, igual disposición y entradas iguales. <sup>12</sup> Por debajo de* las salas orientadas al mediodía había una entrada al comienzo de cada corredor, frente al muro situado hacia oriente, según se entra. <sup>13</sup> Él me dijo: «Las salas del norte y las salas del mediodía que miran al patio son las salas del Santuario, donde los sacerdotes que se acercan a Yahvé comerán las cosas sacratísimas. Allí depositarán las cosas sacratísimas, la oblación, el sacrificio expiatorio y el sacrificio penitencial, porque es un lugar santo. <sup>14</sup> Y cuando los sacerdotes entren allí, no saldrán del santuario al atrio exterior sin haber dejado allí sus vestiduras litúrgicas, porque estas vestiduras son santas; para acercarse a los lugares destinados al pueblo se pondrán otras ropas.»
+
+## Dimensiones del atrio.
+<sup>15</sup> Cuando acabó de medir el interior del templo, me hizo salir en dirección al pórtico que mira a oriente y midió todo el ámbito. <sup>16</sup> Midió el lado oriental con su vara de medir: quinientos codos* de perímetro, con la vara de medir. <sup>17</sup> Luego midió el lado norte con la vara de medir: quinientos codos de perímetro. <sup>18</sup> Después midió el lado sur con la vara de medir: quinientos codos <sup>19</sup> de perímetro. Por el lado occidental midió con la vara de medir: quinientos codos. <sup>20</sup> Midió por fin por los cuatro lados el muro que lo cercaba, todo alrededor: longitud, quinientos; anchura, quinientos; para separar lo sagrado de lo profano.
+
+## Retorno de Yahvé*.
+<span id="chapter-43" class="chapter-marker" data-chapter="43">43</span><sup>1</sup> Me condujo luego hacia el pórtico que miraba a oriente. <sup>2</sup> En aquel momento la gloria del Dios de Israel llegaba por la parte de oriente; emitía un ruido como de aguas caudalosas, y la tierra resplandecía de su gloria. <sup>3</sup> Esta visión era como la que yo había tenido cuando vine para la destrucción de la ciudad, y también como lo que había visto junto al río Quebar. Entonces caí rostro en tierra.
+
+<sup>4</sup> La gloria de Yahvé entró en el templo por el pórtico oriental. <sup>5</sup> El espíritu me levantó y me introdujo en el atrio interior, y advertí que la gloria de Yahvé llenaba el templo. <sup>6</sup> Oí que alguien me hablaba desde el templo*, mientras el hombre permanecía junto a mí. <sup>7</sup> Me dijo: «Hijo de hombre, éste es el lugar de mi trono, el lugar donde se apoya la planta de mis pies. Aquí habitaré en medio de los israelitas para siempre; y la casa de Israel, así como sus reyes, no contaminarán más mi santo nombre con sus prostituciones y con los cadáveres de sus reyes*, <sup>8</sup> poniendo su umbral junto a mi umbral y sus jambas junto a mis jambas, con un muro común entre ellos y yo*. Ellos contaminaron mi santo nombre con las abominaciones que cometieron; por eso los he aniquilado lleno de cólera. <sup>9</sup> De ahora en adelante alejarán de mí sus prostituciones y los cadáveres de sus reyes, y yo habitaré en medio de ellos para siempre.
+
+<sup>10</sup> «Por tu parte, hijo de hombre, describe este templo a la casa de Israel, para que queden avergonzados de sus culpas y tomen nota de su plano. <sup>11</sup> Si se avergüenzan de toda su conducta, enséñales la forma del templo y su plano, sus salidas y entradas, su forma y todas sus disposiciones, toda su forma y todas sus leyes. Pon todo esto por escrito ante sus ojos, para que guarden con exactitud todas sus leyes* y disposiciones, y las pongan en práctica. <sup>12</sup> Éste es el fuero del templo: En la cumbre del monte, todo el territorio que lo rodea es santísimo. (Tal es el fuero del templo.)»
+
+## El altar *.
+<sup>13</sup> Éstas son las dimensiones del altar en codos de codo y palmo: el foso medía un codo de hondo por un codo de ancho; y el reborde que rodeaba la orilla tenía un palmo. Y ésta es la altura* del altar: <sup>14</sup> desde el foso hasta el zócalo inferior, dos codos por un codo de ancho; desde el zócalo pequeño hasta el grande, cuatro codos por un codo de ancho. <sup>15</sup> El fóculo medía cuatro codos, y por encima del fóculo había cuatro cuernos. <sup>16</sup> El fóculo, que era cuadrado, medía doce codos de lado. <sup>17</sup> Y el zócalo, que también era cuadrado, medía catorce codos de lado. El reborde que lo rodeaba tenía medio codo; y el foso se extendía un codo todo alrededor. Las gradas estaban vueltas hacia oriente.
+
+## Consagración del altar.
+<sup>18</sup> Me dijo: «Hijo de hombre, esto dice el Señor Yahvé: Éstas son las disposiciones del altar el día en que sea erigido para ofrecer en él el holocausto y derramar la sangre. <sup>19</sup> A los sacerdotes levitas, o sea, los descendientes de Sadoc que se acercan a mí para servirme —oráculo del Señor Yahvé—, les darás un novillo para que ofrezcan el sacrificio expiatorio. <sup>20</sup> Tomarás su sangre y rociarás los cuatro cuernos, los cuatro ángulos del zócalo y el reborde todo alrededor. Así lo purificarás y harás expiación por él. <sup>21</sup> Luego tomarás el novillo del sacrificio expiatorio, que será quemado en una dependencia del templo, fuera del santuario. <sup>22</sup> El segundo día, ofrecerás un macho cabrío sin defecto para expiar el pecado y el altar; el rito será el mismo que con el novillo. <sup>23</sup> Cuando hayas acabado el rito de la expiación, ofrecerás un novillo sin defecto y un carnero del rebaño sin defecto. <sup>24</sup> Los ofrecerás delante de Yahvé; los sacerdotes les echarán sal y los ofrecerán en holocausto a Yahvé. <sup>25</sup> Durante siete días ofrecerás diariamente un macho cabrío como ofrenda expiatoria; se hará también el sacrificio del novillo y del carnero sin defecto tomado del rebaño. <sup>26</sup> Así, durante siete días se hará la expiación del altar, se le purificará y se le consagrará. <sup>27</sup> Pasados estos días, desde el octavo en adelante, los sacerdotes ofrecerán sobre el altar vuestros holocaustos y vuestros sacrificios de comunión. Y yo os seré propicio —oráculo del Señor Yahvé—.»
+
+## Servicio del pórtico oriental.
+<span id="chapter-44" class="chapter-marker" data-chapter="44">44</span><sup>1</sup> Me volvió después hacia el pórtico exterior del santuario, que miraba a oriente. Estaba cerrado. <sup>2</sup> Y Yahvé me dijo: Este pórtico permanecerá cerrado. No será abierto, y nadie pasará por él, porque por él ha pasado Yahvé, el Dios de Israel. Quedará, pues, cerrado. <sup>3</sup> Pero el príncipe sí podrá sentarse en él para tomar su comida en presencia de Yahvé*. Entrará y saldrá por el vestíbulo del pórtico.
+
+## Reglas de admisión en el templo.
+<sup>4</sup> Luego me llevó por el pórtico septentrional hacia la fachada del templo; y, al mirar, vi que la gloria de Yahvé llenaba el templo, y caí rostro en tierra. <sup>5</sup> Yahvé me dijo: «Hijo de hombre, presta atención; pon interés y escucha bien lo que te voy a decir acerca de todas las disposiciones del templo de Yahvé y de todas sus leyes. Te fijarás bien en lo que respecta a la admisión en el templo y a la exclusión del santuario*. <sup>6</sup> Y dirás a esta casa rebelde*, la casa de Israel: Esto dice el Señor Yahvé: Ya pasan de la raya todas vuestras abominaciones, casa de Israel, <sup>7</sup> que habéis cometido introduciendo extranjeros incircuncisos de corazón y de cuerpo para que estuvieran en mi santuario y profanaran mi templo, cuando me ofrecíais mi alimento, grasa y sangre; así habéis roto* mi alianza con todas vuestras abominaciones. <sup>8</sup> En lugar de atender al ministerio de mis cosas santas, habéis encargado a otros el ejercicio de mi ministerio en mi santuario, en lugar vuestro*. <sup>9</sup> Esto dice el Señor Yahvé: Ningún extranjero, incircunciso de corazón y de cuerpo, entrará en mi santuario, ninguno de los extranjeros que viven entre los israelitas*.
+
+## Los levitas.
+<sup>10</sup> «En cuanto a los levitas, que me abandonaron cuando Israel se descarriaba lejos de mí para ir en pos de sus basuras*, soportarán el peso de sus culpas. <sup>11</sup> Serán en mi santuario los encargados de la guardia de las puertas y ministros del servicio del templo. Ellos inmolarán el holocausto y el sacrificio por el pueblo, y estarán a su disposición para servirle. <sup>12</sup> Por haberse puesto a su servicio delante de sus basuras* y haber sido para la casa de Israel ocasión de culpa, juro con la mano alzada —oráculo del Señor Yahvé— que tendrán que soportar el peso de su culpa. <sup>13</sup> No se acercarán más a mí para ejercer ante mí el sacerdocio ni para tocar mis cosas santas y las cosas sacratísimas: soportarán el peso de su ignominia y de las abominaciones que cometieron. <sup>14</sup> Les encargaré el ejercicio del ministerio en el templo, en lo que atañe a su servicio y a todo lo que allí se hace.
+
+## Los sacerdotes.
+<sup>15</sup> «Pero los sacerdotes levitas, hijos de Sadoc*, que cumplieron mi ministerio en el santuario cuando los israelitas se descarriaban lejos de mí, ellos sí se acercarán a mí para servirme, y estarán en mi presencia para ofrecerme la grasa y la sangre —oráculo del Señor Yahvé—. <sup>16</sup> Ellos entrarán en mi santuario y se acercarán a mi mesa para servirme; ellos cumplirán mi ministerio. <sup>17</sup> Cuando entren por los pórticos del atrio interior, llevarán hábitos de lino; no irán vestidos de lana cuando oficien en los pórticos del atrio interior, y en el templo. <sup>18</sup> Llevarán en la cabeza turbantes de lino, y fajas de lino a los riñones; no se ceñirán nada que transpire el sudor*. <sup>19</sup> Cuando salgan al atrio exterior*, donde el pueblo, se quitarán las vestiduras con que hayan oficiado, las dejarán en las salas del Santo, y se pondrán otras ropas, con el fin de no santificar al pueblo con sus vestiduras*. <sup>20</sup> No se raparán la cabeza, ni dejarán crecer libremente su cabellera*, sino que se cortarán cuidadosamente el pelo. <sup>21</sup> Ningún sacerdote beberá vino el día que tenga que entrar en el atrio interior. <sup>22</sup> No tomarán por esposa ni una viuda ni una mujer repudiada, sino una virgen de la raza de Israel; una viuda sólo en el caso de que sea viuda de un sacerdote. <sup>23</sup> Enseñarán a mi pueblo a distinguir lo sagrado de lo profano y le harán saber la diferencia entre lo puro y lo impuro. <sup>24</sup> En los pleitos serán ellos los jueces; juzgarán conforme a mi derecho; observarán en todas mis fiestas mis leyes y preceptos, y santificarán mis sábados. <sup>25</sup> No se acercarán* a un muerto, para no contaminarse, pero por un padre, una madre, un hijo, una hija, un hermano o una hermana no casada podrán contaminarse. <sup>26</sup> Después de haberse purificado, se contará una semana, <sup>27</sup> y luego, el día en que entre en el Santo, en el atrio interior para oficiar en el Santo, ofrecerá su sacrificio expiatorio —oráculo del Señor Yahvé—. <sup>28</sup> No tendrán heredad alguna*: yo seré su heredad. No les daréis propiedad en Israel: yo seré su propiedad particular. <sup>29</sup> Se alimentarán de la oblación y de las víctimas del sacrificio expiatorio y del sacrificio penitencial. Todo lo que sea consagrado al anatema en Israel será para ellos. <sup>30</sup> Será para los sacerdotes lo mejor de todas vuestras primicias y de toda clase de ofrendas reservadas que presentéis; daréis a los sacerdotes lo mejor de vuestras moliendas, para que llegue la bendición a vuestros hogares. <sup>31</sup> Los sacerdotes no comerán carne de ningún ave ni bestia muerta o desgarrada*.
+
+## Partición de la tierra *. Parte de Yahvé.
+<span id="chapter-45" class="chapter-marker" data-chapter="45">45</span><sup>1</sup> «Cuando os repartáis por sorteo esta tierra como heredad, reservaréis como ofrenda para Yahvé un terreno sagrado de la tierra, de una longitud de veinticinco mil codos por una anchura de veinte mil. Será sagrado en toda su extensión. <sup>2</sup> De aquí se tomará para el santuario un cuadrado de quinientos codos por quinientos*, alrededor del cual habrá un margen de cincuenta codos. <sup>3</sup> También de su área medirás una longitud de veinticinco mil codos por una anchura de diez mil: aquí estará el santuario, el Santo de los Santos. <sup>4</sup> Será el recinto sagrado de la tierra, destinado a los sacerdotes, que ejercen el ministerio del santuario y que se acercan a Yahvé para servirle. Para ellos será este lugar, para que construyan sus casas y sirva de lugar sagrado para el santuario. <sup>5</sup> Un terreno de veinticinco mil codos de largo por diez mil de ancho será reservado a los levitas, servidores del templo, en propiedad, con ciudades para vivir*. <sup>6</sup> Y como propiedad de la ciudad fijaréis un terreno de cinco mil codos de ancho por veinticinco mil de largo, junto a la parte reservada del santuario: esto será para toda la casa de Israel.
+
+## Parte del príncipe.
+<sup>7</sup> «Al príncipe le tocará un territorio a ambos lados del terreno reservado para el santuario y de la zona urbana; ocupará el espacio que va a lo largo del límite del terreno reservado para el santuario y del de la zona urbana; llegará hasta el mar por el lado occidental y hasta la frontera por el oriental. Habrá una longitud igual a cada una de las partes, desde la frontera occidental hasta la frontera oriental <sup>8</sup> de la tierra. Esto será su propiedad en Israel. Así mis príncipes no oprimirán más a mi pueblo: dejarán la tierra a la casa de Israel, a sus tribus.
+
+<sup>9</sup> «Esto dice el Señor Yahvé: ¡Ya está bien, príncipes de Israel! ¡Basta ya de opresión y violencia! Practicad el derecho y la justicia, liberad a mi pueblo de vuestros impuestos —oráculo del Señor Yahvé—. <sup>10</sup> Usad balanzas justas, y que la arroba y la cántara tengan una medida justa. <sup>11</sup> Que la arroba y la cántara sean iguales: cada una debe contener un décimo de carga. A partir de la carga serán fijadas las cántaras*. <sup>12</sup> El siclo será de veinte óbolos. Veinte siclos, veinticinco siclos y quince siclos harán una mina.
+
+## Ofrendas para el culto.
+<sup>13</sup> «Ésta es la ofrenda que reservaréis: un sexto de arroba por cada carga de trigo y un sexto de arroba por cada carga de cebada. <sup>14</sup> Ésta será la norma para el aceite: una cántara de aceite por cada diez cántaras, es decir, por un tonel de diez cántaras, o de una carga, pues diez cántaras hacen una carga. <sup>15</sup> Se reservará una oveja por cada rebaño de doscientas, de las praderas de Israel, para la oblación, el holocausto y el sacrificio de comunión, que les sirva de expiación —oráculo del Señor Yahvé—. <sup>16</sup> Todo el pueblo de la tierra contribuirá a esta ofrenda reservada para el príncipe de Israel. <sup>17</sup> El príncipe se encargará de los holocaustos, de la oblación y de la libación en las fiestas, novilunios* y sábados, en todas las solemnidades de la casa de Israel. Él proveerá lo necesario para el sacrificio expiatorio, para la oblación, el holocausto y los sacrificios de comunión, para la expiación de la casa de Israel.
+
+## Fiesta de la Pascua.
+<sup>18</sup> «Esto dice el Señor Yahvé: El primer mes, el día uno del mes, tomarás un novillo sin defecto, para purificar el santuario. <sup>19</sup> El sacerdote tomará la sangre de la víctima expiatoria y la pondrá en las jambas del pórtico del templo, en los cuatro ángulos del zócalo del altar, y en las jambas de los pórticos* del atrio interior. <sup>20</sup> Lo mismo harás el día siete del mes, en favor de todo aquel que haya pecado por inadvertencia o irreflexión. Así haréis la expiación del templo. <sup>21</sup> El día catorce del primer mes celebraréis la fiesta de la Pascua. Durante siete días se comerá el pan sin levadura. <sup>22</sup> Aquel día, el príncipe ofrecerá por sí mismo y por todo el pueblo de la tierra un novillo como sacrificio expiatorio. <sup>23</sup> Durante los siete días de la fiesta, ofrecerá en holocausto a Yahvé siete novillos y siete carneros sin defecto, cada uno de los siete días, y un macho cabrío diariamente como sacrificio expiatorio. <sup>24</sup> Ofrecerá, como oblación, una medida por novillo y una medida por carnero, y de aceite un sextario por medida.
+
+## Fiesta de las Tiendas.
+<sup>25</sup> «El día quince del séptimo mes, con ocasión de la fiesta, hará lo mismo durante siete días: ofrecerá el sacrificio expiatorio, el holocausto, la oblación y el aceite.
+
+## Disposiciones varias*.
+<span id="chapter-46" class="chapter-marker" data-chapter="46">46</span><sup>1</sup> «Esto dice el Señor Yahvé: El pórtico del atrio interior que mira a oriente estará cerrado los seis días laborables. Será abierto el sábado y el día del novilunio. <sup>2</sup> El príncipe entrará desde el exterior por el vestíbulo del pórtico y se parará junto a las jambas del pórtico. Entonces los sacerdotes ofrecerán su holocausto y su sacrificio de comunión, y él se postrará en el umbral del pórtico. Una vez que el príncipe haya salido, no se cerrará el pórtico hasta la tarde. <sup>3</sup> El pueblo de la tierra* se postrará ante Yahvé a la entrada de este pórtico, los sábados y los días de novilunio. <sup>4</sup> El holocausto que el príncipe ofrezca a Yahvé el sábado será de seis corderos y un carnero, todos sin defecto. <sup>5</sup> Como oblación, presentará una medida por el carnero, y por los corderos, una oblación a discreción del oferente, además de un sextario de aceite por medida. <sup>6</sup> El día del novilunio ofrecerá un novillo, seis corderos y un carnero, todos sin defecto. <sup>7</sup> Como oblación, presentará una medida por novillo y otra por carnero; por los corderos, lo que buenamente pueda, además de un sextario de aceite por medida.
+
+<sup>8</sup> «Cuando el príncipe llegue, entrará por el vestíbulo del pórtico, y por él saldrá. <sup>9</sup> Cuando el pueblo de la tierra se presente ante Yahvé en las solemnidades, los que entren por el pórtico septentrional para postrarse saldrán por el pórtico meridional, y los que entren por el pórtico meridional saldrán por el pórtico septentrional. Nadie saldrá por el pórtico por donde entró, sino por el de enfrente. <sup>10</sup> Y el príncipe, que irá en medio de la gente, entrará y saldrá como ellos.
+
+<sup>11</sup> «En las fiestas y solemnidades, la oblación será de una cántara por novillo y otra por carnero; por los corderos, a discreción, además de un sextario de aceite por cántara. <sup>12</sup> Cuando el príncipe ofrezca un holocausto voluntario o un sacrificio de comunión voluntario a Yahvé, se le abrirá el pórtico que mira a oriente. Ofrecerá su holocausto y su sacrificio de comunión, de la misma manera que el día de sábado. Y, una vez que haya salido, cerrarán el pórtico.
+
+<sup>13</sup> «Ofrecerás cada día, como holocausto a Yahvé, un cordero añal sin defecto. Lo ofrecerás cada mañana*. <sup>14</sup> También cada mañana ofrecerás, como oblación, un sexto de cántara, además de un tercio de sextario de aceite, para amasar la flor de harina. Esta oblación a Yahvé es decreto eterno, vigente para siempre. <sup>15</sup> Cada mañana serán ofrecidos el cordero, la oblación y el aceite, como holocausto perpetuo*.
+
+<sup>16</sup> «Esto dice el Señor Yahvé: Si el príncipe hace un regalo a alguno de sus hijos, tomándolo de su heredad, el regalo pertenecerá a sus hijos; será su propiedad por derecho de herencia. <sup>17</sup> Pero si hace de su heredad un regalo a uno de sus siervos, pertenecerá a éste sólo hasta el año de la liberación; luego retornará* al príncipe. Solamente a sus hijos podrá pasar su heredad. <sup>18</sup> El príncipe no tomará nada de la heredad del pueblo, despojándole de su propiedad; sólo de su propiedad particular legará partes a sus hijos, para que nadie de mi pueblo sea privado de su propiedad.»
+
+<sup>19</sup> Luego me condujo*, por la entrada adyacente al pórtico, a las salas del Santo reservadas a los sacerdotes, las que miraban al norte. Allí, en la extremidad occidental, había un espacio. <sup>20</sup> Me dijo: «Éste es el lugar donde los sacerdotes cocerán las víctimas de los sacrificios de expiación y de reparación, y donde cocerán la oblación, a fin de que nada pueda ser sacado al atrio exterior y quede así el pueblo santificado.» <sup>21</sup> Me sacó luego al atrio exterior y me hizo pasar junto a los cuatro ángulos del atrio; en cada uno de ellos había un patio: <sup>22</sup> esto es, en los cuatro ángulos del atrio, cuatro pequeños patios de cuarenta codos de longitud y treinta de anchura, los cuatro de las mismas dimensiones*. <sup>23</sup> Una tapia cercaba los cuatro, y alrededor de la parte baja de la tapia había levantados unos fogones. <sup>24</sup> Y me dijo: «Éstos son los fogones donde los servidores del templo cocerán los sacrificios del pueblo.»
+
+## La fuente del templo *.
+<span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> Me llevó a la entrada del templo, y observé que, por debajo del umbral del templo, salía agua en dirección a oriente, porque la fachada del templo miraba hacia oriente. El agua bajaba por el lado derecho del templo, al sur del altar. <sup>2</sup> Luego me hizo salir por el pórtico septentrional y dar la vuelta por el exterior, hasta el pórtico exterior que miraba hacia oriente, y vi que el agua fluía por el lado derecho. <sup>3</sup> El hombre salió hacia oriente con la cuerda que tenía en la mano; midió mil codos y me hizo atravesar el agua, que me llegaba hasta los tobillos. <sup>4</sup> Midió otros mil codos y me hizo atravesar el agua, que me llegaba hasta las rodillas. Midió mil más y me hizo atravesar el agua, que me llegaba hasta la cintura. <sup>5</sup> Midió otros mil codos, pero era ya un torrente que no pude atravesar; el caudal había crecido de tal modo, que sólo podía pasarse a nado (un torrente que no se podía atravesar). <sup>6</sup> Entonces me dijo: «¿Has visto, hijo de hombre?» Después me condujo y me hizo volver a la orilla del torrente. <sup>7</sup> Al llegar, vi que a ambas orillas del torrente había gran cantidad de árboles. <sup>8</sup> Me dijo: «Esta agua sale hacia la región oriental, baja a la Arabá, desemboca en el mar, en el agua hedionda*, y el agua queda saneada. <sup>9</sup> Por dondequiera que pase el torrente*, todo ser viviente que en él se mueva vivirá. Los peces serán muy abundantes, porque allí donde penetra esta agua lo sanea todo, y la vida prospera en todas partes adonde llega el torrente. <sup>10</sup> A sus orillas vendrán los pescadores; tenderán redes desde Engadí hasta Enegláin. Los peces serán de la misma especie que los del mar Grande*, y muy numerosos. <sup>11</sup> Pero sus marismas y sus lagunas no serán saneadas, sino abandonadas a la sal. <sup>12</sup> A ambas márgenes del torrente crecerán toda clase de árboles frutales, cuyo follaje no se marchitará y cuyos frutos no se agotarán: producirán todos los meses frutos nuevos, porque esta agua viene del santuario. Sus frutos servirán de alimento, y sus hojas de medicina.»
+
+## Límites de la tierra *.
+<sup>13</sup> «Esto dice el Señor Yahvé: Ésta es la frontera de la tierra que os repartiréis entre las doce tribus de Israel, dando a José dos partes*. <sup>14</sup> Recibiréis cada uno por igual vuestra parte, porque yo juré, mano en alto, dársela a vuestros padres, y esta tierra os pertenecerá en heredad. <sup>15</sup> Ésta es la frontera de la tierra: por el lado septentrional, desde el mar Grande, el camino de Jetlón hasta la Entrada de Jamat*, Sedad, <sup>16</sup> Berotay, Sibráin, que está entre el territorio de Damasco y el de Jamar, Jaser Hatticón hacia el territorio del Jaurán; <sup>17</sup> la frontera correrá desde el mar hasta Jasar Enán, quedando al norte el territorio de Damasco, así como el territorio de Jamat. Éste*, el lado septentrional. <sup>18</sup> Lado oriental: entre el Jaurán y Damasco, entre Galaad y la tierra de Israel, el Jordán servirá de frontera hacia el mar oriental, hasta Tamar*. Éste, el lado oriental. <sup>19</sup> Lado meridional, al sur: desde Tamar hasta las aguas de Meribá de Cades, hacia el torrente, hasta el mar Grande. Éste, el lado meridional, al sur. <sup>20</sup> Lado occidental: el mar Grande será la frontera hasta enfrente de la Entrada de Jamat. Éste, el lado occidental. <sup>21</sup> Os repartiréis esta tierra, según las tribus de Israel. <sup>22</sup> Os la repartiréis como heredad para vosotros y para los forasteros que residan con vosotros y que hayan tenido hijos estando con vosotros, porque los consideraréis como al israelita nativo. Con vosotros participarán en la suerte de la heredad, en medio de las tribus de Israel. <sup>23</sup> En la tribu donde resida el forastero, allí le daréis su heredad —oráculo del Señor Yahvé—.
+
+## Partición de la tierra*.
+<span id="chapter-48" class="chapter-marker" data-chapter="48">48</span><sup>1</sup> «Y ésta es la lista de los territorios tribales. Desde el extremo norte, a lo largo del camino de Jetlón, hacia la Entrada de Jamat, Jasar Enán, quedando al norte el territorio de Damasco, a lo largo de Jamat: será para él desde el lado oriental hasta el lado occidental*: Dan, una parte. <sup>2</sup> Limitando con Dan, desde el lado oriental hasta el lado occidental: Aser, una parte. <sup>3</sup> Limitando con Aser, desde el lado oriental hasta el lado occidental: Neftalí, una parte. <sup>4</sup> Limitando con Neftalí, desde el lado oriental hasta el lado occidental: Manasés, una parte. <sup>5</sup> Limitando con Manasés, desde el lado oriental hasta el lado occidental: Efraín, una parte. <sup>6</sup> Limitando con Efraín, desde el lado oriental hasta el lado occidental: Rubén, una parte. <sup>7</sup> Limitando con Rubén, desde el lado oriental hasta el lado occidental: Judá, una parte. <sup>8</sup> Limitando con Judá, desde el lado oriental hasta el lado occidental, estará la ofrenda sagrada que reservaréis, de veinticinco mil codos de ancha, y de larga como cada una de las otras partes desde el lado oriental hasta el lado occidental. Y en medio estará el santuario.
+
+<sup>9</sup> «La ofrenda sagrada que reservéis para Yahvé tendrá veinticinco mil codos de longitud y diez mil de anchura. <sup>10</sup> A ellos, a los sacerdotes, pertenecerá la ofrenda santa reservada: veinticinco mil codos al norte, diez mil codos de anchura al oeste, diez mil codos de anchura al este, y veinticinco mil codos de longitud al sur; y el santuario de Yahvé estará en el medio. <sup>11</sup> A los sacerdotes consagrados, aquellos de entre los hijos de Sadoc que cumplieron mi ministerio y que no se descarriaron al descarriarse los israelitas, como hicieron los levitas, <sup>12</sup> les corresponderá una parte de la tierra reservada como ofrenda sacratísima, junto al territorio de los levitas. <sup>13</sup> Los levitas, a semejanza del territorio de los sacerdotes, tendrán un área de veinticinco mil codos de largo y diez mil de ancho —longitud total, veinticinco mil, y anchura, diez mil—. <sup>14</sup> No podrán vender ni cambiar ni ceder nada de esta parte de la tierra, porque está consagrada a Yahvé. <sup>15</sup> Los cinco mil codos de anchura que quedan a lo largo de los veinticinco mil, serán un terreno profano para la ciudad, para viviendas y pastizales. La ciudad quedará en medio. <sup>16</sup> Y éstas serán sus dimensiones: por el lado norte, cuatro mil quinientos codos; por el lado sur, cuatro mil quinientos codos; por el lado este, cuatro mil quinientos codos; por el lado oeste, cuatro mil quinientos codos. <sup>17</sup> Y los pastizales de la ciudad se extenderán hacia el norte doscientos cincuenta codos, hacia el sur doscientos cincuenta, hacia el este doscientos cincuenta y hacia el oeste doscientos cincuenta. <sup>18</sup> Quedará una extensión, a lo largo de la ofrenda santa reservada, de diez mil codos hacia oriente y diez mil hacia occidente, a lo largo de la ofrenda santa reservada: sus productos servirán para la alimentación de los trabajadores de la ciudad. <sup>19</sup> Los trabajadores que trabajen en la ciudad serán tomados de todas las tribus de Israel. <sup>20</sup> El total de la ofrenda reservada será de veinticinco mil codos por veinticinco mil. Reservaréis un cuarto de la ofrenda santa reservada para la propiedad de la ciudad. <sup>21</sup> Lo que quede será para el príncipe, a uno y otro lado de la ofrenda santa reservada y de la propiedad de la ciudad, a lo largo de los veinticinco mil codos al este*, hasta la frontera oriental, y al oeste a lo largo de los veinticinco mil codos hasta la frontera occidental, para el príncipe, en correspondencia a las demás partes; y en el medio estará la ofrenda santa reservada y el santuario del templo. <sup>22</sup> Así, desde la propiedad de los levitas y la propiedad de la ciudad que están en medio de la parte del príncipe, entre la frontera de Judá y la de Benjamín, pertenecerá al príncipe.
+
+<sup>23</sup> «Y las demás tribus: desde el lado oriental hasta el lado occidental: Benjamín, una parte. <sup>24</sup> Limitando con Benjamín, desde el lado oriental hasta el lado occidental: Simeón, una parte. <sup>25</sup> Limitando con Simeón, desde el lado oriental hasta el lado occidental: Isacar, una parte. <sup>26</sup> Limitando con Isacar, desde el lado oriental hasta el lado occidental: Zabulón, una parte. <sup>27</sup> Limitando con Zabulón, desde el lado oriental hasta el lado occidental: Gad, una parte. <sup>28</sup> Y limitando con Gad, por el lado meridional, al sur, la frontera correrá desde Tamar hacia las aguas de Meribá de Cades, el torrente, hasta el mar Grande. <sup>29</sup> Tal es la tierra que repartiréis en heredad entre las tribus de Israel y tales serán sus partes —oráculo del Señor Yahvé—.
+
+## Las puertas de Jerusalén*.
+<sup>30</sup> «Y éstas son las salidas de la ciudad: por el lado norte, se medirán cuatro mil quinientos codos. <sup>31</sup> Las puertas de la ciudad llevarán los nombres de las tribus de Israel. Al norte tres puertas: la puerta de Rubén, la puerta de Judá y la puerta de Leví. <sup>32</sup> Por el lado oriental, cuatro mil quinientos codos y tres puertas: la puerta de José, la puerta de Benjamín y la puerta de Dan. <sup>33</sup> Por el lado meridional, cuatro mil quinientos codos y tres puertas: la puerta de Simeón, la puerta de Isacar y la puerta de Zabulón. <sup>34</sup> Por el lado occidental, cuatro mil quinientos codos y tres puertas: la puerta de Gad, la puerta de Aser y la puerta de Neftalí. <sup>35</sup> El perímetro total será de dieciocho mil codos.
+
+«Y, de ahora en adelante, la ciudad se llamará: ‘Yahvé está allí*’.»

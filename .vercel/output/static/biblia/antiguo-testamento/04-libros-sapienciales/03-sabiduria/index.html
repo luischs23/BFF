@@ -1,0 +1,1210 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>Sabiduría - Sagrada Biblia</title><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.BScVxmeO.js"></script><script>
+			// Aplicar dark mode antes de que se renderice la página para evitar flash
+			const darkMode = localStorage.getItem('biblia-dark-mode');
+			if (darkMode === 'true' || (darkMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script><link rel="stylesheet" href="/_astro/admin.DFS-n7nW.css">
+<link rel="stylesheet" href="/_astro/_id_.CuWeqEV8.css">
+<link rel="stylesheet" href="/_astro/_id_.C67thEwx.css">
+<style>[data-astro-image]{width:100%;height:auto;-o-object-fit:var(--fit);object-fit:var(--fit);-o-object-position:var(--pos);object-position:var(--pos);aspect-ratio:var(--w) / var(--h)}[data-astro-image=responsive]{max-width:calc(var(--w) * 1px);max-height:calc(var(--h) * 1px)}[data-astro-image=fixed]{width:calc(var(--w) * 1px);height:calc(var(--h) * 1px)}
+</style></head> <body class="bg-amber-50/70 dark:bg-gray-900 min-h-screen transition-colors duration-300">  <div id="bibliaContainer" class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300"> <!-- Overlay para móvil --> <div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>   <header id="mobileHeader" class="fixed top-0 left-0 right-0 z-50 bg-amber-50/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-stone-300 dark:border-gray-700 shadow-md transition-transform duration-300 md:left-72"> <!-- Vista normal del header --> <div id="headerNormal" class="flex items-center justify-between px-4 py-3"> <!-- Botones a la izquierda --> <div class="absolute left-3 flex items-center gap-2"> <button id="searchToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Buscar en el libro" title="Buscar"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search h-5 w-5">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </button> <!-- Botón tamaño de texto --> <button id="fontSizeToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Cambiar tamaño de texto" title="Tamaño de texto"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-a-arrow-up h-5 w-5">  <path d="m14 11 4-4 4 4"></path> <path d="M18 16V7"></path> <path d="m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16"></path> <path d="M3.304 13h6.392"></path>  </svg> </button> </div> <!-- Título del libro y capítulo centrado --> <h1 class="flex-1 text-center text-lg md:text-xl font-bold text-gray-800 dark:text-gray-100 truncate px-12"> Sabiduría <span id="currentChapterDisplay" class="text-amber-700 dark:text-amber-400"></span> </h1> <!-- Controles a la derecha --> <div class="absolute right-3 flex items-center gap-2"> <!-- Botón navegación de capítulos --> <button id="chapterNavToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Navegar capítulos" title="Ir a capítulo"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-book-open h-5 w-5">  <path d="M12 7v14"></path> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>  </svg> </button> <!-- Botón menú móvil (oculto en desktop) --> <button id="menuToggle" class="md:hidden bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition" aria-label="Abrir menú"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="menuIcon" class="lucide lucide-menu h-5 w-5">  <path d="M4 5h16"></path> <path d="M4 12h16"></path> <path d="M4 19h16"></path>  </svg> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="closeIcon" class="lucide lucide-x h-5 w-5 hidden">  <path d="M18 6 6 18"></path> <path d="m6 6 12 12"></path>  </svg> </button> </div> </div> <!-- Vista de búsqueda expandida --> <div id="headerSearch" class="hidden flex items-center gap-2 px-3 py-2"> <!-- Botón volver --> <button id="searchClose" class="text-gray-600 dark:text-gray-300 p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Cerrar búsqueda"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-left h-5 w-5">  <path d="m15 18-6-6 6-6"></path>  </svg> </button> <!-- Input de búsqueda --> <div class="flex-1 relative"> <input type="text" id="searchInput" placeholder="Buscar en este libro..." class="w-full px-4 py-2 pr-10 rounded-full bg-white dark:bg-gray-800 border border-stone-300 dark:border-gray-600 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </div> <!-- Navegación de resultados --> <div id="searchNavigation" class="hidden flex items-center gap-1"> <span id="searchCount" class="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap"></span> <button id="searchPrev" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Resultado anterior"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-up h-4 w-4">  <path d="m18 15-6-6-6 6"></path>  </svg> </button> <button id="searchNext" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Siguiente resultado"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-down h-4 w-4">  <path d="m6 9 6 6 6-6"></path>  </svg> </button> </div> </div> </header> <script type="module" src="/_astro/MobileHeader.astro_astro_type_script_index_0_lang.BE11JRIP.js"></script>  <div id="chapterNavPanel" class="fixed right-3 top-20 md:right-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"> <div class="flex justify-between items-center mb-2 pb-2 border-b border-stone-200 dark:border-gray-700"> <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Ir a capítulo</span> <button id="closeChapterNav" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> <div id="chapterGrid" class="grid grid-cols-5 gap-1.5"> <!-- Capítulos se generan dinámicamente --> </div> </div>  <!-- Sidebar --> <aside id="sidebar" class="fixed md:relative w-72 h-full bg-stone-100 dark:bg-gray-800 border-r border-stone-200 dark:border-gray-700 overflow-y-auto flex-shrink-0 z-50 transform -translate-x-full md:translate-x-0 transition-all duration-300 ease-in-out"> <div class="p-4"> <div class="flex items-center justify-between mb-4"> <a href="/" class="text-amber-700 dark:text-amber-400 hover:underline text-sm">&larr; Inicio</a> <button id="darkModeToggle" class="p-2 rounded-lg bg-stone-200 dark:bg-gray-700 hover:bg-stone-300 dark:hover:bg-gray-600 transition-colors" aria-label="Cambiar tema"> <!-- Sol (modo claro) --> <svg id="sunIcon" class="w-5 h-5 text-amber-600 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path> </svg> <!-- Luna (modo oscuro) --> <svg id="moonIcon" class="w-5 h-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path> </svg> </button> </div> <h2 class="text-lg font-bold mb-4 text-gray-800 dark:text-gray-100">Sagrada Biblia</h2> <div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Antiguo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-01-pentateuco"> <span>El Pentateuco</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-01-pentateuco"> <li> <a href="/biblia/antiguo-testamento/01-pentateuco/01-genesis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Génesis </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/02-exodo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Éxodo </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/03-levitico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Levitico </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/04-numeros" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Numeros </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/05-deuteronomio" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Deuteronomio </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-02-libros-historicos"> <span>Libros Históricos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-02-libros-historicos"> <li> <a href="/biblia/antiguo-testamento/02-libros-historicos/01-josue" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Josué </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/02-jueces" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jueces </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/03-rut" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Rut </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/04-1samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/05-2samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/06-1reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/07-2reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/08-1cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/09-2cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/10-esdras" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Esdras </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/11-nehemias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nehemías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/12-tobias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tobías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/13-judit" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judit </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/14-ester" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ester </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/15-1macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Macabeos </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/16-2macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Macabeos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-03-lirica"> <span>Lírica</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-03-lirica"> <li> <a href="/biblia/antiguo-testamento/03-lirica/01-job" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Job </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/02-salmos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Salmos </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/03-cantar-de-los-cantares" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Cantar de los Cantares </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/04-lamentaciones" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lamentaciones </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-04-libros-sapienciales"> <span>Libros Sapienciales</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-04-libros-sapienciales"> <li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/01-proverbios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Proverbios </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/02-eclesiastes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiastés </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/03-sabiduria" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition bg-amber-200 dark:bg-amber-700 text-amber-900 dark:text-amber-100 font-semibold"> Sabiduría </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/04-eclesiastico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiástico </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-05-libros-profeticos"> <span>Libros Proféticos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-05-libros-profeticos"> <li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/01-isaias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Isaías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/02-jeremias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jeremías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/03-baruc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Baruc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/04-ezequiel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ezequiel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/05-daniel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Daniel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/06-oseas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Oseas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/07-joel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Joel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/08-amos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Amós </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/09-abdias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Abdías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/10-jonas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jonás </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/11-miqueas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Miqueas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/12-nahum" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nahúm </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/13-habacuc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Habacuc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/14-sofonias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Sofonías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/15-ageo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ageo </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/16-zacarias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Zacarías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/17-malaquias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Malaquías </a> </li> </ul> </div> </div><div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Nuevo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-01-evangelios"> <span>Evangelios</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-01-evangelios"> <li> <a href="/biblia/nuevo-testamento/01-evangelios/01-mateo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Mateo </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/02-marcos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Marcos </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/03-lucas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lucas </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/04-juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Juan </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-02-hechos"> <span>Hechos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-02-hechos"> <li> <a href="/biblia/nuevo-testamento/02-hechos/01-hechos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hechos de los Apóstoles </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-03-epistolas-pablo"> <span>Epístolas de Pablo</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-03-epistolas-pablo"> <li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/01-romanos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Romanos </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/02-1corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/03-2corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/04-galatas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Gálatas </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/05-efesios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Efesios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/06-filipenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filipenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/07-colosenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Colosenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/08-1tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/09-2tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/10-1timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/11-2timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/12-tito" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tito </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/13-filemon" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filemón </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-04-hebreos"> <span>Hebreos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-04-hebreos"> <li> <a href="/biblia/nuevo-testamento/04-hebreos/01-hebreos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hebreos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-05-epistolas-catolicas"> <span>Epístolas Católicas</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-05-epistolas-catolicas"> <li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/01-santiago" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Santiago </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/02-1pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/03-2pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/04-1juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/05-2juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/06-3juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 3 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/07-judas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judas </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-06-apocalipsis"> <span>Apocalipsis</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-06-apocalipsis"> <li> <a href="/biblia/nuevo-testamento/06-apocalipsis/01-apocalipsis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Apocalipsis </a> </li> </ul> </div> </div> </div> </aside> <!-- Contenido principal --> <main class="flex-1 overflow-y-auto
+					bg-amber-50 dark:bg-gray-950
+					md:bg-stone-300 md:dark:bg-gray-950
+					transition-colors duration-300"> <div class="p-0 md:p-8"> <!-- Estado de carga --> <div id="loadingState" class="max-w-5xl mx-auto"> <div class="bg-amber-50 dark:bg-gray-800 border-x border-stone-300 dark:border-gray-700 shadow-lg p-8"> <div class="animate-pulse space-y-4"> <div class="h-8 bg-stone-200 dark:bg-gray-700 rounded w-1/3 mx-auto"></div> <div class="h-4 bg-stone-200 dark:bg-gray-700 rounded w-2/3 mx-auto"></div> <div class="grid grid-cols-2 gap-8 mt-8"> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> </div> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-3/6"></div> </div> </div> </div> </div> </div> <!-- Contenedor del libro --> <div id="bibleBook" class="bible-book hidden w-full md:max-w-3xl md:mx-auto"> <!-- Contenido en dos columnas con divisores de página --> <article class="bible-content prose prose-sm max-w-none
+		prose-headings:text-gray-800 dark:prose-headings:text-gray-100
+		prose-h2:text-sm md:prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
+		prose-p:text-gray-700 dark:prose-p:text-gray-300
+		dark:prose-invert
+		bg-amber-50 dark:bg-gray-800
+		border-x border-stone-300 dark:border-gray-700
+		shadow-lg
+		px-6 py-4 md:px-8 md:py-6">  <h1 id="libro-de-la-sabiduría">LIBRO DE LA SABIDURÍA</h1>
+<h2 id="i-la-sabiduría-y-el-destino-del-hombre">I. La sabiduría y el destino del hombre</h2>
+<h2 id="buscar-a-dios-y-huir-del-pecado">Buscar a Dios y huir del pecado.</h2>
+<p><span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Amad la justicia*, los que gobernáis el mundo*,</p>
+<p>tened buenos sentimientos para con el Señor</p>
+<p>y buscadlo con corazón sincero*,</p>
+<p><sup>2</sup> pues se deja encontrar por los que no le exigen pruebas</p>
+<p>y se manifiesta* a los que no desconfían de él.</p>
+<p><sup>3</sup> Los pensamientos retorcidos apartan de Dios,</p>
+<p>y su poder*, puesto a prueba, confunde a los insensatos.</p>
+<p><sup>4</sup> En efecto, la sabiduría no entra en alma artera,</p>
+<p>ni habita en cuerpo esclavo del pecado*;</p>
+<p><sup>5</sup> pues el santo espíritu educador* rehuye el engaño,</p>
+<p>se aleja de los pensamientos vacíos</p>
+<p>y se siente confundido ante el ataque de la injusticia.</p>
+<p><sup>6</sup> La sabiduría es un espíritu filántropo</p>
+<p>que no deja impunes los labios blasfemos;</p>
+<p>pues Dios es testigo de sus interioridades,</p>
+<p>observador veraz de su corazón*,</p>
+<p>y escucha cuanto dice su lengua.</p>
+<p><sup>7</sup> Porque el espíritu del Señor llena la tierra*,</p>
+<p>lo contiene todo* y conoce cada voz*.</p>
+<p><sup>8</sup> Por eso, quien pregone calumnias no podrá esconderse,</p>
+<p>ni evitar la acusación de la justicia.</p>
+<p><sup>9</sup> Los planes del impío serán investigados</p>
+<p>y el rumor de sus palabras llegará hasta el Señor,</p>
+<p>como prueba de sus delitos.</p>
+<p><sup>10</sup> El oído atento lo escucha todo</p>
+<p>y no se le escapa el rumor de murmuraciones.</p>
+<p><sup>11</sup> Guardaos, pues, de murmuraciones inútiles</p>
+<p>y preservad vuestra lengua de la calumnia;</p>
+<p>porque no hay confidencia emitida en vano,</p>
+<p>y la boca calumniadora da muerte al alma.</p>
+<p><sup>12</sup> No persigáis la muerte con vuestra vida perdida</p>
+<p>ni os busquéis la ruina con las obras de vuestras manos;</p>
+<p><sup>13</sup> porque Dios no hizo la muerte*</p>
+<p>ni se alegra con la destrucción de los vivientes.</p>
+<p><sup>14</sup> Él lo creó todo para que subsistiera*:</p>
+<p>las criaturas del mundo son saludables,</p>
+<p>no hay en ellas veneno de muerte</p>
+<p>ni el abismo* reina sobre la tierra,</p>
+<p><sup>15</sup> porque la justicia es inmortal*.</p>
+<h2 id="la-vida-según-los-impíos">La vida según los impíos.</h2>
+<p><sup>16</sup> Pero los impíos* invocan a la muerte con gestos y palabras;</p>
+<p>haciéndola su amiga, se perdieron;</p>
+<p>se aliaron con ella</p>
+<p>y merecen ser sus secuaces*.</p>
+<p><span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Razonando erróneamente, se decían :</p>
+<p>«Corta y triste es nuestra vida*;</p>
+<p>la muerte del hombre no tiene remedio</p>
+<p>y de nadie consta que haya vuelto de la tumba*.</p>
+<p><sup>2</sup> Nacimos por azar*</p>
+<p>y pasaremos como si no hubiéramos existido.</p>
+<p>El soplo de nuestro aliento es humo,</p>
+<p>y el pensamiento, una chispa del latido de nuestro corazón.</p>
+<p><sup>3</sup> Cuando ella se apague, el cuerpo se convertirá en ceniza</p>
+<p>y el espíritu se desvanecerá como aire ligero.</p>
+<p><sup>4</sup> Con el tiempo nuestro nombre caerá en el olvido*</p>
+<p>y nadie se acordará de nuestras obras;</p>
+<p>nuestra vida pasará como rastro de nube,</p>
+<p>se disipará como niebla</p>
+<p>acosada por los rayos del sol</p>
+<p>y agobiada por su calor.</p>
+<p><sup>5</sup> Nuestro tiempo es una sombra fugaz</p>
+<p>y nuestra muerte, irrevocable,</p>
+<p>porque se ha puesto el sello y nadie regresa*.</p>
+<p><sup>6</sup> Venid, pues, y disfrutemos de los bienes presentes,</p>
+<p>gocemos de la realidad con impaciencia juvenil;</p>
+<p><sup>7</sup> embriaguémonos de vinos exquisitos y perfumes,</p>
+<p>que no se nos escape la flor primaveral*;</p>
+<p><sup>8</sup> coronémonos de rosas antes que se marchiten;</p>
+<p><sup>9</sup> que ninguno de nosotros se pierda nuestra orgía,</p>
+<p>dejemos por todas partes huellas de la alegría;</p>
+<p>que ésta es nuestra suerte y nuestra herencia.</p>
+<p><sup>10</sup> Oprimamos al pobre que es justo*,</p>
+<p>no tengamos compasión de la viuda</p>
+<p>ni respetemos las canas llenas de años del anciano*.</p>
+<p><sup>11</sup> Que nuestra fuerza sea norma de la justicia*,</p>
+<p>porque la debilidad se demuestra inútil.</p>
+<p><sup>12</sup> Pongamos trampas al justo, que nos fastidia*</p>
+<p>y se opone a nuestras acciones;</p>
+<p>nos echa en cara nuestros delitos</p>
+<p>y reprende nuestros pecados de juventud.</p>
+<p><sup>13</sup> Presume de conocer a Dios*</p>
+<p>y se presenta como hijo del Señor.</p>
+<p><sup>14</sup> Es un reproche contra nuestras convicciones</p>
+<p>y su sola aparición nos resulta insoportable,</p>
+<p><sup>15</sup> pues lleva una vida distinta a los demás</p>
+<p>y va por caminos diferentes*.</p>
+<p><sup>16</sup> Nos considera moneda falsa</p>
+<p>y nos evita como a apestados;</p>
+<p>celebra el destino de los justos*</p>
+<p>y presume de que Dios es su padre.</p>
+<p><sup>17</sup> Ya veremos si lleva razón,</p>
+<p>comprobando cuál es su desenlace*:</p>
+<p><sup>18</sup> pues si el justo es hijo de Dios*, él lo rescatará</p>
+<p>y lo librará del poder de sus adversarios.</p>
+<p><sup>19</sup> Lo someteremos a humillaciones y torturas</p>
+<p>para conocer su temple</p>
+<p>y comprobar su entereza.</p>
+<p><sup>20</sup> Lo condenaremos a una muerte humillante,</p>
+<p>pues, según dice, Dios lo protegerá*.»</p>
+<h2 id="error-de-los-impíos">Error de los impíos.</h2>
+<p><sup>21</sup> Así piensan, pero se equivocan,</p>
+<p>pues los ofusca su maldad.</p>
+<p><sup>22</sup> No conocen los secretos de Dios*,</p>
+<p>ni esperan recompensa para la virtud,</p>
+<p>ni valoran el premio de una vida intachable.</p>
+<p><sup>23</sup> Porque Dios creó al hombre para la inmortalidad</p>
+<p>y lo hizo a imagen de su mismo ser*;</p>
+<p><sup>24</sup> pero la muerte entró en el mundo por envidia del diablo*,</p>
+<p>y la experimentan sus secuaces.</p>
+<h2 id="comparación-de-la-suerte-de-los-justos">Comparación de la suerte de los justos</h2>
+<h2 id="y-de-los-impíos">y de los impíos.</h2>
+<p><span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> En cambio, la vida de los justos está en manos de Dios*</p>
+<p>y ningún tormento les afectará.</p>
+<p><sup>2</sup> Los insensatos pensaban que habían muerto;</p>
+<p>su tránsito les parecía una desgracia</p>
+<p><sup>3</sup> y su partida de entre nosotros, un desastre;</p>
+<p>pero ellos están en la paz*.</p>
+<p><sup>4</sup> Aunque la gente pensaba que eran castigados,</p>
+<p>ellos tenían total esperanza en la inmortalidad*.</p>
+<p><sup>5</sup> Tras pequeñas correcciones, recibirán grandes beneficios,</p>
+<p>pues Dios los puso a prueba*</p>
+<p>y los halló dignos de sí;</p>
+<p><sup>6</sup> los probó como oro en crisol</p>
+<p>y los aceptó como sacrificio de holocausto.</p>
+<p><sup>7</sup> En el día del juicio* resplandecerán</p>
+<p>y se propagarán como el fuego en un rastrojo*.</p>
+<p><sup>8</sup> Gobernarán naciones, dominarán pueblos</p>
+<p>y el Señor reinará eternamente sobre ellos.</p>
+<p><sup>9</sup> Los que confían en él comprenderán la verdad*</p>
+<p>y los fieles a su amor permanecerán a su lado,</p>
+<p>pues la gracia y la misericordia están destinadas a sus elegidos*.</p>
+<p><sup>10</sup> Los impíos, en cambio, serán castigados por sus razonamientos,</p>
+<p>por despreciar al justo* y apartarse del Señor.</p>
+<p><sup>11</sup> Desdichado el que desprecia la sabiduría y la educación*;</p>
+<p>vana es su esperanza,</p>
+<p>baldíos sus esfuerzos,</p>
+<p>e inútiles sus obras.</p>
+<p><sup>12</sup> Sus mujeres son necias,</p>
+<p>sus hijos perversos</p>
+<p>y su posteridad maldita.</p>
+<h2 id="más-vale-la-esterilidad-que-una-posteridad-impía">Más vale la esterilidad que una posteridad impía.</h2>
+<p><sup>13</sup> Dichosa la estéril* intachable,</p>
+<p>la que no conoce lecho nupcial de pecado*;</p>
+<p>pues obtendrá fruto en el juicio de los justos*.</p>
+<p><sup>14</sup> Y también el eunuco* que no actúa perversamente,</p>
+<p>ni alberga malos pensamientos contra el Señor;</p>
+<p>por su fidelidad recibirá especial recompensa</p>
+<p>y una herencia envidiable en el templo del Señor*.</p>
+<p><sup>15</sup> Pues el fruto del buen trabajo proporciona fama,</p>
+<p>y la raíz de la sensatez* es inquebrantable.</p>
+<p><sup>16</sup> Los hijos de adúlteros*, en cambio, no alcanzarán la madurez,</p>
+<p>la descendencia de unión ilegítima desaparecerá.</p>
+<p><sup>17</sup> Aunque vivan muchos años, no serán apreciados,</p>
+<p>y al final su vejez será deshonrosa.</p>
+<p><sup>18</sup> Y si mueren prematuramente, no tendrán esperanza,</p>
+<p>ni consuelo en el día del juicio,</p>
+<p><sup>19</sup> pues es penoso el final de la gente perversa*.</p>
+<p><span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Más vale no tener hijos y tener virtud*,</p>
+<p>pues su recuerdo* es inmortal</p>
+<p>y es reconocida por Dios y por los hombres:</p>
+<p><sup>2</sup> presente, la imitan;</p>
+<p>ausente, la añoran;</p>
+<p>y en la eternidad desfila en triunfo coronada,</p>
+<p>pues venció en la lucha de premios intachables*.</p>
+<p><sup>3</sup> En cambio, la familia numerosa de los impíos será inútil;</p>
+<p>sus retoños bastardos no echarán raíces profundas</p>
+<p>ni tendrá base sólida.</p>
+<p><sup>4</sup> Aunque sus ramas verdeen temporalmente,</p>
+<p>será sacudida por el viento, a causa de su caducidad,</p>
+<p>y arrancada de raíz por el huracán enfurecido.</p>
+<p><sup>5</sup> Sus ramas aún tiernas se troncharán,</p>
+<p>su fruto será inútil, inmaduro para comerlo,</p>
+<p>y nada se aprovechará.</p>
+<p><sup>6</sup> Pues los hijos nacidos de uniones ilícitas</p>
+<p>son testigos de la maldad de los padres a la hora de su examen*.</p>
+<h2 id="la-muerte-prematura-del-justo">La muerte prematura del justo*.</h2>
+<p><sup>7</sup> El justo, aunque muera prematuramente, tendrá descanso,</p>
+<p><sup>8</sup> pues la ancianidad venerable no consiste en larga vida,</p>
+<p>ni se mide por los años.</p>
+<p><sup>9</sup> Que las canas del hombre son la prudencia</p>
+<p>y la edad avanzada, una vida intachable.</p>
+<p><sup>10</sup> Fue amado, porque agradaba a Dios;</p>
+<p>fue trasladado*, porque vivía entre pecadores.</p>
+<p><sup>11</sup> Fue arrebatado para que la maldad no pervirtiera su inteligencia</p>
+<p>o el engaño sedujera su alma;</p>
+<p><sup>12</sup> pues la fascinación del mal ensombrece el bien</p>
+<p>y el frenesí del deseo pervierte al espíritu ingenuo.</p>
+<p><sup>13</sup> Madurando en poco tiempo, completó una larga vida,</p>
+<p><sup>14</sup> y como su alma era agradable al Señor,</p>
+<p>se apresuró a escapar de la maldad.</p>
+<p>La gente* lo ve y no lo entiende;</p>
+<p>no les cabe esto en la cabeza:</p>
+<p><sup>15</sup> que la gracia y la misericordia están destinadas a sus elegidos,</p>
+<p>y su salvación*, a sus santos.</p>
+<p><sup>16</sup> El justo que muere condena a los impíos que viven,</p>
+<p>y la juventud prematuramente realizada, a la longevidad del malvado.</p>
+<p><sup>17</sup> Ven la muerte del sabio,</p>
+<p>pero no comprenden su propósito,</p>
+<p>ni por qué el Señor lo ha puesto a salvo.</p>
+<p><sup>18</sup> Lo ven y lo desprecian,</p>
+<p>pero el Señor se reirá de ellos.</p>
+<p><sup>19</sup> Más tarde serán cadáveres sin honra,</p>
+<p>objeto de ultraje entre los muertos para siempre*.</p>
+<p>Pues los estrellará de cabeza y sin rechistar,</p>
+<p>los removerá de sus cimientos;</p>
+<p>quedarán totalmente asolados</p>
+<p>y sumidos en el dolor;</p>
+<p>y su recuerdo se perderá.</p>
+<h2 id="los-impíos-en-el-juicio">Los impíos en el Juicio*.</h2>
+<p><sup>20</sup> Acudirán asustados a dar cuenta de sus pecados,</p>
+<p>y sus propios delitos los acusarán a la cara.</p>
+<p><span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Entonces el justo* aguantará firme y lleno de confianza</p>
+<p>frente a los que lo oprimieron</p>
+<p>y despreciaron sus sufrimientos.</p>
+<p><sup>2</sup> Al verlo, quedarán sobrecogidos de espanto,</p>
+<p>desconcertados por la increíble salvación.</p>
+<p><sup>3</sup> Y, cambiando de opinión,</p>
+<p>con el espíritu angustiado, se dirán:</p>
+<p><sup>4</sup> «Éste es aquel de quien hace tiempo nos reíamos,</p>
+<p>a quien convertimos, insensatos, en blanco de nuestros insultos.</p>
+<p>Su vida nos parecía una locura,</p>
+<p>y su muerte, una deshonra.</p>
+<p><sup>5</sup> ¿Cómo es que ha sido incluido entre los hijos de Dios</p>
+<p>y comparte su herencia con los santos*?</p>
+<p><sup>6</sup> Ciertamente extraviamos el camino de la verdad,</p>
+<p>no nos iluminó la luz de la justicia,</p>
+<p>ni salió el sol para nosotros.</p>
+<p><sup>7</sup> Nos cansamos de andar por sendas de maldad y perdición,</p>
+<p>atravesamos desiertos intransitables,</p>
+<p>pero no reconocimos el camino del Señor.</p>
+<p><sup>8</sup> ¿De qué nos ha servido nuestro orgullo?</p>
+<p>¿Qué nos han reportado las riquezas de que presumíamos?</p>
+<p><sup>9</sup> Todo aquello pasó como una sombra,</p>
+<p>como noticia que vuela;</p>
+<p><sup>10</sup> como nave que surca las aguas agitadas,</p>
+<p>sin dejar ver el rastro de su travesía</p>
+<p>ni la estela de su quilla sobre las olas;</p>
+<p><sup>11</sup> o como pájaro que vuela por el aire</p>
+<p>sin dejar ninguna huella de su vuelo:</p>
+<p>con su aleteo bate el aire ligero,</p>
+<p>lo corta con agudo chillido,</p>
+<p>se abre camino agitando las alas</p>
+<p>y después no descubre la señal de su paso;</p>
+<p><sup>12</sup> o como flecha disparada al blanco:</p>
+<p>el aire rasgado vuelve a soldarse al instante,</p>
+<p>sin dejar conocer su trayectoria.</p>
+<p><sup>13</sup> Lo mismo nosotros: apenas nacidos, desaparecemos*;</p>
+<p>sin poder mostrar ningún signo de virtud,</p>
+<p>nos consumimos en nuestra maldad*.»</p>
+<p><sup>14</sup> En efecto*, la esperanza del impío es como brizna arrebatada por el viento,</p>
+<p>como frágil escarcha* arrastrada por el huracán;</p>
+<p>se disipa como el humo con el viento;</p>
+<p>pasa como el recuerdo del huésped de un solo día.</p>
+<h2 id="fin-dichoso-de-los-justos-y-castigo-de-los-impíos">Fin dichoso de los justos y castigo de los impíos*.</h2>
+<p><sup>15</sup> Los justos, en cambio, viven para siempre*;</p>
+<p>encuentran su recompensa en el Señor</p>
+<p>y el Altísimo cuida de ellos.</p>
+<p><sup>16</sup> Por eso recibirán un reino distinguido</p>
+<p>y una hermosa diadema de manos del Señor;</p>
+<p>pues con su diestra los protegerá</p>
+<p>y los escudará con su brazo.</p>
+<p><sup>17</sup> Tomará la armadura* de su celo</p>
+<p>y armará a la creación para vengarse de sus enemigos;</p>
+<p><sup>18</sup> vestirá la coraza de la justicia,</p>
+<p>se pondrá por casco un juicio imparcial,</p>
+<p><sup>19</sup> empuñará como escudo su santidad invencible,</p>
+<p><sup>20</sup> afilará la espada de su cólera implacable*,</p>
+<p>y el universo luchará a su lado contra los insensatos*.</p>
+<p><sup>21</sup> Partirán certeros los disparos de los rayos*,</p>
+<p>como de arco bien tendido, volarán de las nubes al blanco;</p>
+<p><sup>22</sup> una catapulta disparará furiosa granizada*;</p>
+<p>las aguas del mar se embravecerán contra ellos</p>
+<p>y los ríos los anegarán sin piedad*;</p>
+<p><sup>23</sup> un viento poderoso se levantará contra ellos</p>
+<p>y los barrerá como un huracán.</p>
+<p>Así la iniquidad asolará toda la tierra</p>
+<p>y la maldad derrocará los tronos de los poderosos.</p>
+<h2 id="ii-salomón-y-la-búsqueda-de-la-sabiduría">II. Salomón y la búsqueda de la sabiduría</h2>
+<h2 id="los-reyes-deben-buscar-la-sabiduría">Los reyes deben buscar la Sabiduría.</h2>
+<p><span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> <em>Escuchad, reyes, y entended</em>. Aprended, gobernantes</p>
+<p>de los confines de la tierra.</p>
+<p><sup>2</sup> Estad atentos los que domináis multitudes</p>
+<p>y presumís de tener muchos pueblos.</p>
+<p><sup>3</sup> Pues recibisteis el poder del Señor</p>
+<p>y la soberanía* del Altísimo;</p>
+<p>él investigará vuestras acciones</p>
+<p>y examinará vuestros proyectos.</p>
+<p><sup>4</sup> Ya que, siendo ministros de su reino, no juzgasteis rectamente,</p>
+<p>ni guardasteis la ley*,</p>
+<p>ni actuasteis de acuerdo con la voluntad de Dios,</p>
+<p><sup>5</sup> terrible y repentino caerá sobre vosotros,</p>
+<p>pues un juicio implacable aguarda a los grandes.</p>
+<p><sup>6</sup> Porque al más humilde se le perdona por piedad,</p>
+<p>pero los poderosos serán poderosamente examinados.</p>
+<p><sup>7</sup> El Señor de todos no retrocede ante nadie,</p>
+<p>ni la grandeza le intimida;</p>
+<p>que él mismo hizo a pequeños y grandes</p>
+<p>y de todos cuida por igual;</p>
+<p><sup>8</sup> pero a los poderosos les aguarda una investigación rigurosa.</p>
+<p><sup>9</sup> A vosotros, pues, soberanos, se dirigen mis palabras,</p>
+<p>para que aprendáis sabiduría y no pequéis.</p>
+<p><sup>10</sup> Porque los que guarden santamente las cosas santas, serán santificados*,</p>
+<p>y los que las aprendan encontrarán defensa.</p>
+<p><sup>11</sup> Así, pues, ansiad mis palabras;</p>
+<p>anheladlas y recibiréis instrucción.</p>
+<h2 id="la-sabiduría-se-deja-hallar">La sabiduría se deja hallar*.</h2>
+<p><sup>12</sup> La sabiduría es radiante e inmarcesible.</p>
+<p>Se deja ver fácilmente por los que la aman</p>
+<p>y encontrar por los que la buscan.</p>
+<p><sup>13</sup> Se adelanta a manifestarse a los que la desean.</p>
+<p><sup>14</sup> Quien madruga para buscarla, no se cansa,</p>
+<p>pues la encuentra sentada a su puerta.</p>
+<p><sup>15</sup> Meditar sobre ella es sensatez consumada,</p>
+<p>quien se desvela por ella pronto se ve libre de preocupaciones.</p>
+<p><sup>16</sup> Pues ella misma va buscando a los que son dignos de ella,</p>
+<p>se les muestra benévola por los caminos</p>
+<p>y sale al encuentro de todos sus pensamientos.</p>
+<p><sup>17</sup> <em>Su verdadero comienzo es el afán de instrucción</em>,</p>
+<p>el interés por la instrucción es amor,</p>
+<p><sup>18</sup> el amor es la observancia de sus leyes*,</p>
+<p>la atención a las leyes es garantía* de inmortalidad,</p>
+<p><sup>19</sup> y la inmortalidad acerca a Dios;</p>
+<p><sup>20</sup> por tanto, el afán de la sabiduría conduce al reino.</p>
+<p><sup>21</sup> Así que, si queréis tronos y cetros, soberanos de los pueblos,</p>
+<p>apreciad la sabiduría y reinaréis eternamente*.</p>
+<h2 id="salomón-va-a-describir-la-sabiduría">Salomón va a describir la Sabiduría.</h2>
+<p><sup>22</sup> Os voy a explicar la esencia y el origen de la sabiduría;</p>
+<p>no os ocultaré secretos,</p>
+<p>sino que rastrearé sus huellas desde su origen</p>
+<p>y pondré de manifiesto su conocimiento*,</p>
+<p>sin eludir la verdad.</p>
+<p><sup>23</sup> No compartiré el camino con la envidia corrosiva,</p>
+<p>pues nada tiene que ver con la Sabiduría.</p>
+<p><sup>24</sup> En la abundancia de sabios está la salvación del mundo,</p>
+<p>y en un rey sensato, el bienestar del pueblo.</p>
+<p><sup>25</sup> Así, pues, dejaos instruir por mis palabras y sacaréis provecho.</p>
+<h2 id="salomón-era-sólo-un-hombre">Salomón era sólo un hombre.</h2>
+<p><span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> También yo soy un hombre* mortal como todos,</p>
+<p>descendiente del primero formado de la tierra.</p>
+<p>En el vientre materno se modeló mi carne;</p>
+<p><sup>2</sup> durante diez meses* fui cuajado en su sangre,</p>
+<p>a partir de la simiente viril y del placer unido al sueño.</p>
+<p><sup>3</sup> Al nacer, también yo respiré el aire común,</p>
+<p>caí en la tierra que a todos nos recibe,</p>
+<p>y mi primera voz, como la de todos, fue el llanto.</p>
+<p><sup>4</sup> Me crié entre pañales y cuidados.</p>
+<p><sup>5</sup> Pues ningún rey comenzó de otro modo su existencia;</p>
+<p><sup>6</sup> que son iguales para todos la entrada en la vida y la salida.</p>
+<h2 id="aprecio-de-salomón-por-la-sabiduría">Aprecio de Salomón por la Sabiduría.</h2>
+<p><sup>7</sup> Por eso supliqué y se me concedió la prudencia;</p>
+<p>invoqué y vino a mí el espíritu de sabiduría.</p>
+<p><sup>8</sup> La preferí a cetros y tronos*</p>
+<p>y en su comparación tuve en nada la riqueza.</p>
+<p><sup>9</sup> No la equiparé a la piedra más preciosa,</p>
+<p>porque todo el oro a su lado es un puñado de arena,</p>
+<p>y ante ella la plata es como el barro.</p>
+<p><sup>10</sup> La quise más que a la salud y a la belleza</p>
+<p>y preferí tenerla como luz,</p>
+<p>porque su claridad no anochece.</p>
+<p><sup>11</sup> Con ella me vinieron a la vez todos los bienes</p>
+<p>e incalculables riquezas en sus manos.</p>
+<p><sup>12</sup> Yo disfruté de todos, porque la Sabiduría los trae,</p>
+<p>aunque ignoraba que ella fuera su origen*.</p>
+<p><sup>13</sup> Sin engaño la aprendí y sin envidia la comparto;</p>
+<p>no escondo sus riquezas,</p>
+<p><sup>14</sup> porque es un tesoro inagotable para los hombres,</p>
+<p>y los que la adquieren se granjean la amistad de Dios,</p>
+<p>recomendados por los dones que ofrece la instrucción*.</p>
+<h2 id="llamamiento-a-la-inspiración-divina">Llamamiento a la inspiración divina.</h2>
+<p><sup>15</sup> Que Dios me conceda hablar con conocimiento</p>
+<p>y tener pensamientos dignos de sus dones,</p>
+<p>porque él es quien guía a la sabiduría y quien dirige a los sabios.</p>
+<p><sup>16</sup> En sus manos estamos nosotros y nuestras palabras,</p>
+<p>toda prudencia y toda habilidad práctica.</p>
+<p><sup>17</sup> Él me concedió el verdadero conocimiento de los seres,</p>
+<p>para conocer la estructura del mundo y la actividad de los elementos,</p>
+<p><sup>18</sup> el principio, el fin y el medio de los tiempos,</p>
+<p>la alternancia de los solsticios y la sucesión de las estaciones,</p>
+<p><sup>19</sup> los ciclos anuales y la posición de las estrellas,</p>
+<p><sup>20</sup> la naturaleza de los animales y los instintos de las fieras,</p>
+<p>el poder de los espíritus y los pensamientos de los hombres,</p>
+<p>las variedades de las plantas y las virtudes de las raíces.</p>
+<p><sup>21</sup> Llegué a conocer cuanto está oculto y manifiesto*,</p>
+<p>porque la sabiduría, artífice de todo, me lo enseñó.</p>
+<h2 id="elogio-de-la-sabiduría">Elogio de la Sabiduría*.</h2>
+<p><sup>22</sup> Pues hay en ella un espíritu inteligente, santo,</p>
+<p>único, múltiple, sutil,</p>
+<p>ágil, perspicaz, inmaculado,</p>
+<p>claro, impasible, amante del bien, agudo,</p>
+<p><sup>23</sup> libre, bienhechor, filántropo,</p>
+<p>firme, seguro, sereno,</p>
+<p>que todo lo puede, todo lo controla</p>
+<p>y penetra en todos los espíritus:</p>
+<p>los inteligentes, los puros, los más sutiles.</p>
+<p><sup>24</sup> Pues la sabiduría es más móvil que cualquier movimiento</p>
+<p>y, en virtud de su pureza, atraviesa y penetra todo.</p>
+<p><sup>25</sup> Es un soplo del poder de Dios,</p>
+<p>una emanación pura de la gloria del Omnipotente;</p>
+<p>por eso, nada contaminado le afecta.</p>
+<p><sup>26</sup> Es reflejo de la luz eterna*,</p>
+<p>espejo inmaculado de la actividad de Dios</p>
+<p>e imagen de su bondad.</p>
+<p><sup>27</sup> Aun siendo una sola, todo lo puede;</p>
+<p>sin cambiar en nada, renueva el universo;</p>
+<p>y entrando en las almas santas en cada generación</p>
+<p>hace amigos de Dios* y profetas*,</p>
+<p><sup>28</sup> pues Dios sólo ama a quien convive con la sabiduría.</p>
+<p><sup>29</sup> Ella es más bella que el sol</p>
+<p>y supera a todas las constelaciones;</p>
+<p>comparada con la luz, sale ganando,</p>
+<p><sup>30</sup> porque la luz deja paso a la noche,</p>
+<p>pero a la sabiduría no la domina el mal.</p>
+<p><span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> Se propaga decidida de uno al otro confín</p>
+<p>y gobierna todo con acierto.</p>
+<h2 id="la-sabiduría-esposa-ideal-para-salomón">La Sabiduría, esposa ideal para Salomón.</h2>
+<p><sup>2</sup> Yo la amé y la pretendí desde mi juventud;</p>
+<p>me empeñé en hacerla mi esposa,</p>
+<p>enamorado de su belleza.</p>
+<p><sup>3</sup> Su intimidad con Dios ennoblece su linaje,</p>
+<p>pues el dueño de todo la ama*.</p>
+<p><sup>4</sup> Está iniciada en el conocimiento de Dios</p>
+<p>y es la que elige sus obras.</p>
+<p><sup>5</sup> Si la riqueza es un bien apetecible en la vida,</p>
+<p>¿qué cosa es más rica que la sabiduría, que todo lo hace?</p>
+<p><sup>6</sup> Si la inteligencia trabaja,</p>
+<p>¿quién sino la sabiduría es el artífice de cuanto existe?</p>
+<p><sup>7</sup> Si alguien ama la justicia,</p>
+<p>las virtudes son su especialidad*,</p>
+<p>pues ella enseña templanza y prudencia,</p>
+<p>justicia y fortaleza;</p>
+<p>para el ser humano no hay en la vida nada más provechoso.</p>
+<p><sup>8</sup> Si alguien anhela una gran experiencia,</p>
+<p>ella conoce el pasado y adivina el futuro,</p>
+<p>comprende dichos agudos y resuelve enigmas*,</p>
+<p>conoce de antemano signos y prodigios</p>
+<p>y la oportunidad* de momentos y tiempos.</p>
+<h2 id="la-sabiduría-indispensable-a-los-soberanos">La Sabiduría, indispensable a los soberanos.</h2>
+<p><sup>9</sup> Así, pues, decidí tomarla por compañera,</p>
+<p>consciente de que sería mi consejera en la dicha</p>
+<p>y mi alivio en las preocupaciones y penas.</p>
+<p><sup>10</sup> Gracias a ella obtendré gloria entre la gente</p>
+<p>y, aunque joven, el aprecio de los ancianos.</p>
+<p><sup>11</sup> Apareceré agudo en el juicio</p>
+<p>y seré la admiración de los poderosos.</p>
+<p><sup>12</sup> Cuando calle, esperarán;</p>
+<p>cuando hable, prestarán atención;</p>
+<p>y si me alargo hablando, se llevarán la mano a la boca*.</p>
+<p><sup>13</sup> Gracias a ella alcanzaré la inmortalidad</p>
+<p>y legaré perpetuo recuerdo a la posteridad.</p>
+<p><sup>14</sup> Gobernaré a los pueblos y someteré naciones.</p>
+<p><sup>15</sup> Soberanos terribles se asustarán al oír hablar de mí.</p>
+<p>Me mostraré generoso con las multitudes y valiente en la guerra.</p>
+<p><sup>16</sup> Al volver a casa, descansaré a su lado,</p>
+<p>pues su compañía no produce amargura</p>
+<p>ni su intimidad entristece,</p>
+<p>sino que contenta y alegra.</p>
+<h2 id="salomón-va-a-pedir-la-sabiduría">Salomón va a pedir la Sabiduría.</h2>
+<p><sup>17</sup> Reflexionando sobre estas cosas,</p>
+<p>consideré en mi interior</p>
+<p>que la inmortalidad reside en emparentar* con la Sabiduría,</p>
+<p><sup>18</sup> que su amistad es un gran placer,</p>
+<p>que hay riqueza inagotable en el trabajo de sus manos,</p>
+<p>prudencia en su trato asiduo</p>
+<p>y prestigio en la conversación con ella;</p>
+<p>y me puse a dar vueltas, tratando de apropiármela.</p>
+<p><sup>19</sup> Yo era un muchacho de buen natural,</p>
+<p>dotado de un alma buena,</p>
+<p><sup>20</sup> o más bien, siendo bueno, vine a un cuerpo sin tara*;</p>
+<p><sup>21</sup> pero, comprendiendo que no la conseguiría, si Dios no me la daba</p>
+<p>—y ya era un signo de sensatez saber de quién procedía tal don—,</p>
+<p>acudí al Señor y le supliqué,</p>
+<p>diciéndole de todo corazón:</p>
+<h2 id="oración-para-alcanzar-la-sabiduría">Oración para alcanzar la Sabiduría *.</h2>
+<p><span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> «Dios de mis antepasados, Señor de misericordia*,</p>
+<p>que hiciste todas las cosas con tu palabra,</p>
+<p><sup>2</sup> y con tu sabiduría formaste al hombre</p>
+<p>para que dominase sobre tus criaturas,</p>
+<p><sup>3</sup> gobernase el mundo con santidad y justicia</p>
+<p>y juzgase con rectitud de espíritu;</p>
+<p><sup>4</sup> dame la Sabiduría entronizada junto a tí,</p>
+<p>y no me excluyas de entre tus hijos.</p>
+<p><sup>5</sup> Porque soy siervo tuyo, hijo de tu esclava,</p>
+<p>un hombre débil y de vida efímera,</p>
+<p>incapaz de comprender el derecho y las leyes.</p>
+<p><sup>6</sup> Pues, aunque uno sea perfecto entre los hombres,</p>
+<p>si le falta la sabiduría que viene de ti, será tenido en nada.</p>
+<p><sup>7</sup> Tú me elegiste* como rey de tu pueblo,</p>
+<p>para gobernar a tus hijos y a tus hijas;</p>
+<p><sup>8</sup> tú me encargaste construir un templo en tu monte santo</p>
+<p>y un altar en la ciudad donde habitas,</p>
+<p>a imitación de la tienda santa que pre-paraste desde el principio*.</p>
+<p><sup>9</sup> Contigo está la Sabiduría que conoce tus obras,</p>
+<p>que estaba a tu lado cuando hacías el mundo,</p>
+<p>que conoce lo que te agrada</p>
+<p>y lo que es conforme a tus mandamientos.</p>
+<p><sup>10</sup> Envíala desde el santo cielo,</p>
+<p>mándala desde tu trono glorioso,</p>
+<p>para que me acompañe en mis tareas</p>
+<p>y pueda yo conocer lo que te agrada.</p>
+<p><sup>11</sup> Ella, que todo lo sabe y comprende,</p>
+<p>me guiará prudentemente en mis empresas</p>
+<p>y me protegerá con su gloria*.</p>
+<p><sup>12</sup> Así mis obras serán aceptadas,</p>
+<p>juzgaré a tu pueblo con justicia</p>
+<p>y seré digno del trono de mi padre.</p>
+<p><sup>13</sup> Pues, ¿qué hombre puede conocer la voluntad de Dios?</p>
+<p>¿Quién puede considerar lo que el Señor quiere?</p>
+<p><sup>14</sup> Los pensamientos humanos son mezquinos</p>
+<p>y nuestros proyectos, caducos;</p>
+<p><sup>15</sup> pues el cuerpo mortal oprime el alma</p>
+<p>y la tienda terrenal abruma la mente reflexiva*.</p>
+<p><sup>16</sup> Si a duras penas vislumbramos lo que hay en la tierra</p>
+<p>y con dificultad encontramos lo que tenemos a mano,</p>
+<p>¿quién puede rastrear lo que está en los cielos?</p>
+<p><sup>17</sup> ¿Quién puede conocer tu voluntad, si tú no le das la sabiduría</p>
+<p>y le envias tu espíritu santo desde el cielo*?</p>
+<p><sup>18</sup> Así se enderezaron los caminos de los habitantes de la tierra;</p>
+<p>los hombres aprendieron lo que te agrada</p>
+<p>y se salvaron gracias a la sabiduría*.»</p>
+<h2 id="iii-la-sabiduría-en-la-historia">III. La sabiduría en la historia</h2>
+<h2 id="desde-adán-hasta-moisés">Desde Adán hasta Moisés.</h2>
+<p><span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Ella fue la que protegió al primer hombre, padre del mundo; creado solo*, lo rescató de su caída*</p>
+<p><sup>2</sup> y le dio poder para dominar todas las cosas.</p>
+<p><sup>3</sup> De ella se apartó el criminal iracundo*</p>
+<p>y pereció con su furor fratricida.</p>
+<p><sup>4</sup> Cuando la tierra fue inundada por su culpa, la sabiduría la salvó,</p>
+<p>conduciendo al justo* en una humilde tabla.</p>
+<p><sup>5</sup> En la perversión común de los pueblos confundidos,</p>
+<p>ella conoció al justo*, lo conservó intachable ante Dios</p>
+<p>y lo sostuvo firme a pesar del amor entrañable a su hijo.</p>
+<p><sup>6</sup> Durante el exterminio de los impíos, ella salvó al justo*,</p>
+<p>cuando huía del fuego que caía sobre la Pentápolis.</p>
+<p><sup>7</sup> De su maldad todavía quedan como testigos</p>
+<p>una tierra desolada y humeante</p>
+<p>y unas plantas con frutos malogrados;</p>
+<p>y, como monumento al alma incrédula, se levanta una estatua de sal.</p>
+<p><sup>8</sup> Pues, al apartarse de la sabiduría,</p>
+<p>no sólo sufrieron la desgracia de ignorar el bien,</p>
+<p>sino que además legaron a la historia un recuerdo de su insensatez,</p>
+<p>para que sus faltas no quedaran ocultas.</p>
+<p><sup>9</sup> La sabiduría, sin embargo, sacó de apuros a sus servidores.</p>
+<p><sup>10</sup> Al justo* que huía de la ira de su hermano</p>
+<p>ella lo guió por caminos rectos,</p>
+<p>le mostró el reino de Dios</p>
+<p>y le dio a conocer las cosas santas*;</p>
+<p>le dio prosperidad en sus trabajos</p>
+<p>y multiplicó el fruto de sus esfuerzos;</p>
+<p><sup>11</sup> lo asistió contra la avaricia de sus opresores</p>
+<p>y lo enriqueció;</p>
+<p><sup>12</sup> lo defendió de sus enemigos,</p>
+<p>lo protegió de los que le tendían trampas</p>
+<p>y, tras duro combate, le dio la victoria,</p>
+<p>para enseñarle que la piedad triunfa sobre todo*.</p>
+<p><sup>13</sup> Ella no abandonó al justo vendido*,</p>
+<p>sino que lo libró del pecado;</p>
+<p><sup>14</sup> bajó con él a la cisterna</p>
+<p>y no lo dejó solo en la prisión,</p>
+<p>hasta entregarle el cetro real</p>
+<p>y el poder sobre sus tiranos;</p>
+<p>demostró la falsedad de sus ofensores</p>
+<p>y le concedió gloria eterna.</p>
+<h2 id="el-éxodo">El Éxodo.</h2>
+<p><sup>15</sup> Ella libró de la nación opresora</p>
+<p>a un pueblo santo y a un linaje intachable*.</p>
+<p><sup>16</sup> Entró en el alma del servidor del Señor</p>
+<p>y combatió a reyes temibles* con prodigios y señales.</p>
+<p><sup>17</sup> Recompensó a los santos por sus fatigas</p>
+<p>y los condujo por un camino maravilloso;</p>
+<p>fue para ellos sombra durante el día</p>
+<p>y resplandor de estrellas durante la noche*.</p>
+<p><sup>18</sup> Les abrió paso a través del mar Rojo</p>
+<p>y los condujo entre aguas caudalosas,</p>
+<p><sup>19</sup> mientras sumergió a sus enemigos</p>
+<p>y luego los sacó a flote desde el fondo del abismo.</p>
+<p><sup>20</sup> De este modo los justos despojaron a los impíos*,</p>
+<p>cantaron himnos, Señor, a tu santo Nombre</p>
+<p>y alabaron a coro tu mano vencedora,</p>
+<p><sup>21</sup> porque la sabiduría abrió la boca de los mudos</p>
+<p>y soltó las lenguas infantiles*.</p>
+<p><span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Ella llevó felizmente a término sus acciones por medio de un santo profeta*.</p>
+<p><sup>2</sup> Atravesaron un desierto inhóspito</p>
+<p>y acamparon en parajes intransitables.</p>
+<p><sup>3</sup> Hicieron frente a sus enemigos y rechazaron a sus adversarios*.</p>
+<h2 id="el-milagro-del-agua-primera-antítesis">El milagro del agua. Primera antítesis*.</h2>
+<p><sup>4</sup> Tuvieron sed y te invocaron:</p>
+<p>bebieron agua de una roca escarpada,</p>
+<p>en la dura piedra remediaron su sed.</p>
+<p><sup>5</sup> Pues lo que sirvió de castigo para sus enemigos,</p>
+<p>se convirtió en auxilio de su propia necesidad.</p>
+<p><sup>6</sup> En lugar de la fuente de un río perenne,</p>
+<p>enturbiado con sangre sucia,</p>
+<p><sup>7</sup> en castigo por un decreto infanticida*,</p>
+<p>les diste sin esperarlo agua abundante,</p>
+<p><sup>8</sup> mostrándoles con la sed de entonces</p>
+<p>cómo habías castigado a sus adversarios.</p>
+<p><sup>9</sup> Pues cuando sufrían una prueba</p>
+<p>—aunque corregidos con cariño—,</p>
+<p>conocían cómo eran castigados* los impíos, juzgados con cólera;</p>
+<p><sup>10</sup> pues a ellos los probaste como padre que corrige,</p>
+<p>pero a los otros los castigaste como rey justiciero que condena.</p>
+<p><sup>11</sup> Los ausentes y los presentes se consumían por igual,</p>
+<p><sup>12</sup> pues los embargaba una doble tristeza</p>
+<p>y un lamento al recordar el pasado*:</p>
+<p><sup>13</sup> cuando se enteraban de que sus propios castigos</p>
+<p>redundaban en beneficio de los otros*,</p>
+<p>reconocían al Señor*.</p>
+<p><sup>14</sup> Al que antes habían abandonado expósito y rechazado con burlas*,</p>
+<p>al final de los acontecimientos lo admiraron,</p>
+<p>tras pasar una sed distinta de la de los justos.</p>
+<h2 id="moderación-divina-hacia-egipto">Moderación divina hacia Egipto.</h2>
+<p><sup>15</sup> Por sus pensamientos insensatos y malvados,</p>
+<p>que los desorientaron, haciéndoles adorar a reptiles irracionales y a viles animales*,</p>
+<p>tú les enviaste como castigo una multitud de animales irracionales*,</p>
+<p><sup>16</sup> para que comprendieran que en el pecado va la penitencia*.</p>
+<p><sup>17</sup> Pues bien podía tu mano omnipotente</p>
+<p>—que había creado el mundo de materia informe*—</p>
+<p>enviar contra ellos manadas de osos o leones intrépidos,</p>
+<p><sup>18</sup> o fieras enfurecidas, desconocidas y recién creadas,</p>
+<p>que lanzasen resoplidos de fuego,</p>
+<p>despidiesen humaredas apestosas*</p>
+<p>o echasen chispas terribles por los ojos;</p>
+<p><sup>19</sup> capaces, no ya de aniquilarlos con sus ataques,</p>
+<p>sino de exterminarlos con su aspecto terrorífico.</p>
+<p><sup>20</sup> Y aun sin esto, podían haber sucumbido de un soplo,</p>
+<p>perseguidos por la Justicia</p>
+<p>o barridos por tu aliento poderoso.</p>
+<h2 id="pero-tú-regulaste-todo-con-medida-número-y-peso">Pero tú regulaste todo con medida, número y peso.</h2>
+<h2 id="motivos-de-esta-moderación">Motivos de esta moderación.</h2>
+<p><sup>21</sup> Tú siempre puedes utilizar tu poder.</p>
+<p>¿Quién va a resistir la fuerza de tu brazo?</p>
+<p><sup>22</sup> El mundo entero es ante ti como un gramo en la balanza*,</p>
+<p>como gota de rocío matutino sobre la tierra.</p>
+<p><sup>23</sup> Pero te compadeces de todos*, porque todo lo puedes,</p>
+<p>y pasas por alto los pecados de los hombres para que se arrepientan.</p>
+<p><sup>24</sup> Amas a todos los seres</p>
+<p>y no aborreces nada de lo que hiciste,</p>
+<p>pues, si algo odiases, no lo habrías creado.</p>
+<p><sup>25</sup> ¿Cómo subsistiría algo, si tú no lo quisieras?</p>
+<p>¿Cómo se conservaría, si no lo hubieras llamado?</p>
+<p><sup>26</sup> Pero tú eres indulgente con todas las cosas, porque son tuyas, Señor, amigo de</p>
+<p>la vida,</p>
+<p><span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> pues tu aliento incorruptible está en todas ellas*.</p>
+<p><sup>2</sup> Por eso corriges poco a poco</p>
+<p>a los que caen</p>
+<p>y los reprendes recordándoles sus pecados,</p>
+<p>para que se aparten del mal y crean en ti, Señor.</p>
+<h2 id="moderación-de-dios-hacia-canaán">Moderación de Dios hacia Canaán.</h2>
+<p><sup>3</sup> A los antiguos habitantes* de tu tierra santa</p>
+<p><sup>4</sup> los aborreciste por sus abominables acciones,</p>
+<p>prácticas mágicas y ritos sacrílegos.</p>
+<p><sup>5</sup> A esos crueles asesinos de niños,</p>
+<p>devoradores de entrañas en banquetes de carne y de sangre humanas,</p>
+<p>a estos iniciados en bacanales*,</p>
+<p><sup>6</sup> padres asesinos de seres indefensos,</p>
+<p>decidiste exterminarlos por medio de nuestros antepasados,</p>
+<p><sup>7</sup> para que la tierra que más apreciabas</p>
+<p>recibiera una digna colonia de hijos de Dios.</p>
+<p><sup>8</sup> Pero también de éstos, por ser hombres, tuviste compasión*</p>
+<p>y les enviaste avispas, como avanzadilla de tu ejército,</p>
+<p>para exterminarlos poco a poco*.</p>
+<p><sup>9</sup> Aunque podías haber sometido los impíos a los justos en batalla campal</p>
+<p>o haberlos aniquilado de una vez con feroces fieras o con una orden fulminante,</p>
+<p><sup>10</sup> castigándolos poco a poco les diste ocasión de arrepentirse,</p>
+<p>a sabiendas de que eran de mala ralea,</p>
+<p>de malicia innata,</p>
+<p>y de que su mentalidad no cambiaría nunca*,</p>
+<p><sup>11</sup> pues era una raza maldita desde su origen.</p>
+<h2 id="motivos-de-esta-moderación-1">Motivos de esta moderación.</h2>
+<h2 id="tampoco-por-temor-a-nadie-indultabas-sus-pecados">Tampoco por temor a nadie indultabas sus pecados.</h2>
+<p><sup>12</sup> Pues ¿quién podría decirte: «¿Qué has hecho?»</p>
+<p>¿Quién se opondría a tu sentencia?</p>
+<p>¿Quién te citaría a juicio por destruir naciones creadas por ti?</p>
+<p>¿Quién se enfrentaría a ti como defensor de hombres injustos?</p>
+<p><sup>13</sup> Pues fuera de ti no hay Dios que cuide de todo,</p>
+<p>a quien tengas que dar cuenta de la justicia de tus juicios;</p>
+<p><sup>14</sup> ni rey ni soberano que pueda desafiarte defendiendo a los que has castigado.</p>
+<p><sup>15</sup> Puesto que eres justo, todo lo gobiernas con justicia,</p>
+<p>y consideras incompatible con tu poder</p>
+<p>el condenar a quien no merece castigo*.</p>
+<p><sup>16</sup> Tu poder es el principio de la justicia*</p>
+<p>y tu señorío sobre todo te hace ser compasivo con todos.</p>
+<p><sup>17</sup> Demuestras tu poder ante los que desconfían de la plenitud de tu fuerza</p>
+<p>y confundes la osadía de los que la conocen.</p>
+<p><sup>18</sup> Dueño de tu poder, juzgas con moderación</p>
+<p>y nos* gobiernas con gran indulgencia,</p>
+<p>porque haces valer tu poder cuando quieres.</p>
+<h2 id="lecciones-de-dios-a-israel">Lecciones de Dios a Israel.</h2>
+<p><sup>19</sup> Actuando así, enseñaste a tu pueblo</p>
+<p>que el justo debe ser filántropo*</p>
+<p>y diste a tus hijos esperanza plena,</p>
+<p>pues tras el pecado das lugar al arrepentimiento.</p>
+<p><sup>20</sup> Pues si a los enemigos de tus hijos, reos de muerte,</p>
+<p>los castigaste con tanto miramiento y clemencia*,</p>
+<p>dándoles tiempo y lugar para apartarse de su maldad*,</p>
+<p><sup>21</sup> ¿con cuánta consideración no habrás juzgado a tus hijos,</p>
+<p>con cuyos padres hiciste juramentos y alianzas de grandes promesas?</p>
+<p><sup>22</sup> Así, nos educas castigando a nuestros enemigos con moderación*,</p>
+<p>para que, al juzgar, recordemos tu bondad</p>
+<p>y, al ser juzgados, esperemos misericordia.</p>
+<h2 id="vuelta-a-los-egipcios-su-castigo-progresivo">Vuelta a los egipcios. Su castigo progresivo.</h2>
+<p><sup>23</sup> Por eso, a los que vivían de manera insensata e inicua</p>
+<p>los atormentaste con sus propias abominaciones*,</p>
+<p><sup>24</sup> pues se habían extraviado muy lejos por los caminos del error,</p>
+<p>tomando por dioses a los animales más viles y despreciables,</p>
+<p>dejándose engañar como niños inconscientes.</p>
+<p><sup>25</sup> Por eso, como a niños sin razón, les enviaste un castigo de risa.</p>
+<p><sup>26</sup> Pero los que no escarmentaron con correcciones ridículas</p>
+<p>iban a experimentar un castigo digno de Dios.</p>
+<p><sup>27</sup> Pues ellos mismos, atormentados e irritados por aquellos</p>
+<p>que tenían por dioses y ahora eran su castigo,</p>
+<p>abrieron los ojos y reconocieron como Dios verdadero</p>
+<p>a aquel que antes se negaban a conocer.</p>
+<h2 id="por-eso-les-sobrevino-el-peor-de-los-castigos">Por eso, les sobrevino el peor de los castigos*.</h2>
+<h2 id="crítica-de-la-idolatría-divinización-de-la-naturaleza">Crítica de la idolatría*. Divinización de la naturaleza.</h2>
+<p><span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Son necios por naturaleza todos los hombres que han desconocido a Dios</p>
+<p>y no fueron capaces de conocer al que es a partir de los bienes visibles,</p>
+<p>ni de reconocer al Artífice, atendiendo a sus obras*;</p>
+<p><sup>2</sup> sino que tuvieron por dioses, señores del mundo,</p>
+<p>al fuego, al viento, al aire ligero,</p>
+<p>a la bóveda estrellada, al agua impetuosa o a los astros del cielo.</p>
+<p><sup>3</sup> Si, cautivados por su belleza, los tomaron por dioses,</p>
+<p>sepan cuánto les aventaja su Señor,</p>
+<p>pues los creó el autor de la belleza*.</p>
+<p><sup>4</sup> Y si admiraron su poder y energía,</p>
+<p>deduzcan de ahí cuánto más poderoso es quien los hizo,</p>
+<p><sup>5</sup> pues por la grandeza y hermosura de las criaturas</p>
+<p>se descubre, por analogía, a su Creador.</p>
+<p><sup>6</sup> Sin embargo, éstos merecen menor reproche,</p>
+<p>pues tal vez andan extraviados</p>
+<p>buscando a Dios y queriendo encontrarlo.</p>
+<p><sup>7</sup> Dan vueltas a sus obras, las investigan</p>
+<p>y se dejan seducir por su apariencia, pues es hermoso lo que ven.</p>
+<p><sup>8</sup> Pero, con todo, ni siquiera éstos son excusables,</p>
+<p><sup>9</sup> porque, si fueron capaces de saber tanto,</p>
+<p>que pudieron escudriñar el universo,</p>
+<p>¿cómo no encontraron antes a su Señor?</p>
+<h2 id="el-culto-a-los-ídolos">El culto a los ídolos*.</h2>
+<p><sup>10</sup> Son, pues, unos desgraciados, con la esperanza puesta en cosas muertas,</p>
+<p>quienes llamaron dioses a las obras de manos humanas:</p>
+<p>oro y plata labrados con arte,</p>
+<p>a copias de animales</p>
+<p>o a una piedra inútil, esculpida por manos antiguas.</p>
+<p><sup>11</sup> Un carpintero tala un árbol apropiado,</p>
+<p>monda con destreza toda su corteza,</p>
+<p>lo trabaja con finura</p>
+<p>y fabrica un objeto útil para usos comunes.</p>
+<p><sup>12</sup> Con los desechos de su obra</p>
+<p>se prepara una comida con la que se sacia.</p>
+<p><sup>13</sup> Y el desecho de todo, que no sirve para nada,</p>
+<p>un palo torcido y lleno de nudos,</p>
+<p>lo coge y lo talla en sus ratos de ocio,</p>
+<p>lo modela con la destreza adquirida</p>
+<p>y saca la imagen de una figura humana</p>
+<p><sup>14</sup> o la copia de cualquier vil animal.</p>
+<p>Lo embadurna de minio, pinta su cuerpo de rojo</p>
+<p>y recubre todos sus defectos.</p>
+<p><sup>15</sup> Luego le prepara un nicho digno</p>
+<p>y lo coloca en la pared asegurándolo con hierros.</p>
+<p><sup>16</sup> Para que no se le caiga, toma sus precauciones,</p>
+<p>sabiendo que no puede valerse por sí mismo,</p>
+<p>pues es una imagen y necesita ayuda*.</p>
+<p><sup>17</sup> Cuando le reza por la hacienda, las bodas y los hijos,</p>
+<p>no se avergüenza de hablar con algo inanimado.</p>
+<p>Y pide salud a un enfermo,</p>
+<p><sup>18</sup> vida a un muerto,</p>
+<p>ayuda al más inepto,</p>
+<p>un viaje feliz al que no puede andar;</p>
+<p><sup>19</sup> y para las ganancias, empresas y éxitos de sus tareas</p>
+<p>pide vigor al más torpe de manos.</p>
+<p><span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Otro, dispuesto a embarcar para cruzar el mar bravío,</p>
+<p>invoca a un madero más frágil que la nave que lo lleva*.</p>
+<p><sup>2</sup> A ésta la inventó el afán de lucro</p>
+<p>y la construyó la sabiduría como artífice*;</p>
+<p><sup>3</sup> pero es tu providencia*, Padre, quien la guía,</p>
+<p>pues también en el mar abriste un camino</p>
+<p>y una senda segura entre las olas*,</p>
+<p><sup>4</sup> demostrando así que puedes salvar de todo peligro,</p>
+<p>para que hasta el inexperto pueda embarcarse.</p>
+<p><sup>5</sup> No quieres que las obras de tu Sabiduría queden estériles;</p>
+<p>por eso, los hombres confían sus vidas a un insignificante madero,</p>
+<p>cruzan el oleaje en una balsa y arriban sanos y salvos.</p>
+<p><sup>6</sup> Ya en los comienzos, cuando los soberbios gigantes perecían*,</p>
+<p>la esperanza del mundo se refugió en una balsa*,</p>
+<p>que, pilotada por tu mano, legó al mundo una semilla de vida.</p>
+<p><sup>7</sup> Bendito, pues, el madero con el que se hace justicia*:</p>
+<p><sup>8</sup> pero malditos el ídolo manufacturado* y el que lo hizo;</p>
+<p>el uno por hacerlo, y el otro porque, siendo corruptible, es considerado dios.</p>
+<p><sup>9</sup> Dios aborrece igualmente al impío y su impiedad,</p>
+<p><sup>10</sup> y la obra será castigada junto con su autor.</p>
+<p><sup>11</sup> Por eso los ídolos de las naciones también serán juzgados,</p>
+<p>porque se convirtieron en abominación entre las criaturas de Dios,</p>
+<p>ocasión de tropiezo para las almas de los hombres</p>
+<p>y una trampa para los pies de los insensatos.</p>
+<h2 id="origen-del-culto-a-los-ídolos">Origen del culto a los ídolos.</h2>
+<p><sup>12</sup> La invención de los ídolos fue el comienzo de la infidelidad,</p>
+<p>y su descubrimiento, la corrupción de la vida*.</p>
+<p><sup>13</sup> Pero no existían desde el principio, ni existirán para siempre.</p>
+<p><sup>14</sup> Entraron* en el mundo por la vanidad de los hombres</p>
+<p>y, por eso, su fin inmediato está decidido.</p>
+<p><sup>15</sup> Un padre*, afligido por un luto prematuro,</p>
+<p>hace una imagen del hijo malogrado,</p>
+<p>y al que ayer era hombre muerto, hoy lo honra como un dios</p>
+<p>y encarga a sus subordinados misterios y ritos.</p>
+<p><sup>16</sup> Luego la impía costumbre se consolida con el tiempo y se observa como ley.</p>
+<p><sup>17</sup> Las estatuas también recibían culto por decreto de los soberanos.</p>
+<p>Y, como la gente que vivía lejos no los podía venerar en persona,</p>
+<p>representaban su figura lejana</p>
+<p>haciendo una imagen visible del rey venerado,</p>
+<p>para adular con fervor al ausente como si estuviera presente.</p>
+<p><sup>18</sup> La ambición del artista contribuyó a extender este culto</p>
+<p>incluso entre quienes no lo conocían;</p>
+<p><sup>19</sup> pues éste, queriendo complacer seguramente al soberano,</p>
+<p>alteró con su arte el parecido para embellecerlo,</p>
+<p><sup>20</sup> y la multitud, seducida por el encanto de la obra,</p>
+<p>tomó entonces por objeto de culto al que poco antes honraba como hombre.</p>
+<p><sup>21</sup> Y esto se convirtió en trampa para los vivientes,</p>
+<p>pues los hombres, esclavos de la desgracia o de la tiranía,</p>
+<p>dieron el nombre incomunicable* a piedras y maderos.</p>
+<h2 id="consecuencias-del-culto-a-los-ídolos">Consecuencias del culto a los ídolos.</h2>
+<p><sup>22</sup> Luego, no les bastó con errar en el conocimiento de Dios,</p>
+<p>sino que, debatiéndose en duro conflicto* por la ignorancia,</p>
+<p>llamaron paz a tan graves males.</p>
+<p><sup>23</sup> Así, celebrando iniciaciones infanticidas, misterios secretos</p>
+<p>o delirantes orgías de ritos extravagantes*,</p>
+<p><sup>24</sup> ya no mantienen puros ni vidas ni matrimonios,</p>
+<p>sino que se matan a traición unos a otros o se humillan con adulterios.</p>
+<p><sup>25</sup> Todo es un caos de sangre y muerte, robo y fraude,</p>
+<p>corrupción, deslealtad, desorden, perjurio,</p>
+<p><sup>26</sup> confusión de los buenos, olvido de la gratitud,</p>
+<p>contaminación de las almas, inversión de sexos*,</p>
+<p>desorden matrimonial, adulterio y libertinaje*.</p>
+<p><sup>27</sup> Porque el culto a los ídolos sin nombre*</p>
+<p>es principio, causa y fin de todos los males.</p>
+<p><sup>28</sup> Pues o se divierten frenéticamente,</p>
+<p>o profetizan mentiras,</p>
+<p>o viven en la injusticia,</p>
+<p>o perjuran con ligereza.</p>
+<p><sup>29</sup> Como confían en ídolos sin vida,</p>
+<p>no temen que el jurar en falso les pueda perjudicar.</p>
+<p><sup>30</sup> Pero un doble castigo les aguarda:</p>
+<p>por hacerse una idea falsa de Dios, al entregarse a los ídolos,</p>
+<p>y por jurar injustamente y con engaño, despreciando la santidad.</p>
+<p><sup>31</sup> Porque no es el poder de aquellos por los que juran,</p>
+<p>sino el castigo de los que pecan,</p>
+<p>quien persigue siempre las transgresiones de los malvados.</p>
+<h2 id="israel-no-es-idólatra">Israel no es idólatra.</h2>
+<p><span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Pero tú, Dios nuestro, eres bueno y fiel,</p>
+<p>eres paciente y todo lo gobiernas con misericordia.</p>
+<p><sup>2</sup> Aunque pequemos, somos tuyos, pues reconocemos tu poder*;</p>
+<p>pero no pecaremos, porque sabemos que te pertenecemos.</p>
+<p><sup>3</sup> Conocerte a ti es justicia consumada,</p>
+<p>y reconocer tu poder es la raíz de la inmortalidad*.</p>
+<p><sup>4</sup> No nos confundieron las malas artes de invención humana,</p>
+<p>ni el trabajo estéril de los pintores,</p>
+<p>figuras plasmadas en colores variados,</p>
+<p><sup>5</sup> cuya contemplación despierta la pasión de los insensatos,</p>
+<p>que codician la figura inanimada de una imagen muerta.</p>
+<p><sup>6</sup> Son amigos del mal y dignos de tales esperanzas</p>
+<p>quienes las crean, quienes las codician y quienes las adoran.</p>
+<h2 id="locura-de-los-fabricantes-de-ídolos">Locura de los fabricantes de ídolos *.</h2>
+<p><sup>7</sup> Un alfarero amasa laboriosamente la tierra blanda</p>
+<p>y modela diversos cacharros para nuestro uso.</p>
+<p>De la misma arcilla vuelve a modelar indistintamente</p>
+<p>vasijas destinadas a usos nobles e innobles:</p>
+<p>el alfarero es quien decide</p>
+<p>la distinta utilidad de cada una.</p>
+<p><sup>8</sup> Luego, malgastando energías, modela un dios falso de la misma arcilla</p>
+<p>el que poco antes nació de la tierra</p>
+<p>y habrá de volver pronto allí de donde fue sacado,</p>
+<p>cuando le reclamen la deuda de la vida.</p>
+<p><sup>9</sup> Pero no le preocupa que ha de morir,</p>
+<p>ni que tiene una vida efímera;</p>
+<p>sino que compite* con orfebres y plateros,</p>
+<p>imita a los que forjan el bronce</p>
+<p>y presume de modelar falsificaciones.</p>
+<p><sup>10</sup> Su corazón es ceniza,</p>
+<p>su esperanza, más vulgar que la tierra,</p>
+<p>su vida, más despreciable que el barro,</p>
+<p><sup>11</sup> porque desconoce al que le modeló,</p>
+<p>al que le infundió un alma activa*</p>
+<p>y le insufló un aliento vital.</p>
+<p><sup>12</sup> Piensa que nuestra existencia es un juego,</p>
+<p>y la vida, un mercado concurrido,</p>
+<p>diciendo: «Hay que sacar partido de donde sea, incluso del mal.»</p>
+<p><sup>13</sup> Pero éste más que nadie sabe que peca,</p>
+<p>al fabricar con material terreno frágiles vasijas y estatuas de ídolos.</p>
+<h2 id="locura-de-los-egipcios-su-idolatría-universal">Locura de los egipcios: su idolatría universal.</h2>
+<p><sup>14</sup> Pero los más insensatos de todos y más ingenuos que el alma de un niño*</p>
+<p>son los enemigos que oprimieron a tu pueblo*;</p>
+<p><sup>15</sup> pues tuvieron por dioses a todos los ídolos de los gentiles,</p>
+<p>que no pueden valerse de los ojos para ver,</p>
+<p>ni de la nariz para respirar,</p>
+<p>ni de los oídos para oír,</p>
+<p>ni de los dedos de sus manos para tocar,</p>
+<p>ni de sus pies torpes para andar.</p>
+<p><sup>16</sup> Porque los hizo un hombre,</p>
+<p>los modeló quien tiene el espíritu prestado;</p>
+<p>y ningún hombre puede modelar un dios semejante a él.</p>
+<p><sup>17</sup> Siendo mortal, produce con sus manos impías un ser muerto,</p>
+<p>pero él vale más que los objetos que adora,</p>
+<p>ya que él tiene vida, pero éstos jamás.</p>
+<p><sup>18</sup> Adoran además a los bichos más repugnantes,</p>
+<p>que superan en estupidez a todos los demás</p>
+<p><sup>19</sup> y ni siquiera poseen la belleza de los animales cuyo aspecto atrae,</p>
+<p>pues quedaron excluidos de la aprobación y bendición de Dios*.</p>
+<h2 id="segunda-antítesis-las-ranas">Segunda antítesis*: las ranas.</h2>
+<p><span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> Por eso, fueron justamente castigados por semejantes seres y atormentados por plagas de bichos.</p>
+<p><sup>2</sup> En lugar de este castigo, favoreciste a tu pueblo</p>
+<p>y, para calmar su hambre,</p>
+<p>les preparaste como alimento</p>
+<p>un manjar exquisito: codornices;</p>
+<p><sup>3</sup> para que aquéllos, con ganas de comer,</p>
+<p>perdiesen el natural apetito,</p>
+<p>asqueados de los bichos que les enviabas;</p>
+<p>mientras éstos, tras una privación pasajera,</p>
+<p>saboreaban un manjar exquisito.</p>
+<p><sup>4</sup> Pues era preciso que aquéllos opresores sufrieran un hambre irremediable,</p>
+<p>mientras a éstos bastaba con mostrarles cómo eran atormentados sus enemigos.</p>
+<h2 id="tercera-antítesis-langostas-y-serpiente-de-bronce">Tercera antítesis: langostas y serpiente de bronce.</h2>
+<p><sup>5</sup> Incluso cuando les sobrevino la furia terrible de las fieras</p>
+<p>y perecían mordidos por serpientes sinuosas,</p>
+<p>tu cólera no duró hasta el final.</p>
+<p><sup>6</sup> Como escarmiento, se vieron molestados por poco tiempo,</p>
+<p>pues tenían un signo de salvación* para recordar los mandamientos de tu Ley;</p>
+<p><sup>7</sup> y el que lo miraba se curaba, no por lo que contemplaba,</p>
+<p>sino por ti, salvador de todos*.</p>
+<p><sup>8</sup> Con esto convenciste a nuestros enemigos</p>
+<p>de que tú eres quien libra de todo mal*:</p>
+<p><sup>9</sup> ellos morían por las picaduras de langostas y moscas,</p>
+<p>sin encontrar remedio para su vida,</p>
+<p>pues merecían ser castigados por tales bichos*.</p>
+<p><sup>10</sup> Pero contra tus hijos nada pudieron los dientes de serpientes venenosas,</p>
+<p>pues tu misericordia acudió a sanarlos.</p>
+<p><sup>11</sup> Las mordeduras, pronto curadas, les recordaban tus palabras,</p>
+<p>para que no cayeran en profundo olvido</p>
+<p>y se vieran excluidos de tus beneficios*.</p>
+<p><sup>12</sup> No los curó hierba ni cataplasma,</p>
+<p>sino tu palabra, Señor, que todo lo sana.</p>
+<p><sup>13</sup> Pues tú tienes poder sobre la vida y la muerte,</p>
+<p>haces bajar a las puertas del abismo y haces subir*.</p>
+<p><sup>14</sup> El hombre, en cambio, puede matar con su maldad,</p>
+<p>pero no puede devolver el espíritu que se fue,</p>
+<p>ni liberar al alma del abismo*.</p>
+<h2 id="cuarta-antítesis-el-granizo-y-el-maná">Cuarta antítesis: el granizo y el maná.</h2>
+<p><sup>15</sup> Es imposible escapar de tu mano.</p>
+<p><sup>16</sup> Los impíos que no querían conocerte</p>
+<p>fueron castigados con la fuerza de tu brazo;</p>
+<p>los persiguieron lluvias insólitas, granizadas y aguaceros implacables,</p>
+<p>y el fuego los devoró*.</p>
+<p><sup>17</sup> Y lo más sorprendente era que el fuego</p>
+<p>ardía más en el agua, que todo lo apaga,</p>
+<p>pues el cosmos es defensor de los justos.</p>
+<p><sup>18</sup> Unas veces las llamas amainaban,</p>
+<p>para no abrasar a los animales enviados contra los impíos*</p>
+<p>y para que, al verlos, comprendieran que los impulsaba el juicio de Dios.</p>
+<p><sup>19</sup> Otras veces, aun en medio del agua, ardían más intensamente que el fuego,</p>
+<p>para destruir los frutos de una tierra injusta.</p>
+<p><sup>20</sup> A tu pueblo, por el contrario, lo alimentaste con manjar de ángeles</p>
+<p>y les mandaste desde el cielo un pan preparado sin fatiga,</p>
+<p>que producía gran placer y satisfacía todos los gustos*.</p>
+<p><sup>21</sup> Este sustento mostraba tu dulzura para con tus hijos,</p>
+<p>pues se adaptaba al gusto del que lo tomaba</p>
+<p>y se transformaba en lo que cada uno quería.</p>
+<p><sup>22</sup> Nieve y hielo* resistían al fuego sin fundirse,</p>
+<p>para que supieran que el fuego destruía las cosechas de sus enemigos,</p>
+<p>ardiendo entre el granizo y resplandeciendo entre la lluvia.</p>
+<p><sup>23</sup> En cambio, se olvidaba de su propio poder,</p>
+<p>para que los justos pudieran alimentarse.</p>
+<p><sup>24</sup> Porque la creación, sirviéndote a ti, su Creador,</p>
+<p>se endurece para castigar a los injustos</p>
+<p>y se modera para favorecer a los que confían en ti.</p>
+<p><sup>25</sup> Por eso, también entonces, adoptando todas las formas*,</p>
+<p>servía a tu generosidad que a todos sustenta,</p>
+<p>conforme al deseo de los necesitados,</p>
+<p><sup>26</sup> para que aprendieran tus hijos queridos, Señor,</p>
+<p>que no es la variedad de frutos lo que alimenta al hombre,</p>
+<p>sino que es tu palabra la que mantiene a los que creen en ti.</p>
+<p><sup>27</sup> Porque lo que el fuego no llegaba a consumir</p>
+<p>se derretía simplemente al calor de un tenue rayo de sol,</p>
+<p><sup>28</sup> para que supieran que hay que adelantarse al sol para darte gracias</p>
+<p>e ir a tu encuentro al rayar el alba*,</p>
+<p><sup>29</sup> pues la esperanza del ingrato se derrite como escarcha invernal</p>
+<p>y se escurre como agua inútil.</p>
+<h2 id="quinta-antítesis-tinieblas-y-columna-de-fuego">Quinta antítesis: tinieblas y columna de fuego *.</h2>
+<p><span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> Grandes e inexplicables son tus juicios;</p>
+<p>por eso las almas ignorantes se extraviaron.</p>
+<p><sup>2</sup> Cuando los impíos creían que podían oprimir a la nación santa,</p>
+<p>quedaron prisioneros de las tinieblas y encerrados en una larga noche,</p>
+<p>recluidos en sus casas, fugitivos de la eterna providencia.</p>
+<p><sup>3</sup> Cuando creían que permanecerían ocultos con sus secretos pecados,</p>
+<p>bajo el oscuro velo del olvido,</p>
+<p>se vieron dispersos, presa de terrible espanto</p>
+<p>y sobresaltados por apariciones*.</p>
+<p><sup>4</sup> El rincón que los escondía no los libraba del miedo,</p>
+<p>pues también allí retumbaban ruidos escalofriantes</p>
+<p>y se aparecían sombríos fantasmas de rostros lúgubres.</p>
+<p><sup>5</sup> El fuego era incapaz de alumbrar,</p>
+<p>y el brillo resplandeciente de las estrellas</p>
+<p>no alcanzaba a iluminar aquella horrible noche.</p>
+<p><sup>6</sup> Sólo les lucía una llamarada aterradora,</p>
+<p>que ardía por sí misma;</p>
+<p>y, cuando desaparecía la visión, quedaban aterrados,</p>
+<p>considerando aún más horrible lo que habían visto.</p>
+<p><sup>7</sup> Las artes mágicas resultaron ineficaces*</p>
+<p>y su pretendido saber quedó en ridículo,</p>
+<p><sup>8</sup> pues los que prometían expulsar miedos y sobresaltos del alma enferma</p>
+<p>enfermaban ellos mismos con temores absurdos.</p>
+<p><sup>9</sup> Y aunque nada inquietante los atemorizase,</p>
+<p>sobresaltados por el paso de los bichos y el silbido de los reptiles,</p>
+<p><sup>10</sup> se morían de miedo</p>
+<p>y se negaban a mirar hasta el aire inevitable.</p>
+<p><sup>11</sup> Pues la maldad es cobarde y se condena a sí misma:</p>
+<p>acosada por la conciencia, imagina siempre lo peor*.</p>
+<p><sup>12</sup> Y el miedo no es otra cosa</p>
+<p>que el abandono de los recursos de la razón*:</p>
+<p><sup>13</sup> cuanto menor es la propia confianza,</p>
+<p>mayor parece la causa desconocida del tormento.</p>
+<p><sup>14</sup> Durante aquella noche verdaderamente imposible,</p>
+<p>surgida de las profundidades del impotente abismo,</p>
+<p>adormecidos en el mismo sueño,</p>
+<p><sup>15</sup> o bien eran perseguidos por apariciones fantasmales</p>
+<p>o desfallecían por el abandono del alma,</p>
+<p>pues les sobrevino un miedo repentino e inesperado.</p>
+<p><sup>16</sup> Así, cualquiera que caía en tal situación</p>
+<p>quedaba atrapado, encadenado en aquella prisión sin hierros;</p>
+<p><sup>17</sup> ya fuera labrador o pastor,</p>
+<p>o un obrero que trabajara en solitario,</p>
+<p>sufría sorprendido por la ineludible fatalidad,</p>
+<p><sup>18</sup> pues todos estaban atados a una misma cadena de tinieblas.</p>
+<p>El silbido del viento,</p>
+<p>el canto melodioso de las aves en las frondosas ramas,</p>
+<p>la cadencia del agua que corría impetuosa,</p>
+<p><sup>19</sup> el estruendo de las rocas desprendidas,</p>
+<p>la carrera invisible de animales que retozan,</p>
+<p>el rugido de las fieras más salvajes,</p>
+<p>el eco que retumba en las oquedades de los montes</p>
+<p>los dejaba paralizados de terror.</p>
+<p><sup>20</sup> El mundo entero resplandecía con luz radiante,</p>
+<p>entretenido sin trabas en sus quehaceres;</p>
+<p><sup>21</sup> pero sólo sobre ellos se extendía una noche insoportable,</p>
+<p>imagen de las tinieblas que les esperaban.</p>
+<p>Aunque ellos eran para sí mismos más insoportables que las tinieblas.</p>
+<p><span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Sin embargo, una magnífica luz brillaba para tus santos.</p>
+<p>Los egipcios, que oían su voz sin distinguir su figura*,</p>
+<p>los felicitaban por no haber padecido como ellos;</p>
+<p><sup>2</sup> les daban las gracias porque no se vengaban de los agravios recibidos</p>
+<p>y les pedían perdón por su conducta hostil*.</p>
+<p><sup>3</sup> Tú, en cambio, preparaste una columna de fuego,</p>
+<p>como guía para el viaje desconocido</p>
+<p>y como sol inofensivo para la gloriosa travesía.</p>
+<p><sup>4</sup> Bien merecían verse privados de luz y prisioneros de las tinieblas</p>
+<p>quienes tuvieron encarcelados a tus hijos,</p>
+<p>que habían de dar al mundo la luz incorruptible de la Ley.</p>
+<h2 id="sexta-antítesis-noche-trágica-y-noche-liberadora">Sexta antítesis: noche trágica y noche liberadora*.</h2>
+<p><sup>5</sup> A los que habían decretado matar a los niños de los santos,</p>
+<p>salvándose uno solo, abandonado,</p>
+<p>les arrebataste en castigo una multitud de hijos*</p>
+<p>y los hiciste perecer juntos en las aguas impetuosas*.</p>
+<p><sup>6</sup> Aquella noche fue previamente anunciada a nuestros antepasados*,</p>
+<p>para que se animasen, sabiendo bien en qué juramentos habían creído.</p>
+<p><sup>7</sup> Tu pueblo esperaba la salvación de los justos</p>
+<p>y la destrucción de los enemigos,</p>
+<p><sup>8</sup> pues con lo que castigaste a los adversarios</p>
+<p>nos glorificaste, llamándonos a ti*.</p>
+<p><sup>9</sup> Los santos hijos de los buenos* ofrecían sacrificios en secreto</p>
+<p>y establecían unánimes esta ley divina:</p>
+<p>que los santos compartirían los mismos bienes y peligros,</p>
+<p>cantando previamente las alabanzas de los antepasados*.</p>
+<p><sup>10</sup> Les respondía el grito disonante de los enemigos</p>
+<p>y cundían los lamentos de los que lloraban a sus hijos.</p>
+<p><sup>11</sup> El esclavo y el amo sufrían idéntico castigo,</p>
+<p>y el plebeyo padecía la misma pena que el rey.</p>
+<p><sup>12</sup> Todos por igual tenían cadáveres incontables,</p>
+<p>con un mismo tipo de muerte.</p>
+<p>No había vivos suficientes para enterrarlos,</p>
+<p>porque en un instante pereció lo mejor de su raza.</p>
+<p><sup>13</sup> Los que no creían en nada a causa de las artes mágicas,</p>
+<p>ante la muerte de los primogénitos acabaron por reconocer</p>
+<p>que aquel pueblo era hijo de Dios*.</p>
+<p><sup>14</sup> Cuando un silencio apacible lo envolvía todo</p>
+<p>y la noche llegaba a la mitad de su carrera,</p>
+<p><sup>15</sup> tu palabra omnipotente se lanzó desde los cielos,</p>
+<p>desde el trono real, cual guerrero implacable,</p>
+<p>sobre la tierra condenada*,</p>
+<p>empuñando la espada afilada de tu decreto irrevocable;</p>
+<p><sup>16</sup> y cuando se detuvo, todo lo llenó de muerte;</p>
+<p>tocaba el cielo mientras pisaba la tierra.</p>
+<p><sup>17</sup> Entonces* les sobresaltaron de repente sueños y visiones terribles,</p>
+<p>les sobrevinieron terrores imprevistos;</p>
+<p><sup>18</sup> tendidos por todas partes y medio muertos,</p>
+<p>daban a conocer la causa de su muerte,</p>
+<p><sup>19</sup> pues sus sueños perturbadores se lo habían predicho,</p>
+<p>para que no pereciesen sin conocer la razón de su desgracia.</p>
+<h2 id="amenaza-de-exterminio-en-el-desierto">Amenaza de exterminio en el desierto.</h2>
+<p><sup>20</sup> También alcanzó a los justos la prueba de la muerte*</p>
+<p>y una multitud pereció en el desierto,</p>
+<p>pero no duró mucho la cólera;</p>
+<p><sup>21</sup> pues un hombre irreprochable* se apresuró a salir en su defensa</p>
+<p>con las armas de su ministerio:</p>
+<p>la oración y el incienso expiatorio*.</p>
+<p>Se enfrentó a la ira y puso fin a la desgracia,</p>
+<p>demostrando que era tu servidor.</p>
+<p><sup>22</sup> Y venció la indignación* no con su fuerza corporal,</p>
+<p>ni con el poder de las armas,</p>
+<p>sino que sometió al ejecutor del castigo con la palabra*,</p>
+<p>recordando los juramentos y las alianzas hechos a los antepasados.</p>
+<p><sup>23</sup> Cuando los muertos yacían amontonados, unos sobre otros,</p>
+<p>se puso en medio, detuvo a la cólera</p>
+<p>y le cerró el paso hacia los que aún vivían.</p>
+<p><sup>24</sup> Llevaba el mundo entero sobre su vestido talar,</p>
+<p>los nombres gloriosos de los padres en cuatro hileras de piedras talladas,</p>
+<p>y tu majestad, en la diadema de su cabeza*.</p>
+<p><sup>25</sup> Ante esto, el exterminador* retrocedió atemorizado,</p>
+<p>pues era suficiente una sola prueba de tu cólera.</p>
+<h2 id="séptima-antítesis-el-mar-rojo">Séptima antítesis: el mar Rojo*.</h2>
+<p><span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> Pero sobre los impíos se abatió hasta el fin una ira despiadada,</p>
+<p>pues Dios sabía de antemano lo que les iba a suceder:</p>
+<p><sup>2</sup> que, tras dejarlos marchar y despedirlos con prisas,</p>
+<p>cambiarían de parecer y saldrían a perseguirlos.</p>
+<p><sup>3</sup> Cuando todavía estaban ocupados en los funerales</p>
+<p>y llorando sobre las tumbas de los muertos,</p>
+<p>concibieron otro proyecto insensato</p>
+<p>y persiguieron como fugitivos a los que habían despedido con súplicas.</p>
+<p><sup>4</sup> A tales extremos los empujaba su merecido destino*,</p>
+<p>haciéndoles olvidar el pasado,</p>
+<p>para que consumaran el castigo que aún faltaba a sus tormentos*</p>
+<p><sup>5</sup> y, mientras tu pueblo emprendía un viaje maravilloso,</p>
+<p>encontraran ellos una muerte insólita.</p>
+<p><sup>6</sup> Porque toda la creación, obediente a tus órdenes*,</p>
+<p>se transformó de nuevo en su misma naturaleza</p>
+<p>para resguardar sanos y salvos a tus hijos.</p>
+<p><sup>7</sup> Vieron la nube que daba sombra al campamento,</p>
+<p>la tierra firme que emergía de lo que antes era agua,</p>
+<p>un camino abierto en el mar Rojo</p>
+<p>y una llanura verde en las olas impetuosas*,</p>
+<p><sup>8</sup> por donde tus protegidos pasaron en masa,</p>
+<p>contemplando prodigios admirables.</p>
+<p><sup>9</sup> Pastaban como caballos</p>
+<p>y retozaban como corderos,</p>
+<p>alabándote a ti, Señor, su libertador.</p>
+<p><sup>10</sup> Todavía recordaban lo sucedido en su destierro:</p>
+<p>cómo la tierra, en vez de la generación animal, produjo mosquitos,</p>
+<p>y cómo el río, en vez de peces, vomitó una multitud de ranas.</p>
+<p><sup>11</sup> Más tarde vieron también un modo nuevo de nacer las aves:</p>
+<p>cuando, urgidos por el apetito, pidieron manjares delicados</p>
+<p><sup>12</sup> y, para satisfacerlos, salieron codornices del mar*.</p>
+<h2 id="egipto-más-culpable-que-sodoma">Egipto más culpable que Sodoma.</h2>
+<p><sup>13</sup> Los castigos recayeron sobre los pecadores,</p>
+<p>precedidos, como aviso, de la furia de los rayos*,</p>
+<p>pues padecían justamente por sus propias maldades</p>
+<p>y por haber albergado el odio más feroz contra los extranjeros.</p>
+<p><sup>14</sup> Hubo quienes* no recibieron a unos visitantes desconocidos,</p>
+<p>pero éstos esclavizaron a extranjeros bienhechores.</p>
+<p><sup>15</sup> Pero aún hay más, pues a aquellos se les pedirá cuentas*</p>
+<p>por haber recibido hostilmente a los extranjeros;</p>
+<p><sup>16</sup> pero éstos, después de recibir con fiestas</p>
+<p>a los que ya participaban de sus mismos derechos*,</p>
+<p>los maltrataron con terribles trabajos.</p>
+<p><sup>17</sup> Y también fueron atacados por la ceguera*,</p>
+<p>como aquéllos que, a las puertas del justo*,</p>
+<p>envueltos en profunda oscuridad,</p>
+<p>buscaban el vano de sus puertas.</p>
+<h2 id="una-nueva-armonía">Una nueva armonía *.</h2>
+<p><sup>18</sup> Los elementos intercambiaban sus propiedades,</p>
+<p>como los sonidos del arpa cambian la cadencia del ritmo</p>
+<p>manteniendo el mismo tono,</p>
+<p>como puede deducirse claramente a la vista de lo sucedido;</p>
+<p><sup>19</sup> pues los seres terrestres se tornaban acuáticos*</p>
+<p>y los que nadan* se pasaban a la tierra.</p>
+<p><sup>20</sup> El fuego aumentaba en el agua su propia virtud</p>
+<p>y el agua olvidaba su poder extintor.</p>
+<p><sup>21</sup> Las llamas, por el contrario, no consumían</p>
+<p>las carnes de los débiles animales que se movían entre ellas,</p>
+<p>ni derretían aquella especie de manjar divino*,</p>
+<p>parecido a la escarcha y fácil de derretir.</p>
+<h2 id="conclusión">Conclusión.</h2>
+<p><sup>22</sup> En todo, Señor, engrandeciste y glorificaste a tu pueblo,</p>
+<p>y no dejaste de asistirlo nunca y en ningún lugar.</p>  </article> <!-- Pie del libro --> <div class="bible-page-footer bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-t-0 rounded-b-sm shadow-lg px-8 py-3"> <div class="flex justify-center"> <span class="text-sm text-stone-400 dark:text-gray-500 font-serif">— ✝ —</span> </div> </div> </div> </div> </main> <!-- Dialogs --> <dialog id="commentDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-amber-100/50 dark:bg-gray-700/50 rounded-t-lg"> <h3 id="commentTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Comentario</h3> <button id="closeCommentDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="commentContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-amber-100/30 dark:bg-gray-700/30 rounded-b-lg"> <button id="closeCommentBtn" class="w-full px-4 py-2 bg-amber-700 dark:bg-amber-600 text-white rounded hover:bg-amber-800 dark:hover:bg-amber-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> <dialog id="parallelsDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-blue-100/50 dark:bg-blue-900/30 rounded-t-lg"> <h3 id="parallelsTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Referencias Paralelas</h3> <button id="closeParallelsDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="parallelsContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-blue-100/20 dark:bg-blue-900/20 rounded-b-lg"> <button id="closeParallelsBtn" class="w-full px-4 py-2 bg-blue-700 dark:bg-blue-600 text-white rounded hover:bg-blue-800 dark:hover:bg-blue-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> </div>  </body></html>  <script>(function(){const slug = "antiguo-testamento/04-libros-sapienciales/03-sabiduria";
+
+	// Variable global para el slug actual
+	window.currentBibliaSlug = slug;
+})();</script> <script type="module" src="/_astro/BibliaLayout.astro_astro_type_script_index_0_lang.DMp7HT_N.js"></script>

@@ -1,0 +1,656 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const libros = await getCollection('sagrada-biblia');
+
+// Organizar libros por sección (igual que en biblia/index.astro)
+const estructura = {
+	'antiguo-testamento': {
+		titulo: 'Antiguo Testamento',
+		color: 'amber',
+		secciones: {
+			'01-pentateuco': { titulo: 'El Pentateuco', libros: [] as any[] },
+			'02-libros-historicos': { titulo: 'Libros Históricos', libros: [] as any[] },
+			'03-lirica': { titulo: 'Lírica', libros: [] as any[] },
+			'04-libros-sapienciales': { titulo: 'Libros Sapienciales', libros: [] as any[] },
+			'05-libros-profeticos': { titulo: 'Libros Proféticos', libros: [] as any[] },
+		}
+	},
+	'nuevo-testamento': {
+		titulo: 'Nuevo Testamento',
+		color: 'blue',
+		secciones: {
+			'01-evangelios': { titulo: 'Evangelios', libros: [] as any[] },
+			'02-hechos': { titulo: 'Hechos', libros: [] as any[] },
+			'03-epistolas-pablo': { titulo: 'Epístolas de Pablo', libros: [] as any[] },
+			'04-hebreos': { titulo: 'Hebreos', libros: [] as any[] },
+			'05-epistolas-catolicas': { titulo: 'Epístolas Católicas', libros: [] as any[] },
+			'06-apocalipsis': { titulo: 'Apocalipsis', libros: [] as any[] },
+		}
+	}
+};
+
+// Separar libros principales de comentarios y paralelos
+const librosprincipales = libros.filter(libro =>
+	!libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos')
+);
+const comentarios = libros.filter(libro => libro.slug.includes('-comentarios'));
+
+// Crear un mapa de comentarios por libro base
+const comentariosPorLibro = new Map<string, typeof libros[0]>();
+comentarios.forEach(comentario => {
+	// Extraer el slug base (sin -comentarios)
+	const slugBase = comentario.slug.replace('-comentarios', '');
+	comentariosPorLibro.set(slugBase, comentario);
+});
+
+// Clasificar los libros en sus secciones
+librosprincipales.forEach(libro => {
+	const slugParts = libro.slug.split('/');
+	if (slugParts.length >= 2) {
+		const testamento = slugParts[0] as keyof typeof estructura;
+		const seccion = slugParts[1] as keyof typeof estructura[typeof testamento]['secciones'];
+
+		if (estructura[testamento]?.secciones?.[seccion]) {
+			// Añadir el libro con su comentario asociado si existe
+			const libroConComentario = {
+				...libro,
+				comentario: comentariosPorLibro.get(libro.slug)
+			};
+			(estructura[testamento].secciones as any)[seccion].libros.push(libroConComentario);
+		}
+	}
+});
+
+// Ordenar libros dentro de cada sección
+Object.values(estructura).forEach(testamento => {
+	Object.values(testamento.secciones).forEach(seccion => {
+		seccion.libros.sort((a, b) => a.slug.localeCompare(b.slug));
+	});
+});
+---
+
+<Layout title="Administrar - Sagrada Biblia">
+	<main class="p-4 md:p-8">
+		<div class="max-w-screen-xl mx-auto">
+			<a href="/" class="text-amber-700 hover:underline text-sm mb-4 block">&larr; Inicio</a>
+			<h1 class="text-3xl md:text-4xl font-bold mb-6">Administrar Libros</h1>
+
+			{Object.entries(estructura).map(([testamentoKey, testamento]) => (
+				<div class="mb-10">
+					<h2 class={`text-2xl font-bold mb-4 pb-2 border-b-2 ${testamentoKey === 'antiguo-testamento' ? 'text-amber-800 border-amber-300' : 'text-blue-800 border-blue-300'}`}>
+						{testamento.titulo}
+					</h2>
+
+					{Object.entries(testamento.secciones).map(([_, seccion]) => (
+						seccion.libros.length > 0 && (
+							<div class="mb-6">
+								<h3 class="text-lg font-semibold text-gray-700 mb-3 pl-2 border-l-4 border-gray-300">
+									{seccion.titulo}
+								</h3>
+								<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+									{seccion.libros.map(libro => {
+										const { slug, data, comentario } = libro;
+										const { title } = data;
+
+										return (
+											<article class="bg-white border rounded-lg p-3 shadow-sm hover:shadow-md transition">
+												{/* Libro principal */}
+												<div class="flex items-center justify-between gap-2">
+													<h4 class="font-medium text-gray-800 truncate flex-1">{title}</h4>
+													<div class="flex gap-1 flex-shrink-0">
+														<button
+															data-slug={slug}
+															class="prepare-btn px-2 py-1 bg-purple-600 text-white rounded hover:bg-purple-700 transition text-xs"
+															title="Preparar (X Y → X:Y)"
+														>
+															P
+														</button>
+														<button
+															data-slug={slug}
+															class="format-btn px-2 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition text-xs"
+															title="Formatear (X:Y → superíndice)"
+														>
+															F
+														</button>
+														<button
+															data-slug={slug}
+															class="check-btn px-2 py-1 bg-amber-600 text-white rounded hover:bg-amber-700 transition text-xs"
+															title="Verificar"
+														>
+															V
+														</button>
+														<button
+															data-slug={slug}
+															class="letter-btn px-2 py-1 bg-pink-600 text-white rounded hover:bg-pink-700 transition text-xs"
+															title="Corregir versículos con letras (47:5a → <sup>5a</sup>)"
+														>
+															L
+														</button>
+														<button
+															data-slug={slug}
+															class="link-notes-btn px-2 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition text-xs"
+															title="Vincular notas (* → clicable)"
+														>
+															N
+														</button>
+													</div>
+												</div>
+												{/* Comentarios del libro */}
+												{comentario && (
+													<div class="mt-2 pt-2 border-t border-gray-100 flex items-center justify-between gap-2">
+														<span class="text-xs text-gray-500 italic truncate flex-1">Comentarios</span>
+														<div class="flex gap-1 flex-shrink-0">
+															<button
+																data-slug={comentario.slug}
+																class="format-comments-btn px-2 py-1 bg-teal-600 text-white rounded hover:bg-teal-700 transition text-xs"
+																title="Formatear párrafos de comentarios"
+															>
+																FC
+															</button>
+														</div>
+													</div>
+												)}
+											</article>
+										);
+									})}
+								</div>
+							</div>
+						)
+					))}
+				</div>
+			))}
+		</div>
+
+		<!-- Dialog para mostrar resultados -->
+		<dialog id="consecutiveDialog" class="p-0 rounded-lg shadow-xl backdrop:bg-black/50 max-w-2xl w-full mx-4">
+			<div class="bg-white rounded-lg">
+				<div class="flex justify-between items-center p-4 border-b">
+					<h3 id="dialogTitle" class="text-xl font-bold">Verificación de Versículos</h3>
+					<button id="closeDialog" class="text-gray-500 hover:text-gray-700 text-2xl leading-none">&times;</button>
+				</div>
+				<div id="dialogContent" class="p-4 max-h-[60vh] overflow-y-auto">
+					<!-- Contenido dinámico -->
+				</div>
+				<div class="p-4 border-t bg-gray-50 rounded-b-lg flex gap-2">
+					<button id="fixVersesBtn" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition hidden">
+						Corregir Versículos
+					</button>
+					<button id="closeDialogBtn" class="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700 transition">
+						Cerrar
+					</button>
+				</div>
+			</div>
+		</dialog>
+	</main>
+</Layout>
+
+<script>
+	// Botón Preparar (P) - Convierte "X Y" a "X:Y" sin superíndice
+	document.querySelectorAll('.prepare-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/prepare-book', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-purple-600', 'hover:bg-purple-700');
+					button.classList.add('bg-green-600');
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-purple-600', 'hover:bg-purple-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-purple-600', 'hover:bg-purple-700');
+				button.classList.add('bg-red-600');
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-purple-600', 'hover:bg-purple-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	// Botón Formatear (F) - Convierte "X:Y" a superíndice con marcadores de capítulo
+	document.querySelectorAll('.format-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/format-book', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+					button.classList.add('bg-green-600');
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-blue-600', 'hover:bg-blue-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+				button.classList.add('bg-red-600');
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-blue-600', 'hover:bg-blue-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	const dialog = document.getElementById('consecutiveDialog') as HTMLDialogElement;
+	const dialogTitle = document.getElementById('dialogTitle')!;
+	const dialogContent = document.getElementById('dialogContent')!;
+	const closeDialog = document.getElementById('closeDialog')!;
+	const closeDialogBtn = document.getElementById('closeDialogBtn')!;
+	const fixVersesBtn = document.getElementById('fixVersesBtn') as HTMLButtonElement;
+
+	let currentSlug = '';
+
+	closeDialog.addEventListener('click', () => dialog.close());
+	closeDialogBtn.addEventListener('click', () => dialog.close());
+	dialog.addEventListener('click', (e) => {
+		if (e.target === dialog) dialog.close();
+	});
+
+	fixVersesBtn.addEventListener('click', async () => {
+		if (!currentSlug) return;
+
+		const originalText = fixVersesBtn.textContent;
+		fixVersesBtn.textContent = 'Corrigiendo...';
+		fixVersesBtn.disabled = true;
+
+		try {
+			const response = await fetch('/api/fix-verses', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ slug: currentSlug })
+			});
+
+			const data = await response.json();
+
+			if (response.ok) {
+				dialogContent.innerHTML = `
+					<div class="text-center py-8">
+						<div class="text-6xl mb-4">✅</div>
+						<p class="text-green-600 font-bold text-lg">¡Corrección completada!</p>
+						<p class="text-gray-600">${data.message}</p>
+					</div>
+				`;
+				fixVersesBtn.classList.add('hidden');
+			} else {
+				throw new Error(data.error || 'Error desconocido');
+			}
+		} catch (error) {
+			console.error('Error:', error);
+			dialogContent.innerHTML = `
+				<div class="text-center py-8">
+					<div class="text-6xl mb-4">❌</div>
+					<p class="text-red-600 font-bold">Error al corregir</p>
+					<p class="text-gray-600">${error instanceof Error ? error.message : 'Error desconocido'}</p>
+				</div>
+			`;
+		} finally {
+			fixVersesBtn.textContent = originalText;
+			fixVersesBtn.disabled = false;
+		}
+	});
+
+	// Botón Letras (L) - Convierte "47:5a" a "<sup>5a</sup>"
+	document.querySelectorAll('.letter-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/fix-letter-verses', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-pink-600', 'hover:bg-pink-700');
+					button.classList.add('bg-green-600');
+
+					// Mostrar resultado en el dialog
+					dialogTitle.textContent = `Versículos con letras: ${data.book}`;
+					if (data.fixed > 0) {
+						dialogContent.innerHTML = `
+							<div class="text-center py-8">
+								<div class="text-6xl mb-4">✅</div>
+								<p class="text-green-600 font-bold text-lg">¡Corrección completada!</p>
+								<p class="text-gray-600">Se corrigieron ${data.fixed} versículos con letras</p>
+								${data.examples ? `
+									<div class="mt-4 text-left bg-gray-50 p-3 rounded max-h-48 overflow-y-auto">
+										<p class="text-sm font-bold mb-2">Ejemplos corregidos:</p>
+										${data.examples.map((ex: string) => `<p class="text-xs text-gray-600 font-mono">${ex}</p>`).join('')}
+									</div>
+								` : ''}
+							</div>
+						`;
+					} else {
+						dialogContent.innerHTML = `
+							<div class="text-center py-8">
+								<div class="text-6xl mb-4">📝</div>
+								<p class="text-blue-600 font-bold text-lg">Sin cambios</p>
+								<p class="text-gray-600">No se encontraron versículos con letras para corregir</p>
+							</div>
+						`;
+					}
+					fixVersesBtn.classList.add('hidden');
+					dialog.showModal();
+
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-pink-600', 'hover:bg-pink-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-pink-600', 'hover:bg-pink-700');
+				button.classList.add('bg-red-600');
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-pink-600', 'hover:bg-pink-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	// Botón Formatear Comentarios (FC) - Une párrafos y separa por cita bíblica
+	document.querySelectorAll('.format-comments-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/format-comments', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-teal-600', 'hover:bg-teal-700');
+					button.classList.add('bg-green-600');
+
+					// Mostrar resultado en el dialog
+					dialogTitle.textContent = `Comentarios: ${data.book}`;
+					dialogContent.innerHTML = `
+						<div class="text-center py-8">
+							<div class="text-6xl mb-4">✅</div>
+							<p class="text-green-600 font-bold text-lg">¡Formateo completado!</p>
+							<p class="text-gray-600">Se formatearon ${data.comments} comentarios</p>
+							<p class="text-xs text-gray-500 mt-2">Los párrafos ahora están unidos y separados por cita bíblica</p>
+						</div>
+					`;
+					fixVersesBtn.classList.add('hidden');
+					dialog.showModal();
+
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-teal-600', 'hover:bg-teal-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-teal-600', 'hover:bg-teal-700');
+				button.classList.add('bg-red-600');
+
+				dialogTitle.textContent = 'Error';
+				dialogContent.innerHTML = `
+					<div class="text-center py-8">
+						<div class="text-6xl mb-4">❌</div>
+						<p class="text-red-600 font-bold">${error instanceof Error ? error.message : 'Error desconocido'}</p>
+					</div>
+				`;
+				dialog.showModal();
+
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-teal-600', 'hover:bg-teal-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	// Botón Vincular Notas (N) - Convierte * en elementos clicables
+	document.querySelectorAll('.link-notes-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/link-notes', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-indigo-600', 'hover:bg-indigo-700');
+					button.classList.add('bg-green-600');
+
+					// Mostrar resultado en el dialog
+					dialogTitle.textContent = `Notas vinculadas: ${data.book}`;
+					dialogContent.innerHTML = `
+						<div class="text-center py-8">
+							<div class="text-6xl mb-4">✅</div>
+							<p class="text-green-600 font-bold text-lg">¡Vinculación completada!</p>
+							<p class="text-gray-600">Se vincularon ${data.notesLinked} notas al pie</p>
+							<p class="text-xs text-gray-500 mt-2">Los asteriscos ahora son clicables y mostrarán sus comentarios</p>
+						</div>
+					`;
+					fixVersesBtn.classList.add('hidden');
+					dialog.showModal();
+
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-indigo-600', 'hover:bg-indigo-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-indigo-600', 'hover:bg-indigo-700');
+				button.classList.add('bg-red-600');
+
+				dialogTitle.textContent = 'Error';
+				dialogContent.innerHTML = `
+					<div class="text-center py-8">
+						<div class="text-6xl mb-4">❌</div>
+						<p class="text-red-600 font-bold">${error instanceof Error ? error.message : 'Error desconocido'}</p>
+					</div>
+				`;
+				dialog.showModal();
+
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-indigo-600', 'hover:bg-indigo-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	document.querySelectorAll('.check-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			currentSlug = slug || '';
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+			fixVersesBtn.classList.add('hidden');
+
+			try {
+				const response = await fetch('/api/check-consecutive', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					dialogTitle.textContent = `Verificación: ${data.book}`;
+
+					let html = '';
+
+					if (data.missingVerses.length > 0) {
+						html += `
+							<div class="mb-6">
+								<h4 class="font-bold text-red-600 mb-2">
+									Versículos faltantes (${data.missingVerses.length})
+								</h4>
+								<div class="bg-red-50 border border-red-200 rounded p-3 max-h-48 overflow-y-auto">
+									${data.missingVerses.map((v: any) => `
+										<div class="text-sm">
+											<span class="font-mono font-bold text-red-700">${v.chapter}:${v.verse}</span>
+											<span class="text-gray-600 ml-2">${v.context}</span>
+										</div>
+									`).join('')}
+								</div>
+							</div>
+						`;
+					}
+
+					if (data.unformattedVerses.length > 0) {
+						html += `
+							<div class="mb-6">
+								<h4 class="font-bold text-amber-600 mb-2">
+									Versículos sin formatear (${data.unformattedVerses.length})
+								</h4>
+								<div class="bg-amber-50 border border-amber-200 rounded p-3 max-h-48 overflow-y-auto">
+									${data.unformattedVerses.map((v: any) => `
+										<div class="text-sm border-b border-amber-100 pb-2 last:border-0">
+											<span class="font-mono text-amber-700">Línea ${v.line}:</span>
+											<span class="text-gray-700 ml-2">${v.text}</span>
+										</div>
+									`).join('')}
+								</div>
+							</div>
+						`;
+					}
+
+					if (data.missingVerses.length === 0 && data.unformattedVerses.length === 0) {
+						html = `
+							<div class="text-center py-8">
+								<div class="text-6xl mb-4">✅</div>
+								<p class="text-green-600 font-bold text-lg">¡Todo en orden!</p>
+								<p class="text-gray-600">Total de capítulos: ${data.totalChapters}</p>
+							</div>
+						`;
+					} else {
+						if (data.unformattedVerses.length > 0) {
+							fixVersesBtn.classList.remove('hidden');
+						}
+					}
+
+					dialogContent.innerHTML = html;
+					dialog.showModal();
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				dialogTitle.textContent = 'Error';
+				dialogContent.innerHTML = `
+					<div class="text-center py-8">
+						<div class="text-6xl mb-4">❌</div>
+						<p class="text-red-600 font-bold">${error instanceof Error ? error.message : 'Error desconocido'}</p>
+					</div>
+				`;
+				dialog.showModal();
+			} finally {
+				button.textContent = originalText;
+				button.disabled = false;
+			}
+		});
+	});
+</script>

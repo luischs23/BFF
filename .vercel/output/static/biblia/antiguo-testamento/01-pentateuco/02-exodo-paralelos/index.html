@@ -1,0 +1,1114 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>Paralelos - Éxodo - Sagrada Biblia</title><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.BScVxmeO.js"></script><script>
+			// Aplicar dark mode antes de que se renderice la página para evitar flash
+			const darkMode = localStorage.getItem('biblia-dark-mode');
+			if (darkMode === 'true' || (darkMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script><link rel="stylesheet" href="/_astro/admin.DFS-n7nW.css">
+<link rel="stylesheet" href="/_astro/_id_.CuWeqEV8.css">
+<link rel="stylesheet" href="/_astro/_id_.C67thEwx.css">
+<style>[data-astro-image]{width:100%;height:auto;-o-object-fit:var(--fit);object-fit:var(--fit);-o-object-position:var(--pos);object-position:var(--pos);aspect-ratio:var(--w) / var(--h)}[data-astro-image=responsive]{max-width:calc(var(--w) * 1px);max-height:calc(var(--h) * 1px)}[data-astro-image=fixed]{width:calc(var(--w) * 1px);height:calc(var(--h) * 1px)}
+</style></head> <body class="bg-amber-50/70 dark:bg-gray-900 min-h-screen transition-colors duration-300">  <div id="bibliaContainer" class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300"> <!-- Overlay para móvil --> <div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>   <header id="mobileHeader" class="fixed top-0 left-0 right-0 z-50 bg-amber-50/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-stone-300 dark:border-gray-700 shadow-md transition-transform duration-300 md:left-72"> <!-- Vista normal del header --> <div id="headerNormal" class="flex items-center justify-between px-4 py-3"> <!-- Botones a la izquierda --> <div class="absolute left-3 flex items-center gap-2"> <button id="searchToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Buscar en el libro" title="Buscar"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search h-5 w-5">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </button> <!-- Botón tamaño de texto --> <button id="fontSizeToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Cambiar tamaño de texto" title="Tamaño de texto"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-a-arrow-up h-5 w-5">  <path d="m14 11 4-4 4 4"></path> <path d="M18 16V7"></path> <path d="m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16"></path> <path d="M3.304 13h6.392"></path>  </svg> </button> </div> <!-- Título del libro y capítulo centrado --> <h1 class="flex-1 text-center text-lg md:text-xl font-bold text-gray-800 dark:text-gray-100 truncate px-12"> Paralelos - Éxodo <span id="currentChapterDisplay" class="text-amber-700 dark:text-amber-400"></span> </h1> <!-- Controles a la derecha --> <div class="absolute right-3 flex items-center gap-2"> <!-- Botón navegación de capítulos --> <button id="chapterNavToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Navegar capítulos" title="Ir a capítulo"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-book-open h-5 w-5">  <path d="M12 7v14"></path> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>  </svg> </button> <!-- Botón menú móvil (oculto en desktop) --> <button id="menuToggle" class="md:hidden bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition" aria-label="Abrir menú"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="menuIcon" class="lucide lucide-menu h-5 w-5">  <path d="M4 5h16"></path> <path d="M4 12h16"></path> <path d="M4 19h16"></path>  </svg> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="closeIcon" class="lucide lucide-x h-5 w-5 hidden">  <path d="M18 6 6 18"></path> <path d="m6 6 12 12"></path>  </svg> </button> </div> </div> <!-- Vista de búsqueda expandida --> <div id="headerSearch" class="hidden flex items-center gap-2 px-3 py-2"> <!-- Botón volver --> <button id="searchClose" class="text-gray-600 dark:text-gray-300 p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Cerrar búsqueda"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-left h-5 w-5">  <path d="m15 18-6-6 6-6"></path>  </svg> </button> <!-- Input de búsqueda --> <div class="flex-1 relative"> <input type="text" id="searchInput" placeholder="Buscar en este libro..." class="w-full px-4 py-2 pr-10 rounded-full bg-white dark:bg-gray-800 border border-stone-300 dark:border-gray-600 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </div> <!-- Navegación de resultados --> <div id="searchNavigation" class="hidden flex items-center gap-1"> <span id="searchCount" class="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap"></span> <button id="searchPrev" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Resultado anterior"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-up h-4 w-4">  <path d="m18 15-6-6-6 6"></path>  </svg> </button> <button id="searchNext" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Siguiente resultado"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-down h-4 w-4">  <path d="m6 9 6 6 6-6"></path>  </svg> </button> </div> </div> </header> <script type="module" src="/_astro/MobileHeader.astro_astro_type_script_index_0_lang.BE11JRIP.js"></script>  <div id="chapterNavPanel" class="fixed right-3 top-20 md:right-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"> <div class="flex justify-between items-center mb-2 pb-2 border-b border-stone-200 dark:border-gray-700"> <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Ir a capítulo</span> <button id="closeChapterNav" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> <div id="chapterGrid" class="grid grid-cols-5 gap-1.5"> <!-- Capítulos se generan dinámicamente --> </div> </div>  <!-- Sidebar --> <aside id="sidebar" class="fixed md:relative w-72 h-full bg-stone-100 dark:bg-gray-800 border-r border-stone-200 dark:border-gray-700 overflow-y-auto flex-shrink-0 z-50 transform -translate-x-full md:translate-x-0 transition-all duration-300 ease-in-out"> <div class="p-4"> <div class="flex items-center justify-between mb-4"> <a href="/" class="text-amber-700 dark:text-amber-400 hover:underline text-sm">&larr; Inicio</a> <button id="darkModeToggle" class="p-2 rounded-lg bg-stone-200 dark:bg-gray-700 hover:bg-stone-300 dark:hover:bg-gray-600 transition-colors" aria-label="Cambiar tema"> <!-- Sol (modo claro) --> <svg id="sunIcon" class="w-5 h-5 text-amber-600 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path> </svg> <!-- Luna (modo oscuro) --> <svg id="moonIcon" class="w-5 h-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path> </svg> </button> </div> <h2 class="text-lg font-bold mb-4 text-gray-800 dark:text-gray-100">Sagrada Biblia</h2> <div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Antiguo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-01-pentateuco"> <span>El Pentateuco</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-01-pentateuco"> <li> <a href="/biblia/antiguo-testamento/01-pentateuco/01-genesis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Génesis </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/02-exodo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Éxodo </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/03-levitico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Levitico </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/04-numeros" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Numeros </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/05-deuteronomio" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Deuteronomio </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-02-libros-historicos"> <span>Libros Históricos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-02-libros-historicos"> <li> <a href="/biblia/antiguo-testamento/02-libros-historicos/01-josue" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Josué </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/02-jueces" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jueces </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/03-rut" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Rut </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/04-1samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/05-2samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/06-1reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/07-2reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/08-1cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/09-2cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/10-esdras" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Esdras </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/11-nehemias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nehemías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/12-tobias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tobías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/13-judit" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judit </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/14-ester" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ester </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/15-1macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Macabeos </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/16-2macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Macabeos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-03-lirica"> <span>Lírica</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-03-lirica"> <li> <a href="/biblia/antiguo-testamento/03-lirica/01-job" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Job </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/02-salmos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Salmos </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/03-cantar-de-los-cantares" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Cantar de los Cantares </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/04-lamentaciones" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lamentaciones </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-04-libros-sapienciales"> <span>Libros Sapienciales</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-04-libros-sapienciales"> <li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/01-proverbios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Proverbios </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/02-eclesiastes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiastés </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/03-sabiduria" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Sabiduría </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/04-eclesiastico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiástico </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-05-libros-profeticos"> <span>Libros Proféticos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-05-libros-profeticos"> <li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/01-isaias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Isaías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/02-jeremias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jeremías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/03-baruc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Baruc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/04-ezequiel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ezequiel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/05-daniel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Daniel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/06-oseas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Oseas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/07-joel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Joel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/08-amos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Amós </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/09-abdias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Abdías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/10-jonas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jonás </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/11-miqueas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Miqueas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/12-nahum" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nahúm </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/13-habacuc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Habacuc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/14-sofonias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Sofonías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/15-ageo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ageo </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/16-zacarias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Zacarías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/17-malaquias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Malaquías </a> </li> </ul> </div> </div><div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Nuevo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-01-evangelios"> <span>Evangelios</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-01-evangelios"> <li> <a href="/biblia/nuevo-testamento/01-evangelios/01-mateo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Mateo </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/02-marcos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Marcos </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/03-lucas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lucas </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/04-juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Juan </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-02-hechos"> <span>Hechos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-02-hechos"> <li> <a href="/biblia/nuevo-testamento/02-hechos/01-hechos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hechos de los Apóstoles </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-03-epistolas-pablo"> <span>Epístolas de Pablo</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-03-epistolas-pablo"> <li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/01-romanos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Romanos </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/02-1corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/03-2corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/04-galatas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Gálatas </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/05-efesios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Efesios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/06-filipenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filipenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/07-colosenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Colosenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/08-1tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/09-2tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/10-1timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/11-2timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/12-tito" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tito </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/13-filemon" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filemón </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-04-hebreos"> <span>Hebreos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-04-hebreos"> <li> <a href="/biblia/nuevo-testamento/04-hebreos/01-hebreos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hebreos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-05-epistolas-catolicas"> <span>Epístolas Católicas</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-05-epistolas-catolicas"> <li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/01-santiago" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Santiago </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/02-1pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/03-2pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/04-1juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/05-2juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/06-3juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 3 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/07-judas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judas </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-06-apocalipsis"> <span>Apocalipsis</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-06-apocalipsis"> <li> <a href="/biblia/nuevo-testamento/06-apocalipsis/01-apocalipsis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Apocalipsis </a> </li> </ul> </div> </div> </div> </aside> <!-- Contenido principal --> <main class="flex-1 overflow-y-auto
+					bg-amber-50 dark:bg-gray-950
+					md:bg-stone-300 md:dark:bg-gray-950
+					transition-colors duration-300"> <div class="p-0 md:p-8"> <!-- Estado de carga --> <div id="loadingState" class="max-w-5xl mx-auto"> <div class="bg-amber-50 dark:bg-gray-800 border-x border-stone-300 dark:border-gray-700 shadow-lg p-8"> <div class="animate-pulse space-y-4"> <div class="h-8 bg-stone-200 dark:bg-gray-700 rounded w-1/3 mx-auto"></div> <div class="h-4 bg-stone-200 dark:bg-gray-700 rounded w-2/3 mx-auto"></div> <div class="grid grid-cols-2 gap-8 mt-8"> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> </div> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-3/6"></div> </div> </div> </div> </div> </div> <!-- Contenedor del libro --> <div id="bibleBook" class="bible-book hidden w-full md:max-w-3xl md:mx-auto"> <!-- Contenido en dos columnas con divisores de página --> <article class="bible-content prose prose-sm max-w-none
+		prose-headings:text-gray-800 dark:prose-headings:text-gray-100
+		prose-h2:text-sm md:prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
+		prose-p:text-gray-700 dark:prose-p:text-gray-300
+		dark:prose-invert
+		bg-amber-50 dark:bg-gray-800
+		border-x border-stone-300 dark:border-gray-700
+		shadow-lg
+		px-6 py-4 md:px-8 md:py-6">  <p>Ex 1 1
+Hch 7 14-17
+Gn 46 1-27
+Ex 1 4
+|| Gn 46 27
+Dt 10 22
+Ex 1 6
+Gn 50 26
+Ex 1 7
+Sal 105 24
+Hch 13 17
+Ex 1 8
+↑ Hch 7 18-19
+Ex 1 10
+Sal 105 25
+Ex 1 11
+Gn 47 11
+Ex 1 14
+Dt 11 10
+Ex 2 1
+Ex 6 20
+Ex 2 2
+↑ Hch 7 20s
+↑ Hb 11 23
+Ex 2 9
+↑ Hch 7 21
+Ex 2 11-22
+↑ Hb 11 24-27
+Ex 2 13
+↑ Hch 7 35
+Ex 2 15
+↑ Hch 7 29
+Ex 2 16
+Gn 24 11s; 29 2s
+Ex 2 22
+28 3
+Ex 3 1-6
+6 2-13;
+6 28s7 7
+↑ Hch 13 17
+Ex 3 1
+19 2+
+Gn 16 7+
+Ex 3 2
+Dt 33 16
+Ex 3 4
+Jos 5 15
+Gn 28 16-17
+Lv 17 1+
+Ex 19 12+
+Ex 3 5
+↑ Mt 22 32p
+Ex 3 6
+Ex 33 20+
+Ex 3 8
+Dt 7 1+
+Ex 3 11
+1 S 14 10+
+Ex 3 12
+↑ Hch 7 7
+Ex 3 14
+Jn 17 6.26
+↑ Jn 8 24+
+Is 42 8+
+↑ Ap 1 4+
+Ex 3 17
+Dt 7 1+
+Ex 3 21-22
+11 2-3;
+12 35-36
+↑ Sb 10 17
+Ex 4 1
+Mt 13 57
+Ex 4 2
+7 8-12
+Ex 4 7
+Lv 13 1+
+Ex 4 10
+Jr 1 6-10
+Ex 4 12
+Dt 18 18
+Mt 10 19-20p
+Ex 4 13
+Is 6 8
+Ex 4 15
+7 1-2
+Ex 4 18
+2 18+
+Ex 4 19
+Mt 2 20
+Ex 4 20
+4 17
+Ex 4 23
+Dt 1 31
+Dt 7 6+
+Ex 4 24
+Gn 32 25-33
+Ex 4 25
+Jos 5 2-3+
+Ex 4 26
+Gn 17 10+
+Ex 4 27
+3 1
+Ex 4 28
+3 16
+Ex 4 29
+4 2-9
+Ex 4 31
+Jn 2 11
+Ex 14 31
+Ex 6 2-13
+=3 1s4 23
+Ex 6 3
+Gn 17 1+
+Ex 6 4
+Gn 17 7-8
+Ex 6 8
+Gn 15;
+24 7
+Ex 6 12
+4 10
+Ex 6 14
+Nm 26 5-14
+Ex 6 16
+Gn 46 11
+Nm 3 17s
+Ex 6 20
+2 1-2
+Nm 26 59
+Ex 6 25
+Nm 25 6-13
+Ex 6 28-30
+6 2-13
+Ex 7 1
+4 16
+Ex 7 3
+4 21
+Sal 135 9
+Ex 7 8s
+Sal 78;
+105
+Sb 11 14-20; 16-18
+Ex 7 9
+4 2s
+Ex 7 11
+2 Tm 3 8
+Ex 7 14-25
+Sb 11 6-8
+Ex 7 20
+Sal 78 44; 105 29
+↑ Ap 16 4-7; 8 8.11
+Ex 8 1
+Sal 78 45; 105 30
+↑ Ap 16 13
+Ex 8 13
+Sal 105 31
+Ex 8 15
+Lc 11 20
+Ex 8 17
+Sal 78 45
+Ex 8 18
+Gn 47 1s
+Ex 9 3
+Sal 78 48
+Ex 9 9
+Ap 16 2
+Ex 9 15
+↑ Rm 9 17
+Ex 9 22
+Sal 78 47s; 105 32
+↑ Ap 16 21; 8 7
+Ex 9 26
+Gn 47 1s
+Ex 9 29
+Dt 10 14
+Sal 24 1
+Ex 10 2
+12 26;
+13 8
+Dt 4 9;
+6 7.20-25
+Jos 4 6s.21s
+8 6
+Ex 10 11
+Sal 78 46; 105 34
+Ex 10 13
+↑ Ap 9 3s
+Ex 10 21-29
+↑ Sb 17 1s - 18 4
+Ex 10 22
+Sal 105 28
+↑ Ap 16 10
+Ex 11
+13 11+
+Ex 11 2
+3 21
+Ex 11 3
+Hch 7 22
+Ex 12 1-14
+34 18
+Lv 23 5-8
+Nm 28 16-25
+Dt 16 1-8
+Ez 45 21-24
+↑ Mt 26 17sp
+↑ Lc 22 15-16
+↑ 1 Co 5 7
+Ex 12 5
+Lv 22 19s
+↑1 P 1 19
+Ex 12 12
+Nm 33 4
+Lv 1 5+
+Ex 12 15-20
+13 3-10;
+23 15
+Ex 12 15
+↑ 1 Co 5 7
+Ex 12 23
+Ez 9 4-7
+↑ Hb 11 28
+Ex 12 26
+Dt 6 20-25
+Ex 10 2+
+Ex 12 29-34
+11 4-8
+13 11+
+↑ Sb 18 6-19
+Sal 78 51; 105 36; 135 8;
+136 10
+Ex 12 35-36
+3 21-22;
+11 2
+Ex 12 35
+Sb 10 17
+Ex 12 37
+33 1-6
+Nm 33 3-5
+Nm 1 46+
+Ex 12 38
+Nm 11 4
+Lv 24 10-14
+Ex 12 39
+Gn 15 13
+↑ Ga 3 17
+↑ Hch 7 6
+Ex 12 45
+Gn 17 10+
+Ex 12 48
+Nm 9 12
+↑ Jn 19 36
+Ex 13 1-2
+13 11+
+Ex 13 3-10
+12 1+
+Ex 13 3
+Dt 7 1+
+Ex 13 5
+34 18
+Ex 13 7
+12 26
+10 2+
+Ex 13 11-16
+↑ Lc 2 22-24
+Gn 22 1+
+Ex 13 12
+34 19
+Ex 13 13
+Nm 18 15
+Ex 13 16
+Dt 6 8;
+11 18
+Ex 13 17
+14 10-12
+Nm 14 1s
+Ex 13 18
+Gn 50 25
+Jos 24 32
+Ex 13 20
+Nm 33 5-6
+Ex 13 21
+40 36+
+Dt 1 33
+Sal 78 14; 105 39
+Ne 9 19
+Sb 10 17-18; 18 3
+Is 4 5
+Jn 8 12;
+10 4
+Ex 14 11
+16 2s;
+17 3;
+15 24
+Nm 11 1.4;
+14 2;
+20 2;
+21 4-5
+Sal 78 40
+Ex 5 21;
+6 9
+Ex 14 14
+Is 30 15
+Ex 14 15-31
+Sal 78;
+105; 106;
+114
+↑ Sb 10 18s
+↑ 1 Co 10 1-2
+Ex 14 19
+Gn 16 7+
+Ex 14 23
+Sal 77 17-19
+Ex 14 27
+Dt 11 4
+Ex 14 31
+4 31
+Ex 15 2
+|| Is 12 2
+Ex 15 3
+3 14+
+Ex 15 5
+Jr 51 63s
+Ap 18 21
+Ex 15 7
+Is 5 24
+Ab 18
+Na 1 10
+Ex 15 11
+Dt 3 24
+Sal 86 8
+Lv 19 1+
+Ex 15 15
+Nm 20 21;
+21 4-13
+Dt 2 1-9.18
+Ex 15 17
+Sal 74 2
+Is 11 11
+Ef 1 14
+Sal 74 2
+1 R 8 13
+Ex 15 20
+Nm 26 59
+Ex 15 21
+Jc 11 34
+1 S 18 6
+Ex 15 22-27
+↑ 1 Co 10 3-5
+Ex 15 22
+Gn 16 7
+Ex 15 23
+Nm 33 8
+Ex 15 24
+Rt 1 20
+14 11+
+Ex 15 25
+Si 38 5
+2 R 2 21
+Ez 47 8
+1 Co 1 18
+Jos 24 25
+Ex 15 26
+Dt 7 15
+Sal 103 3
+Ex 16
+|| Nm 11
+Dt 8 3.16
+Sal 78 32s; 105 40; 106 13-15
+Sb 16 20-29
+↑ Jn 6 26-58
+Ex 16 3
+14 11+
+Ex 16 4
+Dt 8 2
+Ex 16 6
+Sal 81 11
+Ex 16 8
+Lc 10 16
+Ex 16 12
+Nm 11 31
+Ex 16 14
+Nm 11 7-9
+Ex 16 15
+1 Co 10 3
+Ex 16 18
+↑2 Co 8 15
+Ex 16 20
+Jn 6 27
+Ex 16 31
+Nm 11 7
+Ex 16 34
+↑ Hb 9 4
+Ex 16 35
+Nm 21 5
+Jos 5 10-12
+Ex 17 1-7
+|| Nm 20 1-13
+Ex 17 1
+Nm 33 12-14
+Ex 17 2
+15 24
+14 11+
+Ex 17 3
+Dt 6 16
+Ex 17 4
+Nm 14 10
+Ex 17 6
+Nm 20 10+
+Ex 17 7
+Nm 20 24
+Dt 6 16;
+9 22;
+32 51;
+33 8
+Sal 95 8; 106 32
+Ex 17 9
+Jos 1 1+
+Ex 17 11
+24 14
+Ex 17 12
+Sal 44 5-8
+Ex 17 14
+Dt 25 17-19
+Nm 24 20
+1 S 15 3s
+Ex 18 1
+2 18+
+Ex 18 3
+2 22+
+Ex 18 6
+19 1+
+Ex 18 13-27
+|| Dt 1 9-18
+Ex 18 15
+33 7+
+Ex 18 19
+Nm 11 14
+Ex 18 21
+Nm 11 16-17
+Ex 18 27
+Nm 10 30
+Ex 19 2
+Nm 33 15
+Ex 19 3
+Dt 4 34;
+29 2
+Ex 19 4
+Dt 32 11
+Is 46 4;
+63 9
+Ex 19 5
+Dt 10 14-15
+1 P 2 9
+Ap 5 10
+Ex 19 7
+Jos 24 16-24
+Dt 5 27
+Ex 19 9
+13 22+
+Si 45 5
+14 31
+Ex 19 10
+Gn 35 2
+Lv 11 25.28.40
+Ex 19 13
+↑ Hb 12 20
+Ex 19 16-25
+|| Dt 5 2-5.25-31
+Dt 4 10-12
+Ex 19 21
+19 12
+33 20+
+Ex 20 1-21
+|| Dt 5 6-22
+Ex 34 10-27
+↑ Mt 19 16-22+
+↑ Mt 5
+Ex 20 3
+Dt 6 4
+Os 13 4
+Lv 19 4
+Dt 4 15-20
+Ex 20 5
+Dt 4 24+
+Ex 34 7+
+Ex 20 7
+Lv 19 12
+Ex 20 8
+23 12;
+31 12-17;
+34 21;
+35 1-3
+Lv 19 3;
+23 3
+Nm 15 32-36
+Dt 5 12-15
+2 Cro 36 21
+↑ Lc 13 14
+Ex 20 11
+Gn 2 2-3
+Ex 20 12
+Lv 19 3
+↑ Ef 6 2-6
+Ex 20 13
+↑ Rm 13 9
+↑ St 2 11
+Ex 20 15
+Lv 19 11
+Dt 5 20
+Ex 20 17
+Mi 2 2
+Ex 20 18
+Dt 5 23-31
+Ex 20 19
+33 20+
+Ex 20 20
+Dt 8 2
+Ex 20 24
+Lv 1 1+;
+3 1+
+Ex 20 25
+Dt 27 5-6
+Ex 21 1-11
+Lv 25 35-46+
+Dt 15 12-18
+Ex 21 2
+Jr 34 8-16
+Ex 21 12-17
+Lv 24 17
+Nm 35 16-34
+Ex 21 13
+1 R 1 50;
+2 28-34
+Ex 21 15
+Dt 24 7
+Ex 21 17
+Lv 20 9
+Dt 27 16
+Si 3 16
+↑ Mt 15 4
+Ex 21 23
+Gn 4 23
+Lv 24 19-20
+Dt 19 21
+↑ Mt 5 38-42
+Ex 21 37
+2 S 12 6
+Lc 19 8
+Ex 22 6
+Lv 5 21-26
+Ex 22 12
+Gn 31 39
+Ex 22 15
+Dt 22 28-29
+Ex 22 17-20
+Lv 20 6.27
+Dt 18 9-12
+Lv 18 23
+Dt 27 21
+Nm 25 1-5
+12 48+
+Lv 19 33s
+Dt 10 18s; 24 17s;
+27 19
+Sal 146 9
+Is 1 17
+Ex 22 24
+Lv 25 35-37
+Dt 23 20-21
+Ex 22 25
+Dt 24 10-13.17
+Ex 22 27
+Qo 10 20
+↑ Hch 23 5
+Ex 22 28
+Ex 13 11+
+Dt 26 1+
+Ex 22 29
+Dt 15 19
+Ex 22 30
+Lv 11 44
+Dt 14 21
+Lv 17 15-16
+Ex 23 1
+Lv 5 22;
+19 16
+Ex 23 2
+Dt 16 18-20
+Ex 23 5
+Lv 19 15
+|| Dt 22 1-4
+Ex 23 6
+Dt 1 17;
+16 19
+Ex 23 8
+Dt 16 19;
+27 25
+Ex 23 9
+22 20+
+Ex 23 10
+Lv 25 1+
+Ex 23 11
+Lv 25 2-7
+Dt 24 19;
+26 12-13
+Ex 23 12
+20 8+
+Ex 23 13
+Jos 23 7
+Ex 23 14
+Ex 34 18-23
+Dt 16 1-16
+Lv 23
+Ex 23 18
+34 25
+Ex 23 19
+Dt 26 1+
+Ex 34 26
+Dt 34 12
+Ex 23 20s
+Dt 7 1-26
+Ex 23 20
+14 19;
+33 2
+Ml 3 1
+Is 63 9
+Ex 23 23
+Dt 7 1+
+Ex 23 24
+20 5
+Ex 23 25
+Lv 18 3
+34 13
+Dt 7 5;
+12 3
+Nm 33 52
+Ex 23 26
+Dt 7 14;
+28;
+30 9
+Lv 26 9
+Ex 23 28
+Dt 7 20
+Jos 24 12
+Sb 12 8
+Ex 23 30
+Dt 7 22+
+Jc 2 6+
+Ex 23 31
+Jc 20 1+
+Dt 11 24
+Ex 24 1
+19 20;
+28 1
+Ex 24 2
+Nm 11 16
+Ex 24 3
+Jos 24 16-24
+Ex 24 4
+34 27-28
+Jos 4 3-9.20-24
+Jos 24 26-27
+1 R 18 31
+Ex 24 7
+Sal 50 5
+↑ Hb 9 18s
+↑ Mt 26 28p
+1 P 1 2
+Ex 24 10
+33 20+
+Ez 1 26
+Ap 4 2-3
+Ex 24 12
+31 18;
+32 15s
+34 1.4.28s
+Dt 4 13;
+5 22;
+9 9.15;
+10 1-5
+Jos 1 1+
+Ex 24 15
+19 3
+Ex 24 16
+19 9
+Ex 24 17
+Dt 4 36
+Ex 24 18
+Dt 9 9
+Ex 34 28
+Ex 25 1-9
+35 4-29
+Ex 25 8
+25 40+;
+26 30;
+27 8
+Nm 8 4
+Ex 25 10s
+37 1-9
+Ex 25 15
+2 S 6 7+
+Ex 25 17
+24 12+
+Dt 10 1-2
+Lv 16 12-15
+Rm 3 25+
+Ex 25 21
+26 34
+Ex 25 23-30
+37 10-16
+Ex 25 29
+Nm 4 7
+Ex 25 30
+Lv 24 5-9
+1 S 21 4-7
+Ex 25 31-40
+37 17-24
+Lv 24 2-4
+Ex 25 40
+25 9+
+Hb 8 5
+Ex 26 1s
+33 7-11;
+36 8-19
+↑ Hb 9 11.24
+Ex 26 15-30
+36 20-34
+Ex 26 30
+25 40+
+Ex 26 31-37
+36 35-38
+Lv 16
+↑ Hb 6 19; 9 1-10.24; 10 19s
+Ex 26 34
+25 21
+Ex 27 1-8
+38 1-7
+1 R 8 64+
+Ez 43 13-17
+Ex 27 9-19
+38 9-20
+Ez 40 17-49
+Ex 27 20
+Lv 24 2-4
+Ex 27 21
+30 7-8
+1 S 3 3
+Ex 28 1-5
+Lv 8-10
+Ex 28 6-14
+39 2-7
+Ex 28 12
+30 16
+Nm 31 54
+Ex 28 15-30
+39 8-21
+Ex 28 16
+39 10-13
+Ez 28 13
+Ap 21 19s
+Ex 28 30
+1 S 14 41+
+Ex 28 31-35
+39 22-26
+Ex 28 34
+Si 45 9
+Ex 28 36-39
+39 27-31
+Ex 28 36
+Za 14 20
+Jn 17 19
+Ex 28 42
+20 26+
+Ex 29 1-3
+Lv 8
+Hb 7 26-28
+Ex 29 2
+Lv 2 4
+Ex 29 4
+|| 40 12-15
+Lv 8 2-13
+Ex 29 6
+28 36s;
+39 30
+Ex 29 7
+30 22-23+
+Ex 29 12
+Lv 1 5+
+Lv 4 7
+Ex 29 14
+Lv 4+
+Ex 29 16
+24 6
+Ex 29 18
+Lv 1 1+
+Lv 1 9+
+Ex 29 23
+29 2-3
+Ex 29 26
+Lv 7 30s
+Ex 29 31
+Lv 8 31
+Ex 29 35
+Lv 8 33s
+Ex 29 36
+Ez 43 18-27
+Ex 29 37
+Lv 16 18-20
+Nm 4 15.20
+2 S 6 6-7
+Ex 29 38s
+|| Lv 6 2-6+
+|| Nm 28 3-8+
+Ex 29 40
+Ez 46 13-15
+Ex 29 42
+25 22+
+Ex 29 44
+24 16+;
+40 34
+Ex 29 45
+25 8
+Ex 30 1-10
+37 25-28
+Nm 4 11
+1 R 6 20
+↑ Ap 8 3-5
+Ex 30 5
+40 5
+Ex 30 10
+29 36-37
+Ex 30 11-16
+38 25-28
+Ex 30 12
+Nm 1
+2 S 24
+Ex 30 13
+Mt 17 24
+Ex 30 15
+1 P 1 18-19
+Ex 30 17-21
+38 8
+1 R 7 23-28
+Ex 30 22s
+Lv 8 10s
+Ex 30 25
+37 29
+Ex 30 29
+29 37
+Ex 30 30
+28 41;
+40 15
+Ex 30 34-38
+37 29
+Ex 30 36
+25 22
+Ex 31 1-11
+35 30-35
+Ex 31 12-17
+20 8-11+
+Ex 31 13
+Ez 20 12
+Ex 31 14
+Nm 15 32-36
+Ex 31 17
+Gn 9 9+
+=20 11
+Gn 2 2-3
+Ex 31 18
+24 12+
+25 16+
+Ex 32 1-10
+|| Dt 9 7 - 10 5
+Ex 32 1
+Jr 31 32
+Ex 24 18
+Hch 7 40-41
+Ex 32 4
+Ne 9 18
+Sal 106 19s
+1 R 12 28
+Ex 32 6
+↑ 1 Co 10 7
+Ex 32 8
+Jr 31 32
+Ex 32 9
+33 3;
+34 9
+Dt 9 13+
+Ex 32 10
+Gn 12 2
+Nm 14 12
+Ex 32 11-14
+Sal 106 23
+Dt 9 26-29
+Ex 32 12
+Nm 14 13-16
+Dt 9 28;
+32 27
+Ez 20 9.44
+Ex 32 13
+Gn 15 5;
+22 16-17+; 35 11-12
+Ex 32 15
+24 12+
+Ex 32 16
+31 18
+Ex 32 20
+Dt 9 21
+Ex 32 27
+Dt 33 9
+Ex 32 28
+Mt 10 37
+Lc 14 26
+Ex 32 29
+Dt 33 8-11
+Nm 25 7-13
+Ex 32 32
+Rm 9 3
+Ap 20 12
+Ex 32 34
+Dn 12 1+
+Ex 32 35
+23 20+
+3 16+
+Ex 33 1s
+Nm 10 11-13
+Ex 33 2
+23 20+
+Dt 7 1+
+Ex 33 5
+32 9+
+Ex 33 7-11
+26 1+
+Ex 33 9
+34 34
+Ex 33 11
+33 20+
+Nm 12 8
+Dt 34 10
+Jn 15 15
+Jos 1 1+
+Ex 33 12
+33 11+
+Ex 33 14
+Hb 4 1
+Ex 33 16
+Dt 2 7
+Ex 33 18-23
+33 11+
+1 R 19 9-18
+↑ Jn 1 14-18+
+Ex 33 19
+34 6-7
+Ex 33 20
+Gn 32 31
+Ex 19 21
+Lv 16 2
+Nm 4 20
+Dt 5 24
+Jc 6 22-23
+Is 6 5
+Ex 34 1-5
+19;
+32 1+
+Ex 34 3
+19 12s
+Ex 34 5-9
+33 18-23
+Ex 34 6
+3 14+
+Ex 34 7
+20 5-6
+Nm 14 18
+Dt 5 9-10
+Sal 86 15
+Jr 32 18
+Na 1 3
+Jl 2 13
+↑ Jn 1 14
+Ex 34 9
+32 11-14
+Ex 34 10s
+20 1+
+Ex 34 10
+↑ Jn 1 17
+Dt 2 7
+23 20+
+Dt 7 1+
+Ex 34 12
+23 32-33
+Ex 34 13
+Nm 33 52
+Ex 34 14
+Dt 4 24+
+Ex 34 17
+20 4+
+23 14+
+12 1+
+Ex 34 19
+13 11+
+Ex 34 21
+20 8+
+Ex 34 25
+12 15-20
+12 10
+Ex 34 26
+Dt 26 1+
+23 19
+Ex 34 27
+34 10
+Ex 34 28
+24 18+
+Mt 4 2
+20 1+
+Ex 34 29-35
+↑2 Co 3 7s4 6
+Ex 34 33
+Jn 1 17
+Ex 35-40
+25-31
+Ex 35 1-3
+20 8+
+Ex 35 2
+Nm 15 32s
+Ex 35 4-29
+25 1-7
+Ex 35 30-35
+31 2-6
+Ex 36 8-19
+26 1-11.14
+Ex 36 20-34
+26 15-29
+Ex 36 35-38
+26 31-32.36-37
+Ex 37 1-9
+25 10-20
+Ex 37 10-16
+25 23-29
+Ex 37 17-24
+25 31-40
+Ex 37 25-29
+30 1-5
+Ex 37 29
+30 22-25.34-35
+Ex 38 1-7
+27 1-8
+Ex 38 8
+30 18
+1 S 2 22+
+Ex 38 9-20
+27 9-19
+Ex 38 22
+35 30-35
+Ex 38 25
+Nm 1
+Ex 38 26
+Nm 1 45-46
+Ex 39 2-7
+28 6-8
+Ex 39 6
+28 9-12
+Ex 39 8-21
+28 15-30
+Ex 39 22-26
+28 31-35
+Ex 39 27-29
+28 39-42
+Ex 39 30-32
+28 36-37
+Ex 40 9
+Lv 8 10
+Ex 40 13
+29 4-8
+Ex 40 34-35
+25 8+
+1 R 8 10-11
+Ez 43 1-5
+Ex 40 35
+24 16+
+↑ Ap 15 8
+Ex 40 36-38
+|| Nm 9 15-23
+Ex 13 21s+
+Sal 78 14; 105 39</p>  </article> <!-- Pie del libro --> <div class="bible-page-footer bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-t-0 rounded-b-sm shadow-lg px-8 py-3"> <div class="flex justify-center"> <span class="text-sm text-stone-400 dark:text-gray-500 font-serif">— ✝ —</span> </div> </div> </div> </div> </main> <!-- Dialogs --> <dialog id="commentDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-amber-100/50 dark:bg-gray-700/50 rounded-t-lg"> <h3 id="commentTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Comentario</h3> <button id="closeCommentDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="commentContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-amber-100/30 dark:bg-gray-700/30 rounded-b-lg"> <button id="closeCommentBtn" class="w-full px-4 py-2 bg-amber-700 dark:bg-amber-600 text-white rounded hover:bg-amber-800 dark:hover:bg-amber-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> <dialog id="parallelsDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-blue-100/50 dark:bg-blue-900/30 rounded-t-lg"> <h3 id="parallelsTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Referencias Paralelas</h3> <button id="closeParallelsDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="parallelsContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-blue-100/20 dark:bg-blue-900/20 rounded-b-lg"> <button id="closeParallelsBtn" class="w-full px-4 py-2 bg-blue-700 dark:bg-blue-600 text-white rounded hover:bg-blue-800 dark:hover:bg-blue-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> </div>  </body></html>  <script>(function(){const slug = "antiguo-testamento/01-pentateuco/02-exodo-paralelos";
+
+	// Variable global para el slug actual
+	window.currentBibliaSlug = slug;
+})();</script> <script type="module" src="/_astro/BibliaLayout.astro_astro_type_script_index_0_lang.DMp7HT_N.js"></script>

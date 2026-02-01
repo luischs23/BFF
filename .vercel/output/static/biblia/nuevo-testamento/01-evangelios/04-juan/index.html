@@ -1,0 +1,1515 @@
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>Juan - Sagrada Biblia</title><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.BScVxmeO.js"></script><script>
+			// Aplicar dark mode antes de que se renderice la página para evitar flash
+			const darkMode = localStorage.getItem('biblia-dark-mode');
+			if (darkMode === 'true' || (darkMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script><link rel="stylesheet" href="/_astro/admin.DFS-n7nW.css">
+<link rel="stylesheet" href="/_astro/_id_.CuWeqEV8.css">
+<link rel="stylesheet" href="/_astro/_id_.C67thEwx.css">
+<style>[data-astro-image]{width:100%;height:auto;-o-object-fit:var(--fit);object-fit:var(--fit);-o-object-position:var(--pos);object-position:var(--pos);aspect-ratio:var(--w) / var(--h)}[data-astro-image=responsive]{max-width:calc(var(--w) * 1px);max-height:calc(var(--h) * 1px)}[data-astro-image=fixed]{width:calc(var(--w) * 1px);height:calc(var(--h) * 1px)}
+</style></head> <body class="bg-amber-50/70 dark:bg-gray-900 min-h-screen transition-colors duration-300">  <div id="bibliaContainer" class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300"> <!-- Overlay para móvil --> <div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>   <header id="mobileHeader" class="fixed top-0 left-0 right-0 z-50 bg-amber-50/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-stone-300 dark:border-gray-700 shadow-md transition-transform duration-300 md:left-72"> <!-- Vista normal del header --> <div id="headerNormal" class="flex items-center justify-between px-4 py-3"> <!-- Botones a la izquierda --> <div class="absolute left-3 flex items-center gap-2"> <button id="searchToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Buscar en el libro" title="Buscar"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search h-5 w-5">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </button> <!-- Botón tamaño de texto --> <button id="fontSizeToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Cambiar tamaño de texto" title="Tamaño de texto"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-a-arrow-up h-5 w-5">  <path d="m14 11 4-4 4 4"></path> <path d="M18 16V7"></path> <path d="m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16"></path> <path d="M3.304 13h6.392"></path>  </svg> </button> </div> <!-- Título del libro y capítulo centrado --> <h1 class="flex-1 text-center text-lg md:text-xl font-bold text-gray-800 dark:text-gray-100 truncate px-12"> Juan <span id="currentChapterDisplay" class="text-amber-700 dark:text-amber-400"></span> </h1> <!-- Controles a la derecha --> <div class="absolute right-3 flex items-center gap-2"> <!-- Botón navegación de capítulos --> <button id="chapterNavToggle" class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition" aria-label="Navegar capítulos" title="Ir a capítulo"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-book-open h-5 w-5">  <path d="M12 7v14"></path> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>  </svg> </button> <!-- Botón menú móvil (oculto en desktop) --> <button id="menuToggle" class="md:hidden bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition" aria-label="Abrir menú"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="menuIcon" class="lucide lucide-menu h-5 w-5">  <path d="M4 5h16"></path> <path d="M4 12h16"></path> <path d="M4 19h16"></path>  </svg> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" id="closeIcon" class="lucide lucide-x h-5 w-5 hidden">  <path d="M18 6 6 18"></path> <path d="m6 6 12 12"></path>  </svg> </button> </div> </div> <!-- Vista de búsqueda expandida --> <div id="headerSearch" class="hidden flex items-center gap-2 px-3 py-2"> <!-- Botón volver --> <button id="searchClose" class="text-gray-600 dark:text-gray-300 p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Cerrar búsqueda"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-left h-5 w-5">  <path d="m15 18-6-6 6-6"></path>  </svg> </button> <!-- Input de búsqueda --> <div class="flex-1 relative"> <input type="text" id="searchInput" placeholder="Buscar en este libro..." class="w-full px-4 py-2 pr-10 rounded-full bg-white dark:bg-gray-800 border border-stone-300 dark:border-gray-600 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-search absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400">  <path d="m21 21-4.34-4.34"></path> <circle cx="11" cy="11" r="8"></circle>  </svg> </div> <!-- Navegación de resultados --> <div id="searchNavigation" class="hidden flex items-center gap-1"> <span id="searchCount" class="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap"></span> <button id="searchPrev" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Resultado anterior"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-up h-4 w-4">  <path d="m18 15-6-6-6 6"></path>  </svg> </button> <button id="searchNext" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Siguiente resultado"> <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="lucide lucide-chevron-down h-4 w-4">  <path d="m6 9 6 6 6-6"></path>  </svg> </button> </div> </div> </header> <script type="module" src="/_astro/MobileHeader.astro_astro_type_script_index_0_lang.BE11JRIP.js"></script>  <div id="chapterNavPanel" class="fixed right-3 top-20 md:right-16 md:top-3 z-40 bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 rounded-lg shadow-xl p-3 hidden max-h-[70vh] overflow-y-auto backdrop-blur-sm"> <div class="flex justify-between items-center mb-2 pb-2 border-b border-stone-200 dark:border-gray-700"> <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Ir a capítulo</span> <button id="closeChapterNav" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> <div id="chapterGrid" class="grid grid-cols-5 gap-1.5"> <!-- Capítulos se generan dinámicamente --> </div> </div>  <!-- Sidebar --> <aside id="sidebar" class="fixed md:relative w-72 h-full bg-stone-100 dark:bg-gray-800 border-r border-stone-200 dark:border-gray-700 overflow-y-auto flex-shrink-0 z-50 transform -translate-x-full md:translate-x-0 transition-all duration-300 ease-in-out"> <div class="p-4"> <div class="flex items-center justify-between mb-4"> <a href="/" class="text-amber-700 dark:text-amber-400 hover:underline text-sm">&larr; Inicio</a> <button id="darkModeToggle" class="p-2 rounded-lg bg-stone-200 dark:bg-gray-700 hover:bg-stone-300 dark:hover:bg-gray-600 transition-colors" aria-label="Cambiar tema"> <!-- Sol (modo claro) --> <svg id="sunIcon" class="w-5 h-5 text-amber-600 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path> </svg> <!-- Luna (modo oscuro) --> <svg id="moonIcon" class="w-5 h-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path> </svg> </button> </div> <h2 class="text-lg font-bold mb-4 text-gray-800 dark:text-gray-100">Sagrada Biblia</h2> <div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Antiguo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-01-pentateuco"> <span>El Pentateuco</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-01-pentateuco"> <li> <a href="/biblia/antiguo-testamento/01-pentateuco/01-genesis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Génesis </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/02-exodo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Éxodo </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/03-levitico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Levitico </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/04-numeros" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Numeros </a> </li><li> <a href="/biblia/antiguo-testamento/01-pentateuco/05-deuteronomio" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Deuteronomio </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-02-libros-historicos"> <span>Libros Históricos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-02-libros-historicos"> <li> <a href="/biblia/antiguo-testamento/02-libros-historicos/01-josue" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Josué </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/02-jueces" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jueces </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/03-rut" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Rut </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/04-1samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/05-2samuel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Samuel </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/06-1reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/07-2reyes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Reyes </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/08-1cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/09-2cronicas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Crónicas </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/10-esdras" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Esdras </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/11-nehemias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nehemías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/12-tobias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tobías </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/13-judit" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judit </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/14-ester" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ester </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/15-1macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Macabeos </a> </li><li> <a href="/biblia/antiguo-testamento/02-libros-historicos/16-2macabeos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Macabeos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-03-lirica"> <span>Lírica</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-03-lirica"> <li> <a href="/biblia/antiguo-testamento/03-lirica/01-job" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Job </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/02-salmos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Salmos </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/03-cantar-de-los-cantares" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Cantar de los Cantares </a> </li><li> <a href="/biblia/antiguo-testamento/03-lirica/04-lamentaciones" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lamentaciones </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-04-libros-sapienciales"> <span>Libros Sapienciales</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-04-libros-sapienciales"> <li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/01-proverbios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Proverbios </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/02-eclesiastes" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiastés </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/03-sabiduria" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Sabiduría </a> </li><li> <a href="/biblia/antiguo-testamento/04-libros-sapienciales/04-eclesiastico" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Eclesiástico </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="antiguo-testamento-05-libros-profeticos"> <span>Libros Proféticos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="antiguo-testamento-05-libros-profeticos"> <li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/01-isaias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Isaías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/02-jeremias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jeremías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/03-baruc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Baruc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/04-ezequiel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ezequiel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/05-daniel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Daniel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/06-oseas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Oseas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/07-joel" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Joel </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/08-amos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Amós </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/09-abdias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Abdías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/10-jonas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Jonás </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/11-miqueas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Miqueas </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/12-nahum" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Nahúm </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/13-habacuc" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Habacuc </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/14-sofonias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Sofonías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/15-ageo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Ageo </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/16-zacarias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Zacarías </a> </li><li> <a href="/biblia/antiguo-testamento/05-libros-profeticos/17-malaquias" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Malaquías </a> </li> </ul> </div> </div><div class="mb-6"> <h3 class="font-bold text-gray-800 dark:text-gray-200 mb-2 text-sm uppercase tracking-wide"> Nuevo Testamento </h3> <div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-01-evangelios"> <span>Evangelios</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-01-evangelios"> <li> <a href="/biblia/nuevo-testamento/01-evangelios/01-mateo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Mateo </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/02-marcos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Marcos </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/03-lucas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Lucas </a> </li><li> <a href="/biblia/nuevo-testamento/01-evangelios/04-juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition bg-amber-200 dark:bg-amber-700 text-amber-900 dark:text-amber-100 font-semibold"> Juan </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-02-hechos"> <span>Hechos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-02-hechos"> <li> <a href="/biblia/nuevo-testamento/02-hechos/01-hechos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hechos de los Apóstoles </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-03-epistolas-pablo"> <span>Epístolas de Pablo</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-03-epistolas-pablo"> <li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/01-romanos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Romanos </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/02-1corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/03-2corintios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Corintios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/04-galatas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Gálatas </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/05-efesios" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Efesios </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/06-filipenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filipenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/07-colosenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Colosenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/08-1tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/09-2tesalonicenses" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Tesalonicenses </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/10-1timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/11-2timoteo" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Timoteo </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/12-tito" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Tito </a> </li><li> <a href="/biblia/nuevo-testamento/03-epistolas-pablo/13-filemon" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Filemón </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-04-hebreos"> <span>Hebreos</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-04-hebreos"> <li> <a href="/biblia/nuevo-testamento/04-hebreos/01-hebreos" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Hebreos </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-05-epistolas-catolicas"> <span>Epístolas Católicas</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-05-epistolas-catolicas"> <li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/01-santiago" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Santiago </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/02-1pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/03-2pedro" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 PEDRO </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/04-1juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 1 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/05-2juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 2 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/06-3juan" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> 3 Juan </a> </li><li> <a href="/biblia/nuevo-testamento/05-epistolas-catolicas/07-judas" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Judas </a> </li> </ul> </div><div class="mb-3"> <button class="section-toggle w-full flex items-center justify-between text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1 pl-2 pr-2 py-1 hover:bg-stone-200 dark:hover:bg-gray-700 rounded transition" data-section="nuevo-testamento-06-apocalipsis"> <span>Apocalipsis</span> <svg class="toggle-icon w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path> </svg> </button> <ul class="section-content space-y-1" data-section="nuevo-testamento-06-apocalipsis"> <li> <a href="/biblia/nuevo-testamento/06-apocalipsis/01-apocalipsis" data-astro-prefetch="false" class="block px-3 py-1.5 text-sm rounded transition text-gray-600 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-gray-700 hover:text-amber-800 dark:hover:text-amber-300"> Apocalipsis </a> </li> </ul> </div> </div> </div> </aside> <!-- Contenido principal --> <main class="flex-1 overflow-y-auto
+					bg-amber-50 dark:bg-gray-950
+					md:bg-stone-300 md:dark:bg-gray-950
+					transition-colors duration-300"> <div class="p-0 md:p-8"> <!-- Estado de carga --> <div id="loadingState" class="max-w-5xl mx-auto"> <div class="bg-amber-50 dark:bg-gray-800 border-x border-stone-300 dark:border-gray-700 shadow-lg p-8"> <div class="animate-pulse space-y-4"> <div class="h-8 bg-stone-200 dark:bg-gray-700 rounded w-1/3 mx-auto"></div> <div class="h-4 bg-stone-200 dark:bg-gray-700 rounded w-2/3 mx-auto"></div> <div class="grid grid-cols-2 gap-8 mt-8"> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> </div> <div class="space-y-3"> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-4/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-5/6"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded"></div> <div class="h-3 bg-stone-200 dark:bg-gray-700 rounded w-3/6"></div> </div> </div> </div> </div> </div> <!-- Contenedor del libro --> <div id="bibleBook" class="bible-book hidden w-full md:max-w-3xl md:mx-auto"> <!-- Contenido en dos columnas con divisores de página --> <article class="bible-content prose prose-sm max-w-none
+		prose-headings:text-gray-800 dark:prose-headings:text-gray-100
+		prose-h2:text-sm md:prose-h2:text-base prose-h2:font-semibold prose-h2:mt-4 prose-h2:mb-2
+		prose-p:text-gray-700 dark:prose-p:text-gray-300
+		dark:prose-invert
+		bg-amber-50 dark:bg-gray-800
+		border-x border-stone-300 dark:border-gray-700
+		shadow-lg
+		px-6 py-4 md:px-8 md:py-6">  <h1 id="evangelio-según-san-juan">EVANGELIO SEGÚN SAN JUAN</h1>
+<h2 id="prólogo">Prólogo</h2>
+<p>1:1 En el principio* existía la Palabra  la Palabra estaba junto a Dios,</p>
+<p>y la Palabra era Dios.</p>
+<p>1:2 Ella estaba en el principio junto a Dios.</p>
+<p>1:3 Todo se hizo por ella,</p>
+<p>y sin ella nada se hizo.</p>
+<p>Lo que se hizo 1:4 en ella* era la vida*,</p>
+<p>y la vida era la luz de los hombres;</p>
+<p>1:5 y la luz brilla en las tinieblas*,</p>
+<p>y las tinieblas no la vencieron.</p>
+<p>1:6 Hubo un hombre, enviado por Dios:</p>
+<p>se llamaba Juan*.</p>
+<p>1:7 Éste vino para un testimonio,</p>
+<p>para dar testimonio de la luz,</p>
+<p>para que todos creyeran por él.</p>
+<p>1:8 No era él la luz,</p>
+<p>sino quien debía dar testimonio de la luz.</p>
+<p>1:9 La Palabra era la luz verdadera</p>
+<p>que ilumina a todo hombre,</p>
+<p>cuando viene a este mundo*.</p>
+<p>1:10 En el mundo estaba,</p>
+<p>y el mundo fue hecho por ella,</p>
+<p>pero el mundo no la conoció*.</p>
+<p>1:11 Vino a los suyos,</p>
+<p>mas los suyos* no la recibieron.</p>
+<p>1:12 Pero a todos los que la recibieron</p>
+<p>les dio poder de hacerse hijos de Dios,</p>
+<p>a los que creen en su nombre*;</p>
+<p>1:13 éstos no nacieron de sangre,</p>
+<p>ni de deseo de carne,</p>
+<p>ni de deseo de hombre,</p>
+<p>sino que nacieron de Dios*.</p>
+<p>1:14 Y la Palabra se hizo carne*</p>
+<p>y puso su Morada entre nosotros*;</p>
+<p>y hemos contemplado su gloria*,</p>
+<p>gloria que recibe del Padre como Unigénito,</p>
+<p>lleno de gracia y de verdad*.</p>
+<p>1:15 Juan daba testimonio de él, proclamando:</p>
+<p>«Éste era del que yo dije:</p>
+<p>El que viene detrás de mí</p>
+<p>se ha puesto delante de mí,</p>
+<p>porque existía antes que yo.»</p>
+<p>1:16 De su plenitud hemos recibido todos gracia por gracia*.</p>
+<p>1:17 Porque la Ley fue dada por medio de Moisés;</p>
+<p>la gracia y la verdad nos han llegado por Jesucristo.</p>
+<p>1:18 A Dios nadie le ha visto jamás:</p>
+<p>lo ha contado el Hijo Unigénito*,</p>
+<p>que está en el seno del Padre.</p>
+<h2 id="el-ministerio-de-jesús">El ministerio de Jesús</h2>
+<h2 id="1-el-anuncio-de-la-nueva-economía">1. EL ANUNCIO DE LA NUEVA ECONOMÍA</h2>
+<h2 id="a-la-semana-inaugural">A. LA SEMANA INAUGURAL</h2>
+<h2 id="el-testimonio-de-juan">El testimonio de Juan.</h2>
+<p>1:19 Éste fue el testimonio de Juan, cuando los judíos* enviaron desde Jerusalén sacerdotes y levitas a preguntarle: «¿Quién eres tú?» 1:20 Él lo confesó, sin negarlo: «Yo no soy el Cristo.» 1:21 Entonces le preguntaron: «¿Quién, pues?; ¿eres tú Elías*?» Él contestó: «No lo soy».» — «¿Eres tú el profeta*?» Respondió: «No.» 1:22 Ellos insistieron: «¿Quién eres, entonces? Tenemos que dar una respuesta a los que nos han enviado? ¿Qué dices de ti mismo?» 1:23 Respondió: «Yo soy</p>
+<p>la voz del que clama en el desierto:</p>
+<p>Rectificad el camino del Señor,</p>
+<p>como dijo el profeta Isaías». 1:24 Habían sido enviados por los fariseos. 1:25 Le preguntaron: «¿Por qué bautizas entonces, si no eres el Cristo, ni Elías ni el profeta?» 1:26 Juan les respondió: «Yo bautizo con agua, pero entre vosotros hay uno a quien no conocéis, 1:27 que viene detrás de mí, a quien yo no soy digno de desatarle la correa de su sandalia.» 1:28 Esto ocurrió en Bethabara*, al otro lado del Jordán, donde estaba Juan bautizando.</p>
+<p>1:29 Al día siguiente, al ver a Jesús venir hacia él, dijo: «He ahí el cordero de Dios, que quita el pecado del mundo*. 1:30 Éste es de quien yo dije:</p>
+<p>Detrás de mí viene un hombre,</p>
+<p>que se ha puesto delante de mí,</p>
+<p>porque existía antes que yo.</p>
+<p>1:31 «Yo no le conocía, pero he venido a bautizar con agua para que él sea manifestado a Israel*.» 1:32 Y Juan dio testimonio diciendo: «He visto al Espíritu que bajaba como una paloma del cielo y se quedaba sobre él. 1:33 Yo no le conocía, pero el que me envió a bautizar con agua me dijo:</p>
+<p>‘Aquel sobre quien veas que baja el Espíritu y se queda sobre él, ése es el que bautiza con Espíritu Santo’<em>. 1:34 Yo le he visto y doy testimonio de que ése es el Elegido de Dios</em>.»</p>
+<h2 id="los-primeros-discípulos">Los primeros discípulos.</h2>
+<p>1:35 Al día siguiente, Juan se encontraba de nuevo allí con dos de sus discípulos. 1:36 Fijándose en Jesús que pasaba, dijo: «He ahí el Cordero de Dios»<em>. 1:37 Al oírle hablar así, los dos discípulos siguieron a Jesús</em>. 1:38 Jesús se volvió y, al ver que le seguían, les preguntó: «¿Qué buscáis?» Ellos le respondieron: «Rabbí —que quiere decir ‘Maestro’—, ¿dónde vives?» 1:39 Les respondió: «Venid y lo veréis.» Fueron, pues, vieron dónde vivía y se quedaron con él aquel día. Era más o menos la hora décima*.</p>
+<p>1:40 Andrés, el hermano de Simón Pedro, era uno de los dos que habían oído a Juan y habían seguido a Jesús*. 1:41 Andrés encuentra primero a su propio hermano, Simón, y le dijo: «Hemos encontrado al Mesías» —que quiere decir, Cristo—. 1:42 Y le llevó donde Jesús. Fijando Jesús su mirada en él, le dijo:«Tú eres Simón, el hijo de Juan; tú te llamarás Cefas» —que quiere decir ‘Piedra’—.</p>
+<p>1:43 Al día siguiente, Jesús quiso partir para Galilea y encontró a Felipe. Jesús le dijo: «Sígueme.» 1:44 Felipe era de Betsaida, del pueblo de Andrés y Pedro.</p>
+<p>1:45 Felipe encontró a Natanael y le dijo: «Hemos encontrado a aquel de quien escribió Moisés en la Ley, y también los profetas; es Jesús, el hijo de José, el de Nazaret.» 1:46 Le respondió Natanael: «¿De Nazaret puede haber cosa buena?» Le dijo Felipe: «Ven y lo verás.» 1:47 Cuando vio Jesús que se acercaba Natanael, dijo de él: «Ahí tenéis a un israelita de verdad, en quien no hay engaño.» 1:48 Natanael le preguntó: «¿De qué me conoces?» Respondió Jesús: «Te vi* cuando estabas debajo de la higuera, antes de que Felipe te llamara.» 1:49 Le respondió Natanael: «Rabbí, tú eres el Hijo de Dios*, tú eres el rey de Israel.» 1:50 Jesús le contestó: «¿Por haberte dicho que te vi debajo de la higuera, crees? Has de ver cosas mayores.» 1:51 Y añadió: «En verdad, en verdad os digo: veréis el cielo abierto y a los ángeles de Dios subir y bajar sobre el Hijo del hombre*.»</p>
+<h2 id="la-boda-en-caná">La boda en Caná.</h2>
+<p>2:1 Tres días después* se celebraba una boda en Caná de Galilea, y estaba allí la madre de Jesús*. 2:2 Fueron invitados también a la boda Jesús y sus discípulos. 2:3 Al quedarse sin vino, por haberse acabado el de la boda, le dijo a Jesús su madre: «No tienen vino.» 2:4 Jesús le respondió: «¿Qué tengo yo contigo*, mujer*? Todavía no ha llegado mi hora*.» 2:5 Pero su madre dijo a los sirvientes: «Haced lo que él os diga.»</p>
+<p>2:6 Había allí seis tinajas de piedra, destinadas a las purificaciones de los judíos, de dos o tres medidas cada una. 2:7 Jesús les dijo: «Llenad las tinajas de agua.» Ellos las llenaron hasta arriba. 2:8 «Sacadlo ahora —les dijo— y llevadlo al maestresala.» Ellos lo llevaron. 2:9 Cuando el maestresala probó el agua convertida en vino, como ignoraba de dónde era (los sirvientes, los que habían sacado el agua, sí que lo sabían), llamó al novio 2:10 y le dijo: «Todos sirven primero el vino bueno, y cuando ya están bebidos, el inferior. Tú, en cambio, has reservado el vino bueno hasta ahora.» 2:11 Éste fue el comienzo de los signos que realizó Jesús, en Caná de Galilea*; así manifestó su gloria y creyeron en él sus discípulos. 2:12 Después bajó a Cafarnaún con su madre, sus hermanos y sus discípulos*, pero no se quedaron allí muchos días.</p>
+<h2 id="b-la-primera-pascua">B. LA PRIMERA PASCUA</h2>
+<h2 id="la-purificación-del-templo">La purificación del Templo.</h2>
+<p>2:13 Se acercaba la Pascua de los judíos y Jesús subió a Jerusalén. 2:14 Y encontró en el Templo a los vendedores de bueyes, ovejas y palomas, y a los cambistas en sus puestos. 2:15 Entonces hizo un látigo con cuerdas, echó a todos fuera del Templo, con las ovejas y los bueyes, desparramó el dinero de los cambistas y les volcó las mesas; 2:16 y dijo a los vendedores de palomas: «Quitad esto de aquí. No convirtáis la casa de mi Padre en un mercado.» 2:17 Sus discípulos se acordaron de que estaba escrito:</p>
+<p>El celo por tu casa me devorará.</p>
+<p>2:18 Los judíos entonces le dijeron: «¿Qué signo puedes darnos que justifique que puedes obrar así?» 2:19 Jesús les respondió: «Destruid este santuario y en tres días lo levantaré*.» 2:20 Los judíos le contestaron: «Cuarenta y seis años se ha tardado en construir este santuario*, ¿y tú lo vas a levantar en tres días?» 2:21 Pero él hablaba del santuario de su cuerpo. 2:22 Cuando fue levantado de entre los muertos, se acordaron sus discípulos de esto que había dicho, y creyeron en la Escritura y en las palabras que había pronunciado Jesús.</p>
+<h2 id="estancia-en-jerusalén">Estancia en Jerusalén.</h2>
+<p>2:23 Mientras estuvo en Jerusalén, por la fiesta de la Pascua, muchos creyeron en su nombre al ver los signos que realizaba. 2:24 Pero Jesús no se confiaba a ellos, porque los conocía a todos; 2:25 y no necesitaba que alguien le dijera cómo son las personas, pues él conocía lo que hay en el ser humano.</p>
+<h2 id="entrevista-con-nicodemo">Entrevista con Nicodemo.</h2>
+<p>3:1 Había entre los fariseos un hombre llamado Nicodemo, magistrado judío. 3:2 Fue éste donde Jesús de noche y le dijo: «Rabbí, sabemos que has venido de Dios como maestro, porque nadie puede realizar los signos que tú realizas, si Dios no está con él.» 3:3 Jesús le respondió:</p>
+<p>«En verdad, en verdad te digo</p>
+<p>que el que no nazca de nuevo*</p>
+<p>no puede ver el Reino de Dios*.»</p>
+<p>3:4 Nicodemo le preguntó: «¿Cómo puede uno nacer siendo ya viejo? ¿Puede acaso entrar otra vez en el seno de su madre y nacer?» 3:5 Respondió Jesús:</p>
+<p>«En verdad, en verdad te digo</p>
+<p>que el que no nazca* de agua y de Espíritu</p>
+<p>no puede entrar en el Reino de Dios.</p>
+<p>3:6 Lo nacido de la carne es carne;</p>
+<p>lo nacido del Espíritu es espíritu.</p>
+<p>3:7 No te asombres de que te haya dicho</p>
+<p>que tenéis que nacer de nuevo.</p>
+<p>3:8 El viento sopla donde quiere,</p>
+<p>y oyes su rumor,</p>
+<p>pero no sabes de dónde viene ni adónde va.</p>
+<p>Así es todo el que nace del Espíritu.»</p>
+<p>3:9 Preguntó Nicodemo: «¿Cómo puede ser eso?» 3:10 Jesús le respondió: «Tú, que eres maestro en Israel, ¿no sabes estas cosas?</p>
+<p>3:11 «En verdad, en verdad te digo</p>
+<p>que nosotros hablamos de lo que sabemos,</p>
+<p>y damos testimonio</p>
+<p>de lo que hemos visto*,</p>
+<p>pero vosotros</p>
+<p>no aceptáis nuestro testimonio.</p>
+<p>3:12 Si al deciros cosas de la tierra,</p>
+<p>no creéis, ¿cómo vais a creer</p>
+<p>si os hablo de las cosas del cielo?</p>
+<p>3:13 Nadie ha subido al cielo*,</p>
+<p>sino el que bajó del cielo:</p>
+<p>el Hijo del hombre.</p>
+<p>3:14 Y, del mismo modo que Moisés</p>
+<p>elevó la serpiente en el desierto,</p>
+<p>así tiene que ser elevado</p>
+<p>el Hijo del hombre*,</p>
+<p>3:15 para que todo el que crea</p>
+<p>tenga en él la vida eterna*.</p>
+<p>3:16 Porque tanto amó Dios al mundo</p>
+<p>que entregó a su Hijo unigénito,</p>
+<p>para que todo el que crea en él</p>
+<p>no perezca, sino que tenga vida eterna.</p>
+<p>3:17 Porque Dios no ha enviado</p>
+<p>a su Hijo al mundo</p>
+<p>para juzgar al mundo,</p>
+<p>sino para que el mundo se salve por él.</p>
+<p>3:18 El que cree en él no es juzgado;</p>
+<p>pero el que no cree ya está juzgado,</p>
+<p>porque no ha creído en el nombre</p>
+<p>del Hijo unigénito de Dios.</p>
+<p>3:19 Y el juicio consiste</p>
+<p>en que la luz vino al mundo,</p>
+<p>pero los hombres amaron más</p>
+<p>las tinieblas que la luz,</p>
+<p>porque sus obras eran malas.</p>
+<p>3:20 Pues todo el que obra el mal</p>
+<p>odia la luz y no se acerca a ella,</p>
+<p>para que nadie censure sus obras.</p>
+<p>3:21 Pero el que obra la verdad,</p>
+<p>se acerca a la luz,</p>
+<p>para que quede de manifiesto</p>
+<p>que actúa como Dios quiere.»</p>
+<h2 id="ministerio-de-jesús-en-judea">Ministerio de Jesús en Judea.</h2>
+<h2 id="último-testimonio-de-juan">Último testimonio de Juan.</h2>
+<p>3:22 Después de esto, se fue Jesús con sus discípulos al país de Judea. Allí se estaba con ellos y bautizaba*. 3:23 Juan también estaba bautizando en Ainón*, cerca de Salín, porque había allí mucha agua; y la gente acudía y se bautizaba. 3:24 (Todavía no había sido Juan encarcelado.)</p>
+<p>3:25 Se suscitó una discusión entre los discípulos de Juan y un judío acerca de la purificación*. 3:26 Fueron, pues, a Juan y le dijeron: «Rabbí, el que estaba contigo al otro lado del Jordán, aquel de quien diste testimonio, está bautizando y todos van donde él.» 3:27 Juan respondió:</p>
+<p>«Nadie puede recibir nada</p>
+<p>si no se le ha dado del cielo.</p>
+<p>3:28 «Vosotros mismos sois testigos de que dije: ‘Yo no soy el Cristo, sino que he sido enviado delante de él.’</p>
+<p>3:29 El que tiene a la novia es el novio*;</p>
+<p>pero el amigo del novio,</p>
+<p>que está presente y le oye,</p>
+<p>se alegra mucho con la voz del novio.</p>
+<p>Ésta es, pues, mi alegría,</p>
+<p>que ha alcanzado su plenitud.</p>
+<p>3:30 Es preciso que él crezca</p>
+<p>y que yo disminuya.</p>
+<p>3:31 El que viene de arriba</p>
+<p>está por encima de todos*;</p>
+<p>el que es de la tierra</p>
+<p>habla de la tierra.</p>
+<p>El que viene del cielo*,</p>
+<p>3:32 da testimonio de lo que ha visto y oído,</p>
+<p>pero su testimonio nadie lo acepta.</p>
+<p>3:33 El que acepta su testimonio</p>
+<p>certifica que Dios es veraz.</p>
+<p>3:34 Porque aquel a quien Dios ha enviado</p>
+<p>proclama las palabras de Dios,</p>
+<p>porque no da el Espíritu con medida*.</p>
+<p>3:35 El Padre ama al Hijo</p>
+<p>y ha puesto todo en su mano*.</p>
+<p>3:36 El que cree en el Hijo tiene vida eterna;</p>
+<p>el que resiste al Hijo, no verá la vida,</p>
+<p>pues siempre le acecha la ira de Dios.»</p>
+<h2 id="jesús-entre-los-samaritanos">Jesús entre los samaritanos*.</h2>
+<p>4:1 Cuando Jesús* se enteró de que había llegado a oídos de los fariseos que él hacía más discípulos y bautizaba más que Juan —4:2 aunque no era Jesús mismo el que bautizaba, sino sus discípulos—, 4:3 abandonó Judea y volvió a Galilea. 4:4 Tenía que pasar por Samaría.</p>
+<p>4:5 Llegó a un pueblo de Samaría llamado Sicar*, cerca de la heredad que Jacob legó a su hijo José. 4:6 Allí estaba el pozo de Jacob. Jesús, que estaba cansado de tanto andar, se había sentado junto al pozo. Era alrededor de la hora sexta*. 4:7 Llegó entonces una mujer de Samaría a sacar agua. Jesús le dijo: «Dame de beber.» 4:8 (Sus discípulos se habían ido al pueblo a comprar comida.) La samaritana le respondió: 4:9 «¿Cómo tú, siendo judío, me pides de beber a mí, que soy una mujer de Samaría*?» (Es que los judíos no se tratan con los samaritanos.) 4:10 Jesús le respondió:</p>
+<p>«Si conocieras el don de Dios</p>
+<p>y supieras quién es el que te dice</p>
+<p>‘Dame de beber’,</p>
+<p>tú se lo habrías pedido a él,</p>
+<p>y él te habría dado agua viva.»</p>
+<p>4:11 Contestó la mujer: «Señor, el pozo es hondo y no tienes con qué sacarla; ¿cómo es que tienes esa agua viva? 4:12 ¿Te crees más que nuestro padre Jacob, que nos dio el pozo, del que bebieron él, sus hijos y sus ganados?» 4:13 Jesús le respondió:</p>
+<p>«Todo el que beba de esta agua</p>
+<p>volverá a tener sed;</p>
+<p>4:14 pero el que beba del agua que yo le dé</p>
+<p>no tendrá sed jamás,</p>
+<p>pues el agua que yo le dé</p>
+<p>se convertirá en él en fuente de agua</p>
+<p>que brota para vida eterna*.»</p>
+<p>4:15 Le dijo la mujer: «Señor, dame de esa agua, para no volver a tener sed y no tener que venir aquí a sacarla.» 4:16 Él le contestó: «Vete, llama a tu marido y vuelve acá.» 4:17 La mujer le dijo: «No tengo marido.» Jesús le respondió: «Bien has dicho que no tienes marido, 4:18 porque has tenido cinco, y el que ahora tienes no es marido tuyo. En eso has dicho la verdad*.» 4:19 La mujer replicó: «Señor, veo que eres un profeta. 4:20 Nuestros padres adoraron en este monte*, pero vosotros decís que el lugar donde se debe adorar es Jerusalén.» 4:21 Jesús le contestó:</p>
+<p>«Créeme, mujer, que llega la hora</p>
+<p>en que ni en este monte</p>
+<p>ni en Jerusalén</p>
+<p>adoraréis al Padre.</p>
+<p>4:22 Vosotros adoráis lo que no conocéis;</p>
+<p>nosotros adoramos lo que conocemos,</p>
+<p>porque la salvación viene de los judíos.</p>
+<p>4:23 Pero llega la hora (ya estamos en ella)</p>
+<p>en que los adoradores verdaderos</p>
+<p>adorarán al Padre en espíritu y en verdad*,</p>
+<p>porque así quiere el Padre</p>
+<p>que sean los que le adoren.</p>
+<p>4:24 Dios es espíritu,</p>
+<p>y los que adoran</p>
+<p>deben adorar en espíritu y verdad.»</p>
+<p>4:25 Le dijo la mujer: «Sé que va a venir el Mesías, el llamado Cristo. Cuando venga, nos lo desvelará todo*.» 4:26 Jesús le respondió: «Yo soy, el que está hablando contigo.»</p>
+<p>4:27 En esto llegaron sus discípulos y se sorprendieron de que hablara con una mujer. Pero nadie le preguntó qué quería o qué hablaba con ella. 4:28 La mujer, dejando su cántaro, corrió* al pueblo y dijo a la gente: 4:29 «Venid a ver a un hombre que me ha dicho todo lo que he hecho. ¿No será el Cristo?» 4:30 Salieron del pueblo y se encaminaron hacia él.</p>
+<p>4:31 Entretanto, los discípulos le insistían: «Rabbí, come.» 4:32 Pero él replicó: «Yo tengo para comer un alimento que vosotros no sabéis.» 4:33 Los discípulos se decían entre sí: «¿Le habrá traído alguien de comer?» 4:34 Jesús les dijo:</p>
+<p>«Mi alimento</p>
+<p>es hacer la voluntad</p>
+<p>del que me ha enviado*</p>
+<p>y llevar a cabo su obra.</p>
+<p>4:35 ¿No decís vosotros:</p>
+<p>‘Cuatro meses más y llega la siega’?</p>
+<p>Pues bien, yo os digo:</p>
+<p>Alzad vuestros ojos y ved los campos,</p>
+<p>que amarillean ya para la siega*.</p>
+<p>Ya 4:36 el segador recibe el salario,</p>
+<p>y recoge fruto para vida eterna,</p>
+<p>de modo que el sembrador</p>
+<p>se alegra igual que el segador.</p>
+<p>4:37 Y en esto resulta verdadero el refrán</p>
+<p>de que uno es el sembrador y otro el segador:</p>
+<p>4:38 yo os he enviado a segar</p>
+<p>donde vosotros no os habéis fatigado.</p>
+<p>Otros se fatigaron</p>
+<p>y vosotros os aprovecháis de su fatiga.»</p>
+<p>4:39 Muchos samaritanos de aquel pueblo creyeron en él por las palabras de la mujer, que atestiguaba: «Me ha dicho todo lo que he hecho.» 4:40 Cuando llegaron a él los samaritanos, le rogaron que se quedara con ellos. Y Jesús se quedó allí dos días. 4:41 Fueron muchos más los que creyeron por sus palabras*, 4:42 y decían a la mujer: «Ya no creemos por tus palabras, pues nosotros mismos hemos oído y sabemos que éste es verdaderamente el Salvador del mundo.»</p>
+<h2 id="jesús-en-galilea">Jesús en Galilea.</h2>
+<p>4:43 Pasados los dos días, partió de allí para Galilea. 4:44 (Pues Jesús mismo había afirmado que un profeta no goza de prestigio en su patria*.) 4:45 Cuando llegó, pues, a Galilea, los galileos le hicieron un buen recibimiento, porque habían visto todo lo que había hecho en Jerusalén durante la fiesta, pues también ellos habían ido.</p>
+<h2 id="segundo-signo-en-caná-curación-del-hijo-de-un-funcionario-real">Segundo signo en Caná: Curación del hijo de un funcionario real *.</h2>
+<p>4:46 Volvió, pues, a Caná de Galilea, donde había convertido el agua en vino. Había un funcionario real, cuyo hijo estaba enfermo en Cafarnaún. 4:47 Cuando se enteró de que Jesús había venido de Judea a Galilea, fue a rogarle que bajase a curar a su hijo, porque estaba a punto de morir. 4:48 Entonces Jesús le dijo: «Si no veis signos y prodigios, no creéis*.» 4:49 El funcionario replicó: «Señor, baja antes de que muera mi hijo.» 4:50 Jesús le dice: «Vete, que tu hijo vive.» Creyó el hombre en la palabra que Jesús le había dicho y se puso en camino. 4:51 Cuando bajaba, le salieron al encuentro sus siervos y le dijeron que su hijo vivía. 4:52 Él les preguntó entonces la hora en que se había sentido mejor. Ellos respondieron: «Ayer a la hora séptima le dejó la fiebre.» 4:53 El padre comprobó que era la misma hora en que le había dicho Jesús: «Tu hijo vive», y creyó él y toda su familia*. 4:54 Éste fue el segundo signo que hizo Jesús cuando volvió de Judea a Galilea.</p>
+<h2 id="2-segunda-fiesta-en-jerusalén">2. SEGUNDA FIESTA EN JERUSALÉN</h2>
+<h2 id="primera-oposición-a-la-revelación">(PRIMERA OPOSICIÓN A LA REVELACIÓN)</h2>
+<h2 id="curación-de-un-enfermo-en-la-piscina-de-betesda">Curación de un enfermo en la piscina de Betesda.</h2>
+<p>5:1 Después de esto, con ocasión de una fiesta de los judíos*, Jesús subió a Jerusalén. 5:2 Hay en Jerusalén una piscina Probática llamada en hebreo Betzatá*, que tiene cinco pórticos*. 5:3 En ellos yacía una multitud de enfermos, ciegos, cojos y paralíticos, que esperaban la agitación del agua. 5:4 Es que el ángel del Señor se lavaba* de tiempo en tiempo en la piscina y agitaba el agua; y el primero que se metía después de la agitación del agua recobraba la salud de cualquier mal que tuviera. 5:5 Había allí un hombre que llevaba treinta y ocho años enfermo. 5:6 Jesús, viéndole tendido y sabiendo que llevaba ya mucho tiempo, le dijo: «¿Quieres recobrar la salud?» 5:7 Le respondió el enfermo: «Señor, no tengo a nadie que me meta en la piscina cuando se agita el agua; y mientras yo voy, otro se mete antes que yo.» 5:8 Jesús le dijo: «Levántate, toma tu camilla y anda.» 5:9 El hombre recobró al instante la salud, tomó su camilla y se fue andando.</p>
+<p>Pero como aquel día era sábado, 5:10 los judíos dijeron al que había sido curado: «Es sábado y no te está permitido llevar la camilla.» 5:11 Él les respondió: «El que me ha devuelto la salud me ha dicho: ‘Toma tu camilla y anda’.» 5:12 Ellos le preguntaron: «¿Quién es el hombre que te ha dicho eso?» 5:13 Pero el curado no sabía quién era, pues Jesús había desaparecido entre la multitud que había en aquel lugar. 5:14 Más tarde, Jesús lo encontró en el Templo y le dijo: «Mira, has recobrado la salud; no peques más, para que no te suceda algo peor.» El hombre se fue a decir a los judíos que era Jesús el que le había devuelto la salud. 5:16 Por eso los judíos perseguían a Jesús, porque hacía estas cosas en sábado*. 5:17 Pero Jesús les replicó: «Mi Padre sigue trabajando, y yo también trabajo*.» 5:18 Por eso, los judíos trataban con mayor empeño de matarle, porque no sólo quebrantaba el sábado, sino que llamaba a Dios su propio Padre, haciéndose a sí mismo igual a Dios.</p>
+<h2 id="discurso-sobre-la-obra-del-hijo">Discurso sobre la obra del Hijo.</h2>
+<p>5:19 Jesús, pues, tomando la palabra, les decía:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que el Hijo no puede hacer nada</p>
+<p>por su cuenta,</p>
+<p>sino lo que ve hacer al Padre:</p>
+<p>lo que hace él,</p>
+<p>eso hace igualmente el Hijo.</p>
+<p>5:20 Porque el Padre quiere al Hijo</p>
+<p>y le muestra todo lo que él hace.</p>
+<p>Y aún tiene que mostrarle</p>
+<p>obras mayores que éstas,</p>
+<p>para que os asombréis.</p>
+<p>5:21 Como el Padre resucita a los muertos</p>
+<p>y les da la vida,</p>
+<p>así también el Hijo</p>
+<p>da la vida a los que quiere.</p>
+<p>5:22 Porque el Padre no juzga* a nadie,</p>
+<p>pues todo juicio lo ha entregado al Hijo*,</p>
+<p>5:23 para que todos honren al Hijo</p>
+<p>como honran al Padre.</p>
+<p>El que no honra al Hijo</p>
+<p>no honra al Padre que lo ha enviado.</p>
+<p>5:24 En verdad, en verdad os digo</p>
+<p>que el que escucha mi palabra</p>
+<p>y cree en el que me ha enviado,</p>
+<p>tiene vida eterna</p>
+<p>y no incurre en juicio,</p>
+<p>pues ha pasado de la muerte a la vida.</p>
+<p>5:25 En verdad, en verdad os digo</p>
+<p>que llega la hora (ya estamos en ella)</p>
+<p>en que los muertos* oirán</p>
+<p>la voz del Hijo de Dios,</p>
+<p>y los que la oigan vivirán.</p>
+<p>5:26 Porque, lo mismo que el Padre</p>
+<p>tiene vida en sí mismo,</p>
+<p>así también ha concedido al Hijo</p>
+<p>tener vida en sí mismo,</p>
+<p>5:27 y le ha dado poder para juzgar,</p>
+<p>porque es Hijo del hombre.</p>
+<p>5:28 No os extrañéis de esto:</p>
+<p>llega la hora en que todos</p>
+<p>los que estén en los sepulcros</p>
+<p>oirán su voz;</p>
+<p>5:29 y los que hayan hecho el bien saldrán</p>
+<p>para una resurrección de vida,</p>
+<p>y los que hayan hecho el mal,</p>
+<p>para una resurrección de juicio*.</p>
+<p>5:30 Nada puedo hacer yo por mi cuenta:</p>
+<p>juzgo según lo que oigo*;</p>
+<p>y mi juicio es justo,</p>
+<p>porque no busco mi voluntad,</p>
+<p>sino la de aquel que me ha enviado.</p>
+<p>5:31 Si yo diera testimonio de mí mismo,</p>
+<p>mi testimonio no sería válido*.</p>
+<p>5:32 Otro* es el que da testimonio de mí,</p>
+<p>y yo sé que es válido</p>
+<p>el testimonio que da de mí.</p>
+<p>5:33 Vosotros mandasteis enviados a Juan,</p>
+<p>y él dio testimonio de la verdad.</p>
+<p>5:34 En cuanto a mí,</p>
+<p>no recibo testimonio de un hombre;</p>
+<p>pero digo esto para que os salvéis.</p>
+<p>5:35 Él era la lámpara* que arde y alumbra,</p>
+<p>y vosotros quisisteis</p>
+<p>recrearos una hora con su luz.</p>
+<p>5:36 Pero yo tengo un testimonio</p>
+<p>mayor que el de Juan;</p>
+<p>porque las obras que el Padre</p>
+<p>me ha encomendado llevar a cabo,</p>
+<p>las mismas obras que realizo*,</p>
+<p>dan testimonio de mí,</p>
+<p>de que el Padre me ha enviado.</p>
+<p>5:37 Y el Padre, que me ha enviado,</p>
+<p>es el que ha dado testimonio de mí*.</p>
+<p>Vosotros no habéis oído nunca su voz,</p>
+<p>ni habéis visto nunca su rostro,</p>
+<p>5:38 ni habita su palabra en vosotros,</p>
+<p>porque no creéis al que él ha enviado.</p>
+<p>5:39 Vosotros investigáis las Escrituras:</p>
+<p>creéis tener en ellas vida eterna*;</p>
+<p>pues ellas son en realidad</p>
+<p>las que dan testimonio de mí*;</p>
+<p>5:40 pero vosotros no queréis venir a mí</p>
+<p>para tener vida.</p>
+<p>5:41 No recibo la gloria de los hombres.</p>
+<p>5:42 Pero yo os conozco:</p>
+<p>no tenéis en vosotros el amor de Dios.</p>
+<p>5:43 Yo he venido en nombre de mi Padre,</p>
+<p>pero no me recibís;</p>
+<p>si otro viene en su propio nombre,</p>
+<p>a ése le recibiréis.</p>
+<p>5:44 ¿Cómo podéis creer vosotros,</p>
+<p>que aceptáis gloria unos de otros,</p>
+<p>y no buscáis la gloria</p>
+<p>que viene del único Dios*?</p>
+<p>5:45 No penséis que soy yo</p>
+<p>quien os acusará delante del Padre.</p>
+<p>Vuestro acusador es Moisés,</p>
+<p>en quién depositáis vuestra esperanza.</p>
+<p>5:46 Porque, si creyerais a Moisés,</p>
+<p>me creeríais a mí,</p>
+<p>porque él escribió de mí.</p>
+<p>5:47 Pero si no creéis en sus escritos,</p>
+<p>¿cómo vais a creer en mis palabras?»</p>
+<h2 id="3-la-pascua-del-pan-de-vida">3. LA PASCUA DEL PAN DE VIDA</h2>
+<h2 id="nueva-oposición-a-la-revelación">(NUEVA OPOSICIÓN A LA REVELACIÓN)</h2>
+<h2 id="la-multiplicación-de-los-panes">La multiplicación de los panes *.</h2>
+<p>6:1 Después de esto, se trasladó Jesús a la otra ribera del mar de Galilea (el de Tiberíades), 6:2 y mucha gente le seguía, porque veían los signos que realizaba en los enfermos. 6:3 Subió Jesús al monte y se sentó allí en compañía de sus discípulos. 6:4 (Estaba próxima la Pascua, la fiesta de los judíos.)</p>
+<p>6:5 Al levantar Jesús los ojos y ver que venía hacia él tanta gente, preguntó a Felipe: «¿Dónde nos procuraremos panes para que coman éstos?» 6:6 Se lo decía para probarle, porque él ya sabía lo que iba a hacer. 6:7 Felipe le contestó: «Doscientos denarios de pan no bastan para que cada uno coma un poco.» 6:8 Uno de sus discípulos, Andrés, el hermano de Simón Pedro, le dijo: 6:9 «Aquí hay un muchacho que tiene cinco panes de cebada y dos peces; pero ¿qué es eso para tantos?» 6:10 Replicó Jesús: «Haced que se recueste la gente.» (Había en el lugar mucha hierba.) La gente se recostó: eran unos cinco mil. 6:11 Tomó entonces Jesús los panes y, después de dar gracias, los repartió entre los que estaban recostados, y lo mismo los peces. Comieron todo lo que quisieron. 6:12 Cuando se saciaron, dijo a sus discípulos: «Recoged los trozos sobrantes para que nada se pierda.» 6:13 Los recogieron, pues, y llenaron doce canastos con los trozos de los cinco panes de cebada que sobraron a los que habían comido. 6:14 Al ver la gente el signo que había realizado, comentaba: «Éste es verdaderamente el profeta que iba a venir al mundo.» 6:15 Sabiendo Jesús que intentaban venir a tomarle por la fuerza para hacerle rey, huyó* de nuevo al monte él solo.</p>
+<h2 id="jesús-se-reúne-con-sus-discípulos-caminando-sobre-el-mar">Jesús se reúne con sus discípulos caminando sobre el mar.</h2>
+<p>6:16 Al atardecer, bajaron sus discípulos a la orilla del mar; 6:17 subieron a una barca y se dirigieron al otro lado del mar, a Cafarnaún. Había ya oscurecido, pero Jesús todavía no había llegado. 6:18 Soplaba un fuerte viento y el mar comenzó a encresparse. 6:19 Cuando habían remado unos veinticinco o treinta estadios, vieron a Jesús que caminaba sobre el mar y se acercaba a la barca; y sintieron miedo. 6:20 Pero él les dijo: «Soy yo. No temáis*.» 6:21 Quisieron recogerle en la barca, pero en seguida la barca tocó tierra en el lugar a donde se dirigían.</p>
+<h2 id="discurso-en-la-sinagoga-de-cafarnaún">Discurso en la sinagoga de Cafarnaún*.</h2>
+<p>6:22 Al día siguiente, la gente que se había quedado al otro lado del mar vio que allí no había más que una barca y que Jesús no había embarcado con sus discípulos, sino que éstos se habían marchado solos. 6:23 Pero llegaron barcas de Tiberíades, cerca del lugar donde habían comido pan*. 6:24 Cuando la gente vio que Jesús no estaba allí, ni tampoco sus discípulos, subieron a las barcas y fueron a Cafarnaún, en busca de Jesús. 6:25 Al encontrarle a la orilla del mar, le preguntaron: «Rabbí, ¿cuándo has llegado aquí?» 6:26 Jesús les respondió:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que vosotros me buscáis</p>
+<p>no porque habéis visto signos,</p>
+<p>sino porque habéis comido pan</p>
+<p>y os habéis saciado.</p>
+<p>6:27 No trabajéis por el alimento perecedero,</p>
+<p>sino por el alimento que permanece</p>
+<p>para vida eterna,</p>
+<p>el que os dará* el Hijo del hombre,</p>
+<p>porque a éste es a quien el Padre, Dios,</p>
+<p>ha marcado con su sello*.»</p>
+<p>6:28 Ellos le dijeron: «¿Qué hemos de hacer para realizar las obras de Dios?» 6:29 Jesús les respondió: «La obra de Dios* es que creáis en quien él ha enviado.» 6:30 Ellos entonces le dijeron: «¿Qué signo haces para que, al verlo, creamos en ti? ¿Qué obra realizas? 6:31 Nuestros padres comieron el maná* en el desierto, según está escrito:</p>
+<p>Pan del cielo les dio a comer.»</p>
+<p>6:32 Jesús les respondió:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que no fue Moisés</p>
+<p>quien os dio el pan del cielo;</p>
+<p>es mi Padre el que os da</p>
+<p>el verdadero pan del cielo;</p>
+<p>6:33 porque el pan de Dios</p>
+<p>es el que baja del cielo</p>
+<p>y da la vida al mundo.»</p>
+<p>6:34 Entonces le dijeron: «Señor, danos siempre de ese pan.»</p>
+<p>6:35 Les dijo Jesús:</p>
+<p>«Yo soy* el pan de vida.</p>
+<p>El que venga a mí no tendrá hambre,</p>
+<p>y el que crea en mí</p>
+<p>no tendrá nunca sed*.</p>
+<p>6:36 Pero ya os lo he dicho:</p>
+<p>Me habéis visto y no creéis.</p>
+<p>6:37 Todo lo que me dé el Padre</p>
+<p>vendrá a mí,</p>
+<p>y al que venga a mí*</p>
+<p>no lo echaré fuera;</p>
+<p>6:38 porque he bajado del cielo,</p>
+<p>no para hacer mi voluntad,</p>
+<p>sino la voluntad del que me ha enviado.</p>
+<p>6:39 Y ésta es la voluntad</p>
+<p>del que me ha enviado:</p>
+<p>que no pierda nada</p>
+<p>de lo que él me ha dado,</p>
+<p>sino que lo resucite el último día*.</p>
+<p>6:40 Ésta es la voluntad de mi Padre:</p>
+<p>que quien vea al Hijo* y crea en él</p>
+<p>tenga vida eterna,</p>
+<p>y que yo le resucite el último día.»</p>
+<p>6:41 Los judíos murmuraban de él*, porque había dicho: «Yo soy el pan que ha bajado del cielo.» 6:42 Y se preguntaban: «¿No es éste Jesús, hijo de José, cuyo padre y madre conocemos? ¿Cómo puede decir ahora: ‘He bajado del cielo’?» 6:43 Jesús les respondió:</p>
+<p>«No murmuréis entre vosotros.</p>
+<p>6:44 Nadie puede venir a mí,</p>
+<p>si el Padre que me envía no lo atrae;</p>
+<p>y yo le resucitaré el último día.</p>
+<p>6:45 Está escrito en los profetas:</p>
+<p>Serán todos enseñados por Dios.</p>
+<p>Todo el que escucha al Padre</p>
+<p>y aprende, viene a mí.</p>
+<p>6:46 No es que alguien haya visto al Padre;</p>
+<p>el único que ha visto al Padre</p>
+<p>es el que ha venido de Dios.</p>
+<p>6:47 En verdad, en verdad os digo</p>
+<p>que el que cree, tiene vida eterna.</p>
+<p>6:48 Yo soy el pan de vida.</p>
+<p>6:49 Vuestros padres comieron</p>
+<p>el maná en el desierto, y murieron;</p>
+<p>6:50 éste es el pan que baja del cielo,</p>
+<p>para que quien lo coma no muera.</p>
+<p>6:51 Yo soy el pan vivo, bajado del cielo.</p>
+<p>Si uno come de este pan,</p>
+<p>vivirá para siempre*;</p>
+<p>y el pan que yo le voy a dar</p>
+<p>es mi carne*, para vida del mundo.»</p>
+<p>6:52 Discutían entre sí los judíos: «¿Cómo puede éste darnos a comer su carne?» 6:53 Jesús les dijo:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que si no coméis la carne</p>
+<p>del Hijo del hombre,</p>
+<p>y no bebéis su sangre,</p>
+<p>no tenéis vida en vosotros.</p>
+<p>6:54 El que come mi carne y bebe mi sangre</p>
+<p>tiene vida eterna,</p>
+<p>y yo le resucitaré el último día.</p>
+<p>6:55 Porque mi carne es verdadera comida y mi sangre verdadera bebida.</p>
+<p>6:56 El que come mi carne y bebe mi sangre</p>
+<p>permanece en mí, y yo en él*.</p>
+<p>6:57 Lo mismo que el Padre, que vive,</p>
+<p>me ha enviado</p>
+<p>y yo vivo por el Padre,</p>
+<p>también el que me coma</p>
+<p>vivirá por mí*.</p>
+<p>6:58 Éste es el pan bajado del cielo;</p>
+<p>no como aquel que comieron</p>
+<p>vuestros antepasados*, y murieron;</p>
+<p>el que coma este pan</p>
+<p>vivirá para siempre.»</p>
+<p>6:59 Esto lo dijo enseñando en la sinagoga, en Cafarnaún.</p>
+<p>6:60 Muchos de sus discípulos, al oírle*, dijeron: «Es duro este lenguaje. ¿Quién puede escucharlo?» 6:61 Pero Jesús, sospechando que sus discípulos murmuraban por esto, les dijo: «¿Esto os escandaliza? 6:62 ¿Y cuando veáis al Hijo del hombre subir adonde estaba antes?…</p>
+<p>6:63 «El espíritu es el que da vida;</p>
+<p>la carne no sirve para nada.</p>
+<p>Las palabras que os he dicho</p>
+<p>son espíritu y son vida*.</p>
+<p>6:64 «Pero hay entre vosotros algunos que no creen.» (Es que Jesús sabía desde el principio quiénes eran los que no creían y quién era el que lo iba a entregar.) 6:65 Y decía: «Por esto os he dicho que nadie puede venir a mí, si no se lo concede el Padre.» 6:66 Desde entonces muchos de sus discípulos se volvieron atrás y ya no andaban con él.</p>
+<h2 id="la-confesión-de-pedro">La confesión de Pedro.</h2>
+<p>6:67 Jesús dijo entonces a los Doce: «¿También vosotros queréis marcharos?» 6:68 Le respondió Simón Pedro: «Señor, ¿a quién vamos a ir? Tú tienes palabras de vida eterna, 6:69 y nosotros creemos y sabemos que tú eres el Santo de Dios*.» 6:70 Jesús les respondió: «Fijaos, yo os he elegido a vosotros, los Doce. Y, sin embargo, uno de vosotros es un diablo.» 6:71 Hablaba de Judas, hijo de Simón Iscariote, porque éste le iba a entregar, aunque era uno de los Doce*.</p>
+<h2 id="4-la-fiesta-de-las-tiendas">4. LA FIESTA DE LAS TIENDAS</h2>
+<h2 id="la-gran-revelación-mesiánica-la-gran-repulsa">(LA GRAN REVELACIÓN MESIÁNICA. LA GRAN REPULSA)</h2>
+<h2 id="jesús-sube-a-jerusalén-para-la-fiesta-y-enseña">Jesús sube a Jerusalén para la fiesta y enseña.</h2>
+<p>7:1 Después de esto, Jesús andaba por Galilea; y es que no podía* andar por Judea, pues los judíos trataban de matarle.</p>
+<p>7:2 Al acercarse la fiesta judía de las Tiendas*, 7:3 le dijeron sus hermanos: «Sal de aquí y vete a Judea, para que también tus discípulos vean las obras que haces, 7:4 pues nadie actúa en secreto cuando quiere ser conocido. Si haces estas cosas, muéstrate al mundo.» 7:5 (Es que ni siquiera sus hermanos creían en él.) 7:6 Jesús les replicó: «Todavía no ha llegado mi tiempo; en cambio vuestro tiempo siempre está a mano. 7:7 El mundo no puede odiaros; a mí, sin embargo, me aborrece, porque doy testimonio de que sus obras son perversas. 7:8 Subid vosotros a la fiesta. Yo no subo, pues aún no se ha cumplido mi tiempo.» 7:9 Dicho esto, se quedó en Galilea. 7:10 Pero después que sus hermanos subieron a la fiesta, él también subió, aunque no manifiestamente, sino de incógnito. 7:11 Los judíos, durante la fiesta, andaban buscándole, y se preguntaban: «¿Dónde estará ése?» 7:12 Entre la gente había muchos comentarios acerca de él. Unos decían: «Es bueno.» Otros decían: «Nada de eso; lo que hace es engañar a la gente.» 7:13 Pero nadie hablaba de él abiertamente por miedo a los judíos.</p>
+<p>7:14 Mediada ya la fiesta, subió Jesús al Templo y se puso a enseñar*. 7:15 Los judíos decían extrañados: «¿Cómo entiende de letras sin haber estudiado?» 7:16 Jesús les respondió:</p>
+<p>«Mi doctrina no es mía,</p>
+<p>sino del que me ha enviado.</p>
+<p>7:17 Si alguno quiere cumplir su voluntad,</p>
+<p>verá si mi doctrina es de Dios</p>
+<p>o hablo yo por mi cuenta.</p>
+<p>7:18 El que habla por su cuenta</p>
+<p>busca su propia gloria;</p>
+<p>pero el que busca la gloria</p>
+<p>del que le ha enviado,</p>
+<p>ése es veraz;</p>
+<p>y no hay impostura en él.</p>
+<p>7:19 ¿No es Moisés el que os dio la Ley?</p>
+<p>Y ninguno de vosotros cumple la Ley.</p>
+<p>¿Por qué tratáis de matarme?»</p>
+<p>7:20 Respondió la gente: «Tienes un demonio. ¿Quién trata de matarte?» 7:21 Jesús les respondió: «Una sola obra he hecho y todos os maravilláis. 7:22 Moisés os dio la circuncisión (no que provenga de Moisés, sino de los patriarcas), y vosotros circuncidáis a la gente en sábado. 7:23 Si se circuncida a un hombre en sábado, para no quebrantar la Ley de Moisés, ¿os irritáis contra mí porque he devuelto la salud plena a un hombre en sábado*? 7:24 No juzguéis por las apariencias. Juzgad con criterio justo.»</p>
+<h2 id="discusiones-de-la-gente-sobre-el-origen-de-cristo">Discusiones de la gente sobre el origen de Cristo.</h2>
+<p>7:25 Decían algunos de Jerusalén: «¿No es a ése a quien quieren matar? 7:26 Mirad cómo habla, con toda libertad, y no le dicen nada. ¿Habrán reconocido de veras las autoridades* que éste es el Cristo? 7:27 Pero sabemos de dónde es éste, mientras que, cuando venga el Cristo, nadie sabrá de dónde es*.» 7:28 Pero Jesús, mientras enseñaba en el Templo, dijo en alta voz:</p>
+<p>«Me conocéis a mí</p>
+<p>y sabéis de dónde soy.</p>
+<p>Pero yo no he venido por mi cuenta,</p>
+<p>sino enviado por alguien que es veraz,</p>
+<p>pero que vosotros no le conocéis.</p>
+<p>7:29 Yo le conozco,</p>
+<p>porque vengo de él</p>
+<p>y él es quien me ha enviado.»</p>
+<p>7:30 La gente quería detenerle, pero nadie le echó mano, pues todavía no había llegado su hora.</p>
+<h2 id="jesús-anuncia-su-próxima-partida">Jesús anuncia su próxima partida.</h2>
+<p>7:31 Pero muchos de los presentes creyeron en él; decían: «Cuando venga el Cristo, ¿hará más signos que los que ha hecho éste?» 7:32 Se enteraron los fariseos que la gente hacía estos comentarios acerca de él y enviaron guardias para detenerle. 7:33 Entonces él dijo:</p>
+<p>«Voy a estar con vosotros</p>
+<p>todavía un poco de tiempo;</p>
+<p>y volveré al que me ha enviado.</p>
+<p>7:34 Me buscaréis y no me encontraréis;</p>
+<p>y vosotros no podéis ir</p>
+<p>adonde yo esté*.»</p>
+<p>7:35 Se decían entre sí los judíos: «¿A dónde irá éste para que no le podamos encontrar? ¿Se irá donde los que viven dispersos entre los griegos, para enseñar a los griegos? 7:36 ¿Qué es eso que ha dicho:</p>
+<p>‘Me buscaréis y no me encontraréis’,</p>
+<p>y ‘vosotros no podéis ir</p>
+<p>adonde yo esté’?»</p>
+<h2 id="la-promesa-del-agua-viva">La promesa del agua viva.</h2>
+<p>7:37 El último día de la fiesta*, el más solemne, Jesús puesto en pie, dijo en voz alta:</p>
+<p>«Si alguno tiene sed,</p>
+<p>que venga a mí*, y beberá*;</p>
+<p>7:38 del que cree en mí se puede decir</p>
+<p>lo que afirma la Escritura:</p>
+<p>De su seno* manarán</p>
+<p>ríos de agua viva*.»</p>
+<p>7:39 Esto lo decía refiriéndose al Espíritu que iban a recibir los que creyeran en él. Porque aún no había Espíritu*, pues todavía Jesús no había sido glorificado.</p>
+<h2 id="nuevas-discusiones-sobre-el-origen-de-cristo">Nuevas discusiones sobre el origen de Cristo.</h2>
+<p>7:40 Muchos de los presentes, que habían oído estas palabras, comentaban: «Éste es verdaderamente el profeta.» 7:41 Otros decían: «Éste es el Cristo.» Pero otros replicaban: «¿Acaso va a venir de Galilea el Cristo? 7:42 ¿No dice la Escritura que el Cristo vendrá de la descendencia de David y de Belén, el pueblo de donde era David*?» 7:43 Se originó, pues, una disensión entre la gente a cuenta de él. 7:44 Algunos de ellos querían detenerle, pero nadie le echó mano.</p>
+<p>7:45 Los guardias volvieron donde los sumos sacerdotes y los fariseos. Éstos les preguntaron: «¿Por qué no lo habéis traído?» 7:46 Respondieron los guardias: «Nunca nadie ha hablado como habla ese hombre.» 7:47 Los fariseos les respondieron: «¿Vosotros también os habéis dejado embaucar? 7:48 ¿Acaso ha creído en él algún magistrado o algún fariseo? 7:49 Pero esa gente que no conoce la Ley son unos malditos.» 7:50 Les dijo Nicodemo, que era uno de ellos, el que había ido anteriormente a Jesús: 7:51 «¿Acaso nuestra Ley juzga a un hombre sin haberle antes oído y sin saber lo que hace?» 7:52 Ellos le respondieron: «¿También tú eres de Galilea? Indaga y verás que de Galilea no sale ningún profeta.»</p>
+<h2 id="la-mujer-adúltera">La mujer adúltera*.</h2>
+<p>7:53 Y se volvieron cada uno a su casa.</p>
+<p>8:1 Mas Jesús se retiró al monte de los Olivos.</p>
+<p>8:2 Pero de madrugada se presentó otra vez en el Templo, y toda la gente acudía a él. Entonces se sentó y se puso a enseñarles. 8:3 Los escribas y fariseos le llevaron una mujer sorprendida en adulterio; la pusieron en medio 8:4 y le dijeron: «Maestro, esta mujer ha sido sorprendida en flagrante adulterio. 8:5 Moisés nos mandó en la Ley apedrear a estas mujeres. ¿Tú qué dices?» 8:6 (Esto lo decían para tentarle, para tener de qué acusarle.) Pero Jesús se inclinó y se puso a escribir con el dedo en la tierra*. 8:7 Pero, al insistir ellos en su pregunta, se incorporó y les dijo: «Aquel de vosotros que esté sin pecado, que le arroje la primera piedra.» 8:8 E inclinándose de nuevo, siguió escribiendo en la tierra. 8:9 Ellos, al oír estas palabras, se fueron retirando uno tras otro, comenzando por los más viejos. Jesús se quedó solo con la mujer, que seguía en medio. 8:10 Jesús se incorporó y le preguntó: «Mujer, ¿dónde están? ¿Nadie te ha condenado?» 8:11 Ella respondió: «Nadie, Señor.» Jesús replicó: «Tampoco yo te condeno. Vete, y no vuelvas a pecar.»</p>
+<h2 id="jesús-luz-del-mundo">Jesús, luz del mundo*.</h2>
+<p>8:12 Jesús les habló otra vez; les dijo:</p>
+<p>«Yo soy la luz del mundo;</p>
+<p>la persona que me siga</p>
+<p>no caminará en la oscuridad,</p>
+<p>sino que tendrá la luz de la vida.»</p>
+<h2 id="discusión-del-testimonio-de-jesús-sobre-sí-mismo">Discusión del testimonio de Jesús sobre sí mismo.</h2>
+<p>8:13 Los fariseos le dijeron: «Tu testimonio no vale, pues das testimonio de ti mismo.» 8:14 Jesús les respondió:</p>
+<p>«Aunque yo dé testimonio</p>
+<p>de mí mismo,</p>
+<p>mi testimonio es válido,</p>
+<p>porque sé de dónde he venido</p>
+<p>y adónde voy;</p>
+<p>pero vosotros no sabéis</p>
+<p>de dónde vengo ni a dónde voy*.</p>
+<p>8:15 Vosotros juzgáis según la carne*,</p>
+<p>pero yo no juzgo* a nadie;</p>
+<p>8:16 y si juzgo, mi juicio es verdadero,</p>
+<p>porque no estoy yo solo,</p>
+<p>sino yo y el que me ha enviado.</p>
+<p>8:17 Y vuestra Ley reconoce la validez</p>
+<p>del testimonio de dos personas.</p>
+<p>8:18 Yo doy testimonio de mí mismo,</p>
+<p>pero también da testimonio de mí</p>
+<p>el Padre que me ha enviado.»</p>
+<p>8:19 Le preguntaron entonces: «¿Dónde está tu Padre?» Respondió Jesús:</p>
+<p>«Ni me conocéis a mí</p>
+<p>ni conocéis a mi Padre;</p>
+<p>si me conocierais a mí,</p>
+<p>conoceríais también a mi Padre.»</p>
+<p>8:20 Estas palabras las pronunció en el Tesoro, mientras enseñaba en el Templo. Y nadie le prendió, pues todavía no había llegado su hora.</p>
+<p>8:21 Jesús les habló de nuevo:</p>
+<p>«Yo me voy y vosotros me buscaréis,</p>
+<p>pero moriréis en vuestro pecado*.</p>
+<p>Vosotros no podéis ir</p>
+<p>adonde yo voy.»</p>
+<p>8:22 Los judíos se decían: «¿Pensará suicidarse? ¿Pues cómo que no podemos ir adonde él va?» 8:23 Pero Jesús replicó:</p>
+<p>«Vosotros sois de abajo;</p>
+<p>yo soy de arriba.</p>
+<p>Vosotros sois de este mundo;</p>
+<p>yo no soy de este mundo.</p>
+<p>8:24 Ya os he dicho antes</p>
+<p>que moriréis en vuestros pecados,</p>
+<p>porque si no creéis que Yo Soy*,</p>
+<p>moriréis en vuestros pecados.»</p>
+<p>8:25 Entonces le preguntaron: «¿Quién eres tú?» Jesús les respondió:</p>
+<p>«Desde el principio,</p>
+<p>lo que os estoy diciendo*.</p>
+<p>8:26 Mucho podría hablar de vosotros</p>
+<p>y emitir un juicio,</p>
+<p>pero el que me ha enviado es veraz,</p>
+<p>y sólo lo que le he oído a él</p>
+<p>es lo que hablo al mundo.»</p>
+<p>8:27 No comprendieron que les hablaba del Padre. 8:28 Les dijo, pues, Jesús:</p>
+<p>«Cuando hayáis levantado</p>
+<p>al Hijo del hombre,</p>
+<p>entonces sabréis que Yo Soy*,</p>
+<p>y que no hago nada</p>
+<p>por propia iniciativa;</p>
+<p>sino que sólo hablo</p>
+<p>lo que el Padre me ha enseñado.</p>
+<p>eso es lo que hablo.</p>
+<p>8:29 Y el que me ha enviado está conmigo:</p>
+<p>no me ha dejado solo,</p>
+<p>porque yo hago siempre</p>
+<p>lo que le agrada a él.»</p>
+<p>8:30 Al hablar así, muchos creyeron en él.</p>
+<h2 id="jesús-y-abrahán">Jesús y Abrahán.</h2>
+<p>8:31 Decía, pues, Jesús a los judíos que habían creído en él:</p>
+<p>«Si os mantenéis en mi palabra,</p>
+<p>seréis verdaderamente mis discípulos;</p>
+<p>8:32 conoceréis la verdad*</p>
+<p>y la verdad os hará libres.»</p>
+<p>8:33 Ellos le respondieron: «Nosotros somos descendencia de Abrahán y nunca hemos sido esclavos de nadie. ¿Cómo dices tú: ‘Os haréis libres’?» 8:34 Jesús les respondió:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que todo el que comete pecado</p>
+<p>es un esclavo*.</p>
+<p>8:35 Y el esclavo no se queda</p>
+<p>en casa para siempre;</p>
+<p>en cambio el hijo</p>
+<p>se queda para siempre*.</p>
+<p>8:36 Si, pues, el Hijo os da la libertad,</p>
+<p>seréis realmente libres.</p>
+<p>8:37 Ya sé* que descendéis de Abrahán;</p>
+<p>pero tratáis de matarme,</p>
+<p>porque mi palabra</p>
+<p>no prende en vosotros.</p>
+<p>8:38 Yo hablo</p>
+<p>lo que he visto junto a mi Padre;</p>
+<p>y vosotros hacéis</p>
+<p>lo que habéis oído a vuestro padre.»</p>
+<p>8:39 Ellos le respondieron: «Nuestro padre es Abrahán.» Jesús les dijo:</p>
+<p>«Si sois hijos de Abrahán,</p>
+<p>haced las obras de Abrahán.</p>
+<p>8:40 Pero tratáis de matarme,</p>
+<p>a mí que os he dicho la verdad</p>
+<p>que he oído de Dios.</p>
+<p>Eso no lo hizo Abrahán.</p>
+<p>8:41 Vosotros hacéis las obras de vuestro padre.»</p>
+<p>Ellos le replicaron: «Nosotros no hemos nacido de la prostitución*; no tenemos más padre que a Dios.» 8:42 Jesús les respondió:</p>
+<p>«Si Dios fuera vuestro Padre,</p>
+<p>me amaríais a mí,</p>
+<p>porque yo he salido y vengo de Dios;</p>
+<p>no he venido por mi cuenta,</p>
+<p>sino que él me ha enviado.</p>
+<p>8:43 ¿Por qué no reconocéis mi lenguaje?</p>
+<p>Porque estáis impedidos</p>
+<p>para escuchar mi palabra*.</p>
+<p>8:44 Vosotros sois hijos</p>
+<p>de vuestro padre el diablo,</p>
+<p>y queréis cumplir los deseos</p>
+<p>de vuestro padre.</p>
+<p>Éste fue homicida desde el principio,</p>
+<p>y no se mantuvo* en la verdad,</p>
+<p>porque no hay verdad en él;</p>
+<p>cuando dice la mentira,</p>
+<p>dice lo que le sale de dentro,</p>
+<p>porque es mentiroso</p>
+<p>y padre de la mentira*.</p>
+<p>8:45 Pero a mí, como os digo la verdad,</p>
+<p>no me creéis.</p>
+<p>8:46 ¿Quién de vosotros puede probar</p>
+<p>que soy pecador*?</p>
+<p>Si digo la verdad,</p>
+<p>¿por qué no me creéis?</p>
+<p>8:47 El que es de Dios</p>
+<p>escucha las palabras de Dios;</p>
+<p>vosotros no las escucháis,</p>
+<p>porque no sois de Dios.»</p>
+<p>8:48 Los judíos le respondieron: «¿No decimos, con razón, que eres samaritano y que tienes un demonio?» 8:49 Respondió Jesús:</p>
+<p>«Yo no tengo un demonio,</p>
+<p>sino que honro a mi Padre;</p>
+<p>y vosotros me deshonráis a mí.</p>
+<p>8:50 Pero yo no busco mi gloria;</p>
+<p>ya hay quien la busca y juzga.</p>
+<p>8:51 En verdad, en verdad os digo</p>
+<p>que si alguno guarda mi palabra,</p>
+<p>no gustará la muerte jamás.»</p>
+<p>8:52 Le dijeron los judíos: «Ahora estamos seguros de que tienes un demonio. Abrahán murió, y también los profetas; y tú dices:</p>
+<p>‘Si alguno guarda mi palabra,</p>
+<p>no probará la muerte jamás.’</p>
+<p>8:53 ¿Eres tú acaso más grande que nuesro padre Abrahán, que murió? Y también los profetas murieron. ¿Quién te crees que eres?» 8:54 Jesús respondió:</p>
+<p>«Si yo me glorificara a mí mismo,</p>
+<p>mi gloria no valdría nada;</p>
+<p>es mi Padre quien me glorifica,</p>
+<p>de quien vosotros decís:</p>
+<p>‘Él es nuestro Dios’,</p>
+<p>8:55 y sin embargo no le conocéis.</p>
+<p>Yo sí que le conozco,</p>
+<p>y si dijera que no le conozco,</p>
+<p>sería un mentiroso como vosotros.</p>
+<p>Pero yo le conozco,</p>
+<p>y guardo su palabra.</p>
+<p>8:56 Vuestro padre Abrahán se regocijó</p>
+<p>pensando en ver mi Día;*</p>
+<p>lo vio y se alegró*.»</p>
+<p>8:57 Entonces los judíos le dijeron: «¿Aún no tienes cincuenta años y has visto a Abrahán?» 8:58 Jesús les respondió:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que antes de que Abrahán existiera,</p>
+<p>Yo Soy.»</p>
+<p>8:59 Entonces tomaron piedras para tirárselas*; pero Jesús se ocultó y salió del Templo.</p>
+<h2 id="curación-de-un-ciego-de-nacimiento">Curación de un ciego de nacimiento.</h2>
+<p>9:1 Según caminaba, vio a un hombre ciego de nacimiento. 9:2 Sus discípulos le preguntaron: «Rabbí, ¿quién pecó, él o sus padres, para que haya nacido ciego?» 9:3 Respondió Jesús: «Ni él pecó ni sus padres; es para que se manifiesten en él las obras de Dios*.</p>
+<p>9:4 «Mientras es de día tenemos* que trabajar</p>
+<p>en las obras del que me ha enviado;</p>
+<p>cuando llega la noche, nadie puede trabajar*.</p>
+<p>9:5 Mientras estoy en el mundo,</p>
+<p>soy luz del mundo*.»</p>
+<p>9:6 Dicho esto, escupió en tierra, hizo barro con la saliva y untó con el barro los ojos del ciego. 9:7 Luego le dijo: «Vete, lávate en la piscina de Siloé*» (que quiere decir ‘Enviado’). Él fue, se lavó y volvió ya viendo.</p>
+<p>9:8 Los vecinos y los que solían verle antes mendigar comentaban: «¿No es éste el que se sentaba para mendigar?» 9:9 Unos decían: «Es él». «No —decían otros—, será alguien que se le parece.» Pero él decía: «Soy yo.» 9:10 Le preguntaron entonces: «¿Cómo, pues, se te han abierto los ojos?» 9:11 Él respondió: «Ese hombre que se llama Jesús hizo barro, me untó los ojos y me dijo: ‘Vete a Siloé y lávate.’ Yo fui, me lavé y vi.» 9:12 Ellos le preguntaron: «¿Dónde está ése?» Respondió: «No lo sé.»</p>
+<p>9:13 Entonces llevaron a los fariseos al que antes era ciego. 9:14 (Era sábado el día en que Jesús hizo barro* y le abrió los ojos.) 9:15 También los fariseos le preguntaron cómo había recobrado la vista. Él les dijo: «Me puso barro sobre los ojos, me lavé y veo.» 9:16 Algunos fariseos comentaban: «Este hombre no viene de Dios, porque no guarda el sábado.» Otros decían: «Pero, ¿cómo puede un pecador realizar semejantes signos?» Y había disensión entre ellos. 9:17 Entonces le preguntaron otra vez al ciego: «¿Y tú qué dices de él, ya que te ha abierto los ojos?» Él respondió: «Que es un profeta.»</p>
+<p>9:18 Los judíos no creían que aquel hombre hubiera sido ciego; así que llamaron a los padres del que había recobrado la vista* 9:19 y les preguntaron: «¿Es éste vuestro hijo, el que decís que nació ciego? ¿Cómo, pues, ve ahora?» 9:20 Sus padres respondieron: «Nosotros sabemos que éste es nuestro hijo y que nació ciego. 9:21 Pero cómo ve ahora, lo ignoramos; y tampoco sabemos quién le ha abierto los ojos. Preguntadle*, que ya tiene edad y puede hablar de sí mismo.» 9:22 Sus padres decían esto por miedo a los judíos, pues éstos se habían puesto ya de acuerdo en que, si alguno lo reconocía como Cristo, quedara excluido de la sinagoga*. 9:23 Por eso dijeron sus padres: «Edad tiene; preguntádselo a él.»</p>
+<p>9:24 Llamaron por segunda vez al hombre que había sido ciego y le dijeron: «Da gloria a Dios*. Nosotros sabemos que ese hombre es un pecador.» 9:25 Les respondió: «Si es un pecador, no lo sé. Sólo sé una cosa: que era ciego y ahora veo.» 9:26 Le preguntaron entonces: «¿Qué hizo contigo? ¿Cómo te abrió los ojos?» 9:27 Él replicó: «Os lo he dicho ya, y no me habéis escuchado. ¿Por qué queréis oírlo otra vez? ¿Es qué queréis también vosotros haceros discípulos suyos?» 9:28 Ellos le llenaron de injurias y le dijeron: «Tú serás discípulo de ese hombre; nosotros somos discípulos de Moisés. 9:29 Nosotros sabemos que a Moisés le habló Dios; pero ése no sabemos de dónde es.» 9:30 El hombre les respondió: «Eso es lo extraño: que vosotros no sepáis de dónde es y que me haya abierto a mí los ojos. 9:31 Sabemos que Dios no presta atención a los pecadores; sin embargo, escucha al que es religioso y cumple su voluntad. 9:32 Jamás se ha oído decir que alguien haya abierto los ojos de un ciego de nacimiento*. 9:33 Si éste no viniera de Dios, no podría hacer nada.» 9:34 Ellos le respondieron: «Has nacido todo entero en pecado, ¿y pretendes darnos lecciones?» Y lo echaron fuera.</p>
+<p>9:35 Jesús se enteró de que lo habían echado fuera. Cuando se encontró con él, le preguntó: «¿Tú crees en el Hijo del hombre?» 9:36 Él respondió: «¿Y quién es, Señor, para que crea en él?» 9:37 Jesús le dijo: «Le has visto. Es el que está hablando contigo». 9:38 * A lo que él contestó: «Creo, Señor.» Y se postró ante él.</p>
+<p>9:39 Entonces dijo Jesús:</p>
+<p>«Para un juicio he venido a este mundo:</p>
+<p>para que los que no ven, vean;</p>
+<p>y los que ven*, se vuelvan ciegos.»</p>
+<p>9:40 Algunos fariseos que estaban con él oyeron esto y le dijeron: «¿Es que también nosotros somos ciegos?» 9:41 Jesús les respondió:</p>
+<p>«Si fuerais ciegos,</p>
+<p>no tendríais pecado;</p>
+<p>pero, como decís que veis,</p>
+<p>vuestro pecado sigue en vosotros.»</p>
+<h2 id="el-buen-pastor">El buen Pastor.</h2>
+<p>10:1 «En verdad, en verdad os digo que el que no entra por la puerta en el redil de las ovejas, sino que escala por otro lado, ése es un ladrón y un salteador; 10:2 pero el que entra por la puerta es pastor de las ovejas. 10:3 A éste le abre el portero, y las ovejas atienden a su voz; luego las llama una por una* y las saca fuera. 10:4 Cuando ha sacado a todas, va delante de ellas, y las ovejas le siguen, porque conocen su voz. 10:5 En cambio, no seguirían a un extraño; huirían de él, pues las ovejas no reconocen la voz de los extraños.» 10:6 Jesús les* dijo esta parábola, pero ellos no comprendieron lo que les hablaba.</p>
+<p>10:7 Entonces Jesús les dijo de nuevo:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que yo soy la puerta* de las ovejas.</p>
+<p>10:8 Cuantos han venido delante de mí*</p>
+<p>son ladrones y salteadores;</p>
+<p>pero las ovejas no les escucharon.</p>
+<p>10:9 Yo soy la puerta.</p>
+<p>Si uno entra por mí, estará a salvo;</p>
+<p>entrará y saldrá,</p>
+<p>y encontrará pasto.</p>
+<p>10:10 El ladrón sólo viene</p>
+<p>a robar, matar y destruir.</p>
+<p>Yo he venido</p>
+<p>para que tengan vida*</p>
+<p>y la tengan en abundancia.</p>
+<p>10:11 Yo soy el buen pastor*.</p>
+<p>El buen pastor</p>
+<p>da su vida por las ovejas.</p>
+<p>10:12 Pero el asalariado, que no es pastor,</p>
+<p>que no es propietario de las ovejas,</p>
+<p>abandona las ovejas y huye,</p>
+<p>cuando ve venir al lobo;</p>
+<p>y el lobo hace presa en ellas</p>
+<p>y las dispersa.</p>
+<p>10:13 Como es asalariado,</p>
+<p>no le importan nada las ovejas.</p>
+<p>10:14 Yo soy el buen pastor;</p>
+<p>conozco a mis ovejas</p>
+<p>y las mías me conocen a mí*;</p>
+<p>10:15 del mismo modo, el Padre me conoce</p>
+<p>y yo conozco a mi Padre,</p>
+<p>y doy mi vida por las ovejas.</p>
+<p>10:16 También tengo otras ovejas,</p>
+<p>que no son de este redil;</p>
+<p>también a ésas debo conducir*:</p>
+<p>escucharán mi voz</p>
+<p>y habrá un solo rebaño*,</p>
+<p>bajo un solo pastor.</p>
+<p>10:17 Por eso me ama el Padre,</p>
+<p>porque doy mi vida</p>
+<p>para recobrarla de nuevo.</p>
+<p>10:18 Nadie me la quita;</p>
+<p>yo la doy voluntariamente*.</p>
+<p>Tengo poder para darla</p>
+<p>y poder para recobrarla;</p>
+<p>ésa es la orden</p>
+<p>que he recibido de mi Padre.»</p>
+<p>10:19 Se produjo otra vez una disensión entre los judíos por estas palabras. 10:20 Muchos de ellos decían: «Tiene un demonio y está loco. ¿Por qué le escucháis?» 10:21 Pero otros comentaban: «Esas palabras no son de un endemoniado. ¿Puede acaso un demonio abrir los ojos de los ciegos?»</p>
+<h2 id="5-la-fiesta-de-la-dedicación">5. LA FIESTA DE LA DEDICACIÓN</h2>
+<h2 id="la-decisión-de-matar-a-jesús">(LA DECISIÓN DE MATAR A JESÚS)</h2>
+<h2 id="la-verdadera-identidad-de-jesús">La verdadera identidad de Jesús*.</h2>
+<p>10:22 Se celebraba por entonces en Jerusalén la fiesta de la Dedicación. Era invierno. 10:23 Jesús se paseaba por el Templo, en el pórtico de Salomón. 10:24 Los judíos lo rodearon y le preguntaron: «¿Hasta cuándo vas a tenernos en vilo? Si tú eres el Cristo, dínoslo abiertamente*.» 10:25 Jesús les respondió:</p>
+<p>«Ya os lo he dicho*, pero no me creéis.</p>
+<p>Las obras que hago</p>
+<p>en nombre de mi Padre</p>
+<p>son las que dan testimonio de mí.</p>
+<p>10:26 Pero vosotros no creéis,</p>
+<p>porque no sois de mis ovejas*.</p>
+<p>10:27 Mis ovejas escuchan mi voz;</p>
+<p>yo las conozco y ellas mi siguen.</p>
+<p>10:28 Yo les doy vida eterna</p>
+<p>y no perecerán jamás,</p>
+<p>y nadie las arrebatará de mi mano.</p>
+<p>10:29 El Padre, que me las ha dado,</p>
+<p>es más grande que todos*,</p>
+<p>y nadie puede arrebatar nada*</p>
+<p>de la mano del Padre.</p>
+<p>10:30 Yo y el Padre somos uno*.»</p>
+<p>10:31 Los judíos trajeron otra vez piedras para apedrearle. 10:32 Jesús les dijo: «Os he mostrado muchas obras buenas de parte del Padre. ¿Por cuál de esas obras queréis apedrearme?» 10:33 Le respondieron los judíos: «No queremos apedrearte por ninguna obra buena, sino por una blasfemia, y porque tú, siendo hombre, te haces a ti mismo Dios.» 10:34 Jesús les respondió:</p>
+<p>«¿No está escrito en vuestra Ley:</p>
+<p>Yo he dicho: dioses sois*?</p>
+<p>10:35 Si llama dioses a aquellos</p>
+<p>a quienes se dirigió la palabra de Dios</p>
+<p>—y no puede fallar la Escritura—,</p>
+<p>10:36 a aquel a quien el Padre</p>
+<p>ha santificado y enviado al mundo,</p>
+<p>¿cómo le decís que blasfema</p>
+<p>por haber dicho: ‘Yo soy Hijo de Dios’?</p>
+<p>10:37 Si no hago las obras de mi Padre,</p>
+<p>no me creáis;</p>
+<p>10:38 pero si las hago,</p>
+<p>aunque a mí no me creáis,</p>
+<p>creed al menos por las obras,</p>
+<p>y así sabréis y conoceréis</p>
+<p>que el Padre está en mí</p>
+<p>y yo en el Padre.»</p>
+<p>10:39 Querían de nuevo* prenderle, pero se les escapó de las manos*.</p>
+<h2 id="jesús-se-retira-al-otro-lado-del-jordán">Jesús se retira al otro lado del Jordán.</h2>
+<p>10:40 Se marchó de nuevo al otro lado del Jordán, al lugar donde Juan había estado antes bautizando, y se quedó allí. 10:41 Muchos acudieron donde él y comentaban: «Juan no realizó ningún signo, pero todo lo que dijo Juan de éste era verdad.» 10:42 Y muchos allí creyeron en él.</p>
+<h2 id="resurrección-de-lázaro">Resurrección de Lázaro.</h2>
+<p>11:1 Había un enfermo llamado Lázaro. Era de Betania, pueblo de María y de su hermana Marta*. 11:2 María era la que ungió al Señor con perfumes y le secó los pies con sus cabellos*; su hermano Lázaro era el enfermo. 11:3 Las hermanas enviaron a decir a Jesús: «Señor, aquel a quien tú quieres está enfermo.» 11:4 Al oírlo Jesús, comentó: «Esta enfermedad no es de muerte; es para la gloria de Dios, para que el Hijo de Dios sea glorificado por ella*.»</p>
+<p>11:5 Jesús amaba a Marta, a su hermana y a Lázaro.</p>
+<p>11:6 Cuando se enteró de que estaba enfermo, permaneció dos días más en el lugar donde se encontraba. 11:7 Al cabo de ellos, dijo a sus discípulos: «Volvamos de nuevo a Judea.» 11:8 Replicaron los discípulos: «Rabbí, hace poco los judíos querían apedrearte, ¿y vuelves allí?» 11:9 Jesús respondió:</p>
+<p>«¿No tiene el día doce horas?</p>
+<p>Si uno anda de día, no tropieza,</p>
+<p>porque ve la luz de este mundo;</p>
+<p>11:10 pero si uno anda de noche, tropieza,</p>
+<p>porque no hay luz en él.»</p>
+<p>11:11 Tras decir esto, añadió: «Nuestro amigo Lázaro duerme; pero voy a despertarle.» 11:12 Le dijeron sus discípulos: «Señor, si duerme, ya se curará.» 11:13 Jesús lo había dicho de su muerte, pero ellos creyeron que hablaba del descanso del sueño. 11:14 Entonces Jesús les dijo abiertamente: «Lázaro ha muerto; 11:15 y me alegro por vosotros de no haber estado allí, para que creáis*. Pero vayamos allá.»</p>
+<p>11:16 Entonces Tomás, llamado el Mellizo, dijo a los otros discípulos*: «Vayamos también nosotros a morir con él.» 11:17 Cuando llegó Jesús, se encontró con que Lázaro llevaba ya cuatro días en el sepulcro. 11:18 Betania estaba cerca de Jerusalén, a unos quince estadios, 11:19 y muchos judíos habían venido a casa de Marta y María para consolarlas por su hermano. 11:20 Cuando Marta supo que había venido Jesús, le salió al encuentro, mientras María se quedó en casa. 11:21 Dijo Marta a Jesús: «Señor*, si hubieras estado aquí, no habría muerto mi hermano. 11:22 Pero aun ahora yo sé que Dios te concederá cuanto le pidas*.» 11:23 Jesús replicó: «Tu hermano resucitará.» 11:24 Le respondió Marta: «Ya sé que resucitará en la resurrección, el último día.» 11:25 Jesús le respondió:</p>
+<p>«Yo soy la resurrección*.</p>
+<p>El que cree en mí,</p>
+<p>aunque muera*, vivirá*;</p>
+<p>11:26 y todo el que vive y cree en mí</p>
+<p>no morirá jamás.</p>
+<p>¿Crees esto?»</p>
+<p>11:27 Respondió ella: «Sí, Señor, yo creo que tú eres el Cristo, el Hijo de Dios*, el que iba a venir al mundo.»</p>
+<p>11:28 Dicho esto, fue a llamar a su hermana María y le dijo al oído: «El Maestro está ahí y te llama.» 11:29 Ella, en cuanto lo oyó, se levantó rápidamente y fue a su encuentro. 11:30 Jesús todavía no había llegado al pueblo; seguía en el lugar donde Marta lo había encontrado. 11:31 Los judíos que estaban con María en casa consolándola, al ver que se levantaba rápidamente y salía, la siguieron pensando que iba al sepulcro para llorar allí.</p>
+<p>11:32 Cuando María llegó donde estaba Jesús y lo vio, cayó a sus pies y le dijo: «Señor, si hubieras estado aquí, mi hermano no habría muerto.» 11:33 Viéndola llorar Jesús y observando que también lloraban los judíos que la acompañaban, se conmovió interiormente, se turbó 11:34 y preguntó: «¿Dónde lo habéis puesto?» Le respondieron: «Señor, ven y lo verás.» 11:35 Jesús se conmovió entre lágrimas*. 11:36 Los judíos comentaron entonces: «Mirad cómo le quería.» 11:37 Pero algunos de ellos dijeron: «Éste, que abrió los ojos del ciego, ¿no podía haber hecho que éste no muriera?» 11:38 Entonces Jesús se conmovió de nuevo en su interior y fue al sepulcro. Era una cueva, y tenía puesta encima una piedra. 11:39 Dijo Jesús: «Quitad la piedra.» Marta, la hermana del muerto, le advirtió: «Señor, ya huele; es el cuarto día*.» 11:40 Replicó Jesús: «¿No te he dicho que, si crees, verás la gloria de Dios?» 11:41 Quitaron, pues, la piedra. Entonces Jesús levantó los ojos a lo alto y dijo:</p>
+<p>«Padre, te doy gracias</p>
+<p>por haberme escuchado.</p>
+<p>11:42 Bien sé que tú siempre me escuchas;</p>
+<p>pero lo he dicho</p>
+<p>por éstos que me rodean,</p>
+<p>para que crean</p>
+<p>que tú me has enviado.»</p>
+<p>11:43 Dicho esto, gritó con fuerte voz: «¡Lázaro, sal afuera!» 11:44 El muerto salió, atado de pies y manos con vendas* y envuelto el rostro en un sudario. Jesús les dijo: «Desatadlo y dejadle andar.»</p>
+<h2 id="las-autoridades-judías-deciden-la-muerte-de-jesús">Las autoridades judías deciden la muerte de Jesús.</h2>
+<p>11:45 Muchos de los judíos que habían venido a casa de María, viendo lo que había hecho, creyeron en él. 11:46 Pero algunos de ellos fueron a los fariseos y les contaron lo que había hecho Jesús. 11:47 Entonces los sumos sacerdotes y los fariseos convocaron consejo y se preguntaban: «¿Qué hacemos? Es cierto que este hombre realiza muchos signos. 11:48 Si le dejamos que siga así, todos creerán en él, y vendrán los romanos y destruirán nuestro Lugar Santo* y nuestra nación.» 11:49 Pero uno de ellos, Caifás, que era el Sumo Sacerdote aquel año, les dijo: «Vosotros no sabéis nada, 11:50 ni caéis en la cuenta de que conviene que muera uno solo por el pueblo, y así no perezca toda la nación.» 11:51 Esto no lo dijo por su propia cuenta, sino que, como era Sumo Sacerdote aquel año, profetizó que Jesús iba a morir por la nación 11:52 — y no sólo por la nación, sino también para reunir en uno a los hijos de Dios que estaban dispersos*—. 11:53 Desde ese día, se pusieron de acuerdo para matarlo. 11:54 Por eso, Jesús no andaba ya en público entre los judíos, sino que se retiró a la región cercana a la estepa, a un pueblo llamado Efraín*, donde se estableció con sus discípulos.</p>
+<h2 id="6-fin-del-ministerio-público">6. FIN DEL MINISTERIO PÚBLICO</h2>
+<h1 id="y-preliminares-de-la-última-pascua">Y PRELIMINARES DE LA ÚLTIMA PASCUA</h1>
+<h2 id="la-proximidad-de-la-pascua">La proximidad de la Pascua.</h2>
+<p>11:55 Como estaba cerca la Pascua de los judíos*, muchos del país habían subido a Jerusalén* para purificarse. 11:56 La gente buscaba a Jesús, y los que estaban en el Templo se preguntaban: «¿Qué os parece? ¿No vendrá a la fiesta?» 11:57 Los sumos sacerdotes y los fariseos habían dado órdenes de que, si alguno sabía dónde estaba, lo notificara para detenerle.</p>
+<h2 id="la-unción-en-betania">La unción en Betania.</h2>
+<p>12:1 Seis días antes de la Pascua*, Jesús se fue a Betania, donde estaba Lázaro, a quien Jesús había resucitado de entre los muertos. 12:2 Allí le prepararon una cena. Marta servía, y Lázaro era uno de los que estaban con él a la mesa. 12:3 Entonces María, tomando una libra de perfume de nardo puro, muy caro, ungió los pies de Jesús y los secó con sus cabellos. La casa se llenó del olor del perfume. 12:4 Comentó Judas Iscariote, uno de los discípulos, el que lo había de entregar: 12:5 «¿Por qué no se ha vendido este perfume por trescientos denarios y se ha dado a los pobres?» 12:6 Pero no decía esto porque le preocuparan los pobres, sino porque era ladrón y, como tenía la bolsa, se llevaba lo que echaban en ella. 12:7 Jesús dijo: «Déjala, que lo guarde para el día de mi sepultura*. 12:8 Porque pobres siempre tendréis con vosotros; pero a mí no siempre me tendréis.»</p>
+<p>12:9 Gran número de judíos supieron que Jesús estaba allí y fueron, no sólo por Jesús, sino también por ver a Lázaro, a quien había resucitado de entre los muertos. 12:10 Los sumos sacerdotes decidieron dar muerte también a Lázaro, 12:11 porque a causa de él muchos judíos se les iban y creían en Jesús.</p>
+<h2 id="entrada-mesiánica-de-jesús-en-jerusalén">Entrada mesiánica de Jesús en Jerusalén.</h2>
+<p>12:12 Al día siguiente, al enterarse la numerosa muchedumbre que había llegado para la fiesta de que Jesús se dirigía a Jerusalén, 12:13 tomaron ramas de palmera y salieron a su encuentro gritando:</p>
+<p>«¡Hosanna!</p>
+<p>¡Bendito el que viene en nombre del Señor,</p>
+<p>y el rey de Israel*!»</p>
+<p>12:14 Jesús encontró un borriquillo y se montó en él, según está escrito:</p>
+<p>12:15 No temas, hija de Sión;</p>
+<p>mira que viene tu rey</p>
+<p>montado en un pollino de asna.</p>
+<p>12:16 Esto no lo comprendieron sus discípulos de momento; pero cuando Jesús fue glorificado, cayeron en la cuenta de que lo que le habían hecho estaba ya escrito acerca de él. 12:17 La gente que estaba con él cuando llamó a Lázaro de la tumba y lo resucitó de entre los muertos daba testimonio de lo sucedido. 12:18 Por eso también salió la gente a su encuentro, porque habían oído que él había realizado aquel signo. 12:19 Entonces los fariseos se dijeron entre sí: «¿Veis cómo no adelantáis nada?; todo el mundo se ha ido tras él.»</p>
+<h2 id="jesús-anuncia-su-glorificación-por-la-muerte">Jesús anuncia su glorificación por la muerte.</h2>
+<p>12:20 Entre los que subían a adorar en la fiesta había algunos griegos*. 12:21 Éstos se dirigieron a Felipe, el de Betsaida de Galilea, y le rogaron: «Señor, queremos ver a Jesús.» 12:22 Felipe fue a decírselo a Andrés; Andrés y Felipe fueron a comunicárselo a Jesús. 12:23 Jesús les respondió:</p>
+<p>«Ha llegado la hora</p>
+<p>de que el Hijo de hombre</p>
+<p>sea glorificado.</p>
+<p>12:24 En verdad, en verdad os digo</p>
+<p>que si el grano de trigo</p>
+<p>no cae en tierra y muere,</p>
+<p>allí queda, él solo;</p>
+<p>pero si muere, da mucho fruto.</p>
+<p>12:25 El que ama su vida, la perderá;</p>
+<p>pero el que odia su vida en este mundo</p>
+<p>la guardará para una vida eterna.</p>
+<p>12:26 Si alguno me sirve, que me siga,</p>
+<p>y donde yo esté*,</p>
+<p>allí estará también mi servidor.</p>
+<p>Si alguno me sirve, el Padre le honrará.</p>
+<p>12:27 Ahora mi alma está turbada*.</p>
+<p>Y ¿que voy a decir?</p>
+<p>¡Padre, líbrame de esta hora!</p>
+<p>Pero ¡si he llegado a esta hora</p>
+<p>precisamente para esto!</p>
+<p>12:28 Padre, glorifica tu Nombre*».</p>
+<p>Vino entonces una voz del cielo:</p>
+<p>«Lo he glorificado y de nuevo lo glorificaré*».</p>
+<p>12:29 La gente que estaba allí y lo oyó decía que había sido un trueno. Otros decían: «Le ha hablado un ángel.»</p>
+<p>12:30 Jesús respondió: «No ha venido esta voz por mí, sino por vosotros*.</p>
+<p>12:31 Ahora es el juicio de este mundo;</p>
+<p>ahora el Príncipe de este mundo será derribado*.</p>
+<p>12:32 Y cuando yo sea elevado de la tierra,</p>
+<p>atraeré a todos* hacia mí.»</p>
+<p>12:33 Decía esto para dar a entender qué tipo de muerte le iban a aplicar*. 12:34 La gente le respondió: «Nosotros sabemos por la Ley que el Cristo permanecerá para siempre. ¿Cómo dices tú que es preciso que el Hijo del hombre sea elevado? ¿Quién es ese Hijo del hombre*?» 12:35 Jesús les dijo:</p>
+<p>«Todavía, por un poco de tiempo,</p>
+<p>estará la luz entre vosotros.</p>
+<p>Caminad* mientras tenéis la luz,</p>
+<p>para que no os sorprendan las tinieblas;</p>
+<p>el que camina en tinieblas</p>
+<p>no sabe a dónde va.</p>
+<p>12:36 Mientras tenéis la luz,</p>
+<p>creed en la luz,</p>
+<p>para que seáis hijos de luz.»</p>
+<p>Dicho esto, se marchó Jesús y se ocultó de ellos*.</p>
+<h2 id="conclusión-la-incredulidad-de-los-judíos">Conclusión: la incredulidad de los judíos.</h2>
+<p>12:37 Aunque había realizado tan grandes signos delante de ellos, no creían en él. 12:38 Así se cumplía el oráculo pronunciado por el profeta Isaías:</p>
+<p>Señor, ¿quién dio crédito a nuestras palabras?</p>
+<p>¿A quién se le reveló el poder del Señor?</p>
+<p>12:39 No podían creer, porque también había dicho Isaías:</p>
+<p>12:40 Ha cegado sus ojos,</p>
+<p>ha endurecido su corazón;</p>
+<p>para que no vean con los ojos,</p>
+<p>ni comprendan con su corazón,</p>
+<p>ni se conviertan,</p>
+<p>ni yo los sane.</p>
+<p>12:41 Isaías dijo esto porque vio su gloria* y habló de él.</p>
+<p>12:42 Sin embargo, incluso muchos magistrados creyeron en él; pero no lo confesaban por los fariseos, para no ser excluidos de la sinagoga, 12:43 porque prefirieron la gloria de los hombres a la gloria de Dios.</p>
+<p>12:44 Jesús dijo a voz en cuello*:</p>
+<p>«El que cree en mí,</p>
+<p>no cree en mí,</p>
+<p>sino en aquel que me ha enviado;</p>
+<p>12:45 y el que me ve a mí,</p>
+<p>ve a aquel que me ha enviado.</p>
+<p>12:46 Yo, la luz, he venido al mundo</p>
+<p>para que todo el que crea en mí</p>
+<p>no siga entre tinieblas.</p>
+<p>12:47 Si alguno oye mis palabras</p>
+<p>y no es capaz de guardarlas,</p>
+<p>yo no le juzgo,</p>
+<p>pues no he venido a juzgar al mundo,</p>
+<p>sino a salvar al mundo.</p>
+<p>12:48 El que me rechaza</p>
+<p>y no acoge mis palabras,</p>
+<p>ya tiene quien le juzgue:</p>
+<p>la palabra que yo he pronunciado</p>
+<p>lo juzgará el último día*;</p>
+<p>12:49 porque yo no he hablado</p>
+<p>por mi cuenta,</p>
+<p>sino que el Padre que me ha enviado</p>
+<p>me ha mandado</p>
+<p>lo que tengo que decir y hablar,</p>
+<p>12:50 y yo sé que su mandato es vida eterna.</p>
+<p>Por eso, lo que yo hablo</p>
+<p>es lo que el Padre me ha dicho a mí.»</p>
+<h2 id="la-hora-de-jesús">La Hora de Jesús</h2>
+<h2 id="la-pascua-del-cordero-de-dios">La Pascua del Cordero de Dios</h2>
+<h2 id="1-la-última-cena-de-jesús-con-sus-discípulos">1. LA ÚLTIMA CENA DE JESÚS CON SUS DISCÍPULOS</h2>
+<h2 id="el-lavatorio-de-los-pies">El lavatorio de los pies*.</h2>
+<p>13:1 Antes de la fiesta de la Pascua, Jesús sabía que había llegado su hora de pasar de este mundo al Padre*. Él, que había amado a los suyos que estaban en el mundo*, los amó hasta el final*.</p>
+<p>13:2 Durante la cena*, cuando ya el diablo había metido en el corazón* a Judas Iscariote, hijo de Simón, el propósito de entregarle, 13:3 sabiendo Jesús que el Padre había puesto todo en sus manos y que había salido de Dios y a Dios volvía, 13:4 se levantó de la mesa, se quitó sus vestidos y, tomando una toalla, se la ciñó. 13:5 Luego echó agua en una palangana y se puso a lavar los pies de los discípulos* y a secárselos con la toalla con que estaba ceñido.</p>
+<p>13:6 Al llegar a Simón Pedro, le dijo éste: «Señor, ¿tú lavarme a mí los pies?» 13:7 Jesús le respondió: «Lo que yo hago, tú no lo entiendes ahora; lo comprenderás más tarde.» 13:8 Replicó Pedro: «No me lavarás los pies jamás.» Jesús le respondió: «Si no te lavo, no tienes parte conmigo.<em>» 13:9 Le dijo entonces Simón Pedro: «Señor, no sólo los pies; también las manos y la cabeza.» 13:10 Jesús le contestó: «El que se ha bañado no necesita lavarse</em>; está del todo limpio*. Y vosotros estáis limpios*, aunque no todos.» 13:11 Sabía quién le iba a entregar, y por eso dijo que no todos estaban limpios.</p>
+<p>13:12 Después de lavarles los pies, tomó sus vestidos, volvió a la mesa y les dijo: «¿Comprendéis lo que he hecho con vosotros? 13:13 Vosotros me llamáis ‘el Maestro’ y ‘el Señor’, y decís bien, porque lo soy. 13:14 Pues si yo, el Señor y el Maestro, os he lavado los pies, vosotros también debéis lavaros los pies unos a otros*. 13:15 Os he dado ejemplo, para que también vosotros hagáis lo que acabo de hacer con vosotros.</p>
+<p>13:16 «En verdad, en verdad os digo*</p>
+<p>que no es más el siervo que su amo,</p>
+<p>ni el enviado más que el que lo envía.</p>
+<p>13:17 «Sabiendo esto, dichosos seréis si lo cumplís. 13:18 No me refiero a todos vosotros; yo conozco a los que he elegido; pero tiene que cumplirse la Escritura*:</p>
+<p>El que come mi pan</p>
+<p>ha alzado contra mí su talón.</p>
+<p>13:19 «Os lo digo desde ahora,</p>
+<p>antes de que suceda,</p>
+<p>para que, cuando suceda,</p>
+<p>creáis que Yo Soy.</p>
+<p>13:20 En verdad, en verdad os digo</p>
+<p>que quien reciba al que yo envíe</p>
+<p>me recibe a mí,</p>
+<p>y quien me recibe a mí</p>
+<p>recibe al que que me ha enviado.»</p>
+<h2 id="anuncio-de-la-traición-de-judas">Anuncio de la traición de Judas.</h2>
+<p>13:21 Cuando pronunció estas palabras, Jesús se turbó en su interior y declaró:</p>
+<p>«En verdad, en verdad os digo</p>
+<p>que uno de vosotros me entregará.»</p>
+<p>13:22 Los discípulos se miraban unos a otros, sin saber de quién hablaba. 13:23 Uno de sus discípulos, el que Jesús amaba, estaba a la mesa al lado de Jesús*. 13:24 Simón Pedro le hizo una seña y le dijo: «Pregúntale de quién está hablando.» 13:25 Él, recostándose sobre el pecho de Jesús, le preguntó: «Señor, ¿quién es?» 13:26 Le respondió Jesús: «Es aquel a quien dé el bocado que voy a mojar.» Entonces mojó el bocado, lo tomó y se lo dio a Judas, hijo de Simón Iscariote. 13:27 Y, tras el bocado, entró en él Satanás*. Jesús le dijo: «Lo que vas a hacer, hazlo pronto.» 13:28 Pero ninguno de los comensales entendió por qué se lo decía. 13:29 Como Judas tenía la bolsa, algunos pensaban que Jesús quería decirle: «Compra lo que nos hace falta para la fiesta», o que diera algo a los pobres. 13:30 En cuanto tomó Judas el bocado, salió. Era de noche*.</p>
+<h2 id="la-despedida">La despedida.</h2>
+<p>13:31 Cuando salió, dijo Jesús:</p>
+<p>«Ahora* ha sido glorificado el Hijo del hombre</p>
+<p>y Dios ha sido glorificado en él.</p>
+<p>13:32 Si Dios ha sido glorificado en él*,</p>
+<p>Dios también le glorificará en sí mismo*</p>
+<p>y le glorificará pronto.</p>
+<p>13:33 «Hijos míos,</p>
+<p>me queda poco tiempo de estar con vosotros.</p>
+<p>Vosotros me buscaréis,</p>
+<p>pero ahora os digo lo mismo</p>
+<p>que les dije a los judíos*:</p>
+<p>que vosotros no podéis ir</p>
+<p>adonde yo voy*.</p>
+<p>13:34 Os doy un mandamiento nuevo*:</p>
+<p>que os améis los unos a los otros;</p>
+<p>que, como yo os he amado,</p>
+<p>así os améis también entre vosotros.</p>
+<p>13:35 Todos conocerán que sois discípulos míos en una cosa: en que os tenéis amor los unos a los otros.»</p>
+<p>13:36 Simón Pedro le preguntó: «Señor, ¿adónde vas?» Jesús le respondió: «Adonde yo voy no puedes seguirme ahora; me seguirás más tarde*.» 13:37 Pedro replicó*: «¿Por qué no puedo seguirte ahora? Yo daré mi vida por ti.» 13:38 Contestó Jesús: «¿Que darás tu vida por mí? En verdad, en verdad te digo que no cantará el gallo antes que tú me hayas negado tres veces.»</p>
+<p>14:1 «No se turbe vuestro corazón*. Creéis en Dios: creed también en mí.</p>
+<p>14:2 En la casa de mi Padre hay muchas mansiones;</p>
+<p>si no, no os habría dicho</p>
+<p>que voy a prepararos un lugar*.</p>
+<p>14:3 Y cuando haya ido y os haya preparado un lugar,</p>
+<p>volveré* y os tomaré conmigo,</p>
+<p>para que donde esté yo</p>
+<p>estéis también vosotros.</p>
+<p>14:4 Y ya sabéis el camino adonde yo voy.»</p>
+<p>14:5 Le dijo Tomás: «Señor, no sabemos adónde vas; ¿cómo podemos saber el camino?» 14:6 Respondió Jesús:</p>
+<p>«Yo soy el Camino, la Verdad y la Vida*.</p>
+<p>Nadie va al Padre sino por mí.</p>
+<p>14:7 Si me conocéis a mí, conoceréis también a mi Padre*;</p>
+<p>desde ahora lo conocéis y lo habéis visto.»</p>
+<p>14:8 Le dijo Felipe: «Señor, muéstranos al Padre y nos basta.»</p>
+<p>14:9 Respondió Jesús: «¿Tanto tiempo hace que estoy con vosotros y no me conoces, Felipe?</p>
+<p>El que me ha visto a mí, ha visto al Padre.</p>
+<p>¿Cómo dices tú: «Muéstranos al Padre»?</p>
+<p>14:10 ¿No crees* que yo estoy en el Padre</p>
+<p>y que el Padre está en mí?</p>
+<p>Las palabras que os digo</p>
+<p>no las digo por mi cuenta;</p>
+<p>el Padre que permanece en mí</p>
+<p>es el que realiza las obras.</p>
+<p>14:11 Creedme: yo estoy en el Padre</p>
+<p>y el Padre está en mí.</p>
+<p>Al menos, creedlo por las obras.</p>
+<p>14:12 En verdad, en verdad os digo</p>
+<p>que el que crea en mí</p>
+<p>hará también las obras que yo hago,</p>
+<p>y hará mayores aún,</p>
+<p>porque yo voy al Padre*.</p>
+<p>14:13 Y yo os concederé</p>
+<p>todo lo que pidáis en mi nombre,</p>
+<p>para que el Padre sea glorificado en el Hijo.</p>
+<p>14:14 Si me pedís algo en mi nombre,</p>
+<p>yo os lo concederé.</p>
+<p>14:15 Si me amáis,</p>
+<p>guardaréis mis mandamientos*;</p>
+<p>14:16 y yo pediré al Padre</p>
+<p>y os dará otro Paráclito*,</p>
+<p>para que esté siempre con vosotros:</p>
+<p>14:17 el Espíritu de la verdad*,</p>
+<p>a quien el mundo no puede recibir,</p>
+<p>porque no lo ve ni lo conoce.</p>
+<p>Pero vosotros lo conocéis,</p>
+<p>porque mora con vosotros</p>
+<p>y estará en vosotros.</p>
+<p>14:18 No os dejaré huérfanos:</p>
+<p>volveré a vosotros*.</p>
+<p>14:19 Dentro de poco el mundo ya no me verá,</p>
+<p>pero vosotros sí me veréis,</p>
+<p>porque yo vivo y también vosotros viviréis.</p>
+<p>14:20 Aquel día* comprenderéis</p>
+<p>que yo estoy en mi Padre</p>
+<p>y vosotros en mí y yo en vosotros*.</p>
+<p>14:21 El que tiene mis mandamientos</p>
+<p>y los lleva a la práctica,</p>
+<p>ése es el que me ama;</p>
+<p>y el que me ame</p>
+<p>será amado de mi Padre;</p>
+<p>y yo le amaré y me manifestaré a él*.»</p>
+<p>14:22 Le preguntó Judas* —no el Iscariote—: «Señor, ¿qué pasa para que te vayas a manifestar a nosotros y no al mundo?» 14:23 Jesús le respondió:</p>
+<p>«Si alguno me ama,</p>
+<p>guardará mi palabra*,</p>
+<p>y mi Padre le amará;</p>
+<p>y vendremos a él</p>
+<p>y haremos morada en él.</p>
+<p>14:24 El que no me ama</p>
+<p>no guarda mis palabras.</p>
+<p>Y la palabra* no es mía,</p>
+<p>sino del Padre que me ha enviado.</p>
+<p>14:25 Os he dicho estas cosas</p>
+<p>estando entre vosotros.</p>
+<p>14:26 Pero el Paráclito, el Espíritu Santo,</p>
+<p>que el Padre enviará en mi nombre*,</p>
+<p>os lo enseñará todo y os recordará</p>
+<p>todo lo que yo os he dicho.</p>
+<p>14:27 Os dejo la paz*, mi paz os doy;</p>
+<p>no os la doy como la da el mundo.</p>
+<p>No os sintáis turbados,</p>
+<p>y no os acobardéis.</p>
+<p>14:28 Ya me habéis oído decir:</p>
+<p>Me voy y volveré a vosotros.</p>
+<p>Si me amarais,</p>
+<p>os alegraríais de que me vaya al Padre,</p>
+<p>porque el Padre es más grande que yo*.</p>
+<p>14:29 Y esto os lo digo ahora,</p>
+<p>antes de que suceda,</p>
+<p>para que cuando suceda creáis.</p>
+<p>14:30 Ya no hablaré mucho con vosotros,</p>
+<p>pues llega el Príncipe de este mundo.</p>
+<p>En mí no tiene ningún poder;</p>
+<p>14:31 pero el mundo ha de saber</p>
+<p>que amo al Padre y que obro</p>
+<p>según el Padre me ha ordenado.</p>
+<p>Levantaos. Vámonos de aquí*.</p>
+<h2 id="la-vid-verdadera">La vid verdadera.</h2>
+<p>15:1 «Yo soy la vid verdadera*,  y mi Padre es el viñador.</p>
+<p>15:2 Él corta todo sarmiento</p>
+<p>que en mí no da fruto*,</p>
+<p>y limpia todo el que da fruto,</p>
+<p>para que dé más fruto.</p>
+<p>15:3 Vosotros estáis ya limpios*</p>
+<p>gracias a la palabra que os he dicho.</p>
+<p>15:4 Permaneced en mí,</p>
+<p>como yo en vosotros.</p>
+<p>Lo mismo que el sarmiento</p>
+<p>no puede dar fruto por sí mismo,</p>
+<p>si no permanece en la vid,</p>
+<p>tampoco vosotros podréis</p>
+<p>si no permanecéis en mí.</p>
+<p>15:5 Yo soy la vid;</p>
+<p>vosotros los sarmientos.</p>
+<p>El que permanece en mí y yo en él</p>
+<p>dará mucho fruto;</p>
+<p>porque separados de mí</p>
+<p>nada podéis hacer.</p>
+<p>15:6 Si alguno no permanece en mí,</p>
+<p>es cortado y se seca,</p>
+<p>lo mismo que los sarmientos;</p>
+<p>luego los recogen</p>
+<p>y los echan al fuego para que ardan.</p>
+<p>15:7 Si permanecéis en mí,</p>
+<p>y mis palabras permanecen en vosotros,</p>
+<p>pedid lo que queráis</p>
+<p>y lo conseguiréis.</p>
+<p>15:8 La gloria de mi Padre está</p>
+<p>en que deis mucho fruto,</p>
+<p>y seáis mis discípulos*.</p>
+<p>15:9 Como el Padre me amó,</p>
+<p>yo también os he amado;</p>
+<p>permaneced en mi amor.</p>
+<p>15:10 Si guardáis mis mandamientos,</p>
+<p>permaneceréis en mi amor,</p>
+<p>como yo he guardado</p>
+<p>los mandamientos de mi Padre</p>
+<p>y permanezco en su amor.</p>
+<p>15:11 Os he dicho esto</p>
+<p>para que mi gozo* esté en vosotros</p>
+<p>y vuestro gozo sea perfecto.</p>
+<p>15:12 Éste es mi mandamiento:</p>
+<p>que os améis los unos a los otros</p>
+<p>como yo os he amado.</p>
+<p>15:13 Nadie tiene mayor amor</p>
+<p>que el que da su vida por sus amigos.</p>
+<p>15:14 Vosotros sois mis amigos,</p>
+<p>si hacéis lo que yo os mando.</p>
+<p>15:15 No os llamo ya siervos,</p>
+<p>porque el siervo nunca sabe</p>
+<p>lo que suele hacer su amo;</p>
+<p>a vosotros os he llamado amigos,</p>
+<p>porque todo lo que he oído a mi Padre</p>
+<p>os lo he dado a conocer.</p>
+<p>15:16 No me habéis elegido vosotros a mí;</p>
+<p>más bien os he elegido yo a vosotros,</p>
+<p>y os he destinado</p>
+<p>para que vayáis y deis fruto,</p>
+<p>y que vuestro fruto sea duradero;</p>
+<p>de modo que todo lo que pidáis</p>
+<p>al Padre en mi nombre</p>
+<p>él os lo conceda.</p>
+<p>15:17 Lo que os mando es</p>
+<p>que os améis los unos a los otros.</p>
+<h2 id="los-discípulos-y-el-mundo">Los discípulos y el mundo*.</h2>
+<p>15:18 «Si el mundo os odia,</p>
+<p>sabed que a mí me ha odiado</p>
+<p>antes que a vosotros.</p>
+<p>15:19 Si fuerais del mundo,</p>
+<p>el mundo amaría lo suyo;</p>
+<p>pero el mundo os odia</p>
+<p>porque no sois del mundo,</p>
+<p>pues yo, al elegiros,</p>
+<p>os he sacado del mundo.</p>
+<p>15:20 Acordaos de lo que os he dicho:</p>
+<p>El siervo no es más que su señor.</p>
+<p>Si a mí me han perseguido,</p>
+<p>también os perseguirán a vosotros;</p>
+<p>si han guardado mi palabra,</p>
+<p>también la vuestra guardarán.</p>
+<p>15:21 Pero todo esto os lo harán</p>
+<p>a causa de mi persona,</p>
+<p>porque no conocen</p>
+<p>al que me ha enviado.</p>
+<p>15:22 Si yo no hubiera venido</p>
+<p>y no les hubiera hablado,</p>
+<p>no tendrían pecado;</p>
+<p>pero ahora no tienen excusa</p>
+<p>que palíe su pecado.</p>
+<p>15:23 La persona que me odia</p>
+<p>odia también a mi Padre.</p>
+<p>15:24 Si no hubiera hecho entre ellos</p>
+<p>obras que ningún otro ha hecho,</p>
+<p>no tendrían pecado;</p>
+<p>pero ahora las han visto,</p>
+<p>y nos odian a mí y a mi Padre.</p>
+<p>15:25 Pero esto es para que se cumpla</p>
+<p>lo que está escrito en su Ley:</p>
+<p>Me han odiado sin motivo.</p>
+<p>15:26 Cuando venga el Paráclito,</p>
+<p>que yo os enviaré de junto al Padre,</p>
+<p>el Espíritu de la verdad,</p>
+<p>que procede* del Padre,</p>
+<p>él dará testimonio de mí.</p>
+<p>15:27 Pero también vosotros</p>
+<p>daréis testimonio,</p>
+<p>porque estáis conmigo</p>
+<p>desde el principio.</p>
+<p>16:1 Os he dicho esto</p>
+<p>para que no os escandalicéis*.</p>
+<p>16:2 Os expulsarán de las sinagogas,</p>
+<p>e incluso llegará la hora</p>
+<p>en que todo el que os mate</p>
+<p>piense que da culto a Dios.</p>
+<p>16:3 Y harán esto</p>
+<p>porque no han conocido ni al Padre</p>
+<p>ni a mí.</p>
+<p>16:4 Os he dicho esto</p>
+<p>para que, cuando llegue la hora,</p>
+<p>os acordéis de que ya os lo había</p>
+<p>dicho.</p>
+<h2 id="la-venida-del-paráclito">La venida del Paráclito.</h2>
+<p>«No os dije esto desde el principio</p>
+<p>porque estaba yo con vosotros.</p>
+<p>16:5 Pero ahora me voy</p>
+<p>donde aquel que me ha enviado,</p>
+<p>y ninguno de vosotros</p>
+<p>me pregunta: ‘¿Adónde vas*?’</p>
+<p>16:6 Es que, por haberos dicho esto,</p>
+<p>estáis embargados de tristeza.</p>
+<p>16:7 Pero yo os digo la verdad:</p>
+<p>Os conviene que yo me vaya,</p>
+<p>porque, si no me voy,</p>
+<p>no vendrá a vosotros el Paráclito;</p>
+<p>pero si me voy,</p>
+<p>os lo enviaré*;</p>
+<p>16:8 y cuando él venga,</p>
+<p>convencerá al mundo</p>
+<p>en lo referente al pecado,</p>
+<p>en lo referente a la justicia</p>
+<p>y en lo referente al juicio.</p>
+<p>16:9 En lo referente al pecado,</p>
+<p>porque no creen en mí*;</p>
+<p>16:10 en lo referente a la justicia,</p>
+<p>porque me voy al Padre,</p>
+<p>y ya no me veréis*;</p>
+<p>16:11 y en lo referente al juicio,</p>
+<p>porque el Príncipe de este mundo</p>
+<p>ya está juzgado*.</p>
+<p>16:12 Mucho tengo todavía que deciros,</p>
+<p>pero ahora no podéis con ello.</p>
+<p>16:13 Cuando venga él,</p>
+<p>el Espíritu de la verdad,</p>
+<p>os guiará hasta la verdad completa*;</p>
+<p>pues no hablará por su cuenta,</p>
+<p>sino que hablará lo que oiga</p>
+<p>y os explicará lo que ha de venir*.</p>
+<p>16:14 Él me dará gloria,</p>
+<p>porque recibirá de lo mío</p>
+<p>y os lo explicará a vosotros.</p>
+<p>16:15 Todo lo que tiene el Padre es mío.</p>
+<p>Por eso he dicho:</p>
+<p>Recibirá de lo mío</p>
+<p>y os lo explicará a vosotros.</p>
+<h2 id="anuncio-de-un-pronto-retorno">Anuncio de un pronto retorno.</h2>
+<p>16:16 «Dentro de poco ya no me veréis,</p>
+<p>y poco después me volveréis a ver*.»</p>
+<p>16:17 Entonces algunos de sus discípulos comentaron entre sí: «¿Qué querrá decir con eso de ‘Dentro de poco ya no me veréis y poco después me volveréis a ver’ y con ‘Me voy al Padre’?» 16:18 Y se preguntaban: «¿Qué será ese ‘poco’*? ¿Qué querrá decir?» 16:19 Se dio cuenta Jesús de que querían preguntarle algo y les dijo: «¿Andáis preguntándoos acerca de lo que he dicho:</p>
+<p>‘Dentro de poco no me veréis</p>
+<p>y poco después me volveréis a ver?’</p>
+<p>16:20 En verdad, en verdad os digo</p>
+<p>que lloraréis y os lamentaréis,</p>
+<p>y el mundo se alegrará.</p>
+<p>Estaréis tristes,</p>
+<p>pero vuestra tristeza</p>
+<p>se convertirá en gozo*.</p>
+<p>16:21 La mujer suele estar triste</p>
+<p>cuando va a dar a luz,</p>
+<p>porque le ha llegado su hora;</p>
+<p>pero cuando ha dado a luz al niño,</p>
+<p>ya no se acuerda del aprieto*,</p>
+<p>por el gozo de que ha nacido</p>
+<p>un hombre en el mundo.</p>
+<p>16:22 También vosotros estáis tristes ahora,</p>
+<p>pero volveré a veros</p>
+<p>y os llenaréis de alegría,</p>
+<p>y nadie os la podrá quitar.</p>
+<p>16:23 Aquel día</p>
+<p>no me preguntaréis nada.</p>
+<p>En verdad, en verdad os digo</p>
+<p>que el Padre os concederá</p>
+<p>lo que pidáis en mi nombre.</p>
+<p>16:24 Hasta ahora</p>
+<p>nada le habéis pedido en mi nombre*.</p>
+<p>Pedid y recibiréis,</p>
+<p>para que sea perfecto vuestro gozo.</p>
+<p>16:25 Os he dicho todo esto en parábolas.</p>
+<p>Pero se acerca la hora</p>
+<p>en que ya no os hablaré en parábolas,</p>
+<p>sino que con toda claridad*</p>
+<p>os hablaré acerca del Padre.</p>
+<p>16:26 Aquel día pediréis en mi nombre,</p>
+<p>y no os digo</p>
+<p>que yo rogaré al Padre* por vosotros,</p>
+<p>16:27 pues el Padre mismo os quiere,</p>
+<p>porque me queréis a mí</p>
+<p>y creéis que salí de Dios.</p>
+<p>16:28 Salí del Padre y he venido al mundo;</p>
+<p>ahora dejo otra vez el mundo</p>
+<p>y me voy donde el Padre.»</p>
+<p>16:29 Le dicen sus discípulos: «Ahora sí que hablas claro, y no dices ninguna parábola. 16:30 Sabemos ahora que lo sabes todo y no necesitas que nadie te pregunte. Por esto creemos que has salido de Dios.» 16:31 Jesús les respondió:</p>
+<p>«¿Ahora creéis?</p>
+<p>16:32 Mirad que llega la hora</p>
+<p>(y ha llegado ya)</p>
+<p>en que cada uno de vosotros</p>
+<p>se dispersará por su lado,</p>
+<p>y me dejaréis solo.</p>
+<p>Pero no estoy solo,</p>
+<p>porque el Padre está conmigo.</p>
+<p>16:33 Os he dicho estas cosas</p>
+<p>para que tengáis paz en mí.</p>
+<p>En el mundo viviréis atribulados;</p>
+<p>pero tened buen ánimo:</p>
+<p>yo he vencido al mundo.»</p>
+<h2 id="la-oración-de-jesús">La oración de Jesús.</h2>
+<p>17:1 Así habló Jesús,</p>
+<p>y dijo mirando al cielo:</p>
+<p>«Padre*, ha llegado la hora;</p>
+<p>glorifica a tu Hijo,</p>
+<p>para que tu Hijo te glorifique a ti*.</p>
+<p>17:2 Y que, según el poder</p>
+<p>que le has dado sobre toda carne*,</p>
+<p>conceda también vida eterna</p>
+<p>a todos los que tú le has dado.</p>
+<p>17:3 Ésta es la vida eterna:</p>
+<p>que te conozcan a ti*</p>
+<p>el único Dios verdadero,</p>
+<p>y al que tú has enviado, Jesucristo*.</p>
+<p>17:4 Yo te he glorificado en la tierra,</p>
+<p>llevando a cabo la obra</p>
+<p>que me encomendaste realizar.</p>
+<p>17:5 Ahora, Padre,</p>
+<p>glorifícame tú, junto a ti,</p>
+<p>con la gloria que tenía a tu lado*</p>
+<p>antes que el mundo existiese*.</p>
+<p>17:6 He manifestado tu Nombre</p>
+<p>a los hombres* que tú me has dado</p>
+<p>tomándolos del mundo.</p>
+<p>Tuyos eran y tú me los has dado;</p>
+<p>y han guardado tu palabra.</p>
+<p>17:7 Ahora ya saben que procede de ti</p>
+<p>todo lo que me has dado;</p>
+<p>17:8 porque las palabras que tú me diste</p>
+<p>se las he transmitido a ellos,</p>
+<p>y ellos las han aceptado</p>
+<p>y han reconocido* en verdad</p>
+<p>que vengo de tu parte,</p>
+<p>y han creído que tú me has enviado.</p>
+<p>17:9 Por ellos ruego;</p>
+<p>no ruego por el mundo,</p>
+<p>sino por los que tú me has dado,</p>
+<p>porque son tuyos;</p>
+<p>17:10 todo lo mío es tuyo</p>
+<p>y todo lo tuyo es mío;</p>
+<p>y mi gloria se ha manifestado en</p>
+<p>ellos.</p>
+<p>17:11 Yo ya no estoy en el mundo,</p>
+<p>pero ellos sí están en el mundo;</p>
+<p>yo, en cambio, voy a ti.</p>
+<p>Padre santo, cuida en tu nombre</p>
+<p>a todos los que me has dado*,</p>
+<p>para que sean uno como nosotros.</p>
+<p>17:12 Cuando estaba yo con ellos,</p>
+<p>yo cuidaba en tu nombre</p>
+<p>a los que me habías dado.</p>
+<p>He velado por ellos</p>
+<p>y ninguno se ha perdido,</p>
+<p>salvo el hijo de perdición,</p>
+<p>para que se cumpliera la Escritura.</p>
+<p>17:13 Pero ahora voy a ti,</p>
+<p>y digo estas cosas en el mundo</p>
+<p>para que tengan en sí mismos</p>
+<p>la perfecta alegría que yo tengo.</p>
+<p>17:14 Yo les he dado tu palabra,</p>
+<p>pero el mundo los ha odiado,</p>
+<p>porque no son del mundo,</p>
+<p>como yo no soy del mundo.</p>
+<p>17:15 No te pido que los retires del mundo,</p>
+<p>sino que los guardes del Maligno*.</p>
+<p>17:16 Ellos no son del mundo,</p>
+<p>como yo no soy del mundo.</p>
+<p>17:17 Santifícalos* en la verdad:</p>
+<p>tu palabra es verdad.</p>
+<p>17:18 Como tú me has enviado al mundo,</p>
+<p>yo también los he enviado al mundo.</p>
+<p>17:19 Y por ellos me santifico a mí mismo,</p>
+<p>para que ellos también</p>
+<p>sean santificados en la verdad*.</p>
+<p>17:20 No ruego sólo por éstos,</p>
+<p>sino también por aquellos</p>
+<p>que creerán en mí*</p>
+<p>por medio de su palabra,</p>
+<p>17:21 para que todos sean uno.</p>
+<p>Como tú, Padre, en mí y yo en ti,</p>
+<p>que también sean uno en nosotros,</p>
+<p>para que el mundo crea</p>
+<p>que tú me has enviado.</p>
+<p>17:22 Les he dado la gloria que me diste,</p>
+<p>para que sean uno,</p>
+<p>como nosotros somos uno:</p>
+<p>17:23 yo en ellos y tú en mí,</p>
+<p>para que sean perfectamente uno,</p>
+<p>y el mundo conozca</p>
+<p>que tú me has enviado</p>
+<p>y que los has amado* a ellos</p>
+<p>como me has amado a mí.</p>
+<p>17:24 Padre, deseo</p>
+<p>que los que tú me has dado</p>
+<p>estén también conmigo</p>
+<p>allí donde yo esté,</p>
+<p>para que contemplen</p>
+<p>la gloria que me has dado,</p>
+<p>porque me has amado</p>
+<p>antes de la creación del mundo.</p>
+<p>17:25 Padre justo,</p>
+<p>el mundo no te ha conocido,</p>
+<p>pero yo te he conocido</p>
+<p>y éstos han conocido</p>
+<p>que tú me has enviado.</p>
+<p>17:26 Yo les he dado a conocer tu nombre</p>
+<p>y se lo seguiré dando a conocer,</p>
+<p>para que el amor que me has tenido</p>
+<p>esté en ellos, y yo en ellos.»</p>
+<h2 id="2-la-pasión">2. LA PASIÓN</h2>
+<h2 id="prendimiento-de-jesús">Prendimiento de Jesús.</h2>
+<p>18:1 Dicho esto, pasó Jesús con sus discípulos al otro lado del torrente Cedrón, donde había un huerto, en el que entraron él y sus discípulos. 18:2 Pero también Judas, el que le iba a entregar, conocía el sitio, porque Jesús se había reunido allí muchas veces con sus discípulos. 18:3 Judas, pues, se presentó allí con la cohorte* y los guardias enviados por los sumos sacerdotes y fariseos, con linternas, antorchas y armas. 18:4 Jesús, que sabía todo lo que le iba a suceder, se adelantó y les preguntó: «¿A quién buscáis?» 18:5 Le contestaron: «A Jesús el Nazareno.» Les dijo: «Yo soy.» Judas, el que le entregaba, estaba también con ellos. 18:6 Cuando les dijo «Yo soy», retrocedieron y cayeron en tierra*. 18:7 Les preguntó de nuevo: «¿A quién buscáis?» Le contestaron: «A Jesús el Nazareno». 18:8 Les dijo Jesús: «Ya os he dicho que yo soy; así que si me buscáis a mí, dejad marchar a éstos.» 18:9 Así se cumpliría lo que había dicho:</p>
+<p>«No he perdido ninguno de los que me has dado.»</p>
+<p>18:10 Entonces Simón Pedro, que llevaba una espada, la sacó e hirió al siervo del Sumo Sacerdote, y le cortó la oreja derecha. El siervo se llamaba Malco. 18:11 Jesús dijo a Pedro: «Vuelve la espada a la vaina. ¿Es que no voy a beber la copa que me ha dado el Padre?»</p>
+<h2 id="jesús-ante-anás-y-caifás">Jesús ante Anás y Caifás.</h2>
+<h2 id="negaciones-de-pedro">Negaciones de Pedro.</h2>
+<p>18:12 Entonces la cohorte, el tribuno y los guardias de los judíos prendieron a Jesús, le ataron 18:13 y lo condujeron primero a casa de Anás, pues era suegro de Caifás, el Sumo Sacerdote de aquel año. 18:14 Caifás era el que había aconsejado a los judíos que convenía que muriera un solo hombre por el pueblo.</p>
+<p>18:15 Seguían a Jesús Simón Pedro y otro discípulo*. Este discípulo, como era conocido del Sumo Sacerdote, entró con Jesús en el atrio del Sumo Sacerdote, 18:16 mientras Pedro se quedaba fuera, junto a la puerta. Entonces salió el otro discípulo, el conocido del Sumo Sacerdote, habló a la portera e hizo pasar a Pedro. 18:17 La muchacha portera dijo a Pedro: «¿No eres tú también de los discípulos de ese hombre?» Respondió él: «No lo soy.» 18:18 Los siervos y los guardias estaban calentándose en torno a unas brasas, porque hacía frío. También Pedro estaba con ellos calentándose.</p>
+<p>18:19 El Sumo Sacerdote interrogó a Jesús sobre sus discípulos y su doctrina. 18:20 Jesús le respondió: «He hablado abiertamente ante todo el mundo; he enseñado siempre en la sinagoga y en el Templo, donde se reúnen todos los judíos, y no he hablado nada a ocultas. 18:21 ¿Por qué me preguntas? Pregunta a los que me han oído de qué les he hablado; ellos saben lo que he dicho.» 18:22 Apenas dijo esto, uno de los guardias presentes dio una bofetada a Jesús, diciendo: «¿Así contestas al Sumo Sacerdote?» 18:23 Jesús le respondió:</p>
+<p>«Si he hablado mal, di lo que está mal; pero si he hablado bien, ¿por qué me pegas?»</p>
+<p>18:24 Anás entonces le envió atado al Sumo Sacerdote Caifás*.</p>
+<p>18:25 Estando allí Simón Pedro calentándose, le dijeron: «¿No eres tú también uno de sus discípulos?» Él lo negó: «No lo soy.» 18:26 Uno de los siervos del Sumo Sacerdote, pariente de aquel a quien Pedro había cortado la oreja, le dijo: «¿No te he visto yo en el huerto con él?» 18:27 Pedro volvió a negar, y al instante cantó un gallo.</p>
+<h2 id="jesús-ante-pilato">Jesús ante Pilato.</h2>
+<p>18:28 De la casa de Caifás llevaron a Jesús al pretorio*. Era de madrugada. Ellos no entraron en el pretorio para no contaminarse* y poder así comer la Pascua. 18:29 Salió entonces Pilato donde ellos y preguntó: «¿Qué acusación traéis contra este hombre?» 18:30 Ellos le respondieron: «Si éste no fuera un malhechor, no te lo habríamos entregado.» 18:31 Pilato replicó: «Haceos vosotros cargo de él y juzgadlo según vuestra Ley.» Los judíos contestaron: «Nosotros no podemos dar muerte a nadie*.» 18:32 Así se cumpliría lo que había dicho Jesús cuando indicó de qué muerte iba a morir.</p>
+<p>18:33 Entonces Pilato entró de nuevo al pretorio, llamó a Jesús y le preguntó: «¿Eres tú el rey de los judíos?» 18:34 Respondió Jesús: «¿Dices eso por tu cuenta, o es que otros te lo han dicho de mí?» 18:35 Pilato contestó: «¿Acaso soy yo judío? Tu pueblo y los sumos sacerdotes te han entregado a mí. ¿Qué has hecho?» 18:36 Respondió Jesús:</p>
+<p>«Mi Reino no es de este mundo.</p>
+<p>Si mi Reino fuese de este mundo,</p>
+<p>mi gente habría combatido</p>
+<p>para que no fuese entregado a los judíos;</p>
+<p>pero mi Reino no es de aquí.»</p>
+<p>18:37 Entonces Pilato le dijo: «¿Luego tú eres rey?» Respondió Jesús:</p>
+<p>«Sí, como dices, soy rey.</p>
+<p>Yo para esto he nacido</p>
+<p>y para esto he venido al mundo:</p>
+<p>para dar testimonio de la verdad.</p>
+<p>Todo el que es de la verdad, escucha mi voz.»</p>
+<p>18:38 Pilato replicó: «¿Qué es la verdad?» Y, dicho esto, volvió a salir donde los judíos y les dijo: «Yo no encuentro ningún delito en él. 18:39 Pero es costumbre entre vosotros que os ponga en libertad a uno por la Pascua. ¿Queréis, pues, que os ponga en libertad al rey de los judíos?» 18:40 Ellos respondieron a gritos: «¡A ése, no; a Barrabás!» (Barrabás era un bandido.)</p>
+<p>19:1 Pilato entonces tomó a Jesús y mandó azotarle. 19:2 Los soldados trenzaron una corona de espinas, se la pusieron en la cabeza y le vistieron un manto de púrpura; 19:3 después se acercaron a él y le decían: «Salve, rey de los judíos», al tiempo que le daban bofetadas.</p>
+<p>19:4 Volvió a salir Pilato y les dijo: «Mirad, os lo voy a traer aquí para que sepáis que no encuentro ningún delito en él*.» 19:5 Salió entonces Jesús coronado de espinas y con el manto de púrpura. Pilato les dijo: «Aquí tenéis al hombre.» 19:6 Cuando lo vieron los sumos sacerdotes y los guardias, gritaron: «¡Crucifícalo, crucifícalo!» Replicó Pilato: «Tomadlo vosotros y crucificadlo, porque yo no encuentro en él ningún delito.» 19:7 Los judíos le contestaron: «Nosotros tenemos una Ley y, según esa Ley, debe morir, porque se tiene por Hijo de Dios.»</p>
+<p>19:8 Cuando oyó Pilato estas palabras, se atemorizó aún más. 19:9 Volvió a entrar en el pretorio y preguntó a Jesús: «¿De dónde eres tú*?» Pero Jesús no le respondió. 19:10 Le dijo Pilato: «¿A mí no me hablas? ¿No sabes que tengo poder para soltarte y poder para crucificarte?» 19:11 Respondió Jesús: «No tendrías contra mí ningún poder, si no se te hubiera dado de arriba; por eso, el que me ha entregado a ti tiene mayor pecado*.»</p>
+<h2 id="condena-a-muerte">Condena a muerte.</h2>
+<p>19:12 Desde entonces Pilato trataba de librarlo. Pero los judíos gritaron: «Si sueltas a ése, no eres amigo del César; todo el que se hace rey se enfrenta al César.» 19:13 Al oír Pilato estas palabras, hizo salir a Jesús y se sentó en el tribunal, en el lugar llamado Enlosado, en hebreo Gabbatá*. 19:14 Era el día de la Preparación de la Pascua*, hacia la hora sexta*. Dijo Pilato a los judíos: «Aquí tenéis a vuestro rey.» 19:15 Ellos gritaron*: «¡Fuera, fuera! ¡Crucifícalo!» Replicó Pilato: «¿A vuestro rey voy a crucificar?» Contestaron los sumos sacerdotes: «No tenemos más rey que el César.» 19:16 Entonces se lo entregó para que fuera crucificado.</p>
+<h2 id="la-crucifixión">La crucifixión.</h2>
+<p>Tomaron, pues, a Jesús*, 19:17 que, cargando con su cruz, salió hacia el lugar llamado Calvario, que en hebreo se dice Gólgota. 19:18 Allí crucificaron a Jesús, junto con otros dos, uno a cada lado de él. 19:19 Pilato redactó también una inscripción y la puso sobre la cruz. Lo escrito decía así: «Jesús el Nazareno, el rey de los judíos.» 19:20 Esta inscripción, que estaba escrita en hebreo, latín y griego, la leyeron muchos judíos, porque el lugar donde había sido crucificado Jesús estaba cerca de la ciudad. 19:21 Los sumos sacerdotes de los judíos dijeron a Pilato: «No escribas ‘El rey de los judíos’, sino ‘Éste ha dicho: Yo soy rey de los judíos’.» 19:22 Pilato respondió: «Lo que he escrito, escrito está.»</p>
+<h2 id="reparto-de-los-vestidos">Reparto de los vestidos.</h2>
+<p>19:23 Los soldados, después de crucificar a Jesús, tomaron sus vestidos e hicieron con ellos cuatro lotes, uno para cada soldado. Tomaron también la túnica, que no tenía costura*; estaba tejida de una pieza de arriba abajo. 19:24 Por eso se dijeron: «Mejor no romperla; echemos a suertes, a ver a quién le toca.» Para que se cumpliera la Escritura:</p>
+<p>Se han repartido mis vestidos,</p>
+<p>han echado a suertes mi túnica.</p>
+<p>Y esto es lo que hicieron los soldados.</p>
+<h2 id="jesús-y-su-madre">Jesús y su madre.</h2>
+<p>19:25 Junto a la cruz de Jesús estaban su madre* y la hermana de su madre*, María, mujer de Clopás, y María Magdalena. 19:26 Jesús, viendo a su madre y junto a ella al discípulo a quien amaba, dijo a su madre: «Mujer, ahí tienes a tu hijo.» 19:27 Luego dijo al discípulo: «Ahí tienes a tu madre*.» Y desde aquella hora el discípulo la acogió en su casa.</p>
+<h2 id="muerte-de-jesús">Muerte de Jesús.</h2>
+<p>19:28 Después de esto, sabiendo Jesús que ya todo estaba cumplido, para que se cumpliera la Escritura, dijo:</p>
+<p>«Tengo sed.»</p>
+<p>19:29 Había allí una vasija llena de vinagre. Sujetaron a una rama de hisopo* una esponja empapada en vinagre y se la acercaron a la boca. 19:30 Cuando tomó Jesús el vinagre, dijo: «Todo está cumplido*.» E inclinando la cabeza, entregó el espíritu*.</p>
+<h2 id="la-lanzada">La lanzada.</h2>
+<p>19:31 Los judíos, como era el día de la Preparación, no querían que quedasen los cuerpos en la cruz el sábado —porque aquel sábado era muy solemne—. Así que rogaron a Pilato que les quebraran las piernas* y los retiraran. 19:32 Fueron, pues, los soldados y quebraron las piernas del primero y del otro crucificado con él. 19:33 Pero al llegar a Jesús, como lo vieron* ya muerto, no le quebraron las piernas, 19:34 sino que uno de los soldados le atravesó el costado con una lanza, y al instante salió sangre y agua*. 19:35 El que lo vio* lo atestigua y su testimonio es válido, y él* sabe que dice la verdad, para que también vosotros creáis. 19:36 Y todo esto sucedió para que se cumpliera la Escritura:</p>
+<p>No se le quebrará hueso alguno*.</p>
+<p>19:37 Y también otra Escritura dice:</p>
+<p>Mirarán al que traspasaron*.</p>
+<h2 id="la-sepultura">La sepultura.</h2>
+<p>19:38 Después de esto, José de Arimatea, que era discípulo de Jesús, aunque en secreto por miedo a los judíos, pidió a Pilato autorización para retirar el cuerpo de Jesús. Pilato se lo concedió. Fueron*, pues, y retiraron su cuerpo. 19:39 Fue también Nicodemo —aquel que anteriormente había ido a verle de noche— con una mezcla de mirra y áloe de unas cien libras. 19:40 Tomaron el cuerpo de Jesús y lo envolvieron en lienzos con los aromas, conforme a la costumbre judía de sepultar. 19:41 En el lugar donde había sido crucificado había un huerto, y en el huerto un sepulcro nuevo, en el que nadie todavía había sido depositado. 19:42 Allí, pues, pusieron a Jesús, porque era el día de la Preparación de los judíos y el sepulcro estaba cerca.</p>
+<h2 id="3-el-día-de-la-resurrección">3. EL DÍA DE LA RESURRECCIÓN</h2>
+<h2 id="el-sepulcro-vacío">El sepulcro vacío.</h2>
+<p>20:1 El primer día de la semana* fue María Magdalena de madrugada al sepulcro cuando todavía estaba oscuro, y vio que la piedra estaba retirada del sepulcro. 20:2 Echó a correr y llegó donde Simón Pedro y el otro discípulo a quien Jesús quería, y les dijo: «Se han llevado del sepulcro al Señor, y no sabemos dónde lo han puesto.»</p>
+<p>20:3 Salieron Pedro y el otro discípulo, y se encaminaron al sepulcro. 20:4 Corrían los dos juntos, pero el otro discípulo corrió por delante más rápido que Pedro, y llegó primero al sepulcro. 20:5 Al asomarse, vio los lienzos en el suelo; pero no entró*. 20:6 Detrás llegó también Simón Pedro. Entró en el sepulcro y vio los lienzos en el suelo; 20:7 pero el sudario que había cubierto su cabeza no estaba junto a los lienzos, sino plegado en un lugar aparte. 20:8 Entonces entró también el otro discípulo, el que había llegado el primero al sepulcro; vio y creyó, 20:9 pues hasta entonces no habían comprendido que, según la Escritura*, Jesús debía resucitar de entre los muertos. 20:10 Los discípulos, entonces, volvieron a casa.</p>
+<h2 id="aparición-a-maría-de-magdala">Aparición a María de Magdala.</h2>
+<p>20:11 Estaba María junto al sepulcro, fuera, llorando. Mientras lloraba se inclinó hacia el sepulcro 20:12 y vio dos ángeles de blanco, sentados donde había estado el cuerpo de Jesús, uno a la cabecera y otro a los pies. 20:13 Le preguntaron: «Mujer, ¿por qué lloras?» Ella les respondió: «Porque se han llevado a mi Señor, y no sé dónde lo han puesto.» 20:14 Dicho esto, se volvió y vio a Jesús, de pie, pero no sabía que era Jesús. 20:15 Le preguntó Jesús: «Mujer, ¿por qué lloras? ¿A quién buscas?» Ella, pensando que era el encargado del huerto, le dijo: «Señor, si te lo has llevado, dime dónde lo has puesto, para que yo me lo lleve.» 20:16 Jesús le dijo: «María.» Ella se volvió* y le dijo en hebreo: «Rabbuní*  —que quiere decir ‘Maestro’—. 20:17 Replicó Jesús: «Deja de tocarme*, que todavía no he subido al Padre. Pero vete donde mis hermanos* y diles: Subo a mi Padre* y vuestro Padre, a mi Dios y vuestro Dios.» 20:18 Fue María Magdalena y dijo a los discípulos: «He visto al Señor*», y les repitió las palabras que Jesús había dicho.</p>
+<h2 id="apariciones-a-los-discípulos">Apariciones a los discípulos.</h2>
+<p>20:19 Al atardecer de aquel día, el primero de la semana, los discípulos tenían cerradas las puertas del lugar donde se encontraban, pues tenían miedo a los judíos. Entonces se presentó Jesús en medio de ellos y les dijo: «La paz con vosotros*.» 20:20 Dicho esto, les mostró las manos y el costado. Los discípulos se alegraron de ver al Señor. 20:21 Jesús les dijo otra vez: «La paz con vosotros.</p>
+<p>Como el Padre me envió,</p>
+<p>también yo os envío.»</p>
+<p>20:22 Dicho esto, sopló* y les dijo:</p>
+<p>«Recibid el Espíritu Santo.</p>
+<p>20:23 A quienes perdonéis los pecados,</p>
+<p>les quedan perdonados;</p>
+<p>a quienes se los retengáis,</p>
+<p>les quedan retenidos.»</p>
+<p>20:24 Tomás*, uno de los Doce, llamado el Mellizo, no estaba con ellos cuando vino Jesús. Los otros discípulos le dijeron: «Hemos visto al Señor.» 20:25 Pero él les contestó: «Si no veo en sus manos la señal de los clavos y no meto mi dedo en el agujero de los clavos y mi mano en su costado, no creeré.» 20:26 Ocho días después, estaban otra vez sus discípulos dentro y Tomás con ellos. Se presentó Jesús en medio estando las puertas cerradas, y dijo: «La paz con vosotros.» 20:27 Luego se dirigió a Tomás: «Acerca aquí tu dedo y mira mis manos; trae tu mano y métela en mi costado*; y no seas incrédulo, sino creyente.» 20:28 Tomás le contestó: «Señor mío y Dios mío.» 20:29 Replicó Jesús:</p>
+<p>«Porque me has visto has creído.</p>
+<p>Dichosos los que no han visto y han creído*.»</p>
+<h2 id="4-primera-conclusión">4. PRIMERA CONCLUSIÓN</h2>
+<p>20:30 Jesús realizó en presencia de los discípulos otros muchos signos que no están escritos en este libro. 20:31 Éstos han sido escritos para que creáis que Jesús es el Cristo, el Hijo de Dios, y para que creyendo tengáis vida en su nombre.</p>
+<h2 id="epílogo">Epílogo</h2>
+<h2 id="aparición-a-orillas-del-lago-de-tiberíades">Aparición a orillas del lago de Tiberíades *.</h2>
+<p>21:1 Después de esto, se manifestó Jesús otra vez a los discípulos a orillas del mar de Tiberíades. Se manifestó de esta manera. 21:2 Estaban juntos Simón Pedro, Tomás, llamado el Mellizo, Natanael, el de Caná de Galilea, los de Zebedeo y otros dos de sus discípulos. 21:3 Simón Pedro les dijo: «Voy a pescar.» Le contestaron ellos: «También nosotros vamos contigo.» Fueron y subieron a la barca, pero aquella noche no pescaron nada.</p>
+<p>21:4 Cuando ya amaneció, estaba Jesús en la orilla; pero los discípulos no sabían que era Jesús. 21:5 Les preguntó Jesús: «Muchachos, ¿no tenéis nada que comer?» Le contestaron: «No.» 21:6 Él les dijo: «Echad la red a la derecha de la barca y encontraréis.» La echaron, pues, y no conseguían arrastrarla por la gran cantidad de peces*. 21:7 El discípulo a quien Jesús amaba dijo entonces a Pedro: «Es el Señor». Cuando Simón Pedro oyó «es el Señor», se vistió —pues estaba desnudo— y se lanzó al mar. 21:8 Los demás discípulos vinieron en la barca, arrastrando la red con los peces, pues sólo distaban de tierra unos doscientos codos.</p>
+<p>21:9 Nada más saltar a tierra, vieron preparadas unas brasas y un pez sobre ellas, y pan. 21:10 Jesús les dijo: «Traed algunos de los peces que acabáis de pescar.» 21:11 Subió Simón Pedro y sacó la red a tierra, llena de peces grandes: ciento cincuenta y tres. Y, aun siendo tantos, no se rompió la red*. 21:12 Jesús les dijo: «Venid y comed.» Ninguno de los discípulos se atrevía a preguntarle: «¿Quién eres tú?», pues sabían que era el Señor. 21:13 Vino entonces Jesús, tomó el pan y se lo dio; y de igual modo el pez. 21:14 Ésta fue ya la tercera vez que Jesús se manifestó a los discípulos después de resucitar de entre los muertos.</p>
+<p>21:15 Después de haber comido, preguntó Jesús a Simón Pedro: «Simón, hijo de Juan, ¿me amas más que éstos?» Respondió él: «Sí, Señor, tú sabes que te quiero.» Jesús le dijo: «Apacienta mis corderos.» 21:16 Volvió a preguntarle por segunda vez: «Simón, hijo de Juan, ¿me amas?» Respondió él: «Sí, Señor, tú sabes que te quiero.» Le dijo Jesús: «Apacienta mis ovejas.» 21:17 Insistió por tercera vez: «Simón, hijo de Juan, ¿me quieres?» Se entristeció* Pedro de que le preguntase por tercera vez ‘¿Me quieres?’ y le dijo: «Señor, tú lo sabes todo; tú sabes que te quiero*.» Le dijo Jesús: «Apacienta mis ovejas*.</p>
+<p>21:18 «En verdad, en verdad te digo</p>
+<p>que, cuando eras joven,</p>
+<p>tú mismo te ceñías</p>
+<p>e ibas adonde querías;</p>
+<p>pero cuando llegues a viejo,</p>
+<p>extenderás tus manos</p>
+<p>y otro te ceñirá</p>
+<p>y te llevará adonde tú no quieras.»</p>
+<p>21:19 Con esto indicaba la clase de muerte* con que iba a glorificar a Dios. Dicho esto, añadió: «Sígueme*.»</p>
+<p>21:20 Pedro se volvió y vio que les seguía el discípulo a quien Jesús amaba, que además durante la cena se había recostado en su pecho y le había preguntado: «Señor, ¿quién es el que te va a entregar?» 21:21 Viéndole Pedro, preguntó a Jesús: «Señor, y éste, ¿qué?» 21:22 Jesús le respondió: «Si quiero que se quede hasta que yo venga*, ¿qué te importa? Tú, sígueme.» 21:23 Corrió, pues, entre los hermanos la voz de que este discípulo no moriría. Pero Jesús no había dicho a Pedro ‘No morirá’, sino ‘Si quiero que se quede hasta que yo venga’*.»</p>
+<h2 id="conclusión">Conclusión.</h2>
+<p>21:24 Éste es el discípulo que da testimonio de estas cosas y que las ha escrito, y nosotros sabemos* que su testimonio es verdadero.</p>
+<p>21:25 Hay además otras muchas cosas que hizo Jesús. Si se pusieran por escrito una por una, pienso que ni todo el mundo bastaría para contener los libros que se escribieran.</p>  </article> <!-- Pie del libro --> <div class="bible-page-footer bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-t-0 rounded-b-sm shadow-lg px-8 py-3"> <div class="flex justify-center"> <span class="text-sm text-stone-400 dark:text-gray-500 font-serif">— ✝ —</span> </div> </div> </div> </div> </main> <!-- Dialogs --> <dialog id="commentDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-amber-100/50 dark:bg-gray-700/50 rounded-t-lg"> <h3 id="commentTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Comentario</h3> <button id="closeCommentDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="commentContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-amber-100/30 dark:bg-gray-700/30 rounded-b-lg"> <button id="closeCommentBtn" class="w-full px-4 py-2 bg-amber-700 dark:bg-amber-600 text-white rounded hover:bg-amber-800 dark:hover:bg-amber-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> <dialog id="parallelsDialog" class="p-0 rounded-lg shadow-2xl backdrop:bg-black/60 max-w-xl w-[calc(100%-2rem)] sm:w-full bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-600 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0"> <div class="rounded-lg"> <div class="flex justify-between items-center p-4 border-b border-stone-200 dark:border-gray-700 bg-blue-100/50 dark:bg-blue-900/30 rounded-t-lg"> <h3 id="parallelsTitle" class="text-lg font-bold text-gray-800 dark:text-gray-100 font-serif">Referencias Paralelas</h3> <button id="closeParallelsDialog" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 text-2xl leading-none">&times;</button> </div> <div id="parallelsContent" class="p-5 max-h-[60vh] overflow-y-auto text-gray-700 dark:text-gray-300 font-serif leading-relaxed text-sm"> <!-- Contenido dinámico --> </div> <div class="p-3 border-t border-stone-200 dark:border-gray-700 bg-blue-100/20 dark:bg-blue-900/20 rounded-b-lg"> <button id="closeParallelsBtn" class="w-full px-4 py-2 bg-blue-700 dark:bg-blue-600 text-white rounded hover:bg-blue-800 dark:hover:bg-blue-700 transition text-sm">
+Cerrar
+</button> </div> </div> </dialog> </div>  </body></html>  <script>(function(){const slug = "nuevo-testamento/01-evangelios/04-juan";
+
+	// Variable global para el slug actual
+	window.currentBibliaSlug = slug;
+})();</script> <script type="module" src="/_astro/BibliaLayout.astro_astro_type_script_index_0_lang.DMp7HT_N.js"></script>
