@@ -784,7 +784,13 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 	}
 
 	// Inicializar en la primera carga
-	document.addEventListener('DOMContentLoaded', initializeAll);
+	// Verificar si el documento ya está cargado (puede pasar con scripts type="module")
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initializeAll);
+	} else {
+		// El DOM ya está listo, ejecutar inmediatamente
+		initializeAll();
+	}
 
 	// Re-inicializar cuando Astro hace una navegación SPA (ClientRouter)
 	document.addEventListener('astro:page-load', initializeAll);

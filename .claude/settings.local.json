@@ -13,7 +13,8 @@
       "Bash(npm uninstall:*)",
       "Bash(git rm:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nchore: add .vercel to gitignore and setup PWA\n\n- Add .vercel to .gitignore to prevent build artifacts from being tracked\n- Remove .vercel build artifacts from repo\n- PWA manifest and service worker already configured\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nchore: add .vercel to gitignore and setup PWA\n\n- Add .vercel to .gitignore to prevent build artifacts from being tracked\n- Remove .vercel build artifacts from repo\n- PWA manifest and service worker already configured\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)"
     ]
   }
 }
