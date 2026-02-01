@@ -1,1 +1,60 @@
-if(!self.define){let e,i={};const n=(n,r)=>(n=new URL(n+".js",r).href,i[n]||new Promise(i=>{if("document"in self){const e=document.createElement("script");e.src=n,e.onload=i,document.head.appendChild(e)}else e=n,importScripts(n),i()}).then(()=>{let e=i[n];if(!e)throw new Error(`Module ${n} didn’t register its module`);return e}));self.define=(r,s)=>{const o=e||("document"in self?document.currentScript.src:"")||location.href;if(i[o])return;let c={};const l=e=>n(e,o),t={module:{uri:o},exports:c,require:l};i[o]=Promise.all(r.map(e=>t[e]||l(e))).then(e=>(s(...e),c))}}define(["./workbox-fd0ffb34"],function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"registerSW.js",revision:"1872c500de691dce40960bb85481de07"},{url:"favicon.svg",revision:"8c13f40658976ea1dfb8ba37a8be0e8d"},{url:"_astro/_id_.CuWeqEV8.css",revision:null},{url:"_astro/_id_.C67thEwx.css",revision:null},{url:"_astro/TitleEditor.Cq1FHkM6.js",revision:null},{url:"_astro/MobileHeader.astro_astro_type_script_index_0_lang.BE11JRIP.js",revision:null},{url:"_astro/jsx-runtime.qnxbK-qf.js",revision:null},{url:"_astro/index.CQPPKyn2.js",revision:null},{url:"_astro/ClientRouter.astro_astro_type_script_index_0_lang.BScVxmeO.js",revision:null},{url:"_astro/client.kUL_Aixv.js",revision:null},{url:"_astro/BibliaLayout.astro_astro_type_script_index_0_lang.DMp7HT_N.js",revision:null},{url:"_astro/BibleSearch.D-FtWzSR.js",revision:null},{url:"_astro/admin.DFS-n7nW.css",revision:null},{url:"_astro/admin.astro_astro_type_script_index_0_lang.CHiAG3-5.js",revision:null},{url:"icons/icon-96.png",revision:"d14104ecf74748533ccee82cd1c8af52"},{url:"icons/icon-512.png",revision:"ccd19a5e8d2a9b7f308d2d1f994579f8"},{url:"icons/icon-192.png",revision:"010b2678303e770b93afeb9f5a62004a"},{url:"icons/favicon.svg",revision:"c8fc671689eceb30c2f60344d6edd260"},{url:"icons/favicon.ico",revision:"2c492b4dda114b51b0cf017eba5797f3"},{url:"icons/apple-touch-icon.png",revision:"59e2c8205198f560ce06abe9192529fb"},{url:"icons/apple-touch-icon.png",revision:"59e2c8205198f560ce06abe9192529fb"},{url:"icons/favicon.svg",revision:"c8fc671689eceb30c2f60344d6edd260"},{url:"icons/icon-192.png",revision:"010b2678303e770b93afeb9f5a62004a"},{url:"icons/icon-512.png",revision:"ccd19a5e8d2a9b7f308d2d1f994579f8"},{url:"icons/icon-96.png",revision:"d14104ecf74748533ccee82cd1c8af52"},{url:"manifest.webmanifest",revision:"5c44147277b8af1fb9bb0e6ab0a52ff0"}],{directoryIndex:"index.html"}),e.cleanupOutdatedCaches(),e.registerRoute(/^https:\/\/.*\.vercel\.app\/.*/i,new e.NetworkFirst({cacheName:"api-cache",plugins:[new e.ExpirationPlugin({maxEntries:50,maxAgeSeconds:86400})]}),"GET")});
+const CACHE_NAME = 'biblia-v1';
+const STATIC_ASSETS = [
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
+  '/icons/favicon.svg',
+];
+
+// Install - cache static assets
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll(STATIC_ASSETS);
+    })
+  );
+  self.skipWaiting();
+});
+
+// Activate - clean old caches
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames
+          .filter((name) => name !== CACHE_NAME)
+          .map((name) => caches.delete(name))
+      );
+    })
+  );
+  self.clients.claim();
+});
+
+// Fetch - network first, fallback to cache
+self.addEventListener('fetch', (event) => {
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') return;
+
+  // Skip chrome-extension and other non-http requests
+  if (!event.request.url.startsWith('http')) return;
+
+  event.respondWith(
+    fetch(event.request)
+      .then((response) => {
+        // Clone the response before caching
+        const responseClone = response.clone();
+
+        // Only cache successful responses
+        if (response.status === 200) {
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseClone);
+          });
+        }
+
+        return response;
+      })
+      .catch(() => {
+        // Network failed, try cache
+        return caches.match(event.request);
+      })
+  );
+});

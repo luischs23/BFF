@@ -1,8 +1,8 @@
 /* empty css                                 */
 import { c as createComponent, r as renderTemplate, a as renderComponent, b as renderScript, m as maybeRenderHead, d as addAttribute } from '../chunks/astro/server_COE-DgNr.mjs';
 import 'kleur/colors';
-import { g as getCollection } from '../chunks/_astro_content_B7cWur3-.mjs';
-import { $ as $$Layout } from '../chunks/Layout_BvS_D2fV.mjs';
+import { g as getCollection } from '../chunks/_astro_content_CiN2HTwc.mjs';
+import { $ as $$Layout } from '../chunks/Layout_CjyMAS2D.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Admin = createComponent(async ($$result, $$props, $$slots) => {
