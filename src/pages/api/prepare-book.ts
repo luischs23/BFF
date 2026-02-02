@@ -88,6 +88,9 @@ export const POST: APIRoute = async ({ request }) => {
     body = body.replace(/^(?!#)(?!\d)([A-ZÁÉÍÓÚÑ][^\n]{2,60}\*:)$/gm, '## $1');
     body = body.replace(/^(?!#)((?:I{1,3}|IV|V|VI{0,3}|IX|X{1,3})\.\s[A-ZÁÉÍÓÚÑa-záéíóúñ][^\n]{2,80})$/gm, '## $1');
 
+    // Detectar si es el libro de Salmos
+    const isPsalms = slug.includes('salmos') || slug.includes('02-salmos');
+
     // Transformación 3: Formatear versículos (X Y Texto -> X:Y Texto)
     let currentChapter = '1';
     const lines = body.split('\n');
@@ -96,14 +99,24 @@ export const POST: APIRoute = async ({ request }) => {
     for (let i = 0; i < lines.length; i++) {
       let line = lines[i];
 
+      // Para Salmos: detectar "SALMO X" o "# SALMO X" y usar X como capítulo
+      if (isPsalms) {
+        const psalmMatch = line.match(/^(?:#\s*)?SALMO\s+(\d+)/i);
+        if (psalmMatch) {
+          currentChapter = psalmMatch[1];
+          formattedLines.push(line);
+          continue;
+        }
+      }
+
       // Detectar si la línea ya tiene versículos formateados (X:Y o X:Ya donde a es letra)
       const existingChapterMatch = line.match(/(\d+):\d+[a-z]?/);
       if (existingChapterMatch) {
         currentChapter = existingChapterMatch[1];
       }
 
-      // Detectar inicio de capítulo nuevo con patrón "X *Y Texto" o "X *Ya Texto" (asterisco antes del versículo)
-      const chapterAsteriskVerseMatch = line.match(/^(\d+)\s+\*(\d+[a-z]?)\s+(.+)$/);
+      // Si NO es Salmos, detectar inicio de capítulo nuevo con patrón "X *Y Texto"
+      const chapterAsteriskVerseMatch = !isPsalms ? line.match(/^(\d+)\s+\*(\d+[a-z]?)\s+(.+)$/) : null;
       if (chapterAsteriskVerseMatch) {
         currentChapter = chapterAsteriskVerseMatch[1];
         const verse = chapterAsteriskVerseMatch[2];
@@ -111,8 +124,8 @@ export const POST: APIRoute = async ({ request }) => {
         line = `${currentChapter}:${verse} *${text}`;
       }
 
-      // Detectar inicio de capítulo nuevo con patrón "X Y Texto" o "X Ya Texto"
-      const chapterVerseMatch = line.match(/^(\d+)\s+(\d+[a-z]?)\s+(.+)$/);
+      // Si NO es Salmos, detectar inicio de capítulo nuevo con patrón "X Y Texto" o "X Ya Texto"
+      const chapterVerseMatch = !isPsalms ? line.match(/^(\d+)\s+(\d+[a-z]?)\s+(.+)$/) : null;
       if (chapterVerseMatch && !chapterAsteriskVerseMatch) {
         currentChapter = chapterVerseMatch[1];
         const verse = chapterVerseMatch[2];
