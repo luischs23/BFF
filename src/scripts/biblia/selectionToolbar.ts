@@ -103,11 +103,6 @@ function evaluateSelection(): void {
 
 	currentRange = range.cloneRange();
 	showToolbar(range);
-
-	// Limpiar la selección nativa DESPUÉS de guardar el range y mostrar el toolbar.
-	// Esto evita que Chrome Android muestre su barra de "Contextual Search" (Google).
-	// Nuestros botones usan currentRange.toString() y no necesitan la selección activa.
-	window.getSelection()?.removeAllRanges();
 }
 
 // ─────────────────────────────────────────────
@@ -166,7 +161,6 @@ function onCopyClick(e: Event): void {
 	e.stopPropagation();
 	if (!currentRange) return;
 
-	// Usar currentRange.toString() porque la selección nativa ya fue limpiada
 	const text = currentRange.toString();
 	const citation = buildCitation(currentRange);
 	const full = citation ? `${text}\n— ${citation}` : text;
