@@ -757,6 +757,8 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 	import { initChapterNavigation } from "../../scripts/biblia/chapterNavigation";
 	import { initHeaderAutoHide } from "../../scripts/biblia/headerAutoHide";
 	import { initVerseNavigation } from "../../scripts/biblia/verseNavigation";
+	import { initBibleCopyAttribution } from "../../scripts/biblia/copyAttribution";
+	import { initSelectionToolbar } from "../../scripts/biblia/selectionToolbar";
 
 	// Función para inicializar todos los sistemas
 	function initializeAll() {
@@ -781,6 +783,8 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		// Navegación
 		initChapterNavigation();
 		initHeaderAutoHide();
+		initBibleCopyAttribution();
+		initSelectionToolbar();
 	}
 
 	// Inicializar en la primera carga
