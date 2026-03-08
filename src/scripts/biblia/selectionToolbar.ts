@@ -48,8 +48,9 @@ function onPointerUp(e: MouseEvent): void {
 
 function onTouchEnd(e: TouchEvent): void {
 	if (toolbar?.contains(e.target as Node)) return;
-	// En mobile, dar más tiempo para que el browser finalice la selección
-	setTimeout(evaluateSelection, 300);
+	// Delay mayor en mobile: esperar a que el toolbar nativo del browser (Copiar/Compartir)
+	// haya aparecido arriba de la selección antes de mostrar el nuestro abajo
+	setTimeout(evaluateSelection, 600);
 }
 
 // selectionchange cubre el ajuste de handles táctiles en mobile
@@ -114,13 +115,22 @@ function showToolbar(range: Range): void {
 	const tw = toolbar.offsetWidth || 96;
 	const th = toolbar.offsetHeight || 44;
 
-	// En mobile intentar mostrar encima para no quedar tapado por el teclado
 	const isMobile = window.innerWidth < 768;
-	let top = isMobile ? rect.top - th - 12 : rect.bottom + 10;
 
-	// Si no cabe arriba en mobile, o no cabe abajo en desktop, invertir
-	if (isMobile && top < 8) top = rect.bottom + 10;
-	if (!isMobile && top + th > window.innerHeight - 8) top = rect.top - th - 10;
+	// En mobile: SIEMPRE debajo de la selección.
+	// El toolbar nativo del browser (Copiar / Compartir / Seleccionar todo)
+	// aparece ENCIMA de la selección, por eso el nuestro va ABAJO para no solaparse.
+	// En desktop: debajo por defecto, arriba si no hay espacio.
+	let top = rect.bottom + (isMobile ? 48 : 10);
+
+	if (!isMobile && top + th > window.innerHeight - 8) {
+		top = rect.top - th - 10;
+	}
+
+	// En mobile limitar para no salirse de pantalla por abajo
+	if (isMobile) {
+		top = Math.min(top, window.innerHeight - th - 8);
+	}
 
 	let left = rect.left + rect.width / 2 - tw / 2;
 	left = Math.max(8, Math.min(left, window.innerWidth - tw - 8));
