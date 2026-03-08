@@ -26,6 +26,12 @@ if (!(window as any)[WIN_KEY]) {
 	// Ocultar al hacer click fuera
 	document.addEventListener('mousedown', onDocumentMouseDown);
 	document.addEventListener('touchstart', onDocumentTouchStart as EventListener);
+	// Suprimir menú contextual nativo (long-press en Android/iOS) dentro del contenido bíblico
+	document.addEventListener('contextmenu', (e: Event) => {
+		if ((e.target as Element).closest('.bible-content')) {
+			e.preventDefault();
+		}
+	});
 } else {
 	injectStyles();
 	ensureToolbar();
