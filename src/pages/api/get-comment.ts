@@ -117,12 +117,18 @@ export const POST: APIRoute = async ({ request }) => {
       });
     }
 
-    // Parsear la referencia: "gn-1-1" o "gn-1-2-a" o "gn-1"
+    // Parsear la referencia: "gn-1-1" o "gn-1-2-a" o "gn-1" o "1cro-1-a"
     const parts = ref.toLowerCase().split('-');
     const bookKey = parts[0];
     const chapter = parts[1];
-    const verse = parts[2] || null;
-    const letter = parts[3] || null;
+    let verse = parts[2] || null;
+    let letter = parts[3] || null;
+
+    // Si verse es una sola letra (ej: "a", "b"), es realmente una letra de comentario, no un versículo
+    if (verse && /^[a-z]$/.test(verse) && !letter) {
+      letter = verse;
+      verse = null;
+    }
 
     // Determinar la ruta del archivo de comentarios
     let commentsPath: string;
@@ -187,9 +193,13 @@ export const POST: APIRoute = async ({ request }) => {
     let searchTitle: string;
 
     if (letter) {
-      // Buscar: "Gn 1 2 (a)" o similar
-      searchPattern = `${bookAbbrev} ${chapter} ${verse} (${letter})`;
-      searchTitle = `${bookAbbrev} ${chapter},${verse}${letter}`;
+      // Buscar: "Gn 1 2 (a)" o "Gn 1 (a)" (cuando no hay versículo)
+      searchPattern = verse
+        ? `${bookAbbrev} ${chapter} ${verse} (${letter})`
+        : `${bookAbbrev} ${chapter} (${letter})`;
+      searchTitle = verse
+        ? `${bookAbbrev} ${chapter},${verse}${letter}`
+        : `${bookAbbrev} ${chapter}${letter}`;
     } else if (verse) {
       // Buscar: "Gn 1 1" (sin letra)
       searchPattern = `${bookAbbrev} ${chapter} ${verse}`;

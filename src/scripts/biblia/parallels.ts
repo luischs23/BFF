@@ -204,6 +204,32 @@ export async function initParallelsSystem(currentSlug: string): Promise<void> {
 		if (e.target === parallelsDialog) parallelsDialog.close();
 	});
 
+	// Manejar clicks en links de paralelos (mismo libro o diferente)
+	parallelsDialog?.addEventListener('click', (e) => {
+		const link = (e.target as HTMLElement).closest('.parallel-link') as HTMLAnchorElement | null;
+		if (!link) return;
+
+		const href = link.getAttribute('href') || '';
+		const hashIndex = href.indexOf('#');
+		if (hashIndex === -1) return;
+
+		const path = href.substring(0, hashIndex);
+		const hash = href.substring(hashIndex + 1);
+		const currentPath = window.location.pathname.replace(/\/$/, '');
+		const linkPath = path.replace(/\/$/, '');
+
+		// Si es el mismo libro, navegar al hash sin recargar página
+		if (!path || currentPath === linkPath || currentPath.endsWith(linkPath)) {
+			e.preventDefault();
+			parallelsDialog.close();
+			// Actualizar el hash dispara el evento hashchange → initVerseNavigation
+			window.location.hash = hash;
+		} else {
+			// Diferente libro: cerrar el diálogo y dejar que el navegador navegue
+			parallelsDialog.close();
+		}
+	});
+
 	// Inicializar versículos clicables y luego precargar paralelos
 	await initVerseClickHandlers(currentSlug);
 	await preloadParallels(currentSlug);

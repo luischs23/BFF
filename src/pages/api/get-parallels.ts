@@ -188,7 +188,7 @@ function parseParallelsFile(content: string, bookAbbrev: string): Map<string, Pa
 
     // Parsear líneas de paralelos
     const isNT = line.startsWith('↑');
-    const cleanLine = line.replace(/^↑\s*/, '');
+    const cleanLine = line.replace(/^↑\s*/, '').replace(/^\|\|\s*/, '').replace(/^=\s*/, '');
 
     // Puede tener múltiples referencias separadas por ";"
     const refs = cleanLine.split(';').map(r => r.trim());
