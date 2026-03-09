@@ -4,17 +4,18 @@ description: 'Libro de Job'
 img: blog-placeholder-4.jpg
 ---
 # JOB
-## I. Prólogo*
+## I. Prólogo<span class="note-ref" data-ref="jb-1" title="Ver comentario">&#42;</span>
 ## Satán prueba a Job.
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Érase una vez un hombre llamado Job, que vivía en el país de Us*. Era un hombre íntegro y recto, temeroso de Dios y apartado del mal. <sup>2</sup> Tenía siete hijos y tres hijas. <sup>3</sup> Poseía siete mil ovejas, tres mil camellos y quinientas yuntas de bueyes, quinientas burras y numerosos siervos. Era el más rico de toda la gente de Oriente*. <sup>4</sup> Sus hijos tenían por costumbre juntarse para comer en casa de uno de ellos, por turnos; y mandaban llamar a las tres hermanas para que comieran con ellos. <sup>5</sup> Una vez acabados estos días de fiesta, Job los llamaba para purificarlos*; al día siguiente, de madrugada, ofrecía un holocausto por cada uno de ellos, pues pensaba que a lo mejor habían pecado maldiciendo* a Dios en su interior. Siempre hacía lo mismo.
 
-<sup>6</sup> Un día en que los hijos de Dios fueron a presentarse ante Yahvé*, apareció también entre ellos el Satán*. <sup>7</sup> Dijo entonces Yahvé al Satán: «¿De dónde vienes?». El Satán respondió: «De dar vueltas por la tierra y pasearme por ella». <sup>8</sup> Yahvé replicó al Satán: «¿Te has fijado en mi siervo Job? No hay nadie como él en la tierra: es un hombre íntegro y recto, temeroso de Dios y apartado del mal». <sup>9</sup> Respondió el Satán a Yahvé: «¿Te crees que Job teme a Dios por nada? <sup>10</sup> ¿No ves que lo has rodeado de protección, a él, a su familia y a todas sus posesiones? Has bendecido sus actividades y sus rebaños se extienden por el país. <sup>11</sup> Pero trata de poner la mano en sus posesiones; te apuesto a que te maldice a la cara». <sup>12</sup> Contestó Yahvé al Satán: «De acuerdo. Métete con sus posesiones, pero no le pongas la mano encima». Y el Satán salió de la presencia de Yahvé.
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Érase una vez un hombre llamado Job, que vivía en el país de Us<span class="note-ref" data-ref="jb-1-1" title="Ver comentario">&#42;</span>. Era un hombre íntegro y recto, temeroso de Dios y apartado del mal. <sup>2</sup> Tenía siete hijos y tres hijas. <sup>3</sup> Poseía siete mil ovejas, tres mil camellos y quinientas yuntas de bueyes, quinientas burras y numerosos siervos. Era el más rico de toda la gente de Oriente<span class="note-ref" data-ref="jb-1-3" title="Ver comentario">&#42;</span>. <sup>4</sup> Sus hijos tenían por costumbre juntarse para comer en casa de uno de ellos, por turnos; y mandaban llamar a las tres hermanas para que comieran con ellos. <sup>5</sup> Una vez acabados estos días de fiesta, Job los llamaba para purificarlos<span class="note-ref" data-ref="jb-1-5-a" title="Ver comentario">&#42;</span>; al día siguiente, de madrugada, ofrecía un holocausto por cada uno de ellos, pues pensaba que a lo mejor habían pecado maldiciendo<span class="note-ref" data-ref="jb-1-5-b" title="Ver comentario">&#42;</span> a Dios en su interior. Siempre hacía lo mismo.
 
-<sup>13</sup> Un día en que sus hijos e hijas comían y bebían en casa de su hermano mayor, <sup>14</sup> llegó un mensajero donde Job diciendo: «Estaban los bueyes arando y las burras pastando al lado, <sup>15</sup> y de pronto han caído sobre ellos los sabeos* y se los han llevado, después de haber matado a los siervos a filo de espada. Sólo yo he podido escapar para contártelo». <sup>16</sup> Todavía estaba éste hablando, cuando llegó otro con el siguiente mensaje: «Ha caído del cielo fuego de Dios* y ha pegado fuego y consumido a las ovejas y a los pastores. Sólo yo he podido escapar para contártelo». <sup>17</sup> Todavía estaba éste hablando, cuando llegó otro con el siguiente mensaje: «Los caldeos, divididos en tres grupos, se han echado sobre los camellos y se los han llevado, después de haber matado a los siervos a filo de espada. Sólo yo he podido escapar para contártelo». <sup>18</sup> Todavía estaba éste hablando, cuando llegó otro con el siguiente mensaje: «Tus hijos e hijas estaban comiendo y bebiendo en casa del hermano mayor; <sup>19</sup> de repente, un viento huracanado del otro lado del desierto ha embestido contra los cuatro ángulos de la casa, que se ha derrumbado sobre los jóvenes y han muerto. Sólo yo he podido escapar para contártelo». <sup>20</sup> Se levantó Job, rasgó su manto y se rapó la cabeza*; después cayó en tierra en actitud humillada <sup>21</sup> y dijo:
+<sup>6</sup> Un día en que los hijos de Dios fueron a presentarse ante Yahvé<span class="note-ref" data-ref="jb-1-6-a" title="Ver comentario">&#42;</span>, apareció también entre ellos el Satán<span class="note-ref" data-ref="jb-1-6-b" title="Ver comentario">&#42;</span>. <sup>7</sup> Dijo entonces Yahvé al Satán: «¿De dónde vienes?». El Satán respondió: «De dar vueltas por la tierra y pasearme por ella». <sup>8</sup> Yahvé replicó al Satán: «¿Te has fijado en mi siervo Job? No hay nadie como él en la tierra: es un hombre íntegro y recto, temeroso de Dios y apartado del mal». <sup>9</sup> Respondió el Satán a Yahvé: «¿Te crees que Job teme a Dios por nada? <sup>10</sup> ¿No ves que lo has rodeado de protección, a él, a su familia y a todas sus posesiones? Has bendecido sus actividades y sus rebaños se extienden por el país. <sup>11</sup> Pero trata de poner la mano en sus posesiones; te apuesto a que te maldice a la cara». <sup>12</sup> Contestó Yahvé al Satán: «De acuerdo. Métete con sus posesiones, pero no le pongas la mano encima». Y el Satán salió de la presencia de Yahvé.
+
+<sup>13</sup> Un día en que sus hijos e hijas comían y bebían en casa de su hermano mayor, <sup>14</sup> llegó un mensajero donde Job diciendo: «Estaban los bueyes arando y las burras pastando al lado, <sup>15</sup> y de pronto han caído sobre ellos los sabeos<span class="note-ref" data-ref="jb-1-15" title="Ver comentario">&#42;</span> y se los han llevado, después de haber matado a los siervos a filo de espada. Sólo yo he podido escapar para contártelo». <sup>16</sup> Todavía estaba éste hablando, cuando llegó otro con el siguiente mensaje: «Ha caído del cielo fuego de Dios<span class="note-ref" data-ref="jb-1-16" title="Ver comentario">&#42;</span> y ha pegado fuego y consumido a las ovejas y a los pastores. Sólo yo he podido escapar para contártelo». <sup>17</sup> Todavía estaba éste hablando, cuando llegó otro con el siguiente mensaje: «Los caldeos, divididos en tres grupos, se han echado sobre los camellos y se los han llevado, después de haber matado a los siervos a filo de espada. Sólo yo he podido escapar para contártelo». <sup>18</sup> Todavía estaba éste hablando, cuando llegó otro con el siguiente mensaje: «Tus hijos e hijas estaban comiendo y bebiendo en casa del hermano mayor; <sup>19</sup> de repente, un viento huracanado del otro lado del desierto ha embestido contra los cuatro ángulos de la casa, que se ha derrumbado sobre los jóvenes y han muerto. Sólo yo he podido escapar para contártelo». <sup>20</sup> Se levantó Job, rasgó su manto y se rapó la cabeza<span class="note-ref" data-ref="jb-1-20" title="Ver comentario">&#42;</span>; después cayó en tierra en actitud humillada <sup>21</sup> y dijo:
 
 «Desnudo salí del seno materno
 
-y desnudo volveré a él*.
+y desnudo volveré a él<span class="note-ref" data-ref="jb-1-21" title="Ver comentario">&#42;</span>.
 
 ## Yahvé me lo ha dado y Yahvé me lo ha quitado.
 
@@ -22,11 +23,11 @@ y desnudo volveré a él*.
 
 <sup>22</sup> A pesar de todo, Job no pecó ni imputó nada indigno a Dios.
 
-<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Un día en que los hijos de Dios fueron a presentarse ante Yahvé, apareció también entre ellos el Satán*. <sup>2</sup> Dijo Yahvé al Satán: «¿De dónde vienes?». Respondió: «De dar vueltas por la tierra y pasearme por ella». <sup>3</sup> Yahvé replicó al Satán: «¿Te has fijado en mi siervo Job? No hay nadie como él en la tierra: es un hombre íntegro y recto, temeroso de Dios y apartado del mal. A pesar de todo, persevera en su integridad; y eso que me has incitado para que lo destruya sin motivo». <sup>4</sup> Contestó el Satán a Yahvé: «Piel tras piel*. El hombre da por su vida todo lo que tiene. <sup>5</sup> Pero trata de ponerle la mano encima, dáñalo en los huesos y en la carne; te apuesto a que te maldice a la cara». <sup>6</sup> Respondió Yahvé al Satán: «Lo dejo en tus manos, pero respeta su vida». <sup>7</sup> El Satán salió de la presencia de Yahvé.
+<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Un día en que los hijos de Dios fueron a presentarse ante Yahvé, apareció también entre ellos el Satán<span class="note-ref" data-ref="jb-2-1" title="Ver comentario">&#42;</span>. <sup>2</sup> Dijo Yahvé al Satán: «¿De dónde vienes?». Respondió: «De dar vueltas por la tierra y pasearme por ella». <sup>3</sup> Yahvé replicó al Satán: «¿Te has fijado en mi siervo Job? No hay nadie como él en la tierra: es un hombre íntegro y recto, temeroso de Dios y apartado del mal. A pesar de todo, persevera en su integridad; y eso que me has incitado para que lo destruya sin motivo». <sup>4</sup> Contestó el Satán a Yahvé: «Piel tras piel<span class="note-ref" data-ref="jb-2-4" title="Ver comentario">&#42;</span>. El hombre da por su vida todo lo que tiene. <sup>5</sup> Pero trata de ponerle la mano encima, dáñalo en los huesos y en la carne; te apuesto a que te maldice a la cara». <sup>6</sup> Respondió Yahvé al Satán: «Lo dejo en tus manos, pero respeta su vida». <sup>7</sup> El Satán salió de la presencia de Yahvé.
 
-E hirió a Job con úlceras malignas*, desde la planta del pie hasta la coronilla. <sup>8</sup> Job se sentó en el polvo y cogió un cascote para arrascarse con él. <sup>9</sup> Su mujer le dijo entonces: «¿Aún persistes en tu integridad? Maldice a Dios y muérete». <sup>10</sup> Job le respondió: «Hablas como una necia. ¡Resulta que estamos dispuestos a recibir de Dios lo bueno y no lo estamos para recibir lo malo!». A pesar de todo, Job no pecó con sus labios.
+E hirió a Job con úlceras malignas<span class="note-ref" data-ref="jb-2-7" title="Ver comentario">&#42;</span>, desde la planta del pie hasta la coronilla. <sup>8</sup> Job se sentó en el polvo y cogió un cascote para arrascarse con él. <sup>9</sup> Su mujer le dijo entonces: «¿Aún persistes en tu integridad? Maldice a Dios y muérete». <sup>10</sup> Job le respondió: «Hablas como una necia. ¡Resulta que estamos dispuestos a recibir de Dios lo bueno y no lo estamos para recibir lo malo!». A pesar de todo, Job no pecó con sus labios.
 
-<sup>11</sup> Tres amigos de Job se enteraron de la desgracia que le había sobrevenido y acudieron desde sus respectivos países. Eran Elifaz de Temán, Bildad de Súaj y Sofar de Naamat*. Los tres se pusieron de acuerdo para ir a compartir su pena y consolarlo. <sup>12</sup> Al verlo de lejos, no lo reconocieron. Empezaron entonces a llorar a gritos, rasgaron sus mantos y echaron polvo sobre sus cabezas*. <sup>13</sup> Se sentaron en el suelo a su lado durante siete días y siete noches, sin decirle una sola palabra, viendo su terrible dolor.
+<sup>11</sup> Tres amigos de Job se enteraron de la desgracia que le había sobrevenido y acudieron desde sus respectivos países. Eran Elifaz de Temán, Bildad de Súaj y Sofar de Naamat<span class="note-ref" data-ref="jb-2-11" title="Ver comentario">&#42;</span>. Los tres se pusieron de acuerdo para ir a compartir su pena y consolarlo. <sup>12</sup> Al verlo de lejos, no lo reconocieron. Empezaron entonces a llorar a gritos, rasgaron sus mantos y echaron polvo sobre sus cabezas<span class="note-ref" data-ref="jb-2-12" title="Ver comentario">&#42;</span>. <sup>13</sup> Se sentaron en el suelo a su lado durante siete días y siete noches, sin decirle una sola palabra, viendo su terrible dolor.
 
 ## II. Diálogo
 ## 1. PRIMER CICLO DE DISCURSOS
@@ -35,7 +36,7 @@ E hirió a Job con úlceras malignas*, desde la planta del pie hasta la coronill
 
 <sup>3</sup> Muera el día en que nací,
 
-la noche que anunció: «¡Ha sido concebido un varón!»*.
+la noche que anunció: «¡Ha sido concebido un varón!»<span class="note-ref" data-ref="jb-3-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Que ese día se vuelva tinieblas,
 
@@ -47,11 +48,11 @@ que la luz no brille sobre él.
 
 que una nube se cierna sobre él,
 
-que un eclipse lo aterrorice*.
+que un eclipse lo aterrorice<span class="note-ref" data-ref="jb-3-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Sí, que la oscuridad se apodere de él,
 
-que no se sume a los días del año*,
+que no se sume a los días del año<span class="note-ref" data-ref="jb-3-6" title="Ver comentario">&#42;</span>,
 
 ni entre en el cómputo de los meses.
 
@@ -59,9 +60,9 @@ ni entre en el cómputo de los meses.
 
 vacía de gritos de júbilo.
 
-<sup>8</sup> Que la maldigan los que maldicen los días*,
+<sup>8</sup> Que la maldigan los que maldicen los días<span class="note-ref" data-ref="jb-3-8-a" title="Ver comentario">&#42;</span>,
 
-los expertos en despertar a Leviatán*.
+los expertos en despertar a Leviatán<span class="note-ref" data-ref="jb-3-8-b" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Que se ofusquen las estrellas de su aurora,
 
@@ -87,17 +88,17 @@ ahora dormiría tranquilo
 
 <sup>14</sup> con los reyes y consejeros de la tierra
 
-que se hacen construir mausoleos*,
+que se hacen construir mausoleos<span class="note-ref" data-ref="jb-3-14" title="Ver comentario">&#42;</span>,
 
 <sup>15</sup> o con los príncipes que abundan en oro,
 
-que llenan de plata sus tumbas*.
+que llenan de plata sus tumbas<span class="note-ref" data-ref="jb-3-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Como aborto ignorado, no existiría,
 
 como niño que no llega a ver la luz.
 
-<sup>17</sup> Allí* acaba la agitación de los malvados,
+<sup>17</sup> Allí<span class="note-ref" data-ref="jb-3-17" title="Ver comentario">&#42;</span> acaba la agitación de los malvados,
 
 allí reposa la gente ya sin fuerzas.
 
@@ -117,7 +118,7 @@ vida a los que viven amargados,
 
 y la buscan con más ansia que a un tesoro,
 
-<sup>22</sup> que gozarían ante el túmulo funerario*
+<sup>22</sup> que gozarían ante el túmulo funerario<span class="note-ref" data-ref="jb-3-22" title="Ver comentario">&#42;</span>
 
 y se alegrarían al encontrar la tumba,
 
@@ -137,10 +138,10 @@ me encuentro con lo que más me aterraba.
 
 no descanso, todo es sobresalto.
 
-## Confianza en Dios*.
+## Confianza en Dios<span class="note-ref" data-ref="jb-4" title="Ver comentario">&#42;</span>.
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Elifaz de Temán respondió así:
 
-<sup>2</sup> ¿Aguantarás si alguien te dirige la palabra?*
+<sup>2</sup> ¿Aguantarás si alguien te dirige la palabra?<span class="note-ref" data-ref="jb-4-2" title="Ver comentario">&#42;</span>
 
 ¡Pero es que no se puede guardar silencio!
 
@@ -180,7 +181,7 @@ pero a los cachorros les arrancan los dientes.
 
 las crías de la leona se dispersan.
 
-<sup>12</sup> He tenido una revelación furtiva*,
+<sup>12</sup> He tenido una revelación furtiva<span class="note-ref" data-ref="jb-4-12" title="Ver comentario">&#42;</span>,
 
 mis oídos han captado su susurro.
 
@@ -208,7 +209,7 @@ puro un hombre ante su Hacedor?
 
 <sup>18</sup> Si ni siquiera confía en sus siervos
 
-y hasta en sus mensajeros percibe defectos*,
+y hasta en sus mensajeros percibe defectos<span class="note-ref" data-ref="jb-4-18" title="Ver comentario">&#42;</span>,
 
 <sup>19</sup> ¿qué decir de los que viven entre adobes,
 
@@ -222,11 +223,11 @@ desaparecen y nadie lo advierte.
 
 <sup>21</sup> Les arrancan las cuerdas de su tienda,
 
-mueren desprovistos de sabiduría*».
+mueren desprovistos de sabiduría<span class="note-ref" data-ref="jb-4-21" title="Ver comentario">&#42;</span>».
 
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Grita ahora, a ver si te responden,
 
-¿a qué santo* vas a recurrir?
+¿a qué santo<span class="note-ref" data-ref="jb-5-1" title="Ver comentario">&#42;</span> vas a recurrir?
 
 <sup>2</sup> Cierto que el despecho mata al insensato,
 
@@ -238,11 +239,11 @@ y de pronto malograrse su morada,
 
 <sup>4</sup> a sus hijos metidos en apuros,
 
-acosados en la puerta* sin defensor.
+acosados en la puerta<span class="note-ref" data-ref="jb-5-4" title="Ver comentario">&#42;</span> sin defensor.
 
 <sup>5</sup> Su cosecha la come el hambriento,
 
-pues Dios se la quita de entre los dientes*;
+pues Dios se la quita de entre los dientes<span class="note-ref" data-ref="jb-5-5" title="Ver comentario">&#42;</span>;
 
 el sediento se bebe su patrimonio.
 
@@ -252,11 +253,11 @@ ni el sufrimiento brota del suelo.
 
 <sup>7</sup> Es el hombre quien nace para sufrir,
 
-como las chispas* para alzar el vuelo.
+como las chispas<span class="note-ref" data-ref="jb-5-7" title="Ver comentario">&#42;</span> para alzar el vuelo.
 
 <sup>8</sup> Yo que tú acudiría a Dios,
 
-a Dios expondría mi causa*.
+a Dios expondría mi causa<span class="note-ref" data-ref="jb-5-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Él hace prodigios insondables,
 
@@ -282,7 +283,7 @@ los planes de los taimados fracasan.
 
 van a tientas de día como de noche.
 
-<sup>15</sup> Él arranca de su boca al hombre arruinado*,
+<sup>15</sup> Él arranca de su boca al hombre arruinado<span class="note-ref" data-ref="jb-5-15" title="Ver comentario">&#42;</span>,
 
 al pobre de la mano opresora.
 
@@ -292,7 +293,7 @@ y la maldad cierra su boca.
 
 <sup>17</sup> ¡Dichosa la persona a quien Dios corrige!
 
-No desprecies la lección* de Shaddai*,
+No desprecies la lección<span class="note-ref" data-ref="jb-5-17-a" title="Ver comentario">&#42;</span> de Shaddai<span class="note-ref" data-ref="jb-5-17-b" title="Ver comentario">&#42;</span>,
 
 <sup>18</sup> porque hiere y pone la venda,
 
@@ -300,7 +301,7 @@ golpea y él mismo sana;
 
 <sup>19</sup> te libra seis veces de la angustia,
 
-y una séptima te evita el dolor*.
+y una séptima te evita el dolor<span class="note-ref" data-ref="jb-5-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> En plena carestía te salvará de la muerte,
 
@@ -314,7 +315,7 @@ no temerás la desgracia que amenaza.
 
 de las fieras salvajes nunca temerás.
 
-<sup>23</sup> Pactarás con los espíritus campestres*,
+<sup>23</sup> Pactarás con los espíritus campestres<span class="note-ref" data-ref="jb-5-23" title="Ver comentario">&#42;</span>,
 
 con las bestias salvajes vivirás en paz.
 
@@ -357,11 +358,11 @@ me hacen frente los terrores de Dios.
 
 <sup>6</sup> ¿Come alguien lo soso sin sal?,
 
-¿tiene sabor la clara del huevo*?
+¿tiene sabor la clara del huevo<span class="note-ref" data-ref="jb-6-6" title="Ver comentario">&#42;</span>?
 
 <sup>7</sup> Lo que me daba asco catar
 
-es ahora mi comida de enfermo*.
+es ahora mi comida de enfermo<span class="note-ref" data-ref="jb-6-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Ojalá se cumpla mi deseo
 
@@ -375,7 +376,7 @@ dejarme de su mano y rematarme.
 
 torturado sin piedad, exultaría,
 
-pues nunca he rechazado los decretos del Santo*.
+pues nunca he rechazado los decretos del Santo<span class="note-ref" data-ref="jb-6-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> ¿Me quedan fuerzas para aguantar?,
 
@@ -387,11 +388,11 @@ pues nunca he rechazado los decretos del Santo*.
 
 <sup>13</sup> Ya no sé dónde apoyarme,
 
-estoy aislado y sin ayuda*.
+estoy aislado y sin ayuda<span class="note-ref" data-ref="jb-6-13" title="Ver comentario">&#42;</span>.
 
-<sup>14</sup> Quien retira* la compasión al prójimo
+<sup>14</sup> Quien retira<span class="note-ref" data-ref="jb-6-14-a" title="Ver comentario">&#42;</span> la compasión al prójimo
 
-abandona el temor de Shaddai*.
+abandona el temor de Shaddai<span class="note-ref" data-ref="jb-6-14-b" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Mis hermanos engañan lo mismo que un torrente,
 
@@ -399,7 +400,7 @@ como cursos de agua después de la crecida:
 
 <sup>16</sup> bajan turbios a causa del deshielo,
 
-cuando sobre ellos se funde la nieve*,
+cuando sobre ellos se funde la nieve<span class="note-ref" data-ref="jb-6-16" title="Ver comentario">&#42;</span>,
 
 <sup>17</sup> pero en tiempo de estiaje se secan,
 
@@ -415,9 +416,9 @@ van en su busca los convoyes de Saba,
 
 <sup>20</sup> mas su esperanza se ve defraudada,
 
-llegan allí y quedan decepcionados*.
+llegan allí y quedan decepcionados<span class="note-ref" data-ref="jb-6-20" title="Ver comentario">&#42;</span>.
 
-<sup>21</sup> Así sois ahora para mí*:
+<sup>21</sup> Así sois ahora para mí<span class="note-ref" data-ref="jb-6-21" title="Ver comentario">&#42;</span>:
 
 veis mi horror y lo teméis.
 
@@ -431,7 +432,7 @@ de manos del violento rescatadme?»
 
 <sup>24</sup> Instruidme y guardaré silencio,
 
-hacedme ver dónde está mi error*.
+hacedme ver dónde está mi error<span class="note-ref" data-ref="jb-6-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> Las palabras razonables se escuchan a gusto,
 
@@ -457,9 +458,9 @@ volveos, que va en ello mi inocencia!
 
 ¿no distingue mi boca el infortunio?
 
-<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> El hombre en la tierra cumple un servicio*,
+<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> El hombre en la tierra cumple un servicio<span class="note-ref" data-ref="jb-7-1-a" title="Ver comentario">&#42;</span>,
 
-vida de mercenario* es su vida;
+vida de mercenario<span class="note-ref" data-ref="jb-7-1-b" title="Ver comentario">&#42;</span> es su vida;
 
 <sup>2</sup> como esclavo, suspira por la sombra,
 
@@ -471,7 +472,7 @@ noches de agobio me tocan en suerte.
 
 <sup>4</sup> Al acostarme pienso: «¿Cuándo llegará el día?»,
 
-y al levantarme: «¿Cuándo se hará de noche*?
+y al levantarme: «¿Cuándo se hará de noche<span class="note-ref" data-ref="jb-7-4" title="Ver comentario">&#42;</span>?
 
 ## Me harto de pesadillas hasta el alba.
 
@@ -483,7 +484,7 @@ la piel se me agrieta y supura.
 
 se consumen sin nada de esperanza.
 
-<sup>7</sup> Recuerda*: mi vida es sólo un soplo,
+<sup>7</sup> Recuerda<span class="note-ref" data-ref="jb-7-7" title="Ver comentario">&#42;</span>: mi vida es sólo un soplo,
 
 mis ojos ya no verán la dicha.
 
@@ -493,7 +494,7 @@ te fijarás en mí, pero no estaré.
 
 <sup>9</sup> Como nube que se esfuma y pasa,
 
-el que baja al Seol ya no sube*.
+el que baja al Seol ya no sube<span class="note-ref" data-ref="jb-7-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> No vuelve ya a su casa,
 
@@ -505,7 +506,7 @@ hablaré llevado por la angustia,
 
 me quejaré repleto de amargura.
 
-<sup>12</sup> ¿Soy yo el Mar o el Dragón*
+<sup>12</sup> ¿Soy yo el Mar o el Dragón<span class="note-ref" data-ref="jb-7-12" title="Ver comentario">&#42;</span>
 
 para que me pongas un guardián?
 
@@ -517,9 +518,9 @@ compartirá mi cama mi llanto»,
 
 me espantas después con visiones.
 
-<sup>15</sup> Preferiría morir estrangulado*:
+<sup>15</sup> Preferiría morir estrangulado<span class="note-ref" data-ref="jb-7-15-a" title="Ver comentario">&#42;</span>:
 
-¡antes la muerte que mis dolores*!
+¡antes la muerte que mis dolores<span class="note-ref" data-ref="jb-7-15-b" title="Ver comentario">&#42;</span>!
 
 <sup>16</sup> Me da igual, no he de vivir para siempre;
 
@@ -527,7 +528,7 @@ déjame en paz, mis días son un soplo.
 
 <sup>17</sup> ¿Qué es el hombre para darle importancia,
 
-para que pongas en él tu interés*,
+para que pongas en él tu interés<span class="note-ref" data-ref="jb-7-17" title="Ver comentario">&#42;</span>,
 
 <sup>18</sup> para que lo inspecciones cada mañana
 
@@ -537,13 +538,13 @@ y a cada instante lo pongas a prueba?
 
 ¿me darás tiempo a tragar saliva?
 
-<sup>20</sup> Si he pecado, ¿en qué te afecta*,
+<sup>20</sup> Si he pecado, ¿en qué te afecta<span class="note-ref" data-ref="jb-7-20-a" title="Ver comentario">&#42;</span>,
 
 Centinela de los hombres?
 
 ¿Por qué convertirme en blanco?
 
-¿Por qué te sirvo de carga*?
+¿Por qué te sirvo de carga<span class="note-ref" data-ref="jb-7-20-b" title="Ver comentario">&#42;</span>?
 
 <sup>21</sup> ¿Por qué no olvidas mi ofensa,
 
@@ -551,7 +552,7 @@ pasas por alto mi culpa,
 
 si pronto yaceré en tierra
 
-y no estaré aunque me busques*?
+y no estaré aunque me busques<span class="note-ref" data-ref="jb-7-21" title="Ver comentario">&#42;</span>?
 
 ## La trayectoria necesaria de la justicia divina.
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> Bildad de Súaj respondió así:
@@ -562,7 +563,7 @@ con palabras como viento impetuoso?
 
 <sup>3</sup> ¿Puede Dios torcer el derecho,
 
-pervertir Shaddai la justicia*?
+pervertir Shaddai la justicia<span class="note-ref" data-ref="jb-8-3" title="Ver comentario">&#42;</span>?
 
 <sup>4</sup> Si tus hijos pecaron contra él,
 
@@ -584,7 +585,7 @@ comparado a tu espléndido futuro.
 
 <sup>8</sup> Pregunta, si no, a pasadas generaciones,
 
-medita* en la experiencia de sus mayores.
+medita<span class="note-ref" data-ref="jb-8-8" title="Ver comentario">&#42;</span> en la experiencia de sus mayores.
 
 <sup>9</sup> De ayer somos nosotros, nada sabemos;
 
@@ -592,7 +593,7 @@ nuestra vida en la tierra pasa como sombra.
 
 <sup>10</sup> Pero ellos te instruirán, te hablarán
 
-con máximas sacadas de la reflexión*:
+con máximas sacadas de la reflexión<span class="note-ref" data-ref="jb-8-10" title="Ver comentario">&#42;</span>:
 
 <sup>11</sup> «¿Brota el papiro fuera de la marisma?,
 
@@ -604,7 +605,7 @@ antes que cualquier hierba se agosta».
 
 <sup>13</sup> Así es el fin de quien de Dios se olvida,
 
-la esperanza del impío fracasa*.
+la esperanza del impío fracasa<span class="note-ref" data-ref="jb-8-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Su confianza sólo es un hilo,
 
@@ -620,13 +621,13 @@ sus renuevos brotaban por su jardín;
 
 <sup>17</sup> se enredaban sus raíces en la roca,
 
-vivía agarrado al tapial*.
+vivía agarrado al tapial<span class="note-ref" data-ref="jb-8-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Pero lo arrancan de su sitio
 
 y éste le niega: «Jamás te he visto».
 
-<sup>19</sup> A eso le conduce su alegre vida*,
+<sup>19</sup> A eso le conduce su alegre vida<span class="note-ref" data-ref="jb-8-19" title="Ver comentario">&#42;</span>,
 
 mientras otros de la tierra brotarán.
 
@@ -634,7 +635,7 @@ mientras otros de la tierra brotarán.
 
 ni echa una mano al malvado.
 
-<sup>21</sup> Aún* puede llenar tu boca de risas,
+<sup>21</sup> Aún<span class="note-ref" data-ref="jb-8-21" title="Ver comentario">&#42;</span> puede llenar tu boca de risas,
 
 tus labios de júbilo.
 
@@ -663,19 +664,19 @@ cuando los vuelca con su cólera.
 
 <sup>6</sup> Él sacude la tierra de su sitio
 
-y hace vacilar sus columnas*.
+y hace vacilar sus columnas<span class="note-ref" data-ref="jb-9-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Él lo ordena y el sol no resplandece,
 
-y cierra con un sello las estrellas*.
+y cierra con un sello las estrellas<span class="note-ref" data-ref="jb-9-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Él despliega los cielos sin ayuda,
 
-él aplasta la espalda del Mar*.
+él aplasta la espalda del Mar<span class="note-ref" data-ref="jb-9-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Él ha hecho la Osa y Orión,
 
-las Pléyades y las Cámaras del Sur*.
+las Pléyades y las Cámaras del Sur<span class="note-ref" data-ref="jb-9-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Él ha hecho prodigios insondables,
 
@@ -691,11 +692,11 @@ me roza y no me doy cuenta.
 
 <sup>13</sup> Dios no renuncia a su cólera,
 
-a sus pies se postran los aliados de Rahab*.
+a sus pies se postran los aliados de Rahab<span class="note-ref" data-ref="jb-9-13" title="Ver comentario">&#42;</span>.
 
-<sup>14</sup> ¡Cuánto menos podré yo defenderme*,
+<sup>14</sup> ¡Cuánto menos podré yo defenderme<span class="note-ref" data-ref="jb-9-14-a" title="Ver comentario">&#42;</span>,
 
-rebuscar argumentos contra él*!
+rebuscar argumentos contra él<span class="note-ref" data-ref="jb-9-14-b" title="Ver comentario">&#42;</span>!
 
 <sup>15</sup> Aun teniendo yo razón, no discutiría,
 
@@ -705,7 +706,7 @@ tendría que suplicar a mi acusador.
 
 no creo que escuchase mi voz.
 
-<sup>17</sup> ¡Él, capaz de aplastarme por un pelo*,
+<sup>17</sup> ¡Él, capaz de aplastarme por un pelo<span class="note-ref" data-ref="jb-9-17" title="Ver comentario">&#42;</span>,
 
 que multiplica sin motivo mis heridas,
 
@@ -715,9 +716,9 @@ que me tiene saciado de amargura!
 
 <sup>19</sup> Si se trata de fuerza, gana en vigor,
 
-si de justicia, ¿quién le emplazará*?
+si de justicia, ¿quién le emplazará<span class="note-ref" data-ref="jb-9-19" title="Ver comentario">&#42;</span>?
 
-<sup>20</sup> Aun teniendo yo razón, su boca* me condenaría,
+<sup>20</sup> Aun teniendo yo razón, su boca<span class="note-ref" data-ref="jb-9-20" title="Ver comentario">&#42;</span> me condenaría,
 
 aun siendo inocente, me declararía culpable.
 
@@ -737,7 +738,7 @@ se ríe de la angustia del inocente.
 
 y tapa los ojos de los magistrados;
 
-¿quién sino él lo hace*?
+¿quién sino él lo hace<span class="note-ref" data-ref="jb-9-24" title="Ver comentario">&#42;</span>?
 
 <sup>25</sup> Mis días son más raudos que un correo,
 
@@ -753,7 +754,7 @@ cambiar el semblante y poner buena cara,
 
 <sup>28</sup> me asalta el temor de mis males,
 
-pues sé que no me absolverás*.
+pues sé que no me absolverás<span class="note-ref" data-ref="jb-9-28" title="Ver comentario">&#42;</span>.
 
 <sup>29</sup> Y si resulta que soy culpable,
 
@@ -761,9 +762,9 @@ pues sé que no me absolverás*.
 
 <sup>30</sup> Aunque me lavase con agua de nieve
 
-y limpiase con sosa mis manos*,
+y limpiase con sosa mis manos<span class="note-ref" data-ref="jb-9-30" title="Ver comentario">&#42;</span>,
 
-<sup>31</sup> me restregarías en el lodo*
+<sup>31</sup> me restregarías en el lodo<span class="note-ref" data-ref="jb-9-31" title="Ver comentario">&#42;</span>
 
 hasta que mi ropa me asqueara.
 
@@ -781,7 +782,7 @@ y no me espante su terror.
 
 <sup>35</sup> Entonces hablaría sin temerle,
 
-pues creo que no soy culpable*.
+pues creo que no soy culpable<span class="note-ref" data-ref="jb-9-35" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Siento asco de mi vida,
 
@@ -805,7 +806,7 @@ o ves las cosas como un mortal?
 
 <sup>5</sup> ¿Es tu existencia la de un mortal,
 
-son tus años los de un hombre*,
+son tus años los de un hombre<span class="note-ref" data-ref="jb-10-5" title="Ver comentario">&#42;</span>,
 
 <sup>6</sup> para que hurgues en mi culpa
 
@@ -817,7 +818,7 @@ y que nadie va a arrancarme de tus manos?
 
 <sup>8</sup> Tus manos me formaron y me hicieron,
 
-¿y ahora, en arrebato*, me destruyes?
+¿y ahora, en arrebato<span class="note-ref" data-ref="jb-10-8" title="Ver comentario">&#42;</span>, me destruyes?
 
 <sup>9</sup> Recuerda que me has hecho de barro
 
@@ -825,7 +826,7 @@ y que al polvo me has de devolver.
 
 <sup>10</sup> ¿No me vertiste como leche
 
-y me cuajaste como queso*?
+y me cuajaste como queso<span class="note-ref" data-ref="jb-10-10" title="Ver comentario">&#42;</span>?
 
 <sup>11</sup> Me revestiste de carne y piel,
 
@@ -835,7 +836,7 @@ me tejiste de huesos y tendones.
 
 cuidaste solícito mi aliento.
 
-<sup>13</sup> Pero algo ocultaba tu mente*,
+<sup>13</sup> Pero algo ocultaba tu mente<span class="note-ref" data-ref="jb-10-13" title="Ver comentario">&#42;</span>,
 
 seguro que estabas pendiente
 
@@ -847,9 +848,9 @@ de no disculpar mis faltas:
 
 si inocente, no levantaría cabeza,
 
-harto de ignominia, borracho de aflicción*.
+harto de ignominia, borracho de aflicción<span class="note-ref" data-ref="jb-10-15" title="Ver comentario">&#42;</span>.
 
-<sup>16</sup> Con la furia* de un león me das caza,
+<sup>16</sup> Con la furia<span class="note-ref" data-ref="jb-10-16" title="Ver comentario">&#42;</span> de un león me das caza,
 
 repitiendo tus proezas a mi costa,
 
@@ -857,7 +858,7 @@ repitiendo tus proezas a mi costa,
 
 contra mí redoblas tu furor,
 
-tus tropas de refresco sobre mí*.
+tus tropas de refresco sobre mí<span class="note-ref" data-ref="jb-10-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> ¿Por qué me sacaste del vientre?
 
@@ -869,7 +870,7 @@ conducido del vientre a la tumba.
 
 <sup>20</sup> ¡Qué breves los días de mi vida!
 
-Aléjate de mí, déjame gozar un poco*
+Aléjate de mí, déjame gozar un poco<span class="note-ref" data-ref="jb-10-20" title="Ver comentario">&#42;</span>
 
 <sup>21</sup> antes de que marche, y ya no vuelva,
 
@@ -877,7 +878,7 @@ al país de tinieblas y de sombras,
 
 <sup>22</sup> al país oscuro y en desorden,
 
-donde la claridad parece sombra*.
+donde la claridad parece sombra<span class="note-ref" data-ref="jb-10-22" title="Ver comentario">&#42;</span>.
 
 ## La sabiduría de Dios exige la confesión de Job.
 <span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Sofar de Naamat respondió así:
@@ -890,7 +891,7 @@ donde la claridad parece sombra*.
 
 ¿te vas a burlar sin que nadie te confunda?
 
-<sup>4</sup> Has dicho: «Mi conducta es pura*,
+<sup>4</sup> Has dicho: «Mi conducta es pura<span class="note-ref" data-ref="jb-11-4" title="Ver comentario">&#42;</span>,
 
 soy irreprochable a tus ojos».
 
@@ -904,13 +905,13 @@ que desconciertan toda sagacidad!
 
 Bien sabrías entonces
 
-que Dios te pide cuentas de tus faltas*.
+que Dios te pide cuentas de tus faltas<span class="note-ref" data-ref="jb-11-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> ¿Pretendes descubrir la hondura de Dios,
 
 descubrir la perfección de Shaddai?
 
-<sup>8</sup> Es más alta que el cielo*, ¿qué harás?;
+<sup>8</sup> Es más alta que el cielo<span class="note-ref" data-ref="jb-11-8" title="Ver comentario">&#42;</span>, ¿qué harás?;
 
 es más honda que el Seol, ¿qué sabrás?
 
@@ -924,7 +925,7 @@ si cita a juicio, ¿quién lo impedirá?
 
 <sup>11</sup> Pues bien conoce a la gente falsa;
 
-cuando ve la maldad, presta atención*.
+cuando ve la maldad, presta atención<span class="note-ref" data-ref="jb-11-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Pero el necio aprenderá a razonar
 
@@ -932,7 +933,7 @@ cuando el asno salvaje nazca hombre.
 
 <sup>13</sup> Si mantienes firme tu corazón
 
-y extiendes tus manos hacia él*,
+y extiendes tus manos hacia él<span class="note-ref" data-ref="jb-11-13" title="Ver comentario">&#42;</span>,
 
 <sup>14</sup> si rechazas la maldad que hay en tus manos
 
@@ -952,7 +953,7 @@ tu oscuridad será como la aurora;
 
 <sup>18</sup> vivirás confiado en la esperanza,
 
-aun confundido*, dormirás tranquilo;
+aun confundido<span class="note-ref" data-ref="jb-11-18" title="Ver comentario">&#42;</span>, dormirás tranquilo;
 
 <sup>19</sup> te acostarás y nadie te asustará,
 
@@ -962,12 +963,12 @@ muchos buscarán tus favores.
 
 están privados de refugio,
 
-su esperanza es el último suspiro*.
+su esperanza es el último suspiro<span class="note-ref" data-ref="jb-11-20" title="Ver comentario">&#42;</span>.
 
 ## La sabiduría de Dios se manifiesta sobre todo en los estragos de su poder.
 <span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Job respondió así:
 
-<sup>2</sup> Desde luego, sois la voz del pueblo*,
+<sup>2</sup> Desde luego, sois la voz del pueblo<span class="note-ref" data-ref="jb-12-2" title="Ver comentario">&#42;</span>,
 
 con vosotros morirá la sabiduría.
 
@@ -977,7 +978,7 @@ en nada me superáis,
 
 ¿quién no sabe todo eso?
 
-<sup>4</sup> Uno se convierte en burla del vecino*
+<sup>4</sup> Uno se convierte en burla del vecino<span class="note-ref" data-ref="jb-12-4" title="Ver comentario">&#42;</span>
 
 cuando clama a Dios en busca de respuestas.
 
@@ -997,17 +998,17 @@ los que meten a Dios en su puño.
 
 a las aves del cielo, que te lo dirán,
 
-<sup>8</sup> si no a los reptiles*, que te informarán,
+<sup>8</sup> si no a los reptiles<span class="note-ref" data-ref="jb-12-8" title="Ver comentario">&#42;</span>, que te informarán,
 
 te lo contarán los peces del mar;
 
 <sup>9</sup> ¿quién no sabe entre todos ellos
 
-que todo esto lo hizo la mano de Dios*,
+que todo esto lo hizo la mano de Dios<span class="note-ref" data-ref="jb-12-9" title="Ver comentario">&#42;</span>,
 
 <sup>10</sup> que su mano retiene el hálito de los vivientes,
 
-el espíritu de todo ser humano*?
+el espíritu de todo ser humano<span class="note-ref" data-ref="jb-12-10" title="Ver comentario">&#42;</span>?
 
 <sup>11</sup> ¿No distingue el oído las palabras,
 
@@ -1019,7 +1020,7 @@ la perspicacia asunto de viejos?
 
 <sup>13</sup> Pero Él tiene sabiduría y poder,
 
-prudencia y perspicacia son suyas*.
+prudencia y perspicacia son suyas<span class="note-ref" data-ref="jb-12-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Si destruye, nadie reconstruye,
 
@@ -1033,13 +1034,13 @@ si las suelta, destruyen la tierra.
 
 suyos son seducido y seductor.
 
-<sup>17</sup> Hace estúpidos a los consejeros del país*,
+<sup>17</sup> Hace estúpidos a los consejeros del país<span class="note-ref" data-ref="jb-12-17" title="Ver comentario">&#42;</span>,
 
 a los jueces vuelve locos.
 
 <sup>18</sup> Desciñe la banda de los reyes
 
-y les pasa una soga por los lomos*.
+y les pasa una soga por los lomos<span class="note-ref" data-ref="jb-12-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Conduce descalzos a los sacerdotes,
 
@@ -1059,9 +1060,9 @@ saca a la luz las sombras.
 
 <sup>23</sup> Suscita naciones y acaba con ellas,
 
-promueve pueblos y los suprime*.
+promueve pueblos y los suprime<span class="note-ref" data-ref="jb-12-23" title="Ver comentario">&#42;</span>.
 
-<sup>24</sup> Deja sin talento a los jefes del país*,
+<sup>24</sup> Deja sin talento a los jefes del país<span class="note-ref" data-ref="jb-12-24" title="Ver comentario">&#42;</span>,
 
 los guía por un desierto intransitado;
 
@@ -1091,7 +1092,7 @@ así demostraríais ser sabios!
 
 <sup>6</sup> Escuchad ahora mis descargos,
 
-atended a la defensa de mis labios*.
+atended a la defensa de mis labios<span class="note-ref" data-ref="jb-13-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> ¿Vais a usar la mentira en defensa de Dios?,
 
@@ -1123,11 +1124,11 @@ Me ocurra lo que me ocurra,
 
 <sup>14</sup> agarraré mi carne con los dientes,
 
-pondré mi vida en mis manos*;
+pondré mi vida en mis manos<span class="note-ref" data-ref="jb-13-14" title="Ver comentario">&#42;</span>;
 
 <sup>15</sup> aunque quiera matarme, lo esperaré,
 
-pues pienso defenderme a su cara*;
+pues pienso defenderme a su cara<span class="note-ref" data-ref="jb-13-15" title="Ver comentario">&#42;</span>;
 
 <sup>16</sup> con eso me daría por salvado,
 
@@ -1137,15 +1138,15 @@ pues el impío no comparece ante él.
 
 prestad oído a mi declaración;
 
-<sup>18</sup> ya he dispuesto mi defensa*,
+<sup>18</sup> ya he dispuesto mi defensa<span class="note-ref" data-ref="jb-13-18" title="Ver comentario">&#42;</span>,
 
 yo sé que soy inocente.
 
-<sup>19</sup> ¿Quién quiere pleitear conmigo*?
+<sup>19</sup> ¿Quién quiere pleitear conmigo<span class="note-ref" data-ref="jb-13-19" title="Ver comentario">&#42;</span>?
 
 ## Si ahora callo, moriré.
 
-<sup>20</sup> Hazme dos concesiones*
+<sup>20</sup> Hazme dos concesiones<span class="note-ref" data-ref="jb-13-20" title="Ver comentario">&#42;</span>
 
 y no abandonaré tu presencia:
 
@@ -1161,7 +1162,7 @@ o mejor, yo hablaré y tú replicarás.
 
 ## Hazme ver mis delitos y errores.
 
-<sup>24</sup> ¿Por qué me ocultas tu rostro*
+<sup>24</sup> ¿Por qué me ocultas tu rostro<span class="note-ref" data-ref="jb-13-24" title="Ver comentario">&#42;</span>
 
 y me tienes por enemigo?
 
@@ -1179,11 +1180,11 @@ vigilas todos mis pasos,
 
 rastreas todas mis huellas.
 
-<sup>28</sup> Se consume* cual leño carcomido,
+<sup>28</sup> Se consume<span class="note-ref" data-ref="jb-13-28" title="Ver comentario">&#42;</span> cual leño carcomido,
 
 lo mismo que un vestido apolillado,
 
-<span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> el hombre nacido de mujer*,
+<span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> el hombre nacido de mujer<span class="note-ref" data-ref="jb-14" title="Ver comentario">&#42;</span>,
 
 corto de días y harto de pesares.
 
@@ -1193,11 +1194,11 @@ se esfuma como sombra pasajera.
 
 <sup>3</sup> ¿Y fijas en éste tus ojos,
 
-lo citas* a juicio ante ti?
+lo citas<span class="note-ref" data-ref="jb-14-3" title="Ver comentario">&#42;</span> a juicio ante ti?
 
 <sup>4</sup> ¿Quién puede hacer puro lo impuro?
 
-¡Nadie*!
+¡Nadie<span class="note-ref" data-ref="jb-14-4" title="Ver comentario">&#42;</span>!
 
 <sup>5</sup> Si sus días están previstos,
 
@@ -1233,13 +1234,13 @@ los ríos se secan y aridecen,
 
 <sup>12</sup> y el hombre se acuesta y no se alza,
 
-se gastarán* los cielos y no despertará,
+se gastarán<span class="note-ref" data-ref="jb-14-12-a" title="Ver comentario">&#42;</span> los cielos y no despertará,
 
-de su sueño* no espabilará.
+de su sueño<span class="note-ref" data-ref="jb-14-12-b" title="Ver comentario">&#42;</span> no espabilará.
 
 <sup>13</sup> ¡Ojalá en el Seol me escondieras,
 
-me ocultaras mientras pasa tu cólera*,
+me ocultaras mientras pasa tu cólera<span class="note-ref" data-ref="jb-14-13" title="Ver comentario">&#42;</span>,
 
 fijaras una fecha para acordarte de mí!
 
@@ -1261,13 +1262,13 @@ como ahora cuentas mis pasos;
 
 blanquearías con cal mi pecado.
 
-<sup>18</sup> Como monte que acaba derrumbándose*,
+<sup>18</sup> Como monte que acaba derrumbándose<span class="note-ref" data-ref="jb-14-18" title="Ver comentario">&#42;</span>,
 
 como rocas desplazadas de su sitio,
 
 <sup>19</sup> como agua que erosiona las piedras,
 
-como aluvión* que arrastra el barro,
+como aluvión<span class="note-ref" data-ref="jb-14-19" title="Ver comentario">&#42;</span> que arrastra el barro,
 
 así acabas tú con la esperanza del hombre.
 
@@ -1281,7 +1282,7 @@ son despreciados y no lo advierte.
 
 <sup>22</sup> Sólo siente el dolor de su carne,
 
-tan sólo se lamenta por su vida*.
+tan sólo se lamenta por su vida<span class="note-ref" data-ref="jb-14-22" title="Ver comentario">&#42;</span>.
 
 ## 2. SEGUNDO CICLO DE DISCURSOS
 ## Job se condena por su lenguaje.
@@ -1297,7 +1298,7 @@ con palabras que no sirven de nada?
 
 <sup>4</sup> Tú haces más: suprimes la piedad,
 
-anulas los piadosos coloquios* con Dios.
+anulas los piadosos coloquios<span class="note-ref" data-ref="jb-15-4" title="Ver comentario">&#42;</span> con Dios.
 
 <sup>5</sup> Tu culpa dicta tus palabras,
 
@@ -1305,11 +1306,11 @@ prefieres la lengua de la astucia.
 
 <sup>6</sup> Tu boca te condena, que no yo,
 
-tus labios testifican contra ti*.
+tus labios testifican contra ti<span class="note-ref" data-ref="jb-15-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> ¿Eres el primogénito de los hombres,
 
-engendrado antes que los collados*?
+engendrado antes que los collados<span class="note-ref" data-ref="jb-15-7" title="Ver comentario">&#42;</span>?
 
 <sup>8</sup> ¿Has asistido al consejo divino
 
@@ -1335,7 +1336,7 @@ y miras con ojos desorbitados
 
 soltando palabra tras palabra!
 
-<sup>14</sup> ¿Qué es el hombre para creerse puro*,
+<sup>14</sup> ¿Qué es el hombre para creerse puro<span class="note-ref" data-ref="jb-15-14" title="Ver comentario">&#42;</span>,
 
 para creerse inocente el nacido de mujer?
 
@@ -1373,7 +1374,7 @@ pues está destinado a la espada;
 
 <sup>23</sup> asignado como pasto a los buitres,
 
-él conoce su ruina inminente*.
+él conoce su ruina inminente<span class="note-ref" data-ref="jb-15-23" title="Ver comentario">&#42;</span>.
 
 La hora de las tinieblas <sup>24</sup> lo espanta,
 
@@ -1399,19 +1400,19 @@ en casas no habitadas a punto de caer.
 
   <sup>29</sup> No se enriquecerá ni durará su fortuna,
 
-ni se alargará por el país su sombra*.
+ni se alargará por el país su sombra<span class="note-ref" data-ref="jb-15-29" title="Ver comentario">&#42;</span>.
 
 <sup>30</sup> No escapará a las tinieblas,
 
 la llama agostará sus renuevos,
 
-su flor será barrida por el viento*.
+su flor será barrida por el viento<span class="note-ref" data-ref="jb-15-30" title="Ver comentario">&#42;</span>.
 
-<sup>31</sup> Que no se fíe de su buena talla*,
+<sup>31</sup> Que no se fíe de su buena talla<span class="note-ref" data-ref="jb-15-31" title="Ver comentario">&#42;</span>,
 
 pues acabará en vanidad.
 
-<sup>32</sup> Su follaje* se amustiará antes de tiempo,
+<sup>32</sup> Su follaje<span class="note-ref" data-ref="jb-15-32" title="Ver comentario">&#42;</span> se amustiará antes de tiempo,
 
 sus ramas no reverdecerán.
 
@@ -1425,7 +1426,7 @@ devora el fuego la casa del interesado.
 
 <sup>35</sup> Quien concibe maldad pare desgracia,
 
-su vientre gesta la mentira*».
+su vientre gesta la mentira<span class="note-ref" data-ref="jb-15-35" title="Ver comentario">&#42;</span>».
 
 ## De la injusticia de los hombres a la justicia de Dios.
 <span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> Job respondió así:
@@ -1442,9 +1443,9 @@ sólo sois consoladores agobiantes.
 
 si es que estuvierais en mi lugar;
 
-sin duda os agobiaría* con discursos,
+sin duda os agobiaría<span class="note-ref" data-ref="jb-16-4-a" title="Ver comentario">&#42;</span> con discursos,
 
-movería contra vosotros mi cabeza*.
+movería contra vosotros mi cabeza<span class="note-ref" data-ref="jb-16-4-b" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Con palabras os confortaría,
 
@@ -1452,13 +1453,13 @@ moviendo mis labios os calmaría.
 
 <sup>6</sup> Pero hablo y no se calma mi dolor,
 
-me callo y no se aleja de mí*,
+me callo y no se aleja de mí<span class="note-ref" data-ref="jb-16-6" title="Ver comentario">&#42;</span>,
 
 <sup>7</sup> y ahora me tiene extenuado.
 
 Espantas a mis conocidos <sup>8</sup> y me acosas,
 
-mi calumniador* se ha hecho mi testigo,
+mi calumniador<span class="note-ref" data-ref="jb-16-8" title="Ver comentario">&#42;</span> se ha hecho mi testigo,
 
 se alza contra mí, me acusa a la cara.
 
@@ -1474,7 +1475,7 @@ me afrentan con bofetadas,
 
 todos se alían contra mí.
 
-<sup>11</sup> Dios me entrega a injustos*,
+<sup>11</sup> Dios me entrega a injustos<span class="note-ref" data-ref="jb-16-11" title="Ver comentario">&#42;</span>,
 
 me arroja en manos de malvados.
 
@@ -1506,7 +1507,7 @@ una sombra mortal recubre mis ojos,
 
 y era sincera mi oración.
 
-<sup>18</sup> ¡No cubras, tierra, mi sangre*!
+<sup>18</sup> ¡No cubras, tierra, mi sangre<span class="note-ref" data-ref="jb-16-18" title="Ver comentario">&#42;</span>!
 
 ¡Que nada pare mis gritos!
 
@@ -1516,7 +1517,7 @@ mi defensor habita en lo alto,
 
 <sup>20</sup> que interpreta ante Dios mis pensamientos,
 
-ante quien vierto mis lágrimas*.
+ante quien vierto mis lágrimas<span class="note-ref" data-ref="jb-16-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Que él juzgue entre el hombre y Dios,
 
@@ -1524,13 +1525,13 @@ como suele ocurrir entre mortales,
 
 <sup>22</sup> pues me esperan años contados
 
-y emprenderé un camino sin retorno*.
+y emprenderé un camino sin retorno<span class="note-ref" data-ref="jb-16-22" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> Me falta el aliento,
 
 mis días se extinguen,
 
-me espera la tumba*.
+me espera la tumba<span class="note-ref" data-ref="jb-17-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Es que vivo entre escarnios,
 
@@ -1538,17 +1539,17 @@ las penas desvelan mis ojos.
 
 <sup>3</sup> Erígete en garante a mi favor,
 
-¿quién, si no, chocaría mi mano*?
+¿quién, si no, chocaría mi mano<span class="note-ref" data-ref="jb-17-3" title="Ver comentario">&#42;</span>?
 
 <sup>4</sup> Has cerrado su mente al buen juicio
 
-y no se saldrán con la suya*:
+y no se saldrán con la suya<span class="note-ref" data-ref="jb-17-4" title="Ver comentario">&#42;</span>:
 
 <sup>5</sup> como el que invita generoso a sus amigos,
 
 mientras los ojos de sus hijos se apagan.
 
-<sup>6</sup> Me ha convertido en refrán* de la gente,
+<sup>6</sup> Me ha convertido en refrán<span class="note-ref" data-ref="jb-17-6" title="Ver comentario">&#42;</span> de la gente,
 
 como cuando escupen a alguien en la cara.
 
@@ -1556,7 +1557,7 @@ como cuando escupen a alguien en la cara.
 
 mis miembros son como sombra.
 
-<sup>8</sup> Al verlo, los justos se quedan sin habla*,
+<sup>8</sup> Al verlo, los justos se quedan sin habla<span class="note-ref" data-ref="jb-17-8" title="Ver comentario">&#42;</span>,
 
 el inocente se alza contra el impío;
 
@@ -1568,7 +1569,7 @@ las manos limpias redoblan su energía.
 
 que no encontraré entre vosotros un sabio.
 
-<sup>11</sup> Han pasado mis días con mis planes*,
+<sup>11</sup> Han pasado mis días con mis planes<span class="note-ref" data-ref="jb-17-11" title="Ver comentario">&#42;</span>,
 
 han fallado los afanes de mi corazón.
 
@@ -1586,22 +1587,22 @@ a los gusanos «madre y hermanos».
 
 <sup>15</sup> ¿Dónde está ahora mi esperanza?,
 
-¿quién ha visto mi dicha*?
+¿quién ha visto mi dicha<span class="note-ref" data-ref="jb-17-15" title="Ver comentario">&#42;</span>?
 
 <sup>16</sup> Bajarán conmigo al Seol,
 
-nos hundiremos juntos en el polvo*.
+nos hundiremos juntos en el polvo<span class="note-ref" data-ref="jb-17-16" title="Ver comentario">&#42;</span>.
 
 ## Nada puede la ira contra el orden de la justicia.
 <span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Bildad de Súaj respondió así:
 
 <sup>2</sup> ¿Cuándo acabaréis con tanta palabra?
 
-## Pensad bien las cosas y luego hablaremos*.
+## Pensad bien las cosas y luego hablaremos<span class="note-ref" data-ref="jb-18-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> ¿Por qué considerarnos animales
 
-y gente de corto entendimiento*?
+y gente de corto entendimiento<span class="note-ref" data-ref="jb-18-3" title="Ver comentario">&#42;</span>?
 
 <sup>4</sup> Tú, que te destruyes con tu cólera,
 
@@ -1637,21 +1638,21 @@ la trampa le espera en la senda.
 
 entorpecen su caminar.
 
-<sup>12</sup> Desfallece en pleno vigor*,
+<sup>12</sup> Desfallece en pleno vigor<span class="note-ref" data-ref="jb-18-12" title="Ver comentario">&#42;</span>,
 
 la desgracia se afianza a su lado.
 
-<sup>13</sup> El mal devora su piel*,
+<sup>13</sup> El mal devora su piel<span class="note-ref" data-ref="jb-18-13-a" title="Ver comentario">&#42;</span>,
 
-el Primogénito de la Muerte* roe sus miembros.
+el Primogénito de la Muerte<span class="note-ref" data-ref="jb-18-13-b" title="Ver comentario">&#42;</span> roe sus miembros.
 
 <sup>14</sup> Lo arrancan del amparo de su tienda,
 
-lo arrastran ante el Rey de los terrores*.
+lo arrastran ante el Rey de los terrores<span class="note-ref" data-ref="jb-18-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Ocupan su tienda desahuciada,
 
-esparcen azufre en su morada*.
+esparcen azufre en su morada<span class="note-ref" data-ref="jb-18-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Por debajo se secan sus raíces,
 
@@ -1690,7 +1691,7 @@ sin pudor me habéis ultrajado.
 
 <sup>4</sup> Aun en caso de haber errado,
 
-en mí queda mi yerro*.
+en mí queda mi yerro<span class="note-ref" data-ref="jb-19-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Si creéis triunfar sobre mí
 
@@ -1698,7 +1699,7 @@ echando en cara mi oprobio,
 
 <sup>6</sup> sabed que Dios me ha hecho daño
 
-copándome entre sus redes*.
+copándome entre sus redes<span class="note-ref" data-ref="jb-19-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Grito «Violencia» y nadie responde,
 
@@ -1732,7 +1733,7 @@ mis amigos me tienen por extraño.
 
 <sup>14</sup> Me abandonan vecinos y parientes,
 
-se olvidan de mí mis invitados*.
+se olvidan de mí mis invitados<span class="note-ref" data-ref="jb-19-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Mis siervas me tienen por intruso,
 
@@ -1744,7 +1745,7 @@ aunque yo en persona le suplique.
 
 <sup>17</sup> Mi aliento repugna a mi esposa,
 
-doy asco a mis propios hermanos*.
+doy asco a mis propios hermanos<span class="note-ref" data-ref="jb-19-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> También los críos me muestran desprecio,
 
@@ -1756,7 +1757,7 @@ mis amigos se vuelven contra mí.
 
 <sup>20</sup> Mis huesos se pegan a la carne y a la piel,
 
-he escapado con la piel entre los dientes*.
+he escapado con la piel entre los dientes<span class="note-ref" data-ref="jb-19-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> ¡Piedad, piedad, amigos!,
 
@@ -1774,13 +1775,13 @@ y no os hartáis de mi carne?
 
 impresas para siempre en la roca.
 
-<sup>25</sup> Yo sé que vive mi Defensor*,
+<sup>25</sup> Yo sé que vive mi Defensor<span class="note-ref" data-ref="jb-19-25-a" title="Ver comentario">&#42;</span>,
 
-que se alzará el último sobre el polvo*,
+que se alzará el último sobre el polvo<span class="note-ref" data-ref="jb-19-25-b" title="Ver comentario">&#42;</span>,
 
 <sup>26</sup> que después que me dejen sin piel,
 
-ya sin carne, veré a Dios*.
+ya sin carne, veré a Dios<span class="note-ref" data-ref="jb-19-26" title="Ver comentario">&#42;</span>.
 
 <sup>27</sup> Sí, seré yo quien lo veré,
 
@@ -1794,7 +1795,7 @@ Se consume mi vigor en mi interior,
 
 <sup>29</sup> Temed por vosotros a la espada,
 
-la espada que castiga el delito*,
+la espada que castiga el delito<span class="note-ref" data-ref="jb-19-29" title="Ver comentario">&#42;</span>,
 
 y sabréis que existe un juez.
 
@@ -1819,7 +1820,7 @@ momentáneo el gozo del impío?
 
 <sup>6</sup> Aunque su talla llegue al cielo
 
-y su cabeza alcance las nubes*,
+y su cabeza alcance las nubes<span class="note-ref" data-ref="jb-20-6" title="Ver comentario">&#42;</span>,
 
 <sup>7</sup> desaparece para siempre, como estiércol,
 
@@ -1835,7 +1836,7 @@ su morada no lo contemplará.
 
 <sup>10</sup> Indemnizarán sus hijos a los pobres,
 
-sus manos* restituirán su riqueza.
+sus manos<span class="note-ref" data-ref="jb-20-10" title="Ver comentario">&#42;</span> restituirán su riqueza.
 
 <sup>11</sup> Sus huesos repletos de energía
 
@@ -1861,21 +1862,21 @@ pues Dios se las saca del vientre.
 
 lo matará la lengua del áspid.
 
-<sup>17</sup> Ya no gozará de arroyos de aceite*,
+<sup>17</sup> Ya no gozará de arroyos de aceite<span class="note-ref" data-ref="jb-20-17" title="Ver comentario">&#42;</span>,
 
 de ríos de miel y requesón.
 
-<sup>18</sup> Devolverá sus ganancias* sin probarlas,
+<sup>18</sup> Devolverá sus ganancias<span class="note-ref" data-ref="jb-20-18" title="Ver comentario">&#42;</span> sin probarlas,
 
 sin saborear el fruto de sus negocios.
 
-<sup>19</sup> Por destruir las chozas* de los pobres,
+<sup>19</sup> Por destruir las chozas<span class="note-ref" data-ref="jb-20-19" title="Ver comentario">&#42;</span> de los pobres,
 
 robar casas en vez de construirlas;
 
 <sup>20</sup> por no saber calmar su apetito,
 
-sus tesoros no lo salvarán*;
+sus tesoros no lo salvarán<span class="note-ref" data-ref="jb-20-20" title="Ver comentario">&#42;</span>;
 
 <sup>21</sup> como nadie escapaba a su voracidad,
 
@@ -1887,21 +1888,21 @@ la mano de la miseria lo alcanzará.
 
 <sup>23</sup> Dios le enviará el ardor de su cólera,
 
-como lluvia de flechas* en su carne.
+como lluvia de flechas<span class="note-ref" data-ref="jb-20-23" title="Ver comentario">&#42;</span> en su carne.
 
 <sup>24</sup> Si se salva del arma de hierro,
 
 lo atraviesan con arco de bronce;
 
-<sup>25</sup> una flecha* asoma por su espalda,
+<sup>25</sup> una flecha<span class="note-ref" data-ref="jb-20-25" title="Ver comentario">&#42;</span> asoma por su espalda,
 
 una punta bruñida por el hígado,
 
 los terrores se abaten sobre él;
 
-<sup>26</sup> le reservan* tinieblas ocultas,
+<sup>26</sup> le reservan<span class="note-ref" data-ref="jb-20-26-a" title="Ver comentario">&#42;</span> tinieblas ocultas,
 
-lo devora un fuego no atizado*,
+lo devora un fuego no atizado<span class="note-ref" data-ref="jb-20-26-b" title="Ver comentario">&#42;</span>,
 
 que consume los restos de su tienda.
 
@@ -1915,7 +1916,7 @@ los torrentes del día de la ira.
 
 <sup>29</sup> Ésta es la suerte que Dios depara al malvado,
 
-ésta es la herencia que destina a su persona*.
+ésta es la herencia que destina a su persona<span class="note-ref" data-ref="jb-20-29" title="Ver comentario">&#42;</span>.
 
 ## El mentís de los hechos.
 <span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> Job respondió así:
@@ -1934,7 +1935,7 @@ cuando termine podréis burlaros.
 
 <sup>5</sup> Si me escucháis, quedaréis pasmados,
 
-os llevaréis la mano a la boca*.
+os llevaréis la mano a la boca<span class="note-ref" data-ref="jb-21-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Sólo con pensarlo, me horrorizo,
 
@@ -1946,7 +1947,7 @@ que envejecen y aumenta su poder?
 
 <sup>8</sup> Viven seguros con sus hijos,
 
-ven cómo crecen* sus retoños:
+ven cómo crecen<span class="note-ref" data-ref="jb-21-8" title="Ver comentario">&#42;</span> sus retoños:
 
 <sup>9</sup> un hogar en paz, sin miedo,
 
@@ -1958,7 +1959,7 @@ su vaca pare sin abortar.
 
 <sup>11</sup> Dejan sueltos a sus críos como ovejas,
 
-dejan brincar a sus hijos*.
+dejan brincar a sus hijos<span class="note-ref" data-ref="jb-21-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Cantan con cítaras y panderos,
 
@@ -1966,9 +1967,9 @@ se divierten al son de la flauta.
 
 <sup>13</sup> Pasan su vida dichosos,
 
-bajan en paz* al Seol.
+bajan en paz<span class="note-ref" data-ref="jb-21-13" title="Ver comentario">&#42;</span> al Seol.
 
-<sup>14</sup> Y pensar que decían a Dios*: «Fuera de aquí,
+<sup>14</sup> Y pensar que decían a Dios<span class="note-ref" data-ref="jb-21-14" title="Ver comentario">&#42;</span>: «Fuera de aquí,
 
 no nos interesa conocer tus caminos.
 
@@ -1990,11 +1991,11 @@ o la cólera divina le reparte sufrimientos?
 
 como tamo que arrastra el huracán?
 
-<sup>19</sup> ¿Se reservaría Dios el castigo de sus hijos*?
+<sup>19</sup> ¿Se reservaría Dios el castigo de sus hijos<span class="note-ref" data-ref="jb-21-19" title="Ver comentario">&#42;</span>?
 
 ¡Que lo pague él y aprenda!
 
-<sup>20</sup> ¡Que sea testigo de su ruina*,
+<sup>20</sup> ¡Que sea testigo de su ruina<span class="note-ref" data-ref="jb-21-20" title="Ver comentario">&#42;</span>,
 
 que beba la cólera de Shaddai!
 
@@ -2008,9 +2009,9 @@ que juzga a los seres celestes?
 
 <sup>23</sup> Hay quien muere en pleno vigor,
 
-colmado de dicha y de paz*,
+colmado de dicha y de paz<span class="note-ref" data-ref="jb-21-23" title="Ver comentario">&#42;</span>,
 
-<sup>24</sup> con los lomos forrados de grasa*
+<sup>24</sup> con los lomos forrados de grasa<span class="note-ref" data-ref="jb-21-24" title="Ver comentario">&#42;</span>
 
 y tierna la médula de sus huesos.
 
@@ -2048,7 +2049,7 @@ velan junto a su mausoleo;
 
 <sup>33</sup> no le pesan los terrones del valle,
 
-tras él desfila todo el mundo*.
+tras él desfila todo el mundo<span class="note-ref" data-ref="jb-21-33" title="Ver comentario">&#42;</span>.
 
 <sup>34</sup> ¿Por qué me consoláis con tonterías,
 
@@ -2088,13 +2089,13 @@ como privilegiado habitante de ella,
 
 <sup>9</sup> despedías a las viudas de vacío,
 
-destrozabas los brazos de los huérfanos*.
+destrozabas los brazos de los huérfanos<span class="note-ref" data-ref="jb-22-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Por eso te cercan redes,
 
 te asalta de súbito el terror;
 
-<sup>11</sup> la luz se oscurece* y no ves,
+<sup>11</sup> la luz se oscurece<span class="note-ref" data-ref="jb-22-11" title="Ver comentario">&#42;</span> y no ves,
 
 te engullen aguas caudalosas.
 
@@ -2102,7 +2103,7 @@ te engullen aguas caudalosas.
 
 ¡Mira qué altas están las estrellas!
 
-<sup>13</sup> Y dices: «¿Qué sabe Dios?*
+<sup>13</sup> Y dices: «¿Qué sabe Dios?<span class="note-ref" data-ref="jb-22-13" title="Ver comentario">&#42;</span>
 
 ¿Podrá ver tras nubarrones?
 
@@ -2120,7 +2121,7 @@ cuando un río arrasó sus cimientos?
 
 <sup>17</sup> Decían a Dios: «Fuera de aquí,
 
-¿qué puede hacernos Shaddai*?».
+¿qué puede hacernos Shaddai<span class="note-ref" data-ref="jb-22-17" title="Ver comentario">&#42;</span>?».
 
 <sup>18</sup> Aunque colmaba sus casas de bienes,
 
@@ -2142,7 +2143,7 @@ y te será devuelta tu dicha.
 
 piensa siempre en sus palabras.
 
-<sup>23</sup> Si vuelves a Shaddai con humildad*,
+<sup>23</sup> Si vuelves a Shaddai con humildad<span class="note-ref" data-ref="jb-22-23" title="Ver comentario">&#42;</span>,
 
 se alejará de tu tienda la maldad;
 
@@ -2166,7 +2167,7 @@ podrás cumplir tus promesas;
 
 brillará en tus sendas la luz.
 
-<sup>29</sup> Él humilla la empresa arrogante*,
+<sup>29</sup> Él humilla la empresa arrogante<span class="note-ref" data-ref="jb-22-29" title="Ver comentario">&#42;</span>,
 
 pero salva al que baja los ojos.
 
@@ -2207,7 +2208,7 @@ a occidente y no lo encuentro;
 
 <sup>9</sup> lo busco al norte y no aparece,
 
-en el sur se esconde y no lo veo*.
+en el sur se esconde y no lo veo<span class="note-ref" data-ref="jb-23-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Pero él conoce mi conducta,
 
@@ -2219,9 +2220,9 @@ recorría su camino sin torcerme,
 
 <sup>12</sup> sin apartarme del mandato de sus labios,
 
-guardando en mi seno sus palabras*.
+guardando en mi seno sus palabras<span class="note-ref" data-ref="jb-23-12" title="Ver comentario">&#42;</span>.
 
-<sup>13</sup> Si algo decide*, ¿quién le hará cambiar?
+<sup>13</sup> Si algo decide<span class="note-ref" data-ref="jb-23-13" title="Ver comentario">&#42;</span>, ¿quién le hará cambiar?
 
   Si algo se propone, lo lleva adelante.
 
@@ -2239,15 +2240,15 @@ Shaddai me aterra,
 
 <sup>17</sup> pues no desaparecí entre tinieblas
 
-y ha cubierto mi rostro de oscuridad*.
+y ha cubierto mi rostro de oscuridad<span class="note-ref" data-ref="jb-23-17" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> ¿Por qué Shaddai no reserva tiempos
 
-y sus fieles no conocen sus días*?
+y sus fieles no conocen sus días<span class="note-ref" data-ref="jb-24-1" title="Ver comentario">&#42;</span>?
 
 <sup>2</sup> Los malvados desplazan linderos,
 
-roban rebaños y pastores*.
+roban rebaños y pastores<span class="note-ref" data-ref="jb-24-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> Se llevan el burro del huérfano,
 
@@ -2261,9 +2262,9 @@ los indigentes del país se esconden.
 
 buscan presas desde el alba,
 
-por la tarde, pan para sus crías*.
+por la tarde, pan para sus crías<span class="note-ref" data-ref="jb-24-5" title="Ver comentario">&#42;</span>.
 
-<sup>6</sup> Siegan en el campo del inicuo*,
+<sup>6</sup> Siegan en el campo del inicuo<span class="note-ref" data-ref="jb-24-6" title="Ver comentario">&#42;</span>,
 
 rebuscan en la viña del malvado.
 
@@ -2271,7 +2272,7 @@ rebuscan en la viña del malvado.
 
 hambrientos, cargan gavillas;
 
-<sup>11</sup> exprimen aceite en la prensa*,
+<sup>11</sup> exprimen aceite en la prensa<span class="note-ref" data-ref="jb-24-11" title="Ver comentario">&#42;</span>,
 
 sedientos, pisan en el lagar.
 
@@ -2285,15 +2286,15 @@ sin abrigo, se arriman a las rocas.
 
 <sup>9</sup> Arrancan del pecho al huérfano,
 
-toman en prenda la comida del pobre*.
+toman en prenda la comida del pobre<span class="note-ref" data-ref="jb-24-9" title="Ver comentario">&#42;</span>.
 
-<sup>12</sup> Gimen los moribundos* en la ciudad,
+<sup>12</sup> Gimen los moribundos<span class="note-ref" data-ref="jb-24-12-a" title="Ver comentario">&#42;</span> en la ciudad,
 
 los heridos piden socorro,
 
-pero Dios no escucha su oración*.
+pero Dios no escucha su oración<span class="note-ref" data-ref="jb-24-12-b" title="Ver comentario">&#42;</span>.
 
-<sup>13</sup> Los hay rebeldes a la luz*,
+<sup>13</sup> Los hay rebeldes a la luz<span class="note-ref" data-ref="jb-24-13" title="Ver comentario">&#42;</span>,
 
 desconocen sus caminos,
 
@@ -2303,9 +2304,9 @@ no frecuentan sus senderos.
 
 mata pobres e indigentes.
 
-De noche ronda el ladrón*,
+De noche ronda el ladrón<span class="note-ref" data-ref="jb-24-14" title="Ver comentario">&#42;</span>,
 
-24:16a asalta casas a oscuras.
+<sup>16a</sup> asalta casas a oscuras.
 
 <sup>15</sup> El adúltero espera el crepúsculo,
 
@@ -2313,15 +2314,15 @@ pensando: «Nadie me ve»,
 
 y después se cubre el rostro.
 
-24:16b Durante el día se ocultan,
+<sup>16b</sup> Durante el día se ocultan,
 
 pues desconocen la luz.
 
 <sup>17</sup> Tienen a las sombras por mañana,
 
-habituados al terror de la noche*.
+habituados al terror de la noche<span class="note-ref" data-ref="jb-24-17" title="Ver comentario">&#42;</span>.
 
-<sup>18</sup> * No es más que paja en el agua,
+<sup>18</sup> <span class="note-ref" data-ref="jb-24-18" title="Ver comentario">&#42;</span> No es más que paja en el agua,
 
 maldicen su hacienda en el país,
 
@@ -2329,15 +2330,15 @@ nadie toma el sendero de su viña.
 
 <sup>19</sup> El bochorno roba el agua a la nieve,
 
-así el Seol a todo pecador*;
+así el Seol a todo pecador<span class="note-ref" data-ref="jb-24-19" title="Ver comentario">&#42;</span>;
 
 <sup>20</sup> el seno que lo ha formado lo olvida,
 
-su nombre no es recordado*.
+su nombre no es recordado<span class="note-ref" data-ref="jb-24-20" title="Ver comentario">&#42;</span>.
 
 ## La injusticia es tronchada como un árbol.
 
-<sup>21</sup> Maltrataba* a la estéril sin hijos,
+<sup>21</sup> Maltrataba<span class="note-ref" data-ref="jb-24-21" title="Ver comentario">&#42;</span> a la estéril sin hijos,
 
 no quería ayudar a la viuda.
 
@@ -2351,7 +2352,7 @@ pero sus ojos vigilan sus pasos.
 
 <sup>24</sup> Se encumbra un instante y ya no existe,
 
-se abate como armuelle arrancado*,
+se abate como armuelle arrancado<span class="note-ref" data-ref="jb-24-24" title="Ver comentario">&#42;</span>,
 
 como cabeza de espiga se amustia.
 
@@ -2359,12 +2360,12 @@ como cabeza de espiga se amustia.
 
 reduciendo a nada mis palabras?
 
-## Grandeza de Dios*.
+## Grandeza de Dios<span class="note-ref" data-ref="jb-25" title="Ver comentario">&#42;</span>.
 <span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Bildad de Súaj respondió así:
 
 <sup>2</sup> Es Dios un temible soberano
 
-que impone la paz en sus alturas*.
+que impone la paz en sus alturas<span class="note-ref" data-ref="jb-25-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> ¿Quién puede contar sus tropas?
 
@@ -2374,7 +2375,7 @@ que impone la paz en sus alturas*.
 
 ¿Cómo ser puro el nacido de mujer?
 
-<sup>5</sup> Si ni siquiera la luna tiene brillo*,
+<sup>5</sup> Si ni siquiera la luna tiene brillo<span class="note-ref" data-ref="jb-25-5" title="Ver comentario">&#42;</span>,
 
 ni las estrellas son puras a sus ojos,
 
@@ -2382,7 +2383,7 @@ ni las estrellas son puras a sus ojos,
 
 ¡cuánto menos el gusano humano!
 
-## Respuesta a Bildad. Grandeza de Dios*.
+## Respuesta a Bildad. Grandeza de Dios<span class="note-ref" data-ref="jb-26" title="Ver comentario">&#42;</span>.
 <span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> Job respondió así:
 
 <sup>2</sup> ¡Qué bien sabes sostener al débil!
@@ -2395,19 +2396,19 @@ ni las estrellas son puras a sus ojos,
 
 <sup>4</sup> ¿A quién diriges tus palabras?
 
-¿Quién te inspira lo que dices*?
+¿Quién te inspira lo que dices<span class="note-ref" data-ref="jb-26-4" title="Ver comentario">&#42;</span>?
 
-<sup>5</sup> Se estremecen las Sombras* bajo tierra,
+<sup>5</sup> Se estremecen las Sombras<span class="note-ref" data-ref="jb-26-5-a" title="Ver comentario">&#42;</span> bajo tierra,
 
-tiemblan las aguas y sus moradores*.
+tiemblan las aguas y sus moradores<span class="note-ref" data-ref="jb-26-5-b" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> El Seol está desnudo ante él,
 
-la Perdición* se halla al descubierto.
+la Perdición<span class="note-ref" data-ref="jb-26-6" title="Ver comentario">&#42;</span> se halla al descubierto.
 
-<sup>7</sup> Él tendió el Septentrión sobre el vacío*,
+<sup>7</sup> Él tendió el Septentrión sobre el vacío<span class="note-ref" data-ref="jb-26-7-a" title="Ver comentario">&#42;</span>,
 
-suspendió la tierra sobre la nada*.
+suspendió la tierra sobre la nada<span class="note-ref" data-ref="jb-26-7-b" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Encierra las aguas en sus nubes,
 
@@ -2415,13 +2416,13 @@ sin que el nublado ceda por el peso.
 
 <sup>9</sup> Cubre la cara de la luna llena,
 
-desplegando sobre ella su nube*.
+desplegando sobre ella su nube<span class="note-ref" data-ref="jb-26-9" title="Ver comentario">&#42;</span>.
 
-<sup>10</sup> Trazó un cerco sobre la faz de las aguas*,
+<sup>10</sup> Trazó un cerco sobre la faz de las aguas<span class="note-ref" data-ref="jb-26-10" title="Ver comentario">&#42;</span>,
 
 en los confines de la luz y las tinieblas.
 
-<sup>11</sup> Vacilan las columnas del cielo*,
+<sup>11</sup> Vacilan las columnas del cielo<span class="note-ref" data-ref="jb-26-11" title="Ver comentario">&#42;</span>,
 
 presas de terror cuando amenaza.
 
@@ -2431,7 +2432,7 @@ con su astucia aplastó a Rahab.
 
 <sup>13</sup> Su soplo dejó limpios los cielos,
 
-su mano traspasó a la Serpiente Huidiza*.
+su mano traspasó a la Serpiente Huidiza<span class="note-ref" data-ref="jb-26-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Y esto es sólo una muestra de sus obras,
 
@@ -2460,7 +2461,7 @@ me mantendré cabal hasta la muerte.
 
 <sup>6</sup> Me aferraré a mi justicia sin ceder,
 
-no me reprocho ninguno de mis días*.
+no me reprocho ninguno de mis días<span class="note-ref" data-ref="jb-27-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> ¡Que mi enemigo acabe como el malvado,
 
@@ -2468,7 +2469,7 @@ mi adversario como el injusto!
 
 <sup>8</sup> [Decís:] «¿Qué puede esperar el impío
 
-cuando Dios le retira la vida*?
+cuando Dios le retira la vida<span class="note-ref" data-ref="jb-27-8" title="Ver comentario">&#42;</span>?
 
 <sup>9</sup> ¿Escuchará Dios sus protestas
 
@@ -2476,18 +2477,18 @@ cuando se abata sobre él la angustia?
 
 <sup>10</sup> ¿Hacía de Shaddai sus delicias
 
-e invocaba a Dios en todo tiempo*?».
+e invocaba a Dios en todo tiempo<span class="note-ref" data-ref="jb-27-10" title="Ver comentario">&#42;</span>?».
 
 <sup>11</sup> Os instruiré sobre el poder de Dios,
 
-sin ocultaros lo que piensa Shaddai*.
+sin ocultaros lo que piensa Shaddai<span class="note-ref" data-ref="jb-27-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Si todos lo habéis comprobado,
 
 ¿a qué vuestros vanos discursos?
 
-## Discurso de Sofar: el maldito*.
-<sup>13</sup> Esta es la suerte que Dios da al malvado*,
+## Discurso de Sofar: el maldito<span class="note-ref" data-ref="jb-27-13-a" title="Ver comentario">&#42;</span>.
+<sup>13</sup> Esta es la suerte que Dios da al malvado<span class="note-ref" data-ref="jb-27-13-b" title="Ver comentario">&#42;</span>,
 
 la herencia que recibe de Shaddai el violento.
 
@@ -2495,7 +2496,7 @@ la herencia que recibe de Shaddai el violento.
 
 nunca su prole se hartará de pan;
 
-<sup>15</sup> la Peste* enterrará a los supervivientes,
+<sup>15</sup> la Peste<span class="note-ref" data-ref="jb-27-15" title="Ver comentario">&#42;</span> enterrará a los supervivientes,
 
 sus viudas no los llorarán.
 
@@ -2509,13 +2510,13 @@ el inocente heredará su plata.
 
 <sup>18</sup> Se edificó una casa de araña,
 
-se hizo una cabaña de guarda*:
+se hizo una cabaña de guarda<span class="note-ref" data-ref="jb-27-18" title="Ver comentario">&#42;</span>:
 
-<sup>19</sup> se acuesta rico, mas por última vez*,
+<sup>19</sup> se acuesta rico, mas por última vez<span class="note-ref" data-ref="jb-27-19" title="Ver comentario">&#42;</span>,
 
 al abrir sus ojos se encuentra sin nada.
 
-<sup>20</sup> De día* lo sorprenden terrores,
+<sup>20</sup> De día<span class="note-ref" data-ref="jb-27-20" title="Ver comentario">&#42;</span> lo sorprenden terrores,
 
 de noche se lo lleva el huracán.
 
@@ -2532,7 +2533,7 @@ aunque trata de evitar su ímpetu.
 le silban por donde pasa.
 
 ## 4. ELOGIO DE LA SABIDURÍA
-## La sabiduría inaccesible al hombre*.
+## La sabiduría inaccesible al hombre<span class="note-ref" data-ref="jb-28" title="Ver comentario">&#42;</span>.
 <span id="chapter-28" class="chapter-marker" data-chapter="28">28</span><sup>1</sup> Existen minas de plata,
 
 lugares donde el oro se refina,
@@ -2547,7 +2548,7 @@ el hombre explora en lo más hondo,
 
 entre rocas oscuras y lóbregas.
 
-<sup>4</sup> Extranjeros abren galerías*,
+<sup>4</sup> Extranjeros abren galerías<span class="note-ref" data-ref="jb-28-4" title="Ver comentario">&#42;</span>,
 
 en lugares nunca hollados,
 
@@ -2555,7 +2556,7 @@ colgados lejos de los hombres.
 
 <sup>5</sup> La tierra que produce alimentos
 
-se trastorna por debajo con fuego*;
+se trastorna por debajo con fuego<span class="note-ref" data-ref="jb-28-5" title="Ver comentario">&#42;</span>;
 
 <sup>6</sup> son sus rocas yacimiento de zafiro,
 
@@ -2565,7 +2566,7 @@ repletas de pepitas de oro.
 
 el buitre no la divisa;
 
-<sup>8</sup> no la pisan las fieras arrogantes*,
+<sup>8</sup> no la pisan las fieras arrogantes<span class="note-ref" data-ref="jb-28-8" title="Ver comentario">&#42;</span>,
 
 el león jamás la atravesó.
 
@@ -2573,19 +2574,19 @@ el león jamás la atravesó.
 
 revuelve el interior de las montañas;
 
-<sup>10</sup> abre canales* en las rocas
+<sup>10</sup> abre canales<span class="note-ref" data-ref="jb-28-10" title="Ver comentario">&#42;</span> en las rocas
 
 y descubre objetos preciosos;
 
-<sup>11</sup> explora las fuentes de los ríos*
+<sup>11</sup> explora las fuentes de los ríos<span class="note-ref" data-ref="jb-28-11" title="Ver comentario">&#42;</span>
 
 y saca lo oculto a la luz.
 
-<sup>12</sup> Pero, ¿de dónde sale* la Sabiduría?
+<sup>12</sup> Pero, ¿de dónde sale<span class="note-ref" data-ref="jb-28-12" title="Ver comentario">&#42;</span> la Sabiduría?
 
 ¿dónde se encuentra la Inteligencia?
 
-<sup>13</sup> El ser humano desconoce el camino*,
+<sup>13</sup> El ser humano desconoce el camino<span class="note-ref" data-ref="jb-28-13" title="Ver comentario">&#42;</span>,
 
 no se encuentra en la tierra de los vivos.
 
@@ -2643,7 +2644,7 @@ un camino a las nubes tormentosas,
 
 <sup>27</sup> entonces la vio y la valoró,
 
-la penetró* y la escrutó.
+la penetró<span class="note-ref" data-ref="jb-28-27" title="Ver comentario">&#42;</span> y la escrutó.
 
 <sup>28</sup> Y dijo luego al hombre:
 
@@ -2652,7 +2653,7 @@ la penetró* y la escrutó.
 apartarse del mal, inteligencia».
 
 ## 5. CONCLUSIÓN DEL DIÁLOGO
-## Quejas y apología de Job*:
+## Quejas y apología de Job<span class="note-ref" data-ref="jb-29" title="Ver comentario">&#42;</span>:
 ## A. Los días de antaño.
 <span id="chapter-29" class="chapter-marker" data-chapter="29">29</span><sup>1</sup> Continuó Job con su discurso y dijo:  
 
@@ -2666,7 +2667,7 @@ y a su luz caminaba en tinieblas,
 
 <sup>4</sup> tal como era en los días de mi otoño,
 
-cuando Dios protegía* mi tienda,
+cuando Dios protegía<span class="note-ref" data-ref="jb-29-4" title="Ver comentario">&#42;</span> mi tienda,
 
 <sup>5</sup> cuando aún Shaddai me acompañaba
 
@@ -2692,7 +2693,7 @@ y ponían la mano en su boca,
 
 se pegaba su lengua al paladar.
 
-<sup>21</sup> Me escuchaban todos expectantes*,
+<sup>21</sup> Me escuchaban todos expectantes<span class="note-ref" data-ref="jb-29-21" title="Ver comentario">&#42;</span>,
 
 en silencio para oír mi consejo.
 
@@ -2712,7 +2713,7 @@ de mi rostro no perdían un gesto de favor.
 
 como rey instalado entre sus tropas,
 
-a mi gusto los guiaba por doquier*.
+a mi gusto los guiaba por doquier<span class="note-ref" data-ref="jb-29-25" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Quien me oía, me daba la enhorabuena,
 
@@ -2744,7 +2745,7 @@ le arrancaba la presa de los dientes.
 
 <sup>18</sup> Me decía: «Cuando muera en mi nido,
 
-alargaré mis días como el Fénix*,
+alargaré mis días como el Fénix<span class="note-ref" data-ref="jb-29-18" title="Ver comentario">&#42;</span>,
 
 <sup>19</sup> con mis raíces a merced del agua,
 
@@ -2752,7 +2753,7 @@ con el rocío durmiendo en mis ramas.
 
 <sup>20</sup> Recobrará vigor mi dignidad,
 
-mi arco* se afianzará en mi mano».
+mi arco<span class="note-ref" data-ref="jb-29-20" title="Ver comentario">&#42;</span> se afianzará en mi mano».
 
 ## B. La angustia presente.
 <span id="chapter-30" class="chapter-marker" data-chapter="30">30</span><sup>1</sup> Ahora, en cambio, se ríen de mí
@@ -2761,11 +2762,11 @@ personas más jóvenes que yo,
 
 a cuyos padres no habría dejado
 
-al frente de los perros de mi rebaño*.
+al frente de los perros de mi rebaño<span class="note-ref" data-ref="jb-30-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> La fuerza de sus brazos no servía,
 
-carentes como estaban de vigor*,
+carentes como estaban de vigor<span class="note-ref" data-ref="jb-30-2" title="Ver comentario">&#42;</span>,
 
 <sup>3</sup> agotados del hambre y la penuria.
 
@@ -2791,7 +2792,7 @@ buscando refugio en los espinos.
 
 <sup>8</sup> ¡Gente villana y sin apellido,
 
-gente expulsada del país*!
+gente expulsada del país<span class="note-ref" data-ref="jb-30-8" title="Ver comentario">&#42;</span>!
 
 <sup>9</sup> Ahora, en cambio, me hacen coplas
 
@@ -2809,13 +2810,13 @@ y ellos se desenfrenan al verme;
 
 que hace vacilar mis pasos,
 
-se encamina hacia mí para perderme*:
+se encamina hacia mí para perderme<span class="note-ref" data-ref="jb-30-12" title="Ver comentario">&#42;</span>:
 
 <sup>13</sup> me cierran la salida,
 
 trabajan en mi ruina,
 
-nadie los detiene*;
+nadie los detiene<span class="note-ref" data-ref="jb-30-13" title="Ver comentario">&#42;</span>;
 
 <sup>14</sup> como por brecha abierta penetran,
 
@@ -2823,7 +2824,7 @@ en remolino, como tormenta.
 
 <sup>15</sup> Los terrores se vuelven contra mí,
 
-mi dignidad es arrastrada* como por el viento,
+mi dignidad es arrastrada<span class="note-ref" data-ref="jb-30-15" title="Ver comentario">&#42;</span> como por el viento,
 
 mi seguridad se disipa como nube.
 
@@ -2831,11 +2832,11 @@ mi seguridad se disipa como nube.
 
 me tocan días de aflicción.
 
-<sup>17</sup> De noche el mal* perfora mis huesos,
+<sup>17</sup> De noche el mal<span class="note-ref" data-ref="jb-30-17" title="Ver comentario">&#42;</span> perfora mis huesos,
 
 no descansan las llagas que me corroen.
 
-<sup>18</sup> Me agarra* con fuerza por la ropa,
+<sup>18</sup> Me agarra<span class="note-ref" data-ref="jb-30-18" title="Ver comentario">&#42;</span> con fuerza por la ropa,
 
 me aprieta como el cuello de mi túnica;
 
@@ -2845,7 +2846,7 @@ parezco polvo y ceniza.
 
 <sup>20</sup> Te pido auxilio y no respondes,
 
-me presento y no haces caso*.
+me presento y no haces caso<span class="note-ref" data-ref="jb-30-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Te has vuelto cruel conmigo,
 
@@ -2861,7 +2862,7 @@ al lugar donde se citan los vivientes.
 
 <sup>24</sup> ¿No tendí acaso la mano al indigente
 
-cuando angustiado pedía justicia*?
+cuando angustiado pedía justicia<span class="note-ref" data-ref="jb-30-24" title="Ver comentario">&#42;</span>?
 
 <sup>25</sup> ¿No lloré con quien vive en apuros?,
 
@@ -2891,10 +2892,10 @@ los huesos consumidos por la fiebre.
 
 mi flauta acompaña a plañideros.
 
-## Apología de Job*.
+## Apología de Job<span class="note-ref" data-ref="jb-31" title="Ver comentario">&#42;</span>.
 <span id="chapter-31" class="chapter-marker" data-chapter="31">31</span><sup>1</sup> Con mis ojos hice el pacto
 
-de no fijarme en doncella*.
+de no fijarme en doncella<span class="note-ref" data-ref="jb-31-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Mas, ¿qué suerte depara Dios desde arriba?,
 
@@ -2910,7 +2911,7 @@ y cuenta todos mis pasos?
 
 <sup>5</sup> ¿Me he hecho acompañar del embuste
 
-o me he encaminado hacia el fraude*?
+o me he encaminado hacia el fraude<span class="note-ref" data-ref="jb-31-5" title="Ver comentario">&#42;</span>?
 
 <sup>6</sup> Que me pese en balanza sin trucar
 
@@ -2920,7 +2921,7 @@ y Dios conocerá mi integridad.
 
 dejándome llevar por mi capricho,
 
-o algo ensució mis manos*,
+o algo ensució mis manos<span class="note-ref" data-ref="jb-31-7" title="Ver comentario">&#42;</span>,
 
 <sup>8</sup> ¡que otro coma mi siembra,
 
@@ -2928,7 +2929,7 @@ que me arranquen mis retoños!
 
 <sup>9</sup> Si cedí a la atracción de otra mujer
 
-y en la puerta de mi amigo aceché*,
+y en la puerta de mi amigo aceché<span class="note-ref" data-ref="jb-31-9" title="Ver comentario">&#42;</span>,
 
 <sup>10</sup> ¡que muela para otro mi esposa,
 
@@ -2936,7 +2937,7 @@ que un extraño se acueste con ella!
 
 <sup>11</sup> Habría cometido una infamia,
 
-un crimen que pide justicia*;
+un crimen que pide justicia<span class="note-ref" data-ref="jb-31-11" title="Ver comentario">&#42;</span>;
 
 <sup>12</sup> sería fuego que devora hasta la Perdición,
 
@@ -2944,7 +2945,7 @@ que acabaría con toda mi hacienda.
 
 <sup>13</sup> Si denegué el derecho a mi siervo
 
-y a mi sierva en sus litigios conmigo*,
+y a mi sierva en sus litigios conmigo<span class="note-ref" data-ref="jb-31-13" title="Ver comentario">&#42;</span>,
 
 <sup>14</sup> cuando Dios se levante, ¿qué haré?
 
@@ -2960,13 +2961,13 @@ y sus surcos lloran juntos,
 
 <sup>39</sup> si he comido sus productos sin pagar,
 
-explotando a los aparceros*,
+explotando a los aparceros<span class="note-ref" data-ref="jb-31-39" title="Ver comentario">&#42;</span>,
 
-31:40a ¡que en vez de espigas dé espinas,
+<sup>40a</sup> ¡que en vez de espigas dé espinas,
 
-en vez de cebada, ortigas*!
+en vez de cebada, ortigas<span class="note-ref" data-ref="jb-31-40-a" title="Ver comentario">&#42;</span>!
 
-<sup>16</sup> Si me cerré a la necesidad del débil*
+<sup>16</sup> Si me cerré a la necesidad del débil<span class="note-ref" data-ref="jb-31-16" title="Ver comentario">&#42;</span>
 
 y dejé morir de llanto a la viuda;
 
@@ -2986,7 +2987,7 @@ sin nada que ponerse a un indigente;
 
 calientes con la lana de mis corderos;
 
-<sup>21</sup> si alcé mi mano* contra el huérfano
+<sup>21</sup> si alcé mi mano<span class="note-ref" data-ref="jb-31-21" title="Ver comentario">&#42;</span> contra el huérfano
 
 por contar con apoyo en el tribunal,
 
@@ -2994,13 +2995,13 @@ por contar con apoyo en el tribunal,
 
 que mi brazo se rompa por el codo!
 
-<sup>23</sup> Pues temo el castigo de Dios*,
+<sup>23</sup> Pues temo el castigo de Dios<span class="note-ref" data-ref="jb-31-23" title="Ver comentario">&#42;</span>,
 
 no resistiría su majestad.
 
 <sup>24</sup> No puse mi confianza en el oro,
 
-ni llamé «seguridad» al oro fino*;
+ni llamé «seguridad» al oro fino<span class="note-ref" data-ref="jb-31-24" title="Ver comentario">&#42;</span>;
 
 <sup>25</sup> no puse mi gozo en mi inmensa riqueza,
 
@@ -3012,7 +3013,7 @@ el curso radiante de la luna,
 
 <sup>27</sup> no me dejé seducir secretamente
 
-mandándoles un beso con la mano*.
+mandándoles un beso con la mano<span class="note-ref" data-ref="jb-31-27" title="Ver comentario">&#42;</span>.
 
 <sup>28</sup> ¡También esto es crimen que pide justicia,
 
@@ -3020,7 +3021,7 @@ pues habría negado al Dios del cielo!
 
 <sup>29</sup> No me alegré del mal del enemigo
 
-ni me regocijé con su desgracia*,
+ni me regocijé con su desgracia<span class="note-ref" data-ref="jb-31-29" title="Ver comentario">&#42;</span>,
 
 <sup>30</sup> ni permití que mi boca pecara
 
@@ -3032,9 +3033,9 @@ decía: «¡Quién pudiera saciarse de su carne!»,
 
 <sup>32</sup> nunca dormía en la calle el forastero,
 
-pues abría mis puertas al viajero*.
+pues abría mis puertas al viajero<span class="note-ref" data-ref="jb-31-32" title="Ver comentario">&#42;</span>.
 
-<sup>33</sup> No oculté a los hombres* mi delito
+<sup>33</sup> No oculté a los hombres<span class="note-ref" data-ref="jb-31-33" title="Ver comentario">&#42;</span> mi delito
 
 ni escondí en mi seno mi pecado,
 
@@ -3042,11 +3043,11 @@ ni escondí en mi seno mi pecado,
 
 por miedo al desprecio de los míos,
 
-en silencio, sin salir a la calle*.
+en silencio, sin salir a la calle<span class="note-ref" data-ref="jb-31-34" title="Ver comentario">&#42;</span>.
 
 <sup>35</sup> ¡Ojalá que alguien me escuchara!
 
-¡He dicho mi última palabra*!
+¡He dicho mi última palabra<span class="note-ref" data-ref="jb-31-35" title="Ver comentario">&#42;</span>!
 
 ## A Shaddai le toca responder.
 
@@ -3054,17 +3055,17 @@ El libelo que haya escrito mi adversario
 
 <sup>36</sup> ¡juro que sobre el hombro lo llevaré,
 
-ceñido como una diadema*!
+ceñido como una diadema<span class="note-ref" data-ref="jb-31-36" title="Ver comentario">&#42;</span>!
 
 <sup>37</sup> Le daría cuenta de mis pasos,
 
 me acercaría a él como un príncipe.
 
-31:40b Fin de las palabras de Job*.
+<sup>40b</sup> Fin de las palabras de Job<span class="note-ref" data-ref="jb-31-40-b" title="Ver comentario">&#42;</span>.
 
-## III. Discursos de Elihú*
+## III. Discursos de Elihú<span class="note-ref" data-ref="jb-32" title="Ver comentario">&#42;</span>
 ## Intervención de Elihú.
-<span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> Aquellos tres hombres ya no contestaron a Job, dado que estaba convencido de su inocencia*. <sup>2</sup> Pero Elihú, hijo de Baraquel el buzita, del clan de Ram, descargó su cólera contra Job porque pretendía tener razón frente a Dios. <sup>3</sup> También se enfadó con sus tres compañeros, por no haber encontrado respuesta y haber dejado así culpable a Dios*. <sup>4</sup> Mientras hablaban con Job*, Elihú había esperado, pues los otros eran mayores que él. <sup>5</sup> Pero Elihú se molestó al ver que los tres hombres no habían sabido responder. <sup>6</sup> Entonces Elihú, hijo de Baraquel el buzita, intervino diciendo:  
+<span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> Aquellos tres hombres ya no contestaron a Job, dado que estaba convencido de su inocencia<span class="note-ref" data-ref="jb-32-1" title="Ver comentario">&#42;</span>. <sup>2</sup> Pero Elihú, hijo de Baraquel el buzita, del clan de Ram, descargó su cólera contra Job porque pretendía tener razón frente a Dios. <sup>3</sup> También se enfadó con sus tres compañeros, por no haber encontrado respuesta y haber dejado así culpable a Dios<span class="note-ref" data-ref="jb-32-3" title="Ver comentario">&#42;</span>. <sup>4</sup> Mientras hablaban con Job<span class="note-ref" data-ref="jb-32-4" title="Ver comentario">&#42;</span>, Elihú había esperado, pues los otros eran mayores que él. <sup>5</sup> Pero Elihú se molestó al ver que los tres hombres no habían sabido responder. <sup>6</sup> Entonces Elihú, hijo de Baraquel el buzita, intervino diciendo:  
 
 ## Exordio.
 Soy un hombre joven,
@@ -3081,13 +3082,13 @@ que enseñen sabiduría los ancianos».
 
 <sup>8</sup> Pero hay un espíritu en el hombre,
 
-el soplo de Shaddai, que lo hace inteligente*.
+el soplo de Shaddai, que lo hace inteligente<span class="note-ref" data-ref="jb-32-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Los años no dan sabiduría,
 
 ni la edad capacidad de discernir.
 
-<sup>10</sup> Por eso, os pido que escuchéis*,
+<sup>10</sup> Por eso, os pido que escuchéis<span class="note-ref" data-ref="jb-32-10" title="Ver comentario">&#42;</span>,
 
 también yo os diré lo que sé.
 
@@ -3178,9 +3179,9 @@ he escuchado tus palabras:
 
 <sup>9</sup> «Yo soy puro, sin delito,
 
-inocente, sin pecado*;
+inocente, sin pecado<span class="note-ref" data-ref="jb-33-9" title="Ver comentario">&#42;</span>;
 
-<sup>10</sup> mas busca excusas contra mí*,
+<sup>10</sup> mas busca excusas contra mí<span class="note-ref" data-ref="jb-33-10" title="Ver comentario">&#42;</span>,
 
 me tiene por enemigo.
 
@@ -3212,13 +3213,13 @@ lo asusta con advertencias;
 
 <sup>17</sup> lo aparta así de sus obras,
 
-y lo salva del orgullo*.
+y lo salva del orgullo<span class="note-ref" data-ref="jb-33-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> No le deja caer en la fosa,
 
 salva su vida de la muerte.
 
-<sup>19</sup> Lo prueba en el lecho del dolor*,
+<sup>19</sup> Lo prueba en el lecho del dolor<span class="note-ref" data-ref="jb-33-19" title="Ver comentario">&#42;</span>,
 
 con los huesos en continuo temblor;
 
@@ -3232,11 +3233,11 @@ sus huesos, antes ocultos, aparecen;
 
 <sup>22</sup> su ser se aproxima a la fosa,
 
-su vida al lugar de los muertos*.
+su vida al lugar de los muertos<span class="note-ref" data-ref="jb-33-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> Mas si tiene un Ángel de su parte,
 
-un Mediador* entre mil,
+un Mediador<span class="note-ref" data-ref="jb-33-23" title="Ver comentario">&#42;</span> entre mil,
 
 que recuerde al hombre su deber,
 
@@ -3244,9 +3245,9 @@ que recuerde al hombre su deber,
 
 «Líbrale de bajar a la fosa,
 
-que he encontrado rescate por él*»,
+que he encontrado rescate por él<span class="note-ref" data-ref="jb-33-24" title="Ver comentario">&#42;</span>»,
 
-<sup>25</sup> su carne se renovará de vigor juvenil*,
+<sup>25</sup> su carne se renovará de vigor juvenil<span class="note-ref" data-ref="jb-33-25" title="Ver comentario">&#42;</span>,
 
 volverá a los días de su mocedad.
 
@@ -3260,7 +3261,7 @@ del que devuelve al hombre su integridad.
 
 «He pecado y torcido el derecho,
 
-pero no me ha pagado con la misma moneda*;
+pero no me ha pagado con la misma moneda<span class="note-ref" data-ref="jb-33-27" title="Ver comentario">&#42;</span>;
 
 <sup>28</sup> me ha librado de pasar por la fosa,
 
@@ -3307,11 +3308,11 @@ pero Dios me niega el derecho;
 
 <sup>6</sup> me asiste el derecho y creen que miento,
 
-me hieren de muerte sin haber pecado*».
+me hieren de muerte sin haber pecado<span class="note-ref" data-ref="jb-34-6" title="Ver comentario">&#42;</span>».
 
 <sup>7</sup> ¿Hay algún hombre como Job,
 
-que bebe el sarcasmo como agua*,
+que bebe el sarcasmo como agua<span class="note-ref" data-ref="jb-34-7" title="Ver comentario">&#42;</span>,
 
 <sup>8</sup> que se hace acompañar de malhechores
 
@@ -3329,7 +3330,7 @@ la injusticia de Shaddai!
 
 <sup>11</sup> Dios paga al hombre según sus obras,
 
-trata a cada cual según su conducta*.
+trata a cada cual según su conducta<span class="note-ref" data-ref="jb-34-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Está claro que Dios no obra mal,
 
@@ -3337,9 +3338,9 @@ que Shaddai no tuerce el derecho.
 
 <sup>13</sup> ¿Quién le confió el cuidado de la tierra?,
 
-¿quién le encargó de todo el universo*?
+¿quién le encargó de todo el universo<span class="note-ref" data-ref="jb-34-13" title="Ver comentario">&#42;</span>?
 
-<sup>14</sup> Si sólo prestase atención a sí mismo*,
+<sup>14</sup> Si sólo prestase atención a sí mismo<span class="note-ref" data-ref="jb-34-14" title="Ver comentario">&#42;</span>,
 
 si centrase en sí su espíritu y su aliento,
 
@@ -3379,7 +3380,7 @@ se da cuenta de todos sus pasos;
 
 que puedan ocultar al malhechor.
 
-<sup>23</sup> Dios no asigna un plazo* al hombre
+<sup>23</sup> Dios no asigna un plazo<span class="note-ref" data-ref="jb-34-23" title="Ver comentario">&#42;</span> al hombre
 
 para comparecer a juicio ante él.
 
@@ -3393,7 +3394,7 @@ de noche los trastorna y pulveriza;
 
 <sup>26</sup> los azota igual que a criminales,
 
-en la plaza pública los encadena*,
+en la plaza pública los encadena<span class="note-ref" data-ref="jb-34-26" title="Ver comentario">&#42;</span>,
 
 <sup>27</sup> por no haber querido seguirle,
 
@@ -3407,17 +3408,17 @@ haciéndole oír el grito del pobre.
 
 si esconde su rostro, ¿quién lo verá?
 
-Pero él vela sobre hombres y países*,
+Pero él vela sobre hombres y países<span class="note-ref" data-ref="jb-34-29" title="Ver comentario">&#42;</span>,
 
 <sup>30</sup> para evitar que reine el impío,
 
-que el pueblo sea engañado*.
+que el pueblo sea engañado<span class="note-ref" data-ref="jb-34-30" title="Ver comentario">&#42;</span>.
 
 <sup>31</sup> Si alguien dice a Dios:
 
-«Me arrepiento*, ya no lo haré,
+«Me arrepiento<span class="note-ref" data-ref="jb-34-31" title="Ver comentario">&#42;</span>, ya no lo haré,
 
-<sup>32</sup> lo que no veo*, házmelo ver,
+<sup>32</sup> lo que no veo<span class="note-ref" data-ref="jb-34-32" title="Ver comentario">&#42;</span>, házmelo ver,
 
 si he obrado mal, no recaeré»,
 
@@ -3427,7 +3428,7 @@ si he obrado mal, no recaeré»,
 
 Dado que tú decides, y no yo,
 
-haznos partícipes de tu ciencia*.
+haznos partícipes de tu ciencia<span class="note-ref" data-ref="jb-34-33" title="Ver comentario">&#42;</span>.
 
 <sup>34</sup> Pero la gente sensata me dirá,
 
@@ -3439,11 +3440,11 @@ no son juiciosas sus palabras.
 
 <sup>36</sup> Tenga a bien probarlo a fondo,
 
-pues responde igual que un malvado*.
+pues responde igual que un malvado<span class="note-ref" data-ref="jb-34-36" title="Ver comentario">&#42;</span>.
 
 <sup>37</sup> A su pecado añade la rebeldía,
 
-entre nosotros siembra la duda*,
+entre nosotros siembra la duda<span class="note-ref" data-ref="jb-34-37" title="Ver comentario">&#42;</span>,
 
 multiplica sus palabras contra Dios».
 
@@ -3456,15 +3457,15 @@ multiplica sus palabras contra Dios».
 
 <sup>3</sup> o afirmar: «¿Qué más te da?,
 
-¿qué gané con no pecar*?».
+¿qué gané con no pecar<span class="note-ref" data-ref="jb-35-3" title="Ver comentario">&#42;</span>?».
 
 <sup>4</sup> Pues bien, te responderé,
 
-y de paso a tus amigos*.
+y de paso a tus amigos<span class="note-ref" data-ref="jb-35-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Contempla los cielos, mira;
 
-fíjate en las nubes y en su altura*.
+fíjate en las nubes y en su altura<span class="note-ref" data-ref="jb-35-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Si pecas, ¿en qué le afecta a Dios?,
 
@@ -3484,7 +3485,7 @@ claman ante el abuso de los poderosos,
 
 <sup>10</sup> mas no dicen: «¿Dónde está mi Hacedor,
 
-que llena la noche de cantos de júbilo*,
+que llena la noche de cantos de júbilo<span class="note-ref" data-ref="jb-35-10" title="Ver comentario">&#42;</span>,
 
 <sup>11</sup> que nos hace más listos que las bestias,
 
@@ -3500,17 +3501,17 @@ porque son malvados arrogantes;
 
 <sup>14</sup> Mucho menos cuando dices: «No lo veo,
 
-le he expuesto mi causa y lo espero*».
+le he expuesto mi causa y lo espero<span class="note-ref" data-ref="jb-35-14" title="Ver comentario">&#42;</span>».
 
 <sup>15</sup> Pero ahora que su ira no castiga
 
-ni parece darse cuenta del delito*,
+ni parece darse cuenta del delito<span class="note-ref" data-ref="jb-35-15" title="Ver comentario">&#42;</span>,
 
 <sup>16</sup> Job abre su boca y echa viento,
 
 multiplica palabras a lo tonto.
 
-## El verdadero sentido de los sufrimientos de Job *.
+## El verdadero sentido de los sufrimientos de Job <span class="note-ref" data-ref="jb-36" title="Ver comentario">&#42;</span>.
 <span id="chapter-36" class="chapter-marker" data-chapter="36">36</span><sup>1</sup> Elihú retomó su discurso:
 
 <sup>2</sup> Ten un poco de paciencia y te instruiré,
@@ -3527,13 +3528,13 @@ ante ti tienes ciencia consumada.
 
 <sup>5</sup> Dios es poderoso, mas no indiferente,
 
-poderoso por sus firmes decisiones*.
+poderoso por sus firmes decisiones<span class="note-ref" data-ref="jb-36-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> No permite que viva el malvado,
 
 hace justicia a los pobres,
 
-<sup>7</sup> no aparta del justo sus ojos*.
+<sup>7</sup> no aparta del justo sus ojos<span class="note-ref" data-ref="jb-36-7" title="Ver comentario">&#42;</span>.
 
 Los sienta en medio de reyes,
 
@@ -3567,11 +3568,11 @@ no piden socorro cuando él los encadena;
 
 <sup>14</sup> acaba su existencia en plena juventud
 
-y mueren a la edad de los hieródulos*.
+y mueren a la edad de los hieródulos<span class="note-ref" data-ref="jb-36-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Mas salva al pobre por su pobreza,
 
-le instruye* mediante la aflicción.
+le instruye<span class="note-ref" data-ref="jb-36-15" title="Ver comentario">&#42;</span> mediante la aflicción.
 
 <sup>16</sup> También a ti te sacará de la angustia,
 
@@ -3581,7 +3582,7 @@ te ofrecerá alimentos sustanciosos.
 
 <sup>17</sup> Mas si defiendes la causa del malvado,
 
-justicia y derecho sucumbirán*;
+justicia y derecho sucumbirán<span class="note-ref" data-ref="jb-36-17" title="Ver comentario">&#42;</span>;
 
 <sup>18</sup> no te dejes seducir por la opulencia,
 
@@ -3593,13 +3594,13 @@ tus riquezas y todos tus esfuerzos?
 
 <sup>20</sup> No suspires por que llegue esa noche
 
-en que la gente es echada de su sitio*;
+en que la gente es echada de su sitio<span class="note-ref" data-ref="jb-36-20" title="Ver comentario">&#42;</span>;
 
 <sup>21</sup> guárdate de volverte a la maldad,
 
 que por eso probaste la aflicción.
 
-## Himno a la Sabiduría todopoderosa *.
+## Himno a la Sabiduría todopoderosa <span class="note-ref" data-ref="jb-36-22" title="Ver comentario">&#42;</span>.
 <sup>22</sup> ¡Qué sublime es Dios en poder!
 
 ¿Hay algún maestro como él?
@@ -3628,15 +3629,15 @@ las filtra de su fuente como lluvia,
 
 que cae copiosa sobre el hombre.
 
-<sup>31</sup> Con ella* sustenta a los pueblos,
+<sup>31</sup> Con ella<span class="note-ref" data-ref="jb-36-31" title="Ver comentario">&#42;</span> sustenta a los pueblos,
 
 les da alimento en abundancia.
 
 <sup>29</sup> ¿Quién conoce la extensión de su nube,
 
-el fragor amenazante de su tienda*?
+el fragor amenazante de su tienda<span class="note-ref" data-ref="jb-36-29" title="Ver comentario">&#42;</span>?
 
-<sup>30</sup> Se hace rodear de sus relámpagos*,
+<sup>30</sup> Se hace rodear de sus relámpagos<span class="note-ref" data-ref="jb-36-30" title="Ver comentario">&#42;</span>,
 
 mantiene ocultas las raíces del mar.
 
@@ -3646,7 +3647,7 @@ le ordena dar en el blanco.
 
 <sup>33</sup> Su trueno anuncia su presencia,
 
-su ira se enciende contra la iniquidad*.
+su ira se enciende contra la iniquidad<span class="note-ref" data-ref="jb-36-33" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-37" class="chapter-marker" data-chapter="37">37</span><sup>1</sup> Ante esto tiembla mi corazón,
 
@@ -3664,7 +3665,7 @@ y alcanza los confines del orbe;
 
 retumba de forma soberbia;
 
-y ya no retiene sus rayos*
+y ya no retiene sus rayos<span class="note-ref" data-ref="jb-37-4" title="Ver comentario">&#42;</span>
 
 en tanto resuena su voz.
 
@@ -3674,7 +3675,7 @@ en tanto resuena su voz.
 
 <sup>6</sup> cuando dice a la nieve: «Cae a tierra»,
 
-y ordena al aguacero: «Llueve fuerte*»,
+y ordena al aguacero: «Llueve fuerte<span class="note-ref" data-ref="jb-37-6" title="Ver comentario">&#42;</span>»,
 
 <sup>7</sup> interrumpe el trabajo de los hombres
 
@@ -3686,7 +3687,7 @@ se ocultan en sus madrigueras.
 
 <sup>9</sup> Surge el huracán de la Cámara Austral,
 
-traen el frío los vientos del norte*;
+traen el frío los vientos del norte<span class="note-ref" data-ref="jb-37-9" title="Ver comentario">&#42;</span>;
 
 <sup>10</sup> al soplo de Dios se forma el hielo,
 
@@ -3696,7 +3697,7 @@ las extensiones de agua se congelan.
 
 los nubarrones reflejan su rayo,
 
-<sup>12</sup> que alterna de uno a otro lado*,
+<sup>12</sup> que alterna de uno a otro lado<span class="note-ref" data-ref="jb-37-12" title="Ver comentario">&#42;</span>,
 
 iluminando todo alrededor,
 
@@ -3706,7 +3707,7 @@ sobre la superficie del orbe.
 
 <sup>13</sup> Como castigo de los pueblos de la tierra,
 
-o bien como favor, lo envía*.
+o bien como favor, lo envía<span class="note-ref" data-ref="jb-37-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Escucha esto tranquilo, Job,
 
@@ -3726,7 +3727,7 @@ cuando el solano aletarga la tierra,
 
 <sup>18</sup> ¿podrías tender con él el firmamento,
 
-duro como espejo de metal fundido*?
+duro como espejo de metal fundido<span class="note-ref" data-ref="jb-37-18" title="Ver comentario">&#42;</span>?
 
 <sup>19</sup> Enséñanos qué hemos de decirle,
 
@@ -3742,7 +3743,7 @@ oculta como está entre nubes,
 
 pero pasa el viento y las disipa.
 
-<sup>22</sup> Del norte llegan resplandores*,
+<sup>22</sup> Del norte llegan resplandores<span class="note-ref" data-ref="jb-37-22" title="Ver comentario">&#42;</span>,
 
 envuelve a Dios terrible majestad;
 
@@ -3754,12 +3755,12 @@ maestro de justicia que no oprime.
 
 <sup>24</sup> Por eso, lo temen los hombres:
 
-¡que lo veneren todos los sabios*!
+¡que lo veneren todos los sabios<span class="note-ref" data-ref="jb-37-24" title="Ver comentario">&#42;</span>!
 
 ## IV. Los discursos de Yahvé
 # PRIMER DISCURSO
 ## La Sabiduría del Creador confunde a Job.
-<span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Yahvé se dirigió a Job desde la tormenta*:
+<span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Yahvé se dirigió a Job desde la tormenta<span class="note-ref" data-ref="jb-38-1" title="Ver comentario">&#42;</span>:
 
 <sup>2</sup> ¿Quién es éste que denigra mi designio
 
@@ -3767,7 +3768,7 @@ diciendo tales desatinos?
 
 <sup>3</sup> Si eres valiente, cíñete los lomos:
 
-te voy a preguntar y tú me instruirás*.
+te voy a preguntar y tú me instruirás<span class="note-ref" data-ref="jb-38-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> ¿Dónde estabas cuando cimenté la tierra?
 
@@ -3785,7 +3786,7 @@ o quién la midió a cordel?
 
 y las aclamaciones de los Hijos de Dios?
 
-<sup>8</sup> ¿Quién cerró* el mar con compuertas,
+<sup>8</sup> ¿Quién cerró<span class="note-ref" data-ref="jb-38-8" title="Ver comentario">&#42;</span> el mar con compuertas,
 
 cuando escapaba impetuoso de su seno,
 
@@ -3799,7 +3800,7 @@ poniendo puertas y cerrojos?
 
 <sup>11</sup> Le dije: «Hasta aquí llegarás, no pasarás,
 
-aquí se estrellará* el orgullo de tus olas».
+aquí se estrellará<span class="note-ref" data-ref="jb-38-11" title="Ver comentario">&#42;</span> el orgullo de tus olas».
 
 <sup>12</sup> ¿Alguna vez has mandado a la mañana
 
@@ -3809,27 +3810,27 @@ o asignado su puesto a la aurora,
 
 y sacuda de ella a los malvados,
 
-<sup>14</sup> para que tome forma como arcilla de sello*,
+<sup>14</sup> para que tome forma como arcilla de sello<span class="note-ref" data-ref="jb-38-14" title="Ver comentario">&#42;</span>,
 
 y quede coloreada como un vestido,
 
-<sup>15</sup> para que niegue a los malvados su luz*
+<sup>15</sup> para que niegue a los malvados su luz<span class="note-ref" data-ref="jb-38-15" title="Ver comentario">&#42;</span>
 
 y quede roto el brazo sublevado?
 
-<sup>16</sup> ¿Has entrado hasta las fuentes del mar*?,
+<sup>16</sup> ¿Has entrado hasta las fuentes del mar<span class="note-ref" data-ref="jb-38-16" title="Ver comentario">&#42;</span>?,
 
 ¿has paseado por el fondo del Abismo?
 
 <sup>17</sup> ¿Te han enseñado las puertas de la Muerte?,
 
-¿has visto las puertas del país de las Sombras*?
+¿has visto las puertas del país de las Sombras<span class="note-ref" data-ref="jb-38-17" title="Ver comentario">&#42;</span>?
 
 <sup>18</sup> ¿Tienes idea de las dimensiones de la tierra?
 
 ## Dilo, si todo lo sabes.
 
-<sup>19</sup> ¿Por dónde habita la luz*?,
+<sup>19</sup> ¿Por dónde habita la luz<span class="note-ref" data-ref="jb-38-19" title="Ver comentario">&#42;</span>?,
 
 ¿dónde viven las tinieblas?
 
@@ -3863,7 +3864,7 @@ zonas desérticas deshabitadas,
 
 <sup>27</sup> para que sacien soledades desoladas
 
-y brote verdor en el páramo*?
+y brote verdor en el páramo<span class="note-ref" data-ref="jb-38-27" title="Ver comentario">&#42;</span>?
 
 <sup>28</sup> ¿Tiene padre la lluvia?,
 
@@ -3873,7 +3874,7 @@ y brote verdor en el páramo*?
 
 ¿quién pare la escarcha del cielo,
 
-<sup>30</sup> cuando el agua se endurece* como piedra
+<sup>30</sup> cuando el agua se endurece<span class="note-ref" data-ref="jb-38-30" title="Ver comentario">&#42;</span> como piedra
 
 y aprisiona la faz del Abismo?
 
@@ -3883,7 +3884,7 @@ o desatar las cuerdas de Orión,
 
 <sup>32</sup> hacer salir a su hora la Corona,
 
-guiar a la Osa y a sus crías*?
+guiar a la Osa y a sus crías<span class="note-ref" data-ref="jb-38-32" title="Ver comentario">&#42;</span>?
 
 <sup>33</sup> ¿Conoces las leyes de los Cielos?,
 
@@ -3891,7 +3892,7 @@ guiar a la Osa y a sus crías*?
 
 <sup>34</sup> ¿Levantas tu voz a las nubes
 
-y la masa de aguas te obedece*?
+y la masa de aguas te obedece<span class="note-ref" data-ref="jb-38-34" title="Ver comentario">&#42;</span>?
 
 <sup>35</sup> ¿Tienes de mensajeros a los rayos?,
 
@@ -3899,7 +3900,7 @@ y la masa de aguas te obedece*?
 
 <sup>36</sup> ¿Quién puso en el ibis sabiduría?,
 
-¿quién dio al gallo inteligencia*?
+¿quién dio al gallo inteligencia<span class="note-ref" data-ref="jb-38-36" title="Ver comentario">&#42;</span>?
 
 <sup>37</sup> ¿Quién cuenta las nubes con acierto?,
 
@@ -3909,7 +3910,7 @@ y la masa de aguas te obedece*?
 
 y las glebas se pegan entre sí?
 
-<sup>39</sup> ¿Cazas tú la presa a la leona*
+<sup>39</sup> ¿Cazas tú la presa a la leona<span class="note-ref" data-ref="jb-38-39" title="Ver comentario">&#42;</span>
 
 o sacias el hambre de sus crías,
 
@@ -3923,7 +3924,7 @@ cuando gritan a Dios sus crías
 
 y vagan en busca de alimento?
 
-<span id="chapter-39" class="chapter-marker" data-chapter="39">39</span><sup>1</sup> ¿Sabes tú cuándo paren las rebecas*?,
+<span id="chapter-39" class="chapter-marker" data-chapter="39">39</span><sup>1</sup> ¿Sabes tú cuándo paren las rebecas<span class="note-ref" data-ref="jb-39-1" title="Ver comentario">&#42;</span>?,
 
 ¿has asistido al parto de las ciervas?
 
@@ -3931,7 +3932,7 @@ y vagan en busca de alimento?
 
 ¿sabes el tiempo en que paren?
 
-<sup>3</sup> Se acurrucan y expulsan a sus crías*,
+<sup>3</sup> Se acurrucan y expulsan a sus crías<span class="note-ref" data-ref="jb-39-3" title="Ver comentario">&#42;</span>,
 
 se desembarazan de sus hijos;
 
@@ -3961,7 +3962,7 @@ a pasar la noche en tu establo?
 
 <sup>10</sup> ¿Puedes atarlo con la soga al arado?,
 
-¿rastrillará las navas tras de ti*?
+¿rastrillará las navas tras de ti<span class="note-ref" data-ref="jb-39-10" title="Ver comentario">&#42;</span>?
 
 <sup>11</sup> ¿Te fiarás de él porque es fuerte?,
 
@@ -3971,9 +3972,9 @@ a pasar la noche en tu establo?
 
 acarreando el grano a la era?
 
-<sup>13</sup> * El avestruz mueve alocado las alas,
+<sup>13</sup> <span class="note-ref" data-ref="jb-39-13-a" title="Ver comentario">&#42;</span> El avestruz mueve alocado las alas,
 
-como si fuesen sus plumas de cigüeña o halcón*;
+como si fuesen sus plumas de cigüeña o halcón<span class="note-ref" data-ref="jb-39-13-b" title="Ver comentario">&#42;</span>;
 
 <sup>14</sup> abandona en el suelo sus huevos,
 
@@ -3995,7 +3996,7 @@ no le dotó de perspicacia.
 
 se ríe del caballo y su jinete.
 
-<sup>19</sup> ¿Le das al caballo su bravura*?,
+<sup>19</sup> ¿Le das al caballo su bravura<span class="note-ref" data-ref="jb-39-19" title="Ver comentario">&#42;</span>?,
 
 ¿revistes su cuello de crines?
 
@@ -4027,7 +4028,7 @@ la voz de los jefes y el grito de guerra.
 
 <sup>26</sup> ¿Vuela el halcón porque tú le enseñas,
 
-cuando despliega sus alas hacia el sur*?
+cuando despliega sus alas hacia el sur<span class="note-ref" data-ref="jb-39-26" title="Ver comentario">&#42;</span>?
 
 <sup>27</sup> ¿Se cierne a tus órdenes el águila
 
@@ -4045,7 +4046,7 @@ de lejos la otean sus ojos;
 
 donde hay muertos, allí está ella.
 
-<span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> Yahvé siguió diciendo a Job*:
+<span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> Yahvé siguió diciendo a Job<span class="note-ref" data-ref="jb-40-1" title="Ver comentario">&#42;</span>:
 
 <sup>2</sup> ¿Tiene más que decir el censor de Shaddai?
 
@@ -4085,19 +4086,19 @@ vístete de gloria y esplendor;
 
 hunde de una mirada al arrogante,
 
-<sup>12</sup> humilla de una mirada al soberbio*;
+<sup>12</sup> humilla de una mirada al soberbio<span class="note-ref" data-ref="jb-40-12" title="Ver comentario">&#42;</span>;
 
 aplasta a los malvados donde estén,
 
 <sup>13</sup> entiérralos juntos en el polvo,
 
-enciérralos a una en el calabozo*.
+enciérralos a una en el calabozo<span class="note-ref" data-ref="jb-40-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Entonces cantaré tu alabanza:
 
 «Tu diestra te ha dado la victoria».
 
-## Behemot*.
+## Behemot<span class="note-ref" data-ref="jb-40-15" title="Ver comentario">&#42;</span>.
 <sup>15</sup> Ahí tienes a Behemot, a quien hice como a ti,
 
 que se alimenta de hierba como las vacas.
@@ -4118,7 +4119,7 @@ su esqueleto, hierro forjado.
 
 Su Autor le amenazó con la espada,
 
-<sup>20</sup> le vedó la región de las montañas*
+<sup>20</sup> le vedó la región de las montañas<span class="note-ref" data-ref="jb-40-20" title="Ver comentario">&#42;</span>
 
 y las bestias que en ella retozan.
 
@@ -4130,15 +4131,15 @@ oculto en los carrizos del pantano;
 
 los sauces del río lo protegen.
 
-<sup>23</sup> En caso de crecida* no se asusta,
+<sup>23</sup> En caso de crecida<span class="note-ref" data-ref="jb-40-23" title="Ver comentario">&#42;</span> no se asusta,
 
 aunque un Jordán le llegue hasta la boca.
 
 <sup>24</sup> ¿Quién lo agarrará por los ojos,
 
-le taladrará el hocico con punzones*?
+le taladrará el hocico con punzones<span class="note-ref" data-ref="jb-40-24" title="Ver comentario">&#42;</span>?
 
-## Leviatán*.
+## Leviatán<span class="note-ref" data-ref="jb-40-25" title="Ver comentario">&#42;</span>.
 <sup>25</sup> ¿Pescarás con anzuelo a Leviatán,
 
 sujetarás su lengua con cordeles?
@@ -4161,7 +4162,7 @@ lo atarás para diversión de tus hijas?
 
 <sup>30</sup> ¿Lo pondrán en venta los asociados,
 
-se lo disputarán los mercaderes*?
+se lo disputarán los mercaderes<span class="note-ref" data-ref="jb-40-30" title="Ver comentario">&#42;</span>?
 
 <sup>31</sup> ¿Le acribillarás la piel con dardos,
 
@@ -4173,23 +4174,23 @@ su cabeza con artes de pesca?
 
 <span id="chapter-41" class="chapter-marker" data-chapter="41">41</span><sup>1</sup> Tu esperanza sería ilusoria,
 
-pues sólo su vista aterra*.
+pues sólo su vista aterra<span class="note-ref" data-ref="jb-41-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> No hay audaz capaz de provocarlo,
 
-¿quién puede resistirle frente a frente*?
+¿quién puede resistirle frente a frente<span class="note-ref" data-ref="jb-41-2" title="Ver comentario">&#42;</span>?
 
 <sup>3</sup> ¿Quién le plantó cara y salió ileso?
 
-¡Nadie bajo los cielos*!
+¡Nadie bajo los cielos<span class="note-ref" data-ref="jb-41-3" title="Ver comentario">&#42;</span>!
 
 <sup>4</sup> No pasaré por alto sus miembros,
 
-hablaré de su fuerza incomparable*.
+hablaré de su fuerza incomparable<span class="note-ref" data-ref="jb-41-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> ¿Quién le ha abierto el manto de su piel
 
-y ha penetrado por su doble coraza*?
+y ha penetrado por su doble coraza<span class="note-ref" data-ref="jb-41-5" title="Ver comentario">&#42;</span>?
 
 <sup>6</sup> ¿Quién ha abierto las puertas de sus fauces?
 
@@ -4197,7 +4198,7 @@ y ha penetrado por su doble coraza*?
 
 <sup>7</sup> Su dorso son hileras de escudos,
 
-que cierra un sello de piedra*;
+que cierra un sello de piedra<span class="note-ref" data-ref="jb-41-7" title="Ver comentario">&#42;</span>;
 
 <sup>8</sup> están entre sí tan trabados
 
@@ -4207,7 +4208,7 @@ que ni un soplo se filtra entre ellos;
 
 forman un sólido bloque.
 
-<sup>10</sup> Su estornudo proyecta destellos*,
+<sup>10</sup> Su estornudo proyecta destellos<span class="note-ref" data-ref="jb-41-10" title="Ver comentario">&#42;</span>,
 
 sus ojos parpadean como el alba.
 
@@ -4217,7 +4218,7 @@ se escapan chispas de fuego;
 
 <sup>12</sup> de sus narices sale una humareda,
 
-como caldero que hierve* atizado;
+como caldero que hierve<span class="note-ref" data-ref="jb-41-12" title="Ver comentario">&#42;</span> atizado;
 
 <sup>13</sup> su aliento enciende carbones,
 
@@ -4229,7 +4230,7 @@ ante él danza el espanto.
 
 <sup>17</sup> Si se yergue se asustan las olas,
 
-las ondas del mar se retiran*.
+las ondas del mar se retiran<span class="note-ref" data-ref="jb-41-17" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Las carnes de su cuerpo son compactas,
 
@@ -4265,7 +4266,7 @@ convierte el mar en un pebetero.
 
 <sup>24</sup> Deja detrás estela luminosa,
 
-melena blanca diríase el abismo*.
+melena blanca diríase el abismo<span class="note-ref" data-ref="jb-41-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> Nada se le iguala en la tierra,
 
@@ -4273,7 +4274,7 @@ pues es creatura sin miedo.
 
 <sup>26</sup> Mira a la cara a los más altivos,
 
-es el rey de los hijos del orgullo*.
+es el rey de los hijos del orgullo<span class="note-ref" data-ref="jb-41-26" title="Ver comentario">&#42;</span>.
 
 ## Última respuesta de Job.
 <span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Job respondió a Yahvé: 
@@ -4284,7 +4285,7 @@ que eres capaz de cualquier proyecto.
 
 <sup>3</sup> [Dijiste:] «¿Quién es éste que vela mi designio
 
-con razones carentes de sentido*?».
+con razones carentes de sentido<span class="note-ref" data-ref="jb-42-3" title="Ver comentario">&#42;</span>?».
 
 Sí, hablé sin pensar de maravillas
 
@@ -4292,21 +4293,21 @@ que me superan y que ignoro.
 
 <sup>4</sup> (Escucha y déjame hablar,
 
-te voy a preguntar y tú me instruirás*.)
+te voy a preguntar y tú me instruirás<span class="note-ref" data-ref="jb-42-4" title="Ver comentario">&#42;</span>.)
 
 <sup>5</sup> Sólo de oídas te conocía,
 
-pero ahora te han visto mis ojos*.
+pero ahora te han visto mis ojos<span class="note-ref" data-ref="jb-42-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Por eso me retracto y me arrepiento
 
-echado en el polvo y la ceniza*.
+echado en el polvo y la ceniza<span class="note-ref" data-ref="jb-42-6" title="Ver comentario">&#42;</span>.
 
 ## V. Epílogo
 ## Yahvé censura a los tres sabios.
-<sup>7</sup> Después de pronunciar estos discursos a Job, dijo Yahvé a Elifaz de Temán: «Estoy enfadado contigo y con tus dos amigos, pues no habéis hablado bien de mí, como mi siervo Job. <sup>8</sup> Coged ahora siete terneras y siete carneros, acudid a mi siervo Job y ofrecedlos por vosotros en holocausto. Mi siervo Job intercederá por vosotros. Sólo en consideración a él* no os infligiré castigo alguno por no haber hablado bien de mí, como ha hecho mi siervo Job». <sup>9</sup> Elifaz de Temán, Bildad de Súaj y Sofar de Naamat fueron a ejecutar la orden de Yahvé. Y Yahvé tuvo en consideración a Job.
+<sup>7</sup> Después de pronunciar estos discursos a Job, dijo Yahvé a Elifaz de Temán: «Estoy enfadado contigo y con tus dos amigos, pues no habéis hablado bien de mí, como mi siervo Job. <sup>8</sup> Coged ahora siete terneras y siete carneros, acudid a mi siervo Job y ofrecedlos por vosotros en holocausto. Mi siervo Job intercederá por vosotros. Sólo en consideración a él<span class="note-ref" data-ref="jb-42-8" title="Ver comentario">&#42;</span> no os infligiré castigo alguno por no haber hablado bien de mí, como ha hecho mi siervo Job». <sup>9</sup> Elifaz de Temán, Bildad de Súaj y Sofar de Naamat fueron a ejecutar la orden de Yahvé. Y Yahvé tuvo en consideración a Job.
 
 ## Yahvé rehace la hacienda de Job.
-<sup>10</sup> Yahvé cambió la suerte de Job después de haber intercedido por sus amigos, y duplicó todas sus posesiones. <sup>11</sup> Fueron a verle todos sus hermanos y hermanas, junto con sus conocidos, y comieron en su casa. Se lamentaron y le consolaron por la desgracia que le había infligido Yahvé. Cada uno le regaló una moneda de plata* y un anillo de oro. <sup>12</sup> Yahvé bendijo ahora a Job más que al principio, pues se hizo con catorce mil ovejas, seis mil camellos, mil yuntas de bueyes y mil burras. <sup>13</sup> Tuvo también siete hijos* y tres hijas. <sup>14</sup> A la primera le puso el nombre de «Paloma», a la segunda «Acacia» y a la tercera «Frasco de perfumes». <sup>15</sup> No había en todo el país muchachas más hermosas que las hijas de Job. Su padre las hizo herederas junto con sus hermanos*.
+<sup>10</sup> Yahvé cambió la suerte de Job después de haber intercedido por sus amigos, y duplicó todas sus posesiones. <sup>11</sup> Fueron a verle todos sus hermanos y hermanas, junto con sus conocidos, y comieron en su casa. Se lamentaron y le consolaron por la desgracia que le había infligido Yahvé. Cada uno le regaló una moneda de plata<span class="note-ref" data-ref="jb-42-11" title="Ver comentario">&#42;</span> y un anillo de oro. <sup>12</sup> Yahvé bendijo ahora a Job más que al principio, pues se hizo con catorce mil ovejas, seis mil camellos, mil yuntas de bueyes y mil burras. <sup>13</sup> Tuvo también siete hijos<span class="note-ref" data-ref="jb-42-13" title="Ver comentario">&#42;</span> y tres hijas. <sup>14</sup> A la primera le puso el nombre de «Paloma», a la segunda «Acacia» y a la tercera «Frasco de perfumes». <sup>15</sup> No había en todo el país muchachas más hermosas que las hijas de Job. Su padre las hizo herederas junto con sus hermanos<span class="note-ref" data-ref="jb-42-15" title="Ver comentario">&#42;</span>.
 
-<sup>16</sup> Job vivió después ciento cuarenta años, y conoció a sus hijos, nietos y bisnietos. <sup>17</sup> Job murió anciano tras una larga vida*.
+<sup>16</sup> Job vivió después ciento cuarenta años, y conoció a sus hijos, nietos y bisnietos. <sup>17</sup> Job murió anciano tras una larga vida<span class="note-ref" data-ref="jb-42-17" title="Ver comentario">&#42;</span>.

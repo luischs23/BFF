@@ -652,8 +652,11 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 	}
 
 	/* Estilos para notas al pie (asteriscos clicables) */
-	.bible-content .note-ref {
-		color: #b45309;
+	.bible-content .note-ref,
+	.bible-content h1 .note-ref,
+	.bible-content h2 .note-ref,
+	.bible-content h3 .note-ref {
+		color: #b45309 !important;
 		cursor: pointer;
 		font-weight: 700;
 		font-size: 1em;
@@ -664,13 +667,19 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		position: relative;
 	}
 
-	.bible-content .note-ref:hover {
-		color: #92400e;
+	.bible-content .note-ref:hover,
+	.bible-content h1 .note-ref:hover,
+	.bible-content h2 .note-ref:hover,
+	.bible-content h3 .note-ref:hover {
+		color: #92400e !important;
 		text-decoration: underline;
 	}
 
-	.dark .bible-content .note-ref {
-		color: #fbbf24;
+	.dark .bible-content .note-ref,
+	.dark .bible-content h1 .note-ref,
+	.dark .bible-content h2 .note-ref,
+	.dark .bible-content h3 .note-ref {
+		color: #fbbf24 !important;
 	}
 
 	.dark .bible-content .note-ref:hover {

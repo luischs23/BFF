@@ -117,12 +117,20 @@ export const POST: APIRoute = async ({ request }) => {
       });
     }
 
-    // Parsear la referencia: "gn-1-1" o "gn-1-2-a" o "gn-1" o "1cro-1-a"
+    // Parsear la referencia: "gn-1-1" o "gn-1-2-a" o "gn-1" o "1cro-1-a" o "est-1-1-a-a"
     const parts = ref.toLowerCase().split('-');
     const bookKey = parts[0];
     const chapter = parts[1];
     let verse = parts[2] || null;
     let letter = parts[3] || null;
+    let subLetter: string | null = null; // Sub-letra del versículo: "Est 1 1 a (b)"
+
+    // Detectar ref de 5 partes: bookKey-chapter-verse-subletter-letter
+    // Ej: "est-1-1-a-b" → verse="1", subLetter="a", letter="b" → busca "Est 1 1 a (b)"
+    if (parts.length >= 5 && verse && /^\d+$/.test(verse) && letter && /^[a-z]$/.test(letter)) {
+      subLetter = letter;        // parts[3] es la sub-letra del versículo
+      letter = parts[4] || null; // parts[4] es la letra del comentario
+    }
 
     // Si verse es una sola letra (ej: "a", "b"), es realmente una letra de comentario, no un versículo
     if (verse && /^[a-z]$/.test(verse) && !letter) {
@@ -193,13 +201,19 @@ export const POST: APIRoute = async ({ request }) => {
     let searchTitle: string;
 
     if (letter) {
-      // Buscar: "Gn 1 2 (a)" o "Gn 1 (a)" (cuando no hay versículo)
-      searchPattern = verse
-        ? `${bookAbbrev} ${chapter} ${verse} (${letter})`
-        : `${bookAbbrev} ${chapter} (${letter})`;
-      searchTitle = verse
-        ? `${bookAbbrev} ${chapter},${verse}${letter}`
-        : `${bookAbbrev} ${chapter}${letter}`;
+      // Buscar: "Est 1 1 a (b)" (subLetter + letra en paréntesis)
+      //      o "Gn 1 2 (a)" (letra en paréntesis sin subLetter)
+      //      o "Gn 1 (a)" (sin versículo)
+      if (subLetter && verse) {
+        searchPattern = `${bookAbbrev} ${chapter} ${verse} ${subLetter} (${letter})`;
+        searchTitle = `${bookAbbrev} ${chapter},${verse}${subLetter}${letter}`;
+      } else if (verse) {
+        searchPattern = `${bookAbbrev} ${chapter} ${verse} (${letter})`;
+        searchTitle = `${bookAbbrev} ${chapter},${verse}${letter}`;
+      } else {
+        searchPattern = `${bookAbbrev} ${chapter} (${letter})`;
+        searchTitle = `${bookAbbrev} ${chapter}${letter}`;
+      }
     } else if (verse) {
       // Buscar: "Gn 1 1" (sin letra)
       searchPattern = `${bookAbbrev} ${chapter} ${verse}`;
@@ -218,24 +232,34 @@ export const POST: APIRoute = async ({ request }) => {
       const trimmed = paragraph.trim();
 
       if (letter) {
-        // Búsqueda exacta con letra
+        // Búsqueda con paréntesis: "Est 1 1 a (b)", "Gn 1 2 (a)", "Gn 1 (a)"
         if (trimmed.startsWith(searchPattern)) {
           foundComment = trimmed;
           break;
         }
+        // Búsqueda sin paréntesis (solo cuando no hay subLetter): "Est 10 3 i", "Est 1 1 b"
+        if (!subLetter) {
+          const searchPatternNoParens = verse
+            ? `${bookAbbrev} ${chapter} ${verse} ${letter}`
+            : `${bookAbbrev} ${chapter} ${letter}`;
+          if (trimmed.startsWith(searchPatternNoParens + ' ') || trimmed === searchPatternNoParens) {
+            foundComment = trimmed;
+            break;
+          }
+        }
       } else if (verse) {
         // Búsqueda de versículo sin letra
-        // Debe coincidir exactamente "Gn 1 1 " pero no "Gn 1 1 (a)"
+        // Debe coincidir exactamente "Gn 1 1 " pero no "Gn 1 1 (a)" ni "Est 10 3 i"
         const versePattern = `${bookAbbrev} ${chapter} ${verse} `;
         const versePatternNoSpace = `${bookAbbrev} ${chapter} ${verse}`;
-        if (trimmed.startsWith(versePattern) && !trimmed.match(new RegExp(`^${bookAbbrev} ${chapter} ${verse} \\([a-z]\\)`))) {
+        if (trimmed.startsWith(versePattern) && !trimmed.match(new RegExp(`^${bookAbbrev} ${chapter} ${verse} \\([a-z]\\)`) ) && !trimmed.match(new RegExp(`^${bookAbbrev} ${chapter} ${verse} [a-z] `))) {
           foundComment = trimmed;
           break;
         }
         // También verificar si el párrafo es exactamente el patrón seguido de texto
         if (trimmed.startsWith(versePatternNoSpace) && trimmed.charAt(versePatternNoSpace.length) === ' ') {
           const afterPattern = trimmed.substring(versePatternNoSpace.length + 1);
-          if (!afterPattern.startsWith('(')) {
+          if (!afterPattern.startsWith('(') && !/^[a-z] /.test(afterPattern)) {
             foundComment = trimmed;
             break;
           }
