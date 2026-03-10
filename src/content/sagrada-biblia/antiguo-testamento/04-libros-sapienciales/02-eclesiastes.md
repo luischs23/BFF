@@ -4,11 +4,13 @@ description: 'Libro del Eclesiastés'
 img: blog-placeholder-4.jpg
 ---
 # ECLESIASTÉS
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabras de Cohélet*, hijo de David, rey de Jerusalén*.
+
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabras de Cohélet<span class="note-ref" data-ref="qo-1-1-a" title="Ver comentario">&#42;</span>, hijo de David, rey de Jerusalén<span class="note-ref" data-ref="qo-1-1-b" title="Ver comentario">&#42;</span>.
 
 ## Primera parte
-## Prólogo*.
-<sup>2</sup> ¡Vanidad de vanidades*! —dice Cohélet—, ¡vanidad de vanidades, todo es vanidad! <sup>3</sup> ¿Qué saca el hombre de toda la fatiga* con que se afana bajo el sol? <sup>4</sup> Una generación va, otra generación viene; pero la tierra permanece donde está. <sup>5</sup> Sale el sol, se pone el sol; corre hacia su lugar y de allí vuelve a salir. <sup>6</sup> Sopla hacia el sur el viento y gira al norte; gira que te gira el viento, y vuelve el viento a girar. <sup>7</sup> Todos los ríos van al mar, y el mar nunca se llena; al lugar donde los ríos van, allá vuelven a fluir. <sup>8</sup> Todas las cosas cansan. Nadie puede decir* que no se cansa el ojo de ver ni el oído de oír.
+## Prólogo<span class="note-ref" data-ref="qo-1-2-a" title="Ver comentario">&#42;</span>.
+
+<sup>2</sup> ¡Vanidad de vanidades<span class="note-ref" data-ref="qo-1-2-b" title="Ver comentario">&#42;</span>! —dice Cohélet—, ¡vanidad de vanidades, todo es vanidad! <sup>3</sup> ¿Qué saca el hombre de toda la fatiga<span class="note-ref" data-ref="qo-1-3" title="Ver comentario">&#42;</span> con que se afana bajo el sol? <sup>4</sup> Una generación va, otra generación viene; pero la tierra permanece donde está. <sup>5</sup> Sale el sol, se pone el sol; corre hacia su lugar y de allí vuelve a salir. <sup>6</sup> Sopla hacia el sur el viento y gira al norte; gira que te gira el viento, y vuelve el viento a girar. <sup>7</sup> Todos los ríos van al mar, y el mar nunca se llena; al lugar donde los ríos van, allá vuelven a fluir. <sup>8</sup> Todas las cosas cansan. Nadie puede decir<span class="note-ref" data-ref="qo-1-8" title="Ver comentario">&#42;</span> que no se cansa el ojo de ver ni el oído de oír.
 
 <sup>9</sup> Lo que fue, eso será;
 
@@ -18,30 +20,30 @@ lo que se hizo, eso se hará.
 
 <sup>10</sup> Si de algo se dice: «Mira, eso sí que es nuevo», aun eso ya sucedía en los siglos que nos precedieron. <sup>11</sup> No hay recuerdo de los antiguos, como tampoco de los venideros quedará memoria entre los que después vendrán.
 
-## La vida de Salomón*.
-<sup>12</sup> Yo, Cohélet, he sido rey de Israel en Jerusalén. <sup>13</sup> Me he aplicado con interés a investigar y explorar con sabiduría cuanto acaece bajo el cielo. ¡Mal oficio* éste que Dios encomendó a los humanos para que en él se ocuparan! <sup>14</sup> He observado cuanto sucede bajo el sol y he visto que todo es vanidad y atrapar vientos*.
+## La vida de Salomón<span class="note-ref" data-ref="qo-1-12" title="Ver comentario">&#42;</span>.
+<sup>12</sup> Yo, Cohélet, he sido rey de Israel en Jerusalén. <sup>13</sup> Me he aplicado con interés a investigar y explorar con sabiduría cuanto acaece bajo el cielo. ¡Mal oficio<span class="note-ref" data-ref="qo-1-13" title="Ver comentario">&#42;</span> éste que Dios encomendó a los humanos para que en él se ocuparan! <sup>14</sup> He observado cuanto sucede bajo el sol y he visto que todo es vanidad y atrapar vientos<span class="note-ref" data-ref="qo-1-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Lo torcido no puede enderezarse,
 
 lo que falta no se puede contar.
 
-<sup>16</sup> Me dije para mis adentros: Tengo una sabiduría grande y extensa, mayor que la de todos mis predecesores en Jerusalén; con mi reflexión he adquirido enorme sabiduría y ciencia. <sup>17</sup> He reflexionado para conocer la sabiduría y el saber, la locura* y la necedad, y he comprendido que aun esto mismo es atrapar vientos, <sup>18</sup> pues:
+<sup>16</sup> Me dije para mis adentros: Tengo una sabiduría grande y extensa, mayor que la de todos mis predecesores en Jerusalén; con mi reflexión he adquirido enorme sabiduría y ciencia. <sup>17</sup> He reflexionado para conocer la sabiduría y el saber, la locura<span class="note-ref" data-ref="qo-1-17" title="Ver comentario">&#42;</span> y la necedad, y he comprendido que aun esto mismo es atrapar vientos, <sup>18</sup> pues:
 
 Donde abunda sabiduría abundan penas,
 
 quien acumula ciencia acumula dolor.
 
-<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Me dije para mis adentros: ¡Voy a probar con el placer y a disfrutar del bienestar! Pero vi que también esto es vanidad. <sup>2</sup> A la risa llamé locura, y del placer dije: ¿Para qué vale? <sup>3</sup> Traté de regalar* mi cuerpo con vino, mientras guiaba mi reflexión con sabiduría, y de entregarme a la necedad hasta ver en qué consistía la felicidad de los humanos, lo que hacen bajo el cielo durante los contados días de su vida. <sup>4</sup> Emprendí mis grandes obras; construí palacios, planté viñas; <sup>5</sup> me hice huertos y jardines, y los planté de toda clase de árboles frutales. <sup>6</sup> Me construí albercas para que el agua regase la fértil fronda. <sup>7</sup> Tuve siervos y esclavas: poseí servidumbre, así como ganados, vacas y ovejas, en mayor cantidad que ninguno de mis predecesores en Jerusalén. <sup>8</sup> Atesoré también plata y oro, tributos de reyes y de provincias. Me procuré cantores y cantoras, toda clase de lujos humanos, coperos y reposteros*. <sup>9</sup> Me hice grande y superé a todos mis predecesores en Jerusalén, asistido por mi sabiduría. <sup>10</sup> Nada negué a mis ojos de cuanto me pedían, ni rehusé a mi corazón ninguna alegría, pues me solazaba en medio de todas mis fatigas, y esto me compensaba de todas mis fatigas.
+<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Me dije para mis adentros: ¡Voy a probar con el placer y a disfrutar del bienestar! Pero vi que también esto es vanidad. <sup>2</sup> A la risa llamé locura, y del placer dije: ¿Para qué vale? <sup>3</sup> Traté de regalar<span class="note-ref" data-ref="qo-2-3" title="Ver comentario">&#42;</span> mi cuerpo con vino, mientras guiaba mi reflexión con sabiduría, y de entregarme a la necedad hasta ver en qué consistía la felicidad de los humanos, lo que hacen bajo el cielo durante los contados días de su vida. <sup>4</sup> Emprendí mis grandes obras; construí palacios, planté viñas; <sup>5</sup> me hice huertos y jardines, y los planté de toda clase de árboles frutales. <sup>6</sup> Me construí albercas para que el agua regase la fértil fronda. <sup>7</sup> Tuve siervos y esclavas: poseí servidumbre, así como ganados, vacas y ovejas, en mayor cantidad que ninguno de mis predecesores en Jerusalén. <sup>8</sup> Atesoré también plata y oro, tributos de reyes y de provincias. Me procuré cantores y cantoras, toda clase de lujos humanos, coperos y reposteros<span class="note-ref" data-ref="qo-2-8" title="Ver comentario">&#42;</span>. <sup>9</sup> Me hice grande y superé a todos mis predecesores en Jerusalén, asistido por mi sabiduría. <sup>10</sup> Nada negué a mis ojos de cuanto me pedían, ni rehusé a mi corazón ninguna alegría, pues me solazaba en medio de todas mis fatigas, y esto me compensaba de todas mis fatigas.
 
-<sup>11</sup> Consideré entonces todas las obras de mis manos y lo mucho que me fatigué haciéndolas, y vi que todo es vanidad y atrapar vientos, y que ningún provecho se saca bajo el sol. <sup>12</sup> Me puse a considerar la sabiduría, la locura y la necedad. ¿Qué hará el hombre que suceda al rey, sino lo que ya otros hicieron*? <sup>13</sup> Vi que la sabiduría aventaja a la necedad, como la luz a las tinieblas.
+<sup>11</sup> Consideré entonces todas las obras de mis manos y lo mucho que me fatigué haciéndolas, y vi que todo es vanidad y atrapar vientos, y que ningún provecho se saca bajo el sol. <sup>12</sup> Me puse a considerar la sabiduría, la locura y la necedad. ¿Qué hará el hombre que suceda al rey, sino lo que ya otros hicieron<span class="note-ref" data-ref="qo-2-12" title="Ver comentario">&#42;</span>? <sup>13</sup> Vi que la sabiduría aventaja a la necedad, como la luz a las tinieblas.
 
-<sup>14</sup> El sabio tiene sus ojos abiertos*,
+<sup>14</sup> El sabio tiene sus ojos abiertos<span class="note-ref" data-ref="qo-2-14-a" title="Ver comentario">&#42;</span>,
 
-pero el necio camina en tinieblas*.
+pero el necio camina en tinieblas<span class="note-ref" data-ref="qo-2-14-b" title="Ver comentario">&#42;</span>.
 
 ## Pero también sé que la misma suerte alcanza a ambos.
 
-<sup>15</sup> Entonces me dije: Como la suerte del necio será la mía, ¿para qué sirve mi sabiduría*? Y pensé que hasta eso mismo es vanidad. <sup>16</sup> No hay recuerdo duradero ni del sabio ni del necio; al correr de los días, todos son olvidados. Pues el sabio muere igual que el necio.
+<sup>15</sup> Entonces me dije: Como la suerte del necio será la mía, ¿para qué sirve mi sabiduría<span class="note-ref" data-ref="qo-2-15" title="Ver comentario">&#42;</span>? Y pensé que hasta eso mismo es vanidad. <sup>16</sup> No hay recuerdo duradero ni del sabio ni del necio; al correr de los días, todos son olvidados. Pues el sabio muere igual que el necio.
 
 <sup>17</sup> He detestado la vida, porque me repugna cuanto se hace bajo el sol, pues todo es vanidad y atrapar vientos.
 
@@ -49,9 +51,9 @@ pero el necio camina en tinieblas*.
 
 <sup>22</sup> Entonces, ¿qué le queda al hombre de toda su fatiga y esfuerzo con que se fatigó bajo el sol? <sup>23</sup> Pues todos sus días son dolorosos y su oficio penoso; y ni aun de noche descansa su mente. También esto es vanidad.
 
-<sup>24</sup> No hay mayor felicidad para el hombre que comer y beber, y disfrutar en medio de sus fatigas*. Yo veo que también esto es don de Dios, <sup>25</sup> pues ¿quién come y quién bebe, si él no lo permite?*. <sup>26</sup> Porque Él da sabiduría, ciencia y alegría a quien le agrada; mas al pecador le da como tarea amontonar y atesorar para dejárselo a quien agrada a Dios*. También esto es vanidad y atrapar vientos.
+<sup>24</sup> No hay mayor felicidad para el hombre que comer y beber, y disfrutar en medio de sus fatigas<span class="note-ref" data-ref="qo-2-24" title="Ver comentario">&#42;</span>. Yo veo que también esto es don de Dios, <sup>25</sup> pues ¿quién come y quién bebe, si él no lo permite?<span class="note-ref" data-ref="qo-2-25" title="Ver comentario">&#42;</span>. <sup>26</sup> Porque Él da sabiduría, ciencia y alegría a quien le agrada; mas al pecador le da como tarea amontonar y atesorar para dejárselo a quien agrada a Dios<span class="note-ref" data-ref="qo-2-26" title="Ver comentario">&#42;</span>. También esto es vanidad y atrapar vientos.
 
-## La muerte*.
+## La muerte<span class="note-ref" data-ref="qo-3" title="Ver comentario">&#42;</span>.
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Todo tiene su momento, y cada cosa su tiempo bajo el cielo:
 
  <sup>2</sup> Su tiempo el nacer,
@@ -110,11 +112,11 @@ su tiempo la guerra,
 
 y su tiempo la paz.
 
-<sup>9</sup> ¿Qué gana el que trabaja con fatiga? <sup>10</sup> He considerado la tarea que Dios ha impuesto a los humanos para que en ella se ocupen. <sup>11</sup> Él ha hecho todas las cosas apropiadas a su tiempo; y también ha puesto el conjunto del tiempo en sus corazones*, pero el hombre no es capaz de descubrir la obra que Dios ha hecho de principio a fin.
+<sup>9</sup> ¿Qué gana el que trabaja con fatiga? <sup>10</sup> He considerado la tarea que Dios ha impuesto a los humanos para que en ella se ocupen. <sup>11</sup> Él ha hecho todas las cosas apropiadas a su tiempo; y también ha puesto el conjunto del tiempo en sus corazones<span class="note-ref" data-ref="qo-3-11" title="Ver comentario">&#42;</span>, pero el hombre no es capaz de descubrir la obra que Dios ha hecho de principio a fin.
 
-<sup>12</sup> Sé bien que no hay para el hombre* mayor felicidad que alegrarse y buscar el bienestar en su vida. <sup>13</sup> Y que todo hombre coma y beba y disfrute bien en medio de sus fatigas, eso es don de Dios.
+<sup>12</sup> Sé bien que no hay para el hombre<span class="note-ref" data-ref="qo-3-12" title="Ver comentario">&#42;</span> mayor felicidad que alegrarse y buscar el bienestar en su vida. <sup>13</sup> Y que todo hombre coma y beba y disfrute bien en medio de sus fatigas, eso es don de Dios.
 
-<sup>14</sup> Sé bien que cuanto Dios hace es duradero*.
+<sup>14</sup> Sé bien que cuanto Dios hace es duradero<span class="note-ref" data-ref="qo-3-14" title="Ver comentario">&#42;</span>.
 
 ## Nada hay que añadir ni nada que quitar.
 
@@ -124,17 +126,17 @@ y su tiempo la paz.
 
 lo que será, ya es.
 
-## Y Dios restaura lo pasado*.
+## Y Dios restaura lo pasado<span class="note-ref" data-ref="qo-3-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Más cosas todavía he visto bajo el sol:
 
 en la sede del derecho, la iniquidad;
 
-y en el sitial del justo*, el impío.
+y en el sitial del justo<span class="note-ref" data-ref="qo-3-16" title="Ver comentario">&#42;</span>, el impío.
 
-<sup>17</sup> Y dije para mí: Dios juzgará al justo y al impío, pues hay un tiempo para cada cosa y para cada acción aquí*.
+<sup>17</sup> Y dije para mí: Dios juzgará al justo y al impío, pues hay un tiempo para cada cosa y para cada acción aquí<span class="note-ref" data-ref="qo-3-17" title="Ver comentario">&#42;</span>.
 
-<sup>18</sup> Sobre la conducta de los humanos reflexioné así: Dios los prueba y les demuestra que son como bestias*. <sup>19</sup> Porque el hombre y la bestia tienen la misma suerte: muere el uno como la otra; y ambos tienen el mismo aliento de vida. En nada aventaja el hombre a la bestia, pues todo es vanidad.
+<sup>18</sup> Sobre la conducta de los humanos reflexioné así: Dios los prueba y les demuestra que son como bestias<span class="note-ref" data-ref="qo-3-18" title="Ver comentario">&#42;</span>. <sup>19</sup> Porque el hombre y la bestia tienen la misma suerte: muere el uno como la otra; y ambos tienen el mismo aliento de vida. En nada aventaja el hombre a la bestia, pues todo es vanidad.
 
 <sup>20</sup> Todos caminan hacia una misma meta;
 
@@ -142,11 +144,11 @@ todos han salido del polvo
 
 y todos vuelven al polvo.
 
-<sup>21</sup> ¿Quién sabe si el aliento de vida de los humanos asciende hacia arriba y si el aliento de vida de la bestia desciende hacia abajo, a la tierra*?
+<sup>21</sup> ¿Quién sabe si el aliento de vida de los humanos asciende hacia arriba y si el aliento de vida de la bestia desciende hacia abajo, a la tierra<span class="note-ref" data-ref="qo-3-21" title="Ver comentario">&#42;</span>?
 
 <sup>22</sup> Veo que no hay nada mejor para el hombre que gozar de sus obras, pues ésa es su paga. Pero ¿quién le guiará a contemplar lo que ha de suceder después de él?
 
-## La vida social*.
+## La vida social<span class="note-ref" data-ref="qo-4" title="Ver comentario">&#42;</span>.
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Me puse a considerar todas las violencias perpetradas bajo el sol:
 
 vi llorar a los oprimidos, sin nadie que los consolase;
@@ -167,7 +169,7 @@ y se consume a sí mismo.
 
 que dos puñados con fatiga
 
-en atrapar vientos*.
+en atrapar vientos<span class="note-ref" data-ref="qo-4-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Observé otra vanidad bajo el sol: <sup>8</sup> hay quien vive solo, sin sucesor, sin hijos ni hermano; su fatiga no tiene límites, y sus ojos no se hartan de riquezas: «¿Para quién me fatigo entonces y me privo de felicidad?»
 
@@ -175,7 +177,7 @@ en atrapar vientos*.
 
 <sup>9</sup> Más valen dos que uno solo, pues obtienen mayor ganancia de su esfuerzo. <sup>10</sup> Si uno cae, lo levantará su compañero; pero ¡ay del solo que cae!, que no tiene quien lo levante. <sup>11</sup> Si dos se acuestan, se calientan entre sí; pero el que está solo, ¿cómo se calentará?
 
-<sup>12</sup> Si atacan a uno, los dos harán frente. La cuerda de tres hilos no es fácil de romper*.
+<sup>12</sup> Si atacan a uno, los dos harán frente. La cuerda de tres hilos no es fácil de romper<span class="note-ref" data-ref="qo-4-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Más vale mozo pobre y sabio
 
@@ -185,11 +187,11 @@ que ya no sabe aconsejarse.
 
 <sup>14</sup> Aunque haya salido de prisión para reinar,
 
-aunque pobre naciera en el reino*,
+aunque pobre naciera en el reino<span class="note-ref" data-ref="qo-4-14" title="Ver comentario">&#42;</span>,
 
 <sup>15</sup> veo a todos los vivientes que caminan bajo el sol ponerse junto al mozo, el sucesor, el que ocupará su puesto; <sup>16</sup> e iba a la cabeza de una multitud innumerable. Pero su posteridad no estará contenta con él. También esto es vanidad y atrapar vientos.
 
-<sup>17</sup> Guarda tus pasos cuando vas a la Casa de Dios. Acercarse obediente vale más que el sacrificio de los necios, porque ellos no saben que hacen el mal*.
+<sup>17</sup> Guarda tus pasos cuando vas a la Casa de Dios. Acercarse obediente vale más que el sacrificio de los necios, porque ellos no saben que hacen el mal<span class="note-ref" data-ref="qo-4-17" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Que no se precipiten tus labios ni se apresure tu corazón al pronunciar una palabra ante Dios. Dios está en el cielo, pero tú en la tierra: sean por tanto pocas tus palabras.
 
@@ -201,17 +203,17 @@ y en las muchas palabras
 
 la voz del necio.
 
-<sup>3</sup> Si haces un voto a Dios, no tardes en cumplirlo, pues no le agradan los necios. El voto que has hecho, cúmplelo. <sup>4</sup> Es mejor no hacer votos que hacerlos y no cumplirlos. <sup>5</sup> No permitas que tu boca haga de ti un pecador, y luego digas ante el Mensajero que fue inadvertencia*. ¿Por qué dar a Dios la ocasión de irritarse contra ti y de arruinar lo que haces?
+<sup>3</sup> Si haces un voto a Dios, no tardes en cumplirlo, pues no le agradan los necios. El voto que has hecho, cúmplelo. <sup>4</sup> Es mejor no hacer votos que hacerlos y no cumplirlos. <sup>5</sup> No permitas que tu boca haga de ti un pecador, y luego digas ante el Mensajero que fue inadvertencia<span class="note-ref" data-ref="qo-5-5" title="Ver comentario">&#42;</span>. ¿Por qué dar a Dios la ocasión de irritarse contra ti y de arruinar lo que haces?
 
 <sup>6</sup> Cuantos más sueños,
 
-más vanidades y palabrería*.
+más vanidades y palabrería<span class="note-ref" data-ref="qo-5-6" title="Ver comentario">&#42;</span>.
 
 ## Pero tú teme a Dios.
 
-<sup>7</sup> Si en la región ves al pobre oprimido y violados el derecho y la justicia, no te asombres por eso. Se te dirá que una dignidad vigila sobre otra dignidad, y otras más dignas sobre ambas. <sup>8</sup> Se invocará el interés común y el servicio del rey*.
+<sup>7</sup> Si en la región ves al pobre oprimido y violados el derecho y la justicia, no te asombres por eso. Se te dirá que una dignidad vigila sobre otra dignidad, y otras más dignas sobre ambas. <sup>8</sup> Se invocará el interés común y el servicio del rey<span class="note-ref" data-ref="qo-5-8" title="Ver comentario">&#42;</span>.
 
-## El dinero*.
+## El dinero<span class="note-ref" data-ref="qo-5-9" title="Ver comentario">&#42;</span>.
 <sup>9</sup> Quien ama el dinero, no se harta de él; para quien ama la abundancia, no bastan ganancias.
 
 ## También esto es vanidad.
@@ -226,9 +228,9 @@ más que de espectáculo para sus ojos?
 
 <sup>11</sup> Dulce es el sueño del obrero, coma poco o coma mucho; pero al rico la hartura no le deja dormir.
 
-<sup>12</sup> Hay un grave mal que yo he visto bajo el sol: riqueza guardada para su dueño, que sólo sirve para su mal. <sup>13</sup> Pierde las riquezas en un mal negocio, y el hijo que engendra se queda con las manos vacías. <sup>14</sup> Como salió del vientre de su madre, desnudo volverá, como ha venido; y nada podrá sacar de las fatigas de sus manos. <sup>15</sup> También esto es grave mal: que tal como vino, se vaya; y ¿de qué le vale fatigarse para el viento? <sup>16</sup> Todos los días pasa en oscuridad, pena*, fastidio, enfermedad y rabia.
+<sup>12</sup> Hay un grave mal que yo he visto bajo el sol: riqueza guardada para su dueño, que sólo sirve para su mal. <sup>13</sup> Pierde las riquezas en un mal negocio, y el hijo que engendra se queda con las manos vacías. <sup>14</sup> Como salió del vientre de su madre, desnudo volverá, como ha venido; y nada podrá sacar de las fatigas de sus manos. <sup>15</sup> También esto es grave mal: que tal como vino, se vaya; y ¿de qué le vale fatigarse para el viento? <sup>16</sup> Todos los días pasa en oscuridad, pena<span class="note-ref" data-ref="qo-5-16" title="Ver comentario">&#42;</span>, fastidio, enfermedad y rabia.
 
-<sup>17</sup> Esto he experimentado: lo mejor para el hombre* es comer, beber y disfrutar en medio de sus fatigas y afanes bajo el sol, en los contados días de la vida que Dios le concede; porque ésta es su paga.
+<sup>17</sup> Esto he experimentado: lo mejor para el hombre<span class="note-ref" data-ref="qo-5-17" title="Ver comentario">&#42;</span> es comer, beber y disfrutar en medio de sus fatigas y afanes bajo el sol, en los contados días de la vida que Dios le concede; porque ésta es su paga.
 
 <sup>18</sup> Además, cuando Dios concede a un hombre riquezas y tesoros, le deja disfrutar de ellos, tomar su porción y holgarse en medio de sus fatigas, esto sí que es don de Dios. <sup>19</sup> No recordará mucho los días de su vida, mientras Dios le llena de alegría el corazón.
 
@@ -250,9 +252,9 @@ y descansa mejor que el otro. <sup>6</sup> Y aunque hubiera vivido por dos veces
 
 y a pesar de todo su apetito no se sacia.
 
-<sup>8</sup> ¿En qué supera el sabio al necio? ¿En qué, al pobre que sabe vivir su vida*?
+<sup>8</sup> ¿En qué supera el sabio al necio? ¿En qué, al pobre que sabe vivir su vida<span class="note-ref" data-ref="qo-6-8" title="Ver comentario">&#42;</span>?
 
-<sup>9</sup> Mejor es lo que los ojos ven que lo que el alma desea*.
+<sup>9</sup> Mejor es lo que los ojos ven que lo que el alma desea<span class="note-ref" data-ref="qo-6-9" title="Ver comentario">&#42;</span>.
 
 ## También esto es vanidad y atrapar vientos.
 
@@ -265,7 +267,7 @@ y a pesar de todo su apetito no se sacia.
 <sup>12</sup> Porque, ¿quién sabe lo que conviene al hombre en su vida, durante los días contados de su vano vivir, que él los vive como una sombra? Pues ¿quién dirá al hombre lo que sucederá después de él bajo el sol?
 
 ## Segunda parte
-## Prólogo*
+## Prólogo<span class="note-ref" data-ref="qo-7" title="Ver comentario">&#42;</span>
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Más vale buena fama que suaves perfumes;
 
 y el día de la muerte más que el día del nacimiento.
@@ -298,9 +300,9 @@ y también esto es vanidad.
 
 <sup>7</sup> El halago atonta al sabio,
 
-y el soborno pervierte su corazón*.
+y el soborno pervierte su corazón<span class="note-ref" data-ref="qo-7-7" title="Ver comentario">&#42;</span>.
 
-## La sanción*.
+## La sanción<span class="note-ref" data-ref="qo-7-8" title="Ver comentario">&#42;</span>.
 <sup>8</sup> Más vale el final de una cosa que su comienzo,
 
 y más vale paciente que arrogante.
@@ -315,7 +317,7 @@ y aprovecha a los que ven el sol.
 
 <sup>12</sup> Al amparo de la sabiduría como al amparo del dinero,
 
-pero el saber le aventaja porque da vida a su dueño*.
+pero el saber le aventaja porque da vida a su dueño<span class="note-ref" data-ref="qo-7-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Mira la obra de Dios:
 
@@ -327,7 +329,7 @@ y, en el día desgraciado, considera
 
 que Dios ha hecho muy bien a uno y otro,
 
-para que el hombre no descubra su porvenir*.
+para que el hombre no descubra su porvenir<span class="note-ref" data-ref="qo-7-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> En mi vano vivir, de todo he visto:
 
@@ -351,7 +353,7 @@ ni te hagas el insensato.
 
 porque el temeroso de Dios de todo sale bien parado.
 
-<sup>19</sup> La sabiduría hace más fuerte al sabio que diez poderosos que haya en la ciudad*.
+<sup>19</sup> La sabiduría hace más fuerte al sabio que diez poderosos que haya en la ciudad<span class="note-ref" data-ref="qo-7-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> No hay nadie tan honrado en la tierra
 
@@ -363,7 +365,7 @@ que haga el bien sin nunca pecar.
 
 <sup>23</sup> Todo esto lo intenté recurriendo a la sabiduría. Me dije: Seré sabio. ¡Pero qué lejos estaba de mi alcance! <sup>24</sup> Lo que existe está lejos y es muy profundo: ¿quién dará con ello?
 
-<sup>25</sup> Me he dedicado a explorar y a buscar sabiduría y buen tino, y a reconocer que la maldad es necedad, y la necedad locura*.
+<sup>25</sup> Me he dedicado a explorar y a buscar sabiduría y buen tino, y a reconocer que la maldad es necedad, y la necedad locura<span class="note-ref" data-ref="qo-7-25" title="Ver comentario">&#42;</span>.
 
 <sup>26</sup> Y he descubierto que la mujer es más amarga que la muerte, porque es como una red,
 
@@ -381,7 +383,7 @@ Un hombre encontré entre mil,
 
 pero entre todas ellas no encontré una mujer.
 
-<sup>29</sup> Mira, sólo esto descubrí: Dios hizo sencillo al hombre*, pero él se complicó con tantos razonamientos.
+<sup>29</sup> Mira, sólo esto descubrí: Dios hizo sencillo al hombre<span class="note-ref" data-ref="qo-7-29" title="Ver comentario">&#42;</span>, pero él se complicó con tantos razonamientos.
 
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> ¿Quién como el sabio?¿Quién otro sabe explicar una cosa?
 
@@ -391,7 +393,7 @@ y transfigura sus facciones severas.
 
 <sup>2</sup> Aténte al dictamen del rey,
 
-a causa del juramento divino*;
+a causa del juramento divino<span class="note-ref" data-ref="qo-8-2" title="Ver comentario">&#42;</span>;
 
 <sup>3</sup> no tengas prisa en evitar su presencia;
 
@@ -405,27 +407,27 @@ y ¿quién va a decirle: Qué haces?
 
 <sup>5</sup> Quien se atiene a lo mandado, nada sabe de conspiraciones.
 
-Y la mente del sabio sabe el cuándo y el cómo*,
+Y la mente del sabio sabe el cuándo y el cómo<span class="note-ref" data-ref="qo-8-5" title="Ver comentario">&#42;</span>,
 
 <sup>6</sup> pues todo asunto tiene su cuándo y su cómo.
 
 Grande es el peligro que acecha al hombre,
 
-<sup>7</sup> pues ignora lo que está por venir*
+<sup>7</sup> pues ignora lo que está por venir<span class="note-ref" data-ref="qo-8-7" title="Ver comentario">&#42;</span>
 
 y nadie le anuncia lo que está por llegar.
 
-<sup>8</sup> No es el hombre señor del viento*, capaz de dominarlo;
+<sup>8</sup> No es el hombre señor del viento<span class="note-ref" data-ref="qo-8-8-a" title="Ver comentario">&#42;</span>, capaz de dominarlo;
 
 ni es dueño del día de la muerte,
 
 ni puede escapar a la guerra;
 
-ni la maldad libra a sus autores*.
+ni la maldad libra a sus autores<span class="note-ref" data-ref="qo-8-8-b" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Todo esto he descubierto aplicando mi reflexión a cuanto pasa bajo el sol, cuando un hombre domina a otro hombre para hacerle daño.
 
-<sup>10</sup> Por ejemplo, he visto a malvados conducidos a la tumba; vuelve la gente del Lugar Sagrado, y se olvidan en la ciudad del modo en que obraron*. ¡Otro absurdo!: <sup>11</sup> que no se ejecute en seguida la sentencia de la conducta del malvado, con lo que el corazón de los humanos se llena de ganas de hacer el mal; <sup>12</sup> que el pecador haga el mal cientos de veces, y se le den largas. Pues yo tenía entendido que les va bien a los temerosos de Dios, porque le temen, <sup>13</sup> y que no le va bien al malvado, ni alargará sus días como sombra el que no teme a Dios*.
+<sup>10</sup> Por ejemplo, he visto a malvados conducidos a la tumba; vuelve la gente del Lugar Sagrado, y se olvidan en la ciudad del modo en que obraron<span class="note-ref" data-ref="qo-8-10" title="Ver comentario">&#42;</span>. ¡Otro absurdo!: <sup>11</sup> que no se ejecute en seguida la sentencia de la conducta del malvado, con lo que el corazón de los humanos se llena de ganas de hacer el mal; <sup>12</sup> que el pecador haga el mal cientos de veces, y se le den largas. Pues yo tenía entendido que les va bien a los temerosos de Dios, porque le temen, <sup>13</sup> y que no le va bien al malvado, ni alargará sus días como sombra el que no teme a Dios<span class="note-ref" data-ref="qo-8-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Pues bien, un absurdo se da en la tierra:
 
@@ -440,9 +442,9 @@ y malvados tratados según la conducta de los honrados.
 <sup>16</sup> Cuanto más apliqué mi corazón a estudiar la sabiduría y a contemplar el ajetreo que se da sobre la tierra —pues ni de día ni de noche concilian los ojos el sueño—, <sup>17</sup> fui viendo que el ser humano no puede descubrir todas las obras de Dios, las obras que se realizan bajo el sol. Por más que se afane el hombre en buscar, nada descubrirá, y el mismo sabio, aunque diga saberlo, no es capaz de descubrirlo.
 
 ## La muerte.
-<span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Pues bien, a todo esto me he aplicado con interés y todo lo he explorado, y he visto que los justos y los sabios, así como sus obras, están en manos de Dios*.
+<span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Pues bien, a todo esto me he aplicado con interés y todo lo he explorado, y he visto que los justos y los sabios, así como sus obras, están en manos de Dios<span class="note-ref" data-ref="qo-9-1-a" title="Ver comentario">&#42;</span>.
 
-## Y nada saben los hombres de amor ni de odio*:
+## Y nada saben los hombres de amor ni de odio<span class="note-ref" data-ref="qo-9-1-b" title="Ver comentario">&#42;</span>:
 
 todo les resulta <sup>2</sup> absurdo.
 
@@ -450,7 +452,7 @@ Como el que haya un destino común para todos,
 
 para el justo y para el malvado,
 
-el puro y el manchado*,
+el puro y el manchado<span class="note-ref" data-ref="qo-9-2" title="Ver comentario">&#42;</span>,
 
 el que hace sacrificios
 
@@ -460,13 +462,13 @@ lo mismo el bueno que el pecador,
 
 el que jura como el que tiene reparo en jurar.
 
-<sup>3</sup> Eso es lo peor de todo cuanto pasa bajo el sol: que haya un destino común para todos. Y así el corazón de los humanos está lleno de maldad y hay locura en sus corazones mientras viven, y su final ¡con los muertos*!
+<sup>3</sup> Eso es lo peor de todo cuanto pasa bajo el sol: que haya un destino común para todos. Y así el corazón de los humanos está lleno de maldad y hay locura en sus corazones mientras viven, y su final ¡con los muertos<span class="note-ref" data-ref="qo-9-3" title="Ver comentario">&#42;</span>!
 
-<sup>4</sup> Mientras uno sigue unido* a todos los vivientes hay algo seguro,
+<sup>4</sup> Mientras uno sigue unido<span class="note-ref" data-ref="qo-9-4" title="Ver comentario">&#42;</span> a todos los vivientes hay algo seguro,
 
 pues vale más perro vivo que león muerto.
 
-<sup>5</sup> Los vivos saben que han de morir, pero los muertos no saben nada, y no hay ya paga para ellos, pues se perdió su memoria. <sup>6</sup> Se acabaron hace tiempo su amor, su odio y sus celos, y no tomarán parte nunca jamás en todo lo que pasa bajo el sol*.
+<sup>5</sup> Los vivos saben que han de morir, pero los muertos no saben nada, y no hay ya paga para ellos, pues se perdió su memoria. <sup>6</sup> Se acabaron hace tiempo su amor, su odio y sus celos, y no tomarán parte nunca jamás en todo lo que pasa bajo el sol<span class="note-ref" data-ref="qo-9-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Anda, come con alegría tu pan
 
@@ -521,7 +523,7 @@ así son tratados los humanos por el infortunio
 cuando les cae encima de improviso.
 
 ## Sabiduría y necedad.
-<sup>13</sup> También he visto otro acierto* bajo el sol, y grande a juicio mío: <sup>14</sup> Una ciudad chiquita, con pocos habitantes. Llega un gran rey y le pone cerco, levantando frente a ella potentes empalizadas*. <sup>15</sup> Se encontraba en ella un hombre pobre y sabio, que pudo haber salvado a la ciudad gracias a su sabiduría, ¡pero nadie paró mientes en aquel pobre! <sup>16</sup> Y yo me digo:
+<sup>13</sup> También he visto otro acierto<span class="note-ref" data-ref="qo-9-13" title="Ver comentario">&#42;</span> bajo el sol, y grande a juicio mío: <sup>14</sup> Una ciudad chiquita, con pocos habitantes. Llega un gran rey y le pone cerco, levantando frente a ella potentes empalizadas<span class="note-ref" data-ref="qo-9-14" title="Ver comentario">&#42;</span>. <sup>15</sup> Se encontraba en ella un hombre pobre y sabio, que pudo haber salvado a la ciudad gracias a su sabiduría, ¡pero nadie paró mientes en aquel pobre! <sup>16</sup> Y yo me digo:
 
 Más vale sabiduría que fuerza;
 
@@ -531,9 +533,9 @@ pero la sabiduría del pobre se desprecia y sus palabras no se escuchan.
 
 <sup>18</sup> Más vale sabiduría que armas de combate,
 
-pero un solo yerro* echa a perder mucho bueno.
+pero un solo yerro<span class="note-ref" data-ref="qo-9-18" title="Ver comentario">&#42;</span> echa a perder mucho bueno.
 
-<span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Una mosca muerta pudre* una copa de ungüento de perfumista;
+<span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Una mosca muerta pudre<span class="note-ref" data-ref="qo-10-1" title="Ver comentario">&#42;</span> una copa de ungüento de perfumista;
 
 cuenta más un poco de necedad que sabiduría y honor.
 
@@ -561,11 +563,11 @@ el que raja maderos puede hacerse daño.
 
 los labios del necio lo arruinan.
 
-<sup>13</sup> Empieza diciendo necedades, para acabar en funesta locura*. <sup>14</sup> El necio habla y habla sin control, pero el hombre no sabe lo que va venir, y el remate de todo, ¿quién puede pronosticárselo?
+<sup>13</sup> Empieza diciendo necedades, para acabar en funesta locura<span class="note-ref" data-ref="qo-10-13" title="Ver comentario">&#42;</span>. <sup>14</sup> El necio habla y habla sin control, pero el hombre no sabe lo que va venir, y el remate de todo, ¿quién puede pronosticárselo?
 
 <sup>15</sup> La fatiga acaba con el necio,
 
-pues ni siquiera sabe ir a la ciudad*.
+pues ni siquiera sabe ir a la ciudad<span class="note-ref" data-ref="qo-10-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> ¡Ay del país donde reina un chiquillo, cuyos príncipes madrugan para sus banquetes! <sup>17</sup> ¡Dichoso el país donde reina un hidalgo, cuyos príncipes comen a su hora, por recobrar el vigor y no por banquetear!
 
@@ -583,7 +585,7 @@ que un pajarito corre la voz,
 
 y un ser alado cuenta la cosa.
 
-<span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Manda tu grano por el mar, que al cabo de mucho tiempo lo encontrarás*.
+<span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Manda tu grano por el mar, que al cabo de mucho tiempo lo encontrarás<span class="note-ref" data-ref="qo-11-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Divídelo en siete partes, o incluso en ocho,
 
@@ -601,7 +603,7 @@ donde cae el árbol allí se queda.
 
 el que mira a las nubes no siega.
 
-<sup>5</sup> Si no sabes cómo entra el espíritu en los miembros*, en el vientre de la mujer encinta,
+<sup>5</sup> Si no sabes cómo entra el espíritu en los miembros<span class="note-ref" data-ref="qo-11-5" title="Ver comentario">&#42;</span>, en el vientre de la mujer encinta,
 
 tampoco sabrás la obra de Dios que todo lo hace.
 
@@ -611,7 +613,7 @@ pues no sabes si es mejor esto o lo otro,
 
 o si ambas cosas son igual de buenas.
 
-## La edad*.
+## La edad<span class="note-ref" data-ref="qo-11-7" title="Ver comentario">&#42;</span>.
 <sup>7</sup> Dulce es la luz
 
 y bueno para los ojos ver el sol.
@@ -632,9 +634,9 @@ pásalo bien en tu mocedad.
 
 Vete por donde te lleve el corazón
 
-y a gusto de tus ojos*;
+y a gusto de tus ojos<span class="note-ref" data-ref="qo-11-9-a" title="Ver comentario">&#42;</span>;
 
-pero a sabiendas de que por todo ello te juzgará Dios*.
+pero a sabiendas de que por todo ello te juzgará Dios<span class="note-ref" data-ref="qo-11-9-b" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Aparta el mal humor de tu pecho
 
@@ -642,7 +644,7 @@ y aleja el sufrimiento de tu cuerpo,
 
 que juventud y mocedad son efímeras.
 
-<span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Acuérdate de tu Creador en tus días mozos*,
+<span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Acuérdate de tu Creador en tus días mozos<span class="note-ref" data-ref="qo-12" title="Ver comentario">&#42;</span>,
 
 antes de que lleguen los días malos
 
@@ -666,7 +668,7 @@ y se ahogue el son acompasado del molino;
 
 cuando se debilite el canto del pájaro
 
-y enmudezcan todas las canciones*;
+y enmudezcan todas las canciones<span class="note-ref" data-ref="qo-12-4" title="Ver comentario">&#42;</span>;
 
 <sup>5</sup> dará recelo la altura,
 
@@ -676,13 +678,13 @@ Cuando florezca el almendro,
 
 camine pesada la langosta,
 
-y pierda su sabor la alcaparra*;
+y pierda su sabor la alcaparra<span class="note-ref" data-ref="qo-12-5" title="Ver comentario">&#42;</span>;
 
 y es que el hombre va a su eterna morada,
 
  y ya circulan por la calle los del duelo.
 
-<sup>6</sup> Antes de que se rompa la hebra de plata*,
+<sup>6</sup> Antes de que se rompa la hebra de plata<span class="note-ref" data-ref="qo-12-6" title="Ver comentario">&#42;</span>,
 
  y se quiebre la copa de oro,
 
@@ -692,14 +694,14 @@ y se haga añicos el cántaro en la fuente,
 
 <sup>7</sup> y vuelva el polvo a la tierra, a lo que fue,
 
- y el espíritu vuelva a Dios, que lo dio*.
+ y el espíritu vuelva a Dios, que lo dio<span class="note-ref" data-ref="qo-12-7" title="Ver comentario">&#42;</span>.
 
-<sup>8</sup> ¡Vanidad de vanidades! —dice Cohélet—: ¡todo vanidad*!
+<sup>8</sup> ¡Vanidad de vanidades! —dice Cohélet—: ¡todo vanidad<span class="note-ref" data-ref="qo-12-8" title="Ver comentario">&#42;</span>!
 
-## Epílogo*.
+## Epílogo<span class="note-ref" data-ref="qo-12-9" title="Ver comentario">&#42;</span>.
  <sup>9</sup> Cohélet, a más de ser un sabio, enseñó doctrina al pueblo. Ponderó e investigó, compuso muchos proverbios. <sup>10</sup> Cohélet trabajó sin descanso inventando frases felices y escribiendo con acierto sentencias verídicas.
 
-<sup>11</sup> Las palabras de los sabios son como aguijadas, o como estacas hincadas, puestas por un pastor para controlar el rebaño*.
+<sup>11</sup> Las palabras de los sabios son como aguijadas, o como estacas hincadas, puestas por un pastor para controlar el rebaño<span class="note-ref" data-ref="qo-12-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Para acabar, hijo mío, ten cuidado: escribir muchos libros es cosa de nunca acabar, y estudiar demasiado daña la salud.
 

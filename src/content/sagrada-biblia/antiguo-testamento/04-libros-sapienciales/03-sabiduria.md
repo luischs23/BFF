@@ -6,25 +6,25 @@ img: blog-placeholder-4.jpg
 # LIBRO DE LA SABIDURÍA
 ## I. La sabiduría y el destino del hombre
 ## Buscar a Dios y huir del pecado.
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Amad la justicia*, los que gobernáis el mundo*,
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Amad la justicia<span class="note-ref" data-ref="sb-1-1-a" title="Ver comentario">&#42;</span>, los que gobernáis el mundo<span class="note-ref" data-ref="sb-1-1-b" title="Ver comentario">&#42;</span>,
 
 tened buenos sentimientos para con el Señor
 
-y buscadlo con corazón sincero*,
+y buscadlo con corazón sincero<span class="note-ref" data-ref="sb-1-1-c" title="Ver comentario">&#42;</span>,
 
 <sup>2</sup> pues se deja encontrar por los que no le exigen pruebas
 
-y se manifiesta* a los que no desconfían de él.
+y se manifiesta<span class="note-ref" data-ref="sb-1-2" title="Ver comentario">&#42;</span> a los que no desconfían de él.
 
 <sup>3</sup> Los pensamientos retorcidos apartan de Dios,
 
-y su poder*, puesto a prueba, confunde a los insensatos.
+y su poder<span class="note-ref" data-ref="sb-1-3" title="Ver comentario">&#42;</span>, puesto a prueba, confunde a los insensatos.
 
 <sup>4</sup> En efecto, la sabiduría no entra en alma artera,
 
-ni habita en cuerpo esclavo del pecado*;
+ni habita en cuerpo esclavo del pecado<span class="note-ref" data-ref="sb-1-4" title="Ver comentario">&#42;</span>;
 
-<sup>5</sup> pues el santo espíritu educador* rehuye el engaño,
+<sup>5</sup> pues el santo espíritu educador<span class="note-ref" data-ref="sb-1-5" title="Ver comentario">&#42;</span> rehuye el engaño,
 
 se aleja de los pensamientos vacíos
 
@@ -36,13 +36,13 @@ que no deja impunes los labios blasfemos;
 
 pues Dios es testigo de sus interioridades,
 
-observador veraz de su corazón*,
+observador veraz de su corazón<span class="note-ref" data-ref="sb-1-6" title="Ver comentario">&#42;</span>,
 
 y escucha cuanto dice su lengua.
 
-<sup>7</sup> Porque el espíritu del Señor llena la tierra*,
+<sup>7</sup> Porque el espíritu del Señor llena la tierra<span class="note-ref" data-ref="sb-1-7-a" title="Ver comentario">&#42;</span>,
 
-lo contiene todo* y conoce cada voz*.
+lo contiene todo<span class="note-ref" data-ref="sb-1-7-b" title="Ver comentario">&#42;</span> y conoce cada voz<span class="note-ref" data-ref="sb-1-7-c" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Por eso, quien pregone calumnias no podrá esconderse,
 
@@ -70,38 +70,38 @@ y la boca calumniadora da muerte al alma.
 
 ni os busquéis la ruina con las obras de vuestras manos;
 
-<sup>13</sup> porque Dios no hizo la muerte*
+<sup>13</sup> porque Dios no hizo la muerte<span class="note-ref" data-ref="sb-1-13" title="Ver comentario">&#42;</span>
 
 ni se alegra con la destrucción de los vivientes.
 
-<sup>14</sup> Él lo creó todo para que subsistiera*:
+<sup>14</sup> Él lo creó todo para que subsistiera<span class="note-ref" data-ref="sb-1-14-a" title="Ver comentario">&#42;</span>:
 
 las criaturas del mundo son saludables,
 
 no hay en ellas veneno de muerte
 
-ni el abismo* reina sobre la tierra,
+ni el abismo<span class="note-ref" data-ref="sb-1-14-b" title="Ver comentario">&#42;</span> reina sobre la tierra,
 
-<sup>15</sup> porque la justicia es inmortal*.
+<sup>15</sup> porque la justicia es inmortal<span class="note-ref" data-ref="sb-1-15" title="Ver comentario">&#42;</span>.
 
 ## La vida según los impíos.
-<sup>16</sup> Pero los impíos* invocan a la muerte con gestos y palabras;
+<sup>16</sup> Pero los impíos<span class="note-ref" data-ref="sb-1-16-a" title="Ver comentario">&#42;</span> invocan a la muerte con gestos y palabras;
 
 haciéndola su amiga, se perdieron;
 
 se aliaron con ella
 
-y merecen ser sus secuaces*.
+y merecen ser sus secuaces<span class="note-ref" data-ref="sb-1-16-b" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Razonando erróneamente, se decían :
 
-«Corta y triste es nuestra vida*;
+«Corta y triste es nuestra vida<span class="note-ref" data-ref="sb-2-1-a" title="Ver comentario">&#42;</span>;
 
 la muerte del hombre no tiene remedio
 
-y de nadie consta que haya vuelto de la tumba*.
+y de nadie consta que haya vuelto de la tumba<span class="note-ref" data-ref="sb-2-1-b" title="Ver comentario">&#42;</span>.
 
-<sup>2</sup> Nacimos por azar*
+<sup>2</sup> Nacimos por azar<span class="note-ref" data-ref="sb-2-2" title="Ver comentario">&#42;</span>
 
 y pasaremos como si no hubiéramos existido.
 
@@ -113,7 +113,7 @@ y el pensamiento, una chispa del latido de nuestro corazón.
 
 y el espíritu se desvanecerá como aire ligero.
 
-<sup>4</sup> Con el tiempo nuestro nombre caerá en el olvido*
+<sup>4</sup> Con el tiempo nuestro nombre caerá en el olvido<span class="note-ref" data-ref="sb-2-4" title="Ver comentario">&#42;</span>
 
 y nadie se acordará de nuestras obras;
 
@@ -129,7 +129,7 @@ y agobiada por su calor.
 
 y nuestra muerte, irrevocable,
 
-porque se ha puesto el sello y nadie regresa*.
+porque se ha puesto el sello y nadie regresa<span class="note-ref" data-ref="sb-2-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Venid, pues, y disfrutemos de los bienes presentes,
 
@@ -137,7 +137,7 @@ gocemos de la realidad con impaciencia juvenil;
 
 <sup>7</sup> embriaguémonos de vinos exquisitos y perfumes,
 
-que no se nos escape la flor primaveral*;
+que no se nos escape la flor primaveral<span class="note-ref" data-ref="sb-2-7" title="Ver comentario">&#42;</span>;
 
 <sup>8</sup> coronémonos de rosas antes que se marchiten;
 
@@ -147,17 +147,17 @@ dejemos por todas partes huellas de la alegría;
 
 que ésta es nuestra suerte y nuestra herencia.
 
-<sup>10</sup> Oprimamos al pobre que es justo*,
+<sup>10</sup> Oprimamos al pobre que es justo<span class="note-ref" data-ref="sb-2-10-a" title="Ver comentario">&#42;</span>,
 
 no tengamos compasión de la viuda
 
-ni respetemos las canas llenas de años del anciano*.
+ni respetemos las canas llenas de años del anciano<span class="note-ref" data-ref="sb-2-10-b" title="Ver comentario">&#42;</span>.
 
-<sup>11</sup> Que nuestra fuerza sea norma de la justicia*,
+<sup>11</sup> Que nuestra fuerza sea norma de la justicia<span class="note-ref" data-ref="sb-2-11" title="Ver comentario">&#42;</span>,
 
 porque la debilidad se demuestra inútil.
 
-<sup>12</sup> Pongamos trampas al justo, que nos fastidia*
+<sup>12</sup> Pongamos trampas al justo, que nos fastidia<span class="note-ref" data-ref="sb-2-12" title="Ver comentario">&#42;</span>
 
 y se opone a nuestras acciones;
 
@@ -165,7 +165,7 @@ nos echa en cara nuestros delitos
 
 y reprende nuestros pecados de juventud.
 
-<sup>13</sup> Presume de conocer a Dios*
+<sup>13</sup> Presume de conocer a Dios<span class="note-ref" data-ref="sb-2-13" title="Ver comentario">&#42;</span>
 
 y se presenta como hijo del Señor.
 
@@ -175,21 +175,21 @@ y su sola aparición nos resulta insoportable,
 
 <sup>15</sup> pues lleva una vida distinta a los demás
 
-y va por caminos diferentes*.
+y va por caminos diferentes<span class="note-ref" data-ref="sb-2-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Nos considera moneda falsa
 
 y nos evita como a apestados;
 
-celebra el destino de los justos*
+celebra el destino de los justos<span class="note-ref" data-ref="sb-2-16" title="Ver comentario">&#42;</span>
 
 y presume de que Dios es su padre.
 
 <sup>17</sup> Ya veremos si lleva razón,
 
-comprobando cuál es su desenlace*:
+comprobando cuál es su desenlace<span class="note-ref" data-ref="sb-2-17" title="Ver comentario">&#42;</span>:
 
-<sup>18</sup> pues si el justo es hijo de Dios*, él lo rescatará
+<sup>18</sup> pues si el justo es hijo de Dios<span class="note-ref" data-ref="sb-2-18" title="Ver comentario">&#42;</span>, él lo rescatará
 
 y lo librará del poder de sus adversarios.
 
@@ -201,14 +201,14 @@ y comprobar su entereza.
 
 <sup>20</sup> Lo condenaremos a una muerte humillante,
 
-pues, según dice, Dios lo protegerá*.»
+pues, según dice, Dios lo protegerá<span class="note-ref" data-ref="sb-2-20" title="Ver comentario">&#42;</span>.»
 
 ## Error de los impíos.
 <sup>21</sup> Así piensan, pero se equivocan,
 
 pues los ofusca su maldad.
 
-<sup>22</sup> No conocen los secretos de Dios*,
+<sup>22</sup> No conocen los secretos de Dios<span class="note-ref" data-ref="sb-2-22" title="Ver comentario">&#42;</span>,
 
 ni esperan recompensa para la virtud,
 
@@ -216,15 +216,15 @@ ni valoran el premio de una vida intachable.
 
 <sup>23</sup> Porque Dios creó al hombre para la inmortalidad
 
-y lo hizo a imagen de su mismo ser*;
+y lo hizo a imagen de su mismo ser<span class="note-ref" data-ref="sb-2-23" title="Ver comentario">&#42;</span>;
 
-<sup>24</sup> pero la muerte entró en el mundo por envidia del diablo*,
+<sup>24</sup> pero la muerte entró en el mundo por envidia del diablo<span class="note-ref" data-ref="sb-2-24" title="Ver comentario">&#42;</span>,
 
 y la experimentan sus secuaces.
 
 ## Comparación de la suerte de los justos
 ## y de los impíos.
-<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> En cambio, la vida de los justos está en manos de Dios*
+<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> En cambio, la vida de los justos está en manos de Dios<span class="note-ref" data-ref="sb-3-1" title="Ver comentario">&#42;</span>
 
 y ningún tormento les afectará.
 
@@ -234,15 +234,15 @@ su tránsito les parecía una desgracia
 
 <sup>3</sup> y su partida de entre nosotros, un desastre;
 
-pero ellos están en la paz*.
+pero ellos están en la paz<span class="note-ref" data-ref="sb-3-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Aunque la gente pensaba que eran castigados,
 
-ellos tenían total esperanza en la inmortalidad*.
+ellos tenían total esperanza en la inmortalidad<span class="note-ref" data-ref="sb-3-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Tras pequeñas correcciones, recibirán grandes beneficios,
 
-pues Dios los puso a prueba*
+pues Dios los puso a prueba<span class="note-ref" data-ref="sb-3-5" title="Ver comentario">&#42;</span>
 
 y los halló dignos de sí;
 
@@ -250,25 +250,25 @@ y los halló dignos de sí;
 
 y los aceptó como sacrificio de holocausto.
 
-<sup>7</sup> En el día del juicio* resplandecerán
+<sup>7</sup> En el día del juicio<span class="note-ref" data-ref="sb-3-7-a" title="Ver comentario">&#42;</span> resplandecerán
 
-y se propagarán como el fuego en un rastrojo*.
+y se propagarán como el fuego en un rastrojo<span class="note-ref" data-ref="sb-3-7-b" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Gobernarán naciones, dominarán pueblos
 
 y el Señor reinará eternamente sobre ellos.
 
-<sup>9</sup> Los que confían en él comprenderán la verdad*
+<sup>9</sup> Los que confían en él comprenderán la verdad<span class="note-ref" data-ref="sb-3-9-a" title="Ver comentario">&#42;</span>
 
 y los fieles a su amor permanecerán a su lado,
 
-pues la gracia y la misericordia están destinadas a sus elegidos*.
+pues la gracia y la misericordia están destinadas a sus elegidos<span class="note-ref" data-ref="sb-3-9-b" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Los impíos, en cambio, serán castigados por sus razonamientos,
 
-por despreciar al justo* y apartarse del Señor.
+por despreciar al justo<span class="note-ref" data-ref="sb-3-10" title="Ver comentario">&#42;</span> y apartarse del Señor.
 
-<sup>11</sup> Desdichado el que desprecia la sabiduría y la educación*;
+<sup>11</sup> Desdichado el que desprecia la sabiduría y la educación<span class="note-ref" data-ref="sb-3-11" title="Ver comentario">&#42;</span>;
 
 vana es su esperanza,
 
@@ -283,25 +283,25 @@ sus hijos perversos
 y su posteridad maldita.
 
 ## Más vale la esterilidad que una posteridad impía.
-<sup>13</sup> Dichosa la estéril* intachable,
+<sup>13</sup> Dichosa la estéril<span class="note-ref" data-ref="sb-3-13-a" title="Ver comentario">&#42;</span> intachable,
 
-la que no conoce lecho nupcial de pecado*;
+la que no conoce lecho nupcial de pecado<span class="note-ref" data-ref="sb-3-13-b" title="Ver comentario">&#42;</span>;
 
-pues obtendrá fruto en el juicio de los justos*.
+pues obtendrá fruto en el juicio de los justos<span class="note-ref" data-ref="sb-3-13-c" title="Ver comentario">&#42;</span>.
 
-<sup>14</sup> Y también el eunuco* que no actúa perversamente,
+<sup>14</sup> Y también el eunuco<span class="note-ref" data-ref="sb-3-14-a" title="Ver comentario">&#42;</span> que no actúa perversamente,
 
 ni alberga malos pensamientos contra el Señor;
 
 por su fidelidad recibirá especial recompensa
 
-y una herencia envidiable en el templo del Señor*.
+y una herencia envidiable en el templo del Señor<span class="note-ref" data-ref="sb-3-14-b" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Pues el fruto del buen trabajo proporciona fama,
 
-y la raíz de la sensatez* es inquebrantable.
+y la raíz de la sensatez<span class="note-ref" data-ref="sb-3-15" title="Ver comentario">&#42;</span> es inquebrantable.
 
-<sup>16</sup> Los hijos de adúlteros*, en cambio, no alcanzarán la madurez,
+<sup>16</sup> Los hijos de adúlteros<span class="note-ref" data-ref="sb-3-16" title="Ver comentario">&#42;</span>, en cambio, no alcanzarán la madurez,
 
 la descendencia de unión ilegítima desaparecerá.
 
@@ -313,11 +313,11 @@ y al final su vejez será deshonrosa.
 
 ni consuelo en el día del juicio,
 
-<sup>19</sup> pues es penoso el final de la gente perversa*.
+<sup>19</sup> pues es penoso el final de la gente perversa<span class="note-ref" data-ref="sb-3-19" title="Ver comentario">&#42;</span>.
 
-<span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Más vale no tener hijos y tener virtud*,
+<span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Más vale no tener hijos y tener virtud<span class="note-ref" data-ref="sb-4-1-a" title="Ver comentario">&#42;</span>,
 
-pues su recuerdo* es inmortal
+pues su recuerdo<span class="note-ref" data-ref="sb-4-1-b" title="Ver comentario">&#42;</span> es inmortal
 
 y es reconocida por Dios y por los hombres:
 
@@ -327,7 +327,7 @@ ausente, la añoran;
 
 y en la eternidad desfila en triunfo coronada,
 
-pues venció en la lucha de premios intachables*.
+pues venció en la lucha de premios intachables<span class="note-ref" data-ref="sb-4-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> En cambio, la familia numerosa de los impíos será inútil;
 
@@ -349,9 +349,9 @@ y nada se aprovechará.
 
 <sup>6</sup> Pues los hijos nacidos de uniones ilícitas
 
-son testigos de la maldad de los padres a la hora de su examen*.
+son testigos de la maldad de los padres a la hora de su examen<span class="note-ref" data-ref="sb-4-6" title="Ver comentario">&#42;</span>.
 
-## La muerte prematura del justo*.
+## La muerte prematura del justo<span class="note-ref" data-ref="sb-4-7" title="Ver comentario">&#42;</span>.
 <sup>7</sup> El justo, aunque muera prematuramente, tendrá descanso,
 
 <sup>8</sup> pues la ancianidad venerable no consiste en larga vida,
@@ -364,7 +364,7 @@ y la edad avanzada, una vida intachable.
 
 <sup>10</sup> Fue amado, porque agradaba a Dios;
 
-fue trasladado*, porque vivía entre pecadores.
+fue trasladado<span class="note-ref" data-ref="sb-4-10" title="Ver comentario">&#42;</span>, porque vivía entre pecadores.
 
 <sup>11</sup> Fue arrebatado para que la maldad no pervirtiera su inteligencia
 
@@ -380,13 +380,13 @@ y el frenesí del deseo pervierte al espíritu ingenuo.
 
 se apresuró a escapar de la maldad.
 
-La gente* lo ve y no lo entiende;
+La gente<span class="note-ref" data-ref="sb-4-14" title="Ver comentario">&#42;</span> lo ve y no lo entiende;
 
 no les cabe esto en la cabeza:
 
 <sup>15</sup> que la gracia y la misericordia están destinadas a sus elegidos,
 
-y su salvación*, a sus santos.
+y su salvación<span class="note-ref" data-ref="sb-4-15" title="Ver comentario">&#42;</span>, a sus santos.
 
 <sup>16</sup> El justo que muere condena a los impíos que viven,
 
@@ -404,7 +404,7 @@ pero el Señor se reirá de ellos.
 
 <sup>19</sup> Más tarde serán cadáveres sin honra,
 
-objeto de ultraje entre los muertos para siempre*.
+objeto de ultraje entre los muertos para siempre<span class="note-ref" data-ref="sb-4-19" title="Ver comentario">&#42;</span>.
 
 Pues los estrellará de cabeza y sin rechistar,
 
@@ -416,12 +416,12 @@ y sumidos en el dolor;
 
 y su recuerdo se perderá.
 
-## Los impíos en el Juicio*.
+## Los impíos en el Juicio<span class="note-ref" data-ref="sb-4-20" title="Ver comentario">&#42;</span>.
 <sup>20</sup> Acudirán asustados a dar cuenta de sus pecados,
 
 y sus propios delitos los acusarán a la cara.
 
-<span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Entonces el justo* aguantará firme y lleno de confianza
+<span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Entonces el justo<span class="note-ref" data-ref="sb-5-1" title="Ver comentario">&#42;</span> aguantará firme y lleno de confianza
 
 frente a los que lo oprimieron
 
@@ -445,7 +445,7 @@ y su muerte, una deshonra.
 
 <sup>5</sup> ¿Cómo es que ha sido incluido entre los hijos de Dios
 
-y comparte su herencia con los santos*?
+y comparte su herencia con los santos<span class="note-ref" data-ref="sb-5-5" title="Ver comentario">&#42;</span>?
 
 <sup>6</sup> Ciertamente extraviamos el camino de la verdad,
 
@@ -491,22 +491,22 @@ el aire rasgado vuelve a soldarse al instante,
 
 sin dejar conocer su trayectoria.
 
-<sup>13</sup> Lo mismo nosotros: apenas nacidos, desaparecemos*;
+<sup>13</sup> Lo mismo nosotros: apenas nacidos, desaparecemos<span class="note-ref" data-ref="sb-5-13-a" title="Ver comentario">&#42;</span>;
 
 sin poder mostrar ningún signo de virtud,
 
-nos consumimos en nuestra maldad*.»
+nos consumimos en nuestra maldad<span class="note-ref" data-ref="sb-5-13-b" title="Ver comentario">&#42;</span>.»
 
-<sup>14</sup> En efecto*, la esperanza del impío es como brizna arrebatada por el viento,
+<sup>14</sup> En efecto<span class="note-ref" data-ref="sb-5-14-a" title="Ver comentario">&#42;</span>, la esperanza del impío es como brizna arrebatada por el viento,
 
-como frágil escarcha* arrastrada por el huracán;
+como frágil escarcha<span class="note-ref" data-ref="sb-5-14-b" title="Ver comentario">&#42;</span> arrastrada por el huracán;
 
 se disipa como el humo con el viento;
 
 pasa como el recuerdo del huésped de un solo día.
 
-## Fin dichoso de los justos y castigo de los impíos*.
-<sup>15</sup> Los justos, en cambio, viven para siempre*;
+## Fin dichoso de los justos y castigo de los impíos<span class="note-ref" data-ref="sb-5-15-a" title="Ver comentario">&#42;</span>.
+<sup>15</sup> Los justos, en cambio, viven para siempre<span class="note-ref" data-ref="sb-5-15-b" title="Ver comentario">&#42;</span>;
 
 encuentran su recompensa en el Señor
 
@@ -520,7 +520,7 @@ pues con su diestra los protegerá
 
 y los escudará con su brazo.
 
-<sup>17</sup> Tomará la armadura* de su celo
+<sup>17</sup> Tomará la armadura<span class="note-ref" data-ref="sb-5-17" title="Ver comentario">&#42;</span> de su celo
 
 y armará a la creación para vengarse de sus enemigos;
 
@@ -530,19 +530,19 @@ se pondrá por casco un juicio imparcial,
 
 <sup>19</sup> empuñará como escudo su santidad invencible,
 
-<sup>20</sup> afilará la espada de su cólera implacable*,
+<sup>20</sup> afilará la espada de su cólera implacable<span class="note-ref" data-ref="sb-5-20-a" title="Ver comentario">&#42;</span>,
 
-y el universo luchará a su lado contra los insensatos*.
+y el universo luchará a su lado contra los insensatos<span class="note-ref" data-ref="sb-5-20-b" title="Ver comentario">&#42;</span>.
 
-<sup>21</sup> Partirán certeros los disparos de los rayos*,
+<sup>21</sup> Partirán certeros los disparos de los rayos<span class="note-ref" data-ref="sb-5-21" title="Ver comentario">&#42;</span>,
 
 como de arco bien tendido, volarán de las nubes al blanco;
 
-<sup>22</sup> una catapulta disparará furiosa granizada*;
+<sup>22</sup> una catapulta disparará furiosa granizada<span class="note-ref" data-ref="sb-5-22-a" title="Ver comentario">&#42;</span>;
 
 las aguas del mar se embravecerán contra ellos
 
-y los ríos los anegarán sin piedad*;
+y los ríos los anegarán sin piedad<span class="note-ref" data-ref="sb-5-22-b" title="Ver comentario">&#42;</span>;
 
 <sup>23</sup> un viento poderoso se levantará contra ellos
 
@@ -554,7 +554,7 @@ y la maldad derrocará los tronos de los poderosos.
 
 ## II. Salomón y la búsqueda de la sabiduría
 ## Los reyes deben buscar la Sabiduría.
-<span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> *Escuchad, reyes, y entended*. Aprended, gobernantes
+<span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> <span class="note-ref" data-ref="sb-6-1-a" title="Ver comentario">&#42;</span>Escuchad, reyes, y entended<span class="note-ref" data-ref="sb-6-1-b" title="Ver comentario">&#42;</span>. Aprended, gobernantes
 
 de los confines de la tierra.
 
@@ -564,7 +564,7 @@ y presumís de tener muchos pueblos.
 
 <sup>3</sup> Pues recibisteis el poder del Señor
 
-y la soberanía* del Altísimo;
+y la soberanía<span class="note-ref" data-ref="sb-6-3" title="Ver comentario">&#42;</span> del Altísimo;
 
 él investigará vuestras acciones
 
@@ -572,7 +572,7 @@ y examinará vuestros proyectos.
 
 <sup>4</sup> Ya que, siendo ministros de su reino, no juzgasteis rectamente,
 
-ni guardasteis la ley*,
+ni guardasteis la ley<span class="note-ref" data-ref="sb-6-4" title="Ver comentario">&#42;</span>,
 
 ni actuasteis de acuerdo con la voluntad de Dios,
 
@@ -598,7 +598,7 @@ y de todos cuida por igual;
 
 para que aprendáis sabiduría y no pequéis.
 
-<sup>10</sup> Porque los que guarden santamente las cosas santas, serán santificados*,
+<sup>10</sup> Porque los que guarden santamente las cosas santas, serán santificados<span class="note-ref" data-ref="sb-6-10" title="Ver comentario">&#42;</span>,
 
 y los que las aprendan encontrarán defensa.
 
@@ -606,7 +606,7 @@ y los que las aprendan encontrarán defensa.
 
 anheladlas y recibiréis instrucción.
 
-## La sabiduría se deja hallar*.
+## La sabiduría se deja hallar<span class="note-ref" data-ref="sb-6-12" title="Ver comentario">&#42;</span>.
 <sup>12</sup> La sabiduría es radiante e inmarcesible.
 
 Se deja ver fácilmente por los que la aman
@@ -629,13 +629,13 @@ se les muestra benévola por los caminos
 
 y sale al encuentro de todos sus pensamientos.
 
-<sup>17</sup> *Su verdadero comienzo es el afán de instrucción*,
+<sup>17</sup> <span class="note-ref" data-ref="sb-6-17-a" title="Ver comentario">&#42;</span>Su verdadero comienzo es el afán de instrucción<span class="note-ref" data-ref="sb-6-17-b" title="Ver comentario">&#42;</span>,
 
 el interés por la instrucción es amor,
 
-<sup>18</sup> el amor es la observancia de sus leyes*,
+<sup>18</sup> el amor es la observancia de sus leyes<span class="note-ref" data-ref="sb-6-18-a" title="Ver comentario">&#42;</span>,
 
-la atención a las leyes es garantía* de inmortalidad,
+la atención a las leyes es garantía<span class="note-ref" data-ref="sb-6-18-b" title="Ver comentario">&#42;</span> de inmortalidad,
 
 <sup>19</sup> y la inmortalidad acerca a Dios;
 
@@ -643,7 +643,7 @@ la atención a las leyes es garantía* de inmortalidad,
 
 <sup>21</sup> Así que, si queréis tronos y cetros, soberanos de los pueblos,
 
-apreciad la sabiduría y reinaréis eternamente*.
+apreciad la sabiduría y reinaréis eternamente<span class="note-ref" data-ref="sb-6-21" title="Ver comentario">&#42;</span>.
 
 ## Salomón va a describir la Sabiduría.
 <sup>22</sup> Os voy a explicar la esencia y el origen de la sabiduría;
@@ -652,7 +652,7 @@ no os ocultaré secretos,
 
 sino que rastrearé sus huellas desde su origen
 
-y pondré de manifiesto su conocimiento*,
+y pondré de manifiesto su conocimiento<span class="note-ref" data-ref="sb-6-22" title="Ver comentario">&#42;</span>,
 
 sin eludir la verdad.
 
@@ -667,13 +667,13 @@ y en un rey sensato, el bienestar del pueblo.
 <sup>25</sup> Así, pues, dejaos instruir por mis palabras y sacaréis provecho.
 
 ## Salomón era sólo un hombre.
-<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> También yo soy un hombre* mortal como todos,
+<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> También yo soy un hombre<span class="note-ref" data-ref="sb-7-1" title="Ver comentario">&#42;</span> mortal como todos,
 
 descendiente del primero formado de la tierra.
 
 En el vientre materno se modeló mi carne;
 
-<sup>2</sup> durante diez meses* fui cuajado en su sangre,
+<sup>2</sup> durante diez meses<span class="note-ref" data-ref="sb-7-2" title="Ver comentario">&#42;</span> fui cuajado en su sangre,
 
 a partir de la simiente viril y del placer unido al sueño.
 
@@ -694,7 +694,7 @@ y mi primera voz, como la de todos, fue el llanto.
 
 invoqué y vino a mí el espíritu de sabiduría.
 
-<sup>8</sup> La preferí a cetros y tronos*
+<sup>8</sup> La preferí a cetros y tronos<span class="note-ref" data-ref="sb-7-8" title="Ver comentario">&#42;</span>
 
 y en su comparación tuve en nada la riqueza.
 
@@ -716,7 +716,7 @@ e incalculables riquezas en sus manos.
 
 <sup>12</sup> Yo disfruté de todos, porque la Sabiduría los trae,
 
-aunque ignoraba que ella fuera su origen*.
+aunque ignoraba que ella fuera su origen<span class="note-ref" data-ref="sb-7-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Sin engaño la aprendí y sin envidia la comparto;
 
@@ -726,7 +726,7 @@ no escondo sus riquezas,
 
 y los que la adquieren se granjean la amistad de Dios,
 
-recomendados por los dones que ofrece la instrucción*.
+recomendados por los dones que ofrece la instrucción<span class="note-ref" data-ref="sb-7-14" title="Ver comentario">&#42;</span>.
 
 ## Llamamiento a la inspiración divina.
 <sup>15</sup> Que Dios me conceda hablar con conocimiento
@@ -755,11 +755,11 @@ el poder de los espíritus y los pensamientos de los hombres,
 
 las variedades de las plantas y las virtudes de las raíces.
 
-<sup>21</sup> Llegué a conocer cuanto está oculto y manifiesto*,
+<sup>21</sup> Llegué a conocer cuanto está oculto y manifiesto<span class="note-ref" data-ref="sb-7-21" title="Ver comentario">&#42;</span>,
 
 porque la sabiduría, artífice de todo, me lo enseñó.
 
-## Elogio de la Sabiduría*.
+## Elogio de la Sabiduría<span class="note-ref" data-ref="sb-7-22" title="Ver comentario">&#42;</span>.
 <sup>22</sup> Pues hay en ella un espíritu inteligente, santo,
 
 único, múltiple, sutil,
@@ -788,7 +788,7 @@ una emanación pura de la gloria del Omnipotente;
 
 por eso, nada contaminado le afecta.
 
-<sup>26</sup> Es reflejo de la luz eterna*,
+<sup>26</sup> Es reflejo de la luz eterna<span class="note-ref" data-ref="sb-7-26" title="Ver comentario">&#42;</span>,
 
 espejo inmaculado de la actividad de Dios
 
@@ -800,7 +800,7 @@ sin cambiar en nada, renueva el universo;
 
 y entrando en las almas santas en cada generación
 
-hace amigos de Dios* y profetas*,
+hace amigos de Dios<span class="note-ref" data-ref="sb-7-27-a" title="Ver comentario">&#42;</span> y profetas<span class="note-ref" data-ref="sb-7-27-b" title="Ver comentario">&#42;</span>,
 
 <sup>28</sup> pues Dios sólo ama a quien convive con la sabiduría.
 
@@ -827,7 +827,7 @@ enamorado de su belleza.
 
 <sup>3</sup> Su intimidad con Dios ennoblece su linaje,
 
-pues el dueño de todo la ama*.
+pues el dueño de todo la ama<span class="note-ref" data-ref="sb-8-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Está iniciada en el conocimiento de Dios
 
@@ -843,7 +843,7 @@ y es la que elige sus obras.
 
 <sup>7</sup> Si alguien ama la justicia,
 
-las virtudes son su especialidad*,
+las virtudes son su especialidad<span class="note-ref" data-ref="sb-8-7" title="Ver comentario">&#42;</span>,
 
 pues ella enseña templanza y prudencia,
 
@@ -855,11 +855,11 @@ para el ser humano no hay en la vida nada más provechoso.
 
 ella conoce el pasado y adivina el futuro,
 
-comprende dichos agudos y resuelve enigmas*,
+comprende dichos agudos y resuelve enigmas<span class="note-ref" data-ref="sb-8-8-a" title="Ver comentario">&#42;</span>,
 
 conoce de antemano signos y prodigios
 
-y la oportunidad* de momentos y tiempos.
+y la oportunidad<span class="note-ref" data-ref="sb-8-8-b" title="Ver comentario">&#42;</span> de momentos y tiempos.
 
 ## La Sabiduría, indispensable a los soberanos.
 <sup>9</sup> Así, pues, decidí tomarla por compañera,
@@ -880,7 +880,7 @@ y seré la admiración de los poderosos.
 
 cuando hable, prestarán atención;
 
-y si me alargo hablando, se llevarán la mano a la boca*.
+y si me alargo hablando, se llevarán la mano a la boca<span class="note-ref" data-ref="sb-8-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Gracias a ella alcanzaré la inmortalidad
 
@@ -905,7 +905,7 @@ sino que contenta y alegra.
 
 consideré en mi interior
 
-que la inmortalidad reside en emparentar* con la Sabiduría,
+que la inmortalidad reside en emparentar<span class="note-ref" data-ref="sb-8-17" title="Ver comentario">&#42;</span> con la Sabiduría,
 
 <sup>18</sup> que su amistad es un gran placer,
 
@@ -921,7 +921,7 @@ y me puse a dar vueltas, tratando de apropiármela.
 
 dotado de un alma buena,
 
-<sup>20</sup> o más bien, siendo bueno, vine a un cuerpo sin tara*;
+<sup>20</sup> o más bien, siendo bueno, vine a un cuerpo sin tara<span class="note-ref" data-ref="sb-8-20" title="Ver comentario">&#42;</span>;
 
 <sup>21</sup> pero, comprendiendo que no la conseguiría, si Dios no me la daba
 
@@ -931,8 +931,8 @@ acudí al Señor y le supliqué,
 
 diciéndole de todo corazón:
 
-## Oración para alcanzar la Sabiduría *.
-<span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> «Dios de mis antepasados, Señor de misericordia*,
+## Oración para alcanzar la Sabiduría <span class="note-ref" data-ref="sb-9" title="Ver comentario">&#42;</span>.
+<span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> «Dios de mis antepasados, Señor de misericordia<span class="note-ref" data-ref="sb-9-1" title="Ver comentario">&#42;</span>,
 
 que hiciste todas las cosas con tu palabra,
 
@@ -958,7 +958,7 @@ incapaz de comprender el derecho y las leyes.
 
 si le falta la sabiduría que viene de ti, será tenido en nada.
 
-<sup>7</sup> Tú me elegiste* como rey de tu pueblo,
+<sup>7</sup> Tú me elegiste<span class="note-ref" data-ref="sb-9-7" title="Ver comentario">&#42;</span> como rey de tu pueblo,
 
 para gobernar a tus hijos y a tus hijas;
 
@@ -966,7 +966,7 @@ para gobernar a tus hijos y a tus hijas;
 
 y un altar en la ciudad donde habitas,
 
-a imitación de la tienda santa que pre-paraste desde el principio*.
+a imitación de la tienda santa que pre-paraste desde el principio<span class="note-ref" data-ref="sb-9-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Contigo está la Sabiduría que conoce tus obras,
 
@@ -988,7 +988,7 @@ y pueda yo conocer lo que te agrada.
 
 me guiará prudentemente en mis empresas
 
-y me protegerá con su gloria*.
+y me protegerá con su gloria<span class="note-ref" data-ref="sb-9-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Así mis obras serán aceptadas,
 
@@ -1006,7 +1006,7 @@ y nuestros proyectos, caducos;
 
 <sup>15</sup> pues el cuerpo mortal oprime el alma
 
-y la tienda terrenal abruma la mente reflexiva*.
+y la tienda terrenal abruma la mente reflexiva<span class="note-ref" data-ref="sb-9-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Si a duras penas vislumbramos lo que hay en la tierra
 
@@ -1016,35 +1016,35 @@ y con dificultad encontramos lo que tenemos a mano,
 
 <sup>17</sup> ¿Quién puede conocer tu voluntad, si tú no le das la sabiduría
 
-y le envias tu espíritu santo desde el cielo*?
+y le envias tu espíritu santo desde el cielo<span class="note-ref" data-ref="sb-9-17" title="Ver comentario">&#42;</span>?
 
 <sup>18</sup> Así se enderezaron los caminos de los habitantes de la tierra;
 
 los hombres aprendieron lo que te agrada
 
-y se salvaron gracias a la sabiduría*.»
+y se salvaron gracias a la sabiduría<span class="note-ref" data-ref="sb-9-18" title="Ver comentario">&#42;</span>.»
 
 ## III. La sabiduría en la historia
 ## Desde Adán hasta Moisés.
-<span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Ella fue la que protegió al primer hombre, padre del mundo; creado solo*, lo rescató de su caída*
+<span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Ella fue la que protegió al primer hombre, padre del mundo; creado solo<span class="note-ref" data-ref="sb-10-1-a" title="Ver comentario">&#42;</span>, lo rescató de su caída<span class="note-ref" data-ref="sb-10-1-b" title="Ver comentario">&#42;</span>
 
 <sup>2</sup> y le dio poder para dominar todas las cosas.
 
-<sup>3</sup> De ella se apartó el criminal iracundo*
+<sup>3</sup> De ella se apartó el criminal iracundo<span class="note-ref" data-ref="sb-10-3" title="Ver comentario">&#42;</span>
 
 y pereció con su furor fratricida.
 
 <sup>4</sup> Cuando la tierra fue inundada por su culpa, la sabiduría la salvó,
 
-conduciendo al justo* en una humilde tabla.
+conduciendo al justo<span class="note-ref" data-ref="sb-10-4" title="Ver comentario">&#42;</span> en una humilde tabla.
 
 <sup>5</sup> En la perversión común de los pueblos confundidos,
 
-ella conoció al justo*, lo conservó intachable ante Dios
+ella conoció al justo<span class="note-ref" data-ref="sb-10-5" title="Ver comentario">&#42;</span>, lo conservó intachable ante Dios
 
 y lo sostuvo firme a pesar del amor entrañable a su hijo.
 
-<sup>6</sup> Durante el exterminio de los impíos, ella salvó al justo*,
+<sup>6</sup> Durante el exterminio de los impíos, ella salvó al justo<span class="note-ref" data-ref="sb-10-6" title="Ver comentario">&#42;</span>,
 
 cuando huía del fuego que caía sobre la Pentápolis.
 
@@ -1066,13 +1066,13 @@ para que sus faltas no quedaran ocultas.
 
 <sup>9</sup> La sabiduría, sin embargo, sacó de apuros a sus servidores.
 
-<sup>10</sup> Al justo* que huía de la ira de su hermano
+<sup>10</sup> Al justo<span class="note-ref" data-ref="sb-10-10-a" title="Ver comentario">&#42;</span> que huía de la ira de su hermano
 
 ella lo guió por caminos rectos,
 
 le mostró el reino de Dios
 
-y le dio a conocer las cosas santas*;
+y le dio a conocer las cosas santas<span class="note-ref" data-ref="sb-10-10-b" title="Ver comentario">&#42;</span>;
 
 le dio prosperidad en sus trabajos
 
@@ -1088,9 +1088,9 @@ lo protegió de los que le tendían trampas
 
 y, tras duro combate, le dio la victoria,
 
-para enseñarle que la piedad triunfa sobre todo*.
+para enseñarle que la piedad triunfa sobre todo<span class="note-ref" data-ref="sb-10-12" title="Ver comentario">&#42;</span>.
 
-<sup>13</sup> Ella no abandonó al justo vendido*,
+<sup>13</sup> Ella no abandonó al justo vendido<span class="note-ref" data-ref="sb-10-13" title="Ver comentario">&#42;</span>,
 
 sino que lo libró del pecado;
 
@@ -1109,11 +1109,11 @@ y le concedió gloria eterna.
 ## El Éxodo.
 <sup>15</sup> Ella libró de la nación opresora
 
-a un pueblo santo y a un linaje intachable*.
+a un pueblo santo y a un linaje intachable<span class="note-ref" data-ref="sb-10-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Entró en el alma del servidor del Señor
 
-y combatió a reyes temibles* con prodigios y señales.
+y combatió a reyes temibles<span class="note-ref" data-ref="sb-10-16" title="Ver comentario">&#42;</span> con prodigios y señales.
 
 <sup>17</sup> Recompensó a los santos por sus fatigas
 
@@ -1121,7 +1121,7 @@ y los condujo por un camino maravilloso;
 
 fue para ellos sombra durante el día
 
-y resplandor de estrellas durante la noche*.
+y resplandor de estrellas durante la noche<span class="note-ref" data-ref="sb-10-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Les abrió paso a través del mar Rojo
 
@@ -1131,7 +1131,7 @@ y los condujo entre aguas caudalosas,
 
 y luego los sacó a flote desde el fondo del abismo.
 
-<sup>20</sup> De este modo los justos despojaron a los impíos*,
+<sup>20</sup> De este modo los justos despojaron a los impíos<span class="note-ref" data-ref="sb-10-20" title="Ver comentario">&#42;</span>,
 
 cantaron himnos, Señor, a tu santo Nombre
 
@@ -1139,17 +1139,17 @@ y alabaron a coro tu mano vencedora,
 
 <sup>21</sup> porque la sabiduría abrió la boca de los mudos
 
-y soltó las lenguas infantiles*.
+y soltó las lenguas infantiles<span class="note-ref" data-ref="sb-10-21" title="Ver comentario">&#42;</span>.
 
-<span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Ella llevó felizmente a término sus acciones por medio de un santo profeta*.
+<span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Ella llevó felizmente a término sus acciones por medio de un santo profeta<span class="note-ref" data-ref="sb-11-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Atravesaron un desierto inhóspito
 
 y acamparon en parajes intransitables.
 
-<sup>3</sup> Hicieron frente a sus enemigos y rechazaron a sus adversarios*.
+<sup>3</sup> Hicieron frente a sus enemigos y rechazaron a sus adversarios<span class="note-ref" data-ref="sb-11-3" title="Ver comentario">&#42;</span>.
 
-## El milagro del agua. Primera antítesis*.
+## El milagro del agua. Primera antítesis<span class="note-ref" data-ref="sb-11-4" title="Ver comentario">&#42;</span>.
 <sup>4</sup> Tuvieron sed y te invocaron:
 
 bebieron agua de una roca escarpada,
@@ -1164,7 +1164,7 @@ se convirtió en auxilio de su propia necesidad.
 
 enturbiado con sangre sucia,
 
-<sup>7</sup> en castigo por un decreto infanticida*,
+<sup>7</sup> en castigo por un decreto infanticida<span class="note-ref" data-ref="sb-11-7" title="Ver comentario">&#42;</span>,
 
 les diste sin esperarlo agua abundante,
 
@@ -1176,7 +1176,7 @@ cómo habías castigado a sus adversarios.
 
 —aunque corregidos con cariño—,
 
-conocían cómo eran castigados* los impíos, juzgados con cólera;
+conocían cómo eran castigados<span class="note-ref" data-ref="sb-11-9" title="Ver comentario">&#42;</span> los impíos, juzgados con cólera;
 
 <sup>10</sup> pues a ellos los probaste como padre que corrige,
 
@@ -1186,15 +1186,15 @@ pero a los otros los castigaste como rey justiciero que condena.
 
 <sup>12</sup> pues los embargaba una doble tristeza
 
-y un lamento al recordar el pasado*:
+y un lamento al recordar el pasado<span class="note-ref" data-ref="sb-11-12" title="Ver comentario">&#42;</span>:
 
 <sup>13</sup> cuando se enteraban de que sus propios castigos
 
-redundaban en beneficio de los otros*,
+redundaban en beneficio de los otros<span class="note-ref" data-ref="sb-11-13-a" title="Ver comentario">&#42;</span>,
 
-reconocían al Señor*.
+reconocían al Señor<span class="note-ref" data-ref="sb-11-13-b" title="Ver comentario">&#42;</span>.
 
-<sup>14</sup> Al que antes habían abandonado expósito y rechazado con burlas*,
+<sup>14</sup> Al que antes habían abandonado expósito y rechazado con burlas<span class="note-ref" data-ref="sb-11-14" title="Ver comentario">&#42;</span>,
 
 al final de los acontecimientos lo admiraron,
 
@@ -1203,15 +1203,15 @@ tras pasar una sed distinta de la de los justos.
 ## Moderación divina hacia Egipto.
 <sup>15</sup> Por sus pensamientos insensatos y malvados,
 
-que los desorientaron, haciéndoles adorar a reptiles irracionales y a viles animales*,
+que los desorientaron, haciéndoles adorar a reptiles irracionales y a viles animales<span class="note-ref" data-ref="sb-11-15-a" title="Ver comentario">&#42;</span>,
 
-tú les enviaste como castigo una multitud de animales irracionales*,
+tú les enviaste como castigo una multitud de animales irracionales<span class="note-ref" data-ref="sb-11-15-b" title="Ver comentario">&#42;</span>,
 
-<sup>16</sup> para que comprendieran que en el pecado va la penitencia*.
+<sup>16</sup> para que comprendieran que en el pecado va la penitencia<span class="note-ref" data-ref="sb-11-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Pues bien podía tu mano omnipotente
 
-—que había creado el mundo de materia informe*—
+—que había creado el mundo de materia informe<span class="note-ref" data-ref="sb-11-17" title="Ver comentario">&#42;</span>—
 
 enviar contra ellos manadas de osos o leones intrépidos,
 
@@ -1219,7 +1219,7 @@ enviar contra ellos manadas de osos o leones intrépidos,
 
 que lanzasen resoplidos de fuego,
 
-despidiesen humaredas apestosas*
+despidiesen humaredas apestosas<span class="note-ref" data-ref="sb-11-18" title="Ver comentario">&#42;</span>
 
 o echasen chispas terribles por los ojos;
 
@@ -1240,11 +1240,11 @@ o barridos por tu aliento poderoso.
 
 ¿Quién va a resistir la fuerza de tu brazo?
 
-<sup>22</sup> El mundo entero es ante ti como un gramo en la balanza*,
+<sup>22</sup> El mundo entero es ante ti como un gramo en la balanza<span class="note-ref" data-ref="sb-11-22" title="Ver comentario">&#42;</span>,
 
 como gota de rocío matutino sobre la tierra.
 
-<sup>23</sup> Pero te compadeces de todos*, porque todo lo puedes,
+<sup>23</sup> Pero te compadeces de todos<span class="note-ref" data-ref="sb-11-23" title="Ver comentario">&#42;</span>, porque todo lo puedes,
 
 y pasas por alto los pecados de los hombres para que se arrepientan.
 
@@ -1262,7 +1262,7 @@ pues, si algo odiases, no lo habrías creado.
 
 la vida,
 
-<span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> pues tu aliento incorruptible está en todas ellas*.
+<span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> pues tu aliento incorruptible está en todas ellas<span class="note-ref" data-ref="sb-12-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Por eso corriges poco a poco
 
@@ -1273,7 +1273,7 @@ y los reprendes recordándoles sus pecados,
 para que se aparten del mal y crean en ti, Señor.
 
 ## Moderación de Dios hacia Canaán.
-<sup>3</sup> A los antiguos habitantes* de tu tierra santa
+<sup>3</sup> A los antiguos habitantes<span class="note-ref" data-ref="sb-12-3" title="Ver comentario">&#42;</span> de tu tierra santa
 
 <sup>4</sup> los aborreciste por sus abominables acciones,
 
@@ -1283,7 +1283,7 @@ prácticas mágicas y ritos sacrílegos.
 
 devoradores de entrañas en banquetes de carne y de sangre humanas,
 
-a estos iniciados en bacanales*,
+a estos iniciados en bacanales<span class="note-ref" data-ref="sb-12-5" title="Ver comentario">&#42;</span>,
 
 <sup>6</sup> padres asesinos de seres indefensos,
 
@@ -1293,11 +1293,11 @@ decidiste exterminarlos por medio de nuestros antepasados,
 
 recibiera una digna colonia de hijos de Dios.
 
-<sup>8</sup> Pero también de éstos, por ser hombres, tuviste compasión*
+<sup>8</sup> Pero también de éstos, por ser hombres, tuviste compasión<span class="note-ref" data-ref="sb-12-8-a" title="Ver comentario">&#42;</span>
 
 y les enviaste avispas, como avanzadilla de tu ejército,
 
-para exterminarlos poco a poco*.
+para exterminarlos poco a poco<span class="note-ref" data-ref="sb-12-8-b" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Aunque podías haber sometido los impíos a los justos en batalla campal
 
@@ -1309,7 +1309,7 @@ a sabiendas de que eran de mala ralea,
 
 de malicia innata,
 
-y de que su mentalidad no cambiaría nunca*,
+y de que su mentalidad no cambiaría nunca<span class="note-ref" data-ref="sb-12-10" title="Ver comentario">&#42;</span>,
 
 <sup>11</sup> pues era una raza maldita desde su origen.
 
@@ -1334,9 +1334,9 @@ a quien tengas que dar cuenta de la justicia de tus juicios;
 
 y consideras incompatible con tu poder
 
-el condenar a quien no merece castigo*.
+el condenar a quien no merece castigo<span class="note-ref" data-ref="sb-12-15" title="Ver comentario">&#42;</span>.
 
-<sup>16</sup> Tu poder es el principio de la justicia*
+<sup>16</sup> Tu poder es el principio de la justicia<span class="note-ref" data-ref="sb-12-16" title="Ver comentario">&#42;</span>
 
 y tu señorío sobre todo te hace ser compasivo con todos.
 
@@ -1346,14 +1346,14 @@ y confundes la osadía de los que la conocen.
 
 <sup>18</sup> Dueño de tu poder, juzgas con moderación
 
-y nos* gobiernas con gran indulgencia,
+y nos<span class="note-ref" data-ref="sb-12-18" title="Ver comentario">&#42;</span> gobiernas con gran indulgencia,
 
 porque haces valer tu poder cuando quieres.
 
 ## Lecciones de Dios a Israel.
 <sup>19</sup> Actuando así, enseñaste a tu pueblo
 
-que el justo debe ser filántropo*
+que el justo debe ser filántropo<span class="note-ref" data-ref="sb-12-19" title="Ver comentario">&#42;</span>
 
 y diste a tus hijos esperanza plena,
 
@@ -1361,15 +1361,15 @@ pues tras el pecado das lugar al arrepentimiento.
 
 <sup>20</sup> Pues si a los enemigos de tus hijos, reos de muerte,
 
-los castigaste con tanto miramiento y clemencia*,
+los castigaste con tanto miramiento y clemencia<span class="note-ref" data-ref="sb-12-20-a" title="Ver comentario">&#42;</span>,
 
-dándoles tiempo y lugar para apartarse de su maldad*,
+dándoles tiempo y lugar para apartarse de su maldad<span class="note-ref" data-ref="sb-12-20-b" title="Ver comentario">&#42;</span>,
 
 <sup>21</sup> ¿con cuánta consideración no habrás juzgado a tus hijos,
 
 con cuyos padres hiciste juramentos y alianzas de grandes promesas?
 
-<sup>22</sup> Así, nos educas castigando a nuestros enemigos con moderación*,
+<sup>22</sup> Así, nos educas castigando a nuestros enemigos con moderación<span class="note-ref" data-ref="sb-12-22" title="Ver comentario">&#42;</span>,
 
 para que, al juzgar, recordemos tu bondad
 
@@ -1378,7 +1378,7 @@ y, al ser juzgados, esperemos misericordia.
 ## Vuelta a los egipcios. Su castigo progresivo.
 <sup>23</sup> Por eso, a los que vivían de manera insensata e inicua
 
-los atormentaste con sus propias abominaciones*,
+los atormentaste con sus propias abominaciones<span class="note-ref" data-ref="sb-12-23" title="Ver comentario">&#42;</span>,
 
 <sup>24</sup> pues se habían extraviado muy lejos por los caminos del error,
 
@@ -1400,14 +1400,14 @@ abrieron los ojos y reconocieron como Dios verdadero
 
 a aquel que antes se negaban a conocer.
 
-## Por eso, les sobrevino el peor de los castigos*.
+## Por eso, les sobrevino el peor de los castigos<span class="note-ref" data-ref="sb-12-27" title="Ver comentario">&#42;</span>.
 
-## Crítica de la idolatría*. Divinización de la naturaleza.
+## Crítica de la idolatría<span class="note-ref" data-ref="sb-13-1-a" title="Ver comentario">&#42;</span>. Divinización de la naturaleza.
 <span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Son necios por naturaleza todos los hombres que han desconocido a Dios
 
 y no fueron capaces de conocer al que es a partir de los bienes visibles,
 
-ni de reconocer al Artífice, atendiendo a sus obras*;
+ni de reconocer al Artífice, atendiendo a sus obras<span class="note-ref" data-ref="sb-13-1-b" title="Ver comentario">&#42;</span>;
 
 <sup>2</sup> sino que tuvieron por dioses, señores del mundo,
 
@@ -1419,7 +1419,7 @@ a la bóveda estrellada, al agua impetuosa o a los astros del cielo.
 
 sepan cuánto les aventaja su Señor,
 
-pues los creó el autor de la belleza*.
+pues los creó el autor de la belleza<span class="note-ref" data-ref="sb-13-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Y si admiraron su poder y energía,
 
@@ -1447,7 +1447,7 @@ que pudieron escudriñar el universo,
 
 ¿cómo no encontraron antes a su Señor?
 
-## El culto a los ídolos*.
+## El culto a los ídolos<span class="note-ref" data-ref="sb-13-10" title="Ver comentario">&#42;</span>.
 <sup>10</sup> Son, pues, unos desgraciados, con la esperanza puesta en cosas muertas,
 
 quienes llamaron dioses a las obras de manos humanas:
@@ -1494,7 +1494,7 @@ y lo coloca en la pared asegurándolo con hierros.
 
 sabiendo que no puede valerse por sí mismo,
 
-pues es una imagen y necesita ayuda*.
+pues es una imagen y necesita ayuda<span class="note-ref" data-ref="sb-13-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Cuando le reza por la hacienda, las bodas y los hijos,
 
@@ -1514,17 +1514,17 @@ pide vigor al más torpe de manos.
 
 <span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Otro, dispuesto a embarcar para cruzar el mar bravío,
 
-invoca a un madero más frágil que la nave que lo lleva*.
+invoca a un madero más frágil que la nave que lo lleva<span class="note-ref" data-ref="sb-14-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> A ésta la inventó el afán de lucro
 
-y la construyó la sabiduría como artífice*;
+y la construyó la sabiduría como artífice<span class="note-ref" data-ref="sb-14-2" title="Ver comentario">&#42;</span>;
 
-<sup>3</sup> pero es tu providencia*, Padre, quien la guía,
+<sup>3</sup> pero es tu providencia<span class="note-ref" data-ref="sb-14-3-a" title="Ver comentario">&#42;</span>, Padre, quien la guía,
 
 pues también en el mar abriste un camino
 
-y una senda segura entre las olas*,
+y una senda segura entre las olas<span class="note-ref" data-ref="sb-14-3-b" title="Ver comentario">&#42;</span>,
 
 <sup>4</sup> demostrando así que puedes salvar de todo peligro,
 
@@ -1536,15 +1536,15 @@ por eso, los hombres confían sus vidas a un insignificante madero,
 
 cruzan el oleaje en una balsa y arriban sanos y salvos.
 
-<sup>6</sup> Ya en los comienzos, cuando los soberbios gigantes perecían*,
+<sup>6</sup> Ya en los comienzos, cuando los soberbios gigantes perecían<span class="note-ref" data-ref="sb-14-6-a" title="Ver comentario">&#42;</span>,
 
-la esperanza del mundo se refugió en una balsa*,
+la esperanza del mundo se refugió en una balsa<span class="note-ref" data-ref="sb-14-6-b" title="Ver comentario">&#42;</span>,
 
 que, pilotada por tu mano, legó al mundo una semilla de vida.
 
-<sup>7</sup> Bendito, pues, el madero con el que se hace justicia*:
+<sup>7</sup> Bendito, pues, el madero con el que se hace justicia<span class="note-ref" data-ref="sb-14-7" title="Ver comentario">&#42;</span>:
 
-<sup>8</sup> pero malditos el ídolo manufacturado* y el que lo hizo;
+<sup>8</sup> pero malditos el ídolo manufacturado<span class="note-ref" data-ref="sb-14-8" title="Ver comentario">&#42;</span> y el que lo hizo;
 
 el uno por hacerlo, y el otro porque, siendo corruptible, es considerado dios.
 
@@ -1563,15 +1563,15 @@ y una trampa para los pies de los insensatos.
 ## Origen del culto a los ídolos.
 <sup>12</sup> La invención de los ídolos fue el comienzo de la infidelidad,
 
-y su descubrimiento, la corrupción de la vida*.
+y su descubrimiento, la corrupción de la vida<span class="note-ref" data-ref="sb-14-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Pero no existían desde el principio, ni existirán para siempre.
 
-<sup>14</sup> Entraron* en el mundo por la vanidad de los hombres
+<sup>14</sup> Entraron<span class="note-ref" data-ref="sb-14-14" title="Ver comentario">&#42;</span> en el mundo por la vanidad de los hombres
 
 y, por eso, su fin inmediato está decidido.
 
-<sup>15</sup> Un padre*, afligido por un luto prematuro,
+<sup>15</sup> Un padre<span class="note-ref" data-ref="sb-14-15" title="Ver comentario">&#42;</span>, afligido por un luto prematuro,
 
 hace una imagen del hijo malogrado,
 
@@ -1607,18 +1607,18 @@ tomó entonces por objeto de culto al que poco antes honraba como hombre.
 
 pues los hombres, esclavos de la desgracia o de la tiranía,
 
-dieron el nombre incomunicable* a piedras y maderos.
+dieron el nombre incomunicable<span class="note-ref" data-ref="sb-14-21" title="Ver comentario">&#42;</span> a piedras y maderos.
 
 ## Consecuencias del culto a los ídolos.
 <sup>22</sup> Luego, no les bastó con errar en el conocimiento de Dios,
 
-sino que, debatiéndose en duro conflicto* por la ignorancia,
+sino que, debatiéndose en duro conflicto<span class="note-ref" data-ref="sb-14-22" title="Ver comentario">&#42;</span> por la ignorancia,
 
 llamaron paz a tan graves males.
 
 <sup>23</sup> Así, celebrando iniciaciones infanticidas, misterios secretos
 
-o delirantes orgías de ritos extravagantes*,
+o delirantes orgías de ritos extravagantes<span class="note-ref" data-ref="sb-14-23" title="Ver comentario">&#42;</span>,
 
 <sup>24</sup> ya no mantienen puros ni vidas ni matrimonios,
 
@@ -1630,11 +1630,11 @@ corrupción, deslealtad, desorden, perjurio,
 
 <sup>26</sup> confusión de los buenos, olvido de la gratitud,
 
-contaminación de las almas, inversión de sexos*,
+contaminación de las almas, inversión de sexos<span class="note-ref" data-ref="sb-14-26-a" title="Ver comentario">&#42;</span>,
 
-desorden matrimonial, adulterio y libertinaje*.
+desorden matrimonial, adulterio y libertinaje<span class="note-ref" data-ref="sb-14-26-b" title="Ver comentario">&#42;</span>.
 
-<sup>27</sup> Porque el culto a los ídolos sin nombre*
+<sup>27</sup> Porque el culto a los ídolos sin nombre<span class="note-ref" data-ref="sb-14-27" title="Ver comentario">&#42;</span>
 
 es principio, causa y fin de todos los males.
 
@@ -1667,13 +1667,13 @@ quien persigue siempre las transgresiones de los malvados.
 
 eres paciente y todo lo gobiernas con misericordia.
 
-<sup>2</sup> Aunque pequemos, somos tuyos, pues reconocemos tu poder*;
+<sup>2</sup> Aunque pequemos, somos tuyos, pues reconocemos tu poder<span class="note-ref" data-ref="sb-15-2" title="Ver comentario">&#42;</span>;
 
 pero no pecaremos, porque sabemos que te pertenecemos.
 
 <sup>3</sup> Conocerte a ti es justicia consumada,
 
-y reconocer tu poder es la raíz de la inmortalidad*.
+y reconocer tu poder es la raíz de la inmortalidad<span class="note-ref" data-ref="sb-15-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> No nos confundieron las malas artes de invención humana,
 
@@ -1689,7 +1689,7 @@ que codician la figura inanimada de una imagen muerta.
 
 quienes las crean, quienes las codician y quienes las adoran.
 
-## Locura de los fabricantes de ídolos *.
+## Locura de los fabricantes de ídolos <span class="note-ref" data-ref="sb-15-7" title="Ver comentario">&#42;</span>.
 <sup>7</sup> Un alfarero amasa laboriosamente la tierra blanda
 
 y modela diversos cacharros para nuestro uso.
@@ -1714,7 +1714,7 @@ cuando le reclamen la deuda de la vida.
 
 ni que tiene una vida efímera;
 
-sino que compite* con orfebres y plateros,
+sino que compite<span class="note-ref" data-ref="sb-15-9" title="Ver comentario">&#42;</span> con orfebres y plateros,
 
 imita a los que forjan el bronce
 
@@ -1728,7 +1728,7 @@ su vida, más despreciable que el barro,
 
 <sup>11</sup> porque desconoce al que le modeló,
 
-al que le infundió un alma activa*
+al que le infundió un alma activa<span class="note-ref" data-ref="sb-15-11" title="Ver comentario">&#42;</span>
 
 y le insufló un aliento vital.
 
@@ -1743,9 +1743,9 @@ diciendo: «Hay que sacar partido de donde sea, incluso del mal.»
 al fabricar con material terreno frágiles vasijas y estatuas de ídolos.
 
 ## Locura de los egipcios: su idolatría universal.
-<sup>14</sup> Pero los más insensatos de todos y más ingenuos que el alma de un niño*
+<sup>14</sup> Pero los más insensatos de todos y más ingenuos que el alma de un niño<span class="note-ref" data-ref="sb-15-14-a" title="Ver comentario">&#42;</span>
 
-son los enemigos que oprimieron a tu pueblo*;
+son los enemigos que oprimieron a tu pueblo<span class="note-ref" data-ref="sb-15-14-b" title="Ver comentario">&#42;</span>;
 
 <sup>15</sup> pues tuvieron por dioses a todos los ídolos de los gentiles,
 
@@ -1777,9 +1777,9 @@ que superan en estupidez a todos los demás
 
 <sup>19</sup> y ni siquiera poseen la belleza de los animales cuyo aspecto atrae,
 
-pues quedaron excluidos de la aprobación y bendición de Dios*.
+pues quedaron excluidos de la aprobación y bendición de Dios<span class="note-ref" data-ref="sb-15-19" title="Ver comentario">&#42;</span>.
 
-## Segunda antítesis*: las ranas.
+## Segunda antítesis<span class="note-ref" data-ref="sb-16" title="Ver comentario">&#42;</span>: las ranas.
 <span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> Por eso, fueron justamente castigados por semejantes seres y atormentados por plagas de bichos.
 
 <sup>2</sup> En lugar de este castigo, favoreciste a tu pueblo
@@ -1813,21 +1813,21 @@ tu cólera no duró hasta el final.
 
 <sup>6</sup> Como escarmiento, se vieron molestados por poco tiempo,
 
-pues tenían un signo de salvación* para recordar los mandamientos de tu Ley;
+pues tenían un signo de salvación<span class="note-ref" data-ref="sb-16-6" title="Ver comentario">&#42;</span> para recordar los mandamientos de tu Ley;
 
 <sup>7</sup> y el que lo miraba se curaba, no por lo que contemplaba,
 
-sino por ti, salvador de todos*.
+sino por ti, salvador de todos<span class="note-ref" data-ref="sb-16-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Con esto convenciste a nuestros enemigos
 
-de que tú eres quien libra de todo mal*:
+de que tú eres quien libra de todo mal<span class="note-ref" data-ref="sb-16-8" title="Ver comentario">&#42;</span>:
 
 <sup>9</sup> ellos morían por las picaduras de langostas y moscas,
 
 sin encontrar remedio para su vida,
 
-pues merecían ser castigados por tales bichos*.
+pues merecían ser castigados por tales bichos<span class="note-ref" data-ref="sb-16-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Pero contra tus hijos nada pudieron los dientes de serpientes venenosas,
 
@@ -1837,7 +1837,7 @@ pues tu misericordia acudió a sanarlos.
 
 para que no cayeran en profundo olvido
 
-y se vieran excluidos de tus beneficios*.
+y se vieran excluidos de tus beneficios<span class="note-ref" data-ref="sb-16-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> No los curó hierba ni cataplasma,
 
@@ -1845,13 +1845,13 @@ sino tu palabra, Señor, que todo lo sana.
 
 <sup>13</sup> Pues tú tienes poder sobre la vida y la muerte,
 
-haces bajar a las puertas del abismo y haces subir*.
+haces bajar a las puertas del abismo y haces subir<span class="note-ref" data-ref="sb-16-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> El hombre, en cambio, puede matar con su maldad,
 
 pero no puede devolver el espíritu que se fue,
 
-ni liberar al alma del abismo*.
+ni liberar al alma del abismo<span class="note-ref" data-ref="sb-16-14" title="Ver comentario">&#42;</span>.
 
 ## Cuarta antítesis: el granizo y el maná.
 <sup>15</sup> Es imposible escapar de tu mano.
@@ -1862,7 +1862,7 @@ fueron castigados con la fuerza de tu brazo;
 
 los persiguieron lluvias insólitas, granizadas y aguaceros implacables,
 
-y el fuego los devoró*.
+y el fuego los devoró<span class="note-ref" data-ref="sb-16-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Y lo más sorprendente era que el fuego
 
@@ -1872,7 +1872,7 @@ pues el cosmos es defensor de los justos.
 
 <sup>18</sup> Unas veces las llamas amainaban,
 
-para no abrasar a los animales enviados contra los impíos*
+para no abrasar a los animales enviados contra los impíos<span class="note-ref" data-ref="sb-16-18" title="Ver comentario">&#42;</span>
 
 y para que, al verlos, comprendieran que los impulsaba el juicio de Dios.
 
@@ -1884,7 +1884,7 @@ para destruir los frutos de una tierra injusta.
 
 y les mandaste desde el cielo un pan preparado sin fatiga,
 
-que producía gran placer y satisfacía todos los gustos*.
+que producía gran placer y satisfacía todos los gustos<span class="note-ref" data-ref="sb-16-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Este sustento mostraba tu dulzura para con tus hijos,
 
@@ -1892,7 +1892,7 @@ pues se adaptaba al gusto del que lo tomaba
 
 y se transformaba en lo que cada uno quería.
 
-<sup>22</sup> Nieve y hielo* resistían al fuego sin fundirse,
+<sup>22</sup> Nieve y hielo<span class="note-ref" data-ref="sb-16-22" title="Ver comentario">&#42;</span> resistían al fuego sin fundirse,
 
 para que supieran que el fuego destruía las cosechas de sus enemigos,
 
@@ -1908,7 +1908,7 @@ se endurece para castigar a los injustos
 
 y se modera para favorecer a los que confían en ti.
 
-<sup>25</sup> Por eso, también entonces, adoptando todas las formas*,
+<sup>25</sup> Por eso, también entonces, adoptando todas las formas<span class="note-ref" data-ref="sb-16-25" title="Ver comentario">&#42;</span>,
 
 servía a tu generosidad que a todos sustenta,
 
@@ -1926,13 +1926,13 @@ se derretía simplemente al calor de un tenue rayo de sol,
 
 <sup>28</sup> para que supieran que hay que adelantarse al sol para darte gracias
 
-e ir a tu encuentro al rayar el alba*,
+e ir a tu encuentro al rayar el alba<span class="note-ref" data-ref="sb-16-28" title="Ver comentario">&#42;</span>,
 
 <sup>29</sup> pues la esperanza del ingrato se derrite como escarcha invernal
 
 y se escurre como agua inútil.
 
-## Quinta antítesis: tinieblas y columna de fuego *.
+## Quinta antítesis: tinieblas y columna de fuego <span class="note-ref" data-ref="sb-17" title="Ver comentario">&#42;</span>.
 <span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> Grandes e inexplicables son tus juicios;
 
 por eso las almas ignorantes se extraviaron.
@@ -1949,7 +1949,7 @@ bajo el oscuro velo del olvido,
 
 se vieron dispersos, presa de terrible espanto
 
-y sobresaltados por apariciones*.
+y sobresaltados por apariciones<span class="note-ref" data-ref="sb-17-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> El rincón que los escondía no los libraba del miedo,
 
@@ -1971,7 +1971,7 @@ y, cuando desaparecía la visión, quedaban aterrados,
 
 considerando aún más horrible lo que habían visto.
 
-<sup>7</sup> Las artes mágicas resultaron ineficaces*
+<sup>7</sup> Las artes mágicas resultaron ineficaces<span class="note-ref" data-ref="sb-17-7" title="Ver comentario">&#42;</span>
 
 y su pretendido saber quedó en ridículo,
 
@@ -1989,11 +1989,11 @@ y se negaban a mirar hasta el aire inevitable.
 
 <sup>11</sup> Pues la maldad es cobarde y se condena a sí misma:
 
-acosada por la conciencia, imagina siempre lo peor*.
+acosada por la conciencia, imagina siempre lo peor<span class="note-ref" data-ref="sb-17-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Y el miedo no es otra cosa
 
-que el abandono de los recursos de la razón*:
+que el abandono de los recursos de la razón<span class="note-ref" data-ref="sb-17-12" title="Ver comentario">&#42;</span>:
 
 <sup>13</sup> cuanto menor es la propia confianza,
 
@@ -2051,13 +2051,13 @@ Aunque ellos eran para sí mismos más insoportables que las tinieblas.
 
 <span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Sin embargo, una magnífica luz brillaba para tus santos.
 
-Los egipcios, que oían su voz sin distinguir su figura*,
+Los egipcios, que oían su voz sin distinguir su figura<span class="note-ref" data-ref="sb-18-1" title="Ver comentario">&#42;</span>,
 
 los felicitaban por no haber padecido como ellos;
 
 <sup>2</sup> les daban las gracias porque no se vengaban de los agravios recibidos
 
-y les pedían perdón por su conducta hostil*.
+y les pedían perdón por su conducta hostil<span class="note-ref" data-ref="sb-18-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> Tú, en cambio, preparaste una columna de fuego,
 
@@ -2071,16 +2071,16 @@ quienes tuvieron encarcelados a tus hijos,
 
 que habían de dar al mundo la luz incorruptible de la Ley.
 
-## Sexta antítesis: noche trágica y noche liberadora*.
+## Sexta antítesis: noche trágica y noche liberadora<span class="note-ref" data-ref="sb-18-5-a" title="Ver comentario">&#42;</span>.
 <sup>5</sup> A los que habían decretado matar a los niños de los santos,
 
 salvándose uno solo, abandonado,
 
-les arrebataste en castigo una multitud de hijos*
+les arrebataste en castigo una multitud de hijos<span class="note-ref" data-ref="sb-18-5-b" title="Ver comentario">&#42;</span>
 
-y los hiciste perecer juntos en las aguas impetuosas*.
+y los hiciste perecer juntos en las aguas impetuosas<span class="note-ref" data-ref="sb-18-5-c" title="Ver comentario">&#42;</span>.
 
-<sup>6</sup> Aquella noche fue previamente anunciada a nuestros antepasados*,
+<sup>6</sup> Aquella noche fue previamente anunciada a nuestros antepasados<span class="note-ref" data-ref="sb-18-6" title="Ver comentario">&#42;</span>,
 
 para que se animasen, sabiendo bien en qué juramentos habían creído.
 
@@ -2090,15 +2090,15 @@ y la destrucción de los enemigos,
 
 <sup>8</sup> pues con lo que castigaste a los adversarios
 
-nos glorificaste, llamándonos a ti*.
+nos glorificaste, llamándonos a ti<span class="note-ref" data-ref="sb-18-8" title="Ver comentario">&#42;</span>.
 
-<sup>9</sup> Los santos hijos de los buenos* ofrecían sacrificios en secreto
+<sup>9</sup> Los santos hijos de los buenos<span class="note-ref" data-ref="sb-18-9-a" title="Ver comentario">&#42;</span> ofrecían sacrificios en secreto
 
 y establecían unánimes esta ley divina:
 
 que los santos compartirían los mismos bienes y peligros,
 
-cantando previamente las alabanzas de los antepasados*.
+cantando previamente las alabanzas de los antepasados<span class="note-ref" data-ref="sb-18-9-b" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Les respondía el grito disonante de los enemigos
 
@@ -2120,7 +2120,7 @@ porque en un instante pereció lo mejor de su raza.
 
 ante la muerte de los primogénitos acabaron por reconocer
 
-que aquel pueblo era hijo de Dios*.
+que aquel pueblo era hijo de Dios<span class="note-ref" data-ref="sb-18-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Cuando un silencio apacible lo envolvía todo
 
@@ -2130,7 +2130,7 @@ y la noche llegaba a la mitad de su carrera,
 
 desde el trono real, cual guerrero implacable,
 
-sobre la tierra condenada*,
+sobre la tierra condenada<span class="note-ref" data-ref="sb-18-15" title="Ver comentario">&#42;</span>,
 
 empuñando la espada afilada de tu decreto irrevocable;
 
@@ -2138,7 +2138,7 @@ empuñando la espada afilada de tu decreto irrevocable;
 
 tocaba el cielo mientras pisaba la tierra.
 
-<sup>17</sup> Entonces* les sobresaltaron de repente sueños y visiones terribles,
+<sup>17</sup> Entonces<span class="note-ref" data-ref="sb-18-17" title="Ver comentario">&#42;</span> les sobresaltaron de repente sueños y visiones terribles,
 
 les sobrevinieron terrores imprevistos;
 
@@ -2151,27 +2151,27 @@ daban a conocer la causa de su muerte,
 para que no pereciesen sin conocer la razón de su desgracia.
 
 ## Amenaza de exterminio en el desierto.
-<sup>20</sup> También alcanzó a los justos la prueba de la muerte*
+<sup>20</sup> También alcanzó a los justos la prueba de la muerte<span class="note-ref" data-ref="sb-18-20" title="Ver comentario">&#42;</span>
 
 y una multitud pereció en el desierto,
 
 pero no duró mucho la cólera;
 
-<sup>21</sup> pues un hombre irreprochable* se apresuró a salir en su defensa
+<sup>21</sup> pues un hombre irreprochable<span class="note-ref" data-ref="sb-18-21-a" title="Ver comentario">&#42;</span> se apresuró a salir en su defensa
 
 con las armas de su ministerio:
 
-la oración y el incienso expiatorio*.
+la oración y el incienso expiatorio<span class="note-ref" data-ref="sb-18-21-b" title="Ver comentario">&#42;</span>.
 
 Se enfrentó a la ira y puso fin a la desgracia,
 
 demostrando que era tu servidor.
 
-<sup>22</sup> Y venció la indignación* no con su fuerza corporal,
+<sup>22</sup> Y venció la indignación<span class="note-ref" data-ref="sb-18-22-a" title="Ver comentario">&#42;</span> no con su fuerza corporal,
 
 ni con el poder de las armas,
 
-sino que sometió al ejecutor del castigo con la palabra*,
+sino que sometió al ejecutor del castigo con la palabra<span class="note-ref" data-ref="sb-18-22-b" title="Ver comentario">&#42;</span>,
 
 recordando los juramentos y las alianzas hechos a los antepasados.
 
@@ -2185,13 +2185,13 @@ y le cerró el paso hacia los que aún vivían.
 
 los nombres gloriosos de los padres en cuatro hileras de piedras talladas,
 
-y tu majestad, en la diadema de su cabeza*.
+y tu majestad, en la diadema de su cabeza<span class="note-ref" data-ref="sb-18-24" title="Ver comentario">&#42;</span>.
 
-<sup>25</sup> Ante esto, el exterminador* retrocedió atemorizado,
+<sup>25</sup> Ante esto, el exterminador<span class="note-ref" data-ref="sb-18-25" title="Ver comentario">&#42;</span> retrocedió atemorizado,
 
 pues era suficiente una sola prueba de tu cólera.
 
-## Séptima antítesis: el mar Rojo*.
+## Séptima antítesis: el mar Rojo<span class="note-ref" data-ref="sb-19" title="Ver comentario">&#42;</span>.
 <span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> Pero sobre los impíos se abatió hasta el fin una ira despiadada,
 
 pues Dios sabía de antemano lo que les iba a suceder:
@@ -2208,17 +2208,17 @@ concibieron otro proyecto insensato
 
 y persiguieron como fugitivos a los que habían despedido con súplicas.
 
-<sup>4</sup> A tales extremos los empujaba su merecido destino*,
+<sup>4</sup> A tales extremos los empujaba su merecido destino<span class="note-ref" data-ref="sb-19-4-a" title="Ver comentario">&#42;</span>,
 
 haciéndoles olvidar el pasado,
 
-para que consumaran el castigo que aún faltaba a sus tormentos*
+para que consumaran el castigo que aún faltaba a sus tormentos<span class="note-ref" data-ref="sb-19-4-b" title="Ver comentario">&#42;</span>
 
 <sup>5</sup> y, mientras tu pueblo emprendía un viaje maravilloso,
 
 encontraran ellos una muerte insólita.
 
-<sup>6</sup> Porque toda la creación, obediente a tus órdenes*,
+<sup>6</sup> Porque toda la creación, obediente a tus órdenes<span class="note-ref" data-ref="sb-19-6" title="Ver comentario">&#42;</span>,
 
 se transformó de nuevo en su misma naturaleza
 
@@ -2230,7 +2230,7 @@ la tierra firme que emergía de lo que antes era agua,
 
 un camino abierto en el mar Rojo
 
-y una llanura verde en las olas impetuosas*,
+y una llanura verde en las olas impetuosas<span class="note-ref" data-ref="sb-19-7" title="Ver comentario">&#42;</span>,
 
 <sup>8</sup> por donde tus protegidos pasaron en masa,
 
@@ -2252,40 +2252,40 @@ y cómo el río, en vez de peces, vomitó una multitud de ranas.
 
 cuando, urgidos por el apetito, pidieron manjares delicados
 
-<sup>12</sup> y, para satisfacerlos, salieron codornices del mar*.
+<sup>12</sup> y, para satisfacerlos, salieron codornices del mar<span class="note-ref" data-ref="sb-19-12" title="Ver comentario">&#42;</span>.
 
 ## Egipto más culpable que Sodoma.
 <sup>13</sup> Los castigos recayeron sobre los pecadores,
 
-precedidos, como aviso, de la furia de los rayos*,
+precedidos, como aviso, de la furia de los rayos<span class="note-ref" data-ref="sb-19-13" title="Ver comentario">&#42;</span>,
 
 pues padecían justamente por sus propias maldades
 
 y por haber albergado el odio más feroz contra los extranjeros.
 
-<sup>14</sup> Hubo quienes* no recibieron a unos visitantes desconocidos,
+<sup>14</sup> Hubo quienes<span class="note-ref" data-ref="sb-19-14" title="Ver comentario">&#42;</span> no recibieron a unos visitantes desconocidos,
 
 pero éstos esclavizaron a extranjeros bienhechores.
 
-<sup>15</sup> Pero aún hay más, pues a aquellos se les pedirá cuentas*
+<sup>15</sup> Pero aún hay más, pues a aquellos se les pedirá cuentas<span class="note-ref" data-ref="sb-19-15" title="Ver comentario">&#42;</span>
 
 por haber recibido hostilmente a los extranjeros;
 
 <sup>16</sup> pero éstos, después de recibir con fiestas
 
-a los que ya participaban de sus mismos derechos*,
+a los que ya participaban de sus mismos derechos<span class="note-ref" data-ref="sb-19-16" title="Ver comentario">&#42;</span>,
 
 los maltrataron con terribles trabajos.
 
-<sup>17</sup> Y también fueron atacados por la ceguera*,
+<sup>17</sup> Y también fueron atacados por la ceguera<span class="note-ref" data-ref="sb-19-17-a" title="Ver comentario">&#42;</span>,
 
-como aquéllos que, a las puertas del justo*,
+como aquéllos que, a las puertas del justo<span class="note-ref" data-ref="sb-19-17-b" title="Ver comentario">&#42;</span>,
 
 envueltos en profunda oscuridad,
 
 buscaban el vano de sus puertas.
 
-## Una nueva armonía *.
+## Una nueva armonía <span class="note-ref" data-ref="sb-19-18" title="Ver comentario">&#42;</span>.
 <sup>18</sup> Los elementos intercambiaban sus propiedades,
 
 como los sonidos del arpa cambian la cadencia del ritmo
@@ -2294,9 +2294,9 @@ manteniendo el mismo tono,
 
 como puede deducirse claramente a la vista de lo sucedido;
 
-<sup>19</sup> pues los seres terrestres se tornaban acuáticos*
+<sup>19</sup> pues los seres terrestres se tornaban acuáticos<span class="note-ref" data-ref="sb-19-19-a" title="Ver comentario">&#42;</span>
 
-y los que nadan* se pasaban a la tierra.
+y los que nadan<span class="note-ref" data-ref="sb-19-19-b" title="Ver comentario">&#42;</span> se pasaban a la tierra.
 
 <sup>20</sup> El fuego aumentaba en el agua su propia virtud
 
@@ -2306,7 +2306,7 @@ y el agua olvidaba su poder extintor.
 
 las carnes de los débiles animales que se movían entre ellas,
 
-ni derretían aquella especie de manjar divino*,
+ni derretían aquella especie de manjar divino<span class="note-ref" data-ref="sb-19-21" title="Ver comentario">&#42;</span>,
 
 parecido a la escarcha y fácil de derretir.
 
