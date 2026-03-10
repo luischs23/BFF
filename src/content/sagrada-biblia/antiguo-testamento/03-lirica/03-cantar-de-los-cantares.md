@@ -5,9 +5,9 @@ img: blog-placeholder-4.jpg
 ---
 # CANTAR DE LOS CANTARES
 ## Título y prólogo
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Cantar de los cantares, de Salomón*.
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Cantar de los cantares, de Salomón<span class="note-ref" data-ref="ct-1-1" title="Ver comentario">&#42;</span>.
 
-## LA AMADA*.
+## LA AMADA<span class="note-ref" data-ref="ct-1-2" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> ¡Que me bese con besos de su boca!
 
@@ -15,13 +15,13 @@ Mejores son que el vino tus amores,
 
 <sup>3</sup> qué suave el olor de tus perfumes;
 
-tu nombre* es aroma penetrante,
+tu nombre<span class="note-ref" data-ref="ct-1-3" title="Ver comentario">&#42;</span> es aroma penetrante,
 
 por eso te aman las doncellas.
 
 <sup>4</sup> Llévame en pos de ti: ¡Corramos!
 
-Méteme, rey* mío, en tu alcoba,
+Méteme, rey<span class="note-ref" data-ref="ct-1-4" title="Ver comentario">&#42;</span> mío, en tu alcoba,
 
 disfrutemos juntos y gocemos,
 
@@ -32,13 +32,13 @@ alabemos tus amores más que el vino.
 ## Primer poema
 ## LA AMADA.
 
-<sup>5</sup> Soy morena*, pero hermosa,
+<sup>5</sup> Soy morena<span class="note-ref" data-ref="ct-1-5-a" title="Ver comentario">&#42;</span>, pero hermosa,
 
-muchachas de Jerusalén*,
+muchachas de Jerusalén<span class="note-ref" data-ref="ct-1-5-b" title="Ver comentario">&#42;</span>,
 
 como las tiendas de Quedar,
 
-como las lonas de Salmá*.
+como las lonas de Salmá<span class="note-ref" data-ref="ct-1-5-c" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> No miréis que estoy morena:
 
@@ -48,7 +48,7 @@ Mis hermanos se enfadaron conmigo,
 
 me pusieron a guardar las viñas,
 
-¡y mi viña no supe guardar*!
+¡y mi viña no supe guardar<span class="note-ref" data-ref="ct-1-6" title="Ver comentario">&#42;</span>!
 
 <sup>7</sup> Indícame, amor de mi alma,
 
@@ -56,7 +56,7 @@ dónde apacientas el rebaño,
 
 dónde sestea a mediodía,
 
-para que no ande así perdida*
+para que no ande así perdida<span class="note-ref" data-ref="ct-1-7" title="Ver comentario">&#42;</span>
 
 tras los rebaños de tus compañeros.
 
@@ -76,7 +76,7 @@ junto al jacal de los pastores.
 
 <sup>9</sup> Amor mío, te comparo a la yegua
 
-que tira del carro del faraón*.
+que tira del carro del faraón<span class="note-ref" data-ref="ct-1-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> ¡Qué hermosura tu cara entre zarcillos,
 
@@ -86,9 +86,9 @@ tu cuello entre collares!
 
 con engastes y cuentas de plata.
 
-## DÚO*.
+## DÚO<span class="note-ref" data-ref="ct-1-12-a" title="Ver comentario">&#42;</span>.
 
-<sup>12</sup> —Mientras el rey* descansa en su diván,
+<sup>12</sup> —Mientras el rey<span class="note-ref" data-ref="ct-1-12-b" title="Ver comentario">&#42;</span> descansa en su diván,
 
 mi nardo exhala su fragancia.
 
@@ -98,7 +98,7 @@ que reposa entre mis senos.
 
 <sup>14</sup> Racimo de alheña es mi amado para mí,
 
-en las viñas de Engadí*.
+en las viñas de Engadí<span class="note-ref" data-ref="ct-1-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> —¡Qué bella eres, amor mío,
 
@@ -118,11 +118,11 @@ nuestros artesonados, de ciprés.
 
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> —Soy un narciso de Sarón,
 
-una azucena* de los valles.
+una azucena<span class="note-ref" data-ref="ct-2-1" title="Ver comentario">&#42;</span> de los valles.
 
-<sup>2</sup> —Como azucena* entre cardos
+<sup>2</sup> —Como azucena<span class="note-ref" data-ref="ct-2-2-a" title="Ver comentario">&#42;</span> entre cardos
 
-es mi amada entre las mozas*.
+es mi amada entre las mozas<span class="note-ref" data-ref="ct-2-2-b" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> —Como manzano entre árboles silvestres
 
@@ -132,7 +132,7 @@ Me apetece sentarme a su sombra,
 
 su fruto me endulza la boca.
 
-<sup>4</sup> Me ha metido en la bodega*,
+<sup>4</sup> Me ha metido en la bodega<span class="note-ref" data-ref="ct-2-4" title="Ver comentario">&#42;</span>,
 
 despliega junto a mí su bandera de amor.
 
@@ -140,7 +140,7 @@ despliega junto a mí su bandera de amor.
 
 dadme vigor con manzanas,
 
-que estoy enferma de amor*.
+que estoy enferma de amor<span class="note-ref" data-ref="ct-2-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Su izquierda está bajo mi cabeza,
 
@@ -148,14 +148,14 @@ me abraza con la derecha.
 
 <sup>7</sup> —Os conjuro, muchachas de Jerusalén,
 
-por las gacelas y las ciervas del campo*,
+por las gacelas y las ciervas del campo<span class="note-ref" data-ref="ct-2-7" title="Ver comentario">&#42;</span>,
 
 que no despertéis ni desveléis,
 
 a mi amor hasta que quiera.
 
 ## Segundo poema
-## LA AMADA*.
+## LA AMADA<span class="note-ref" data-ref="ct-2-8" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> ¡La voz de mi amado!
 
@@ -223,15 +223,15 @@ esas raposillas
 
 que devastan las viñas,
 
-nuestras viñas en flor*.
+nuestras viñas en flor<span class="note-ref" data-ref="ct-2-15" title="Ver comentario">&#42;</span>.
 
-<sup>16</sup> Mi amado es mío y yo de mi amado*,
+<sup>16</sup> Mi amado es mío y yo de mi amado<span class="note-ref" data-ref="ct-2-16" title="Ver comentario">&#42;</span>,
 
 que pasta entre azucenas.
 
 <sup>17</sup> Antes que sople la brisa,
 
-antes de que huyan las sombras*,
+antes de que huyan las sombras<span class="note-ref" data-ref="ct-2-17-a" title="Ver comentario">&#42;</span>,
 
 vuelve, amado mío,
 
@@ -239,11 +239,11 @@ imita a una gacela
 
 o a un joven cervatillo
 
-por los montes de Béter*.
+por los montes de Béter<span class="note-ref" data-ref="ct-2-17-b" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> En mi lecho, por la noche,
 
-busqué al amor de mi alma*,
+busqué al amor de mi alma<span class="note-ref" data-ref="ct-3-1" title="Ver comentario">&#42;</span>,
 
 lo busqué y no lo encontré.
 
@@ -257,7 +257,7 @@ lo busqué y no lo encontré.
 
 <sup>3</sup> Me encontraron los guardias
 
-que hacen ronda en la ciudad*:
+que hacen ronda en la ciudad<span class="note-ref" data-ref="ct-3-3" title="Ver comentario">&#42;</span>:
 
 «¿Habéis visto al amor de mi alma?»
 
@@ -282,7 +282,7 @@ que no despertéis ni desveléis
 a mi amor hasta que quiera.
 
 ## Tercer poema
-## EL POETA*.
+## EL POETA<span class="note-ref" data-ref="ct-3-6" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> ¿Qué es eso que sube del desierto,
 
@@ -308,7 +308,7 @@ por temor a las alarmas de la noche.
 
 <sup>9</sup> El rey Salomón
 
-se ha hecho un palanquín*
+se ha hecho un palanquín<span class="note-ref" data-ref="ct-3-9" title="Ver comentario">&#42;</span>
 
 con madera del Líbano:
 
@@ -330,9 +330,9 @@ al rey Salomón,
 
 con la diadema con que su madre lo coronó
 
-el día de su boda*, gozo de su corazón*.
+el día de su boda<span class="note-ref" data-ref="ct-3-11-a" title="Ver comentario">&#42;</span>, gozo de su corazón<span class="note-ref" data-ref="ct-3-11-b" title="Ver comentario">&#42;</span>.
 
-## EL AMADO*.
+## EL AMADO<span class="note-ref" data-ref="ct-4-1-a" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> ¡Qué bella eres, amor mío,
 
@@ -340,7 +340,7 @@ qué bella eres!
 
 Palomas son tus ojos
 
-a través de tu velo*;
+a través de tu velo<span class="note-ref" data-ref="ct-4-1-b" title="Ver comentario">&#42;</span>;
 
 tu melena, rebaño de cabras
 
@@ -348,7 +348,7 @@ que desciende del monte Galaad.
 
 <sup>2</sup> Tus dientes, rebaño esquilado
 
-de ovejas que salen del baño*:
+de ovejas que salen del baño<span class="note-ref" data-ref="ct-4-2" title="Ver comentario">&#42;</span>:
 
 todas con crías mellizas,
 
@@ -382,13 +382,13 @@ antes de que huyan las sombras,
 
 iré al monte de la mirra,
 
-a la colina del incienso*.
+a la colina del incienso<span class="note-ref" data-ref="ct-4-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> ¡Toda hermosa eres, amor mío,
 
-no hay defecto en ti*!
+no hay defecto en ti<span class="note-ref" data-ref="ct-4-7" title="Ver comentario">&#42;</span>!
 
-<sup>8</sup> Ven* del Líbano, novia mía*,
+<sup>8</sup> Ven<span class="note-ref" data-ref="ct-4-8-a" title="Ver comentario">&#42;</span> del Líbano, novia mía<span class="note-ref" data-ref="ct-4-8-b" title="Ver comentario">&#42;</span>,
 
 ven, llégate del Líbano.
 
@@ -398,11 +398,11 @@ de las cumbres del Sanir y del Hermón,
 
 desde las guaridas de leones,
 
-desde los montes de leopardos*.
+desde los montes de leopardos<span class="note-ref" data-ref="ct-4-8-c" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Me has robado el corazón,
 
-hermana* y novia mía,
+hermana<span class="note-ref" data-ref="ct-4-9" title="Ver comentario">&#42;</span> y novia mía,
 
 me has robado el corazón
 
@@ -430,19 +430,19 @@ escondes miel y leche;
 
 la fragancia de tus vestidos
 
-parece fragancia del Líbano*.
+parece fragancia del Líbano<span class="note-ref" data-ref="ct-4-11" title="Ver comentario">&#42;</span>.
 
-<sup>12</sup> Eres huerto cerrado*
+<sup>12</sup> Eres huerto cerrado<span class="note-ref" data-ref="ct-4-12-a" title="Ver comentario">&#42;</span>
 
 hermana y novia mía,
 
-huerto* cerrado,
+huerto<span class="note-ref" data-ref="ct-4-12-b" title="Ver comentario">&#42;</span> cerrado,
 
 fuente sellada.
 
-<sup>13</sup> Tus brotes, paraíso* de granados,
+<sup>13</sup> Tus brotes, paraíso<span class="note-ref" data-ref="ct-4-13-a" title="Ver comentario">&#42;</span> de granados,
 
-lleno de frutos exquisitos*:
+lleno de frutos exquisitos<span class="note-ref" data-ref="ct-4-13-b" title="Ver comentario">&#42;</span>:
 
 <sup>14</sup> nardo y azafrán,
 
@@ -452,7 +452,7 @@ aromas de canela,
 
 mirra y áloe,
 
-con los mejores bálsamos*.
+con los mejores bálsamos<span class="note-ref" data-ref="ct-4-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> ¡Fuente de los jardines,
 
@@ -490,10 +490,10 @@ a beber de mi vino y de mi leche.
 
 ¡Comed, amigos, bebed,
 
-queridos, embriagaos*!
+queridos, embriagaos<span class="note-ref" data-ref="ct-5-1" title="Ver comentario">&#42;</span>!
 
 ## Cuarto poema
-## LA AMADA*.
+## LA AMADA<span class="note-ref" data-ref="ct-5-2" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Yo dormía, velaba mi corazón.
 
@@ -527,13 +527,13 @@ mis manos destilaban mirra,
 
 mirra goteaban mis dedos,
 
-en el pestillo de la cerradura*.
+en el pestillo de la cerradura<span class="note-ref" data-ref="ct-5-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Abrí yo misma a mi amado,
 
 pero mi amado se había marchado.
 
-## El alma se me fue con su huida*.
+## El alma se me fue con su huida<span class="note-ref" data-ref="ct-5-6" title="Ver comentario">&#42;</span>.
 
 Lo busqué y no lo hallé,
 
@@ -547,7 +547,7 @@ Me golpearon, me hirieron,
 
 me despojaron del chal
 
-los guardias de las murallas*.
+los guardias de las murallas<span class="note-ref" data-ref="ct-5-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Yo os conjuro,
 
@@ -559,7 +559,7 @@ si encontráis a mi amado,
 
 ## Que estoy enferma de amor.
 
-## EL CORO*.
+## EL CORO<span class="note-ref" data-ref="ct-5-9" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> ¿Qué distingue a tu amado de los otros,
 
@@ -569,7 +569,7 @@ tú, la más bella de las mujeres?
 
 para que así nos conjures?
 
-## LA AMADA*.
+## LA AMADA<span class="note-ref" data-ref="ct-5-10" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Mi amado es moreno claro,
 
@@ -589,7 +589,7 @@ que se bañan en leche,
 
 posadas junto al estanque.
 
-<sup>13</sup> Sus mejillas*, eras de balsameras,
+<sup>13</sup> Sus mejillas<span class="note-ref" data-ref="ct-5-13" title="Ver comentario">&#42;</span>, eras de balsameras,
 
 macizos de perfumes.
 
@@ -621,7 +621,7 @@ Así es mi amado, mi amigo,
 
 muchachas de Jerusalén.
 
-## EL CORO*.
+## EL CORO<span class="note-ref" data-ref="ct-6-1" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> ¿Adónde se fue tu amado,
 
@@ -646,17 +646,17 @@ y recoger azucenas.
 que pasta entre azucenas.
 
 ## Quinto poema
-## EL AMADO*.
+## EL AMADO<span class="note-ref" data-ref="ct-6-4-a" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Eres bella, amiga mía, como Tirsá,
 
-encantadora, como Jerusalén*,
+encantadora, como Jerusalén<span class="note-ref" data-ref="ct-6-4-b" title="Ver comentario">&#42;</span>,
 
-imponente como ejército en formación*.
+imponente como ejército en formación<span class="note-ref" data-ref="ct-6-4-c" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Aparta de mí tus ojos,
 
-que me subyugan*.
+que me subyugan<span class="note-ref" data-ref="ct-6-5" title="Ver comentario">&#42;</span>.
 
 Tu melena es rebaño de cabras
 
@@ -678,7 +678,7 @@ se adivinan tras el velo.
 
 ochenta las concubinas
 
-(innumerables las doncellas*),
+(innumerables las doncellas<span class="note-ref" data-ref="ct-6-8" title="Ver comentario">&#42;</span>),
 
 <sup>9</sup> pero única es mi paloma,
 
@@ -696,7 +696,7 @@ reinas y concubinas la elogian:
 
 hermosa como la luna,
 
-refulgente como el sol*,
+refulgente como el sol<span class="note-ref" data-ref="ct-6-10" title="Ver comentario">&#42;</span>,
 
 imponente como ejército en formación?»
 
@@ -710,17 +710,17 @@ a ver si florecían los granados.
 
 <sup>12</sup> ¡Sin saberlo, mi deseo me puso
 
-en los carros de Aminadib*!
+en los carros de Aminadib<span class="note-ref" data-ref="ct-6-12" title="Ver comentario">&#42;</span>!
 
-## EL CORO*.
+## EL CORO<span class="note-ref" data-ref="ct-7-1-a" title="Ver comentario">&#42;</span>.
 
-<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> ¡Vuelve, vuelve, Sulamita*,
+<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> ¡Vuelve, vuelve, Sulamita<span class="note-ref" data-ref="ct-7-1-b" title="Ver comentario">&#42;</span>,
 
 vuelve, vuelve, que te miremos!
 
 ¿Por qué miráis a la Sulamita,
 
-que danza en medio de dos coros*?
+que danza en medio de dos coros<span class="note-ref" data-ref="ct-7-1-c" title="Ver comentario">&#42;</span>?
 
 ## EL AMADO.
 
@@ -758,13 +758,13 @@ centinela que mira hacia Damasco;
 
 con su melena, igual que la púrpura;
 
-¡un rey en esas trenzas está preso*!
+¡un rey en esas trenzas está preso<span class="note-ref" data-ref="ct-7-6" title="Ver comentario">&#42;</span>!
 
 <sup>7</sup> ¡Qué bella eres, qué hermosura,
 
-amor mío, qué delicias*!
+amor mío, qué delicias<span class="note-ref" data-ref="ct-7-7" title="Ver comentario">&#42;</span>!
 
-<sup>8</sup> Tu talle es como palmera*,
+<sup>8</sup> Tu talle es como palmera<span class="note-ref" data-ref="ct-7-8" title="Ver comentario">&#42;</span>,
 
 tus pechos son los racimos;
 
@@ -778,19 +778,19 @@ tu aliento, aroma de manzanas,
 
 <sup>10</sup> tu paladar, vino generoso...
 
-## LA AMADA*.
+## LA AMADA<span class="note-ref" data-ref="ct-7-10-a" title="Ver comentario">&#42;</span>.
 
 ...Que va derecho hacia mi amado,
 
-y moja los labios de los que dormitan*.
+y moja los labios de los que dormitan<span class="note-ref" data-ref="ct-7-10-b" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Yo soy para mi amado,
 
-objeto de su deseo*.
+objeto de su deseo<span class="note-ref" data-ref="ct-7-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> ¡Oh, ven, amado mío,
 
-salgamos al campo*,
+salgamos al campo<span class="note-ref" data-ref="ct-7-12" title="Ver comentario">&#42;</span>,
 
 pasemos la noche en las aldeas!
 
@@ -804,7 +804,7 @@ si florecen los granados.
 
 Allí te entregaré
 
-el don de mis amores*.
+el don de mis amores<span class="note-ref" data-ref="ct-7-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> La mandrágora exhala su fragancia,
 
@@ -816,7 +816,7 @@ los guardo, amado, para ti.
 
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> ¡Ah, si fueras mi hermano,
 
-criado a los pechos de mi madre*!
+criado a los pechos de mi madre<span class="note-ref" data-ref="ct-8-1" title="Ver comentario">&#42;</span>!
 
 Podría besarte en plena calle,
 
@@ -844,7 +844,7 @@ que no despertéis ni desveléis,
 
 a mi amor hasta que quiera.
 
-## Epílogo*
+## Epílogo<span class="note-ref" data-ref="ct-8-5" title="Ver comentario">&#42;</span>
 <sup>5</sup> ¿Quién es ésta que sube del desierto,
 
 apoyada en su amado?
@@ -855,19 +855,19 @@ allí donde tu madre te concibió,
 
 donde concibió la que te dio a luz.
 
-## LA AMADA*.
+## LA AMADA<span class="note-ref" data-ref="ct-8-6-a" title="Ver comentario">&#42;</span>.
 
-<sup>6</sup> Ponme como sello* en tu corazón,
+<sup>6</sup> Ponme como sello<span class="note-ref" data-ref="ct-8-6-b" title="Ver comentario">&#42;</span> en tu corazón,
 
 como un sello en tu brazo.
 
 Que es fuerte el amor como la Muerte,
 
-implacable como el Seol* la pasión*.
+implacable como el Seol<span class="note-ref" data-ref="ct-8-6-c" title="Ver comentario">&#42;</span> la pasión<span class="note-ref" data-ref="ct-8-6-d" title="Ver comentario">&#42;</span>.
 
 Saetas de fuego, sus saetas,
 
-una llamarada de Yahvé*.
+una llamarada de Yahvé<span class="note-ref" data-ref="ct-8-6-e" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> No pueden los torrentes apagar el amor,
 
@@ -880,7 +880,7 @@ su patrimonio a cambio de amor,
 quedaría cubierto de baldón.
 
 ## Apéndices
-## Dos epigramas*
+## Dos epigramas<span class="note-ref" data-ref="ct-8-8-a" title="Ver comentario">&#42;</span>
 
 <sup>8</sup> Tenemos una hermanita
 
@@ -888,7 +888,7 @@ sin pechos todavía.
 
 ¿Qué haremos con nuestra hermana
 
-el día que se hable de ella*?
+el día que se hable de ella<span class="note-ref" data-ref="ct-8-8-b" title="Ver comentario">&#42;</span>?
 
 <sup>9</sup> —Si es una muralla,
 
@@ -908,7 +908,7 @@ como quien ha hallado la paz.
 
 <sup>11</sup> Salomón tenía una viña
 
-plantada en Baal Hamón*.
+plantada en Baal Hamón<span class="note-ref" data-ref="ct-8-11" title="Ver comentario">&#42;</span>.
 
 Encomendó la viña a los guardas,
 
@@ -922,11 +922,11 @@ los mil siclos, Salomón, para ti;
 
 y da doscientos a los guardas.
 
-Últimas adiciones*
+Últimas adiciones<span class="note-ref" data-ref="ct-8-13-a" title="Ver comentario">&#42;</span>
 
 <sup>13</sup> ¡Oh tú, reina de los jardines,
 
-mis compañeros* escuchan tu voz!:
+mis compañeros<span class="note-ref" data-ref="ct-8-13-b" title="Ver comentario">&#42;</span> escuchan tu voz!:
 
 ¡deja que también la oiga yo!
 

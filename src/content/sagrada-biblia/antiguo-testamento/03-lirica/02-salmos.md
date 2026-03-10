@@ -4,7 +4,7 @@ description: 'Libro de los Salmos'
 img: blog-placeholder-4.jpg
 ---
 # LOS SALMOS
-## <span class="subsection-title">SALMO 1*</span>
+## <span class="subsection-title">SALMO 1<span class="note-ref" data-ref="sal-1" title="Ver comentario">&#42;</span></span>
 ## <span class="subsection-title">Los dos caminos.</span>
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Feliz quien no sigue consejos de malvados
 
@@ -14,7 +14,7 @@ ni en grupos de necios toma asiento,
 
 <sup>2</sup> sino que se recrea en la ley de Yahvé,
 
-susurrando* su ley día y noche.
+susurrando<span class="note-ref" data-ref="sal-1-2" title="Ver comentario">&#42;</span> su ley día y noche.
 
 <sup>3</sup> Será como árbol plantado entre acequias,
 
@@ -26,7 +26,7 @@ Todo cuanto emprende prospera:
 
 Serán como tamo impulsado por el viento.
 
-<sup>5</sup> No se sostendrán los malvados en el juicio*,
+<sup>5</sup> No se sostendrán los malvados en el juicio<span class="note-ref" data-ref="sal-1-5" title="Ver comentario">&#42;</span>,
 
 ni los pecadores en la reunión de los justos.
 
@@ -35,7 +35,7 @@ ni los pecadores en la reunión de los justos.
 pero el camino de los malvados se extravía.
 
 ## <span class="subsection-title">SALMO 2</span>
-## <span class="subsection-title">El drama mesiánico*</span>
+## <span class="subsection-title">El drama mesiánico<span class="note-ref" data-ref="sal-2" title="Ver comentario">&#42;</span></span>
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> ¿Por qué se amotinan las naciones
 
 y los pueblos conspiran en vano?
@@ -60,9 +60,9 @@ los espanta lleno de cólera:
 
 <sup>6</sup> «Yo mismo he consagrado a mi rey,
 
-en Sión, mi monte santo*».
+en Sión, mi monte santo<span class="note-ref" data-ref="sal-2-6" title="Ver comentario">&#42;</span>».
 
-<sup>7</sup> Haré público el decreto de Yahvé*:
+<sup>7</sup> Haré público el decreto de Yahvé<span class="note-ref" data-ref="sal-2-7" title="Ver comentario">&#42;</span>:
 
 Él me ha dicho: «Tú eres mi hijo,
 
@@ -74,7 +74,7 @@ en propiedad la inmensidad de la tierra;
 
 <sup>9</sup> los machacarás con cetro de hierro,
 
-los pulverizarás como vasija de barro*».
+los pulverizarás como vasija de barro<span class="note-ref" data-ref="sal-2-9" title="Ver comentario">&#42;</span>».
 
 <sup>10</sup> Por eso, reyes, pensadlo bien,
 
@@ -82,7 +82,7 @@ aprended la lección, gobernantes de la tierra.
 
 <sup>11</sup> Servid a Yahvé con temor,
 
-<sup>12</sup> temblando besad sus pies*;
+<sup>12</sup> temblando besad sus pies<span class="note-ref" data-ref="sal-2-12" title="Ver comentario">&#42;</span>;
 
 no sea que se irrite y os perdáis,
 
@@ -112,7 +112,7 @@ y me responde desde su monte santo.
 
 <sup>6</sup> Me acuesto y me duermo,
 
-me despierto: Yahvé me sostiene*.
+me despierto: Yahvé me sostiene<span class="note-ref" data-ref="sal-3-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> No temo a esas gentes que a millares
 
@@ -129,7 +129,7 @@ tú rompes los dientes de los malvados.
 baje sobre tu pueblo tu bendición.
 
 ## <span class="subsection-title">SALMO 4</span>
-## <span class="subsection-title">Oración vespertina*</span>
+## <span class="subsection-title">Oración vespertina<span class="note-ref" data-ref="sal-4" title="Ver comentario">&#42;</span></span>
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Del maestro de coro. Para instrumentos de cuerda. Salmo. De David.
 
 <sup>2</sup> Respóndeme cuando te llamo,
@@ -140,7 +140,7 @@ tú, que en el apuro me abres salidas,
 
 tenme piedad y escucha mi oración.
 
-<sup>3</sup> ¿Hasta dónde, hombres, insultaréis a mi gloria*,Pausa.
+<sup>3</sup> ¿Hasta dónde, hombres, insultaréis a mi gloria<span class="note-ref" data-ref="sal-4-3" title="Ver comentario">&#42;</span>,Pausa.
 
 amaréis la vanidad y andaréis tras la mentira?
 
@@ -150,13 +150,13 @@ Yahvé me escucha cuando le llamo.
 
 <sup>5</sup> Temblad y no pequéis,Pausa.
 
-reflexionad en el lecho y callad*.
+reflexionad en el lecho y callad<span class="note-ref" data-ref="sal-4-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Ofreced sacrificios justos y confiad en Yahvé.
 
 <sup>7</sup> Muchos dicen: «¿Quién nos hará ver la dicha?».
 
-¡Haz brillar sobre nosotros la luz de tu rostro*!
+¡Haz brillar sobre nosotros la luz de tu rostro<span class="note-ref" data-ref="sal-4-7" title="Ver comentario">&#42;</span>!
 
 Yahvé, <sup>8</sup> me has dado más alegría interior
 
@@ -180,9 +180,9 @@ rey mío y Dios mío.
 
 ¡A ti te suplico, <sup>4</sup> Yahvé!
 
-Por la mañana* escuchas mi voz,
+Por la mañana<span class="note-ref" data-ref="sal-5-4-a" title="Ver comentario">&#42;</span> escuchas mi voz,
 
-por la mañana me preparo para ti*
+por la mañana me preparo para ti<span class="note-ref" data-ref="sal-5-4-b" title="Ver comentario">&#42;</span>
 
 y quedo a la espera.
 
@@ -222,7 +222,7 @@ sepulcro abierto es su garganta,
 
 su lengua habla con halagos.
 
-<sup>11</sup> Trátalos, oh Dios, como culpables*,
+<sup>11</sup> Trátalos, oh Dios, como culpables<span class="note-ref" data-ref="sal-5-11" title="Ver comentario">&#42;</span>,
 
 haz que fracasen sus planes;
 
@@ -243,7 +243,7 @@ los que aman tu nombre.
 lo rodea como escudo tu favor.
 
 ## <span class="subsection-title">SALMO 6</span>
-## <span class="subsection-title">Plegaria en la tribulación*</span>
+## <span class="subsection-title">Plegaria en la tribulación<span class="note-ref" data-ref="sal-6" title="Ver comentario">&#42;</span></span>
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Del maestro de coro. Para instrumentos de cuerda. En octava. Salmo. De David.
 
 <sup>2</sup> Yahvé, no me corrijas con tu cólera,
@@ -258,13 +258,13 @@ cura, Yahvé, mis huesos sin fuerza.
 
 Y tú, Yahvé, ¿hasta cuándo?
 
-<sup>5</sup> Vuélvete, Yahvé, restablece mi vida*,
+<sup>5</sup> Vuélvete, Yahvé, restablece mi vida<span class="note-ref" data-ref="sal-6-5" title="Ver comentario">&#42;</span>,
 
 ponme a salvo por tu misericordia.
 
 <sup>6</sup> Que después de morir nadie te recuerda,
 
-y en el Seol ¿quién te alabará*?
+y en el Seol ¿quién te alabará<span class="note-ref" data-ref="sal-6-6" title="Ver comentario">&#42;</span>?
 
 <sup>7</sup> Estoy extenuado de gemir,
 
@@ -274,7 +274,7 @@ inundo de lágrimas mi cama;
 
 <sup>8</sup> mis ojos se consumen de rabia.
 
-La insolencia define a mis opresores*,
+La insolencia define a mis opresores<span class="note-ref" data-ref="sal-6-8" title="Ver comentario">&#42;</span>,
 
 <sup>9</sup> ¡apartaos de mí, malhechores!
 
@@ -289,8 +289,8 @@ Yahvé acepta mi oración.
 retrocedan de inmediato, cubiertos de vergüenza!
 
 ## <span class="subsection-title">SALMO 7</span>
-## <span class="subsection-title">Oración del justo perseguido*</span>
-<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Lamentación. De David. La que cantó a Yahvé a propósito del benjaminita Cus*.
+## <span class="subsection-title">Oración del justo perseguido<span class="note-ref" data-ref="sal-7" title="Ver comentario">&#42;</span></span>
+<span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Lamentación. De David. La que cantó a Yahvé a propósito del benjaminita Cus<span class="note-ref" data-ref="sal-7-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Yahvé, Dios mío, a ti me acojo,
 
@@ -306,19 +306,19 @@ si hay en mis manos injusticia,
 
 <sup>5</sup> si a mi bienhechor con mal he respondido,
 
-si he perdonado al opresor injusto*,
+si he perdonado al opresor injusto<span class="note-ref" data-ref="sal-7-5" title="Ver comentario">&#42;</span>,
 
 <sup>6</sup> ¡que el enemigo me persiga y me alcance,
 
 que me estrelle vivo contra el sueloPausa.
 
-y esparza mis entrañas* por el polvo!
+y esparza mis entrañas<span class="note-ref" data-ref="sal-7-6" title="Ver comentario">&#42;</span> por el polvo!
 
 <sup>7</sup> Levántate, Señor, lleno de cólera,
 
 álzate contra la ira de mis opresores,
 
-despierta ya, Dios mío*,
+despierta ya, Dios mío<span class="note-ref" data-ref="sal-7-7" title="Ver comentario">&#42;</span>,
 
 tú que el juicio convocas.
 
@@ -330,7 +330,7 @@ y tú desde lo alto la presides.
 
 Júzgame, Señor, según mi justicia,
 
-conforme a mi integridad*.
+conforme a mi integridad<span class="note-ref" data-ref="sal-7-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Que cese la maldad de los malvados,
 
@@ -344,11 +344,11 @@ tú, Dios justo.
 
 salvador de los que viven rectamente.
 
-<sup>12</sup> Dios es juez justo, tardo a la cólera*,
+<sup>12</sup> Dios es juez justo, tardo a la cólera<span class="note-ref" data-ref="sal-7-12" title="Ver comentario">&#42;</span>,
 
 pero un Dios que castiga cada día.
 
-<sup>13</sup> Si no se convierte* el hombre,
+<sup>13</sup> Si no se convierte<span class="note-ref" data-ref="sal-7-13" title="Ver comentario">&#42;</span> el hombre,
 
 afila su espada,
 
@@ -372,21 +372,21 @@ su violencia recaiga en su cabeza.
 
 <sup>18</sup> Doy gracias a Yahvé por su justicia,
 
-tañeré para el nombre del Altísimo*.
+tañeré para el nombre del Altísimo<span class="note-ref" data-ref="sal-7-18" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 8</span>
 ## <span class="subsection-title">Poder del nombre divino</span>
-<span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> Del maestro de coro. Según la... de Gat*. Salmo. De David.
+<span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> Del maestro de coro. Según la... de Gat<span class="note-ref" data-ref="sal-8-1" title="Ver comentario">&#42;</span>. Salmo. De David.
 
 <sup>2</sup> ¡Yahvé, Señor nuestro,
 
-qué glorioso es tu nombre* en toda la tierra!
+qué glorioso es tu nombre<span class="note-ref" data-ref="sal-8-2-a" title="Ver comentario">&#42;</span> en toda la tierra!
 
-Tú que asientas* tu majestad sobre los cielos,
+Tú que asientas<span class="note-ref" data-ref="sal-8-2-b" title="Ver comentario">&#42;</span> tu majestad sobre los cielos,
 
-<sup>3</sup> por boca de chiquillos, de niños de pecho*,
+<sup>3</sup> por boca de chiquillos, de niños de pecho<span class="note-ref" data-ref="sal-8-3-a" title="Ver comentario">&#42;</span>,
 
-cimentas un baluarte* frente a tus adversarios,
+cimentas un baluarte<span class="note-ref" data-ref="sal-8-3-b" title="Ver comentario">&#42;</span> frente a tus adversarios,
 
 para acabar con enemigos y rebeldes.
 
@@ -398,7 +398,7 @@ la luna y las estrellas que pusiste,
 
 el hijo de Adán para que de él te cuides?
 
-<sup>6</sup> Apenas inferior a un dios* lo hiciste,
+<sup>6</sup> Apenas inferior a un dios<span class="note-ref" data-ref="sal-8-6" title="Ver comentario">&#42;</span> lo hiciste,
 
 coronándolo de gloria y esplendor;
 
@@ -419,8 +419,8 @@ que circulan por las sendas de los mares.
 qué glorioso es tu nombre en toda la tierra!
 
 ## <span class="subsection-title">SALMO 9-10</span>
-## <span class="subsection-title">Dios humilla a los impíos y salva a los humildes*</span>
-<span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Del maestro de coro. Para oboes y arpa*. Salmo. De David.
+## <span class="subsection-title">Dios humilla a los impíos y salva a los humildes<span class="note-ref" data-ref="sal-9" title="Ver comentario">&#42;</span></span>
+<span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Del maestro de coro. Para oboes y arpa<span class="note-ref" data-ref="sal-9-1" title="Ver comentario">&#42;</span>. Salmo. De David.
 
 ## Álef.
 
@@ -440,7 +440,7 @@ flaquean, se desvanecen ante ti,
 
 <sup>5</sup> pues defendiste mi causa y mi juicio,
 
-sentado en tu sede como justo juez*.
+sentado en tu sede como justo juez<span class="note-ref" data-ref="sal-9-5" title="Ver comentario">&#42;</span>.
 
 ## Guímel.
 
@@ -454,7 +454,7 @@ asolaste sus ciudades, se apagó su recuerdo.
 
 ## He.
 
-Pero* <sup>8</sup> Yahvé se sienta para siempre,
+Pero<span class="note-ref" data-ref="sal-9-7" title="Ver comentario">&#42;</span> <sup>8</sup> Yahvé se sienta para siempre,
 
 establece para el juicio su trono;
 
@@ -484,7 +484,7 @@ no desoye el grito angustiado de los desdichados.
 
 ## Jet.
 
-<sup>14</sup> Piedad de mí, Yahvé, mira mi aflicción*,
+<sup>14</sup> Piedad de mí, Yahvé, mira mi aflicción<span class="note-ref" data-ref="sal-9-14" title="Ver comentario">&#42;</span>,
 
 tú que me recobras de las puertas de la muerte,
 
@@ -536,13 +536,13 @@ queda preso en la trampa que le ha urdido.
 
 <sup>3</sup> Sí, de su ambición se jacta el malvado,
 
-el codicioso que bendice desprecia a Yahvé*;
+el codicioso que bendice desprecia a Yahvé<span class="note-ref" data-ref="sal-10-3" title="Ver comentario">&#42;</span>;
 
 ## (Nun).
 
 <sup>4</sup> el malvado dice altanero:
 
-«¡No hay Dios!», es todo lo que piensa*.
+«¡No hay Dios!», es todo lo que piensa<span class="note-ref" data-ref="sal-10-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> En toda ocasión triunfan sus empresas,
 
@@ -567,7 +567,7 @@ y asesina al inocente a escondidas.
 
 ## (Ain).
 
-Todo ojos, espía al desvalido*,
+Todo ojos, espía al desvalido<span class="note-ref" data-ref="sal-10-8" title="Ver comentario">&#42;</span>,
 
 <sup>9</sup> acecha escondido como león en su guarida,
 
@@ -577,7 +577,7 @@ atrapa al desdichado atrayéndolo a su red.
 
 ## (Sade).
 
-<sup>10</sup> Espía, se agazapa, se encoge*,
+<sup>10</sup> Espía, se agazapa, se encoge<span class="note-ref" data-ref="sal-10-10" title="Ver comentario">&#42;</span>,
 
 el desvalido cae en su poder;
 
@@ -587,7 +587,7 @@ oculta su rostro, no ha de ver jamás».
 
 ## Qof.
 
-<sup>12</sup> ¡Álzate, Yahvé, extiende tu mano*!
+<sup>12</sup> ¡Álzate, Yahvé, extiende tu mano<span class="note-ref" data-ref="sal-10-12" title="Ver comentario">&#42;</span>!
 
 ¡Nunca te olvides de los desdichados!
 
@@ -603,7 +603,7 @@ las miras y las tomas en tu mano:
 
 el desvalido en ti se abandona,
 
-tú eres el auxilio del huérfano*.
+tú eres el auxilio del huérfano<span class="note-ref" data-ref="sal-10-14" title="Ver comentario">&#42;</span>.
 
 ## Šin.
 
@@ -631,7 +631,7 @@ confortas su corazón, les prestas atención,
 
 En Yahvé me cobijo; ¿cómo, pues, me decís:
 
-«Huye, pájaro, a tu monte*,
+«Huye, pájaro, a tu monte<span class="note-ref" data-ref="sal-11-1" title="Ver comentario">&#42;</span>,
 
 <sup>2</sup> que los malvados tensan su arco,
 
@@ -647,7 +647,7 @@ para disparar en la sombra contra los honrados?
 
 Yahvé en su trono celeste;
 
-sus ojos ven el mundo*,
+sus ojos ven el mundo<span class="note-ref" data-ref="sal-11-4" title="Ver comentario">&#42;</span>,
 
 sus pupilas examinan a los hombres.
 
@@ -655,21 +655,21 @@ sus pupilas examinan a los hombres.
 
 odia al que ama la violencia.
 
-<sup>6</sup> ¡Lluevan sobre el malvado brasas* y azufre,
+<sup>6</sup> ¡Lluevan sobre el malvado brasas<span class="note-ref" data-ref="sal-11-6-a" title="Ver comentario">&#42;</span> y azufre,
 
-y un viento abrasador como porción de su copa*!
+y un viento abrasador como porción de su copa<span class="note-ref" data-ref="sal-11-6-b" title="Ver comentario">&#42;</span>!
 
 <sup>7</sup> Pues Yahvé es justo y ama la justicia,
 
-los rectos contemplarán su rostro*.
+los rectos contemplarán su rostro<span class="note-ref" data-ref="sal-11-7" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 12 (11)</span>
-## <span class="subsection-title">Contra el mundo mentiroso*</span>
+## <span class="subsection-title">Contra el mundo mentiroso<span class="note-ref" data-ref="sal-12" title="Ver comentario">&#42;</span></span>
 <span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Del maestro de coro. En octava. Salmo. De David.
 
 <sup>2</sup> ¡Sálvanos, Yahvé, que escasean los fieles,
 
-que desaparece* la lealtad entre los hombres!
+que desaparece<span class="note-ref" data-ref="sal-12-2" title="Ver comentario">&#42;</span> la lealtad entre los hombres!
 
 <sup>3</sup> Falsedades se dicen entre sí,
 
@@ -691,7 +691,7 @@ a poner a salvo a quien lo ansía.
 
 <sup>7</sup> Las palabras de Yahvé son palabras limpias,
 
-plata pura a ras de tierra*, siete veces purgada.
+plata pura a ras de tierra<span class="note-ref" data-ref="sal-12-7" title="Ver comentario">&#42;</span>, siete veces purgada.
 
 <sup>8</sup> Tú, Yahvé, nos guardarás,
 
@@ -699,7 +699,7 @@ nos librarás de esa gente para siempre;
 
 <sup>9</sup> los malvados que nos rodean se irán,
 
-colmo de vileza* entre los hombres.
+colmo de vileza<span class="note-ref" data-ref="sal-12-9" title="Ver comentario">&#42;</span> entre los hombres.
 
 ## <span class="subsection-title">SALMO 13 (12)</span>
 ## <span class="subsection-title">Clamor confiado</span>
@@ -711,7 +711,7 @@ colmo de vileza* entre los hombres.
 
 <sup>3</sup> ¿Hasta cuándo andaré angustiado,
 
-con el corazón en un puño día y noche*?
+con el corazón en un puño día y noche<span class="note-ref" data-ref="sal-13-3" title="Ver comentario">&#42;</span>?
 
 ¿Hasta cuándo me someterá el enemigo?
 
@@ -729,10 +729,10 @@ en tu salvación goza mi corazón.
 
 ¡A Yahvé cantaré por el bien que me ha hecho,
 
-tañeré en honor de Yahvé, el Altísimo*!
+tañeré en honor de Yahvé, el Altísimo<span class="note-ref" data-ref="sal-13-6" title="Ver comentario">&#42;</span>!
 
 ## <span class="subsection-title">SALMO 14 (13)</span>
-## <span class="subsection-title">El hombre sin Dios*</span>
+## <span class="subsection-title">El hombre sin Dios<span class="note-ref" data-ref="sal-14" title="Ver comentario">&#42;</span></span>
 <span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Del maestro de coro. De David.
 
 Dice el necio en su interior:
@@ -757,15 +757,15 @@ todos a una pervertidos.
 
 No hay quien haga el bien,
 
-ni uno siquiera*.
+ni uno siquiera<span class="note-ref" data-ref="sal-14-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> ¿No aprenderán los malhechores
 
-que devoran a mi pueblo* como pan
+que devoran a mi pueblo<span class="note-ref" data-ref="sal-14-4" title="Ver comentario">&#42;</span> como pan
 
 y no invocan a Yahvé?
 
-<sup>5</sup> Allí* se han puesto a temblar*,
+<sup>5</sup> Allí<span class="note-ref" data-ref="sal-14-5-a" title="Ver comentario">&#42;</span> se han puesto a temblar<span class="note-ref" data-ref="sal-14-5-b" title="Ver comentario">&#42;</span>,
 
 pues Dios está por el justo:
 
@@ -777,13 +777,13 @@ porque Yahvé es su refugio.
 
 Cuando cambie Yahvé la suerte de su pueblo,
 
-Jacob exultará, Israel se alegrará*.
+Jacob exultará, Israel se alegrará<span class="note-ref" data-ref="sal-14-7" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 15 (14)</span>
-## <span class="subsection-title">El huésped de Yahvé*</span>
+## <span class="subsection-title">El huésped de Yahvé<span class="note-ref" data-ref="sal-15" title="Ver comentario">&#42;</span></span>
 <span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Salmo. De David.
 
-Yahvé, ¿quién vivirá en tu tienda*?,
+Yahvé, ¿quién vivirá en tu tienda<span class="note-ref" data-ref="sal-15-1" title="Ver comentario">&#42;</span>?,
 
 ¿quién habitará en tu monte santo?
 
@@ -801,7 +801,7 @@ ni agravia a su vecino;
 
 <sup>4</sup> que mira con desprecio al réprobo
 
-y honra a los que temen a Yahvé*;
+y honra a los que temen a Yahvé<span class="note-ref" data-ref="sal-15-4" title="Ver comentario">&#42;</span>;
 
 que jura en su perjuicio y no retracta;
 
@@ -813,7 +813,7 @@ Quien obra así jamás vacilará.
 
 ## <span class="subsection-title">SALMO 16 (15)</span>
 ## <span class="subsection-title">Yahvé, la parte de mi herencia</span>
-<span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> A media voz*. De David.
+<span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> A media voz<span class="note-ref" data-ref="sal-16-1" title="Ver comentario">&#42;</span>. De David.
 
 Guárdame, oh Dios, que en ti me refugio.
 
@@ -823,9 +823,9 @@ mi bien, nada hay fuera de ti».
 
 <sup>3</sup> Pero ellos dicen a los santos de la tierra:
 
-«¡Magníficos, todo mi gozo en ellos*!».
+«¡Magníficos, todo mi gozo en ellos<span class="note-ref" data-ref="sal-16-3" title="Ver comentario">&#42;</span>!».
 
-<sup>4</sup> Sus ídolos abundan, tras ellos van corriendo*.
+<sup>4</sup> Sus ídolos abundan, tras ellos van corriendo<span class="note-ref" data-ref="sal-16-4" title="Ver comentario">&#42;</span>.
 
 Pero no les haré libaciones de sangre,
 
@@ -837,11 +837,11 @@ tú aseguras mi suerte:
 
 <sup>6</sup> me ha tocado un lote precioso,
 
-me encanta mi heredad*.
+me encanta mi heredad<span class="note-ref" data-ref="sal-16-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Bendigo a Yahvé, que me aconseja;
 
-aun de noche me instruye la conciencia*;
+aun de noche me instruye la conciencia<span class="note-ref" data-ref="sal-16-7" title="Ver comentario">&#42;</span>;
 
 <sup>8</sup> tengo siempre presente a Yahvé,
 
@@ -849,13 +849,13 @@ con él a mi derecha no vacilo.
 
 <sup>9</sup> Por eso se me alegra el corazón,
 
-sienten regocijo mis entrañas*,
+sienten regocijo mis entrañas<span class="note-ref" data-ref="sal-16-9" title="Ver comentario">&#42;</span>,
 
 todo mi cuerpo descansa tranquilo;
 
 <sup>10</sup> pues no me abandonarás al Seol,
 
-no dejarás a tu amigo ver la fosa*.
+no dejarás a tu amigo ver la fosa<span class="note-ref" data-ref="sal-16-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Me enseñarás el camino de la vida,
 
@@ -913,7 +913,7 @@ enemigos que me cercan con saña.
 
 hablan llenos de arrogancia,
 
-<sup>11</sup> avanzan contra mí*, me cercan,
+<sup>11</sup> avanzan contra mí<span class="note-ref" data-ref="sal-17-11" title="Ver comentario">&#42;</span>, me cercan,
 
 me miran fijo para derribarme.
 
@@ -927,9 +927,9 @@ líbrame con tu espada del malvado,
 
 <sup>14</sup> de los mortales, con tu mano, Yahvé,
 
-de los mortales cuyo lote es este mundo*!
+de los mortales cuyo lote es este mundo<span class="note-ref" data-ref="sal-17-14-a" title="Ver comentario">&#42;</span>!
 
-¡Llénales el vientre de tus reservas*,
+¡Llénales el vientre de tus reservas<span class="note-ref" data-ref="sal-17-14-b" title="Ver comentario">&#42;</span>,
 
 que se sacien sus hijos
 
@@ -937,23 +937,23 @@ y dejen las sobras a sus pequeños!
 
 <sup>15</sup> Pero yo, rehabilitado, veré tu rostro,
 
-al despertar te contemplaré hasta que quiera*.
+al despertar te contemplaré hasta que quiera<span class="note-ref" data-ref="sal-17-15" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 18 (17)</span>
-## <span class="subsection-title">Te Deum real*</span>
+## <span class="subsection-title">Te Deum real<span class="note-ref" data-ref="sal-18" title="Ver comentario">&#42;</span></span>
 <span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Del maestro de coro. Del siervo de Yahvé, David, que dirigió a Yahvé las palabras de este cántico el día en que Yahvé lo libró de todos sus enemigos y de las manos de Saúl. <sup>2</sup> Dijo:
 
 Te quiero, Yahvé, mi fortaleza
 
-(mi salvador, que me salva de la violencia*).
+(mi salvador, que me salva de la violencia<span class="note-ref" data-ref="sal-18-2" title="Ver comentario">&#42;</span>).
 
-<sup>3</sup> Yahvé, mi roca* y mi baluarte,
+<sup>3</sup> Yahvé, mi roca<span class="note-ref" data-ref="sal-18-3-a" title="Ver comentario">&#42;</span> y mi baluarte,
 
 mi libertador y mi Dios;
 
 la roca en que me amparo,
 
-mi escudo y mi fuerza* salvadora,
+mi escudo y mi fuerza<span class="note-ref" data-ref="sal-18-3-b" title="Ver comentario">&#42;</span> salvadora,
 
 mi ciudadela y mi refugio.
 
@@ -961,7 +961,7 @@ mi ciudadela y mi refugio.
 
 y me veo libre de mis enemigos.
 
-<sup>5</sup> Las olas* de la muerte me envolvían,
+<sup>5</sup> Las olas<span class="note-ref" data-ref="sal-18-5" title="Ver comentario">&#42;</span> de la muerte me envolvían,
 
 me espantaban los torrentes destructores,
 
@@ -975,9 +975,9 @@ pedí socorro a mi Dios;
 
 desde su templo escuchó mi voz,
 
-resonó mi socorro en sus oídos*.
+resonó mi socorro en sus oídos<span class="note-ref" data-ref="sal-18-7" title="Ver comentario">&#42;</span>.
 
-<sup>8</sup> La tierra* rugió, retembló,
+<sup>8</sup> La tierra<span class="note-ref" data-ref="sal-18-8" title="Ver comentario">&#42;</span> rugió, retembló,
 
 temblaron las bases de los montes
 
@@ -993,7 +993,7 @@ de su boca un fuego abrasador
 
 con espeso nublado a sus pies;
 
-<sup>11</sup> volaba a lomos de un querubín*,
+<sup>11</sup> volaba a lomos de un querubín<span class="note-ref" data-ref="sal-18-11" title="Ver comentario">&#42;</span>,
 
 sostenido por las alas del viento.
 
@@ -1001,19 +1001,19 @@ sostenido por las alas del viento.
 
 de aguas oscuras y espesos nubarrones;
 
-<sup>13</sup> el brillo de su presencia despedía*
+<sup>13</sup> el brillo de su presencia despedía<span class="note-ref" data-ref="sal-18-13" title="Ver comentario">&#42;</span>
 
 granizo y ascuas de fuego.
 
 <sup>14</sup> Tronó Yahvé desde el cielo,
 
-lanzó el Altísimo su voz*;
+lanzó el Altísimo su voz<span class="note-ref" data-ref="sal-18-14" title="Ver comentario">&#42;</span>;
 
 <sup>15</sup> disparó sus saetas y los dispersó,
 
 la cantidad de rayos los desbarató.
 
-<sup>16</sup> El fondo del mar* quedó a la vista,
+<sup>16</sup> El fondo del mar<span class="note-ref" data-ref="sal-18-16" title="Ver comentario">&#42;</span> quedó a la vista,
 
 los cimientos del orbe aparecieron,
 
@@ -1069,11 +1069,11 @@ y sagaz con el ladino;
 
 y abates los ojos altaneros.
 
-<sup>29</sup> Tú, Yahvé, eres mi lámpara*,
+<sup>29</sup> Tú, Yahvé, eres mi lámpara<span class="note-ref" data-ref="sal-18-29" title="Ver comentario">&#42;</span>,
 
 mi Dios que alumbra mis tinieblas;
 
-<sup>30</sup> con tu ayuda yo fuerzo el cerco*,
+<sup>30</sup> con tu ayuda yo fuerzo el cerco<span class="note-ref" data-ref="sal-18-30" title="Ver comentario">&#42;</span>,
 
 con mi Dios asalto la muralla.
 
@@ -1103,7 +1103,7 @@ y mis brazos para tensar el arco.
 
 (tu diestra me sostiene),
 
-multiplicas tus cuidados conmigo*,
+multiplicas tus cuidados conmigo<span class="note-ref" data-ref="sal-18-36" title="Ver comentario">&#42;</span>,
 
 <sup>37</sup> al andar ensanchas mis pasos,
 
@@ -1133,7 +1133,7 @@ a Yahvé, y no les responde.
 
 los piso como barro de las calles.
 
-<sup>44</sup> Me libras de los pleitos de mi pueblo*,
+<sup>44</sup> Me libras de los pleitos de mi pueblo<span class="note-ref" data-ref="sal-18-44" title="Ver comentario">&#42;</span>,
 
 me pones al frente de naciones;
 
@@ -1169,10 +1169,10 @@ en tu honor, Yahvé, cantaré.
 
 y muestra su amor a su ungido,
 
-a David y su linaje para siempre*.
+a David y su linaje para siempre<span class="note-ref" data-ref="sal-18-51" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 19 (18)</span>
-## <span class="subsection-title">Yahvé, sol de justicia*</span>
+## <span class="subsection-title">Yahvé, sol de justicia<span class="note-ref" data-ref="sal-19" title="Ver comentario">&#42;</span></span>
 <span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> Del maestro de coro. Salmo. De David.
 
 <sup>2</sup> Los cielos cuentan la gloria de Dios,
@@ -1185,7 +1185,7 @@ la noche a la noche le pasa la noticia.
 
 <sup>4</sup> Sin hablar y sin palabras,
 
-y sin voz que pueda oírse*,
+y sin voz que pueda oírse<span class="note-ref" data-ref="sal-19-4" title="Ver comentario">&#42;</span>,
 
 <sup>5</sup> por toda la tierra resuena su proclama,
 
@@ -1195,7 +1195,7 @@ En lo alto, para el sol, plantó una tienda,
 
 <sup>6</sup> y él, como esposo que sale de su alcoba,
 
-se recrea, como atleta, corriendo su carrera*.
+se recrea, como atleta, corriendo su carrera<span class="note-ref" data-ref="sal-19-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Tiene su salida en un extremo del cielo,
 
@@ -1243,7 +1243,7 @@ guardarlos trae gran ganancia.
 
 De las faltas ocultas límpiame.
 
-<sup>14</sup> Guarda a tu siervo también del orgullo*,
+<sup>14</sup> Guarda a tu siervo también del orgullo<span class="note-ref" data-ref="sal-19-14" title="Ver comentario">&#42;</span>,
 
 no sea que me domine;
 
@@ -1255,12 +1255,12 @@ libre de delito grave.
 
 el susurro de mi corazón,
 
-sin tregua* ante ti, Yahvé,
+sin tregua<span class="note-ref" data-ref="sal-19-15-a" title="Ver comentario">&#42;</span> ante ti, Yahvé,
 
-Roca mía, mi redentor*.
+Roca mía, mi redentor<span class="note-ref" data-ref="sal-19-15-b" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 20 (19)</span>
-## <span class="subsection-title">Oración por el rey*</span>
+## <span class="subsection-title">Oración por el rey<span class="note-ref" data-ref="sal-20" title="Ver comentario">&#42;</span></span>
 <span id="chapter-20" class="chapter-marker" data-chapter="20">20</span><sup>1</sup> Del maestro de coro. Salmo. De David.
 
 <sup>2</sup> ¡Yahvé te responda el día de la angustia,
@@ -1287,7 +1287,7 @@ celebraremos alegres el nombre de nuestro Dios!
 
 <sup>7</sup> Reconozco ahora que Yahvé
 
-dará la salvación a su ungido*;
+dará la salvación a su ungido<span class="note-ref" data-ref="sal-20-7" title="Ver comentario">&#42;</span>;
 
 le responderá desde su santo cielo
 
@@ -1303,10 +1303,10 @@ nosotros seguimos en pie.
 
 <sup>10</sup> ¡Oh Yahvé, salva al rey,
 
-respóndenos* cuando te llamemos!
+respóndenos<span class="note-ref" data-ref="sal-20-10" title="Ver comentario">&#42;</span> cuando te llamemos!
 
 ## <span class="subsection-title">SALMO 21 (20)</span>
-## <span class="subsection-title">Liturgia de coronación*</span>
+## <span class="subsection-title">Liturgia de coronación<span class="note-ref" data-ref="sal-21" title="Ver comentario">&#42;</span></span>
 <span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> Del maestro de coro. Salmo. De David.
 
 <sup>2</sup> Yahvé, el rey celebra tu fuerza,
@@ -1343,7 +1343,7 @@ que tu diestra alcance a los que te odian.
 
 <sup>10</sup> Conviértelos en horno encendido,
 
-el día que aparezca tu rostro*.
+el día que aparezca tu rostro<span class="note-ref" data-ref="sal-21-10" title="Ver comentario">&#42;</span>.
 
 Yahvé los tragará en su cólera,
 
@@ -1366,8 +1366,8 @@ asestando tu arco contra ellos.
 cantaremos, celebraremos tu poder!
 
 ## <span class="subsection-title">SALMO 22 (21)</span>
-## <span class="subsection-title">Sufrimiento y esperanza del justo*</span>
-<span id="chapter-22" class="chapter-marker" data-chapter="22">22</span><sup>1</sup> Del maestro de coro. Sobre «la cierva de la aurora»*. Salmo. De David.
+## <span class="subsection-title">Sufrimiento y esperanza del justo<span class="note-ref" data-ref="sal-22" title="Ver comentario">&#42;</span></span>
+<span id="chapter-22" class="chapter-marker" data-chapter="22">22</span><sup>1</sup> Del maestro de coro. Sobre «la cierva de la aurora»<span class="note-ref" data-ref="sal-22-1" title="Ver comentario">&#42;</span>. Salmo. De David.
 
 <sup>2</sup> ¡Dios mío, Dios mío! ¿Por qué me has abandonado?
 
@@ -1379,7 +1379,7 @@ también de noche, sin ahorrar palabras.
 
 <sup>4</sup> ¡Pero tú eres el Santo, entronizado
 
-en medio de la alabanza de Israel*!
+en medio de la alabanza de Israel<span class="note-ref" data-ref="sal-22-4" title="Ver comentario">&#42;</span>!
 
 <sup>5</sup> En ti confiaron nuestros padres,
 
@@ -1429,7 +1429,7 @@ mi corazón, como cera,
 
 se funde en mis entrañas.
 
-<sup>16</sup> Mi paladar* está seco como teja
+<sup>16</sup> Mi paladar<span class="note-ref" data-ref="sal-22-16" title="Ver comentario">&#42;</span> está seco como teja
 
 y mi lengua pegada a mi garganta:
 
@@ -1439,7 +1439,7 @@ tú me sumes en el polvo de la muerte.
 
 una banda de malvados me acorrala;
 
-mis manos y mis pies vacilan*,
+mis manos y mis pies vacilan<span class="note-ref" data-ref="sal-22-17" title="Ver comentario">&#42;</span>,
 
 <sup>18</sup> puedo contar mis huesos.
 
@@ -1455,11 +1455,11 @@ corre en mi ayuda, fuerza mía,
 
 <sup>21</sup> libra mi vida de la espada,
 
-mi persona* de las garras de los perros;
+mi persona<span class="note-ref" data-ref="sal-22-21" title="Ver comentario">&#42;</span> de las garras de los perros;
 
 <sup>22</sup> sálvame de las fauces del león,
 
-mi pobre ser* de los cuernos del búfalo.
+mi pobre ser<span class="note-ref" data-ref="sal-22-22" title="Ver comentario">&#42;</span> de los cuernos del búfalo.
 
 <sup>23</sup> Contaré tu fama a mis hermanos,
 
@@ -1483,7 +1483,7 @@ le escucha cuando pide auxilio».
 
 cumpliré mis votos ante sus fieles.
 
-<sup>27</sup> Los pobres comerán, hartos quedarán*,
+<sup>27</sup> Los pobres comerán, hartos quedarán<span class="note-ref" data-ref="sal-22-27" title="Ver comentario">&#42;</span>,
 
 los que buscan a Yahvé lo alabarán:
 
@@ -1493,7 +1493,7 @@ los que buscan a Yahvé lo alabarán:
 
 todos los confines de la tierra;
 
-se postrarán en su presencia*
+se postrarán en su presencia<span class="note-ref" data-ref="sal-22-28" title="Ver comentario">&#42;</span>
 
 todas las familias de los pueblos.
 
@@ -1501,22 +1501,22 @@ todas las familias de los pueblos.
 
 es quien gobierna a los pueblos.
 
-<sup>30</sup> Ante él* se postrarán los que duermen en la tierra,
+<sup>30</sup> Ante él<span class="note-ref" data-ref="sal-22-30-a" title="Ver comentario">&#42;</span> se postrarán los que duermen en la tierra,
 
-ante él se humillarán los que bajan al polvo*.
+ante él se humillarán los que bajan al polvo<span class="note-ref" data-ref="sal-22-30-b" title="Ver comentario">&#42;</span>.
 
 Y para aquel que ya no viva
 
-<sup>31</sup> su descendencia le servirá*:
+<sup>31</sup> su descendencia le servirá<span class="note-ref" data-ref="sal-22-31" title="Ver comentario">&#42;</span>:
 
-hablará del Señor a la edad 32 venidera*,
+hablará del Señor a la edad 32 venidera<span class="note-ref" data-ref="sal-22-32" title="Ver comentario">&#42;</span>,
 
 contará su justicia al pueblo por nacer:
 
 «Así actuó el Señor».
 
 ## <span class="subsection-title">SALMO 23 (22)</span>
-## <span class="subsection-title">El Buen Pastor*</span>
+## <span class="subsection-title">El Buen Pastor<span class="note-ref" data-ref="sal-23" title="Ver comentario">&#42;</span></span>
 <span id="chapter-23" class="chapter-marker" data-chapter="23">23</span><sup>1</sup> Salmo. De David.
 
 Yahvé es mi pastor, nada me falta.
@@ -1535,7 +1535,7 @@ haciendo honor a su nombre.
 
 ningún mal temería,
 
-pues tú vienes conmigo*;
+pues tú vienes conmigo<span class="note-ref" data-ref="sal-23-4" title="Ver comentario">&#42;</span>;
 
 tu vara y tu cayado me sosiegan.
 
@@ -1543,7 +1543,7 @@ tu vara y tu cayado me sosiegan.
 
 a la vista de mis enemigos;
 
-perfumas mi cabeza*,
+perfumas mi cabeza<span class="note-ref" data-ref="sal-23-5" title="Ver comentario">&#42;</span>,
 
 mi copa rebosa.
 
@@ -1551,12 +1551,12 @@ mi copa rebosa.
 
 todos los días de mi vida,
 
-y habitaré* en la casa de Yahvé
+y habitaré<span class="note-ref" data-ref="sal-23-6" title="Ver comentario">&#42;</span> en la casa de Yahvé
 
 un sinfín de días.
 
 ## <span class="subsection-title">SALMO 24 (23)</span>
-## <span class="subsection-title">Liturgia de entrada en el santuario*</span>
+## <span class="subsection-title">Liturgia de entrada en el santuario<span class="note-ref" data-ref="sal-24" title="Ver comentario">&#42;</span></span>
 <span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> Salmo. De David.
 
 De Yahvé es la tierra y cuanto la llena,
@@ -1565,7 +1565,7 @@ el orbe y cuantos lo habitan,
 
 <sup>2</sup> pues él lo fundó sobre los mares,
 
-lo asentó sobre los ríos*.
+lo asentó sobre los ríos<span class="note-ref" data-ref="sal-24-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> ¿Quién subirá al monte de Yahvé?,
 
@@ -1583,7 +1583,7 @@ el perdón de Dios, su Salvador.
 
 <sup>6</sup> Ésta es la generación que lo busca,Pausa.
 
-la que acude a tu presencia, Dios de Jacob*.
+la que acude a tu presencia, Dios de Jacob<span class="note-ref" data-ref="sal-24-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> ¡Puertas, alzad los dinteles,
 
@@ -1657,7 +1657,7 @@ y de tu amor, que son eternos.
 
 ## Jet.
 
-<sup>7</sup> De mis faltas juveniles no te acuerdes*,
+<sup>7</sup> De mis faltas juveniles no te acuerdes<span class="note-ref" data-ref="sal-25-7" title="Ver comentario">&#42;</span>,
 
 acuérdate de mí según tu amor.
 
@@ -1671,7 +1671,7 @@ muestra a los pecadores el camino,
 
 <sup>9</sup> conduce rectamente a los humildes
 
-y a los pobres* enseña su sendero.
+y a los pobres<span class="note-ref" data-ref="sal-25-9" title="Ver comentario">&#42;</span> enseña su sendero.
 
 ## Kaf.
 
@@ -1695,11 +1695,11 @@ y perdona mi culpa, que es grande.
 
 <sup>13</sup> vivirá colmado de dicha,
 
-su estirpe poseerá el país*.
+su estirpe poseerá el país<span class="note-ref" data-ref="sal-25-13" title="Ver comentario">&#42;</span>.
 
 ## Sámek.
 
-<sup>14</sup> Yahvé se confía* a sus adeptos*,
+<sup>14</sup> Yahvé se confía<span class="note-ref" data-ref="sal-25-14-a" title="Ver comentario">&#42;</span> a sus adeptos<span class="note-ref" data-ref="sal-25-14-b" title="Ver comentario">&#42;</span>,
 
 los va instruyendo con su alianza.
 
@@ -1743,14 +1743,14 @@ no me avergüence por confiar en ti.
 
 <sup>21</sup> Integridad y rectitud me ampararán,
 
-porque espero en ti, Yahvé*.
+porque espero en ti, Yahvé<span class="note-ref" data-ref="sal-25-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> Libera, Dios, a Israel
 
-de todas sus angustias*.
+de todas sus angustias<span class="note-ref" data-ref="sal-25-22" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 26 (25)</span>
-## <span class="subsection-title">Plegaria del inocente*</span>
+## <span class="subsection-title">Plegaria del inocente<span class="note-ref" data-ref="sal-26" title="Ver comentario">&#42;</span></span>
 <span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> De David.
 
 Hazme justicia, Yahvé,
@@ -1783,7 +1783,7 @@ doy vueltas a tu altar, Yahvé,
 
 pregonando todas tus maravillas.
 
-<sup>8</sup> Amo, Yahvé, la belleza* de tu Casa,
+<sup>8</sup> Amo, Yahvé, la belleza<span class="note-ref" data-ref="sal-26-8" title="Ver comentario">&#42;</span> de tu Casa,
 
 el lugar donde se asienta tu gloria.
 
@@ -1847,7 +1847,7 @@ contemplando su templo.
 
 el día de la desgracia;
 
-me ocultará en lo oculto de su tienda*,
+me ocultará en lo oculto de su tienda<span class="note-ref" data-ref="sal-27-5" title="Ver comentario">&#42;</span>,
 
 me encumbrará en una roca.
 
@@ -1867,7 +1867,7 @@ Cantaré, tocaré para Yahvé.
 
 <sup>8</sup> Digo para mis adentros:
 
-«Busca su rostro*».
+«Busca su rostro<span class="note-ref" data-ref="sal-27-8" title="Ver comentario">&#42;</span>».
 
 Sí, Yahvé, tu rostro busco:
 
@@ -1897,7 +1897,7 @@ pues se alzan contra mí testigos falsos,
 
 testigos violentos además.
 
-<sup>13</sup> Creo que gozaré*
+<sup>13</sup> Creo que gozaré<span class="note-ref" data-ref="sal-27-13" title="Ver comentario">&#42;</span>
 
 de la bondad de Yahvé
 
@@ -1963,23 +1963,23 @@ le doy gracias con mi canto.
 
 <sup>8</sup> Yahvé es la fuerza de su pueblo,
 
-un baluarte que salva a su ungido*.
+un baluarte que salva a su ungido<span class="note-ref" data-ref="sal-28-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Salva a tu pueblo, bendice a tu heredad,
 
 pastoréalos y guíalos por siempre.
 
 ## <span class="subsection-title">SALMO 29 (28)</span>
-## <span class="subsection-title">Himno al Señor de la tormenta*</span>
+## <span class="subsection-title">Himno al Señor de la tormenta<span class="note-ref" data-ref="sal-29" title="Ver comentario">&#42;</span></span>
 <span id="chapter-29" class="chapter-marker" data-chapter="29">29</span><sup>1</sup> Salmo. De David.
 
-¡Rendid a Yahvé, hijos de Dios*,
+¡Rendid a Yahvé, hijos de Dios<span class="note-ref" data-ref="sal-29-1" title="Ver comentario">&#42;</span>,
 
 rendid a Yahvé gloria y poder!
 
 <sup>2</sup> Rendid a Yahvé la gloria de su nombre,
 
-postraos ante Yahvé en el atrio sagrado*.
+postraos ante Yahvé en el atrio sagrado<span class="note-ref" data-ref="sal-29-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> La voz de Yahvé sobre las aguas,
 
@@ -1997,21 +1997,21 @@ desgaja Yahvé los cedros del Líbano,
 
 <sup>6</sup> hace brincar como novillo al Líbano,
 
-al Sarión* como cría de búfalo.
+al Sarión<span class="note-ref" data-ref="sal-29-6" title="Ver comentario">&#42;</span> como cría de búfalo.
 
-<sup>7</sup> La voz de Yahvé afila llamaradas*.
+<sup>7</sup> La voz de Yahvé afila llamaradas<span class="note-ref" data-ref="sal-29-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> La voz de Yahvé estremece la estepa,
 
 estremece Yahvé el desierto de Cades.
 
-<sup>9</sup> La voz de Yahvé retuerce las encinas*,
+<sup>9</sup> La voz de Yahvé retuerce las encinas<span class="note-ref" data-ref="sal-29-9-a" title="Ver comentario">&#42;</span>,
 
 deja desnudas las selvas.
 
-Todo en su Templo* grita: ¡Gloria!
+Todo en su Templo<span class="note-ref" data-ref="sal-29-9-b" title="Ver comentario">&#42;</span> grita: ¡Gloria!
 
-<sup>10</sup> Yahvé se sentó sobre el diluvio*,
+<sup>10</sup> Yahvé se sentó sobre el diluvio<span class="note-ref" data-ref="sal-29-10" title="Ver comentario">&#42;</span>,
 
 Yahvé se sienta como rey eterno.
 
@@ -2041,7 +2041,7 @@ recordad su santidad con alabanzas.
 
 su favor toda una vida;
 
-por la tarde visita de lágrimas*,
+por la tarde visita de lágrimas<span class="note-ref" data-ref="sal-30-6" title="Ver comentario">&#42;</span>,
 
 por la mañana gritos de júbilo.
 
@@ -2051,7 +2051,7 @@ por la mañana gritos de júbilo.
 
 <sup>8</sup> Tu favor, Yahvé, me afianzaba
 
-más firme que sólidas montañas*;
+más firme que sólidas montañas<span class="note-ref" data-ref="sal-30-8" title="Ver comentario">&#42;</span>;
 
 pero luego escondías tu rostro
 
@@ -2059,9 +2059,9 @@ y quedaba todo conturbado.
 
 <sup>9</sup> A ti alzo mi voz, Yahvé,
 
-a mi Dios* piedad imploro:
+a mi Dios<span class="note-ref" data-ref="sal-30-9" title="Ver comentario">&#42;</span> piedad imploro:
 
-<sup>10</sup> ¿Qué ganas con mi sangre*, con que baje a la fosa?
+<sup>10</sup> ¿Qué ganas con mi sangre<span class="note-ref" data-ref="sal-30-10" title="Ver comentario">&#42;</span>, con que baje a la fosa?
 
 ¿Puede el polvo alabarte, anunciar tu verdad?
 
@@ -2073,19 +2073,19 @@ a mi Dios* piedad imploro:
 
 me has quitado el sayal, me has vestido de fiesta.
 
-<sup>13</sup> Por eso mi corazón* te cantará sin parar;
+<sup>13</sup> Por eso mi corazón<span class="note-ref" data-ref="sal-30-13" title="Ver comentario">&#42;</span> te cantará sin parar;
 
 Yahvé, Dios mío, te alabaré por siempre.
 
 ## <span class="subsection-title">SALMO 31 (30)</span>
-## <span class="subsection-title">Oración en la prueba*</span>
+## <span class="subsection-title">Oración en la prueba<span class="note-ref" data-ref="sal-31" title="Ver comentario">&#42;</span></span>
 <span id="chapter-31" class="chapter-marker" data-chapter="31">31</span><sup>1</sup> Del maestro de coro. Salmo. De David.
 
 <sup>2</sup> En ti, Yahvé, me cobijo,
 
 ¡nunca quede defraudado!
 
-¡Líbrame* conforme a tu justicia,
+¡Líbrame<span class="note-ref" data-ref="sal-31-2" title="Ver comentario">&#42;</span> conforme a tu justicia,
 
 <sup>3</sup> tiende a mí tu oído, date prisa!
 
@@ -2105,7 +2105,7 @@ pues tú eres mi refugio;
 
 y me libras, Yahvé, Dios fiel.
 
-<sup>7</sup> Detestas* a los que veneran ídolos,
+<sup>7</sup> Detestas<span class="note-ref" data-ref="sal-31-7" title="Ver comentario">&#42;</span> a los que veneran ídolos,
 
 pero yo confío en Yahvé.
 
@@ -2131,7 +2131,7 @@ mi garganta y mis entrañas;
 
 y en suspiros mis años;
 
-sucumbe mi vigor a la miseria*,
+sucumbe mi vigor a la miseria<span class="note-ref" data-ref="sal-31-11" title="Ver comentario">&#42;</span>,
 
 mis huesos pierden fuerza.
 
@@ -2139,7 +2139,7 @@ mis huesos pierden fuerza.
 
 me he convertido en la burla;
 
-asco* doy a mis vecinos,
+asco<span class="note-ref" data-ref="sal-31-12" title="Ver comentario">&#42;</span> doy a mis vecinos,
 
 espanto a mis familiares.
 
@@ -2185,9 +2185,9 @@ que hablan insolentes contra el justo,
 
 llenos de orgullo y desprecio.
 
-<sup>20</sup> ¡Qué grande es tu bondad, Yahvé*!
+<sup>20</sup> ¡Qué grande es tu bondad, Yahvé<span class="note-ref" data-ref="sal-31-20-a" title="Ver comentario">&#42;</span>!
 
-La reservas para tus adeptos*,
+La reservas para tus adeptos<span class="note-ref" data-ref="sal-31-20-b" title="Ver comentario">&#42;</span>,
 
 se la das a los que a ti se acogen
 
@@ -2199,7 +2199,7 @@ lejos de las intrigas de los hombres;
 
 bajo techo los pones a cubierto
 
-de las querellas de las lenguas*.
+de las querellas de las lenguas<span class="note-ref" data-ref="sal-31-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> ¡Bendito Yahvé que me ha brindado
 
@@ -2207,7 +2207,7 @@ maravillas de amor (en plaza fuerte)!
 
 <sup>23</sup> ¡Y yo que decía alarmado:
 
-«Estoy dejado* de tus ojos»!
+«Estoy dejado<span class="note-ref" data-ref="sal-31-23" title="Ver comentario">&#42;</span> de tus ojos»!
 
 Pero escuchabas la voz de mi plegaria
 
@@ -2226,12 +2226,12 @@ al que obra con orgullo.
 vosotros, los que esperáis en Yahvé!
 
 ## <span class="subsection-title">SALMO 32 (31)</span>
-## <span class="subsection-title">El reconocimiento del pecado obtiene el perdón*</span>
+## <span class="subsection-title">El reconocimiento del pecado obtiene el perdón<span class="note-ref" data-ref="sal-32" title="Ver comentario">&#42;</span></span>
 <span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> De David. Poema.
 
 ¡Dichoso al que perdonan su culpa
 
-y queda cubierto su pecado*!
+y queda cubierto su pecado<span class="note-ref" data-ref="sal-32-1" title="Ver comentario">&#42;</span>!
 
 <sup>2</sup> Dichoso el hombre a quien Yahvé
 
@@ -2239,7 +2239,7 @@ no le imputa delito,
 
 y no hay fraude en su interior.
 
-<sup>3</sup> Guardaba silencio y se consumía mi cuerpo*,
+<sup>3</sup> Guardaba silencio y se consumía mi cuerpo<span class="note-ref" data-ref="sal-32-3" title="Ver comentario">&#42;</span>,
 
 cansado de gemir todo el día,
 
@@ -2247,7 +2247,7 @@ cansado de gemir todo el día,
 
 tu mano sobre mí;
 
-mi corazón cambiaba como un campo*Pausa.
+mi corazón cambiaba como un campo<span class="note-ref" data-ref="sal-32-4" title="Ver comentario">&#42;</span>Pausa.
 
 que sufre los ardores del estío.
 
@@ -2261,11 +2261,11 @@ a Yahvé mis rebeldías».
 
 Y tú absolviste mi culpa,Pausa.
 
-perdonaste* mi pecado.
+perdonaste<span class="note-ref" data-ref="sal-32-5" title="Ver comentario">&#42;</span> mi pecado.
 
 <sup>6</sup> Por eso, quien te ama te suplica
 
-llegada la hora de la angustia*.
+llegada la hora de la angustia<span class="note-ref" data-ref="sal-32-6" title="Ver comentario">&#42;</span>.
 
 Y aunque aguas caudalosas se desborden,
 
@@ -2275,7 +2275,7 @@ jamás le alcanzarán.
 
 me guardas de la angustia,Pausa.
 
-me rodeas para salvarme*.
+me rodeas para salvarme<span class="note-ref" data-ref="sal-32-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> «Voy a instruirte, a mostrarte el camino a seguir;
 
@@ -2283,7 +2283,7 @@ sin quitarte los ojos de encima, seré tu consejero».
 
 <sup>9</sup> No seas lo mismo que caballo o mulo sin sentido,
 
-rienda y freno hacen falta para domar su brío*.
+rienda y freno hacen falta para domar su brío<span class="note-ref" data-ref="sal-32-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Copiosas son las penas del malvado,
 
@@ -2305,7 +2305,7 @@ tocad con el arpa de diez cuerdas;
 
 <sup>3</sup> cantadle un cántico nuevo,
 
-acompañad la música con aclamaciones*!
+acompañad la música con aclamaciones<span class="note-ref" data-ref="sal-33-3" title="Ver comentario">&#42;</span>!
 
 <sup>4</sup> Pues recta es la palabra de Yahvé,
 
@@ -2319,7 +2319,7 @@ del amor de Yahvé está llena la tierra.
 
 por el aliento de su boca todos sus ejércitos.
 
-<sup>7</sup> Él recoge, como un dique*, las aguas del mar,
+<sup>7</sup> Él recoge, como un dique<span class="note-ref" data-ref="sal-33-7" title="Ver comentario">&#42;</span>, las aguas del mar,
 
 mete en depósitos los océanos.
 
@@ -2363,7 +2363,7 @@ ni el guerrero escapa por su enorme fuerza.
 
 ni con todo su vigor puede salvar.
 
-<sup>18</sup> Los ojos de Yahvé sobre sus adeptos*,
+<sup>18</sup> Los ojos de Yahvé sobre sus adeptos<span class="note-ref" data-ref="sal-33-18" title="Ver comentario">&#42;</span>,
 
 sobre los que esperan en su amor,
 
@@ -2384,7 +2384,7 @@ y en su santo nombre confiamos.
 tal como lo esperamos de ti.
 
 ## <span class="subsection-title">SALMO 34 (33)</span>
-## <span class="subsection-title">Loa de la justicia divina*</span>
+## <span class="subsection-title">Loa de la justicia divina<span class="note-ref" data-ref="sal-34" title="Ver comentario">&#42;</span></span>
 <span id="chapter-34" class="chapter-marker" data-chapter="34">34</span><sup>1</sup> De David. Cuando, fingiéndose demente ante Abimélec, fue despachado por él y se mar­­­­chó.
 
 ## Alef.
@@ -2427,7 +2427,7 @@ y lo salva de todas sus angustias.
 
 <sup>8</sup> El ángel de Yahvé pone su tienda
 
-en torno a sus adeptos* y los libra.
+en torno a sus adeptos<span class="note-ref" data-ref="sal-34-8" title="Ver comentario">&#42;</span> y los libra.
 
 ## Tet.
 
@@ -2443,7 +2443,7 @@ que a quienes le temen nada les falta.
 
 ## Kaf.
 
-<sup>11</sup> Los ricos* empobrecen y pasan hambre,
+<sup>11</sup> Los ricos<span class="note-ref" data-ref="sal-34-11" title="Ver comentario">&#42;</span> empobrecen y pasan hambre,
 
 los que buscan a Yahvé de ningún bien carecen.
 
@@ -2518,7 +2518,7 @@ los que odian al justo lo pagarán.
 nada habrán de pagar los que a él se acogen.
 
 ## <span class="subsection-title">SALMO 35 (34)</span>
-## <span class="subsection-title">Súplica de un justo perseguido*</span>
+## <span class="subsection-title">Súplica de un justo perseguido<span class="note-ref" data-ref="sal-35" title="Ver comentario">&#42;</span></span>
 <span id="chapter-35" class="chapter-marker" data-chapter="35">35</span><sup>1</sup> De David.
 
 Ataca, Yahvé, a los que me atacan,
@@ -2529,7 +2529,7 @@ combate a los que me combaten;
 
 y disponte a socorrerme:
 
-<sup>3</sup> blande la lanza y la pica*
+<sup>3</sup> blande la lanza y la pica<span class="note-ref" data-ref="sal-35-3" title="Ver comentario">&#42;</span>
 
 contra mis perseguidores.
 
@@ -2553,13 +2553,13 @@ perseguidos por el ángel de Yahvé.
 
 <sup>7</sup> Me tendían redes sin motivo,
 
-cavaban una fosa para mí*.
+cavaban una fosa para mí<span class="note-ref" data-ref="sal-35-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> ¡Que les sorprenda una ruina imprevista,
 
 que se enreden en la red que tendieron
 
-y se hundan en la fosa* que excavaron!
+y se hundan en la fosa<span class="note-ref" data-ref="sal-35-8" title="Ver comentario">&#42;</span> que excavaron!
 
 <sup>9</sup> Y yo me alegraré en Yahvé,
 
@@ -2571,7 +2571,7 @@ Yahvé, ¿quién como tú,
 
 para librar al débil del fuerte,
 
-al pobre de su expoliador*?
+al pobre de su expoliador<span class="note-ref" data-ref="sal-35-10" title="Ver comentario">&#42;</span>?
 
 <sup>11</sup> Se levantaban testigos violentos,
 
@@ -2599,17 +2599,17 @@ sombrío me encorvaba.
 
 todos se unieron contra mí;
 
-extranjeros* que no conozco
+extranjeros<span class="note-ref" data-ref="sal-35-15" title="Ver comentario">&#42;</span> que no conozco
 
 sin parar me desgarraban;
 
-<sup>16</sup> si caía me rodeaban*
+<sup>16</sup> si caía me rodeaban<span class="note-ref" data-ref="sal-35-16" title="Ver comentario">&#42;</span>
 
 rechinando sus dientes contra mí.
 
 <sup>17</sup> ¿Hasta cuándo, Señor, estarás mirando?
 
-Libra mi vida de sus garras*,
+Libra mi vida de sus garras<span class="note-ref" data-ref="sal-35-17" title="Ver comentario">&#42;</span>,
 
 mi existencia de esos leones.
 
@@ -2635,7 +2635,7 @@ se inventan puras patrañas;
 
 diciendo: «Ja, ja,
 
-lo han visto nuestros ojos*».
+lo han visto nuestros ojos<span class="note-ref" data-ref="sal-35-21" title="Ver comentario">&#42;</span>».
 
 <sup>22</sup> Tú lo has visto, Yahvé, no te calles,
 
@@ -2671,19 +2671,19 @@ y digan siempre sin cesar:
 
 «Yahvé sea ensalzado,
 
-que en la paz* de su siervo se complace».
+que en la paz<span class="note-ref" data-ref="sal-35-27" title="Ver comentario">&#42;</span> de su siervo se complace».
 
 <sup>28</sup> Mi lengua musitará tu justicia,
 
 todo el día tu alabanza.
 
 ## <span class="subsection-title">SALMO 36 (35)</span>
-## <span class="subsection-title">Maldad del pecador y bondad de Dios*</span>
+## <span class="subsection-title">Maldad del pecador y bondad de Dios<span class="note-ref" data-ref="sal-36" title="Ver comentario">&#42;</span></span>
 <span id="chapter-36" class="chapter-marker" data-chapter="36">36</span><sup>1</sup> Del maestro de coro. Del siervo de Yahvé. De David.
 
 <sup>2</sup> El pecado es un oráculo para el impío
 
-que le habla en el fondo de su corazón*;
+que le habla en el fondo de su corazón<span class="note-ref" data-ref="sal-36-2" title="Ver comentario">&#42;</span>;
 
 no tiene temor de Dios
 
@@ -2691,7 +2691,7 @@ ni aun estando en su presencia.
 
 <sup>3</sup> Se halaga tanto a sí mismo
 
-que no descubre y detesta su culpa*;
+que no descubre y detesta su culpa<span class="note-ref" data-ref="sal-36-3" title="Ver comentario">&#42;</span>;
 
 <sup>4</sup> sólo dice maldades y engaños,
 
@@ -2707,11 +2707,11 @@ incapaz de rechazar el mal.
 
 tu fidelidad alcanza las nubes;
 
-<sup>7</sup> tu justicia, como las altas montañas*,
+<sup>7</sup> tu justicia, como las altas montañas<span class="note-ref" data-ref="sal-36-7-a" title="Ver comentario">&#42;</span>,
 
 tus sentencias, profundas como el océano.
 
-Tú proteges a hombres y animales*,
+Tú proteges a hombres y animales<span class="note-ref" data-ref="sal-36-7-b" title="Ver comentario">&#42;</span>,
 
 <sup>8</sup> ¡qué admirable es tu amor, oh Dios!
 
@@ -2719,13 +2719,13 @@ Por eso los seres humanos
 
 se cobijan a la sombra de tus alas;
 
-<sup>9</sup> se sacian con las provisiones de tu casa*,
+<sup>9</sup> se sacian con las provisiones de tu casa<span class="note-ref" data-ref="sal-36-9" title="Ver comentario">&#42;</span>,
 
 en el torrente de tus delicias los abrevas;
 
-<sup>10</sup> pues en ti está la fuente de la vida*,
+<sup>10</sup> pues en ti está la fuente de la vida<span class="note-ref" data-ref="sal-36-10-a" title="Ver comentario">&#42;</span>,
 
-y en tu luz vemos la luz*.
+y en tu luz vemos la luz<span class="note-ref" data-ref="sal-36-10-b" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> No dejes de amar a los que te conocen,
 
@@ -2740,7 +2740,7 @@ ni me avente la mano del impío!
 abatidos, no pueden levantarse.
 
 ## <span class="subsection-title">SALMO 37 (36)</span>
-## <span class="subsection-title">Destinos del justo y del impío*</span>
+## <span class="subsection-title">Destinos del justo y del impío<span class="note-ref" data-ref="sal-37" title="Ver comentario">&#42;</span></span>
 <span id="chapter-37" class="chapter-marker" data-chapter="37">37</span><sup>1</sup> De David.
 
 ## Alef.
@@ -2757,7 +2757,7 @@ como la hierba tierna se marchitan.
 
 <sup>3</sup> Confía en Yahvé y obra el bien,
 
-vive en la tierra* y practica la lealtad,
+vive en la tierra<span class="note-ref" data-ref="sal-37-3" title="Ver comentario">&#42;</span> y practica la lealtad,
 
 <sup>4</sup> disfruta pensando en Yahvé
 
@@ -2827,7 +2827,7 @@ y sus arcos quedarán destrozados.
 
 <sup>16</sup> Más vale lo poco del honrado
 
-que la enorme riqueza del malvado*;
+que la enorme riqueza del malvado<span class="note-ref" data-ref="sal-37-16" title="Ver comentario">&#42;</span>;
 
 <sup>17</sup> se quebrarán los brazos del malvado,
 
@@ -2839,7 +2839,7 @@ pero Yahvé sostiene a los honrados.
 
 su heredad durará para siempre;
 
-<sup>19</sup> en tiempo de escasez no se avergonzarán*,
+<sup>19</sup> en tiempo de escasez no se avergonzarán<span class="note-ref" data-ref="sal-37-19" title="Ver comentario">&#42;</span>,
 
 en días de penuria gozarán de hartura.
 
@@ -2861,7 +2861,7 @@ pero el honrado se compadece y da;
 
 <sup>22</sup> los que él bendice poseerán la tierra,
 
-los que maldice* serán exterminados.
+los que maldice<span class="note-ref" data-ref="sal-37-22" title="Ver comentario">&#42;</span> serán exterminados.
 
 ## Mem.
 
@@ -2897,7 +2897,7 @@ y no abandona a sus amigos.
 
 ## Ain.
 
-Los criminales* son exterminados,
+Los criminales<span class="note-ref" data-ref="sal-37-28" title="Ver comentario">&#42;</span> son exterminados,
 
 la descendencia del malvado cercenada;
 
@@ -2937,9 +2937,9 @@ contemplarás el exterminio del malvado.
 
 <sup>35</sup> He visto al malvado arrogante
 
-empinarse como cedro del Líbano*;
+empinarse como cedro del Líbano<span class="note-ref" data-ref="sal-37-35" title="Ver comentario">&#42;</span>;
 
-<sup>36</sup> pasé* luego y ya no estaba,
+<sup>36</sup> pasé<span class="note-ref" data-ref="sal-37-36" title="Ver comentario">&#42;</span> luego y ya no estaba,
 
 lo busqué y no lo encontré.
 
@@ -2966,7 +2966,7 @@ y el futuro del malvado frustrado.
 lo salva porque se acoge a él.
 
 ## <span class="subsection-title">SALMO 38 (37)</span>
-## <span class="subsection-title">Súplica en la desgracia*</span>
+## <span class="subsection-title">Súplica en la desgracia<span class="note-ref" data-ref="sal-38" title="Ver comentario">&#42;</span></span>
 <span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Salmo. De David. En memoria.
 
 <sup>2</sup> Yahvé, no me castigues enfadado,
@@ -3043,13 +3043,13 @@ tengo siempre presente mi pena.
 
 me apena mi pecado.
 
-<sup>20</sup> Aumentan mis enemigos sin razón*,
+<sup>20</sup> Aumentan mis enemigos sin razón<span class="note-ref" data-ref="sal-38-20" title="Ver comentario">&#42;</span>,
 
 muchos son los que me odian sin motivo,
 
 <sup>21</sup> los que mal por bien me devuelven
 
-y me acusan cuando busco el bien*.
+y me acusan cuando busco el bien<span class="note-ref" data-ref="sal-38-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> ¡No me abandones, Yahvé,
 
@@ -3060,7 +3060,7 @@ no te me alejes, Dios mío!
 oh Señor, mi salvación!
 
 ## <span class="subsection-title">SALMO 39 (38)</span>
-## <span class="subsection-title">Pequeñez del hombre ante Dios*</span>
+## <span class="subsection-title">Pequeñez del hombre ante Dios<span class="note-ref" data-ref="sal-39" title="Ver comentario">&#42;</span></span>
 <span id="chapter-39" class="chapter-marker" data-chapter="39">39</span><sup>1</sup> Del maestro de coro. De Yedutún. Salmo. De David.
 
 <sup>2</sup> Me decía: «Cuidaré mi conducta,
@@ -3073,7 +3073,7 @@ mientras tenga al malvado ante mí».
 
 <sup>3</sup> Yo me callé, tranquilo y en silencio,
 
-mas mi dolor aumentó al ver su dicha*.
+mas mi dolor aumentó al ver su dicha<span class="note-ref" data-ref="sal-39-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Mi mente se fue acalorando,
 
@@ -3095,7 +3095,7 @@ sólo un soplo el hombre que se yergue,
 
 <sup>7</sup> mera sombra el humano que pasa,
 
-sólo un soplo las riquezas* que amontona,
+sólo un soplo las riquezas<span class="note-ref" data-ref="sal-39-7" title="Ver comentario">&#42;</span> que amontona,
 
 sin saber quién las recogerá».
 
@@ -3131,12 +3131,12 @@ Pues soy un forastero junto a ti,
 
 un huésped como todos mis padres.
 
-<sup>14</sup> ¡Retira tu mirada, dame respiro*
+<sup>14</sup> ¡Retira tu mirada, dame respiro<span class="note-ref" data-ref="sal-39-14" title="Ver comentario">&#42;</span>
 
 antes de que me vaya y ya no exista!
 
 ## <span class="subsection-title">SALMO 40 (39)</span>
-## <span class="subsection-title">Acción de gracias. Petición de auxilio*</span>
+## <span class="subsection-title">Acción de gracias. Petición de auxilio<span class="note-ref" data-ref="sal-40" title="Ver comentario">&#42;</span></span>
 <span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> Del maestro de coro. De David. Salmo.
 
 <sup>2</sup> Yo esperaba impaciente a Yahvé:
@@ -3167,7 +3167,7 @@ que pone en Yahvé su confianza,
 
 y no se va con los rebeldes
 
-que andan tras los ídolos*.
+que andan tras los ídolos<span class="note-ref" data-ref="sal-40-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> ¡Cuántas maravillas has hecho,
 
@@ -3183,7 +3183,7 @@ mas su número es incalculable.
 
 <sup>7</sup> No has querido sacrificio ni oblación,
 
-pero me has abierto el oído*;
+pero me has abierto el oído<span class="note-ref" data-ref="sal-40-7" title="Ver comentario">&#42;</span>;
 
 no pedías holocaustos ni víctimas,
 
@@ -3191,7 +3191,7 @@ no pedías holocaustos ni víctimas,
 
 Está escrito en el rollo del libro
 
-<sup>9</sup> que debo hacer tu voluntad*.
+<sup>9</sup> que debo hacer tu voluntad<span class="note-ref" data-ref="sal-40-9" title="Ver comentario">&#42;</span>.
 
 Y eso deseo, Dios mío,
 
@@ -3269,7 +3269,7 @@ Tú eres mi auxilio y libertador,
 ## <span class="subsection-title">Oración de un enfermo abandonado</span>
 <span id="chapter-41" class="chapter-marker" data-chapter="41">41</span><sup>1</sup> Del maestro de coro. Salmo. De David.
 
-<sup>2</sup> ¡Dichoso el que cuida del débil y el pobre*!
+<sup>2</sup> ¡Dichoso el que cuida del débil y el pobre<span class="note-ref" data-ref="sal-41-2" title="Ver comentario">&#42;</span>!
 
 El día de la desgracia Yahvé lo liberará.
 
@@ -3281,7 +3281,7 @@ no lo abandonará a la saña de sus enemigos;
 
 <sup>4</sup> Yahvé lo sostendrá en su lecho de dolor,
 
-cambiará la postración en que está sumido*.
+cambiará la postración en que está sumido<span class="note-ref" data-ref="sal-41-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Yo dije: «Ten piedad de mí, Yahvé,
 
@@ -3297,15 +3297,15 @@ va urdiendo falsedades y sale afuera a comentarlas.
 
 <sup>8</sup> Los que me odian se juntan a difamarme,
 
-me achacan la desgracia que me aqueja*:
+me achacan la desgracia que me aqueja<span class="note-ref" data-ref="sal-41-8" title="Ver comentario">&#42;</span>:
 
-<sup>9</sup> «Un mal diabólico* se abate sobre él,
+<sup>9</sup> «Un mal diabólico<span class="note-ref" data-ref="sal-41-9" title="Ver comentario">&#42;</span> se abate sobre él,
 
 ahora que se ha acostado, no se levantará».
 
 <sup>10</sup> Hasta mi amigo íntimo en quien yo confiaba,
 
-mi compañero de mesa, me ha traicionado*.
+mi compañero de mesa, me ha traicionado<span class="note-ref" data-ref="sal-41-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Pero tú, Yahvé, ten piedad de mí,
 
@@ -3323,13 +3323,13 @@ me admitirás por siempre en tu presencia.
 
 desde siempre y hasta siempre!
 
-¡Amén! ¡Amén*!
+¡Amén! ¡Amén<span class="note-ref" data-ref="sal-41-14" title="Ver comentario">&#42;</span>!
 
 ## <span class="subsection-title">SALMO 42-43 (41-42)</span>
-## <span class="subsection-title">Lamento del levita desterrado*</span>
+## <span class="subsection-title">Lamento del levita desterrado<span class="note-ref" data-ref="sal-42" title="Ver comentario">&#42;</span></span>
 <span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Del maestro de coro. Poema. De los hijos de Coré.
 
-<sup>2</sup> Como anhela la cierva* los arroyos,
+<sup>2</sup> Como anhela la cierva<span class="note-ref" data-ref="sal-42-2" title="Ver comentario">&#42;</span> los arroyos,
 
 así te anhela mi ser, Dios mío.
 
@@ -3339,7 +3339,7 @@ del Dios vivo;
 
 ¿cuándo podré ir a ver
 
-el rostro de Dios*?
+el rostro de Dios<span class="note-ref" data-ref="sal-42-3" title="Ver comentario">&#42;</span>?
 
 <sup>4</sup> Son mis lágrimas mi pan
 
@@ -3351,7 +3351,7 @@ cuando me dicen todo el día:
 
 <sup>5</sup> El recuerdo me llena de nostalgia:
 
-cuando entraba en la Tienda admirable*
+cuando entraba en la Tienda admirable<span class="note-ref" data-ref="sal-42-5" title="Ver comentario">&#42;</span>
 
 y llegaba hasta la Casa de Dios,
 
@@ -3365,7 +3365,7 @@ y me siento tan azorado?
 
 Espero en Dios, aún lo alabaré:
 
-¡Salvación de mi rostro*, <sup>7</sup> Dios mío!
+¡Salvación de mi rostro<span class="note-ref" data-ref="sal-42-6" title="Ver comentario">&#42;</span>, <sup>7</sup> Dios mío!
 
 Me siento desfallecer,
 
@@ -3373,7 +3373,7 @@ por eso te recuerdo,
 
 desde el Jordán y el Hermón
 
-a ti, montaña humilde*.
+a ti, montaña humilde<span class="note-ref" data-ref="sal-42-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Un abismo llama a otro abismo
 
@@ -3443,7 +3443,7 @@ hasta entrar en tu Morada.
 
 <sup>4</sup> Y llegaré al altar de Dios,
 
-al Dios de mi alegría*.
+al Dios de mi alegría<span class="note-ref" data-ref="sal-43-4" title="Ver comentario">&#42;</span>.
 
 Te alabaré gozoso con la cítara,
 
@@ -3458,7 +3458,7 @@ Espero en Dios, aún lo alabaré:
 ¡Salvación de mi rostro, Dios mío!
 
 ## <span class="subsection-title">SALMO 44 (43)</span>
-## <span class="subsection-title">Elegía nacional*</span>
+## <span class="subsection-title">Elegía nacional<span class="note-ref" data-ref="sal-44" title="Ver comentario">&#42;</span></span>
 <span id="chapter-44" class="chapter-marker" data-chapter="44">44</span><sup>1</sup> Del maestro de coro. De los hijos de Coré. Poema.
 
 <sup>2</sup> Oh Dios, nuestros oídos lo oyeron,
@@ -3483,7 +3483,7 @@ y la luz de tu rostro, pues los amabas.
 
 <sup>5</sup> Tú solo, Rey mío, Dios mío,
 
-decidías* las victorias de Jacob;
+decidías<span class="note-ref" data-ref="sal-44-5" title="Ver comentario">&#42;</span> las victorias de Jacob;
 
 <sup>6</sup> por ti hundíamos a nuestros adversarios,
 
@@ -3523,7 +3523,7 @@ burla y escarnio de los circundantes;
 
 <sup>15</sup> las naciones nos sacan motes,
 
-los pueblos menean la cabeza*.
+los pueblos menean la cabeza<span class="note-ref" data-ref="sal-44-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Tengo siempre delante mi ignominia,
 
@@ -3541,13 +3541,13 @@ sin haber traicionado tu alianza.
 
 ni habían dejado nuestros pasos tu sendero,
 
-<sup>20</sup> pero nos aplastaste en guarida de chacales*
+<sup>20</sup> pero nos aplastaste en guarida de chacales<span class="note-ref" data-ref="sal-44-20" title="Ver comentario">&#42;</span>
 
 nos cubriste con la sombra de la muerte.
 
 <sup>21</sup> Si hubiésemos olvidado el nombre de nuestro Dios
 
-o alzado nuestras manos* a un dios extranjero,
+o alzado nuestras manos<span class="note-ref" data-ref="sal-44-21" title="Ver comentario">&#42;</span> a un dios extranjero,
 
 <sup>22</sup> ¿no se habría dado cuenta Dios,
 
@@ -3555,7 +3555,7 @@ que conoce los secretos del corazón?
 
 <sup>23</sup> Pero por ti nos matan cada día,
 
-nos tratan como a ovejas de matadero*.
+nos tratan como a ovejas de matadero<span class="note-ref" data-ref="sal-44-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> ¡Despierta ya! ¿Por qué duermes, Señor?
 
@@ -3574,8 +3574,8 @@ pegado a la tierra nuestro vientre.
 rescátanos por tu amor!
 
 ## <span class="subsection-title">SALMO 45 (44)</span>
-## <span class="subsection-title">Epitalamio real*</span>
-<span id="chapter-45" class="chapter-marker" data-chapter="45">45</span><sup>1</sup> Del maestro de coro. Según la melodía: «Lirios*...». De los hijos de Coré. Poema. Canto de amor.
+## <span class="subsection-title">Epitalamio real<span class="note-ref" data-ref="sal-45" title="Ver comentario">&#42;</span></span>
+<span id="chapter-45" class="chapter-marker" data-chapter="45">45</span><sup>1</sup> Del maestro de coro. Según la melodía: «Lirios<span class="note-ref" data-ref="sal-45-1" title="Ver comentario">&#42;</span>...». De los hijos de Coré. Poema. Canto de amor.
 
 <sup>2</sup> Un bello tema bulle en mi corazón;
 
@@ -3601,7 +3601,7 @@ que tu diestra te enseñe a hacer proezas.
 
 pierden el coraje los enemigos del rey.
 
-<sup>7</sup> Tu trono es eterno, como el de Dios*;
+<sup>7</sup> Tu trono es eterno, como el de Dios<span class="note-ref" data-ref="sal-45-7" title="Ver comentario">&#42;</span>;
 
 un cetro de equidad es tu cetro real.
 
@@ -3615,13 +3615,13 @@ con óleo de fiesta más que a tus compañeros.
 
 desde salones de marfil arpas te recrean.
 
-<sup>10</sup> Entre tus predilectas hay hijas de reyes*,
+<sup>10</sup> Entre tus predilectas hay hijas de reyes<span class="note-ref" data-ref="sal-45-10" title="Ver comentario">&#42;</span>,
 
 la reina a tu derecha, con oro de Ofir.
 
 <sup>11</sup> Escucha, hija, mira, presta oído,
 
-olvida tu pueblo y la casa paterna*,
+olvida tu pueblo y la casa paterna<span class="note-ref" data-ref="sal-45-11" title="Ver comentario">&#42;</span>,
 
 <sup>12</sup> que prendado está el rey de tu belleza.
 
@@ -3652,7 +3652,7 @@ príncipes los harás sobre todo el país.
 que los pueblos te alaben por los siglos de los siglos!
 
 ## <span class="subsection-title">SALMO <sup>46</sup> (45)</span>
-## <span class="subsection-title">Dios con nosotros*</span>
+## <span class="subsection-title">Dios con nosotros<span class="note-ref" data-ref="sal-46" title="Ver comentario">&#42;</span></span>
 <span id="chapter-46" class="chapter-marker" data-chapter="46">46</span><sup>1</sup> Del maestro de coro. De los hijos de Coré. Para oboes. Cántico.
 
 <sup>2</sup> Dios es nuestro refugio y fortaleza,
@@ -3665,21 +3665,21 @@ si los montes vacilan en el fondo del mar,
 
 <sup>4</sup> aunque sus aguas bramen y se agiten,
 
-y su ímpetu sacuda las montañas*.
+y su ímpetu sacuda las montañas<span class="note-ref" data-ref="sal-46-4-a" title="Ver comentario">&#42;</span>.
 
 (¡Con nosotros Yahvé Sebaot,Pausa.
 
-nuestro baluarte el Dios de Jacob*!)
+nuestro baluarte el Dios de Jacob<span class="note-ref" data-ref="sal-46-4-b" title="Ver comentario">&#42;</span>!)
 
 <sup>5</sup> ¡Un río!
 
 Sus brazos recrean la ciudad de Dios,
 
-santifican la morada del Altísimo*.
+santifican la morada del Altísimo<span class="note-ref" data-ref="sal-46-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Dios está en medio de ella, no vacila,
 
-Dios la socorre al despuntar el alba*.
+Dios la socorre al despuntar el alba<span class="note-ref" data-ref="sal-46-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Braman las naciones, tiemblan los reinos,
 
@@ -3708,7 +3708,7 @@ excelso sobre los pueblos, sobre la tierra excelso».
 nuestro baluarte el Dios de Jacob!
 
 ## <span class="subsection-title">SALMO 47 (46)</span>
-## <span class="subsection-title">Yahvé, rey de Israel y del mundo*</span>
+## <span class="subsection-title">Yahvé, rey de Israel y del mundo<span class="note-ref" data-ref="sal-47" title="Ver comentario">&#42;</span></span>
 <span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> Del maestro de coro. De los hijos de Coré. Salmo.
 
 <sup>2</sup> ¡Pueblos todos, tocad palmas,
@@ -3731,7 +3731,7 @@ orgullo de Jacob, su amado.
 
 Yahvé a toque de trompeta:
 
-<sup>7</sup> ¡tocad para nuestro* Dios, tocad,
+<sup>7</sup> ¡tocad para nuestro<span class="note-ref" data-ref="sal-47-7" title="Ver comentario">&#42;</span> Dios, tocad,
 
 tocad para nuestro Rey, tocad!
 
@@ -3745,14 +3745,14 @@ Dios, sentado en su trono sagrado.
 
 <sup>10</sup> Príncipes paganos se reúnen
 
-con el pueblo del Dios de Abrahán*.
+con el pueblo del Dios de Abrahán<span class="note-ref" data-ref="sal-47-10" title="Ver comentario">&#42;</span>.
 
 De Dios son los gobernantes de la tierra,
 
 de él, inmensamente excelso.
 
 ## <span class="subsection-title">SALMO 48 (47)</span>
-## <span class="subsection-title">Sión, monte de Dios*</span>
+## <span class="subsection-title">Sión, monte de Dios<span class="note-ref" data-ref="sal-48" title="Ver comentario">&#42;</span></span>
 <span id="chapter-48" class="chapter-marker" data-chapter="48">48</span><sup>1</sup> Cántico. Salmo. De los hijos de Coré.
 
 <sup>2</sup> ¡Grande es Yahvé y muy digno de alabanza!
@@ -3765,7 +3765,7 @@ está su monte santo,
 
 alegría de toda la tierra.
 
-El monte Sión, confín del Norte*,
+El monte Sión, confín del Norte<span class="note-ref" data-ref="sal-48-3" title="Ver comentario">&#42;</span>,
 
 la ciudad del Gran Rey:
 
@@ -3787,7 +3787,7 @@ espasmos como de parturienta,
 
 <sup>8</sup> como el viento del este que destroza
 
-los navíos de Tarsis*.
+los navíos de Tarsis<span class="note-ref" data-ref="sal-48-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Lo que habíamos oído lo hemos visto
 
@@ -3809,7 +3809,7 @@ Tu diestra rebosa justicia,
 
 <sup>12</sup> el monte Sión se regocija,
 
-exultan las ciudades de Judá*
+exultan las ciudades de Judá<span class="note-ref" data-ref="sal-48-12" title="Ver comentario">&#42;</span>
 
 a causa de tus juicios.
 
@@ -3817,7 +3817,7 @@ a causa de tus juicios.
 
 contad sus torres;
 
-<sup>14</sup> prestad atención a sus murallas*,
+<sup>14</sup> prestad atención a sus murallas<span class="note-ref" data-ref="sal-48-14" title="Ver comentario">&#42;</span>,
 
 visitad sus palacios;
 
@@ -3827,17 +3827,17 @@ para decir a la próxima generación:
 
 nuestro Dios por los siglos,
 
-nuestro guía para siempre*.
+nuestro guía para siempre<span class="note-ref" data-ref="sal-48-15" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 49 (48)</span>
-## <span class="subsection-title">Vanidad de las riquezas*</span>
+## <span class="subsection-title">Vanidad de las riquezas<span class="note-ref" data-ref="sal-49" title="Ver comentario">&#42;</span></span>
 <span id="chapter-49" class="chapter-marker" data-chapter="49">49</span><sup>1</sup> Del maestro de coro. De los hijos de Coré. Salmo.
 
 <sup>2</sup> ¡Oíd esto, pueblos todos,
 
 escuchad, habitantes del mundo,
 
-<sup>3</sup> lo mismo plebeyos que notables*,
+<sup>3</sup> lo mismo plebeyos que notables<span class="note-ref" data-ref="sal-49-3" title="Ver comentario">&#42;</span>,
 
 ricos y pobres a la vez!
 
@@ -3851,7 +3851,7 @@ expondré mi enigma con la cítara.
 
 <sup>6</sup> ¿Por qué he de temer los malos tiempos,
 
-cuando me cercan maliciosos los que me hostigan*,
+cuando me cercan maliciosos los que me hostigan<span class="note-ref" data-ref="sal-49-6" title="Ver comentario">&#42;</span>,
 
 <sup>7</sup> los que ponen su confianza en su fortuna
 
@@ -3875,33 +3875,33 @@ lo mismo que perecen necios y estúpidos,
 
 y acabar dejando a otros sus riquezas.
 
-<sup>12</sup> Sus tumbas* son sus casas eternas,
+<sup>12</sup> Sus tumbas<span class="note-ref" data-ref="sal-49-12" title="Ver comentario">&#42;</span> son sus casas eternas,
 
 sus moradas de edad en edad,
 
 ¡y habían dado su nombre a países!
 
-<sup>13</sup> El hombre opulento no entiende*,
+<sup>13</sup> El hombre opulento no entiende<span class="note-ref" data-ref="sal-49-13" title="Ver comentario">&#42;</span>,
 
 a las bestias mudas se parece.
 
 <sup>14</sup> Así andan ellos, seguros de sí mismos,Pausa.
 
-aprueban, satisfechos, su conducta*.
+aprueban, satisfechos, su conducta<span class="note-ref" data-ref="sal-49-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Como ovejas son llevados al Seol,
 
-los pastorea la Muerte*,
+los pastorea la Muerte<span class="note-ref" data-ref="sal-49-15-a" title="Ver comentario">&#42;</span>,
 
 van derechos a la tumba.
 
 Su imagen se desvanece,
 
-el Seol es su mansión*.
+el Seol es su mansión<span class="note-ref" data-ref="sal-49-15-b" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Pero Dios rescatará mi vida,Pausa.
 
-me cobrará de las garras del Seol*.
+me cobrará de las garras del Seol<span class="note-ref" data-ref="sal-49-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> No temas si alguien se enriquece,
 
@@ -3909,7 +3909,7 @@ cuando crece el boato de su casa.
 
 <sup>18</sup> Que, al morir, nada ha de llevarse,
 
-no bajará su boato con él*.
+no bajará su boato con él<span class="note-ref" data-ref="sal-49-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Aunque en vida se daba parabienes
 
@@ -3924,7 +3924,7 @@ que no volverán a ver la luz.
 a las bestias mudas se parece.
 
 ## <span class="subsection-title">SALMO 50 (49)</span>
-## <span class="subsection-title">El culto espiritual*</span>
+## <span class="subsection-title">El culto espiritual<span class="note-ref" data-ref="sal-50" title="Ver comentario">&#42;</span></span>
 <span id="chapter-50" class="chapter-marker" data-chapter="50">50</span><sup>1</sup> Salmo. De Asaf.
 
 Habla Yahvé, Dios de los dioses:
@@ -3969,7 +3969,7 @@ ni machos cabríos de tus apriscos,
 
 las bestias en los montes a millares;
 
-<sup>11</sup> conozco las aves de los cielos*,
+<sup>11</sup> conozco las aves de los cielos<span class="note-ref" data-ref="sal-50-11" title="Ver comentario">&#42;</span>,
 
 mías son las alimañas del campo.
 
@@ -3989,7 +3989,7 @@ cumple todos tus votos al Altísimo:
 
 te libraré y tú me darás gloria».
 
-<sup>16</sup> Pero al malvado Dios le dice*:
+<sup>16</sup> Pero al malvado Dios le dice<span class="note-ref" data-ref="sal-50-16" title="Ver comentario">&#42;</span>:
 
 «¿A qué viene recitar mis preceptos
 
@@ -4023,10 +4023,10 @@ no sea que os destroce y no haya quien os salve.
 
 <sup>23</sup> Me honra quien sacrifica dándome gracias,
 
-al que es recto* le haré ver la salvación de Dios».
+al que es recto<span class="note-ref" data-ref="sal-50-23" title="Ver comentario">&#42;</span> le haré ver la salvación de Dios».
 
 ## <span class="subsection-title">SALMO 51 (50)</span>
-## <span class="subsection-title">Miserere*</span>
+## <span class="subsection-title">Miserere<span class="note-ref" data-ref="sal-51" title="Ver comentario">&#42;</span></span>
 <span id="chapter-51" class="chapter-marker" data-chapter="51">51</span><sup>1</sup> Del maestro de coro. Salmo. De David. <sup>2</sup> Cuando el profeta Natán lo visitó después de haberse unido aquél a Betsabé.
 
 <sup>3</sup> Piedad de mí, oh Dios, por tu bondad,
@@ -4047,17 +4047,17 @@ lo malo a tus ojos cometí.
 
 Por que seas justo cuando hablas
 
-e irreprochable cuando juzgas*.
+e irreprochable cuando juzgas<span class="note-ref" data-ref="sal-51-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Mira que nací culpable,
 
-  pecador me concibió mi madre*.
+  pecador me concibió mi madre<span class="note-ref" data-ref="sal-51-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Y tú amas la verdad en lo íntimo del ser,
 
-en mi interior me inculcas sabiduría*.
+en mi interior me inculcas sabiduría<span class="note-ref" data-ref="sal-51-8" title="Ver comentario">&#42;</span>.
 
-<sup>9</sup> Rocíame con hisopo* hasta quedar limpio,
+<sup>9</sup> Rocíame con hisopo<span class="note-ref" data-ref="sal-51-9" title="Ver comentario">&#42;</span> hasta quedar limpio,
 
 lávame hasta blanquear más que la nieve.
 
@@ -4069,13 +4069,13 @@ se alegren los huesos que tú machacaste.
 
 y borra todas mis culpas.
 
-<sup>12</sup> Crea* en mí, oh Dios, un corazón puro,
+<sup>12</sup> Crea<span class="note-ref" data-ref="sal-51-12" title="Ver comentario">&#42;</span> en mí, oh Dios, un corazón puro,
 
 renueva en mi interior un espíritu firme;
 
 <sup>13</sup> no me rechaces lejos de tu rostro,
 
-no retires de mí tu santo espíritu*.
+no retires de mí tu santo espíritu<span class="note-ref" data-ref="sal-51-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Devuélveme el gozo de tu salvación,
 
@@ -4085,7 +4085,7 @@ afiánzame con espíritu generoso;
 
 y los pecadores volverán a ti.
 
-<sup>16</sup> Líbrame de la sangre*, oh Dios,
+<sup>16</sup> Líbrame de la sangre<span class="note-ref" data-ref="sal-51-16" title="Ver comentario">&#42;</span>, oh Dios,
 
 Dios salvador mío,
 
@@ -4105,11 +4105,11 @@ un corazón contrito y humillado, oh Dios, no lo desprecias.
 
 <sup>20</sup> ¡Sé benévolo y favorece a Sión,
 
-reconstruye los muros de Jerusalén*!
+reconstruye los muros de Jerusalén<span class="note-ref" data-ref="sal-51-20" title="Ver comentario">&#42;</span>!
 
 <sup>21</sup> Entonces te agradarán los sacrificios legítimos
 
-–holocausto y oblación entera*–,
+–holocausto y oblación entera<span class="note-ref" data-ref="sal-51-21" title="Ver comentario">&#42;</span>–,
 
 entonces se ofrecerán novillos en tu altar.
 
@@ -4119,7 +4119,7 @@ entonces se ofrecerán novillos en tu altar.
 
 <sup>3</sup> ¿Por qué te glorías del mal, valiente?
 
-¡Dios es fiel todo el día*!
+¡Dios es fiel todo el día<span class="note-ref" data-ref="sal-52-3" title="Ver comentario">&#42;</span>!
 
 <sup>4</sup> Tu lengua, igual que navaja afilada,
 
@@ -4170,7 +4170,7 @@ esperaré en ti, porque eres bueno
 con todos los que te aman.
 
 ## <span class="subsection-title">SALMO 53 (52)</span>
-## <span class="subsection-title">El hombre sin Dios*</span>
+## <span class="subsection-title">El hombre sin Dios<span class="note-ref" data-ref="sal-53" title="Ver comentario">&#42;</span></span>
 <span id="chapter-53" class="chapter-marker" data-chapter="53">53</span><sup>1</sup> Del maestro de coro. Para la enfermedad. Poema. De David.
 
 <sup>2</sup> Dice el necio en su interior:
@@ -4205,9 +4205,9 @@ y no invocan a Dios?
 
 <sup>6</sup> Allí se pusieron a temblar
 
-sin razón para temblar*.
+sin razón para temblar<span class="note-ref" data-ref="sal-53-6-a" title="Ver comentario">&#42;</span>.
 
-Pues Dios dispersa los huesos del sitiador*,
+Pues Dios dispersa los huesos del sitiador<span class="note-ref" data-ref="sal-53-6-b" title="Ver comentario">&#42;</span>,
 
 son ultrajados porque Dios los rechaza.
 
@@ -4221,7 +4221,7 @@ exultará Jacob, se alegrará Israel!
 ## <span class="subsection-title">Clamor al Dios justiciero</span>
 <span id="chapter-54" class="chapter-marker" data-chapter="54">54</span><sup>1</sup> Del maestro de coro. Para instrumentos de cuerda. Poema. De David. <sup>2</sup> Cuando los zifitas vinieron a decir a Saúl: «¿No está escondido David entre nosotros?».
 
-<sup>3</sup> ¡Sálvame, oh Dios, por tu nombre*,
+<sup>3</sup> ¡Sálvame, oh Dios, por tu nombre<span class="note-ref" data-ref="sal-54-3" title="Ver comentario">&#42;</span>,
 
 hazme justicia con tu poder;
 
@@ -4229,7 +4229,7 @@ hazme justicia con tu poder;
 
 atiende a las palabras de mi boca!
 
-<sup>5</sup> Contra mí han surgido arrogantes*,
+<sup>5</sup> Contra mí han surgido arrogantes<span class="note-ref" data-ref="sal-54-5" title="Ver comentario">&#42;</span>,
 
 rabiosos buscan mi muerte,Pausa.
 
@@ -4252,7 +4252,7 @@ te daré gracias por tu bondad,
 y mi vista se recreó en mis enemigos.
 
 ## <span class="subsection-title">SALMO 55 (54)</span>
-## <span class="subsection-title">Oración del calumniado*</span>
+## <span class="subsection-title">Oración del calumniado<span class="note-ref" data-ref="sal-55" title="Ver comentario">&#42;</span></span>
 <span id="chapter-55" class="chapter-marker" data-chapter="55">55</span><sup>1</sup> Del maestro de coro. Para instrumentos de cuerda. Poema. De David.
 
 <sup>2</sup> Escucha, oh Dios, mi oración,
@@ -4265,7 +4265,7 @@ me trastorna la ansiedad.
 
 Gimo 4 ante la voz del enemigo,
 
-bajo el abucheo* del malvado;
+bajo el abucheo<span class="note-ref" data-ref="sal-55-4" title="Ver comentario">&#42;</span> del malvado;
 
 vierten falsedades sobre mí,
 
@@ -4293,7 +4293,7 @@ contra el viento de la calumnia,
 
 y el huracán 10 que devora, Señor,
 
-y el flujo de sus lenguas*.
+y el flujo de sus lenguas<span class="note-ref" data-ref="sal-55-10" title="Ver comentario">&#42;</span>.
 
 Soy testigo de violencia
 
@@ -4311,7 +4311,7 @@ nunca se ausentan de sus calles
 
 la tiranía y el engaño.
 
-<sup>13</sup> Si* fuera un enemigo el que me ultraja,
+<sup>13</sup> Si<span class="note-ref" data-ref="sal-55-13" title="Ver comentario">&#42;</span> fuera un enemigo el que me ultraja,
 
 podría soportarlo;
 
@@ -4327,9 +4327,9 @@ amigo y compañero,
 
 en la Casa de Dios!
 
-¡Desaparezcan* en tumulto,
+¡Desaparezcan<span class="note-ref" data-ref="sal-55-15" title="Ver comentario">&#42;</span> en tumulto,
 
-<sup>16</sup> caiga sobre ellos* la muerte,
+<sup>16</sup> caiga sobre ellos<span class="note-ref" data-ref="sal-55-16" title="Ver comentario">&#42;</span> la muerte,
 
 bajen vivos al Seol,
 
@@ -4339,7 +4339,7 @@ que entre ellos habita el mal!
 
 y Yahvé me salva.
 
-<sup>18</sup> A la tarde, a la mañana, al mediodía*
+<sup>18</sup> A la tarde, a la mañana, al mediodía<span class="note-ref" data-ref="sal-55-18" title="Ver comentario">&#42;</span>
 
 me quejo y gimo, y oye mi clamor.
 
@@ -4347,7 +4347,7 @@ me quejo y gimo, y oye mi clamor.
 
 de la guerra que me han declarado,Pausa.
 
-del pleito que tienen conmigo*.
+del pleito que tienen conmigo<span class="note-ref" data-ref="sal-55-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Que Dios me escuche y los humille,
 
@@ -4375,7 +4375,7 @@ son espadas desnudas.
 
 no dejará que para siempre
 
-sucumba el justo*.
+sucumba el justo<span class="note-ref" data-ref="sal-55-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> Y tú, oh Dios, hundirás
 
@@ -4389,7 +4389,7 @@ Mas yo confío en ti.
 
 ## <span class="subsection-title">SALMO 56 (55)</span>
 ## <span class="subsection-title">El fiel no sucumbirá</span>
-<span id="chapter-56" class="chapter-marker" data-chapter="56">56</span><sup>1</sup> Del maestro de coro. Según: «La opresión de los príncipes lejanos*». De David. A media voz. Cuando los filisteos se apoderaron de él en Gat.
+<span id="chapter-56" class="chapter-marker" data-chapter="56">56</span><sup>1</sup> Del maestro de coro. Según: «La opresión de los príncipes lejanos<span class="note-ref" data-ref="sal-56-1" title="Ver comentario">&#42;</span>». De David. A media voz. Cuando los filisteos se apoderaron de él en Gat.
 
 <sup>2</sup> Misericordia, oh Dios, que me pisan,
 
@@ -4397,11 +4397,11 @@ me atacan y me oprimen todo el día.
 
 <sup>3</sup> Todo el día me pisan mis enemigos,
 
-son muchos los que me atacan desde la altura*.
+son muchos los que me atacan desde la altura<span class="note-ref" data-ref="sal-56-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> El día en que temo, en ti confío.
 
-<sup>5</sup> En Dios, cuya palabra* alabo,
+<sup>5</sup> En Dios, cuya palabra<span class="note-ref" data-ref="sal-56-5" title="Ver comentario">&#42;</span> alabo,
 
 en Dios confío y ya no temo.
 
@@ -4411,7 +4411,7 @@ en Dios confío y ya no temo.
 
 sólo planean daño contra mí;
 
-<sup>7</sup> se conjuran*, se ocultan, siguen mis pasos,
+<sup>7</sup> se conjuran<span class="note-ref" data-ref="sal-56-7" title="Ver comentario">&#42;</span>, se ocultan, siguen mis pasos,
 
 tratando de acabar con mi vida.
 
@@ -4421,7 +4421,7 @@ tratando de acabar con mi vida.
 
 <sup>9</sup> Tú llevas la cuenta de mi vida errante,
 
-¡recoge mis lágrimas en tu odre*!
+¡recoge mis lágrimas en tu odre<span class="note-ref" data-ref="sal-56-9" title="Ver comentario">&#42;</span>!
 
 <sup>10</sup> Entonces retrocederán mis enemigos
 
@@ -4441,7 +4441,7 @@ en Yahvé, cuya palabra alabo,
 
 sacrificios te ofreceré de acción de gracias,
 
-<sup>14</sup> pues rescataste mi vida de la muerte*,
+<sup>14</sup> pues rescataste mi vida de la muerte<span class="note-ref" data-ref="sal-56-14" title="Ver comentario">&#42;</span>,
 
 para que marche en la presencia de Dios
 
@@ -4479,7 +4479,7 @@ su lengua, espada acerada.
 
 <sup>6</sup> ¡Álzate, oh Dios, sobre el cielo,
 
-sobre toda la tierra, tu gloria*!
+sobre toda la tierra, tu gloria<span class="note-ref" data-ref="sal-57-6" title="Ver comentario">&#42;</span>!
 
 <sup>7</sup> Tendieron una red a mis pasos,
 
@@ -4499,7 +4499,7 @@ voy a cantar, a tañer.
 
 ¡despertad, arpa y cítara!,
 
-¡a la aurora* despertaré!
+¡a la aurora<span class="note-ref" data-ref="sal-57-9" title="Ver comentario">&#42;</span> despertaré!
 
 <sup>10</sup> Te alabaré entre los pueblos, Señor,
 
@@ -4514,10 +4514,10 @@ tu fidelidad hasta las nubes.
 sobre toda la tierra, tu gloria!
 
 ## <span class="subsection-title">SALMO 58 (57)</span>
-## <span class="subsection-title">El juez de los jueces de la tierra*</span>
+## <span class="subsection-title">El juez de los jueces de la tierra<span class="note-ref" data-ref="sal-58" title="Ver comentario">&#42;</span></span>
 <span id="chapter-58" class="chapter-marker" data-chapter="58">58</span><sup>1</sup> Del maestro de coro. «No destruyas». De David. A media voz.
 
-<sup>2</sup> ¿De verdad, dioses*, pronunciáis justicia,
+<sup>2</sup> ¿De verdad, dioses<span class="note-ref" data-ref="sal-58-2" title="Ver comentario">&#42;</span>, pronunciáis justicia,
 
 juzgáis a los hombres conforme a derecho?
 
@@ -4543,13 +4543,13 @@ quiébrales, Yahvé, las muelas a los leones.
 
 <sup>8</sup> ¡Que se evaporen como agua que pasa,
 
-que se pudran como hierba que se pisa*,
+que se pudran como hierba que se pisa<span class="note-ref" data-ref="sal-58-8" title="Ver comentario">&#42;</span>,
 
 <sup>9</sup> como limaco que se deshace al andar,
 
 como aborto que no contempla el sol!
 
-<sup>10</sup> ¡Antes de que echen espinas*, como la zarza,
+<sup>10</sup> ¡Antes de que echen espinas<span class="note-ref" data-ref="sal-58-10" title="Ver comentario">&#42;</span>, como la zarza,
 
 verde o quemada, los arrebate el torbellino!
 
@@ -4562,7 +4562,7 @@ lavará sus pies en la sangre del malvado;
 sí, hay un Dios que juzga en la tierra».
 
 ## <span class="subsection-title">SALMO 59 (58)</span>
-## <span class="subsection-title">Contra los impíos*</span>
+## <span class="subsection-title">Contra los impíos<span class="note-ref" data-ref="sal-59" title="Ver comentario">&#42;</span></span>
 <span id="chapter-59" class="chapter-marker" data-chapter="59">59</span><sup>1</sup> Del maestro de coro. «No destruyas». De David. A media voz. Cuando Saúl mandó vigilar su casa con el fin de matarle.
 
 <sup>2</sup> ¡Líbrame de mis enemigos, Dios mío,
@@ -4585,7 +4585,7 @@ Despiértate, ven a mi encuentro y mira,
 
 <sup>6</sup> tú, Yahvé, Dios Sebaot, Dios de Israel,
 
-álzate a castigar a los paganos*,Pausa.
+álzate a castigar a los paganos<span class="note-ref" data-ref="sal-59-6" title="Ver comentario">&#42;</span>,Pausa.
 
 no te apiades de esos pérfidos traidores.
 
@@ -4593,13 +4593,13 @@ no te apiades de esos pérfidos traidores.
 
 aúllan como perros,
 
-rondan por la ciudad*.
+rondan por la ciudad<span class="note-ref" data-ref="sal-59-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Míralos desbarrar a boca llena,
 
 son sus labios como espadas:
 
-«¿Hay alguien que nos oiga*?»
+«¿Hay alguien que nos oiga<span class="note-ref" data-ref="sal-59-8" title="Ver comentario">&#42;</span>?»
 
 <sup>9</sup> Mas tú, Yahvé, te ríes de ellos,
 
@@ -4609,13 +4609,13 @@ tú te mofas de todos los paganos.
 
 pues es Dios mi ciudadela!
 
-<sup>11</sup> Mi Dios fiel* saldrá a mi encuentro,
+<sup>11</sup> Mi Dios fiel<span class="note-ref" data-ref="sal-59-11" title="Ver comentario">&#42;</span> saldrá a mi encuentro,
 
 me hará ver el fracaso de mis enemigos.
 
 <sup>12</sup> ¡No los mates, que mi pueblo no lo olvide,
 
-dispérsalos y humíllalos* con tu poder,
+dispérsalos y humíllalos<span class="note-ref" data-ref="sal-59-12" title="Ver comentario">&#42;</span> con tu poder,
 
 Señor, escudo nuestro!
 
@@ -4641,7 +4641,7 @@ rondan por la ciudad.
 
 <sup>16</sup> Ahí andan, buscando comida,
 
-gruñendo* hasta que no están hartos.
+gruñendo<span class="note-ref" data-ref="sal-59-16" title="Ver comentario">&#42;</span> hasta que no están hartos.
 
 <sup>17</sup> Yo, en cambio, cantaré tu fuerza,
 
@@ -4655,10 +4655,10 @@ un refugio el día de la angustia.
 
 pues es Dios mi ciudadela,
 
-mi Dios fiel*.
+mi Dios fiel<span class="note-ref" data-ref="sal-59-18" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 60 (59)</span>
-## <span class="subsection-title">Súplica nacional después de la derrota*</span>
+## <span class="subsection-title">Súplica nacional después de la derrota<span class="note-ref" data-ref="sal-60" title="Ver comentario">&#42;</span></span>
 <span id="chapter-60" class="chapter-marker" data-chapter="60">60</span><sup>1</sup> Del maestro de coro. Según «El lirio del testimonio». A media voz. De David. Para enseñar. <sup>2</sup> Cuando luchó contra Aram de Naharáin y Aram de Sobá, y Joab, de vuelta, derrotó a Edom en el valle de la Sal: doce mil hombres.
 
 <sup>3</sup> Oh Dios, nos has rechazado y desbaratado,
@@ -4667,13 +4667,13 @@ estabas irritado, ¡vuélvete a nosotros!
 
 <sup>4</sup> Has sacudido el país, la has hendido;
 
-repara sus grietas, pues se desmorona*.
+repara sus grietas, pues se desmorona<span class="note-ref" data-ref="sal-60-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Sometiste a tu pueblo a duras pruebas,
 
 nos diste a beber vino de vértigo.
 
-<sup>6</sup> A tus adeptos* les diste una señal*Pausa.
+<sup>6</sup> A tus adeptos<span class="note-ref" data-ref="sal-60-6-a" title="Ver comentario">&#42;</span> les diste una señal<span class="note-ref" data-ref="sal-60-6-b" title="Ver comentario">&#42;</span>Pausa.
 
 para que pudiesen escapar del arco.
 
@@ -4681,9 +4681,9 @@ para que pudiesen escapar del arco.
 
 ¡con tu diestra salvadora respóndenos!
 
-<sup>8</sup> Dios ha hablado en su santuario*:
+<sup>8</sup> Dios ha hablado en su santuario<span class="note-ref" data-ref="sal-60-8-a" title="Ver comentario">&#42;</span>:
 
-«Repartiré victorioso Siquén*,
+«Repartiré victorioso Siquén<span class="note-ref" data-ref="sal-60-8-b" title="Ver comentario">&#42;</span>,
 
 parcelaré el valle de Sucot.
 
@@ -4695,9 +4695,9 @@ Judá, mi bastón de mando,
 
 <sup>10</sup> Moab, la jofaina en que me lavo;
 
-sobre Edom tiro mi sandalia*.
+sobre Edom tiro mi sandalia<span class="note-ref" data-ref="sal-60-10-a" title="Ver comentario">&#42;</span>.
 
-¡Celebra, Filistea, tu victoria sobre mí*!»
+¡Celebra, Filistea, tu victoria sobre mí<span class="note-ref" data-ref="sal-60-10-b" title="Ver comentario">&#42;</span>!»
 
 <sup>11</sup> ¿Quién me guiará a la plaza fuerte,
 
@@ -4705,7 +4705,7 @@ quién me conducirá hasta Edom?
 
 <sup>12</sup> ¿No eres tú, oh Dios, quien nos rechaza,
 
-y no sales al frente de nuestras tropas*?
+y no sales al frente de nuestras tropas<span class="note-ref" data-ref="sal-60-12" title="Ver comentario">&#42;</span>?
 
 <sup>13</sup> Ofrécenos ayuda contra el adversario,
 
@@ -4716,7 +4716,7 @@ que es vano el socorro del hombre.
 él machacará a nuestro adversario!
 
 ## <span class="subsection-title">SALMO 61 (60)</span>
-## <span class="subsection-title">Oración de un desterrado*</span>
+## <span class="subsection-title">Oración de un desterrado<span class="note-ref" data-ref="sal-61" title="Ver comentario">&#42;</span></span>
 <span id="chapter-61" class="chapter-marker" data-chapter="61">61</span><sup>1</sup> Del maestro de coro. Para instrumentos de cuerda. De David.
 
 <sup>2</sup> ¡Escucha, oh Dios, mi clamor,
@@ -4727,7 +4727,7 @@ atiende a mi plegaria!
 
 con el corazón desmayado.
 
-Condúceme a la roca inaccesible*,
+Condúceme a la roca inaccesible<span class="note-ref" data-ref="sal-61-3" title="Ver comentario">&#42;</span>,
 
 <sup>4</sup> que tú eres mi refugio,
 
@@ -4739,7 +4739,7 @@ acogido al amparo de tus alas!
 
 <sup>6</sup> Pues tú, oh Dios, escuchas mis votos:
 
-me otorgas la heredad de tus adeptos*.
+me otorgas la heredad de tus adeptos<span class="note-ref" data-ref="sal-61-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Añade días a los días del rey,
 
@@ -4747,14 +4747,14 @@ que sus años se prolonguen por generaciones.
 
 <sup>8</sup> ¡Reine por siempre en presencia de Dios!
 
-¡La lealtad y la fidelidad lo guarden*!
+¡La lealtad y la fidelidad lo guarden<span class="note-ref" data-ref="sal-61-8" title="Ver comentario">&#42;</span>!
 
 <sup>9</sup> Tañeré a tu nombre para siempre,
 
 cumpliré mis votos día a día.
 
 ## <span class="subsection-title">SALMO 62 (61)</span>
-## <span class="subsection-title">Dios, la única esperanza*</span>
+## <span class="subsection-title">Dios, la única esperanza<span class="note-ref" data-ref="sal-62" title="Ver comentario">&#42;</span></span>
 <span id="chapter-62" class="chapter-marker" data-chapter="62">62</span><sup>1</sup> Del maestro de coro... Yedutún. Salmo. De David.
 
 <sup>2</sup> Sólo en Dios encuentro descanso,
@@ -4773,7 +4773,7 @@ como a una muralla que cede,
 
 como a una pared que se desploma?
 
-<sup>5</sup> Sólo proyectan doblez*,
+<sup>5</sup> Sólo proyectan doblez<span class="note-ref" data-ref="sal-62-5" title="Ver comentario">&#42;</span>,
 
 les seduce la mentira,
 
@@ -4801,7 +4801,7 @@ presentad ante él vuestros anhelos.Pausa.
 
 <sup>10</sup> Un soplo son los plebeyos,
 
-los notables, pura mentira*;
+los notables, pura mentira<span class="note-ref" data-ref="sal-62-10" title="Ver comentario">&#42;</span>;
 
 puestos juntos en una balanza
 
@@ -4817,7 +4817,7 @@ no apeguéis el corazón.
 
 <sup>12</sup> Dios ha hablado una vez,
 
-dos veces, lo he oído*:
+dos veces, lo he oído<span class="note-ref" data-ref="sal-62-12" title="Ver comentario">&#42;</span>:
 
 que de Dios es el poder,
 
@@ -4825,13 +4825,13 @@ que de Dios es el poder,
 
 que tú pagas al hombre
 
-conforme a sus obras*.
+conforme a sus obras<span class="note-ref" data-ref="sal-62-13" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 63 (62)</span>
 ## <span class="subsection-title">Sed de Dios</span>
-<span id="chapter-63" class="chapter-marker" data-chapter="63">63</span><sup>1</sup> Salmo. De David. Cuando estaba en el desierto de Judá*.
+<span id="chapter-63" class="chapter-marker" data-chapter="63">63</span><sup>1</sup> Salmo. De David. Cuando estaba en el desierto de Judá<span class="note-ref" data-ref="sal-63-1" title="Ver comentario">&#42;</span>.
 
-<sup>2</sup> Dios, tú mi Dios, yo te busco*,
+<sup>2</sup> Dios, tú mi Dios, yo te busco<span class="note-ref" data-ref="sal-63-2" title="Ver comentario">&#42;</span>,
 
 mi ser tiene sed de ti,
 
@@ -4877,12 +4877,12 @@ sirvan de presa a los chacales!
 
 <sup>12</sup> Pero el rey en Dios se alegrará,
 
-el que jura por él* se felicitará,
+el que jura por él<span class="note-ref" data-ref="sal-63-12" title="Ver comentario">&#42;</span> se felicitará,
 
 cuando cierren la boca a los mentirosos.
 
 ## <span class="subsection-title">SALMO 64 (63)</span>
-## <span class="subsection-title">Castigo de los calumniadores*</span>
+## <span class="subsection-title">Castigo de los calumniadores<span class="note-ref" data-ref="sal-64" title="Ver comentario">&#42;</span></span>
 <span id="chapter-64" class="chapter-marker" data-chapter="64">64</span><sup>1</sup> Del maestro de coro. Salmo. De David.
 
 <sup>2</sup> Escucha, oh Dios, la voz de mi gemido,
@@ -4911,13 +4911,13 @@ se dicen: «¿Quién lo observará
 
 Los escruta el mismo que escruta
 
-al hombre por dentro, la mente oculta*.
+al hombre por dentro, la mente oculta<span class="note-ref" data-ref="sal-64-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Dios ha disparado una saeta,
 
 repentinas han sido sus heridas;
 
-<sup>9</sup> los abate* por causa de su lengua,
+<sup>9</sup> los abate<span class="note-ref" data-ref="sal-64-9" title="Ver comentario">&#42;</span> por causa de su lengua,
 
 quienes los ven menean la cabeza.
 
@@ -4934,10 +4934,10 @@ y en él buscará cobijo;
 se felicitarán los hombres rectos.
 
 ## <span class="subsection-title">SALMO 65 (64)</span>
-## <span class="subsection-title">Himno de acción de gracias*</span>
+## <span class="subsection-title">Himno de acción de gracias<span class="note-ref" data-ref="sal-65" title="Ver comentario">&#42;</span></span>
 <span id="chapter-65" class="chapter-marker" data-chapter="65">65</span><sup>1</sup> Del maestro de coro. Salmo. De David. Cántico.
 
-<sup>2</sup> Tú mereces* la alabanza,
+<sup>2</sup> Tú mereces<span class="note-ref" data-ref="sal-65-2" title="Ver comentario">&#42;</span> la alabanza,
 
 oh Dios, en Sión.
 
@@ -4951,7 +4951,7 @@ A ti acuden los mortales
 
 nos abruman nuestras culpas,
 
-pero tú las perdonas*.
+pero tú las perdonas<span class="note-ref" data-ref="sal-65-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Dichoso el que eliges e invitas
 
@@ -4967,7 +4967,7 @@ Dios Salvador nuestro,
 
 esperanza de los confines de la tierra
 
-y de las islas* lejanas:
+y de las islas<span class="note-ref" data-ref="sal-65-6" title="Ver comentario">&#42;</span> lejanas:
 
 <sup>7</sup> Tú afirmas los montes con tu fuerza,
 
@@ -4983,7 +4983,7 @@ el estruendo de sus olas
 
 se estremecen al ver tus signos;
 
-a las puertas del alba y del ocaso*
+a las puertas del alba y del ocaso<span class="note-ref" data-ref="sal-65-9" title="Ver comentario">&#42;</span>
 
 las haces gritar de júbilo.
 
@@ -4991,7 +4991,7 @@ las haces gritar de júbilo.
 
 la colmas de riquezas.
 
-El arroyo de Dios va lleno de agua*,
+El arroyo de Dios va lleno de agua<span class="note-ref" data-ref="sal-65-10" title="Ver comentario">&#42;</span>,
 
 tú preparas sus trigales.
 
@@ -5003,7 +5003,7 @@ las mulles con lluvia, bendices sus brotes.
 
 <sup>12</sup> Coronas el año con tus bienes,
 
-de tus rodadas* brota la abundancia;
+de tus rodadas<span class="note-ref" data-ref="sal-65-12" title="Ver comentario">&#42;</span> brota la abundancia;
 
 <sup>13</sup> destilan los pastos del páramo,
 
@@ -5013,10 +5013,10 @@ las colinas se adornan de alegría;
 
 y los valles se cubren de trigales
 
-entre gritos de júbilo y canciones*.
+entre gritos de júbilo y canciones<span class="note-ref" data-ref="sal-65-14" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 66 (65)</span>
-## <span class="subsection-title">Acción de gracias pública*</span>
+## <span class="subsection-title">Acción de gracias pública<span class="note-ref" data-ref="sal-66" title="Ver comentario">&#42;</span></span>
 <span id="chapter-66" class="chapter-marker" data-chapter="66">66</span><sup>1</sup> Del maestro de coro. Cántico. Salmo.
 
 Aclama a Dios, tierra entera,
@@ -5039,7 +5039,7 @@ sus hazañas en favor del hombre:
 
 <sup>6</sup> convirtió el mar en tierra firme
 
-y cruzaron el río a pie*.
+y cruzaron el río a pie<span class="note-ref" data-ref="sal-66-6" title="Ver comentario">&#42;</span>.
 
 ¡Alegrémonos en él por aquello!
 
@@ -5053,7 +5053,7 @@ para que no se amotinen los rebeldes. Pausa.
 
 haced que se oiga su alabanza;
 
-<sup>9</sup> él nos devuelve a la vida*,
+<sup>9</sup> él nos devuelve a la vida<span class="note-ref" data-ref="sal-66-9" title="Ver comentario">&#42;</span>,
 
 no deja que vacilen nuestros pies.
 
@@ -5069,7 +5069,7 @@ pusiste una correa a nuestros lomos,
 
 pasamos por el fuego y el agua,
 
-pero luego nos sacaste a la abundancia*.
+pero luego nos sacaste a la abundancia<span class="note-ref" data-ref="sal-66-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Entraré con víctimas en tu Casa,
 
@@ -5110,7 +5110,7 @@ que no ha rechazado mi oración
 ni me ha retirado su amor!
 
 ## <span class="subsection-title">SALMO 67 (66)</span>
-## <span class="subsection-title">Oración pública después de la recolección anual*</span>
+## <span class="subsection-title">Oración pública después de la recolección anual<span class="note-ref" data-ref="sal-67" title="Ver comentario">&#42;</span></span>
 <span id="chapter-67" class="chapter-marker" data-chapter="67">67</span><sup>1</sup> Del maestro de coro. Para instrumentos de cuerda. Salmo. Cántico.
 
 <sup>2</sup> ¡Que Dios tenga piedad y nos bendiga,Pausa.
@@ -5123,11 +5123,11 @@ y todas las naciones su salvación.
 
 <sup>4</sup> ¡Que los pueblos te den gracias, oh Dios,
 
-que todos los pueblos te den gracias*!
+que todos los pueblos te den gracias<span class="note-ref" data-ref="sal-67-4" title="Ver comentario">&#42;</span>!
 
 <sup>5</sup> Que se alegren y exulten las naciones,
 
-pues juzgas al mundo con justicia*,
+pues juzgas al mundo con justicia<span class="note-ref" data-ref="sal-67-5" title="Ver comentario">&#42;</span>,
 
 con equidad juzgas a los pueblos,Pausa.
 
@@ -5146,7 +5146,7 @@ Dios, nuestro Dios, nos bendice.
 todos los confines de la tierra!
 
 ## <span class="subsection-title">SALMO 68 (67)</span>
-## <span class="subsection-title">La gloriosa epopeya de Israel*</span>
+## <span class="subsection-title">La gloriosa epopeya de Israel<span class="note-ref" data-ref="sal-68" title="Ver comentario">&#42;</span></span>
 <span id="chapter-68" class="chapter-marker" data-chapter="68">68</span><sup>1</sup> Del maestro de coro. De David. Salmo. Cántico.
 
 <sup>2</sup> Dios se levanta, se dispersan sus enemigos,
@@ -5183,7 +5183,7 @@ mas los rebeldes moran en suelo estéril.
 
 cuando cruzabas el desierto, <sup>9</sup> la tierra retembló,
 
-y hasta los cielos se licuaron ante Dios*,
+y hasta los cielos se licuaron ante Dios<span class="note-ref" data-ref="sal-68-9" title="Ver comentario">&#42;</span>,
 
 ante el rostro de Dios, el Dios de Israel.
 
@@ -5193,7 +5193,7 @@ reanimaste a tu heredad extenuada;
 
 <sup>11</sup> tu rebaño encontró una morada,
 
-que bondadoso, oh Dios, al mísero preparabas*.
+que bondadoso, oh Dios, al mísero preparabas<span class="note-ref" data-ref="sal-68-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> El Señor ha dado una orden,
 
@@ -5201,9 +5201,9 @@ es su mensajero un ejército inmenso.
 
 <sup>13</sup> Reyes y ejércitos huyen a la desbandada,
 
-y dentro de las casas se reparte el botín*
+y dentro de las casas se reparte el botín<span class="note-ref" data-ref="sal-68-13" title="Ver comentario">&#42;</span>
 
-<sup>14</sup> (mientras holgáis entre los apriscos*):
+<sup>14</sup> (mientras holgáis entre los apriscos<span class="note-ref" data-ref="sal-68-14" title="Ver comentario">&#42;</span>):
 
 alas de paloma bañadas en plata,
 
@@ -5211,7 +5211,7 @@ con plumas que destellan oro verde.
 
 <sup>15</sup> Cuando Shaddai dispersaba a los reyes,
 
-caía nieve por el Monte Umbrío*.
+caía nieve por el Monte Umbrío<span class="note-ref" data-ref="sal-68-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> ¡Monte encumbrado, el monte de Basán!
 
@@ -5223,15 +5223,15 @@ al monte que Dios escogió por mansión?
 
 ¡En él morará Yahvé para siempre!
 
-<sup>18</sup> Los carros de Dios* son miles de millares;
+<sup>18</sup> Los carros de Dios<span class="note-ref" data-ref="sal-68-18-a" title="Ver comentario">&#42;</span> son miles de millares;
 
-el Señor ha venido del Sinaí al santuario*.
+el Señor ha venido del Sinaí al santuario<span class="note-ref" data-ref="sal-68-18-b" title="Ver comentario">&#42;</span>.
 
-<sup>19</sup> Subiste a la altura* conduciendo cautivos,
+<sup>19</sup> Subiste a la altura<span class="note-ref" data-ref="sal-68-19-a" title="Ver comentario">&#42;</span> conduciendo cautivos,
 
 recibiste tributo en hombres y en rebeldes,
 
-para quedarte en tu mansión, Yahvé Dios*.
+para quedarte en tu mansión, Yahvé Dios<span class="note-ref" data-ref="sal-68-19-b" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> ¡Bendito sea el Señor, día tras día!Pausa.
 
@@ -5251,7 +5251,7 @@ los traeré de los abismos del mar,
 
 <sup>24</sup> para que laves tus pies en su sangre,
 
-y participe en el enemigo la lengua de tus perros*».
+y participe en el enemigo la lengua de tus perros<span class="note-ref" data-ref="sal-68-24" title="Ver comentario">&#42;</span>».
 
 <sup>25</sup> Ya aparece tu procesión, oh Dios,
 
@@ -5263,15 +5263,15 @@ las doncellas en medio tocando el tamboril.
 
 <sup>27</sup> Van bendiciendo a Dios en grupos:
 
-¡Es Yahvé desde el origen de Israel*!
+¡Es Yahvé desde el origen de Israel<span class="note-ref" data-ref="sal-68-27" title="Ver comentario">&#42;</span>!
 
 <sup>28</sup> Abre la marcha Benjamín, el pequeño,
 
 los príncipes de Judá con sus escuadras,
 
-los príncipes de Zabulón, los príncipes de Neftalí*.
+los príncipes de Zabulón, los príncipes de Neftalí<span class="note-ref" data-ref="sal-68-28" title="Ver comentario">&#42;</span>.
 
-<sup>29</sup> ¡Da órdenes, Dios, con tu poder*,
+<sup>29</sup> ¡Da órdenes, Dios, con tu poder<span class="note-ref" data-ref="sal-68-29" title="Ver comentario">&#42;</span>,
 
 el poder que por nosotros desplegaste
 
@@ -5279,7 +5279,7 @@ el poder que por nosotros desplegaste
 
 donde los reyes vienen con presentes!
 
-<sup>31</sup> Llama al orden a la bestia del cañaveral*,
+<sup>31</sup> Llama al orden a la bestia del cañaveral<span class="note-ref" data-ref="sal-68-31" title="Ver comentario">&#42;</span>,
 
 a la manada de toros y novillos de los pueblos.
 
@@ -5287,7 +5287,7 @@ a la manada de toros y novillos de los pueblos.
 
 ¡Dispersa a los pueblos belicosos!
 
-<sup>32</sup> Acudan los magnates* desde Egipto,
+<sup>32</sup> Acudan los magnates<span class="note-ref" data-ref="sal-68-32" title="Ver comentario">&#42;</span> desde Egipto,
 
 tienda hacia Dios sus manos Etiopía.
 
@@ -5305,7 +5305,7 @@ Su majestad sobre Israel,
 
 su poder en las nubes.
 
-<sup>36</sup> Dios sobrecoge desde su santuario*.
+<sup>36</sup> Dios sobrecoge desde su santuario<span class="note-ref" data-ref="sal-68-36" title="Ver comentario">&#42;</span>.
 
 Él, el Dios de Israel,
 
@@ -5314,7 +5314,7 @@ da fuerza y poder a su pueblo.
 ¡Bendito sea Dios!
 
 ## <span class="subsection-title">SALMO 69 (68)</span>
-## <span class="subsection-title">Lamentación*</span>
+## <span class="subsection-title">Lamentación<span class="note-ref" data-ref="sal-69" title="Ver comentario">&#42;</span></span>
 <span id="chapter-69" class="chapter-marker" data-chapter="69">69</span><sup>1</sup> Del maestro de coro. Según la melodía: «Lirios...» De David.
 
 <sup>2</sup> ¡Sálvame, oh Dios,
@@ -5349,7 +5349,7 @@ no se te ocultan mis ofensas.
 
 <sup>7</sup> ¡Que por mí no queden defraudados
 
-los que esperan en ti, Yahvé Sebaot*!
+los que esperan en ti, Yahvé Sebaot<span class="note-ref" data-ref="sal-69-7" title="Ver comentario">&#42;</span>!
 
 ¡Que por mí no queden confundidos
 
@@ -5367,7 +5367,7 @@ un desconocido a los hijos de mi madre;
 
 y si te insultan sufro el insulto.
 
-<sup>11</sup> Si me mortifico* con ayunos,
+<sup>11</sup> Si me mortifico<span class="note-ref" data-ref="sal-69-11" title="Ver comentario">&#42;</span> con ayunos,
 
 lo aprovechan para insultarme;
 
@@ -5419,7 +5419,7 @@ conoces a mis opresores.
 
 <sup>21</sup> El oprobio me rompe el corazón,
 
-me siento desfallecer*.
+me siento desfallecer<span class="note-ref" data-ref="sal-69-21" title="Ver comentario">&#42;</span>.
 
 Espero en vano compasión,
 
@@ -5447,7 +5447,7 @@ que nadie habite en sus tiendas.
 
 <sup>27</sup> Porque acosan al que tú has herido
 
-y aumentan la herida de tu víctima*.
+y aumentan la herida de tu víctima<span class="note-ref" data-ref="sal-69-27" title="Ver comentario">&#42;</span>.
 
 <sup>28</sup> Añade culpa a su culpa,
 
@@ -5492,7 +5492,7 @@ la habitarán y la poseerán;
 en ella vivirán los que aman su nombre.
 
 ## <span class="subsection-title">SALMO 70 (69)</span>
-## <span class="subsection-title">Súplica en la desgracia*</span>
+## <span class="subsection-title">Súplica en la desgracia<span class="note-ref" data-ref="sal-70" title="Ver comentario">&#42;</span></span>
 <span id="chapter-70" class="chapter-marker" data-chapter="70">70</span><sup>1</sup> Del maestro de coro. De David. En memoria.
 
 <sup>2</sup> ¡Oh Dios, ven a librarme,
@@ -5537,7 +5537,7 @@ Tú eres mi auxilio y libertador,
 
 préstame atención y sálvame!
 
-<sup>3</sup> Sé mi roca de refugio*,
+<sup>3</sup> Sé mi roca de refugio<span class="note-ref" data-ref="sal-71-3" title="Ver comentario">&#42;</span>,
 
 alcázar donde me salve,
 
@@ -5553,11 +5553,11 @@ mi confianza desde joven, Yahvé.
 
 <sup>6</sup> En ti busco apoyo desde el vientre,
 
-eres mi fuerza* desde el seno materno.
+eres mi fuerza<span class="note-ref" data-ref="sal-71-6" title="Ver comentario">&#42;</span> desde el seno materno.
 
 ¡A ti dirijo siempre mi alabanza!
 
-<sup>7</sup> Soy el asombro de muchos*,
+<sup>7</sup> Soy el asombro de muchos<span class="note-ref" data-ref="sal-71-7" title="Ver comentario">&#42;</span>,
 
 pero tú eres mi refugio seguro.
 
@@ -5595,9 +5595,9 @@ reiteraré tus alabanzas;
 
 <sup>15</sup> mi boca publicará tu justicia,
 
-todo el día tu salvación*.
+todo el día tu salvación<span class="note-ref" data-ref="sal-71-15" title="Ver comentario">&#42;</span>.
 
-<sup>16</sup> Publicaré* las proezas de Yahvé,
+<sup>16</sup> Publicaré<span class="note-ref" data-ref="sal-71-16" title="Ver comentario">&#42;</span> las proezas de Yahvé,
 
 recordaré tu justicia, tuya sólo.
 
@@ -5607,9 +5607,9 @@ y he anunciado hasta hoy tus maravillas!
 
 <sup>18</sup> Ahora, viejo y con canas,
 
-¡no me abandones, Dios mío*!,
+¡no me abandones, Dios mío<span class="note-ref" data-ref="sal-71-18-a" title="Ver comentario">&#42;</span>!,
 
-hasta que pueda anunciar tu brazo*
+hasta que pueda anunciar tu brazo<span class="note-ref" data-ref="sal-71-18-b" title="Ver comentario">&#42;</span>
 
 a las futuras generaciones;
 
@@ -5656,7 +5656,7 @@ pues se avergüenzan afrentados
 los que buscaban mi desgracia.
 
 ## <span class="subsection-title">SALMO 72 (71)</span>
-## <span class="subsection-title">El rey prometido*</span>
+## <span class="subsection-title">El rey prometido<span class="note-ref" data-ref="sal-72" title="Ver comentario">&#42;</span></span>
 <span id="chapter-72" class="chapter-marker" data-chapter="72">72</span><sup>1</sup> De Salomón.
 
 Confía, oh Dios, tu juicio al rey,
@@ -5667,7 +5667,7 @@ al hijo de rey tu justicia:
 
 a tus humildes con equidad.
 
-<sup>3</sup> Produzcan los montes abundancia*,
+<sup>3</sup> Produzcan los montes abundancia<span class="note-ref" data-ref="sal-72-3" title="Ver comentario">&#42;</span>,
 
 prosperidad para el pueblo los collados.
 
@@ -5677,23 +5677,23 @@ salvará a la gente pobre
 
 y aplastará al opresor.
 
-<sup>5</sup> Durará* tanto como el sol,
+<sup>5</sup> Durará<span class="note-ref" data-ref="sal-72-5" title="Ver comentario">&#42;</span> tanto como el sol,
 
 como la luna de edad en edad;
 
-<sup>6</sup> caerá como lluvia en los retoños*,
+<sup>6</sup> caerá como lluvia en los retoños<span class="note-ref" data-ref="sal-72-6" title="Ver comentario">&#42;</span>,
 
 como rocío que humedece la tierra.
 
-<sup>7</sup> Florecerá en sus días la justicia*,
+<sup>7</sup> Florecerá en sus días la justicia<span class="note-ref" data-ref="sal-72-7-a" title="Ver comentario">&#42;</span>,
 
-prosperidad hasta que no haya luna*;
+prosperidad hasta que no haya luna<span class="note-ref" data-ref="sal-72-7-b" title="Ver comentario">&#42;</span>;
 
 <sup>8</sup> dominará de mar a mar,
 
-desde el Río al confín de la tierra*.
+desde el Río al confín de la tierra<span class="note-ref" data-ref="sal-72-8" title="Ver comentario">&#42;</span>.
 
-<sup>9</sup> Ante él se doblará la Bestia*,
+<sup>9</sup> Ante él se doblará la Bestia<span class="note-ref" data-ref="sal-72-9" title="Ver comentario">&#42;</span>,
 
 sus enemigos morderán el polvo;
 
@@ -5721,11 +5721,11 @@ salvará la vida de los pobres.
 
 considerará su sangre valiosa;
 
-<sup>15</sup> (que viva y le den* el oro de Sabá).
+<sup>15</sup> (que viva y le den<span class="note-ref" data-ref="sal-72-15-a" title="Ver comentario">&#42;</span> el oro de Sabá).
 
 Sin cesar rogarán por él,
 
-todo el día lo bendecirán*.
+todo el día lo bendecirán<span class="note-ref" data-ref="sal-72-15-b" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> La tierra dará trigo abundante,
 
@@ -5737,7 +5737,7 @@ sus espigas como la hierba del campo.
 
 <sup>17</sup> ¡Que su fama sea perpetua,
 
-que dure tanto como el sol*!
+que dure tanto como el sol<span class="note-ref" data-ref="sal-72-17" title="Ver comentario">&#42;</span>!
 
 ¡Que sirva de bendición a las naciones,
 
@@ -5753,10 +5753,10 @@ la tierra toda se llene de su gloria!
 
 ¡Amén! ¡Amén!
 
-<sup>20</sup> Fin de las oraciones de David, hijo de Jesé*.
+<sup>20</sup> Fin de las oraciones de David, hijo de Jesé<span class="note-ref" data-ref="sal-72-20" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 73 (72)</span>
-## <span class="subsection-title">La justicia final*</span>
+## <span class="subsection-title">La justicia final<span class="note-ref" data-ref="sal-73" title="Ver comentario">&#42;</span></span>
 <span id="chapter-73" class="chapter-marker" data-chapter="73">73</span><sup>1</sup> Salmo. De Asaf.
 
 ¡Qué bueno es Dios para Israel,
@@ -5773,7 +5773,7 @@ al ver prosperar a los malvados.
 
 <sup>4</sup> No hay congojas para ellos,
 
-sano y rollizo* está su cuerpo;
+sano y rollizo<span class="note-ref" data-ref="sal-73-4" title="Ver comentario">&#42;</span> está su cuerpo;
 
 <sup>5</sup> no comparten las penas de los hombres,
 
@@ -5783,7 +5783,7 @@ no pasan tribulaciones como los otros.
 
 la violencia el vestido que los cubre;
 
-<sup>7</sup> su gordura rebosa malicia*,
+<sup>7</sup> su gordura rebosa malicia<span class="note-ref" data-ref="sal-73-7" title="Ver comentario">&#42;</span>,
 
 de artimañas desborda su corazón.
 
@@ -5797,7 +5797,7 @@ y su lengua se pasea por la tierra.
 
 <sup>10</sup> Por eso mi pueblo va tras ellos:
 
-sorben con ansia sus palabras*.
+sorben con ansia sus palabras<span class="note-ref" data-ref="sal-73-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Dicen: «¿Va a saberlo Dios?
 
@@ -5823,7 +5823,7 @@ y correcciones cada mañana?
 
 pero me resultaba harto difícil.
 
-<sup>17</sup> Hasta que entré en el santuario* de Dios
+<sup>17</sup> Hasta que entré en el santuario<span class="note-ref" data-ref="sal-73-17" title="Ver comentario">&#42;</span> de Dios
 
 y acabé entendiendo su destino:
 
@@ -5837,15 +5837,15 @@ desaparecen consumidos de espanto:
 
 <sup>20</sup> como un sueño al despertar, Señor,
 
-al levantarte desprecias su imagen*.
+al levantarte desprecias su imagen<span class="note-ref" data-ref="sal-73-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Cuando mi corazón se avinagraba,
 
-cuando se torturaba mi conciencia*,
+cuando se torturaba mi conciencia<span class="note-ref" data-ref="sal-73-21" title="Ver comentario">&#42;</span>,
 
 <sup>22</sup> estúpido de mí, no comprendía,
 
-sólo era un animal* ante ti.
+sólo era un animal<span class="note-ref" data-ref="sal-73-22" title="Ver comentario">&#42;</span> ante ti.
 
 <sup>23</sup> Pero yo estoy siempre contigo,
 
@@ -5853,28 +5853,28 @@ me tomas de la mano derecha,
 
 <sup>24</sup> me guías según tus planes,
 
-me conduces tras la gloria*.
+me conduces tras la gloria<span class="note-ref" data-ref="sal-73-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> ¿A quién tengo yo en el cielo?
 
 Estando contigo no hallo gusto en la tierra.
 
-<sup>26</sup> Aunque se consuman mi cuerpo y mi mente*,
+<sup>26</sup> Aunque se consuman mi cuerpo y mi mente<span class="note-ref" data-ref="sal-73-26" title="Ver comentario">&#42;</span>,
 
 tú eres mi roca, mi lote, Dios por siempre.
 
 <sup>27</sup> Los que se alejan de ti se pierden,
 
-aniquilas a los que te son adúlteros*.
+aniquilas a los que te son adúlteros<span class="note-ref" data-ref="sal-73-27" title="Ver comentario">&#42;</span>.
 
 <sup>28</sup> Pero mi bien es estar junto a Dios,
 
 he puesto mi cobijo en el Señor
 
-a fin de proclamar tus obras*.
+a fin de proclamar tus obras<span class="note-ref" data-ref="sal-73-28" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 74 (73)</span>
-## <span class="subsection-title">Lamentación tras el saqueo del templo*</span>
+## <span class="subsection-title">Lamentación tras el saqueo del templo<span class="note-ref" data-ref="sal-74" title="Ver comentario">&#42;</span></span>
 <span id="chapter-74" class="chapter-marker" data-chapter="74">74</span><sup>1</sup> Poema. De Asaf.
 
 ¿Por qué nos rechazas, oh Dios, para siempre,
@@ -5899,7 +5899,7 @@ colocaban como señal sus enseñas;
 
 con hachas en la espesura del bosque.
 
-<sup>6</sup> Cercenaron todas juntas sus jambas*,
+<sup>6</sup> Cercenaron todas juntas sus jambas<span class="note-ref" data-ref="sal-74-6" title="Ver comentario">&#42;</span>,
 
 con hacha y martillo desgajaban.
 
@@ -5907,7 +5907,7 @@ con hacha y martillo desgajaban.
 
 asolaron y profanaron tu morada personal.
 
-<sup>8</sup> Decían para sí: «Destruyamos* a todos,
+<sup>8</sup> Decían para sí: «Destruyamos<span class="note-ref" data-ref="sal-74-8" title="Ver comentario">&#42;</span> a todos,
 
 quememos los santuarios de Dios en el país».
 
@@ -5915,7 +5915,7 @@ quememos los santuarios de Dios en el país».
 
 ya no tenemos profetas,
 
-nadie que sepa hasta cuándo*.
+nadie que sepa hasta cuándo<span class="note-ref" data-ref="sal-74-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> ¿Hasta cuándo, Dios, provocará el adversario,
 
@@ -5923,7 +5923,7 @@ ultrajará tu nombre por siempre el enemigo?
 
 <sup>11</sup> ¿Por qué retienes tu mano
 
-y en tu seno escondes* tu diestra?
+y en tu seno escondes<span class="note-ref" data-ref="sal-74-11" title="Ver comentario">&#42;</span> tu diestra?
 
 <sup>12</sup> Tú eres, oh Dios, mi rey desde el principio,
 
@@ -5933,13 +5933,13 @@ autor de hazañas en medio de la tierra.
 
 quebraste las cabezas de monstruos marinos,
 
-<sup>14</sup> machacaste las cabezas de Leviatán*
+<sup>14</sup> machacaste las cabezas de Leviatán<span class="note-ref" data-ref="sal-74-14-a" title="Ver comentario">&#42;</span>
 
-y las echaste como pasto a las fieras*.
+y las echaste como pasto a las fieras<span class="note-ref" data-ref="sal-74-14-b" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Tú abriste manantiales y torrentes,
 
-secaste ríos inagotables*.
+secaste ríos inagotables<span class="note-ref" data-ref="sal-74-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Tuyo es el día, tuya la noche,
 
@@ -5953,7 +5953,7 @@ el verano y el invierno tú formaste.
 
 que un pueblo necio desprecia tu nombre.
 
-<sup>19</sup> No des al depredador la vida de tu tórtola*,
+<sup>19</sup> No des al depredador la vida de tu tórtola<span class="note-ref" data-ref="sal-74-19" title="Ver comentario">&#42;</span>,
 
 la vida de tus pobres no olvides jamás.
 
@@ -5974,7 +5974,7 @@ acuérdate del necio que te ultraja a diario!
 el creciente clamor de tus agresores!
 
 ## <span class="subsection-title">SALMO 75 (74)</span>
-## <span class="subsection-title">Juicio total y universal*</span>
+## <span class="subsection-title">Juicio total y universal<span class="note-ref" data-ref="sal-75" title="Ver comentario">&#42;</span></span>
 <span id="chapter-75" class="chapter-marker" data-chapter="75">75</span><sup>1</sup> Del maestro de coro. «No destruyas». Salmo. De Asaf. Cántico.
 
 <sup>2</sup> Te damos gracias, oh Dios, te damos gracias,
@@ -5991,7 +5991,7 @@ yo establecí firmemente sus columnas.
 
 <sup>5</sup> Digo a los arrogantes: ¡Fuera arrogancias!,
 
-y a los malvados: ¡No alcéis la frente*,
+y a los malvados: ¡No alcéis la frente<span class="note-ref" data-ref="sal-75-5" title="Ver comentario">&#42;</span>,
 
 <sup>6</sup> no alcéis tan alto vuestra frente,
 
@@ -6003,7 +6003,7 @@ ya no es por el desierto de los montes,
 
 <sup>8</sup> por donde Dios, como juez,
 
-a uno abate y a otro exalta*;
+a uno abate y a otro exalta<span class="note-ref" data-ref="sal-75-8" title="Ver comentario">&#42;</span>;
 
 <sup>9</sup> pues Yahvé empuña una copa,
 
@@ -6022,20 +6022,20 @@ cantaré para el Dios de Jacob:
 mas la frente del honrado se alzará.
 
 ## <span class="subsection-title">SALMO 76 (75)</span>
-## <span class="subsection-title">Oda al Dios temible*</span>
+## <span class="subsection-title">Oda al Dios temible<span class="note-ref" data-ref="sal-76" title="Ver comentario">&#42;</span></span>
 <span id="chapter-76" class="chapter-marker" data-chapter="76">76</span><sup>1</sup> Del maestro de coro. Para instrumentos de cuerda. Salmo. De Asaf. Cántico.
 
 <sup>2</sup> Dios es conocido en Judá,
 
 grande es su fama en Israel;
 
-<sup>3</sup> su tienda está en Salem*,
+<sup>3</sup> su tienda está en Salem<span class="note-ref" data-ref="sal-76-3" title="Ver comentario">&#42;</span>,
 
 su morada en Sión.
 
-<sup>4</sup> Allí quebró las ráfagas del arco*,Pausa.
+<sup>4</sup> Allí quebró las ráfagas del arco<span class="note-ref" data-ref="sal-76-4-a" title="Ver comentario">&#42;</span>,Pausa.
 
-el escudo, la espada y la guerra*.
+el escudo, la espada y la guerra<span class="note-ref" data-ref="sal-76-4-b" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Fulgurante eres tú, magnífico
 
@@ -6065,18 +6065,18 @@ a salvar a los humildes de la tierra.
 
 <sup>11</sup> La cólera humana te reconocerá,
 
-te rodearán los que escapen a la Cólera*.
+te rodearán los que escapen a la Cólera<span class="note-ref" data-ref="sal-76-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Haced votos a Yahvé, vuestro Dios, y cumplidlos,
 
-los que lo rodean* traigan presentes al Terrible:
+los que lo rodean<span class="note-ref" data-ref="sal-76-12" title="Ver comentario">&#42;</span> traigan presentes al Terrible:
 
 <sup>13</sup> el que corta el aliento a los príncipes,
 
 a quien temen los reyes de la tierra.
 
 ## <span class="subsection-title">SALMO 77 (76)</span>
-## <span class="subsection-title">Meditación sobre el pasado de Israel*</span>
+## <span class="subsection-title">Meditación sobre el pasado de Israel<span class="note-ref" data-ref="sal-77" title="Ver comentario">&#42;</span></span>
 <span id="chapter-77" class="chapter-marker" data-chapter="77">77</span><sup>1</sup> Del maestro de coro... Yedutún. De Asaf. Salmo.
 
 <sup>2</sup> Mi voz clama a Dios,
@@ -6101,7 +6101,7 @@ turbado estoy, sin poder hablar.
 
 los años remotos 7 recuerdo;
 
-por la noche musito* en mi interior,
+por la noche musito<span class="note-ref" data-ref="sal-77-7" title="Ver comentario">&#42;</span> en mi interior,
 
 medito y se pregunta mi espíritu:
 
@@ -6121,7 +6121,7 @@ o habrá sellado con ira sus entrañas?
 
 ha cambiado la diestra del Altísimo».
 
-<sup>12</sup> Me acuerdo* de las gestas de Yahvé,
+<sup>12</sup> Me acuerdo<span class="note-ref" data-ref="sal-77-12" title="Ver comentario">&#42;</span> de las gestas de Yahvé,
 
 sí, recuerdo tus antiguas hazañas,
 
@@ -6151,7 +6151,7 @@ también los abismos se agitaron.
 
 descargaban su trueno los nublados,
 
-tus rayos* iban y venían.
+tus rayos<span class="note-ref" data-ref="sal-77-18" title="Ver comentario">&#42;</span> iban y venían.
 
 <sup>19</sup> Rodaba el estruendo de tu trueno,
 
@@ -6170,14 +6170,14 @@ y nadie descubría tus huellas.
 de mano de Moisés y de Aarón.
 
 ## <span class="subsection-title">SALMO 78 (77)</span>
-## <span class="subsection-title">Las lecciones de la historia de Israel*</span>
+## <span class="subsection-title">Las lecciones de la historia de Israel<span class="note-ref" data-ref="sal-78" title="Ver comentario">&#42;</span></span>
 <span id="chapter-78" class="chapter-marker" data-chapter="78">78</span><sup>1</sup> Poema. De Asaf.
 
 Escucha, pueblo mío, mi enseñanza,
 
 presta oído a las palabras de mi boca;
 
-<sup>2</sup> voy a abrir mi boca en parábolas*,
+<sup>2</sup> voy a abrir mi boca en parábolas<span class="note-ref" data-ref="sal-78-2" title="Ver comentario">&#42;</span>,
 
 a evocar los misterios del pasado.
 
@@ -6223,7 +6223,7 @@ de espíritu desleal a Dios.
 
 <sup>9</sup> Los diestros arqueros de Efraín
 
-retrocedieron el día del combate*;
+retrocedieron el día del combate<span class="note-ref" data-ref="sal-78-9" title="Ver comentario">&#42;</span>;
 
 <sup>10</sup> no guardaron la alianza con Dios,
 
@@ -6231,7 +6231,7 @@ rehusaron caminar según su ley.
 
 <sup>11</sup> Habían olvidado sus portentos,
 
-las maravillas que les hizo ver*:
+las maravillas que les hizo ver<span class="note-ref" data-ref="sal-78-11" title="Ver comentario">&#42;</span>:
 
 <sup>12</sup> prodigios a la vista de sus padres,
 
@@ -6291,7 +6291,7 @@ abrió las compuertas del cielo;
 
 les hizo llegar un trigo celeste;
 
-<sup>25</sup> el hombre comió pan de los Fuertes*,
+<sup>25</sup> el hombre comió pan de los Fuertes<span class="note-ref" data-ref="sal-78-25" title="Ver comentario">&#42;</span>,
 
 les mandó provisión para hartarse.
 
@@ -6323,7 +6323,7 @@ y abatió a la flor de Israel.
 
 <sup>32</sup> Mas con todo siguieron pecando,
 
-de sus prodigios no se fiaron*,
+de sus prodigios no se fiaron<span class="note-ref" data-ref="sal-78-32" title="Ver comentario">&#42;</span>,
 
 <sup>33</sup> y él redujo sus días a un soplo,
 
@@ -6331,7 +6331,7 @@ todos sus años a un suspiro.
 
 <sup>34</sup> Cuando los mataba, lo buscaban,
 
-se convertían, se afanaban por él*,
+se convertían, se afanaban por él<span class="note-ref" data-ref="sal-78-34" title="Ver comentario">&#42;</span>,
 
 <sup>35</sup> y recordaban que Dios era su Roca,
 
@@ -6369,7 +6369,7 @@ a exasperar al Santo de Israel,
 
 del día que los salvó del adversario;
 
-<sup>43</sup> de cuando hizo en Egipto sus señales*,
+<sup>43</sup> de cuando hizo en Egipto sus señales<span class="note-ref" data-ref="sal-78-43" title="Ver comentario">&#42;</span>,
 
 en los campos de Tanis sus prodigios.
 
@@ -6409,7 +6409,7 @@ a la peste sus vidas entregó;
 
 las primicias varoniles en las tiendas de Cam.
 
-<sup>52</sup> Sacó como un ganado a su pueblo*,
+<sup>52</sup> Sacó como un ganado a su pueblo<span class="note-ref" data-ref="sal-78-52" title="Ver comentario">&#42;</span>,
 
 como rebaño los guió por el desierto;
 
@@ -6431,13 +6431,13 @@ instaló en sus tiendas a las tribus de Israel.
 
 se rebelaron contra el Altísimo,
 
-no guardaron sus preceptos*.
+no guardaron sus preceptos<span class="note-ref" data-ref="sal-78-56" title="Ver comentario">&#42;</span>.
 
 <sup>57</sup> Se extraviaron, infieles como sus padres,
 
 se torcieron igual que un arco indócil:
 
-<sup>58</sup> lo irritaron con sus lugares altos*,
+<sup>58</sup> lo irritaron con sus lugares altos<span class="note-ref" data-ref="sal-78-58" title="Ver comentario">&#42;</span>,
 
 con sus ídolos excitaron sus celos.
 
@@ -6451,7 +6451,7 @@ la tienda en que moraba entre los hombres.
 
 <sup>61</sup> Mandó la flor y nata al cautiverio,
 
-a manos del adversario su esplendor*;
+a manos del adversario su esplendor<span class="note-ref" data-ref="sal-78-61" title="Ver comentario">&#42;</span>;
 
 <sup>62</sup> entregó su pueblo a la espada,
 
@@ -6469,11 +6469,11 @@ sus viudas no entonaron endechas.
 
 como guerrero vencido por el vino;
 
-<sup>66</sup> hirió a sus adversarios en la espalda*,
+<sup>66</sup> hirió a sus adversarios en la espalda<span class="note-ref" data-ref="sal-78-66" title="Ver comentario">&#42;</span>,
 
 los dejó humillados para siempre.
 
-<sup>67</sup> Desechó la tienda de José*,
+<sup>67</sup> Desechó la tienda de José<span class="note-ref" data-ref="sal-78-67" title="Ver comentario">&#42;</span>,
 
 no eligió a la tribu de Efraín;
 
@@ -6495,12 +6495,12 @@ a pastorear a su pueblo Jacob,
 
 a su heredad Israel.
 
-<sup>72</sup> Los pastoreaba con atención y esmero*,
+<sup>72</sup> Los pastoreaba con atención y esmero<span class="note-ref" data-ref="sal-78-72" title="Ver comentario">&#42;</span>,
 
 con mano diestra los guiaba.
 
 ## <span class="subsection-title">SALMO 79 (78)</span>
-## <span class="subsection-title">Elegía nacional*</span>
+## <span class="subsection-title">Elegía nacional<span class="note-ref" data-ref="sal-79" title="Ver comentario">&#42;</span></span>
 <span id="chapter-79" class="chapter-marker" data-chapter="79">79</span><sup>1</sup> Salmo. De Asaf.
 
 Oh Dios, los gentiles han invadido tu heredad,
@@ -6563,7 +6563,7 @@ por respeto a tu nombre.
 
 la venganza de la sangre
 
-derramada* por tus siervos!
+derramada<span class="note-ref" data-ref="sal-79-10" title="Ver comentario">&#42;</span> por tus siervos!
 
 <sup>11</sup> ¡Llegue a ti el suspiro del cautivo,
 
@@ -6582,7 +6582,7 @@ te daremos eternamente gracias,
 repitiendo tu alabanza de edad en edad.
 
 ## <span class="subsection-title">SALMO 80 (79)</span>
-## <span class="subsection-title">Súplica por la restauración de Israel*</span>
+## <span class="subsection-title">Súplica por la restauración de Israel<span class="note-ref" data-ref="sal-80" title="Ver comentario">&#42;</span></span>
 <span id="chapter-80" class="chapter-marker" data-chapter="80">80</span><sup>1</sup> Del maestro de coro. Según la melodía: «Lirios es el dictamen». De Asaf. Salmo.
 
 <sup>2</sup> Escucha, Pastor de Israel,
@@ -6591,7 +6591,7 @@ que guías a José como a un rebaño,
 
 brilla, desde tu trono de querubes,
 
-<sup>3</sup> sobre Efraín, Benjamín y Manasés*.
+<sup>3</sup> sobre Efraín, Benjamín y Manasés<span class="note-ref" data-ref="sal-80-3" title="Ver comentario">&#42;</span>.
 
 ¡Despierta tu poder,
 
@@ -6603,7 +6603,7 @@ ilumina tu rostro y nos salvaremos!
 
 <sup>5</sup> ¿Hasta cuándo, Yahvé, Dios Sebaot,
 
-estarás airado* mientras reza tu pueblo?
+estarás airado<span class="note-ref" data-ref="sal-80-5" title="Ver comentario">&#42;</span> mientras reza tu pueblo?
 
 <sup>6</sup> Les das a comer un pan de llanto,
 
@@ -6617,7 +6617,7 @@ nuestros enemigos se burlan de nosotros.
 
 ilumina tu rostro y nos salvaremos!
 
-<sup>9</sup> De Egipto arrancaste una viña*,
+<sup>9</sup> De Egipto arrancaste una viña<span class="note-ref" data-ref="sal-80-9" title="Ver comentario">&#42;</span>,
 
 expulsaste pueblos para plantarla,
 
@@ -6627,11 +6627,11 @@ echó raíces y llenó la tierra.
 
 <sup>11</sup> Su sombra cubría las montañas,
 
-sus pámpanos, los enormes cedros*;
+sus pámpanos, los enormes cedros<span class="note-ref" data-ref="sal-80-11" title="Ver comentario">&#42;</span>;
 
 <sup>12</sup> extendía sus sarmientos hasta el mar,
 
-hasta el Gran Río* sus renuevos.
+hasta el Gran Río<span class="note-ref" data-ref="sal-80-12" title="Ver comentario">&#42;</span> sus renuevos.
 
 <sup>13</sup> ¿Por qué has hecho brecha en sus tapias,
 
@@ -6647,15 +6647,15 @@ desde los cielos mira y ve,
 
 visita a esta viña, <sup>16</sup> cuídala,
 
-la cepa que plantó tu diestra*!
+la cepa que plantó tu diestra<span class="note-ref" data-ref="sal-80-16" title="Ver comentario">&#42;</span>!
 
-<sup>17</sup> Como a basura le prendieron fuego*:
+<sup>17</sup> Como a basura le prendieron fuego<span class="note-ref" data-ref="sal-80-17" title="Ver comentario">&#42;</span>:
 
 perezcan amenazados por tu presencia.
 
 <sup>18</sup> Que tu mano defienda a tu elegido,
 
-al hombre que para ti fortaleciste*.
+al hombre que para ti fortaleciste<span class="note-ref" data-ref="sal-80-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Ya no volveremos a apartarnos de ti,
 
@@ -6666,7 +6666,7 @@ nos darás vida e invocaremos tu nombre.
 ilumina tu rostro y nos salvaremos!
 
 ## <span class="subsection-title">SALMO 81 (80)</span>
-## <span class="subsection-title">Para la fiesta de las Tiendas*</span>
+## <span class="subsection-title">Para la fiesta de las Tiendas<span class="note-ref" data-ref="sal-81" title="Ver comentario">&#42;</span></span>
 <span id="chapter-81" class="chapter-marker" data-chapter="81">81</span><sup>1</sup> Del maestro de coro. Según la... de Gat. De Asaf.
 
 <sup>2</sup> ¡Aclamad a Dios, nuestra fuerza,
@@ -6679,7 +6679,7 @@ la melodiosa cítara y el arpa;
 
 <sup>4</sup> tocad la trompeta por el nuevo mes,
 
-por la luna llena, que es nuestra fiesta*!
+por la luna llena, que es nuestra fiesta<span class="note-ref" data-ref="sal-81-4" title="Ver comentario">&#42;</span>!
 
 <sup>5</sup> Porque es una ley para Israel,
 
@@ -6689,15 +6689,15 @@ una norma del Dios de Jacob;
 
 al salir del país de Egipto.
 
-Se oye* una lengua desconocida:
+Se oye<span class="note-ref" data-ref="sal-81-6" title="Ver comentario">&#42;</span> una lengua desconocida:
 
 <sup>7</sup> «Yo liberé sus hombros de la carga,
 
-sus manos la espuerta abandonaron*;
+sus manos la espuerta abandonaron<span class="note-ref" data-ref="sal-81-7" title="Ver comentario">&#42;</span>;
 
 <sup>8</sup> en la aflicción gritaste y te salvé.
 
-Te respondí oculto en el trueno*,Pausa.
+Te respondí oculto en el trueno<span class="note-ref" data-ref="sal-81-8" title="Ver comentario">&#42;</span>,Pausa.
 
 te probé en las aguas de Meribá.
 
@@ -6735,19 +6735,19 @@ contra sus adversarios volvería mi mano!
 
 y su suerte quedaría fijada;
 
-<sup>17</sup> lo sustentaría* con flor de trigo,
+<sup>17</sup> lo sustentaría<span class="note-ref" data-ref="sal-81-17" title="Ver comentario">&#42;</span> con flor de trigo,
 
 lo saciaría con miel de la peña».
 
 ## <span class="subsection-title">SALMO 82 (81)</span>
-## <span class="subsection-title">Contra los príncipes paganos*</span>
+## <span class="subsection-title">Contra los príncipes paganos<span class="note-ref" data-ref="sal-82" title="Ver comentario">&#42;</span></span>
 <span id="chapter-82" class="chapter-marker" data-chapter="82">82</span><sup>1</sup> Salmo. De Asaf.
 
 Dios se alza en la asamblea divina,
 
 para juzgar en medio de los dioses:
 
-<sup>2</sup> «¿Hasta cuándo juzgaréis injustamente*Pausa.
+<sup>2</sup> «¿Hasta cuándo juzgaréis injustamente<span class="note-ref" data-ref="sal-82-2" title="Ver comentario">&#42;</span>Pausa.
 
 y haréis acepción de los malvados?
 
@@ -6765,7 +6765,7 @@ vacilan los cimientos de la tierra.
 
 <sup>6</sup> Yo había dicho: «Vosotros sois dioses,
 
-todos vosotros, hijos del Altísimo*».
+todos vosotros, hijos del Altísimo<span class="note-ref" data-ref="sal-82-6" title="Ver comentario">&#42;</span>».
 
 <sup>7</sup> Pero ahora moriréis como el hombre,
 
@@ -6776,7 +6776,7 @@ caeréis como un príncipe cualquiera.
 pues tú eres el señor de las naciones!
 
 ## <span class="subsection-title">SALMO 83 (82)</span>
-## <span class="subsection-title">Contra los enemigos de Israel*</span>
+## <span class="subsection-title">Contra los enemigos de Israel<span class="note-ref" data-ref="sal-83" title="Ver comentario">&#42;</span></span>
 <span id="chapter-83" class="chapter-marker" data-chapter="83">83</span><sup>1</sup> Cántico. Salmo. De Asaf.
 
 <sup>2</sup> ¡Oh Dios, no estés en silencio,
@@ -6795,19 +6795,19 @@ conspiran contra tus protegidos;
 
 que nunca se recuerde el nombre de Israel».
 
-<sup>6</sup> Así, de acuerdo en la conjura*,
+<sup>6</sup> Así, de acuerdo en la conjura<span class="note-ref" data-ref="sal-83-6" title="Ver comentario">&#42;</span>,
 
 pactan una alianza contra ti:
 
 <sup>7</sup> tiendas de Edom e ismaelitas,
 
-moabitas y agarenos*,
+moabitas y agarenos<span class="note-ref" data-ref="sal-83-7" title="Ver comentario">&#42;</span>,
 
-<sup>8</sup> Guebal*, Amón y Amalec,
+<sup>8</sup> Guebal<span class="note-ref" data-ref="sal-83-8" title="Ver comentario">&#42;</span>, Amón y Amalec,
 
 Filistea y la gente de Tiro;
 
-<sup>9</sup> hasta Asur* se ha juntado con ellos,Pausa.
+<sup>9</sup> hasta Asur<span class="note-ref" data-ref="sal-83-9" title="Ver comentario">&#42;</span> se ha juntado con ellos,Pausa.
 
 dando apoyo a los hijos de Lot.
 
@@ -6852,7 +6852,7 @@ queden confundidos y perezcan,
 Altísimo sobre toda la tierra!
 
 ## <span class="subsection-title">SALMO 84 (83)</span>
-## <span class="subsection-title">Canto de peregrinación*</span>
+## <span class="subsection-title">Canto de peregrinación<span class="note-ref" data-ref="sal-84" title="Ver comentario">&#42;</span></span>
 <span id="chapter-84" class="chapter-marker" data-chapter="84">84</span><sup>1</sup> Del maestro de coro. Según la... de Gat. De los hijos de Coré. Salmo.
 
 <sup>2</sup> ¡Qué amables son tus moradas,
@@ -6883,17 +6883,17 @@ y pueden alabarte siempre;
 
 <sup>6</sup> dichoso el que saca de ti fuerzas
 
-  cuando piensa en las subidas*.
+  cuando piensa en las subidas<span class="note-ref" data-ref="sal-84-6" title="Ver comentario">&#42;</span>.
 
-<sup>7</sup> Al pasar por el valle del Bálsamo*,
+<sup>7</sup> Al pasar por el valle del Bálsamo<span class="note-ref" data-ref="sal-84-7-a" title="Ver comentario">&#42;</span>,
 
 lo van transformando en hontanar
 
-y las lluvias lo cubren de albercas*.
+y las lluvias lo cubren de albercas<span class="note-ref" data-ref="sal-84-7-b" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Caminan de altura en altura,
 
-y Dios se les muestra en Sión*.
+y Dios se les muestra en Sión<span class="note-ref" data-ref="sal-84-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> ¡Yahvé, Dios Sebaot, escucha mi plegaria,Pausa.
 
@@ -6901,11 +6901,11 @@ hazme caso, oh Dios de Jacob!
 
 <sup>10</sup> Oh Dios, nuestro escudo, mira,
 
-fíjate en el rostro de tu ungido*.
+fíjate en el rostro de tu ungido<span class="note-ref" data-ref="sal-84-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Vale más un día en tus atrios
 
-que mil en mis mansiones*,
+que mil en mis mansiones<span class="note-ref" data-ref="sal-84-11" title="Ver comentario">&#42;</span>,
 
 pisar el umbral de la Casa de mi Dios
 
@@ -6924,7 +6924,7 @@ al que camina con rectitud.
 dichoso quien confía en ti!
 
 ## <span class="subsection-title">SALMO 85 (84)</span>
-## <span class="subsection-title">Oración por la paz y la justicia*</span>
+## <span class="subsection-title">Oración por la paz y la justicia<span class="note-ref" data-ref="sal-85" title="Ver comentario">&#42;</span></span>
 <span id="chapter-85" class="chapter-marker" data-chapter="85">85</span><sup>1</sup> Del maestro de coro. De los hijos de Coré. Salmo.
 
 <sup>2</sup> Propicio has sido, Yahvé, con tu tierra,
@@ -6963,13 +6963,13 @@ para su pueblo y sus amigos,
 
 que no recaerán en la torpeza.
 
-<sup>10</sup> Su salvación se acerca a sus adeptos*,
+<sup>10</sup> Su salvación se acerca a sus adeptos<span class="note-ref" data-ref="sal-85-10-a" title="Ver comentario">&#42;</span>,
 
-y la Gloria morará en nuestra tierra*.
+y la Gloria morará en nuestra tierra<span class="note-ref" data-ref="sal-85-10-b" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Amor y Verdad se han dado cita,
 
-Justicia y Paz se besan*;
+Justicia y Paz se besan<span class="note-ref" data-ref="sal-85-11" title="Ver comentario">&#42;</span>;
 
 <sup>12</sup> Verdad brota de la tierra,
 
@@ -6981,10 +6981,10 @@ nuestra tierra dará su cosecha.
 
 <sup>14</sup> Justicia marchará ante él,
 
-con sus pasos le abrirá camino*.
+con sus pasos le abrirá camino<span class="note-ref" data-ref="sal-85-14" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 86 (85)</span>
-## <span class="subsection-title">Oración en la contrariedad*</span>
+## <span class="subsection-title">Oración en la contrariedad<span class="note-ref" data-ref="sal-86" title="Ver comentario">&#42;</span></span>
 <span id="chapter-86" class="chapter-marker" data-chapter="86">86</span><sup>1</sup> Oración. De David.
 
 Presta oído, Yahvé, respóndeme,
@@ -6995,7 +6995,7 @@ que soy desventurado y pobre;
 
 salva a tu siervo, confío en ti.
 
-Tú eres mi Dios*, <sup>3</sup> tenme piedad,
+Tú eres mi Dios<span class="note-ref" data-ref="sal-86-2" title="Ver comentario">&#42;</span>, <sup>3</sup> tenme piedad,
 
 pues clamo a ti todo el día;
 
@@ -7066,7 +7066,7 @@ que mis adversarios vean, confundidos,
 que tú, Yahvé, me ayudas y consuelas.
 
 ## <span class="subsection-title">SALMO 87 (86)</span>
-## <span class="subsection-title">Sión, madre de los pueblos*</span>
+## <span class="subsection-title">Sión, madre de los pueblos<span class="note-ref" data-ref="sal-87" title="Ver comentario">&#42;</span></span>
 <span id="chapter-87" class="chapter-marker" data-chapter="87">87</span><sup>1</sup> De los hijos de Coré. Salmo. Cántico.
 
 ¡Está enclavada entre santos montes!
@@ -7089,20 +7089,20 @@ han nacido allí».
 
 <sup>5</sup> Pero de Sión se ha de decir:
 
-«Todos han nacido en ella*»,
+«Todos han nacido en ella<span class="note-ref" data-ref="sal-87-5" title="Ver comentario">&#42;</span>»,
 
 la ha fundado el propio Altísimo.
 
-<sup>6</sup> Yahvé escribirá en el registro* de los pueblos:Pausa.
+<sup>6</sup> Yahvé escribirá en el registro<span class="note-ref" data-ref="sal-87-6" title="Ver comentario">&#42;</span> de los pueblos:Pausa.
 
 «Fulano nació allí»,
 
 <sup>7</sup> y los príncipes, lo mismo que los hijos,
 
-todos ponen su morada en ti*.
+todos ponen su morada en ti<span class="note-ref" data-ref="sal-87-7" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 88 (87)</span>
-## <span class="subsection-title">Lamento en la extrema aflicción*</span>
+## <span class="subsection-title">Lamento en la extrema aflicción<span class="note-ref" data-ref="sal-88" title="Ver comentario">&#42;</span></span>
 <span id="chapter-88" class="chapter-marker" data-chapter="88">88</span><sup>1</sup> Cántico. Salmo. De los hijos de Coré. Del maestro de coro. Para la enfermedad. Para la aflicción. Poema. De Hemán el indígena.
 
 <sup>2</sup> Yahvé, mi Dios salvador,
@@ -7121,7 +7121,7 @@ con la vida al borde del Seol;
 
 soy como un hombre acabado:
 
-<sup>6</sup> relegado* entre los muertos,
+<sup>6</sup> relegado<span class="note-ref" data-ref="sal-88-6" title="Ver comentario">&#42;</span> entre los muertos,
 
 como un cadáver en la tumba,
 
@@ -7155,7 +7155,7 @@ o se alzan las sombras para darte gracias?
 
 <sup>12</sup> ¿Se habla en la tumba de tu amor,
 
-de tu lealtad en el lugar de perdición*?
+de tu lealtad en el lugar de perdición<span class="note-ref" data-ref="sal-88-12" title="Ver comentario">&#42;</span>?
 
 <sup>13</sup> ¿Se conocen en las tinieblas tus maravillas,
 
@@ -7171,11 +7171,11 @@ y ocultas tu rostro lejos de mí?
 
 <sup>16</sup> Desdichado y enfermo desde mi infancia,
 
-he soportado tus terrores, no puedo más*;
+he soportado tus terrores, no puedo más<span class="note-ref" data-ref="sal-88-16" title="Ver comentario">&#42;</span>;
 
 <sup>17</sup> tu furor me ha dado alcance,
 
-tus espantos me han aniquilado*.
+tus espantos me han aniquilado<span class="note-ref" data-ref="sal-88-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Me anegan como el agua todo el día,
 
@@ -7186,7 +7186,7 @@ se aprietan contra mí todos a una.
 y son mi compañía las tinieblas.
 
 ## <span class="subsection-title">SALMO 89 (88)</span>
-## <span class="subsection-title">Himno y oración al Dios fiel*</span>
+## <span class="subsection-title">Himno y oración al Dios fiel<span class="note-ref" data-ref="sal-89" title="Ver comentario">&#42;</span></span>
 <span id="chapter-89" class="chapter-marker" data-chapter="89">89</span><sup>1</sup> Poema. De Etán el indígena.
 
 <sup>2</sup> Cantaré por siempre el amor de Yahvé,
@@ -7213,9 +7213,9 @@ tu lealtad en la asamblea de los santos.
 
 quién se le iguala entre los hijos de los dioses?
 
-<sup>8</sup> Dios es temible en el consejo de los santos*,
+<sup>8</sup> Dios es temible en el consejo de los santos<span class="note-ref" data-ref="sal-89-8-a" title="Ver comentario">&#42;</span>,
 
-grande* y terrible para toda su corte.
+grande<span class="note-ref" data-ref="sal-89-8-b" title="Ver comentario">&#42;</span> y terrible para toda su corte.
 
 <sup>9</sup> Yahvé, Dios Sebaot, ¿quién como tú?;
 
@@ -7225,7 +7225,7 @@ eres poderoso, tu lealtad te circunda.
 
 reprimes sus olas encrespadas;
 
-<sup>11</sup> machacaste a Rahab* como a un cadáver,
+<sup>11</sup> machacaste a Rahab<span class="note-ref" data-ref="sal-89-11" title="Ver comentario">&#42;</span> como a un cadáver,
 
 dispersaste al enemigo con brazo potente.
 
@@ -7263,7 +7263,7 @@ del Santo de Israel nuestro rey.
 
 <sup>20</sup> Antaño hablaste en visión
 
-a tus amigos* diciendo:
+a tus amigos<span class="note-ref" data-ref="sal-89-20" title="Ver comentario">&#42;</span> diciendo:
 
 «He prestado mi asistencia a un bravo,
 
@@ -7321,7 +7321,7 @@ y no observan mis mandatos,
 
 sus culpas a latigazos,
 
-<sup>34</sup> pero no retiraré* mi amor,
+<sup>34</sup> pero no retiraré<span class="note-ref" data-ref="sal-89-34" title="Ver comentario">&#42;</span> mi amor,
 
 no fallaré en mi lealtad.
 
@@ -7343,7 +7343,7 @@ testigo fidedigno en el cielo».
 
 <sup>39</sup> Pero lo has rechazado y despreciado,
 
-te has enfurecido contra tu ungido*;
+te has enfurecido contra tu ungido<span class="note-ref" data-ref="sal-89-39" title="Ver comentario">&#42;</span>;
 
 <sup>40</sup> has desechado la alianza con tu siervo,
 
@@ -7365,7 +7365,7 @@ y llenado de gozo a todos sus enemigos;
 
 no lo has sostenido en el combate.
 
-<sup>45</sup> Le has quitado su espléndido cetro*,
+<sup>45</sup> Le has quitado su espléndido cetro<span class="note-ref" data-ref="sal-89-45" title="Ver comentario">&#42;</span>,
 
 su trono por tierra has derribado;
 
@@ -7399,15 +7399,15 @@ así ultrajan las huellas de tu Ungido.
 
 <sup>53</sup> ¡Bendito sea por siempre Yahvé!
 
-¡Amén! ¡Amén!*
+¡Amén! ¡Amén!<span class="note-ref" data-ref="sal-89-53" title="Ver comentario">&#42;</span>
 
 ## <span class="subsection-title">SALMO 90 (89)</span>
-## <span class="subsection-title">Fragilidad del hombre*</span>
-<span id="chapter-90" class="chapter-marker" data-chapter="90">90</span><sup>1</sup> De Moisés*, hombre de Dios.
+## <span class="subsection-title">Fragilidad del hombre<span class="note-ref" data-ref="sal-90" title="Ver comentario">&#42;</span></span>
+<span id="chapter-90" class="chapter-marker" data-chapter="90">90</span><sup>1</sup> De Moisés<span class="note-ref" data-ref="sal-90-1-a" title="Ver comentario">&#42;</span>, hombre de Dios.
 
 Señor, tú has sido para nosotros
 
-un refugio* de edad en edad.
+un refugio<span class="note-ref" data-ref="sal-90-1-b" title="Ver comentario">&#42;</span> de edad en edad.
 
 <sup>2</sup> Antes de ser engendrados los montes,
 
@@ -7443,7 +7443,7 @@ nuestros secretos a la luz de tu rostro.
 
 <sup>9</sup> Bajo tu cólera declinan nuestros días,
 
-como un suspiro* gastamos nuestros años.
+como un suspiro<span class="note-ref" data-ref="sal-90-9" title="Ver comentario">&#42;</span> gastamos nuestros años.
 
 <sup>10</sup> Vivimos setenta años,
 
@@ -7459,11 +7459,11 @@ pasan presto y nosotros volamos.
 
 <sup>12</sup> ¡Enséñanos a contar nuestros días,
 
-para que entre la sensatez en nuestra cabeza*!
+para que entre la sensatez en nuestra cabeza<span class="note-ref" data-ref="sal-90-12" title="Ver comentario">&#42;</span>!
 
 <sup>13</sup> ¡Vuelve, Yahvé! ¿Hasta cuándo?
 
-Ten compasión de tus siervos*.
+Ten compasión de tus siervos<span class="note-ref" data-ref="sal-90-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Sácianos de tu amor por la mañana,
 
@@ -7479,15 +7479,15 @@ y tus hijos tu esplendor!
 
 <sup>17</sup> ¡La benevolencia del Señor sea con nosotros!
 
-¡Consolida tú la acción de nuestras manos*!
+¡Consolida tú la acción de nuestras manos<span class="note-ref" data-ref="sal-90-17" title="Ver comentario">&#42;</span>!
 
 ## <span class="subsection-title">SALMO 91 (90)</span>
-## <span class="subsection-title">Bajo las alas divinas*</span>
+## <span class="subsection-title">Bajo las alas divinas<span class="note-ref" data-ref="sal-91" title="Ver comentario">&#42;</span></span>
 <span id="chapter-91" class="chapter-marker" data-chapter="91">91</span><sup>1</sup> El que habita al amparo de Elyón
 
-y mora a la sombra de Shaddai*,
+y mora a la sombra de Shaddai<span class="note-ref" data-ref="sal-91-1" title="Ver comentario">&#42;</span>,
 
-<sup>2</sup> diga* a Yahvé: «Refugio, baluarte mío,
+<sup>2</sup> diga<span class="note-ref" data-ref="sal-91-2" title="Ver comentario">&#42;</span> a Yahvé: «Refugio, baluarte mío,
 
 mi Dios, en quien confío».
 
@@ -7507,7 +7507,7 @@ ni la saeta que vuela de día,
 
 <sup>6</sup> ni la peste que avanza en tinieblas,
 
-ni el azote que devasta a mediodía*.
+ni el azote que devasta a mediodía<span class="note-ref" data-ref="sal-91-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Aunque caigan mil a tu lado
 
@@ -7521,7 +7521,7 @@ verás la paga de los malvados,
 
 <sup>9</sup> tú que dices: «Yahvé es mi refugio»,
 
-y tomas a Elyón por defensa*.
+y tomas a Elyón por defensa<span class="note-ref" data-ref="sal-91-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> El mal no te alcanzará,
 
@@ -7535,7 +7535,7 @@ que te guarden en todos tus caminos.
 
 para que en piedra no tropiece tu pie;
 
-<sup>13</sup> pisarás sobre el león* y la víbora,
+<sup>13</sup> pisarás sobre el león<span class="note-ref" data-ref="sal-91-13" title="Ver comentario">&#42;</span> y la víbora,
 
 hollarás al leoncillo y al dragón.
 
@@ -7554,7 +7554,7 @@ lo salvaré y lo honraré.
 haré que vea mi salvación.
 
 ## <span class="subsection-title">SALMO 92 (91)</span>
-## <span class="subsection-title">Cántico del justo*</span>
+## <span class="subsection-title">Cántico del justo<span class="note-ref" data-ref="sal-92" title="Ver comentario">&#42;</span></span>
 <span id="chapter-92" class="chapter-marker" data-chapter="92">92</span><sup>1</sup> Salmo. Cántico. Para el día de sábado.
 
 <sup>2</sup> Es bueno dar gracias a Yahvé,
@@ -7589,15 +7589,15 @@ acabarán destruidos para siempre;
 
 <sup>9</sup> ¡pero tú eres eternamente excelso!
 
-<sup>10</sup> Mira cómo* perecen tus enemigos,
+<sup>10</sup> Mira cómo<span class="note-ref" data-ref="sal-92-10" title="Ver comentario">&#42;</span> perecen tus enemigos,
 
 se dispersan todos los malhechores.
 
 <sup>11</sup> Pero me dotas de la fuerza del búfalo,
 
-aceite nuevo derramas* sobre mí;
+aceite nuevo derramas<span class="note-ref" data-ref="sal-92-11" title="Ver comentario">&#42;</span> sobre mí;
 
-<sup>12</sup> veré la derrota del que me acecha*,
+<sup>12</sup> veré la derrota del que me acecha<span class="note-ref" data-ref="sal-92-12" title="Ver comentario">&#42;</span>,
 
 escucharé la caída de los malvados.
 
@@ -7618,14 +7618,14 @@ siguen llenos de frescura y lozanía,
 «Roca mía, en quien no hay falsedad».
 
 ## <span class="subsection-title">SALMO 93 (92)</span>
-## <span class="subsection-title">El Dios de majestad*</span>
+## <span class="subsection-title">El Dios de majestad<span class="note-ref" data-ref="sal-93" title="Ver comentario">&#42;</span></span>
 <span id="chapter-93" class="chapter-marker" data-chapter="93">93</span><sup>1</sup> Reina Yahvé, vestido de majestad,
 
 Yahvé, vestido y ceñido de poder,
 
 y así el orbe está seguro, no vacila.
 
-<sup>2</sup> Tu trono está firme desde antaño*,
+<sup>2</sup> Tu trono está firme desde antaño<span class="note-ref" data-ref="sal-93-2" title="Ver comentario">&#42;</span>,
 
 desde la eternidad existes tú.
 
@@ -7637,18 +7637,18 @@ los ríos levantan su bramido;
 
 <sup>4</sup> más que el ruido de aguas caudalosas,
 
-más imponente que las olas* del mar,
+más imponente que las olas<span class="note-ref" data-ref="sal-93-4" title="Ver comentario">&#42;</span> del mar,
 
 es imponente Yahvé en las alturas.
 
-<sup>5</sup> Son firmes del todo tus dictámenes*,
+<sup>5</sup> Son firmes del todo tus dictámenes<span class="note-ref" data-ref="sal-93-5-a" title="Ver comentario">&#42;</span>,
 
-la santidad es el ornato de tu casa*,
+la santidad es el ornato de tu casa<span class="note-ref" data-ref="sal-93-5-b" title="Ver comentario">&#42;</span>,
 
 oh Yahvé, por días sin término.
 
 ## <span class="subsection-title">SALMO 94 (93)</span>
-## <span class="subsection-title">El Dios de justicia*</span>
+## <span class="subsection-title">El Dios de justicia<span class="note-ref" data-ref="sal-94" title="Ver comentario">&#42;</span></span>
 <span id="chapter-94" class="chapter-marker" data-chapter="94">94</span><sup>1</sup> ¡Dios de la venganza, Yahvé,
 
 Dios de la venganza, aparece!
@@ -7691,11 +7691,11 @@ El que enseña a los hombres, ¿no conocerá?
 
 <sup>11</sup> Yahvé conoce los pensamientos del hombre,
 
-sabe que sólo son un soplo*.
+sabe que sólo son un soplo<span class="note-ref" data-ref="sal-94-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Feliz el hombre a quien educas, Yahvé,
 
-aquel a quien instruyes en tu ley*,
+aquel a quien instruyes en tu ley<span class="note-ref" data-ref="sal-94-12" title="Ver comentario">&#42;</span>,
 
 <sup>13</sup> para aliviarlo tras los días amargos,
 
@@ -7715,7 +7715,7 @@ tendrán buen fin los rectos de corazón.
 
 <sup>17</sup> Si Yahvé no viniese en mi ayuda,
 
-pronto habitaría en el silencio*.
+pronto habitaría en el silencio<span class="note-ref" data-ref="sal-94-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Cuando digo: «Vacila mi pie»,
 
@@ -7744,10 +7744,10 @@ los aniquilará por su malicia,
 los aniquilará Yahvé, nuestro Dios.
 
 ## <span class="subsection-title">SALMO 95 (94)</span>
-## <span class="subsection-title">Invitatorio*</span>
+## <span class="subsection-title">Invitatorio<span class="note-ref" data-ref="sal-95" title="Ver comentario">&#42;</span></span>
 <span id="chapter-95" class="chapter-marker" data-chapter="95">95</span><sup>1</sup> Venid, cantemos gozosos a Yahvé,
 
-aclamemos a la Roca* que nos salva;
+aclamemos a la Roca<span class="note-ref" data-ref="sal-95-1" title="Ver comentario">&#42;</span> que nos salva;
 
 <sup>2</sup> entremos en su presencia dándole gracias,
 
@@ -7779,13 +7779,13 @@ el rebaño de sus pastos.
 
 <sup>8</sup> «No seais tercos como en Meribá,
 
-como el día de Masá en el desierto*;
+como el día de Masá en el desierto<span class="note-ref" data-ref="sal-95-8" title="Ver comentario">&#42;</span>;
 
 <sup>9</sup> allí vuestros padres me probaron,
 
 me tentaron aunque vieron mis obras.
 
-<sup>10</sup> Cuarenta años me asqueó esa* generación,
+<sup>10</sup> Cuarenta años me asqueó esa<span class="note-ref" data-ref="sal-95-10" title="Ver comentario">&#42;</span> generación,
 
 y dije: Son gente de mente desviada,
 
@@ -7793,10 +7793,10 @@ que no reconocen mis caminos.
 
 <sup>11</sup> Por eso juré en mi cólera:
 
-¡No entrarán en mi reposo*!»
+¡No entrarán en mi reposo<span class="note-ref" data-ref="sal-95-11" title="Ver comentario">&#42;</span>!»
 
 ## <span class="subsection-title">SALMO 96 (95)</span>
-## <span class="subsection-title">Yahvé, rey y juez*</span>
+## <span class="subsection-title">Yahvé, rey y juez<span class="note-ref" data-ref="sal-96" title="Ver comentario">&#42;</span></span>
 <span id="chapter-96" class="chapter-marker" data-chapter="96">96</span><sup>1</sup> ¡Cantad a Yahvé un nuevo canto,
 
 canta a Yahvé, tierra entera,
@@ -7813,7 +7813,7 @@ sus maravillas a todos los pueblos.
 
 más temible que todos los dioses.
 
-<sup>5</sup> Pues nada son los dioses paganos*.
+<sup>5</sup> Pues nada son los dioses paganos<span class="note-ref" data-ref="sal-96-5" title="Ver comentario">&#42;</span>.
 
 Pero Yahvé hizo los cielos;
 
@@ -7825,7 +7825,7 @@ poder y esplendor en su santuario.
 
 tributad a Yahvé gloria y poder,
 
-<sup>8</sup> tributad a Yahvé la gloria de su nombre*.
+<sup>8</sup> tributad a Yahvé la gloria de su nombre<span class="note-ref" data-ref="sal-96-8" title="Ver comentario">&#42;</span>.
 
 Traed ofrendas, entrad en sus atrios,
 
@@ -7856,7 +7856,7 @@ Juzgará al mundo con justicia,
 a los pueblos con su lealtad.
 
 ## <span class="subsection-title">SALMO 97 (96)</span>
-## <span class="subsection-title">Yahvé triunfante*</span>
+## <span class="subsection-title">Yahvé triunfante<span class="note-ref" data-ref="sal-97" title="Ver comentario">&#42;</span></span>
 <span id="chapter-97" class="chapter-marker" data-chapter="97">97</span><sup>1</sup> ¡Reina Yahvé! ¡Exulte la tierra,
 
 se alegren las islas numerosas!
@@ -7873,7 +7873,7 @@ que abrasa en torno a sus adversarios;
 
 lo ve la tierra y se estremece.
 
-<sup>5</sup> Los montes se derriten como cera*,
+<sup>5</sup> Los montes se derriten como cera<span class="note-ref" data-ref="sal-97-5" title="Ver comentario">&#42;</span>,
 
 ante el Dueño de toda la tierra;
 
@@ -7889,7 +7889,7 @@ todos los dioses le rinden homenaje!
 
 <sup>8</sup> Sión lo oye y se alboroza,
 
-exultan las ciudades de Judá*
+exultan las ciudades de Judá<span class="note-ref" data-ref="sal-97-8" title="Ver comentario">&#42;</span>
 
 a causa de tus juicios, Yahvé.
 
@@ -7899,13 +7899,13 @@ Altísimo sobre toda la tierra,
 
 por encima de todos los dioses.
 
-<sup>10</sup> Yahvé ama al que odia el mal*,
+<sup>10</sup> Yahvé ama al que odia el mal<span class="note-ref" data-ref="sal-97-10" title="Ver comentario">&#42;</span>,
 
 preserva la vida de sus fieles,
 
 los libra de la mano del malvado.
 
-<sup>11</sup> La luz despunta* para el justo,
+<sup>11</sup> La luz despunta<span class="note-ref" data-ref="sal-97-11" title="Ver comentario">&#42;</span> para el justo,
 
 el gozo para los rectos de corazón.
 
@@ -7914,7 +7914,7 @@ el gozo para los rectos de corazón.
 celebrad su memoria sagrada.
 
 ## <span class="subsection-title">SALMO 98 (97)</span>
-## <span class="subsection-title">El juez de la tierra*</span>
+## <span class="subsection-title">El juez de la tierra<span class="note-ref" data-ref="sal-98" title="Ver comentario">&#42;</span></span>
 <span id="chapter-98" class="chapter-marker" data-chapter="98">98</span><sup>1</sup> Salmo.
 
 ¡Cantad a Yahvé un nuevo canto,
@@ -7941,11 +7941,11 @@ la salvación de nuestro Dios.
 
 gritad alegres, gozosos, cantad!
 
-<sup>5</sup> Tañed a Yahvé con la cítara*,
+<sup>5</sup> Tañed a Yahvé con la cítara<span class="note-ref" data-ref="sal-98-5" title="Ver comentario">&#42;</span>,
 
 con la cítara al son de instrumentos;
 
-<sup>6</sup> al son de trompetas y del cuerno*
+<sup>6</sup> al son de trompetas y del cuerno<span class="note-ref" data-ref="sal-98-6" title="Ver comentario">&#42;</span>
 
 aclamad ante el rey Yahvé.
 
@@ -7966,7 +7966,7 @@ Juzgará el mundo con justicia,
 a los pueblos con equidad.
 
 ## <span class="subsection-title">SALMO 99 (98)</span>
-## <span class="subsection-title">Dios, rey justo y santo*</span>
+## <span class="subsection-title">Dios, rey justo y santo<span class="note-ref" data-ref="sal-99" title="Ver comentario">&#42;</span></span>
 <span id="chapter-99" class="chapter-marker" data-chapter="99">99</span><sup>1</sup> Reina Yahvé, tiemblan los pueblos;
 
 entronizado sobre querubines, vacila la tierra.
@@ -7979,7 +7979,7 @@ excelso sobre todos los pueblos.
 
 Él es santo.
 
-<sup>4</sup> Poderoso* rey que ama la justicia,
+<sup>4</sup> Poderoso<span class="note-ref" data-ref="sal-99-4" title="Ver comentario">&#42;</span> rey que ama la justicia,
 
 tú has establecido la base del derecho,
 
@@ -7991,7 +7991,7 @@ postraos ante el estrado de sus pies:
 
 Él es santo.
 
-<sup>6</sup> Moisés y Aarón entre sus sacerdotes*,
+<sup>6</sup> Moisés y Aarón entre sus sacerdotes<span class="note-ref" data-ref="sal-99-6" title="Ver comentario">&#42;</span>,
 
 Samuel entre los que invocaban su nombre,
 
@@ -8007,7 +8007,7 @@ la ley que él les entregó.
 
 eras para ellos un Dios de perdón,
 
-aunque vengabas sus delitos*.
+aunque vengabas sus delitos<span class="note-ref" data-ref="sal-99-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Exaltad a Yahvé, nuestro Dios,
 
@@ -8016,7 +8016,7 @@ postraos en su monte santo:
 santo es Yahvé, nuestro Dios.
 
 ## <span class="subsection-title">SALMO 100 (99)</span>
-## <span class="subsection-title">Exhortación a la alabanza*</span>
+## <span class="subsection-title">Exhortación a la alabanza<span class="note-ref" data-ref="sal-100" title="Ver comentario">&#42;</span></span>
 <span id="chapter-100" class="chapter-marker" data-chapter="100">100</span><sup>1</sup> Salmo. Para la acción de gracias.
 
 ¡Aclama a Yahvé, tierra entera,
@@ -8037,12 +8037,12 @@ por sus atrios cantando alabanzas,
 
 dadle gracias, bendecid su nombre.
 
-<sup>5</sup> Pues bueno es Yahvé y eterno su amor*,
+<sup>5</sup> Pues bueno es Yahvé y eterno su amor<span class="note-ref" data-ref="sal-100-5" title="Ver comentario">&#42;</span>,
 
 su lealtad perdura de edad en edad.
 
 ## <span class="subsection-title">SALMO 101 (100)</span>
-## <span class="subsection-title">Espejo de príncipes*</span>
+## <span class="subsection-title">Espejo de príncipes<span class="note-ref" data-ref="sal-101" title="Ver comentario">&#42;</span></span>
 <span id="chapter-101" class="chapter-marker" data-chapter="101">101</span><sup>1</sup> De David. Salmo.
 
 Cantaré al amor y a la justicia,
@@ -8051,7 +8051,7 @@ para ti tañeré, Yahvé;
 
 <sup>2</sup> iré por el camino perfecto:
 
-¿cuándo vendrás a mí*?
+¿cuándo vendrás a mí<span class="note-ref" data-ref="sal-101-2" title="Ver comentario">&#42;</span>?
 
 Procederé con corazón perfecto,
 
@@ -8059,7 +8059,7 @@ dentro de mi casa;
 
 <sup>3</sup> no pondré ante mis ojos
 
-cosa villana*.
+cosa villana<span class="note-ref" data-ref="sal-101-3" title="Ver comentario">&#42;</span>.
 
 Detesto la conducta criminal,
 
@@ -8093,7 +8093,7 @@ el mentiroso no persiste
 
 delante de mis ojos.
 
-<sup>8</sup> Cada mañana* voy a aniquilar
+<sup>8</sup> Cada mañana<span class="note-ref" data-ref="sal-101-8" title="Ver comentario">&#42;</span> voy a aniquilar
 
 a todos los malvados del país,
 
@@ -8102,7 +8102,7 @@ a extirpar de la ciudad de Yahvé
 a todos los malhechores.
 
 ## <span class="subsection-title">SALMO 102 (101)</span>
-## <span class="subsection-title">Oración en la desgracia*</span>
+## <span class="subsection-title">Oración en la desgracia<span class="note-ref" data-ref="sal-102" title="Ver comentario">&#42;</span></span>
 <span id="chapter-102" class="chapter-marker" data-chapter="102">102</span><sup>1</sup> Oración del afligido que, en su angustia, derrama su llanto ante Yahvé.
 
 <sup>2</sup> Escucha, Yahvé, mi oración,
@@ -8133,13 +8133,13 @@ mis huesos se pegan a mi piel.
 
 estoy como lechuza entre ruinas;
 
-<sup>8</sup> de continuo me desvelo y gimo*
+<sup>8</sup> de continuo me desvelo y gimo<span class="note-ref" data-ref="sal-102-8" title="Ver comentario">&#42;</span>
 
 cual solitario pájaro en tejado;
 
 <sup>9</sup> todo el día me insultan mis enemigos,
 
-los que me alaban maldicen por mi nombre*.
+los que me alaban maldicen por mi nombre<span class="note-ref" data-ref="sal-102-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Ceniza como en vez de pan,
 
@@ -8247,7 +8247,7 @@ que cura todas tus dolencias,
 
 te corona de amor y ternura,
 
-<sup>5</sup> satura de bienes tu existencia*,
+<sup>5</sup> satura de bienes tu existencia<span class="note-ref" data-ref="sal-103-5" title="Ver comentario">&#42;</span>,
 
 y tu juventud se renueva como la del águila.
 
@@ -8261,7 +8261,7 @@ a los hijos de Israel sus hazañas.
 
 <sup>8</sup> Yahvé es clemente y misericordioso,
 
-lento a la cólera y lleno de amor*;
+lento a la cólera y lleno de amor<span class="note-ref" data-ref="sal-103-8" title="Ver comentario">&#42;</span>;
 
 <sup>9</sup> no se querella eternamente,
 
@@ -8273,7 +8273,7 @@ ni nos paga según nuestras culpas.
 
 <sup>11</sup> Como se alzan sobre la tierra los cielos,
 
-igual de grande es su amor con sus adeptos*;
+igual de grande es su amor con sus adeptos<span class="note-ref" data-ref="sal-103-11" title="Ver comentario">&#42;</span>;
 
 <sup>12</sup> como dista el oriente del ocaso,
 
@@ -8326,7 +8326,7 @@ en todos los lugares de su imperio.
 ¡Bendice, alma mía, a Yahvé!
 
 ## <span class="subsection-title">SALMO 104 (103)</span>
-## <span class="subsection-title">Esplendores de la creación*</span>
+## <span class="subsection-title">Esplendores de la creación<span class="note-ref" data-ref="sal-104" title="Ver comentario">&#42;</span></span>
 <span id="chapter-104" class="chapter-marker" data-chapter="104">104</span><sup>1</sup> ¡Bendice, alma mía, a Yahvé!
 
 ¡Yahvé, Dios mío, qué grande eres!
@@ -8381,7 +8381,7 @@ que entonan su canto entre la fronda.
 
 <sup>13</sup> Riegas los montes desde tu alta morada,
 
-con la humedad de tus cámaras* saturas la tierra;
+con la humedad de tus cámaras<span class="note-ref" data-ref="sal-104-13" title="Ver comentario">&#42;</span> saturas la tierra;
 
 <sup>14</sup> haces brotar hierba para el ganado,
 
@@ -8401,11 +8401,11 @@ y los cedros del Líbano plantados por él;
 
 <sup>17</sup> allí ponen los pájaros su nido,
 
-su casa en su copa* la cigüeña.
+su casa en su copa<span class="note-ref" data-ref="sal-104-17" title="Ver comentario">&#42;</span> la cigüeña.
 
 <sup>18</sup> Los riscos acogen a los rebecos,
 
-las rocas cobijan a los damanes*.
+las rocas cobijan a los damanes<span class="note-ref" data-ref="sal-104-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Creó la luna para marcar los tiempos,
 
@@ -8457,7 +8457,7 @@ les retiras tu soplo y expiran,
 
 y retornan al polvo que son.
 
-<sup>30</sup> Si envías tu aliento, son creados*,
+<sup>30</sup> Si envías tu aliento, son creados<span class="note-ref" data-ref="sal-104-30" title="Ver comentario">&#42;</span>,
 
 y renuevas la faz de la tierra.
 
@@ -8481,10 +8481,10 @@ Yo tengo mi gozo en Yahvé.
 
 nunca más existan los malvados!
 
-¡Bendice, alma mía, a Yahvé*!
+¡Bendice, alma mía, a Yahvé<span class="note-ref" data-ref="sal-104-35" title="Ver comentario">&#42;</span>!
 
 ## <span class="subsection-title">SALMO 105 (104)</span>
-## <span class="subsection-title">La maravillosa historia de Israel*</span>
+## <span class="subsection-title">La maravillosa historia de Israel<span class="note-ref" data-ref="sal-105" title="Ver comentario">&#42;</span></span>
 ¡Aleluya!
 
 <span id="chapter-105" class="chapter-marker" data-chapter="105">105</span><sup>1</sup> ¡Dad gracias a Yahvé, invocad su nombre,
@@ -8509,7 +8509,7 @@ sus prodigios y los juicios de su boca!
 
 <sup>6</sup> Raza de Abrahán, su siervo,
 
-hijos de Jacob, su elegido*:
+hijos de Jacob, su elegido<span class="note-ref" data-ref="sal-105-6" title="Ver comentario">&#42;</span>:
 
 <sup>7</sup> él, Yahvé, es nuestro Dios,
 
@@ -8543,13 +8543,13 @@ yendo de un reino a otro pueblo,
 
 por ellos castigó a los reyes:
 
-<sup>15</sup> «Guardaos de tocar a mis ungidos*,
+<sup>15</sup> «Guardaos de tocar a mis ungidos<span class="note-ref" data-ref="sal-105-15" title="Ver comentario">&#42;</span>,
 
 no hagáis daño a mis profetas».
 
 <sup>16</sup> Trajo el hambre a aquel país,
 
-todo bastón de pan rompió*;
+todo bastón de pan rompió<span class="note-ref" data-ref="sal-105-16" title="Ver comentario">&#42;</span>;
 
 <sup>17</sup> a un hombre envió por delante,
 
@@ -8571,7 +8571,7 @@ el soberano de pueblos mandó soltarlo;
 
 soberano de toda su hacienda,
 
-<sup>22</sup> para instruir* a su gusto a sus magnates,
+<sup>22</sup> para instruir<span class="note-ref" data-ref="sal-105-22" title="Ver comentario">&#42;</span> a su gusto a sus magnates,
 
 y hacer sabios a sus ancianos.
 
@@ -8597,7 +8597,7 @@ prodigios en el país de Cam.
 
 <sup>28</sup> Mandó tinieblas, y hubo tinieblas,
 
-pero ellos desafiaron* sus palabras.
+pero ellos desafiaron<span class="note-ref" data-ref="sal-105-28" title="Ver comentario">&#42;</span> sus palabras.
 
 <sup>29</sup> Trocó sus aguas en sangre,
 
@@ -8643,7 +8643,7 @@ llenos como estaban de terror.
 
 un fuego que alumbrara en la noche.
 
-<sup>40</sup> Pidieron* y mandó codornices,
+<sup>40</sup> Pidieron<span class="note-ref" data-ref="sal-105-40" title="Ver comentario">&#42;</span> y mandó codornices,
 
 de pan del cielo los hartó;
 
@@ -8665,10 +8665,10 @@ el sudor de las naciones heredaron,
 
 <sup>45</sup> para que así guarden sus preceptos
 
-y observen todas sus leyes*.
+y observen todas sus leyes<span class="note-ref" data-ref="sal-105-45" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 106 (105)</span>
-## <span class="subsection-title">Confesión nacional*</span>
+## <span class="subsection-title">Confesión nacional<span class="note-ref" data-ref="sal-106" title="Ver comentario">&#42;</span></span>
 <span id="chapter-106" class="chapter-marker" data-chapter="106">106</span><sup>1</sup> ¡Aleluya!
 
 ¡Dad gracias a Yahvé porque es bueno,
@@ -8705,7 +8705,7 @@ no comprendieron tus prodigios.
 
 No se acordaron de tu gran misericordia,
 
-se rebelaron contra el Altísimo* junto al mar de Suf.
+se rebelaron contra el Altísimo<span class="note-ref" data-ref="sal-106-7" title="Ver comentario">&#42;</span> junto al mar de Suf.
 
 <sup>8</sup> Pero él los salvó por amor de su nombre,
 
@@ -8737,7 +8737,7 @@ a Dios tentaban en la estepa.
 
 <sup>15</sup> Él les concedió lo que pedían,
 
-y envió fiebre* a sus gargantas.
+y envió fiebre<span class="note-ref" data-ref="sal-106-15" title="Ver comentario">&#42;</span> a sus gargantas.
 
 <sup>16</sup> En el campamento envidiaron a Moisés,
 
@@ -8755,7 +8755,7 @@ una llama consumió a los malvados.
 
 ante una imagen fundida se postraron,
 
-<sup>20</sup> y fueron a cambiar su gloria*
+<sup>20</sup> y fueron a cambiar su gloria<span class="note-ref" data-ref="sal-106-20" title="Ver comentario">&#42;</span>
 
 por la imagen de un buey que come hierba.
 
@@ -8787,7 +8787,7 @@ no escucharon la voz de Yahvé.
 
 hacerles caer en el desierto,
 
-<sup>27</sup> desperdigar* su estirpe entre los pueblos,
+<sup>27</sup> desperdigar<span class="note-ref" data-ref="sal-106-27" title="Ver comentario">&#42;</span> su estirpe entre los pueblos,
 
 dispersarlos por todas las naciones.
 
@@ -8811,7 +8811,7 @@ de edad en edad, para siempre.
 
 y mal le fue a Moisés por su culpa,
 
-<sup>33</sup> pues llegaron a amargarle* el espíritu
+<sup>33</sup> pues llegaron a amargarle<span class="note-ref" data-ref="sal-106-33" title="Ver comentario">&#42;</span> el espíritu
 
 y habló a la ligera con sus labios.
 
@@ -8841,7 +8841,7 @@ y profanaron el país con crímenes.
 
 <sup>39</sup> Se mancillaron con sus obras,
 
-se prostituyeron* con sus prácticas.
+se prostituyeron<span class="note-ref" data-ref="sal-106-39" title="Ver comentario">&#42;</span> con sus prácticas.
 
 <sup>40</sup> Entonces se inflamó la cólera de Yahvé
 
@@ -8885,10 +8885,10 @@ y honrarnos cantando tu alabanza!
 
 desde siempre y para siempre!
 
-Y todo el pueblo diga: ¡Amén*!
+Y todo el pueblo diga: ¡Amén<span class="note-ref" data-ref="sal-106-48" title="Ver comentario">&#42;</span>!
 
 ## <span class="subsection-title">SALMO 107 (106)</span>
-## <span class="subsection-title">Dios salva al hombre de todo peligro*</span>
+## <span class="subsection-title">Dios salva al hombre de todo peligro<span class="note-ref" data-ref="sal-107" title="Ver comentario">&#42;</span></span>
 ¡Aleluya!
 
 <span id="chapter-107" class="chapter-marker" data-chapter="107">107</span><sup>1</sup> ¡Dad gracias a Yahvé porque es bueno,
@@ -8901,7 +8901,7 @@ los rescatados del poder del adversario,
 
 <sup>3</sup> los que ha reunido de todos los países,
 
-de oriente y poniente, del norte y mediodía*.
+de oriente y poniente, del norte y mediodía<span class="note-ref" data-ref="sal-107-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Por el desierto erraban, por la estepa,
 
@@ -8917,7 +8917,7 @@ y él los libró de sus angustias,
 
 <sup>7</sup> los condujo por el recto camino,
 
-hasta alcanzar un lugar habitado*.
+hasta alcanzar un lugar habitado<span class="note-ref" data-ref="sal-107-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> ¡Den gracias a Yahvé por su amor,
 
@@ -8969,7 +8969,7 @@ y él los libró de sus angustias.
 
 <sup>20</sup> Su palabra envió para sanarlos
 
-y arrancar sus vidas de la fosa*.
+y arrancar sus vidas de la fosa<span class="note-ref" data-ref="sal-107-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> ¡Den gracias a Yahvé por su amor,
 
@@ -9064,7 +9064,7 @@ los malvados se tapan la boca.
 y medite en el amor de Yahvé!
 
 ## <span class="subsection-title">SALMO 108 (107)</span>
-## <span class="subsection-title">Himno matinal y súplica nacional*</span>
+## <span class="subsection-title">Himno matinal y súplica nacional<span class="note-ref" data-ref="sal-108" title="Ver comentario">&#42;</span></span>
 <span id="chapter-108" class="chapter-marker" data-chapter="108">108</span><sup>1</sup> Cántico. Salmo. De David.
 
 <sup>2</sup> A punto está mi corazón, oh Dios
@@ -9128,7 +9128,7 @@ que es vano el socorro del hombre.
 él machacará a nuestros adversarios!
 
 ## <span class="subsection-title">SALMO 109 (108)</span>
-## <span class="subsection-title">Salmo imprecatorio*</span>
+## <span class="subsection-title">Salmo imprecatorio<span class="note-ref" data-ref="sal-109" title="Ver comentario">&#42;</span></span>
 <span id="chapter-109" class="chapter-marker" data-chapter="109">109</span><sup>1</sup> Del maestro de coro. De David. Salmo.
 
 ¡Oh Dios de mi alabanza, no calles!
@@ -9145,7 +9145,7 @@ me hacen la guerra sin razón.
 
 <sup>4</sup> En pago de mi amor me acusan,
 
-mientras yo rezaba por ellos*;
+mientras yo rezaba por ellos<span class="note-ref" data-ref="sal-109-4" title="Ver comentario">&#42;</span>;
 
 <sup>5</sup> me devuelven mal por bien,
 
@@ -9153,7 +9153,7 @@ odio en cambio de amor:
 
 <sup>6</sup> «¡Suscita a un malvado contra él,
 
-que un fiscal* se ponga a su diestra;
+que un fiscal<span class="note-ref" data-ref="sal-109-6" title="Ver comentario">&#42;</span> se ponga a su diestra;
 
 <sup>7</sup> que en el juicio resulte culpable,
 
@@ -9169,7 +9169,7 @@ quede viuda su mujer!
 
 <sup>10</sup> ¡Que sus hijos vaguen mendigando,
 
-sean expulsados* de sus ruinas;
+sean expulsados<span class="note-ref" data-ref="sal-109-10" title="Ver comentario">&#42;</span> de sus ruinas;
 
 <sup>11</sup> que el acreedor se quede con sus bienes
 
@@ -9199,11 +9199,11 @@ al de abatido corazón para matarlo;
 
 <sup>17</sup> amó la maldición, sobre él recaiga,
 
-no quiso bendición: que de él se aleje*.
+no quiso bendición: que de él se aleje<span class="note-ref" data-ref="sal-109-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Se vistió la maldición como un manto:
 
-¡que penetre como agua en su seno*,
+¡que penetre como agua en su seno<span class="note-ref" data-ref="sal-109-18" title="Ver comentario">&#42;</span>,
 
 que entre como aceite en sus huesos!
 
@@ -9262,16 +9262,16 @@ en medio de la multitud lo alabaré:
 para arrancar su vida de los jueces.
 
 ## <span class="subsection-title">SALMO 110 (109)</span>
-## <span class="subsection-title">El sacerdocio del Mesías*</span>
+## <span class="subsection-title">El sacerdocio del Mesías<span class="note-ref" data-ref="sal-110" title="Ver comentario">&#42;</span></span>
 <span id="chapter-110" class="chapter-marker" data-chapter="110">110</span><sup>1</sup> De David. Salmo.
 
 Oráculo de Yahvé a mi Señor:
 
-«Siéntate a mi diestra*,
+«Siéntate a mi diestra<span class="note-ref" data-ref="sal-110-1-a" title="Ver comentario">&#42;</span>,
 
 hasta que haga de tus enemigos
 
-estrado de tus pies*».
+estrado de tus pies<span class="note-ref" data-ref="sal-110-1-b" title="Ver comentario">&#42;</span>».
 
 <sup>2</sup> El cetro de tu poder
 
@@ -9287,7 +9287,7 @@ un esplendor sagrado
 
 llevas desde el seno materno,
 
-desde la aurora de tu juventud*.
+desde la aurora de tu juventud<span class="note-ref" data-ref="sal-110-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Lo ha jurado Yahvé
 
@@ -9299,7 +9299,7 @@ según el orden de Melquisedec».
 
 <sup>5</sup> El Señor está a tu derecha,
 
-quebranta* a los reyes el día de su cólera;
+quebranta<span class="note-ref" data-ref="sal-110-5" title="Ver comentario">&#42;</span> a los reyes el día de su cólera;
 
 <sup>6</sup> sentencia a las naciones,
 
@@ -9309,12 +9309,12 @@ quebranta cabezas
 
 a lo ancho de la tierra.
 
-<sup>7</sup> Junto al camino bebe del torrente*,
+<sup>7</sup> Junto al camino bebe del torrente<span class="note-ref" data-ref="sal-110-7-a" title="Ver comentario">&#42;</span>,
 
-por eso levanta la cabeza*.
+por eso levanta la cabeza<span class="note-ref" data-ref="sal-110-7-b" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 111 (110)</span>
-## <span class="subsection-title">Elogio de las obras divinas*</span>
+## <span class="subsection-title">Elogio de las obras divinas<span class="note-ref" data-ref="sal-111" title="Ver comentario">&#42;</span></span>
 <span id="chapter-111" class="chapter-marker" data-chapter="111">111</span><sup>1</sup> ¡Aleluya!
 
 ## Alef.
@@ -9343,7 +9343,7 @@ su justicia permanece para siempre.
 
 ## Zain.
 
-<sup>4</sup> De sus proezas dejó un memorial*.
+<sup>4</sup> De sus proezas dejó un memorial<span class="note-ref" data-ref="sal-111-4" title="Ver comentario">&#42;</span>.
 
 ## Jet.
 
@@ -9351,7 +9351,7 @@ su justicia permanece para siempre.
 
 ## Tet.
 
-<sup>5</sup> Dio de comer a quienes lo honran*,
+<sup>5</sup> Dio de comer a quienes lo honran<span class="note-ref" data-ref="sal-111-5" title="Ver comentario">&#42;</span>,
 
 ## Yod.
 
@@ -9406,7 +9406,7 @@ son cuerdos los que lo practican.
 Su alabanza permanece para siempre.
 
 ## <span class="subsection-title">SALMO 112 (111)</span>
-## <span class="subsection-title">Elogio del justo*</span>
+## <span class="subsection-title">Elogio del justo<span class="note-ref" data-ref="sal-112" title="Ver comentario">&#42;</span></span>
 <span id="chapter-112" class="chapter-marker" data-chapter="112">112</span><sup>1</sup> ¡Aleluya!
 
 ## Alef.
@@ -9431,7 +9431,7 @@ la raza de los rectos será bendita.
 
 ## Vau.
 
-se afianzará su justicia* para siempre.
+se afianzará su justicia<span class="note-ref" data-ref="sal-112-3" title="Ver comentario">&#42;</span> para siempre.
 
 ## Zain.
 
@@ -9439,7 +9439,7 @@ se afianzará su justicia* para siempre.
 
 ## Jet.
 
-tierno, clemente y justo*.
+tierno, clemente y justo<span class="note-ref" data-ref="sal-112-4" title="Ver comentario">&#42;</span>.
 
 ## Tet.
 
@@ -9483,7 +9483,7 @@ su justicia permanece para siempre,
 
 ## Qof.
 
-alzará su frente con honor*.
+alzará su frente con honor<span class="note-ref" data-ref="sal-112-9" title="Ver comentario">&#42;</span>.
 
 ## Reš.
 
@@ -9498,7 +9498,7 @@ rechinando sus dientes, se consume.
 Los afanes del malvado fracasan.
 
 ## <span class="subsection-title">SALMO 113 (112)</span>
-## <span class="subsection-title">Al Dios de gloria y de piedad*</span>
+## <span class="subsection-title">Al Dios de gloria y de piedad<span class="note-ref" data-ref="sal-113" title="Ver comentario">&#42;</span></span>
 <span id="chapter-113" class="chapter-marker" data-chapter="113">113</span><sup>1</sup> ¡Aleluya!
 
 ¡Alabad, siervos de Yahvé,
@@ -9533,11 +9533,11 @@ en medio de los nobles de su pueblo.
 
 <sup>9</sup> Asienta a la estéril en su casa,
 
-como madre feliz con hijos*.
+como madre feliz con hijos<span class="note-ref" data-ref="sal-113-9" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 114 (113 A)</span>
-## <span class="subsection-title">Himno Pascual*</span>
-¡Aleluya*!
+## <span class="subsection-title">Himno Pascual<span class="note-ref" data-ref="sal-114-a" title="Ver comentario">&#42;</span></span>
+¡Aleluya<span class="note-ref" data-ref="sal-114-b" title="Ver comentario">&#42;</span>!
 
 <span id="chapter-114" class="chapter-marker" data-chapter="114">114</span><sup>1</sup> Al salir Israel de Egipto,
 
@@ -9572,7 +9572,7 @@ en presencia del Dios de Jacob,
 y hace del pedernal una fuente.
 
 ## <span class="subsection-title">SALMO 115 (113 B)</span>
-## <span class="subsection-title">El único Dios verdadero*</span>
+## <span class="subsection-title">El único Dios verdadero<span class="note-ref" data-ref="sal-115" title="Ver comentario">&#42;</span></span>
 <span id="chapter-115" class="chapter-marker" data-chapter="115">115</span><sup>1</sup> ¡No a nosotros, Yahvé, no a nosotros,
 
 sino a tu nombre da gloria,
@@ -9619,7 +9619,7 @@ los que en ellos ponen su confianza!
 
 <sup>11</sup> leales a Yahvé, confiad en Yahvé,
 
-él es su auxilio y su escudo*.
+él es su auxilio y su escudo<span class="note-ref" data-ref="sal-115-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Yahvé se acuerda y nos bendice:
 
@@ -9647,13 +9647,13 @@ la tierra se la ha dado al hombre.
 
 ninguno de los que bajan al Silencio.
 
-<sup>18</sup> Nosotros, los vivos*, bendecimos a Yahvé,
+<sup>18</sup> Nosotros, los vivos<span class="note-ref" data-ref="sal-115-18" title="Ver comentario">&#42;</span>, bendecimos a Yahvé,
 
 desde ahora y por siempre.
 
 ## <span class="subsection-title">SALMO 116 (114-115)</span>
 ## <span class="subsection-title">Acción de gracias</span>
-¡Aleluya*!
+¡Aleluya<span class="note-ref" data-ref="sal-116" title="Ver comentario">&#42;</span>!
 
 <span id="chapter-116" class="chapter-marker" data-chapter="116">116</span><sup>1</sup> Amo a Yahvé porque escucha
 
@@ -9661,11 +9661,11 @@ mi voz suplicante;
 
 <sup>2</sup> porque inclina su oído hacia mí
 
-el día que* lo llamo.
+el día que<span class="note-ref" data-ref="sal-116-2" title="Ver comentario">&#42;</span> lo llamo.
 
 <sup>3</sup> Me aferraban los lazos de la muerte,
 
-me sorprendieron las redes* del Seol;
+me sorprendieron las redes<span class="note-ref" data-ref="sal-116-3" title="Ver comentario">&#42;</span> del Seol;
 
 me encontraba triste y angustiado,
 
@@ -9685,7 +9685,7 @@ estaba yo postrado y me salvó.
 
 que el Señor te ha favorecido!
 
-<sup>8</sup> Ha* guardado mi vida de la muerte,
+<sup>8</sup> Ha<span class="note-ref" data-ref="sal-116-8" title="Ver comentario">&#42;</span> guardado mi vida de la muerte,
 
 mis ojos de las lágrimas,
 
@@ -9695,7 +9695,7 @@ mis pies de la caída.
 
 en el mundo de los vivos.
 
-<sup>10</sup> *¡Tengo fe, aún cuando digo:
+<sup>10</sup> <span class="note-ref" data-ref="sal-116-10" title="Ver comentario">&#42;</span>¡Tengo fe, aún cuando digo:
 
 «Mira que soy desdichado»!,
 
@@ -9707,7 +9707,7 @@ en el mundo de los vivos.
 
 todo el bien que me ha hecho?
 
-<sup>13</sup> Alzaré la copa de salvación*
+<sup>13</sup> Alzaré la copa de salvación<span class="note-ref" data-ref="sal-116-13" title="Ver comentario">&#42;</span>
 
 e invocaré el nombre de Yahvé.
 
@@ -9717,7 +9717,7 @@ en presencia de todo el pueblo.
 
 <sup>15</sup> Mucho le cuesta a Yahvé
 
-la muerte de los que lo aman*.
+la muerte de los que lo aman<span class="note-ref" data-ref="sal-116-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> ¡Ah, Yahvé, yo soy tu siervo,
 
@@ -9750,14 +9750,14 @@ ensalzadlo, pueblos todos!
 la lealtad de Yahvé dura para siempre.
 
 ## <span class="subsection-title">SALMO 118 (117)</span>
-## <span class="subsection-title">En la fiesta de las Tiendas*</span>
+## <span class="subsection-title">En la fiesta de las Tiendas<span class="note-ref" data-ref="sal-118" title="Ver comentario">&#42;</span></span>
 ¡Aleluya!
 
 <span id="chapter-118" class="chapter-marker" data-chapter="118">118</span><sup>1</sup> ¡Dad gracias a Yahvé, porque es bueno,
 
 porque es eterno su amor!
 
-<sup>2</sup> ¡Diga la casa* de Israel:
+<sup>2</sup> ¡Diga la casa<span class="note-ref" data-ref="sal-118-2" title="Ver comentario">&#42;</span> de Israel:
 
 es eterno su amor!
 
@@ -9791,7 +9791,7 @@ que poner la confianza en los nobles.
 
 <sup>10</sup> Me rodeaban todos los gentiles,
 
-en el nombre de Yahvé los rechacé*;
+en el nombre de Yahvé los rechacé<span class="note-ref" data-ref="sal-118-10" title="Ver comentario">&#42;</span>;
 
 <sup>11</sup> me rodeaban una y otra vez,
 
@@ -9799,11 +9799,11 @@ en el nombre de Yahvé los rechacé.
 
 <sup>12</sup> Me rodeaban lo mismo que avispas,
 
-llameaban* cual fuego de zarzas,
+llameaban<span class="note-ref" data-ref="sal-118-12" title="Ver comentario">&#42;</span> cual fuego de zarzas,
 
 en el nombre de Yahvé los rechacé.
 
-<sup>13</sup> ¡Cómo me empujaban* para tirarme!,
+<sup>13</sup> ¡Cómo me empujaban<span class="note-ref" data-ref="sal-118-13" title="Ver comentario">&#42;</span> para tirarme!,
 
 pero Yahvé vino en mi ayuda.
 
@@ -9847,17 +9847,17 @@ se ha convertido en la piedra angular;
 
 <sup>23</sup> esto ha sido obra de Yahvé,
 
-nos ha parecido un milagro*.
+nos ha parecido un milagro<span class="note-ref" data-ref="sal-118-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> ¡Éste es el día que hizo Yahvé,
 
-exultemos y gocémonos en él*!
+exultemos y gocémonos en él<span class="note-ref" data-ref="sal-118-24" title="Ver comentario">&#42;</span>!
 
 <sup>25</sup> ¡Yahvé, danos la salvación!
 
 ¡Danos el éxito, Yahvé!
 
-<sup>26</sup> ¡Bendito el que entra en nombre de Yahvé*!
+<sup>26</sup> ¡Bendito el que entra en nombre de Yahvé<span class="note-ref" data-ref="sal-118-26" title="Ver comentario">&#42;</span>!
 
 Os bendecimos desde la Casa de Yahvé.
 
@@ -9865,7 +9865,7 @@ Os bendecimos desde la Casa de Yahvé.
 
 ¡Cerrad la procesión, ramos en mano,
 
-hasta los ángulos del altar*!
+hasta los ángulos del altar<span class="note-ref" data-ref="sal-118-27" title="Ver comentario">&#42;</span>!
 
 <sup>28</sup> Tú eres mi Dios, te doy gracias,
 
@@ -9876,7 +9876,7 @@ Dios mío, quiero ensalzarte.
 porque es eterno su amor!
 
 ## <span class="subsection-title">SALMO 119 (118)</span>
-## <span class="subsection-title">Elogio de la ley divina*</span>
+## <span class="subsection-title">Elogio de la ley divina<span class="note-ref" data-ref="sal-119" title="Ver comentario">&#42;</span></span>
 ## Alef.
 
 <span id="chapter-119" class="chapter-marker" data-chapter="119">119</span><sup>1</sup> Dichosos los que caminan rectamente,
@@ -9947,7 +9947,7 @@ no olvido tu palabra.
 
 ## Guímel.
 
-<sup>17</sup> Favorece a tu siervo y viviré*,
+<sup>17</sup> Favorece a tu siervo y viviré<span class="note-ref" data-ref="sal-119-17" title="Ver comentario">&#42;</span>,
 
 y así guardaré tu palabra.
 
@@ -9963,11 +9963,11 @@ no me ocultes tus mandamientos.
 
 tus normas en todo tiempo.
 
-<sup>21</sup> Tú has increpado a los soberbios*,
+<sup>21</sup> Tú has increpado a los soberbios<span class="note-ref" data-ref="sal-119-21" title="Ver comentario">&#42;</span>,
 
 ¡malditos los que se apartan de tus mandatos!
 
-<sup>22</sup> Aleja de mí* oprobio y menosprecio,
+<sup>22</sup> Aleja de mí<span class="note-ref" data-ref="sal-119-22" title="Ver comentario">&#42;</span> oprobio y menosprecio,
 
 porque he guardado tus dictámenes.
 
@@ -9977,7 +9977,7 @@ tu siervo medita en tus preceptos.
 
 <sup>24</sup> Tus dictámenes hacen mis delicias,
 
-tus preceptos* son mis consejeros.
+tus preceptos<span class="note-ref" data-ref="sal-119-24" title="Ver comentario">&#42;</span> son mis consejeros.
 
 ## Dálet.
 
@@ -10017,9 +10017,9 @@ pues tú dilatas mi corazón.
 
 <sup>33</sup> Enséñame, Yahvé, el camino de tus preceptos,
 
-lo quiero recorrer como recompensa*.
+lo quiero recorrer como recompensa<span class="note-ref" data-ref="sal-119-33" title="Ver comentario">&#42;</span>.
 
-<sup>34</sup> Dame inteligencia* para guardar tu ley
+<sup>34</sup> Dame inteligencia<span class="note-ref" data-ref="sal-119-34" title="Ver comentario">&#42;</span> para guardar tu ley
 
 y observarla de todo corazón.
 
@@ -10033,7 +10033,7 @@ y no a ganancias injustas.
 
 <sup>37</sup> Aparta mis ojos de la vanidad,
 
-hazme vivir por tu palabra*.
+hazme vivir por tu palabra<span class="note-ref" data-ref="sal-119-37" title="Ver comentario">&#42;</span>.
 
 <sup>38</sup> Mantén a tu siervo tu promesa,
 
@@ -10057,7 +10057,7 @@ tu salvación, conforme a tu promesa!
 
 porque confío en tu palabra.
 
-<sup>43</sup> No apartes de mi boca la palabra veraz*,
+<sup>43</sup> No apartes de mi boca la palabra veraz<span class="note-ref" data-ref="sal-119-43" title="Ver comentario">&#42;</span>,
 
 pues tengo esperanza en tus mandamientos.
 
@@ -10067,7 +10067,7 @@ para siempre jamás.
 
 <sup>45</sup> Y andaré por camino anchuroso,
 
-pues voy buscando tus ordenanzas*.
+pues voy buscando tus ordenanzas<span class="note-ref" data-ref="sal-119-45" title="Ver comentario">&#42;</span>.
 
 <sup>46</sup> De tus dictámenes hablaré ante los reyes,
 
@@ -10223,7 +10223,7 @@ para que no quede avergonzado.
 
 espero en tu palabra.
 
-<sup>82</sup> Se consumen mis ojos en pos de tu promesa*:
+<sup>82</sup> Se consumen mis ojos en pos de tu promesa<span class="note-ref" data-ref="sal-119-82" title="Ver comentario">&#42;</span>:
 
 ¿Cuándo me consolarás?
 
@@ -10337,7 +10337,7 @@ dame la vida conforme a tu palabra.
 
 y hazme ver tu voluntad.
 
-<sup>109</sup> Mi vida está en mis manos sin cesar*,
+<sup>109</sup> Mi vida está en mis manos sin cesar<span class="note-ref" data-ref="sal-119-109" title="Ver comentario">&#42;</span>,
 
 pero no olvido tu ley.
 
@@ -10379,7 +10379,7 @@ y sin cesar me fijaré en tus preceptos.
 
 que utilizan la mentira en sus cálculos.
 
-<sup>119</sup> Consideras* escoria a los malvados de la tierra,
+<sup>119</sup> Consideras<span class="note-ref" data-ref="sal-119-119" title="Ver comentario">&#42;</span> escoria a los malvados de la tierra,
 
 por eso amo tus dictámenes.
 
@@ -10409,7 +10409,7 @@ enséñame tus preceptos.
 
 y aprenderé tus dictámenes.
 
-<sup>126</sup> Ya es hora de actuar, Yahvé*,
+<sup>126</sup> Ya es hora de actuar, Yahvé<span class="note-ref" data-ref="sal-119-126" title="Ver comentario">&#42;</span>,
 
 se ha violado tu ley.
 
@@ -10417,7 +10417,7 @@ se ha violado tu ley.
 
 más que el oro, que el oro fino.
 
-<sup>128</sup> También yo me guío* por tus preceptos
+<sup>128</sup> También yo me guío<span class="note-ref" data-ref="sal-119-128" title="Ver comentario">&#42;</span> por tus preceptos
 
 y aborrezco el camino de la mentira.
 
@@ -10465,7 +10465,7 @@ y rectos tus juicios!
 
 con colmada fidelidad.
 
-<sup>139</sup> Mi celo* me consume,
+<sup>139</sup> Mi celo<span class="note-ref" data-ref="sal-119-139" title="Ver comentario">&#42;</span> me consume,
 
 pues mis adversarios olvidan tus palabras.
 
@@ -10511,7 +10511,7 @@ a fin de meditar en tu promesa.
 
 dame vida conforme a tus juicios.
 
-<sup>150</sup> Se acercan a la infamia mis perseguidores*,
+<sup>150</sup> Se acercan a la infamia mis perseguidores<span class="note-ref" data-ref="sal-119-150" title="Ver comentario">&#42;</span>,
 
 se alejan de tu ley.
 
@@ -10621,7 +10621,7 @@ tu ley hace mis delicias.
 
 que tus disposiciones me ayuden.
 
-<sup>176</sup> Me he descarriado como oveja*,
+<sup>176</sup> Me he descarriado como oveja<span class="note-ref" data-ref="sal-119-176" title="Ver comentario">&#42;</span>,
 
 ven en busca de tu siervo.
 
@@ -10629,7 +10629,7 @@ No, no olvido tus mandamientos.
 
 ## <span class="subsection-title">SALMO 120 (119)</span>
 ## <span class="subsection-title">Los enemigos de la paz</span>
-<span id="chapter-120" class="chapter-marker" data-chapter="120">120</span><sup>1</sup> Canción de las subidas*
+<span id="chapter-120" class="chapter-marker" data-chapter="120">120</span><sup>1</sup> Canción de las subidas<span class="note-ref" data-ref="sal-120-1" title="Ver comentario">&#42;</span>
 
 A Yahvé, en mi angustia,
 
@@ -10639,7 +10639,7 @@ grité y me respondió.
 
 de la lengua tramposa!
 
-<sup>3</sup> ¿Qué te dará y te añadirá*,
+<sup>3</sup> ¿Qué te dará y te añadirá<span class="note-ref" data-ref="sal-120-3" title="Ver comentario">&#42;</span>,
 
 lengua tramposa?
 
@@ -10647,7 +10647,7 @@ lengua tramposa?
 
 y ascuas de retama!
 
-<sup>5</sup> ¡Ay de mí, que vivo en Mésec*,
+<sup>5</sup> ¡Ay de mí, que vivo en Mésec<span class="note-ref" data-ref="sal-120-5" title="Ver comentario">&#42;</span>,
 
 que habito en la tiendas de Quedar!
 
@@ -10660,7 +10660,7 @@ con los que odian la paz.
 ellos prefieren guerra.
 
 ## <span class="subsection-title">SALMO 121 (120)</span>
-## <span class="subsection-title">El guardián de Israel*</span>
+## <span class="subsection-title">El guardián de Israel<span class="note-ref" data-ref="sal-121" title="Ver comentario">&#42;</span></span>
 <span id="chapter-121" class="chapter-marker" data-chapter="121">121</span><sup>1</sup> Canción para las subidas.
 
 Alzo mis ojos a los montes,
@@ -10696,7 +10696,7 @@ es el guardián de tu vida.
 desde ahora para siempre.
 
 ## <span class="subsection-title">SALMO 122 (121)</span>
-## <span class="subsection-title">Saludo a Jerusalén*</span>
+## <span class="subsection-title">Saludo a Jerusalén<span class="note-ref" data-ref="sal-122" title="Ver comentario">&#42;</span></span>
 <span id="chapter-122" class="chapter-marker" data-chapter="122">122</span><sup>1</sup> Canción de las subidas. De David.
 
 ¡Qué alegría cuando me dijeron:
@@ -10709,13 +10709,13 @@ tus umbrales, Jerusalén!
 
 <sup>3</sup> Jerusalén, ciudad edificada
 
-toda en perfecta armonía*,
+toda en perfecta armonía<span class="note-ref" data-ref="sal-122-3" title="Ver comentario">&#42;</span>,
 
 <sup>4</sup> adonde suben las tribus,
 
 las tribus de Yahvé,
 
-según costumbre en Israel*,
+según costumbre en Israel<span class="note-ref" data-ref="sal-122-4" title="Ver comentario">&#42;</span>,
 
 a dar gracias al nombre de Yahvé.
 
@@ -10725,7 +10725,7 @@ los tronos de la casa de David.
 
 <sup>6</sup> Invocad la paz sobre Jerusalén,
 
-vivan tranquilos los que te aman*,
+vivan tranquilos los que te aman<span class="note-ref" data-ref="sal-122-6" title="Ver comentario">&#42;</span>,
 
 <sup>7</sup> haya calma dentro de tus muros,
 
@@ -10740,7 +10740,7 @@ quiero decir: ¡La paz contigo!
 pediré todo bien para ti.
 
 ## <span class="subsection-title">SALMO 123 (122)</span>
-## <span class="subsection-title">Oración de los afligidos*</span>
+## <span class="subsection-title">Oración de los afligidos<span class="note-ref" data-ref="sal-123" title="Ver comentario">&#42;</span></span>
 <span id="chapter-123" class="chapter-marker" data-chapter="123">123</span><sup>1</sup> Canción de las subidas.
 
 A ti levanto mis ojos,
@@ -10767,15 +10767,15 @@ que estamos hartos de desprecio!
 
 del sarcasmo de los satisfechos.
 
-(¡Los soberbios merecen el desprecio*!)
+(¡Los soberbios merecen el desprecio<span class="note-ref" data-ref="sal-123-4" title="Ver comentario">&#42;</span>!)
 
 ## <span class="subsection-title">SALMO 124 (123)</span>
-## <span class="subsection-title">El salvador de Israel*</span>
+## <span class="subsection-title">El salvador de Israel<span class="note-ref" data-ref="sal-124" title="Ver comentario">&#42;</span></span>
 <span id="chapter-124" class="chapter-marker" data-chapter="124">124</span><sup>1</sup> Canción de las subidas. De David.
 
 Si Yahvé no hubiera estado por nosotros
 
-–que lo diga Israel*–,
+–que lo diga Israel<span class="note-ref" data-ref="sal-124-1" title="Ver comentario">&#42;</span>–,
 
 <sup>2</sup> si Yahvé no hubiera estado por nosotros,
 
@@ -10842,7 +10842,7 @@ los suprima Yahvé con los malhechores!
 ¡Paz a Israel!
 
 ## <span class="subsection-title">SALMO 126 (125)</span>
-## <span class="subsection-title">Canto del regreso*</span>
+## <span class="subsection-title">Canto del regreso<span class="note-ref" data-ref="sal-126" title="Ver comentario">&#42;</span></span>
 <span id="chapter-126" class="chapter-marker" data-chapter="126">126</span><sup>1</sup> Canción de las subidas.
 
 Cuando Yahvé repatrió a los cautivos de Sión,
@@ -10863,7 +10863,7 @@ Yahvé, y estamos alegres!
 
 <sup>4</sup> ¡Recoge, Yahvé, a nuestros cautivos,
 
-sean como torrentes del Negueb*!
+sean como torrentes del Negueb<span class="note-ref" data-ref="sal-126-4" title="Ver comentario">&#42;</span>!
 
 <sup>5</sup> Los que van sembrando con lágrimas
 
@@ -10878,7 +10878,7 @@ y vuelven cantando,
 trayendo sus gavillas.
 
 ## <span class="subsection-title">SALMO 127 (126)</span>
-## <span class="subsection-title">Abandono en la Providencia*</span>
+## <span class="subsection-title">Abandono en la Providencia<span class="note-ref" data-ref="sal-127" title="Ver comentario">&#42;</span></span>
 <span id="chapter-127" class="chapter-marker" data-chapter="127">127</span><sup>1</sup> Canción de las subidas. De Salomón.
 
 Si Yahvé no construye la casa,
@@ -10895,7 +10895,7 @@ y después retrasáis el descanso
 
 los que coméis pan con fatiga,
 
-¡si se lo da a su amado mientras duerme*!
+¡si se lo da a su amado mientras duerme<span class="note-ref" data-ref="sal-127-2" title="Ver comentario">&#42;</span>!
 
 <sup>3</sup> La herencia de Yahvé son los hijos,
 
@@ -10911,10 +10911,10 @@ con esas flechas su aljaba;
 
 no se avergonzará cuando litigue
 
-con sus enemigos en la puerta*.
+con sus enemigos en la puerta<span class="note-ref" data-ref="sal-127-5" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 128 (127)</span>
-## <span class="subsection-title">Bendición del justo*</span>
+## <span class="subsection-title">Bendición del justo<span class="note-ref" data-ref="sal-128" title="Ver comentario">&#42;</span></span>
 <span id="chapter-128" class="chapter-marker" data-chapter="128">128</span><sup>1</sup> Canción de las subidas.
 
 ¡Dichosos los que temen a Yahvé
@@ -10951,7 +10951,7 @@ todos los días de tu vida,
 ## <span class="subsection-title">Contra los enemigos de Sión</span>
 <span id="chapter-129" class="chapter-marker" data-chapter="129">129</span><sup>1</sup> Canción de las subidas.
 
-Mucho me han atacado desde mi juventud*
+Mucho me han atacado desde mi juventud<span class="note-ref" data-ref="sal-129-1" title="Ver comentario">&#42;</span>
 
 –que lo diga Israel–,
 
@@ -10973,7 +10973,7 @@ todos los que odian a Sión;
 
 <sup>6</sup> sean como hierba del tejado,
 
-que se seca antes de arrancarla*!
+que se seca antes de arrancarla<span class="note-ref" data-ref="sal-129-6" title="Ver comentario">&#42;</span>!
 
 <sup>7</sup> El segador no llena con ella su mano
 
@@ -10986,7 +10986,7 @@ ni su regazo el gavillador;
 Nosotros os bendecimos en el nombre de Yahvé.
 
 ## <span class="subsection-title">SALMO 130 (129)</span>
-## <span class="subsection-title">De profundis*</span>
+## <span class="subsection-title">De profundis<span class="note-ref" data-ref="sal-130" title="Ver comentario">&#42;</span></span>
 <span id="chapter-130" class="chapter-marker" data-chapter="130">130</span><sup>1</sup> Canción de las subidas.
 
 Desde lo hondo a ti grito, Yahvé:
@@ -11003,7 +11003,7 @@ a la voz de mis súplicas!
 
 <sup>4</sup> Pero el perdón está contigo,
 
-para ser así respetado*.
+para ser así respetado<span class="note-ref" data-ref="sal-130-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Aguardo anhelante a Yahvé,
 
@@ -11015,7 +11015,7 @@ más que el centinela a la aurora;
 
 más que el centinela a la aurora,
 
-<sup>7</sup> aguarde Israel a Yahvé*.
+<sup>7</sup> aguarde Israel a Yahvé<span class="note-ref" data-ref="sal-130-7" title="Ver comentario">&#42;</span>.
 
 Yahvé está lleno de amor,
 
@@ -11026,7 +11026,7 @@ su redención es abundante;
 de todas sus culpas.
 
 ## <span class="subsection-title">SALMO 131 (130)</span>
-## <span class="subsection-title">Con espíritu de infancia*</span>
+## <span class="subsection-title">Con espíritu de infancia<span class="note-ref" data-ref="sal-131" title="Ver comentario">&#42;</span></span>
 <span id="chapter-131" class="chapter-marker" data-chapter="131">131</span><sup>1</sup> Canción de las subidas. De David.
 
 Mi corazón, Yahvé, no es engreído,
@@ -11048,7 +11048,7 @@ como niño en el regazo materno.
 desde ahora y por siempre!
 
 ## <span class="subsection-title">SALMO 132 (131)</span>
-## <span class="subsection-title">En el aniversario del traslado del arca*</span>
+## <span class="subsection-title">En el aniversario del traslado del arca<span class="note-ref" data-ref="sal-132" title="Ver comentario">&#42;</span></span>
 <span id="chapter-132" class="chapter-marker" data-chapter="132">132</span><sup>1</sup> Canción de las subidas.
 
 Acuérdate, Yahvé, de David,
@@ -11071,11 +11071,11 @@ ni quietud a mis párpados,
 
 una morada para el Fuerte de Jacob».
 
-<sup>6</sup> Sí, oímos de Ella* que está en Efratá,
+<sup>6</sup> Sí, oímos de Ella<span class="note-ref" data-ref="sal-132-6-a" title="Ver comentario">&#42;</span> que está en Efratá,
 
-¡la hemos encontrado en los Campos del Bosque*!
+¡la hemos encontrado en los Campos del Bosque<span class="note-ref" data-ref="sal-132-6-b" title="Ver comentario">&#42;</span>!
 
-<sup>7</sup> ¡Entremos en el lugar donde Él* habita,
+<sup>7</sup> ¡Entremos en el lugar donde Él<span class="note-ref" data-ref="sal-132-7" title="Ver comentario">&#42;</span> habita,
 
 postrémonos ante el estrado de sus pies!
 
@@ -11089,7 +11089,7 @@ griten de alegría tus amigos.
 
 <sup>10</sup> A causa de David, tu siervo,
 
-no rechaces el rostro de tu ungido*.
+no rechaces el rostro de tu ungido<span class="note-ref" data-ref="sal-132-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Yahvé ha jurado a David
 
@@ -11123,27 +11123,27 @@ hartaré de pan a sus pobres,
 
 sus amigos gritarán de júbilo.
 
-<sup>17</sup> Allí suscitaré un vástago* a David,
+<sup>17</sup> Allí suscitaré un vástago<span class="note-ref" data-ref="sal-132-17-a" title="Ver comentario">&#42;</span> a David,
 
-aprestaré una lámpara* a mi ungido;
+aprestaré una lámpara<span class="note-ref" data-ref="sal-132-17-b" title="Ver comentario">&#42;</span> a mi ungido;
 
 <sup>18</sup> cubriré de ignominia a sus enemigos,
 
-mas sobre él brillará su diadema*».
+mas sobre él brillará su diadema<span class="note-ref" data-ref="sal-132-18" title="Ver comentario">&#42;</span>».
 
 ## <span class="subsection-title">SALMO 132 (132)</span>
-## <span class="subsection-title">La unión fraterna*</span>
+## <span class="subsection-title">La unión fraterna<span class="note-ref" data-ref="sal-133" title="Ver comentario">&#42;</span></span>
 <span id="chapter-133" class="chapter-marker" data-chapter="133">133</span><sup>1</sup> Canción de las subidas. De David.
 
 ¡Mira que es bueno y da gusto
 
-que los hermanos convivan* juntos!
+que los hermanos convivan<span class="note-ref" data-ref="sal-133-1" title="Ver comentario">&#42;</span> juntos!
 
 <sup>2</sup> Como ungüento fino en la cabeza,
 
 que va bajando por la barba,
 
-que baja por la barba de Aarón*,
+que baja por la barba de Aarón<span class="note-ref" data-ref="sal-133-2" title="Ver comentario">&#42;</span>,
 
 hasta la orla de sus vestidos.
 
@@ -11156,7 +11156,7 @@ allí dispensa Yahvé bendición,
 la vida para siempre.
 
 ## <span class="subsection-title">SALMO 134 (133)</span>
-## <span class="subsection-title">Para la fiesta nocturna*</span>
+## <span class="subsection-title">Para la fiesta nocturna<span class="note-ref" data-ref="sal-134" title="Ver comentario">&#42;</span></span>
 <span id="chapter-134" class="chapter-marker" data-chapter="134">134</span><sup>1</sup> Canción de las subidas.
 
 ¡Vamos, bendecid a Yahvé
@@ -11165,7 +11165,7 @@ todos los siervos de Yahvé,
 
 que servís en la Casa de Yahvé,
 
-en los atrios de la Casa de nuestro Dios*!
+en los atrios de la Casa de nuestro Dios<span class="note-ref" data-ref="sal-134-1" title="Ver comentario">&#42;</span>!
 
 ¡Por las noches 2 alzad las manos al santuario,
 
@@ -11173,10 +11173,10 @@ y bendecid a Yahvé!
 
 <sup>3</sup> ¡Te bendiga desde Sión Yahvé,
 
-que hizo el cielo y la tierra*!
+que hizo el cielo y la tierra<span class="note-ref" data-ref="sal-134-3" title="Ver comentario">&#42;</span>!
 
 ## <span class="subsection-title">SALMO 135 (134)</span>
-## <span class="subsection-title">Himno de laudes*</span>
+## <span class="subsection-title">Himno de laudes<span class="note-ref" data-ref="sal-135" title="Ver comentario">&#42;</span></span>
 <span id="chapter-135" class="chapter-marker" data-chapter="135">135</span><sup>1</sup> ¡Aleluya!
 
 Alabad el nombre de Yahvé,
@@ -11265,15 +11265,15 @@ casa de Aarón, bendecid a Yahvé,
 
 <sup>20</sup> casa de Leví, bendecid a Yahvé,
 
-los adeptos* a Yahvé, bendecid a Yahvé.
+los adeptos<span class="note-ref" data-ref="sal-135-20" title="Ver comentario">&#42;</span> a Yahvé, bendecid a Yahvé.
 
 <sup>21</sup> ¡Bendito desde Sión Yahvé,
 
-que habita en Jerusalén*!
+que habita en Jerusalén<span class="note-ref" data-ref="sal-135-21" title="Ver comentario">&#42;</span>!
 
 ## <span class="subsection-title">SALMO 136 (135)</span>
-## <span class="subsection-title">Letanía de acción de gracias*</span>
-¡Aleluya*!
+## <span class="subsection-title">Letanía de acción de gracias<span class="note-ref" data-ref="sal-136-a" title="Ver comentario">&#42;</span></span>
+¡Aleluya<span class="note-ref" data-ref="sal-136-b" title="Ver comentario">&#42;</span>!
 
 <span id="chapter-136" class="chapter-marker" data-chapter="136">136</span><sup>1</sup> ¡Dad gracias a Yahvé, porque es bueno,
 
@@ -11287,7 +11287,7 @@ porque es eterno su amor;
 
 porque es eterno su amor.
 
-<sup>4</sup> Al único que ha hecho maravillas*,
+<sup>4</sup> Al único que ha hecho maravillas<span class="note-ref" data-ref="sal-136-4" title="Ver comentario">&#42;</span>,
 
 porque es eterno su amor.
 
@@ -11331,7 +11331,7 @@ porque es eterno su amor;
 
 porque es eterno su amor;
 
-<sup>15</sup> y hundió en él al faraón con sus huestes*,
+<sup>15</sup> y hundió en él al faraón con sus huestes<span class="note-ref" data-ref="sal-136-15" title="Ver comentario">&#42;</span>,
 
 porque es eterno su amor.
 
@@ -11380,7 +11380,7 @@ porque es eterno su amor.
 porque es eterno su amor!
 
 ## <span class="subsection-title">SALMO 137 (136)</span>
-## <span class="subsection-title">Balada del desterrado*</span>
+## <span class="subsection-title">Balada del desterrado<span class="note-ref" data-ref="sal-137" title="Ver comentario">&#42;</span></span>
 <span id="chapter-137" class="chapter-marker" data-chapter="137">137</span><sup>1</sup> A orillas de los ríos de Babilonia,
 
 estábamos sentados llorando,
@@ -11395,7 +11395,7 @@ colgábamos nuestras cítaras.
 
 cánticos nuestros deportadores,
 
-nuestros raptores*, alegría:
+nuestros raptores<span class="note-ref" data-ref="sal-137-3" title="Ver comentario">&#42;</span>, alegría:
 
 «¡Cantad para nosotros
 
@@ -11409,7 +11409,7 @@ en un país extranjero?
 
 <sup>5</sup> ¡Si me olvido de ti, Jerusalén,
 
-que se me seque* la diestra!
+que se me seque<span class="note-ref" data-ref="sal-137-5" title="Ver comentario">&#42;</span> la diestra!
 
 <sup>6</sup> ¡Se pegue mi lengua al paladar
 
@@ -11423,7 +11423,7 @@ como colmo de mi gozo!
 
 contra la gente de Edom,
 
-del día de Jerusalén*,
+del día de Jerusalén<span class="note-ref" data-ref="sal-137-7" title="Ver comentario">&#42;</span>,
 
 cuando decían: ¡Arrasad,
 
@@ -11445,19 +11445,19 @@ a tus pequeños contra la roca!
 
 Te doy gracias, Yahvé, de todo corazón,
 
-por haber escuchado las palabras de mi boca*.
+por haber escuchado las palabras de mi boca<span class="note-ref" data-ref="sal-138-1-a" title="Ver comentario">&#42;</span>.
 
-En presencia de los ángeles* tañeré en tu honor,
+En presencia de los ángeles<span class="note-ref" data-ref="sal-138-1-b" title="Ver comentario">&#42;</span> tañeré en tu honor,
 
 <sup>2</sup> me postraré en dirección a tu santo Templo.
 
 Te doy gracias por tu amor y tu verdad,
 
-pues tu promesa supera a tu renombre*.
+pues tu promesa supera a tu renombre<span class="note-ref" data-ref="sal-138-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> El día en que grité, me escuchaste,
 
-aumentaste* mi vigor interior.
+aumentaste<span class="note-ref" data-ref="sal-138-3" title="Ver comentario">&#42;</span> mi vigor interior.
 
 <sup>4</sup> Te dan gracias, Yahvé, los reyes de la tierra,
 
@@ -11484,7 +11484,7 @@ y tu diestra me salva.
 no abandones la obra de tus manos!
 
 ## <span class="subsection-title">SALMO 139 (138)</span>
-## <span class="subsection-title">Homenaje a Aquel que lo sabe todo*</span>
+## <span class="subsection-title">Homenaje a Aquel que lo sabe todo<span class="note-ref" data-ref="sal-139" title="Ver comentario">&#42;</span></span>
 <span id="chapter-139" class="chapter-marker" data-chapter="139">139</span><sup>1</sup> Del maestro de coro. De David. Salmo.
 
 Tú me escrutas, Yahvé, y me conoces;
@@ -11527,11 +11527,11 @@ también allí me alcanza tu diestra.
 
 <sup>11</sup> Si digo: «Que me cubra la tiniebla,
 
-que la noche me rodee como un ceñidor*»,
+que la noche me rodee como un ceñidor<span class="note-ref" data-ref="sal-139-11" title="Ver comentario">&#42;</span>»,
 
 <sup>12</sup> no es tenebrosa la tiniebla para ti,
 
-y la noche es luminosa como el día*.
+y la noche es luminosa como el día<span class="note-ref" data-ref="sal-139-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Porque tú has formado mi cuerpo,
 
@@ -11541,7 +11541,7 @@ me has tejido en el vientre de mi madre;
 
 prodigio soy, prodigios tus obras.
 
-Mi aliento conocías* cabalmente,
+Mi aliento conocías<span class="note-ref" data-ref="sal-139-14" title="Ver comentario">&#42;</span> cabalmente,
 
 <sup>15</sup> mis huesos no se te ocultaban,
 
@@ -11555,7 +11555,7 @@ en tu libro están inscritos
 
 los días que me has fijado,
 
-sin que aún exista el primero*.
+sin que aún exista el primero<span class="note-ref" data-ref="sal-139-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> ¡Qué arduos me resultan tus pensamientos,
 
@@ -11563,7 +11563,7 @@ oh Dios, qué incontable es su suma!
 
 <sup>18</sup> Si los cuento, son más que la arena;
 
-al terminar*, todavía estoy contigo.
+al terminar<span class="note-ref" data-ref="sal-139-18" title="Ver comentario">&#42;</span>, todavía estoy contigo.
 
 <sup>19</sup> ¡Oh Dios, si mataras al malvado,
 
@@ -11571,7 +11571,7 @@ si los sanguinarios se apartaran de mí!
 
 <sup>20</sup> Ellos que hablan de ti dolosamente,
 
-tus adversarios que profieren mentiras*.
+tus adversarios que profieren mentiras<span class="note-ref" data-ref="sal-139-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> ¿No odio, Yahvé, a los que te odian?
 
@@ -11611,7 +11611,7 @@ guárdame del hombre violento,
 
 de los que proyectan trastornar mis pasos,
 
-<sup>6b</sup> y tienden una red bajo mis pies*,
+<sup>6b</sup> y tienden una red bajo mis pies<span class="note-ref" data-ref="sal-140-6" title="Ver comentario">&#42;</span>,
 
 <sup>6a</sup> de los insolentes que me ocultan lazos, Pausa.
 
@@ -11633,11 +11633,11 @@ Los que me asedian alzan 10 su cabeza:
 
 ¡que los ahogue la malicia de sus labios,
 
-<sup>11</sup> que les lluevan carbones encendidos*,
+<sup>11</sup> que les lluevan carbones encendidos<span class="note-ref" data-ref="sal-140-11" title="Ver comentario">&#42;</span>,
 
 que, hundidos en el abismo, no se alcen;
 
-<sup>12</sup> que no arraigue en la tierra el deslenguado*,
+<sup>12</sup> que no arraigue en la tierra el deslenguado<span class="note-ref" data-ref="sal-140-12" title="Ver comentario">&#42;</span>,
 
 que la desgracia sorprenda al violento!
 
@@ -11659,7 +11659,7 @@ escucha mi voz cuando te llamo.
 
 <sup>2</sup> Que mi oración sea como incienso para ti,
 
-mis manos alzadas, como ofrenda de la tarde*.
+mis manos alzadas, como ofrenda de la tarde<span class="note-ref" data-ref="sal-141-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> Pon, Yahvé, en mi boca un centinela,
 
@@ -11677,13 +11677,13 @@ en compañía de hombres malhechores:
 
 pero nunca el malvado perfume mi cabeza,
 
-pues así seguiría implicado en sus maldades*.
+pues así seguiría implicado en sus maldades<span class="note-ref" data-ref="sal-141-5" title="Ver comentario">&#42;</span>.
 
-<sup>6</sup> Quedaron a merced de la Roca, su juez*,
+<sup>6</sup> Quedaron a merced de la Roca, su juez<span class="note-ref" data-ref="sal-141-6" title="Ver comentario">&#42;</span>,
 
 los que oyeron con regodeo mis palabras:
 
-<sup>7</sup> «Como piedra molar estrellada* por tierra,
+<sup>7</sup> «Como piedra molar estrellada<span class="note-ref" data-ref="sal-141-7" title="Ver comentario">&#42;</span> por tierra,
 
 sus huesos se esparcen a la boca del Seol».
 
@@ -11700,7 +11700,7 @@ de la trampa de los malhechores.
 al tiempo que yo escapo indemne.
 
 ## <span class="subsection-title">SALMO 142 (141)</span>
-## <span class="subsection-title">Oración de un perseguido*</span>
+## <span class="subsection-title">Oración de un perseguido<span class="note-ref" data-ref="sal-142" title="Ver comentario">&#42;</span></span>
 <span id="chapter-142" class="chapter-marker" data-chapter="142">142</span><sup>1</sup> Poema. De David. Cuando estaba en la cueva. Oración.
 
 <sup>2</sup> A gritos imploro a Yahvé,
@@ -11719,7 +11719,7 @@ En el camino por donde voy
 
 me han escondido una trampa.
 
-<sup>5</sup> Mira a la derecha*, y ve,
+<sup>5</sup> Mira a la derecha<span class="note-ref" data-ref="sal-142-5" title="Ver comentario">&#42;</span>, y ve,
 
 no hay nadie que me conozca.
 
@@ -11731,7 +11731,7 @@ nadie que de mí se cuide.
 
 te digo: ¡Tú eres mi refugio,
 
-mi porción en la tierra de los vivos*!
+mi porción en la tierra de los vivos<span class="note-ref" data-ref="sal-142-6" title="Ver comentario">&#42;</span>!
 
 <sup>7</sup> Presta atención a mi clamor,
 
@@ -11745,13 +11745,13 @@ pues son más fuertes que yo!
 
 para dar gracias a tu nombre!
 
-Y me harán corro los justos*
+Y me harán corro los justos<span class="note-ref" data-ref="sal-142-8" title="Ver comentario">&#42;</span>
 
 por tus favores conmigo.
 
 ## <span class="subsection-title">SALMO 143 (142)</span>
 ## <span class="subsection-title">Súplica humilde</span>
-<span id="chapter-143" class="chapter-marker" data-chapter="143">143</span><sup>1</sup> Salmo. De David*.
+<span id="chapter-143" class="chapter-marker" data-chapter="143">143</span><sup>1</sup> Salmo. De David<span class="note-ref" data-ref="sal-143-1" title="Ver comentario">&#42;</span>.
 
 Escucha, Yahvé, mi oración,
 
@@ -11761,7 +11761,7 @@ respóndeme leal, por tu justicia.
 
 <sup>2</sup> No entres en pleito con tu siervo,
 
-pues no hay ser vivo justo ante ti*.
+pues no hay ser vivo justo ante ti<span class="note-ref" data-ref="sal-143-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> Me persigue a muerte el enemigo,
 
@@ -11803,7 +11803,7 @@ pues estoy pendiente de ti.
 
 <sup>9</sup> Líbrame de mis enemigos, Yahvé,
 
-pues busco refugio* en ti;
+pues busco refugio<span class="note-ref" data-ref="sal-143-9" title="Ver comentario">&#42;</span> en ti;
 
 <sup>10</sup> enséñame a cumplir tu voluntad,
 
@@ -11824,7 +11824,7 @@ Pierde a todos mis opresores,
 porque yo soy tu servidor.
 
 ## <span class="subsection-title">SALMO 144 (143)</span>
-## <span class="subsection-title">Himno para la guerra y la victoria*</span>
+## <span class="subsection-title">Himno para la guerra y la victoria<span class="note-ref" data-ref="sal-144" title="Ver comentario">&#42;</span></span>
 <span id="chapter-144" class="chapter-marker" data-chapter="144">144</span><sup>1</sup> De David.
 
 Bendito Yahvé, mi Roca,
@@ -11839,7 +11839,7 @@ mi alcázar y libertador,
 
 el escudo que me cobija,
 
-el que me somete pueblos*.
+el que me somete pueblos<span class="note-ref" data-ref="sal-144-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> ¿Qué es el hombre, Yahvé, para ocuparte,
 
@@ -11873,7 +11873,7 @@ tañeré para ti el arpa de diez cuerdas,
 
 <sup>10</sup> tú que das a los reyes la victoria,
 
-que salvas a David tu servidor*.
+que salvas a David tu servidor<span class="note-ref" data-ref="sal-144-10" title="Ver comentario">&#42;</span>.
 
 De la espada funesta 11 sálvame,
 
@@ -11887,7 +11887,7 @@ y su diestra es diestra de mentira.
 
 pomposas desde la juventud;
 
-nuestras hijas, columnas talladas*,
+nuestras hijas, columnas talladas<span class="note-ref" data-ref="sal-144-12" title="Ver comentario">&#42;</span>,
 
 esculpidas como para un palacio.
 
@@ -11910,7 +11910,7 @@ ni gritos en nuestras plazas.
 feliz el pueblo cuyo Dios es Yahvé!
 
 ## <span class="subsection-title">SALMO 145 (144)</span>
-## <span class="subsection-title">Alabanza al Rey Yahvé*</span>
+## <span class="subsection-title">Alabanza al Rey Yahvé<span class="note-ref" data-ref="sal-145" title="Ver comentario">&#42;</span></span>
 <span id="chapter-145" class="chapter-marker" data-chapter="145">145</span><sup>1</sup> Himno. De David.
 
 ## Álef.
@@ -11983,7 +11983,7 @@ narren tus proezas,
 
 <sup>12</sup> explicando tus proezas a los hombres,
 
-el esplendor y la gloria de tu reinado*.
+el esplendor y la gloria de tu reinado<span class="note-ref" data-ref="sal-145-12" title="Ver comentario">&#42;</span>.
 
 ## Mem.
 
@@ -11995,7 +11995,7 @@ tu gobierno, de edad en edad.
 
 Fiel es Yahvé en todo lo que dice,
 
-amoroso en todo lo que hace*.
+amoroso en todo lo que hace<span class="note-ref" data-ref="sal-145-13" title="Ver comentario">&#42;</span>.
 
 ## Sámek.
 
@@ -12011,7 +12011,7 @@ tú les das a su tiempo el alimento.
 
 ## Pe.
 
-<sup>16</sup> Tú* abres la mano y sacias
+<sup>16</sup> Tú<span class="note-ref" data-ref="sal-145-16" title="Ver comentario">&#42;</span> abres la mano y sacias
 
 de bienes a todo viviente.
 
@@ -12029,7 +12029,7 @@ de todos los que lo invocan con sinceridad.
 
 ## Reš.
 
-<sup>19</sup> Cumple los deseos de sus leales*,
+<sup>19</sup> Cumple los deseos de sus leales<span class="note-ref" data-ref="sal-145-19" title="Ver comentario">&#42;</span>,
 
 escucha su clamor y los libera.
 
@@ -12048,7 +12048,7 @@ que bendigan los vivientes su nombre
 sacrosanto para siempre jamás!
 
 ## <span class="subsection-title">SALMO 146 (145)</span>
-## <span class="subsection-title">Himno al Dios temible*</span>
+## <span class="subsection-title">Himno al Dios temible<span class="note-ref" data-ref="sal-146" title="Ver comentario">&#42;</span></span>
 <span id="chapter-146" class="chapter-marker" data-chapter="146">146</span><sup>1</sup> ¡Aleluya!
 
 ¡Alaba, alma mía, a Yahvé!
@@ -12098,12 +12098,12 @@ sostiene al huérfano y a la viuda.
 tu Dios, Sión, de edad en edad.
 
 ## <span class="subsection-title">SALMO 147 (146-147)</span>
-## <span class="subsection-title">Himno al Todopoderoso*</span>
-¡Aleluya*!
+## <span class="subsection-title">Himno al Todopoderoso<span class="note-ref" data-ref="sal-147-a" title="Ver comentario">&#42;</span></span>
+¡Aleluya<span class="note-ref" data-ref="sal-147-b" title="Ver comentario">&#42;</span>!
 
 <span id="chapter-147" class="chapter-marker" data-chapter="147">147</span><sup>1</sup> Alabad a Yahvé, que es bueno cantar
 
-a nuestro Dios, que es dulce* la alabanza.
+a nuestro Dios, que es dulce<span class="note-ref" data-ref="sal-147-1" title="Ver comentario">&#42;</span> la alabanza.
 
 <sup>2</sup> Yahvé reconstruye Jerusalén,
 
@@ -12135,7 +12135,7 @@ el que dispensa lluvia a la tierra,
 
 y llena de hierba las montañas,
 
-de plantas para el uso del hombre*;
+de plantas para el uso del hombre<span class="note-ref" data-ref="sal-147-8" title="Ver comentario">&#42;</span>;
 
 <sup>9</sup> el que dispensa alimento al ganado,
 
@@ -12145,13 +12145,13 @@ a las crías de cuervo cuando graznan.
 
 ni se complace en los músculos del hombre.
 
-<sup>11</sup> Yahvé se complace en sus adeptos*,
+<sup>11</sup> Yahvé se complace en sus adeptos<span class="note-ref" data-ref="sal-147-11" title="Ver comentario">&#42;</span>,
 
 en los que esperan en su amor.
 
 <sup>12</sup> ¡Celebra a Yahvé, Jerusalén,
 
-alaba a tu Dios, Sión*!,
+alaba a tu Dios, Sión<span class="note-ref" data-ref="sal-147-12" title="Ver comentario">&#42;</span>!,
 
 <sup>13</sup> que refuerza los cerrojos de tus puertas
 
@@ -12163,7 +12163,7 @@ y te sacia con flor de harina.
 
 <sup>15</sup> Que envía a la tierra su mensaje,
 
-y su palabra* corre a toda prisa.
+y su palabra<span class="note-ref" data-ref="sal-147-15" title="Ver comentario">&#42;</span> corre a toda prisa.
 
 <sup>16</sup> Que distribuye la nieve como lana
 
@@ -12183,10 +12183,10 @@ sus preceptos y normas a Israel:
 
 <sup>20</sup> no hizo tal con ninguna nación,
 
-ni una sola de sus normas conoció*.
+ni una sola de sus normas conoció<span class="note-ref" data-ref="sal-147-20" title="Ver comentario">&#42;</span>.
 
 ## <span class="subsection-title">SALMO 148</span>
-## <span class="subsection-title">Alabanza de la creación*</span>
+## <span class="subsection-title">Alabanza de la creación<span class="note-ref" data-ref="sal-148" title="Ver comentario">&#42;</span></span>
 <span id="chapter-148" class="chapter-marker" data-chapter="148">148</span><sup>1</sup> ¡Aleluya!
 
 ¡Alabad a Yahvé desde el cielo,
@@ -12205,7 +12205,7 @@ alabadlo, estrellas lucientes,
 
 aguas que estáis sobre los cielos!
 
-<sup>5</sup> Alaben ellos el nombre de Yahvé*,
+<sup>5</sup> Alaben ellos el nombre de Yahvé<span class="note-ref" data-ref="sal-148-5" title="Ver comentario">&#42;</span>,
 
 pues él lo ordenó y fueron creados;
 
@@ -12247,10 +12247,10 @@ su majestad sobre el cielo y la tierra.
 
 orgullo de todos sus fieles,
 
-de los hijos de Israel*, pueblo de sus íntimos.
+de los hijos de Israel<span class="note-ref" data-ref="sal-148-14" title="Ver comentario">&#42;</span>, pueblo de sus íntimos.
 
 ## <span class="subsection-title">SALMO 149</span>
-## <span class="subsection-title">Himno triunfal*</span>
+## <span class="subsection-title">Himno triunfal<span class="note-ref" data-ref="sal-149" title="Ver comentario">&#42;</span></span>
 <span id="chapter-149" class="chapter-marker" data-chapter="149">149</span><sup>1</sup> ¡Aleluya!
 
 ¡Cantad a Yahvé un cántico nuevo:
@@ -12271,7 +12271,7 @@ adorna de salvación a los desvalidos.
 
 <sup>5</sup> Exulten los fieles ante su gloria,
 
-desde su lugar* griten de alegría,
+desde su lugar<span class="note-ref" data-ref="sal-149-5" title="Ver comentario">&#42;</span> griten de alegría,
 
 <sup>6</sup> con elogios a Dios en su garganta,
 
@@ -12285,12 +12285,12 @@ e infligir el castigo a los pueblos,
 
 con grillos de hierro a sus magnates,
 
-<sup>9</sup> para aplicarles la sentencia escrita*:
+<sup>9</sup> para aplicarles la sentencia escrita<span class="note-ref" data-ref="sal-149-9" title="Ver comentario">&#42;</span>:
 
 ¡será un honor para todos sus fieles!
 
 ## <span class="subsection-title">SALMO 150</span>
-## <span class="subsection-title">Doxología final*</span>
+## <span class="subsection-title">Doxología final<span class="note-ref" data-ref="sal-150" title="Ver comentario">&#42;</span></span>
 <span id="chapter-150" class="chapter-marker" data-chapter="150">150</span><sup>1</sup> ¡Aleluya!
 
 Alabad a Dios en su santuario,
@@ -12311,7 +12311,7 @@ alabadlo con cuerdas y flautas,
 
 <sup>5</sup> alabadlo con címbalos sonoros,
 
-alabadlo con címbalos y aclamaciones*.
+alabadlo con címbalos y aclamaciones<span class="note-ref" data-ref="sal-150-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> ¡Todo cuanto respira alabe a Yahvé!
 

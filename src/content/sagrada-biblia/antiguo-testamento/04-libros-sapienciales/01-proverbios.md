@@ -3,8 +3,9 @@ title: 'Proverbios'
 description: 'Libro de los Proverbios'
 img: blog-placeholder-4.jpg
 ---
-# PROVERBIOS
+## PROVERBIOS
 ## Título general y propósito.
+
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Proverbios de Salomón, hijo de David, rey de Israel:
 
 <sup>2</sup> para aprender sabiduría e instrucción,
@@ -27,13 +28,14 @@ los dichos y enigmas de los sabios.
 
 y el inteligente adquiere destreza.
 
-<sup>7</sup> El temor de Yahvé es el principio del conocimiento*;
+<sup>7</sup> El temor de Yahvé es el principio del conocimiento<span class="note-ref" data-ref="pr-1-7" title="Ver comentario">&#42;</span>;
 
 los necios desprecian la sabiduría y la instrucción.
 
 ## I. Prólogo
-# RECOMENDACIONES DE LA SABIDURÍA
+## RECOMENDACIONES DE LA SABIDURÍA
 ## Las malas compañías.
+
 <sup>8</sup> Escucha, hijo mío, la instrucción de tu padre,
 
 no olvides la enseñanza de tu madre;
@@ -70,26 +72,26 @@ aleja tus pasos de su senda;
 
 <sup>16</sup> porque sus pies corren hacia el mal
 
-y se apresuran a derramar sangre*;
+y se apresuran a derramar sangre<span class="note-ref" data-ref="pr-1-16" title="Ver comentario">&#42;</span>;
 
 <sup>17</sup> pues es inútil tender redes
 
-a la vista de los pájaros*.
+a la vista de los pájaros<span class="note-ref" data-ref="pr-1-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Se emboscan contra sí mismos
 
 y atentan contra sus propias vidas.
 
-<sup>19</sup> Tal es el destino de la avaricia*:
+<sup>19</sup> Tal es el destino de la avaricia<span class="note-ref" data-ref="pr-1-19" title="Ver comentario">&#42;</span>:
 
 que quita la vida a su propio dueño.
 
 ## Pregón de la sabiduría.
-<sup>20</sup> La sabiduría pregona por las calles*,
+<sup>20</sup> La sabiduría pregona por las calles<span class="note-ref" data-ref="pr-1-20-a" title="Ver comentario">&#42;</span>,
 
-en las plazas alza su voz*;
+en las plazas alza su voz<span class="note-ref" data-ref="pr-1-20-b" title="Ver comentario">&#42;</span>;
 
-<sup>21</sup> grita por encima del tumulto*,
+<sup>21</sup> grita por encima del tumulto<span class="note-ref" data-ref="pr-1-21" title="Ver comentario">&#42;</span>,
 
 ante las puertas de la ciudad lanza sus pregones:
 
@@ -148,7 +150,7 @@ la despreocupación perderá a los insensatos.
 tranquilo y sin miedo a la desgracia.»
 
 ## Beneficios de la sabiduría.
-<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Hijo mío, si aceptas mis palabras*,
+<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Hijo mío, si aceptas mis palabras<span class="note-ref" data-ref="pr-2-1" title="Ver comentario">&#42;</span>,
 
 y retienes mis mandatos,
 
@@ -208,7 +210,7 @@ y gozan con la perversión,
 
 y caminos extraviados.
 
-<sup>16</sup> Te librará de la mujer ajena*,
+<sup>16</sup> Te librará de la mujer ajena<span class="note-ref" data-ref="pr-2-16" title="Ver comentario">&#42;</span>,
 
 de la extraña de lengua seductora,
 
@@ -247,9 +249,9 @@ y años de vida, y bienestar.
 
 <sup>3</sup> Que no te abandonen el amor y la lealtad;
 
-átalas a tu cuello*,
+átalas a tu cuello<span class="note-ref" data-ref="pr-3-3-a" title="Ver comentario">&#42;</span>,
 
-grábalas en la tablilla de tu corazón*;
+grábalas en la tablilla de tu corazón<span class="note-ref" data-ref="pr-3-3-b" title="Ver comentario">&#42;</span>;
 
 <sup>4</sup> así obtendrás estima y aceptación
 
@@ -267,7 +269,7 @@ y él enderezará tus sendas.
 
 teme a Yahvé y evita el mal;
 
-<sup>8</sup> será salud para tu carne*
+<sup>8</sup> será salud para tu carne<span class="note-ref" data-ref="pr-3-8" title="Ver comentario">&#42;</span>
 
 y alivio para tus huesos.
 
@@ -275,7 +277,7 @@ y alivio para tus huesos.
 
 con las primicias de todas tus ganancias:
 
-<sup>10</sup> tus graneros se colmarán de grano*
+<sup>10</sup> tus graneros se colmarán de grano<span class="note-ref" data-ref="pr-3-10" title="Ver comentario">&#42;</span>
 
 y tus lagares rebosarán de mosto.
 
@@ -348,7 +350,7 @@ y librará tus pies de la trampa.
 
 si en tu mano está el hacérselo.
 
-<sup>28</sup> Si tienes algo, no digas a tu prójimo*:
+<sup>28</sup> Si tienes algo, no digas a tu prójimo<span class="note-ref" data-ref="pr-3-28" title="Ver comentario">&#42;</span>:
 
 «Vete y vuelve, mañana te daré».
 
@@ -360,7 +362,7 @@ mientras vive confiado junto a ti.
 
 si no te ha hecho ningún daño.
 
-<sup>31</sup> No envidies al hombre violento*,
+<sup>31</sup> No envidies al hombre violento<span class="note-ref" data-ref="pr-3-31" title="Ver comentario">&#42;</span>,
 
 ni trates de imitar su conducta;
 
@@ -407,11 +409,11 @@ no la olvides, ni descuides mis palabras.
 
 ámala y ella te protegerá.
 
-<sup>7</sup> El comienzo de la sabiduría está en adquirirla*
+<sup>7</sup> El comienzo de la sabiduría está en adquirirla<span class="note-ref" data-ref="pr-4-7" title="Ver comentario">&#42;</span>
 
 y obtener inteligencia con toda tu fortuna.
 
-<sup>8</sup> Hónrala* y ella te engrandecerá;
+<sup>8</sup> Hónrala<span class="note-ref" data-ref="pr-4-8" title="Ver comentario">&#42;</span> y ella te engrandecerá;
 
 si la abrazas, te dará prestigio;
 
@@ -500,7 +502,7 @@ presta oído a mi prudencia,
 
 y tus labios guarden el saber.
 
-<sup>3</sup> Los labios de la extraña destilan miel*
+<sup>3</sup> Los labios de la extraña destilan miel<span class="note-ref" data-ref="pr-5-3" title="Ver comentario">&#42;</span>
 
 y su paladar es más suave que el aceite;
 
@@ -551,7 +553,7 @@ en medio de la asamblea reunida.»
 ## La mujer propia.
 <sup>15</sup> Bebe el agua de tu aljibe,
 
-los raudales de tu pozo*.
+los raudales de tu pozo<span class="note-ref" data-ref="pr-5-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> ¿Vas a derramar tus arroyos por las calles
 
@@ -585,12 +587,12 @@ preso en las redes de su pecado.
 
 <sup>23</sup> Morirá por falta de corrección,
 
-por su gran insensatez se perderá*.
+por su gran insensatez se perderá<span class="note-ref" data-ref="pr-5-23" title="Ver comentario">&#42;</span>.
 
-## La fianza imprudente *.
+## La fianza imprudente <span class="note-ref" data-ref="pr-6" title="Ver comentario">&#42;</span>.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Hijo mío, si has salido fiador de tu prójimo,
 
-si has chocado tu mano con un extraño*,
+si has chocado tu mano con un extraño<span class="note-ref" data-ref="pr-6-1" title="Ver comentario">&#42;</span>,
 
 <sup>2</sup> si has dado tu palabra
 
@@ -613,7 +615,7 @@ como pájaro de la red del cazador.
 ## El perezoso y la hormiga.
 <sup>6</sup> Acércate a la hormiga, perezoso,
 
-observa su conducta y aprende*.
+observa su conducta y aprende<span class="note-ref" data-ref="pr-6-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Aunque no tiene jefe,
 
@@ -621,7 +623,7 @@ ni capataz, ni dueño,
 
 <sup>8</sup> asegura su alimento en el verano
 
-y recoge su comida en tiempo de siega*.
+y recoge su comida en tiempo de siega<span class="note-ref" data-ref="pr-6-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> ¿Hasta cuándo dormirás, perezoso?,
 
@@ -633,7 +635,7 @@ un rato de descanso con los brazos cruzados
 
 <sup>11</sup> y te llega la pobreza del vagabundo
 
-y la penuria del mendigo*.
+y la penuria del mendigo<span class="note-ref" data-ref="pr-6-11" title="Ver comentario">&#42;</span>.
 
 ## El insensato.
 <sup>12</sup> El malhechor y delincuente
@@ -652,7 +654,7 @@ y provocando riñas continuamente.
 
 se destruirá de improviso y sin remedio.
 
-## Lo que Yahvé detesta*.
+## Lo que Yahvé detesta<span class="note-ref" data-ref="pr-6-16" title="Ver comentario">&#42;</span>.
 <sup>16</sup> Seis cosas detesta Yahvé
 
 y siete aborrece con toda el alma:
@@ -670,7 +672,7 @@ pies ligeros para correr hacia el mal,
 y el que siembra discordias entre hermanos.
 
 ## Advertencias sobre el adulterio.
-<sup>20</sup> *Hijo mío, observa las órdenes de tu padre
+<sup>20</sup> <span class="note-ref" data-ref="pr-6-20" title="Ver comentario">&#42;</span>Hijo mío, observa las órdenes de tu padre
 
 y no desprecies las enseñanzas de tu madre.
 
@@ -698,7 +700,7 @@ no te dejes cautivar por sus miradas.
 
 <sup>26</sup> Pues la prostituta se contenta con una hogaza de pan,
 
-pero la casada va a la caza de una persona de valía*.
+pero la casada va a la caza de una persona de valía<span class="note-ref" data-ref="pr-6-26" title="Ver comentario">&#42;</span>.
 
 <sup>27</sup> ¿Puede alguien llevar fuego en su pecho
 
@@ -718,7 +720,7 @@ estando hambriento, para llenar el estómago.
 
 <sup>31</sup> Si lo sorprenden, pagará siete veces más,
 
-y tendrá que dar todos los bienes de su casa*.
+y tendrá que dar todos los bienes de su casa<span class="note-ref" data-ref="pr-6-31" title="Ver comentario">&#42;</span>.
 
 <sup>32</sup> Pero el adúltero es un insensato;
 
@@ -825,7 +827,7 @@ lo seduce con sus labios lisonjeros.
 
 como buey llevado al matadero,
 
-como ciervo atrapado en la red*;
+como ciervo atrapado en la red<span class="note-ref" data-ref="pr-7-22" title="Ver comentario">&#42;</span>;
 
 <sup>23</sup> hasta que una flecha le atraviesa el hígado,
 
@@ -849,7 +851,7 @@ y sus víctimas son incontables.
 
 y baja a la morada de la muerte.
 
-## Discurso de la sabiduría *.
+## Discurso de la sabiduría <span class="note-ref" data-ref="pr-8" title="Ver comentario">&#42;</span>.
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> La sabiduría está gritando,
 
 la prudencia levanta su voz.
@@ -860,7 +862,7 @@ de pie en las encrucijadas;
 
 <sup>3</sup> junto a las puertas de la ciudad,
 
-a la entrada de los patios está pregonando*:
+a la entrada de los patios está pregonando<span class="note-ref" data-ref="pr-8-3" title="Ver comentario">&#42;</span>:
 
 <sup>4</sup> «A vosotros, hombres, os llamo;
 
@@ -868,7 +870,7 @@ dirijo mi voz a los humanos.
 
 <sup>5</sup> Inexpertos, adquirid prudencia,
 
-y vosotros, necios, sed sensatos*.
+y vosotros, necios, sed sensatos<span class="note-ref" data-ref="pr-8-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Escuchad, pues voy a exponer normas de conducta,
 
@@ -915,7 +917,7 @@ y los magistrados administran la justicia.
 
 <sup>16</sup> Por mí los gobernantes gobiernan
 
-y los príncipes son todos jueces justos*.
+y los príncipes son todos jueces justos<span class="note-ref" data-ref="pr-8-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Yo amo a los que me aman,
 
@@ -937,16 +939,16 @@ a través de senderos rectos,
 
 y completar sus tesoros.»
 
-## La Sabiduría creadora *.
-<sup>22</sup> «Yahvé me creó, primicia de su actividad*,
+## La Sabiduría creadora <span class="note-ref" data-ref="pr-8-22-a" title="Ver comentario">&#42;</span>.
+<sup>22</sup> «Yahvé me creó, primicia de su actividad<span class="note-ref" data-ref="pr-8-22-b" title="Ver comentario">&#42;</span>,
 
 antes de sus obras antiguas.
 
-<sup>23</sup> Desde la eternidad fui formada*,
+<sup>23</sup> Desde la eternidad fui formada<span class="note-ref" data-ref="pr-8-23" title="Ver comentario">&#42;</span>,
 
 desde el principio, antes del origen de la tierra.
 
-<sup>24</sup> Fui engendrada cuando no existían los océanos*,
+<sup>24</sup> Fui engendrada cuando no existían los océanos<span class="note-ref" data-ref="pr-8-24" title="Ver comentario">&#42;</span>,
 
 cuando no había manantiales cargados de agua;
 
@@ -972,7 +974,7 @@ para que las aguas no desbordaran sus orillas;
 
 cuando asentaba los cimientos de la tierra,
 
-<sup>30</sup> yo estaba junto a Él, como aprendiz*,
+<sup>30</sup> yo estaba junto a Él, como aprendiz<span class="note-ref" data-ref="pr-8-30" title="Ver comentario">&#42;</span>,
 
 yo era su alegría cotidiana,
 
@@ -1008,7 +1010,7 @@ los que me odian, aman la muerte.»
 ## Invitación de la sabiduría.
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> La Sabiduría ha edificado su casa,
 
-ha tallado sus siete columnas*,
+ha tallado sus siete columnas<span class="note-ref" data-ref="pr-9-1" title="Ver comentario">&#42;</span>,
 
 <sup>2</sup> ha hecho su matanza, ha mezclado su vino;
 
@@ -1030,7 +1032,7 @@ y a beber el vino que he mezclado.
 
 y seguid el camino de la inteligencia.»
 
-## Contra los cínicos*.
+## Contra los cínicos<span class="note-ref" data-ref="pr-9-7" title="Ver comentario">&#42;</span>.
 <sup>7</sup> Quien corrige al cínico recibe insultos,
 
 quien reprende al malvado, desprecio.
@@ -1055,7 +1057,7 @@ y se te añadirán años de vida.
 
 si eres cínico, tú solo lo pagarás.
 
-## Invitación de la necedad *.
+## Invitación de la necedad <span class="note-ref" data-ref="pr-9-13" title="Ver comentario">&#42;</span>.
 <sup>13</sup> Doña Necedad es chismosa,
 
 estúpida e ignorante.
@@ -1080,7 +1082,7 @@ el pan a escondidas es sabroso.»
 
 y que sus huéspedes están en el fondo del abismo.
 
-## II. La gran colección salomónica*
+## II. La gran colección salomónica<span class="note-ref" data-ref="pr-10-1" title="Ver comentario">&#42;</span>
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Proverbios de Salomón.
 
 Hijo sabio, alegría del padre;
@@ -1105,7 +1107,7 @@ dormirse en la cosecha es vergonzoso.
 
 <sup>6</sup> La cabeza del justo se llena de bendiciones,
 
-la boca del malvado esconde violencia*.
+la boca del malvado esconde violencia<span class="note-ref" data-ref="pr-10-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> El recuerdo del justo es bendito,
 
@@ -1121,7 +1123,7 @@ quien va con rodeos es descubierto.
 
 <sup>10</sup> Quien guiña los ojos causa disgustos,
 
-quien reprende a la cara construye la paz*.
+quien reprende a la cara construye la paz<span class="note-ref" data-ref="pr-10-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Es fuente de vida la boca del justo,
 
@@ -1185,7 +1187,7 @@ el justo se mantiene siempre.
 
 <sup>26</sup> Vinagre a los dientes y humo a los ojos
 
-es el perezoso para quien lo envía*.
+es el perezoso para quien lo envía<span class="note-ref" data-ref="pr-10-26" title="Ver comentario">&#42;</span>.
 
 <sup>27</sup> El temor de Yahvé alarga la vida,
 
@@ -1271,7 +1273,7 @@ abundancia de consejeros trae la salvación.
 
 quien detesta hacer tratos vive tranquilo.
 
-<sup>16</sup> Mujer agraciada adquiere respeto*
+<sup>16</sup> Mujer agraciada adquiere respeto<span class="note-ref" data-ref="pr-11-16" title="Ver comentario">&#42;</span>
 
 y los diligentes adquieren riqueza.
 
@@ -1291,7 +1293,7 @@ quien persigue el mal morirá.
 
 y da su favor a la conducta intachable.
 
-<sup>21</sup> Seguro* que el malvado no quedará impune,
+<sup>21</sup> Seguro<span class="note-ref" data-ref="pr-11-21" title="Ver comentario">&#42;</span> que el malvado no quedará impune,
 
 mas la estirpe de los justos se salvará.
 
@@ -1315,7 +1317,7 @@ el que da de beber, también será saciado.
 
 y cubre de bendiciones al que lo vende.
 
-<sup>27</sup> Quien procura el bien, alcanzará favor*;
+<sup>27</sup> Quien procura el bien, alcanzará favor<span class="note-ref" data-ref="pr-11-27" title="Ver comentario">&#42;</span>;
 
 a quien busca el mal, le saldrá al encuentro.
 
@@ -1329,9 +1331,9 @@ el necio será esclavo del sabio.
 
 <sup>30</sup> El fruto del justo es árbol de vida,
 
-el sabio cautiva a la gente*.
+el sabio cautiva a la gente<span class="note-ref" data-ref="pr-11-30" title="Ver comentario">&#42;</span>.
 
-<sup>31</sup> Si el justo recibe su recompensa en la tierra*,
+<sup>31</sup> Si el justo recibe su recompensa en la tierra<span class="note-ref" data-ref="pr-11-31" title="Ver comentario">&#42;</span>,
 
 ¡cuánto más el malvado y el pecador!
 
@@ -1435,19 +1437,19 @@ la perezosa trabajará a la fuerza.
 
 una palabra amable lo pone alegre.
 
-<sup>26</sup> El justo sirve de guía a su prójimo*,
+<sup>26</sup> El justo sirve de guía a su prójimo<span class="note-ref" data-ref="pr-12-26" title="Ver comentario">&#42;</span>,
 
 al malvado lo extravía su camino.
 
-<sup>27</sup> El perezoso no pone a asar su caza*,
+<sup>27</sup> El perezoso no pone a asar su caza<span class="note-ref" data-ref="pr-12-27" title="Ver comentario">&#42;</span>,
 
 la diligencia es la mejor riqueza del hombre.
 
 <sup>28</sup> En la senda de la justicia está la vida,
 
-el camino de la impiedad lleva a la muerte*.
+el camino de la impiedad lleva a la muerte<span class="note-ref" data-ref="pr-12-28" title="Ver comentario">&#42;</span>.
 
-<span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> El hijo sabio acepta* la corrección paterna,
+<span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> El hijo sabio acepta<span class="note-ref" data-ref="pr-13-1" title="Ver comentario">&#42;</span> la corrección paterna,
 
 el arrogante no hace caso a reprimendas.
 
@@ -1455,7 +1457,7 @@ el arrogante no hace caso a reprimendas.
 
 los traidores se alimentan de violencia.
 
-<sup>3</sup> Quien controla su boca, protege su vida*;
+<sup>3</sup> Quien controla su boca, protege su vida<span class="note-ref" data-ref="pr-13-3" title="Ver comentario">&#42;</span>;
 
 quien abre sus labios, se busca la ruina.
 
@@ -1469,7 +1471,7 @@ el malvado se enemista y deshonra.
 
 <sup>6</sup> La justicia protege al hombre íntegro,
 
-la maldad arruina al pecador*.
+la maldad arruina al pecador<span class="note-ref" data-ref="pr-13-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Hay quien presume de rico y no tiene nada;
 
@@ -1477,7 +1479,7 @@ hay quien pasa por pobre y tiene gran fortuna.
 
 <sup>8</sup> La riqueza resguarda la vida del hombre,
 
-el pobre no hace caso a la amenaza*.
+el pobre no hace caso a la amenaza<span class="note-ref" data-ref="pr-13-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> La luz de los justos luce alegre,
 
@@ -1487,7 +1489,7 @@ la lámpara del malvado se apaga.
 
 la sabiduría acompaña a los que aceptan consejo.
 
-<sup>11</sup> Riqueza apresurada* disminuye,
+<sup>11</sup> Riqueza apresurada<span class="note-ref" data-ref="pr-13-11" title="Ver comentario">&#42;</span> disminuye,
 
 quien reúne poco a poco, prospera.
 
@@ -1505,7 +1507,7 @@ para escapar de los lazos de la muerte.
 
 <sup>15</sup> El buen sentido obtiene aprecio,
 
-el camino de los pérfidos es interminable*.
+el camino de los pérfidos es interminable<span class="note-ref" data-ref="pr-13-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> El hombre prudente actúa con conocimiento,
 
@@ -1521,7 +1523,7 @@ el que acepta la corrección recibirá honor.
 
 <sup>19</sup> Deseo cumplido es deleite del alma,
 
-los necios detestan apartarse del mal*.
+los necios detestan apartarse del mal<span class="note-ref" data-ref="pr-13-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Anda con sabios y te harás sabio;
 
@@ -1535,7 +1537,7 @@ el bien recompensa a los justos.
 
 la fortuna del pecador se reserva al justo.
 
-<sup>23</sup> Las tierras del justo* dan comida abundante,
+<sup>23</sup> Las tierras del justo<span class="note-ref" data-ref="pr-13-23" title="Ver comentario">&#42;</span> dan comida abundante,
 
 pero se echan a perder por falta de justicia.
 
@@ -1557,7 +1559,7 @@ quien extravía su conducta lo desprecia.
 
 <sup>3</sup> De la boca del necio brota el orgullo,
 
-a los sabios los protegen sus labios*.
+a los sabios los protegen sus labios<span class="note-ref" data-ref="pr-14-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Donde no hay bueyes, falta el trigo,
 
@@ -1565,7 +1567,7 @@ con toros robustos hay cosecha abundante.
 
 <sup>5</sup> Testigo fiel no miente,
 
-testigo falso propala mentiras*.
+testigo falso propala mentiras<span class="note-ref" data-ref="pr-14-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> El arrogante busca sabiduría sin éxito,
 
@@ -1601,7 +1603,7 @@ y al final la alegría acaba en llanto.
 
 <sup>14</sup> El extraviado se saciará de su conducta,
 
-y el hombre de bien, de sus obras*.
+y el hombre de bien, de sus obras<span class="note-ref" data-ref="pr-14-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> El simple se lo cree todo,
 
@@ -1613,7 +1615,7 @@ el necio es arrogante y se confía.
 
 <sup>17</sup> El irascible comete locuras,
 
-el reflexivo mantiene la calma*.
+el reflexivo mantiene la calma<span class="note-ref" data-ref="pr-14-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Los simples heredan necedad,
 
@@ -1645,7 +1647,7 @@ diadema de necios, su insensatez.
 
 <sup>25</sup> El testigo veraz salva vidas,
 
-quien propaga mentiras es un homicida*.
+quien propaga mentiras es un homicida<span class="note-ref" data-ref="pr-14-25" title="Ver comentario">&#42;</span>.
 
 <sup>26</sup> El temor de Yahvé es firme confianza
 
@@ -1673,11 +1675,11 @@ quien se apiada del indigente le da gloria.
 
 <sup>32</sup> El malvado tropieza en su maldad,
 
-el justo se refugia en su honradez*.
+el justo se refugia en su honradez<span class="note-ref" data-ref="pr-14-32" title="Ver comentario">&#42;</span>.
 
 <sup>33</sup> La sabiduría habita en mentes sensatas,
 
-entre los necios es desconocida*.
+entre los necios es desconocida<span class="note-ref" data-ref="pr-14-33" title="Ver comentario">&#42;</span>.
 
 <sup>34</sup> La justicia engrandece a las naciones,
 
@@ -1701,7 +1703,7 @@ observan a malos y buenos.
 
 <sup>4</sup> Lengua sana es árbol de vida,
 
-lengua perversa rompe el corazón*.
+lengua perversa rompe el corazón<span class="note-ref" data-ref="pr-15-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> El tonto desprecia la corrección paterna,
 
@@ -1781,7 +1783,7 @@ cuando hay consejeros, se cumplen.
 
 <sup>24</sup> El sensato asciende por senderos de vida,
 
-que lo libran de bajar al abismo*.
+que lo libran de bajar al abismo<span class="note-ref" data-ref="pr-15-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> Yahvé derriba la casa del soberbio
 
@@ -1805,7 +1807,7 @@ y escucha la plegaria del justo.
 
 <sup>30</sup> Mirada radiante alegra el corazón,
 
-buena noticia fortalece los huesos*.
+buena noticia fortalece los huesos<span class="note-ref" data-ref="pr-15-30" title="Ver comentario">&#42;</span>.
 
 <sup>31</sup> Oído que escucha la reprensión saludable
 
@@ -1821,7 +1823,7 @@ la humildad precede a la fama.
 
 <span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> El hombre tiene proyectos,
 
-## Yahvé, la última palabra*.
+## Yahvé, la última palabra<span class="note-ref" data-ref="pr-16-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> El hombre piensa que su conducta es limpia,
 
@@ -1833,7 +1835,7 @@ y tus planes se realizarán.
 
 <sup>4</sup> Yahvé ha creado todo con un propósito,
 
-incluso al malvado para el día fatal*.
+incluso al malvado para el día fatal<span class="note-ref" data-ref="pr-16-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Yahvé aborrece a los orgullosos,
 
@@ -1855,11 +1857,11 @@ que muchas ganancias injustas.
 
 pero Yahvé asegura sus pasos.
 
-<sup>10</sup> Los labios del rey son como un oráculo*:
+<sup>10</sup> Los labios del rey son como un oráculo<span class="note-ref" data-ref="pr-16-10" title="Ver comentario">&#42;</span>:
 
 cuando juzga, su boca no yerra.
 
-<sup>11</sup> Balanza y platillos sin trucar son de Yahvé*,
+<sup>11</sup> Balanza y platillos sin trucar son de Yahvé<span class="note-ref" data-ref="pr-16-11" title="Ver comentario">&#42;</span>,
 
 todas las pesas son obra suya.
 
@@ -1923,7 +1925,7 @@ y al final son caminos de muerte.
 
 porque el hambre lo apremia.
 
-<sup>27</sup> El desalmado* trafica con el mal
+<sup>27</sup> El desalmado<span class="note-ref" data-ref="pr-16-27" title="Ver comentario">&#42;</span> trafica con el mal
 
 y echa por sus labios fuego abrasador.
 
@@ -1947,13 +1949,13 @@ que se obtiene en el camino de la justicia.
 
 mejor dominarse que conquistar ciudades.
 
-<sup>33</sup> Los dados se tiran sobre el tablero*,
+<sup>33</sup> Los dados se tiran sobre el tablero<span class="note-ref" data-ref="pr-16-33" title="Ver comentario">&#42;</span>,
 
 pero su sentencia depende de Yahvé.
 
 <span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> Más vale mendrugo seco en paz
 
-que casa llena de banquetes y peleas*.
+que casa llena de banquetes y peleas<span class="note-ref" data-ref="pr-17-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> El siervo eficiente desplazará al hijo indigno
 
@@ -1969,7 +1971,7 @@ el mentiroso da oídos a lenguas malignas.
 
 <sup>5</sup> Quien se burla del pobre ultraja a su Creador;
 
-quien se alegra de la desgracia no quedará impune*.
+quien se alegra de la desgracia no quedará impune<span class="note-ref" data-ref="pr-17-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> La corona de los ancianos son los nietos,
 
@@ -1989,11 +1991,11 @@ el que la divulga divide a los amigos.
 
 <sup>10</sup> Más aprovecha un reproche al sensato
 
-que cien palos al necio*.
+que cien palos al necio<span class="note-ref" data-ref="pr-17-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> El rebelde sólo busca pelea;
 
-le enviarán un cruel mensajero*.
+le enviarán un cruel mensajero<span class="note-ref" data-ref="pr-17-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Antes topar con una osa privada de sus crías
 
@@ -2041,11 +2043,11 @@ espíritu abatido seca los huesos.
 
 <sup>23</sup> El malvado acepta regalos en secreto,
 
-para torcer las vías del derecho*.
+para torcer las vías del derecho<span class="note-ref" data-ref="pr-17-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> El inteligente se fija en la sabiduría,
 
-el necio tiene la mirada perdida*.
+el necio tiene la mirada perdida<span class="note-ref" data-ref="pr-17-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> Hijo necio, tristeza de su padre
 
@@ -2065,7 +2067,7 @@ el que cierra sus labios es inteligente.
 
 <span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> El que vive apartado sigue su capricho
 
-y se enfada por cualquier consejo*.
+y se enfada por cualquier consejo<span class="note-ref" data-ref="pr-18-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Al necio no le gusta la prudencia,
 
@@ -2133,11 +2135,11 @@ hasta que llega su adversario y lo desmiente.
 
 <sup>18</sup> La suerte pone fin a los pleitos
 
-y decide entre los poderosos*.
+y decide entre los poderosos<span class="note-ref" data-ref="pr-18-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Hermano ofendido es como plaza fuerte,
 
-las disputas, como cerrojos de fortaleza*.
+las disputas, como cerrojos de fortaleza<span class="note-ref" data-ref="pr-18-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Con el fruto de la boca se harta el vientre,
 
@@ -2155,7 +2157,7 @@ y alcanza el favor de Yahvé.
 
 el rico responde con dureza.
 
-<sup>24</sup> Hay* compañeros que se pelean,
+<sup>24</sup> Hay<span class="note-ref" data-ref="pr-18-24" title="Ver comentario">&#42;</span> compañeros que se pelean,
 
 y amigos más unidos que hermanos.
 
@@ -2187,7 +2189,7 @@ todos son amigos del espléndido.
 
 ¡con más razón lo abandonarán sus amigos!
 
-## Persigue palabras, pero no hay*.
+## Persigue palabras, pero no hay<span class="note-ref" data-ref="pr-19-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> El que adquiere cordura se ama a sí mismo,
 
@@ -2223,7 +2225,7 @@ el holgazán pasará hambre.
 
 <sup>16</sup> Quien guarda el precepto cuida su vida,
 
-quien deshonra su conducta morirá*.
+quien deshonra su conducta morirá<span class="note-ref" data-ref="pr-19-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Quien se apiada del pobre presta a Yahvé
 
@@ -2231,11 +2233,11 @@ y recibirá su recompensa.
 
 <sup>18</sup> Corrige a tu hijo mientras hay esperanza,
 
-pero no te excedas hasta matarlo*.
+pero no te excedas hasta matarlo<span class="note-ref" data-ref="pr-19-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> El iracundo pagará una multa,
 
-pues si lo perdonas, lo empeorarás*.
+pues si lo perdonas, lo empeorarás<span class="note-ref" data-ref="pr-19-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Escucha el consejo, acepta la corrección
 
@@ -2267,7 +2269,7 @@ es un hijo infame y sinvergüenza.
 
 <sup>27</sup> Deja, hijo mío, de escuchar la enseñanza
 
-y te alejarás de los sabios consejos*.
+y te alejarás de los sabios consejos<span class="note-ref" data-ref="pr-19-27" title="Ver comentario">&#42;</span>.
 
 <sup>28</sup> El testigo desalmado se burla del derecho,
 
@@ -2307,7 +2309,7 @@ pero ¿quién hallará un hombre fiel?
 
 <sup>8</sup> Rey sentado en el tribunal
 
-con su mirada disipa* todo mal.
+con su mirada disipa<span class="note-ref" data-ref="pr-20-8" title="Ver comentario">&#42;</span> todo mal.
 
 <sup>9</sup> ¿Quién puede decir: «Soy puro,
 
@@ -2339,7 +2341,7 @@ pero lo más valioso son los labios expertos.
 
 <sup>16</sup> Cógele el vestido, pues salió fiador de un extraño;
 
-exígele prenda por los desconocidos*.
+exígele prenda por los desconocidos<span class="note-ref" data-ref="pr-20-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Al hombre le gusta el pan robado,
 
@@ -2379,9 +2381,9 @@ y reconsiderar más tarde su promesa.
 
 <sup>26</sup> El rey sabio avienta a los malos
 
-y hace pasar la rueda sobre ellos*.
+y hace pasar la rueda sobre ellos<span class="note-ref" data-ref="pr-20-26" title="Ver comentario">&#42;</span>.
 
-<sup>27</sup> El aliento* del hombre es lámpara de Yahvé,
+<sup>27</sup> El aliento<span class="note-ref" data-ref="pr-20-27" title="Ver comentario">&#42;</span> del hombre es lámpara de Yahvé,
 
 que sondea lo más profundo de su ser.
 
@@ -2395,7 +2397,7 @@ las canas, el honor de los ancianos.
 
 <sup>30</sup> Las cicatrices de la herida remedian el mal,
 
-los golpes, las entrañas más profundas*.
+los golpes, las entrañas más profundas<span class="note-ref" data-ref="pr-20-30" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> El corazón del rey es un río en manos de Yahvé,
 
@@ -2407,11 +2409,11 @@ pero el que sondea los corazones es Yahvé.
 
 <sup>3</sup> Practicar la justicia y el derecho
 
-## Yahvé lo prefiere a los sacrificios*.
+## Yahvé lo prefiere a los sacrificios<span class="note-ref" data-ref="pr-21-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Ojos altivos, corazón arrogante
 
-y antorcha de malvados son pecado*.
+y antorcha de malvados son pecado<span class="note-ref" data-ref="pr-21-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Los proyectos del diligente traen ganancia,
 
@@ -2467,7 +2469,7 @@ el que ama vino y perfumes no se hará rico.
 
 <sup>18</sup> El malvado paga por el justo
 
-y el traidor por el honrado*.
+y el traidor por el honrado<span class="note-ref" data-ref="pr-21-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Mejor es vivir en el desierto
 
@@ -2497,11 +2499,11 @@ al que actúa con excesiva arrogancia.
 
 porque sus manos no quieren trabajar.
 
-<sup>26</sup> Todo el día está el malvado codiciando*,
+<sup>26</sup> Todo el día está el malvado codiciando<span class="note-ref" data-ref="pr-21-26" title="Ver comentario">&#42;</span>,
 
 el justo da y no escatima.
 
-<sup>27</sup> El sacrificio de los malvados es abominable*,
+<sup>27</sup> El sacrificio de los malvados es abominable<span class="note-ref" data-ref="pr-21-27" title="Ver comentario">&#42;</span>,
 
 y más si se hace con mala intención.
 
@@ -2515,7 +2517,7 @@ el honrado afianza su camino.
 
 <sup>30</sup> No hay sabiduría, ni prudencia,
 
-ni consejo frente a Yahvé*.
+ni consejo frente a Yahvé<span class="note-ref" data-ref="pr-21-30" title="Ver comentario">&#42;</span>.
 
 <sup>31</sup> El caballo está entrenado para la batalla,
 
@@ -2541,7 +2543,7 @@ son la riqueza, el honor y la vida.
 
 el que cuida de su vida se aleja de ellos.
 
-<sup>6</sup> Educa al muchacho al comienzo de su camino*,
+<sup>6</sup> Educa al muchacho al comienzo de su camino<span class="note-ref" data-ref="pr-22-6" title="Ver comentario">&#42;</span>,
 
 que luego, de viejo, no se apartará de él.
 
@@ -2551,7 +2553,7 @@ el deudor es esclavo de su acreedor.
 
 <sup>8</sup> Quien siembra maldad cosechará desgracias,
 
-la vara de su furia será destruida*.
+la vara de su furia será destruida<span class="note-ref" data-ref="pr-22-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> El generoso será bendecido,
 
@@ -2583,10 +2585,10 @@ la vara de la corrección lo separará de ella.
 
 <sup>16</sup> El que oprime a un pobre para enriquecerse
 
-da a un rico para empobrecerse*.
+da a un rico para empobrecerse<span class="note-ref" data-ref="pr-22-16" title="Ver comentario">&#42;</span>.
 
 ## III. Colección de los sabios
-<sup>17</sup> Presta atención y escucha las palabras de los sabios*,
+<sup>17</sup> Presta atención y escucha las palabras de los sabios<span class="note-ref" data-ref="pr-22-17" title="Ver comentario">&#42;</span>,
 
 dispón tu corazón a mi experiencia;
 
@@ -2598,7 +2600,7 @@ y ponerlas juntas en tus labios.
 
 te voy a instruir hoy.
 
-<sup>20</sup> Te he escrito treinta sentencias*
+<sup>20</sup> Te he escrito treinta sentencias<span class="note-ref" data-ref="pr-22-20" title="Ver comentario">&#42;</span>
 
 de consejos y experiencias,
 
@@ -2608,7 +2610,7 @@ y puedas responder con la verdad a quien te envíe.
 
 <sup>22</sup> No despojes al pobre, por ser pobre;
 
-no atropelles al humilde en el tribunal*,
+no atropelles al humilde en el tribunal<span class="note-ref" data-ref="pr-22-22" title="Ver comentario">&#42;</span>,
 
 <sup>23</sup> porque Yahvé defenderá su causa
 
@@ -2644,13 +2646,13 @@ y no de gente insignificante.
 
 mira bien al que está frente a ti;
 
-<sup>2</sup> refrena tu voracidad*,
+<sup>2</sup> refrena tu voracidad<span class="note-ref" data-ref="pr-23-2" title="Ver comentario">&#42;</span>,
 
 si tienes mucha hambre;
 
 <sup>3</sup> no seas ansioso de sus exquisiteces,
 
-porque es comida engañosa*.
+porque es comida engañosa<span class="note-ref" data-ref="pr-23-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> No te afanes por enriquecerte,
 
@@ -2666,7 +2668,7 @@ ni codicies sus exquisiteces;
 
 <sup>7</sup> porque son como un pelo en la garganta.
 
-## Te dice: «¡Come y bebe!», pero piensa otra cosa*.
+## Te dice: «¡Come y bebe!», pero piensa otra cosa<span class="note-ref" data-ref="pr-23-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Vomitarías lo que has comido
 
@@ -2682,7 +2684,7 @@ ni invadas el campo del huérfano,
 
 <sup>11</sup> porque su defensor es poderoso,
 
-y defenderá su causa contra ti*.
+y defenderá su causa contra ti<span class="note-ref" data-ref="pr-23-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Aplica tu mente a la instrucción,
 
@@ -2808,7 +2810,7 @@ y hombre de ciencia que poderoso,
 
 y la victoria con muchos consejeros.
 
-<sup>7</sup> La sabiduría es inalcanzable* para el necio,
+<sup>7</sup> La sabiduría es inalcanzable<span class="note-ref" data-ref="pr-24-7" title="Ver comentario">&#42;</span> para el necio,
 
 incapaz de abrir su boca en público.
 
@@ -2822,17 +2824,17 @@ la gente detesta al insolente.
 
 <sup>10</sup> Si te rindes en las dificultades,
 
-escasa es tu fuerza*.
+escasa es tu fuerza<span class="note-ref" data-ref="pr-24-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Salva a los condenados a muerte,
 
-libra a los conducidos al suplicio*.
+libra a los conducidos al suplicio<span class="note-ref" data-ref="pr-24-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Pues, aunque digas que no lo sabías,
 
 el que juzga los corazones lo comprende,
 
-el que vigila tu alma lo sabe*;
+el que vigila tu alma lo sabe<span class="note-ref" data-ref="pr-24-12" title="Ver comentario">&#42;</span>;
 
 y Él paga a cada uno según sus obras.
 
@@ -2876,12 +2878,12 @@ no te extralimites con ninguno de los dos,
 
 <sup>22</sup> porque su castigo será fulminante,
 
-y nadie conoce el furor de uno y otro*.
+y nadie conoce el furor de uno y otro<span class="note-ref" data-ref="pr-24-22" title="Ver comentario">&#42;</span>.
 
 ## IV. Otros proverbios de los sabios
-<sup>23</sup> También esto pertenece a los sabios*:
+<sup>23</sup> También esto pertenece a los sabios<span class="note-ref" data-ref="pr-24-23-a" title="Ver comentario">&#42;</span>:
 
-  No está bien ser parcial en el juicio*.
+  No está bien ser parcial en el juicio<span class="note-ref" data-ref="pr-24-23-b" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> Al que declara inocente al culpable,
 
@@ -2901,7 +2903,7 @@ y prepáralos en el campo;
 
 y después construirás tu casa.
 
-<sup>28</sup> No declares sin motivo contra tu prójimo*,
+<sup>28</sup> No declares sin motivo contra tu prójimo<span class="note-ref" data-ref="pr-24-28" title="Ver comentario">&#42;</span>,
 
 ni engañes con tus labios.
 
@@ -2929,10 +2931,10 @@ un rato de descanso con los brazos cruzados
 
 <sup>34</sup> y te llega la pobreza del vagabundo,
 
-la penuria del mendigo*.»
+la penuria del mendigo<span class="note-ref" data-ref="pr-24-34" title="Ver comentario">&#42;</span>.»
 
 ## V. Segunda colección salomónica
-<span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Otros proverbios de Salomón*, recopilados por los hombres de Ezequías, rey de Judá.
+<span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Otros proverbios de Salomón<span class="note-ref" data-ref="pr-25-1" title="Ver comentario">&#42;</span>, recopilados por los hombres de Ezequías, rey de Judá.
 
 <sup>2</sup> Es gloria de Dios ocultar una cosa,
 
@@ -2958,7 +2960,7 @@ ni te coloques entre los grandes,
 
 que ser humillado ante los nobles.
 
-Lo que veas con tus ojos*
+Lo que veas con tus ojos<span class="note-ref" data-ref="pr-25-7" title="Ver comentario">&#42;</span>
 
 <sup>8</sup> no te apresures a llevarlo a juicio;
 
@@ -2972,7 +2974,7 @@ y no reveles secretos de nadie,
 
 <sup>10</sup> no sea que te avergüence el que los oiga
 
-y tu desprestigio no tenga solución*.
+y tu desprestigio no tenga solución<span class="note-ref" data-ref="pr-25-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Manzanas de oro con adornos de plata,
 
@@ -3004,7 +3006,7 @@ no sea que te empalagues y la vomites.
 
 no sea que se harte y te aborrezca.
 
-<sup>18</sup> Maza*, espada y flecha aguda,
+<sup>18</sup> Maza<span class="note-ref" data-ref="pr-25-18" title="Ver comentario">&#42;</span>, espada y flecha aguda,
 
 quien declara en falso contra su prójimo.
 
@@ -3020,7 +3022,7 @@ es cantarle coplas a un corazón triste.
 
 si tiene sed, dale de beber;
 
-<sup>22</sup> así lo pondrás colorado*
+<sup>22</sup> así lo pondrás colorado<span class="note-ref" data-ref="pr-25-22" title="Ver comentario">&#42;</span>
 
 y Yahvé te recompensará.
 
@@ -3042,7 +3044,7 @@ el justo que flaquea ante el malvado.
 
 <sup>27</sup> No es bueno comer mucha miel,
 
-ni empacharse de gloria*.
+ni empacharse de gloria<span class="note-ref" data-ref="pr-25-27" title="Ver comentario">&#42;</span>.
 
 <sup>28</sup> Ciudad abierta y sin muralla,
 
@@ -3066,17 +3068,17 @@ no sea que te vuelvas como él.
 
 <sup>5</sup> Responde al necio según su necedad,
 
-no vaya a creerse sabio*.
+no vaya a creerse sabio<span class="note-ref" data-ref="pr-26-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Se corta los pies y bebe violencia
 
 quien envía mensajes por medio de un necio.
 
-<sup>7</sup> Como las piernas renqueantes* del cojo,
+<sup>7</sup> Como las piernas renqueantes<span class="note-ref" data-ref="pr-26-7" title="Ver comentario">&#42;</span> del cojo,
 
 el proverbio en la boca del necio.
 
-<sup>8</sup> Como atar la piedra a la honda*
+<sup>8</sup> Como atar la piedra a la honda<span class="note-ref" data-ref="pr-26-8" title="Ver comentario">&#42;</span>
 
 es conceder honores a un necio.
 
@@ -3086,7 +3088,7 @@ el proverbio en boca de necios.
 
 <sup>10</sup> Arquero que dispara a todo el mundo,
 
-el que contrata a un necio y a un vagabundo*.
+el que contrata a un necio y a un vagabundo<span class="note-ref" data-ref="pr-26-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Como el perro que lame su vómito,
 
@@ -3182,7 +3184,7 @@ que amistad encubierta.
 
 <sup>6</sup> Más valen golpes leales de amigo
 
-que besos falaces de enemigo*.
+que besos falaces de enemigo<span class="note-ref" data-ref="pr-27-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Estómago harto desprecia la miel,
 
@@ -3212,9 +3214,9 @@ los simples siguen adelante y lo pagan.
 
 <sup>13</sup> Cógele el vestido, pues salió fiador de un extraño;
 
-exígele prenda por los desconocidos*.
+exígele prenda por los desconocidos<span class="note-ref" data-ref="pr-27-13" title="Ver comentario">&#42;</span>.
 
-<sup>14</sup> Saludar al vecino a gritos de madrugada*
+<sup>14</sup> Saludar al vecino a gritos de madrugada<span class="note-ref" data-ref="pr-27-14" title="Ver comentario">&#42;</span>
 
 es igual que maldecirlo.
 
@@ -3236,7 +3238,7 @@ quien vela por su amo recibe honores.
 
 <sup>19</sup> Como el agua es espejo del rostro,
 
-el corazón es espejo del hombre*.
+el corazón es espejo del hombre<span class="note-ref" data-ref="pr-27-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Abismo y perdición son insaciables,
 
@@ -3246,7 +3248,7 @@ como insaciables son los ojos del hombre.
 
 y el hombre en su reputación.
 
-<sup>22</sup> Aunque machaques al necio en el mortero*,
+<sup>22</sup> Aunque machaques al necio en el mortero<span class="note-ref" data-ref="pr-27-22" title="Ver comentario">&#42;</span>,
 
 no le quitarás la necedad.
 
@@ -3256,7 +3258,7 @@ y presta atención a tus rebaños,
 
 <sup>24</sup> porque la riqueza no es eterna,
 
-ni la fortuna* dura siempre.
+ni la fortuna<span class="note-ref" data-ref="pr-27-24" title="Ver comentario">&#42;</span> dura siempre.
 
 <sup>25</sup> El heno asoma, el pasto aparece
 
@@ -3276,9 +3278,9 @@ el justo vive confiado como un león.
 
 <sup>2</sup> En país revuelto abundan sus jefes,
 
-hombre inteligente y experto mantiene el orden*.
+hombre inteligente y experto mantiene el orden<span class="note-ref" data-ref="pr-28-2" title="Ver comentario">&#42;</span>.
 
-<sup>3</sup> Hombre empobrecido* que oprime a los pobres
+<sup>3</sup> Hombre empobrecido<span class="note-ref" data-ref="pr-28-3" title="Ver comentario">&#42;</span> que oprime a los pobres
 
 es lluvia devastadora que deja sin pan.
 
@@ -3300,7 +3302,7 @@ el que anda con juerguistas deshonra a su padre.
 
 <sup>8</sup> El que aumenta sus riquezas con usuras e intereses
 
-acumula para el que se compadece de los pobres*.
+acumula para el que se compadece de los pobres<span class="note-ref" data-ref="pr-28-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Si uno cierra su oído para no oír la ley,
 
@@ -3308,7 +3310,7 @@ también su oración será aborrecida.
 
 <sup>10</sup> El que extravía a los rectos por el mal camino
 
-caerá en su propia fosa*.
+caerá en su propia fosa<span class="note-ref" data-ref="pr-28-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> El rico presume de sabio,
 
@@ -3320,7 +3322,7 @@ cuando se alzan los malvados, no se encuentra un alma.
 
 <sup>13</sup> El que oculta sus delitos no prosperará;
 
-el que los confiesa y cambia*, obtendrá compasión.
+el que los confiesa y cambia<span class="note-ref" data-ref="pr-28-13" title="Ver comentario">&#42;</span>, obtendrá compasión.
 
 <sup>14</sup> Dichoso el hombre que teme siempre,
 
@@ -3344,7 +3346,7 @@ el que se extravía entre dos caminos caerá en uno de ellos.
 
 <sup>19</sup> Quien cultiva su tierra se hartará de pan;
 
-quien persigue quimeras se hartará de miseria*.
+quien persigue quimeras se hartará de miseria<span class="note-ref" data-ref="pr-28-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> El hombre sincero abundará en bendiciones,
 
@@ -3408,7 +3410,7 @@ el justo da gritos de alegría.
 
 <sup>7</sup> El justo reconoce los derechos del pobre,
 
-el malvado es incapaz de conocerlos*.
+el malvado es incapaz de conocerlos<span class="note-ref" data-ref="pr-29-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Los provocadores agitan la ciudad,
 
@@ -3420,7 +3422,7 @@ se enfada y se ríe sin descanso.
 
 <sup>10</sup> Los sanguinarios odian al intachable,
 
-pero los honrados cuidan de su vida*.
+pero los honrados cuidan de su vida<span class="note-ref" data-ref="pr-29-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> El necio da rienda suelta a sus pasiones,
 
@@ -3452,7 +3454,7 @@ y te dará satisfacciones.
 
 <sup>18</sup> Cuando no hay profetas, el pueblo se relaja;
 
-dichoso el que cumple la ley*.
+dichoso el que cumple la ley<span class="note-ref" data-ref="pr-29-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> No se corrige a un siervo con palabras;
 
@@ -3464,7 +3466,7 @@ que del ligero al hablar.
 
 <sup>21</sup> Esclavo consentido en la niñez
 
-al final será un ingrato*.
+al final será un ingrato<span class="note-ref" data-ref="pr-29-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> Hombre furioso provoca peleas,
 
@@ -3476,7 +3478,7 @@ el espíritu humilde obtiene honores.
 
 <sup>24</sup> El cómplice del ladrón se odia a sí mismo:
 
-escucha la maldición*, pero no lo denuncia.
+escucha la maldición<span class="note-ref" data-ref="pr-29-24" title="Ver comentario">&#42;</span>, pero no lo denuncia.
 
 <sup>25</sup> El miedo tiende una trampa al hombre,
 
@@ -3491,7 +3493,7 @@ pero sólo Yahvé hace justicia.
 y el malvado detesta al honrado.
 
 ## VI. Palabras de Agur
-<span id="chapter-30" class="chapter-marker" data-chapter="30">30</span><sup>1</sup> Palabras de Agur, hijo de Jaqué, de Masá*. Oráculo de este hombre para Itiel, para Itiel y para Ucal*.
+<span id="chapter-30" class="chapter-marker" data-chapter="30">30</span><sup>1</sup> Palabras de Agur, hijo de Jaqué, de Masá<span class="note-ref" data-ref="pr-30-1-a" title="Ver comentario">&#42;</span>. Oráculo de este hombre para Itiel, para Itiel y para Ucal<span class="note-ref" data-ref="pr-30-1-b" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> ¡Soy el más estúpido de los hombres!
 
@@ -3499,7 +3501,7 @@ No tengo inteligencia humana,
 
 <sup>3</sup> no he aprendido la sabiduría,
 
-ni conozco la ciencia santa*.
+ni conozco la ciencia santa<span class="note-ref" data-ref="pr-30-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> ¿Quién subió hasta el cielo y bajó luego?,
 
@@ -3561,9 +3563,9 @@ y mandíbulas como cizallas,
 
 para devorar a los humildes del país
 
-y a los pobres de la tierra*.
+y a los pobres de la tierra<span class="note-ref" data-ref="pr-30-14" title="Ver comentario">&#42;</span>.
 
-## VII. Proverbios numéricos*
+## VII. Proverbios numéricos<span class="note-ref" data-ref="pr-30-15" title="Ver comentario">&#42;</span>
 <sup>15</sup> La sanguijuela tiene dos hijas: «¡Dame, dame!»
 
   Hay tres cosas insaciables
@@ -3594,13 +3596,13 @@ el camino de la serpiente sobre la roca,
 
   el camino del barco en alta mar
 
-y el camino del hombre hacia la doncella*.
+y el camino del hombre hacia la doncella<span class="note-ref" data-ref="pr-30-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Así procede la mujer adúltera:
 
 come, se limpia la boca y dice:
 
-«¡No he hecho nada malo*!»
+«¡No he hecho nada malo<span class="note-ref" data-ref="pr-30-20" title="Ver comentario">&#42;</span>!»
 
 <sup>21</sup> Tres cosas hacen temblar la tierra
 
@@ -3616,7 +3618,7 @@ y esclava que hereda a su señora.
 
 <sup>24</sup> Hay cuatro seres pequeños en la tierra,
 
-que son más sabios que los sabios*:
+que son más sabios que los sabios<span class="note-ref" data-ref="pr-30-24" title="Ver comentario">&#42;</span>:
 
 <sup>25</sup> las hormigas, pueblo débil
 
@@ -3644,7 +3646,7 @@ que ante nada retrocede,
 
 <sup>31</sup> el gallo orgulloso, el macho cabrío
 
-y el rey al frente de su ejército*.
+y el rey al frente de su ejército<span class="note-ref" data-ref="pr-30-31" title="Ver comentario">&#42;</span>.
 
 <sup>32</sup> Si hiciste el tonto presumiendo
 
@@ -3657,19 +3659,19 @@ aprietas la nariz y sale sangre,
 aprietas la ira y sale discordia.
 
 ## VIII. Palabras de Lemuel
-<span id="chapter-31" class="chapter-marker" data-chapter="31">31</span><sup>1</sup> Palabras de Lemuel, rey de Masá*, que le enseñó su madre:
+<span id="chapter-31" class="chapter-marker" data-chapter="31">31</span><sup>1</sup> Palabras de Lemuel, rey de Masá<span class="note-ref" data-ref="pr-31-1" title="Ver comentario">&#42;</span>, que le enseñó su madre:
 
-<sup>2</sup> ¿Qué te diré*, hijo mío, hijo de mis entrañas,
+<sup>2</sup> ¿Qué te diré<span class="note-ref" data-ref="pr-31-2" title="Ver comentario">&#42;</span>, hijo mío, hijo de mis entrañas,
 
 hijo de mis promesas?
 
 <sup>3</sup> No pierdas tus energías con mujeres,
 
-ni tus caminos en derrocar reyes*.
+ni tus caminos en derrocar reyes<span class="note-ref" data-ref="pr-31-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> No es propio de reyes, Lemuel,
 
-no es propio de reyes beber vino*,
+no es propio de reyes beber vino<span class="note-ref" data-ref="pr-31-4" title="Ver comentario">&#42;</span>,
 
 ni de los gobernantes beber licores;
 
@@ -3693,10 +3695,10 @@ y defiende la causa de los desvalidos;
 
 y defiende la causa del humilde y del pobre.
 
-## IX. La mujer ideal*
+## IX. La mujer ideal<span class="note-ref" data-ref="pr-31-10-a" title="Ver comentario">&#42;</span>
 ## Álef.
 
-<sup>10</sup> ¿Quién encontrará a una mujer ideal*?
+<sup>10</sup> ¿Quién encontrará a una mujer ideal<span class="note-ref" data-ref="pr-31-10-b" title="Ver comentario">&#42;</span>?
 
 ## Vale mucho más que las piedras preciosas.
 
@@ -3730,7 +3732,7 @@ que trae de lejos sus provisiones.
 
 para dar el sustento a su familia
 
-y las órdenes a sus criadas*.
+y las órdenes a sus criadas<span class="note-ref" data-ref="pr-31-15" title="Ver comentario">&#42;</span>.
 
 ## Zain.
 
@@ -3790,7 +3792,7 @@ y proporciona cinturones a los comerciantes.
 
 <sup>25</sup> Se reviste de fuerza y dignidad
 
-y no le preocupa el mañana*.
+y no le preocupa el mañana<span class="note-ref" data-ref="pr-31-25" title="Ver comentario">&#42;</span>.
 
 ## Pe.
 
@@ -3820,7 +3822,7 @@ pero tú las superas a todas!»
 
 <sup>30</sup> Engañosa es la gracia y fugaz la belleza;
 
-sólo la mujer que respeta a Yahvé* es digna de alabanza.
+sólo la mujer que respeta a Yahvé<span class="note-ref" data-ref="pr-31-30" title="Ver comentario">&#42;</span> es digna de alabanza.
 
 ## Tau.
 

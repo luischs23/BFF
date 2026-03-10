@@ -4,10 +4,10 @@ description: 'Libro de las Lamentaciones'
 img: blog-placeholder-4.jpg
 ---
 # LAMENTACIONES
-## Primera lamentación*
+## Primera lamentación<span class="note-ref" data-ref="lm-1" title="Ver comentario">&#42;</span>
 ## Álef.
 
-1:1 ¡Qué solitaria se encuentra
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> ¡Qué solitaria se encuentra
 
 la otrora Ciudad populosa!
 
@@ -21,13 +21,13 @@ sometida está a tributo.
 
 ## Bet.
 
-1:2 Llora que llora de noche,
+<sup>2</sup> Llora que llora de noche,
 
 surca el llanto sus mejillas.
 
 No hay nadie que la consuele
 
-entre todos sus amantes*.
+entre todos sus amantes<span class="note-ref" data-ref="lm-1-2" title="Ver comentario">&#42;</span>.
 
 Todos sus amigos la han traicionado,
 
@@ -35,7 +35,7 @@ Todos sus amigos la han traicionado,
 
 ## Guímel.
 
-1:3 Judá está desterrada* y postrada,
+<sup>3</sup> Judá está desterrada<span class="note-ref" data-ref="lm-1-3" title="Ver comentario">&#42;</span> y postrada,
 
 sometida a extrema servidumbre.
 
@@ -49,7 +49,7 @@ la pusieron en aprietos.
 
 ## Dálet.
 
-1:4 Las calzadas de Sión están de luto,
+<sup>4</sup> Las calzadas de Sión están de luto,
 
 ya nadie viene a las solemnidades.
 
@@ -63,7 +63,7 @@ afligidas sus doncellas,
 
 ## He.
 
-1:5 La domina el enemigo,
+<sup>5</sup> La domina el enemigo,
 
 feliz está el adversario,
 
@@ -77,7 +77,7 @@ delante del enemigo.
 
 ## Vau.
 
-1:6 La hija de Sión ha quedado
+<sup>6</sup> La hija de Sión ha quedado
 
 privada de todo su esplendor.
 
@@ -91,9 +91,9 @@ hostigados por la espalda.
 
 ## Zain.
 
-1:7 Jerusalén recuerda sus días
+<sup>7</sup> Jerusalén recuerda sus días
 
-de miseria y vida errante*,
+de miseria y vida errante<span class="note-ref" data-ref="lm-1-7" title="Ver comentario">&#42;</span>,
 
 cuando su pueblo sucumbía ante el enemigo,
 
@@ -105,7 +105,7 @@ burlándose de su ruina.
 
 ## Jet.
 
-1:8 Mucho ha pecado Jerusalén,
+<sup>8</sup> Mucho ha pecado Jerusalén,
 
 por eso ha quedado impura.
 
@@ -119,7 +119,7 @@ vuelta de espaldas.
 
 ## Tet.
 
-1:9 Su inmundicia se pega a su ropa,
+<sup>9</sup> Su inmundicia se pega a su ropa,
 
 no pensó ella en este fin.
 
@@ -133,9 +133,9 @@ que el enemigo se crece!»
 
 ## Yod.
 
-1:10 Echó mano el enemigo
+<sup>10</sup> Echó mano el enemigo
 
-a todos sus tesoros*;
+a todos sus tesoros<span class="note-ref" data-ref="lm-1-10" title="Ver comentario">&#42;</span>;
 
 ha visto ella a los paganos
 
@@ -147,7 +147,7 @@ aquellos de quienes ordenaste:
 
 ## Kaf.
 
-1:11 Su pueblo entero gime
+<sup>11</sup> Su pueblo entero gime
 
 y anda en busca de pan;
 
@@ -161,7 +161,7 @@ qué envilecida estoy.»
 
 ## Lámed.
 
-1:12 Vosotros* que pasáis por el camino,
+<sup>12</sup> Vosotros<span class="note-ref" data-ref="lm-1-12" title="Ver comentario">&#42;</span> que pasáis por el camino,
 
 mirad, fijaos bien
 
@@ -175,7 +175,7 @@ el día de su ardiente cólera.
 
 ## Mem.
 
-1:13 Desde lo alto ha lanzado un fuego
+<sup>13</sup> Desde lo alto ha lanzado un fuego
 
 que se ha metido en mis huesos.
 
@@ -189,7 +189,7 @@ todo el día dolorida.
 
 ## Nun.
 
-1:14 Hizo un yugo con mis culpas,
+<sup>14</sup> Hizo un yugo con mis culpas,
 
 por su mano entrelazadas.
 
@@ -199,11 +199,11 @@ doblega mi vigor.
 
 El Señor me ha dejado a merced de ellos,
 
-¡ya no me puedo tener*!
+¡ya no me puedo tener<span class="note-ref" data-ref="lm-1-14" title="Ver comentario">&#42;</span>!
 
 ## Sámek.
 
-1:15 Ha desechado a mis valientes
+<sup>15</sup> Ha desechado a mis valientes
 
 de en medio de mí el Señor.
 
@@ -217,9 +217,9 @@ a la doncella, capital de Judá.
 
 ## Ain.
 
-1:16 Por eso estoy llorando;
+<sup>16</sup> Por eso estoy llorando;
 
-mi ojo, mi ojo se va en agua*,
+mi ojo, mi ojo se va en agua<span class="note-ref" data-ref="lm-1-16" title="Ver comentario">&#42;</span>,
 
 pues no hay quien me consuele,
 
@@ -231,7 +231,7 @@ porque ha ganado el enemigo.
 
 ## Pe.
 
-1:17 Tiende Sión sus manos:
+<sup>17</sup> Tiende Sión sus manos:
 
 ¡no hay quien la consuele!
 
@@ -245,7 +245,7 @@ en algo impuro entre ellos.
 
 ## Sade.
 
-1:18 Justo, justo ha sido Yahvé,
+<sup>18</sup> Justo, justo ha sido Yahvé,
 
 pues he sido indócil a sus órdenes.
 
@@ -259,7 +259,7 @@ han marchado al cautiverio.
 
 ## Qof.
 
-1:19 He llamado a mis amantes,
+<sup>19</sup> He llamado a mis amantes,
 
 mas todos me han traicionado.
 
@@ -273,7 +273,7 @@ para recobrar las fuerzas.
 
 ## Reš.
 
-1:20 ¡Contempla, Yahvé, mi angustia!
+<sup>20</sup> ¡Contempla, Yahvé, mi angustia!
 
 ¡Me hierven las entrañas,
 
@@ -287,7 +287,7 @@ en casa aguarda la muerte.
 
 ## Šin.
 
-1:21 ¡Escucha mis gemidos:
+<sup>21</sup> ¡Escucha mis gemidos:
 
 no hay quien me consuele!
 
@@ -297,11 +297,11 @@ se alegran de lo que me has hecho.
 
 ¡Haz que llegue el Día anunciado,
 
-para que acaben como yo*!
+para que acaben como yo<span class="note-ref" data-ref="lm-1-21" title="Ver comentario">&#42;</span>!
 
 ## Tau.
 
-1:22 ¡Llegue ante ti su maldad,
+<sup>22</sup> ¡Llegue ante ti su maldad,
 
 y trátalos a ellos
 
@@ -313,10 +313,10 @@ Que estoy harta de gemir
 
 y languidece mi corazón.
 
-## Segunda lamentación*
+## Segunda lamentación<span class="note-ref" data-ref="lm-2" title="Ver comentario">&#42;</span>
 ## Álef.
 
-2:1 ¡Cómo ha nublado en su cólera,
+<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> ¡Cómo ha nublado en su cólera,
 
 el Señor a la capital, Sión!
 
@@ -324,13 +324,13 @@ el Señor a la capital, Sión!
 
 el esplendor de Israel,
 
-sin acordarse del estrado de sus pies*,
+sin acordarse del estrado de sus pies<span class="note-ref" data-ref="lm-2-1" title="Ver comentario">&#42;</span>,
 
 el día de su cólera!
 
 ## Bet.
 
-2:2 El Señor ha destruido sin piedad
+<sup>2</sup> El Señor ha destruido sin piedad
 
 todas las moradas de Jacob;
 
@@ -344,7 +344,7 @@ al reino y a todos sus príncipes.
 
 ## Guímel.
 
-2:3 Ardiendo en cólera ha quebrado
+<sup>3</sup> Ardiendo en cólera ha quebrado
 
 todo el poder de Israel;
 
@@ -358,7 +358,7 @@ devorando todo alrededor.
 
 ## Dálet.
 
-2:4 Como enemigo* ha tensado su arco,
+<sup>4</sup> Como enemigo<span class="note-ref" data-ref="lm-2-4" title="Ver comentario">&#42;</span> ha tensado su arco,
 
 ha tomado con su diestra las flechas,
 
@@ -372,7 +372,7 @@ ha vertido como fuego su furor.
 
 ## He.
 
-2:5 Se ha portado el Señor como enemigo:
+<sup>5</sup> Se ha portado el Señor como enemigo:
 
 ha acabado con Israel,
 
@@ -386,7 +386,7 @@ de llantos y lamentos.
 
 ## Vau.
 
-2:6 Ha forzado, como a un huerto, su cerca*,
+<sup>6</sup> Ha forzado, como a un huerto, su cerca<span class="note-ref" data-ref="lm-2-6" title="Ver comentario">&#42;</span>,
 
 ha derruido su lugar de reunión.
 
@@ -400,7 +400,7 @@ a reyes y a sacerdotes.
 
 ## Zain.
 
-2:7 El Señor ha rechazado su altar,
+<sup>7</sup> El Señor ha rechazado su altar,
 
 su santuario ha desdeñado;
 
@@ -410,11 +410,11 @@ los muros de sus palacios;
 
 ¡se oyeron gritos en el templo de Yahvé,
 
-lo mismo que en día solemne*!
+lo mismo que en día solemne<span class="note-ref" data-ref="lm-2-7" title="Ver comentario">&#42;</span>!
 
 ## Jet.
 
-2:8 Yahvé decidió destruir
+<sup>8</sup> Yahvé decidió destruir
 
 la muralla de Sión, la capital.
 
@@ -428,7 +428,7 @@ que juntos se desmoronan.
 
 ## Tet.
 
-2:9 Ha hundido en tierra sus puertas,
+<sup>9</sup> Ha hundido en tierra sus puertas,
 
 deshaciendo y rompiendo sus cerrojos;
 
@@ -442,7 +442,7 @@ visiones de Yahvé.
 
 ## Yod.
 
-2:10 En tierra se sientan, en silencio,
+<sup>10</sup> En tierra se sientan, en silencio,
 
 los ancianos de Sión, la capital;
 
@@ -456,7 +456,7 @@ las doncellas de Jerusalén.
 
 ## Kaf.
 
-2:11 El llanto consume mis ojos,
+<sup>11</sup> El llanto consume mis ojos,
 
 me hierven las entrañas,
 
@@ -470,9 +470,9 @@ en las plazas de la ciudad.
 
 ## Lámed.
 
-2:12 Preguntan a sus madres:
+<sup>12</sup> Preguntan a sus madres:
 
-«¿Dónde hay pan*?»,
+«¿Dónde hay pan<span class="note-ref" data-ref="lm-2-12" title="Ver comentario">&#42;</span>?»,
 
 mientras caen desfallecidos, como heridos,
 
@@ -484,11 +484,11 @@ en el regazo de sus madres.
 
 ## Mem.
 
-2:13 ¿A quién te compararé y asemejaré,
+<sup>13</sup> ¿A quién te compararé y asemejaré,
 
 ciudad de Jerusalén?
 
-¿Quién te podrá salvar y consolar*,
+¿Quién te podrá salvar y consolar<span class="note-ref" data-ref="lm-2-13" title="Ver comentario">&#42;</span>,
 
 doncella, capital de Sión?
 
@@ -498,7 +498,7 @@ Grande como el mar es tu quebranto:
 
 ## Nun.
 
-2:14 Tus profetas te ofrecieron visiones
+<sup>14</sup> Tus profetas te ofrecieron visiones
 
 falsas, sin contenido.
 
@@ -508,11 +508,11 @@ porque cambiara tu suerte.
 
 Oráculos te ofrecieron
 
-de falacia e ilusión*.
+de falacia e ilusión<span class="note-ref" data-ref="lm-2-14" title="Ver comentario">&#42;</span>.
 
 ## Sámek.
 
-2:15 Contra ti baten palmas
+<sup>15</sup> Contra ti baten palmas
 
 todos los viandantes;
 
@@ -526,7 +526,7 @@ la alegría de toda la tierra?»
 
 ## Pe.
 
-2:16 Abren su boca contra ti
+<sup>16</sup> Abren su boca contra ti
 
 todos tus enemigos;
 
@@ -540,7 +540,7 @@ diciendo: «¡La hemos tragado!
 
 ## Ain.
 
-2:17 Yahvé ha realizado su designio,
+<sup>17</sup> Yahvé ha realizado su designio,
 
 ha cumplido su palabra,
 
@@ -550,11 +550,11 @@ ha destruido sin piedad,
 
 te ha hecho irrisión del enemigo,
 
-ha exaltado el poder* de tu adversario.
+ha exaltado el poder<span class="note-ref" data-ref="lm-2-17" title="Ver comentario">&#42;</span> de tu adversario.
 
 ## Sade.
 
-2:18 ¡Clama, pues*, al Señor,
+<sup>18</sup> ¡Clama, pues<span class="note-ref" data-ref="lm-2-18" title="Ver comentario">&#42;</span>, al Señor,
 
 muralla de Sión capital;
 
@@ -568,7 +568,7 @@ no des reposo a tus ojos!
 
 ## Qof.
 
-2:19 ¡En pie, lanza un grito en la noche,
+<sup>19</sup> ¡En pie, lanza un grito en la noche,
 
 cuando comienza la ronda;
 
@@ -582,11 +582,11 @@ por la vida de tus pequeños
 
 (que de hambre desfallecen
 
-por las esquinas de las calles*)!
+por las esquinas de las calles<span class="note-ref" data-ref="lm-2-19" title="Ver comentario">&#42;</span>)!
 
 ## Reš.
 
-2:20 Mira, Yahvé, y recapacita:
+<sup>20</sup> Mira, Yahvé, y recapacita:
 
 ¿a quién has tratado de esta suerte?
 
@@ -600,7 +600,7 @@ sacerdotes y profetas?
 
 ## Šin.
 
-2:21 Yacen por tierra en la calle
+<sup>21</sup> Yacen por tierra en la calle
 
 juntos niños y ancianos;
 
@@ -614,9 +614,9 @@ has inmolado sin piedad!
 
 ## Tau.
 
-2:22 Como en día de fiesta congregaste
+<sup>22</sup> Como en día de fiesta congregaste
 
-todo alrededor terrores*;
+todo alrededor terrores<span class="note-ref" data-ref="lm-2-22" title="Ver comentario">&#42;</span>;
 
 en el día de la ira de Yahvé
 
@@ -626,329 +626,329 @@ Los que yo había criado y mantenido
 
 fueron exterminados por mi enemigo.
 
-## Tercera lamentación*
+## Tercera lamentación<span class="note-ref" data-ref="lm-3" title="Ver comentario">&#42;</span>
 ## Álef.
 
-3:1 Soy el hombre que ha visto la aflicción
+<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Soy el hombre que ha visto la aflicción
 
 bajo el látigo de su furor.
 
-3:2 Me ha llevado y me ha hecho caminar
+<sup>2</sup> Me ha llevado y me ha hecho caminar
 
 en tinieblas y sin luz.
 
-3:3 Contra mí vuelve y revuelve
+<sup>3</sup> Contra mí vuelve y revuelve
 
 su mano todo el día.
 
 ## Bet.
 
-3:4 Mi carne y mi piel ha consumido,
+<sup>4</sup> Mi carne y mi piel ha consumido,
 
 ha quebrado mis huesos.
 
-3:5 Ha levantado contra mí en asedio*
+<sup>5</sup> Ha levantado contra mí en asedio<span class="note-ref" data-ref="lm-3-5" title="Ver comentario">&#42;</span>
 
 tortura y amargura.
 
-3:6 Me ha hecho morar en tinieblas,
+<sup>6</sup> Me ha hecho morar en tinieblas,
 
 como a los muertos de antaño.
 
 ## Guímel.
 
-3:7 Me ha tapiado, no puedo salir;
+<sup>7</sup> Me ha tapiado, no puedo salir;
 
 me ha echado pesadas cadenas.
 
-3:8 Aunque grito y pido auxilio,
+<sup>8</sup> Aunque grito y pido auxilio,
 
 él sofoca mi plegaria.
 
-3:9 Ha cercado mi camino con sillares,
+<sup>9</sup> Ha cercado mi camino con sillares,
 
 ha torcido mis senderos.
 
 ## Dálet.
 
-3:10 Me ha acechado como un oso,
+<sup>10</sup> Me ha acechado como un oso,
 
 como un león escondido.
 
-3:11 Ha intrincado mi camino para desgarrarme,
+<sup>11</sup> Ha intrincado mi camino para desgarrarme,
 
 me ha dejado destrozado.
 
-3:12 Ha tensado su arco y me ha hecho
+<sup>12</sup> Ha tensado su arco y me ha hecho
 
 blanco de sus flechas.
 
 ## He.
 
-3:13 Ha clavado en mis lomos
+<sup>13</sup> Ha clavado en mis lomos
 
 las flechas de su aljaba.
 
-3:14 Soy la burla de todo mi pueblo*,
+<sup>14</sup> Soy la burla de todo mi pueblo<span class="note-ref" data-ref="lm-3-14" title="Ver comentario">&#42;</span>,
 
 su copla todo el día.
 
-3:15 Me ha colmado de amargura,
+<sup>15</sup> Me ha colmado de amargura,
 
 me ha abrevado con ajenjo.
 
 ## Vau.
 
-3:16 Ha quebrado mis dientes con guijarros,
+<sup>16</sup> Ha quebrado mis dientes con guijarros,
 
 me ha revolcado en la ceniza.
 
-3:17 Me encuentro lejos* de la paz,
+<sup>17</sup> Me encuentro lejos<span class="note-ref" data-ref="lm-3-17" title="Ver comentario">&#42;</span> de la paz,
 
 he olvidado la dicha.
 
-3:18 Me digo: ¡Ha fenecido mi vigor,
+<sup>18</sup> Me digo: ¡Ha fenecido mi vigor,
 
 y la esperanza que me venía de Yahvé!
 
 ## Zain.
 
-3:19 Recuerda mi miseria y vida errante:
+<sup>19</sup> Recuerda mi miseria y vida errante:
 
 ¡todo es ajenjo y amargura!
 
-3:20 Lo recuerda, lo recuerda, y se hunde
+<sup>20</sup> Lo recuerda, lo recuerda, y se hunde
 
 mi espíritu dentro de mí.
 
-3:21 Pero algo traigo a la memoria,
+<sup>21</sup> Pero algo traigo a la memoria,
 
 algo que me hace esperar:
 
 ## Jet.
 
-3:22 Que el amor de Yahvé no ha acabado*,
+<sup>22</sup> Que el amor de Yahvé no ha acabado<span class="note-ref" data-ref="lm-3-22" title="Ver comentario">&#42;</span>,
 
 que no se ha agotado su ternura;
 
-3:23 mañana a mañana se renuevan:
+<sup>23</sup> mañana a mañana se renuevan:
 
 ¡grande es tu fidelidad!
 
-3:24 «¡Mi porción es Yahvé, me digo,
+<sup>24</sup> «¡Mi porción es Yahvé, me digo,
 
 por eso en él esperaré!»
 
 ## Tet.
 
-3:25 Bueno es Yahvé para quien lo espera,
+<sup>25</sup> Bueno es Yahvé para quien lo espera,
 
 para todo aquel que lo busca.
 
-3:26 Bueno es esperar en silencio
+<sup>26</sup> Bueno es esperar en silencio
 
 la salvación de Yahvé.
 
-3:27 Bueno es para el hombre soportar
+<sup>27</sup> Bueno es para el hombre soportar
 
 el yugo desde su mocedad.
 
 ## Yod.
 
-3:28 Que se esté solo y silencioso,
+<sup>28</sup> Que se esté solo y silencioso,
 
-cuando el Señor* se lo impone;
+cuando el Señor<span class="note-ref" data-ref="lm-3-28" title="Ver comentario">&#42;</span> se lo impone;
 
-3:29 que humille su boca en el polvo:
+<sup>29</sup> que humille su boca en el polvo:
 
 quizá así quede esperanza;
 
-3:30 que ponga la mejilla a quien lo hiere,
+<sup>30</sup> que ponga la mejilla a quien lo hiere,
 
 que se harte de oprobios.
 
 ## Kaf.
 
-3:31 Porque no desecha para siempre
+<sup>31</sup> Porque no desecha para siempre
 
-a los humanos* el Señor;
+a los humanos<span class="note-ref" data-ref="lm-3-31" title="Ver comentario">&#42;</span> el Señor;
 
-3:32 después de afligir se apiada
+<sup>32</sup> después de afligir se apiada
 
 según su inmenso amor;
 
-3:33 pues no se complace en humillar,
+<sup>33</sup> pues no se complace en humillar,
 
 en afligir a los seres humanos.
 
 ## Lámed.
 
-3:34 Cuando se aplasta bajo el pie
+<sup>34</sup> Cuando se aplasta bajo el pie
 
 a todos los cautivos de un país,
 
-3:35 cuando se tuerce el derecho de un hombre
+<sup>35</sup> cuando se tuerce el derecho de un hombre
 
 en presencia del Altísimo,
 
-3:36 cuando se hace injusticia en su proceso,
+<sup>36</sup> cuando se hace injusticia en su proceso,
 
 ¿no lo ve el Señor?
 
 ## Mem.
 
-3:37 ¿Quién dice algo y sucede?
+<sup>37</sup> ¿Quién dice algo y sucede?
 
 ¿No es el Señor el que decide?
 
-3:38 ¿No salen de la boca del Altísimo
+<sup>38</sup> ¿No salen de la boca del Altísimo
 
 los males y los bienes?
 
-3:39 ¿De qué, pues, se queja el hombre?
+<sup>39</sup> ¿De qué, pues, se queja el hombre?
 
-¡Que sea hombre contra sus pecados*!
+¡Que sea hombre contra sus pecados<span class="note-ref" data-ref="lm-3-39" title="Ver comentario">&#42;</span>!
 
 ## Nun.
 
-3:40 Examinemos atentos nuestra conducta,
+<sup>40</sup> Examinemos atentos nuestra conducta,
 
 y convirtámonos a Yahvé.
 
-3:41 Alcemos nuestro corazón y* nuestras manos
+<sup>41</sup> Alcemos nuestro corazón y<span class="note-ref" data-ref="lm-3-41" title="Ver comentario">&#42;</span> nuestras manos
 
 al Dios que está en los cielos.
 
-3:42 Hemos sido rebeldes y traidores,
+<sup>42</sup> Hemos sido rebeldes y traidores,
 
 ¡y Tú no has perdonado!
 
 ## Sámek.
 
-3:43 Envuelto en cólera, nos has perseguido,
+<sup>43</sup> Envuelto en cólera, nos has perseguido,
 
 nos has matado sin piedad;
 
-3:44 te has arropado en una nube
+<sup>44</sup> te has arropado en una nube
 
 para que no pasara la oración;
 
-3:45 basura y abyección nos has hecho
+<sup>45</sup> basura y abyección nos has hecho
 
 en medio de los pueblos.
 
 ## Pe.
 
-3:46 Abren su boca contra nosotros
+<sup>46</sup> Abren su boca contra nosotros
 
 todos nuestros enemigos.
 
-3:47 Terror y espanto es nuestra suerte,
+<sup>47</sup> Terror y espanto es nuestra suerte,
 
 desolación y ruina.
 
-3:48 Arroyos de lágrimas derraman mis ojos
+<sup>48</sup> Arroyos de lágrimas derraman mis ojos
 
 por la ruina de la capital de mi pueblo.
 
 ## Ain.
 
-3:49 Mis ojos fluyen sin cesar;
+<sup>49</sup> Mis ojos fluyen sin cesar;
 
 ya no habrá alivio
 
-3:50 hasta que mire y vea
+<sup>50</sup> hasta que mire y vea
 
-Yahvé desde los cielos.
+## Yahvé desde los cielos.
 
-3:51 Me duelen los ojos de llorar
+<sup>51</sup> Me duelen los ojos de llorar
 
 por todas las jóvenes de mi ciudad.
 
 ## Sade.
 
-3:52 Me cazaron como a un pájaro
+<sup>52</sup> Me cazaron como a un pájaro
 
 los que me odian sin motivo.
 
-3:53 Me arrojaron vivo en una fosa
+<sup>53</sup> Me arrojaron vivo en una fosa
 
 y echaron piedras sobre mí.
 
-3:54 Sumergieron las aguas mi cabeza,
+<sup>54</sup> Sumergieron las aguas mi cabeza,
 
 me dije: «¡Estoy perdido!»
 
 ## Qof.
 
-3:55 Invoqué tu Nombre, Yahvé,
+<sup>55</sup> Invoqué tu Nombre, Yahvé,
 
 desde lo hondo de la fosa.
 
-3:56 Tú oíste mi grito: «¡No cierres
+<sup>56</sup> Tú oíste mi grito: «¡No cierres
 
-tu oído a mi oración que pide ayuda*!»
+tu oído a mi oración que pide ayuda<span class="note-ref" data-ref="lm-3-56" title="Ver comentario">&#42;</span>!»
 
-3:57 Te acercaste el día que te llamé,
+<sup>57</sup> Te acercaste el día que te llamé,
 
 me dijiste: «¡Nada temas!»
 
 ## Reš.
 
-3:58 Defendiste, Señor, mi causa,
+<sup>58</sup> Defendiste, Señor, mi causa,
 
-mi vida has rescatado*.
+mi vida has rescatado<span class="note-ref" data-ref="lm-3-58" title="Ver comentario">&#42;</span>.
 
-3:59 Has visto el entuerto que me hacen:
+<sup>59</sup> Has visto el entuerto que me hacen:
 
 ¡hazte cargo de mi juicio!
 
-3:60 Has visto toda su venganza,
+<sup>60</sup> Has visto toda su venganza,
 
 todos sus planes contra mí.
 
 ## Šin.
 
-3:61 Has oído sus insultos, Yahvé,
+<sup>61</sup> Has oído sus insultos, Yahvé,
 
 todos sus planes contra mí,
 
-3:62 lo que dicen de mí mis agresores,
+<sup>62</sup> lo que dicen de mí mis agresores,
 
 lo que traman en mi contra todo el día.
 
-3:63 Mira, sentados o de pie,
+<sup>63</sup> Mira, sentados o de pie,
 
 soy el objeto de sus coplas.
 
 ## Tau.
 
-3:64 Págales a todos, Yahvé,
+<sup>64</sup> Págales a todos, Yahvé,
 
 según la obra de sus manos.
 
-3:65 Dales una mente obcecada,
+<sup>65</sup> Dales una mente obcecada,
 
 ¡caiga sobre ellos tu maldición!
 
-3:66 ¡Persíguelos con saña, extírpalos
+<sup>66</sup> ¡Persíguelos con saña, extírpalos
 
-de debajo de tus cielos*!
+de debajo de tus cielos<span class="note-ref" data-ref="lm-3-66" title="Ver comentario">&#42;</span>!
 
 ## Cuarta lamentación
 ## Álef.
 
-4:1 ¡Qué deslucido quedó el oro,
+<span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> ¡Qué deslucido quedó el oro,
 
 qué pálido el oro más fino!
 
 Las piedras sagradas están esparcidas
 
-por las esquinas de todas las calles*.
+por las esquinas de todas las calles<span class="note-ref" data-ref="lm-4-1" title="Ver comentario">&#42;</span>.
 
 ## Bet.
 
-4:2 Los nobles hijos de Sión,
+<sup>2</sup> Los nobles hijos de Sión,
 
 valiosos lo mismo que el oro,
 
@@ -958,7 +958,7 @@ obra de manos de alfarero!
 
 ## Guímel.
 
-4:3 Hasta los chacales desnudan las ubres
+<sup>3</sup> Hasta los chacales desnudan las ubres
 
 para dar de mamar a sus cachorros;
 
@@ -968,7 +968,7 @@ como los avestruces del desierto.
 
 ## Dálet.
 
-4:4 La lengua del niño de pecho
+<sup>4</sup> La lengua del niño de pecho
 
 se pega de sed al paladar;
 
@@ -978,7 +978,7 @@ no hay quien se lo reparta.
 
 ## He.
 
-4:5 Los que comían manjares deliciosos
+<sup>5</sup> Los que comían manjares deliciosos
 
 desfallecen en medio de las calles;
 
@@ -988,7 +988,7 @@ revuelven los estercoleros.
 
 ## Vau.
 
-4:6 La culpa de la capital supera
+<sup>6</sup> La culpa de la capital supera
 
 al pecado mismo de Sodoma,
 
@@ -998,7 +998,7 @@ sin que mano humana interviniera.
 
 ## Zain.
 
-4:7 Sus nazireos*, limpios como la nieve,
+<sup>7</sup> Sus nazireos<span class="note-ref" data-ref="lm-4-7" title="Ver comentario">&#42;</span>, limpios como la nieve,
 
 eran más blancos que la leche;
 
@@ -1008,7 +1008,7 @@ era un zafiro su figura.
 
 ## Jet.
 
-4:8 Más negro es su semblante que el hollín,
+<sup>8</sup> Más negro es su semblante que el hollín,
 
 nadie ya los reconoce por las calles;
 
@@ -1018,17 +1018,17 @@ seca está como madera.
 
 ## Tet.
 
-4:9 Más dichosos son los muertos a espada
+<sup>9</sup> Más dichosos son los muertos a espada
 
 que los muertos por el hambre,
 
-que extenuados sucumben*,
+que extenuados sucumben<span class="note-ref" data-ref="lm-4-9" title="Ver comentario">&#42;</span>,
 
 por falta de alimento.
 
 ## Yod.
 
-4:10 Manos de tiernas mujeres
+<sup>10</sup> Manos de tiernas mujeres
 
 cocieron a sus hijos:
 
@@ -1038,7 +1038,7 @@ mientras sucumbe la capital.
 
 ## Kaf.
 
-4:11 Yahvé apuró su furor,
+<sup>11</sup> Yahvé apuró su furor,
 
 derramando el ardor de su cólera;
 
@@ -1048,7 +1048,7 @@ que ha devorado sus cimientos.
 
 ## Lámed.
 
-4:12 Nunca creyeron los reyes de la tierra,
+<sup>12</sup> Nunca creyeron los reyes de la tierra,
 
 ni cuantos habitan en el mundo,
 
@@ -1058,7 +1058,7 @@ por las puertas de Jerusalén.
 
 ## Mem.
 
-4:13 ¡Fue por los pecados de sus profetas,
+<sup>13</sup> ¡Fue por los pecados de sus profetas,
 
 por las culpas de sus sacerdotes,
 
@@ -1068,7 +1068,7 @@ sangre de gente inocente!
 
 ## Nun.
 
-4:14 Vagaban por las calles como ciegos,
+<sup>14</sup> Vagaban por las calles como ciegos,
 
 todos manchados de sangre,
 
@@ -1078,17 +1078,17 @@ tocar sus vestidos.
 
 ## Sámek.
 
-4:15 «¡Apartaos! ¡Impuro!», les gritaban,
+<sup>15</sup> «¡Apartaos! ¡Impuro!», les gritaban,
 
 «¡Apartaos, apartaos! ¡No tocar!»
 
 Si erraban por naciones, se decía:
 
-«¡No seguirán de huéspedes aquí*!»
+«¡No seguirán de huéspedes aquí<span class="note-ref" data-ref="lm-4-15" title="Ver comentario">&#42;</span>!»
 
 ## Pe.
 
-4:16 El Rostro de Yahvé los dispersó,
+<sup>16</sup> El Rostro de Yahvé los dispersó,
 
 para no volver a mirarlos.
 
@@ -1098,17 +1098,17 @@ no hubo piedad para los ancianos.
 
 ## Ain.
 
-4:17 Nuestros ojos se iban consumiendo
+<sup>17</sup> Nuestros ojos se iban consumiendo
 
 esperando un socorro: ¡ilusión!
 
 Oteábamos desde nuestros oteros
 
-a un pueblo* incapaz de salvar.
+a un pueblo<span class="note-ref" data-ref="lm-4-17" title="Ver comentario">&#42;</span> incapaz de salvar.
 
 ## Sade.
 
-4:18 Nuestros pasos eran vigilados,
+<sup>18</sup> Nuestros pasos eran vigilados,
 
 nos prohibían andar por las plazas.
 
@@ -1118,7 +1118,7 @@ sí, llegaba nuestro fin.
 
 ## Qof.
 
-4:19 Nos perseguían hombres veloces,
+<sup>19</sup> Nos perseguían hombres veloces,
 
 más que las águilas del cielo;
 
@@ -1128,7 +1128,7 @@ en el desierto nos tendían celadas.
 
 ## Reš.
 
-4:20 Nuestro aliento, el ungido de Yahvé*,
+<sup>20</sup> Nuestro aliento, el ungido de Yahvé<span class="note-ref" data-ref="lm-4-20" title="Ver comentario">&#42;</span>,
 
 ha quedado preso en sus trampas.
 
@@ -1138,9 +1138,9 @@ viviremos entre las naciones!»
 
 ## Šin.
 
-4:21 ¡Disfruta, exulta, capital de Edom,
+<sup>21</sup> ¡Disfruta, exulta, capital de Edom,
 
-que habitas en el país de Us*!
+que habitas en el país de Us<span class="note-ref" data-ref="lm-4-21" title="Ver comentario">&#42;</span>!
 
 ¡También a ti llegará la copa:
 
@@ -1148,7 +1148,7 @@ te embriagarás y te desnudarás!
 
 ## Tau.
 
-4:22 ¡Has expiado tu culpa, capital de Sión;
+<sup>22</sup> ¡Has expiado tu culpa, capital de Sión;
 
 ya no volverá a desterrarte!
 
@@ -1156,93 +1156,93 @@ ya no volverá a desterrarte!
 
 pondrá al desnudo tus pecados!
 
-## Quinta lamentación*
+## Quinta lamentación<span class="note-ref" data-ref="lm-5" title="Ver comentario">&#42;</span>
 ## Álef.
 
-5:1 ¡Recuerda, Yahvé, lo que hemos pasado,
+<span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> ¡Recuerda, Yahvé, lo que hemos pasado,
 
 mira y observa nuestro oprobio!
 
-5:2 Nuestra heredad ha pasado a extranjeros,
+<sup>2</sup> Nuestra heredad ha pasado a extranjeros,
 
 nuestras casas a extraños.
 
-5:3 Somos huérfanos, sin padre;
+<sup>3</sup> Somos huérfanos, sin padre;
 
 nuestras madres, como viudas.
 
-5:4 A precio de plata bebemos nuestra agua,
+<sup>4</sup> A precio de plata bebemos nuestra agua,
 
 adquirimos nuestra leña con dinero.
 
-5:5 El yugo* a nuestro cuello, andamos acosados;
+<sup>5</sup> El yugo<span class="note-ref" data-ref="lm-5-5" title="Ver comentario">&#42;</span> a nuestro cuello, andamos acosados;
 
 estamos agotados, no nos dan respiro.
 
-5:6 Hacia Egipto tendemos nuestra mano,
+<sup>6</sup> Hacia Egipto tendemos nuestra mano,
 
-hacia Asiria para saciar el hambre*.
+hacia Asiria para saciar el hambre<span class="note-ref" data-ref="lm-5-6" title="Ver comentario">&#42;</span>.
 
-5:7 Nuestros padres pecaron: ya no existen;
+<sup>7</sup> Nuestros padres pecaron: ya no existen;
 
-y nosotros cargamos con sus culpas*.
+y nosotros cargamos con sus culpas<span class="note-ref" data-ref="lm-5-7" title="Ver comentario">&#42;</span>.
 
-5:8 Unos esclavos* nos dominan,
+<sup>8</sup> Unos esclavos<span class="note-ref" data-ref="lm-5-8" title="Ver comentario">&#42;</span> nos dominan,
 
 nadie nos libra de su mano.
 
-5:9 A riesgo de la vida logramos nuestro pan,
+<sup>9</sup> A riesgo de la vida logramos nuestro pan,
 
 afrontando la espada en descampado.
 
-5:10 Nuestra piel abrasa* como un horno,
+<sup>10</sup> Nuestra piel abrasa<span class="note-ref" data-ref="lm-5-10" title="Ver comentario">&#42;</span> como un horno,
 
 a causa del ardor del hambre.
 
-5:11 Han violado a las mujeres en Sión,
+<sup>11</sup> Han violado a las mujeres en Sión,
 
 a las doncellas en las ciudades de Judá.
 
-5:12 Han colgado a los nobles con sus manos;
+<sup>12</sup> Han colgado a los nobles con sus manos;
 
 los ancianos no han sido respetados.
 
-5:13 Han arrastrado la muela los muchachos,
+<sup>13</sup> Han arrastrado la muela los muchachos,
 
 bajo la leña se han doblado los niños.
 
-5:14 Los ancianos ya no acuden a la puerta,
+<sup>14</sup> Los ancianos ya no acuden a la puerta,
 
 los muchachos han parado sus cantares.
 
-5:15 Ha cesado la alegría del corazón,
+<sup>15</sup> Ha cesado la alegría del corazón,
 
 se ha trocado en duelo nuestra danza.
 
-5:16 Ha caído la corona de nuestra cabeza.
+<sup>16</sup> Ha caído la corona de nuestra cabeza.
 
 ¡Ay de nosotros, que hemos pecado!
 
-5:17 Por eso se duele nuestro corazón,
+<sup>17</sup> Por eso se duele nuestro corazón,
 
 por eso se nublan nuestros ojos:
 
-5:18 por el monte Sión, asolado;
+<sup>18</sup> por el monte Sión, asolado;
 
 ¡las raposas transitan por él!
 
-5:19 Mas tú, Yahvé, reinas por siempre;
+<sup>19</sup> Mas tú, Yahvé, reinas por siempre;
 
-¡tu trono permanece de edad en edad*!
+¡tu trono permanece de edad en edad<span class="note-ref" data-ref="lm-5-19" title="Ver comentario">&#42;</span>!
 
-5:20 ¿Por qué has de olvidarnos para siempre,
+<sup>20</sup> ¿Por qué has de olvidarnos para siempre,
 
 por qué toda la vida abandonarnos?
 
-5:21 Haznos volver a ti, Yahvé, y volveremos.
+<sup>21</sup> Haznos volver a ti, Yahvé, y volveremos.
 
 Renueva nuestros días como antaño,
 
-5:22 ¿o nos has desechado del todo,
+<sup>22</sup> ¿o nos has desechado del todo,
 
 irritado contra nosotros sin medida?
