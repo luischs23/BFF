@@ -3,30 +3,32 @@ title: 'Oseas'
 description: 'Libro del Profeta Oseas'
 img: blog-placeholder-4.jpg
 ---
-# OSEAS
+## OSEAS
 ## Título.
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> En tiempo de Ozías, Jotán, Ajaz y Ezequías, reyes de Judá, y en tiempo de Jeroboán, hijo de Joás, rey de Israel*, fue dirigida la palabra de Yahvé a Oseas, hijo de Beerí.
 
-## I. Matrimonio de Oseas y su valor simbólico*
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> En tiempo de Ozías, Jotán, Ajaz y Ezequías, reyes de Judá, y en tiempo de Jeroboán, hijo de Joás, rey de Israel<span class="note-ref" data-ref="os-1-1" title="Ver comentario">&#42;</span>, fue dirigida la palabra de Yahvé a Oseas, hijo de Beerí.
+
+## I. Matrimonio de Oseas y su valor simbólico<span class="note-ref" data-ref="os-1-2-a" title="Ver comentario">&#42;</span>
+
 ## Matrimonio e hijos de Oseas.
 <sup>2</sup> Comienzo de las palabras de Yahvé, transmitidas por medio de Oseas.
 
-Dijo Yahvé a Oseas: «Anda, toma para ti una mujer dada a la prostitución* e hijos de prostitución*, porque el país se está prostituyendo completamente, apartándose de Yahvé.»
+Dijo Yahvé a Oseas: «Anda, toma para ti una mujer dada a la prostitución<span class="note-ref" data-ref="os-1-2-b" title="Ver comentario">&#42;</span> e hijos de prostitución<span class="note-ref" data-ref="os-1-2-c" title="Ver comentario">&#42;</span>, porque el país se está prostituyendo completamente, apartándose de Yahvé.»
 
-<sup>3</sup> Oseas tomó a Gómer, hija de Dibláin, que concibió y le dio a luz un hijo. <sup>4</sup> Yahvé le dijo: «Ponle por nombre* Yizreel, porque dentro de poco voy a castigar a la casa de Jehú por la sangre derramada en Yizreel*, y pondré fin al reinado de la casa de Israel*. <sup>5</sup> Aquel día romperé el arco de Israel en el valle de Yizreel*.»
+<sup>3</sup> Oseas tomó a Gómer, hija de Dibláin, que concibió y le dio a luz un hijo. <sup>4</sup> Yahvé le dijo: «Ponle por nombre<span class="note-ref" data-ref="os-1-4-a" title="Ver comentario">&#42;</span> Yizreel, porque dentro de poco voy a castigar a la casa de Jehú por la sangre derramada en Yizreel<span class="note-ref" data-ref="os-1-4-b" title="Ver comentario">&#42;</span>, y pondré fin al reinado de la casa de Israel<span class="note-ref" data-ref="os-1-4-c" title="Ver comentario">&#42;</span>. <sup>5</sup> Aquel día romperé el arco de Israel en el valle de Yizreel<span class="note-ref" data-ref="os-1-5" title="Ver comentario">&#42;</span>.»
 
-<sup>6</sup> Concibió ella de nuevo y dio a luz una hija. Yahvé dijo a Oseas*: «Ponle por nombre ‘No-compadecida*’, porque ya no me compadeceré de la casa de Israel, soportándoles todavía*. (<sup>7</sup> Pero me compadeceré de la casa de Judá y los salvaré por Yahvé su Dios. No los salvaré con arco ni espada ni guerra, ni con caballos ni jinetes*.)»
+<sup>6</sup> Concibió ella de nuevo y dio a luz una hija. Yahvé dijo a Oseas<span class="note-ref" data-ref="os-1-6-a" title="Ver comentario">&#42;</span>: «Ponle por nombre ‘No-compadecida<span class="note-ref" data-ref="os-1-6-b" title="Ver comentario">&#42;</span>’, porque ya no me compadeceré de la casa de Israel, soportándoles todavía<span class="note-ref" data-ref="os-1-6-c" title="Ver comentario">&#42;</span>. (<sup>7</sup> Pero me compadeceré de la casa de Judá y los salvaré por Yahvé su Dios. No los salvaré con arco ni espada ni guerra, ni con caballos ni jinetes<span class="note-ref" data-ref="os-1-7" title="Ver comentario">&#42;</span>.)»
 
-<sup>8</sup> Después de destetar a «No-compadecida», concibió y dio a luz un hijo. <sup>9</sup> Dijo Yahvé*: «Ponle por nombre ‘No-mi-pueblo*’, porque vosotros no sois mi pueblo, y yo no existo para vosotros*.»
+<sup>8</sup> Después de destetar a «No-compadecida», concibió y dio a luz un hijo. <sup>9</sup> Dijo Yahvé<span class="note-ref" data-ref="os-1-9-a" title="Ver comentario">&#42;</span>: «Ponle por nombre ‘No-mi-pueblo<span class="note-ref" data-ref="os-1-9-b" title="Ver comentario">&#42;</span>’, porque vosotros no sois mi pueblo, y yo no existo para vosotros<span class="note-ref" data-ref="os-1-9-c" title="Ver comentario">&#42;</span>.»
 
 ## Perspectivas del futuro.
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> El número de los hijos de Israel
 
-será como la arena del mar*,
+será como la arena del mar<span class="note-ref" data-ref="os-2-1-a" title="Ver comentario">&#42;</span>,
 
 que ni se mide ni se cuenta.
 
-Y en aquel mismo lugar*
+Y en aquel mismo lugar<span class="note-ref" data-ref="os-2-1-b" title="Ver comentario">&#42;</span>
 
 donde se les decía «No-mi-pueblo»,
 
@@ -38,7 +40,7 @@ y los hijos de Israel en uno;
 
 se nombrarán un solo jefe
 
-y desbordarán de la tierra*,
+y desbordarán de la tierra<span class="note-ref" data-ref="os-2-2" title="Ver comentario">&#42;</span>,
 
 porque será grande el día de Yizreel.
 
@@ -48,14 +50,14 @@ porque será grande el día de Yizreel.
 
 y a vuestras hermanas:
 
-«Compadecida*».
+«Compadecida<span class="note-ref" data-ref="os-2-3" title="Ver comentario">&#42;</span>».
 
-## Yahvé y su esposa infiel*.
-<sup>4</sup> ¡Pleitead con vuestra madre, pleitead*,
+## Yahvé y su esposa infiel<span class="note-ref" data-ref="os-2-4-a" title="Ver comentario">&#42;</span>.
+<sup>4</sup> ¡Pleitead con vuestra madre, pleitead<span class="note-ref" data-ref="os-2-4-b" title="Ver comentario">&#42;</span>,
 
 porque ella ya no es mi mujer,
 
-y yo no soy su marido*!
+y yo no soy su marido<span class="note-ref" data-ref="os-2-4-c" title="Ver comentario">&#42;</span>!
 
 ¡Que quite de su rostro
 
@@ -63,13 +65,13 @@ sus prostituciones,
 
 que retire de sus pechos
 
-sus adulterios*,
+sus adulterios<span class="note-ref" data-ref="os-2-4-d" title="Ver comentario">&#42;</span>,
 
-<sup>5</sup> no sea que yo la desnude del todo*
+<sup>5</sup> no sea que yo la desnude del todo<span class="note-ref" data-ref="os-2-5-a" title="Ver comentario">&#42;</span>
 
 y la deje como el día en que nació,
 
-la convierta en desierto*,
+la convierta en desierto<span class="note-ref" data-ref="os-2-5-b" title="Ver comentario">&#42;</span>,
 
 la reduzca a tierra árida
 
@@ -85,7 +87,7 @@ se ha deshonrado la que los concibió,
 
 cuando decía:
 
-«Me iré detrás de mis amantes*,
+«Me iré detrás de mis amantes<span class="note-ref" data-ref="os-2-7" title="Ver comentario">&#42;</span>,
 
 los que me dan mi pan y mi agua,
 
@@ -95,7 +97,7 @@ mi aceite y mis bebidas.»
 
 <sup>8</sup> Por eso, yo cerraré
 
-su camino* con espinos,
+su camino<span class="note-ref" data-ref="os-2-8" title="Ver comentario">&#42;</span> con espinos,
 
 la cercaré con seto
 
@@ -121,7 +123,7 @@ el mosto y el aceite virgen.
 
 ¡Yo le multiplicaba la plata,
 
-y el oro lo empleaban en Baal*!
+y el oro lo empleaban en Baal<span class="note-ref" data-ref="os-2-10" title="Ver comentario">&#42;</span>!
 
 <sup>11</sup> Por eso, volveré a tomar
 
@@ -145,7 +147,7 @@ sus fiestas, novilunios y sábados,
 
 y todas sus solemnidades.
 
-<sup>14</sup> Arrasaré sus viñedos e higueras*,
+<sup>14</sup> Arrasaré sus viñedos e higueras<span class="note-ref" data-ref="os-2-14" title="Ver comentario">&#42;</span>,
 
 ésos de los que decía:
 
@@ -157,7 +159,7 @@ los convertiré en matorral
 
 y los devorará la bestia del campo.
 
-<sup>15</sup> La visitaré por los días* de los Baales,
+<sup>15</sup> La visitaré por los días<span class="note-ref" data-ref="os-2-15" title="Ver comentario">&#42;</span> de los Baales,
 
 cuando suele quemarles incienso.
 
@@ -169,15 +171,15 @@ olvidándose de mí
 
 —oráculo de Yahvé—.
 
-<sup>16</sup> Por eso voy a seducirla*:
+<sup>16</sup> Por eso voy a seducirla<span class="note-ref" data-ref="os-2-16-a" title="Ver comentario">&#42;</span>:
 
-voy a llevarla al desierto*
+voy a llevarla al desierto<span class="note-ref" data-ref="os-2-16-b" title="Ver comentario">&#42;</span>
 
 y le hablaré al corazón.
 
 <sup>17</sup> Allí le daré sus viñas,
 
-convertiré el valle de Acor*
+convertiré el valle de Acor<span class="note-ref" data-ref="os-2-17" title="Ver comentario">&#42;</span>
 
 en puerta de esperanza;
 
@@ -189,9 +191,9 @@ como cuando subió del país de Egipto.
 
 <sup>18</sup> Aquel día —oráculo de Yahvé—
 
-ella me llamará* «Marido mío»;
+ella me llamará<span class="note-ref" data-ref="os-2-18-a" title="Ver comentario">&#42;</span> «Marido mío»;
 
-ya no me llamará «Baal mío*.»
+ya no me llamará «Baal mío<span class="note-ref" data-ref="os-2-18-b" title="Ver comentario">&#42;</span>.»
 
 <sup>19</sup> Retiraré de su boca
 
@@ -211,17 +213,17 @@ quebraré y alejaré de esta tierra
 
 el arco, la espada y la guerra,
 
-y los haré reposar en seguro*.
+y los haré reposar en seguro<span class="note-ref" data-ref="os-2-20" title="Ver comentario">&#42;</span>.
 
-<sup>21</sup> Te haré mi esposa* para siempre;
+<sup>21</sup> Te haré mi esposa<span class="note-ref" data-ref="os-2-21-a" title="Ver comentario">&#42;</span> para siempre;
 
 te desposaré en justicia y en derecho,
 
-en amor* y en compasión;
+en amor<span class="note-ref" data-ref="os-2-21-b" title="Ver comentario">&#42;</span> y en compasión;
 
 <sup>22</sup> te desposaré en fidelidad,
 
-y tú conocerás a Yahvé*.
+y tú conocerás a Yahvé<span class="note-ref" data-ref="os-2-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> Aquel día yo responderé
 
@@ -235,9 +237,9 @@ y ellos responderán a la tierra;
 
 al mosto y al aceite virgen,
 
-y ellos responderán* a Yizreel.
+y ellos responderán<span class="note-ref" data-ref="os-2-24" title="Ver comentario">&#42;</span> a Yizreel.
 
-<sup>25</sup> Me la sembraré* en la tierra,
+<sup>25</sup> Me la sembraré<span class="note-ref" data-ref="os-2-25-a" title="Ver comentario">&#42;</span> en la tierra,
 
 compadecido de «No-compadecida»,
 
@@ -245,13 +247,13 @@ y diré a «No-mi-pueblo»:
 
 Tú eres «Mi pueblo»,
 
-y él responderá: «¡Dios mío*!»
+y él responderá: «¡Dios mío<span class="note-ref" data-ref="os-2-25-b" title="Ver comentario">&#42;</span>!»
 
 ## Oseas vuelve a tomar a la esposa infiel y la pone a prueba.
 ## Explicación del símbolo.
-<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Yahvé me dijo: «Dispónte de nuevo a amar a una mujer que ama* a otro y comete adulterio. Así ama Yahvé a los hijos de Israel, mientras ellos se vuelven a otros dioses y gustan de las tortas de uva*.» <sup>2</sup> Yo la adquirí por quince siclos de plata y carga y media de cebada*. <sup>3</sup> Y le dije: «Vivirás conmigo* mucho tiempo sin prostituirte ni ser de ningún hombre; tampoco yo me uniré a ti.»
+<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Yahvé me dijo: «Dispónte de nuevo a amar a una mujer que ama<span class="note-ref" data-ref="os-3-1-a" title="Ver comentario">&#42;</span> a otro y comete adulterio. Así ama Yahvé a los hijos de Israel, mientras ellos se vuelven a otros dioses y gustan de las tortas de uva<span class="note-ref" data-ref="os-3-1-b" title="Ver comentario">&#42;</span>.» <sup>2</sup> Yo la adquirí por quince siclos de plata y carga y media de cebada<span class="note-ref" data-ref="os-3-2" title="Ver comentario">&#42;</span>. <sup>3</sup> Y le dije: «Vivirás conmigo<span class="note-ref" data-ref="os-3-3" title="Ver comentario">&#42;</span> mucho tiempo sin prostituirte ni ser de ningún hombre; tampoco yo me uniré a ti.»
 
-<sup>4</sup> Porque los israelitas se quedarán durante mucho tiempo sin rey ni príncipe, sin sacrificios ni estela, sin efod ni terafim. <sup>5</sup> Después volverán los israelitas; buscarán a Yahvé su Dios y a David, su rey*, y acudirán con temor a Yahvé y a sus bienes en los días venideros.
+<sup>4</sup> Porque los israelitas se quedarán durante mucho tiempo sin rey ni príncipe, sin sacrificios ni estela, sin efod ni terafim. <sup>5</sup> Después volverán los israelitas; buscarán a Yahvé su Dios y a David, su rey<span class="note-ref" data-ref="os-3-5" title="Ver comentario">&#42;</span>, y acudirán con temor a Yahvé y a sus bienes en los días venideros.
 
 ## II. Crímenes y castigo de Israel
 ## Corrupción general.
@@ -281,24 +283,24 @@ y se marchita cuanto en ella habita:
 
 las bestias del campo y las aves;
 
-y hasta los peces desaparecen*.
+y hasta los peces desaparecen<span class="note-ref" data-ref="os-4-3" title="Ver comentario">&#42;</span>.
 
 ## Contra los sacerdotes.
 <sup>4</sup> ¡Que nadie pleitee ni reprenda;
 
-sacerdote, sólo contigo va mi pleito*!
+sacerdote, sólo contigo va mi pleito<span class="note-ref" data-ref="os-4-4" title="Ver comentario">&#42;</span>!
 
 <sup>5</sup> Tropezarás en pleno día,
 
 y de noche tropezará contigo el profeta;
 
-y haré perecer a tu madre*.
+y haré perecer a tu madre<span class="note-ref" data-ref="os-4-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Mi pueblo se va muriendo
 
 por falta de conocimiento.
 
-Por haber rechazado el conocimiento*,
+Por haber rechazado el conocimiento<span class="note-ref" data-ref="os-4-6" title="Ver comentario">&#42;</span>,
 
 yo te rechazaré de mi sacerdocio;
 
@@ -308,11 +310,11 @@ también yo me olvidaré de tus hijos.
 
 <sup>7</sup> Cuantos más son, más me ofenden;
 
-han cambiado su Gloria por la Ignominia*.
+han cambiado su Gloria por la Ignominia<span class="note-ref" data-ref="os-4-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Viven del pecado de mi pueblo
 
-y ansían su culpa*.
+y ansían su culpa<span class="note-ref" data-ref="os-4-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Pero al pueblo va a sucederle
 
@@ -324,7 +326,7 @@ y le pagaré conforme a sus acciones.
 
 <sup>10</sup> Comerán, pero no se saciarán;
 
-se prostituirán*, pero no proliferarán,
+se prostituirán<span class="note-ref" data-ref="os-4-10" title="Ver comentario">&#42;</span>, pero no proliferarán,
 
 porque han abandonado a Yahvé
 
@@ -333,11 +335,11 @@ para dedicarse <sup>11</sup> a la prostitución.
 ## El culto de Israel no es más que idolatría y desenfreno.
 ¡El vino y el mosto
 
-hacen perder el sentido*!
+hacen perder el sentido<span class="note-ref" data-ref="os-4-11" title="Ver comentario">&#42;</span>!
 
 <sup>12</sup> Mi pueblo consulta a su madero,
 
-y su palo les instruye*;
+y su palo les instruye<span class="note-ref" data-ref="os-4-12" title="Ver comentario">&#42;</span>;
 
 un espíritu de prostitución los extravía,
 
@@ -361,7 +363,7 @@ porque se prostituyen,
 
 ni voy a castigar a vuestras nueras
 
-porque cometen adulterio*,
+porque cometen adulterio<span class="note-ref" data-ref="os-4-14" title="Ver comentario">&#42;</span>,
 
 porque ellos son quienes acuden
 
@@ -380,9 +382,9 @@ que no sea culpable Judá.
 
 ¡No vayáis a Guilgal,
 
-no subáis a Bet Avén*,
+no subáis a Bet Avén<span class="note-ref" data-ref="os-4-15-a" title="Ver comentario">&#42;</span>,
 
-no juréis «por vida de Yahvé»!*
+no juréis «por vida de Yahvé»!<span class="note-ref" data-ref="os-4-15-b" title="Ver comentario">&#42;</span>
 
 <sup>16</sup> Si Israel se ha desmandado
 
@@ -400,7 +402,7 @@ como a un cordero en el prado?
 
 se prostituyen más y más,
 
-prefieren la Ignominia a su Prez*;
+prefieren la Ignominia a su Prez<span class="note-ref" data-ref="os-4-18" title="Ver comentario">&#42;</span>;
 
 <sup>19</sup> pero el viento los cerrará en sus alas
 
@@ -415,11 +417,11 @@ casa real, prestad oído,
 
 pues el juicio va contra vosotros,
 
-porque habéis sido un lazo en Mispá*
+porque habéis sido un lazo en Mispá<span class="note-ref" data-ref="os-5-1" title="Ver comentario">&#42;</span>
 
 y una red tendida en el Tabor
 
-<sup>2</sup> (han ahondado la fosa de Sitín*,
+<sup>2</sup> (han ahondado la fosa de Sitín<span class="note-ref" data-ref="os-5-2" title="Ver comentario">&#42;</span>,
 
 pero yo seré escarmiento de todos ellos).
 
@@ -427,7 +429,7 @@ pero yo seré escarmiento de todos ellos).
 
 e Israel no se me oculta.
 
-Sí, tú* te has prostituido, Efraín;
+Sí, tú<span class="note-ref" data-ref="os-5-3" title="Ver comentario">&#42;</span> te has prostituido, Efraín;
 
 te has contaminado, Israel.
 
@@ -461,18 +463,18 @@ pero no lo encontrarán:
 
 han engendrado hijos bastardos;
 
-pues ahora el novilunio*
+pues ahora el novilunio<span class="note-ref" data-ref="os-5-7" title="Ver comentario">&#42;</span>
 
 les va a devorar sus campos.
 
-## La guerra fratricida*.
+## La guerra fratricida<span class="note-ref" data-ref="os-5-8-a" title="Ver comentario">&#42;</span>.
 <sup>8</sup> Tocad el cuerno en Guibeá,
 
 la trompeta en Ramá,
 
 dad la alarma en Bet Avén,
 
-¡detrás de ti*, Benjamín!
+¡detrás de ti<span class="note-ref" data-ref="os-5-8-b" title="Ver comentario">&#42;</span>, Benjamín!
 
 <sup>9</sup> Efraín será una desolación
 
@@ -480,11 +482,11 @@ el día del castigo;
 
 en las tribus de Israel
 
-anuncio una cosa cierta*.
+anuncio una cosa cierta<span class="note-ref" data-ref="os-5-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Los príncipes de Judá
 
-son como los que corren los linderos*,
+son como los que corren los linderos<span class="note-ref" data-ref="os-5-10" title="Ver comentario">&#42;</span>,
 
 sobre ellos voy a derramar
 
@@ -492,9 +494,9 @@ como agua mi furor.
 
 <sup>11</sup> Está oprimido Efraín,
 
-quebrantado el derecho*,
+quebrantado el derecho<span class="note-ref" data-ref="os-5-11-a" title="Ver comentario">&#42;</span>,
 
-porque le gusta ir tras la Vanidad*.
+porque le gusta ir tras la Vanidad<span class="note-ref" data-ref="os-5-11-b" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Así que voy a ser
 
@@ -509,7 +511,7 @@ y Judá su llaga.
 
 Efraín entonces ha acudido a Asiria,
 
-Judá envía mensajeros al gran rey*;
+Judá envía mensajeros al gran rey<span class="note-ref" data-ref="os-5-13" title="Ver comentario">&#42;</span>;
 
 pero éste no podrá sanaros
 
@@ -523,15 +525,15 @@ Yo mismo desgarraré y me iré,
 
 haré presa y no habrá quien salve.
 
-<sup>15</sup> Voy a volverme a mi refugio*,
+<sup>15</sup> Voy a volverme a mi refugio<span class="note-ref" data-ref="os-5-15-a" title="Ver comentario">&#42;</span>,
 
-hasta que expíen su falta*
+hasta que expíen su falta<span class="note-ref" data-ref="os-5-15-b" title="Ver comentario">&#42;</span>
 
 y acudan a buscarme.
 
 ## En su angustia me buscarán.
 
-## Vuelta superficial a Yahvé*.
+## Vuelta superficial a Yahvé<span class="note-ref" data-ref="os-6" title="Ver comentario">&#42;</span>.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> «Venid, volvamos a Yahvé;
 
 él ha desgarrado, pero nos curará;
@@ -540,7 +542,7 @@ y acudan a buscarme.
 
 <sup>2</sup> Dentro de dos días nos dará la vida,
 
-al tercer día* nos hará resurgir
+al tercer día<span class="note-ref" data-ref="os-6-2" title="Ver comentario">&#42;</span> nos hará resurgir
 
 y viviremos en su presencia.
 
@@ -566,13 +568,13 @@ rocío matinal que se evapora!
 
 <sup>5</sup> Por eso los he hecho trizas
 
-por medio de los profetas*,
+por medio de los profetas<span class="note-ref" data-ref="os-6-5-a" title="Ver comentario">&#42;</span>,
 
 los he castigado
 
 con las palabras de mi boca;
 
-y mi juicio surgirá como la luz*.
+y mi juicio surgirá como la luz<span class="note-ref" data-ref="os-6-5-b" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Porque yo quiero amor,
 
@@ -580,16 +582,16 @@ no sacrificio,
 
 conocimiento de Dios
 
-mejor que holocaustos*.
+mejor que holocaustos<span class="note-ref" data-ref="os-6-6" title="Ver comentario">&#42;</span>.
 
 ## Los crímenes pasados y presentes de Israel.
 <sup>7</sup> Pero ellos en Adam
 
-han violado la alianza*;
+han violado la alianza<span class="note-ref" data-ref="os-6-7" title="Ver comentario">&#42;</span>;
 
 allí me han sido infieles.
 
-<sup>8</sup> Galaad* es ciudad de malhechores,
+<sup>8</sup> Galaad<span class="note-ref" data-ref="os-6-8" title="Ver comentario">&#42;</span> es ciudad de malhechores,
 
 llena de rastros de sangre.
 
@@ -601,13 +603,13 @@ asesinan por el camino de Siquén,
 
 y cometen infamias.
 
-<sup>10</sup> Algo horrible he visto en Betel*:
+<sup>10</sup> Algo horrible he visto en Betel<span class="note-ref" data-ref="os-6-10" title="Ver comentario">&#42;</span>:
 
 allí se prostituye Efraín,
 
 se contamina Israel.
 
-<sup>11</sup> También para ti, Judá*,
+<sup>11</sup> También para ti, Judá<span class="note-ref" data-ref="os-6-11" title="Ver comentario">&#42;</span>,
 
 hay preparada una cosecha,
 
@@ -637,7 +639,7 @@ están siempre presentes ante mí.
 
 <sup>3</sup> Con su maldad recrean al rey,
 
-con sus mentiras a los príncipes*.
+con sus mentiras a los príncipes<span class="note-ref" data-ref="os-7-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Todos ellos, adúlteros,
 
@@ -649,7 +651,7 @@ desde que amasa la pasta
 
 hasta que por fin fermenta.
 
-<sup>5</sup> En el día de nuestro rey*
+<sup>5</sup> En el día de nuestro rey<span class="note-ref" data-ref="os-7-5" title="Ver comentario">&#42;</span>
 
 los príncipes enferman
 
@@ -661,7 +663,7 @@ por los vapores del vino,
 
 su corazón es igual que un horno:
 
-toda la noche duerme su cólera*,
+toda la noche duerme su cólera<span class="note-ref" data-ref="os-7-6" title="Ver comentario">&#42;</span>,
 
 pero, al llegar la mañana,
 
@@ -680,7 +682,7 @@ pero ninguno de ellos me invoca.
 
 Efraín se parece a una torta
 
-a la que no se ha dado vuelta*.
+a la que no se ha dado vuelta<span class="note-ref" data-ref="os-7-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Extranjeros devoran su vigor,
 
@@ -698,17 +700,17 @@ ni aun así le buscan).
 
 <sup>11</sup> Efraín es como una paloma
 
-ingenua*, sin cordura;
+ingenua<span class="note-ref" data-ref="os-7-11" title="Ver comentario">&#42;</span>, sin cordura;
 
 llaman a Egipto, acuden a Asiria.
 
-<sup>12</sup> Adondequiera que vayan*,
+<sup>12</sup> Adondequiera que vayan<span class="note-ref" data-ref="os-7-12-a" title="Ver comentario">&#42;</span>,
 
 yo echaré mi red sobre ellos;
 
 como ave del cielo los haré caer
 
-y los castigaré por su maldad*.
+y los castigaré por su maldad<span class="note-ref" data-ref="os-7-12-b" title="Ver comentario">&#42;</span>.
 
 ## Ingratitud y castigo de Israel.
 <sup>13</sup> ¡Ay de ellos, que se han alejado de mí!
@@ -723,19 +725,19 @@ pero ellos mienten sobre mí.
 
 <sup>14</sup> Y no claman a mí de corazón
 
-cuando gimen en sus lechos*;
+cuando gimen en sus lechos<span class="note-ref" data-ref="os-7-14-a" title="Ver comentario">&#42;</span>;
 
 por el trigo y el mosto
 
 se hacen incisiones
 
-y se rebelan contra mí*.
+y se rebelan contra mí<span class="note-ref" data-ref="os-7-14-b" title="Ver comentario">&#42;</span>.
 
-<sup>15</sup> Yo* robustecí su brazo,
+<sup>15</sup> Yo<span class="note-ref" data-ref="os-7-15" title="Ver comentario">&#42;</span> robustecí su brazo,
 
 ¡pero ellos maquinaron contra mí!
 
-<sup>16</sup> Apuntan al vacío*,
+<sup>16</sup> Apuntan al vacío<span class="note-ref" data-ref="os-7-16" title="Ver comentario">&#42;</span>,
 
 son como un arco destensado.
 
@@ -750,11 +752,11 @@ por la virulencia de su lengua:
 
 Soy como un águila
 
-contra la casa de Yahvé*;
+contra la casa de Yahvé<span class="note-ref" data-ref="os-8-1-a" title="Ver comentario">&#42;</span>;
 
 porque han quebrantado mi alianza
 
-y han sido rebeldes a mi Ley*.
+y han sido rebeldes a mi Ley<span class="note-ref" data-ref="os-8-1-b" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Ellos me gritan: «¡Dios mío,
 
@@ -762,7 +764,7 @@ los de Israel te reconocemos!»
 
 <sup>3</sup> Pero Israel ha rechazado el bien:
 
-¡el enemigo* lo perseguirá!
+¡el enemigo<span class="note-ref" data-ref="os-8-3" title="Ver comentario">&#42;</span> lo perseguirá!
 
 ## Anarquía política e idolátrica.
 <sup>4</sup> Han entronizado reyes
@@ -771,7 +773,7 @@ sin contar conmigo;
 
 han nombrado príncipes
 
-sin mi conocimiento*.
+sin mi conocimiento<span class="note-ref" data-ref="os-8-4" title="Ver comentario">&#42;</span>.
 
 Con su plata y su oro
 
@@ -789,7 +791,7 @@ Mi cólera está ardiendo contra ellos:
 
 pues lo ha fabricado un artesano,
 
-y eso no puede ser Dios*.
+y eso no puede ser Dios<span class="note-ref" data-ref="os-8-6" title="Ver comentario">&#42;</span>.
 
 Así que quedará hecho trizas
 
@@ -805,7 +807,7 @@ no dará harina;
 
 y si la da, extranjeros la devorarán.
 
-## Ruina de Israel por acudir a los extranjeros*.
+## Ruina de Israel por acudir a los extranjeros<span class="note-ref" data-ref="os-8-8" title="Ver comentario">&#42;</span>.
 <sup>8</sup> ¡Israel ha sido devorado!
 
 Está ahora entre las naciones
@@ -816,22 +818,22 @@ como objeto indeseado.
 
 Efraín, ese onagro solitario,
 
-a comprarse amores*;
+a comprarse amores<span class="note-ref" data-ref="os-8-9" title="Ver comentario">&#42;</span>;
 
 <sup>10</sup> pues aunque los compre
 
 en medio de las naciones,
 
-yo voy a reunirlos* ahora,
+yo voy a reunirlos<span class="note-ref" data-ref="os-8-10-a" title="Ver comentario">&#42;</span> ahora,
 
 y pronto tendrán que soportar
 
-la carga del rey de príncipes*.
+la carga del rey de príncipes<span class="note-ref" data-ref="os-8-10-b" title="Ver comentario">&#42;</span>.
 
 ## Contra el culto meramente exterior.
 <sup>11</sup> Efraín ha multiplicado
 
-los altares* para pecar,
+los altares<span class="note-ref" data-ref="os-8-11" title="Ver comentario">&#42;</span> para pecar,
 
 pues sólo para pecar
 
@@ -847,7 +849,7 @@ las considera algo extraño.
 
 sacrificios en mi honor,
 
-y comerse la carne*!
+y comerse la carne<span class="note-ref" data-ref="os-8-13" title="Ver comentario">&#42;</span>!
 
 Yahvé no los acepta;
 
@@ -868,10 +870,10 @@ Pero yo prenderé fuego a sus ciudades,
 
 que devorará sus palacios.
 
-## Triste destierro*.
+## Triste destierro<span class="note-ref" data-ref="os-9" title="Ver comentario">&#42;</span>.
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> No celebres fiesta, Israel,
 
-no te alegres* como los pueblos,
+no te alegres<span class="note-ref" data-ref="os-9-1-a" title="Ver comentario">&#42;</span> como los pueblos,
 
 pues te has prostituido;
 
@@ -879,11 +881,11 @@ te has alejado de tu Dios,
 
 y amas ese salario
 
-más que las eras de trigo*.
+más que las eras de trigo<span class="note-ref" data-ref="os-9-1-b" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Ni la era ni el lagar los alimentarán,
 
-y el mosto los dejará corridos*.
+y el mosto los dejará corridos<span class="note-ref" data-ref="os-9-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> Ya no habitarán en la tierra de Yahvé:
 
@@ -891,7 +893,7 @@ Efraín volverá a Egipto,
 
 y en Asiria tendrán que comer
 
- alimentos impuros*.
+ alimentos impuros<span class="note-ref" data-ref="os-9-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> No harán a Yahvé libaciones de vino,
 
@@ -899,15 +901,15 @@ ni sus sacrificios le agradarán:
 
 serán para ellos como pan de duelo,
 
-que deja impuro a cuantos lo comen*.
+que deja impuro a cuantos lo comen<span class="note-ref" data-ref="os-9-4-a" title="Ver comentario">&#42;</span>.
 
 Ese pan es sólo para ellos;
 
-no entrará en el templo de Yahvé*.
+no entrará en el templo de Yahvé<span class="note-ref" data-ref="os-9-4-b" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> ¿Qué ofreceréis el día de solemnidad,
 
-el día de la fiesta de Yahvé*?
+el día de la fiesta de Yahvé<span class="note-ref" data-ref="os-9-5" title="Ver comentario">&#42;</span>?
 
 <sup>6</sup> Vedlos, han huido de la devastación:
 
@@ -944,7 +946,7 @@ una trampa de cazador
 
 en todos sus caminos,
 
-hostilidad en la Casa de su Dios*.
+hostilidad en la Casa de su Dios<span class="note-ref" data-ref="os-9-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Han tocado fondo
 
@@ -965,9 +967,9 @@ yo vi a vuestros antepasados
 
 como breva que brota en la higuera.
 
-Pero al llegar a Baal Peor*
+Pero al llegar a Baal Peor<span class="note-ref" data-ref="os-9-10-a" title="Ver comentario">&#42;</span>
 
-se consagraron a la Infamia*,
+se consagraron a la Infamia<span class="note-ref" data-ref="os-9-10-b" title="Ver comentario">&#42;</span>,
 
 y se hicieron tan abominables
 
@@ -989,7 +991,7 @@ y ¡ay de ellos cuando yo los abandone!
 
 <sup>13</sup> Efraín, cuando veo a Tiro,
 
-estaba plantada en la pradera*,
+estaba plantada en la pradera<span class="note-ref" data-ref="os-9-13" title="Ver comentario">&#42;</span>,
 
 pero Efraín tendrá que sacar
 
@@ -1000,7 +1002,7 @@ sus hijos al verdugo.
 ¡Un seno que aborte y pechos resecos!
 
 ## Castigo del crimen de Guilgal.
-<sup>15</sup> Toda su maldad apareció en Guilgal*,
+<sup>15</sup> Toda su maldad apareció en Guilgal<span class="note-ref" data-ref="os-9-15" title="Ver comentario">&#42;</span>,
 
 sí, allí comencé a odiarlos.
 
@@ -1031,7 +1033,7 @@ y andarán errantes entre las naciones.
 ## Destrucción de los emblemas idolátricos de Israel.
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Israel era Vid frondosa,
 
-acumulaba frutos*:
+acumulaba frutos<span class="note-ref" data-ref="os-10-1" title="Ver comentario">&#42;</span>:
 
 cuanto más fruto producía,
 
@@ -1041,7 +1043,7 @@ cuanto mejor era su tierra,
 
 mejores estelas construía.
 
-<sup>2</sup> Su corazón está dividido*,
+<sup>2</sup> Su corazón está dividido<span class="note-ref" data-ref="os-10-2" title="Ver comentario">&#42;</span>,
 
 pero ahora lo van a pagar;
 
@@ -1049,7 +1051,7 @@ pero ahora lo van a pagar;
 
 demolerá sus estelas.
 
-<sup>3</sup> Entonces dirán: «No tenemos rey*,
+<sup>3</sup> Entonces dirán: «No tenemos rey<span class="note-ref" data-ref="os-10-3" title="Ver comentario">&#42;</span>,
 
 porque no hemos temido a Yahvé,
 
@@ -1061,11 +1063,11 @@ juramentos falsos, pactan alianzas,
 
 y el juicio brota y florece
 
-como hierba venenosa*
+como hierba venenosa<span class="note-ref" data-ref="os-10-4" title="Ver comentario">&#42;</span>
 
 en los surcos del campo.
 
-<sup>5</sup> Tiemblan por el becerro* de Bet Avén
+<sup>5</sup> Tiemblan por el becerro<span class="note-ref" data-ref="os-10-5" title="Ver comentario">&#42;</span> de Bet Avén
 
 los habitantes de Samaría;
 
@@ -1079,7 +1081,7 @@ ya que ha sido deportado!
 
 <sup>6</sup> Él también será llevado a Asiria,
 
-como ofrenda para el gran rey*.
+como ofrenda para el gran rey<span class="note-ref" data-ref="os-10-6" title="Ver comentario">&#42;</span>.
 
 Efraín soportará el sonrojo
 
@@ -1105,7 +1107,7 @@ Entonces dirán a los montes:
 
 y a las colinas:
 
-«¡Caed sobre nosotros*!»
+«¡Caed sobre nosotros<span class="note-ref" data-ref="os-10-8" title="Ver comentario">&#42;</span>!»
 
 <sup>9</sup> Israel ha venido pecando
 
@@ -1113,17 +1115,17 @@ desde los días de Guibeá;
 
 ¡allí siguen!
 
-No les bastó la batalla de Guibeá*
+No les bastó la batalla de Guibeá<span class="note-ref" data-ref="os-10-9" title="Ver comentario">&#42;</span>
 
 contra los hijos de la injusticia.
 
-<sup>10</sup> Voy a castigarlos*:
+<sup>10</sup> Voy a castigarlos<span class="note-ref" data-ref="os-10-10-a" title="Ver comentario">&#42;</span>:
 
 se aliarán pueblos contra ellos,
 
-para castigarlos por su doble culpa*.
+para castigarlos por su doble culpa<span class="note-ref" data-ref="os-10-10-b" title="Ver comentario">&#42;</span>.
 
-## Israel ha defraudado la esperanza de Yahvé*.
+## Israel ha defraudado la esperanza de Yahvé<span class="note-ref" data-ref="os-10-11" title="Ver comentario">&#42;</span>.
 <sup>11</sup> Efraín era una novilla domesticada,
 
 le gustaba la trilla;
@@ -1136,7 +1138,7 @@ Judá abrirá surco,
 
 ## Jacob destripará terrones.
 
-<sup>12</sup> Sembrad justicia*,
+<sup>12</sup> Sembrad justicia<span class="note-ref" data-ref="os-10-12" title="Ver comentario">&#42;</span>,
 
 cosechad amor,
 
@@ -1152,7 +1154,7 @@ cosecháis iniquidad,
 
 coméis el fruto de la mentira.
 
-Por haber confiado en tus carros*,
+Por haber confiado en tus carros<span class="note-ref" data-ref="os-10-13" title="Ver comentario">&#42;</span>,
 
 en la multitud de tus soldados,
 
@@ -1162,13 +1164,13 @@ de guerra contra tu pueblo;
 
 todas tus fortalezas serán devastadas,
 
-como Salmán* devastó Bet Arbel
+como Salmán<span class="note-ref" data-ref="os-10-14-a" title="Ver comentario">&#42;</span> devastó Bet Arbel
 
 el día de la batalla,
 
 cuando las madres eran estrelladas
 
-contra sus hijos*.
+contra sus hijos<span class="note-ref" data-ref="os-10-14-b" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Eso os ha conseguido Betel
 
@@ -1176,16 +1178,16 @@ por vuestra redoblada maldad.
 
 ¡Coincidiendo con la aurora
 
-desaparecerá el rey de Israel*!
+desaparecerá el rey de Israel<span class="note-ref" data-ref="os-10-15" title="Ver comentario">&#42;</span>!
 
-## Yahvé va a vengar su amor despreciado*.
+## Yahvé va a vengar su amor despreciado<span class="note-ref" data-ref="os-11" title="Ver comentario">&#42;</span>.
 <span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Cuando Israel era niño, lo amé,
 
-y de Egipto llamé a mi hijo*.
+y de Egipto llamé a mi hijo<span class="note-ref" data-ref="os-11-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Y cuanto más los llamaba,
 
-más se alejaban de mí*:
+más se alejaban de mí<span class="note-ref" data-ref="os-11-2" title="Ver comentario">&#42;</span>:
 
 ofrecían sacrificios a los Baales
 
@@ -1205,9 +1207,9 @@ yo era para ellos como las personas
 
 que alzan a un niño contra su mejilla;
 
-me inclinaba y le daba de comer*.
+me inclinaba y le daba de comer<span class="note-ref" data-ref="os-11-4" title="Ver comentario">&#42;</span>.
 
-<sup>5</sup> Pues volverá al país de Egipto*,
+<sup>5</sup> Pues volverá al país de Egipto<span class="note-ref" data-ref="os-11-5" title="Ver comentario">&#42;</span>,
 
 y Asur será su rey,
 
@@ -1228,7 +1230,7 @@ a apostatar de mí;
 
 cuando invocan a lo alto,
 
-nadie los levanta*.
+nadie los levanta<span class="note-ref" data-ref="os-11-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> ¿Cómo voy a entregarte, Efraín?,
 
@@ -1236,9 +1238,9 @@ nadie los levanta*.
 
 ¿Voy a entregarte como a Admá,
 
-y tratarte como a Seboín*?
+y tratarte como a Seboín<span class="note-ref" data-ref="os-11-8-a" title="Ver comentario">&#42;</span>?
 
-Mi corazón se convulsiona*
+Mi corazón se convulsiona<span class="note-ref" data-ref="os-11-8-b" title="Ver comentario">&#42;</span>
 
 dentro de mí,
 
@@ -1252,11 +1254,11 @@ no volveré a destruir a Efraín,
 
 porque soy Dios, no un hombre;
 
-el Santo* en medio de ti,
+el Santo<span class="note-ref" data-ref="os-11-9-a" title="Ver comentario">&#42;</span> en medio de ti,
 
-y no es mi deseo aniquilar*.
+y no es mi deseo aniquilar<span class="note-ref" data-ref="os-11-9-b" title="Ver comentario">&#42;</span>.
 
-## Vuelta del destierro*.
+## Vuelta del destierro<span class="note-ref" data-ref="os-11-10" title="Ver comentario">&#42;</span>.
 <sup>10</sup> Marcharán tras Yahvé,
 
 y él rugirá como león;
@@ -1278,26 +1280,26 @@ Y yo los haré habitar en sus casas
 —oráculo de Yahvé—.
 
 ## Perversión religiosa y política de Israel.
-<span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Efraín me ha rodeado de mentira*,
+<span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Efraín me ha rodeado de mentira<span class="note-ref" data-ref="os-12" title="Ver comentario">&#42;</span>,
 
 la casa de Israel de engaño.
 
 (Pero Judá todavía anda con Dios,
 
-y sigue fiel al Santo*.)
+y sigue fiel al Santo<span class="note-ref" data-ref="os-12-1" title="Ver comentario">&#42;</span>.)
 
 <sup>2</sup> Efraín se apacienta de viento,
 
-va en busca del Levante* todo el día;
+va en busca del Levante<span class="note-ref" data-ref="os-12-2-a" title="Ver comentario">&#42;</span> todo el día;
 
 multiplica mentira y pillaje;
 
 sellan alianza con Asiria
 
-y llevan aceite* a Egipto.
+y llevan aceite<span class="note-ref" data-ref="os-12-2-b" title="Ver comentario">&#42;</span> a Egipto.
 
 ## Contra Jacob y Efraín.
-<sup>3</sup> Yahvé pone pleito a Judá*,
+<sup>3</sup> Yahvé pone pleito a Judá<span class="note-ref" data-ref="os-12-3" title="Ver comentario">&#42;</span>,
 
 castigará a Jacob por su conducta,
 
@@ -1307,15 +1309,15 @@ le retribuirá según sus obras.
 
 suplantó a su hermano,
 
-y de mayor luchó con Dios*.
+y de mayor luchó con Dios<span class="note-ref" data-ref="os-12-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Luchó con el ángel y le pudo,
 
-lloró y le suplicó*.
+lloró y le suplicó<span class="note-ref" data-ref="os-12-5-a" title="Ver comentario">&#42;</span>.
 
 En Betel lo encontró
 
-y allí habló con él*.
+y allí habló con él<span class="note-ref" data-ref="os-12-5-b" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Sí, Yahvé Dios Sebaot,
 
@@ -1325,13 +1327,13 @@ y allí habló con él*.
 
 observa el amor y el derecho,
 
-y confía siempre en tu Dios*.
+y confía siempre en tu Dios<span class="note-ref" data-ref="os-12-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Canaán tiene en su mano
 
 una balanza trucada,
 
-le gusta defraudar*.
+le gusta defraudar<span class="note-ref" data-ref="os-12-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Efraín dice: «Sí, me he enriquecido,
 
@@ -1343,7 +1345,7 @@ ninguna encontrará,
 
 debido a la injusticia
 
-con la que se ha hecho culpable*!
+con la que se ha hecho culpable<span class="note-ref" data-ref="os-12-9" title="Ver comentario">&#42;</span>!
 
 ## Perspectivas de reconciliación.
 <sup>10</sup> Yo soy Yahvé, tu Dios,
@@ -1352,15 +1354,15 @@ desde el país de Egipto:
 
 aún te haré morar en tiendas
 
-como en los días del Encuentro*;
+como en los días del Encuentro<span class="note-ref" data-ref="os-12-10" title="Ver comentario">&#42;</span>;
 
 <sup>11</sup> hablaré a los profetas,
 
-yo mismo multiplicaré las visiones*,
+yo mismo multiplicaré las visiones<span class="note-ref" data-ref="os-12-11-a" title="Ver comentario">&#42;</span>,
 
 y hablaré en parábolas
 
-por medio de los profetas*.
+por medio de los profetas<span class="note-ref" data-ref="os-12-11-b" title="Ver comentario">&#42;</span>.
 
 ## Nuevas amenazas.
 <sup>12</sup> Si Galaad es iniquidad,
@@ -1397,7 +1399,7 @@ su Señor le pagará su agravio.
 
 cundía el terror;
 
-se había impuesto en Israel*.
+se había impuesto en Israel<span class="note-ref" data-ref="os-13-1" title="Ver comentario">&#42;</span>.
 
 Pero se hizo culpable
 
@@ -1413,7 +1415,7 @@ se han hecho imágenes fundidascon su plata, ídolos de su invención:
 
 sacrifican hombres,
 
-besan becerros*!
+besan becerros<span class="note-ref" data-ref="os-13-2" title="Ver comentario">&#42;</span>!
 
 <sup>3</sup> Por eso, serán como nube mañanera,
 
@@ -1426,7 +1428,7 @@ como humo por la ventana.
 ## Castigo de la ingratitud.
 <sup>4</sup> Pero yo soy Yahvé, tu Dios,
 
-desde el país de Egipto*.
+desde el país de Egipto<span class="note-ref" data-ref="os-13-4" title="Ver comentario">&#42;</span>.
 
 No conoces otro Dios fuera de mí,
 
@@ -1436,15 +1438,15 @@ ni hay más salvador que yo.
 
 en la tierra ardiente.
 
-<sup>6</sup> Estando en su pasto* se saciaron,
+<sup>6</sup> Estando en su pasto<span class="note-ref" data-ref="os-13-6" title="Ver comentario">&#42;</span> se saciaron,
 
 se saciaron y se engrió su corazón,
 
 por eso se olvidaron de mí.
 
-<sup>7</sup> Pues yo seré* para ellos como león,
+<sup>7</sup> Pues yo seré<span class="note-ref" data-ref="os-13-7-a" title="Ver comentario">&#42;</span> para ellos como león,
 
-un leopardo acechando en el camino*.
+un leopardo acechando en el camino<span class="note-ref" data-ref="os-13-7-b" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Caeré sobre ellos
 
@@ -1459,11 +1461,11 @@ la bestia del campo los despedazará.
 ## Fin de la dinastía real.
 <sup>9</sup> Cuando te destruyan, Israel,
 
-¿quién te ayudará*?
+¿quién te ayudará<span class="note-ref" data-ref="os-13-9" title="Ver comentario">&#42;</span>?
 
 <sup>10</sup> ¿Dónde estará tu rey,
 
-para salvarte* en todas tus ciudades,
+para salvarte<span class="note-ref" data-ref="os-13-10" title="Ver comentario">&#42;</span> en todas tus ciudades,
 
 y tus jueces, de quienes decías:
 
@@ -1484,7 +1486,7 @@ pero es un hijo torpe,
 
 que no se presenta a tiempo
 
-por donde rompen los hijos*.
+por donde rompen los hijos<span class="note-ref" data-ref="os-13-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> ¿Voy a librarlos de la garra del Seol,
 
@@ -1492,11 +1494,11 @@ voy a rescatarlos de la muerte?
 
 ¿Dónde están, muerte, tus pestes,
 
-dónde tu contagio, Seol*?
+dónde tu contagio, Seol<span class="note-ref" data-ref="os-13-14" title="Ver comentario">&#42;</span>?
 
 ## La compasión se esconde a mis ojos.
 
-<sup>15</sup> Aunque Efraín* dé fruto
+<sup>15</sup> Aunque Efraín<span class="note-ref" data-ref="os-13-15-a" title="Ver comentario">&#42;</span> dé fruto
 
 en medio de sus hermanos,
 
@@ -1510,7 +1512,7 @@ que secará su manantial
 
 y agotará su fuente;
 
-él* arrebatará el tesoro,
+él<span class="note-ref" data-ref="os-13-15-b" title="Ver comentario">&#42;</span> arrebatará el tesoro,
 
 todos los objetos preciosos.
 
@@ -1524,13 +1526,13 @@ sus niños serán estrellados,
 
 y sus embarazadas abiertas en canal.
 
-## III. Conversión de Israel y vuelta a la gracia*
+## III. Conversión de Israel y vuelta a la gracia<span class="note-ref" data-ref="os-14-2" title="Ver comentario">&#42;</span>
 ## Vuelta sincera de Israel a Yahvé.
 <sup>2</sup> Vuelve, Israel, a Yahvé tu Dios,
 
 pues tus culpas te han hecho caer.
 
-<sup>3</sup> Preparaos unas palabras*,
+<sup>3</sup> Preparaos unas palabras<span class="note-ref" data-ref="os-14-3" title="Ver comentario">&#42;</span>,
 
 y volved a Yahvé.
 
@@ -1548,7 +1550,7 @@ no montaremos a caballo,
 
 y no diremos más ‘Dios nuestro’
 
-a la obra de nuestras manos*,
+a la obra de nuestras manos<span class="note-ref" data-ref="os-14-4" title="Ver comentario">&#42;</span>,
 
 oh tú, que te apiadas del huérfano.»
 
@@ -1572,7 +1574,7 @@ y su fragancia como la del Líbano.
 
 <sup>8</sup> Volverán donde él
 
-los que habitaban a su sombra*;
+los que habitaban a su sombra<span class="note-ref" data-ref="os-14-8" title="Ver comentario">&#42;</span>;
 
 harán que renazca el trigo,
 
@@ -1590,9 +1592,9 @@ Yo respondo y lo protejo;
 
 yo soy como un ciprés siempre verde,
 
-y de mí procede tu fruto*.
+y de mí procede tu fruto<span class="note-ref" data-ref="os-14-9" title="Ver comentario">&#42;</span>.
 
-## Amonestación final*.
+## Amonestación final<span class="note-ref" data-ref="os-14-10" title="Ver comentario">&#42;</span>.
 <sup>10</sup> ¿Quién es la persona sabia
 
 capaz de entender estas cosas?,

@@ -3,13 +3,13 @@ title: 'Joel'
 description: 'Libro del Profeta Joel'
 img: blog-placeholder-4.jpg
 ---
-JOEL
-1:1 Palabra de Yahvé que fue dirigida a Joel, hijo de Petuel.
+## JOEL
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabra de Yahvé que fue dirigida a Joel, hijo de Petuel.
 
 ## I. La plaga de langosta
 ## 1. LITURGIA DE DUELO Y DE SÚPLICA
 ## Lamentación por la ruina del país.
-1:2 ¡Escuchad esto, ancianos,
+<sup>2</sup> ¡Escuchad esto, ancianos,
 
 prestad oído, todos los habitantes del país!
 
@@ -17,13 +17,13 @@ prestad oído, todos los habitantes del país!
 
 o en tiempo de vuestros antepasados?
 
-1:3 Contádselo a vuestros hijos,
+<sup>3</sup> Contádselo a vuestros hijos,
 
 vuestros hijos a sus hijos,
 
 y sus hijos a la siguiente generación.
 
-1:4 Lo que dejó la oruga
+<sup>4</sup> Lo que dejó la oruga
 
 lo devoró la langosta,
 
@@ -33,15 +33,15 @@ lo devoró el pulgón,
 
 lo que dejó el pulgón
 
-lo devoró el saltamontes*.
+lo devoró el saltamontes<span class="note-ref" data-ref="jl-1-4" title="Ver comentario">&#42;</span>.
 
-1:5 ¡Despertad, borrachos, y llorad,
+<sup>5</sup> ¡Despertad, borrachos, y llorad,
 
 gemid todos los bebedores de vino
 
 por el mosto que os quitan de la boca!
 
-1:6 Porque un pueblo invade mi tierra,
+<sup>6</sup> Porque un pueblo invade mi tierra,
 
 poderoso e incalculable:
 
@@ -49,7 +49,7 @@ sus dientes son dientes de león,
 
 y tiene mandíbulas de leona.
 
-1:7 Va dejando mi viña desolada
+<sup>7</sup> Va dejando mi viña desolada
 
 y mi higuera destrozada:
 
@@ -57,11 +57,11 @@ la ha pelado del todo, la ha arrancado
 
 y sus ramas quedan desnudas.
 
-1:8 ¡Suspira* tú, como doncella vestida de luto
+<sup>8</sup> ¡Suspira<span class="note-ref" data-ref="jl-1-8" title="Ver comentario">&#42;</span> tú, como doncella vestida de luto
 
 por el esposo de su juventud!
 
-1:9 Ofrenda y libación* han cesado
+<sup>9</sup> Ofrenda y libación<span class="note-ref" data-ref="jl-1-9" title="Ver comentario">&#42;</span> han cesado
 
 en el templo de Yahvé.
 
@@ -69,7 +69,7 @@ Están de duelo los sacerdotes,
 
 los ministros de Yahvé.
 
-1:10 El campo está arrasado,
+<sup>10</sup> El campo está arrasado,
 
 la tierra está de luto,
 
@@ -79,7 +79,7 @@ se ha secado el mosto,
 
 y se ha agotado el aceite.
 
-1:11 ¡Consternaos, labradores;
+<sup>11</sup> ¡Consternaos, labradores;
 
 lamentaos, viñadores,
 
@@ -89,7 +89,7 @@ porque se ha perdido
 
 la cosecha del campo!
 
-1:12 La viña está seca,
+<sup>12</sup> La viña está seca,
 
 la higuera marchita,
 
@@ -100,11 +100,11 @@ todos los árboles del campo están secos.
 ¡Se ha secado la alegría entre los hombres!
 
 ## Invitación a la penitencia y a la oración.
-1:13 ¡Vestíos de luto, sacerdotes*,
+<sup>13</sup> ¡Vestíos de luto, sacerdotes<span class="note-ref" data-ref="jl-1-13-a" title="Ver comentario">&#42;</span>,
 
 lamentaos, ministros del altar;
 
-venid*, pasad la noche en duelo,
+venid<span class="note-ref" data-ref="jl-1-13-b" title="Ver comentario">&#42;</span>, pasad la noche en duelo,
 
 ministros de mi Dios,
 
@@ -114,7 +114,7 @@ se le han negado
 
 ofrenda y libación!
 
-1:14 Promulgad* un ayuno,
+<sup>14</sup> Promulgad<span class="note-ref" data-ref="jl-1-14" title="Ver comentario">&#42;</span> un ayuno,
 
 convocad la asamblea,
 
@@ -126,21 +126,21 @@ en el templo de Yahvé, vuestro Dios,
 
 y clamad a Yahvé:
 
-1:15 «¡Ay, aquel Día!
+<sup>15</sup> «¡Ay, aquel Día!
 
 ¡Está cerca el Día de Yahvé!
 
-Ya llega como devastación del Todopoderoso*»
+Ya llega como devastación del Todopoderoso<span class="note-ref" data-ref="jl-1-15" title="Ver comentario">&#42;</span>»
 
-1:16 ¿No han sido arrancados ante nuestros ojos
+<sup>16</sup> ¿No han sido arrancados ante nuestros ojos
 
 la comida, la alegría y el júbilo
 
 del templo de nuestro Dios?
 
-1:17 Se han secado las semillas
+<sup>17</sup> Se han secado las semillas
 
-bajo los terrones*;
+bajo los terrones<span class="note-ref" data-ref="jl-1-17" title="Ver comentario">&#42;</span>;
 
 los graneros han sido devastados
 
@@ -148,7 +148,7 @@ y los silos arruinados,
 
 porque falta el grano.
 
-1:18 ¡Cómo muge el ganado,
+<sup>18</sup> ¡Cómo muge el ganado,
 
 cómo vagan sin rumbo las vacadas,
 
@@ -156,7 +156,7 @@ porque no tienen pastos!
 
 ¡Hasta los rebaños de ovejas lo pagan!
 
-1:19 A ti clamo, Yahvé,
+<sup>19</sup> A ti clamo, Yahvé,
 
 porque el fuego ha devorado
 
@@ -164,9 +164,9 @@ los pastos de la estepa,
 
 las llamas han abrasado
 
-todos los árboles del campo*.
+todos los árboles del campo<span class="note-ref" data-ref="jl-1-19" title="Ver comentario">&#42;</span>.
 
-1:20 Hasta las bestias del campo
+<sup>20</sup> Hasta las bestias del campo
 
 jadean tras de ti,
 
@@ -176,8 +176,8 @@ y el fuego ha devorado
 
 los pastos de la estepa.
 
-## Alarma en el Día de Yahvé *.
-2:1 ¡Tocad la trompeta* en Sión,
+## Alarma en el Día de Yahvé <span class="note-ref" data-ref="jl-2" title="Ver comentario">&#42;</span>.
+<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> ¡Tocad la trompeta<span class="note-ref" data-ref="jl-2-1" title="Ver comentario">&#42;</span> en Sión,
 
 clamad en mi monte santo!
 
@@ -187,7 +187,7 @@ porque llega el Día de Yahvé,
 
 porque está cerca!
 
-2:2 ¡Día de tinieblas y oscuridad*,
+<sup>2</sup> ¡Día de tinieblas y oscuridad<span class="note-ref" data-ref="jl-2-2" title="Ver comentario">&#42;</span>,
 
 día de nubes y densa niebla!
 
@@ -204,7 +204,7 @@ ni lo habrá después de él
 en muchas generaciones.
 
 ## La invasión de langosta.
-2:3 Delante de él devora el fuego,
+<sup>3</sup> Delante de él devora el fuego,
 
 detrás de él abrasa la llama.
 
@@ -214,11 +214,11 @@ tras él, un desierto desolado.
 
 ¡No deja escapatoria!
 
-2:4 Su aspecto es de corceles,
+<sup>4</sup> Su aspecto es de corceles,
 
-de jinetes que galopan*.
+de jinetes que galopan<span class="note-ref" data-ref="jl-2-4" title="Ver comentario">&#42;</span>.
 
-2:5 Su estrépito es de carros
+<sup>5</sup> Su estrépito es de carros
 
 que saltan por las cimas de los montes,
 
@@ -230,11 +230,11 @@ que consume la hojarasca,
 
 en orden de batalla!
 
-2:6 A su vista tiemblan los pueblos,
+<sup>6</sup> A su vista tiemblan los pueblos,
 
 todos los rostros mudan de color.
 
-2:7 Corren como valientes,
+<sup>7</sup> Corren como valientes,
 
 como guerreros escalan las murallas;
 
@@ -242,7 +242,7 @@ cada uno avanza en su puesto
 
 sin descomponer las filas.
 
-2:8 Nadie tropieza con su vecino,
+<sup>8</sup> Nadie tropieza con su vecino,
 
 cada cual sigue su ruta;
 
@@ -250,7 +250,7 @@ entre las saetas arremeten
 
 sin romper la formación.
 
-2:9 Asaltan la ciudad,
+<sup>9</sup> Asaltan la ciudad,
 
 escalan la muralla,
 
@@ -261,15 +261,15 @@ a través de las ventanas
 entran como ladrones.
 
 ## Visión del Día de Yahvé.
-2:10 ¡Ante ellos* tiembla la tierra,
+<sup>10</sup> ¡Ante ellos<span class="note-ref" data-ref="jl-2-10-a" title="Ver comentario">&#42;</span> tiembla la tierra,
 
 se estremecen los cielos,
 
 el sol y la luna se oscurecen
 
-y las estrellas pierden su brillo*!
+y las estrellas pierden su brillo<span class="note-ref" data-ref="jl-2-10-b" title="Ver comentario">&#42;</span>!
 
-2:11 Yahvé alza la voz* al frente de su ejército,
+<sup>11</sup> Yahvé alza la voz<span class="note-ref" data-ref="jl-2-11" title="Ver comentario">&#42;</span> al frente de su ejército,
 
 porque son innumerables sus batallones,
 
@@ -280,13 +280,13 @@ porque es grande el Día de Yahvé
 y muy terrible: ¿quién podrá soportarlo?
 
 ## Invitación a la penitencia.
-2:12 «Mas ahora —oráculo de Yahvé—
+<sup>12</sup> «Mas ahora —oráculo de Yahvé—
 
 volved a mí de todo corazón,
 
 con ayuno, con llantos y con duelo.»
 
-2:13 Desgarrad vuestro corazón
+<sup>13</sup> Desgarrad vuestro corazón
 
 y no vuestros vestidos;
 
@@ -298,23 +298,23 @@ lento a la cólera, rico en amor,
 
 y se retracta de las amenazas.
 
-2:14 ¡Quién sabe si volverá y se compadecerá,
+<sup>14</sup> ¡Quién sabe si volverá y se compadecerá,
 
-y dejará a su paso bendición*,
+y dejará a su paso bendición<span class="note-ref" data-ref="jl-2-14" title="Ver comentario">&#42;</span>,
 
 ofrenda y libación
 
 para Yahvé, vuestro Dios!
 
-2:15 ¡Tocad la trompeta en Sión,
+<sup>15</sup> ¡Tocad la trompeta en Sión,
 
 promulgad un ayuno,
 
 convocad la asamblea,
 
-2:16 congregad al pueblo,
+<sup>16</sup> congregad al pueblo,
 
-purificad la comunidad*,
+purificad la comunidad<span class="note-ref" data-ref="jl-2-16" title="Ver comentario">&#42;</span>,
 
 reunid a los ancianos,
 
@@ -326,7 +326,7 @@ Que salga el esposo de su alcoba
 
 y la esposa de su lecho.
 
-2:17 Entre el atrio y el altar*
+<sup>17</sup> Entre el atrio y el altar<span class="note-ref" data-ref="jl-2-17" title="Ver comentario">&#42;</span>
 
 lloren los sacerdotes, ministros de Yahvé,
 
@@ -342,11 +342,11 @@ Que no se diga entre los pueblos:
 
 # 2. RESPUESTA DE YAHVÉ
 ## Fin del azote y liberación.
-2:18 Yahvé sintió añoranza de su tierra
+<sup>18</sup> Yahvé sintió añoranza de su tierra
 
 y se compadeció de su pueblo.
 
-2:19 Respondió Yahvé y dijo a su pueblo:
+<sup>19</sup> Respondió Yahvé y dijo a su pueblo:
 
 «Yo os voy a enviar
 
@@ -358,7 +358,7 @@ y no os entregaré más
 
 a la deshonra de las naciones.
 
-2:20 Alejaré de vosotros al que viene del norte*,
+<sup>20</sup> Alejaré de vosotros al que viene del norte<span class="note-ref" data-ref="jl-2-20" title="Ver comentario">&#42;</span>,
 
 lo arrojaré hacia una tierra desolada y desértica:
 
@@ -373,13 +373,13 @@ se extenderá su fetidez.»
 (¡Porque él hace proezas!)
 
 ## Anuncio de prosperidad.
-2:21 No temas, suelo,
+<sup>21</sup> No temas, suelo,
 
 regocíjate y salta de júbilo,
 
 porque Yahvé hace proezas.
 
-2:22 No temáis, bestias del campo,
+<sup>22</sup> No temáis, bestias del campo,
 
 porque los pastos de la estepa reverdecen,
 
@@ -387,23 +387,23 @@ los árboles producen su fruto,
 
 la higuera y la vid dan su riqueza.
 
-2:23 ¡Habitantes de Sión, regocijaos,
+<sup>23</sup> ¡Habitantes de Sión, regocijaos,
 
 alegraos en Yahvé, vuestro Dios!
 
 Porque él os envía
 
-la lluvia de otoño en su medida*,
+la lluvia de otoño en su medida<span class="note-ref" data-ref="jl-2-23-a" title="Ver comentario">&#42;</span>,
 
 y hace caer para vosotros los aguaceros
 
-de otoño y primavera, como antaño*.
+de otoño y primavera, como antaño<span class="note-ref" data-ref="jl-2-23-b" title="Ver comentario">&#42;</span>.
 
-2:24 Las eras se llenarán de trigo,
+<sup>24</sup> Las eras se llenarán de trigo,
 
 los lagares rebosarán de mosto y aceite.
 
-2:25 «Yo os compensaré de los años
+<sup>25</sup> «Yo os compensaré de los años
 
 en que os devoraron la langosta y el pulgón,
 
@@ -413,7 +413,7 @@ el gran ejército,
 
 que envié contra vosotros.
 
-2:26 Comeréis en abundancia hasta hartaros,
+<sup>26</sup> Comeréis en abundancia hasta hartaros,
 
 y alabaréis el nombre de Yahvé vuestro Dios,
 
@@ -421,15 +421,15 @@ que hizo maravillas con vosotros.
 
 (¡Mi pueblo no volverá a ser avergonzado!)
 
-2:27 Y sabréis que yo estoy en medio de Israel;
+<sup>27</sup> Y sabréis que yo estoy en medio de Israel;
 
 ¡que yo soy Yahvé, vuestro Dios, y no hay otro!
 
 ¡Y mi pueblo no volverá a ser avergonzado!»
 
 # II. La nueva era y el día de Yahvé
-## 1. LA EFUSIÓN DEL ESPÍRITU*
-3:1 «Después de esto
+## 1. LA EFUSIÓN DEL ESPÍRITU<span class="note-ref" data-ref="jl-3" title="Ver comentario">&#42;</span>
+<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> «Después de esto
 
 yo derramaré mi espíritu sobre todo mortal
 
@@ -439,17 +439,17 @@ vuestros ancianos tendrán sueños,
 
 vuestros jóvenes verán visiones.
 
-3:2 Y hasta sobre siervos y siervas
+<sup>2</sup> Y hasta sobre siervos y siervas
 
-derramaré mi espíritu* en aquellos días.
+derramaré mi espíritu<span class="note-ref" data-ref="jl-3-2" title="Ver comentario">&#42;</span> en aquellos días.
 
-3:3 Y realizaré prodigios*
+<sup>3</sup> Y realizaré prodigios<span class="note-ref" data-ref="jl-3-3" title="Ver comentario">&#42;</span>
 
 en el cielo y en la tierra,
 
 sangre, fuego y columnas de humo.»
 
-3:4 El sol se convertirá en tinieblas
+<sup>4</sup> El sol se convertirá en tinieblas
 
 y la luna en sangre,
 
@@ -457,7 +457,7 @@ ante la llegada del Día de Yahvé,
 
 grande y terrible.
 
-3:5 Y todos los que invoquen
+<sup>5</sup> Y todos los que invoquen
 
 el nombre de Yahvé se salvarán,
 
@@ -471,32 +471,32 @@ y entre los supervivientes
 
 estarán los que llame Yahvé.
 
-# 2. JUICIO DE LOS PUEBLOS*
+# 2. JUICIO DE LOS PUEBLOS<span class="note-ref" data-ref="jl-4" title="Ver comentario">&#42;</span>
 ## Temas generales.
-4:1 «Pues mirad: en esos días, en aquel tiempo,
+<span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> «Pues mirad: en esos días, en aquel tiempo,
 
-cuando cambie la suerte de Judá y Jerusalén*,
+cuando cambie la suerte de Judá y Jerusalén<span class="note-ref" data-ref="jl-4-1" title="Ver comentario">&#42;</span>,
 
-4:2 reuniré a todos los pueblos
+<sup>2</sup> reuniré a todos los pueblos
 
-los haré bajar al Valle de Josafat*
+los haré bajar al Valle de Josafat<span class="note-ref" data-ref="jl-4-2-a" title="Ver comentario">&#42;</span>
 
 y allí los juzgaré
 
 porque dispersaron entre las naciones
 
-a Israel*, mi pueblo y mi heredad,
+a Israel<span class="note-ref" data-ref="jl-4-2-b" title="Ver comentario">&#42;</span>, mi pueblo y mi heredad,
 
 y se repartieron mi tierra.
 
-4:3 Sortearon a mi pueblo,
+<sup>3</sup> Sortearon a mi pueblo,
 
 cambiaron al niño por una prostituta,
 
 y vendieron a la niña por un trago de vino.»
 
-## Contra los fenicios y los filisteos *.
-4:4 «Y vosotros, Tiro y Sidón y provincias filisteas,
+## Contra los fenicios y los filisteos <span class="note-ref" data-ref="jl-4-4-a" title="Ver comentario">&#42;</span>.
+<sup>4</sup> «Y vosotros, Tiro y Sidón y provincias filisteas,
 
 ¿qué queréis de mí?
 
@@ -504,38 +504,38 @@ y vendieron a la niña por un trago de vino.»
 
 Pues si queréis cobrarme,
 
-¡muy pronto os pagaré vuestro merecido*!
+¡muy pronto os pagaré vuestro merecido<span class="note-ref" data-ref="jl-4-4-b" title="Ver comentario">&#42;</span>!
 
-4:5 Vosotros robasteis mi plata y mi oro,
+<sup>5</sup> Vosotros robasteis mi plata y mi oro,
 
 os llevasteis mis mejores tesoros a vuestros templos,
 
-4:6 y a los hijos de Judá y Jerusalén
+<sup>6</sup> y a los hijos de Judá y Jerusalén
 
 los vendisteis a los griegos,
 
 para alejarlos de su territorio.
 
-4:7 Pues yo los reincorporaré
+<sup>7</sup> Pues yo los reincorporaré
 
 del lugar donde los vendisteis,
 
 y os pagaré vuestro merecido:
 
-4:8 entregaré vuestros hijos y vuestras hijas
+<sup>8</sup> entregaré vuestros hijos y vuestras hijas
 
 en manos de los habitantes de Judá,
 
-y ellos los venderán a los sabeos*,
+y ellos los venderán a los sabeos<span class="note-ref" data-ref="jl-4-8" title="Ver comentario">&#42;</span>,
 
 a un pueblo lejano.
 
 ¡Lo ha dicho Yahvé!»
 
-## Convocatoria de los pueblos *.
-4:9 Pregonadlo entre las naciones:
+## Convocatoria de los pueblos <span class="note-ref" data-ref="jl-4-9-a" title="Ver comentario">&#42;</span>.
+<sup>9</sup> Pregonadlo entre las naciones:
 
-¡Declarad* la guerra santa,
+¡Declarad<span class="note-ref" data-ref="jl-4-9-b" title="Ver comentario">&#42;</span> la guerra santa,
 
 movilizad a los valientes!
 
@@ -543,21 +543,21 @@ movilizad a los valientes!
 
 todos los guerreros!
 
-4:10 Forjad espadas de vuestras azadas
+<sup>10</sup> Forjad espadas de vuestras azadas
 
-y lanzas de vuestras podaderas*,
+y lanzas de vuestras podaderas<span class="note-ref" data-ref="jl-4-10" title="Ver comentario">&#42;</span>,
 
 y diga el cobarde: «¡Soy un valiente!»
 
-4:11 ¡Daos prisa, venid,
+<sup>11</sup> ¡Daos prisa, venid,
 
 todos los pueblos vecinos,
 
 y congregaos allí!
 
-(¡Yahvé, haz bajar a tus valientes*!)
+(¡Yahvé, haz bajar a tus valientes<span class="note-ref" data-ref="jl-4-11" title="Ver comentario">&#42;</span>!)
 
-4:12 «¡Que se movilicen y suban las naciones
+<sup>12</sup> «¡Que se movilicen y suban las naciones
 
 al Valle de Josafat!
 
@@ -565,7 +565,7 @@ Pues allí me sentaré yo para juzgar
 
 a todos los pueblos vecinos.
 
-4:13 Meted la hoz,
+<sup>13</sup> Meted la hoz,
 
 porque la mies está madura;
 
@@ -577,20 +577,20 @@ y las tinajas rebosan:
 
 tantos son sus delitos.»
 
-4:14 ¡Multitudes y multitudes
+<sup>14</sup> ¡Multitudes y multitudes
 
-en el Valle de la Decisión*!
+en el Valle de la Decisión<span class="note-ref" data-ref="jl-4-14" title="Ver comentario">&#42;</span>!
 
 Porque está cerca el Día de Yahvé
 
 en el Valle de la Decisión.
 
 ## El Día de Yahvé.
-4:15 El sol y la luna se oscurecen
+<sup>15</sup> El sol y la luna se oscurecen
 
 y las estrellas pierden su brillo.
 
-4:16 Yahvé ruge desde Sión,
+<sup>16</sup> Yahvé ruge desde Sión,
 
 desde Jerusalén alza su voz:
 
@@ -600,18 +600,18 @@ Pero Yahvé será un refugio para su pueblo,
 
 una fortaleza para los hijos de Israel.
 
-4:17 «Sabréis entonces
+<sup>17</sup> «Sabréis entonces
 
 que yo soy Yahvé vuestro Dios,
 
 que habito en Sión, mi monte santo.
 
-Jerusalén será lugar santo*
+Jerusalén será lugar santo<span class="note-ref" data-ref="jl-4-17" title="Ver comentario">&#42;</span>
 
 y los extranjeros no volverán a pasar por ella.»
 
 # 3. ERA PARADISÍACA DE LA RESTAURACIÓN DE ISRAEL
-4:18 Aquel día
+<sup>18</sup> Aquel día
 
 los montes destilarán vino
 
@@ -623,9 +623,9 @@ correrán las aguas
 
 y brotará una fuente del Templo de Yahvé
 
-que regará el valle de las Acacias*.
+que regará el valle de las Acacias<span class="note-ref" data-ref="jl-4-18" title="Ver comentario">&#42;</span>.
 
-4:19 Egipto quedará hecho una desolación
+<sup>19</sup> Egipto quedará hecho una desolación
 
 y Edom, un desierto desolado,
 
@@ -633,10 +633,10 @@ por su violencia contra los habitantes de Judá,
 
 cuya sangre inocente derramaron en su tierra.
 
-4:20 Pero Judá estará habitada siempre
+<sup>20</sup> Pero Judá estará habitada siempre
 
 y Jerusalén, de edad en edad.
 
-4:21 «Yo vengaré su sangre, no la dejaré impune*»,
+<sup>21</sup> «Yo vengaré su sangre, no la dejaré impune<span class="note-ref" data-ref="jl-4-21" title="Ver comentario">&#42;</span>»,
 
 y Yahvé morará en Sión.

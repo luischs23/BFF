@@ -1,5 +1,5 @@
 ---
-import { Search } from "lucide-astro";
+import { Search, AArrowUp } from "lucide-astro";
 import type { EstructuraBiblia } from "../../lib/biblia/types";
 
 interface Props {
@@ -17,6 +17,15 @@ const { estructura, currentSlug } = Astro.props;
 	<div class="p-4 pt-16 md:pt-4">
 		<div class="flex items-center justify-between mb-4">
 			<a href="/" class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:underline text-sm transition-colors">&larr; Inicio</a>
+			<div class="flex items-center gap-2">
+			<button
+				id="fontSizeToggle"
+				class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+				aria-label="Cambiar tamaño de texto"
+				title="Tamaño de texto"
+			>
+				<AArrowUp class="w-5 h-5 text-gray-600 dark:text-gray-400" />
+			</button>
 			<button
 				id="darkModeToggle"
 				class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
@@ -31,6 +40,7 @@ const { estructura, currentSlug } = Astro.props;
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
 				</svg>
 			</button>
+			</div>
 		</div>
 		<div class="flex items-center justify-between mb-4">
 			<h2 class="text-lg font-bold text-gray-900 dark:text-gray-100">Sagrada Biblia</h2>
@@ -99,4 +109,133 @@ const { estructura, currentSlug } = Astro.props;
 	}
 	document.addEventListener('DOMContentLoaded', initSidebarSearch);
 	document.addEventListener('astro:page-load', initSidebarSearch);
+
+	// Control de tamaño de texto
+	let fontSizeInitialized = false;
+
+	function initFontSize() {
+		// Aplicar tamaño guardado siempre (incluso en re-navegaciones SPA)
+		const bibleContent = document.querySelector('.bible-content');
+		const savedSize = localStorage.getItem('bibleFontSize') || 'medium';
+		const fontSizes: Record<string, string> = {
+			small: 'text-sm', medium: 'text-base', large: 'text-lg', xlarge: 'text-xl'
+		};
+		if (bibleContent) {
+			Object.values(fontSizes).forEach(cls => bibleContent.classList.remove(cls));
+			bibleContent.classList.add(fontSizes[savedSize] || fontSizes.medium);
+		}
+
+		if (fontSizeInitialized && document.getElementById('fontSizePanel')) return;
+		fontSizeInitialized = true;
+
+		const fontSizeToggle = document.getElementById('fontSizeToggle');
+
+		// Crear el panel dinámicamente
+		let fontSizePanel = document.getElementById('fontSizePanel');
+		if (!fontSizePanel) {
+			fontSizePanel = document.createElement('div');
+			fontSizePanel.id = 'fontSizePanel';
+			fontSizePanel.setAttribute('style', 'position: fixed; background: white; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); border: 1px solid #d1d5db; padding: 12px; min-width: 160px; z-index: 9999; display: none;');
+			fontSizePanel.innerHTML = `
+				<p style="font-size: 12px; color: #6b7280; margin-bottom: 8px; font-weight: 500;">Tamaño de texto</p>
+				<div style="display: flex; flex-direction: column; gap: 4px;">
+					<button class="font-size-option" data-size="small" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151; font-size: 14px;">
+						<span style="font-size: 12px; font-weight: bold; margin-right: 8px;">A</span> Pequeño
+					</button>
+					<button class="font-size-option" data-size="medium" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151;">
+						<span style="font-size: 16px; font-weight: bold; margin-right: 8px;">A</span> Mediano
+					</button>
+					<button class="font-size-option" data-size="large" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151;">
+						<span style="font-size: 18px; font-weight: bold; margin-right: 8px;">A</span> Grande
+					</button>
+					<button class="font-size-option" data-size="xlarge" style="text-align: left; padding: 6px 12px; border-radius: 4px; border: none; background: transparent; cursor: pointer; color: #374151;">
+						<span style="font-size: 20px; font-weight: bold; margin-right: 8px;">A</span> Muy grande
+					</button>
+				</div>
+			`;
+			document.body.appendChild(fontSizePanel);
+		}
+
+		const fontSizeOptions = fontSizePanel.querySelectorAll('.font-size-option');
+		updateActiveOption(savedSize);
+
+		let panelOpen = false;
+
+		if (fontSizeToggle && !fontSizeToggle.hasAttribute('data-initialized')) {
+			fontSizeToggle.setAttribute('data-initialized', 'true');
+
+			fontSizeToggle.addEventListener('click', (e) => {
+				e.stopPropagation();
+				e.preventDefault();
+				panelOpen = !panelOpen;
+				if (panelOpen) {
+					const rect = fontSizeToggle.getBoundingClientRect();
+					fontSizePanel!.style.top = `${rect.bottom + 8}px`;
+					fontSizePanel!.style.left = `${rect.left}px`;
+					fontSizePanel!.style.display = 'block';
+				} else {
+					fontSizePanel!.style.display = 'none';
+				}
+			});
+
+			document.addEventListener('click', (e) => {
+				const target = e.target as Node;
+				if (panelOpen && fontSizePanel && !fontSizePanel.contains(target) && target !== fontSizeToggle && !fontSizeToggle.contains(target)) {
+					fontSizePanel.style.display = 'none';
+					panelOpen = false;
+				}
+			});
+		}
+
+		function getScrollAnchor(): Element | null {
+			const main = document.querySelector('main');
+			if (!main) return null;
+			const mainRect = main.getBoundingClientRect();
+			const targetY = mainRect.top + mainRect.height * 0.25;
+			const candidates = document.querySelectorAll('.bible-content sup, .bible-content .chapter-marker');
+			let best: Element | null = null;
+			let bestDist = Infinity;
+			for (const el of candidates) {
+				const rect = el.getBoundingClientRect();
+				if (rect.top < mainRect.top) continue;
+				const dist = Math.abs(rect.top - targetY);
+				if (dist < bestDist) { bestDist = dist; best = el; }
+			}
+			return best;
+		}
+
+		fontSizeOptions.forEach(option => {
+			if (!option.hasAttribute('data-initialized')) {
+				option.setAttribute('data-initialized', 'true');
+				option.addEventListener('click', (e) => {
+					e.stopPropagation();
+					const size = (option as HTMLElement).dataset.size || 'medium';
+					const anchor = getScrollAnchor();
+					applyFontSize(size);
+					updateActiveOption(size);
+					localStorage.setItem('bibleFontSize', size);
+					fontSizePanel!.style.display = 'none';
+					panelOpen = false;
+					if (anchor) requestAnimationFrame(() => anchor.scrollIntoView({ block: 'center' }));
+				});
+			}
+		});
+
+		function applyFontSize(size: string) {
+			const bc = document.querySelector('.bible-content');
+			if (!bc) return;
+			Object.values(fontSizes).forEach(cls => bc.classList.remove(cls));
+			bc.classList.add(fontSizes[size] || fontSizes.medium);
+		}
+
+		function updateActiveOption(size: string) {
+			fontSizeOptions.forEach(option => {
+				(option as HTMLElement).style.background =
+					(option as HTMLElement).dataset.size === size ? '#fde68a' : 'transparent';
+			});
+		}
+	}
+
+	document.addEventListener('DOMContentLoaded', initFontSize);
+	document.addEventListener('astro:page-load', initFontSize);
 </script>

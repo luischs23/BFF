@@ -7,13 +7,14 @@ img: blog-placeholder-4.jpg
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabra de Yahvé dirigida a Miqueas de Moréset, en tiempos de Jotán, Ajaz y Ezequías, reyes de Judá; y visiones sobre Samaría y Jerusalén.
 
 ## I. El proceso de Israel
-# AMENAZAS Y CONDENAS
-## Juicio de Samaría *.
+## AMENAZAS Y CONDENAS
+
+## Juicio de Samaría <span class="note-ref" data-ref="mi-1-2-a" title="Ver comentario">&#42;</span>.
 <sup>2</sup> ¡Escuchad, pueblos todos;
 
 atiende, tierra y cuanto la llena!
 
-¡Sea testigo Yahvé* contra vosotros,
+¡Sea testigo Yahvé<span class="note-ref" data-ref="mi-1-2-b" title="Ver comentario">&#42;</span> contra vosotros,
 
 el Señor desde su santo Templo!
 
@@ -37,7 +38,7 @@ por los pecados de la casa de Israel.
 
 ¿No es Samaría?
 
-¿Cuál es el pecado de la casa de Judá*?
+¿Cuál es el pecado de la casa de Judá<span class="note-ref" data-ref="mi-1-5" title="Ver comentario">&#42;</span>?
 
 ¿No es Jerusalén?
 
@@ -53,7 +54,7 @@ dejaré desnudos sus cimientos.
 
 <sup>7</sup> Todos sus ídolos serán machacados,
 
-todas sus ganancias* quemadas en el fuego;
+todas sus ganancias<span class="note-ref" data-ref="mi-1-7" title="Ver comentario">&#42;</span> quemadas en el fuego;
 
 aniquilaré todas sus imágenes,
 
@@ -61,7 +62,7 @@ porque con ganancias de prostitución las reunió
 
 y a ganancias de prostitución tornarán.»
 
-## Lamentación sobre las ciudades de la Tierra Baja*.
+## Lamentación sobre las ciudades de la Tierra Baja<span class="note-ref" data-ref="mi-1-8" title="Ver comentario">&#42;</span>.
 <sup>8</sup> Por eso lloraré y me lamentaré,
 
 andaré descalzo y desnudo,
@@ -70,7 +71,7 @@ lanzaré aullidos como los chacales
 
 y lamentos como los avestruces;
 
-<sup>9</sup> porque su herida* es incurable,
+<sup>9</sup> porque su herida<span class="note-ref" data-ref="mi-1-9" title="Ver comentario">&#42;</span> es incurable,
 
 se ha extendido hasta Judá
 
@@ -78,13 +79,13 @@ y ha tocado la puerta de mi pueblo,
 
 hasta Jerusalén.
 
-<sup>10</sup> ¡No lo contéis en Gat*,
+<sup>10</sup> ¡No lo contéis en Gat<span class="note-ref" data-ref="mi-1-10-a" title="Ver comentario">&#42;</span>,
 
 en Cabón no lloréis!
 
 ¡En Bet Leafrá
 
-revolcaos* en el polvo!
+revolcaos<span class="note-ref" data-ref="mi-1-10-b" title="Ver comentario">&#42;</span> en el polvo!
 
 <sup>11</sup> ¡Los habitantes de Safir
 
@@ -96,7 +97,7 @@ los habitantes de Saanán!
 
 ¡Hay duelo en Bet Haesel
 
-y no os podrá dar su ayuda*!
+y no os podrá dar su ayuda<span class="note-ref" data-ref="mi-1-11" title="Ver comentario">&#42;</span>!
 
 <sup>12</sup> Está enferma de verdad
 
@@ -118,7 +119,7 @@ en ti aparecieron los delitos de Israel.
 
 a Moreset Gat.
 
-Bet Aczib* será una trampa
+Bet Aczib<span class="note-ref" data-ref="mi-1-14" title="Ver comentario">&#42;</span> será una trampa
 
 para los reyes de Israel.
 
@@ -128,7 +129,7 @@ habitante de Maresá!
 
 Hasta Adulán marchará
 
-la gloria de Israel*!
+la gloria de Israel<span class="note-ref" data-ref="mi-1-15" title="Ver comentario">&#42;</span>!
 
 <sup>16</sup> ¡Córtate el pelo y aféitate
 
@@ -151,7 +152,7 @@ porque acaparan el poder!
 
 casas, y las usurpan;
 
-atropellan* al hombre y a su casa,
+atropellan<span class="note-ref" data-ref="mi-2-2" title="Ver comentario">&#42;</span> al hombre y a su casa,
 
 al individuo y a su heredad.
 
@@ -177,18 +178,18 @@ han vendido la herencia de mi pueblo,
 
 y no me la devuelven;
 
-los invasores se rifan nuestros campos*!»
+los invasores se rifan nuestros campos<span class="note-ref" data-ref="mi-2-4" title="Ver comentario">&#42;</span>!»
 
 <sup>5</sup> Pues bien: no tendréis a nadie
 
 que reparta suertes
 
-en la asamblea de Yahvé*.
+en la asamblea de Yahvé<span class="note-ref" data-ref="mi-2-5" title="Ver comentario">&#42;</span>.
 
-## El profeta de desgracias*.
+## El profeta de desgracias<span class="note-ref" data-ref="mi-2-6-a" title="Ver comentario">&#42;</span>.
 <sup>6</sup> «¡No farfulléis —farfullan ellos—;
 
-que no farfullen de esa manera*!
+que no farfullen de esa manera<span class="note-ref" data-ref="mi-2-6-b" title="Ver comentario">&#42;</span>!
 
 ¡No nos afectará la deshonra!
 
@@ -198,13 +199,13 @@ que no farfullen de esa manera*!
 
 ¿Es ése su proceder?
 
-¿No son propicias sus palabras*
+¿No son propicias sus palabras<span class="note-ref" data-ref="mi-2-7" title="Ver comentario">&#42;</span>
 
 para quien actúa correctamente?»
 
 <sup>8</sup> Sois vosotros los que os levantáis
 
-como enemigos contra mi pueblo*.
+como enemigos contra mi pueblo<span class="note-ref" data-ref="mi-2-8" title="Ver comentario">&#42;</span>.
 
 Además de la túnica
 
@@ -218,9 +219,9 @@ al regreso de la guerra.
 
 a las mujeres de mi pueblo
 
-y arrancáis a sus* niños
+y arrancáis a sus<span class="note-ref" data-ref="mi-2-9-a" title="Ver comentario">&#42;</span> niños
 
-para siempre mi honor*.
+para siempre mi honor<span class="note-ref" data-ref="mi-2-9-b" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> «¡Levantaos y marchad,
 
@@ -232,7 +233,7 @@ una hipoteca agobiante.
 
 <sup>11</sup> Si llegase un profeta
 
-urdiendo* mentiras:
+urdiendo<span class="note-ref" data-ref="mi-2-11" title="Ver comentario">&#42;</span> mentiras:
 
 «Farfullaré para ti por vino y licor»,
 
@@ -240,7 +241,7 @@ urdiendo* mentiras:
 
 digno de este pueblo.
 
-## Promesa de restauración*.
+## Promesa de restauración<span class="note-ref" data-ref="mi-2-12" title="Ver comentario">&#42;</span>.
 <sup>12</sup> Voy a reunir a todo Jacob,
 
 voy a congregar al resto de Israel;
@@ -290,7 +291,7 @@ han roto sus huesos
 
 y lo han despedazado
 
-como carne* en el caldero,
+como carne<span class="note-ref" data-ref="mi-3-3" title="Ver comentario">&#42;</span> en el caldero,
 
 como tajadas en la olla,
 
@@ -302,7 +303,7 @@ entonces les esconderá su rostro
 
 por los crímenes que cometieron.
 
-## Contra los profetas corruptos*.
+## Contra los profetas corruptos<span class="note-ref" data-ref="mi-3-5" title="Ver comentario">&#42;</span>.
 <sup>5</sup> Esto dice Yahvé contra los profetas
 
 que extravían a mi pueblo,
@@ -350,15 +351,15 @@ y dirigentes de la casa de Israel,
 
 que aborrecéis la justicia
 
-y torcéis* todo el derecho,
+y torcéis<span class="note-ref" data-ref="mi-3-9" title="Ver comentario">&#42;</span> todo el derecho,
 
 <sup>10</sup> que edificáis a Sión con sangre
 
-y a Jerusalén con crímenes*.
+y a Jerusalén con crímenes<span class="note-ref" data-ref="mi-3-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Sus jefes juzgan con soborno,
 
-sus sacerdotes enseñan* a sueldo,
+sus sacerdotes enseñan<span class="note-ref" data-ref="mi-3-11" title="Ver comentario">&#42;</span> a sueldo,
 
 sus profetas vaticinan por dinero,
 
@@ -379,7 +380,7 @@ y el monte del templo,
 un cerro agreste.
 
 ## II. Promesas a Sión
-## El reino futuro de Yahvé en Sión*.
+## El reino futuro de Yahvé en Sión<span class="note-ref" data-ref="mi-4" title="Ver comentario">&#42;</span>.
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> En días futuros,
 
 el monte del templo de Yahvé
@@ -408,7 +409,7 @@ y de Jerusalén la palabra de Yahvé.
 
 <sup>3</sup> Él juzgará entre pueblos numerosos,
 
-y arbitrará entre naciones poderosas*;
+y arbitrará entre naciones poderosas<span class="note-ref" data-ref="mi-4-3" title="Ver comentario">&#42;</span>;
 
 convertirán sus espadas en azadas,
 
@@ -434,9 +435,9 @@ pero nosotros caminamos
 
 en el nombre de Yahvé, nuestro Dios,
 
-para siempre jamás*.
+para siempre jamás<span class="note-ref" data-ref="mi-4-5" title="Ver comentario">&#42;</span>.
 
-## Reunión en Sión del rebaño disperso*.
+## Reunión en Sión del rebaño disperso<span class="note-ref" data-ref="mi-4-6" title="Ver comentario">&#42;</span>.
 <sup>6</sup> Aquel día —oráculo de Yahvé—
 
 yo recogeré a la (oveja) coja,
@@ -457,7 +458,7 @@ desde ahora y para siempre.
 
 <sup>8</sup> Y tú, torre del rebaño,
 
-colina de la hija de Sión*,
+colina de la hija de Sión<span class="note-ref" data-ref="mi-4-8" title="Ver comentario">&#42;</span>,
 
 recobrarás la soberanía de antaño,
 
@@ -465,7 +466,7 @@ la realeza volverá
 
 a la hija de Jerusalén.
 
-## Asedio, destierro y liberación de Sión*.
+## Asedio, destierro y liberación de Sión<span class="note-ref" data-ref="mi-4-9" title="Ver comentario">&#42;</span>.
 <sup>9</sup> Y ahora, ¿por qué gritas tanto?
 
 ¿Es que no tienes rey,
@@ -474,7 +475,7 @@ o ha perecido tu consejero,
 
 que tienes convulsiones como parturienta?
 
-<sup>10</sup> ¡Retuércete y grita*,
+<sup>10</sup> ¡Retuércete y grita<span class="note-ref" data-ref="mi-4-10" title="Ver comentario">&#42;</span>,
 
 hija de Sión, como parturienta,
 
@@ -490,7 +491,7 @@ allí te rescatará Yahvé
 
 de la mano de tus enemigos.
 
-## Las naciones trilladas en la era*.
+## Las naciones trilladas en la era<span class="note-ref" data-ref="mi-4-11" title="Ver comentario">&#42;</span>.
 <sup>11</sup> Ahora se reúnen contra ti
 
 numerosas naciones,
@@ -521,7 +522,7 @@ consagrarás a Yahvé su botín,
 
 y su riqueza al Señor de toda la tierra.
 
-## Decadencia y gloria de la dinastía de David*.
+## Decadencia y gloria de la dinastía de David<span class="note-ref" data-ref="mi-4-14" title="Ver comentario">&#42;</span>.
 <sup>14</sup> ¡Y ahora se reúnen en cuadrillas,
 
 nos estrechan el cerco,
@@ -532,7 +533,7 @@ del juez de Israel!
 
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> En cuanto a ti, Belén Efratá,
 
-la menor* entre los clanes de Judá,
+la menor<span class="note-ref" data-ref="mi-5-1-a" title="Ver comentario">&#42;</span> entre los clanes de Judá,
 
 de ti sacaré al que ha de ser
 
@@ -540,11 +541,11 @@ el gobernador de Israel;
 
 sus orígenes son antiguos,
 
-desde tiempos remotos*.
+desde tiempos remotos<span class="note-ref" data-ref="mi-5-1-b" title="Ver comentario">&#42;</span>.
 
-<sup>2</sup> Por eso, él* los abandonará hasta el momento
+<sup>2</sup> Por eso, él<span class="note-ref" data-ref="mi-5-2-a" title="Ver comentario">&#42;</span> los abandonará hasta el momento
 
-en que la parturienta* dé a luz
+en que la parturienta<span class="note-ref" data-ref="mi-5-2-b" title="Ver comentario">&#42;</span> dé a luz
 
 y el resto de sus hermanos vuelva
 
@@ -562,12 +563,12 @@ porque entonces él crecerá
 
 hasta los confines de la tierra.
 
-## El vencedor futuro de Asiria*.
+## El vencedor futuro de Asiria<span class="note-ref" data-ref="mi-5-4-a" title="Ver comentario">&#42;</span>.
 <sup>4</sup> Él será la paz.
 
 Cuando Asiria invada nuestra tierra,
 
-y pise nuestro suelo*,
+y pise nuestro suelo<span class="note-ref" data-ref="mi-5-4-b" title="Ver comentario">&#42;</span>,
 
 le opondremos siete pastores
 
@@ -577,7 +578,7 @@ y ocho capitanes.
 
 a Asiria con la espada,
 
-y al país de Nemrod con el acero*.
+y al país de Nemrod con el acero<span class="note-ref" data-ref="mi-5-5" title="Ver comentario">&#42;</span>.
 
 Él nos librará de Asiria,
 
@@ -585,7 +586,7 @@ cuando invada nuestra tierra,
 
 y pise nuestro territorio.
 
-## Papel futuro del Resto entre las naciones*.
+## Papel futuro del Resto entre las naciones<span class="note-ref" data-ref="mi-5-6" title="Ver comentario">&#42;</span>.
 <sup>6</sup> El resto de Jacob será
 
 en medio de pueblos numerosos
@@ -610,7 +611,7 @@ que si pasa, pisotea y desgarra,
 
 y no hay quien defienda.
 
-## Yahvé suprimirá todos los peligros*.
+## Yahvé suprimirá todos los peligros<span class="note-ref" data-ref="mi-5-8" title="Ver comentario">&#42;</span>.
 <sup>8</sup> ¡Levanta tu mano contra tus adversarios
 
 y que todos tus enemigos sean eliminados!
@@ -643,7 +644,7 @@ ante la obra de tus manos;
 
 tus postes sagrados
 
-y destruiré tus ídolos*.
+y destruiré tus ídolos<span class="note-ref" data-ref="mi-5-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> ¡Con cólera y furor me vengaré
 
@@ -651,18 +652,18 @@ de las naciones que no escucharon!
 
 ## III. Nuevo proceso de Israel
 # REPROCHES Y AMENAZAS
-## Yahvé pleitea con su pueblo*.
+## Yahvé pleitea con su pueblo<span class="note-ref" data-ref="mi-6" title="Ver comentario">&#42;</span>.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Escuchad lo que dice Yahvé:
 
 «¡Levántate,
 
 llama a juicio a los montes
 
-y que las colinas escuchen tu voz*!»
+y que las colinas escuchen tu voz<span class="note-ref" data-ref="mi-6-1" title="Ver comentario">&#42;</span>!»
 
 <sup>2</sup> Escuchad, montes, el juicio de Yahvé,
 
-prestad oído*, cimientos de la tierra,
+prestad oído<span class="note-ref" data-ref="mi-6-2" title="Ver comentario">&#42;</span>, cimientos de la tierra,
 
 pues Yahvé entabla juicio
 
@@ -674,7 +675,7 @@ se querella contra Israel:
 
 ¿En qué te he molestado?
 
-## Respóndeme*.
+## Respóndeme<span class="note-ref" data-ref="mi-6-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Pues yo te saqué del país de Egipto,
 
@@ -696,7 +697,7 @@ hijo de Beor,
 
 ...desde Sitín hasta Guilgal,
 
-para que comprendas la justicia de Yahvé*.»
+para que comprendas la justicia de Yahvé<span class="note-ref" data-ref="mi-6-5" title="Ver comentario">&#42;</span>.»
 
  <sup>6</sup> —«¿Con qué me presentaré ante Yahvé
 
@@ -712,9 +713,9 @@ miríadas de ríos de aceite?
 
 ¿Ofreceré mi primogénito por mi delito,
 
-el fruto de mis entrañas por mi propio pecado*?»
+el fruto de mis entrañas por mi propio pecado<span class="note-ref" data-ref="mi-6-7" title="Ver comentario">&#42;</span>?»
 
- <sup>8</sup> —«Se te ha hecho saber*,
+ <sup>8</sup> —«Se te ha hecho saber<span class="note-ref" data-ref="mi-6-8" title="Ver comentario">&#42;</span>,
 
 hombre, lo que es bueno,
 
@@ -733,7 +734,7 @@ con tu Dios.»
 
 ¡Escuchad,
 
-tribu y consejo de la ciudad*!
+tribu y consejo de la ciudad<span class="note-ref" data-ref="mi-6-9" title="Ver comentario">&#42;</span>!
 
 <sup>10</sup> ¿Tengo que soportar
 
@@ -743,23 +744,23 @@ con riquezas injustas
 
 y una medida escasa e indignante?
 
-<sup>11</sup> ¿Daré por justa* la balanza tramposa
+<sup>11</sup> ¿Daré por justa<span class="note-ref" data-ref="mi-6-11" title="Ver comentario">&#42;</span> la balanza tramposa
 
 y la bolsa de pesas fraudulentas?
 
-<sup>12</sup> *¡Sus ricos están llenos de violencia,
+<sup>12</sup> <span class="note-ref" data-ref="mi-6-12" title="Ver comentario">&#42;</span>¡Sus ricos están llenos de violencia,
 
 sus habitantes dicen falsedades
 
 y tienen lenguas mentirosas!
 
-<sup>13</sup> Pues ahora yo comienzo* a herirte,
+<sup>13</sup> Pues ahora yo comienzo<span class="note-ref" data-ref="mi-6-13" title="Ver comentario">&#42;</span> a herirte,
 
 a devainicioe por tus pecados.
 
 <sup>14</sup> Comerás, pero no te saciarás,
 
-el hambre* devorará tus entrañas.
+el hambre<span class="note-ref" data-ref="mi-6-14" title="Ver comentario">&#42;</span> devorará tus entrañas.
 
 Guardarás, pero no salvarás,
 
@@ -786,7 +787,7 @@ y a tus habitantes en rechifla,
 
 y tengáis que soportar
 
-la humillación de mi pueblo*.
+la humillación de mi pueblo<span class="note-ref" data-ref="mi-6-16" title="Ver comentario">&#42;</span>.
 
 ## La injusticia generalizada.
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> ¡Ay de mí, que me parezco
@@ -795,7 +796,7 @@ a las recolecciones de verano,
 
 a las rebuscas de la vendimia!
 
-¡Ni un racimo que comer*,
+¡Ni un racimo que comer<span class="note-ref" data-ref="mi-7-1" title="Ver comentario">&#42;</span>,
 
 ni una breva de las que me gustan!
 
@@ -807,7 +808,7 @@ Todos planean asesinatos,
 
 cada cual tiende trampas a su hermano.
 
-<sup>3</sup> Adiestran sus manos para el mal*:
+<sup>3</sup> Adiestran sus manos para el mal<span class="note-ref" data-ref="mi-7-3" title="Ver comentario">&#42;</span>:
 
 el príncipe impone exigencias,
 
@@ -825,7 +826,7 @@ su rectitud como un espino.
 
 y de su inspección ha llegado!
 
-¡Ahora vendrá su desgracia*!
+¡Ahora vendrá su desgracia<span class="note-ref" data-ref="mi-7-4" title="Ver comentario">&#42;</span>!
 
 <sup>5</sup> ¡No os fiéis del compañero,
 
@@ -849,10 +850,10 @@ son los de su casa.
 
 espero en el Dios de mi salvación:
 
-mi Dios me escuchará*.
+mi Dios me escuchará<span class="note-ref" data-ref="mi-7-7" title="Ver comentario">&#42;</span>.
 
 ## IV. Esperanzas
-## Sión bajo los insultos de su enemiga*.
+## Sión bajo los insultos de su enemiga<span class="note-ref" data-ref="mi-7-8" title="Ver comentario">&#42;</span>.
 <sup>8</sup> No te alegres por mí, enemiga mía,
 
 pues aunque caí, me levantaré,
@@ -887,7 +888,7 @@ cuando sea pisoteada
 
 como el fango de las calles!
 
-## Oráculo de restauración*.
+## Oráculo de restauración<span class="note-ref" data-ref="mi-7-11" title="Ver comentario">&#42;</span>.
 <sup>11</sup> ¡Llega el día de reedificar tus muros!
 
 ¡El día de ensanchar tus fronteras,
@@ -898,13 +899,13 @@ desde Asiria hasta Egipto,
 
 desde Egipto hasta el Río,
 
-de mar a mar, de monte a monte*!
+de mar a mar, de monte a monte<span class="note-ref" data-ref="mi-7-12" title="Ver comentario">&#42;</span>!
 
 <sup>13</sup> Y el país quedará desolado
 
 por culpa de sus habitantes,
 
-en pago por su conducta*.
+en pago por su conducta<span class="note-ref" data-ref="mi-7-13" title="Ver comentario">&#42;</span>.
 
 ## Oración contra las naciones.
 <sup>14</sup> Apacienta a tu pueblo con tu cayado,
@@ -913,7 +914,7 @@ el rebaño de tu heredad,
 
 que vive solitario en el bosque,
 
-en medio del Carmelo*.
+en medio del Carmelo<span class="note-ref" data-ref="mi-7-14" title="Ver comentario">&#42;</span>.
 
 Que pasten en Basán y en Galaad
 
@@ -921,7 +922,7 @@ como en los tiempos antiguos.
 
 <sup>15</sup> Como cuando saliste del país de Egipto,
 
-haznos ver* prodigios.
+haznos ver<span class="note-ref" data-ref="mi-7-15" title="Ver comentario">&#42;</span> prodigios.
 
 <sup>16</sup> Lo verán las naciones
 
@@ -943,7 +944,7 @@ vendrán temblando hacia Yahvé nuestro Dios,
 
 y tendrán miedo de ti!
 
-## Llamada al perdón de Dios*.
+## Llamada al perdón de Dios<span class="note-ref" data-ref="mi-7-18" title="Ver comentario">&#42;</span>.
 <sup>18</sup> ¿Qué Dios hay como tú,
 
 que perdone el pecado
@@ -960,7 +961,7 @@ destruirá nuestras culpas
 
 y arrojará al fondo del mar
 
-todos nuestros pecados*!
+todos nuestros pecados<span class="note-ref" data-ref="mi-7-19" title="Ver comentario">&#42;</span>!
 
 <sup>20</sup> Y mantendrás tu fidelidad a Jacob
 
@@ -968,4 +969,4 @@ y tu amor a Abrahán,
 
 como juraste a nuestros antepasados,
 
-desde los días de antaño*.
+desde los días de antaño<span class="note-ref" data-ref="mi-7-20" title="Ver comentario">&#42;</span>.

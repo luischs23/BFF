@@ -3,7 +3,8 @@ title: 'Sofonías'
 description: 'Libro del Profeta Sofonías'
 img: blog-placeholder-4.jpg
 ---
-# SOFONÍAS
+## SOFONÍAS
+
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabra de Yahvé dirigida a Sofonías, hijo de Cusí, hijo de Godolías,
 
 hijo de Amarías, hijo de Ezequías, en tiempo de Josías, hijo de Amón, rey de Judá.
@@ -20,7 +21,7 @@ sobre la faz de la tierra!
 
 aventaré aves del cielo y peces del mar,
 
-haré tropezar* a los impíos;
+haré tropezar<span class="note-ref" data-ref="so-1-3" title="Ver comentario">&#42;</span> a los impíos;
 
 extirparé a los hombres de la faz de la tierra
 
@@ -35,15 +36,15 @@ y extirparé de este lugar
 
 lo que queda de Baal,
 
-el nombre de ministros* y sacerdotes,
+el nombre de ministros<span class="note-ref" data-ref="so-1-4" title="Ver comentario">&#42;</span> y sacerdotes,
 
 <sup>5</sup> los que se postran en los terrados
 
 ante el ejército del cielo,
 
-los que se postran* ante Yahvé
+los que se postran<span class="note-ref" data-ref="so-1-5-a" title="Ver comentario">&#42;</span> ante Yahvé
 
-y juran por Milcón*,
+y juran por Milcón<span class="note-ref" data-ref="so-1-5-b" title="Ver comentario">&#42;</span>,
 
 <sup>6</sup> los que no siguen a Yahvé,
 
@@ -57,9 +58,9 @@ que está cerca el Día de Yahvé!
 
 Yahvé ha preparado un sacrificio,
 
-ha consagrado a sus invitados*.
+ha consagrado a sus invitados<span class="note-ref" data-ref="so-1-7" title="Ver comentario">&#42;</span>.
 
-## Contra los altos dignatarios de la corte*.
+## Contra los altos dignatarios de la corte<span class="note-ref" data-ref="so-1-8" title="Ver comentario">&#42;</span>.
 <sup>8</sup> El día del sacrificio de Yahvé
 
 yo visitaré a los príncipes,
@@ -76,7 +77,7 @@ a todos los que saltan el umbral,
 
 los que llenan la casa de su señor
 
-de violencia y de fraude*.
+de violencia y de fraude<span class="note-ref" data-ref="so-1-9" title="Ver comentario">&#42;</span>.
 
 ## Contra los comerciantes de Jerusalén.
 <sup>10</sup> Aquel día habrá —oráculo de Yahvé—
@@ -91,7 +92,7 @@ desastre sonado en las colinas.
 
 que han sido aniquilados los mercaderes,
 
-exterminados los que pesan la plata*!
+exterminados los que pesan la plata<span class="note-ref" data-ref="so-1-11" title="Ver comentario">&#42;</span>!
 
 ## Contra los incrédulos.
 <sup>12</sup> Sucederá en el tiempo aquel
@@ -100,7 +101,7 @@ que escrutaré a Jerusalén con lámparas,
 
 pediré cuentas a los hombres
 
-que se apelmazan en sus heces*,
+que se apelmazan en sus heces<span class="note-ref" data-ref="so-1-12" title="Ver comentario">&#42;</span>,
 
 los que dicen en su interior:
 
@@ -114,14 +115,14 @@ casas construyeron, mas no las habitarán,
 
 viñas plantaron, mas no beberán su vino.
 
-## El Día de Yahvé *.
+## El Día de Yahvé <span class="note-ref" data-ref="so-1-14-a" title="Ver comentario">&#42;</span>.
 <sup>14</sup> ¡Se acerca el gran Día de Yahvé,
 
 se acerca, viene a toda prisa!
 
 ¡Amargo el vocerío del día de Yahvé,
 
-entonces gritará hasta el soldado*!
+entonces gritará hasta el soldado<span class="note-ref" data-ref="so-1-14-b" title="Ver comentario">&#42;</span>!
 
 <sup>15</sup> Aquel día será día de ira,
 
@@ -163,12 +164,12 @@ pues acabará de forma terrorífica
 
 con todos los habitantes de la tierra.
 
-## Conclusión. Exhortación a la conversión*.
-<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Reuníos, congregaos*,
+## Conclusión. Exhortación a la conversión<span class="note-ref" data-ref="so-2" title="Ver comentario">&#42;</span>.
+<span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Reuníos, congregaos<span class="note-ref" data-ref="so-2-1" title="Ver comentario">&#42;</span>,
 
 gente sin vergüenza,
 
-<sup>2</sup> antes que seáis aventados*
+<sup>2</sup> antes que seáis aventados<span class="note-ref" data-ref="so-2-2" title="Ver comentario">&#42;</span>
 
 como el tamo que en un día pasa;
 
@@ -182,7 +183,7 @@ el Día de la ira de Yahvé).
 
 <sup>3</sup> Buscad a Yahvé,
 
-vosotros, humildes de la tierra*,
+vosotros, humildes de la tierra<span class="note-ref" data-ref="so-2-3" title="Ver comentario">&#42;</span>,
 
 que cumplís sus mandatos;
 
@@ -195,7 +196,7 @@ quizá encontréis cobijo
 el Día de la ira de Yahvé.
 
 ## II. Contra las naciones
-## El enemigo por occidente: los filisteos *.
+## El enemigo por occidente: los filisteos <span class="note-ref" data-ref="so-2-4" title="Ver comentario">&#42;</span>.
 <sup>4</sup> Gaza quedará desamparada,
 
 Ascalón desolada,
@@ -249,7 +250,7 @@ Dios de Israel—
 
 que Moab quedará como Sodoma,
 
-los habitantes de Amón como Gomorra*:
+los habitantes de Amón como Gomorra<span class="note-ref" data-ref="so-2-9" title="Ver comentario">&#42;</span>:
 
 cardizal y mina de sal,
 
@@ -275,14 +276,14 @@ y se postren ante él,
 
 cada una en su lugar,
 
-todas las islas de los paganos*.
+todas las islas de los paganos<span class="note-ref" data-ref="so-2-11" title="Ver comentario">&#42;</span>.
 
-## El enemigo por el sur: Cus*.
+## El enemigo por el sur: Cus<span class="note-ref" data-ref="so-2-12" title="Ver comentario">&#42;</span>.
 <sup>12</sup> También vosotros, nubios:
 
 «Seréis atravesados por mi espada».
 
-## El enemigo por el norte: Asiria*.
+## El enemigo por el norte: Asiria<span class="note-ref" data-ref="so-2-13" title="Ver comentario">&#42;</span>.
 <sup>13</sup> Extenderá su mano contra el norte,
 
 destruirá a Asiria,
@@ -303,7 +304,7 @@ El búho ululará en la ventana,
 
 graznará el cuervo en el umbral,
 
-porque el cedro fue arrancado*.
+porque el cedro fue arrancado<span class="note-ref" data-ref="so-2-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Así quedará la ciudad bulliciosa,
 
@@ -378,7 +379,7 @@ no quedan hombres ni habitantes.
 
 sabrá aceptar la corrección;
 
-no podrá apartar de sus ojos*
+no podrá apartar de sus ojos<span class="note-ref" data-ref="so-3-7" title="Ver comentario">&#42;</span>
 
 todo lo que la he castigado.»
 
@@ -400,7 +401,7 @@ todo el ardor de mi cólera.
 
 (Porque el fuego de mi celo
 
-devorará la tierra entera*.)
+devorará la tierra entera<span class="note-ref" data-ref="so-3-8" title="Ver comentario">&#42;</span>.)
 
 ## IV.   Promesas
 ## Conversión de los pueblos.
@@ -408,15 +409,15 @@ devorará la tierra entera*.)
 
 para que invoquen todos el nombre de Yahvé,
 
-y le sirvan bajo un mismo yugo*.
+y le sirvan bajo un mismo yugo<span class="note-ref" data-ref="so-3-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Desde allende los ríos de Etiopía,
 
-mis suplicantes, mi Dispersión*,
+mis suplicantes, mi Dispersión<span class="note-ref" data-ref="so-3-10" title="Ver comentario">&#42;</span>,
 
 vendrán a mí con ofrendas.
 
-## El humilde Resto de Israel *.
+## El humilde Resto de Israel <span class="note-ref" data-ref="so-3-11" title="Ver comentario">&#42;</span>.
 <sup>11</sup> Aquel día no tendrás que avergonzarte
 
 de los delitos cometidos contra mí;
@@ -449,7 +450,7 @@ Se apacentarán y reposarán,
 
 sin que nadie los espante.
 
-## Salmos de júbilo a Sión*.
+## Salmos de júbilo a Sión<span class="note-ref" data-ref="so-3-14" title="Ver comentario">&#42;</span>.
 <sup>14</sup> ¡Grita alborozada, Sión,
 
 lanza clamores, Israel,
@@ -478,38 +479,38 @@ no desfallezcan tus manos!
 
 Exulta de gozo por ti,
 
-te renueva* con su amor;
+te renueva<span class="note-ref" data-ref="so-3-17" title="Ver comentario">&#42;</span> con su amor;
 
 danza por ti con gritos de júbilo,
 
-<sup>18</sup> como en los días de fiesta*.
+<sup>18</sup> como en los días de fiesta<span class="note-ref" data-ref="so-3-18-a" title="Ver comentario">&#42;</span>.
 
-## Vuelta de los dispersos*.
+## Vuelta de los dispersos<span class="note-ref" data-ref="so-3-18-b" title="Ver comentario">&#42;</span>.
 Apartaré de tu lado la desgracia,
 
-el oprobio que pesa sobre ti*.
+el oprobio que pesa sobre ti<span class="note-ref" data-ref="so-3-18-c" title="Ver comentario">&#42;</span>.
 
-<sup>19</sup> Voy a condenar al exterminio*
+<sup>19</sup> Voy a condenar al exterminio<span class="note-ref" data-ref="so-3-19-a" title="Ver comentario">&#42;</span>
 
 a todos tus opresores;
 
 salvaré a la coja,
 
-reuniré a la descarriada*,
+reuniré a la descarriada<span class="note-ref" data-ref="so-3-19-b" title="Ver comentario">&#42;</span>,
 
 les daré fama y renombre
 
-en la tierra donde fueron humilladas*.
+en la tierra donde fueron humilladas<span class="note-ref" data-ref="so-3-19-c" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> En aquel tiempo os traeré,
 
-en aquel tiempo* os congregaré.
+en aquel tiempo<span class="note-ref" data-ref="so-3-20-a" title="Ver comentario">&#42;</span> os congregaré.
 
 Entonces os daré renombre y fama
 
 entre todos los pueblos de la tierra,
 
-cuando restaure vuestra suerte*
+cuando restaure vuestra suerte<span class="note-ref" data-ref="so-3-20-b" title="Ver comentario">&#42;</span>
 
 ante vuestros propios ojos,
 
