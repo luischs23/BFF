@@ -29,5 +29,59 @@ import Layout from '../layouts/Layout.astro';
 				Administrar
 			</a>
 		</div>
+
+		<!-- Botón instalar PWA -->
+		<button
+			id="installBtn"
+			class="hidden mt-8 px-8 py-4 bg-green-700 text-white rounded-lg hover:bg-green-800 transition text-lg font-semibold"
+		>
+			📲 Instalar app
+		</button>
+
+		<!-- Modal instrucciones iOS -->
+		<div id="iosModal" class="hidden fixed inset-0 bg-black/60 z-50 items-end justify-center p-4">
+			<div class="bg-white dark:bg-gray-800 rounded-2xl p-6 max-w-sm w-full text-center shadow-xl">
+				<p class="text-lg font-semibold mb-3 text-gray-800 dark:text-gray-100">Instalar en iPhone / iPad</p>
+				<p class="text-gray-600 dark:text-gray-300 mb-1">1. Toca el botón <strong>Compartir</strong> <span class="text-xl">⬆</span> del navegador</p>
+				<p class="text-gray-600 dark:text-gray-300 mb-4">2. Selecciona <strong>"Agregar a inicio"</strong></p>
+				<button id="iosModalClose" class="px-6 py-2 bg-amber-700 text-white rounded-lg font-semibold">Entendido</button>
+			</div>
+		</div>
 	</main>
 </Layout>
+
+<script>
+	const installBtn = document.getElementById('installBtn')!;
+	const iosModal = document.getElementById('iosModal')!;
+	const iosModalClose = document.getElementById('iosModalClose')!;
+
+	// Detectar iOS
+	const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) && !(window as any).MSStream;
+	const isInStandaloneMode = (navigator as any).standalone === true;
+
+	if (isIOS && !isInStandaloneMode) {
+		installBtn.classList.remove('hidden');
+		installBtn.addEventListener('click', () => { iosModal.style.display = 'flex'; });
+		iosModalClose.addEventListener('click', () => { iosModal.style.display = 'none'; });
+		iosModal.addEventListener('click', (e) => { if (e.target === iosModal) iosModal.style.display = 'none'; });
+	}
+
+	// Android / Chrome: capturar el evento beforeinstallprompt
+	let deferredPrompt: any = null;
+	window.addEventListener('beforeinstallprompt', (e) => {
+		e.preventDefault();
+		deferredPrompt = e;
+		installBtn.classList.remove('hidden');
+	});
+
+	installBtn.addEventListener('click', async () => {
+		if (!deferredPrompt) return;
+		deferredPrompt.prompt();
+		const { outcome } = await deferredPrompt.userChoice;
+		if (outcome === 'accepted') installBtn.classList.add('hidden');
+		deferredPrompt = null;
+	});
+
+	// Ocultar si ya está instalada
+	window.addEventListener('appinstalled', () => installBtn.classList.add('hidden'));
+</script>

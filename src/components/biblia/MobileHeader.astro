@@ -5,7 +5,11 @@ interface Props {
 	title: string;
 }
 
-const { title } = Astro.props;
+const SHORT_TITLES: Record<string, string> = {
+	'Hechos de los Apóstoles': 'H. Apóstoles',
+};
+const { title: rawTitle } = Astro.props;
+const title = SHORT_TITLES[rawTitle] ?? rawTitle;
 ---
 
 <header

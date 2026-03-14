@@ -209,6 +209,23 @@ function parseParallelsFile(content: string, bookAbbrev: string): Map<string, Pa
   return parallelsMap;
 }
 
+// Alias para abreviaturas no estándar → canónicas
+const BOOK_ABBREV_ALIASES: Record<string, string> = {
+  '1Tim': '1Tm', '2Tim': '2Tm',
+  '1Cor': '1Co', '2Cor': '2Co',
+  '1Tes': '1Ts', '2Tes': '2Ts',
+  '1Cro': '1Cro', '2Cro': '2Cro',
+  '1Ped': '1P', '2Ped': '2P',
+  '1Jua': '1Jn', '2Jua': '2Jn', '3Jua': '3Jn',
+  '1Mac': '1M', '2Mac': '2M',
+  '1Sam': '1S', '2Sam': '2S',
+  '1Rey': '1R', '2Rey': '2R',
+};
+
+function resolveAbbrev(raw: string): string {
+  return BOOK_ABBREV_ALIASES[raw] ?? raw;
+}
+
 // Parsear una referencia individual de paralelo
 function parseParallelReference(ref: string, currentChapter: string, currentBookAbbrev: string): ParallelRef | null {
   const isNT = ref.startsWith('↑');
@@ -224,7 +241,7 @@ function parseParallelReference(ref: string, currentChapter: string, currentBook
   // Intentar extraer abreviatura de libro (puede ser "1 Co", "2 R", etc.)
   const bookMatch = cleanRef.match(/^(\d?\s*[A-Za-z]+)\s+(.*)$/);
   if (bookMatch) {
-    const possibleAbbrev = bookMatch[1].replace(/\s+/g, '');
+    const possibleAbbrev = resolveAbbrev(bookMatch[1].replace(/\s+/g, ''));
     // Verificar si es una abreviatura válida
     if (BOOK_ABBREVS.has(possibleAbbrev)) {
       bookAbbrev = possibleAbbrev;
@@ -233,7 +250,7 @@ function parseParallelReference(ref: string, currentChapter: string, currentBook
       // Intentar con el formato "1 Co" -> "1Co"
       const numMatch = cleanRef.match(/^(\d)\s+([A-Za-z]+)\s+(.*)$/);
       if (numMatch) {
-        const combined = numMatch[1] + numMatch[2];
+        const combined = resolveAbbrev(numMatch[1] + numMatch[2]);
         if (BOOK_ABBREVS.has(combined)) {
           bookAbbrev = combined;
           restRef = numMatch[3];
