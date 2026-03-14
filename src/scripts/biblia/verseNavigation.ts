@@ -13,77 +13,48 @@ function scrollToVerseFromHash(): void {
 	const match = hash.match(/^#chapter-(\d+)(?:-verse-(\d+))?$/);
 	if (!match) return;
 
-	const targetChapter = match[1];
-	const targetVerse = match[2];
+	const targetChapter = parseInt(match[1]);
+	const targetVerse = match[2] ? parseInt(match[2]) : null;
 
-	// Primero, scroll al capítulo (el ancla ya existe)
 	const chapterElement = document.getElementById(`chapter-${targetChapter}`);
-	if (chapterElement) {
-		// Si hay versículo específico, buscar el <sup> con ese número
-		if (targetVerse) {
-			// Esperar un momento para que el DOM esté listo
-			setTimeout(() => {
-				// Buscar todos los sup después del chapter-marker
-				const allSups = document.querySelectorAll('.bible-content sup');
-				let foundVerse = false;
-				let currentChapterNum = 0;
+	if (!chapterElement) return;
 
-				for (const sup of allSups) {
-					// Verificar si es un chapter-marker cercano
-					const prevMarker = sup.parentElement?.querySelector('.chapter-marker') as HTMLElement;
-					if (prevMarker) {
-						currentChapterNum = parseInt(prevMarker.getAttribute('data-chapter') || '0');
-					}
-
-					// Buscar el chapter-marker más cercano hacia atrás
-					let parent = sup.parentElement;
-					while (parent && !foundVerse) {
-						const marker = parent.querySelector('.chapter-marker') as HTMLElement;
-						if (marker) {
-							currentChapterNum = parseInt(marker.getAttribute('data-chapter') || '0');
-							break;
-						}
-						let prevEl = parent.previousElementSibling;
-						while (prevEl) {
-							const m = prevEl.querySelector?.('.chapter-marker') as HTMLElement;
-							if (m) {
-								currentChapterNum = parseInt(m.getAttribute('data-chapter') || '0');
-								break;
-							}
-							if (prevEl.classList?.contains('chapter-marker')) {
-								currentChapterNum = parseInt((prevEl as HTMLElement).getAttribute('data-chapter') || '0');
-								break;
-							}
-							prevEl = prevEl.previousElementSibling;
-						}
-						parent = parent.parentElement;
-					}
-
-					// Verificar si es el versículo que buscamos
-					const verseText = sup.textContent?.trim();
-					const verseNum = parseInt(verseText || '0');
-
-					if (currentChapterNum === parseInt(targetChapter) && verseNum === parseInt(targetVerse)) {
-						// Encontrado - hacer scroll con un pequeño offset
-						sup.scrollIntoView({ behavior: 'smooth', block: 'center' });
-						// Resaltar brevemente el versículo
-						sup.classList.add('verse-highlight');
-						setTimeout(() => sup.classList.remove('verse-highlight'), 2000);
-						foundVerse = true;
-						break;
-					}
-				}
-
-				// Si no encontramos el versículo, al menos scroll al capítulo
-				if (!foundVerse) {
-					chapterElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-				}
-			}, 500);
-		} else {
-			// Solo capítulo, scroll directo
-			setTimeout(() => {
-				chapterElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-			}, 300);
-		}
+	if (!targetVerse) {
+		setTimeout(() => {
+			chapterElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		}, 300);
+		return;
 	}
+
+	setTimeout(() => {
+		// Obtener marcadores de capítulo y <sup> en orden de documento
+		const allElements = Array.from(
+			document.querySelectorAll('.bible-content .chapter-marker, .bible-content sup')
+		);
+
+		let currentChapterNum = 0;
+		let foundVerse = false;
+
+		for (const el of allElements) {
+			if (el.classList.contains('chapter-marker')) {
+				currentChapterNum = parseInt((el as HTMLElement).getAttribute('data-chapter') || '0');
+				continue;
+			}
+
+			if (currentChapterNum !== targetChapter) continue;
+
+			const verseNum = parseInt(el.textContent?.trim() || '0');
+			if (verseNum === targetVerse) {
+				el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+				el.classList.add('verse-highlight');
+				setTimeout(() => el.classList.remove('verse-highlight'), 2000);
+				foundVerse = true;
+				break;
+			}
+		}
+
+		if (!foundVerse) {
+			chapterElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		}
+	}, 500);
 }

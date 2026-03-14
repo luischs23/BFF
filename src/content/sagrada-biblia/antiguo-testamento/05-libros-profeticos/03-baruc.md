@@ -5,12 +5,12 @@ img: blog-placeholder-4.jpg
 ---
 # BARUC
 ## Introducción
-### Baruc y la asamblea de los judíos en Babilonia*.
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Éste es el texto del libro que Baruc, hijo de Nerías, hijo de Maasías, hijo de Sedecías, hijo de Asadías, hijo de Jelcías, escribió en Babilonia, <sup>2</sup> el año quinto*, el día siete del mes en que los caldeos conquistaron e incendiaron Jerusalén.
+### Baruc y la asamblea de los judíos en Babilonia<span class="note-ref" data-ref="ba-1" title="Ver comentario">&#42;</span>.
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Éste es el texto del libro que Baruc, hijo de Nerías, hijo de Maasías, hijo de Sedecías, hijo de Asadías, hijo de Jelcías, escribió en Babilonia, <sup>2</sup> el año quinto<span class="note-ref" data-ref="ba-1-2" title="Ver comentario">&#42;</span>, el día siete del mes en que los caldeos conquistaron e incendiaron Jerusalén.
 
-<sup>3</sup> Baruc leyó el texto de este libro ante Jeconías, hijo de Joaquín, rey de Judá, y ante todo el pueblo congregado para escuchar el libro; <sup>4</sup> ante los dignatarios y los hijos del rey*, ante los ancianos y ante todo el pueblo, desde el menor al mayor, todos los que vivían en Babilonia, a orillas del río Sud. <sup>5</sup> Todos lloraron, ayunaron y suplicaron al Señor. <sup>6</sup> Luego hicieron una colecta, según las posibilidades de cada uno, <sup>7</sup> y la enviaron a Jerusalén, al sacerdote Joaquín*, hijo de Jelcías, hijo de Salún, a los demás sacerdotes y a toda la gente que vivía con él en Jerusalén. <sup>8</sup> Ya Baruc, el día diez del mes de Siván, había recuperado los utensilios robados del templo del Señor, con el fin de restituirlos* a Judá. Se trataba de los objetos de plata que había mandado hacer Sedecías, hijo de Josías, rey de Judá, <sup>9</sup> después que Nabucodonosor, rey de Babilonia, deportara de Jerusalén a Babilonia a Jeconías, a los gobernantes, a los cerrajeros*, a los dignatarios y a la gente del pueblo.
+<sup>3</sup> Baruc leyó el texto de este libro ante Jeconías, hijo de Joaquín, rey de Judá, y ante todo el pueblo congregado para escuchar el libro; <sup>4</sup> ante los dignatarios y los hijos del rey<span class="note-ref" data-ref="ba-1-4" title="Ver comentario">&#42;</span>, ante los ancianos y ante todo el pueblo, desde el menor al mayor, todos los que vivían en Babilonia, a orillas del río Sud. <sup>5</sup> Todos lloraron, ayunaron y suplicaron al Señor. <sup>6</sup> Luego hicieron una colecta, según las posibilidades de cada uno, <sup>7</sup> y la enviaron a Jerusalén, al sacerdote Joaquín<span class="note-ref" data-ref="ba-1-7" title="Ver comentario">&#42;</span>, hijo de Jelcías, hijo de Salún, a los demás sacerdotes y a toda la gente que vivía con él en Jerusalén. <sup>8</sup> Ya Baruc, el día diez del mes de Siván, había recuperado los utensilios robados del templo del Señor, con el fin de restituirlos<span class="note-ref" data-ref="ba-1-8" title="Ver comentario">&#42;</span> a Judá. Se trataba de los objetos de plata que había mandado hacer Sedecías, hijo de Josías, rey de Judá, <sup>9</sup> después que Nabucodonosor, rey de Babilonia, deportara de Jerusalén a Babilonia a Jeconías, a los gobernantes, a los cerrajeros<span class="note-ref" data-ref="ba-1-9" title="Ver comentario">&#42;</span>, a los dignatarios y a la gente del pueblo.
 
-<sup>10</sup> Se les decía: Ahí os enviamos dinero; comprad con él holocaustos, víctimas expiatorias e incienso, y haced ofrendas y sacrificios sobre el altar del Señor, nuestro Dios. <sup>11</sup> Rezad por la vida de Nabucodonosor, rey de Babilonia, y por la de su hijo Baltasar, para que duren tanto como el cielo sobre la tierra. <sup>12</sup> El Señor nos dé fuerzas y nos ilumine para que vivamos protegidos por Nabucodonosor, rey de Babilonia, y por su hijo Baltasar; para que les sirvamos por mucho tiempo y gocemos de su favor. <sup>13</sup> Y rezad también por nosotros al Señor, nuestro Dios, porque hemos pecado contra Él, y todavía hoy no se han apartado de nosotros el furor y la cólera del Señor. <sup>14</sup> Leed este libro que os enviamos para su proclamación en el templo del Señor, en el día de la fiesta* y en las fechas oportunas. <sup>15</sup> Diréis:
+<sup>10</sup> Se les decía: Ahí os enviamos dinero; comprad con él holocaustos, víctimas expiatorias e incienso, y haced ofrendas y sacrificios sobre el altar del Señor, nuestro Dios. <sup>11</sup> Rezad por la vida de Nabucodonosor, rey de Babilonia, y por la de su hijo Baltasar, para que duren tanto como el cielo sobre la tierra. <sup>12</sup> El Señor nos dé fuerzas y nos ilumine para que vivamos protegidos por Nabucodonosor, rey de Babilonia, y por su hijo Baltasar; para que les sirvamos por mucho tiempo y gocemos de su favor. <sup>13</sup> Y rezad también por nosotros al Señor, nuestro Dios, porque hemos pecado contra Él, y todavía hoy no se han apartado de nosotros el furor y la cólera del Señor. <sup>14</sup> Leed este libro que os enviamos para su proclamación en el templo del Señor, en el día de la fiesta<span class="note-ref" data-ref="ba-1-14" title="Ver comentario">&#42;</span> y en las fechas oportunas. <sup>15</sup> Diréis:
 
 # I. Oración de los desterrados
 ## Confesión de los pecados.
@@ -21,13 +21,13 @@ El Señor, nuestro Dios, es justo; nosotros, en cambio, nos sentimos hoy abochor
 <sup>6</sup> El Señor, nuestro Dios, es justo; en cambio, nosotros y nuestros padres nos sentimos hoy abochornados. <sup>7</sup> Nos han sobrevenido todas las desgracias con las que el Señor nos había amenazado. <sup>8</sup> Sin embargo, nosotros no hemos pedido al Señor que nos cambiase los perversos planes de nuestra mente. <sup>9</sup> Por eso, el Señor ha estado pendiente de esas desgracias y nos las ha enviado. Porque el Señor tenía razón en todo lo que nos ordenó; <sup>10</sup> pero nosotros no hemos escuchado su voz ni hemos cumplido los mandamientos que nos dio.
 
 ## Súplica.
-<sup>11</sup> Y ahora, Señor, Dios de Israel, que sacaste a tu pueblo de Egipto con mano fuerte, entre signos y prodigios, con gran poder y brazo alzado, ganándote una fama que dura hasta hoy, <sup>12</sup> nosotros hemos pecado y hemos cometido crímenes e injusticias, Señor Dios nuestro, contra todos tus mandamientos. <sup>13</sup> Aparta de nosotros tu cólera, porque hemos quedado muy pocos en las naciones a donde tú nos dispersaste. <sup>14</sup> Escucha, Señor, nuestra oración y nuestra súplica; líbranos por tu honor y haz que ganemos el favor de los que nos deportaron, <sup>15</sup> para que conozca todo el mundo que tú eres el Señor, nuestro Dios, y que has dado tu nombre a Israel y a su descendencia. <sup>16</sup> Mira, Señor, desde tu santa morada y atiéndenos; inclina, Señor, tu oído y escucha; <sup>17</sup> abre, Señor, tus ojos y mira que no son los muertos en la tumba, cuyos cuerpos quedaron sin vida, los que dan gloria y hacen justicia al Señor, <sup>18</sup> sino los de ánimo colmado de aflicción, los que caminan encorvados y extenuados, los de ojos apagados y los de estómago hambriento*, ésos son los que te dan gloria y hacen justicia, Señor.
+<sup>11</sup> Y ahora, Señor, Dios de Israel, que sacaste a tu pueblo de Egipto con mano fuerte, entre signos y prodigios, con gran poder y brazo alzado, ganándote una fama que dura hasta hoy, <sup>12</sup> nosotros hemos pecado y hemos cometido crímenes e injusticias, Señor Dios nuestro, contra todos tus mandamientos. <sup>13</sup> Aparta de nosotros tu cólera, porque hemos quedado muy pocos en las naciones a donde tú nos dispersaste. <sup>14</sup> Escucha, Señor, nuestra oración y nuestra súplica; líbranos por tu honor y haz que ganemos el favor de los que nos deportaron, <sup>15</sup> para que conozca todo el mundo que tú eres el Señor, nuestro Dios, y que has dado tu nombre a Israel y a su descendencia. <sup>16</sup> Mira, Señor, desde tu santa morada y atiéndenos; inclina, Señor, tu oído y escucha; <sup>17</sup> abre, Señor, tus ojos y mira que no son los muertos en la tumba, cuyos cuerpos quedaron sin vida, los que dan gloria y hacen justicia al Señor, <sup>18</sup> sino los de ánimo colmado de aflicción, los que caminan encorvados y extenuados, los de ojos apagados y los de estómago hambriento<span class="note-ref" data-ref="ba-2-18" title="Ver comentario">&#42;</span>, ésos son los que te dan gloria y hacen justicia, Señor.
 
 <sup>19</sup> No nos apoyamos en los méritos de nuestros antepasados y de nuestros reyes para presentarte nuestra súplica, Señor Dios nuestro. <sup>20</sup> Porque has descargado tu furor y tu cólera sobre nosotros, como habías anunciado por medio de tus siervos, los profetas, diciendo: <sup>21</sup> «Así dice el Señor: Doblegaos y servid al rey de Babilonia, para seguir habitando la tierra que di a vuestros antepasados. <sup>22</sup> Pero si no escucháis la invitación del Señor a servir al rey de Babilonia, <sup>23</sup> yo haré callar en las ciudades de Judá y en Jerusalén las canciones alegres y bulliciosas, las canciones de novios y de novias, y todo el país quedará convertido en un desierto deshabitado.» <sup>24</sup> Pero nosotros no escuchamos tu invitación de servir al rey de Babilonia, y por eso has cumplido tus amenazas anunciadas por medio de tus siervos, los profetas: que los huesos de nuestros reyes y los huesos de nuestros antepasados serían sacados de sus sepulcros. <sup>25</sup> Y, en efecto, ahí están expuestos al calor del día y al frío de la noche, pues murieron entre espantosos sufrimientos por hambre, espada y epidemia. <sup>26</sup> Y el templo consagrado a tu nombre ha quedado reducido al estado en que hoy se encuentra, por culpa de la maldad de Israel y de Judá.
 
 <sup>27</sup> Sin embargo tú, Señor Dios nuestro, nos has tratado con toda tu equidad y misericordia, <sup>28</sup> tal como dijiste por medio de tu siervo Moisés, cuando le ordenaste escribir tu Ley en presencia de los israelitas, diciendo: <sup>29</sup> «Si no escucháis mi voz, esta inmensa multitud quedará reducida al mínimo en medio de las naciones a donde yo los dispersaré. <sup>30</sup> Sé que no me escucharán, porque son un pueblo testarudo; pero en su destierro se convertirán de corazón <sup>31</sup> y reconocerán que yo soy el Señor, su Dios. Entonces yo les daré un corazón y unos oídos atentos, <sup>32</sup> y ellos me alabarán en su destierro, invocarán mi nombre y <sup>33</sup> abandonarán su testarudez y su conducta perversa, recordando lo que les sucedió a sus padres cuando pecaron contra el Señor. <sup>34</sup> Los haré volver a la tierra que juré dar a sus antepasados, a Abrahán, Isaac y Jacob, y tomarán posesión de ella. Los multiplicaré y ya no menguarán. <sup>35</sup> Y sellaré con ellos una alianza eterna: yo seré su Dios y ellos serán mi pueblo. Y no volveré a expulsar a mi pueblo Israel de la tierra que le di.»
 
-<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Señor topoderoso, Dios de Israel, un alma angustiada y un espíritu abatido claman a ti. <sup>2</sup> Escucha, Señor, y ten piedad, porque hemos pecado contra ti. <sup>3</sup> Pues tú reinas eternamente, mas nosotros perecemos para siempre. <sup>4</sup> Señor topoderoso, Dios de Israel, escucha la oración de los muertos de Israel* y de los hijos de aquellos que pecaron contra ti. Ellos desobedecieron al Señor, su Dios, y por eso se nos acumulan las desgracias. <sup>5</sup> No te acuerdes de los delitos de nuestros antepasados; acuérdate hoy de tu poder y de tu fama. <sup>6</sup> Puesto que eres el Señor, nuestro Dios, nosotros te alabaremos, Señor. <sup>7</sup> Tú nos infundiste tu temor para que invocáramos tu nombre. Queremos alabarte en nuestro destierro, porque hemos apartado de nuestro corazón toda la maldad con que nuestros antepasados pecaron contra ti. <sup>8</sup> Y aquí estamos hoy en nuestro destierro, donde tú nos dispersaste, convirtiéndonos en objeto de burla, maldición y condenación por todos los delitos de nuestros antepasados, que se apartaron del Señor, nuestro Dios.
+<span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Señor topoderoso, Dios de Israel, un alma angustiada y un espíritu abatido claman a ti. <sup>2</sup> Escucha, Señor, y ten piedad, porque hemos pecado contra ti. <sup>3</sup> Pues tú reinas eternamente, mas nosotros perecemos para siempre. <sup>4</sup> Señor topoderoso, Dios de Israel, escucha la oración de los muertos de Israel<span class="note-ref" data-ref="ba-3-4" title="Ver comentario">&#42;</span> y de los hijos de aquellos que pecaron contra ti. Ellos desobedecieron al Señor, su Dios, y por eso se nos acumulan las desgracias. <sup>5</sup> No te acuerdes de los delitos de nuestros antepasados; acuérdate hoy de tu poder y de tu fama. <sup>6</sup> Puesto que eres el Señor, nuestro Dios, nosotros te alabaremos, Señor. <sup>7</sup> Tú nos infundiste tu temor para que invocáramos tu nombre. Queremos alabarte en nuestro destierro, porque hemos apartado de nuestro corazón toda la maldad con que nuestros antepasados pecaron contra ti. <sup>8</sup> Y aquí estamos hoy en nuestro destierro, donde tú nos dispersaste, convirtiéndonos en objeto de burla, maldición y condenación por todos los delitos de nuestros antepasados, que se apartaron del Señor, nuestro Dios.
 
 ## II. La sabiduría, privilegio de Israel
 <sup>9</sup> Escucha, Israel, los mandamientos de vida,
@@ -38,7 +38,7 @@ presta atención para aprender sensatez.
 
 has envejecido en país extraño,
 
-<sup>11</sup> te has contaminado* con los muertos
+<sup>11</sup> te has contaminado<span class="note-ref" data-ref="ba-3-11" title="Ver comentario">&#42;</span> con los muertos
 
 y te cuentan entre los habitantes del abismo?
 
@@ -60,7 +60,7 @@ dónde la luz de los ojos y la paz.
 
 <sup>15</sup> ¿Quién ha encontrado su lugar,
 
-quién ha tenido acceso a sus tesoros*?
+quién ha tenido acceso a sus tesoros<span class="note-ref" data-ref="ba-3-15" title="Ver comentario">&#42;</span>?
 
 <sup>16</sup> ¿Dónde están los jefes de las naciones,
 
@@ -92,7 +92,7 @@ pero no conocieron el camino del conocimiento,
 
 ni lo alcanzaron;
 
-y sus hijos extraviaron su camino*.
+y sus hijos extraviaron su camino<span class="note-ref" data-ref="ba-3-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> No se la oyó en Canaán,
 
@@ -100,7 +100,7 @@ ni se la vio en Temán.
 
 <sup>23</sup> Los hijos de Agar, que buscan el saber en la tierra,
 
-los mercaderes de Madián* y de Temán,
+los mercaderes de Madián<span class="note-ref" data-ref="ba-3-23" title="Ver comentario">&#42;</span> y de Temán,
 
 los narradores de historias y los buscadores del saber,
 
@@ -108,7 +108,7 @@ no conocieron el camino de la sabiduría
 
 ni recordaron sus senderos.
 
-<sup>24</sup> ¡Oh Israel, qué grande es la morada de Dios*,
+<sup>24</sup> ¡Oh Israel, qué grande es la morada de Dios<span class="note-ref" data-ref="ba-3-24" title="Ver comentario">&#42;</span>,
 
 qué vastos sus dominios!
 
@@ -170,7 +170,7 @@ y a su amado Israel.
 
 <sup>38</sup> Después apareció en la tierra
 
-y convivió entre los hombres*.
+y convivió entre los hombres<span class="note-ref" data-ref="ba-3-38" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Ella es el libro de los mandatos de Dios,
 
@@ -192,10 +192,10 @@ ni tus privilegios a pueblo extranjero.
 
 pues se nos ha revelado lo que agrada al Señor.
 
-## III. Quejas y esperanzas de Jerusalen *
+## III. Quejas y esperanzas de Jerusalen <span class="note-ref" data-ref="ba-4-5-a" title="Ver comentario">&#42;</span>
 <sup>5</sup> ¡Ánimo, pueblo mío,
 
-memoria de Israel*!
+memoria de Israel<span class="note-ref" data-ref="ba-4-5-b" title="Ver comentario">&#42;</span>!
 
 <sup>6</sup> Habéis sido vendidos a las naciones,
 
@@ -333,7 +333,7 @@ os enviará la alegría eterna de vuestra salvación.
 
 <sup>30</sup> ¡Ánimo, Jerusalén!
 
-## Aquel que te dio nombre* te consolará.
+## Aquel que te dio nombre<span class="note-ref" data-ref="ba-4-30" title="Ver comentario">&#42;</span> te consolará.
 
 <sup>31</sup> ¡Malditos los que te hicieron daño
 
@@ -389,7 +389,7 @@ tu esplendor a toda la tierra
 
 <sup>4</sup> y te dará para siempre este nombre:
 
-«Paz en la justicia y gloria en la piedad*».
+«Paz en la justicia y gloria en la piedad<span class="note-ref" data-ref="ba-5-4" title="Ver comentario">&#42;</span>».
 
 <sup>5</sup> Levántate, Jerusalén, súbete en alto,
 
@@ -411,7 +411,7 @@ pero Dios te los devuelve
 
 encumbrados en gloria
 
-y en litera real*.
+y en litera real<span class="note-ref" data-ref="ba-5-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Porque Dios ha ordenado rebajarse
 
@@ -438,17 +438,17 @@ con su misericordia y su justicia.
 ## IV. Carta de Jeremías
 Copia de la carta que envió Jeremías a los prisioneros que iban a ser deportados a Babilonia por el rey de los babilonios, para comunicarles lo que Dios le había encargado.
 
-<span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Por los pecados que habéis cometido contra Dios, vais a ser deportados a Babilonia por su rey, Nabucodonosor. <sup>2</sup> Llegados a Babilonia, permaneceréis allí muchos años, un largo periodo de siete generaciones; pero después yo os sacaré de allí en paz. <sup>3</sup> En ese tiempo veréis en Babilonia dioses de plata, oro y madera, que son transportados a hombros* y que infunden temor a los paganos. <sup>4</sup> Tened cuidado, no vayais a imitar también vosotros a esos extranjeros y os domine el temor hacia ellos. <sup>5</sup> Cuando veáis a la multitud delante y detrás de ellos adorándolos, decid entonces en vuestro interior: «A ti solo hay que adorar, Señor,» <sup>6</sup> pues mi ángel os acompaña y protege vuestras vidas.
+<span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Por los pecados que habéis cometido contra Dios, vais a ser deportados a Babilonia por su rey, Nabucodonosor. <sup>2</sup> Llegados a Babilonia, permaneceréis allí muchos años, un largo periodo de siete generaciones; pero después yo os sacaré de allí en paz. <sup>3</sup> En ese tiempo veréis en Babilonia dioses de plata, oro y madera, que son transportados a hombros<span class="note-ref" data-ref="ba-6-3" title="Ver comentario">&#42;</span> y que infunden temor a los paganos. <sup>4</sup> Tened cuidado, no vayais a imitar también vosotros a esos extranjeros y os domine el temor hacia ellos. <sup>5</sup> Cuando veáis a la multitud delante y detrás de ellos adorándolos, decid entonces en vuestro interior: «A ti solo hay que adorar, Señor,» <sup>6</sup> pues mi ángel os acompaña y protege vuestras vidas.
 
-<sup>7</sup> La lengua de esos dioses ha sido modelada por un artesano y, aunque están recubiertos de oro y plata, son falsos y no pueden hablar. <sup>8</sup> Como se hace con una joven presumida, ellos toman oro y tejen coronas para las cabezas de sus dioses. <sup>9</sup> A veces los sacerdotes roban a sus dioses oro y plata y lo gastan en su propio beneficio e incluso se lo dan a las prostitutas sagradas*. <sup>10</sup> A esos dioses de plata, oro y madera también los adornan con vestidos, como si fuesen hombres; pero no se libran ni de la roña ni de la polilla. <sup>11</sup> Y aunque los visten con mantos de púrpura, tienen que limpiarles la cara del polvo de los templos que se les acumula encima. <sup>12</sup> Algunos empuñan cetros como jueces de distrito, pero no pueden castigar a quien los ofende. <sup>13</sup> Otros llevan en sus manos espadas y hachas, pero no pueden defenderse de la guerra ni de los ladrones. <sup>14</sup> Con ello se demuestra que no son dioses. Por tanto, no los temáis.
+<sup>7</sup> La lengua de esos dioses ha sido modelada por un artesano y, aunque están recubiertos de oro y plata, son falsos y no pueden hablar. <sup>8</sup> Como se hace con una joven presumida, ellos toman oro y tejen coronas para las cabezas de sus dioses. <sup>9</sup> A veces los sacerdotes roban a sus dioses oro y plata y lo gastan en su propio beneficio e incluso se lo dan a las prostitutas sagradas<span class="note-ref" data-ref="ba-6-9" title="Ver comentario">&#42;</span>. <sup>10</sup> A esos dioses de plata, oro y madera también los adornan con vestidos, como si fuesen hombres; pero no se libran ni de la roña ni de la polilla. <sup>11</sup> Y aunque los visten con mantos de púrpura, tienen que limpiarles la cara del polvo de los templos que se les acumula encima. <sup>12</sup> Algunos empuñan cetros como jueces de distrito, pero no pueden castigar a quien los ofende. <sup>13</sup> Otros llevan en sus manos espadas y hachas, pero no pueden defenderse de la guerra ni de los ladrones. <sup>14</sup> Con ello se demuestra que no son dioses. Por tanto, no los temáis.
 
 <sup>15</sup> Como cacharros domésticos que, cuando se rompen, ya no sirven, así son los dioses que entronizan en sus templos. <sup>16</sup> Tienen los ojos llenos del polvo que levantan los pies de los que entran. <sup>17</sup> Igual que se encierra a cal y canto a los condenados a muerte por delitos contra el rey, los sacerdotes refuerzan sus templos con portones, cerrojos y barrotes, para que no sean saqueados por los ladrones. <sup>18</sup> Les encienden más luces que las que ellos mismos usan, aunque los dioses no pueden ver ni una sola. <sup>19</sup> Son como las vigas de las casas cuyo interior, según se dice, está carcomido. Tampoco se dan cuenta de los bichos de la tierra que los devoran a ellos y a sus vestidos. <sup>20</sup> Tienen la cara ennegrecida por los humos del templo. <sup>21</sup> Sobre su cuerpo y sus cabezas revolotean murciélagos, golondrinas y otros pájaros, igual que los gatos. <sup>22</sup> De donde se deduce que no son dioses. Por tanto, no los temáis.
 
 <sup>23</sup> El oro que los recubre y adorna no podría brillar si no le limpiasen el óxido; y ni siquiera sentían cuando eran fundidos. <sup>24</sup> Fueron comprados a precios carísimos, aunque no tienen vida. <sup>25</sup> Como no tienen pies, son llevados a hombros, mostrando a los hombres su propia deshonra. También quedan abochornados sus servidores, porque si se caen al suelo, hay que levantarlos; <sup>26</sup> si los ponen de pie, no pueden moverse por sí mismos; si los reclinan, no pueden enderezarse; y cuando les hacen ofrendas son como muertos. <sup>27</sup> Los sacerdotes venden sus víctimas para provecho propio; lo mismo que sus mujeres las ponen en conserva, sin repartir nada a pobres y enfermos. Incluso tocan sus víctimas las que están con la regla y las recién paridas. <sup>28</sup> Deduciendo de todo esto que no son dioses, no los temáis.
 
-<sup>29</sup> ¿Cómo se les puede llamar dioses, cuando son las mujeres las que presentan ofrendas* ante estos dioses de plata, oro y madera? <sup>30</sup> En sus templos los sacerdotes los transportan con las túnicas rotas, con el pelo y la barba rapados y con la cabeza descubierta. <sup>31</sup> Y gritan chillando ante sus dioses, como se hace en los banquetes fúnebres*. <sup>32</sup> Los sacerdotes los despojan de sus vestidos para vestir a sus mujeres y a sus hijos. <sup>33</sup> Si alguien les hace mal o bien, no pueden devolverle su merecido. Ni pueden poner ni quitar rey, <sup>34</sup> como tampoco dar riquezas ni dinero. Y si alguien les hace un voto y no lo cumple, no le piden cuentas. <sup>35</sup> Jamás libran a nadie de la muerte, ni arrancan al débil de las manos del poderoso. <sup>36</sup> No pueden devolver la vista al ciego, ni librar a nadie de su apuro. <sup>37</sup> No se compadecen de la viuda ni favorecen al huérfano. <sup>38</sup> Estos objetos de madera recubiertos de oro y plata se parecen a las piedras del monte, y sus servidores quedarán abochornados. <sup>39</sup> ¿Cómo, pues, se puede creer o decir que son dioses?
+<sup>29</sup> ¿Cómo se les puede llamar dioses, cuando son las mujeres las que presentan ofrendas<span class="note-ref" data-ref="ba-6-29" title="Ver comentario">&#42;</span> ante estos dioses de plata, oro y madera? <sup>30</sup> En sus templos los sacerdotes los transportan con las túnicas rotas, con el pelo y la barba rapados y con la cabeza descubierta. <sup>31</sup> Y gritan chillando ante sus dioses, como se hace en los banquetes fúnebres<span class="note-ref" data-ref="ba-6-31" title="Ver comentario">&#42;</span>. <sup>32</sup> Los sacerdotes los despojan de sus vestidos para vestir a sus mujeres y a sus hijos. <sup>33</sup> Si alguien les hace mal o bien, no pueden devolverle su merecido. Ni pueden poner ni quitar rey, <sup>34</sup> como tampoco dar riquezas ni dinero. Y si alguien les hace un voto y no lo cumple, no le piden cuentas. <sup>35</sup> Jamás libran a nadie de la muerte, ni arrancan al débil de las manos del poderoso. <sup>36</sup> No pueden devolver la vista al ciego, ni librar a nadie de su apuro. <sup>37</sup> No se compadecen de la viuda ni favorecen al huérfano. <sup>38</sup> Estos objetos de madera recubiertos de oro y plata se parecen a las piedras del monte, y sus servidores quedarán abochornados. <sup>39</sup> ¿Cómo, pues, se puede creer o decir que son dioses?
 
-<sup>40</sup> Más aún, los mismos caldeos los deshonran cuando, al ver a un mudo que no puede hablar, lo presentan a Bel, pidiéndole que le conceda el habla, como si él pudiera enterarse. <sup>41</sup> Y ni siquiera ellos, que lo saben, son capaces de abandonar a sus dioses que no pueden sentir. <sup>42</sup> Las mujeres, ceñidas con cuerdas, se sientan junto a los caminos quemando salvado como incienso, <sup>43</sup> y cuando alguna de ellas, solicitada por algún transeúnte, se acuesta con él, se burla de la vecina que no ha sido escogida como ella, porque no han roto su cuerda*. <sup>44</sup> Todo lo que hacen es mentira. ¿Cómo, pues, se puede creer o decir que son dioses?
+<sup>40</sup> Más aún, los mismos caldeos los deshonran cuando, al ver a un mudo que no puede hablar, lo presentan a Bel, pidiéndole que le conceda el habla, como si él pudiera enterarse. <sup>41</sup> Y ni siquiera ellos, que lo saben, son capaces de abandonar a sus dioses que no pueden sentir. <sup>42</sup> Las mujeres, ceñidas con cuerdas, se sientan junto a los caminos quemando salvado como incienso, <sup>43</sup> y cuando alguna de ellas, solicitada por algún transeúnte, se acuesta con él, se burla de la vecina que no ha sido escogida como ella, porque no han roto su cuerda<span class="note-ref" data-ref="ba-6-43" title="Ver comentario">&#42;</span>. <sup>44</sup> Todo lo que hacen es mentira. ¿Cómo, pues, se puede creer o decir que son dioses?
 
 <sup>45</sup> Han sido fabricados por artesanos y orfebres y sólo son lo que quieren sus creadores. <sup>46</sup> Sus mismos fabricantes no viven mucho tiempo. ¿Cómo van a ser dioses los objetos que han fabricado? <sup>47</sup> Sólo han legado a la posteridad mentira y deshonra. <sup>48</sup> Cuando sobreviene alguna guerra o catástrofe, los sacerdotes deliberan entre sí dónde esconderse con ellos. <sup>49</sup> ¿Cómo no darse cuenta de que no son dioses los que no pueden salvarse a sí mismos de guerras y catástrofes? <sup>50</sup> Si sólo son objetos de madera recubiertos de oro y plata, habrá que reconocer que no son más que fraude. A todos los pueblos y reyes quedará patente que no son dioses, sino manufactura humana, incapaces de realizar acción divina alguna. <sup>51</sup> ¿A quién, pues, no resulta evidente que no son dioses?
 
@@ -458,4 +458,4 @@ Copia de la carta que envió Jeremías a los prisioneros que iban a ser deportad
 
 <sup>65</sup> No pueden maldecir ni bendecir a los reyes. <sup>66</sup> No pueden mostrar a las naciones señales celestes, ni brillar como el sol, ni alumbrar como la luna. <sup>67</sup> Las bestias valen más que ellos, porque pueden protegerse a sí mismas, poniéndose a cubierto. <sup>68</sup> De ningún modo se nos demuestra que sean dioses; así que no los temáis.
 
-<sup>69</sup> Como espantajo en melonar, que no guarda nada, así son sus dioses de madera recubiertos de oro y plata. <sup>70</sup> Estos dioses se parecen al espino de un huerto, en el que se posa cualquier pájaro, o a un cadáver tirado en la oscuridad. <sup>71</sup> Por la púrpura y el lino* que se les pudre encima, deduciréis que no son dioses. Ellos mismos terminarán carcomidos y serán la deshonra del país. <sup>72</sup> En conclusión, vale más un hombre justo, que no tiene ídolos; pues nunca sufrirá tal deshonra.
+<sup>69</sup> Como espantajo en melonar, que no guarda nada, así son sus dioses de madera recubiertos de oro y plata. <sup>70</sup> Estos dioses se parecen al espino de un huerto, en el que se posa cualquier pájaro, o a un cadáver tirado en la oscuridad. <sup>71</sup> Por la púrpura y el lino<span class="note-ref" data-ref="ba-6-71" title="Ver comentario">&#42;</span> que se les pudre encima, deduciréis que no son dioses. Ellos mismos terminarán carcomidos y serán la deshonra del país. <sup>72</sup> En conclusión, vale más un hombre justo, que no tiene ídolos; pues nunca sufrirá tal deshonra.

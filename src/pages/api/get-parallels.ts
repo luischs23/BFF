@@ -192,13 +192,15 @@ function parseParallelsFile(content: string, bookAbbrev: string): Map<string, Pa
 
     // Puede tener múltiples referencias separadas por ";"
     const refs = cleanLine.split(';').map(r => r.trim());
+    let lastSeenBook = bookAbbrev; // se hereda entre segmentos del mismo ";"
 
     for (const ref of refs) {
       if (!ref) continue;
 
-      const parsed = parseParallelReference(ref, currentChapter, bookAbbrev);
+      const parsed = parseParallelReference(ref, currentChapter, lastSeenBook);
       if (parsed) {
         parsed.isNT = isNT || parsed.isNT;
+        lastSeenBook = parsed.bookAbbrev; // propagar libro al siguiente segmento
         parallelsMap.get(currentRef)!.push(parsed);
       }
     }

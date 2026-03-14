@@ -1,5 +1,5 @@
 ---
-import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown, AArrowUp, Globe } from "lucide-astro";
+import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown, AArrowUp, Globe, ArrowLeft } from "lucide-astro";
 
 interface Props {
 	title: string;
@@ -50,6 +50,16 @@ const { title } = Astro.props;
 
 		<!-- Controles a la derecha -->
 		<div class="absolute right-3 flex items-center gap-2">
+			<!-- Botón volver al lugar de lectura (oculto por defecto) -->
+			<button
+				id="backToReadingBtn"
+				class="hidden bg-indigo-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-indigo-700 transition"
+				aria-label="Volver al lugar de lectura"
+				title="Volver al lugar de lectura"
+			>
+				<ArrowLeft class="h-5 w-5" />
+			</button>
+
 			<!-- Botón navegación de capítulos -->
 			<button
 				id="chapterNavToggle"
@@ -547,4 +557,100 @@ const { title } = Astro.props;
 
 	document.addEventListener('DOMContentLoaded', initFontSize);
 	document.addEventListener('astro:page-load', initFontSize);
+
+	// ─── Volver al lugar de lectura ──────────────────────────────
+
+	function getReadingAnchor(): { chapter: number; verse: number | null } | null {
+		const allElements = Array.from(
+			document.querySelectorAll('.bible-content .chapter-marker, .bible-content sup')
+		);
+		const targetY = window.innerHeight * 0.33;
+		let currentChapterNum = 0;
+		let best: { chapter: number; verse: number | null } | null = null;
+		let bestDist = Infinity;
+
+		for (const el of allElements) {
+			if (el.classList.contains('chapter-marker')) {
+				currentChapterNum = parseInt((el as HTMLElement).getAttribute('data-chapter') || '0');
+			}
+			const rect = el.getBoundingClientRect();
+			if (rect.top < 60) continue; // por encima del header fijo
+			const dist = Math.abs(rect.top - targetY);
+			if (dist < bestDist) {
+				bestDist = dist;
+				if (el.classList.contains('chapter-marker')) {
+					best = { chapter: currentChapterNum, verse: null };
+				} else {
+					const verse = parseInt(el.textContent?.trim() || '0');
+					best = { chapter: currentChapterNum, verse: verse > 0 ? verse : null };
+				}
+			}
+			if (rect.top > targetY + 300) break;
+		}
+		return best;
+	}
+
+	function refreshBackButton(): void {
+		const btn = document.getElementById('backToReadingBtn');
+		if (!btn) return;
+		const saved = sessionStorage.getItem('bibleReturnAnchor');
+		if (saved) {
+			try {
+				const { label } = JSON.parse(saved);
+				btn.title = `Volver a ${label}`;
+				btn.setAttribute('aria-label', `Volver a ${label}`);
+				btn.classList.remove('hidden');
+			} catch {
+				btn.classList.add('hidden');
+			}
+		} else {
+			btn.classList.add('hidden');
+		}
+	}
+
+	// Exponer globalmente para parallels.ts y GlobalSearchDialog
+	if (!(window as any).__saveReadingPosReady) {
+		(window as any).__saveReadingPosReady = true;
+		(window as any).saveReadingPosition = function () {
+			const anchor = getReadingAnchor();
+			if (!anchor) return;
+			const bookName = document.querySelector('.bible-content h1')?.textContent?.trim() || '';
+			const label = anchor.verse
+				? `${bookName} ${anchor.chapter},${anchor.verse}`
+				: `${bookName} ${anchor.chapter}`;
+			const hash = anchor.verse
+				? `#chapter-${anchor.chapter}-verse-${anchor.verse}`
+				: `#chapter-${anchor.chapter}`;
+			const url = window.location.origin + window.location.pathname + hash;
+			sessionStorage.setItem('bibleReturnAnchor', JSON.stringify({ url, label }));
+			refreshBackButton();
+		};
+	}
+
+	function initBackToReading(): void {
+		const btn = document.getElementById('backToReadingBtn');
+		if (!btn || btn.hasAttribute('data-brInit')) return;
+		btn.setAttribute('data-brInit', 'true');
+
+		refreshBackButton();
+
+		btn.addEventListener('click', () => {
+			const saved = sessionStorage.getItem('bibleReturnAnchor');
+			if (!saved) return;
+			try {
+				const { url } = JSON.parse(saved);
+				sessionStorage.removeItem('bibleReturnAnchor');
+				btn.classList.add('hidden');
+				const savedUrl = new URL(url);
+				if (savedUrl.pathname === window.location.pathname) {
+					window.location.hash = savedUrl.hash;
+				} else {
+					window.location.href = url;
+				}
+			} catch {}
+		});
+	}
+
+	document.addEventListener('DOMContentLoaded', initBackToReading);
+	document.addEventListener('astro:page-load', initBackToReading);
 </script>

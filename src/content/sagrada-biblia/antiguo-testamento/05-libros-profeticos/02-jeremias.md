@@ -5,14 +5,14 @@ img: blog-placeholder-4.jpg
 ---
 # JEREMÍAS
 ## Título.
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabras de Jeremías, hijo de Jilquías, de los sacerdotes de Anatot*, en la tierra de Benjamín. <sup>2</sup> Le fue dirigida la palabra de Yahvé en tiempo de Josías, hijo de Amón, rey de Judá, el año trece de su reinado; <sup>3</sup> y también en tiempo de Joaquín, hijo de Josías, rey de Judá, hasta cumplirse el año undécimo de Sedecías, hijo de Josías, rey de Judá, hasta el destierro de Jerusalén, en el mes quinto*.
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabras de Jeremías, hijo de Jilquías, de los sacerdotes de Anatot<span class="note-ref" data-ref="jr-1" title="Ver comentario">&#42;</span>, en la tierra de Benjamín. <sup>2</sup> Le fue dirigida la palabra de Yahvé en tiempo de Josías, hijo de Amón, rey de Judá, el año trece de su reinado; <sup>3</sup> y también en tiempo de Joaquín, hijo de Josías, rey de Judá, hasta cumplirse el año undécimo de Sedecías, hijo de Josías, rey de Judá, hasta el destierro de Jerusalén, en el mes quinto<span class="note-ref" data-ref="jr-1-3" title="Ver comentario">&#42;</span>.
 
 ## I. Oráculos sobre Judá y Jerusalén
 ## 1. EN TIEMPO DE JOSÍAS
 ## Vocación del profeta.
 <sup>4</sup> Me dirigió Yahvé la palabra en estos términos:
 
-<sup>5</sup> Antes de haberte formado yo en el vientre, te conocía*;
+<sup>5</sup> Antes de haberte formado yo en el vientre, te conocía<span class="note-ref" data-ref="jr-1-5" title="Ver comentario">&#42;</span>;
 
 antes que nacieses, te había consagrado yo profeta;
 
@@ -48,9 +48,9 @@ para destruir y derrocar,
 
 para reconstruir y plantar.
 
-<sup>11</sup> Entonces me dirigió Yahvé la palabra en estos términos: «¿Qué estás viendo, Jeremías?» Respondí: «Veo una rama de almendro.» <sup>12</sup> Y añadió Yahvé: «Bien has visto. Pues así soy yo: vigilo mi palabra para que se cumpla*.»
+<sup>11</sup> Entonces me dirigió Yahvé la palabra en estos términos: «¿Qué estás viendo, Jeremías?» Respondí: «Veo una rama de almendro.» <sup>12</sup> Y añadió Yahvé: «Bien has visto. Pues así soy yo: vigilo mi palabra para que se cumpla<span class="note-ref" data-ref="jr-1-12" title="Ver comentario">&#42;</span>.»
 
-<sup>13</sup> Nuevamente me dirigió Yahvé la palabra: «¿Qué estás viendo?» Respondí: «Veo un puchero hirviendo que se vuelca de Norte a Sur*.» <sup>14</sup> Yahvé me dijo entonces:
+<sup>13</sup> Nuevamente me dirigió Yahvé la palabra: «¿Qué estás viendo?» Respondí: «Veo un puchero hirviendo que se vuelca de Norte a Sur<span class="note-ref" data-ref="jr-1-13" title="Ver comentario">&#42;</span>.» <sup>14</sup> Yahvé me dijo entonces:
 
 «Es que desde el Norte se iniciará el desastre
 
@@ -96,7 +96,7 @@ en muralla de bronce frente a toda esta tierra,
 
 así se trate de los reyes de Judá como de sus jefes,
 
-de sus sacerdotes o del pueblo de la tierra*.
+de sus sacerdotes o del pueblo de la tierra<span class="note-ref" data-ref="jr-1-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Te harán la guerra,
 
@@ -104,12 +104,12 @@ mas no podrán contigo,
 
 pues contigo estoy yo —oráculo de Yahvé— para salvarte.»
 
-## Primeros sermones. Infidelidad de Israel*.
+## Primeros sermones. Infidelidad de Israel<span class="note-ref" data-ref="jr-2" title="Ver comentario">&#42;</span>.
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Entonces me dirigió Yahvé la palabra en estos términos: <sup>2</sup> Ve y grita a los oídos de Jerusalén:
 
 Esto dice Yahvé:
 
-De ti recuerdo tu cariño* juvenil,
+De ti recuerdo tu cariño<span class="note-ref" data-ref="jr-2-2" title="Ver comentario">&#42;</span> juvenil,
 
 el amor de tu noviazgo;
 
@@ -137,7 +137,7 @@ y familias todas de la Casa de Israel.
 
 que se alejaron de mi vera,
 
-y yendo en pos de la Vanidad*
+y yendo en pos de la Vanidad<span class="note-ref" data-ref="jr-2-5" title="Ver comentario">&#42;</span>
 
 se hicieron vanos?
 
@@ -155,7 +155,7 @@ una tierra intransitada
 
 en donde nadie se asienta?»
 
-<sup>7</sup> Luego os traje a la tierra del vergel*,
+<sup>7</sup> Luego os traje a la tierra del vergel<span class="note-ref" data-ref="jr-2-7" title="Ver comentario">&#42;</span>,
 
 para comer sus deliciosos frutos.
 
@@ -173,7 +173,7 @@ Los pastores se rebelaron contra mí
 
 y los profetas profetizaban por Baal:
 
-en pos de los Inútiles andaban*.
+en pos de los Inútiles andaban<span class="note-ref" data-ref="jr-2-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Por eso sigo litigando con vosotros
 
@@ -183,7 +183,7 @@ y hasta con los hijos de vuestros hijos litigaré.
 
 <sup>10</sup> Porque, en efecto, pasad a las islas de los Queteos y observad,
 
-enviad a Quedar quien investigue a fondo*;
+enviad a Quedar quien investigue a fondo<span class="note-ref" data-ref="jr-2-10" title="Ver comentario">&#42;</span>;
 
 pensadlo bien y considerad
 
@@ -193,7 +193,7 @@ si aconteció cosa tal:
 
 —¡aunque aquéllos no son dioses!—.
 
-Pues mi pueblo ha trocado su Gloria*
+Pues mi pueblo ha trocado su Gloria<span class="note-ref" data-ref="jr-2-11" title="Ver comentario">&#42;</span>
 
 por el Inútil.
 
@@ -233,7 +233,7 @@ quedaron sin habitantes.
 
 <sup>16</sup> Hasta la gente de Menfis y de Tafnis
 
-te han rapado el cogote*.
+te han rapado el cogote<span class="note-ref" data-ref="jr-2-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> ¿No te ha sucedido esto
 
@@ -251,7 +251,7 @@ para beber las aguas del Nilo?
 
 encaminarte a Asiria
 
-para beber las aguas del Río*?
+para beber las aguas del Río<span class="note-ref" data-ref="jr-2-18" title="Ver comentario">&#42;</span>?
 
 <sup>19</sup> Tu propia maldad te castigará,
 
@@ -277,7 +277,7 @@ y sobre todo otero prominente
 
 y bajo todo árbol frondoso
 
-te tumbabas, prostituta*.
+te tumbabas, prostituta<span class="note-ref" data-ref="jr-2-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Yo te había plantado de cepa selecta,
 
@@ -299,7 +299,7 @@ si te me acercas se te nota la culpa
 
 no anduve detrás de los Baales?»
 
-¡Mira tu rastro en el Valle*!
+¡Mira tu rastro en el Valle<span class="note-ref" data-ref="jr-2-23" title="Ver comentario">&#42;</span>!
 
 Reconoce lo que has hecho,
 
@@ -357,7 +357,7 @@ otros tantos son tus dioses, Judá;
 
 (y cuantas calles cuenta Jerusalén,
 
-otros tantos altares hay de Baal*).
+otros tantos altares hay de Baal<span class="note-ref" data-ref="jr-2-28" title="Ver comentario">&#42;</span>).
 
 <sup>29</sup> ¿Por qué os querelláis conmigo,
 
@@ -407,7 +407,7 @@ aprendiste tus caminos.
 
 de pobres inocentes muertos,
 
-a los que no sorprendiste en escalo*.
+a los que no sorprendiste en escalo<span class="note-ref" data-ref="jr-2-34" title="Ver comentario">&#42;</span>.
 
 Y con todo eso,
 
@@ -419,7 +419,7 @@ Pues bien, voy a pleitear contigo
 
 por haber dicho: «No he pecado.»
 
-<sup>36</sup> ¡Cuánta ligereza la tuya*
+<sup>36</sup> ¡Cuánta ligereza la tuya<span class="note-ref" data-ref="jr-2-36" title="Ver comentario">&#42;</span>
 
 para cambiar de dirección!
 
@@ -437,7 +437,7 @@ aquello en que confías,
 
 y no saldrás bien de ello.
 
-## La conversión*.
+## La conversión<span class="note-ref" data-ref="jr-3" title="Ver comentario">&#42;</span>.
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> «Supongamos que despide
 
 un marido a su mujer;
@@ -446,7 +446,7 @@ ella se va de su lado
 
 y pasa a ser de otro hombre.
 
-¿Podrá volver a él*?;
+¿Podrá volver a él<span class="note-ref" data-ref="jr-3-1" title="Ver comentario">&#42;</span>?;
 
 ¿no sería como una tierra manchada?»
 
@@ -492,9 +492,9 @@ Así hablabas, pero hacías
 
 las maldades que podías.
 
-## Israel del Norte, invitado a convertirse*.
+## Israel del Norte, invitado a convertirse<span class="note-ref" data-ref="jr-3-6" title="Ver comentario">&#42;</span>.
 ## Parábola de las dos hermanas.
-<sup>6</sup> Yahvé me dijo en tiempos del rey Josías: ¿Has visto lo que hizo Israel, la apóstata? Ha recorrido cualquier monte elevado y bajo cualquier árbol frondoso se ha prostituido. <sup>7</sup> En vista de lo que había hecho, dije: «No vuelvas a mí.» Y no volvió. Vio esto su hermana Judá, la pérfida; <sup>8</sup> vio* que a causa de todos los adulterios de Israel, la apóstata, yo la había despedido dándole su carta de divorcio. Pero no hizo caso su hermana Judá, la pérfida, sino que fue y se prostituyó también ella, <sup>9</sup> tanto que por su liviandad en fornicar manchó la tierra, y se prostituyó con la piedra y con el leño. <sup>10</sup> A pesar de todo, su hermana Judá, la pérfida, no se volvió a mí de todo corazón, sino engañosamente —oráculo de Yahvé—.
+<sup>6</sup> Yahvé me dijo en tiempos del rey Josías: ¿Has visto lo que hizo Israel, la apóstata? Ha recorrido cualquier monte elevado y bajo cualquier árbol frondoso se ha prostituido. <sup>7</sup> En vista de lo que había hecho, dije: «No vuelvas a mí.» Y no volvió. Vio esto su hermana Judá, la pérfida; <sup>8</sup> vio<span class="note-ref" data-ref="jr-3-8" title="Ver comentario">&#42;</span> que a causa de todos los adulterios de Israel, la apóstata, yo la había despedido dándole su carta de divorcio. Pero no hizo caso su hermana Judá, la pérfida, sino que fue y se prostituyó también ella, <sup>9</sup> tanto que por su liviandad en fornicar manchó la tierra, y se prostituyó con la piedra y con el leño. <sup>10</sup> A pesar de todo, su hermana Judá, la pérfida, no se volvió a mí de todo corazón, sino engañosamente —oráculo de Yahvé—.
 
 <sup>11</sup> Yahvé me dijo: Más justa se ha manifestado Israel, la apóstata, que Judá, la pérfida. <sup>12</sup> Anda y pregona estas palabras al Norte:
 
@@ -512,7 +512,7 @@ no guardo rencor para siempre.
 
 pues contra Yahvé tu Dios te rebelaste:
 
-frecuentaste a extranjeros*
+frecuentaste a extranjeros<span class="note-ref" data-ref="jr-3-13" title="Ver comentario">&#42;</span>
 
 bajo todo árbol frondoso,
 
@@ -520,12 +520,12 @@ y no escuchasteis mi voz
 
 —oráculo de Yahvé—.
 
-## Digresión: El pueblo mesiánico en Sión*.
-<sup>14</sup> Volved, hijos apóstatas —oráculo de Yahvé—, porque yo soy vuestro Señor. Os iré recogiendo uno a uno de cada ciudad, y por parejas de cada familia, y os traeré a Sión. <sup>15</sup> Os pondré pastores según mi criterio, que os den pasto de conocimiento y prudencia. <sup>16</sup> Y luego, cuando seáis muchos y fructifiquéis en la tierra, en aquellos días —oráculo de Yahvé— no se hablará más del arca de la alianza de Yahvé, no vendrá en mientes, no se acordarán ni se ocuparán de ella, ni será reconstruida jamás*. <sup>17</sup> En aquel tiempo llamarán a Jerusalén «Trono de Yahvé», y se incorporarán a ella todas las naciones en el nombre de Yahvé, en Jerusalén, sin seguir más la dureza de sus perversos corazones.
+## Digresión: El pueblo mesiánico en Sión<span class="note-ref" data-ref="jr-3-14" title="Ver comentario">&#42;</span>.
+<sup>14</sup> Volved, hijos apóstatas —oráculo de Yahvé—, porque yo soy vuestro Señor. Os iré recogiendo uno a uno de cada ciudad, y por parejas de cada familia, y os traeré a Sión. <sup>15</sup> Os pondré pastores según mi criterio, que os den pasto de conocimiento y prudencia. <sup>16</sup> Y luego, cuando seáis muchos y fructifiquéis en la tierra, en aquellos días —oráculo de Yahvé— no se hablará más del arca de la alianza de Yahvé, no vendrá en mientes, no se acordarán ni se ocuparán de ella, ni será reconstruida jamás<span class="note-ref" data-ref="jr-3-16" title="Ver comentario">&#42;</span>. <sup>17</sup> En aquel tiempo llamarán a Jerusalén «Trono de Yahvé», y se incorporarán a ella todas las naciones en el nombre de Yahvé, en Jerusalén, sin seguir más la dureza de sus perversos corazones.
 
-<sup>18</sup> En aquellos días, andará la Casa de Judá al par de Israel, y vendrán juntos desde tierras del Norte a la tierra que di en herencia a vuestros padres*.
+<sup>18</sup> En aquellos días, andará la Casa de Judá al par de Israel, y vendrán juntos desde tierras del Norte a la tierra que di en herencia a vuestros padres<span class="note-ref" data-ref="jr-3-18" title="Ver comentario">&#42;</span>.
 
-## Prosigue el poema de la conversión*.
+## Prosigue el poema de la conversión<span class="note-ref" data-ref="jr-3-19" title="Ver comentario">&#42;</span>.
 <sup>19</sup> Yo había pensado:
 
 «Sí, te adoptaré por hijo
@@ -546,7 +546,7 @@ así me ha engañado la Casa de Israel
 
 —oráculo de Yahvé—.
 
-<sup>21</sup> Se oyen voces sobre los calveros*:
+<sup>21</sup> Se oyen voces sobre los calveros<span class="note-ref" data-ref="jr-3-21" title="Ver comentario">&#42;</span>:
 
 rogativas llorosas de los hijos de Israel,
 
@@ -564,13 +564,13 @@ porque tú, Yahvé, eres nuestro Dios.
 
 <sup>23</sup> ¡Luego eran mentira los altos,
 
-la barahúnda de los montes*!
+la barahúnda de los montes<span class="note-ref" data-ref="jr-3-23" title="Ver comentario">&#42;</span>!
 
 ¡Luego por Yahvé, nuestro Dios,
 
 se salva Israel!
 
-<sup>24</sup> La Vergüenza* se comió
+<sup>24</sup> La Vergüenza<span class="note-ref" data-ref="jr-3-24" title="Ver comentario">&#42;</span> se comió
 
 el trabajo de nuestros padres
 
@@ -616,7 +616,7 @@ a la gente de Judá y a Jerusalén:
 
 y no sembréis sobre cardos.
 
-<sup>4</sup> Circuncidaos para Yahvé*,
+<sup>4</sup> Circuncidaos para Yahvé<span class="note-ref" data-ref="jr-4-4" title="Ver comentario">&#42;</span>,
 
 extirpad los prepucios
 
@@ -632,7 +632,7 @@ y arda, y no haya quien la apague
 
 en vista de vuestras obras perversas.
 
-## La invasión nórdica *.
+## La invasión nórdica <span class="note-ref" data-ref="jr-4-5" title="Ver comentario">&#42;</span>.
 <sup>5</sup> Anunciadlo en Judá,
 
 que se escuche en Jerusalén;
@@ -689,7 +689,7 @@ y los profetas se espantarán.
 
 y a Jerusalén
 
-diciendo*: ‘Paz tendréis’,
+diciendo<span class="note-ref" data-ref="jr-4-10" title="Ver comentario">&#42;</span>: ‘Paz tendréis’,
 
 pero tienen la espada junto al cuello!»
 
@@ -731,13 +731,13 @@ en tus pensamientos torcidos?
 
 anuncia el desastre
 
-desde la sierra de Efraín*.
+desde la sierra de Efraín<span class="note-ref" data-ref="jr-4-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Pregonad: «¡Ya están aquí los gentiles!»;
 
 hacedlo oír en Jerusalén.
 
-Los enemigos vienen de tierra lejana*,
+Los enemigos vienen de tierra lejana<span class="note-ref" data-ref="jr-4-16" title="Ver comentario">&#42;</span>,
 
 dando voces contra los pueblos de Judá.
 
@@ -759,7 +759,7 @@ por haberte rebelado contra mí.
 
 <sup>19</sup> ¡Mis entrañas, mis entrañas!,
 
-¡se estremecen las paredes del corazón!*
+¡se estremecen las paredes del corazón!<span class="note-ref" data-ref="jr-4-19" title="Ver comentario">&#42;</span>
 
 Se me agita el corazón en el pecho
 
@@ -781,7 +781,7 @@ en un cerrar de ojos mis campamentos.
 
 y oiré sones de cuerno?
 
-<sup>22</sup> *—¡Qué necio es mi pueblo,
+<sup>22</sup> <span class="note-ref" data-ref="jr-4-22" title="Ver comentario">&#42;</span>—¡Qué necio es mi pueblo,
 
 que no me reconoce!
 
@@ -837,7 +837,7 @@ se metían por los bosques
 
 y trepaban por las peñas.
 
-Toda ciudad fue abandonada*,
+Toda ciudad fue abandonada<span class="note-ref" data-ref="jr-4-29" title="Ver comentario">&#42;</span>,
 
 sin quedar en ellas habitantes.
 
@@ -867,7 +867,7 @@ que gimiendo extendía sus palmas:
 
 a manos de asesinos!»
 
-## Motivos de la invasión*.
+## Motivos de la invasión<span class="note-ref" data-ref="jr-5" title="Ver comentario">&#42;</span>.
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Recorred las calles de Jerusalén, mirad bien y enteraos;
 
 buscad por sus plazas,
@@ -878,7 +878,7 @@ que practique la justicia,
 
 que busque la verdad,
 
-y yo le perdonaría*.
+y yo le perdonaría<span class="note-ref" data-ref="jr-5-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Juran «¡Por vida de Yahvé!»,
 
@@ -968,13 +968,13 @@ porque no son de Yahvé.
 
 <sup>11</sup> ¡Qué bien me engañaron
 
-la Casa de Judá y la Casa de Israel*!
+la Casa de Judá y la Casa de Israel<span class="note-ref" data-ref="jr-5-11" title="Ver comentario">&#42;</span>!
 
 —oráculo de Yahvé—.
 
 <sup>12</sup> Renegaron de Yahvé
 
-diciendo: «¡Él no cuenta*!,
+diciendo: «¡Él no cuenta<span class="note-ref" data-ref="jr-5-12" title="Ver comentario">&#42;</span>!,
 
 ¡no nos alcanzará daño alguno,
 
@@ -986,13 +986,13 @@ el viento se los lleve,
 
 pues carecen de Palabra.»
 
-5:14a Por tanto, así dice Yahvé,
+<sup>14a</sup> Por tanto, así dice Yahvé,
 
 el Dios Sebaot:
 
-5:13b —Esto les sucederá.
+<sup>13b</sup> —Esto les sucederá.
 
-5:14b Por haber pronunciado tales palabras,
+<sup>14b</sup> Por haber pronunciado tales palabras,
 
 voy a hacer que las mías en tu boca
 
@@ -1032,7 +1032,7 @@ comerá tus viñas e higueras;
 
 con la espada destruirá
 
-tus plazas fuertes en que confías*.
+tus plazas fuertes en que confías<span class="note-ref" data-ref="jr-5-17" title="Ver comentario">&#42;</span>.
 
 ## La pedagogía del castigo.
 <sup>18</sup> Pero en los días aquellos
@@ -1050,7 +1050,7 @@ y hacedlo saber en Judá:
 
 <sup>21</sup> —Escuchad esto,
 
-pueblo necio y sin seso*
+pueblo necio y sin seso<span class="note-ref" data-ref="jr-5-21" title="Ver comentario">&#42;</span>
 
 —tienen ojos y no ven,
 
@@ -1097,7 +1097,7 @@ vuestros pecados os privaron del bien.
 
 preparan la red,
 
-como paranceros* montan celada:
+como paranceros<span class="note-ref" data-ref="jr-5-26" title="Ver comentario">&#42;</span> montan celada:
 
 ¿y qué atrapan? ¡hombres!
 
@@ -1131,7 +1131,7 @@ se ha dado en la tierra:
 
 <sup>31</sup> los profetas profetizan infundios,
 
-mientras los sacerdotes aplauden*.
+mientras los sacerdotes aplauden<span class="note-ref" data-ref="jr-5-31" title="Ver comentario">&#42;</span>.
 
 ## Pero mi pueblo lo prefiere así.
 
@@ -1144,7 +1144,7 @@ huid de Jerusalén;
 
 tocad el cuerno en Técoa,
 
-izad una bandera en Bet Queren*,
+izad una bandera en Bet Queren<span class="note-ref" data-ref="jr-6-1" title="Ver comentario">&#42;</span>,
 
 que una desgracia amenaza del Norte
 
@@ -1164,7 +1164,7 @@ junto a ella en derredor,
 
 y apacienta cada cual su manada.
 
-<sup>4</sup> «¡Declaradle la guerra santa*!
+<sup>4</sup> «¡Declaradle la guerra santa<span class="note-ref" data-ref="jr-6-4" title="Ver comentario">&#42;</span>!
 
 ¡Venga, ataquemos a mediodía!
 
@@ -1182,7 +1182,7 @@ destruyamos sus alcázares!»
 
 alzad contra Jerusalén un terraplén.»
 
-Es la ciudad visitada*,
+Es la ciudad visitada<span class="note-ref" data-ref="jr-6-6" title="Ver comentario">&#42;</span>,
 
 todo repleta de opresión.
 
@@ -1206,7 +1206,7 @@ en tierra despoblada.
 
 Busca, rebusca como en una cepa
 
-al resto de Israel*;
+al resto de Israel<span class="note-ref" data-ref="jr-6-9" title="Ver comentario">&#42;</span>;
 
 pasa tu mano como el vendimiador,
 
@@ -1214,7 +1214,7 @@ rebuscando los pámpanos.
 
 <sup>10</sup> ¿A quién me puedo dirigir
 
-para intimarle a que me escuche*?
+para intimarle a que me escuche<span class="note-ref" data-ref="jr-6-10" title="Ver comentario">&#42;</span>?
 
 ¡Pero su oído es incircunciso,
 
@@ -1258,7 +1258,7 @@ todos practican el fraude.
 
 por encima, predicando: «¡Paz!»,
 
-cuando en realidad no había paz*.
+cuando en realidad no había paz<span class="note-ref" data-ref="jr-6-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> ¿Quedaron avergonzados
 
@@ -1278,7 +1278,7 @@ se tambalearán cuando yo los visite
 
 Paraos en los caminos y mirad,
 
-preguntad por los senderos antiguos*,
+preguntad por los senderos antiguos<span class="note-ref" data-ref="jr-6-16" title="Ver comentario">&#42;</span>,
 
 cuál es el buen camino, y andad por él,
 
@@ -1308,7 +1308,7 @@ por no atender a mis razones
 
 y haber despreciado mi ley.
 
-<sup>20</sup> ¿A qué traerme incienso de Seba*
+<sup>20</sup> ¿A qué traerme incienso de Seba<span class="note-ref" data-ref="jr-6-20" title="Ver comentario">&#42;</span>
 
 y canela fina de país remoto?
 
@@ -1372,7 +1372,7 @@ porque va a llegar en seguida
 
 el saqueador contra nosotros.
 
-<sup>27</sup> Te constituí en mi pueblo*
+<sup>27</sup> Te constituí en mi pueblo<span class="note-ref" data-ref="jr-6-27" title="Ver comentario">&#42;</span>
 
 como examinador sagaz,
 
@@ -1384,13 +1384,13 @@ y comprobaras su conducta.
 
 que andan difamando
 
-(bronce y hierro*);
+(bronce y hierro<span class="note-ref" data-ref="jr-6-28" title="Ver comentario">&#42;</span>);
 
 todos son degenerados.
 
 <sup>29</sup> Jadea el fuelle,
 
-el plomo se consume por el fuego*;
+el plomo se consume por el fuego<span class="note-ref" data-ref="jr-6-29" title="Ver comentario">&#42;</span>;
 
 en vano refina el fundidor,
 
@@ -1401,17 +1401,17 @@ pues la ganga no se desprende.
 porque Yahvé los desechó.
 
 # 2. ORÁCULOS PERTENECIENTES EN GENERAL A LA ÉPOCA DE JOAQUÍN
-## El culto auténtico *.
-## a)  Invectiva contra el Templo*.
+## El culto auténtico <span class="note-ref" data-ref="jr-7" title="Ver comentario">&#42;</span>.
+## a)  Invectiva contra el Templo<span class="note-ref" data-ref="jr-7" title="Ver comentario">&#42;</span>.
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Palabra que dirigió Yahvé a Jeremías: <sup>2</sup> «Ponte en la puerta del templo de Yahvé y predica esta palabra. Dirás: Oíd la palabra de Yahvé, todo Judá, los que entráis por estas puertas a postraros ante Yahvé. <sup>3</sup> Así dice Yahvé Sebaot, el Dios de Israel: Mejorad de conducta y de obras, y yo haré que os quedéis en este lugar. <sup>4</sup> No confiéis en palabras engañosas, diciendo: ‘¡Templo de Yahvé, Templo de Yahvé, éste es el Templo de Yahvé!’ <sup>5</sup> Porque si mejoráis realmente vuestra conducta y obras, si realmente hacéis justicia mutua <sup>6</sup> y no oprimís al forastero, al huérfano y a la viuda (y no vertéis sangre inocente en este lugar), ni andáis en pos de otros dioses para vuestro daño, <sup>7</sup> entonces yo me quedaré con vosotros en este lugar, en la tierra que di a vuestros antepasados desde siempre hasta siempre. <sup>8</sup> Pero resulta que vosotros confiáis en palabras engañosas que de nada sirven, <sup>9</sup> para robar, matar, adulterar, jurar en falso, incensar a Baal y seguir a otros dioses que no conocíais. <sup>10</sup> Luego venís y os paráis ante mí en este templo donde se invoca mi Nombre y decís: ‘¡Estamos seguros!’, para seguir haciendo todas esas abominaciones. <sup>11</sup> ¿Una cueva de bandidos se os antoja que lleva mi Nombre? ¡Para mí está claro! —oráculo de Yahvé—.
 
-<sup>12</sup> «Pues andad ahora a mi lugar de Siló*, donde aposenté mi Nombre antiguamente, y ved lo que hice con él por la maldad de mi pueblo Israel. <sup>13</sup> Y ahora, por haber hecho vosotros todo esto—oráculo de Yahvé—, por más que os hablé asiduamente, aunque no me oísteis, y os llamé, mas no respondisteis, <sup>14</sup> voy a hacer con el templo que lleva mi Nombre, en el que confiáis, y con el lugar que os di a vosotros y a vuestros padres, lo mismo que hice con Siló. <sup>15</sup> Os arrojaré de mi presencia como arrojé a todos vuestros hermanos, a toda la descendencia de Efraín.
+<sup>12</sup> «Pues andad ahora a mi lugar de Siló<span class="note-ref" data-ref="jr-7-12" title="Ver comentario">&#42;</span>, donde aposenté mi Nombre antiguamente, y ved lo que hice con él por la maldad de mi pueblo Israel. <sup>13</sup> Y ahora, por haber hecho vosotros todo esto—oráculo de Yahvé—, por más que os hablé asiduamente, aunque no me oísteis, y os llamé, mas no respondisteis, <sup>14</sup> voy a hacer con el templo que lleva mi Nombre, en el que confiáis, y con el lugar que os di a vosotros y a vuestros padres, lo mismo que hice con Siló. <sup>15</sup> Os arrojaré de mi presencia como arrojé a todos vuestros hermanos, a toda la descendencia de Efraín.
 
 ## b)  Dioses extraños.
-<sup>16</sup> «En cuanto a ti, no pidas por este pueblo ni eleves por ellos plegaria ni oración. No me insistas, porque no te escucharé. <sup>17</sup> ¿No ves lo que hacen en las ciudades de Judá y por las calles de Jerusalén? <sup>18</sup> Los hijos recogen leña, los padres prenden fuego, las mujeres amasan para hacer tortas a la Reina de los Cielos*, y se liba en honor de otros dioses para exasperarme. <sup>19</sup> ¿A mí me exasperan ésos? —oráculo de Yahvé—, ¿no es a sí mismos, para su sonrojo? <sup>20</sup> Por tanto, esto dice el Señor Yahvé: Mi ira y mi saña se van a volcar sobre este lugar, sobre hombres y bestias, sobre los árboles del campo y el fruto del suelo; arderá y no se apagará.»
+<sup>16</sup> «En cuanto a ti, no pidas por este pueblo ni eleves por ellos plegaria ni oración. No me insistas, porque no te escucharé. <sup>17</sup> ¿No ves lo que hacen en las ciudades de Judá y por las calles de Jerusalén? <sup>18</sup> Los hijos recogen leña, los padres prenden fuego, las mujeres amasan para hacer tortas a la Reina de los Cielos<span class="note-ref" data-ref="jr-7-18" title="Ver comentario">&#42;</span>, y se liba en honor de otros dioses para exasperarme. <sup>19</sup> ¿A mí me exasperan ésos? —oráculo de Yahvé—, ¿no es a sí mismos, para su sonrojo? <sup>20</sup> Por tanto, esto dice el Señor Yahvé: Mi ira y mi saña se van a volcar sobre este lugar, sobre hombres y bestias, sobre los árboles del campo y el fruto del suelo; arderá y no se apagará.»
 
 ## c)  Culto formalista.
-<sup>21</sup> Así dice Yahvé Sebaot, el Dios de Israel: «¡Venga, añadid vuestros holocaustos a vuestros sacrificios y comeos la carne! <sup>22</sup> Mirad, cuando yo saqué a vuestros padres de Egipto, nada les dije ni mandé sobre holocausto y sacrificio*. <sup>23</sup> Lo que les mandé fue esto otro: ‘Si escucháis mi voz, yo seré vuestro Dios y vosotros seréis mi pueblo, e iréis por donde yo os mande, para que os vaya bien.’ <sup>24</sup> Mas ellos no escucharon ni aplicaron el oído, sino que se guiaron por la pertinacia de sus malas intenciones. Se volvieron de espaldas, por no darme la cara. <sup>25</sup> Desde el día en que salieron vuestros padres del país de Egipto hasta el día de hoy, os envié a todos mis siervos, los profetas, cada día* puntualmente. <sup>26</sup> Pero no me escucharon ni aplicaron el oído, sino que atiesaron la cerviz y se hicieron peor que sus padres. <sup>27</sup> Les dirás, pues, todas estas palabras, mas no te escucharán. Los llamarás y no te responderán. <sup>28</sup> Entonces les dirás: Ésta es la nación que no ha escuchado la voz de Yahvé su Dios, ni ha querido aprender. Ha perecido la lealtad, ha desaparecido de su boca.»
+<sup>21</sup> Así dice Yahvé Sebaot, el Dios de Israel: «¡Venga, añadid vuestros holocaustos a vuestros sacrificios y comeos la carne! <sup>22</sup> Mirad, cuando yo saqué a vuestros padres de Egipto, nada les dije ni mandé sobre holocausto y sacrificio<span class="note-ref" data-ref="jr-7-22" title="Ver comentario">&#42;</span>. <sup>23</sup> Lo que les mandé fue esto otro: ‘Si escucháis mi voz, yo seré vuestro Dios y vosotros seréis mi pueblo, e iréis por donde yo os mande, para que os vaya bien.’ <sup>24</sup> Mas ellos no escucharon ni aplicaron el oído, sino que se guiaron por la pertinacia de sus malas intenciones. Se volvieron de espaldas, por no darme la cara. <sup>25</sup> Desde el día en que salieron vuestros padres del país de Egipto hasta el día de hoy, os envié a todos mis siervos, los profetas, cada día<span class="note-ref" data-ref="jr-7-25" title="Ver comentario">&#42;</span> puntualmente. <sup>26</sup> Pero no me escucharon ni aplicaron el oído, sino que atiesaron la cerviz y se hicieron peor que sus padres. <sup>27</sup> Les dirás, pues, todas estas palabras, mas no te escucharán. Los llamarás y no te responderán. <sup>28</sup> Entonces les dirás: Ésta es la nación que no ha escuchado la voz de Yahvé su Dios, ni ha querido aprender. Ha perecido la lealtad, ha desaparecido de su boca.»
 
 ## d)  Fragmento de una elegía.
 <sup>29</sup> Córtate tus guedejas y tíralas,
@@ -1423,11 +1423,11 @@ y entona por los calveros una elegía:
 a la generación objeto de su cólera!
 
 ## e) Prosigue el discurso.
-<sup>30</sup> Los hijos de Judá han hecho lo que me parece mal —oráculo de Yahvé—: han puesto sus monstruos abominables* en el templo que lleva mi Nombre, profanándolo, <sup>31</sup> y han construido los altos* de Tófet —que está en el valle de Ben Hinón— para quemar a sus hijos e hijas en el fuego, cosa que no les mandé ni me pasó por las mientes. <sup>32</sup> Por tanto, ved que vienen días —oráculo de Yahvé— en que no se hablará más de Tófet ni del Valle de Ben Hinón, sino del ‘Valle de la Matanza’. Se harán fosas comunes en Tófet, por falta de espacio, <sup>33</sup> y los cadáveres de este pueblo servirán de comida a las aves del cielo y a las bestias de la tierra, sin que haya quien las espante. <sup>34</sup> Suspenderé en las ciudades de Judá y en las calles de Jerusalén las voces de gozo y alegría, la voz del novio y la voz de la novia. ¡Todo el país quedará desolado!
+<sup>30</sup> Los hijos de Judá han hecho lo que me parece mal —oráculo de Yahvé—: han puesto sus monstruos abominables<span class="note-ref" data-ref="jr-7-30" title="Ver comentario">&#42;</span> en el templo que lleva mi Nombre, profanándolo, <sup>31</sup> y han construido los altos<span class="note-ref" data-ref="jr-7-31" title="Ver comentario">&#42;</span> de Tófet —que está en el valle de Ben Hinón— para quemar a sus hijos e hijas en el fuego, cosa que no les mandé ni me pasó por las mientes. <sup>32</sup> Por tanto, ved que vienen días —oráculo de Yahvé— en que no se hablará más de Tófet ni del Valle de Ben Hinón, sino del ‘Valle de la Matanza’. Se harán fosas comunes en Tófet, por falta de espacio, <sup>33</sup> y los cadáveres de este pueblo servirán de comida a las aves del cielo y a las bestias de la tierra, sin que haya quien las espante. <sup>34</sup> Suspenderé en las ciudades de Judá y en las calles de Jerusalén las voces de gozo y alegría, la voz del novio y la voz de la novia. ¡Todo el país quedará desolado!
 
-<span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> En aquel tiempo —oráculo de Yahvé— sacarán de sus tumbas los huesos de los reyes de Judá, los huesos de sus príncipes, los huesos de los sacerdotes, los huesos de los profetas y los huesos de los habitantes de Jerusalén. <sup>2</sup> Los dispersarán ante el sol, la luna y todo el ejército celeste a quienes amaron y sirvieron, a quienes siguieron, consultaron y adoraron*. Y no volverán a ser recogidos ni sepultados: servirán de estiércol para el campo. <sup>3</sup> Y todo lo que quede de este linaje perverso, adondequiera* que yo los relegue, preferirán la muerte a la vida —oráculo de Yahvé Sebaot—.
+<span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> En aquel tiempo —oráculo de Yahvé— sacarán de sus tumbas los huesos de los reyes de Judá, los huesos de sus príncipes, los huesos de los sacerdotes, los huesos de los profetas y los huesos de los habitantes de Jerusalén. <sup>2</sup> Los dispersarán ante el sol, la luna y todo el ejército celeste a quienes amaron y sirvieron, a quienes siguieron, consultaron y adoraron<span class="note-ref" data-ref="jr-8-2" title="Ver comentario">&#42;</span>. Y no volverán a ser recogidos ni sepultados: servirán de estiércol para el campo. <sup>3</sup> Y todo lo que quede de este linaje perverso, adondequiera<span class="note-ref" data-ref="jr-8-3" title="Ver comentario">&#42;</span> que yo los relegue, preferirán la muerte a la vida —oráculo de Yahvé Sebaot—.
 
-## Amenazas, lamentaciones, avisos*.
+## Amenazas, lamentaciones, avisos<span class="note-ref" data-ref="jr-8-4" title="Ver comentario">&#42;</span>.
 ## Extravío de Israel.
 <sup>4</sup> Les dirás: Esto dice Yahvé:
 
@@ -1474,7 +1474,7 @@ poseemos la Ley de Yahvé»,
 
 cuando es más cierto que la falsea
 
-el cálamo mendaz de los escribas*?
+el cálamo mendaz de los escribas<span class="note-ref" data-ref="jr-8-8" title="Ver comentario">&#42;</span>?
 
 <sup>9</sup> Los sabios quedarán avergonzados,
 
@@ -1484,7 +1484,7 @@ Desechan la palabra de Yahvé,
 
 ¿pero de qué les sirve su sabiduría?
 
-## Repetición de un fragmento conminatorio*.
+## Repetición de un fragmento conminatorio<span class="note-ref" data-ref="jr-8-10" title="Ver comentario">&#42;</span>.
 <sup>10</sup> Así que daré sus mujeres a otros,
 
 sus campos a nuevos amos,
@@ -1518,7 +1518,7 @@ se tambalearán cuando yo los visite
 —dice Yahvé—.
 
 ## Conminación a Judá, la Viña de Yahvé.
-<sup>13</sup> Quisiera recoger de ellos algo*
+<sup>13</sup> Quisiera recoger de ellos algo<span class="note-ref" data-ref="jr-8-13" title="Ver comentario">&#42;</span>
 
 —oráculo de Yahvé—,
 
@@ -1532,11 +1532,11 @@ y están mustias sus hojas.
 
 <sup>14</sup> —«¿Qué hacemos tan tranquilos?
 
-¡Juntémonos,* vayamos
+¡Juntémonos,<span class="note-ref" data-ref="jr-8-14-a" title="Ver comentario">&#42;</span> vayamos
 
 a las plazas fuertes
 
-para enmudecer allí,*
+para enmudecer allí,<span class="note-ref" data-ref="jr-8-14-b" title="Ver comentario">&#42;</span>
 
 pues es Yahvé nuestro Dios
 
@@ -1575,7 +1575,7 @@ para que os muerdan!
 —oráculo de Yahvé—.
 
 ## Lamentación del profeta con motivo de una carestía.
-<sup>18</sup> Sin remedio el dolor me acomete*,
+<sup>18</sup> Sin remedio el dolor me acomete<span class="note-ref" data-ref="jr-8-18" title="Ver comentario">&#42;</span>,
 
 el corazón me falla;
 
@@ -1591,7 +1591,7 @@ desde todos los rincones del país:
 
 (¿Por qué me irritaron con sus ídolos,
 
-con esas Vanidades extranjeras?)*
+con esas Vanidades extranjeras?)<span class="note-ref" data-ref="jr-8-19" title="Ver comentario">&#42;</span>
 
 <sup>20</sup> La siega pasó, el verano acabó,
 
@@ -1599,13 +1599,13 @@ mas nosotros no estamos a salvo.»
 
 <sup>21</sup> Me duele el quebranto
 
-de la capital de mi pueblo;*
+de la capital de mi pueblo;<span class="note-ref" data-ref="jr-8-21" title="Ver comentario">&#42;</span>
 
 estoy abrumado,
 
 el pánico se apodera de mí.
 
-<sup>22</sup> ¿No hay sandáraca en Galaad*?,
+<sup>22</sup> ¿No hay sandáraca en Galaad<span class="note-ref" data-ref="jr-8-22" title="Ver comentario">&#42;</span>?,
 
 ¿no quedan médicos allí?
 
@@ -1644,13 +1644,13 @@ lo que prevalece en esta tierra.
 
 Van de mal en peor,
 
-y a Yahvé* desconocen.
+y a Yahvé<span class="note-ref" data-ref="jr-9-2" title="Ver comentario">&#42;</span> desconocen.
 
 <sup>3</sup> ¡Guardaos de vuestros prójimos!,
 
 ¡desconfiad de cualquier hermano!,
 
-que todo hermano pone la zancadilla*
+que todo hermano pone la zancadilla<span class="note-ref" data-ref="jr-9-3" title="Ver comentario">&#42;</span>
 
 y todo prójimo propala la calumnia.
 
@@ -1662,7 +1662,7 @@ han avezado sus lenguas a mentir,
 
 se han pervertido
 
-<sup>5</sup> de convertirse)*.
+<sup>5</sup> de convertirse)<span class="note-ref" data-ref="jr-9-5" title="Ver comentario">&#42;</span>.
 
 Fraude y más fraude,
 
@@ -1703,7 +1703,7 @@ endechas y lamentos,
 
 una elegía por las dehesas del desierto,
 
-porque han sido incendiadas*.
+porque han sido incendiadas<span class="note-ref" data-ref="jr-9-9" title="Ver comentario">&#42;</span>.
 
 Nadie pasa por allí,
 
@@ -1810,11 +1810,11 @@ ni se alabe el rico por su riqueza.
 
 <sup>23</sup> Quien se alabe, que se alabe en esto:
 
-en tener entendimiento y conocerme*,
+en tener entendimiento y conocerme<span class="note-ref" data-ref="jr-9-23-a" title="Ver comentario">&#42;</span>,
 
 porque yo soy Yahvé,
 
-que practico la fidelidad*,
+que practico la fidelidad<span class="note-ref" data-ref="jr-9-23-b" title="Ver comentario">&#42;</span>,
 
 el derecho y la justicia en la tierra,
 
@@ -1823,9 +1823,9 @@ porque en eso me complazco
 —oráculo de Yahvé—.
 
 ## La circuncisión, falsa garantía.
-<sup>24</sup> Mirad que vienen días —oráculo de Yahvé— en que voy a pedir cuentas a todos los que están circuncidados: <sup>25</sup> a Egipto, Judá, Edom y a los hijos de Amón, a Moab, y a todos los de sien rapada*, los que moran en el desierto. Porque todas estas gentes lo son*. Pero también los de la Casa de Israel son incircuncisos de corazón.
+<sup>24</sup> Mirad que vienen días —oráculo de Yahvé— en que voy a pedir cuentas a todos los que están circuncidados: <sup>25</sup> a Egipto, Judá, Edom y a los hijos de Amón, a Moab, y a todos los de sien rapada<span class="note-ref" data-ref="jr-9-25-a" title="Ver comentario">&#42;</span>, los que moran en el desierto. Porque todas estas gentes lo son<span class="note-ref" data-ref="jr-9-25-b" title="Ver comentario">&#42;</span>. Pero también los de la Casa de Israel son incircuncisos de corazón.
 
-## Los ídolos y el Dios verdadero *.
+## Los ídolos y el Dios verdadero <span class="note-ref" data-ref="jr-10" title="Ver comentario">&#42;</span>.
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Oíd la palabra que os dedica Yahvé, Casa de Israel. <sup>2</sup> Esto dice Yahvé:
 
 No sigáis el proceder de los paganos,
@@ -1834,7 +1834,7 @@ ni de los signos celestes os espantéis.
 
 ¡Que se espanten de ellos los paganos!
 
-<sup>3</sup> Las costumbres* de esos pueblos
+<sup>3</sup> Las costumbres<span class="note-ref" data-ref="jr-10-3" title="Ver comentario">&#42;</span> de esos pueblos
 
 son vanidad:
 
@@ -1886,7 +1886,7 @@ adoctrinados por ídolos de madera,
 
 <sup>9</sup> de plata laminada traída de Tarsis,
 
-o de oro importado de Ofir*;
+o de oro importado de Ofir<span class="note-ref" data-ref="jr-10-9" title="Ver comentario">&#42;</span>;
 
 obra de orfebres y fundidores
 
@@ -1945,7 +1945,7 @@ aquel cuyo heredero es Israel;
 ## Pánico en el país.
 <sup>17</sup> Recoge del suelo tu mercancía,
 
-tú, que estás sitiada*,
+tú, que estás sitiada<span class="note-ref" data-ref="jr-10-17" title="Ver comentario">&#42;</span>,
 
 <sup>18</sup> porque esto dice Yahvé:
 
@@ -1957,9 +1957,9 @@ a los moradores del país
 
 y hundirlos en la angustia,
 
-de modo que den conmigo*.
+de modo que den conmigo<span class="note-ref" data-ref="jr-10-18" title="Ver comentario">&#42;</span>.
 
-<sup>19</sup> —«¡Ay de mí*, qué quebranto!,
+<sup>19</sup> —«¡Ay de mí<span class="note-ref" data-ref="jr-10-19" title="Ver comentario">&#42;</span>, qué quebranto!,
 
 ¡cómo me duele la herida!
 
@@ -2025,7 +2025,7 @@ lo han devorado,
 
 su mansión han desolado.
 
-## Jeremías y las cláusulas de la Alianza *.
+## Jeremías y las cláusulas de la Alianza <span class="note-ref" data-ref="jr-11" title="Ver comentario">&#42;</span>.
 <span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Palabra que llegó de parte de Yahvé a Jeremías: <sup>2</sup> Oíd los términos de esta alianza y hablad a los hombres de Judá y a los habitantes de Jerusalén. <sup>3</sup> Diles: Esto dice Yahvé, el Dios de Israel: Maldito el varón que no escuche los términos de esta alianza <sup>4</sup> que establecí con vuestros padres el día que los saqué de Egipto, del crisol de hierro, cuando les dije: «Oíd mi voz y obrad conforme a lo que os he mandado; y así seréis mi pueblo, y yo seré vuestro Dios, <sup>5</sup> en orden a cumplir el juramento que hice a vuestros padres, de darles una tierra que mana leche y miel —como se cumple hoy—.» Respondí y dije: ¡Amén, Yahvé! <sup>6</sup> Y me dijo Yahvé: Pregona todas estas palabras por las ciudades de Judá y por las calles de Jerusalén: «Oíd los términos de esta alianza y cumplidlos: <sup>7</sup> que bien advertí a vuestros padres el día que los hice subir de Egipto, y hasta la fecha he insistido en advertírselo: ¡Oíd mi voz! <sup>8</sup> Mas no oyeron ni aplicaron el oído, sino que cada cual procedió según la terquedad de su perverso corazón. Y así he aplicado contra ellos todos los términos de dicha alianza que les mandé cumplir y no lo hicieron.»
 
 <sup>9</sup> Me dijo Yahvé: Se ha descubierto una conjura entre los hombres de Judá y entre los habitantes de Jerusalén. <sup>10</sup> Han reincidido en las culpas de sus mayores, que rehusaron escuchar mis palabras: se han ido en pos de otros dioses para servirles; han violado la Casa de Israel y la Casa de Judá mi alianza, que pacté con sus padres. <sup>11</sup> Por tanto, esto dice Yahvé: Voy a traerles una desgracia a la que no podrán hurtarse; y aunque se me quejaren, no les oiré. <sup>12</sup> ¡Que vayan las ciudades de Judá y los moradores de Jerusalén, y que se quejen a los dioses a quienes inciensan!, que lo que es salvarlos, no los salvarán al tiempo de su desgracia.
@@ -2042,7 +2042,7 @@ otros tantos altares hay de Baal.
 
 <sup>14</sup> En cuanto a ti, no pidas por este pueblo, ni eleves por ellos plegaria ni oración, porque no he de oír cuando clamen a mí por su desgracia.
 
-## Reproche a los hipócritas frecuentadores del templo *.
+## Reproche a los hipócritas frecuentadores del templo <span class="note-ref" data-ref="jr-11-15-a" title="Ver comentario">&#42;</span>.
 <sup>15</sup> ¿Qué hace mi amada en mi templo?;
 
 ¿no es pura doblez su conducta?
@@ -2051,7 +2051,7 @@ otros tantos altares hay de Baal.
 
 y la carne consagrada
 
-podrán librarte de tu desgracia*?
+podrán librarte de tu desgracia<span class="note-ref" data-ref="jr-11-15-b" title="Ver comentario">&#42;</span>?
 
 ## Entonces sí que te regocijarías.
 
@@ -2069,8 +2069,8 @@ y se han quemado sus guías.
 
 <sup>17</sup> Yahvé Sebaot, que te plantó, te ha sentenciado, dada la maldad que ha cometido la Casa de Israel y la Casa de Judá, exasperándome por incensar a Baal.
 
-## Jeremías perseguido en Anatot *.
-<sup>18</sup> Yahvé me lo hizo saber, y así lo supe. Entonces me descubriste, Yahvé, sus intrigas.<sup>19</sup> ¡Y yo que estaba como cordero manso llevado al matadero, sin saber que intrigaban contra mí!: «Destruyamos el árbol en su vigor*; borrémoslo de la tierra de los vivos, y su nombre no vuelva a mentarse.»
+## Jeremías perseguido en Anatot <span class="note-ref" data-ref="jr-11-18" title="Ver comentario">&#42;</span>.
+<sup>18</sup> Yahvé me lo hizo saber, y así lo supe. Entonces me descubriste, Yahvé, sus intrigas.<sup>19</sup> ¡Y yo que estaba como cordero manso llevado al matadero, sin saber que intrigaban contra mí!: «Destruyamos el árbol en su vigor<span class="note-ref" data-ref="jr-11-19" title="Ver comentario">&#42;</span>; borrémoslo de la tierra de los vivos, y su nombre no vuelva a mentarse.»
 
 <sup>20</sup> ¡Oh Yahvé Sebaot, juez de lo justo,
 
@@ -2080,9 +2080,9 @@ vea yo tu venganza contra ellos,
 
 porque a ti he manifestado mi causa.
 
-<sup>21</sup> Y en efecto, así dice Yahvé tocante a los de Anatot, que buscan mi muerte* cuando dicen: «No profetices en nombre de Yahvé, y no morirás a nuestras manos». <sup>22</sup> Por tanto, esto dice Yahvé Sebaot: He decidido tomarles cuentas. Sus mancebos morirán por la espada, sus hijos e hijas morirán de hambre, <sup>23</sup> y no quedará de ellos ni reliquia cuando yo traiga la desgracia a los de Anatot, el año en que venga a castigarlos.
+<sup>21</sup> Y en efecto, así dice Yahvé tocante a los de Anatot, que buscan mi muerte<span class="note-ref" data-ref="jr-11-21" title="Ver comentario">&#42;</span> cuando dicen: «No profetices en nombre de Yahvé, y no morirás a nuestras manos». <sup>22</sup> Por tanto, esto dice Yahvé Sebaot: He decidido tomarles cuentas. Sus mancebos morirán por la espada, sus hijos e hijas morirán de hambre, <sup>23</sup> y no quedará de ellos ni reliquia cuando yo traiga la desgracia a los de Anatot, el año en que venga a castigarlos.
 
-## El problema de la dicha de los malos *.
+## El problema de la dicha de los malos <span class="note-ref" data-ref="jr-12" title="Ver comentario">&#42;</span>.
 <span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Tú llevas la razón, Yahvé,
 
 cuando discuto contigo;
@@ -2125,7 +2125,7 @@ desaparecieron bestias y aves.)
 
 Porque han dicho:
 
-«No ve Dios nuestro proceder*.»
+«No ve Dios nuestro proceder<span class="note-ref" data-ref="jr-12-4" title="Ver comentario">&#42;</span>.»
 
 <sup>5</sup> —Si con los de a pie corres y te cansas,
 
@@ -2133,7 +2133,7 @@ Porque han dicho:
 
 En campo abierto te sientes seguro,
 
-mas, ¿qué harás en la maleza* del Jordán?
+mas, ¿qué harás en la maleza<span class="note-ref" data-ref="jr-12-5" title="Ver comentario">&#42;</span> del Jordán?
 
 <sup>6</sup> Tus hermanos y parientes
 
@@ -2164,7 +2164,7 @@ por eso la aborrecí.
 
 <sup>9</sup> Mi heredad es un pájaro pinto,
 
-las rapaces se ciernen sobre ella*.
+las rapaces se ciernen sobre ella<span class="note-ref" data-ref="jr-12-9" title="Ver comentario">&#42;</span>.
 
 ¡Andad, juntaos,
 
@@ -2182,7 +2182,7 @@ trocaron mi mejor campo
 
 en un yermo desolado.
 
-<sup>11</sup> La convirtieron* en desolación
+<sup>11</sup> La convirtieron<span class="note-ref" data-ref="jr-12-11" title="Ver comentario">&#42;</span> en desolación
 
 y se duele desolada ante mí;
 
@@ -2206,18 +2206,18 @@ de un cabo al otro de la tierra.
 
 se afanaron sin provecho.
 
-Quedaron frustrados por sus cosechas*,
+Quedaron frustrados por sus cosechas<span class="note-ref" data-ref="jr-12-13" title="Ver comentario">&#42;</span>,
 
 por causa de la ira ardiente de Yahvé.
 
 ## Juicio y salvación de los pueblos vecinos.
 <sup>14</sup> Esto dice Yahvé: En cuanto a todos los malos vecinos que han tocado la heredad que di como predio a mi pueblo Israel, he decidido arrancarlos de su solar. (Y a la Casa de Judá voy a arrancarla de en medio de ellos.) <sup>15</sup> Pero luego de haberlos arrancado, me volveré y les tendré lástima, y los haré retornar, cada cual a su heredad y a su tierra. <sup>16</sup> Y entonces, si de veras aprenden la costumbre de mi pueblo de jurar en mi Nombre: «¡Por vida de Yahvé!» —lo mismo que ellos enseñaron a mi pueblo a jurar por Baal—, serán establecidos en medio de mi pueblo. <sup>17</sup> Mas si no obedecen, arrancaré a aquella gente; arrancada quedará y la haré perecer —oráculo de Yahvé—.
 
-## La faja en el río Éufrates*.
+## La faja en el río Éufrates<span class="note-ref" data-ref="jr-13" title="Ver comentario">&#42;</span>.
 <span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Yahvé me dijo así: «Anda y cómprate una faja de lino y te la pones a la cintura, pero no la metas en agua.» <sup>2</sup> Compré la faja, según la orden de Yahvé, y me la puse a la cintura. <sup>3</sup> Entonces me dirigió Yahvé la palabra por segunda vez: <sup>4</sup> «Toma la faja que has comprado y que llevas a la cintura, ponte en camino y vete al Éufrates; y allí la escondes en un resquicio de la peña.» <sup>5</sup> Yo fui y la escondí en el Éufrates como me había mandado Yahvé. <sup>6</sup> Al cabo de mucho tiempo me dijo Yahvé: «Ponte en camino, vete al Éufrates y recoge la faja que te mandé que escondieras allí.» <sup>7</sup> Yo fui al Éufrates, cavé, recogí la faja del sitio donde la había escondido y resulta que se había echado a perder la faja: no valía para nada. <sup>8</sup> Entonces me dirigió Yahvé la palabra en estos términos: <sup>9</sup> «Esto dice Yahvé: Del mismo modo echaré a perder la mucha soberbia de Judá y de Jerusalén. <sup>10</sup> Ese pueblo malo que rehúsa oír mis palabras, que caminan según la terquedad de sus corazones y han ido en pos de otros dioses a servirles y adorarles, serán como esta faja que no vale para nada. <sup>11</sup> Porque así como se pega la faja a la cintura de uno, de igual modo hice apegarse a mí a toda la Casa de Israel y a toda la Casa de Judá —oráculo de Yahvé—, con idea de que fuesen mi pueblo, mi nombradía, mi loor y mi prez, pero ellos no me oyeron.
 
 ## Los cántaros estrellados.
-<sup>12</sup> Diles este refrán: Esto dice Yahvé, el Dios de Israel: «Todo cántaro se puede llenar de vino.» Ellos te dirán*: «¿No sabemos de sobra que todo cántaro se puede llenar de vino?» <sup>13</sup> Entonces les dices: «Pues así dice Yahvé: He decidido emborrachar completamente a todos los habitantes de esta tierra, a los reyes sucesores de David en el trono, a los sacerdotes y profetas y a todos los habitantes de Jerusalén, <sup>14</sup> y los estrellaré, a cada cual contra su hermano, padres e hijos a una —oráculo de Yahvé—, sin que piedad, compasión y lástima me impidan destruirlos.»
+<sup>12</sup> Diles este refrán: Esto dice Yahvé, el Dios de Israel: «Todo cántaro se puede llenar de vino.» Ellos te dirán<span class="note-ref" data-ref="jr-13-12" title="Ver comentario">&#42;</span>: «¿No sabemos de sobra que todo cántaro se puede llenar de vino?» <sup>13</sup> Entonces les dices: «Pues así dice Yahvé: He decidido emborrachar completamente a todos los habitantes de esta tierra, a los reyes sucesores de David en el trono, a los sacerdotes y profetas y a todos los habitantes de Jerusalén, <sup>14</sup> y los estrellaré, a cada cual contra su hermano, padres e hijos a una —oráculo de Yahvé—, sin que piedad, compasión y lástima me impidan destruirlos.»
 
 ## Perspectivas de destierro.
 <sup>15</sup> Oíd y escuchad, no seáis altaneros,
@@ -2248,7 +2248,7 @@ verterán copioso llanto,
 
 porque va cautiva la grey de Yahvé.
 
-## Conminación al rey Jeconías*.
+## Conminación al rey Jeconías<span class="note-ref" data-ref="jr-13-18" title="Ver comentario">&#42;</span>.
 <sup>18</sup> Di al rey y a la Gran Dama:
 
 Humillaos, sentaos,
@@ -2257,7 +2257,7 @@ porque ha caído de vuestras cabezas
 
 vuestra diadema preciosa.
 
-<sup>19</sup> Las ciudades del Negueb están cercadas*,
+<sup>19</sup> Las ciudades del Negueb están cercadas<span class="note-ref" data-ref="jr-13-19" title="Ver comentario">&#42;</span>,
 
 y no hay quien las abra.
 
@@ -2266,7 +2266,7 @@ Todo Judá es deportado,
 deportado en masa.
 
 ## Aviso a Jerusalén impenitente.
-<sup>20</sup> Alza tus ojos, Jerusalén*,
+<sup>20</sup> Alza tus ojos, Jerusalén<span class="note-ref" data-ref="jr-13-20" title="Ver comentario">&#42;</span>,
 
 mira a los que vienen del Norte.
 
@@ -2280,7 +2280,7 @@ a castigar a tus cabecillas,
 
 a los que habías preparado
 
-para que fueran tus jefes?*
+para que fueran tus jefes?<span class="note-ref" data-ref="jr-13-21" title="Ver comentario">&#42;</span>
 
 ¿No te acometerán dolores
 
@@ -2294,7 +2294,7 @@ Debido a tus muchos pecados,
 
 te han alzado las faldas
 
-y han forzado tus calcañales*.
+y han forzado tus calcañales<span class="note-ref" data-ref="jr-13-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> ¿Muda el cusita su piel,
 
@@ -2304,7 +2304,7 @@ o el leopardo sus pintas?
 
 los avezados al mal?
 
-<sup>24</sup> Por eso os* esparcí como tamo
+<sup>24</sup> Por eso os<span class="note-ref" data-ref="jr-13-24" title="Ver comentario">&#42;</span> esparcí como tamo
 
 al viento de la estepa.
 
@@ -2330,18 +2330,18 @@ la bajeza de tu prostitución!
 
 Sobre los altos, por la campiña
 
-he visto tus Monstruos abominables*.
+he visto tus Monstruos abominables<span class="note-ref" data-ref="jr-13-27" title="Ver comentario">&#42;</span>.
 
 ¡Ay de ti, Jerusalén, que no estás pura!
 
 ¿Hasta cuándo todavía...?
 
-## La gran sequía *.
+## La gran sequía <span class="note-ref" data-ref="jr-14" title="Ver comentario">&#42;</span>.
 <span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Palabra de Yahvé a Jeremías, a propósito de la sequía.
 
 <sup>2</sup> Judá está de luto,
 
-sus ciudades* desfallecen
+sus ciudades<span class="note-ref" data-ref="jr-14-2" title="Ver comentario">&#42;</span> desfallecen
 
 sombrías y abatidas.
 
@@ -2395,7 +2395,7 @@ Son muchas nuestras apostasías,
 
 contra ti hemos pecado.
 
-<sup>8</sup> ¡Oh esperanza de Israel, Yahvé*,
+<sup>8</sup> ¡Oh esperanza de Israel, Yahvé<span class="note-ref" data-ref="jr-14-8" title="Ver comentario">&#42;</span>,
 
 Salvador suyo en tiempo de angustia!
 
@@ -2427,7 +2427,7 @@ y por tu Nombre se nos llama,
 
 <sup>14</sup> Me respondió Yahvé: «Mentira profetizan esos profetas en mi nombre. Yo no los he enviado ni dado instrucciones, ni les he hablado. Visión mentirosa, augurio fútil y delirio de sus mentes os dan por profecía. <sup>15</sup> Por tanto, esto dice Yahvé: Tocante a los profetas que profetizan en mi nombre sin haberlos enviado yo, y que dicen: ‘No habrá espada ni hambre en este país’, con espada y con hambre serán rematados los tales profetas, <sup>16</sup> y el pueblo al que profetizan aparecerá tirado por las calles de Jerusalén, por causa del hambre y de la espada, y no habrá sepulturero para ellos ni para sus mujeres, sus hijos y sus hijas; pues volcaré sobre ellos mismos su maldad.»
 
-<sup>17</sup> Les dirás esta palabra*:
+<sup>17</sup> Les dirás esta palabra<span class="note-ref" data-ref="jr-14-17" title="Ver comentario">&#42;</span>:
 
 Dejen caer mis ojos lágrimas
 
@@ -2471,7 +2471,7 @@ Yahvé, la culpa de nuestros padres:
 
 <sup>21</sup> No nos desprecies, por tu Nombre,
 
-no deshonres la sede de tu Gloria*.
+no deshonres la sede de tu Gloria<span class="note-ref" data-ref="jr-14-21" title="Ver comentario">&#42;</span>.
 
 Recuerda, no anules
 
@@ -2491,7 +2491,7 @@ dan de suyo la llovizna?
 
 porque tú hiciste todas estas cosas!
 
-<span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Me dijo Yahvé: Aunque se me pongan Moisés y Samuel* por delante, no estará mi corazón por este pueblo. Échalos de mi presencia y que salgan. <sup>2</sup> Y si te dicen: «¿A dónde salimos?», les respondes: Así dice Yahvé:
+<span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Me dijo Yahvé: Aunque se me pongan Moisés y Samuel<span class="note-ref" data-ref="jr-15-1" title="Ver comentario">&#42;</span> por delante, no estará mi corazón por este pueblo. Échalos de mi presencia y que salgan. <sup>2</sup> Y si te dicen: «¿A dónde salimos?», les respondes: Así dice Yahvé:
 
 Quien sea para la muerte, a la muerte;
 
@@ -2501,9 +2501,9 @@ quien para el hambre, al hambre;
 
 quien para el cautiverio, al cautiverio.
 
-<sup>3</sup> Haré que se encarguen de ellos cuatro géneros (de males) —oráculo de Yahvé—: la espada para degollar, los perros para despedazar, las aves del cielo y las bestias terrestres para devorar y estragar. <sup>4</sup> Los convertiré en espantajo para todos los reinos de la tierra, por culpa de Manasés*, hijo de Ezequías, rey de Judá, por lo que hizo en Jerusalén.
+<sup>3</sup> Haré que se encarguen de ellos cuatro géneros (de males) —oráculo de Yahvé—: la espada para degollar, los perros para despedazar, las aves del cielo y las bestias terrestres para devorar y estragar. <sup>4</sup> Los convertiré en espantajo para todos los reinos de la tierra, por culpa de Manasés<span class="note-ref" data-ref="jr-15-4" title="Ver comentario">&#42;</span>, hijo de Ezequías, rey de Judá, por lo que hizo en Jerusalén.
 
-## Desastres de la guerra*.
+## Desastres de la guerra<span class="note-ref" data-ref="jr-15-5" title="Ver comentario">&#42;</span>.
 <sup>5</sup> ¿Quién te compadecerá Jerusalén?,
 
 ¿quién meneará la cabeza por ti?,
@@ -2562,7 +2562,7 @@ que blanden sus enemigos
 
 —oráculo de Yahvé—.
 
-## La vocación del profeta renovada *.
+## La vocación del profeta renovada <span class="note-ref" data-ref="jr-15-10" title="Ver comentario">&#42;</span>.
 <sup>10</sup> ¡Ay de mí, madre mía,
 
 que me diste a luz para ser
@@ -2579,9 +2579,9 @@ Ni les debo, ni me deben,
 
 intercedí ante ti por mis enemigos
 
-en el tiempo de su mal y de su apuro*.
+en el tiempo de su mal y de su apuro<span class="note-ref" data-ref="jr-15-11" title="Ver comentario">&#42;</span>.
 
-<sup>12</sup> ¿Se mella el hierro*,
+<sup>12</sup> ¿Se mella el hierro<span class="note-ref" data-ref="jr-15-12" title="Ver comentario">&#42;</span>,
 
 el hierro del Norte, y el bronce?
 
@@ -2593,7 +2593,7 @@ por todos tus pecados cometidos
 
 dentro de tus fronteras,
 
-<sup>14</sup> y te haré esclavo* de tus enemigos
+<sup>14</sup> y te haré esclavo<span class="note-ref" data-ref="jr-15-14" title="Ver comentario">&#42;</span> de tus enemigos
 
 en un país que no conoces,
 
@@ -2619,13 +2619,13 @@ era tu palabra para mí
 
 gozo y alegría del corazón,
 
-pues  era reconocido por tu Nombre*:
+pues  era reconocido por tu Nombre<span class="note-ref" data-ref="jr-15-16" title="Ver comentario">&#42;</span>:
 
 ## Yahvé, Dios Sebaot.
 
 <sup>17</sup> Nunca me mezclé con gente
 
-alegre*, amiga de la juerga.
+alegre<span class="note-ref" data-ref="jr-15-17" title="Ver comentario">&#42;</span>, amiga de la juerga.
 
 Por voluntad tuya anduve solitario,
 
@@ -2645,7 +2645,7 @@ lo mismo que aguas movedizas!
 
 <sup>19</sup> Entonces Yahvé me dijo:
 
-Si vuelves porque yo te haga volver*,
+Si vuelves porque yo te haga volver<span class="note-ref" data-ref="jr-15-19" title="Ver comentario">&#42;</span>,
 
 estarás en mi presencia;
 
@@ -2675,22 +2675,22 @@ para librarte y salvarte
 
 te libraré del puño de esos violentos.
 
-## Simbolismo de la vida del profeta*.
-<span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> Me dirigió Yahvé la palabra en estos términos: <sup>2</sup> No tomes mujer ni tengas hijos ni hijas en este lugar. <sup>3</sup> Que así dice Yahvé de los hijos e hijas nacidos en este lugar, de sus madres que los dieron a luz y de sus padres que los engendraron en esta tierra: <sup>4</sup> De muertes miserables morirán, sin que sean plañidos ni sepultados*. Se volverán estiércol para abonar el campo. La espada y el hambre acabarán con ellos, y sus cadáveres servirán de pasto a las aves del cielo y a las bestias de la tierra.
+## Simbolismo de la vida del profeta<span class="note-ref" data-ref="jr-16" title="Ver comentario">&#42;</span>.
+<span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> Me dirigió Yahvé la palabra en estos términos: <sup>2</sup> No tomes mujer ni tengas hijos ni hijas en este lugar. <sup>3</sup> Que así dice Yahvé de los hijos e hijas nacidos en este lugar, de sus madres que los dieron a luz y de sus padres que los engendraron en esta tierra: <sup>4</sup> De muertes miserables morirán, sin que sean plañidos ni sepultados<span class="note-ref" data-ref="jr-16-4" title="Ver comentario">&#42;</span>. Se volverán estiércol para abonar el campo. La espada y el hambre acabarán con ellos, y sus cadáveres servirán de pasto a las aves del cielo y a las bestias de la tierra.
 
-<sup>5</sup> Sí, esto dice Yahvé: No entres en casa de duelo, ni vayas a plañir, ni les consueles; pues he retirado mi paz de este pueblo —oráculo de Yahvé—, la merced y la compasión. <sup>6</sup> Morirán grandes y chicos en esta tierra. No se les sepultará, ni nadie les plañirá, ni se arañarán ni se raparán por ellos*, <sup>7</sup> ni se partirá el pan al que está de luto* para consolarle por el muerto, ni le darán a beber la taza consolatoria por su padre o por su madre.
+<sup>5</sup> Sí, esto dice Yahvé: No entres en casa de duelo, ni vayas a plañir, ni les consueles; pues he retirado mi paz de este pueblo —oráculo de Yahvé—, la merced y la compasión. <sup>6</sup> Morirán grandes y chicos en esta tierra. No se les sepultará, ni nadie les plañirá, ni se arañarán ni se raparán por ellos<span class="note-ref" data-ref="jr-16-6" title="Ver comentario">&#42;</span>, <sup>7</sup> ni se partirá el pan al que está de luto<span class="note-ref" data-ref="jr-16-7" title="Ver comentario">&#42;</span> para consolarle por el muerto, ni le darán a beber la taza consolatoria por su padre o por su madre.
 
 <sup>8</sup> No entres en casa donde celebren algo, a comer y beber con los comensales. <sup>9</sup> Que así habla Yahvé Sebaot, Dios de Israel: He decidido hacer desaparecer de este lugar, a vuestros propios ojos y en vuestros días, toda voz de gozo y alegría, la voz del novio y la voz de la novia.
 
-<sup>10</sup> Luego, cuando hayas comunicado a este pueblo todas estas palabras, te dirán: «¿Por qué ha pronunciado Yahvé contra nosotros toda esta gran desgracia?, ¿cuál es nuestra culpa, y qué pecado hemos cometido contra Yahvé nuestro Dios?» <sup>11</sup> Y tú responderás: «Es porque me dejaron vuestros padres —oráculo de Yahvé— y se fueron tras otros dioses para servirles y adorarles; a mí, en cambio, me dejaron y mi Ley no guardaron. <sup>12</sup> Vosotros mismos habéis hecho peor que vuestros padres, pues cada cual sigue los dictados de su obstinado corazón, y os negáis a escucharme. <sup>13</sup> Pero yo os echaré lejos de esta tierra, a otra que no habéis conocido vosotros ni vuestros padres, y serviréis allí a otros dioses* día y noche, pues no os otorgaré mi perdón.»
+<sup>10</sup> Luego, cuando hayas comunicado a este pueblo todas estas palabras, te dirán: «¿Por qué ha pronunciado Yahvé contra nosotros toda esta gran desgracia?, ¿cuál es nuestra culpa, y qué pecado hemos cometido contra Yahvé nuestro Dios?» <sup>11</sup> Y tú responderás: «Es porque me dejaron vuestros padres —oráculo de Yahvé— y se fueron tras otros dioses para servirles y adorarles; a mí, en cambio, me dejaron y mi Ley no guardaron. <sup>12</sup> Vosotros mismos habéis hecho peor que vuestros padres, pues cada cual sigue los dictados de su obstinado corazón, y os negáis a escucharme. <sup>13</sup> Pero yo os echaré lejos de esta tierra, a otra que no habéis conocido vosotros ni vuestros padres, y serviréis allí a otros dioses<span class="note-ref" data-ref="jr-16-13" title="Ver comentario">&#42;</span> día y noche, pues no os otorgaré mi perdón.»
 
 ## Retorno de los desterrados.
 <sup>14</sup> Por eso, pronto llegarán días —oráculo de Yahvé— en que no se dirá más: «¡Por vida de Yahvé, que subió a los israelitas de Egipto!», <sup>15</sup> sino: «¡Por vida de Yahvé, que subió a los hijos de Israel del país del norte, y de todos los países por donde los dispersó!» Pues yo los devolveré a su solar, que di a sus padres.
 
-## Anuncio de invasión*.
-<sup>16</sup> Voy a enviar a muchos pescadores—oráculo de Yahvé—, que los pescarán. Después de esto enviaré a muchos cazadores, y los cazarán por montes y cerros, y por los resquicios de las peñas. <sup>17</sup> Porque mis ojos vigilan continuamente su conducta: su culpa no se oculta ni escapa a mis ojos. <sup>18</sup> Así que les haré pagar el doble por su culpa y su pecado, pues profanaron mi tierra con la carroña de sus Monstruos, y llenaron mi heredad con sus Abominaciones*.
+## Anuncio de invasión<span class="note-ref" data-ref="jr-16-16" title="Ver comentario">&#42;</span>.
+<sup>16</sup> Voy a enviar a muchos pescadores—oráculo de Yahvé—, que los pescarán. Después de esto enviaré a muchos cazadores, y los cazarán por montes y cerros, y por los resquicios de las peñas. <sup>17</sup> Porque mis ojos vigilan continuamente su conducta: su culpa no se oculta ni escapa a mis ojos. <sup>18</sup> Así que les haré pagar el doble por su culpa y su pecado, pues profanaron mi tierra con la carroña de sus Monstruos, y llenaron mi heredad con sus Abominaciones<span class="note-ref" data-ref="jr-16-18" title="Ver comentario">&#42;</span>.
 
-## Conversión de los gentiles*.
+## Conversión de los gentiles<span class="note-ref" data-ref="jr-16-19" title="Ver comentario">&#42;</span>.
 <sup>19</sup> ¡Oh Yahvé, mi fuerza y mi refuerzo,
 
 mi refugio en día de apuro!
@@ -2719,18 +2719,18 @@ mi mano y mi poderío,
 
 y sabrán que mi nombre es Yahvé.
 
-## Faltas cultuales de Judá*.
+## Faltas cultuales de Judá<span class="note-ref" data-ref="jr-17" title="Ver comentario">&#42;</span>.
 <span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> El pecado de Judá está escrito  con buril de hierro;
 
 con punta de diamante está grabado
 
 sobre la tabla de su corazón
 
-y en los ángulos de sus aras*;
+y en los ángulos de sus aras<span class="note-ref" data-ref="jr-17-1" title="Ver comentario">&#42;</span>;
 
 <sup>2</sup> así, recordarán sus hijos
 
-la presencia de sus aras y sus cipos*
+la presencia de sus aras y sus cipos<span class="note-ref" data-ref="jr-17-2" title="Ver comentario">&#42;</span>
 
 junto a los árboles frondosos,
 
@@ -2744,11 +2744,11 @@ voy a entregar al pillaje,
 
 en pago por tus pecados
 
-cometidos en tus altos*,
+cometidos en tus altos<span class="note-ref" data-ref="jr-17-3" title="Ver comentario">&#42;</span>,
 
 en todas tus fronteras.
 
-<sup>4</sup> Tendrás que deshacerte*
+<sup>4</sup> Tendrás que deshacerte<span class="note-ref" data-ref="jr-17-4-a" title="Ver comentario">&#42;</span>
 
 de la heredad que te di,
 
@@ -2758,7 +2758,7 @@ en un país que no conoces,
 
 pues ha estallado el fuego de mi ira,
 
-que para siempre estará encendido*.
+que para siempre estará encendido<span class="note-ref" data-ref="jr-17-4-b" title="Ver comentario">&#42;</span>.
 
 ## Máximas de sabiduría.
 <sup>5</sup> Esto dice Yahvé:
@@ -2771,7 +2771,7 @@ y de Yahvé se aparta en su corazón.
 
 <sup>6</sup> Es como el tamarisco en la Arabá,
 
-y no verá* el bien cuando viniere.
+y no verá<span class="note-ref" data-ref="jr-17-6" title="Ver comentario">&#42;</span> el bien cuando viniere.
 
 Vive en los sequedales del desierto,
 
@@ -2815,7 +2815,7 @@ en mitad de sus días lo ha de dejar
 
 y a la postre resultará un necio.
 
-## Confianza en el Templo y confianza en Yahvé*.
+## Confianza en el Templo y confianza en Yahvé<span class="note-ref" data-ref="jr-17-12" title="Ver comentario">&#42;</span>.
 <sup>12</sup> Solio de Gloria, excelso desde siempre,
 
 es el lugar de nuestro santuario.
@@ -2828,7 +2828,7 @@ quedarán defraudados,
 
 y los que se apartan de ti
 
-quedarán escritos* en la tierra,
+quedarán escritos<span class="note-ref" data-ref="jr-17-13" title="Ver comentario">&#42;</span> en la tierra,
 
 por haber abandonado a Yahvé,
 
@@ -2845,7 +2845,7 @@ pues tú eres mi alabanza.
 
 «¿Dónde está la palabra de Yahvé?
 
-¡Vamos, que venga*!»
+¡Vamos, que venga<span class="note-ref" data-ref="jr-17-15" title="Ver comentario">&#42;</span>!»
 
 <sup>16</sup> Yo nunca te apremié a hacer daño;
 
@@ -2853,7 +2853,7 @@ nunca deseé un día de aflicción;
 
 sabes lo que ha salido de mi boca,
 
-pues te lo he dicho a la cara*.
+pues te lo he dicho a la cara<span class="note-ref" data-ref="jr-17-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> No seas para mí causa de espanto,
 
@@ -2871,13 +2871,13 @@ Trae sobre ellos el día aciago,
 
 quebrántalos con doble quebranto.
 
-## Observancia del sábado *.
+## Observancia del sábado <span class="note-ref" data-ref="jr-17-19" title="Ver comentario">&#42;</span>.
 <sup>19</sup> Yahvé me habló así: Ve y ponte en la Puerta de Benjamín, por la que entran y salen los reyes de Judá; ponte también en todas las puertas de Jerusalén, <sup>20</sup> y diles: Oíd la palabra de Yahvé, reyes de Judá, Judá toda y habitantes de Jerusalén que entráis por estas puertas. <sup>21</sup> Así dice Yahvé: «Guardaos, por vida vuestra, de llevar carga en día de sábado y meterla por las puertas de Jerusalén. <sup>22</sup> No saquéis tampoco carga de vuestras casas en sábado, ni hagáis trabajo alguno. Antes bien, santificad el sábado como mandé a vuestros padres.» <sup>23</sup> Mas no oyeron ni aplicaron su oído, sino que atiesaron su cerviz sin oír ni aprender. <sup>24</sup> Que si me hacéis caso —oráculo de Yahvé— no metiendo carga por las puertas de esta ciudad en sábado y santificando el día de sábado sin realizar en él trabajo alguno, <sup>25</sup> entonces entrarán por las puertas de esta ciudad reyes que se sienten sobre el trono de David, montados en carros y caballos, ellos y sus oficiales, la gente de Judá y los habitantes de Jerusalén. Y durará esta ciudad para siempre. <sup>26</sup> Y vendrán de las ciudades de Judá, de los aledaños de Jerusalén, del país de Benjamín, de la Tierra Baja, de la Sierra y del Negueb a traer holocaustos, sacrificios, oblaciones e incienso, y a presentar ofrendas de acción de gracias al templo de Yahvé. <sup>27</sup> Pero si no me oyereis en cuanto a santificar el sábado y no llevar carga ni meterla por las puertas de Jerusalén en sábado, entonces prenderé fuego a sus puertas, un fuego que consumirá los palacios de Jerusalén, y no se apagará.
 
-## Jeremías en casa del alfarero*.
-<span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Palabra que Yahvé dirigió a Jeremías: <sup>2</sup> Prepárate y baja a la alfarería, que allí mismo te haré oír mis palabras. <sup>3</sup> Bajé a la alfarería, y resulta que el alfarero estaba haciendo un trabajo al torno*. <sup>4</sup> El cacharro que estaba haciendo se estropeó como barro en manos del alfarero*, y éste volvió a empezar, trasformándolo en otro cacharro diferente, como mejor le pareció al alfarero. <sup>5</sup> Entonces me dirigió Yahvé la palabra en estos términos: <sup>6</sup> ¿No puedo hacer yo con vosotros, Casa de Israel, lo mismo que este alfarero? —oráculo de Yahvé—. Lo mismo que el barro en la mano del alfarero, así sois vosotros en mi mano, Casa de Israel. <sup>7</sup> Alguna vez puedo hablar, contra una nación o reino, de extirpar, arrasar y destruir; <sup>8</sup> pero si la gente contra la que hablé se retracta de su mal, yo también me retracto del mal que pensaba hacerle. <sup>9</sup> Y puede que alguna vez hable, tocante a una nación o un reino, de reconstruir y plantar; <sup>10</sup> pero, si hace lo que me parece mal y desoye mi voz, entonces yo desisto del bien que había decidido hacerle. <sup>11</sup> Ahora di a la gente de Judá y a los habitantes de Jerusalén: Esto dice Yahvé: «Como el alfarero, estoy dando forma a una desgracia y concibiendo un plan contra vosotros. Así que volveos todos de vuestro mal camino y mejorad vuestra conducta y acciones.» <sup>12</sup> Pero van a decir: «Es inútil. Seguiremos nuestros planes y cada uno de nosotros se portará conforme a la terquedad de su obstinado corazón.»
+## Jeremías en casa del alfarero<span class="note-ref" data-ref="jr-18" title="Ver comentario">&#42;</span>.
+<span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Palabra que Yahvé dirigió a Jeremías: <sup>2</sup> Prepárate y baja a la alfarería, que allí mismo te haré oír mis palabras. <sup>3</sup> Bajé a la alfarería, y resulta que el alfarero estaba haciendo un trabajo al torno<span class="note-ref" data-ref="jr-18-3" title="Ver comentario">&#42;</span>. <sup>4</sup> El cacharro que estaba haciendo se estropeó como barro en manos del alfarero<span class="note-ref" data-ref="jr-18-4" title="Ver comentario">&#42;</span>, y éste volvió a empezar, trasformándolo en otro cacharro diferente, como mejor le pareció al alfarero. <sup>5</sup> Entonces me dirigió Yahvé la palabra en estos términos: <sup>6</sup> ¿No puedo hacer yo con vosotros, Casa de Israel, lo mismo que este alfarero? —oráculo de Yahvé—. Lo mismo que el barro en la mano del alfarero, así sois vosotros en mi mano, Casa de Israel. <sup>7</sup> Alguna vez puedo hablar, contra una nación o reino, de extirpar, arrasar y destruir; <sup>8</sup> pero si la gente contra la que hablé se retracta de su mal, yo también me retracto del mal que pensaba hacerle. <sup>9</sup> Y puede que alguna vez hable, tocante a una nación o un reino, de reconstruir y plantar; <sup>10</sup> pero, si hace lo que me parece mal y desoye mi voz, entonces yo desisto del bien que había decidido hacerle. <sup>11</sup> Ahora di a la gente de Judá y a los habitantes de Jerusalén: Esto dice Yahvé: «Como el alfarero, estoy dando forma a una desgracia y concibiendo un plan contra vosotros. Así que volveos todos de vuestro mal camino y mejorad vuestra conducta y acciones.» <sup>12</sup> Pero van a decir: «Es inútil. Seguiremos nuestros planes y cada uno de nosotros se portará conforme a la terquedad de su obstinado corazón.»
 
-## Israel olvida a Yahvé*.
+## Israel olvida a Yahvé<span class="note-ref" data-ref="jr-18-13" title="Ver comentario">&#42;</span>.
 <sup>13</sup> Por tanto, así dice Yahvé:
 
 Vamos, preguntad entre paganos:
@@ -2894,13 +2894,13 @@ la nieve del Líbano?,
 
 ¿o se agotarán las aguas crecidas,
 
-frescas, corrientes*?
+frescas, corrientes<span class="note-ref" data-ref="jr-18-14" title="Ver comentario">&#42;</span>?
 
 <sup>15</sup> Pues bien, mi pueblo me ha olvidado;
 
 a la Nada inciensan.
 
-Han tropezado* en sus caminos,
+Han tropezado<span class="note-ref" data-ref="jr-18-15" title="Ver comentario">&#42;</span> en sus caminos,
 
 aquellos senderos de siempre,
 
@@ -2922,12 +2922,12 @@ delante del enemigo;
 
 les daré la espalda,
 
-no les mostraré* la cara
+no les mostraré<span class="note-ref" data-ref="jr-18-17" title="Ver comentario">&#42;</span> la cara
 
 el día de su infortunio.
 
 ## Con ocasión de un atentado contra Jeremías.
-<sup>18</sup> Entonces dijeron: «Vamos a tramar algo contra Jeremías, porque no va a faltarle la ley al sacerdote, el consejo al sabio, ni al profeta la palabra*. Vamos a calumniarle y no hagamos caso de sus palabras.»
+<sup>18</sup> Entonces dijeron: «Vamos a tramar algo contra Jeremías, porque no va a faltarle la ley al sacerdote, el consejo al sabio, ni al profeta la palabra<span class="note-ref" data-ref="jr-18-18" title="Ver comentario">&#42;</span>. Vamos a calumniarle y no hagamos caso de sus palabras.»
 
 <sup>19</sup> Estate atento a mí, Yahvé,
 
@@ -2975,12 +2975,12 @@ ni borres de tu presencia su pecado.
 
 cuando tu ira, actúa contra ellos!
 
-## El jarro roto. Altercado con Pasjur*.
-<span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> Entonces Yahvé dijo a Jeremías: Ve y compra un jarro de cerámica. Toma contigo* a algunos ancianos del pueblo y algunos sacerdotes, <sup>2</sup> sal al Valle de Ben Hinón, a la entrada de la Puerta de las Tejoletas*, y pregona allí las palabras que voy a decirte. <sup>3</sup> Dirás: Oíd la palabra de Yahvé, reyes de Judá y habitantes de Jerusalén. Esto dice Yahvé Sebaot, el Dios de Israel: «Pienso traer sobre este lugar una desgracia, que a todo el que la oyere le zumbarán los oídos. <sup>4</sup> Porque me han dejado, han hecho extraño este lugar y han incensado en él a otros dioses que ni ellos ni sus padres conocían. Los reyes de Judá han llenado este lugar de sangre de inocentes, <sup>5</sup> y han construido los altos de Baal para quemar a sus hijos en el fuego, en holocausto a Baal, —lo que no les mandé ni les dije ni me pasó por las mientes—. <sup>6</sup> Por tanto, van a venir días —oráculo de Yahvé— en que no se hablará más de Tófet ni del Valle de Ben Hinón, sino del ‘Valle de la Matanza’. <sup>7</sup> Vaciaré* la prudencia de Judá y Jerusalén a causa de este lugar: los haré caer a espada ante sus enemigos por mano de los que busquen su muerte. Daré sus cadáveres por comida a las aves del cielo y a las bestias de la tierra, <sup>8</sup> y convertiré esta ciudad en desolación y rechifla: todo el que pase a su vera se quedará atónito y silbará a la vista de sus heridas. <sup>9</sup> Les haré comer la carne de sus hijos y la carne de sus hijas, y comerá cada cual la carne de su prójimo, en el aprieto y la estrechez con que los estrecharán sus enemigos y los que busquen su muerte.»
+## El jarro roto. Altercado con Pasjur<span class="note-ref" data-ref="jr-19" title="Ver comentario">&#42;</span>.
+<span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> Entonces Yahvé dijo a Jeremías: Ve y compra un jarro de cerámica. Toma contigo<span class="note-ref" data-ref="jr-19-1" title="Ver comentario">&#42;</span> a algunos ancianos del pueblo y algunos sacerdotes, <sup>2</sup> sal al Valle de Ben Hinón, a la entrada de la Puerta de las Tejoletas<span class="note-ref" data-ref="jr-19-2" title="Ver comentario">&#42;</span>, y pregona allí las palabras que voy a decirte. <sup>3</sup> Dirás: Oíd la palabra de Yahvé, reyes de Judá y habitantes de Jerusalén. Esto dice Yahvé Sebaot, el Dios de Israel: «Pienso traer sobre este lugar una desgracia, que a todo el que la oyere le zumbarán los oídos. <sup>4</sup> Porque me han dejado, han hecho extraño este lugar y han incensado en él a otros dioses que ni ellos ni sus padres conocían. Los reyes de Judá han llenado este lugar de sangre de inocentes, <sup>5</sup> y han construido los altos de Baal para quemar a sus hijos en el fuego, en holocausto a Baal, —lo que no les mandé ni les dije ni me pasó por las mientes—. <sup>6</sup> Por tanto, van a venir días —oráculo de Yahvé— en que no se hablará más de Tófet ni del Valle de Ben Hinón, sino del ‘Valle de la Matanza’. <sup>7</sup> Vaciaré<span class="note-ref" data-ref="jr-19-7" title="Ver comentario">&#42;</span> la prudencia de Judá y Jerusalén a causa de este lugar: los haré caer a espada ante sus enemigos por mano de los que busquen su muerte. Daré sus cadáveres por comida a las aves del cielo y a las bestias de la tierra, <sup>8</sup> y convertiré esta ciudad en desolación y rechifla: todo el que pase a su vera se quedará atónito y silbará a la vista de sus heridas. <sup>9</sup> Les haré comer la carne de sus hijos y la carne de sus hijas, y comerá cada cual la carne de su prójimo, en el aprieto y la estrechez con que los estrecharán sus enemigos y los que busquen su muerte.»
 
 <sup>10</sup> Luego rompes el jarro a la vista de los hombres que vayan contigo <sup>11</sup> y les dices: Esto dice Yahvé Sebaot: «Así quebrantaré yo a este pueblo y a esta ciudad, como quien rompe un cacharro de alfarería, que ya no tiene arreglo.
 
-«Y se harán enterramientos en Tófet, hasta que falte sitio para enterrar. <sup>12</sup> Así haré con este lugar —oráculo de Yahvé— y con sus habitantes, hasta dejar a esta ciudad lo mismo que Tófet. <sup>13</sup> Y las casas de Jerusalén y las de los reyes de Judá quedarán como el lugar de Tófet: una inmundicia*; todas las casas en cuyas azoteas incensaron a toda la tropa celeste e hicieron libación a otros dioses.»
+«Y se harán enterramientos en Tófet, hasta que falte sitio para enterrar. <sup>12</sup> Así haré con este lugar —oráculo de Yahvé— y con sus habitantes, hasta dejar a esta ciudad lo mismo que Tófet. <sup>13</sup> Y las casas de Jerusalén y las de los reyes de Judá quedarán como el lugar de Tófet: una inmundicia<span class="note-ref" data-ref="jr-19-13" title="Ver comentario">&#42;</span>; todas las casas en cuyas azoteas incensaron a toda la tropa celeste e hicieron libación a otros dioses.»
 
 <sup>14</sup> Partió Jeremías de Tófet, a donde le había enviado Yahvé a profetizar y, parándose en el atrio del templo de Yahvé, dijo a todo el pueblo: <sup>15</sup> «Esto dice Yahvé Sebaot, el Dios de Israel: Pienso traer a esta ciudad y a todos sus aledaños toda la calamidad que he pronunciado contra ella, porque ha atiesado su cerviz, desoyendo mis palabras.»
 
@@ -2991,7 +2991,7 @@ cuando tu ira, actúa contra ellos!
 
 y me dejé seducir;
 
-me has agarrado y me has podido*.
+me has agarrado y me has podido<span class="note-ref" data-ref="jr-20-7" title="Ver comentario">&#42;</span>.
 
 He sido la irrisión cotidiana:
 
@@ -3021,7 +3021,7 @@ que intentaba en vano sofocar.
 
 <sup>10</sup> Escuchaba las calumnias de la turba:
 
-«¡Terror por doquier*!,
+«¡Terror por doquier<span class="note-ref" data-ref="jr-20-10" title="Ver comentario">&#42;</span>!,
 
 ¡denunciadle!, ¡denunciémosle!»
 
@@ -3043,7 +3043,7 @@ se avergonzarán de su impotencia:
 
 ¡deshonra eterna, inolvidable!
 
-<sup>12</sup> Yahvé Sebaot, juez de lo justo*,
+<sup>12</sup> Yahvé Sebaot, juez de lo justo<span class="note-ref" data-ref="jr-20-12" title="Ver comentario">&#42;</span>,
 
 que escrutas las entrañas y el corazón,
 
@@ -3053,11 +3053,11 @@ porque a ti he encomendado mi causa.
 
 <sup>13</sup> Cantad a Yahvé, alabad a Yahvé,
 
-que ha salvado la vida de un pobrecillo*
+que ha salvado la vida de un pobrecillo<span class="note-ref" data-ref="jr-20-13" title="Ver comentario">&#42;</span>
 
 de manos de malhechores.
 
-<sup>14</sup> ¡Maldito el día en que nací*!,
+<sup>14</sup> ¡Maldito el día en que nací<span class="note-ref" data-ref="jr-20-14" title="Ver comentario">&#42;</span>!,
 
 ¡el día que me dio a luz mi madre
 
@@ -3092,13 +3092,13 @@ con seno preñado eternamente.
 y consumir mi vida en la vergüenza?
 
 # 3. ORÁCULOS PRONUNCIADOS PRINCIPALMENTE DESPUÉS DE JOAQUÍN
-## Respuesta a los enviados de Sedecías*.
+## Respuesta a los enviados de Sedecías<span class="note-ref" data-ref="jr-21" title="Ver comentario">&#42;</span>.
 <span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> Palabra dirigida a Jeremías de parte de Yahvé, cuando el rey Sedecías mandó donde él a Pasjur, hijo de Malquías, y al sacerdote Sofonías, hijo de Maasías, a decirle: <sup>2</sup> «Consulta de nuestra parte a Yahvé, porque Nabucodonosor, rey de Babilonia, ha decidido atacarnos. A ver si nos hace Yahvé un prodigio de los suyos, y aquél levanta el cerco.» <sup>3</sup> Respondió Jeremías: «Así hablaréis a Sedecías: <sup>4</sup> Esto dice Yahvé, Dios de Israel: Voy a hacer que reboten las armas que tenéis en las manos y con las que os batís contra el rey de Babilonia y contra los caldeos que os cercan extramuros, y las amontonaré en medio de esta ciudad. <sup>5</sup> Yo mismo voy a batirme contra vosotros con mano extendida y fuerte brazo, con ira, con cólera y con encono grande. <sup>6</sup> Heriré a los habitantes de esta ciudad, hombres y bestias: morirán de una gran peste. <sup>7</sup> Y tras de esto—oráculo de Yahvé— entregaré al rey de Judá, Sedecías, a sus siervos y al pueblo que en esta ciudad quedare de la peste, de la espada y del hambre, en manos de Nabucodonosor, rey de Babilonia, y en manos de sus enemigos y de los que quieren su muerte. Él los herirá a filo de espada. No les dará cuartel, ni les tendrá clemencia ni lástima.»
 
 <sup>8</sup> Y a ese pueblo le dirás: «Esto dice Yahvé: Mirad, yo os propongo el camino de la vida y el camino de la muerte. <sup>9</sup> Quien se quede en esta ciudad, morirá de espada, de hambre y de peste. El que salga y caiga en manos de los caldeos que os cercan, vivirá, y eso saldrá ganando. <sup>10</sup> Porque me he fijado en esta ciudad para su daño, no para su bien —oráculo de Yahvé—: será entregada en manos del rey de Babilonia, que la incendiará.»
 
 ## Mensaje a la casa real.
-<sup>11</sup> A la casa real de Judá*.
+<sup>11</sup> A la casa real de Judá<span class="note-ref" data-ref="jr-21-11" title="Ver comentario">&#42;</span>.
 
 ¡Escuchad la palabra de Yahvé!
 
@@ -3116,7 +3116,7 @@ a causa de vuestras malas acciones.
 
 <sup>13</sup> A ti me dirijo,
 
-Señora del valle, Roca del Llano*
+Señora del valle, Roca del Llano<span class="note-ref" data-ref="jr-21-13" title="Ver comentario">&#42;</span>
 
 —oráculo de Yahvé—,
 
@@ -3136,7 +3136,7 @@ Prenderé fuego a su bosque,
 
 y devorará todos sus contornos.
 
-<span id="chapter-22" class="chapter-marker" data-chapter="22">22</span><sup>1</sup> Esto dijo Yahvé: Baja* a la casa real de Judá y pronuncia allí estas palabras. <sup>2</sup> Dirás: Oye la palabra de Yahvé, tú, rey de Judá, que ocupas el trono de David, y tus servidores y pueblo —los que entran por estas puertas—. <sup>3</sup> Esto dice Yahvé: Practicad el derecho y la justicia, librad al oprimido de manos del opresor, y no atropelléis al forastero, al huérfano y a la viuda; no hagáis violencia ni derraméis sangre inocente en este lugar. <sup>4</sup> Porque si ponéis en práctica esta palabra, entonces seguirán entrando por las puertas de esta casa reyes sucesores de David en el trono, montados en carros y caballos, junto con sus cortesanos y su pueblo. <sup>5</sup> Mas si no oís estas palabras, por mí mismo os juro —oráculo de Yahvé— que en ruinas parará esta casa.
+<span id="chapter-22" class="chapter-marker" data-chapter="22">22</span><sup>1</sup> Esto dijo Yahvé: Baja<span class="note-ref" data-ref="jr-22-1" title="Ver comentario">&#42;</span> a la casa real de Judá y pronuncia allí estas palabras. <sup>2</sup> Dirás: Oye la palabra de Yahvé, tú, rey de Judá, que ocupas el trono de David, y tus servidores y pueblo —los que entran por estas puertas—. <sup>3</sup> Esto dice Yahvé: Practicad el derecho y la justicia, librad al oprimido de manos del opresor, y no atropelléis al forastero, al huérfano y a la viuda; no hagáis violencia ni derraméis sangre inocente en este lugar. <sup>4</sup> Porque si ponéis en práctica esta palabra, entonces seguirán entrando por las puertas de esta casa reyes sucesores de David en el trono, montados en carros y caballos, junto con sus cortesanos y su pueblo. <sup>5</sup> Mas si no oís estas palabras, por mí mismo os juro —oráculo de Yahvé— que en ruinas parará esta casa.
 
 <sup>6</sup> Pues esto dice Yahvé respecto a la casa real de Judá:
 
@@ -3148,7 +3148,7 @@ pero ¡vaya si te trocaré en desierto,
 
 en ciudades deshabitadas!
 
-<sup>7</sup> Voy a consagrar* contra ti
+<sup>7</sup> Voy a consagrar<span class="note-ref" data-ref="jr-22-7" title="Ver comentario">&#42;</span> contra ti
 
 a quienes te destruyan,
 
@@ -3168,7 +3168,7 @@ llorad, llorad por el que se va,
 
 porque jamás volverá
 
-ni verá su patria*.
+ni verá su patria<span class="note-ref" data-ref="jr-22-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Pues esto dice Yahvé respecto a Salún, hijo de Josías, rey de Judá y sucesor de su padre Josías en el reino. El que salió de este lugar no volverá más aquí; <sup>12</sup> morirá en el lugar a donde lo deportaron. ¡Jamás volverá a ver este país!»
 
@@ -3191,7 +3191,7 @@ lo empanela de cedro
 
 y lo pinta de escarlata.
 
-<sup>15</sup> ¿Serás* acaso rey
+<sup>15</sup> ¿Serás<span class="note-ref" data-ref="jr-22-15" title="Ver comentario">&#42;</span> acaso rey
 
 por ser un apasionado del cedro?
 
@@ -3233,16 +3233,16 @@ será arrastrado y arrojado
 
 fuera de las puertas de Jerusalén.
 
-## Contra Jeconías*.
+## Contra Jeconías<span class="note-ref" data-ref="jr-22-20-a" title="Ver comentario">&#42;</span>.
 <sup>20</sup> Sube al Líbano y clama,
 
 da voces por Basán
 
-y clama desde Abarín*,
+y clama desde Abarín<span class="note-ref" data-ref="jr-22-20-b" title="Ver comentario">&#42;</span>,
 
 porque han sido quebrantados
 
-todos tus amantes*.
+todos tus amantes<span class="note-ref" data-ref="jr-22-20-c" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Te hablé en tu prosperidad,
 
@@ -3270,7 +3270,7 @@ por toda tu malicia.
 
 que anidabas en los cedros,
 
-¡cómo suspirarás*
+¡cómo suspirarás<span class="note-ref" data-ref="jr-22-23" title="Ver comentario">&#42;</span>
 
 cuando te vengan los dolores,
 
@@ -3298,7 +3298,7 @@ escucha la palabra de Yahvé.
 
 <sup>30</sup> Esto dice Yahvé:
 
-Inscribid a este hombre*: «Estéril,
+Inscribid a este hombre<span class="note-ref" data-ref="jr-22-30-a" title="Ver comentario">&#42;</span>: «Estéril,
 
 un fracasado en la vida»;
 
@@ -3306,7 +3306,7 @@ porque ninguno de su descendencia
 
 tendrá la suerte
 
-de sentarse en el trono de David*
+de sentarse en el trono de David<span class="note-ref" data-ref="jr-22-30-b" title="Ver comentario">&#42;</span>
 
 y de ser jamás señor en Judá.
 
@@ -3319,7 +3319,7 @@ y de ser jamás señor en Judá.
 
 en que suscitaré a David
 
-un Germen justo*:
+un Germen justo<span class="note-ref" data-ref="jr-23-5" title="Ver comentario">&#42;</span>:
 
 reinará un rey prudente,
 
@@ -3333,14 +3333,14 @@ e Israel vivirá en seguro;
 
 y éste es el nombre con que le llamarán:
 
-«Yahvé, justicia nuestra*.»
+«Yahvé, justicia nuestra<span class="note-ref" data-ref="jr-23-6" title="Ver comentario">&#42;</span>.»
 
-<sup>7</sup> Por tanto, mirad que vienen días —oráculo de Yahvé— en que no se dirá más: «¡Por vida de Yahvé, que subió a los israelitas de Egipto!», <sup>8</sup> sino: «¡Por vida de Yahvé, que subió y trajo la simiente de la Casa de Israel de tierras del norte y de todas las tierras a donde los arrojara*!», y habitarán en su propio suelo.
+<sup>7</sup> Por tanto, mirad que vienen días —oráculo de Yahvé— en que no se dirá más: «¡Por vida de Yahvé, que subió a los israelitas de Egipto!», <sup>8</sup> sino: «¡Por vida de Yahvé, que subió y trajo la simiente de la Casa de Israel de tierras del norte y de todas las tierras a donde los arrojara<span class="note-ref" data-ref="jr-23-8" title="Ver comentario">&#42;</span>!», y habitarán en su propio suelo.
 
 ## Contra los falsos profetas.
-<sup>9</sup> A los profetas*.
+<sup>9</sup> A los profetas<span class="note-ref" data-ref="jr-23-9-a" title="Ver comentario">&#42;</span>.
 
-Se me partió el corazón* por dentro,
+Se me partió el corazón<span class="note-ref" data-ref="jr-23-9-b" title="Ver comentario">&#42;</span> por dentro,
 
 estremeciéronse todos mis huesos,
 
@@ -3440,7 +3440,7 @@ con corazón obstinado:
 
 «No os sucederá nada malo.»
 
-<sup>18</sup> (Porque ¿quién asistió al consejo de Yahvé y vio y oyó su palabra?, ¿quién escuchó su palabra y la ha oído*?)
+<sup>18</sup> (Porque ¿quién asistió al consejo de Yahvé y vio y oyó su palabra?, ¿quién escuchó su palabra y la ha oído<span class="note-ref" data-ref="jr-23-18" title="Ver comentario">&#42;</span>?)
 
 <sup>19</sup> Ya ha estallado una tormenta de Yahvé,
 
@@ -3470,7 +3470,7 @@ que hagan oír mi palabra a mi pueblo,
 
 y háganle tornar de su mal camino
 
-y de sus acciones malas*.
+y de sus acciones malas<span class="note-ref" data-ref="jr-23-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> ¿Soy yo un Dios sólo de cerca
 
@@ -3488,7 +3488,7 @@ en escondite donde yo no le vea?
 
 —oráculo de Yahvé—.
 
-<sup>25</sup> Ya he oído lo que dicen esos profetas que profetizan falsamente en mi nombre diciendo: «¡He tenido un sueño, he tenido un sueño*!» <sup>26</sup> ¿Hasta cuándo divagará así la mente de los profetas, que profetizan en falso y son profetas de la impostura de su mente?, <sup>27</sup> ¿esos que piensan hacer olvidarse a mi pueblo de mi Nombre por los sueños que se cuentan entre sí, como olvidaron sus padres mi Nombre por Baal? <sup>28</sup> El profeta que tenga un sueño, que cuente un sueño; y el que tenga consigo mi palabra, que transmita mi palabra fielmente.
+<sup>25</sup> Ya he oído lo que dicen esos profetas que profetizan falsamente en mi nombre diciendo: «¡He tenido un sueño, he tenido un sueño<span class="note-ref" data-ref="jr-23-25" title="Ver comentario">&#42;</span>!» <sup>26</sup> ¿Hasta cuándo divagará así la mente de los profetas, que profetizan en falso y son profetas de la impostura de su mente?, <sup>27</sup> ¿esos que piensan hacer olvidarse a mi pueblo de mi Nombre por los sueños que se cuentan entre sí, como olvidaron sus padres mi Nombre por Baal? <sup>28</sup> El profeta que tenga un sueño, que cuente un sueño; y el que tenga consigo mi palabra, que transmita mi palabra fielmente.
 
 ¿Qué tiene que ver
 
@@ -3502,27 +3502,27 @@ como martillo que golpea la peña?
 
 <sup>30</sup> Pues bien, aquí estoy yo contra los profetas —oráculo de Yahvé— que se roban mis palabras el uno al otro. <sup>31</sup> Aquí estoy yo contra los profetas —oráculo de Yahvé— que usan su lengua para pronunciar oráculos. <sup>32</sup> Aquí estoy yo contra los profetas que profetizan falsos sueños —oráculo de Yahvé— y los cuentan, y hacen errar a mi pueblo con sus falsedades y su presunción, cuando yo ni los he enviado ni dado órdenes, y ellos de ningún provecho han sido para este pueblo —oráculo de Yahvé—.
 
-<sup>33</sup> Y cuando te pregunte este pueblo —o un profeta o un sacerdote—: «¿Cuál es la carga de Yahvé?», les dirás: «Vosotros sois la carga, y voy a dejaros en el suelo —oráculo de Yahvé*—.»
+<sup>33</sup> Y cuando te pregunte este pueblo —o un profeta o un sacerdote—: «¿Cuál es la carga de Yahvé?», les dirás: «Vosotros sois la carga, y voy a dejaros en el suelo —oráculo de Yahvé<span class="note-ref" data-ref="jr-23-33" title="Ver comentario">&#42;</span>—.»
 
-<sup>34</sup> Y el profeta, el sacerdote o cualquiera que dijere: «Una carga de Yahvé», yo me las entenderé con él y con su casa. <sup>35</sup> Así os diréis cada uno a su prójimo, y cada cual a su hermano: «¿Qué ha respondido Yahvé?, ¿qué ha dicho Yahvé?» <sup>36</sup> Pero de eso de la «carga de Yahvé» no os acordaréis más, porque tal carga sería para cada uno su propia palabra. Porque trastornáis las palabras del Dios vivo, Yahvé Sebaot nuestro Dios. <sup>37</sup> Así diréis al profeta: «¿Qué te ha respondido Yahvé?, ¿qué ha dicho Yahvé?» <sup>38</sup> Pero como habléis de «carga de Yahvé», entonces esto dice Yahvé: «Por haber dicho eso de carga de Yahvé por más que os avisé que no dijerais carga de Yahvé, <sup>39</sup> por eso mismo, he decidido levantaros* en alto y dejaros caer a vosotros y a la ciudad que os di a vosotros y a vuestros padres. <sup>40</sup> Y haré que carguéis con un oprobio y un baldón eternos que no serán olvidados.»
+<sup>34</sup> Y el profeta, el sacerdote o cualquiera que dijere: «Una carga de Yahvé», yo me las entenderé con él y con su casa. <sup>35</sup> Así os diréis cada uno a su prójimo, y cada cual a su hermano: «¿Qué ha respondido Yahvé?, ¿qué ha dicho Yahvé?» <sup>36</sup> Pero de eso de la «carga de Yahvé» no os acordaréis más, porque tal carga sería para cada uno su propia palabra. Porque trastornáis las palabras del Dios vivo, Yahvé Sebaot nuestro Dios. <sup>37</sup> Así diréis al profeta: «¿Qué te ha respondido Yahvé?, ¿qué ha dicho Yahvé?» <sup>38</sup> Pero como habléis de «carga de Yahvé», entonces esto dice Yahvé: «Por haber dicho eso de carga de Yahvé por más que os avisé que no dijerais carga de Yahvé, <sup>39</sup> por eso mismo, he decidido levantaros<span class="note-ref" data-ref="jr-23-39" title="Ver comentario">&#42;</span> en alto y dejaros caer a vosotros y a la ciudad que os di a vosotros y a vuestros padres. <sup>40</sup> Y haré que carguéis con un oprobio y un baldón eternos que no serán olvidados.»
 
-## Los dos cestos de higos *.
-<span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> Yahvé me hizo ver un par de cestos de higos presentados delante del templo de Yahvé* —esto era después que Nabucodonosor, rey de Babilonia, hubiera deportado de Jerusalén al rey de Judá, Jeconías, hijo de Joaquín, a los principales de Judá y a los herreros y cerrajeros de Jerusalén, y los llevó a Babilonia—. <sup>2</sup> Un cesto era de higos muy buenos, como los primerizos, y el otro de higos malos, tan malos que no se podían comer. <sup>3</sup> Me dijo Yahvé: «¿Qué estás viendo Jeremías?» Respondí: «Higos. Los higos buenos son muy buenos; y los higos malos, muy malos, que no se dejan comer de puro malos.» <sup>4</sup> Entonces me dirigió Yahvé la palabra en estos términos: <sup>5</sup> Esto dice Yahvé, Dios de Israel: Como por estos higos buenos, así me interesaré en favor de los desterrados de Judá que yo eché de este lugar al país de los caldeos. <sup>6</sup> Pondré la vista en ellos para su bien, los devolveré a este país, los reconstruiré para no derrocarlos y los plantaré para no arrancarlos. <sup>7</sup> Les daré corazón capaz de conocerme, pues yo soy Yahvé, y ellos serán mi pueblo y yo seré su Dios, pues volverán a mí con todo su corazón. <sup>8</sup> Pero igual que a los higos malos, que no se pueden comer de malos —sí, así dice Yahvé—, así haré al rey Sedecías, a sus principales y al resto de Jerusalén: a los que quedaren en este país y a los que están en el país de Egipto*. <sup>9</sup> Los convertiré en un espantajo, una calamidad, ante todos los reinos de la tierra. Serán objeto de oprobio y sátira, de burla y maldición por dondequiera que los empuje; <sup>10</sup> daré suelta entre ellos a la espada, al hambre y a la peste, hasta que sean eliminados de sobre el solar que di a ellos y a sus padres.
+## Los dos cestos de higos <span class="note-ref" data-ref="jr-24" title="Ver comentario">&#42;</span>.
+<span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> Yahvé me hizo ver un par de cestos de higos presentados delante del templo de Yahvé<span class="note-ref" data-ref="jr-24-1" title="Ver comentario">&#42;</span> —esto era después que Nabucodonosor, rey de Babilonia, hubiera deportado de Jerusalén al rey de Judá, Jeconías, hijo de Joaquín, a los principales de Judá y a los herreros y cerrajeros de Jerusalén, y los llevó a Babilonia—. <sup>2</sup> Un cesto era de higos muy buenos, como los primerizos, y el otro de higos malos, tan malos que no se podían comer. <sup>3</sup> Me dijo Yahvé: «¿Qué estás viendo Jeremías?» Respondí: «Higos. Los higos buenos son muy buenos; y los higos malos, muy malos, que no se dejan comer de puro malos.» <sup>4</sup> Entonces me dirigió Yahvé la palabra en estos términos: <sup>5</sup> Esto dice Yahvé, Dios de Israel: Como por estos higos buenos, así me interesaré en favor de los desterrados de Judá que yo eché de este lugar al país de los caldeos. <sup>6</sup> Pondré la vista en ellos para su bien, los devolveré a este país, los reconstruiré para no derrocarlos y los plantaré para no arrancarlos. <sup>7</sup> Les daré corazón capaz de conocerme, pues yo soy Yahvé, y ellos serán mi pueblo y yo seré su Dios, pues volverán a mí con todo su corazón. <sup>8</sup> Pero igual que a los higos malos, que no se pueden comer de malos —sí, así dice Yahvé—, así haré al rey Sedecías, a sus principales y al resto de Jerusalén: a los que quedaren en este país y a los que están en el país de Egipto<span class="note-ref" data-ref="jr-24-8" title="Ver comentario">&#42;</span>. <sup>9</sup> Los convertiré en un espantajo, una calamidad, ante todos los reinos de la tierra. Serán objeto de oprobio y sátira, de burla y maldición por dondequiera que los empuje; <sup>10</sup> daré suelta entre ellos a la espada, al hambre y a la peste, hasta que sean eliminados de sobre el solar que di a ellos y a sus padres.
 
-# 4. BABILONIA, AZOTE DE YAHVÉ*
+# 4. BABILONIA, AZOTE DE YAHVÉ<span class="note-ref" data-ref="jr-25" title="Ver comentario">&#42;</span>
 <span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Palabra dirigida a Jeremías tocante a todo el pueblo de Judá el año cuarto de Joaquín, hijo de Josías, rey de Judá, —o sea el año primero de Nabucodonosor, rey de Babilonia—, <sup>2</sup> la cual pronunció el profeta Jeremías a todo el pueblo de Judá y a toda la población de Jerusalén, en estos términos:
 
 <sup>3</sup> Desde el año trece de Josías, hijo de Amón, rey de Judá, hasta este día, veintitrés años hace que me es dirigida la palabra de Yahvé, y os la he comunicado puntualmente (pero no habéis escuchado. <sup>4</sup> También os envió Yahvé puntualmente a todos sus siervos los profetas, y tampoco oísteis ni aplicasteis el oído), <sup>5</sup> diciendo: Si cada cual abandona su mala conducta y sus malas acciones, regresará al solar que os dio Yahvé a vosotros y a vuestros padres, desde siempre y para siempre. <sup>6</sup> (No vayáis en pos de otros dioses para servirles y adorarles; no me provoquéis con las hechuras de vuestras manos, y no os haré mal.) <sup>7</sup> Pero no me habéis oído (—oráculo de Yahvé— de suerte que me provocasteis con las hechuras de vuestras manos, para vuestro mal).
 
-<sup>8</sup> Por eso, así habla Yahvé Sebaot: Puesto que no habéis oído mis palabras, <sup>9</sup> he decidido mandar a buscar a todas las tribus del norte (—oráculo de Yahvé— y a mi siervo* Nabucodonosor, rey de Babilonia). Los traeré contra esta tierra y contra sus moradores (y contra todas estas gentes de alrededor); los consagraré al exterminio y los convertiré en pasmo, rechifla y ruinas eternos. <sup>10</sup> Acabaré con las voces de gozo y de alegría, la voz del novio y la voz de la novia, con el ruido de la muela y la luz de la candela. <sup>11</sup> Toda esta tierra será reducida a pura desolación, y servirán estas gentes al rey de Babilonia setenta años*. <sup>12</sup> (Luego, cuando se cumplan setenta años, pediré cuentas al rey de Babilonia y a aquella nación por su delito —oráculo de Yahvé— y a la tierra de los caldeos, trocándola en ruinas eternas.) <sup>13</sup> Atraeré sobre aquella tierra todas las palabras que he hablado respecto a ella, todo lo que está escrito en este libro.
+<sup>8</sup> Por eso, así habla Yahvé Sebaot: Puesto que no habéis oído mis palabras, <sup>9</sup> he decidido mandar a buscar a todas las tribus del norte (—oráculo de Yahvé— y a mi siervo<span class="note-ref" data-ref="jr-25-9" title="Ver comentario">&#42;</span> Nabucodonosor, rey de Babilonia). Los traeré contra esta tierra y contra sus moradores (y contra todas estas gentes de alrededor); los consagraré al exterminio y los convertiré en pasmo, rechifla y ruinas eternos. <sup>10</sup> Acabaré con las voces de gozo y de alegría, la voz del novio y la voz de la novia, con el ruido de la muela y la luz de la candela. <sup>11</sup> Toda esta tierra será reducida a pura desolación, y servirán estas gentes al rey de Babilonia setenta años<span class="note-ref" data-ref="jr-25-11" title="Ver comentario">&#42;</span>. <sup>12</sup> (Luego, cuando se cumplan setenta años, pediré cuentas al rey de Babilonia y a aquella nación por su delito —oráculo de Yahvé— y a la tierra de los caldeos, trocándola en ruinas eternas.) <sup>13</sup> Atraeré sobre aquella tierra todas las palabras que he hablado respecto a ella, todo lo que está escrito en este libro.
 
 ## II. Introducción a los oráculos contra las naciones
-## Visión de la copa de vino*.
+## Visión de la copa de vino<span class="note-ref" data-ref="jr-25-13" title="Ver comentario">&#42;</span>.
 Lo que profetizó Jeremías tocante a la generalidad de las naciones.
 
-<sup>14</sup> (Pues también a ellos los reducirán a servidumbre* muchas naciones y reyes poderosos, y les pagaré según sus obras y según la hechura de sus manos.)
+<sup>14</sup> (Pues también a ellos los reducirán a servidumbre<span class="note-ref" data-ref="jr-25-14" title="Ver comentario">&#42;</span> muchas naciones y reyes poderosos, y les pagaré según sus obras y según la hechura de sus manos.)
 
-<sup>15</sup> Esto me dijo Yahvé, Dios de Israel: Toma esta copa del vino de la cólera y hazla beber a todas las naciones a las que yo te envíe; <sup>16</sup> beberán y trompicarán, y se enloquecerán ante la espada que voy a desatar entre ellas. <sup>17</sup> Tomé la copa de mano de Yahvé y la di a beber a todas las naciones a las que me había enviado Yahvé*: <sup>18</sup> (a Jerusalén y a las ciudades de Judá, a sus reyes y a sus principales, para trocarlo todo en desolación, pasmo, rechifla y maldición, como hoy está sucediendo); <sup>19</sup> al faraón, rey de Egipto, a sus cortesanos y dignatarios, a todo su pueblo <sup>20</sup> y sus mercenarios (a todos los reyes de Us*); a todos los reyes de Filistea: a Ascalón, Gaza, Ecrón y al residuo de Asdod; <sup>21</sup> a Edom, Moab y los amonitas, <sup>22</sup> a (todos) los reyes de Tiro, a (todos) los reyes de Sidón y a los reyes de las islas de allende el mar*; <sup>23</sup> a Dedán, Temá, Buz; a todos los que se afeitan las sienes*, <sup>24</sup> a todos los reyes de Arabia y a todos los reyes de los mercenarios que habitan la estepa; <sup>25</sup> (a todos los reyes de Zimrí*) a todos los reyes de Elam y a todos los reyes de Media, <sup>26</sup> a todos los reyes del norte, los cercanos y los remotos, uno detrás de otro, y a todos los reinos que hay sobre la faz de la tierra. (Y el rey de Sesac* beberá después de ellos.)
+<sup>15</sup> Esto me dijo Yahvé, Dios de Israel: Toma esta copa del vino de la cólera y hazla beber a todas las naciones a las que yo te envíe; <sup>16</sup> beberán y trompicarán, y se enloquecerán ante la espada que voy a desatar entre ellas. <sup>17</sup> Tomé la copa de mano de Yahvé y la di a beber a todas las naciones a las que me había enviado Yahvé<span class="note-ref" data-ref="jr-25-17" title="Ver comentario">&#42;</span>: <sup>18</sup> (a Jerusalén y a las ciudades de Judá, a sus reyes y a sus principales, para trocarlo todo en desolación, pasmo, rechifla y maldición, como hoy está sucediendo); <sup>19</sup> al faraón, rey de Egipto, a sus cortesanos y dignatarios, a todo su pueblo <sup>20</sup> y sus mercenarios (a todos los reyes de Us<span class="note-ref" data-ref="jr-25-20" title="Ver comentario">&#42;</span>); a todos los reyes de Filistea: a Ascalón, Gaza, Ecrón y al residuo de Asdod; <sup>21</sup> a Edom, Moab y los amonitas, <sup>22</sup> a (todos) los reyes de Tiro, a (todos) los reyes de Sidón y a los reyes de las islas de allende el mar<span class="note-ref" data-ref="jr-25-22" title="Ver comentario">&#42;</span>; <sup>23</sup> a Dedán, Temá, Buz; a todos los que se afeitan las sienes<span class="note-ref" data-ref="jr-25-23" title="Ver comentario">&#42;</span>, <sup>24</sup> a todos los reyes de Arabia y a todos los reyes de los mercenarios que habitan la estepa; <sup>25</sup> (a todos los reyes de Zimrí<span class="note-ref" data-ref="jr-25-25" title="Ver comentario">&#42;</span>) a todos los reyes de Elam y a todos los reyes de Media, <sup>26</sup> a todos los reyes del norte, los cercanos y los remotos, uno detrás de otro, y a todos los reinos que hay sobre la faz de la tierra. (Y el rey de Sesac<span class="note-ref" data-ref="jr-25-26" title="Ver comentario">&#42;</span> beberá después de ellos.)
 
 <sup>27</sup> Les dirás: Esto dice Yahvé Sebaot, el Dios de Israel: Bebed, emborrachaos, vomitad, caed y no os levantéis ante la espada que voy a soltar en medio de vosotros. <sup>28</sup> Y si rehúsan tomar la copa de tu mano para beber, les dices: Esto dice Yahvé Sebaot: Tenéis que beber sin falta, <sup>29</sup> porque precisamente empiezo a castigar por la ciudad que lleva mi Nombre; ¿y vais a quedar vosotros impunes?: ¡no, no quedaréis!, pues voy a convocar a la espada contra todos los habitantes de la tierra —oráculo de Yahvé Sebaot—.
 
@@ -3546,7 +3546,7 @@ y tiene un juicio con toda criatura.
 
 A los malos los entrega a la espada
 
-—oráculo de Yahvé*—.
+—oráculo de Yahvé<span class="note-ref" data-ref="jr-25-31" title="Ver comentario">&#42;</span>—.
 
 <sup>32</sup> Esto dice Yahvé Sebaot:
 
@@ -3584,7 +3584,7 @@ porque devasta Yahvé su pastizal;
 
 por la ardiente cólera de Yahvé.
 
-<sup>38</sup> Ha dejado el león* su cubil,
+<sup>38</sup> Ha dejado el león<span class="note-ref" data-ref="jr-25-38" title="Ver comentario">&#42;</span> su cubil,
 
 pues su tierra sólo es desolación
 
@@ -3594,10 +3594,10 @@ ante su ardiente cólera.
 
 # III. Profecías de felicidad
 ## 1. INTRODUCCIÓN: JEREMÍAS, PROFETA AUTÉNTICO
-Arresto y juicio de Jeremías a raíz de su sermón contra el Templo *.
-<span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> Al principio del reinado de Joaquín, hijo de Josías, rey de Judá, recibió Jeremías* esta palabra de Yahvé: <sup>2</sup> Esto dice Yahvé: Ponte en el patio del templo de Yahvé y pronuncia contra todas las ciudades de Judá, contra esos que vienen al templo a adorar a Yahvé, todas las palabras que yo te he mandado hablarles, sin omitir ninguna. <sup>3</sup> A lo mejor escuchan y abandonan su mal camino, y yo me arrepentiría del mal que estoy pensando hacerles por la maldad de sus obras. <sup>4</sup> Les dirás, pues: «Esto dice Yahvé: Si no me escucháis y andáis según la Ley que os propuse, <sup>5</sup> oyendo las palabras de mis siervos los profetas que yo os envío asiduamente (pero no habéis hecho caso), <sup>6</sup> entonces haré con este templo como con Siló, y entregaré esta ciudad a la maldición de todas las gentes de la tierra.»
+Arresto y juicio de Jeremías a raíz de su sermón contra el Templo <span class="note-ref" data-ref="jr-26" title="Ver comentario">&#42;</span>.
+<span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> Al principio del reinado de Joaquín, hijo de Josías, rey de Judá, recibió Jeremías<span class="note-ref" data-ref="jr-26-1" title="Ver comentario">&#42;</span> esta palabra de Yahvé: <sup>2</sup> Esto dice Yahvé: Ponte en el patio del templo de Yahvé y pronuncia contra todas las ciudades de Judá, contra esos que vienen al templo a adorar a Yahvé, todas las palabras que yo te he mandado hablarles, sin omitir ninguna. <sup>3</sup> A lo mejor escuchan y abandonan su mal camino, y yo me arrepentiría del mal que estoy pensando hacerles por la maldad de sus obras. <sup>4</sup> Les dirás, pues: «Esto dice Yahvé: Si no me escucháis y andáis según la Ley que os propuse, <sup>5</sup> oyendo las palabras de mis siervos los profetas que yo os envío asiduamente (pero no habéis hecho caso), <sup>6</sup> entonces haré con este templo como con Siló, y entregaré esta ciudad a la maldición de todas las gentes de la tierra.»
 
-<sup>7</sup> Los sacerdotes, los profetas y todos los presentes oyeron a Jeremías decir estas palabras en el templo de Yahvé. <sup>8</sup> Luego que Jeremías hubo acabado de hablar todo lo que le había ordenado Yahvé que comunicase a la gente, le prendieron los sacerdotes, los profetas y toda la gente, y le dijeron: «¡Vas a morir! <sup>9</sup> ¿Por qué has profetizado en nombre de Yahvé, diciendo: ‘Como Siló quedará este templo; esta ciudad será arrasada, sin nadie que la habite’?» Toda la gente se arremolinó en torno a Jeremías en el templo de Yahvé. <sup>10</sup> Cuando oyeron esto los jefes de Judá, subieron del palacio real al templo de Yahvé y se sentaron a la entrada de la Puerta Nueva del templo de Yahvé*.
+<sup>7</sup> Los sacerdotes, los profetas y todos los presentes oyeron a Jeremías decir estas palabras en el templo de Yahvé. <sup>8</sup> Luego que Jeremías hubo acabado de hablar todo lo que le había ordenado Yahvé que comunicase a la gente, le prendieron los sacerdotes, los profetas y toda la gente, y le dijeron: «¡Vas a morir! <sup>9</sup> ¿Por qué has profetizado en nombre de Yahvé, diciendo: ‘Como Siló quedará este templo; esta ciudad será arrasada, sin nadie que la habite’?» Toda la gente se arremolinó en torno a Jeremías en el templo de Yahvé. <sup>10</sup> Cuando oyeron esto los jefes de Judá, subieron del palacio real al templo de Yahvé y se sentaron a la entrada de la Puerta Nueva del templo de Yahvé<span class="note-ref" data-ref="jr-26-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Los sacerdotes y los profetas se dirigieron a los jefes y a toda la gente con estas palabras: «¡Este hombre merece la muerte por haber profetizado contra esta ciudad, como habéis oído con vuestros propios oídos!» <sup>12</sup> Dijo Jeremías a todos los jefes y a toda la gente: «Yahvé me ha enviado a profetizar sobre este templo y esta ciudad todo lo que habéis oído. <sup>13</sup> Ahora bien, mejorad vuestros caminos y vuestras obras y oíd la voz de Yahvé vuestro Dios; así se arrepentirá Yahvé del mal que ha pronunciado contra vosotros. <sup>14</sup> En cuanto a mí, aquí me tenéis en vuestras manos: haced conmigo como mejor y más acertado os parezca. <sup>15</sup> Empero, sabed de fijo que si me matáis vosotros a mí, sangre inocente cargaréis sobre vosotros y sobre esta ciudad y sus moradores, porque en verdad Yahvé me ha enviado a vosotros para que os transmita directamente estas palabras.»
 
@@ -3607,26 +3607,26 @@ Sión será un campo arado,
 
 Jerusalén, un montón de ruinas,
 
-y el monte del templo, un cerro agreste*.
+y el monte del templo, un cerro agreste<span class="note-ref" data-ref="jr-26-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> ¿Por ventura le mataron Ezequías, rey de Judá, y todo Judá?, ¿no temió más bien a Yahvé y le hizo propicio? Y de ese modo Yahvé se arrepintió del daño con que les había amenazado. Mientras que nosotros estamos haciéndonos mucho daño a nosotros mismos.»
 
-<sup>20</sup> Pero también hubo otro que decía profetizar en nombre de Yahvé —Urías, hijo de Semaías, de Quiriat Yearín—. Él profetizó contra esta ciudad y contra esta tierra en los mismos términos que Jeremías. <sup>21</sup> Cuando el rey Joaquín y todos sus oficiales y dignatarios oyeron sus palabras, el rey buscó la ocasión para matarle. Al enterarse Urías, tuvo miedo y huyó, refugiándose en Egipto. <sup>22</sup> Pero envió* el rey Joaquín a Elnatán, hijo de Acbor, y otros con él a Egipto. <sup>23</sup> Sacaron a Urías de Egipto y lo trajeron al rey Joaquín, quien lo ajustició a espada, y echaron su cadáver a la fosa común.
+<sup>20</sup> Pero también hubo otro que decía profetizar en nombre de Yahvé —Urías, hijo de Semaías, de Quiriat Yearín—. Él profetizó contra esta ciudad y contra esta tierra en los mismos términos que Jeremías. <sup>21</sup> Cuando el rey Joaquín y todos sus oficiales y dignatarios oyeron sus palabras, el rey buscó la ocasión para matarle. Al enterarse Urías, tuvo miedo y huyó, refugiándose en Egipto. <sup>22</sup> Pero envió<span class="note-ref" data-ref="jr-26-22" title="Ver comentario">&#42;</span> el rey Joaquín a Elnatán, hijo de Acbor, y otros con él a Egipto. <sup>23</sup> Sacaron a Urías de Egipto y lo trajeron al rey Joaquín, quien lo ajustició a espada, y echaron su cadáver a la fosa común.
 
-<sup>24</sup> Pero Ajicán, hijo de Safán*, defendió a Jeremías e impidió que fuera entregado en manos del pueblo para matarle.
+<sup>24</sup> Pero Ajicán, hijo de Safán<span class="note-ref" data-ref="jr-26-24" title="Ver comentario">&#42;</span>, defendió a Jeremías e impidió que fuera entregado en manos del pueblo para matarle.
 
-# 2. A LOS DESTERRADOS*
+# 2. A LOS DESTERRADOS<span class="note-ref" data-ref="jr-27" title="Ver comentario">&#42;</span>
 ## Acción simbólica del yugo y mensaje a los reyes de occidente.
-<span id="chapter-27" class="chapter-marker" data-chapter="27">27</span><sup>1</sup> (Al principio del reinado de Sedecías*, hijo de Josías, rey de Judá, recibió Jeremías esta palabra de parte de Yahvé:) <sup>2</sup> Esto me ha dicho Yahvé: Hazte unas coyundas y un yugo, y úncetelo a la cerviz. <sup>3</sup> Envía después un mensaje al rey de Edom, al rey de Moab y al rey de los amonitas, al rey de Tiro y al rey de Sidón por medio de los embajadores que vienen a Jerusalén a ver a Sedecías, rey de Judá*. <sup>4</sup> Dales estas instrucciones para sus señores: «Esto dice Yahvé Sebaot, el Dios de Israel: Esto diréis a vuestros señores: <sup>5</sup> Yo hice la tierra, el hombre y las bestias que hay sobre la faz de la tierra, con mi gran poder y mi tenso brazo, y lo di a quien me plugo. <sup>6</sup> Ahora yo he puesto todos estos países en manos de mi siervo Nabucodonosor, rey de Babilonia, y también los animales del campo le he dado para servirle <sup>7</sup> (y todas las naciones le servirán a él, a su hijo y al hijo de su hijo, hasta que llegue también el turno a su propio país —y le reducirán a servidumbre muchas naciones y reyes grandes—). <sup>8</sup> Así que las naciones y reinos que no sirvan a Nabucodonosor, rey de Babilonia, y que no sometan su cerviz al yugo del rey de Babilonia, los castigaré con la espada, el hambre y la peste —oráculo de Yahvé—, hasta acabar con ellos por medio de él*. <sup>9</sup> Vosotros, pues, no oigáis a vuestros profetas, adivinos, soñadores*, augures ni hechiceros, que os hablan diciendo: ‘No serviréis al rey de Babilonia’, <sup>10</sup> porque profetizan en falso, para hacer que os alejéis de vuestra tierra y que yo os disperse y así perezcáis. <sup>11</sup> Pero la nación que someta su cerviz al yugo de Babilonia y le sirva, yo la dejaré tranquila en su tierra —oráculo de Yahvé— para que la labre y la habite.»
+<span id="chapter-27" class="chapter-marker" data-chapter="27">27</span><sup>1</sup> (Al principio del reinado de Sedecías<span class="note-ref" data-ref="jr-27-1" title="Ver comentario">&#42;</span>, hijo de Josías, rey de Judá, recibió Jeremías esta palabra de parte de Yahvé:) <sup>2</sup> Esto me ha dicho Yahvé: Hazte unas coyundas y un yugo, y úncetelo a la cerviz. <sup>3</sup> Envía después un mensaje al rey de Edom, al rey de Moab y al rey de los amonitas, al rey de Tiro y al rey de Sidón por medio de los embajadores que vienen a Jerusalén a ver a Sedecías, rey de Judá<span class="note-ref" data-ref="jr-27-3" title="Ver comentario">&#42;</span>. <sup>4</sup> Dales estas instrucciones para sus señores: «Esto dice Yahvé Sebaot, el Dios de Israel: Esto diréis a vuestros señores: <sup>5</sup> Yo hice la tierra, el hombre y las bestias que hay sobre la faz de la tierra, con mi gran poder y mi tenso brazo, y lo di a quien me plugo. <sup>6</sup> Ahora yo he puesto todos estos países en manos de mi siervo Nabucodonosor, rey de Babilonia, y también los animales del campo le he dado para servirle <sup>7</sup> (y todas las naciones le servirán a él, a su hijo y al hijo de su hijo, hasta que llegue también el turno a su propio país —y le reducirán a servidumbre muchas naciones y reyes grandes—). <sup>8</sup> Así que las naciones y reinos que no sirvan a Nabucodonosor, rey de Babilonia, y que no sometan su cerviz al yugo del rey de Babilonia, los castigaré con la espada, el hambre y la peste —oráculo de Yahvé—, hasta acabar con ellos por medio de él<span class="note-ref" data-ref="jr-27-8" title="Ver comentario">&#42;</span>. <sup>9</sup> Vosotros, pues, no oigáis a vuestros profetas, adivinos, soñadores<span class="note-ref" data-ref="jr-27-9" title="Ver comentario">&#42;</span>, augures ni hechiceros, que os hablan diciendo: ‘No serviréis al rey de Babilonia’, <sup>10</sup> porque profetizan en falso, para hacer que os alejéis de vuestra tierra y que yo os disperse y así perezcáis. <sup>11</sup> Pero la nación que someta su cerviz al yugo de Babilonia y le sirva, yo la dejaré tranquila en su tierra —oráculo de Yahvé— para que la labre y la habite.»
 
 <sup>12</sup> A Sedecías, rey de Judá, le hablé en estos mismos términos, diciendo: «Someted vuestras cervices al yugo del rey de Babilonia, servidle a él y a su pueblo, y quedaréis con vida. <sup>13</sup> (¿A qué morir tú y tu pueblo por la espada, el hambre y la peste, como ha amenazado Yahvé a aquella nación que no sirva al rey de Babilonia?) <sup>14</sup> ¡No oigáis, pues, las palabras de los profetas que os dicen: ‘No serviréis al rey de Babilonia’, porque profetizan en falso. <sup>15</sup> Y aunque no los he enviado —oráculo de Yahvé—, ellos andan profetizando falsedades en mi Nombre, de modo que yo os disperse y perezcáis junto con los profetas que os profetizan.»
 
 <sup>16</sup> A los sacerdotes y al resto de la gente les hablé así: «Esto dice Yahvé: No oigáis las palabras de vuestros profetas, que os profetizan diciendo: ‘Sabed que el ajuar del templo de Yahvé va a ser devuelto de Babilonia en seguida’, porque os profetizan en falso. <sup>17</sup> (No les hagáis caso. Servid al rey de Babilonia y quedaréis con vida. ¿Para qué ha de quedar esta ciudad arrasada?) <sup>18</sup> Y si ellos son profetas y es cierto que la palabra de Yahvé les acompaña, que intercedan ante Yahvé Sebaot para que los objetos que quedaron en el templo de Yahvé, en el palacio del rey de Judá y en Jerusalén no vayan a Babilonia. <sup>19</sup> Porque esto dice Yahvé Sebaot de las columnas, del Mar, de las basas y de los demás objetos que quedaron en esta ciudad, <sup>20</sup> de los que no se apoderó Nabucodonosor, rey de Babilonia, cuando deportó a Jeconías, hijo de Joaquín, rey de Judá, de Jerusalén a Babilonia (así como a todos los nobles de Judá y Jerusalén). <sup>21</sup> Sí, porque esto dice Yahvé Sebaot, el Dios de Israel, respecto a los objetos que quedaron en el templo de Yahvé, en la casa del rey de Judá y en Jerusalén: <sup>22</sup> A Babilonia serán llevados (y allí estarán hasta el día que yo los visite) —oráculo de Yahvé— (y entonces los subiré y devolveré a este lugar).»
 
-## Disputa con el profeta Jananías *.
-<span id="chapter-28" class="chapter-marker" data-chapter="28">28</span><sup>1</sup> Aquel mismo año —al principio del reinado de Sedecías, rey de Judá, en el año cuarto, en el mes quinto— se dirigió a mí* el profeta Jananías, hijo de Azur, que era de Gabaón, en el templo de Yahvé, delante de los sacerdotes y de todo el pueblo. Me dijo: <sup>2</sup> «Esto dice Yahvé Sebaot, Dios de Israel: He quebrado el yugo del rey de Babilonia. <sup>3</sup> Dentro de dos años completos haré que sean devueltos a este lugar todos los objetos del templo de Yahvé que el rey de Babilonia, Nabucodonosor, tomó de este lugar y llevó a Babilonia. <sup>4</sup> Y haré que Jeconías, hijo de Joaquín, rey de Judá, y toda la gente de Judá deportada a Babilonia, regresen a este lugar —oráculo de Yahvé— en cuanto rompa el yugo del rey de Babilonia.»
+## Disputa con el profeta Jananías <span class="note-ref" data-ref="jr-28" title="Ver comentario">&#42;</span>.
+<span id="chapter-28" class="chapter-marker" data-chapter="28">28</span><sup>1</sup> Aquel mismo año —al principio del reinado de Sedecías, rey de Judá, en el año cuarto, en el mes quinto— se dirigió a mí<span class="note-ref" data-ref="jr-28-1" title="Ver comentario">&#42;</span> el profeta Jananías, hijo de Azur, que era de Gabaón, en el templo de Yahvé, delante de los sacerdotes y de todo el pueblo. Me dijo: <sup>2</sup> «Esto dice Yahvé Sebaot, Dios de Israel: He quebrado el yugo del rey de Babilonia. <sup>3</sup> Dentro de dos años completos haré que sean devueltos a este lugar todos los objetos del templo de Yahvé que el rey de Babilonia, Nabucodonosor, tomó de este lugar y llevó a Babilonia. <sup>4</sup> Y haré que Jeconías, hijo de Joaquín, rey de Judá, y toda la gente de Judá deportada a Babilonia, regresen a este lugar —oráculo de Yahvé— en cuanto rompa el yugo del rey de Babilonia.»
 
-<sup>5</sup> Respondió el profeta Jeremías al profeta Jananías, en presencia de los sacerdotes y del resto de la gente, que estaban en el templo de Yahvé. <sup>6</sup> Le dijo el profeta Jeremías: «¡Amén! Así haga Yahvé. Confirme Yahvé las palabras que has profetizado, devolviendo de Babilonia a este lugar los objetos del templo de Yahvé, y a todos los deportados. <sup>7</sup> Pero, oye ahora esta palabra que pronuncio ante ti y ante todos los presentes: <sup>8</sup> Antes de ti y de mí, desde siempre, hubo profetas que profetizaron a muchos países y a grandes reinos la guerra, el mal y la peste. <sup>9</sup> Si un profeta profetiza la paz, cuando se cumpla la palabra de ese profeta, se reconocerá que le había enviado Yahvé de verdad*.»
+<sup>5</sup> Respondió el profeta Jeremías al profeta Jananías, en presencia de los sacerdotes y del resto de la gente, que estaban en el templo de Yahvé. <sup>6</sup> Le dijo el profeta Jeremías: «¡Amén! Así haga Yahvé. Confirme Yahvé las palabras que has profetizado, devolviendo de Babilonia a este lugar los objetos del templo de Yahvé, y a todos los deportados. <sup>7</sup> Pero, oye ahora esta palabra que pronuncio ante ti y ante todos los presentes: <sup>8</sup> Antes de ti y de mí, desde siempre, hubo profetas que profetizaron a muchos países y a grandes reinos la guerra, el mal y la peste. <sup>9</sup> Si un profeta profetiza la paz, cuando se cumpla la palabra de ese profeta, se reconocerá que le había enviado Yahvé de verdad<span class="note-ref" data-ref="jr-28-9" title="Ver comentario">&#42;</span>.»
 
 <sup>10</sup> Entonces el profeta Jananías arrancó el yugo de sobre la cerviz del profeta Jeremías y lo rompió. <sup>11</sup> Y Jananías habló así delante de toda la gente: «Esto dice Yahvé: Así romperé el yugo de Nabucodonosor, rey de Babilonia, dentro de dos años completos, y lo arrancaré de la cerviz de todas las naciones.»
 
@@ -3636,24 +3636,24 @@ y el monte del templo, un cerro agreste*.
 
 <sup>15</sup> Dijo también el profeta Jeremías al profeta Jananías: «Oye, Jananías: Yahvé no te ha enviado, pero tú has hecho confiar a este pueblo en la mentira. <sup>16</sup> Por eso, esto dice Yahvé: He decidido arrojarte de la faz de la tierra. Este año morirás (por haber predicado rebelión contra Yahvé).»
 
-<sup>17</sup> Y el profeta Jananías murió aquel mismo año, en el mes séptimo*.
+<sup>17</sup> Y el profeta Jananías murió aquel mismo año, en el mes séptimo<span class="note-ref" data-ref="jr-28-17" title="Ver comentario">&#42;</span>.
 
 ## Carta a los deportados.
-<span id="chapter-29" class="chapter-marker" data-chapter="29">29</span><sup>1</sup> Éste es el tenor de la carta que envió el profeta Jeremías desde Jerusalén al resto de los ancianos de la deportación, a los sacerdotes, profetas y pueblo en general, que había deportado Nabucodonosor desde Jerusalén a Babilonia <sup>2</sup> —después de salir de Jerusalén el rey Jeconías y la Gran Dama, los eunucos, los jefes de Judá y Jerusalén, los herreros y cerrajeros—. <sup>3</sup> La envió por mediación de Elasá, hijo de Safán, y de Guemarías, hijo de Jilquías, a quienes Sedecías, rey de Judá, envió a Babilonia*, donde Nabucodonosor, rey de Babilonia. Decía así:
+<span id="chapter-29" class="chapter-marker" data-chapter="29">29</span><sup>1</sup> Éste es el tenor de la carta que envió el profeta Jeremías desde Jerusalén al resto de los ancianos de la deportación, a los sacerdotes, profetas y pueblo en general, que había deportado Nabucodonosor desde Jerusalén a Babilonia <sup>2</sup> —después de salir de Jerusalén el rey Jeconías y la Gran Dama, los eunucos, los jefes de Judá y Jerusalén, los herreros y cerrajeros—. <sup>3</sup> La envió por mediación de Elasá, hijo de Safán, y de Guemarías, hijo de Jilquías, a quienes Sedecías, rey de Judá, envió a Babilonia<span class="note-ref" data-ref="jr-29-3" title="Ver comentario">&#42;</span>, donde Nabucodonosor, rey de Babilonia. Decía así:
 
 <sup>4</sup> «Esto dice Yahvé Sebaot, el Dios de Israel, a todos los deportados de Jerusalén a Babilonia: <sup>5</sup> Edificad casas y habitadlas; plantad huertos y comed su fruto; <sup>6</sup> tomad esposa y engendrad hijos e hijas; casad a vuestros hijos y dad vuestras hijas a maridos para que den a luz hijos e hijas. Así medraréis y no menguaréis. <sup>7</sup> Procurad el bien de la ciudad a donde os he deportado y orad por ella a Yahvé, porque su bien será el vuestro. <sup>8</sup> Esto dice Yahvé Sebaot, el dios de Israel: No os embauquen los profetas que hay entre vosotros ni vuestros adivinos, y no hagáis caso de vuestros soñadores que sueñan por cuenta propia, <sup>9</sup> porque falsamente os profetizan en mi Nombre. Yo no los he enviado —oráculo de Yahvé—. <sup>10</sup> Pues esto dice Yahvé: En cuanto pasen setenta años en Babilonia, yo os visitaré y confirmaré sobre vosotros mi favorable promesa de volveros a este lugar. <sup>11</sup> Bien conozco los designios que abrigo sobre vosotros —oráculo de Yahvé—. Son designios de paz, no de desgracia; de daros un porvenir cuajado de esperanza. <sup>12</sup> Me invocaréis y vendréis a rogarme, y yo os escucharé. <sup>13</sup> Me buscaréis y me encontraréis cuando me solicitéis de todo corazón; <sup>14</sup> me dejaré encontrar de vosotros (—oráculo de Yahvé—; devolveré vuestros cautivos, os recogeré de todas las naciones y lugares a donde os desterré —oráculo de Yahvé— y os haré tornar al sitio de donde os hice ir desterrados).
 
-<sup>15</sup> «En cuanto a eso que decís: ‘Nos ha suscitado Yahvé profetas en Babilonia’, <sup>16</sup> esto dice Yahvé* del rey que se sienta sobre el trono de David y de todo el pueblo que se asienta en esta ciudad, los hermanos vuestros que no salieron con vosotros al destierro; <sup>17</sup> esto dice Yahvé Sebaot: Voy a soltar contra ellos la espada, el hambre y la peste, y haré que se parezcan a aquellos higos podridos, tan malos que no se podían comer. <sup>18</sup> Los perseguiré con la espada, el hambre y la peste, y los convertiré en espantajo ante todos los reinos de la tierra. Serán objeto de maldición, pasmo, rechifla y oprobio entre todas las naciones a donde los arroje, <sup>19</sup> por no haber escuchado* ni obedecido las palabras que les comuniqué asiduamente por medio de mis siervos los profetas —oráculo de Yahvé—. <sup>20</sup> Pero vosotros, deportados todos que envié de Jerusalén a Babilonia, escuchad la palabra de Yahvé.
+<sup>15</sup> «En cuanto a eso que decís: ‘Nos ha suscitado Yahvé profetas en Babilonia’, <sup>16</sup> esto dice Yahvé<span class="note-ref" data-ref="jr-29-16" title="Ver comentario">&#42;</span> del rey que se sienta sobre el trono de David y de todo el pueblo que se asienta en esta ciudad, los hermanos vuestros que no salieron con vosotros al destierro; <sup>17</sup> esto dice Yahvé Sebaot: Voy a soltar contra ellos la espada, el hambre y la peste, y haré que se parezcan a aquellos higos podridos, tan malos que no se podían comer. <sup>18</sup> Los perseguiré con la espada, el hambre y la peste, y los convertiré en espantajo ante todos los reinos de la tierra. Serán objeto de maldición, pasmo, rechifla y oprobio entre todas las naciones a donde los arroje, <sup>19</sup> por no haber escuchado<span class="note-ref" data-ref="jr-29-19" title="Ver comentario">&#42;</span> ni obedecido las palabras que les comuniqué asiduamente por medio de mis siervos los profetas —oráculo de Yahvé—. <sup>20</sup> Pero vosotros, deportados todos que envié de Jerusalén a Babilonia, escuchad la palabra de Yahvé.
 
 <sup>21</sup> «Esto dice Yahvé Sebaot, el Dios de Israel, sobre Ajab, hijo de Colayas, y sobre Sedecías, hijo de Maasías, que os profetizan falsamente en mi Nombre: Voy a entregarlos en manos de Nabucodonosor, rey de Babilonia, que los herirá ante vuestros ojos. <sup>22</sup> En ellos se inspirará una maldición que usarán todos los deportados de Judá que están en Babilonia: ‘Vuélvate Yahvé como a Sedecías y como a Ajab, a quienes asó al fuego el rey de Babilonia’, <sup>23</sup> porque obraron de modo infame en Jerusalén, cometieron adulterio con las mujeres de sus prójimos y fingieron pronunciar en mi Nombre palabras que yo no les mandé. Yo soy sabedor y testigo —oráculo de Yahvé—.»
 
 ## Profecía contra Semaías.
-29:24-25 *Semaías el najlamita despachó en su propio nombre cartas (a todo el pueblo que hay en Jerusalén) a Sofonías, hijo del sacerdote Maasías (y a todos los sacerdotes), diciendo: <sup>26</sup> «Yahvé te ha puesto por sacerdote en vez del sacerdote Joadá, para que estés al frente del templo de Yahvé; y a todo el que tenga un trance o profetice lo meterás en el cepo y lo encerrarás en el calabozo. <sup>27</sup> Entonces, ¿por qué no has sancionado a Jeremías de Anatot, que se os hace pasar por profeta? <sup>28</sup> Resulta que nos ha enviado a Babilonia un mensaje diciendo: ‘La cosa va para largo. Edificad casas y habitadlas; plantad huertos y comed su fruto’.»
+29:24-25 <span class="note-ref" data-ref="jr-29-25" title="Ver comentario">&#42;</span>Semaías el najlamita despachó en su propio nombre cartas (a todo el pueblo que hay en Jerusalén) a Sofonías, hijo del sacerdote Maasías (y a todos los sacerdotes), diciendo: <sup>26</sup> «Yahvé te ha puesto por sacerdote en vez del sacerdote Joadá, para que estés al frente del templo de Yahvé; y a todo el que tenga un trance o profetice lo meterás en el cepo y lo encerrarás en el calabozo. <sup>27</sup> Entonces, ¿por qué no has sancionado a Jeremías de Anatot, que se os hace pasar por profeta? <sup>28</sup> Resulta que nos ha enviado a Babilonia un mensaje diciendo: ‘La cosa va para largo. Edificad casas y habitadlas; plantad huertos y comed su fruto’.»
 
 <sup>29</sup> El sacerdote Sofonías leyó esta carta ante el profeta Jeremías. <sup>30</sup> Entonces Yahvé dirigió la palabra a Jeremías en estos términos: <sup>31</sup> «Envía este mensaje a todos los deportados: Esto dice Yahvé respecto a Semaías el najlamita, porque os ha profetizado sin haberle yo enviado, y os ha inspirado así una falsa seguridad. <sup>32</sup> Por tanto, esto dice Yahvé: He decidido castigar a Semaías el najlamita y a su descendencia. No habrá en ella ninguno que habite en medio de este pueblo y que disfrute de los bienes que pienso conceder a mi pueblo —oráculo de Yahvé—, porque predicó la rebeldía contra Yahvé.»
 
 # 3. LIBRO DE LA CONSOLACIÓN
-## Promesa de restauración a Israel del Norte*.
+## Promesa de restauración a Israel del Norte<span class="note-ref" data-ref="jr-30" title="Ver comentario">&#42;</span>.
 <span id="chapter-30" class="chapter-marker" data-chapter="30">30</span><sup>1</sup> Palabra que recibió Jeremías de parte de Yahvé: <sup>2</sup> Esto dice Yahvé, el Dios de Israel: Escribe en un libro todas las palabras que te he dirigido. <sup>3</sup> Pues vienen días —oráculo de Yahvé— en que haré tornar a los cautivos de mi pueblo Israel (y de Judá) —dice Yahvé— y los haré volver a la tierra que di a sus padres en posesión.
 
 <sup>4</sup> Éstas son las palabras que dirigió Yahvé a Israel (y a Judá).
@@ -3684,7 +3684,7 @@ tiempo de angustia para Jacob,
 
 aunque saldrá ileso de ella.
 
-<sup>8</sup> (Acontecerá aquel día —oráculo de Yahvé Sebaot— que romperé el yugo de sobre tu cerviz y arrancaré tus coyundas, y ya no te harán servir con él los extranjeros, <sup>9</sup> pues Israel y Judá servirán a Yahvé su Dios y a David su rey, que yo les suscitaré*.)
+<sup>8</sup> (Acontecerá aquel día —oráculo de Yahvé Sebaot— que romperé el yugo de sobre tu cerviz y arrancaré tus coyundas, y ya no te harán servir con él los extranjeros, <sup>9</sup> pues Israel y Judá servirán a Yahvé su Dios y a David su rey, que yo les suscitaré<span class="note-ref" data-ref="jr-30-9" title="Ver comentario">&#42;</span>.)
 
 <sup>10</sup> Pero tú no temas, siervo mío Jacob
 
@@ -3724,9 +3724,9 @@ incurable tu herida.
 
 para una herida hay cura,
 
-mas para ti no hay remedio*.
+mas para ti no hay remedio<span class="note-ref" data-ref="jr-30-13" title="Ver comentario">&#42;</span>.
 
-<sup>14</sup> Todos tus amantes* te olvidaron,
+<sup>14</sup> Todos tus amantes<span class="note-ref" data-ref="jr-30-14" title="Ver comentario">&#42;</span> te olvidaron,
 
 ya no andarán buscándote.
 
@@ -3748,7 +3748,7 @@ por ser enormes tus pecados
 
 te he tratado de ese modo.
 
-<sup>16</sup> No obstante*,
+<sup>16</sup> No obstante<span class="note-ref" data-ref="jr-30-16" title="Ver comentario">&#42;</span>,
 
 los que te devoran serán devorados,
 
@@ -3766,7 +3766,7 @@ te curaré de tus llagas
 
 Te llamaron «La Repudiada»,
 
-«Sión de la que nadie se preocupa*».
+«Sión de la que nadie se preocupa<span class="note-ref" data-ref="jr-30-17" title="Ver comentario">&#42;</span>».
 
 <sup>18</sup> Pero esto dice Yahvé:
 
@@ -3800,7 +3800,7 @@ y castigaré a todos sus opresores.
 
 <sup>21</sup> Será su soberano uno de ellos,
 
-su jefe de entre ellos saldrá*,
+su jefe de entre ellos saldrá<span class="note-ref" data-ref="jr-30-21" title="Ver comentario">&#42;</span>,
 
 lo acercaré y él acudirá a mí,
 
@@ -3812,7 +3812,7 @@ por llegarse hasta mí?
 
 <sup>22</sup> Y así seréis mi pueblo,
 
-y yo seré vuestro Dios*.
+y yo seré vuestro Dios<span class="note-ref" data-ref="jr-30-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> Ya ha estallado una tormenta de Yahvé,
 
@@ -3828,7 +3828,7 @@ girando sobre la cabeza de los malvados.
 
 <sup>2</sup> Esto dice Yahvé:
 
-Halló gracia en el desierto*
+Halló gracia en el desierto<span class="note-ref" data-ref="jr-31-2" title="Ver comentario">&#42;</span>
 
 el pueblo que se libró de la espada:
 
@@ -3860,7 +3860,7 @@ en la montaña de Efraín:
 
 «¡En marcha, subamos a Sión,
 
-adonde Yahvé, nuestro Dios*!»
+adonde Yahvé, nuestro Dios<span class="note-ref" data-ref="jr-31-6" title="Ver comentario">&#42;</span>!»
 
 <sup>7</sup> Pues esto dice Yahvé:
 
@@ -3870,7 +3870,7 @@ y gritos por la capital de las naciones;
 
 hacedlo oír con alabanzas y decid:
 
-«¡Ha salvado Yahvé a su pueblo*,
+«¡Ha salvado Yahvé a su pueblo<span class="note-ref" data-ref="jr-31-7" title="Ver comentario">&#42;</span>,
 
 al Resto de Israel!»
 
@@ -3886,7 +3886,7 @@ la preñada junto con la parida.
 
 <sup>9</sup> Volverán entre lloros,
 
-pero yo los guiaré entre consuelos*,
+pero yo los guiaré entre consuelos<span class="note-ref" data-ref="jr-31-9" title="Ver comentario">&#42;</span>,
 
 los llevaré junto a arroyos de agua
 
@@ -3942,11 +3942,11 @@ En Ramá se escuchan voces,
 
 ayes y llantos amargos:
 
-Raquel llora por sus hijos*,
+Raquel llora por sus hijos<span class="note-ref" data-ref="jr-31-15-a" title="Ver comentario">&#42;</span>,
 
 y no quiere que la consuelen,
 
-pues sus hijos ya no existen*.
+pues sus hijos ya no existen<span class="note-ref" data-ref="jr-31-15-b" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Esto dice Yahvé:
 
@@ -3978,7 +3978,7 @@ pues tú, Yahvé, eres mi Dios.
 
 <sup>19</sup> Y luego de volver, me arrepiento,
 
-me doy cuenta y me golpeo el pecho*,
+me doy cuenta y me golpeo el pecho<span class="note-ref" data-ref="jr-31-19" title="Ver comentario">&#42;</span>,
 
 me avergüenzo y me confundo luego,
 
@@ -4020,9 +4020,9 @@ Pues Yahvé ha creado
 
 una novedad en el país:
 
-la Mujer rondará al Varón*.
+la Mujer rondará al Varón<span class="note-ref" data-ref="jr-31-22" title="Ver comentario">&#42;</span>.
 
-## Se promete a Judá la restauración*.
+## Se promete a Judá la restauración<span class="note-ref" data-ref="jr-31-23" title="Ver comentario">&#42;</span>.
 <sup>23</sup> Esto dice Yahvé Sebaot, el Dios de Israel: Todavía dirán este refrán en tierra de Judá y en sus ciudades, cuando yo haga volver a sus cautivos:
 
 «¡Bendígate Yahvé,
@@ -4033,12 +4033,12 @@ oh monte santo!»
 
 <sup>24</sup> Morarán allí, en Judá y todas sus ciudades, los labradores y los que trashuman con el rebaño, <sup>25</sup> porque yo refrescaré la garganta reseca y saciaré todo cuerpo macilento.
 
-<sup>26</sup> En esto, me desperté y comprobé lo dulce que había sido mi sueño*.
+<sup>26</sup> En esto, me desperté y comprobé lo dulce que había sido mi sueño<span class="note-ref" data-ref="jr-31-26" title="Ver comentario">&#42;</span>.
 
 ## Israel y Judá.
 <sup>27</sup> Van a llegar días —oráculo de Yahvé— en que sembraré la Casa de Israel y la Casa de Judá de simiente de hombres y ganados. <sup>28</sup> Entonces, del mismo modo que anduve presto contra ellos para extirpar, destruir, arruinar, perder y dañar, así andaré respecto a ellos para reconstruir y replantar —oráculo de Yahvé—.
 
-## Retribución personal *.
+## Retribución personal <span class="note-ref" data-ref="jr-31-29" title="Ver comentario">&#42;</span>.
 <sup>29</sup> En aquellos días no dirán más:
 
 «Los padres comieron el agraz
@@ -4049,15 +4049,15 @@ y los hijos sufren de dentera»;
 
 quien coma el agraz sufrirá de dentera.
 
-## La Nueva Alianza*.
-<sup>31</sup> Van a llegar días —oráculo de Yahvé— en que yo pactaré con la Casa de Israel (y con la Casa de Judá) una nueva alianza; <sup>32</sup> no como la alianza que pacté con sus padres, cuando los tomé de la mano para sacarlos de Egipto, pues ellos rompieron mi alianza y yo hice estrago* en ellos —oráculo de Yahvé—. <sup>33</sup> Sino que ésta será la alianza que yo pacte con la Casa de Israel, después de aquellos días —oráculo de Yahvé—: pondré mi Ley en su interior y sobre sus corazones la escribiré, y yo seré su Dios y ellos serán mi pueblo. <sup>34</sup> Ya no tendrán que adoctrinarse entre sí, unos a otros, diciendo: «Conoced a Yahvé», pues todos ellos me conocerán, del más chico al más grande —oráculo de Yahvé—, cuando perdone su culpa y de su pecado no vuelva a acordarme.
+## La Nueva Alianza<span class="note-ref" data-ref="jr-31-31" title="Ver comentario">&#42;</span>.
+<sup>31</sup> Van a llegar días —oráculo de Yahvé— en que yo pactaré con la Casa de Israel (y con la Casa de Judá) una nueva alianza; <sup>32</sup> no como la alianza que pacté con sus padres, cuando los tomé de la mano para sacarlos de Egipto, pues ellos rompieron mi alianza y yo hice estrago<span class="note-ref" data-ref="jr-31-32" title="Ver comentario">&#42;</span> en ellos —oráculo de Yahvé—. <sup>33</sup> Sino que ésta será la alianza que yo pacte con la Casa de Israel, después de aquellos días —oráculo de Yahvé—: pondré mi Ley en su interior y sobre sus corazones la escribiré, y yo seré su Dios y ellos serán mi pueblo. <sup>34</sup> Ya no tendrán que adoctrinarse entre sí, unos a otros, diciendo: «Conoced a Yahvé», pues todos ellos me conocerán, del más chico al más grande —oráculo de Yahvé—, cuando perdone su culpa y de su pecado no vuelva a acordarme.
 
 ## Permanencia de Israel.
 <sup>35</sup> Esto dice Yahvé,
 
 el que da el sol para alumbrar el día
 
-y gobierna* la luna y las estrellas
+y gobierna<span class="note-ref" data-ref="jr-31-35" title="Ver comentario">&#42;</span> la luna y las estrellas
 
 para alumbrar la noche;
 
@@ -4089,11 +4089,11 @@ por todo cuanto hicieron
 
 —oráculo de Yahvé—.
 
-## Reconstrucción y esplendor de Jerusalén*.
-<sup>38</sup> Van a llegar días —oráculo de Yahvé— en que será reconstruida la ciudad de Yahvé desde la torre de Jananel hasta la Puerta del Ángulo; <sup>39</sup> y la cuerda de medir volverá a ir toda derecha hasta la cuesta de Gareb, y torcerá hasta Goá. <sup>40</sup> Y todo el valle de los cadáveres y de la ceniza, así como todos los campos que van hasta el torrente* Cedrón y hasta la esquina de la Puerta de los Caballos, hacia oriente, estará consagrado a Yahvé: no volverá a ser destruido ni dado al anatema nunca jamás.
+## Reconstrucción y esplendor de Jerusalén<span class="note-ref" data-ref="jr-31-38" title="Ver comentario">&#42;</span>.
+<sup>38</sup> Van a llegar días —oráculo de Yahvé— en que será reconstruida la ciudad de Yahvé desde la torre de Jananel hasta la Puerta del Ángulo; <sup>39</sup> y la cuerda de medir volverá a ir toda derecha hasta la cuesta de Gareb, y torcerá hasta Goá. <sup>40</sup> Y todo el valle de los cadáveres y de la ceniza, así como todos los campos que van hasta el torrente<span class="note-ref" data-ref="jr-31-40" title="Ver comentario">&#42;</span> Cedrón y hasta la esquina de la Puerta de los Caballos, hacia oriente, estará consagrado a Yahvé: no volverá a ser destruido ni dado al anatema nunca jamás.
 
 # 4. AÑADIDURAS AL LIBRO DE LA CONSOLACIÓN
-## La compra de un campo, prenda de porvenir venturoso *.
+## La compra de un campo, prenda de porvenir venturoso <span class="note-ref" data-ref="jr-32" title="Ver comentario">&#42;</span>.
 <span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> Palabra que recibió Jeremías de parte de Yahvé el año diez de Sedecías, rey de Judá, o sea, el año dieciocho de Nabucodonosor:
 
 <sup>2</sup> A la sazón las fuerzas del rey de Babilonia sitiaban a Jerusalén, mientras el profeta Jeremías estaba detenido en el patio de la guardia de la casa del rey de Judá, <sup>3</sup> donde lo tenía detenido Sedecías, rey de Judá, bajo esta acusación: «Tú has profetizado: Esto dice Yahvé: Voy a entregar esta ciudad en manos del rey de Babilonia, que la conquistará. <sup>4</sup> Sedecías, rey de Judá, no escapará de manos de los caldeos, sino que será entregado sin remisión en manos del rey de Babilonia, con quien hablará personalmente y podrá ver cara a cara. <sup>5</sup> Se llevará a Sedecías a Babilonia, donde permanecerá (hasta que yo me ocupe de él —oráculo de Yahvé—. ¡Aunque luchéis con los caldeos, no triunfaréis!)»
@@ -4102,28 +4102,28 @@ por todo cuanto hicieron
 
 <sup>7</sup> «He aquí que Janamel, hijo de tu tío Salún, va a dirigirse a ti diciendo: ‘Ea, cómprame el campo de Anatot, porque a ti te toca el derecho de rescate para comprarlo.’»
 
-<sup>8</sup> Conforme a lo que había dicho Yahvé, mi primo Janamel vino a verme al patio de la guardia, y me dijo: «Ea, cómprame el campo de Anatot —que cae en territorio de Benjamín—, porque tuyo es el derecho de adquisición y a ti te toca el rescate. Cómpratelo.» Yo reconocí en aquello la palabra de Yahvé, <sup>9</sup> y compré a mi primo Janamel el campo que está en Anatot. La plata que le pesé ascendía a diecisiete siclos. <sup>10</sup> Lo apunté en mi escritura, sellé, aduje testigos y pesé la plata en la balanza. <sup>11</sup> Luego tomé la escritura de la compra, el documento sellado según ley y la copia abierta, <sup>12</sup> y pasé la escritura de la compra a Baruc, hijo de Nerías, hijo de Majsías, en presencia de mi primo* Janamel y de los testigos firmantes de la escritura de la compra, y delante de todos los judíos presentes en el patio de la guardia. <sup>13</sup> En presencia de todos ellos di a Baruc este encargo: <sup>14</sup> Esto dice Yahvé Sebaot, Dios de Israel: Toma estos documentos: la escritura de compra, el documento sellado y la copia abierta, y los pones en un cántaro de arcilla para que duren mucho tiempo. <sup>15</sup> Porque esto dice Yahvé Sebaot, Dios de Israel: «Todavía se comprarán casas, campos y viñas en esta tierra.»
+<sup>8</sup> Conforme a lo que había dicho Yahvé, mi primo Janamel vino a verme al patio de la guardia, y me dijo: «Ea, cómprame el campo de Anatot —que cae en territorio de Benjamín—, porque tuyo es el derecho de adquisición y a ti te toca el rescate. Cómpratelo.» Yo reconocí en aquello la palabra de Yahvé, <sup>9</sup> y compré a mi primo Janamel el campo que está en Anatot. La plata que le pesé ascendía a diecisiete siclos. <sup>10</sup> Lo apunté en mi escritura, sellé, aduje testigos y pesé la plata en la balanza. <sup>11</sup> Luego tomé la escritura de la compra, el documento sellado según ley y la copia abierta, <sup>12</sup> y pasé la escritura de la compra a Baruc, hijo de Nerías, hijo de Majsías, en presencia de mi primo<span class="note-ref" data-ref="jr-32-12" title="Ver comentario">&#42;</span> Janamel y de los testigos firmantes de la escritura de la compra, y delante de todos los judíos presentes en el patio de la guardia. <sup>13</sup> En presencia de todos ellos di a Baruc este encargo: <sup>14</sup> Esto dice Yahvé Sebaot, Dios de Israel: Toma estos documentos: la escritura de compra, el documento sellado y la copia abierta, y los pones en un cántaro de arcilla para que duren mucho tiempo. <sup>15</sup> Porque esto dice Yahvé Sebaot, Dios de Israel: «Todavía se comprarán casas, campos y viñas en esta tierra.»
 
-<sup>16</sup> Después de haber entregado la escritura de propiedad a Baruc, hijo de Nerías, oré a Yahvé diciendo: <sup>17</sup> «¡Ay, Señor Yahvé! Tú eres quien hiciste los cielos y la tierra con gran poder y brazo extendido. Nada te resulta extraordinario. <sup>18</sup> Tú manifiestas tu amor a millares, pero te cobras la culpa de los padres a costa* de sus descendientes. Tú eres el Dios grande, el Fuerte; te llamas Yahvé Sebaot. <sup>19</sup> Eres grande en designios y rico en recursos. Tú fijas los ojos en la conducta de los humanos para dar a cada uno según su conducta y el fruto de sus obras. <sup>20</sup> Tú obraste señales y portentos en Egipto, hasta hoy, y también en Israel y en la humanidad entera, y así te hiciste famoso, como hoy puede verse. <sup>21</sup> Tú sacaste a tu pueblo Israel de Egipto con señales y prodigios, con mano fuerte y brazo extendido, y con gran aparato. <sup>22</sup> Tú les diste esta tierra que habías jurado dar a sus padres: una tierra que mana leche y miel. <sup>23</sup> Entraron en ella y la poseyeron, pero no escucharon tus palabras ni se condujeron conforme a tus leyes. No hicieron nada de cuanto les mandaste, por eso les enviaste esta calamidad. <sup>24</sup> En este momento los terraplenes llegan a la ciudad para tomarla, y la ciudad está ya a merced de los caldeos; que la atacan con la espada, el hambre y la peste. Lo que habías anunciado ha ocurrido; tú mismo lo estás viendo. <sup>25</sup> ¡Y precisamente tú me has dicho, Señor Yahvé: ‘Cómprate el campo y aduce testigos’, cuando la ciudad está entregada a manos de los caldeos!»
+<sup>16</sup> Después de haber entregado la escritura de propiedad a Baruc, hijo de Nerías, oré a Yahvé diciendo: <sup>17</sup> «¡Ay, Señor Yahvé! Tú eres quien hiciste los cielos y la tierra con gran poder y brazo extendido. Nada te resulta extraordinario. <sup>18</sup> Tú manifiestas tu amor a millares, pero te cobras la culpa de los padres a costa<span class="note-ref" data-ref="jr-32-18" title="Ver comentario">&#42;</span> de sus descendientes. Tú eres el Dios grande, el Fuerte; te llamas Yahvé Sebaot. <sup>19</sup> Eres grande en designios y rico en recursos. Tú fijas los ojos en la conducta de los humanos para dar a cada uno según su conducta y el fruto de sus obras. <sup>20</sup> Tú obraste señales y portentos en Egipto, hasta hoy, y también en Israel y en la humanidad entera, y así te hiciste famoso, como hoy puede verse. <sup>21</sup> Tú sacaste a tu pueblo Israel de Egipto con señales y prodigios, con mano fuerte y brazo extendido, y con gran aparato. <sup>22</sup> Tú les diste esta tierra que habías jurado dar a sus padres: una tierra que mana leche y miel. <sup>23</sup> Entraron en ella y la poseyeron, pero no escucharon tus palabras ni se condujeron conforme a tus leyes. No hicieron nada de cuanto les mandaste, por eso les enviaste esta calamidad. <sup>24</sup> En este momento los terraplenes llegan a la ciudad para tomarla, y la ciudad está ya a merced de los caldeos; que la atacan con la espada, el hambre y la peste. Lo que habías anunciado ha ocurrido; tú mismo lo estás viendo. <sup>25</sup> ¡Y precisamente tú me has dicho, Señor Yahvé: ‘Cómprate el campo y aduce testigos’, cuando la ciudad está entregada a manos de los caldeos!»
 
-<sup>26</sup> Entonces me dirigió* Yahvé la palabra en estos términos: <sup>27</sup> Mira que yo soy Yahvé, el Dios de toda carne. ¿Habrá algo que me resulte extraordinario?
+<sup>26</sup> Entonces me dirigió<span class="note-ref" data-ref="jr-32-26" title="Ver comentario">&#42;</span> Yahvé la palabra en estos términos: <sup>27</sup> Mira que yo soy Yahvé, el Dios de toda carne. ¿Habrá algo que me resulte extraordinario?
 
 <sup>28</sup> Pues esto dice Yahvé: Voy a entregar esta ciudad en manos de los caldeos y en manos de Nabucodonosor, rey de Babilonia, que la tomará. <sup>29</sup> Entrarán los caldeos que atacan a esta ciudad y la prenderán fuego; la incendiarán junto con las casas en cuyos terrados se incensaba a Baal y se hacían libaciones a otros dioses para provocarme. <sup>30</sup> Porque los hijos de Israel y los hijos de Judá, desde sus años mozos, sólo han hecho lo que me disgusta (porque los hijos de Israel no han hecho más que provocarme con las obras de sus manos —oráculo de Yahvé—). <sup>31</sup> Porque esta ciudad ha sido para mí motivo de furor y de cólera, desde el día en que la edificaron hasta hoy. Hasta tal punto que he tenido que quitármela de delante, <sup>32</sup> por toda la maldad que perpetraron los hijos de Israel y los hijos de Judá para provocarme. Y no sólo ellos, sino también sus reyes, sus jefes, sus sacerdotes y sus profetas; todos: los hombres de Judá y los habitantes de Jerusalén. <sup>33</sup> Me volvieron la espalda y no me dieron la cara. Yo los adoctriné asiduamente, mas ellos no quisieron aprender la lección. <sup>34</sup> Más bien pusieron sus Monstruos abominables en el templo donde invocan mi Nombre, profanándolo; <sup>35</sup> y construyeron los altos del Baal que hay en el Valle de Ben Hinón para pasar por el fuego a sus hijos e hijas en honor de Mólec —cosa que no les mandé ni me pasó por las mientes—. Con semejante abominación hicieron pecar a Judá.
 
-<sup>36</sup> Pues ahora, en verdad, esto dice Yahvé, el Dios de Israel, acerca de esta ciudad que —al decir de vosotros*— está ya sometida al rey de Babilonia por la espada, por el hambre y por la peste. <sup>37</sup> Voy a reunirlos de todos los países a donde los empujé lleno de ira, de cólera y de enojo incontenible. Los haré volver a este lugar y haré que vivan seguros; <sup>38</sup> serán mi pueblo, y yo seré su Dios. <sup>39</sup> Les daré un solo corazón y una conducta cabal, de suerte que me respeten todos los días para bien de ellos y de sus descendientes. <sup>40</sup> Pactaré con ellos una alianza eterna —que no revocaré después de ellos—: les procuraré el bien y haré que me respeten de corazón. De ese modo no se apartarán de mi lado. <sup>41</sup> Me alegraré de hacerles el bien y los plantaré en esta tierra firmemente, con todo mi corazón y con toda mi alma. <sup>42</sup> Porque esto dice Yahvé: del mismo modo que he acarreado sobre este pueblo toda esta enorme desgracia, también voy a traer yo mismo sobre ellos todo el beneficio que les estoy prometiendo. <sup>43</sup> Se comprarán campos en esta tierra de la que decís vosotros que es una desolación, sin personas ni ganados, que está a merced de los caldeos. <sup>44</sup> Se comprarán campos con dinero, se firmarán escrituras y serán selladas delante de testigos: en la tierra de Benjamín, en los alrededores de Jerusalén, en las ciudades de Judá, en las de la montaña, en las de la Tierra Baja y en las del Negueb, pues haré tornar a sus cautivos —oráculo de Yahvé—.
+<sup>36</sup> Pues ahora, en verdad, esto dice Yahvé, el Dios de Israel, acerca de esta ciudad que —al decir de vosotros<span class="note-ref" data-ref="jr-32-36" title="Ver comentario">&#42;</span>— está ya sometida al rey de Babilonia por la espada, por el hambre y por la peste. <sup>37</sup> Voy a reunirlos de todos los países a donde los empujé lleno de ira, de cólera y de enojo incontenible. Los haré volver a este lugar y haré que vivan seguros; <sup>38</sup> serán mi pueblo, y yo seré su Dios. <sup>39</sup> Les daré un solo corazón y una conducta cabal, de suerte que me respeten todos los días para bien de ellos y de sus descendientes. <sup>40</sup> Pactaré con ellos una alianza eterna —que no revocaré después de ellos—: les procuraré el bien y haré que me respeten de corazón. De ese modo no se apartarán de mi lado. <sup>41</sup> Me alegraré de hacerles el bien y los plantaré en esta tierra firmemente, con todo mi corazón y con toda mi alma. <sup>42</sup> Porque esto dice Yahvé: del mismo modo que he acarreado sobre este pueblo toda esta enorme desgracia, también voy a traer yo mismo sobre ellos todo el beneficio que les estoy prometiendo. <sup>43</sup> Se comprarán campos en esta tierra de la que decís vosotros que es una desolación, sin personas ni ganados, que está a merced de los caldeos. <sup>44</sup> Se comprarán campos con dinero, se firmarán escrituras y serán selladas delante de testigos: en la tierra de Benjamín, en los alrededores de Jerusalén, en las ciudades de Judá, en las de la montaña, en las de la Tierra Baja y en las del Negueb, pues haré tornar a sus cautivos —oráculo de Yahvé—.
 
-## Nuevas promesas de restauración para Jerusalén y Judá*.
+## Nuevas promesas de restauración para Jerusalén y Judá<span class="note-ref" data-ref="jr-33" title="Ver comentario">&#42;</span>.
 <span id="chapter-33" class="chapter-marker" data-chapter="33">33</span><sup>1</sup> De nuevo dirigió Yahvé la palabra a Jeremías, que estaba aún detenido en el patio de la guardia. Le habló así:
 
-<sup>2</sup> Esto dice Yahvé, creador de la tierra*, que la formó para hacerla subsistir; Yahvé es su nombre: <sup>3</sup> Llámame y te responderé; te mostraré cosas grandes, inaccesibles, que desconocías.
+<sup>2</sup> Esto dice Yahvé, creador de la tierra<span class="note-ref" data-ref="jr-33-2" title="Ver comentario">&#42;</span>, que la formó para hacerla subsistir; Yahvé es su nombre: <sup>3</sup> Llámame y te responderé; te mostraré cosas grandes, inaccesibles, que desconocías.
 
-<sup>4</sup> Porque esto dice Yahvé, el Dios de Israel, tocante a las casas de esta ciudad y a las de los reyes de Judá que han sido destruidas por los terraplenes y por la espada: <sup>5</sup> Ahora se traba combate con los caldeos, que llenarán la ciudad* de cadáveres humanos: de los que herí lleno de ira y de cólera, y por cuya malicia oculté mi rostro a esta ciudad. <sup>6</sup> Pero pienso proporcionarles* su alivio y su medicina. Los curaré y les descubriré el bienestar y seguridad que les traigo. <sup>7</sup> Haré que vuelvan los cautivos de Judá y de Israel. Los reedificaré como antaño, <sup>8</sup> los purificaré de todos los pecados que cometieron contra mí, y perdonaré todos los pecados que cometieron contra mí y con los que manifestaron su rebeldía. <sup>9</sup> Jerusalén* será para mí un nombre evocador de alegría; será prez y ornato para todas las naciones de la tierra que oyeren todos los bienes que voy a concederle; se sorprenderán y estremecerán de todos los beneficios y el bienestar que voy a concederle.
+<sup>4</sup> Porque esto dice Yahvé, el Dios de Israel, tocante a las casas de esta ciudad y a las de los reyes de Judá que han sido destruidas por los terraplenes y por la espada: <sup>5</sup> Ahora se traba combate con los caldeos, que llenarán la ciudad<span class="note-ref" data-ref="jr-33-5" title="Ver comentario">&#42;</span> de cadáveres humanos: de los que herí lleno de ira y de cólera, y por cuya malicia oculté mi rostro a esta ciudad. <sup>6</sup> Pero pienso proporcionarles<span class="note-ref" data-ref="jr-33-6" title="Ver comentario">&#42;</span> su alivio y su medicina. Los curaré y les descubriré el bienestar y seguridad que les traigo. <sup>7</sup> Haré que vuelvan los cautivos de Judá y de Israel. Los reedificaré como antaño, <sup>8</sup> los purificaré de todos los pecados que cometieron contra mí, y perdonaré todos los pecados que cometieron contra mí y con los que manifestaron su rebeldía. <sup>9</sup> Jerusalén<span class="note-ref" data-ref="jr-33-9" title="Ver comentario">&#42;</span> será para mí un nombre evocador de alegría; será prez y ornato para todas las naciones de la tierra que oyeren todos los bienes que voy a concederle; se sorprenderán y estremecerán de todos los beneficios y el bienestar que voy a concederle.
 
 <sup>10</sup> Esto dice Yahvé: Aún se oirá en este lugar, del que vosotros decís que está abandonado, sin personas ni ganados, en todas las ciudades de Judá y en las calles de Jerusalén desoladas, sin personas ni habitantes ni ganados, <sup>11</sup> voces de gozo y de alegría, la voz del novio y la voz de la novia, la voz de cuantos traigan sacrificios de alabanza al templo de Yahvé diciendo: «Alabad a Yahvé Sebaot, porque es bueno Yahvé, porque es eterna su misericordia», pues cambiaré la suerte del país, dejándolo como antes —dice Yahvé—.
 
-<sup>12</sup> *Esto dice Yahvé Sebaot: Aún habrá en este lugar abandonado de hombres y ganados, y en todas sus ciudades, dehesas de pastores que hagan reposar a las ovejas: <sup>13</sup> en las ciudades de la montaña, y en las de la Tierra Baja, en las del Negueb y en la tierra de Benjamín, en los alrededores de Jerusalén y en las ciudades de Judá, volverán a pasar ovejas ante la mano del que las cuente —dice Yahvé—.
+<sup>12</sup> <span class="note-ref" data-ref="jr-33-12" title="Ver comentario">&#42;</span>Esto dice Yahvé Sebaot: Aún habrá en este lugar abandonado de hombres y ganados, y en todas sus ciudades, dehesas de pastores que hagan reposar a las ovejas: <sup>13</sup> en las ciudades de la montaña, y en las de la Tierra Baja, en las del Negueb y en la tierra de Benjamín, en los alrededores de Jerusalén y en las ciudades de Judá, volverán a pasar ovejas ante la mano del que las cuente —dice Yahvé—.
 
-## Instituciones del futuro*.
+## Instituciones del futuro<span class="note-ref" data-ref="jr-33-14" title="Ver comentario">&#42;</span>.
 <sup>14</sup> Mirad que vienen días —oráculo de Yahvé— en que confirmaré la palabra venturosa que dirigí a la Casa de Israel y a la Casa de Judá.
 
 <sup>15</sup> En aquellos días y en aquella sazón haré brotar para David un Germen justo, que practicará el derecho y la justicia en la tierra.
@@ -4134,61 +4134,61 @@ y Jerusalén vivirá en seguro.
 
 Y así se la llamará:
 
-«Yahvé, nuestra justicia*.»
+«Yahvé, nuestra justicia<span class="note-ref" data-ref="jr-33-16" title="Ver comentario">&#42;</span>.»
 
 <sup>17</sup> Pues esto dice Yahvé: No le faltará a David quien se siente en el trono de la Casa de Israel; <sup>18</sup> y a los sacerdotes levíticos no les faltará quien en presencia mía ofrezca holocaustos y queme incienso de oblación y haga sacrificio cada día.
 
 <sup>19</sup> Dirigió Yahvé la palabra a Jeremías en estos términos: <sup>20</sup> Esto dice Yahvé: Si llegareis a romper mi alianza con el día y con la noche, de suerte que no sea de día o de noche a su debido tiempo, <sup>21</sup> entonces romperíais también mi alianza con mi siervo David, de suerte que le falte un hijo que reine sobre su trono, y con los levitas sacerdotes, mis servidores. <sup>22</sup> Así como es incontable el ejército de los cielos, e incalculable la arena de la mar, así multiplicaré el linaje de mi siervo David y de los levitas que me sirven.
 
-<sup>23</sup> Dirigió Yahvé la palabra a Jeremías en estos términos: <sup>24</sup> ¿No has visto qué ha dicho este pueblo?: «Los dos linajes que había elegido Yahvé los ha rechazado»; y así menosprecian a mi pueblo, pues ni siquiera lo tienen por nación. <sup>25</sup> Pues bien, dice Yahvé: Si no he creado el día* y la noche, ni he establecido las leyes de los cielos y la tierra, <sup>26</sup> en ese caso también rechazaré el linaje de Jacob y de mi siervo David, para no escoger más de su linaje a quienes gobiernen la descendencia de Abrahán, Isaac y Jacob, cuando yo haga cambiar su suerte y les tenga misericordia.
+<sup>23</sup> Dirigió Yahvé la palabra a Jeremías en estos términos: <sup>24</sup> ¿No has visto qué ha dicho este pueblo?: «Los dos linajes que había elegido Yahvé los ha rechazado»; y así menosprecian a mi pueblo, pues ni siquiera lo tienen por nación. <sup>25</sup> Pues bien, dice Yahvé: Si no he creado el día<span class="note-ref" data-ref="jr-33-25" title="Ver comentario">&#42;</span> y la noche, ni he establecido las leyes de los cielos y la tierra, <sup>26</sup> en ese caso también rechazaré el linaje de Jacob y de mi siervo David, para no escoger más de su linaje a quienes gobiernen la descendencia de Abrahán, Isaac y Jacob, cuando yo haga cambiar su suerte y les tenga misericordia.
 
 # 5. MISCELÁNEA
-## Destino de Sedecías *.
+## Destino de Sedecías <span class="note-ref" data-ref="jr-34" title="Ver comentario">&#42;</span>.
 <span id="chapter-34" class="chapter-marker" data-chapter="34">34</span><sup>1</sup> Palabra dirigida a Jeremías de parte de Yahvé, mientras Nabucodonosor, rey de Babilonia, a la cabeza de todas sus tropas y de las de todos los reinos de la tierra sometidos a su poder, atacaba Jerusalén y todas sus ciudades:
 
 <sup>2</sup> Esto dice Yahvé, el Dios de Israel: Ve y comunica lo siguiente a Sedecías, rey de Judá: Esto dice Yahvé: «Voy a entregar esta ciudad en manos del rey de Babilonia, que la incendiará. <sup>3</sup> En cuanto a ti, no escaparás de su mano, pues serás capturado sin falta y te entregaré en sus manos. Verás personalmente al rey de Babilonia y hablarás con él cara a cara. ¡Desde luego irás a Babilonia! <sup>4</sup> Empero, oye una palabra de Yahvé, Sedecías, rey de Judá: Esto dice Yahvé respecto a ti: No caerás víctima de la espada. <sup>5</sup> En paz morirás. Y del mismo modo que se quemaron perfumes en los funerales de tus padres, los reyes que te precedieron, también los quemarán por ti, y te plañirán «¡Ay, señor!». Soy yo quien lo digo —oráculo de Yahvé—.
 
-<sup>6</sup> El profeta Jeremías comunicó a Sedecías, rey de Judá, todas estas palabras en Jerusalén, <sup>7</sup> mientras el ejército del rey de Babilonia atacaba Jerusalén y todas las ciudades de Judá que quedaban: Laquis y Azecá, pues sólo ellas habían quedado de entre todas las plazas fuertes de Judá*.
+<sup>6</sup> El profeta Jeremías comunicó a Sedecías, rey de Judá, todas estas palabras en Jerusalén, <sup>7</sup> mientras el ejército del rey de Babilonia atacaba Jerusalén y todas las ciudades de Judá que quedaban: Laquis y Azecá, pues sólo ellas habían quedado de entre todas las plazas fuertes de Judá<span class="note-ref" data-ref="jr-34-7" title="Ver comentario">&#42;</span>.
 
-## Liberación de los esclavos*.
-<sup>8</sup> Palabra dirigida a Jeremías de parte de Yahvé, después de llegar el rey Sedecías a un acuerdo* con todo el pueblo de Jerusalén, proclamándoles una manumisión. <sup>9</sup> Tenía por finalidad que cada cual liberase y concediera la libertad a su siervo o esclava hebreos, de suerte que ningún judaíta impusiera la servidumbre a su hermano.
+## Liberación de los esclavos<span class="note-ref" data-ref="jr-34-8-a" title="Ver comentario">&#42;</span>.
+<sup>8</sup> Palabra dirigida a Jeremías de parte de Yahvé, después de llegar el rey Sedecías a un acuerdo<span class="note-ref" data-ref="jr-34-8-b" title="Ver comentario">&#42;</span> con todo el pueblo de Jerusalén, proclamándoles una manumisión. <sup>9</sup> Tenía por finalidad que cada cual liberase y concediera la libertad a su siervo o esclava hebreos, de suerte que ningún judaíta impusiera la servidumbre a su hermano.
 
 <sup>10</sup> Todos los nobles y toda la gente que habían aceptado el acuerdo obedecieron y dejaron libres quién a su siervo, quién a su esclava. Les concedieron la libertad, de modo que no hubiese siervos entre ellos. Obedecieron y los dejaron libres. <sup>11</sup> Pero luego se arrepintieron e hicieron volver a los siervos y esclavas que habían manumitido, reduciéndolos a servidumbre y esclavitud.
 
-<sup>12</sup> Entonces dirigió Yahvé la palabra a Jeremías* en estos términos: <sup>13</sup> Esto dice Yahvé, el Dios de Israel: yo hice alianza con vuestros padres el día que los saqué de Egipto, de la casa de servidumbre. Les dije: <sup>14</sup> «Al cabo de siete años cada uno de vosotros dejará libre al hermano hebreo que se le hubiera vendido. Te servirá seis años y después lo dejarás libre.» Pero no me hicieron caso vuestros padres ni aplicaron el oído. <sup>15</sup> Vosotros os habéis convertido hoy y habéis hecho lo que considero justo, proclamando manumisión general y sellando un acuerdo en mi presencia, en el templo donde se invoca mi Nombre. <sup>16</sup> Pero os habéis echado atrás, profanando así mi Nombre. Habéis hecho volver a vuestros respectivos siervos y esclavas, a quienes habíais manumitido, reduciéndolos de nuevo a esclavitud.
+<sup>12</sup> Entonces dirigió Yahvé la palabra a Jeremías<span class="note-ref" data-ref="jr-34-12" title="Ver comentario">&#42;</span> en estos términos: <sup>13</sup> Esto dice Yahvé, el Dios de Israel: yo hice alianza con vuestros padres el día que los saqué de Egipto, de la casa de servidumbre. Les dije: <sup>14</sup> «Al cabo de siete años cada uno de vosotros dejará libre al hermano hebreo que se le hubiera vendido. Te servirá seis años y después lo dejarás libre.» Pero no me hicieron caso vuestros padres ni aplicaron el oído. <sup>15</sup> Vosotros os habéis convertido hoy y habéis hecho lo que considero justo, proclamando manumisión general y sellando un acuerdo en mi presencia, en el templo donde se invoca mi Nombre. <sup>16</sup> Pero os habéis echado atrás, profanando así mi Nombre. Habéis hecho volver a vuestros respectivos siervos y esclavas, a quienes habíais manumitido, reduciéndolos de nuevo a esclavitud.
 
-<sup>17</sup> Por tanto, esto dice Yahvé: Vosotros no me habéis hecho caso al proclamar manumisión general. Pues yo voy a proclamar contra vosotros manumisión de la espada, de la peste y del hambre  —oráculo de Yahvé—, y os voy a convertir en espantajo de todos los reinos de la tierra. <sup>18</sup> Y a los individuos que traspasaron mi acuerdo, aquellos que no han hecho válidos los términos del acuerdo que firmaron en mi presencia, haré que acaben como el becerro que cortaron en dos y por entre cuyos pedazos pasaron; <sup>19</sup> a los nobles de Judá, los nobles de Jerusalén, los eunucos, los sacerdotes y todo el pueblo de la tierra que han pasado por entre los pedazos del becerro*, <sup>20</sup> los entregaré en manos de sus enemigos y de quienes tratan de matarlos. Sus cadáveres serán pasto de las aves del cielo y de las bestias de la tierra. <sup>21</sup> A Sedecías, rey de Judá, y a sus nobles los entregaré en manos de sus enemigos y de quienes tratan de matarlos, y en manos del ejército del rey de Babilonia, que acaba de retirarse. <sup>22</sup> Pues voy a dar la orden —oráculo de Yahvé— de hacerlos volver contra esta ciudad. La atacarán, la tomarán y la prenderán fuego; y dejaré desoladas y sin habitantes a las ciudades de Judá.
+<sup>17</sup> Por tanto, esto dice Yahvé: Vosotros no me habéis hecho caso al proclamar manumisión general. Pues yo voy a proclamar contra vosotros manumisión de la espada, de la peste y del hambre  —oráculo de Yahvé—, y os voy a convertir en espantajo de todos los reinos de la tierra. <sup>18</sup> Y a los individuos que traspasaron mi acuerdo, aquellos que no han hecho válidos los términos del acuerdo que firmaron en mi presencia, haré que acaben como el becerro que cortaron en dos y por entre cuyos pedazos pasaron; <sup>19</sup> a los nobles de Judá, los nobles de Jerusalén, los eunucos, los sacerdotes y todo el pueblo de la tierra que han pasado por entre los pedazos del becerro<span class="note-ref" data-ref="jr-34-19" title="Ver comentario">&#42;</span>, <sup>20</sup> los entregaré en manos de sus enemigos y de quienes tratan de matarlos. Sus cadáveres serán pasto de las aves del cielo y de las bestias de la tierra. <sup>21</sup> A Sedecías, rey de Judá, y a sus nobles los entregaré en manos de sus enemigos y de quienes tratan de matarlos, y en manos del ejército del rey de Babilonia, que acaba de retirarse. <sup>22</sup> Pues voy a dar la orden —oráculo de Yahvé— de hacerlos volver contra esta ciudad. La atacarán, la tomarán y la prenderán fuego; y dejaré desoladas y sin habitantes a las ciudades de Judá.
 
-## Ejemplo de los recabitas*.
+## Ejemplo de los recabitas<span class="note-ref" data-ref="jr-35" title="Ver comentario">&#42;</span>.
 <span id="chapter-35" class="chapter-marker" data-chapter="35">35</span><sup>1</sup> Palabra dirigida a Jeremías de parte de Yahvé, en tiempo de Joaquín, hijo de Josías, rey de Judá.
 
-<sup>2</sup> «Ve a la casa de los recabitas y habla con ellos. Los llevas al templo de Yahvé, a una de las estancias, y les escancias vino.» <sup>3</sup> Tomé, pues, a Jazanías, hijo de Jeremías, hijo de Jabasinías, a sus hermanos, a todos sus hijos y a toda la familia de los recabitas, <sup>4</sup> y los llevé al templo de Yahvé, a la estancia de Ben Yojanán*, hijo de Yigdalías, hombre de Dios. Esa estancia está al lado de la de los nobles, y encima de la de Maasías, hijo de Salún, guarda del umbral. <sup>5</sup> Presenté a los miembros de la familia de los recabitas unos jarros llenos de vino y tazas, y les dije: «¡Bebed vino!» <sup>6</sup> Respondieron ellos: «No bebemos vino, porque nuestro antepasado Jonadab, hijo de Recab, nos dio este mandato: ‘No beberéis vino ni vosotros ni vuestros hijos nunca jamás; <sup>7</sup> ni edificaréis casas, ni sembraréis semilla, ni plantaréis viñas, ni poseeréis nada. Pasaréis toda vuestra existencia en tiendas, de modo que prolonguéis vuestra vida sobre la faz de la tierra donde residís como forasteros.’ <sup>8</sup> Nosotros hemos obedecido a nuestro antepasado Jonadab, hijo de Recab; hemos hecho todo cuanto nos mandó. Nos hemos abstenido de beber vino de por vida, nosotros, nuestras mujeres, nuestros hijos y nuestras hijas; <sup>9</sup> no hemos edificado casas donde vivir, y no poseemos viñas ni campos para sembrar. <sup>10</sup> Además hemos vivido en tiendas*, obedeciendo y obrando en todo conforme a lo que nos mandó nuestro antepasado Jonadab. <sup>11</sup> Pero al atacar el país Nabucodonosor, rey de Babilonia, dijimos: ‘Refugiémonos en Jerusalén para huir de las fuerzas caldeas y de las de Arán’. Así que nos instalamos en Jerusalén.»
+<sup>2</sup> «Ve a la casa de los recabitas y habla con ellos. Los llevas al templo de Yahvé, a una de las estancias, y les escancias vino.» <sup>3</sup> Tomé, pues, a Jazanías, hijo de Jeremías, hijo de Jabasinías, a sus hermanos, a todos sus hijos y a toda la familia de los recabitas, <sup>4</sup> y los llevé al templo de Yahvé, a la estancia de Ben Yojanán<span class="note-ref" data-ref="jr-35-4" title="Ver comentario">&#42;</span>, hijo de Yigdalías, hombre de Dios. Esa estancia está al lado de la de los nobles, y encima de la de Maasías, hijo de Salún, guarda del umbral. <sup>5</sup> Presenté a los miembros de la familia de los recabitas unos jarros llenos de vino y tazas, y les dije: «¡Bebed vino!» <sup>6</sup> Respondieron ellos: «No bebemos vino, porque nuestro antepasado Jonadab, hijo de Recab, nos dio este mandato: ‘No beberéis vino ni vosotros ni vuestros hijos nunca jamás; <sup>7</sup> ni edificaréis casas, ni sembraréis semilla, ni plantaréis viñas, ni poseeréis nada. Pasaréis toda vuestra existencia en tiendas, de modo que prolonguéis vuestra vida sobre la faz de la tierra donde residís como forasteros.’ <sup>8</sup> Nosotros hemos obedecido a nuestro antepasado Jonadab, hijo de Recab; hemos hecho todo cuanto nos mandó. Nos hemos abstenido de beber vino de por vida, nosotros, nuestras mujeres, nuestros hijos y nuestras hijas; <sup>9</sup> no hemos edificado casas donde vivir, y no poseemos viñas ni campos para sembrar. <sup>10</sup> Además hemos vivido en tiendas<span class="note-ref" data-ref="jr-35-10" title="Ver comentario">&#42;</span>, obedeciendo y obrando en todo conforme a lo que nos mandó nuestro antepasado Jonadab. <sup>11</sup> Pero al atacar el país Nabucodonosor, rey de Babilonia, dijimos: ‘Refugiémonos en Jerusalén para huir de las fuerzas caldeas y de las de Arán’. Así que nos instalamos en Jerusalén.»
 
 <sup>12</sup> Entonces dirigió Yahvé la palabra a Jeremías en estos términos: <sup>13</sup> Esto dice Yahvé Sebaot, el Dios de Israel: Ve y di a los hombres de Judá y a los habitantes de Jerusalén: ¿No aprenderéis la lección y os decidiréis a escuchar mis palabras? —oráculo de Yahvé—. <sup>14</sup> Se han cumplido las palabras de Jonadab, hijo de Recab, que prohibió a sus descendientes beber vino, y no han bebido hasta la fecha, porque supieron obedecer la orden de su antepasado. Yo me afané en hablaros a vosotros y no me escuchasteis. <sup>15</sup> Me afané en enviaros a todos mis siervos los profetas a deciros: Ea, tornad cada uno de vuestro mal camino, mejorad vuestras acciones y no andéis en pos de otros dioses para servirles; así os quedaréis en la tierra que os di a vosotros y a vuestros padres. Pero no aplicasteis el oído ni me hicisteis caso. <sup>16</sup> Así, los descendientes de Jonadab, hijo de Recab, han cumplido el precepto que su antepasado les impuso, mientras que este pueblo no me ha hecho caso.
 
 <sup>17</sup> Por tanto, esto dice Yahvé, el Dios Sebaot, el Dios de Israel: Voy a traer contra Judá y contra los habitantes de Jerusalén todo el mal que pronuncié respecto a ellos, por cuanto les hablé y no me escucharon, los llamé y no me respondieron.
 
-<sup>18</sup> A la familia de los recabitas dijo Jeremías: «Esto dice Yahvé Sebaot, el Dios de Israel: Por cuanto que habéis obedecido el precepto de vuestro antepasado Jonadab y habéis guardado todos esos preceptos y obrado conforme a cuanto os mandó, <sup>19</sup> por lo mismo, esto dice Yahvé Sebaot, el Dios de Israel: No faltará a Jonadab, hijo de Recab, quien esté en mi presencia todos los días*.»
+<sup>18</sup> A la familia de los recabitas dijo Jeremías: «Esto dice Yahvé Sebaot, el Dios de Israel: Por cuanto que habéis obedecido el precepto de vuestro antepasado Jonadab y habéis guardado todos esos preceptos y obrado conforme a cuanto os mandó, <sup>19</sup> por lo mismo, esto dice Yahvé Sebaot, el Dios de Israel: No faltará a Jonadab, hijo de Recab, quien esté en mi presencia todos los días<span class="note-ref" data-ref="jr-35-19" title="Ver comentario">&#42;</span>.»
 
 ## IV. Pasión de Jeremías
-## El rollo de 605-604*.
-<span id="chapter-36" class="chapter-marker" data-chapter="36">36</span><sup>1</sup> El año cuarto de Joaquín*, hijo de Josías, rey de Judá, dirigió Yahvé estas palabras a Jeremías:
+## El rollo de 605-604<span class="note-ref" data-ref="jr-36" title="Ver comentario">&#42;</span>.
+<span id="chapter-36" class="chapter-marker" data-chapter="36">36</span><sup>1</sup> El año cuarto de Joaquín<span class="note-ref" data-ref="jr-36-1" title="Ver comentario">&#42;</span>, hijo de Josías, rey de Judá, dirigió Yahvé estas palabras a Jeremías:
 
 <sup>2</sup> Toma un rollo de escribir y apunta en él todas las palabras que te he comunicado tocante a Israel, a Judá y a todas las naciones, desde la fecha en que te vengo hablando —desde los tiempos de Josías hasta hoy—. <sup>3</sup> A ver si la Casa de Judá se entera de todo el mal que he pensado hacerle, de modo que abandone cada cual su mal camino, y entonces pueda yo perdonarles su culpa y su pecado.
 
-<sup>4</sup> Llamó, pues, Jeremías a Baruc, hijo de Nerías, y apuntó Baruc al dictado de Jeremías todas las palabras que Yahvé le había hablado, en un rollo de escribir*. <sup>5</sup> Dio Jeremías a Baruc estas instrucciones: «Yo estoy detenido y no puedo ir al templo de Yahvé. <sup>6</sup> Así que ve tú y lee en voz alta las palabras de Yahvé que yo te he dictado y que has apuntado en el rollo. Léelas en público, en el templo de Yahvé, aprovechando un día de ayuno. Y las lees también ante todos los de Judá que vienen de sus ciudades. <sup>7</sup> A ver si presentan sus súplicas a Yahvé y abandona cada cual su mal camino, porque grande es la ira y la cólera con las que ha hablado Yahvé a este pueblo.»
+<sup>4</sup> Llamó, pues, Jeremías a Baruc, hijo de Nerías, y apuntó Baruc al dictado de Jeremías todas las palabras que Yahvé le había hablado, en un rollo de escribir<span class="note-ref" data-ref="jr-36-4" title="Ver comentario">&#42;</span>. <sup>5</sup> Dio Jeremías a Baruc estas instrucciones: «Yo estoy detenido y no puedo ir al templo de Yahvé. <sup>6</sup> Así que ve tú y lee en voz alta las palabras de Yahvé que yo te he dictado y que has apuntado en el rollo. Léelas en público, en el templo de Yahvé, aprovechando un día de ayuno. Y las lees también ante todos los de Judá que vienen de sus ciudades. <sup>7</sup> A ver si presentan sus súplicas a Yahvé y abandona cada cual su mal camino, porque grande es la ira y la cólera con las que ha hablado Yahvé a este pueblo.»
 
 <sup>8</sup> Baruc, hijo de Nerías, hizo todo lo que le había mandado el profeta Jeremías: leyó en el templo de Yahvé las palabras de Yahvé que estaban escritas en el libro.
 
-<sup>9</sup> Precisamente en el año quinto de Joaquín, hijo de Josías, rey de Judá, el mes noveno*, se proclamaba ayuno general delante de Yahvé, tanto para el pueblo de Jerusalén como para toda la gente venida de las ciudades de Judá a Jerusalén. <sup>10</sup> Baruc, pues, leyó en el libro las palabras de Jeremías en el templo de Yahvé, en la estancia de Guemarías, hijo de Safán el escriba, en el patio alto, a la entrada de la Puerta Nueva del templo de Yahvé. Las leyó ante toda la gente.
+<sup>9</sup> Precisamente en el año quinto de Joaquín, hijo de Josías, rey de Judá, el mes noveno<span class="note-ref" data-ref="jr-36-9" title="Ver comentario">&#42;</span>, se proclamaba ayuno general delante de Yahvé, tanto para el pueblo de Jerusalén como para toda la gente venida de las ciudades de Judá a Jerusalén. <sup>10</sup> Baruc, pues, leyó en el libro las palabras de Jeremías en el templo de Yahvé, en la estancia de Guemarías, hijo de Safán el escriba, en el patio alto, a la entrada de la Puerta Nueva del templo de Yahvé. Las leyó ante toda la gente.
 
 <sup>11</sup> Cuando Miqueas, hijo de Guemarías, hijo de Safán, oyó todas las palabras de Yahvé escritas en el libro, <sup>12</sup> bajó al palacio real, al cuarto del escriba, y se encontró allí con todos los dignatarios: el escribano Elisamá, Delaías, hijo de Semaías, Elnatán, hijo de Acbor, Guemarías, hijo de Safán, Sedecías, hijo de Jananías, y todos los demás. <sup>13</sup> Entonces les transmitió Miqueas todas las palabras del libro que había oído leer a Baruc delante de toda la gente.
 
-<sup>14</sup> Entonces los dignatarios enviaron a donde Baruc a Yehudí, hijo de Natanías, hijo de Selemías*, hijo de Cusí, para que le dijese: «Toma el rollo que has leído en voz alta ante la gente y tráelo personalmente.» Baruc, hijo de Nerías, tomó el rollo y se dirigió adonde estaban ellos. <sup>15</sup> Le dijeron: «Ven, siéntate y ten a bien leérnoslo a nosotros.» Y Baruc se lo leyó.
+<sup>14</sup> Entonces los dignatarios enviaron a donde Baruc a Yehudí, hijo de Natanías, hijo de Selemías<span class="note-ref" data-ref="jr-36-14" title="Ver comentario">&#42;</span>, hijo de Cusí, para que le dijese: «Toma el rollo que has leído en voz alta ante la gente y tráelo personalmente.» Baruc, hijo de Nerías, tomó el rollo y se dirigió adonde estaban ellos. <sup>15</sup> Le dijeron: «Ven, siéntate y ten a bien leérnoslo a nosotros.» Y Baruc se lo leyó.
 
-<sup>16</sup> En cuanto oyeron todas aquellas palabras, se asustaron y se dijeron unos a otros: «Anunciemos sin falta al rey todas estas palabras.» <sup>17</sup> Y a Baruc le pidieron: «Explícanos cómo has escrito todas estas palabras*.» <sup>18</sup> Les dijo Baruc: «Al dictado. Él me recitaba todas estas palabras* y yo las iba escribiendo en el libro con tinta.» <sup>19</sup> Dijeron los jefes a Baruc: «Vete, escondeos tú y Jeremías, y que nadie sepa dónde estáis.» <sup>20</sup> Fueron adonde el rey, a la corte (el rollo lo consignaron en la estancia de Elisamá el escriba), y transmitieron personalmente al monarca todas aquellas palabras.
+<sup>16</sup> En cuanto oyeron todas aquellas palabras, se asustaron y se dijeron unos a otros: «Anunciemos sin falta al rey todas estas palabras.» <sup>17</sup> Y a Baruc le pidieron: «Explícanos cómo has escrito todas estas palabras<span class="note-ref" data-ref="jr-36-17" title="Ver comentario">&#42;</span>.» <sup>18</sup> Les dijo Baruc: «Al dictado. Él me recitaba todas estas palabras<span class="note-ref" data-ref="jr-36-18" title="Ver comentario">&#42;</span> y yo las iba escribiendo en el libro con tinta.» <sup>19</sup> Dijeron los jefes a Baruc: «Vete, escondeos tú y Jeremías, y que nadie sepa dónde estáis.» <sup>20</sup> Fueron adonde el rey, a la corte (el rollo lo consignaron en la estancia de Elisamá el escriba), y transmitieron personalmente al monarca todas aquellas palabras.
 
-<sup>21</sup> Entonces mandó el rey a Yehudí que trajera el rollo. Yehudí lo tomó de la estancia de Elisamá el escriba y lo leyó en voz alta ante el rey y todos los dignatarios que estaban en torno al monarca. <sup>22</sup> El rey estaba instalado en el salón de invierno —era en el mes noveno—, con un brasero* delante encendido. <sup>23</sup> Cada vez que Yehudí leía tres o cuatro hojas, él las rasgaba con el cortaplumas del escriba y las echaba al fuego del brasero, hasta terminar con todo el rollo en el fuego del brasero. <sup>24</sup> Ni el rey ni ninguno de sus dignatarios se asustaban ni rasgaban sus vestidos mientras escuchaban la lectura. <sup>25</sup> Y por más que Elnatán, Delaías y Guemarías suplicaron al rey que no quemara el rollo, no les hizo caso. <sup>26</sup> Luego el rey ordenó a Yerajmeel, hijo del rey*, a Serayas, hijo de Azriel, y a Selemías, hijo de Abdel, que arrestaran al escriba Baruc y al profeta Jeremías. Pero Yahvé los había ocultado.
+<sup>21</sup> Entonces mandó el rey a Yehudí que trajera el rollo. Yehudí lo tomó de la estancia de Elisamá el escriba y lo leyó en voz alta ante el rey y todos los dignatarios que estaban en torno al monarca. <sup>22</sup> El rey estaba instalado en el salón de invierno —era en el mes noveno—, con un brasero<span class="note-ref" data-ref="jr-36-22" title="Ver comentario">&#42;</span> delante encendido. <sup>23</sup> Cada vez que Yehudí leía tres o cuatro hojas, él las rasgaba con el cortaplumas del escriba y las echaba al fuego del brasero, hasta terminar con todo el rollo en el fuego del brasero. <sup>24</sup> Ni el rey ni ninguno de sus dignatarios se asustaban ni rasgaban sus vestidos mientras escuchaban la lectura. <sup>25</sup> Y por más que Elnatán, Delaías y Guemarías suplicaron al rey que no quemara el rollo, no les hizo caso. <sup>26</sup> Luego el rey ordenó a Yerajmeel, hijo del rey<span class="note-ref" data-ref="jr-36-26" title="Ver comentario">&#42;</span>, a Serayas, hijo de Azriel, y a Selemías, hijo de Abdel, que arrestaran al escriba Baruc y al profeta Jeremías. Pero Yahvé los había ocultado.
 
 <sup>27</sup> Después de que el rey hubo quemado el rollo y todo lo que había escrito Baruc al dictado de Jeremías, dirigió Yahvé estas palabras a Jeremías: <sup>28</sup> «Coge otro rollo y escribe en él todo lo que antes había en el primer rollo que quemó Joaquín, rey de Judá. <sup>29</sup> Y a Joaquín, rey de Judá, le dices: Esto dice Yahvé: Tú has quemado aquel rollo, diciendo: ‘¿Por qué has escrito en él que vendría sin falta el rey de Babilonia y que destruiría esta tierra, llevándose cautivos de ella a hombres y bestias?’ <sup>30</sup> Pues bien, esto dice Yahvé a propósito de Joaquín, rey de Judá: No tendrá quien le suceda en el trono de David; su propio cadáver yacerá tirado, expuesto al calor del día y al frío de la noche. <sup>31</sup> Yo castigaré sus culpas y las de su linaje y sus siervos, y traeré sobre ellos y sobre todos los habitantes de Jerusalén y los hombres de Judá todas las desgracias que les anuncié, sin que hicieran caso.»
 
@@ -4198,10 +4198,10 @@ Y así se la llamará:
 <span id="chapter-37" class="chapter-marker" data-chapter="37">37</span><sup>1</sup> Sedecías, hijo de Josías, sucedió en el trono a Jeconías, hijo de Joaquín. Nabucodonosor, rey de Babilonia, lo puso como rey en el territorio de Judá. <sup>2</sup> Pero tampoco él ni sus siervos, ni el pueblo de la tierra, hicieron caso de las palabras que Yahvé había pronunciado por medio del profeta Jeremías.
 
 ## Sedecías consulta a Jeremías durante la interrupción del asedio del 588.
-<sup>3</sup> El rey Sedecías envió a Yucal, hijo de Selemías, y al sacerdote Sofonías, hijo de Maasías, a decir al profeta Jeremías: «Te pedimos que reces por nosotros a nuestro Dios Yahvé.» <sup>4</sup> Por entonces Jeremías iba y venía en público, pues no le habían encarcelado. <sup>5</sup> Las fuerzas del faraón salieron de Egipto. Al enterarse los caldeos de la noticia, levantaron el sitio de Jerusalén. <sup>6</sup> Entonces dirigió Yahvé la palabra al profeta Jeremías: <sup>7</sup> Esto dice Yahvé, el Dios de Israel: Así hablaréis al rey de Judá que os envía a mí, a consultarme: Mira, el ejército del faraón* que había salido en vuestro socorro se ha vuelto a su tierra de Egipto, <sup>8</sup> Así que los caldeos que atacan esta ciudad volverán, la tomarán y la incendiarán. <sup>9</sup> Esto dice Yahvé: No cobréis ánimos pensando: «Seguro que los caldeos terminarán por dejarnos y se marcharán», porque no se marcharán. <sup>10</sup> Antes bien, aunque hubieseis derrotado a todo el ejército de los caldeos que os atacan y les quedaran sólo hombres heridos, se levantaría cada cual en su tienda e incendiarían esta ciudad.
+<sup>3</sup> El rey Sedecías envió a Yucal, hijo de Selemías, y al sacerdote Sofonías, hijo de Maasías, a decir al profeta Jeremías: «Te pedimos que reces por nosotros a nuestro Dios Yahvé.» <sup>4</sup> Por entonces Jeremías iba y venía en público, pues no le habían encarcelado. <sup>5</sup> Las fuerzas del faraón salieron de Egipto. Al enterarse los caldeos de la noticia, levantaron el sitio de Jerusalén. <sup>6</sup> Entonces dirigió Yahvé la palabra al profeta Jeremías: <sup>7</sup> Esto dice Yahvé, el Dios de Israel: Así hablaréis al rey de Judá que os envía a mí, a consultarme: Mira, el ejército del faraón<span class="note-ref" data-ref="jr-37-7" title="Ver comentario">&#42;</span> que había salido en vuestro socorro se ha vuelto a su tierra de Egipto, <sup>8</sup> Así que los caldeos que atacan esta ciudad volverán, la tomarán y la incendiarán. <sup>9</sup> Esto dice Yahvé: No cobréis ánimos pensando: «Seguro que los caldeos terminarán por dejarnos y se marcharán», porque no se marcharán. <sup>10</sup> Antes bien, aunque hubieseis derrotado a todo el ejército de los caldeos que os atacan y les quedaran sólo hombres heridos, se levantaría cada cual en su tienda e incendiarían esta ciudad.
 
 ## Arresto de Jeremías. El rey mejora su situación.
-<sup>11</sup> Cuando las tropas caldeas levantaron el sitio de Jerusalén, replegándose ante las tropas del faraón, <sup>12</sup> Jeremías salió de Jerusalén para ir a tierra de Benjamín a asistir a un reparto de tierras entre la gente*. <sup>13</sup> Estando en la Puerta de Benjamín, se encontró con un vigilante llamado Yirías, hijo de Selemías, hijo de Jananías, que apresó al profeta Jeremías acusándolo de querer pasarse a los caldeos. <sup>14</sup> Jeremías le dijo: «¡Mentira! Yo no voy a pasarme a los caldeos.» Pero Yirías no le hizo caso. Detuvo a Jeremías y lo condujo ante los dignatarios, <sup>15</sup> que se irritaron contra Jeremías, lo hicieron azotar y lo encarcelaron en casa del escriba Jonatán, convertida en prisión. <sup>16</sup> Así que Jeremías fue conducido al calabozo del sótano, donde permaneció largo tiempo.
+<sup>11</sup> Cuando las tropas caldeas levantaron el sitio de Jerusalén, replegándose ante las tropas del faraón, <sup>12</sup> Jeremías salió de Jerusalén para ir a tierra de Benjamín a asistir a un reparto de tierras entre la gente<span class="note-ref" data-ref="jr-37-12" title="Ver comentario">&#42;</span>. <sup>13</sup> Estando en la Puerta de Benjamín, se encontró con un vigilante llamado Yirías, hijo de Selemías, hijo de Jananías, que apresó al profeta Jeremías acusándolo de querer pasarse a los caldeos. <sup>14</sup> Jeremías le dijo: «¡Mentira! Yo no voy a pasarme a los caldeos.» Pero Yirías no le hizo caso. Detuvo a Jeremías y lo condujo ante los dignatarios, <sup>15</sup> que se irritaron contra Jeremías, lo hicieron azotar y lo encarcelaron en casa del escriba Jonatán, convertida en prisión. <sup>16</sup> Así que Jeremías fue conducido al calabozo del sótano, donde permaneció largo tiempo.
 
 <sup>17</sup> El rey Sedecías mandó traerlo, y le interrogó en su casa, en secreto: «¿Hay algo de parte de Yahvé?» Dijo Jeremías: «Lo hay.» Y añadió: «Serás entregado en manos del rey de Babilonia.» <sup>18</sup> Luego dijo Jeremías al rey Sedecías: «¿En qué os he faltado a ti, a tus notables y a este pueblo, para que me hayáis metido en prisión? <sup>19</sup> ¿Dónde están ahora vuestros profetas que os profetizaban que no os atacaría el rey de Babilonia ni penetraría en esta tierra? <sup>20</sup> Ahora, pues, escúcheme el rey, mi señor, y tenga a bien acceder a mi petición de gracia: no me devuelvas a casa del escriba Jonatán, pues temo morir allí.»
 
@@ -4210,13 +4210,13 @@ Y así se la llamará:
 ## Y Jeremías permaneció en el patio de la guardia.
 
 ## Jeremías en la cisterna. Intervención de Ebedmélec.
-<span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Oyeron Sefatías, hijo de Matán, Godolías, hijo de Pasjur, hijo de Malquías, las palabras que Jeremías estaba dirigiendo al pueblo: <sup>2</sup> «Esto dice Yahvé: Quien se quede en esta ciudad morirá víctima de la espada, el hambre y la peste, mas quien se entregue a los caldeos vivirá, y eso saldrá ganando. <sup>3</sup> Esto dice Yahvé: Esta ciudad será entregada sin remedio en manos de las tropas del rey de Babilonia, que la tomará.» <sup>4</sup> Aquellos notables dijeron al rey: «Hay que condenar a muerte a ese hombre, porque con eso desmoraliza a los guerreros que quedan en esta ciudad y a toda la plebe, diciéndoles tales cosas. Porque este hombre no procura en absoluto el bien del pueblo, sino su daño.» <sup>5</sup> Dijo el rey Sedecías: «Ahí lo tenéis en vuestras manos, pues nada podría el rey contra vosotros*.» <sup>6</sup> Ellos se apoderaron de Jeremías y lo echaron a la cisterna de Malquías, hijo del rey, que había en el patio de la guardia, descolgando a Jeremías con sogas. En la cisterna no había agua, sino fango, y Jeremías se hundió en él.
+<span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Oyeron Sefatías, hijo de Matán, Godolías, hijo de Pasjur, hijo de Malquías, las palabras que Jeremías estaba dirigiendo al pueblo: <sup>2</sup> «Esto dice Yahvé: Quien se quede en esta ciudad morirá víctima de la espada, el hambre y la peste, mas quien se entregue a los caldeos vivirá, y eso saldrá ganando. <sup>3</sup> Esto dice Yahvé: Esta ciudad será entregada sin remedio en manos de las tropas del rey de Babilonia, que la tomará.» <sup>4</sup> Aquellos notables dijeron al rey: «Hay que condenar a muerte a ese hombre, porque con eso desmoraliza a los guerreros que quedan en esta ciudad y a toda la plebe, diciéndoles tales cosas. Porque este hombre no procura en absoluto el bien del pueblo, sino su daño.» <sup>5</sup> Dijo el rey Sedecías: «Ahí lo tenéis en vuestras manos, pues nada podría el rey contra vosotros<span class="note-ref" data-ref="jr-38-5" title="Ver comentario">&#42;</span>.» <sup>6</sup> Ellos se apoderaron de Jeremías y lo echaron a la cisterna de Malquías, hijo del rey, que había en el patio de la guardia, descolgando a Jeremías con sogas. En la cisterna no había agua, sino fango, y Jeremías se hundió en él.
 
-<sup>7</sup> Pero Ebedmélec el cusita* —un eunuco de la casa del rey— oyó que habían metido a Jeremías en la cisterna. El rey estaba sentado en la puerta de Benjamín. <sup>8</sup> Salió Ebedmélec del palacio real y habló al rey en estos términos: <sup>9</sup> «Oh, mi señor, el rey, está muy mal todo cuanto esos hombres han hecho con el profeta Jeremías, arrojándolo a la cisterna. Total, lo mismo se iba a morir de hambre, pues no quedan ya víveres en la ciudad.»
+<sup>7</sup> Pero Ebedmélec el cusita<span class="note-ref" data-ref="jr-38-7" title="Ver comentario">&#42;</span> —un eunuco de la casa del rey— oyó que habían metido a Jeremías en la cisterna. El rey estaba sentado en la puerta de Benjamín. <sup>8</sup> Salió Ebedmélec del palacio real y habló al rey en estos términos: <sup>9</sup> «Oh, mi señor, el rey, está muy mal todo cuanto esos hombres han hecho con el profeta Jeremías, arrojándolo a la cisterna. Total, lo mismo se iba a morir de hambre, pues no quedan ya víveres en la ciudad.»
 
 <sup>10</sup> Entonces ordenó el rey a Ebedmélec el cusita: «Toma tú mismo de aquí treinta hombres, y saca al profeta Jeremías del pozo antes de que muera.»
 
-<sup>11</sup> Ebedmélec tomó consigo a los hombres y, entrando en el palacio real, al vestuario del tesoro*, tomó allí deshechos de paños y telas, y con sogas los descolgó por la cisterna hasta Jeremías. <sup>12</sup> Dijo Ebedmélec el cusita a Jeremías: «Hala, ponte los deshechos de paños y telas entre los sobacos y las sogas.» Así lo hizo Jeremías, <sup>13</sup> y halando a Jeremías con las sogas lo subieron de la cisterna.
+<sup>11</sup> Ebedmélec tomó consigo a los hombres y, entrando en el palacio real, al vestuario del tesoro<span class="note-ref" data-ref="jr-38-11" title="Ver comentario">&#42;</span>, tomó allí deshechos de paños y telas, y con sogas los descolgó por la cisterna hasta Jeremías. <sup>12</sup> Dijo Ebedmélec el cusita a Jeremías: «Hala, ponte los deshechos de paños y telas entre los sobacos y las sogas.» Así lo hizo Jeremías, <sup>13</sup> y halando a Jeremías con las sogas lo subieron de la cisterna.
 
 ## Y Jeremías se quedó en el patio de la guardia.
 
@@ -4229,13 +4229,13 @@ Y así se la llamará:
 
 Te empujaron y pudieron contigo
 
-los que eran tus íntimos amigos*.
+los que eran tus íntimos amigos<span class="note-ref" data-ref="jr-38-22" title="Ver comentario">&#42;</span>.
 
 Se hundieron en el lodo tus pies,
 
 y ellos se hicieron atrás.
 
-<sup>23</sup> Serán entregados a los caldeos tus mujeres y tus hijos, y tú no escaparás de ellos, sino que serás puesto en manos del rey de Babilonia, y esta ciudad será incendiada*.»
+<sup>23</sup> Serán entregados a los caldeos tus mujeres y tus hijos, y tú no escaparás de ellos, sino que serás puesto en manos del rey de Babilonia, y esta ciudad será incendiada<span class="note-ref" data-ref="jr-38-23" title="Ver comentario">&#42;</span>.»
 
 <sup>24</sup> Entonces dijo Sedecías a Jeremías: «Que nadie sepa nada de esto, si no quieres morir. <sup>25</sup> Si mis dignatarios se enteran de que he estado hablando contigo, y acuden a ti diciéndote: ‘Si no quieres morir, cuéntanos lo que has dicho al rey, sin ocultarnos nada; y dinos también lo que el rey ha respondido’, <sup>26</sup> tú les dirás: ‘He pedido al rey la gracia de que no me devuelva a casa de Jonatán a morir allí.’»
 
@@ -4245,63 +4245,63 @@ y ellos se hicieron atrás.
 
   Ahora bien, cuando fue tomada Jerusalén...
 
-## Caída de Jerusalén y suerte de Jeremías*.
-<span id="chapter-39" class="chapter-marker" data-chapter="39">39</span><sup>1</sup> En el año nueve de Sedecías, rey de Judá, el décimo mes*, Nabucodonosor, rey de Babilonia, avanzó con todo su ejército hacia Jerusalén, y la sitió.
+## Caída de Jerusalén y suerte de Jeremías<span class="note-ref" data-ref="jr-39" title="Ver comentario">&#42;</span>.
+<span id="chapter-39" class="chapter-marker" data-chapter="39">39</span><sup>1</sup> En el año nueve de Sedecías, rey de Judá, el décimo mes<span class="note-ref" data-ref="jr-39-1" title="Ver comentario">&#42;</span>, Nabucodonosor, rey de Babilonia, avanzó con todo su ejército hacia Jerusalén, y la sitió.
 
-<sup>2</sup> En el año once de Sedecías, el cuarto mes, el nueve del mes*, se abrió una brecha en la ciudad. <sup>3</sup> Todos los oficiales del rey de Babilonia penetraron en ella y se instalaron en la Puerta Central: Nergal Sareser, Sangar Nebo, Sar Sequín, jefe superior, Nergal Sareser, alto funcionario, y todos los demás jefes del rey de Babilonia*.
+<sup>2</sup> En el año once de Sedecías, el cuarto mes, el nueve del mes<span class="note-ref" data-ref="jr-39-2" title="Ver comentario">&#42;</span>, se abrió una brecha en la ciudad. <sup>3</sup> Todos los oficiales del rey de Babilonia penetraron en ella y se instalaron en la Puerta Central: Nergal Sareser, Sangar Nebo, Sar Sequín, jefe superior, Nergal Sareser, alto funcionario, y todos los demás jefes del rey de Babilonia<span class="note-ref" data-ref="jr-39-3" title="Ver comentario">&#42;</span>.
 
-<sup>4</sup> Cuando Sedecías, rey de Judá, y todos los guerreros se apercibieron, huyeron de la ciudad. Salieron de noche por el jardín real, por la puerta que está entre los dos muros, y huyeron en dirección a la Arabá*.
+<sup>4</sup> Cuando Sedecías, rey de Judá, y todos los guerreros se apercibieron, huyeron de la ciudad. Salieron de noche por el jardín real, por la puerta que está entre los dos muros, y huyeron en dirección a la Arabá<span class="note-ref" data-ref="jr-39-4" title="Ver comentario">&#42;</span>.
 
-<sup>5</sup> Las tropas caldeas los persiguieron y dieron alcance a Sedecías en los llanos de Jericó; lo prendieron y lo condujeron a Riblá, en tierra de Jamat*, adonde Nabucodonosor, rey de Babilonia, que lo sometió a juicio. <sup>6</sup> El rey de Babilonia degolló a los hijos de Sedecías en Riblá, en presencia de su padre; luego el rey de Babilonia degolló a toda la aristocracia de Judá. <sup>7</sup> A Sedecías le sacó los ojos, lo ató con doble cadena de bronce y se lo llevó a Babilonia. <sup>8</sup> Los caldeos incendiaron el palacio real y las casas del pueblo*, y demolieron los muros de Jerusalén. <sup>9</sup> En cuanto al resto de la gente que quedaba en la ciudad, a los desertores que se habían pasado a él y a los artesanos* restantes los deportó Nabuzardán, jefe de la guardia, a Babilonia. <sup>10</sup> En cuanto a la plebe baja, los que no tenían nada, Nabuzardán, jefe de la guardia, les permitió quedarse en tierra de Judá, y les hizo donación de viñas y parcelas.
+<sup>5</sup> Las tropas caldeas los persiguieron y dieron alcance a Sedecías en los llanos de Jericó; lo prendieron y lo condujeron a Riblá, en tierra de Jamat<span class="note-ref" data-ref="jr-39-5" title="Ver comentario">&#42;</span>, adonde Nabucodonosor, rey de Babilonia, que lo sometió a juicio. <sup>6</sup> El rey de Babilonia degolló a los hijos de Sedecías en Riblá, en presencia de su padre; luego el rey de Babilonia degolló a toda la aristocracia de Judá. <sup>7</sup> A Sedecías le sacó los ojos, lo ató con doble cadena de bronce y se lo llevó a Babilonia. <sup>8</sup> Los caldeos incendiaron el palacio real y las casas del pueblo<span class="note-ref" data-ref="jr-39-8" title="Ver comentario">&#42;</span>, y demolieron los muros de Jerusalén. <sup>9</sup> En cuanto al resto de la gente que quedaba en la ciudad, a los desertores que se habían pasado a él y a los artesanos<span class="note-ref" data-ref="jr-39-9" title="Ver comentario">&#42;</span> restantes los deportó Nabuzardán, jefe de la guardia, a Babilonia. <sup>10</sup> En cuanto a la plebe baja, los que no tenían nada, Nabuzardán, jefe de la guardia, les permitió quedarse en tierra de Judá, y les hizo donación de viñas y parcelas.
 
 <sup>11</sup> Nabucodonosor, rey de Babilonia, había dado instrucciones a Nabuzardán, jefe de la guardia, respecto a Jeremías en este sentido: <sup>12</sup> «Préndele y no le pierdas de vista. Pero no le hagas daño alguno; antes bien, trátele como él mismo te diga.»
 
-<sup>13</sup> Entonces* (Nabuzardán, jefe de la guardia) Nabusazbán, jefe superior, Nergal Sareser, oficial superior, y todos los grandes del rey de Babilonia <sup>14</sup> mandaron traer a Jeremías, y lo confiaron a Godolías, hijo de Ajicán, hijo de Safán, para que lo llevase a su casa y pudiera hacer vida normal.
+<sup>13</sup> Entonces<span class="note-ref" data-ref="jr-39-13" title="Ver comentario">&#42;</span> (Nabuzardán, jefe de la guardia) Nabusazbán, jefe superior, Nergal Sareser, oficial superior, y todos los grandes del rey de Babilonia <sup>14</sup> mandaron traer a Jeremías, y lo confiaron a Godolías, hijo de Ajicán, hijo de Safán, para que lo llevase a su casa y pudiera hacer vida normal.
 
-## Oráculo favorable a Ebedmélec *.
+## Oráculo favorable a Ebedmélec <span class="note-ref" data-ref="jr-39-15" title="Ver comentario">&#42;</span>.
 <sup>15</sup> Estando Jeremías detenido en el patio de la guardia, le había sido dirigida la palabra de Yahvé en estos términos: <sup>16</sup> Ve y di a Ebedmélec el cusita: Esto dice Yahvé Sebaot, el Dios de Israel: Voy a hacer que se cumplan mis palabras contra esta ciudad: palabras para su mal, no para su bien. Tú serás testigo de todo aquel día, <sup>17</sup> pero yo te salvaré entonces —oráculo de Yahvé—: no serás entregado en manos de aquellos cuya presencia evitas temeroso; <sup>18</sup> antes bien, te libraré y no caerás víctima de la espada. Saldrás ganando la propia vida, porque confiaste en mí —oráculo de Yahvé—.
 
 ## Más sobre la suerte de Jeremías.
-<span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> Palabra dirigida a Jeremías de parte de Yahvé, después que Nabuzardán, jefe de la guardia, mandase que lo trajeran de Ramá y se hiciese cargo de él, cuando iba esposado con todos los deportados de Jerusalén y Judá, camino de Babilonia*.
+<span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> Palabra dirigida a Jeremías de parte de Yahvé, después que Nabuzardán, jefe de la guardia, mandase que lo trajeran de Ramá y se hiciese cargo de él, cuando iba esposado con todos los deportados de Jerusalén y Judá, camino de Babilonia<span class="note-ref" data-ref="jr-40-1" title="Ver comentario">&#42;</span>.
 
-<sup>2</sup> En efecto, el jefe de la guardia tomó aparte a Jeremías y le dijo: «Tu Dios Yahvé había predicho la desgracia que se ha abatido sobre este lugar, <sup>3</sup> y la ha cumplido. Yahvé ha hecho lo que había predicho. Y esto os ha sucedido por haber pecado contra Yahvé y no haber escuchado su voz. <sup>4</sup> Ahora voy a quitarte las esposas de tus muñecas. Si te parece bien venirte conmigo a Babilonia, vente, y yo miraré por ti. Pero si te parece mal venirte conmigo a Babilonia, déjalo. Mira, tienes toda la tierra por delante; adonde mejor y más cómodo te parezca ir, vete.» <sup>5</sup> Aún no había dado media vuelta cuando le dijo: «Vuelve adonde Godolías, hijo de Ajicán, hijo de Safán, a quien el rey de Babilonia ha encargado de las ciudades de Judá; quédate con él y haz vida normal entre tu gente. En suma, vete adonde mejor te acomode.» Luego el jefe de la guardia le proporcionó algunos víveres y ayuda de costa, y lo despidió. <sup>6</sup> Jeremías, por su parte, fue a Mispá, donde Godolías*, hijo de Ajicán, y se quedó a vivir con él entre la población que había permanecido en el país.
+<sup>2</sup> En efecto, el jefe de la guardia tomó aparte a Jeremías y le dijo: «Tu Dios Yahvé había predicho la desgracia que se ha abatido sobre este lugar, <sup>3</sup> y la ha cumplido. Yahvé ha hecho lo que había predicho. Y esto os ha sucedido por haber pecado contra Yahvé y no haber escuchado su voz. <sup>4</sup> Ahora voy a quitarte las esposas de tus muñecas. Si te parece bien venirte conmigo a Babilonia, vente, y yo miraré por ti. Pero si te parece mal venirte conmigo a Babilonia, déjalo. Mira, tienes toda la tierra por delante; adonde mejor y más cómodo te parezca ir, vete.» <sup>5</sup> Aún no había dado media vuelta cuando le dijo: «Vuelve adonde Godolías, hijo de Ajicán, hijo de Safán, a quien el rey de Babilonia ha encargado de las ciudades de Judá; quédate con él y haz vida normal entre tu gente. En suma, vete adonde mejor te acomode.» Luego el jefe de la guardia le proporcionó algunos víveres y ayuda de costa, y lo despidió. <sup>6</sup> Jeremías, por su parte, fue a Mispá, donde Godolías<span class="note-ref" data-ref="jr-40-6" title="Ver comentario">&#42;</span>, hijo de Ajicán, y se quedó a vivir con él entre la población que había permanecido en el país.
 
 ## Godolías gobernador. Su asesinato.
 <sup>7</sup> Cuando todos los oficiales del ejército, que andaban desperdigados por el campo con sus hombres, se enteraron que el rey de Babilonia había encargado del país a Godolías, hijo de Ajicán, y que había puesto bajo su custodia a hombres, mujeres, niños y gente pobre que no habían sido deportados a Babilonia, <sup>8</sup> fueron donde Godolías, a Mispá, Ismael, hijo de Natanías, Juan y Jonatán, hijo de Caréaj, Serayas, hijo de Tanjumet, los hijos de Efay el netofita y Jazanías de Maacá, en compañía de sus hombres. <sup>9</sup> Godolías, hijo de Ajicán, hijo de Safán, les hizo un juramento a ellos y a sus hombres: «No temáis someteros a los caldeos. Si os quedáis en el país y os sometéis al rey de Babilonia, todo os irá bien. <sup>10</sup> Por mi parte, tengo que quedarme en Mispá, para dar cuenta a los caldeos que vengan a nosotros. Vosotros cosechad vino, mieses y aceite, almacenadlo en recipientes, y vivid en las ciudades que hayáis recuperado.»
 
 <sup>11</sup> Todos los judaítas que había en Moab, entre los amonitas y en Edom, así como los que había en todos los demás países, se enteraron también que el rey de Babilonia había dejado un resto a Judá y que había encargado de él a Godolías, hijo de Ajicán, hijo de Safán. <sup>12</sup> Todos estos judaítas regresaron de los distintos lugares donde se habían refugiado y, venidos al país de Judá, junto a Godolías, en Mispá, cosecharon vino y mieses en gran abundancia.
 
-<sup>13</sup> Entonces Juan, hijo de Caréaj, y todos los oficiales de su tropa vinieron adonde Godolías, a Mispá, <sup>14</sup> y le dijeron: «¿Sabes que Baalís, rey de los amonitas, ha enviado a Ismael, hijo de Natanías, para asesinarte*?» Godolías, hijo de Ajicán, no les dio crédito. <sup>15</sup> Entonces Juan, hijo de Caréaj, dijo a Godolías secretamente en Mispá: «Si quieres, voy yo a matar a Ismael, hijo de Natanías, sin que nadie lo sepa. ¿Por qué tiene que asesinarte él a ti? ¿No te das cuenta de que eso supondría la desbandada de todo Judá, que ahora está apiñada en torno a ti, y la pérdida del resto de Judá?» <sup>16</sup> Godolías, hijo de Ajicán, replicó a Juan, hijo de Caréaj: «No hagas eso. Lo que dices de Ismael es falso.»
+<sup>13</sup> Entonces Juan, hijo de Caréaj, y todos los oficiales de su tropa vinieron adonde Godolías, a Mispá, <sup>14</sup> y le dijeron: «¿Sabes que Baalís, rey de los amonitas, ha enviado a Ismael, hijo de Natanías, para asesinarte<span class="note-ref" data-ref="jr-40-14" title="Ver comentario">&#42;</span>?» Godolías, hijo de Ajicán, no les dio crédito. <sup>15</sup> Entonces Juan, hijo de Caréaj, dijo a Godolías secretamente en Mispá: «Si quieres, voy yo a matar a Ismael, hijo de Natanías, sin que nadie lo sepa. ¿Por qué tiene que asesinarte él a ti? ¿No te das cuenta de que eso supondría la desbandada de todo Judá, que ahora está apiñada en torno a ti, y la pérdida del resto de Judá?» <sup>16</sup> Godolías, hijo de Ajicán, replicó a Juan, hijo de Caréaj: «No hagas eso. Lo que dices de Ismael es falso.»
 
-<span id="chapter-41" class="chapter-marker" data-chapter="41">41</span><sup>1</sup> Pues bien, el mes séptimo, Ismael, hijo de Natanías, hijo de Elisamá, de linaje real, junto con algunos notables del rey y diez hombres, se dirigió donde Godolías, hijo de Ajicán, a Mispá, y allí comieron juntos. <sup>2</sup> Pero Ismael, hijo de Natanías, y los diez que estaban con él, se levantaron y acuchillaron a Godolías, hijo de Ajicán, hijo de Safán. Dieron muerte a aquel a quien el rey de Babilonia había encargado del país. <sup>3</sup> También mató Ismael a todos los judaítas que estaban con él, con Godolías, en Mispá, y a los guerreros caldeos que se hallaban allí*.
+<span id="chapter-41" class="chapter-marker" data-chapter="41">41</span><sup>1</sup> Pues bien, el mes séptimo, Ismael, hijo de Natanías, hijo de Elisamá, de linaje real, junto con algunos notables del rey y diez hombres, se dirigió donde Godolías, hijo de Ajicán, a Mispá, y allí comieron juntos. <sup>2</sup> Pero Ismael, hijo de Natanías, y los diez que estaban con él, se levantaron y acuchillaron a Godolías, hijo de Ajicán, hijo de Safán. Dieron muerte a aquel a quien el rey de Babilonia había encargado del país. <sup>3</sup> También mató Ismael a todos los judaítas que estaban con él, con Godolías, en Mispá, y a los guerreros caldeos que se hallaban allí<span class="note-ref" data-ref="jr-41-3" title="Ver comentario">&#42;</span>.
 
-<sup>4</sup> Al día siguiente del asesinato de Godolías, cuando nadie se había enterado todavía, <sup>5</sup> llegaron unos hombres de Siquén, de Siló y de Samaría, ochenta en total, con la barba raída, harapientos y arañados, portadores de oblaciones e incienso que traían al templo de Yahvé*. <sup>6</sup> Ismael, hijo de Natanías, salió a su encuentro desde Mispá. Iba llorando mientras caminaba, y llegando junto a ellos les dijo: «Venid adonde Godolías, hijo de Ajicán.» <sup>7</sup> Y así que hubieron entrado en la ciudad, Ismael, hijo de Natanías, los degolló con la ayuda de sus hombres y los echó dentro de una cisterna*.
+<sup>4</sup> Al día siguiente del asesinato de Godolías, cuando nadie se había enterado todavía, <sup>5</sup> llegaron unos hombres de Siquén, de Siló y de Samaría, ochenta en total, con la barba raída, harapientos y arañados, portadores de oblaciones e incienso que traían al templo de Yahvé<span class="note-ref" data-ref="jr-41-5" title="Ver comentario">&#42;</span>. <sup>6</sup> Ismael, hijo de Natanías, salió a su encuentro desde Mispá. Iba llorando mientras caminaba, y llegando junto a ellos les dijo: «Venid adonde Godolías, hijo de Ajicán.» <sup>7</sup> Y así que hubieron entrado en la ciudad, Ismael, hijo de Natanías, los degolló con la ayuda de sus hombres y los echó dentro de una cisterna<span class="note-ref" data-ref="jr-41-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Entre aquellos hombres hubo diez que dijeron a Ismael: «No nos mates, que en el campo tenemos escondites de trigo, cebada, aceite y miel.» E Ismael no los mató como a sus compañeros.
 
-<sup>9</sup> La cisterna donde echó Ismael todos los cadáveres de los hombres que había asesinado, era la cisterna grande*, la que había mandado hacer el rey Asá para prevenirse contra Basá, rey de Israel. Ismael, hijo de Natanías, la llenó de asesinados.
+<sup>9</sup> La cisterna donde echó Ismael todos los cadáveres de los hombres que había asesinado, era la cisterna grande<span class="note-ref" data-ref="jr-41-9" title="Ver comentario">&#42;</span>, la que había mandado hacer el rey Asá para prevenirse contra Basá, rey de Israel. Ismael, hijo de Natanías, la llenó de asesinados.
 
 <sup>10</sup> Luego Ismael hizo prisioneros al resto de la gente que quedaba en Mispá, a las hijas del rey y a toda la gente que había permanecido en Mispá, y que Nabuzardán, jefe de la guardia, había encomendado a Godolías, hijo de Ajicán. De madrugada se fue Ismael, hijo de Natanías, y cruzó hacia territorio amonita.
 
-<sup>11</sup> Juan, hijo de Caréaj, y todos los oficiales de las fuerzas que le acompañaban, se enteraron de los crímenes que había cometido Ismael, hijo de Natanías. <sup>12</sup> Entonces tomó a todos sus hombres y fue a luchar contra Ismael, hijo de Natanías, al que encontraron junto a la gran alberca que hay en Gabaón*.
+<sup>11</sup> Juan, hijo de Caréaj, y todos los oficiales de las fuerzas que le acompañaban, se enteraron de los crímenes que había cometido Ismael, hijo de Natanías. <sup>12</sup> Entonces tomó a todos sus hombres y fue a luchar contra Ismael, hijo de Natanías, al que encontraron junto a la gran alberca que hay en Gabaón<span class="note-ref" data-ref="jr-41-12" title="Ver comentario">&#42;</span>.
 
-<sup>13</sup> Cuando la gente que Ismael llevaba consigo vio a Juan, hijo de Caréaj, y a todos los oficiales de la tropa que le acompañaba, se llenaron de gozo <sup>14</sup> y, dando media vuelta toda aquella gente que Ismael llevaba prisionera de Mispá, regresaron al lado de Juan, hijo de Caréaj, <sup>15</sup> en tanto que Ismael, hijo de Natanías, se escapaba de Juan con ocho hombres, rumbo a territorio amonita. <sup>16</sup> Juan, hijo de Caréaj, y todos los oficiales de la tropa que le acompañaban recogieron de Mispá a todo el resto de la gente que Ismael, hijo de Natanías, había hecho prisionera* después que hubo matado a Godolías, hijo de Ajicán —hombres, gente de guerra, mujeres, niños y eunucos—, y los hizo volver de Gabaón. <sup>17</sup> Ellos se fueron y se instalaron en el Refugio de Quinhán, que está al lado de Belén, para seguir luego hasta Egipto <sup>18</sup> huyendo de los caldeos, pues les temían por haber matado Ismael, hijo de Natanías, a Godolías, hijo de Ajicán, a quien el rey de Babilonia había encargado del país.
+<sup>13</sup> Cuando la gente que Ismael llevaba consigo vio a Juan, hijo de Caréaj, y a todos los oficiales de la tropa que le acompañaba, se llenaron de gozo <sup>14</sup> y, dando media vuelta toda aquella gente que Ismael llevaba prisionera de Mispá, regresaron al lado de Juan, hijo de Caréaj, <sup>15</sup> en tanto que Ismael, hijo de Natanías, se escapaba de Juan con ocho hombres, rumbo a territorio amonita. <sup>16</sup> Juan, hijo de Caréaj, y todos los oficiales de la tropa que le acompañaban recogieron de Mispá a todo el resto de la gente que Ismael, hijo de Natanías, había hecho prisionera<span class="note-ref" data-ref="jr-41-16" title="Ver comentario">&#42;</span> después que hubo matado a Godolías, hijo de Ajicán —hombres, gente de guerra, mujeres, niños y eunucos—, y los hizo volver de Gabaón. <sup>17</sup> Ellos se fueron y se instalaron en el Refugio de Quinhán, que está al lado de Belén, para seguir luego hasta Egipto <sup>18</sup> huyendo de los caldeos, pues les temían por haber matado Ismael, hijo de Natanías, a Godolías, hijo de Ajicán, a quien el rey de Babilonia había encargado del país.
 
 ## Huida a Egipto.
-<span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Entonces todos los oficiales de la tropa, junto con Juan, hijo de Caréaj, Azarías*, hijo de Hosaías, y el pueblo en masa, del chico al grande, <sup>2</sup> se llegaron al profeta Jeremías y le dijeron: «Caiga bien la demanda de favor que te hacemos y ruega* a tu Dios Yahvé por nosotros, por todo este resto, pues hemos quedado pocos de tantos que éramos, como tú mismo puedes ver, <sup>3</sup> y que nos indique tu Dios Yahvé el camino por donde hemos de ir y lo que hemos de hacer.»
+<span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Entonces todos los oficiales de la tropa, junto con Juan, hijo de Caréaj, Azarías<span class="note-ref" data-ref="jr-42-1" title="Ver comentario">&#42;</span>, hijo de Hosaías, y el pueblo en masa, del chico al grande, <sup>2</sup> se llegaron al profeta Jeremías y le dijeron: «Caiga bien la demanda de favor que te hacemos y ruega<span class="note-ref" data-ref="jr-42-2" title="Ver comentario">&#42;</span> a tu Dios Yahvé por nosotros, por todo este resto, pues hemos quedado pocos de tantos que éramos, como tú mismo puedes ver, <sup>3</sup> y que nos indique tu Dios Yahvé el camino por donde hemos de ir y lo que hemos de hacer.»
 
 <sup>4</sup> Les dijo el profeta Jeremías: «De acuerdo: ahora mismo me pongo a rogar a vuestro Dios Yahvé como decís, y sea cual fuere la respuesta de Yahvé para vosotros, yo os la comunicaré sin ocultaros palabra.»
 
 <sup>5</sup> Ellos dijeron a Jeremías: «Que Yahvé sea testigo veraz y leal contra nosotros si no obramos conforme a cualquier mensaje que tu Dios Yahvé te envía para nosotros. <sup>6</sup> Sea grata o sea desfavorable, nosotros obedeceremos la voz de nuestro Dios Yahvé a quien te enviamos, pues siempre nos va bien cuando obedecemos la voz de nuestro Dios Yahvé.»
 
-<sup>7</sup> Pues bien, al cabo de diez días dirigió Yahvé la palabra a Jeremías. <sup>8</sup> Éste llamó a Juan, hijo de Caréaj, a todos los oficiales de la tropa que había con él y al pueblo todo, del chico al grande, <sup>9</sup> y les dijo: «Esto dice Yahvé, el Dios de Israel, a quien me habéis enviado en demanda de su favor: <sup>10</sup> Si os quedáis a vivir* en esta tierra, yo os edificaré y no os destruiré, os plantaré y no os arrancaré, porque me pesa el mal que os he hecho. <sup>11</sup> No temáis al rey de Babilonia, que tanto os asusta: no temáis nada de él —oráculo de Yahvé—, que con vosotros estoy para salvaros y libraros de su mano. <sup>12</sup> Le daré entrañas compasivas para que se apiade de vosotros y os devuelva a vuestro suelo. <sup>13</sup> Pero si decidís no quedaros en este país, desoyendo así la voz de vuestro Dios Yahvé; <sup>14</sup> si decís: ‘No, preferimos ir al país de Egipto, donde no veamos guerras, ni oigamos toques de trompeta, ni tengamos que pasar hambre, y allí nos quedaremos’, <sup>15</sup> en ese caso, escuchad la palabra de Yahvé, resto de Judá. Esto dice Yahvé Sebaot, el Dios de Israel: Si vosotros enderezáis rumbo a Egipto y entráis como refugiados allí, <sup>16</sup> entonces la espada que teméis os alcanzará allí en Egipto, y el hambre que receláis, allá os irá pisando los talones; y allí, en Egipto mismo, moriréis. <sup>17</sup> De ese modo, todos los que enderezcan rumbo a Egipto como refugiados morirán víctimas de la espada, del hambre y de la peste, y no les quedará superviviente ni quien escape del daño que yo traiga sobre ellos. <sup>18</sup> Porque esto dice Yahvé Sebaot, el Dios de Israel: Del mismo modo que se vertió mi ira y mi cólera sobre los habitantes de Jerusalén, así se verterá mi cólera contra vosotros como entréis en Egipto; seréis tema de imprecación y asombro, de maldición y oprobio, y no volveréis a ver más este lugar. <sup>19</sup> *Ha dicho Yahvé respecto a vosotros, resto de Judá: ‘No entréis en Egipto.’ Tenedlo bien en cuenta, tal como os lo advierto hoy. <sup>20</sup> Pero os engañabais a vosotros mismos cuando me enviabais a vuestro Dios Yahvé y me decíais: ‘Ruega por nosotros a nuestro Dios Yahvé, y cuanto diga nuestro Dios Yahvé nos lo comunicas, que lo haremos.’ <sup>21</sup> Yo os lo he comunicado hoy, pero no hacéis caso de vuestro Dios Yahvé en nada de cuanto me ha enviado a deciros. <sup>22</sup> Ahora, pues, podéis estar seguros de que moriréis víctimas de la espada, del hambre y de la peste en el lugar donde deseáis refugiaros.»
+<sup>7</sup> Pues bien, al cabo de diez días dirigió Yahvé la palabra a Jeremías. <sup>8</sup> Éste llamó a Juan, hijo de Caréaj, a todos los oficiales de la tropa que había con él y al pueblo todo, del chico al grande, <sup>9</sup> y les dijo: «Esto dice Yahvé, el Dios de Israel, a quien me habéis enviado en demanda de su favor: <sup>10</sup> Si os quedáis a vivir<span class="note-ref" data-ref="jr-42-10" title="Ver comentario">&#42;</span> en esta tierra, yo os edificaré y no os destruiré, os plantaré y no os arrancaré, porque me pesa el mal que os he hecho. <sup>11</sup> No temáis al rey de Babilonia, que tanto os asusta: no temáis nada de él —oráculo de Yahvé—, que con vosotros estoy para salvaros y libraros de su mano. <sup>12</sup> Le daré entrañas compasivas para que se apiade de vosotros y os devuelva a vuestro suelo. <sup>13</sup> Pero si decidís no quedaros en este país, desoyendo así la voz de vuestro Dios Yahvé; <sup>14</sup> si decís: ‘No, preferimos ir al país de Egipto, donde no veamos guerras, ni oigamos toques de trompeta, ni tengamos que pasar hambre, y allí nos quedaremos’, <sup>15</sup> en ese caso, escuchad la palabra de Yahvé, resto de Judá. Esto dice Yahvé Sebaot, el Dios de Israel: Si vosotros enderezáis rumbo a Egipto y entráis como refugiados allí, <sup>16</sup> entonces la espada que teméis os alcanzará allí en Egipto, y el hambre que receláis, allá os irá pisando los talones; y allí, en Egipto mismo, moriréis. <sup>17</sup> De ese modo, todos los que enderezcan rumbo a Egipto como refugiados morirán víctimas de la espada, del hambre y de la peste, y no les quedará superviviente ni quien escape del daño que yo traiga sobre ellos. <sup>18</sup> Porque esto dice Yahvé Sebaot, el Dios de Israel: Del mismo modo que se vertió mi ira y mi cólera sobre los habitantes de Jerusalén, así se verterá mi cólera contra vosotros como entréis en Egipto; seréis tema de imprecación y asombro, de maldición y oprobio, y no volveréis a ver más este lugar. <sup>19</sup> <span class="note-ref" data-ref="jr-42-19" title="Ver comentario">&#42;</span>Ha dicho Yahvé respecto a vosotros, resto de Judá: ‘No entréis en Egipto.’ Tenedlo bien en cuenta, tal como os lo advierto hoy. <sup>20</sup> Pero os engañabais a vosotros mismos cuando me enviabais a vuestro Dios Yahvé y me decíais: ‘Ruega por nosotros a nuestro Dios Yahvé, y cuanto diga nuestro Dios Yahvé nos lo comunicas, que lo haremos.’ <sup>21</sup> Yo os lo he comunicado hoy, pero no hacéis caso de vuestro Dios Yahvé en nada de cuanto me ha enviado a deciros. <sup>22</sup> Ahora, pues, podéis estar seguros de que moriréis víctimas de la espada, del hambre y de la peste en el lugar donde deseáis refugiaros.»
 
 <span id="chapter-43" class="chapter-marker" data-chapter="43">43</span><sup>1</sup> Cuando Jeremías acabó de comunicar a todo el pueblo las palabras de Yahvé su Dios, que el propio Yahvé le había comunicado para ellos, <sup>2</sup> Azarías, hijo de Hosaías, y también Juan, hijo de Caréaj, y el resto de los presentes dijeron con insolencia a Jeremías: «Estás mintiendo. No te ha encargado nuestro Dios Yahvé decir: ‘No vayáis a Egipto como refugiados allí’». <sup>3</sup> Es Baruc, hijo de Nerías, quien te azuza contra nosotros con objeto de ponernos en manos de los caldeos para que nos hagan morir y nos deporten a Babilonia.»
 
-<sup>4</sup> Además, ni Juan, hijo de Caréaj, ni ninguno de los oficiales de la tropa, ni nadie de entre la gente hizo caso de la voz de Yahvé, que mandaba quedarse en tierra de Judá. <sup>5</sup> Antes bien, Juan, hijo de Caréaj, y todos los oficiales de la tropa tomaron consigo al resto de Judá, que había regresado para habitar en tierra de Judá, de todas las naciones por donde se habían dispersado: <sup>6</sup> a hombres, mujeres, niños, a las hijas del rey y a toda persona que Nabuzardán, jefe de la guardia, había dejado en paz con Godolías, hijo de Ajicán, hijo de Safán, y también al profeta Jeremías y a Baruc, hijo de Nerías. <sup>7</sup> Una vez llegados al país de Egipto —pues desoyeron la voz de Yahvé—, se adentraron hasta Tafnis*.
+<sup>4</sup> Además, ni Juan, hijo de Caréaj, ni ninguno de los oficiales de la tropa, ni nadie de entre la gente hizo caso de la voz de Yahvé, que mandaba quedarse en tierra de Judá. <sup>5</sup> Antes bien, Juan, hijo de Caréaj, y todos los oficiales de la tropa tomaron consigo al resto de Judá, que había regresado para habitar en tierra de Judá, de todas las naciones por donde se habían dispersado: <sup>6</sup> a hombres, mujeres, niños, a las hijas del rey y a toda persona que Nabuzardán, jefe de la guardia, había dejado en paz con Godolías, hijo de Ajicán, hijo de Safán, y también al profeta Jeremías y a Baruc, hijo de Nerías. <sup>7</sup> Una vez llegados al país de Egipto —pues desoyeron la voz de Yahvé—, se adentraron hasta Tafnis<span class="note-ref" data-ref="jr-43-7" title="Ver comentario">&#42;</span>.
 
 ## Jeremías vaticina la invasión de Egipto por Nabucodonosor.
-<sup>8</sup> Entonces dirigió Yahvé la palabra a Jeremías en Tafnis en estos términos: <sup>9</sup> «Toma en tus manos piedras grandes y húndelas en la argamasa de la terraza que hay a la entrada del palacio del faraón en Tafnis, en presencia de los judaítas*. <sup>10</sup> Luego les dices: Esto dice Yahvé Sebaot, el Dios de Israel: Voy a mandar en busca de mi siervo Nabucodonosor, rey de Babilonia, que pondrá* su sede sobre estas piedras que he enterrado y desplegará su pabellón sobre ellas. <sup>11</sup> Vendrá y herirá de muerte a Egipto,
+<sup>8</sup> Entonces dirigió Yahvé la palabra a Jeremías en Tafnis en estos términos: <sup>9</sup> «Toma en tus manos piedras grandes y húndelas en la argamasa de la terraza que hay a la entrada del palacio del faraón en Tafnis, en presencia de los judaítas<span class="note-ref" data-ref="jr-43-9" title="Ver comentario">&#42;</span>. <sup>10</sup> Luego les dices: Esto dice Yahvé Sebaot, el Dios de Israel: Voy a mandar en busca de mi siervo Nabucodonosor, rey de Babilonia, que pondrá<span class="note-ref" data-ref="jr-43-10" title="Ver comentario">&#42;</span> su sede sobre estas piedras que he enterrado y desplegará su pabellón sobre ellas. <sup>11</sup> Vendrá y herirá de muerte a Egipto,
 
 quien sea para la muerte, a la muerte;
 
@@ -4309,36 +4309,36 @@ quien para el cautiverio, al cautiverio;
 
 quien para la espada, a la espada.
 
-<sup>12</sup> Prenderá fuego* a los templos de los dioses de Egipto: los incendiará y se llevará cautivos a los dioses. Despiojará a Egipto como despioja un pastor su zalea, y saldrá de allí victorioso. <sup>13</sup> Hará trizas los cipos de Bet Semes que hay en Egipto*, e incendiará los templos de los dioses egipcios.»
+<sup>12</sup> Prenderá fuego<span class="note-ref" data-ref="jr-43-12" title="Ver comentario">&#42;</span> a los templos de los dioses de Egipto: los incendiará y se llevará cautivos a los dioses. Despiojará a Egipto como despioja un pastor su zalea, y saldrá de allí victorioso. <sup>13</sup> Hará trizas los cipos de Bet Semes que hay en Egipto<span class="note-ref" data-ref="jr-43-13" title="Ver comentario">&#42;</span>, e incendiará los templos de los dioses egipcios.»
 
 ## Último ministerio de Jeremías.
 ## Los judíos y la Reina de los Cielos.
-<span id="chapter-44" class="chapter-marker" data-chapter="44">44</span><sup>1</sup> Palabra dirigida a Jeremías con destino a todos los judaítas establecidos en territorio egipcio: en Migdol, Tafnis, Menfis y en la región de Patrós*.
+<span id="chapter-44" class="chapter-marker" data-chapter="44">44</span><sup>1</sup> Palabra dirigida a Jeremías con destino a todos los judaítas establecidos en territorio egipcio: en Migdol, Tafnis, Menfis y en la región de Patrós<span class="note-ref" data-ref="jr-44-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Esto dice Yahvé Sebaot, el Dios de Israel: Vosotros habéis visto la calamidad que he acarreado a Jerusalén y a todas las ciudades de Judá, y ahí las tenéis arruinadas hoy en día, sin nadie que las habite. <sup>3</sup> Me obligaron a ello las maldades que cometieron para irritarme, pues fueron a incensar y dar culto a otros dioses desconocidos de ellos, de vosotros y de vuestros padres. <sup>4</sup> Yo os envié a todos mis siervos, los profetas, a que os dijeran: «No cometáis esta abominación que detesto.» <sup>5</sup> Mas no oyeron ni aplicaron el oído para convertirse de su malicia y dejar de incensar a otros dioses. <sup>6</sup> Por eso se derramaron mi cólera y mi ira, que prendieron en las ciudades de Judá y en las calles de Jerusalén, dejándolas arruinadas y desoladas, como lo están hoy día.
 
-<sup>7</sup> Ahora, pues, esto dice Yahvé, el Dios Sebaot, el Dios de Israel: ¿Por qué os hacéis tanto daño a vosotros mismos, hasta el punto de extirpar de Judá a hombres y mujeres, niños y lactantes, impidiendo que os quede un resto? <sup>8</sup> Además, me irritáis con todo lo que hacéis, pues quemáis incienso a otros dioses en Egipto, adonde habéis venido a refugiaros, como si quisierais exterminaros a vosotros mismos y acabar siendo tema de maldición y oprobio entre todas las naciones de la tierra. <sup>9</sup> ¿Será que habéis olvidado las maldades de vuestros padres y las de los reyes de Judá y de sus caudillos*, las propias vuestras y las de vuestras mujeres, que se cometieron en tierra de Judá y en las calles de Jerusalén? <sup>10</sup> No se han arrepentido hasta la fecha, ni han temido ni andado en la Ley y los preceptos que propuse a vosotros y a vuestros padres. <sup>11</sup> Por tanto, esto dice Yahvé Sebaot, el Dios de Israel: Estoy fijando mi vista en vosotros para mal, para extirpar a todo Judá. <sup>12</sup> Echaré mano al resto de Judá —los que enderezaron rumbo a Egipto, para entrar allí como refugiados— y haré que todos ellos tengan su fin en Egipto: caerán víctimas de la espada, acabarán consumidos por el hambre. Del chico al grande morirán víctimas de la espada y del hambre, y se convertirán en tema de imprecación y asombro, de maldición y oprobio. <sup>13</sup> Castigaré a los que viven en Egipto, lo mismo que castigué a Jerusalén con la espada, el hambre y la peste, <sup>14</sup> y del resto de Judá, que llegaron como refugiados a Egipto, no quedará evadido ni superviviente para volver a tierra de Judá, adonde se prometen volver para quedarse allí, porque ya no volverán más que algunos huidos.
+<sup>7</sup> Ahora, pues, esto dice Yahvé, el Dios Sebaot, el Dios de Israel: ¿Por qué os hacéis tanto daño a vosotros mismos, hasta el punto de extirpar de Judá a hombres y mujeres, niños y lactantes, impidiendo que os quede un resto? <sup>8</sup> Además, me irritáis con todo lo que hacéis, pues quemáis incienso a otros dioses en Egipto, adonde habéis venido a refugiaros, como si quisierais exterminaros a vosotros mismos y acabar siendo tema de maldición y oprobio entre todas las naciones de la tierra. <sup>9</sup> ¿Será que habéis olvidado las maldades de vuestros padres y las de los reyes de Judá y de sus caudillos<span class="note-ref" data-ref="jr-44-9" title="Ver comentario">&#42;</span>, las propias vuestras y las de vuestras mujeres, que se cometieron en tierra de Judá y en las calles de Jerusalén? <sup>10</sup> No se han arrepentido hasta la fecha, ni han temido ni andado en la Ley y los preceptos que propuse a vosotros y a vuestros padres. <sup>11</sup> Por tanto, esto dice Yahvé Sebaot, el Dios de Israel: Estoy fijando mi vista en vosotros para mal, para extirpar a todo Judá. <sup>12</sup> Echaré mano al resto de Judá —los que enderezaron rumbo a Egipto, para entrar allí como refugiados— y haré que todos ellos tengan su fin en Egipto: caerán víctimas de la espada, acabarán consumidos por el hambre. Del chico al grande morirán víctimas de la espada y del hambre, y se convertirán en tema de imprecación y asombro, de maldición y oprobio. <sup>13</sup> Castigaré a los que viven en Egipto, lo mismo que castigué a Jerusalén con la espada, el hambre y la peste, <sup>14</sup> y del resto de Judá, que llegaron como refugiados a Egipto, no quedará evadido ni superviviente para volver a tierra de Judá, adonde se prometen volver para quedarse allí, porque ya no volverán más que algunos huidos.
 
-<sup>15</sup> Todos los hombres que sabían que sus mujeres quemaban incienso a otros dioses, así como todas las mujeres presentes —una gran concurrencia— y toda la gente establecida en territorio egipcio, en Patrós, respondieron a Jeremías: <sup>16</sup> «En eso que nos has dicho en nombre de Yahvé, no te hacemos caso, <sup>17</sup> sino que cumpliremos concienzudamente cuanto tenemos prometido, que es quemar incienso a la Reina de los Cielos* y hacerle libaciones, como venimos haciendo nosotros y nuestros padres, nuestros reyes y nuestros dignatarios en las ciudades de Judá y en las calles de Jerusalén, que nos hartábamos de pan, éramos felices y ningún mal nos sucedía. <sup>18</sup> En cambio, desde que dejamos de quemar incienso a la Reina de los Cielos y de hacerle libaciones, carecemos de todo y vamos acabando, víctimas de la espada y del hambre.» <sup>19</sup> «Pues* cuando nosotras quemábamos incienso a la Reina de los Cielos y nos dedicábamos a hacerle libaciones, ¿acaso le hacíamos pasteles con su efigie, derramando libaciones, sin que nuestros maridos lo supieran?»
+<sup>15</sup> Todos los hombres que sabían que sus mujeres quemaban incienso a otros dioses, así como todas las mujeres presentes —una gran concurrencia— y toda la gente establecida en territorio egipcio, en Patrós, respondieron a Jeremías: <sup>16</sup> «En eso que nos has dicho en nombre de Yahvé, no te hacemos caso, <sup>17</sup> sino que cumpliremos concienzudamente cuanto tenemos prometido, que es quemar incienso a la Reina de los Cielos<span class="note-ref" data-ref="jr-44-17" title="Ver comentario">&#42;</span> y hacerle libaciones, como venimos haciendo nosotros y nuestros padres, nuestros reyes y nuestros dignatarios en las ciudades de Judá y en las calles de Jerusalén, que nos hartábamos de pan, éramos felices y ningún mal nos sucedía. <sup>18</sup> En cambio, desde que dejamos de quemar incienso a la Reina de los Cielos y de hacerle libaciones, carecemos de todo y vamos acabando, víctimas de la espada y del hambre.» <sup>19</sup> «Pues<span class="note-ref" data-ref="jr-44-19" title="Ver comentario">&#42;</span> cuando nosotras quemábamos incienso a la Reina de los Cielos y nos dedicábamos a hacerle libaciones, ¿acaso le hacíamos pasteles con su efigie, derramando libaciones, sin que nuestros maridos lo supieran?»
 
 <sup>20</sup> Jeremías dijo a toda la gente, hombres, mujeres y cuantos le habían contestado algo: <sup>21</sup> «¿Creéis que Yahvé no recordaba ni tenía en cuenta aquel incienso que ofrecíais en las ciudades de Judá y en las calles de Jerusalén vosotros y vuestros padres, vuestros reyes y dignatarios, y el pueblo de la tierra? <sup>22</sup> Yahvé ya no pudo soportar por más tiempo el espectáculo de vuestras malas acciones, de las abominaciones que habíais hecho, y vuestra tierra se convirtió en una ruina, en tema de pasmo y maldición, y se quedó sin habitantes —como lo está hoy día—. <sup>23</sup> Todo fue porque ofrecisteis incienso y pecasteis contra Yahvé, sin escuchar la voz de Yahvé y sin conduciros según su Ley, sus preceptos y sus estatutos. Por eso pronunció contra vosotros aquella calamidad, que continúa hoy día.»
 
-<sup>24</sup> Dijo Jeremías a toda la gente y a todas las mujeres: «Oíd la palabra de Yahvé  —todo Judá, los que vivís en Egipto—. <sup>25</sup> Esto dice Yahvé Sebaot, el Dios de Israel: Vosotros y vuestras mujeres lo dijisteis de palabra y con vuestras manos cumplisteis lo dicho: ‘Sin falta realizaremos los votos que hicimos de quemar incienso a la Reina de los Cielos y de hacerle libaciones.’ Mantened, pues, vosotras vuestros votos y realizad vuestras promesas sin falta. <sup>26</sup> Empero, oíd la palabra de Yahvé, todo Judá, los que vivís en Egipto. Mirad, yo he jurado por mi ilustre Nombre —dice Yahvé— que no será más mi Nombre pronunciado por boca de ninguno de Judá, de esos que suelen jurar ‘¡Por vida del Señor Yahvé*!’ en toda la tierra de Egipto. <sup>27</sup> Mirad que estoy alerta sobre ellos para mal, no para bien, pues todos los judaítas que están en Egipto serán consumidos por la espada y el hambre, hasta que desaparezcan. <sup>28</sup> Sólo unos pocos escaparán de la espada y volverán de Egipto a Judá. Y sabrá todo el resto de Judá, los que han venido a Egipto como refugiados, qué palabra se mantendrá: si la mía o la suya.
+<sup>24</sup> Dijo Jeremías a toda la gente y a todas las mujeres: «Oíd la palabra de Yahvé  —todo Judá, los que vivís en Egipto—. <sup>25</sup> Esto dice Yahvé Sebaot, el Dios de Israel: Vosotros y vuestras mujeres lo dijisteis de palabra y con vuestras manos cumplisteis lo dicho: ‘Sin falta realizaremos los votos que hicimos de quemar incienso a la Reina de los Cielos y de hacerle libaciones.’ Mantened, pues, vosotras vuestros votos y realizad vuestras promesas sin falta. <sup>26</sup> Empero, oíd la palabra de Yahvé, todo Judá, los que vivís en Egipto. Mirad, yo he jurado por mi ilustre Nombre —dice Yahvé— que no será más mi Nombre pronunciado por boca de ninguno de Judá, de esos que suelen jurar ‘¡Por vida del Señor Yahvé<span class="note-ref" data-ref="jr-44-26" title="Ver comentario">&#42;</span>!’ en toda la tierra de Egipto. <sup>27</sup> Mirad que estoy alerta sobre ellos para mal, no para bien, pues todos los judaítas que están en Egipto serán consumidos por la espada y el hambre, hasta que desaparezcan. <sup>28</sup> Sólo unos pocos escaparán de la espada y volverán de Egipto a Judá. Y sabrá todo el resto de Judá, los que han venido a Egipto como refugiados, qué palabra se mantendrá: si la mía o la suya.
 
-<sup>29</sup> «Y esto será para vosotros señal —oráculo de Yahvé— de que yo os castigaré en este lugar, de suerte que sepáis que han de mantenerse sin falta mis palabras para desgracia vuestra. <sup>30</sup> Esto dice Yahvé: Voy a entregar al faraón Jofrá*, rey de Egipto, en manos de sus enemigos y de los que tratan de matarlo, como entregué a Sedecías, rey de Judá, en manos de Nabucodonosor, rey de Babilonia, su enemigo, que buscaba el modo de darle muerte.»
+<sup>29</sup> «Y esto será para vosotros señal —oráculo de Yahvé— de que yo os castigaré en este lugar, de suerte que sepáis que han de mantenerse sin falta mis palabras para desgracia vuestra. <sup>30</sup> Esto dice Yahvé: Voy a entregar al faraón Jofrá<span class="note-ref" data-ref="jr-44-30" title="Ver comentario">&#42;</span>, rey de Egipto, en manos de sus enemigos y de los que tratan de matarlo, como entregué a Sedecías, rey de Judá, en manos de Nabucodonosor, rey de Babilonia, su enemigo, que buscaba el modo de darle muerte.»
 
-## Palabra de consuelo para Baruc *.
-<span id="chapter-45" class="chapter-marker" data-chapter="45">45</span><sup>1</sup> Palabra que dirigió el profeta Jeremías a Baruc, hijo de Nerías, cuando éste copiaba estas palabras en un libro al dictado de Jeremías, en el año cuarto de Joaquín*, hijo de Josías, rey de Judá.
+## Palabra de consuelo para Baruc <span class="note-ref" data-ref="jr-45" title="Ver comentario">&#42;</span>.
+<span id="chapter-45" class="chapter-marker" data-chapter="45">45</span><sup>1</sup> Palabra que dirigió el profeta Jeremías a Baruc, hijo de Nerías, cuando éste copiaba estas palabras en un libro al dictado de Jeremías, en el año cuarto de Joaquín<span class="note-ref" data-ref="jr-45-1" title="Ver comentario">&#42;</span>, hijo de Josías, rey de Judá.
 
 <sup>2</sup> Esto dice Yahvé, el Dios de Israel, respecto a ti, Baruc: <sup>3</sup> Tú dijiste: «¡Ay de mí, que añade Yahvé congoja a mi sufrimiento! Me he agotado en mi jadeo, pero sosiego no hallé.» <sup>4</sup> Así le dirás: Esto dice Yahvé: «Mira, lo que he edificado, yo lo derribo, y lo que he plantado, yo lo arranco; haré esto por toda la tierra. <sup>5</sup> ¡Y tú andas buscándote grandezas! No las busques, pues, aunque voy a traer la desgracia sobre todo ser viviente —oráculo de Yahvé—, a ti te dejaré la vida a salvo como botín, vayas adonde vayas.»
 
 <span id="chapter-46" class="chapter-marker" data-chapter="46">46</span><sup>1</sup> Lo que Yahvé comunicó al profeta Jeremías concerniente a las naciones.
 
-# V. Oráculos contra las naciones*
+# V. Oráculos contra las naciones<span class="note-ref" data-ref="jr-46-1" title="Ver comentario">&#42;</span>
 ## Contra Egipto. Derrota en Carquemis.
 <sup>2</sup> A próposito de Egipto.
 
-Sobre el ejército del faraón Necó, rey de Egipto, que estuvo junto al río Éufrates, en Carquemis*, al cual batió Nabucodonosor, rey de Babilonia, el año cuarto de Joaquín, hijo de Josías, rey de Judá.
+Sobre el ejército del faraón Necó, rey de Egipto, que estuvo junto al río Éufrates, en Carquemis<span class="note-ref" data-ref="jr-46-2" title="Ver comentario">&#42;</span>, al cual batió Nabucodonosor, rey de Babilonia, el año cuarto de Joaquín, hijo de Josías, rey de Judá.
 
 <sup>3</sup> Preparad escudo y pavés,
 
@@ -4398,7 +4398,7 @@ acabaré con poblados y habitantes.
 
 que manejan escudo,
 
-y los lidios que asestan el arco*!»
+y los lidios que asestan el arco<span class="note-ref" data-ref="jr-46-9" title="Ver comentario">&#42;</span>!»
 
 <sup>10</sup> Pero es el día del Señor Yahvé,
 
@@ -4432,7 +4432,7 @@ valiente contra valiente tropezaron,
 
 a una cayeron entrambos.
 
-## La invasión de Egipto *.
+## La invasión de Egipto <span class="note-ref" data-ref="jr-46-13" title="Ver comentario">&#42;</span>.
 <sup>13</sup> Palabra que dirigió Yahvé al profeta Jeremías acerca de la venida de Nabucodonosor, rey de Babilonia, para atacar a Egipto.
 
 <sup>14</sup> Anunciadlo en Egipto,
@@ -4447,7 +4447,7 @@ que la espada devora tus contornos!
 
 <sup>15</sup> ¿Por qué ha huido el buey Apis
 
-y tu forzudo no se ha sostenido*?
+y tu forzudo no se ha sostenido<span class="note-ref" data-ref="jr-46-15" title="Ver comentario">&#42;</span>?
 
 ## Es que Yahvé le embistió.
 
@@ -4463,7 +4463,7 @@ regresemos a nuestra patria,
 
 pues no hay quien resista la espada.»
 
-<sup>17</sup> Llamad al faraón*, rey de Egipto:
+<sup>17</sup> Llamad al faraón<span class="note-ref" data-ref="jr-46-17" title="Ver comentario">&#42;</span>, rey de Egipto:
 
 «Ruido que llega a destiempo.»
 
@@ -4505,7 +4505,7 @@ el momento del infortunio,
 
 el tiempo de pedirles cuentas.
 
-<sup>22</sup> Silba* como serpiente que huye,
+<sup>22</sup> Silba<span class="note-ref" data-ref="jr-46-22" title="Ver comentario">&#42;</span> como serpiente que huye,
 
 pues llegan bien armados:
 
@@ -4529,11 +4529,11 @@ la capital de Egipto:
 
 entregada a un pueblo del norte.
 
-<sup>25</sup> Dice Yahvé Sebaot, el Dios de Israel: Voy a pedir cuentas a Amón de No*, al faraón y a Egipto, a sus dioses y reyes, al faraón y a los que confían en él. <sup>26</sup> Los entregaré en manos de los que quieren su muerte, en manos de Nabucodonosor, rey de Babilonia, y en manos de sus oficiales. Tras de lo cual será repoblado como antaño —oráculo de Yahvé*—.
+<sup>25</sup> Dice Yahvé Sebaot, el Dios de Israel: Voy a pedir cuentas a Amón de No<span class="note-ref" data-ref="jr-46-25" title="Ver comentario">&#42;</span>, al faraón y a Egipto, a sus dioses y reyes, al faraón y a los que confían en él. <sup>26</sup> Los entregaré en manos de los que quieren su muerte, en manos de Nabucodonosor, rey de Babilonia, y en manos de sus oficiales. Tras de lo cual será repoblado como antaño —oráculo de Yahvé<span class="note-ref" data-ref="jr-46-26" title="Ver comentario">&#42;</span>—.
 
 <sup>27</sup> Pero tú no temas, siervo mío Jacob,
 
-ni desmayes, Israel*,
+ni desmayes, Israel<span class="note-ref" data-ref="jr-46-27" title="Ver comentario">&#42;</span>,
 
 pues acudiré a salvarte desde lejos,
 
@@ -4564,7 +4564,7 @@ aunque voy a corregirte como conviene,
 pues no pienso dejarte impune.
 
 ## Oráculo contra los filisteos.
-<span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> Palabra que dirigió Yahvé al profeta Jeremías sobre los filisteos, en vísperas de batir el faraón a Gaza*. <sup>2</sup> Esto dice Yahvé:
+<span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> Palabra que dirigió Yahvé al profeta Jeremías sobre los filisteos, en vísperas de batir el faraón a Gaza<span class="note-ref" data-ref="jr-47-1" title="Ver comentario">&#42;</span>. <sup>2</sup> Esto dice Yahvé:
 
 Mira las aguas que llegan del norte
 
@@ -4602,7 +4602,7 @@ hasta con los aliados que les queden.
 
 Yahvé destruirá a los filisteos,
 
-residuo de la isla de Creta*.
+residuo de la isla de Creta<span class="note-ref" data-ref="jr-47-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Gaza ha quedado calva,
 
@@ -4610,7 +4610,7 @@ muda ha quedado Ascalón;
 
 y tú, el resto de su valle,
 
-¿hasta cuándo te harás incisiones*?
+¿hasta cuándo te harás incisiones<span class="note-ref" data-ref="jr-47-5" title="Ver comentario">&#42;</span>?
 
 <sup>6</sup> ¡Ay, espada de Yahvé!
 
@@ -4620,7 +4620,7 @@ Recógete a tu vaina,
 
 date reposo y calla.
 
-<sup>7</sup> ¿Cómo va a estarse quieta*,
+<sup>7</sup> ¿Cómo va a estarse quieta<span class="note-ref" data-ref="jr-47-7" title="Ver comentario">&#42;</span>,
 
 si Yahvé la mandó?
 
@@ -4628,8 +4628,8 @@ Contra Ascalón y el litoral marítimo,
 
 allá la convocó.
 
-## Oráculos contra Moab *.
-<span id="chapter-48" class="chapter-marker" data-chapter="48">48</span><sup>1</sup> A propósito de Moab*.
+## Oráculos contra Moab <span class="note-ref" data-ref="jr-48" title="Ver comentario">&#42;</span>.
+<span id="chapter-48" class="chapter-marker" data-chapter="48">48</span><sup>1</sup> A propósito de Moab<span class="note-ref" data-ref="jr-48-1" title="Ver comentario">&#42;</span>.
 
 Esto dice Yahvé Sebaot, el Dios de Israel:
 
@@ -4659,7 +4659,7 @@ se oyen los gritos de sus pequeños.
 
 <sup>5</sup> En la cuesta de Lujit
 
-suben por ella* llorando;
+suben por ella<span class="note-ref" data-ref="jr-48-5" title="Ver comentario">&#42;</span> llorando;
 
 en la bajada de Joronáin
 
@@ -4667,7 +4667,7 @@ se oyen gritos desgarradores.
 
 <sup>6</sup> «Huid, poneos a salvo,
 
-como hace el onagro en la estepa*.»
+como hace el onagro en la estepa<span class="note-ref" data-ref="jr-48-6" title="Ver comentario">&#42;</span>.»
 
 <sup>7</sup> En réplica a tu confianza
 
@@ -4675,7 +4675,7 @@ en tus obras y tesoros,
 
 también tú eres conquistada.
 
-Camós* sale desterrado,
+Camós<span class="note-ref" data-ref="jr-48-7" title="Ver comentario">&#42;</span> sale desterrado,
 
 sus sacerdotes y jefes a una.
 
@@ -4691,7 +4691,7 @@ queda asolada la meseta:
 
 así lo ha dicho Yahvé.
 
-<sup>9</sup> Dad alas* a Moab,
+<sup>9</sup> Dad alas<span class="note-ref" data-ref="jr-48-9" title="Ver comentario">&#42;</span> a Moab,
 
 porque ha de salir volando;
 
@@ -4719,9 +4719,9 @@ no hubo de marchar al destierro.
 
 Por eso conservaba su sabor
 
-y su aroma no estaba avinagrado*.
+y su aroma no estaba avinagrado<span class="note-ref" data-ref="jr-48-11" title="Ver comentario">&#42;</span>.
 
-<sup>12</sup> Empero, van a llegar días —oráculo de Yahvé— en que le enviaré decantadores que lo decanten. Vaciarán sus vasijas y reventarán sus odres. <sup>13</sup> Se avergonzará Moab de Camós, como se avergonzó la Casa de Israel de Betel*, en el que confiaba.
+<sup>12</sup> Empero, van a llegar días —oráculo de Yahvé— en que le enviaré decantadores que lo decanten. Vaciarán sus vasijas y reventarán sus odres. <sup>13</sup> Se avergonzará Moab de Camós, como se avergonzó la Casa de Israel de Betel<span class="note-ref" data-ref="jr-48-13" title="Ver comentario">&#42;</span>, en el que confiaba.
 
 <sup>14</sup> ¿Cómo decís: «Valientes somos,
 
@@ -4757,7 +4757,7 @@ el cetro glorioso?»
 
 y siéntate en tierra reseca,
 
-población de Dibón*,
+población de Dibón<span class="note-ref" data-ref="jr-48-18" title="Ver comentario">&#42;</span>,
 
 porque el devastador de Moab
 
@@ -4771,7 +4771,7 @@ población de Aroer;
 
 pregunta al fugitivo y al escapado,
 
-dile: «¿Qué ha sucedido*?»
+dile: «¿Qué ha sucedido<span class="note-ref" data-ref="jr-48-19" title="Ver comentario">&#42;</span>?»
 
 <sup>20</sup> Moab está humillada,
 
@@ -4783,7 +4783,7 @@ anunciad en el Arnón
 
 que ha sido saqueada Moab.
 
-<sup>21</sup> Se ha cumplido la sentencia sobre el país de la llanura: sobre Jolón, Yahas y Mefaat; <sup>22</sup> sobre Dibón, Nebo y Bet Diblatáin; <sup>23</sup> sobre Quiriatáin, Bet Gamul y Bet Meón; <sup>24</sup> sobre Queriyot, Bosrá y todas las ciudades del país de Moab, las lejanas y las cercanas*.
+<sup>21</sup> Se ha cumplido la sentencia sobre el país de la llanura: sobre Jolón, Yahas y Mefaat; <sup>22</sup> sobre Dibón, Nebo y Bet Diblatáin; <sup>23</sup> sobre Quiriatáin, Bet Gamul y Bet Meón; <sup>24</sup> sobre Queriyot, Bosrá y todas las ciudades del país de Moab, las lejanas y las cercanas<span class="note-ref" data-ref="jr-48-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> «Se quebró el poder de Moab,
 
@@ -4829,7 +4829,7 @@ gemiré por la gente de Quir Jeres.
 
 más que se lloró por Yazer,
 
-¡oh viña de Sibmá*!
+¡oh viña de Sibmá<span class="note-ref" data-ref="jr-48-32" title="Ver comentario">&#42;</span>!
 
 Tus sarmientos cruzaban el mar,
 
@@ -4847,9 +4847,9 @@ agoté el vino de los lagares,
 
 no se oye el grito alegre del lagarero,
 
-ya no se oyen sus gritos*.
+ya no se oyen sus gritos<span class="note-ref" data-ref="jr-48-33" title="Ver comentario">&#42;</span>.
 
-<sup>34</sup> Los gritos de socorro en Jesbón llegan a Elalé y a Yahas; las voces de la gente de Soar llegan a Joronáin y Eglat Selisiyá, pues también las aguas de Nimrín se han trocado en aridez*. <sup>35</sup> Acabaré en Moab —oráculo de Yahvé— con los que suben a los altos a quemar incienso a sus dioses. <sup>36</sup> Por eso mi corazón, como si fuera una flauta de duelo, gime por Moab y por la gente de Quir Jeres, pues cuanto habían guardado se perdió. <sup>37</sup> Todas las cabezas están afeitadas y todas las barbas rapadas; los brazos llenos de incisiones y los lomos cubiertos de saco. <sup>38</sup> En todos los terrados de Moab y por sus calles todo el mundo se lamenta, pues he roto a Moab como si fuera un cacharro inútil — oráculo de Yahvé—. <sup>39</sup> ¡Qué catástrofe!, gemía la gente. ¡Cómo ha vuelto avergonzada la espalda Moab, convertida en burla y espanto de todos sus vecinos!
+<sup>34</sup> Los gritos de socorro en Jesbón llegan a Elalé y a Yahas; las voces de la gente de Soar llegan a Joronáin y Eglat Selisiyá, pues también las aguas de Nimrín se han trocado en aridez<span class="note-ref" data-ref="jr-48-34" title="Ver comentario">&#42;</span>. <sup>35</sup> Acabaré en Moab —oráculo de Yahvé— con los que suben a los altos a quemar incienso a sus dioses. <sup>36</sup> Por eso mi corazón, como si fuera una flauta de duelo, gime por Moab y por la gente de Quir Jeres, pues cuanto habían guardado se perdió. <sup>37</sup> Todas las cabezas están afeitadas y todas las barbas rapadas; los brazos llenos de incisiones y los lomos cubiertos de saco. <sup>38</sup> En todos los terrados de Moab y por sus calles todo el mundo se lamenta, pues he roto a Moab como si fuera un cacharro inútil — oráculo de Yahvé—. <sup>39</sup> ¡Qué catástrofe!, gemía la gente. ¡Cómo ha vuelto avergonzada la espalda Moab, convertida en burla y espanto de todos sus vecinos!
 
 <sup>40</sup> Porque así ha dicho Yahvé:
 
@@ -4887,7 +4887,7 @@ y el que salga de la hoya
 
 quedará preso en la trampa,
 
-pues haré que llegue a ella*,
+pues haré que llegue a ella<span class="note-ref" data-ref="jr-48-44" title="Ver comentario">&#42;</span>,
 
 a Moab, el año de su castigo
 
@@ -4899,7 +4899,7 @@ sin fuerza los fugitivos,
 
 pues fuego salió de Jesbón
 
-y llamas de la casa de Sijón*,
+y llamas de la casa de Sijón<span class="note-ref" data-ref="jr-48-45" title="Ver comentario">&#42;</span>,
 
 que devoraron las sienes de Moab
 
@@ -4919,9 +4919,9 @@ cambiaré la suerte de Moab
 
 —oráculo de Yahvé—.
 
-## Hasta aquí la sentencia sobre Moab*.
+## Hasta aquí la sentencia sobre Moab<span class="note-ref" data-ref="jr-48-47" title="Ver comentario">&#42;</span>.
 
-## Oráculo contra Amón *.
+## Oráculo contra Amón <span class="note-ref" data-ref="jr-49" title="Ver comentario">&#42;</span>.
 <span id="chapter-49" class="chapter-marker" data-chapter="49">49</span><sup>1</sup> A propósito de los amonitas. Esto dice Yahvé:
 
 ¿No tiene hijos Israel?,
@@ -4932,7 +4932,7 @@ Entonces ¿por qué el dios Milcón
 
 ha tomado en herencia Gad,
 
-y su gente en las ciudades de éste mora*?
+y su gente en las ciudades de éste mora<span class="note-ref" data-ref="jr-49-1" title="Ver comentario">&#42;</span>?
 
 <sup>2</sup> Por eso llegan días
 
@@ -4944,7 +4944,7 @@ el griterío del combate.
 
 Se convertirá en montículo de ruinas;
 
-sus hijas* serán incendiadas
+sus hijas<span class="note-ref" data-ref="jr-49-2" title="Ver comentario">&#42;</span> serán incendiadas
 
 e Israel heredará a los que la heredaron
 
@@ -4952,7 +4952,7 @@ e Israel heredará a los que la heredaron
 
 <sup>3</sup> Gime, Jesbón,
 
-porque Ar ha sido devastada*;
+porque Ar ha sido devastada<span class="note-ref" data-ref="jr-49-3" title="Ver comentario">&#42;</span>;
 
 gritad, hijas de Rabá,
 
@@ -4964,7 +4964,7 @@ porque Milcón al destierro va,
 
 junto con sus sacerdotes y sus jefes.
 
-<sup>4</sup> ¿Por qué te jactas de tu Valle*,
+<sup>4</sup> ¿Por qué te jactas de tu Valle<span class="note-ref" data-ref="jr-49-4" title="Ver comentario">&#42;</span>,
 
 criatura rebelde,
 
@@ -4988,14 +4988,14 @@ la suerte de los amonitas
 
 —oráculo de Yahvé—.)
 
-## Oráculo contra Edom *.
+## Oráculo contra Edom <span class="note-ref" data-ref="jr-49-7-a" title="Ver comentario">&#42;</span>.
 <sup>7</sup> A propósito de Edom.
 
 Esto dice Yahvé Sebaot:
 
 ¿No queda ya sabiduría en Temán?
 
-¿Se acabó el consejo de los expertos*;
+¿Se acabó el consejo de los expertos<span class="note-ref" data-ref="jr-49-7-b" title="Ver comentario">&#42;</span>;
 
 se evaporó su sabiduría?
 
@@ -5005,7 +5005,7 @@ excavad refugios donde vivir,
 
 moradores de Dedán,
 
-pues he traído sobre él*
+pues he traído sobre él<span class="note-ref" data-ref="jr-49-8" title="Ver comentario">&#42;</span>
 
 el infortunio de Esaú,
 
@@ -5037,7 +5037,7 @@ que yo haré que vivan,
 
 y tus viudas en mí confiarán.
 
-<sup>12</sup> Pues esto dice Yahvé: Conque los que no tienen por qué beber la copa la beben, ¿y tú precisamente vas a quedar impune? No quedarás impune, antes sin falta la beberás. <sup>13</sup> Porque por mí lo he jurado —oráculo de Yahvé— que Bosrá* acabará desolada, y todas sus ciudades se convertirán en ruinas eternas.
+<sup>12</sup> Pues esto dice Yahvé: Conque los que no tienen por qué beber la copa la beben, ¿y tú precisamente vas a quedar impune? No quedarás impune, antes sin falta la beberás. <sup>13</sup> Porque por mí lo he jurado —oráculo de Yahvé— que Bosrá<span class="note-ref" data-ref="jr-49-13" title="Ver comentario">&#42;</span> acabará desolada, y todas sus ciudades se convertirán en ruinas eternas.
 
 <sup>14</sup> Una nueva he oído de parte de Yahvé,
 
@@ -5057,7 +5057,7 @@ despreciable entre los hombres.
 
 la soberbia que abriga tu corazón:
 
-habitas en los huecos de la roca*,
+habitas en los huecos de la roca<span class="note-ref" data-ref="jr-49-16" title="Ver comentario">&#42;</span>,
 
 agarrada a lo más alto de la cumbre.
 
@@ -5103,7 +5103,7 @@ que asolarán además sus pastizales.
 
 <sup>21</sup> Al son de su caída retumbó la tierra,
 
-el griterío llegó al Mar de las Cañas*.
+el griterío llegó al Mar de las Cañas<span class="note-ref" data-ref="jr-49-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> Asciende y se cierne como un águila,
 
@@ -5115,7 +5115,7 @@ vendrá a ser aquel día
 
 como corazón de mujer en parto.
 
-## Oráculo contra las ciudades sirias*.
+## Oráculo contra las ciudades sirias<span class="note-ref" data-ref="jr-49-23-a" title="Ver comentario">&#42;</span>.
 <sup>23</sup> A propósito de Damasco.
 
 Jamat y Arpad están confundidas,
@@ -5124,7 +5124,7 @@ pues oyeron una mala noticia;
 
 su corazón tembló de espanto,
 
-como el mar* incapaz de calmarse.
+como el mar<span class="note-ref" data-ref="jr-49-23-b" title="Ver comentario">&#42;</span> incapaz de calmarse.
 
 <sup>24</sup> Flaqueó Damasco,
 
@@ -5140,7 +5140,7 @@ lo mismo que a parturienta.
 
 la ciudad tan celebrada,
 
-la villa de mi contento*?
+la villa de mi contento<span class="note-ref" data-ref="jr-49-25" title="Ver comentario">&#42;</span>?
 
 <sup>26</sup> Por eso, sus jóvenes
 
@@ -5154,10 +5154,10 @@ perecerán aquel día
 
 <sup>27</sup> Daré fuego a la muralla de Damasco,
 
-y consumirá los palacios de Ben Hadad*.
+y consumirá los palacios de Ben Hadad<span class="note-ref" data-ref="jr-49-27" title="Ver comentario">&#42;</span>.
 
 ## Oráculo contra las ciudades árabes.
-<sup>28</sup> A propósito de Quedar y de los reinos de Jasor*, que batió Nabucodonosor, rey de Babilonia. Esto dice Yahvé:
+<sup>28</sup> A propósito de Quedar y de los reinos de Jasor<span class="note-ref" data-ref="jr-49-28" title="Ver comentario">&#42;</span>, que batió Nabucodonosor, rey de Babilonia. Esto dice Yahvé:
 
 En marcha, atacad Quedar,
 
@@ -5217,7 +5217,7 @@ donde no se asienta nadie
 
 y en la que no reside ser humano.
 
-## Oráculo contra Elam *.
+## Oráculo contra Elam <span class="note-ref" data-ref="jr-49-34" title="Ver comentario">&#42;</span>.
 <sup>34</sup> Lo que Yahvé transmitió al profeta Jeremías tocante a Elam al comienzo del reinado de Sedecías, rey de Judá. <sup>35</sup> Esto dice Yahvé Sebaot:
 
 He decidido romper el arco de Elam,
@@ -5262,7 +5262,7 @@ cambiaré la suerte de Elam
 
 —oráculo de Yahvé—.
 
-## Oráculo contra Babilonia *.
+## Oráculo contra Babilonia <span class="note-ref" data-ref="jr-50" title="Ver comentario">&#42;</span>.
 <span id="chapter-50" class="chapter-marker" data-chapter="50">50</span><sup>1</sup> Palabra que pronunció Yahvé contra Babilonia, contra el país de los caldeos, por medio del profeta Jeremías.
 
 ## Caída de Babilonia, liberación de Israel.
@@ -5278,7 +5278,7 @@ Babilonia ha sido tomada,
 
 Bel se encuentra humillado,
 
-está confundido Marduc*,
+está confundido Marduc<span class="note-ref" data-ref="jr-50-2" title="Ver comentario">&#42;</span>,
 
 sus ídolos están humillados
 
@@ -5300,7 +5300,7 @@ huirán en desbandada.
 
 vendrán los hijos de Israel
 
-(y los hijos de Judá junto con ellos*),
+(y los hijos de Judá junto con ellos<span class="note-ref" data-ref="jr-50-4" title="Ver comentario">&#42;</span>),
 
 llorando mientras caminan
 
@@ -5310,7 +5310,7 @@ en busca de Yahvé su Dios.
 
 y allá dirigirán sus pasos:
 
-«Venid y aliémonos* a Yahvé
+«Venid y aliémonos<span class="note-ref" data-ref="jr-50-5" title="Ver comentario">&#42;</span> a Yahvé
 
 con pacto eterno, inolvidable.»
 
@@ -5338,7 +5338,7 @@ la esperanza de sus padres!»
 
 <sup>8</sup> Emigrad de Babilonia,
 
-salid* del país de los caldeos.
+salid<span class="note-ref" data-ref="jr-50-8" title="Ver comentario">&#42;</span> del país de los caldeos.
 
 Marchad como los machos cabríos
 
@@ -5366,7 +5366,7 @@ todos los que la saqueen se hartarán
 
 depredadores de mi heredad;
 
-brincabais como novilla en dehesa*,
+brincabais como novilla en dehesa<span class="note-ref" data-ref="jr-50-11" title="Ver comentario">&#42;</span>,
 
 relinchabais igual que corceles.
 
@@ -5430,7 +5430,7 @@ El rey de Asiria lo devoró el primero, y Nabucodonosor, rey de Babilonia, lo de
 
 y pacerá en el Carmelo y en Basán,
 
-y en la montaña de Efraín y Galaad*
+y en la montaña de Efraín y Galaad<span class="note-ref" data-ref="jr-50-19" title="Ver comentario">&#42;</span>
 
 podrá saciar su apetito.
 
@@ -5451,11 +5451,11 @@ a los que deje como resto.
 
 sube contra él;
 
-y a los habitantes de Pecod*
+y a los habitantes de Pecod<span class="note-ref" data-ref="jr-50-21-a" title="Ver comentario">&#42;</span>
 
 pásalos a espada,
 
-extermina hasta el último*
+extermina hasta el último<span class="note-ref" data-ref="jr-50-21-b" title="Ver comentario">&#42;</span>
 
 —oráculo de Yahvé—:
 
@@ -5489,7 +5489,7 @@ Era la tarea del Señor Yahvé Sebaot
 
 en tierra de caldeos.
 
-<sup>26</sup> «Venid a ella desde el confín*,
+<sup>26</sup> «Venid a ella desde el confín<span class="note-ref" data-ref="jr-50-26" title="Ver comentario">&#42;</span>,
 
 abrid sus graneros,
 
@@ -5517,7 +5517,7 @@ la venganza de Yahvé nuestro Dios,
 
 la venganza por destruir su santuario!
 
-## El pecado de insolencia*.
+## El pecado de insolencia<span class="note-ref" data-ref="jr-50-29" title="Ver comentario">&#42;</span>.
 <sup>29</sup> Convocad flecheros contra Babilonia,
 
 todos los que asestan el arco;
@@ -5633,7 +5633,7 @@ Ya nadie vivirá allí,
 
 ni residirá en ella ser humano.
 
-## El pueblo del norte y el león del Jordán*.
+## El pueblo del norte y el león del Jordán<span class="note-ref" data-ref="jr-50-41" title="Ver comentario">&#42;</span>.
 <sup>41</sup> Ahí llega un pueblo del norte,
 
 una poderosa nación;
@@ -5705,11 +5705,11 @@ su lamento se escuchó por las naciones.
 
 Voy a suscitar contra Babilonia,
 
-contra los habitantes de Leb Camay*,
+contra los habitantes de Leb Camay<span class="note-ref" data-ref="jr-51-1" title="Ver comentario">&#42;</span>,
 
 un viento devastador.
 
-<sup>2</sup> Enviaré a Babilonia beldadores*
+<sup>2</sup> Enviaré a Babilonia beldadores<span class="note-ref" data-ref="jr-51-2" title="Ver comentario">&#42;</span>
 
 que la bielden y vacíen su territorio;
 
@@ -5719,7 +5719,7 @@ el día de la catástrofe.
 
 <sup>3</sup> Que no aseste su arco el arquero,
 
-ni se jacte el que viste cota*.
+ni se jacte el que viste cota<span class="note-ref" data-ref="jr-51-3" title="Ver comentario">&#42;</span>.
 
 No tengáis piedad de sus guerreros,
 
@@ -5755,7 +5755,7 @@ que embriagaba a toda la tierra.
 
 De su vino bebieron las naciones,
 
-lo que las hizo enloquecer*.
+lo que las hizo enloquecer<span class="note-ref" data-ref="jr-51-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> De pronto cayó Babilonia
 
@@ -5785,7 +5785,7 @@ las obras de Yahvé nuestro Dios.
 
 llenad las aljabas.
 
-Ha despertado Yahvé la animosidad de los reyes* de Media, pues ha tomado la decisión de destruir Babilonia. Ésta será la venganza de Yahvé, la venganza por haber destruido su santuario.
+Ha despertado Yahvé la animosidad de los reyes<span class="note-ref" data-ref="jr-51-11" title="Ver comentario">&#42;</span> de Media, pues ha tomado la decisión de destruir Babilonia. Ésta será la venganza de Yahvé, la venganza por haber destruido su santuario.
 
 <sup>12</sup> Frente a las murallas de Babilonia
 
@@ -5809,7 +5809,7 @@ la de ingentes tesoros,
 
 ha llegado tu fin,
 
-el término* de tus ganancias.
+el término<span class="note-ref" data-ref="jr-51-13" title="Ver comentario">&#42;</span> de tus ganancias.
 
 <sup>14</sup> Yahvé Sebaot lo jura por sí mismo:
 
@@ -5853,7 +5853,7 @@ al tiempo de su castigo perecerán.
 
 pues él es el plasmador del universo,
 
-e Israel*, la tribu de su propiedad.
+e Israel<span class="note-ref" data-ref="jr-51-19" title="Ver comentario">&#42;</span>, la tribu de su propiedad.
 
 ## Se llama Yahvé Sebaot.
 
@@ -5915,7 +5915,7 @@ consagrad naciones contra ella,
 
 citad contra ella a los reinos
 
-de Ararat, Miní y Asquenaz*;
+de Ararat, Miní y Asquenaz<span class="note-ref" data-ref="jr-51-27" title="Ver comentario">&#42;</span>;
 
 designad un reclutador contra ella,
 
@@ -5990,9 +5990,9 @@ Me ha tragado como un dragón,
 
 llenó su panza con mis mejores trozos,
 
-y despues me vomitó*.
+y despues me vomitó<span class="note-ref" data-ref="jr-51-34" title="Ver comentario">&#42;</span>.
 
-<sup>35</sup> «Que mi atropello y mis sufrimientos*
+<sup>35</sup> «Que mi atropello y mis sufrimientos<span class="note-ref" data-ref="jr-51-35" title="Ver comentario">&#42;</span>
 
 caigan sobre Babilonia»,
 
@@ -6201,25 +6201,25 @@ para nada se fatigan los pueblos,
 
 para el fuego se afanan las naciones.
 
-## El oráculo arrojado en el Éufrates*.
+## El oráculo arrojado en el Éufrates<span class="note-ref" data-ref="jr-51-59" title="Ver comentario">&#42;</span>.
 <sup>59</sup> Orden que dio el profeta Jeremías a Serayas, hijo de Nerías, hijo de Majsías, al partir éste de junto a Sedecías, rey de Judá, para Babilonia el año cuarto de su reinado, siendo Serayas gran chambelán. <sup>60</sup> Escribió, pues, Jeremías todo el mal que había de sobrevenir a Babilonia en un libro —todas estas palabras arriba escritas acerca de Babilonia—<sup>61</sup> y dijo Jeremías a Serayas: «Cuando llegues a Babilonia, procura leer en voz alta todas estas palabras. <sup>62</sup> Dirás: ‘Yahvé, tú has hablado de destruir este lugar, sin que queden en él habitantes, sean personas o animales, de que se convierta en soledad perpetua.’ <sup>63</sup> Luego, cuando acabes de leer en voz alta ese libro, atas a él una piedra y lo arrojas al Éufrates. <sup>64</sup> Y dices: ‘Así se hundirá Babilonia y no se recobrará del mal que yo mismo voy a traer sobre ella.’»
 
-## Hasta aquí las palabras de Jeremías*.
+## Hasta aquí las palabras de Jeremías<span class="note-ref" data-ref="jr-51-64" title="Ver comentario">&#42;</span>.
 
-## VI. Apéndice*
+## VI. Apéndice<span class="note-ref" data-ref="jr-52" title="Ver comentario">&#42;</span>
 ## La catástrofe de Jerusalén y la gracia concedida a Jeconías.
-<span id="chapter-52" class="chapter-marker" data-chapter="52">52</span><sup>1</sup> Veintiún años tenía Sedecías cuando comenzó a reinar, y reinó once años en Jerusalén. Su madre se llamaba Jamital, y era hija de Jeremías, de Libná*. <sup>2</sup> Hizo el mal a los ojos de Yahvé, enteramente como había hecho Joaquín. <sup>3</sup> Por eso, la cólera de Yahvé se abatió sobre Jerusalén y Judá, hasta que los arrojó de su presencia.
+<span id="chapter-52" class="chapter-marker" data-chapter="52">52</span><sup>1</sup> Veintiún años tenía Sedecías cuando comenzó a reinar, y reinó once años en Jerusalén. Su madre se llamaba Jamital, y era hija de Jeremías, de Libná<span class="note-ref" data-ref="jr-52-1" title="Ver comentario">&#42;</span>. <sup>2</sup> Hizo el mal a los ojos de Yahvé, enteramente como había hecho Joaquín. <sup>3</sup> Por eso, la cólera de Yahvé se abatió sobre Jerusalén y Judá, hasta que los arrojó de su presencia.
 
-<sup>4</sup> En el año noveno de su reinado, en el mes décimo*, el diez del mes, vino Nabucodonosor, rey de Babilonia, con todo su ejército, contra Jerusalén, acampó contra ella, y la cercaron con una empalizada. <sup>5</sup> La ciudad estuvo sitiada hasta el año once del rey Sedecías. <sup>6</sup> El mes cuarto*, el nueve del mes, cuando arreció el hambre en la ciudad y no había pan para la gente del pueblo, <sup>7</sup> se abrió una brecha en la ciudad. Al apercibirse de ello, el rey* y todos los guerreros huyeron de la ciudad. Salieron de noche por el jardín real, por la puerta que está entre los dos muros, mientras los caldeos estaban alrededor de la ciudad, y huyeron en dirección a la Arabá. <sup>8</sup> Las tropas caldeas persiguieron al rey Sedecías y le dieron alcance en los llanos de Jericó; entonces el ejército real se dispersó, dejándolo solo. <sup>9</sup> Capturaron al rey y lo condujeron a Riblá, en tierra de Jamat, donde el rey de Babilonia, que lo sometió a juicio. <sup>10</sup> Los hijos de Sedecías fueron degollados en su presencia. Después Nabucodonosor degolló en Riblá a todos los nobles de Judá. <sup>11</sup> A Sedecías le sacó los ojos, lo ató con doble cadena de bronce y se lo llevó a Babilonia, donde lo tuvo en prisión hasta el día de su muerte.
+<sup>4</sup> En el año noveno de su reinado, en el mes décimo<span class="note-ref" data-ref="jr-52-4" title="Ver comentario">&#42;</span>, el diez del mes, vino Nabucodonosor, rey de Babilonia, con todo su ejército, contra Jerusalén, acampó contra ella, y la cercaron con una empalizada. <sup>5</sup> La ciudad estuvo sitiada hasta el año once del rey Sedecías. <sup>6</sup> El mes cuarto<span class="note-ref" data-ref="jr-52-6" title="Ver comentario">&#42;</span>, el nueve del mes, cuando arreció el hambre en la ciudad y no había pan para la gente del pueblo, <sup>7</sup> se abrió una brecha en la ciudad. Al apercibirse de ello, el rey<span class="note-ref" data-ref="jr-52-7" title="Ver comentario">&#42;</span> y todos los guerreros huyeron de la ciudad. Salieron de noche por el jardín real, por la puerta que está entre los dos muros, mientras los caldeos estaban alrededor de la ciudad, y huyeron en dirección a la Arabá. <sup>8</sup> Las tropas caldeas persiguieron al rey Sedecías y le dieron alcance en los llanos de Jericó; entonces el ejército real se dispersó, dejándolo solo. <sup>9</sup> Capturaron al rey y lo condujeron a Riblá, en tierra de Jamat, donde el rey de Babilonia, que lo sometió a juicio. <sup>10</sup> Los hijos de Sedecías fueron degollados en su presencia. Después Nabucodonosor degolló en Riblá a todos los nobles de Judá. <sup>11</sup> A Sedecías le sacó los ojos, lo ató con doble cadena de bronce y se lo llevó a Babilonia, donde lo tuvo en prisión hasta el día de su muerte.
 
-<sup>12</sup> En el mes quinto*, el diez del mes, en el año diecinueve de Nabucodonosor, rey de Babilonia, Nabuzardán, jefe de la guardia, uno de los consejeros del rey de Babilonia, vino a Jerusalén. <sup>13</sup> Incendió el templo de Yahvé, el palacio del rey y todas las casas de Jerusalén*. <sup>14</sup> Todas las tropas caldeas que había con el jefe de la guardia demolieron las murallas que rodeaban Jerusalén.
+<sup>12</sup> En el mes quinto<span class="note-ref" data-ref="jr-52-12" title="Ver comentario">&#42;</span>, el diez del mes, en el año diecinueve de Nabucodonosor, rey de Babilonia, Nabuzardán, jefe de la guardia, uno de los consejeros del rey de Babilonia, vino a Jerusalén. <sup>13</sup> Incendió el templo de Yahvé, el palacio del rey y todas las casas de Jerusalén<span class="note-ref" data-ref="jr-52-13" title="Ver comentario">&#42;</span>. <sup>14</sup> Todas las tropas caldeas que había con el jefe de la guardia demolieron las murallas que rodeaban Jerusalén.
 
-<sup>15</sup> En cuanto (a una parte de los pobres del país*) al resto de la gente que quedaba en la ciudad, a los desertores que se habían pasado al rey de Babilonia y al resto de los artesanos, Nabuzardán, jefe de la guardia, los deportó. <sup>16</sup> Nabuzardán, el jefe de la guardia, dejó algunos de entre la gente pobre como viñadores y labradores.
+<sup>15</sup> En cuanto (a una parte de los pobres del país<span class="note-ref" data-ref="jr-52-15" title="Ver comentario">&#42;</span>) al resto de la gente que quedaba en la ciudad, a los desertores que se habían pasado al rey de Babilonia y al resto de los artesanos, Nabuzardán, jefe de la guardia, los deportó. <sup>16</sup> Nabuzardán, el jefe de la guardia, dejó algunos de entre la gente pobre como viñadores y labradores.
 
-<sup>17</sup> Los caldeos rompieron las columnas de bronce que había en el templo de Yahvé, las basas, el Mar de bronce del templo de Yahvé, y se llevaron todo el bronce a Babilonia. <sup>18</sup> Tomaron también los ceniceros, las paletas, los cuchillos, los acetres, las cucharas y todos los utensilios de bronce de que se servían. <sup>19</sup> El jefe de la guardia tomó las vasijas, los incensarios y los aspersorios, los ceniceros, los candeleros, las cucharas y las tazas, cuanto había de oro y plata. <sup>20</sup> En cuanto a las dos columnas, el Mar, los doce bueyes de bronce que estaban bajo el Mar* y las basas que Salomón había hecho para el templo de Yahvé, no se pudo calcular el peso de bronce de todos aquellos objetos. <sup>21</sup> La altura de una columna era de dieciocho codos, un hilo de doce codos medía su perímetro; su grosor era de cuatro dedos y era hueca por dentro, <sup>22</sup> y encima tenía un capitel de bronce; la altura del capitel era de cinco codos; había un trenzado y granadas en torno al capitel, todo de bronce. Lo mismo para la segunda columna*. <sup>23</sup> Había noventa y seis granadas que pendían a los lados*. En total había cien granadas rodeando el trenzado.
+<sup>17</sup> Los caldeos rompieron las columnas de bronce que había en el templo de Yahvé, las basas, el Mar de bronce del templo de Yahvé, y se llevaron todo el bronce a Babilonia. <sup>18</sup> Tomaron también los ceniceros, las paletas, los cuchillos, los acetres, las cucharas y todos los utensilios de bronce de que se servían. <sup>19</sup> El jefe de la guardia tomó las vasijas, los incensarios y los aspersorios, los ceniceros, los candeleros, las cucharas y las tazas, cuanto había de oro y plata. <sup>20</sup> En cuanto a las dos columnas, el Mar, los doce bueyes de bronce que estaban bajo el Mar<span class="note-ref" data-ref="jr-52-20" title="Ver comentario">&#42;</span> y las basas que Salomón había hecho para el templo de Yahvé, no se pudo calcular el peso de bronce de todos aquellos objetos. <sup>21</sup> La altura de una columna era de dieciocho codos, un hilo de doce codos medía su perímetro; su grosor era de cuatro dedos y era hueca por dentro, <sup>22</sup> y encima tenía un capitel de bronce; la altura del capitel era de cinco codos; había un trenzado y granadas en torno al capitel, todo de bronce. Lo mismo para la segunda columna<span class="note-ref" data-ref="jr-52-22" title="Ver comentario">&#42;</span>. <sup>23</sup> Había noventa y seis granadas que pendían a los lados<span class="note-ref" data-ref="jr-52-23" title="Ver comentario">&#42;</span>. En total había cien granadas rodeando el trenzado.
 
 <sup>24</sup> El jefe de la guardia tomó preso a Serayas, primer sacerdote, y a Sefanías, segundo sacerdote, y a los tres encargados del umbral. <sup>25</sup> Tomó a un eunuco de la ciudad, que era inspector de los hombres de guerra, siete hombres de los cortesanos del rey, que se encontraban en la ciudad, al secretario del jefe del ejército, encargado del alistamiento del pueblo de la tierra y sesenta hombres de la tierra que se hallaban en la ciudad. <sup>26</sup> Nabuzardán, jefe de la guardia, los tomó y los llevó a Riblá, donde el rey de Babilonia, <sup>27</sup> quien los hizo ejecutar en Riblá, en el país de Jamat.
 
-Así fue deportado Judá, lejos de su tierra. <sup>28</sup> Éste es el número de los deportados por Nabucodonosor*. El año séptimo: 3.023 de Judá; <sup>29</sup> el año dieciocho de Nabucodonosor fueron llevadas de Jerusalén 832 personas; <sup>30</sup> el año veintitrés de Nabucodonosor, Nabuzardán, jefe de la guardia, deportó a 745 de Judá. En total: 4.600 personas*.
+Así fue deportado Judá, lejos de su tierra. <sup>28</sup> Éste es el número de los deportados por Nabucodonosor<span class="note-ref" data-ref="jr-52-28" title="Ver comentario">&#42;</span>. El año séptimo: 3.023 de Judá; <sup>29</sup> el año dieciocho de Nabucodonosor fueron llevadas de Jerusalén 832 personas; <sup>30</sup> el año veintitrés de Nabucodonosor, Nabuzardán, jefe de la guardia, deportó a 745 de Judá. En total: 4.600 personas<span class="note-ref" data-ref="jr-52-30" title="Ver comentario">&#42;</span>.
 
-<sup>31</sup> En el año treinta y seis de la deportación de Jeconías, rey de Judá, en el mes doce, el veinticinco del mes, Evil Merodac, rey de Babilonia, con ocasión de su ascensión al trono*, indultó a Jeconías, rey de Judá, y lo sacó de la cárcel. <sup>32</sup> Le habló con benevolencia y le dio un asiento superior al asiento de los reyes que estaban con él en Babilonia. <sup>33</sup> Jeconías se quitó sus vestidos de prisión y comió siempre en la mesa del rey, todos los días de su vida. <sup>34</sup> Le fue dado constantemente su sustento de parte del rey de Babilonia, día tras día, hasta el día de su muerte, todos los días de su vida*.
+<sup>31</sup> En el año treinta y seis de la deportación de Jeconías, rey de Judá, en el mes doce, el veinticinco del mes, Evil Merodac, rey de Babilonia, con ocasión de su ascensión al trono<span class="note-ref" data-ref="jr-52-31" title="Ver comentario">&#42;</span>, indultó a Jeconías, rey de Judá, y lo sacó de la cárcel. <sup>32</sup> Le habló con benevolencia y le dio un asiento superior al asiento de los reyes que estaban con él en Babilonia. <sup>33</sup> Jeconías se quitó sus vestidos de prisión y comió siempre en la mesa del rey, todos los días de su vida. <sup>34</sup> Le fue dado constantemente su sustento de parte del rey de Babilonia, día tras día, hasta el día de su muerte, todos los días de su vida<span class="note-ref" data-ref="jr-52-34" title="Ver comentario">&#42;</span>.

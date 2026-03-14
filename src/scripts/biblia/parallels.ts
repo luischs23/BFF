@@ -218,6 +218,9 @@ export async function initParallelsSystem(currentSlug: string): Promise<void> {
 		const currentPath = window.location.pathname.replace(/\/$/, '');
 		const linkPath = path.replace(/\/$/, '');
 
+		// Guardar posición de lectura antes de navegar
+		(window as any).saveReadingPosition?.();
+
 		// Si es el mismo libro, navegar al hash sin recargar página
 		if (!path || currentPath === linkPath || currentPath.endsWith(linkPath)) {
 			e.preventDefault();

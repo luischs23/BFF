@@ -216,6 +216,7 @@ import { Search, X, BookOpen } from "lucide-astro";
         // Cerrar al hacer clic en un resultado
         listEl?.querySelectorAll('.result-card').forEach(card => {
           card.addEventListener('click', () => {
+            (window as any).saveReadingPosition?.();
             closeDialog();
           });
         });
