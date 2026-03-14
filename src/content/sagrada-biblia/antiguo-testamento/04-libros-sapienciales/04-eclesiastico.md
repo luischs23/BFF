@@ -4,20 +4,20 @@ description: 'Libro del Eclesiástico (Sirácida)'
 img: blog-placeholder-4.jpg
 ---
 # ECLESIÁSTICO
-## Prólogo del traductor*
-<sup>1</sup> La ley, los profetas y los escritos* que les siguieron <sup>2</sup> nos han transmitido muchas e importantes lecciones, <sup>3</sup> que hacen a Israel digno de elogio por su instrucción y sabiduría.
+## Prólogo del traductor<span class="note-ref" data-ref="siprol" title="Ver comentario">&#42;</span>
+<sup>1</sup> La ley, los profetas y los escritos<span class="note-ref" data-ref="siprol-1" title="Ver comentario">&#42;</span> que les siguieron <sup>2</sup> nos han transmitido muchas e importantes lecciones, <sup>3</sup> que hacen a Israel digno de elogio por su instrucción y sabiduría.
 
 <sup>4</sup> Ahora bien, no basta con que los lectores se hagan sabios; <sup>5</sup> es necesario también que, como expertos, puedan ayudar a los de fuera, <sup>6</sup> tanto de palabra como por escrito. <sup>7</sup> Por eso, mi abuelo Jesús, después de haberse dedicado intensamente a la lectura <sup>8</sup> de la Ley, <sup>9</sup> los Profetas <sup>10</sup> y los otros escritos de los antepasados, <sup>11</sup> y de haber adquirido un gran dominio sobre ellos, <sup>12</sup> se propuso escribir sobre cuestiones de instrucción y sabiduría. <sup>13</sup> Su objetivo era que los deseosos de aprender aceptaran sus enseñanzas <sup>14</sup> y pudieran progresar, llevando una vida más acorde con la Ley.
 
 <sup>15</sup> Quedáis, pues, invitados <sup>16</sup> a leer este libro <sup>17</sup> con benevolencia y atención, <sup>18</sup> así como a ser indulgentes <sup>19</sup> allí donde os parezca que, a pesar de nuestros denodados esfuerzos de interpretación, <sup>20</sup> no hemos acertado en la traducción de algunas expresiones. <sup>21</sup> Es evidente que las cosas dichas en hebreo no tienen la misma fuerza <sup>22</sup> que cuando se traducen a otra lengua. <sup>23</sup> Esto no sucede sólo en este libro, <sup>24</sup> sino que también la misma Ley, los Profetas <sup>25</sup> y los otros escritos <sup>26</sup> presentan notables diferencias respecto a sus originales.
 
-<sup>27</sup> El año treinta y ocho del rey Evergetes* <sup>28</sup> llegué a Egipto, donde fijé mi residencia por un tiempo. <sup>29</sup> Durante mi estancia allí encontré una obra* muy instructiva, <sup>30</sup> y me sentí obligado a emprender la traducción de este libro con empeño y diligencia.
+<sup>27</sup> El año treinta y ocho del rey Evergetes<span class="note-ref" data-ref="siprol-27" title="Ver comentario">&#42;</span> <sup>28</sup> llegué a Egipto, donde fijé mi residencia por un tiempo. <sup>29</sup> Durante mi estancia allí encontré una obra<span class="note-ref" data-ref="siprol-29" title="Ver comentario">&#42;</span> muy instructiva, <sup>30</sup> y me sentí obligado a emprender la traducción de este libro con empeño y diligencia.
 
 <sup>31</sup> He dedicado muchas horas de vigilia y trabajo <sup>32</sup> durante este período, <sup>33</sup> hasta poder terminar y publicar el libro, <sup>34</sup> para uso de aquellos que, viviendo en el extranjero, desean aprender y reformar sus costumbres <sup>35</sup> para vivir conforme a la Ley.
 
 ## I. El camino hacia la sabiduría
-## Origen divino de la sabiduría*.
-<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Toda sabiduría viene del Señor*,
+## Origen divino de la sabiduría<span class="note-ref" data-ref="si-1" title="Ver comentario">&#42;</span>.
+<span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Toda sabiduría viene del Señor<span class="note-ref" data-ref="si-1-1" title="Ver comentario">&#42;</span>,
 
 y está con él por siempre.
 
@@ -27,21 +27,21 @@ las gotas de la lluvia y los días de la eternidad?
 
 <sup>3</sup> ¿Quién puede medir la altura de los cielos,
 
-la anchura de la tierra y la profundidad del abismo?*
+la anchura de la tierra y la profundidad del abismo?<span class="note-ref" data-ref="si-1-3" title="Ver comentario">&#42;</span>
 
 <sup>4</sup> Antes de todo fue creada la sabiduría,
 
 la inteligencia prudente desde la eternidad.
 
-<sup>6</sup> *¿A quién fue revelada la raíz de la sabiduría?
+<sup>6</sup> <span class="note-ref" data-ref="si-1-6-a" title="Ver comentario">&#42;</span>¿A quién fue revelada la raíz de la sabiduría?
 
-¿Quién conoce sus recursos?*
+¿Quién conoce sus recursos?<span class="note-ref" data-ref="si-1-6-b" title="Ver comentario">&#42;</span>
 
 <sup>8</sup> Uno sólo es sabio, temible en extremo:
 
-el que está sentado en su trono*.
+el que está sentado en su trono<span class="note-ref" data-ref="si-1-8" title="Ver comentario">&#42;</span>.
 
-<sup>9</sup> Es el Señor quien creó la sabiduría*,
+<sup>9</sup> Es el Señor quien creó la sabiduría<span class="note-ref" data-ref="si-1-9" title="Ver comentario">&#42;</span>,
 
 la vio, la midió
 
@@ -49,9 +49,9 @@ y la derramó sobre todas sus obras.
 
 <sup>10</sup> Se la concedió a todos los vivientes
 
-y se la regaló a quienes le aman*.
+y se la regaló a quienes le aman<span class="note-ref" data-ref="si-1-10" title="Ver comentario">&#42;</span>.
 
-## El temor de Dios y la sabiduría*.
+## El temor de Dios y la sabiduría<span class="note-ref" data-ref="si-1-11" title="Ver comentario">&#42;</span>.
 <sup>11</sup> El temor del Señor es gloria y honor,
 
 alegría y corona de júbilo.
@@ -62,7 +62,7 @@ da alegría, gozo y larga vida.
 
 <sup>13</sup> El que teme al Señor, tendrá un buen final,
 
-el día de su muerte será bendecido*.
+el día de su muerte será bendecido<span class="note-ref" data-ref="si-1-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Principio de la sabiduría es temer al Señor,
 
@@ -84,16 +84,16 @@ y los graneros de sus productos.
 
 ella hace florecer la paz y la buena salud;
 
-<sup>19</sup> *hace llover ciencia e inteligencia,
+<sup>19</sup> <span class="note-ref" data-ref="si-1-19" title="Ver comentario">&#42;</span>hace llover ciencia e inteligencia,
 
 y exalta la gloria de los que la poseen.
 
 <sup>20</sup> Raíz de la sabiduría es temer al Señor,
 
-sus ramas proporcionan larga vida*.
+sus ramas proporcionan larga vida<span class="note-ref" data-ref="si-1-20" title="Ver comentario">&#42;</span>.
 
 ## Paciencia y dominio de sí.
-<sup>22</sup> La pasión del injusto no puede justificarse*,
+<sup>22</sup> La pasión del injusto no puede justificarse<span class="note-ref" data-ref="si-1-22" title="Ver comentario">&#42;</span>,
 
 porque el ímpetu de su pasión le hará caer.
 
@@ -110,7 +110,7 @@ por eso muchos alaban su prudencia.
 
 pero adorar al Señor repugna al pecador.
 
-<sup>26</sup> Si deseas la sabiduría, guarda los mandamientos*,
+<sup>26</sup> Si deseas la sabiduría, guarda los mandamientos<span class="note-ref" data-ref="si-1-26" title="Ver comentario">&#42;</span>,
 
 y el Señor te la concederá.
 
@@ -122,7 +122,7 @@ le agradan la fidelidad y la mansedumbre.
 
 ni te acerques a él con doblez de corazón.
 
-<sup>29</sup> No seas hipócrita delante de los hombres*,
+<sup>29</sup> No seas hipócrita delante de los hombres<span class="note-ref" data-ref="si-1-29" title="Ver comentario">&#42;</span>,
 
 pero vigila siempre tus labios.
 
@@ -138,7 +138,7 @@ por no tener en cuenta el temor del Señor,
 
 y tener el corazón repleto de engaño.
 
-## El temor de Dios en la prueba.*
+## El temor de Dios en la prueba.<span class="note-ref" data-ref="si-2" title="Ver comentario">&#42;</span>
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Hijo, si te acercas a servir al Señor,
 
 prepárate para la prueba.
@@ -187,7 +187,7 @@ gozo eterno y misericordia.
 
 perdona los pecados y salva en tiempo de desgracia.
 
-<sup>12</sup> ¡Ay de los corazones cobardes y las manos inertes*,
+<sup>12</sup> ¡Ay de los corazones cobardes y las manos inertes<span class="note-ref" data-ref="si-2-12" title="Ver comentario">&#42;</span>,
 
 y del pecador que va por dos caminos!
 
@@ -205,7 +205,7 @@ los que le aman guardan sus caminos.
 
 <sup>16</sup> Los que temen al Señor buscan su agrado,
 
-los que le aman cumplen su ley*.
+los que le aman cumplen su ley<span class="note-ref" data-ref="si-2-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Los que temen al Señor tienen el corazón dispuesto,
 
@@ -234,9 +234,9 @@ y cuando rece, su oración será escuchada.
 
 <sup>6</sup> Quien respeta a su padre tendrá larga vida;
 
-quien obedece al Señor conforta a su madre*,
+quien obedece al Señor conforta a su madre<span class="note-ref" data-ref="si-3-6" title="Ver comentario">&#42;</span>,
 
-3:7b y sirve a sus padres como si fueran sus amos.
+<sup>7b</sup> y sirve a sus padres como si fueran sus amos.
 
 <sup>8</sup> Honra a tu padre de palabra y obra,
 
@@ -277,35 +277,35 @@ maldito del Señor quien irrita a su madre.
 ## La humildad y el orgullo.
 <sup>17</sup> Hijo, actúa con dulzura en todo lo que hagas,
 
-y te querrán más que al hombre generoso*.
+y te querrán más que al hombre generoso<span class="note-ref" data-ref="si-3-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Cuanto más grande seas, más debes humillarte,
 
-y alcanzarás el favor del Señor*.
+y alcanzarás el favor del Señor<span class="note-ref" data-ref="si-3-18" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Porque grande es el poder del Señor,
 
-pero son los humildes quienes le glorifican*.
+pero son los humildes quienes le glorifican<span class="note-ref" data-ref="si-3-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> No pretendas lo que te sobrepasa,
 
-ni investigues lo que supera tus fuerzas*.
+ni investigues lo que supera tus fuerzas<span class="note-ref" data-ref="si-3-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> Atiende a lo que se te encomienda,
 
 que las cosas misteriosas no te hacen ninguna falta.
 
-<sup>23</sup> No te preocupes por lo que supera a tus obras*,
+<sup>23</sup> No te preocupes por lo que supera a tus obras<span class="note-ref" data-ref="si-3-23" title="Ver comentario">&#42;</span>,
 
 porque ya te han enseñado más de lo que alcanza la inteligencia humana.
 
-<sup>24</sup> Pues las especulaciones desviaron a muchos*,
+<sup>24</sup> Pues las especulaciones desviaron a muchos<span class="note-ref" data-ref="si-3-24-a" title="Ver comentario">&#42;</span>,
 
-y las falsas ilusiones extraviaron sus pensamientos*.
+y las falsas ilusiones extraviaron sus pensamientos<span class="note-ref" data-ref="si-3-24-b" title="Ver comentario">&#42;</span>.
 
 <sup>26</sup> Corazón obstinado mal acaba,
 
-y el que ama el peligro en él sucumbe*.
+y el que ama el peligro en él sucumbe<span class="note-ref" data-ref="si-3-26" title="Ver comentario">&#42;</span>.
 
 <sup>27</sup> Corazón obstinado se acarrea fatigas,
 
@@ -324,7 +324,7 @@ un oído atento es el anhelo del sabio.
 
 la limosma perdona los pecados.
 
-<sup>31</sup> Quien responde* con favores prepara el porvenir,
+<sup>31</sup> Quien responde<span class="note-ref" data-ref="si-3-31" title="Ver comentario">&#42;</span> con favores prepara el porvenir,
 
 y cuando llegue la caída encontrará un apoyo.
 
@@ -354,7 +354,7 @@ su Creador escuchará su imprecación.
 
 <sup>7</sup> Hazte amar por la asamblea,
 
-y sé respetuoso con la autoridad*.
+y sé respetuoso con la autoridad<span class="note-ref" data-ref="si-4-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Escucha al pobre con atención,
 
@@ -366,13 +366,13 @@ y no tengas miedo de hacer justicia.
 
 <sup>10</sup> Sé como un padre para los huérfanos
 
-y como un marido para su madre*;
+y como un marido para su madre<span class="note-ref" data-ref="si-4-10" title="Ver comentario">&#42;</span>;
 
 así serás como un hijo del Altísimo,
 
 y él te amará más que tu madre.
 
-## La escuela de la sabiduría*.
+## La escuela de la sabiduría<span class="note-ref" data-ref="si-4-11" title="Ver comentario">&#42;</span>.
 <sup>11</sup> La sabiduría educa a sus hijos
 
 y se cuida de los que la buscan.
@@ -413,9 +413,9 @@ lo alegrará y le revelará sus secretos.
 
 <sup>19</sup> En cambio, si él se desvía, lo abandonará,
 
-y lo dejará a merced de su propia ruina*.
+y lo dejará a merced de su propia ruina<span class="note-ref" data-ref="si-4-19" title="Ver comentario">&#42;</span>.
 
-## La vergüenza*.
+## La vergüenza<span class="note-ref" data-ref="si-4-20" title="Ver comentario">&#42;</span>.
 <sup>20</sup> Ten en cuenta la situación y guárdate del mal,
 
 no te avergüences de ti mismo.
@@ -430,7 +430,7 @@ y no te avergüences por tu caída.
 
 <sup>23</sup> No dejes de hablar cuando sea provechoso
 
-y no escondas tu sabiduría*,
+y no escondas tu sabiduría<span class="note-ref" data-ref="si-4-23" title="Ver comentario">&#42;</span>,
 
 <sup>24</sup> porque la sabiduría se revela en la palabra,
 
@@ -442,7 +442,7 @@ avergüénzate de tu ignorancia.
 
 <sup>26</sup> No te avergüences de confesar tus pecados,
 
-32b no te opongas a la corriente del río*.
+32b no te opongas a la corriente del río<span class="note-ref" data-ref="si-4-26" title="Ver comentario">&#42;</span>.
 
 <sup>27</sup> No te sometas ante el insensato,
 
@@ -456,7 +456,7 @@ y el Señor combatirá por ti.
 
 ni perezoso y negligente en tus obras.
 
-<sup>30</sup> No seas como león* con tu familia,
+<sup>30</sup> No seas como león<span class="note-ref" data-ref="si-4-30" title="Ver comentario">&#42;</span> con tu familia,
 
 miedoso y apocado con tus servidores.
 
@@ -473,11 +473,11 @@ ni digas: «Ellas me bastan».
 
 que te lleva tras las pasiones de tu corazón.
 
-<sup>3</sup> No digas: «¿Quién puede dominarme*?»,
+<sup>3</sup> No digas: «¿Quién puede dominarme<span class="note-ref" data-ref="si-5-3" title="Ver comentario">&#42;</span>?»,
 
 porque el Señor ciertamente te castigará.
 
-<sup>4</sup> No digas: «He pecado, y ¿qué me ha pasado*?»,
+<sup>4</sup> No digas: «He pecado, y ¿qué me ha pasado<span class="note-ref" data-ref="si-5-4" title="Ver comentario">&#42;</span>?»,
 
 porque el Señor es paciente.
 
@@ -510,7 +510,7 @@ de nada te servirán el día de la desgracia.
 
 ni camines por cualquier sendero;
 
-(así actúa el pecador que habla con doblez)*.
+(así actúa el pecador que habla con doblez)<span class="note-ref" data-ref="si-5-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Mantente firme en tus convicciones
 
@@ -536,7 +536,7 @@ porque sobre el ladrón cae la vergüenza,
 
 y una severa condena sobre el que habla con doblez.
 
-<sup>15</sup> No faltes* ni en lo grande ni en lo pequeño,
+<sup>15</sup> No faltes<span class="note-ref" data-ref="si-5-15" title="Ver comentario">&#42;</span> ni en lo grande ni en lo pequeño,
 
 ni de amigo te vuelvas enemigo.
 
@@ -561,7 +561,7 @@ y lo convierten en el hazmerreír del enemigo.
 
 la lengua afable multiplica los saludos.
 
-<sup>6</sup> Sean muchos los que te saluden*,
+<sup>6</sup> Sean muchos los que te saluden<span class="note-ref" data-ref="si-6-6" title="Ver comentario">&#42;</span>,
 
 pero confidente, sólo uno entre mil.
 
@@ -583,7 +583,7 @@ pero te abandonan el día de la desgracia.
 
 <sup>11</sup> Cuando las cosas van bien, son como otro tú,
 
-e incluso son amables con tus servidores*;
+e incluso son amables con tus servidores<span class="note-ref" data-ref="si-6-11" title="Ver comentario">&#42;</span>;
 
 <sup>12</sup> pero si eres humillado, se ponen contra ti
 
@@ -607,9 +607,9 @@ los que temen al Señor lo encontrarán.
 
 <sup>17</sup> El que teme al Señor orienta bien su amistad,
 
-porque, según sea él, así será su amigo*.
+porque, según sea él, así será su amigo<span class="note-ref" data-ref="si-6-17" title="Ver comentario">&#42;</span>.
 
-## La búsqueda de la sabiduría*.
+## La búsqueda de la sabiduría<span class="note-ref" data-ref="si-6-18" title="Ver comentario">&#42;</span>.
 <sup>18</sup> Hijo, acumula instrucción desde la juventud,
 
 y hasta la vejez encontrarás sabiduría.
@@ -630,7 +630,7 @@ el necio no la soporta;
 
 y no tarda en sacudírsela de encima.
 
-<sup>22</sup> Pues la sabiduría hace honor a su nombre*,
+<sup>22</sup> Pues la sabiduría hace honor a su nombre<span class="note-ref" data-ref="si-6-22" title="Ver comentario">&#42;</span>,
 
 no se manifiesta a muchos.
 
@@ -662,7 +662,7 @@ y ella se convertirá en tu alegría.
 
 y sus argollas, un traje de gloria.
 
-<sup>30</sup> Adorno de oro será su yugo*,
+<sup>30</sup> Adorno de oro será su yugo<span class="note-ref" data-ref="si-6-30" title="Ver comentario">&#42;</span>,
 
 y sus correas cintas de púrpura.
 
@@ -682,7 +682,7 @@ si prestas atención, llegarás a sabio.
 
 y si encuentras a un sabio, júntate a él.
 
-<sup>35</sup> Escucha con interés toda palabra que venga de Dios*,
+<sup>35</sup> Escucha con interés toda palabra que venga de Dios<span class="note-ref" data-ref="si-6-35" title="Ver comentario">&#42;</span>,
 
 y que no se te escapen los proverbios agudos.
 
@@ -749,7 +749,7 @@ ni hagas lo mismo con tu amigo.
 
 <sup>13</sup> Propónte no decir mentira alguna,
 
-pues es un hábito que no conduce a nada bueno*.
+pues es un hábito que no conduce a nada bueno<span class="note-ref" data-ref="si-7-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> No hables demasiado en la asamblea de ancianos,
 
@@ -765,13 +765,13 @@ recuerda que la ira no tardará.
 
 <sup>17</sup> Humíllate profundamente,
 
-que el castigo del impío es fuego y gusanos*.
+que el castigo del impío es fuego y gusanos<span class="note-ref" data-ref="si-7-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> No cambies un amigo por dinero,
 
 ni un pariente de veras por el oro de Ofir.
 
-<sup>19</sup> No faltes a una mujer sabia y buena*,
+<sup>19</sup> No faltes a una mujer sabia y buena<span class="note-ref" data-ref="si-7-19" title="Ver comentario">&#42;</span>,
 
 pues su gracia vale más que el oro.
 
@@ -779,7 +779,7 @@ pues su gracia vale más que el oro.
 
 ni al jornalero que se entrega a su faena.
 
-<sup>21</sup> Ama al siervo inteligente como a ti mismo*
+<sup>21</sup> Ama al siervo inteligente como a ti mismo<span class="note-ref" data-ref="si-7-21" title="Ver comentario">&#42;</span>
 
 y no le prives de la libertad.
 
@@ -789,7 +789,7 @@ y si te dan ganancias, consérvalos.
 
 <sup>23</sup> ¿Tienes hijos? Edúcalos,
 
-acostúmbralos a obedecer desde pequeños*.
+acostúmbralos a obedecer desde pequeños<span class="note-ref" data-ref="si-7-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> ¿Tienes hijas? Vigila su cuerpo,
 
@@ -810,11 +810,11 @@ y no olvides los dolores de tu madre.
 
 <sup>28</sup> Recuerda que gracias a ellos has nacido;
 
-¿cómo les pagarás lo que han hecho por ti*?
+¿cómo les pagarás lo que han hecho por ti<span class="note-ref" data-ref="si-7-28" title="Ver comentario">&#42;</span>?
 
 <sup>29</sup> Teme al Señor con toda tu alma
 
-y respeta a sus sacerdotes*.
+y respeta a sus sacerdotes<span class="note-ref" data-ref="si-7-29" title="Ver comentario">&#42;</span>.
 
 <sup>30</sup> Ama a tu Creador con todas tus fuerzas
 
@@ -835,11 +835,11 @@ y las primicias de las cosas santas.
 ## Los pobres y afligidos.
 <sup>32</sup> Tiende también tu mano al pobre,
 
-para que tu bendición* sea completa.
+para que tu bendición<span class="note-ref" data-ref="si-7-32" title="Ver comentario">&#42;</span> sea completa.
 
 <sup>33</sup> Sé generoso con todos los vivos
 
-y no niegues tu piedad a los difuntos*.
+y no niegues tu piedad a los difuntos<span class="note-ref" data-ref="si-7-33" title="Ver comentario">&#42;</span>.
 
 <sup>34</sup> No te retraigas ante los que lloran,
 
@@ -851,7 +851,7 @@ que haciendo estas obras te harás querer.
 
 <sup>36</sup> En todas tus acciones ten presente tu fin,
 
-y así jamás cometerás pecado*.
+y así jamás cometerás pecado<span class="note-ref" data-ref="si-7-36" title="Ver comentario">&#42;</span>.
 
 ## Prudencia y reflexión.
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> No pelees con el poderoso,
@@ -872,11 +872,11 @@ no eches más leña a su fuego.
 
 <sup>4</sup> No bromees con el insensato,
 
-no sea que insulte a tus padres*.
+no sea que insulte a tus padres<span class="note-ref" data-ref="si-8-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> No reproches al que se arrepiente del pecado,
 
-recuerda que todos somos culpables*.
+recuerda que todos somos culpables<span class="note-ref" data-ref="si-8-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> No te burles del anciano,
 
@@ -893,11 +893,11 @@ ocúpate en meditar sus proverbios,
 
 porque de ellos aprenderás la instrucción
 
-y el arte de servir a los grandes*.
+y el arte de servir a los grandes<span class="note-ref" data-ref="si-8-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> No desprecies las historias de los ancianos,
 
-que ellos también aprendieron de sus padres*;
+que ellos también aprendieron de sus padres<span class="note-ref" data-ref="si-8-9" title="Ver comentario">&#42;</span>;
 
 de ellos aprenderás a ser prudente
 
@@ -950,7 +950,7 @@ porque no sabes lo que inventará después.
 
 <sup>19</sup> No abras tu corazón a cualquiera,
 
-no sea que se aproveche*.
+no sea que se aproveche<span class="note-ref" data-ref="si-8-19" title="Ver comentario">&#42;</span>.
 
 ## El trato con las mujeres.
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> No tengas celos de la mujer que amas,
@@ -1012,7 +1012,7 @@ pues no sabes cuál será su desenlace.
 
 <sup>12</sup> No te dejes fascinar por el éxito de los impíos;
 
-recuerda que no morirán impunes*.
+recuerda que no morirán impunes<span class="note-ref" data-ref="si-9-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Mantente lejos de quien tiene poder para matar,
 
@@ -1024,7 +1024,7 @@ no sea que te quite la vida.
 
 Date cuenta de que caminas entre trampas
 
-y que paseas sobre la muralla de la ciudad*.
+y que paseas sobre la muralla de la ciudad<span class="note-ref" data-ref="si-9-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Cuando puedas, asiste a tu prójimo,
 
@@ -1041,7 +1041,7 @@ y sea tu orgullo el temor del Señor.
 ## Los gobernantes.
 <sup>17</sup> Por sus obras se elogia la mano del artista,
 
-por sus discursos, la sabiduría del gobernante*.
+por sus discursos, la sabiduría del gobernante<span class="note-ref" data-ref="si-9-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> El charlatán es temido en su ciudad,
 
@@ -1082,9 +1082,9 @@ a causa de las injusticias, las violencias y el dinero.
 
 <sup>9</sup> ¿De qué se enorgullece el que es tierra y ceniza?,
 
-¡si ya en vida su vientre es podredumbre*!
+¡si ya en vida su vientre es podredumbre<span class="note-ref" data-ref="si-10-9" title="Ver comentario">&#42;</span>!
 
-<sup>10</sup> La larga enfermedad desconcierta al médico*,
+<sup>10</sup> La larga enfermedad desconcierta al médico<span class="note-ref" data-ref="si-10-10" title="Ver comentario">&#42;</span>,
 
 y quien hoy es rey mañana morirá.
 
@@ -1108,7 +1108,7 @@ y abatió a los soberbios hasta aniquilarlos.
 
 y en su lugar entronizó a los sencillos.
 
-<sup>15</sup> El Señor arrancó la raíz de los soberbios*,
+<sup>15</sup> El Señor arrancó la raíz de los soberbios<span class="note-ref" data-ref="si-10-15" title="Ver comentario">&#42;</span>,
 
 y en su lugar plantó a los humildes.
 
@@ -1135,9 +1135,9 @@ ni la violencia para el nacido de mujer.
 
 <sup>20</sup> Entre hermanos se honra al mayor,
 
-pero el Señor honra a los que le temen*.
+pero el Señor honra a los que le temen<span class="note-ref" data-ref="si-10-20" title="Ver comentario">&#42;</span>.
 
-<sup>22</sup> Ricos, distinguidos* o pobres,
+<sup>22</sup> Ricos, distinguidos<span class="note-ref" data-ref="si-10-22" title="Ver comentario">&#42;</span> o pobres,
 
 sea su orgullo el temor del Señor.
 
@@ -1151,7 +1151,7 @@ pero ninguno de ellos es mayor que quien teme al Señor.
 
 <sup>25</sup> El criado sabio tendrá hombres libres a su servicio,
 
-y el hombre inteligente no lo criticará*.
+y el hombre inteligente no lo criticará<span class="note-ref" data-ref="si-10-25" title="Ver comentario">&#42;</span>.
 
 ## Humildad y verdad.
 <sup>26</sup> No presumas de sabio cuando cumplas tus obligaciones,
@@ -1193,13 +1193,13 @@ pero su producto es el más dulce.
 
 <sup>4</sup> No presumas de los vestidos que llevas,
 
-ni te engrías cuando te alaben*,
+ni te engrías cuando te alaben<span class="note-ref" data-ref="si-11-4-a" title="Ver comentario">&#42;</span>,
 
 pues admirables son las obras del Señor,
 
-y, sin embargo, permanecen ocultas a los hombres*.
+y, sin embargo, permanecen ocultas a los hombres<span class="note-ref" data-ref="si-11-4-b" title="Ver comentario">&#42;</span>.
 
-<sup>5</sup> Muchos tiranos acabaron por los suelos*,
+<sup>5</sup> Muchos tiranos acabaron por los suelos<span class="note-ref" data-ref="si-11-5" title="Ver comentario">&#42;</span>,
 
 mientras un desconocido se ceñía la corona.
 
@@ -1226,7 +1226,7 @@ porque si así actúas, no saldrás bien parado;
 
 por más que corras, no alcanzarás,
 
-por más que quieras huir, no escaparás*.
+por más que quieras huir, no escaparás<span class="note-ref" data-ref="si-11-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Hay quien trabaja, se fatiga y apresura,
 
@@ -1247,9 +1247,9 @@ y muchos se quedan admirados.
 
 <sup>14</sup> Bien y mal, vida y muerte,
 
-pobreza y riqueza vienen del Señor*.
+pobreza y riqueza vienen del Señor<span class="note-ref" data-ref="si-11-14" title="Ver comentario">&#42;</span>.
 
-<sup>17</sup> El don del Señor permanece con los piadosos*,
+<sup>17</sup> El don del Señor permanece con los piadosos<span class="note-ref" data-ref="si-11-17" title="Ver comentario">&#42;</span>,
 
 y su benevolencia les guiará siempre por buen camino.
 
@@ -1263,9 +1263,9 @@ y disfrutar de todos mis bienes»,
 
 no sabe cuánto tiempo pasará,
 
-hasta que muera y tenga que dejarlo todo a otros*.
+hasta que muera y tenga que dejarlo todo a otros<span class="note-ref" data-ref="si-11-19" title="Ver comentario">&#42;</span>.
 
-<sup>20</sup> Sigue con tu quehacer y dedícate a él*,
+<sup>20</sup> Sigue con tu quehacer y dedícate a él<span class="note-ref" data-ref="si-11-20" title="Ver comentario">&#42;</span>,
 
 y envejece en tu tarea.
 
@@ -1291,7 +1291,7 @@ o ¿qué bienes podría conseguir todavía?»
 
 <sup>25</sup> Día de bienes, olvido de males,
 
-día de males, olvido de bienes*.
+día de males, olvido de bienes<span class="note-ref" data-ref="si-11-25" title="Ver comentario">&#42;</span>.
 
 <sup>26</sup> Es fácil para el Señor, el día de la muerte,
 
@@ -1303,7 +1303,7 @@ pero cuando el hombre se acerca al fin se descubren sus obras.
 
 <sup>28</sup> Antes de la muerte no felicites a nadie,
 
-porque sólo en su final se conoce al hombre*.
+porque sólo en su final se conoce al hombre<span class="note-ref" data-ref="si-11-28" title="Ver comentario">&#42;</span>.
 
 ## Desconfiar del desconocido.
 <sup>29</sup> No metas a cualquiera en tu casa,
@@ -1312,7 +1312,7 @@ que son muchas las mañas del astuto.
 
 <sup>30</sup> Como perdiz cautiva en su jaula, así es el corazón del orgulloso,
 
-como un espía aguarda tu caída*.
+como un espía aguarda tu caída<span class="note-ref" data-ref="si-11-30" title="Ver comentario">&#42;</span>.
 
 <sup>31</sup> Él tiende su trampa cambiando el bien por mal,
 
@@ -1341,11 +1341,11 @@ si no de él, al menos del Altísimo.
 
 <sup>3</sup> No obtiene beneficios quien persiste en el mal,
 
-ni quien se niega a hacer limosna*.
+ni quien se niega a hacer limosna<span class="note-ref" data-ref="si-12-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Da al hombre piadoso,
 
-pero no ayudes al pecador*.
+pero no ayudes al pecador<span class="note-ref" data-ref="si-12-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Haz el bien al humilde,
 
@@ -1372,7 +1372,7 @@ pero no ayudes al pecador.
 
 ni se oculta el enemigo en la adversidad.
 
-<sup>9</sup> Cuando uno prospera, sus enemigos se entristecen*,
+<sup>9</sup> Cuando uno prospera, sus enemigos se entristecen<span class="note-ref" data-ref="si-12-9" title="Ver comentario">&#42;</span>,
 
 pero en la adversidad, hasta su amigo lo abandona.
 
@@ -1386,7 +1386,7 @@ ten cuidado y desconfía de él.
 
 Trátalo como quien pule un espejo,
 
-y sabe que su herrumbre acabará desapareciendo*.
+y sabe que su herrumbre acabará desapareciendo<span class="note-ref" data-ref="si-12-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> No lo pongas junto a ti,
 
@@ -1424,7 +1424,7 @@ pero llegada la ocasión, no se saciará de verter sangre.
 
 y fingiendo ayudarte, te pondrá la zancadilla.
 
-<sup>18</sup> Meneará la cabeza, batirá palmas*,
+<sup>18</sup> Meneará la cabeza, batirá palmas<span class="note-ref" data-ref="si-12-18" title="Ver comentario">&#42;</span>,
 
 hablará entre dientes y cambiará de cara.
 
@@ -1439,7 +1439,7 @@ ni andes con gente más fuerte y más rica que tú.
 
 ¿Cómo se puede juntar el cántaro con la olla?;
 
-chocará con ella y se romperá*.
+chocará con ella y se romperá<span class="note-ref" data-ref="si-13-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> El rico ofende y encima se irrita,
 
@@ -1473,7 +1473,7 @@ y meneará la cabeza, mofándose de ti.
 
 <sup>8</sup> Procura no dejarte embaucar,
 
-que no te humillen por tu insensatez*.
+que no te humillen por tu insensatez<span class="note-ref" data-ref="si-13-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> Si te invita un poderoso, mantente a distancia,
 
@@ -1481,7 +1481,7 @@ así te llamará con más insistencia.
 
 <sup>10</sup> No te acerques mucho, no sea que te rechace,
 
-ni te quedes muy lejos, no sea que le pases inadvertido*.
+ni te quedes muy lejos, no sea que le pases inadvertido<span class="note-ref" data-ref="si-13-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> No pretendas hablar con él de igual a igual,
 
@@ -1497,7 +1497,7 @@ no te ahorrará ni golpes ni cadenas.
 
 <sup>13</sup> Vigila y ponte en guardia,
 
-porque caminas junto a tu propia ruina*.
+porque caminas junto a tu propia ruina<span class="note-ref" data-ref="si-13-13" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Todos los animales aman a los de su especie,
 
@@ -1513,7 +1513,7 @@ lo mismo ocurre con el pecador y el piadoso.
 
 <sup>18</sup> ¿Qué paz puede haber entre la hiena y el perro,
 
-o entre el rico y el pobre*?
+o entre el rico y el pobre<span class="note-ref" data-ref="si-13-18" title="Ver comentario">&#42;</span>?
 
 <sup>19</sup> Los onagros son presa de los leones en el desierto,
 
@@ -1525,7 +1525,7 @@ y el rico aborrece al pobre.
 
 <sup>21</sup> Cuando el rico se tambalea, sus amigos lo sostienen,
 
-pero cuando cae el humilde, sus amigos lo rechazan*.
+pero cuando cae el humilde, sus amigos lo rechazan<span class="note-ref" data-ref="si-13-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> Cuando el rico resbala, muchos lo cogen en sus brazos,
 
@@ -1545,7 +1545,7 @@ y si se equivoca, lo echan por tierra.
 
 <sup>24</sup> Buena es la riqueza adquirida sin pecado,
 
-mala es la pobreza en boca del impío*.
+mala es la pobreza en boca del impío<span class="note-ref" data-ref="si-13-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> El corazón del hombre muda su rostro,
 
@@ -1553,9 +1553,9 @@ sea para el bien, sea para el mal.
 
 <sup>26</sup> Un rostro alegre revela un buen corazón,
 
-inventar proverbios es un ejercicio difícil*.
+inventar proverbios es un ejercicio difícil<span class="note-ref" data-ref="si-13-26" title="Ver comentario">&#42;</span>.
 
-<span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Dichoso el hombre que no resbala con su boca*,
+<span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Dichoso el hombre que no resbala con su boca<span class="note-ref" data-ref="si-14-1" title="Ver comentario">&#42;</span>,
 
 ni sufre remordimientos por sus pecados.
 
@@ -1586,11 +1586,11 @@ y al final descubrirá su maldad.
 
 <sup>8</sup> El hombre envidioso es perverso,
 
-desvía la mirada* y desprecia a los demás.
+desvía la mirada<span class="note-ref" data-ref="si-14-8" title="Ver comentario">&#42;</span> y desprecia a los demás.
 
 <sup>9</sup> El avaro nunca está satisfecho con su suerte,
 
-pues la avaricia seca el alma*.
+pues la avaricia seca el alma<span class="note-ref" data-ref="si-14-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> El avaro hasta el pan escatima,
 
@@ -1602,7 +1602,7 @@ y presenta dignamente tus ofrendas al Señor.
 
 <sup>12</sup> Recuerda que la muerte no puede tardar,
 
-y que el pacto del abismo* no te ha sido revelado.
+y que el pacto del abismo<span class="note-ref" data-ref="si-14-12" title="Ver comentario">&#42;</span> no te ha sido revelado.
 
 <sup>13</sup> Antes de morir, haz el bien a tu amigo;
 
@@ -1634,7 +1634,7 @@ unas mueren y otras nacen.
 
 <sup>19</sup> Toda obra corruptible desaparece,
 
-y su autor se va con ella*.
+y su autor se va con ella<span class="note-ref" data-ref="si-14-19" title="Ver comentario">&#42;</span>.
 
 ## Los beneficios de la sabiduría.
 <sup>20</sup> Dichoso el hombre que se dedica a la sabiduría
@@ -1643,7 +1643,7 @@ y razona con su inteligencia.
 
 <sup>21</sup> Dichoso el hombre que medita en su conducta
 
-y reflexiona sobre sus secretos*.
+y reflexiona sobre sus secretos<span class="note-ref" data-ref="si-14-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> Como un cazador sale en su busca,
 
@@ -1655,7 +1655,7 @@ y escucha a sus puertas;
 
 <sup>24</sup> acampa muy cerca de su casa
 
-y clava la estaca en sus muros*;
+y clava la estaca en sus muros<span class="note-ref" data-ref="si-14-24" title="Ver comentario">&#42;</span>;
 
 <sup>25</sup> monta su tienda junto a ella
 
@@ -1667,11 +1667,11 @@ y se cobija bajo sus ramas.
 
 <sup>27</sup> A su sombra se protege del calor,
 
-y habita al reparo de su gloria*.
+y habita al reparo de su gloria<span class="note-ref" data-ref="si-14-27" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Así hace el que teme al Señor;
 
-el que abraza la ley* alcanza la sabiduría.
+el que abraza la ley<span class="note-ref" data-ref="si-15-1" title="Ver comentario">&#42;</span> alcanza la sabiduría.
 
 <sup>2</sup> Como una madre le sale al encuentro,
 
@@ -1712,7 +1712,7 @@ porque es el Señor quien la inspira.
 ## La libertad humana.
 <sup>11</sup> No digas: «Me he desviado por culpa del Señor»,
 
-porque él no hace lo que detesta*.
+porque él no hace lo que detesta<span class="note-ref" data-ref="si-15-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> No digas: «Él me ha extraviado»,
 
@@ -1724,7 +1724,7 @@ y los que le temen también la aborrecen.
 
 <sup>14</sup> Al principio el Señor creó al hombre
 
-y lo dejó a su propio albedrío*.
+y lo dejó a su propio albedrío<span class="note-ref" data-ref="si-15-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Si quieres, guardarás los mandamientos
 
@@ -1765,7 +1765,7 @@ ni te creas seguro porque son muchos;
 
 que más vale uno que mil,
 
-y morir sin hijos que tenerlos impíos*.
+y morir sin hijos que tenerlos impíos<span class="note-ref" data-ref="si-16-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Un solo hombre inteligente poblará una ciudad,
 
@@ -1787,13 +1787,13 @@ que se rebelaron seguros de su fuerza.
 
 a los que aborrecía por su orgullo.
 
-<sup>9</sup> No se apiadó de la nación corrompida*,
+<sup>9</sup> No se apiadó de la nación corrompida<span class="note-ref" data-ref="si-16-9" title="Ver comentario">&#42;</span>,
 
 de los que alardeaban de sus pecados.
 
 <sup>10</sup> El mismo trato recibieron los seiscientos mil de a pie,
 
-que se habían reunido con mente obstinada*.
+que se habían reunido con mente obstinada<span class="note-ref" data-ref="si-16-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Aunque sólo hubiera un rebelde,
 
@@ -1811,9 +1811,9 @@ y juzga al hombre según sus obras.
 
 ni que le falle la paciencia al piadoso.
 
-<sup>14</sup> Reservará un sitio para el que hace limosna*;
+<sup>14</sup> Reservará un sitio para el que hace limosna<span class="note-ref" data-ref="si-16-14-a" title="Ver comentario">&#42;</span>;
 
-cada uno recibirá según sus obras*.
+cada uno recibirá según sus obras<span class="note-ref" data-ref="si-16-14-b" title="Ver comentario">&#42;</span>.
 
 ## Retribución segura.
 <sup>17</sup> No digas: «Me esconderé del Señor,
@@ -1822,7 +1822,7 @@ cada uno recibirá según sus obras*.
 
 Entre tanta gente pasaré desapercibido,
 
-pues ¿quién soy yo en la inmensa creación*?»
+pues ¿quién soy yo en la inmensa creación<span class="note-ref" data-ref="si-16-17" title="Ver comentario">&#42;</span>?»
 
 <sup>18</sup> Mira el cielo y más allá del cielo,
 
@@ -1838,11 +1838,11 @@ tiemblan de espanto bajo su mirada.
 
 <sup>21</sup> Como la tempestad que el hombre no ve venir,
 
-la mayoría de sus obras se hacen en secreto*.
+la mayoría de sus obras se hacen en secreto<span class="note-ref" data-ref="si-16-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> «¿Quién anuncia las obras de justicia?,
 
-¿quién las espera? ¡La alianza está lejos*!»
+¿quién las espera? ¡La alianza está lejos<span class="note-ref" data-ref="si-16-22" title="Ver comentario">&#42;</span>!»
 
 <sup>23</sup> Así discurre el insensato;
 
@@ -1851,13 +1851,13 @@ el estúpido y el descarriado sólo piensan necedades.
 ## El hombre en la creación.
 <sup>24</sup> Hijo, escúchame y aprende sabiduría,
 
-aplica tu corazón a mis palabras*.
+aplica tu corazón a mis palabras<span class="note-ref" data-ref="si-16-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> Te enseñaré la doctrina con mesura,
 
 con precisión te transmitiré el saber.
 
-<sup>26</sup> Cuando al principio el Señor creó* sus obras,
+<sup>26</sup> Cuando al principio el Señor creó<span class="note-ref" data-ref="si-16-26" title="Ver comentario">&#42;</span> sus obras,
 
 asignó a cada una su puesto;
 
@@ -1871,7 +1871,7 @@ y eso que nunca abandonan su tarea.
 
 <sup>28</sup> Ninguna se topa con la otra,
 
-jamás desobedecen su palabra*.
+jamás desobedecen su palabra<span class="note-ref" data-ref="si-16-28" title="Ver comentario">&#42;</span>.
 
 <sup>29</sup> Después el Señor miró a la tierra
 
@@ -1881,7 +1881,7 @@ y la colmó de sus bienes.
 
 y todos, cuando mueren, vuelven a ella.
 
-<span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> El Señor creó al hombre de la tierra*,
+<span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> El Señor creó al hombre de la tierra<span class="note-ref" data-ref="si-17-1" title="Ver comentario">&#42;</span>,
 
 y a ella le hará volver de nuevo.
 
@@ -1895,11 +1895,11 @@ a su propia imagen los creó.
 
 <sup>4</sup> Hizo que todo ser viviente le temiese,
 
-para que dominara sobre fieras y aves*.
+para que dominara sobre fieras y aves<span class="note-ref" data-ref="si-17-4" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Les formó lengua, ojos y oídos,
 
-y les dio un corazón para pensar*.
+y les dio un corazón para pensar<span class="note-ref" data-ref="si-17-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Los llenó de saber e inteligencia,
 
@@ -1907,7 +1907,7 @@ les enseñó el bien y el mal.
 
 <sup>8</sup> Fijó su mirada en sus corazones,
 
-para mostrarles la grandeza de sus obras*.
+para mostrarles la grandeza de sus obras<span class="note-ref" data-ref="si-17-8" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Por eso alabarán su santo nombre
 
@@ -1919,7 +1919,7 @@ y les dejó en herencia una ley de vida.
 
 <sup>12</sup> Estableció con ellos una alianza eterna
 
-y les enseñó sus mandamientos*.
+y les enseñó sus mandamientos<span class="note-ref" data-ref="si-17-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Sus ojos vieron la grandeza de su gloria,
 
@@ -1932,11 +1932,11 @@ y a cada uno le dio preceptos acerca de su prójimo.
 ## El juez divino.
 <sup>15</sup> El Señor percibe siempre la conducta de los hombres:
 
-no puede ocultarse a sus ojos*.
+no puede ocultarse a sus ojos<span class="note-ref" data-ref="si-17-15" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> Asignó un jefe a cada nación,
 
-pero Israel es la porción del Señor*.
+pero Israel es la porción del Señor<span class="note-ref" data-ref="si-17-17" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Todas sus obras son para el Señor como el sol,
 
@@ -1944,15 +1944,15 @@ sus ojos observan siempre su conducta;
 
 <sup>20</sup> no se le pueden ocultar sus maldades,
 
-todos sus pecados están delante del Señor*.
+todos sus pecados están delante del Señor<span class="note-ref" data-ref="si-17-20" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> El Señor guarda la limosna del hombre como un sello,
 
-y su generosidad como la niña de sus ojos*.
+y su generosidad como la niña de sus ojos<span class="note-ref" data-ref="si-17-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> Al final se levantará y les retribuirá,
 
-dará a cada uno su recompensa*.
+dará a cada uno su recompensa<span class="note-ref" data-ref="si-17-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> Pero a los que se arrepienten les permite volver,
 
@@ -1963,7 +1963,7 @@ y consuela a los que perdieron la esperanza.
 
 suplica ante su rostro y quita los obstáculos.
 
-<sup>26</sup> Vuélvete al Altísimo y apártate de la injusticia*,
+<sup>26</sup> Vuélvete al Altísimo y apártate de la injusticia<span class="note-ref" data-ref="si-17-26" title="Ver comentario">&#42;</span>,
 
 detesta de corazón la iniquidad.
 
@@ -1987,14 +1987,14 @@ porque los humanos no son inmortales.
 
 pero la carne y la sangre sólo maquinan el mal.
 
-<sup>32</sup> Dios pasa revista al ejército celeste*,
+<sup>32</sup> Dios pasa revista al ejército celeste<span class="note-ref" data-ref="si-17-32" title="Ver comentario">&#42;</span>,
 
 pero los hombres sólo son polvo y ceniza.
 
 ## Grandeza de Dios y pequeñez del hombre.
 <span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> El que vive eternamente todo lo creó por igual,
 
-<sup>2</sup> sólo el Señor puede ser proclamado justo*.
+<sup>2</sup> sólo el Señor puede ser proclamado justo<span class="note-ref" data-ref="si-18-2" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> A nadie concedió el poder de anunciar sus obras;
 
@@ -2010,7 +2010,7 @@ las maravillas del Señor no se pueden descubrir.
 
 <sup>7</sup> Cuando el hombre termina, entonces empieza;
 
-cuando se detiene, queda asombrado*.
+cuando se detiene, queda asombrado<span class="note-ref" data-ref="si-18-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> ¿Qué es el hombre?, ¿para qué sirve?,
 
@@ -2038,13 +2038,13 @@ la misericordia del Señor se extiende a todo el mundo.
 
 Él reprende, adoctrina y enseña,
 
-y guía, como un pastor, a su rebaño*.
+y guía, como un pastor, a su rebaño<span class="note-ref" data-ref="si-18-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Se compadece de los que acogen su enseñanza,
 
 y de los que se esfuerzan por cumplir sus preceptos.
 
-## Dar con amor*.
+## Dar con amor<span class="note-ref" data-ref="si-18-15" title="Ver comentario">&#42;</span>.
 <sup>15</sup> Hijo, no acompañes de reproches tus favores,
 
 ni tus dones de palabras ofensivas.
@@ -2070,7 +2070,7 @@ antes de caer enfermo, cuídate.
 
 y el día del juicio encontrarás perdón.
 
-<sup>21</sup> Antes de caer enfermo, humíllate*;
+<sup>21</sup> Antes de caer enfermo, humíllate<span class="note-ref" data-ref="si-18-21" title="Ver comentario">&#42;</span>;
 
 y, si pecas, arrepiéntete.
 
@@ -2084,7 +2084,7 @@ no seas como el hombre que tienta al Señor.
 
 <sup>24</sup> Acuérdate de la ira de los últimos días,
 
-y del momento del castigo, cuando Dios oculte su rostro*.
+y del momento del castigo, cuando Dios oculte su rostro<span class="note-ref" data-ref="si-18-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> En tiempo de abundancia recuerda la carestía,
 
@@ -2096,7 +2096,7 @@ y todo pasa veloz delante del Señor.
 
 <sup>27</sup> El sabio es precavido en todo,
 
-y en la ocasión de pecado, se anda con cuidado*.
+y en la ocasión de pecado, se anda con cuidado<span class="note-ref" data-ref="si-18-27" title="Ver comentario">&#42;</span>.
 
 <sup>28</sup> Todo hombre prudente conoce la sabiduría,
 
@@ -2104,7 +2104,7 @@ y rinde honor al que la encuentra.
 
 <sup>29</sup> Los que hablan con prudencia se hacen sabios,
 
-y de su boca llueven proverbios acertados*.
+y de su boca llueven proverbios acertados<span class="note-ref" data-ref="si-18-29" title="Ver comentario">&#42;</span>.
 
 ## Dominio de sí mismo.
 <sup>30</sup> No te dejes arrastrar por tus pasiones,
@@ -2117,7 +2117,7 @@ serás el hazmerreír de tus enemigos.
 
 <sup>32</sup> No te aficiones a la buena vida,
 
-ni te dejes atrapar en sus redes*.
+ni te dejes atrapar en sus redes<span class="note-ref" data-ref="si-18-32" title="Ver comentario">&#42;</span>.
 
 <sup>33</sup> No te arruines festejando con dinero prestado,
 
@@ -2133,14 +2133,14 @@ el que anda con prostitutas se vuelve temerario.
 
 <sup>3</sup> Larvas y gusanos serán su herencia,
 
-el temerario perderá la vida*.
+el temerario perderá la vida<span class="note-ref" data-ref="si-19-3" title="Ver comentario">&#42;</span>.
 
 ## Dominio de la lengua.
 <sup>4</sup> El que pronto se confía, no tiene juicio;
 
 el que peca, a sí mismo se perjudica.
 
-<sup>5</sup> El que se complace en el mal* será condenado;
+<sup>5</sup> El que se complace en el mal<span class="note-ref" data-ref="si-19-5" title="Ver comentario">&#42;</span> será condenado;
 
 <sup>6</sup> el que detesta la palabrería evitará el mal.
 
@@ -2186,12 +2186,12 @@ y ¿quién no ha pecado nunca con la lengua?
 
 <sup>17</sup> Pregunta a tu prójimo, antes de censurarle,
 
-y obedece a la ley del Altísimo*.
+y obedece a la ley del Altísimo<span class="note-ref" data-ref="si-19-17" title="Ver comentario">&#42;</span>.
 
 ## Verdadera y falsa sabiduría.
 <sup>20</sup> Toda sabiduría consiste en temer al Señor,
 
-y sólo hay sabiduría cuando se practica la ley*.
+y sólo hay sabiduría cuando se practica la ley<span class="note-ref" data-ref="si-19-20" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> Practicar el mal no es sabiduría,
 
@@ -2203,13 +2203,13 @@ el que carece de sabiduría es un insensato.
 
 <sup>24</sup> Más vale ser corto de inteligencia y temer al Señor
 
-que muy inteligente y transgredir la ley*.
+que muy inteligente y transgredir la ley<span class="note-ref" data-ref="si-19-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> Hay un ingenio que sirve a la injusticia,
 
 que para mantener su derecho utiliza trampas.
 
-<sup>26</sup> Hay quien hace el mal y anda* encorvado por la pena,
+<sup>26</sup> Hay quien hace el mal y anda<span class="note-ref" data-ref="si-19-26" title="Ver comentario">&#42;</span> encorvado por la pena,
 
 pero su interior está lleno de engaño.
 
@@ -2269,7 +2269,7 @@ y regalos que rinden el doble.
 
 <sup>11</sup> Hay quien en la gloria recibe humillaciones,
 
-y hay quien en la humillación levanta la cabeza*.
+y hay quien en la humillación levanta la cabeza<span class="note-ref" data-ref="si-20-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Hay quien compra mucho con poco dinero,
 
@@ -2281,7 +2281,7 @@ mientras los favores del necio son inútiles.
 
 <sup>14</sup> El regalo del necio no te sirve de nada,
 
-porque sus ojos desean recibir más de lo que han dado*;
+porque sus ojos desean recibir más de lo que han dado<span class="note-ref" data-ref="si-20-14" title="Ver comentario">&#42;</span>;
 
 <sup>15</sup> da poco y todo te lo echa en cara,
 
@@ -2297,7 +2297,7 @@ nadie agradece mis favores;
 
 <sup>17</sup> los que comen mi pan son unos insolentes.»
 
-¡Cuántos y cuántas veces se reirán de él*!
+¡Cuántos y cuántas veces se reirán de él<span class="note-ref" data-ref="si-20-17" title="Ver comentario">&#42;</span>!
 
 ## El hablar inoportuno.
 <sup>18</sup> Mejor es resbalar en el suelo que con la lengua,
@@ -2306,7 +2306,7 @@ así la caída de los malos llegará de repente.
 
 <sup>19</sup> Hombre maleducado es como el chiste inoportuno,
 
-que se repite en boca de imbéciles*.
+que se repite en boca de imbéciles<span class="note-ref" data-ref="si-20-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> De la boca del necio no se aceptan proverbios,
 
@@ -2340,7 +2340,7 @@ la vergüenza le acompaña siempre.
 ## El sabio y la sabiduría.
 <sup>27</sup> El sabio se abre camino con sus palabras,
 
-y el hombre sensato agrada a los poderosos*.
+y el hombre sensato agrada a los poderosos<span class="note-ref" data-ref="si-20-27" title="Ver comentario">&#42;</span>.
 
 <sup>28</sup> El que cultiva la tierra recogerá una buena cosecha;
 
@@ -2356,7 +2356,7 @@ como un bozal en boca ahogan los reproches.
 
 <sup>31</sup> Más vale el que oculta su necedad
 
-que el que oculta su sabiduría*.
+que el que oculta su sabiduría<span class="note-ref" data-ref="si-20-31" title="Ver comentario">&#42;</span>.
 
 ## Sobre el pecado.
 <span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> Hijo, ¿has pecado? No vuelvas a hacerlo,
@@ -2393,7 +2393,7 @@ y el sensato advierte sus deslices.
 
 <sup>8</sup> El que edifica su casa con dinero ajeno
 
-es como el que amontona piedras para su tumba*.
+es como el que amontona piedras para su tumba<span class="note-ref" data-ref="si-21-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> La reunión de pecadores es un haz de estopa;
 
@@ -2401,10 +2401,10 @@ acabará en una llamarada de fuego.
 
 <sup>10</sup> El camino de los pecadores está bien enlosado,
 
-pero desemboca en lo hondo del abismo*.
+pero desemboca en lo hondo del abismo<span class="note-ref" data-ref="si-21-10" title="Ver comentario">&#42;</span>.
 
 ## El sabio y el necio.
-<sup>11</sup> El que guarda la Ley controla sus pensamientos*,
+<sup>11</sup> El que guarda la Ley controla sus pensamientos<span class="note-ref" data-ref="si-21-11" title="Ver comentario">&#42;</span>,
 
 el temor del Señor culmina en la sabiduría.
 
@@ -2450,11 +2450,11 @@ el hombre sensato apenas sonríe en silencio.
 
 <sup>21</sup> Para el inteligente, la educación es joya de oro,
 
-brazalete en su brazo derecho*.
+brazalete en su brazo derecho<span class="note-ref" data-ref="si-21-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> El necio se precipita en casa ajena,
 
-el hombre de experiencia se presenta con timidez*.
+el hombre de experiencia se presenta con timidez<span class="note-ref" data-ref="si-21-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> El insensato fisgonea desde la puerta,
 
@@ -2464,7 +2464,7 @@ el hombre bien educado espera fuera.
 
 al sensato se le cae la cara de vergüenza.
 
-<sup>25</sup> Los charlatanes repiten lo que oyen*,
+<sup>25</sup> Los charlatanes repiten lo que oyen<span class="note-ref" data-ref="si-21-25" title="Ver comentario">&#42;</span>,
 
 los prudentes hablan con ponderación.
 
@@ -2472,7 +2472,7 @@ los prudentes hablan con ponderación.
 
 el sabio piensa lo que dice.
 
-<sup>27</sup> Cuando el impío maldice a Satanás*,
+<sup>27</sup> Cuando el impío maldice a Satanás<span class="note-ref" data-ref="si-21-27" title="Ver comentario">&#42;</span>,
 
 a sí mismo se maldice.
 
@@ -2504,7 +2504,7 @@ y ambos la desprecian.
 
 <sup>6</sup> Palabra inoportuna es música en duelo,
 
-azotes y corrección siempre indican sabiduría*.
+azotes y corrección siempre indican sabiduría<span class="note-ref" data-ref="si-22-6" title="Ver comentario">&#42;</span>.
 
 ## Sabiduría y necedad.
 <sup>9</sup> Enseñar al necio es como pegar los añicos de una vasija rota,
@@ -2517,7 +2517,7 @@ cuando termines de hablar, te dirá: «¿Qué has dicho?»
 
 <sup>11</sup> Llora por el difunto, porque le falta la luz;
 
-llora también por el necio, porque le falta la inteligencia*;
+llora también por el necio, porque le falta la inteligencia<span class="note-ref" data-ref="si-22-11" title="Ver comentario">&#42;</span>;
 
 llora tranquilamente por el difunto, porque ya descansa,
 
@@ -2559,7 +2559,7 @@ llegado el momento no se acobarda.
 
 es como estuco de arena en pared bien lijada.
 
-<sup>18</sup> Empalizada* en lo alto del muro
+<sup>18</sup> Empalizada<span class="note-ref" data-ref="si-22-18" title="Ver comentario">&#42;</span> en lo alto del muro
 
 no resiste al viento;
 
@@ -2608,7 +2608,7 @@ ni de su presencia me esconderé;
 
 todo el que se entere se guardará de él.
 
-## El dominio propio *.
+## El dominio propio <span class="note-ref" data-ref="si-22-27" title="Ver comentario">&#42;</span>.
 <sup>27</sup> ¿Quién pondrá guardián a mi boca,
 
 y un sello de prudencia en mis labios,
@@ -2650,11 +2650,11 @@ no permitas que mis ojos sean altaneros,
 no me dejes caer en pasiones vergonzosas.
 
 ## Los juramentos.
-<sup>7</sup> Escuchad, hijos, mi enseñanza*;
+<sup>7</sup> Escuchad, hijos, mi enseñanza<span class="note-ref" data-ref="si-23-7" title="Ver comentario">&#42;</span>;
 
 el que la guarda no caerá en la trampa.
 
-<sup>8</sup> El pecador se enreda en sus propios labios*;
+<sup>8</sup> El pecador se enreda en sus propios labios<span class="note-ref" data-ref="si-23-8" title="Ver comentario">&#42;</span>;
 
 el calumniador y el soberbio también tropiezan en ellos.
 
@@ -2664,7 +2664,7 @@ ni te habitúes a nombrar al Santo.
 
 <sup>10</sup> Porque, igual que un criado continuamente vigilado
 
-no quedará libre de golpes*,
+no quedará libre de golpes<span class="note-ref" data-ref="si-23-10" title="Ver comentario">&#42;</span>,
 
 así el que jura y nombra a Dios a todas horas
 
@@ -2674,7 +2674,7 @@ no se verá libre de pecado.
 
 y no se apartará de su casa el látigo.
 
-Si se descuida*, su pecado le cae encima;
+Si se descuida<span class="note-ref" data-ref="si-23-11" title="Ver comentario">&#42;</span>, su pecado le cae encima;
 
 si jura a la ligera, peca dos veces;
 
@@ -2682,7 +2682,7 @@ si jura en falso, no será perdonado,
 
 y su casa se llenará de desgracias.
 
-## Medir las palabras*.
+## Medir las palabras<span class="note-ref" data-ref="si-23-12" title="Ver comentario">&#42;</span>.
 <sup>12</sup> Hay palabras equiparables a la muerte;
 
 ¡que no se oigan nunca en la heredad de Jacob!,
@@ -2699,7 +2699,7 @@ pues hay palabras que son pecado.
 
 cuando te sientes entre los poderosos,
 
-no sea que te olvides en su presencia*,
+no sea que te olvides en su presencia<span class="note-ref" data-ref="si-23-14" title="Ver comentario">&#42;</span>,
 
 y, comportándote como un necio,
 
@@ -2712,7 +2712,7 @@ y a maldecir el día de tu nacimiento.
 no se corregirá en toda su vida.
 
 ## La lujuria.
-<sup>16</sup> Dos clases de gente multiplican sus pecados*,
+<sup>16</sup> Dos clases de gente multiplican sus pecados<span class="note-ref" data-ref="si-23-16" title="Ver comentario">&#42;</span>,
 
 y una tercera provoca la ira divina:
 
@@ -2748,9 +2748,9 @@ que observan todos los caminos de los hombres
 
 y penetran los rincones más ocultos.
 
-<sup>20</sup> Antes de ser creadas, el Señor conocía todas las cosas*,
+<sup>20</sup> Antes de ser creadas, el Señor conocía todas las cosas<span class="note-ref" data-ref="si-23-20-a" title="Ver comentario">&#42;</span>,
 
-y, después de acabadas, todavía las conoce*.
+y, después de acabadas, todavía las conoce<span class="note-ref" data-ref="si-23-20-b" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> En las plazas de la ciudad ese hombre será castigado,
 
@@ -2785,9 +2785,9 @@ y su infamia no se borrará.
 
 que nada es mejor que el temor del Señor,
 
-nada más dulce que guardar sus mandamientos*.
+nada más dulce que guardar sus mandamientos<span class="note-ref" data-ref="si-23-27" title="Ver comentario">&#42;</span>.
 
-## Elogio de la Sabiduría *.
+## Elogio de la Sabiduría <span class="note-ref" data-ref="si-24" title="Ver comentario">&#42;</span>.
 <span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> La sabiduría hace su propio elogio,
 
 se vanagloria en medio de su pueblo.
@@ -2796,13 +2796,13 @@ se vanagloria en medio de su pueblo.
 
 se vanagloria delante de su poder:
 
-<sup>3</sup> «Yo salí de la boca del Altísimo*
+<sup>3</sup> «Yo salí de la boca del Altísimo<span class="note-ref" data-ref="si-24-3" title="Ver comentario">&#42;</span>
 
 y, como niebla, cubrí la tierra.
 
 <sup>4</sup> Yo puse mi tienda en las alturas,
 
-y mi trono era una columna de nubes*.
+y mi trono era una columna de nubes<span class="note-ref" data-ref="si-24-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Yo sola recorrí la bóveda del cielo
 
@@ -2810,7 +2810,7 @@ y me paseé por la profundidad del abismo.
 
 <sup>6</sup> Sobre las olas del mar, sobre toda la tierra,
 
-sobre todos los pueblos y naciones se extendía mi dominio*.
+sobre todos los pueblos y naciones se extendía mi dominio<span class="note-ref" data-ref="si-24-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> En todos ellos busqué donde descansar,
 
@@ -2828,7 +2828,7 @@ sea Israel tu heredad.»
 
 y por los siglos de los siglos existiré.
 
-<sup>10</sup> Oficié en la tienda santa delante de él*,
+<sup>10</sup> Oficié en la tienda santa delante de él<span class="note-ref" data-ref="si-24-10" title="Ver comentario">&#42;</span>,
 
 y así me establecí en Sión;
 
@@ -2844,7 +2844,7 @@ en la porción del Señor, en su heredad.
 
 como ciprés de las montañas del Hermón.
 
-<sup>14</sup> He crecido como palmera de Engadí*,
+<sup>14</sup> He crecido como palmera de Engadí<span class="note-ref" data-ref="si-24-14" title="Ver comentario">&#42;</span>,
 
 como plantel de rosas en Jericó,
 
@@ -2858,7 +2858,7 @@ como mirra exquisita he expandido aroma,
 
 como gálbano y ónice y estacte,
 
-como nube de incienso en la Tienda*.
+como nube de incienso en la Tienda<span class="note-ref" data-ref="si-24-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Como terebinto he extendido mis ramas,
 
@@ -2866,7 +2866,7 @@ un ramaje hermoso y espléndido.
 
 <sup>17</sup> Como vid lozana he retoñado,
 
-y mis flores son frutos hermosos y abundantes*.
+y mis flores son frutos hermosos y abundantes<span class="note-ref" data-ref="si-24-17" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Venid a mí los que me deseáis,
 
@@ -2884,14 +2884,14 @@ los que me beben aún sentirán más sed.
 
 los que cumplen mis obras, no llegarán a pecar.»
 
-## La Sabiduría y la Ley*.
+## La Sabiduría y la Ley<span class="note-ref" data-ref="si-24-23-a" title="Ver comentario">&#42;</span>.
 <sup>23</sup> Todo esto es el libro de la alianza del Dios Altísimo,
 
 la Ley que nos prescribió Moisés
 
-como herencia para las asambleas de Jacob*.
+como herencia para las asambleas de Jacob<span class="note-ref" data-ref="si-24-23-b" title="Ver comentario">&#42;</span>.
 
-<sup>25</sup> Ella rebosa sabiduría como el Pisón*,
+<sup>25</sup> Ella rebosa sabiduría como el Pisón<span class="note-ref" data-ref="si-24-25" title="Ver comentario">&#42;</span>,
 
 como el Tigris en la estación de los primeros frutos;
 
@@ -2899,7 +2899,7 @@ como el Tigris en la estación de los primeros frutos;
 
 como el Jordán en tiempo de cosecha;
 
-<sup>27</sup> derrama enseñanza como el Nilo*,
+<sup>27</sup> derrama enseñanza como el Nilo<span class="note-ref" data-ref="si-24-27" title="Ver comentario">&#42;</span>,
 
 como el Guijón durante la vendimia.
 
@@ -2911,7 +2911,7 @@ y el último todavía no la ha descubierto,
 
 y sus consejos más profundos que el abismo.
 
-<sup>30</sup> Y yo*, como canal que deriva de un río,
+<sup>30</sup> Y yo<span class="note-ref" data-ref="si-24-30" title="Ver comentario">&#42;</span>, como canal que deriva de un río,
 
 como acequia que atraviesa un jardín,
 
@@ -2921,7 +2921,7 @@ y empaparé mis parterres.»
 
 Pero el canal se me convirtió en río,
 
-y mi río se ha convertido en un mar*.
+y mi río se ha convertido en un mar<span class="note-ref" data-ref="si-24-31" title="Ver comentario">&#42;</span>.
 
 <sup>32</sup> Haré que mi enseñanza brille como la aurora
 
@@ -2938,7 +2938,7 @@ sino para todos aquellos que buscan la sabiduría.
 ## Proverbios.
 <span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Tres cosas desea mi alma
 
-que agradan al Señor y a los hombres*:
+que agradan al Señor y a los hombres<span class="note-ref" data-ref="si-25-1" title="Ver comentario">&#42;</span>:
 
 concordia entre hermanos, amistad entre vecinos,
 
@@ -2980,7 +2980,7 @@ el que en vida puede ver la caída de sus enemigos.
 
 <sup>8</sup> Dichoso el hombre que vive con una mujer sensata,
 
-el que no tiene que arar con buey y asno*,
+el que no tiene que arar con buey y asno<span class="note-ref" data-ref="si-25-8" title="Ver comentario">&#42;</span>,
 
 el que no tiene deslices con su lengua,
 
@@ -2996,7 +2996,7 @@ pero nadie aventaja al que teme al Señor.
 
 <sup>11</sup> El temor del Señor está por encima de todo;
 
-el que lo posee, ¿a quién se le puede comparar*?
+el que lo posee, ¿a quién se le puede comparar<span class="note-ref" data-ref="si-25-11" title="Ver comentario">&#42;</span>?
 
 ## Las mujeres.
 <sup>13</sup> ¡Cualquier herida, menos la del corazón!,
@@ -3007,7 +3007,7 @@ el que lo posee, ¿a quién se le puede comparar*?
 
 ¡cualquier venganza, menos la de los enemigos!
 
-<sup>15</sup> No hay veneno* como el de la serpiente,
+<sup>15</sup> No hay veneno<span class="note-ref" data-ref="si-25-15" title="Ver comentario">&#42;</span> como el de la serpiente,
 
 ni furia como la del enemigo.
 
@@ -3017,11 +3017,11 @@ que convivir con una mujer malvada.
 
 <sup>17</sup> La maldad de la mujer desfigura su semblante,
 
-y oscurece su rostro como el de un oso*.
+y oscurece su rostro como el de un oso<span class="note-ref" data-ref="si-25-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Cuando su marido se sienta entre los vecinos,
 
-suspira amargamente sin poder contenerse*.
+suspira amargamente sin poder contenerse<span class="note-ref" data-ref="si-25-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Toda malicia es poca comparada con la de la mujer;
 
@@ -3049,7 +3049,7 @@ la mujer que no hace feliz a su marido.
 
 <sup>24</sup> Por la mujer empezó el pecado
 
-y por su culpa todos morimos*.
+y por su culpa todos morimos<span class="note-ref" data-ref="si-25-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> No des salida al agua,
 
@@ -3057,7 +3057,7 @@ ni libertad de palabra a la mujer malvada;
 
 <sup>26</sup> si no se comporta según tu voluntad,
 
-apártala de tu lado*.
+apártala de tu lado<span class="note-ref" data-ref="si-25-26" title="Ver comentario">&#42;</span>.
 
 <span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> Dichoso el marido de una mujer buena,
 
@@ -3077,7 +3077,7 @@ y llevarán siempre la alegría en el rostro.
 
 <sup>5</sup> Tres cosas teme mi corazón,
 
-y una cuarta me da miedo*:
+y una cuarta me da miedo<span class="note-ref" data-ref="si-26-5" title="Ver comentario">&#42;</span>:
 
 calumnia en la ciudad, motín popular
 
@@ -3085,9 +3085,9 @@ y falsa acusación: todo ello es peor que la muerte;
 
 <sup>6</sup> pero pena y dolor de corazón es una mujer celosa de otra,
 
-el látigo de su lengua a todos instiga*.
+el látigo de su lengua a todos instiga<span class="note-ref" data-ref="si-26-6" title="Ver comentario">&#42;</span>.
 
-<sup>7</sup> Yugo de bueyes mal ajustado* es la mujer malvada;
+<sup>7</sup> Yugo de bueyes mal ajustado<span class="note-ref" data-ref="si-26-7" title="Ver comentario">&#42;</span> es la mujer malvada;
 
 querer dominarla es como agarrar un escorpión.
 
@@ -3131,13 +3131,13 @@ es incalculable el valor de la que sabe controlarse.
 
 la belleza de la mujer buena en su casa bien ordenada.
 
-<sup>17</sup> Lámpara que brilla en el candelabro santo*,
+<sup>17</sup> Lámpara que brilla en el candelabro santo<span class="note-ref" data-ref="si-26-17" title="Ver comentario">&#42;</span>,
 
 un rostro hermoso sobre una figura esbelta.
 
 <sup>18</sup> Columnas de oro sobre pedestales de plata,
 
-las piernas bonitas sobre talones firmes*.
+las piernas bonitas sobre talones firmes<span class="note-ref" data-ref="si-26-18" title="Ver comentario">&#42;</span>.
 
 ## Cosas que entristecen.
 <sup>28</sup> Dos cosas entristecen mi corazón,
@@ -3157,13 +3157,13 @@ y quien se pasa de la justicia al pecado.
 
 el comerciante no se verá libre de pecado.
 
-<span id="chapter-27" class="chapter-marker" data-chapter="27">27</span><sup>1</sup> Por amor al dinero muchos han pecado*;
+<span id="chapter-27" class="chapter-marker" data-chapter="27">27</span><sup>1</sup> Por amor al dinero muchos han pecado<span class="note-ref" data-ref="si-27-1-a" title="Ver comentario">&#42;</span>;
 
-el que pretende enriquecerse desvía la mirada*.
+el que pretende enriquecerse desvía la mirada<span class="note-ref" data-ref="si-27-1-b" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Entre dos piedras unidas se clava la estaca,
 
-y entre compra y venta se introduce el pecado*.
+y entre compra y venta se introduce el pecado<span class="note-ref" data-ref="si-27-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> Quien no se aferra enseguida al temor del Señor,
 
@@ -3203,7 +3203,7 @@ y el pecado a los que cometen injusticias.
 
 en cambio, el insensato cambia como la luna.
 
-<sup>12</sup> No pierdas el tiempo con los necios*,
+<sup>12</sup> No pierdas el tiempo con los necios<span class="note-ref" data-ref="si-27-12" title="Ver comentario">&#42;</span>,
 
 pero entre los sensatos demórate sin reparos.
 
@@ -3249,7 +3249,7 @@ pero no hay esperanza para el que ha revelado un secreto.
 ## Hipocresía.
 <sup>22</sup> El que guiña el ojo algo malo está tramando;
 
-nadie podrá disuadirle de ello*.
+nadie podrá disuadirle de ello<span class="note-ref" data-ref="si-27-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> En tu presencia habla con dulzura
 
@@ -3265,7 +3265,7 @@ a quien también detesta el Señor.
 
 <sup>25</sup> Quien tira una piedra al aire, le cae en la cabeza,
 
-el golpe a traición hiere al que lo da*.
+el golpe a traición hiere al que lo da<span class="note-ref" data-ref="si-27-25" title="Ver comentario">&#42;</span>.
 
 <sup>26</sup> Quien cava una fosa, caerá en ella;
 
@@ -3281,7 +3281,7 @@ pero la venganza le acecha como un león.
 
 <sup>29</sup> Los que se alegran de la caída del piadoso
 
-caerán en la trampa, y el dolor los consumirá antes de morir*.
+caerán en la trampa, y el dolor los consumirá antes de morir<span class="note-ref" data-ref="si-27-29" title="Ver comentario">&#42;</span>.
 
 ## El rencor.
 <sup>30</sup> Rencor e ira también son detestables;
@@ -3348,7 +3348,7 @@ si le escupes encima, se apagará.
 
 que ha perdido a muchos que vivían en paz.
 
-<sup>14</sup> A muchos ha sacudido la lengua calumniadora*,
+<sup>14</sup> A muchos ha sacudido la lengua calumniadora<span class="note-ref" data-ref="si-28-14" title="Ver comentario">&#42;</span>,
 
 los ha dispersado de nación en nación;
 
@@ -3390,7 +3390,7 @@ y sus cadenas, de bronce.
 
 <sup>22</sup> Pero no tiene poder sobre los piadosos,
 
-que no se quemarán* en sus llamas.
+que no se quemarán<span class="note-ref" data-ref="si-28-22" title="Ver comentario">&#42;</span> en sus llamas.
 
 <sup>23</sup> Los que abandonan al Señor caerán en ella;
 
@@ -3412,7 +3412,7 @@ puerta y cerrojo para tu boca.
 
 no sea que caigas ante el que te acecha.
 
-## El préstamo*.
+## El préstamo<span class="note-ref" data-ref="si-29" title="Ver comentario">&#42;</span>.
 <span id="chapter-29" class="chapter-marker" data-chapter="29">29</span><sup>1</sup> El hombre misericordioso presta a su prójimo;
 
 quien le brinda ayuda guarda los mandamientos.
@@ -3425,7 +3425,7 @@ y restituye lo prestado a su debido tiempo.
 
 y en toda ocasión encontrarás lo que necesitas.
 
-<sup>4</sup> Muchos pretenden adueñarse de lo prestado*,
+<sup>4</sup> Muchos pretenden adueñarse de lo prestado<span class="note-ref" data-ref="si-29-4" title="Ver comentario">&#42;</span>,
 
 y ponen en dificultad a quienes les ayudaron.
 
@@ -3435,7 +3435,7 @@ y humillan la voz para conseguir su dinero;
 
 pero, a la hora de restituir, dan largas,
 
-responden con evasivas*
+responden con evasivas<span class="note-ref" data-ref="si-29-5" title="Ver comentario">&#42;</span>
 
 y echan la culpa a las circunstancias.
 
@@ -3445,13 +3445,13 @@ y aun lo considerará como una ganga.
 
 En caso contrario, perderá su dinero,
 
-y se habrá ganado sin necesidad* un enemigo,
+y se habrá ganado sin necesidad<span class="note-ref" data-ref="si-29-6" title="Ver comentario">&#42;</span> un enemigo,
 
 que le devolverá maldiciones e insultos,
 
 y, en lugar de honor, le devolverá desprecio.
 
-<sup>7</sup> Así que muchos se niegan a prestar dinero, no por malicia*,
+<sup>7</sup> Así que muchos se niegan a prestar dinero, no por malicia<span class="note-ref" data-ref="si-29-7" title="Ver comentario">&#42;</span>,
 
 sino por miedo a que les despojen sin razón.
 
@@ -3520,7 +3520,7 @@ que grandes banquetes en casa ajena.
 
 <sup>23</sup> En lo poco y en lo mucho pon buena cara,
 
-y no escucharás reproches de tu huésped*.
+y no escucharás reproches de tu huésped<span class="note-ref" data-ref="si-29-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> Triste vida andar de casa en casa:
 
@@ -3563,11 +3563,11 @@ pues deja tras de sí un hijo semejante a él;
 
 y a la hora de su muerte no siente tristeza.
 
-<sup>6</sup> Contra sus enemigos deja un vengador*,
+<sup>6</sup> Contra sus enemigos deja un vengador<span class="note-ref" data-ref="si-30-6" title="Ver comentario">&#42;</span>,
 
 y para sus amigos un benefactor.
 
-<sup>7</sup> El que mima a su hijo vendará sus heridas*,
+<sup>7</sup> El que mima a su hijo vendará sus heridas<span class="note-ref" data-ref="si-30-7" title="Ver comentario">&#42;</span>,
 
 a cada grito se le conmoverán sus entrañas.
 
@@ -3593,7 +3593,7 @@ túndele las costillas cuando es pequeño,
 
 no sea que, volviéndose rebelde, te desobedezca,
 
-y sufras por él una honda amargura*.
+y sufras por él una honda amargura<span class="note-ref" data-ref="si-30-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Educa a tu hijo y trabájalo bien,
 
@@ -3618,13 +3618,13 @@ el descanso eterno que una enfermedad incurable.
 
 <sup>18</sup> Manjares derramados sobre boca cerrada,
 
-las ofrendas depositadas sobre una tumba*.
+las ofrendas depositadas sobre una tumba<span class="note-ref" data-ref="si-30-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> ¿De qué le sirve al ídolo una ofrenda?
 
 ¡No la puede comer ni beber!
 
-## Así sucede a quien persigue el Señor*:
+## Así sucede a quien persigue el Señor<span class="note-ref" data-ref="si-30-19" title="Ver comentario">&#42;</span>:
 
 <sup>20</sup> mira con sus ojos y suspira,
 
@@ -3639,7 +3639,7 @@ ni te atormentes con tus pensamientos;
 
 y la felicidad le alarga los días.
 
-<sup>23</sup> Distrae tu alma* y consuela tu corazón;
+<sup>23</sup> Distrae tu alma<span class="note-ref" data-ref="si-30-23" title="Ver comentario">&#42;</span> y consuela tu corazón;
 
 aparta de ti la tristeza,
 
@@ -3649,9 +3649,9 @@ de ella no se saca ningún provecho.
 
 <sup>24</sup> Envidia y malhumor acortan los días,
 
-las preocupaciones producen vejez prematura*.
+las preocupaciones producen vejez prematura<span class="note-ref" data-ref="si-30-24" title="Ver comentario">&#42;</span>.
 
-<sup>25</sup> Un corazón radiante tiene buen apetito*,
+<sup>25</sup> Un corazón radiante tiene buen apetito<span class="note-ref" data-ref="si-30-25" title="Ver comentario">&#42;</span>,
 
 y le aprovecha todo lo que come.
 
@@ -3660,7 +3660,7 @@ y le aprovecha todo lo que come.
 
 sus preocupaciones ahuyentan el sueño.
 
-<sup>2</sup> Las preocupaciones le impiden dormir*,
+<sup>2</sup> Las preocupaciones le impiden dormir<span class="note-ref" data-ref="si-31-2" title="Ver comentario">&#42;</span>,
 
 como una enfermedad grave le quita el sueño.
 
@@ -3674,19 +3674,19 @@ y cuando descansa, cae en la miseria.
 
 <sup>5</sup> Quien ama el oro no quedará exento de culpa;
 
-quien anda tras el lucro en él se extraviará*.
+quien anda tras el lucro en él se extraviará<span class="note-ref" data-ref="si-31-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Muchos se arruinaron a causa del oro,
 
-y se encontraron cara a cara con la ruina*.
+y se encontraron cara a cara con la ruina<span class="note-ref" data-ref="si-31-6" title="Ver comentario">&#42;</span>.
 
-<sup>7</sup> Es una trampa* para los que le ofrecen sacrificios;
+<sup>7</sup> Es una trampa<span class="note-ref" data-ref="si-31-7" title="Ver comentario">&#42;</span> para los que le ofrecen sacrificios;
 
 todos los insensatos quedan atrapados en ella.
 
 <sup>8</sup> Dichoso el rico de conducta intachable,
 
-que no corre tras el oro*.
+que no corre tras el oro<span class="note-ref" data-ref="si-31-8" title="Ver comentario">&#42;</span>.
 
 <sup>9</sup> ¿Quién es? Vamos a felicitarle,
 
@@ -3702,7 +3702,7 @@ hacer mal y no lo hizo?
 
 <sup>11</sup> Sus bienes se consolidarán,
 
-y la asamblea proclamará su bondad*.
+y la asamblea proclamará su bondad<span class="note-ref" data-ref="si-31-11" title="Ver comentario">&#42;</span>.
 
 ## Los banquetes.
 <sup>12</sup> ¿Te has sentado en una mesa opulenta?
@@ -3715,7 +3715,7 @@ y digas: «¡Cuántas cosas hay aquí!»
 
 no hay nada peor que ella,
 
-pues por cualquier cosa llora*.
+pues por cualquier cosa llora<span class="note-ref" data-ref="si-31-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> No alargues la mano para coger lo que otro mira,
 
@@ -3723,9 +3723,9 @@ ni te lances sobre el mismo plato que él.
 
 <sup>15</sup> Juzga al prójimo como a ti mismo,
 
-y reflexiona siempre antes de actuar*.
+y reflexiona siempre antes de actuar<span class="note-ref" data-ref="si-31-15" title="Ver comentario">&#42;</span>.
 
-<sup>16</sup> Come con educación lo que te pongan delante*,
+<sup>16</sup> Come con educación lo que te pongan delante<span class="note-ref" data-ref="si-31-16" title="Ver comentario">&#42;</span>,
 
 no seas glotón, si no quieres quedar mal.
 
@@ -3751,13 +3751,13 @@ esperan al hombre insaciable.
 
 <sup>21</sup> Si te viste obligado a comer demasiado,
 
-levántate, ve a vomitar* y quedarás tranquilo.
+levántate, ve a vomitar<span class="note-ref" data-ref="si-31-21" title="Ver comentario">&#42;</span> y quedarás tranquilo.
 
 <sup>22</sup> Escúchame, hijo, y no me desprecies;
 
 al final comprenderás mis palabras.
 
-En todo lo que hagas sé moderado*,
+En todo lo que hagas sé moderado<span class="note-ref" data-ref="si-31-22" title="Ver comentario">&#42;</span>,
 
 y no cogerás ninguna enfermedad.
 
@@ -3792,7 +3792,7 @@ es el vino bebido a tiempo y con medida.
 
 <sup>29</sup> Amargura del alma, el vino bebido con exceso,
 
-por incitación o desafío*.
+por incitación o desafío<span class="note-ref" data-ref="si-31-29" title="Ver comentario">&#42;</span>.
 
 <sup>30</sup> La embriaguez enfurece al insensato hasta hacerle caer,
 
@@ -3807,7 +3807,7 @@ No le digas nada que pueda ofenderle,
 ni le molestes reclamándole dinero.
 
 ## Los banquetes.
-<span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> ¿Te hacen presidir la mesa? No te engrías,*
+<span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> ¿Te hacen presidir la mesa? No te engrías,<span class="note-ref" data-ref="si-32-1" title="Ver comentario">&#42;</span>
 
 sé uno más entre todos;
 
@@ -3817,11 +3817,11 @@ atiéndeles primero y luego siéntate.
 
 para alegrarte con ellos
 
-y recibir la corona de la cortesía*.
+y recibir la corona de la cortesía<span class="note-ref" data-ref="si-32-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> Habla, anciano, que eso te corresponde,
 
-pero hazlo con discreción y sin estorbar la música*.
+pero hazlo con discreción y sin estorbar la música<span class="note-ref" data-ref="si-32-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Durante la audición, no hables en exceso;
 
@@ -3857,7 +3857,7 @@ ve corriendo a casa y no te hagas el remolón.
 
 <sup>12</sup> Allí, diviértete y haz lo que te guste,
 
-pero no peques con palabras insolentes*.
+pero no peques con palabras insolentes<span class="note-ref" data-ref="si-32-12" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Y por todo esto bendice a tu Creador,
 
@@ -3874,19 +3874,19 @@ pero al hipócrita le sirve de tropiezo.
 
 <sup>16</sup> Los que temen al Señor son justificados,
 
-sus buenas acciones brillan como la luz*.
+sus buenas acciones brillan como la luz<span class="note-ref" data-ref="si-32-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> El pecador rechaza la corrección,
 
-siempre encuentra excusas para hacer su voluntad*.
+siempre encuentra excusas para hacer su voluntad<span class="note-ref" data-ref="si-32-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> El hombre sensato no olvida la reflexión,
 
-el malvado y el orgulloso no tienen miedo a nada*.
+el malvado y el orgulloso no tienen miedo a nada<span class="note-ref" data-ref="si-32-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> No hagas nada sin aconsejarte,
 
-y no te arrepentirás de tus acciones*.
+y no te arrepentirás de tus acciones<span class="note-ref" data-ref="si-32-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> No vayas por caminos escabrosos,
 
@@ -3896,7 +3896,7 @@ y no tropezarás con las piedras.
 
 <sup>22</sup> y de tus hijos guárdate.
 
-<sup>23</sup> En todos tus actos confía en ti*,
+<sup>23</sup> En todos tus actos confía en ti<span class="note-ref" data-ref="si-32-23" title="Ver comentario">&#42;</span>,
 
 que también esto es guardar los mandamientos.
 
@@ -3912,11 +3912,11 @@ e incluso en la prueba será liberado.
 
 pero el que finge observarla es como nave en la tempestad.
 
-<sup>3</sup> El hombre inteligente confía en la ley*,
+<sup>3</sup> El hombre inteligente confía en la ley<span class="note-ref" data-ref="si-33-3" title="Ver comentario">&#42;</span>,
 
 la considera digna de fe, como un oráculo.
 
-<sup>4</sup> Prepara tu discurso y así serás escuchado*,
+<sup>4</sup> Prepara tu discurso y así serás escuchado<span class="note-ref" data-ref="si-33-4" title="Ver comentario">&#42;</span>,
 
 ordena tus ideas y luego responde.
 
@@ -3929,7 +3929,7 @@ su razonamiento gira como un eje.
 relincha bajo cualquier jinete.
 
 ## Contrastes en la creación.
-<sup>7</sup> ¿Por qué un día es más importante que otro*,
+<sup>7</sup> ¿Por qué un día es más importante que otro<span class="note-ref" data-ref="si-33-7" title="Ver comentario">&#42;</span>,
 
 si todos los días del año reciben la misma luz del sol?
 
@@ -3945,7 +3945,7 @@ a otros los hizo días ordinarios.
 
 de la tierra fue creado Adán.
 
-<sup>11</sup> El Señor los ha diferenciado con su gran sabiduría*,
+<sup>11</sup> El Señor los ha diferenciado con su gran sabiduría<span class="note-ref" data-ref="si-33-11" title="Ver comentario">&#42;</span>,
 
 y ha diversificado sus caminos.
 
@@ -3959,7 +3959,7 @@ y los derribó de su puesto.
 
 <sup>13</sup> Como la arcilla en manos del alfarero,
 
-que la modela según su voluntad*,
+que la modela según su voluntad<span class="note-ref" data-ref="si-33-13" title="Ver comentario">&#42;</span>,
 
 así son los hombres en manos de su Hacedor,
 
@@ -3969,7 +3969,7 @@ que da a cada uno según su criterio.
 
 frente a la muerte, la vida;
 
-así frente al piadoso, el pecador*.
+así frente al piadoso, el pecador<span class="note-ref" data-ref="si-33-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> Observa, pues, todas las obras del Altísimo,
 
@@ -3990,7 +3990,7 @@ sino para todos los que buscan la instrucción.
 
 <sup>19</sup> Escuchadme, grandes del pueblo,
 
-jefes de la asamblea*, prestad oído.
+jefes de la asamblea<span class="note-ref" data-ref="si-33-19" title="Ver comentario">&#42;</span>, prestad oído.
 
 ## Testamentos e independencia.
 <sup>20</sup> A hijo y mujer, a hermano y amigo
@@ -4017,20 +4017,20 @@ no dejes que se manche tu reputación.
 
 a la hora de la muerte, reparte tu herencia.
 
-## Los esclavos*.
+## Los esclavos<span class="note-ref" data-ref="si-33-25" title="Ver comentario">&#42;</span>.
 <sup>25</sup> Al asno, forraje, palo y carga;
 
 al criado, pan, disciplina y trabajo.
 
 <sup>26</sup> Haz trabajar al siervo y encontrarás descanso;
 
-deja libres sus manos* y buscará la libertad.
+deja libres sus manos<span class="note-ref" data-ref="si-33-26" title="Ver comentario">&#42;</span> y buscará la libertad.
 
 <sup>27</sup> Yugo y riendas doblegan el cuello;
 
 al mal criado azotes y castigos.
 
-<sup>28</sup> Hazle trabajar para que no esté ocioso*,
+<sup>28</sup> Hazle trabajar para que no esté ocioso<span class="note-ref" data-ref="si-33-28" title="Ver comentario">&#42;</span>,
 
 que la ociosidad enseña muchos vicios.
 
@@ -4044,7 +4044,7 @@ ni hagas nada injustamente.
 
 <sup>31</sup> Si tienes un criado, trátalo como a ti mismo,
 
-porque con sangre lo adquiriste*.
+porque con sangre lo adquiriste<span class="note-ref" data-ref="si-33-31" title="Ver comentario">&#42;</span>.
 
 <sup>32</sup> Si tienes un criado, trátalo como a un hermano,
 
@@ -4054,7 +4054,7 @@ porque lo necesitas como a ti mismo.
 
 ¿por qué camino irás a buscarlo?
 
-## Los sueños*.
+## Los sueños<span class="note-ref" data-ref="si-34" title="Ver comentario">&#42;</span>.
 <span id="chapter-34" class="chapter-marker" data-chapter="34">34</span><sup>1</sup> Las esperanzas vanas y engañosas son propias del necio,
 
 los sueños dan alas a los insensatos.
@@ -4065,7 +4065,7 @@ es fiarse de los sueños.
 
 <sup>3</sup> Espejo y sueño son cosas semejantes,
 
-frente a un rostro, la imagen de un rostro*.
+frente a un rostro, la imagen de un rostro<span class="note-ref" data-ref="si-34-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> ¿Puede salir algo puro de lo impuro?;
 
@@ -4085,7 +4085,7 @@ y fracasaron por fiarse de ellos.
 
 <sup>8</sup> La ley se ha de cumplir sin engaño,
 
-y la sabiduría en una boca sincera es perfección*.
+y la sabiduría en una boca sincera es perfección<span class="note-ref" data-ref="si-34-8" title="Ver comentario">&#42;</span>.
 
 ## Los viajes.
 <sup>9</sup> El que ha viajado mucho sabe muchas cosas;
@@ -4102,7 +4102,7 @@ mis conocimientos superan mis palabras.
 
 <sup>12</sup> Varias veces he estado en peligro de muerte,
 
-pero me salvé gracias a lo que sigue*:
+pero me salvé gracias a lo que sigue<span class="note-ref" data-ref="si-34-12" title="Ver comentario">&#42;</span>:
 
 <sup>13</sup> Los que temen al Señor vivirán,
 
@@ -4169,7 +4169,7 @@ y después los vuelve a cometer;
 
 ¿de qué le sirve haberse humillado?
 
-## Ley y sacrificios*.
+## Ley y sacrificios<span class="note-ref" data-ref="si-35" title="Ver comentario">&#42;</span>.
 <span id="chapter-35" class="chapter-marker" data-chapter="35">35</span><sup>1</sup> Observar la ley es hacer muchas ofrendas,
 
 guardar los mandamientos es hacer sacrificios de comunión.
@@ -4204,7 +4204,7 @@ y paga los diezmos de buena gana.
 
 <sup>9</sup> Da al Altísimo como él te ha dado a ti,
 
-con generosidad, según tus posibilidades*.
+con generosidad, según tus posibilidades<span class="note-ref" data-ref="si-35-9" title="Ver comentario">&#42;</span>.
 
 <sup>10</sup> Porque el Señor sabe recompensar,
 
@@ -4231,13 +4231,13 @@ ni el lamento de la viuda.
 
 son su clamor contra quien las provocó.
 
-<sup>16</sup> Quien sirve de buena gana*, es bien aceptado,
+<sup>16</sup> Quien sirve de buena gana<span class="note-ref" data-ref="si-35-16" title="Ver comentario">&#42;</span>, es bien aceptado,
 
 y su plegaria sube hasta las nubes.
 
-<sup>17</sup> La oración del humilde atraviesa las nubes*;
+<sup>17</sup> La oración del humilde atraviesa las nubes<span class="note-ref" data-ref="si-35-17-a" title="Ver comentario">&#42;</span>;
 
-hasta que no llega a su término, él no se consuela*.
+hasta que no llega a su término, él no se consuela<span class="note-ref" data-ref="si-35-17-b" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> No desiste hasta que el Altísimo le atiende,
 
@@ -4245,7 +4245,7 @@ hasta que juzga a los justos y les hace justicia.
 
 <sup>19</sup> El Señor no tardará,
 
-ni tendrá paciencia con los impíos*,
+ni tendrá paciencia con los impíos<span class="note-ref" data-ref="si-35-19" title="Ver comentario">&#42;</span>,
 
 <sup>20</sup> hasta quebrantar los lomos de los despiadados
 
@@ -4267,7 +4267,7 @@ y alegrarles con su misericordia.
 
 como nubes de lluvia en tiempo de sequía.
 
-## Oración por Israel *.
+## Oración por Israel <span class="note-ref" data-ref="si-36" title="Ver comentario">&#42;</span>.
 <span id="chapter-36" class="chapter-marker" data-chapter="36">36</span><sup>1</sup> Ten piedad de nosotros, Señor, Dios del universo, mira
 
 y siembra tu temor sobre todas las naciones.
@@ -4294,7 +4294,7 @@ extermina al adversario y aniquila al enemigo.
 
 <sup>7</sup> Acelera la hora, recuerda el juramento,
 
-y que se divulguen tus grandezas*.
+y que se divulguen tus grandezas<span class="note-ref" data-ref="si-36-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Que el fuego de tu ira devore a los supervivientes,
 
@@ -4306,7 +4306,7 @@ que dicen: «Fuera de nosotros no hay nadie.»
 
 <sup>10</sup> Reúne a todas las tribus de Jacob,
 
-dales su heredad como al principio*.
+dales su heredad como al principio<span class="note-ref" data-ref="si-36-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> Ten piedad, Señor, del pueblo llamado con tu nombre,
 
@@ -4318,9 +4318,9 @@ de Jerusalén, lugar de tu descanso.
 
 <sup>13</sup> Llena a Sión de tu alabanza,
 
-y el templo, de tu gloria*.
+y el templo, de tu gloria<span class="note-ref" data-ref="si-36-13" title="Ver comentario">&#42;</span>.
 
-<sup>14</sup> Da testimonio en favor de tus primeras criaturas*,
+<sup>14</sup> Da testimonio en favor de tus primeras criaturas<span class="note-ref" data-ref="si-36-14" title="Ver comentario">&#42;</span>,
 
 cumple las profecías hechas en tu nombre.
 
@@ -4328,7 +4328,7 @@ cumple las profecías hechas en tu nombre.
 
 y que tus profetas sean acreditados.
 
-<sup>16</sup> Escucha, Señor, la súplica de tus siervos*,
+<sup>16</sup> Escucha, Señor, la súplica de tus siervos<span class="note-ref" data-ref="si-36-16" title="Ver comentario">&#42;</span>,
 
 según la bendición de Aarón sobre tu pueblo.
 
@@ -4352,7 +4352,7 @@ pero el experimentado le da su merecido.
 ## Elección de esposa.
 <sup>21</sup> La mujer acepta cualquier marido,
 
-pero unas jóvenes son mejores que otras*.
+pero unas jóvenes son mejores que otras<span class="note-ref" data-ref="si-36-21" title="Ver comentario">&#42;</span>.
 
 <sup>22</sup> La belleza de la mujer recrea la mirada,
 
@@ -4364,7 +4364,7 @@ su marido ya no es como los demás hombres.
 
 <sup>24</sup> El que consigue una mujer, empieza a hacer fortuna,
 
-una ayuda semejante a él* y columna de apoyo.
+una ayuda semejante a él<span class="note-ref" data-ref="si-36-24" title="Ver comentario">&#42;</span> y columna de apoyo.
 
 <sup>25</sup> Donde no hay valla, la propiedad es saqueada;
 
@@ -4387,15 +4387,15 @@ pero hay amigo que lo es sólo de nombre.
 
 que un compañero o amigo se convierta en enemigo?
 
-<sup>3</sup> ¡Oh intención perversa! ¿De dónde saliste*
+<sup>3</sup> ¡Oh intención perversa! ¿De dónde saliste<span class="note-ref" data-ref="si-37-3" title="Ver comentario">&#42;</span>
 
 para cubrir la tierra de engaño?
 
 <sup>4</sup> En momentos de alegría, el compañero disfruta del amigo,
 
-pero en la desgracia se vuelve contra él*.
+pero en la desgracia se vuelve contra él<span class="note-ref" data-ref="si-37-4" title="Ver comentario">&#42;</span>.
 
-<sup>5</sup> El compañero compadece al amigo por interés*,
+<sup>5</sup> El compañero compadece al amigo por interés<span class="note-ref" data-ref="si-37-5" title="Ver comentario">&#42;</span>,
 
 y cuando llega el combate, coge el escudo sólo para defenderse.
 
@@ -4414,7 +4414,7 @@ entérate primero de sus necesidades,
 
 porque te aconsejará en su propio provecho;
 
-no sea que eche sobre ti la suerte*
+no sea que eche sobre ti la suerte<span class="note-ref" data-ref="si-37-8" title="Ver comentario">&#42;</span>
 
 <sup>9</sup> y te diga: «Vas por buen camino»,
 
@@ -4424,7 +4424,7 @@ y luego se quede esperando para ver qué te sucede.
 
 y esconde tus proyectos a los que te envidian.
 
-<sup>11</sup> No te aconsejes de una mujer sobre su rival*,
+<sup>11</sup> No te aconsejes de una mujer sobre su rival<span class="note-ref" data-ref="si-37-11" title="Ver comentario">&#42;</span>,
 
 de un cobarde sobre la guerra,
 
@@ -4444,7 +4444,7 @@ de un siervo holgazán sobre una gran tarea:
 
 no cuentes con ninguno de ellos para un consejo.
 
-<sup>12</sup> Recurre siempre a un hombre piadoso*,
+<sup>12</sup> Recurre siempre a un hombre piadoso<span class="note-ref" data-ref="si-37-12" title="Ver comentario">&#42;</span>,
 
 de quien sabes seguro que guarda los mandamientos,
 
@@ -4465,13 +4465,13 @@ más que siete centinelas en su torre de vigilancia.
 para que dirija tus pasos en la verdad.
 
 ## Verdadera y falsa sabiduría.
-<sup>16</sup> Principio de toda obra es la palabra*,
+<sup>16</sup> Principio de toda obra es la palabra<span class="note-ref" data-ref="si-37-16" title="Ver comentario">&#42;</span>,
 
 y antes de toda acción está la reflexión.
 
 <sup>17</sup> Raíz de los pensamientos es el corazón,
 
-de él salen cuatro ramas*:
+de él salen cuatro ramas<span class="note-ref" data-ref="si-37-17" title="Ver comentario">&#42;</span>:
 
 <sup>18</sup> bien y mal, vida y muerte,
 
@@ -4483,7 +4483,7 @@ pero para ellos mismos son unos inútiles.
 
 <sup>20</sup> Hay quien sabe hablar y es aborrecido,
 
-y acabará sin tener nada qué comer*,
+y acabará sin tener nada qué comer<span class="note-ref" data-ref="si-37-20" title="Ver comentario">&#42;</span>,
 
 <sup>21</sup> porque no ha recibido el favor del Señor
 
@@ -4491,11 +4491,11 @@ y carece de toda sabiduría.
 
 <sup>22</sup> Hay quien es sabio para sí mismo,
 
-y los frutos de su inteligencia sólo le aprovechan a él*.
+y los frutos de su inteligencia sólo le aprovechan a él<span class="note-ref" data-ref="si-37-22" title="Ver comentario">&#42;</span>.
 
 <sup>23</sup> El sabio enseña a su pueblo,
 
-y los frutos de su inteligencia son dignos de fe*.
+y los frutos de su inteligencia son dignos de fe<span class="note-ref" data-ref="si-37-23" title="Ver comentario">&#42;</span>.
 
 <sup>24</sup> El sabio es colmado de bendiciones;
 
@@ -4530,14 +4530,14 @@ y la glotonería acaba en cólicos.
 
 pero el que se cuida prolonga su vida.
 
-## El médico y la enfermedad*.
-<span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Honra al médico por los servicios que presta*,
+## El médico y la enfermedad<span class="note-ref" data-ref="si-38" title="Ver comentario">&#42;</span>.
+<span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Honra al médico por los servicios que presta<span class="note-ref" data-ref="si-38-1" title="Ver comentario">&#42;</span>,
 
 que también a él lo creó el Señor.
 
 <sup>2</sup> Del Altísimo viene la curación,
 
-del rey se reciben las dádivas*.
+del rey se reciben las dádivas<span class="note-ref" data-ref="si-38-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> La ciencia del médico le hace caminar con la cabeza alta,
 
@@ -4549,17 +4549,17 @@ y el hombre prudente no las desprecia.
 
 <sup>5</sup> ¿Acaso no endulzó el agua con un leño,
 
-para que se conociera su poder*?
+para que se conociera su poder<span class="note-ref" data-ref="si-38-5" title="Ver comentario">&#42;</span>?
 
 <sup>6</sup> Él es quien da a los hombres la ciencia,
 
 para que lo glorifiquen por sus maravillas.
 
-<sup>7</sup> Con las medicinas* el médico cura y elimina el sufrimiento,
+<sup>7</sup> Con las medicinas<span class="note-ref" data-ref="si-38-7" title="Ver comentario">&#42;</span> el médico cura y elimina el sufrimiento,
 
 con ellas el farmacéutico prepara sus mezclas.
 
-<sup>8</sup> Y así nunca se acaban sus obras*,
+<sup>8</sup> Y así nunca se acaban sus obras<span class="note-ref" data-ref="si-38-8" title="Ver comentario">&#42;</span>,
 
 y de él procede la paz sobre toda la tierra.
 
@@ -4573,7 +4573,7 @@ y purifica tu corazón de todo pecado.
 
 <sup>11</sup> Ofrece incienso, un memorial de flor de harina
 
-y ofrendas generosas según tus medios*.
+y ofrendas generosas según tus medios<span class="note-ref" data-ref="si-38-11" title="Ver comentario">&#42;</span>.
 
 <sup>12</sup> Luego recurre al médico, pues el Señor también lo ha creado;
 
@@ -4585,26 +4585,26 @@ que no se aparte de tu lado, pues lo necesitas;
 
 para que les conceda poder aliviar el dolor,
 
-curar la enfermedad y salvar tu vida*.
+curar la enfermedad y salvar tu vida<span class="note-ref" data-ref="si-38-14" title="Ver comentario">&#42;</span>.
 
 <sup>15</sup> El que peca contra su Hacedor
 
-¡que caiga en manos del médico*!
+¡que caiga en manos del médico<span class="note-ref" data-ref="si-38-15" title="Ver comentario">&#42;</span>!
 
-## El duelo*.
+## El duelo<span class="note-ref" data-ref="si-38-16-a" title="Ver comentario">&#42;</span>.
 <sup>16</sup> Hijo, por un muerto derrama lágrimas,
 
 y entona una endecha como quien sufre hondamente;
 
 entierra su cadáver según el ritual,
 
-y no seas descuidado con su sepultura*.
+y no seas descuidado con su sepultura<span class="note-ref" data-ref="si-38-16-b" title="Ver comentario">&#42;</span>.
 
-<sup>17</sup> Llora amargamente, golpéate con fuerza el pecho*,
+<sup>17</sup> Llora amargamente, golpéate con fuerza el pecho<span class="note-ref" data-ref="si-38-17-a" title="Ver comentario">&#42;</span>,
 
 hazle el duelo según su dignidad,
 
-un día o dos*, para evitar murmuraciones.
+un día o dos<span class="note-ref" data-ref="si-38-17-b" title="Ver comentario">&#42;</span>, para evitar murmuraciones.
 
 Pero luego consuélate de tu tristeza,
 
@@ -4614,25 +4614,25 @@ y la pena del corazón consume las fuerzas.
 
 <sup>19</sup> En la adversidad se prolonga la tristeza,
 
-una vida de miseria aflige el corazón*.
+una vida de miseria aflige el corazón<span class="note-ref" data-ref="si-38-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> No te abandones a la tristeza;
 
-evítala, acordándote del final*.
+evítala, acordándote del final<span class="note-ref" data-ref="si-38-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> No olvides que no hay retorno;
 
 al difunto no le aprovecha tu tristeza, y te harás daño a ti mismo.
 
-<sup>22</sup> «Recuerda mi sentencia*, que será también la tuya:
+<sup>22</sup> «Recuerda mi sentencia<span class="note-ref" data-ref="si-38-22-a" title="Ver comentario">&#42;</span>, que será también la tuya:
 
-a mí me tocó ayer, a ti te toca hoy*.»
+a mí me tocó ayer, a ti te toca hoy<span class="note-ref" data-ref="si-38-22-b" title="Ver comentario">&#42;</span>.»
 
 <sup>23</sup> Cuando un muerto descansa, deja que descanse su memoria;
 
 consuélate de él, porque ha dejado de existir.
 
-## Oficios manuales*.
+## Oficios manuales<span class="note-ref" data-ref="si-38-24" title="Ver comentario">&#42;</span>.
 <sup>24</sup> La sabiduría del escriba se adquiere en los ratos de ocio,
 
 el que se libera de los negocios se hará sabio.
@@ -4669,7 +4669,7 @@ el vapor del fuego le requema la carne,
 
 y en el calor de la fragua se fatiga;
 
-el ruido del martillo le ensordece*,
+el ruido del martillo le ensordece<span class="note-ref" data-ref="si-38-28" title="Ver comentario">&#42;</span>,
 
 y sus ojos están fijos en el modelo del objeto;
 
@@ -4683,7 +4683,7 @@ que hace girar el torno con sus pies,
 
 continuamente preocupado por su trabajo
 
-y ocupado en producir un buen número de piezas*;
+y ocupado en producir un buen número de piezas<span class="note-ref" data-ref="si-38-29" title="Ver comentario">&#42;</span>;
 
 <sup>30</sup> con su brazo moldea la arcilla,
 
@@ -4695,7 +4695,7 @@ y pasa sus noches limpiando el horno.
 
 <sup>31</sup> Todos éstos confían en sus manos,
 
-y cada uno es sabio* en su oficio.
+y cada uno es sabio<span class="note-ref" data-ref="si-38-31" title="Ver comentario">&#42;</span> en su oficio.
 
 <sup>32</sup> Sin ellos no se podría construir una ciudad,
 
@@ -4707,11 +4707,11 @@ ni ocupan puestos de honor en la asamblea.
 
 No se sientan en el sitial del juez,
 
-ni comprenden las disposiciones del derecho*.
+ni comprenden las disposiciones del derecho<span class="note-ref" data-ref="si-38-33" title="Ver comentario">&#42;</span>.
 
 <sup>34</sup> No son capaces de enseñar ni de juzgar,
 
-ni se cuentan entre los que dicen máximas*.
+ni se cuentan entre los que dicen máximas<span class="note-ref" data-ref="si-38-34" title="Ver comentario">&#42;</span>.
 
 Pero ellos aseguran la creación eterna,
 
@@ -4724,11 +4724,11 @@ a meditar la ley del Altísimo.
 
 Indaga la sabiduría de todos los antiguos
 
-y dedica su ocio a estudiar las profecías*;
+y dedica su ocio a estudiar las profecías<span class="note-ref" data-ref="si-39-1" title="Ver comentario">&#42;</span>;
 
 <sup>2</sup> conserva los relatos de los hombres célebres
 
-y penetra en las sutilezas de las parábolas*;
+y penetra en las sutilezas de las parábolas<span class="note-ref" data-ref="si-39-2" title="Ver comentario">&#42;</span>;
 
 <sup>3</sup> busca el sentido oculto de los proverbios
 
@@ -4738,7 +4738,7 @@ y se interesa por los enigmas de las parábolas.
 
 se presenta ante los jefes;
 
-viaja por tierras extranjeras*,
+viaja por tierras extranjeras<span class="note-ref" data-ref="si-39-4" title="Ver comentario">&#42;</span>,
 
 experimenta lo bueno y lo malo de los hombres.
 
@@ -4782,7 +4782,7 @@ y la asamblea proclamará su alabanza.
 
 <sup>11</sup> Mientras viva, su nombre será famoso entre mil,
 
-y cuando muera, esto le bastará*.
+y cuando muera, esto le bastará<span class="note-ref" data-ref="si-39-11" title="Ver comentario">&#42;</span>.
 
 ## Invitación a alabar a Dios.
 <sup>12</sup> Todavía voy a exponer mis reflexiones,
@@ -4815,11 +4815,11 @@ todas sus órdenes se cumplen a su tiempo.
 
 No hay por qué decir: ¿Qué es esto? Y esto ¿para qué sirve?
 
-## Todo se indagará a su tiempo*.
+## Todo se indagará a su tiempo<span class="note-ref" data-ref="si-39-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> A su palabra el agua se detuvo como una masa,
 
-a su voz se formaron los depósitos de las aguas*.
+a su voz se formaron los depósitos de las aguas<span class="note-ref" data-ref="si-39-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> A una orden suya se cumple todo cuanto desea,
 
@@ -4837,7 +4837,7 @@ y nada le causa admiración.
 
 pues todo ha sido creado con un fin.
 
-<sup>22</sup> Su bendición se ha desbordado como un río*,
+<sup>22</sup> Su bendición se ha desbordado como un río<span class="note-ref" data-ref="si-39-22" title="Ver comentario">&#42;</span>,
 
 como un diluvio ha inundado la tierra;
 
@@ -4851,7 +4851,7 @@ para los malvados son piedras de tropiezo.
 
 <sup>25</sup> Desde el principio los bienes han sido creados para los buenos,
 
-así como los males* para los pecadores.
+así como los males<span class="note-ref" data-ref="si-39-25" title="Ver comentario">&#42;</span> para los pecadores.
 
 <sup>26</sup> Esenciales para la vida del hombre
 
@@ -4867,7 +4867,7 @@ pero para los pecadores se transforman en males.
 
 <sup>28</sup> Hay vientos creados para castigar,
 
-y en su furia refuerzan los azotes*;
+y en su furia refuerzan los azotes<span class="note-ref" data-ref="si-39-28" title="Ver comentario">&#42;</span>;
 
 en el momento final desencadenan su fuerza
 
@@ -4875,7 +4875,7 @@ y desahogan la ira de su creador.
 
 <sup>29</sup> Fuego y granizo, hambre y muerte,
 
-todos han sido creados para castigar*.
+todos han sido creados para castigar<span class="note-ref" data-ref="si-39-29" title="Ver comentario">&#42;</span>.
 
 <sup>30</sup> Dientes de fieras, escorpiones, víboras
 
@@ -4889,7 +4889,7 @@ y llegada la ocasión no transgredirán su mandato.
 
 <sup>32</sup> Por eso desde el principio yo estaba convencido,
 
-he reflexionado y lo he puesto por escrito*:
+he reflexionado y lo he puesto por escrito<span class="note-ref" data-ref="si-39-32" title="Ver comentario">&#42;</span>:
 
 <sup>33</sup> «Las obras del Señor son todas buenas,
 
@@ -4903,14 +4903,14 @@ porque todo será reconocido en su momento.
 
 y bendecid el nombre del Señor.»
 
-## Miseria del hombre *.
+## Miseria del hombre <span class="note-ref" data-ref="si-40" title="Ver comentario">&#42;</span>.
 <span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> Penoso destino se ha asignado a todo hombre,
 
 pesado yugo grava a los hijos de Adán,
 
 desde el día en que salen del seno materno
 
-hasta el día de su regreso* a la madre de todos.
+hasta el día de su regreso<span class="note-ref" data-ref="si-40-1" title="Ver comentario">&#42;</span> a la madre de todos.
 
 <sup>2</sup> El objeto de sus reflexiones, la ansiedad de su corazón
 
@@ -4930,11 +4930,11 @@ el miedo a la muerte, el resentimiento y la discordia.
 
 <sup>5</sup> Y mientras descansa en el lecho,
 
-los sueños nocturnos alteran sus pensamientos*.
+los sueños nocturnos alteran sus pensamientos<span class="note-ref" data-ref="si-40-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Descansa un poco, apenas un instante,
 
-y, ya en sueños o en vigilia*,
+y, ya en sueños o en vigilia<span class="note-ref" data-ref="si-40-6" title="Ver comentario">&#42;</span>,
 
 se ve turbado por sus propias visiones,
 
@@ -4958,7 +4958,7 @@ y por su culpa se produjo el diluvio.
 
 <sup>11</sup> Todo cuanto viene de la tierra a la tierra vuelve;
 
-todo cuanto viene del agua en el mar desemboca*.
+todo cuanto viene del agua en el mar desemboca<span class="note-ref" data-ref="si-40-11" title="Ver comentario">&#42;</span>.
 
 ## El fin del malvado.
 <sup>12</sup> Sobornos e injusticias desaparecerán,
@@ -4969,7 +4969,7 @@ pero la fidelidad subsistirá por siempre.
 
 son como un sonoro trueno que estalla en la tormenta.
 
-<sup>14</sup> Cuando él abre las manos, se alegra*;
+<sup>14</sup> Cuando él abre las manos, se alegra<span class="note-ref" data-ref="si-40-14" title="Ver comentario">&#42;</span>;
 
 así los transgresores desaparecerán por completo.
 
@@ -4979,11 +4979,11 @@ las raíces impuras sólo encuentran piedra áspera.
 
 <sup>16</sup> Caña que crece en el agua o al borde del río
 
-será arrancada antes que las otras hierbas*.
+será arrancada antes que las otras hierbas<span class="note-ref" data-ref="si-40-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> La caridad es como un paraíso de bendición,
 
-y la limosna permanece para siempre*.
+y la limosna permanece para siempre<span class="note-ref" data-ref="si-40-17" title="Ver comentario">&#42;</span>.
 
 ## Lo bueno y lo mejor.
 <sup>18</sup> Dulce es la vida del que se basta a sí mismo y del trabajador,
@@ -4992,11 +4992,11 @@ pero todavía más la de quien encuentra un tesoro.
 
 <sup>19</sup> Tener hijos y fundar una ciudad perpetúan el nombre,
 
-pero todavía más la mujer de conducta intachable*.
+pero todavía más la mujer de conducta intachable<span class="note-ref" data-ref="si-40-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> El vino y la música alegran el corazón,
 
-pero todavía más el amor a la sabiduría*.
+pero todavía más el amor a la sabiduría<span class="note-ref" data-ref="si-40-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> La flauta y la cítara hacen el canto suave,
 
@@ -5041,7 +5041,7 @@ vive una vida que no es vida.
 
 Deshonra su boca con comida ajena,
 
-pero el instruido y educado se guarda de ello*.
+pero el instruido y educado se guarda de ello<span class="note-ref" data-ref="si-40-29" title="Ver comentario">&#42;</span>.
 
 <sup>30</sup> La mendicidad es dulce en la boca del descarado,
 
@@ -5054,7 +5054,7 @@ para el que vive tranquilo entre sus bienes,
 
 para el varón despreocupado que prospera en todo,
 
-y todavía es capaz de gozar de los placeres*!
+y todavía es capaz de gozar de los placeres<span class="note-ref" data-ref="si-41-1" title="Ver comentario">&#42;</span>!
 
 <sup>2</sup> ¡Oh muerte, qué dulce es tu sentencia
 
@@ -5074,7 +5074,7 @@ recuerda tu origen y tu destino.
 
 Aunque vivas diez, cien o mil años,
 
-en el abismo nadie te lo discutirá*.
+en el abismo nadie te lo discutirá<span class="note-ref" data-ref="si-41-4" title="Ver comentario">&#42;</span>.
 
 ## Destino de los impíos.
 <sup>5</sup> Detestables son los hijos de los pecadores,
@@ -5093,7 +5093,7 @@ pues son deshonrados por su culpa.
 
 que habéis abandonado la ley del Altísimo!
 
-<sup>9</sup> Si nacéis, nacéis para la maldición*;
+<sup>9</sup> Si nacéis, nacéis para la maldición<span class="note-ref" data-ref="si-41-9" title="Ver comentario">&#42;</span>;
 
 si morís, heredáis la maldición.
 
@@ -5103,7 +5103,7 @@ así los impíos pasan de la maldición a la ruina.
 
 <sup>11</sup> Los hombres hacen duelo por sus cadáveres,
 
-pero el nombre infame de los pecadores será borrado.*
+pero el nombre infame de los pecadores será borrado.<span class="note-ref" data-ref="si-41-11" title="Ver comentario">&#42;</span>
 
 <sup>12</sup> Preocúpate por tu apellido, porque te sobrevivirá;
 
@@ -5144,7 +5144,7 @@ ante los vecinos, del robo;
 
 <sup>20</sup> y ante la verdad de Dios y la alianza,
 
-de poner los codos sobre los panes*,
+de poner los codos sobre los panes<span class="note-ref" data-ref="si-41-20" title="Ver comentario">&#42;</span>,
 
 <sup>21</sup> de despreciar lo que recibes y lo que das,
 
@@ -5174,15 +5174,15 @@ de revelar secretos.
 
 y serás apreciado por todos.
 
-<span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Pero de lo que sigue no has de avergonzarte*,
+<span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Pero de lo que sigue no has de avergonzarte<span class="note-ref" data-ref="si-42-1" title="Ver comentario">&#42;</span>,
 
 ni hagas acepción de personas que te induzca a pecar:
 
 <sup>2</sup> de la ley del Altísimo y de su alianza,
 
-del juicio que justifica a los impíos*,
+del juicio que justifica a los impíos<span class="note-ref" data-ref="si-42-2" title="Ver comentario">&#42;</span>,
 
-<sup>3</sup> de arreglar cuentas con el compañero de viaje*,
+<sup>3</sup> de arreglar cuentas con el compañero de viaje<span class="note-ref" data-ref="si-42-3" title="Ver comentario">&#42;</span>,
 
 de compartir tu herencia con otros,
 
@@ -5190,7 +5190,7 @@ de compartir tu herencia con otros,
 
 de obtener grandes y pequeñas ganancias,
 
-<sup>5</sup> de sacar provecho del comercio y las ventas*,
+<sup>5</sup> de sacar provecho del comercio y las ventas<span class="note-ref" data-ref="si-42-5" title="Ver comentario">&#42;</span>,
 
 de corregir con vigor a los hijos,
 
@@ -5206,14 +5206,14 @@ pon siempre por escrito el haber y el debe.
 
 <sup>8</sup> No te avergüences de corregir al necio y al insensato,
 
-ni al viejo decrépito que litiga como un joven*.
+ni al viejo decrépito que litiga como un joven<span class="note-ref" data-ref="si-42-8" title="Ver comentario">&#42;</span>.
 
 Así demostrarás que eres un hombre educado,
 
 y serás apreciado por todos.
 
 ## Preocupaciones de un padre con su hija.
-<sup>9</sup> Una hija es para su padre una secreta inquietud*,
+<sup>9</sup> Una hija es para su padre una secreta inquietud<span class="note-ref" data-ref="si-42-9" title="Ver comentario">&#42;</span>,
 
 la preocupación por ella le quita el sueño.
 
@@ -5238,9 +5238,9 @@ comidilla en la ciudad, corrillos en el pueblo,
 y te avergüence ante la gente.
 
 ## Las mujeres.
-<sup>12</sup> No te dejes fascinar por la belleza de nadie*,
+<sup>12</sup> No te dejes fascinar por la belleza de nadie<span class="note-ref" data-ref="si-42-12-a" title="Ver comentario">&#42;</span>,
 
-y no te sientes entre mujeres*.
+y no te sientes entre mujeres<span class="note-ref" data-ref="si-42-12-b" title="Ver comentario">&#42;</span>.
 
 <sup>13</sup> Porque de los vestidos sale la polilla,
 
@@ -5248,7 +5248,7 @@ y de la mujer la malicia femenina.
 
 <sup>14</sup> Vale más maldad de hombre que bondad de mujer;
 
-la mujer acarrea vergüenza y deshonra*.
+la mujer acarrea vergüenza y deshonra<span class="note-ref" data-ref="si-42-14" title="Ver comentario">&#42;</span>.
 
 ## II. La sabiduría en la naturaleza y en la historia
 ## 1. EN LA NATURALEZA
@@ -5256,21 +5256,21 @@ la mujer acarrea vergüenza y deshonra*.
 
 contaré todo lo que he visto.
 
-Por la palabra del Señor* fueron hechas sus obras,
+Por la palabra del Señor<span class="note-ref" data-ref="si-42-15-a" title="Ver comentario">&#42;</span> fueron hechas sus obras,
 
-y la creación está sometida a su voluntad*.
+y la creación está sometida a su voluntad<span class="note-ref" data-ref="si-42-15-b" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> El sol mira todas las cosas iluminándolas,
 
 de la gloria del Señor está llena su obra.
 
-<sup>17</sup> Ni siquiera los santos* del Señor son capaces
+<sup>17</sup> Ni siquiera los santos<span class="note-ref" data-ref="si-42-17-a" title="Ver comentario">&#42;</span> del Señor son capaces
 
 de contar todas sus maravillas,
 
 que el Señor omnipotente ha establecido firmemente,
 
-para que el universo subsista en su gloria*.
+para que el universo subsista en su gloria<span class="note-ref" data-ref="si-42-17-b" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Él sondea el abismo y el corazón del hombre,
 
@@ -5278,7 +5278,7 @@ y penetra todos sus secretos.
 
 Pues el Altísimo conoce toda la ciencia
 
-y escruta las señales de los tiempos*.
+y escruta las señales de los tiempos<span class="note-ref" data-ref="si-42-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> Anuncia lo pasado y lo futuro,
 
@@ -5306,13 +5306,13 @@ y todas le obedecen en cualquier circunstancia.
 
 <sup>24</sup> Todas las cosas de dos en dos, una frente a otra;
 
-no ha creado nada imperfecto*.
+no ha creado nada imperfecto<span class="note-ref" data-ref="si-42-24" title="Ver comentario">&#42;</span>.
 
 <sup>25</sup> Una cosa confirma la excelencia de otra;
 
 ¿quién puede cansarse de contemplar su gloria?
 
-## El sol *.
+## El sol <span class="note-ref" data-ref="si-43" title="Ver comentario">&#42;</span>.
 <span id="chapter-43" class="chapter-marker" data-chapter="43">43</span><sup>1</sup> Orgullo de las alturas es el firmamento límpido,
 
 espectáculo celeste en una visión espléndida.
@@ -5344,9 +5344,9 @@ para marcar los tiempos, señal eterna.
 
 <sup>7</sup> La luna es quien señala las fiestas,
 
-astro que mengua después del plenilunio*.
+astro que mengua después del plenilunio<span class="note-ref" data-ref="si-43-7" title="Ver comentario">&#42;</span>.
 
-<sup>8</sup> De ella reciben los meses su nombre*;
+<sup>8</sup> De ella reciben los meses su nombre<span class="note-ref" data-ref="si-43-8" title="Ver comentario">&#42;</span>;
 
 ella crece maravillosamente cuando cambia,
 
@@ -5385,13 +5385,13 @@ y las nubes vuelan como pájaros.
 
 y se desmenuzan las piedras de granizo.
 
-43:17a El estallido de su trueno estremece la tierra,
+<sup>17a</sup> El estallido de su trueno estremece la tierra,
 
 <sup>16</sup> a su vista se tambalean las montañas.
 
 Cuando quiere, sopla el viento del sur,
 
-43:17b el huracán del norte y los ciclones*.
+<sup>17b</sup> el huracán del norte y los ciclones<span class="note-ref" data-ref="si-43-17-b" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Como bandada de pájaros esparce la nieve,
 
@@ -5439,7 +5439,7 @@ y gracias a su palabra todo está en su sitio.
 
 <sup>27</sup> Podríamos decir mucho más y nunca acabaríamos.
 
-Mi conclusión es ésta: «Él lo es todo*.»
+Mi conclusión es ésta: «Él lo es todo<span class="note-ref" data-ref="si-43-27" title="Ver comentario">&#42;</span>.»
 
 <sup>28</sup> ¿Dónde hallar fuerza para glorificarle?
 
@@ -5470,12 +5470,12 @@ pues nosotros hemos visto sólo una parte de sus obras.
 y a los piadosos les ha dado la sabiduría.
 
 ## 2. EN LA HISTORIA
-## Elogio de los antepasados *.
-<span id="chapter-44" class="chapter-marker" data-chapter="44">44</span><sup>1</sup> Hagamos el elogio de los hombres ilustres*,
+## Elogio de los antepasados <span class="note-ref" data-ref="si-44" title="Ver comentario">&#42;</span>.
+<span id="chapter-44" class="chapter-marker" data-chapter="44">44</span><sup>1</sup> Hagamos el elogio de los hombres ilustres<span class="note-ref" data-ref="si-44-1" title="Ver comentario">&#42;</span>,
 
 de nuestros antepasados según sus generaciones.
 
-<sup>2</sup> Grandes glorias ha creado el Señor*,
+<sup>2</sup> Grandes glorias ha creado el Señor<span class="note-ref" data-ref="si-44-2" title="Ver comentario">&#42;</span>,
 
 desde siempre ha mostrado su grandeza.
 
@@ -5491,7 +5491,7 @@ y expertos en anunciar profecías.
 
 con su dominio de la literatura popular
 
-y con las sabias palabras de su doctrina*.
+y con las sabias palabras de su doctrina<span class="note-ref" data-ref="si-44-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Hubo inventores de melodías musicales,
 
@@ -5519,7 +5519,7 @@ igual que sus hijos después de ellos.
 
 <sup>10</sup> Pero hubo también hombres de bien,
 
-cuyos méritos no han quedado en el olvido*.
+cuyos méritos no han quedado en el olvido<span class="note-ref" data-ref="si-44-10" title="Ver comentario">&#42;</span>.
 
 <sup>11</sup> En sus descendientes se conserva
 
@@ -5544,25 +5544,25 @@ y la asamblea proclamará su alabanza.
 ## Henoc.
 <sup>16</sup> Henoc, que agradó al Señor y fue arrebatado,
 
-es ejemplo de conversión* para todas las generaciones.
+es ejemplo de conversión<span class="note-ref" data-ref="si-44-16" title="Ver comentario">&#42;</span> para todas las generaciones.
 
 ## Noé.
 <sup>17</sup> Noé demostró ser íntegro y justo,
 
 y en el tiempo de la ira hizo posible la reconciliación.
 
-Gracias a él un resto* sobrevivió en la tierra,
+Gracias a él un resto<span class="note-ref" data-ref="si-44-17-a" title="Ver comentario">&#42;</span> sobrevivió en la tierra,
 
-cuando llegó el diluvio*.
+cuando llegó el diluvio<span class="note-ref" data-ref="si-44-17-b" title="Ver comentario">&#42;</span>.
 
-<sup>18</sup> Con él se pactaron alianzas eternas*,
+<sup>18</sup> Con él se pactaron alianzas eternas<span class="note-ref" data-ref="si-44-18" title="Ver comentario">&#42;</span>,
 
 para que el diluvio no exterminara a todos los vivientes.
 
 ## Abrahán.
 <sup>19</sup> Abrahán fue padre insigne de una multitud de naciones;
 
-no se halló quien le igualara en su gloria*.
+no se halló quien le igualara en su gloria<span class="note-ref" data-ref="si-44-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Él guardó la ley del Altísimo,
 
@@ -5570,7 +5570,7 @@ y con él estableció una alianza.
 
 En su carne selló esta alianza,
 
-y en la prueba demostró ser fiel*.
+y en la prueba demostró ser fiel<span class="note-ref" data-ref="si-44-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Por eso Dios le prometió con juramento
 
@@ -5591,7 +5591,7 @@ por amor de su padre Abrahán.
 
 <sup>23</sup> La bendición de todos los hombres y la alianza
 
-las hizo reposar en la cabeza de Jacob*.
+las hizo reposar en la cabeza de Jacob<span class="note-ref" data-ref="si-44-23" title="Ver comentario">&#42;</span>.
 
 Le confirmó en sus bendiciones
 
@@ -5604,7 +5604,7 @@ que repartió entre las doce tribus.
 ## Moisés.
 <span id="chapter-45" class="chapter-marker" data-chapter="45">45</span><sup>1</sup> Hizo salir de él un hombre de bien,
 
-que gozó del favor de todos*,
+que gozó del favor de todos<span class="note-ref" data-ref="si-45-1" title="Ver comentario">&#42;</span>,
 
 amado de Dios y de los hombres:
 
@@ -5614,7 +5614,7 @@ amado de Dios y de los hombres:
 
 lo hizo poderoso para temor de sus enemigos.
 
-<sup>3</sup> Con su palabra puso fin a los prodigios*,
+<sup>3</sup> Con su palabra puso fin a los prodigios<span class="note-ref" data-ref="si-45-3" title="Ver comentario">&#42;</span>,
 
 y le glorificó delante de los reyes;
 
@@ -5647,7 +5647,7 @@ su hermano, de la tribu de Leví.
 
 y le concedió el sacerdocio del pueblo.
 
-Le honró con espléndidos ornamentos,*
+Le honró con espléndidos ornamentos,<span class="note-ref" data-ref="si-45-7" title="Ver comentario">&#42;</span>
 
 <sup>8</sup> le revistió con perfecto esplendor
 
@@ -5669,7 +5669,7 @@ como memorial para los hijos de su pueblo.
 
 y púrpura, obra de bordador,
 
-y el pectoral del juicio con el Urim y el Tumim*,
+y el pectoral del juicio con el Urim y el Tumim<span class="note-ref" data-ref="si-45-10" title="Ver comentario">&#42;</span>,
 
 con cintas de escarlata, obra de artista;
 
@@ -5707,7 +5707,7 @@ lo ungió con óleo santo.
 
 Así se estableció una alianza eterna para él,
 
-y para su descendencia mientras dure el cielo*:
+y para su descendencia mientras dure el cielo<span class="note-ref" data-ref="si-45-15" title="Ver comentario">&#42;</span>:
 
 presidirá el culto, ejercerá el sacerdocio,
 
@@ -5723,7 +5723,7 @@ y para hacer expiación por el pueblo.
 
 <sup>17</sup> Le confió sus mandamientos,
 
-le dio potestad sobre las prescripciones legales*,
+le dio potestad sobre las prescripciones legales<span class="note-ref" data-ref="si-45-17" title="Ver comentario">&#42;</span>,
 
 para enseñar a Jacob sus dictámenes
 
@@ -5776,7 +5776,7 @@ y así obtuvo el perdón para Israel.
 
 <sup>24</sup> Por eso el Señor hizo con él una alianza de paz
 
-y le designó jefe del santuario* y de su pueblo.
+y le designó jefe del santuario<span class="note-ref" data-ref="si-45-24" title="Ver comentario">&#42;</span> y de su pueblo.
 
 De este modo él y su descendencia recibieron
 
@@ -5790,7 +5790,7 @@ Pero esta herencia real sólo pasa de hijo a hijo,
 
 mientras que la herencia de Aarón pasa a todo su linaje.
 
-<sup>26</sup> Que Dios os conceda la sabiduría del corazón*,
+<sup>26</sup> Que Dios os conceda la sabiduría del corazón<span class="note-ref" data-ref="si-45-26" title="Ver comentario">&#42;</span>,
 
 para juzgar a su pueblo con justicia,
 
@@ -5801,9 +5801,9 @@ ni su gloria por todas las generaciones.
 ## Josué.
 <span id="chapter-46" class="chapter-marker" data-chapter="46">46</span><sup>1</sup> Valiente guerrero fue Josué, hijo de Nun,
 
-sucesor de Moisés* en la dignidad de profeta.
+sucesor de Moisés<span class="note-ref" data-ref="si-46-1-a" title="Ver comentario">&#42;</span> en la dignidad de profeta.
 
-De acuerdo con lo que su nombre indica*,
+De acuerdo con lo que su nombre indica<span class="note-ref" data-ref="si-46-1-b" title="Ver comentario">&#42;</span>,
 
 se mostró grande para salvar a los elegidos del Señor,
 
@@ -5817,13 +5817,13 @@ y blandía la espada contra las ciudades!
 
 <sup>3</sup> ¿Quién había sido tan valiente antes de él?
 
-¡Las batallas del Señor él las combatía*!
+¡Las batallas del Señor él las combatía<span class="note-ref" data-ref="si-46-3" title="Ver comentario">&#42;</span>!
 
 <sup>4</sup> ¿Acaso no detuvo el sol con su mano
 
 y un día se convirtió en dos?
 
-<sup>5</sup> Él invocó al Altísimo* soberano,
+<sup>5</sup> Él invocó al Altísimo<span class="note-ref" data-ref="si-46-5" title="Ver comentario">&#42;</span> soberano,
 
 cuando los enemigos le rodeaban por todas partes,
 
@@ -5831,13 +5831,13 @@ y el Señor, que es grande, le respondió,
 
 enviando una terrible granizada.
 
-<sup>6</sup> Cayó de golpe sobre la nación hostil*,
+<sup>6</sup> Cayó de golpe sobre la nación hostil<span class="note-ref" data-ref="si-46-6-a" title="Ver comentario">&#42;</span>,
 
 y al bajar aniquiló a los adversarios,
 
 para que las naciones conocieran la fuerza de sus armas
 
-y entendieran que luchaban contra el Señor*.
+y entendieran que luchaban contra el Señor<span class="note-ref" data-ref="si-46-6-b" title="Ver comentario">&#42;</span>.
 
 ## Caleb.
 <sup>7</sup> Josué se mantuvo fiel al Todopoderoso,
@@ -5848,7 +5848,7 @@ e hizo el bien en tiempos de Moisés.
 
 resistieron frente a la asamblea,
 
-apartaron al pueblo del pecado*
+apartaron al pueblo del pecado<span class="note-ref" data-ref="si-46-7" title="Ver comentario">&#42;</span>
 
 y acallaron las murmuraciones malignas.
 
@@ -5881,7 +5881,7 @@ y no se apartaron del Señor.
 
 ¡Bendita sea su memoria!
 
-<sup>12</sup> ¡Que sus huesos revivan* en sus tumbas,
+<sup>12</sup> ¡Que sus huesos revivan<span class="note-ref" data-ref="si-46-12" title="Ver comentario">&#42;</span> en sus tumbas,
 
 y sus nombres se renueven
 
@@ -5892,7 +5892,7 @@ en los hijos de estos hombres ilustres!
 
 como profeta del Señor estableció la monarquía,
 
-y ungió a los príncipes de su pueblo*.
+y ungió a los príncipes de su pueblo<span class="note-ref" data-ref="si-46-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Juzgó a la asamblea según la ley del Señor,
 
@@ -5912,7 +5912,7 @@ y le ofreció un cordero lechal.
 
 con gran estruendo hizo resonar su voz;
 
-<sup>18</sup> aplastó a los jefes enemigos*
+<sup>18</sup> aplastó a los jefes enemigos<span class="note-ref" data-ref="si-46-18" title="Ver comentario">&#42;</span>
 
 y a todos los príncipes de los filisteos.
 
@@ -5962,7 +5962,7 @@ que dio vigor a su diestra,
 
 para aniquilar a un potente guerrero
 
-y reafirmar el poder* de su pueblo.
+y reafirmar el poder<span class="note-ref" data-ref="si-47-5" title="Ver comentario">&#42;</span> de su pueblo.
 
 <sup>6</sup> Por eso le atribuyeron la gloria de diez mil
 
@@ -5974,11 +5974,11 @@ ofreciéndole la diadema de gloria.
 
 aniquiló a los filisteos, sus adversarios,
 
-quebrantando para siempre su poder*.
+quebrantando para siempre su poder<span class="note-ref" data-ref="si-47-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> En todas sus acciones daba gracias
 
-al Altísimo, el Santo, proclamando su gloria*.
+al Altísimo, el Santo, proclamando su gloria<span class="note-ref" data-ref="si-47-8" title="Ver comentario">&#42;</span>.
 
 Con todo su corazón entonó himnos,
 
@@ -6000,14 +6000,14 @@ y que el santuario resonase de cánticos desde la aurora.
 
 y exaltó su poder para siempre:
 
-le otorgó una alianza real*
+le otorgó una alianza real<span class="note-ref" data-ref="si-47-11" title="Ver comentario">&#42;</span>
 
 y un trono de gloria en Israel.
 
 ## Salomón.
 <sup>12</sup> Después de él subió al trono un hijo sabio,
 
-que gracias a él* vivió en la prosperidad.
+que gracias a él<span class="note-ref" data-ref="si-47-12" title="Ver comentario">&#42;</span> vivió en la prosperidad.
 
 <sup>13</sup> Salomón reinó en tiempo de paz,
 
@@ -6027,15 +6027,15 @@ la llenaste de enigmáticos proverbios.
 
 <sup>16</sup> Tu nombre llegó hasta las islas lejanas,
 
-y fuiste amado por la paz que infundías*.
+y fuiste amado por la paz que infundías<span class="note-ref" data-ref="si-47-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> De tus cantos, tus sentencias, tus proverbios
 
-y tus interpretaciones* se admiraron las naciones.
+y tus interpretaciones<span class="note-ref" data-ref="si-47-17" title="Ver comentario">&#42;</span> se admiraron las naciones.
 
 <sup>18</sup> En nombre del Señor Dios,
 
-que es llamado Dios de Israel*,
+que es llamado Dios de Israel<span class="note-ref" data-ref="si-47-18" title="Ver comentario">&#42;</span>,
 
 amontonaste el oro como estaño,
 
@@ -6051,7 +6051,7 @@ y deshonraste tu linaje,
 
 acarreando la ira sobre tus hijos
 
-y afligiéndolos con tu locura*.
+y afligiéndolos con tu locura<span class="note-ref" data-ref="si-47-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Por eso tu dinastía se dividió en dos,
 
@@ -6074,7 +6074,7 @@ y a David un retoño nacido de él.
 
 dejó en el trono a uno de su linaje,
 
-lo más loco del pueblo, falto de inteligencia*:
+lo más loco del pueblo, falto de inteligencia<span class="note-ref" data-ref="si-47-23" title="Ver comentario">&#42;</span>:
 
 ## Roboán, que alienó al pueblo con sus decisiones.
 
@@ -6116,7 +6116,7 @@ y del abismo, por la palabra del Altísimo;
 
 y arrebataste del lecho a hombres insignes;
 
-<sup>7</sup> que escuchaste en el Sinaí la reprensión*,
+<sup>7</sup> que escuchaste en el Sinaí la reprensión<span class="note-ref" data-ref="si-48-7" title="Ver comentario">&#42;</span>,
 
 y en el Horeb las sentencias de castigo;
 
@@ -6140,7 +6140,7 @@ y restablecer las tribus de Jacob.
 
 y se durmieron en el amor,
 
-porque también nosotros viviremos*.
+porque también nosotros viviremos<span class="note-ref" data-ref="si-48-11" title="Ver comentario">&#42;</span>.
 
 ## Eliseo.
 <sup>12</sup> Cuando Elías fue arrebatado en el torbellino,
@@ -6153,7 +6153,7 @@ nadie pudo dominarle.
 
 <sup>13</sup> Nada era imposible para él,
 
-hasta en el sueño de la muerte su cuerpo profetizó*.
+hasta en el sueño de la muerte su cuerpo profetizó<span class="note-ref" data-ref="si-48-13" title="Ver comentario">&#42;</span>.
 
 <sup>14</sup> Durante su vida realizó prodigios,
 
@@ -6187,7 +6187,7 @@ y construyó cisternas para el agua.
 
 <sup>18</sup> En su tiempo Senaquerib hizo una expedición
 
-y envió por delante a Rabsaqués; éste partió*,
+y envió por delante a Rabsaqués; éste partió<span class="note-ref" data-ref="si-48-18" title="Ver comentario">&#42;</span>,
 
 alzó la mano contra Sión
 
@@ -6212,7 +6212,7 @@ y su Ángel los exterminó.
 ## Isaías.
 <sup>22</sup> Porque Ezequías hizo lo que agrada al Señor,
 
-manteniéndose firme en los caminos de David su padre*,
+manteniéndose firme en los caminos de David su padre<span class="note-ref" data-ref="si-48-22" title="Ver comentario">&#42;</span>,
 
 como se lo ordenaba el profeta Isaías,
 
@@ -6228,7 +6228,7 @@ y consoló a los afligidos de Sión.
 
 <sup>25</sup> Reveló el futuro hasta la eternidad,
 
-y las cosas ocultas antes que sucedieran*.
+y las cosas ocultas antes que sucedieran<span class="note-ref" data-ref="si-48-25" title="Ver comentario">&#42;</span>.
 
 ## Josías.
 <span id="chapter-49" class="chapter-marker" data-chapter="49">49</span><sup>1</sup> El recuerdo de Josías es una mezcla de incienso
@@ -6239,7 +6239,7 @@ Es dulce como miel en la boca,
 
 como música en medio de un banquete.
 
-<sup>2</sup> Trabajó por la reforma del pueblo*
+<sup>2</sup> Trabajó por la reforma del pueblo<span class="note-ref" data-ref="si-49-2" title="Ver comentario">&#42;</span>
 
 y extirpó la idolatría abominable.
 
@@ -6258,13 +6258,13 @@ los reyes de Judá desaparecieron.
 
 <sup>5</sup> Pues entregaron a otros su poder,
 
-y su gloria a una nación extranjera*.
+y su gloria a una nación extranjera<span class="note-ref" data-ref="si-49-5" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> Incendiaron la ciudad elegida del santuario
 
 y dejaron desiertas sus calles,
 
-<sup>7</sup> según la palabra de Jeremías*, a quien maltrataron,
+<sup>7</sup> según la palabra de Jeremías<span class="note-ref" data-ref="si-49-7" title="Ver comentario">&#42;</span>, a quien maltrataron,
 
 consagrado profeta desde el seno de su madre,
 
@@ -6276,11 +6276,11 @@ y también para construir y plantar.
 
 que Dios le reveló en el carro de querubines,
 
-<sup>9</sup> porque se acordó de sus enemigos en la tempestad*,
+<sup>9</sup> porque se acordó de sus enemigos en la tempestad<span class="note-ref" data-ref="si-49-9" title="Ver comentario">&#42;</span>,
 
 y favoreció a los que seguían el camino recto.
 
-<sup>10</sup> En cuanto a los doce profetas*,
+<sup>10</sup> En cuanto a los doce profetas<span class="note-ref" data-ref="si-49-10" title="Ver comentario">&#42;</span>,
 
 que sus huesos revivan en sus tumbas,
 
@@ -6323,10 +6323,10 @@ cuyos huesos fueron venerados.
 
 <sup>16</sup> Sem y Set fueron famosos entre los hombres,
 
-pero por encima de todos los vivientes sobresale Adán*.
+pero por encima de todos los vivientes sobresale Adán<span class="note-ref" data-ref="si-49-16" title="Ver comentario">&#42;</span>.
 
 ## El sacerdote Simón.
-<span id="chapter-50" class="chapter-marker" data-chapter="50">50</span><sup>1</sup> Simón, el sumo sacerdote, hijo de Onías*,
+<span id="chapter-50" class="chapter-marker" data-chapter="50">50</span><sup>1</sup> Simón, el sumo sacerdote, hijo de Onías<span class="note-ref" data-ref="si-50-1" title="Ver comentario">&#42;</span>,
 
 reparó el templo durante su vida,
 
@@ -6334,9 +6334,9 @@ y en sus días fortificó el santuario.
 
 <sup>2</sup> Puso los cimientos de doble altura,
 
-un alto contrafuerte de la cerca del templo*.
+un alto contrafuerte de la cerca del templo<span class="note-ref" data-ref="si-50-2" title="Ver comentario">&#42;</span>.
 
-<sup>3</sup> En sus días se excavó* el depósito de agua,
+<sup>3</sup> En sus días se excavó<span class="note-ref" data-ref="si-50-3" title="Ver comentario">&#42;</span> el depósito de agua,
 
 un estanque tan ancho como el mar.
 
@@ -6346,23 +6346,23 @@ y fortificó la ciudad contra un posible asedio.
 
 <sup>5</sup> ¡Qué glorioso era cuando, rodeado de su pueblo,
 
-salía de la estancia del velo*!
+salía de la estancia del velo<span class="note-ref" data-ref="si-50-5" title="Ver comentario">&#42;</span>!
 
 <sup>6</sup> Era como el lucero del alba en medio de las nubes,
 
-como la luna en su plenilunio*,
+como la luna en su plenilunio<span class="note-ref" data-ref="si-50-6" title="Ver comentario">&#42;</span>,
 
-<sup>7</sup> como el sol que brilla sobre el templo del Altísimo*,
+<sup>7</sup> como el sol que brilla sobre el templo del Altísimo<span class="note-ref" data-ref="si-50-7" title="Ver comentario">&#42;</span>,
 
 como el arco iris que ilumina las nubes de gloria,
 
-<sup>8</sup> como rosal florecido en primavera*,
+<sup>8</sup> como rosal florecido en primavera<span class="note-ref" data-ref="si-50-8" title="Ver comentario">&#42;</span>,
 
 como lirio junto a un manantial,
 
 como cedro del Líbano en verano,
 
-<sup>9</sup> como fuego e incienso en el incensario*,
+<sup>9</sup> como fuego e incienso en el incensario<span class="note-ref" data-ref="si-50-9" title="Ver comentario">&#42;</span>,
 
 como vaso de oro macizo
 
@@ -6400,7 +6400,7 @@ estaban en presencia de toda la asamblea de Israel.
 
 preparando la ofrenda del Altísimo todopoderoso,
 
-<sup>15</sup> tomaba en su mano la copa*,
+<sup>15</sup> tomaba en su mano la copa<span class="note-ref" data-ref="si-50-15" title="Ver comentario">&#42;</span>,
 
 hacía la libación del vino,
 
@@ -6432,7 +6432,7 @@ y su canto formaba una dulce melodía.
 
 permanecía en oración ante el Misericordioso,
 
-hasta que terminaba la ceremonia* del Señor
+hasta que terminaba la ceremonia<span class="note-ref" data-ref="si-50-19" title="Ver comentario">&#42;</span> del Señor
 
 y concluía el servicio litúrgico.
 
@@ -6442,14 +6442,14 @@ sobre toda la asamblea de los hijos de Israel,
 
 para pronunciar con sus labios la bendición del Señor
 
-y tener el honor de invocar su nombre*.
+y tener el honor de invocar su nombre<span class="note-ref" data-ref="si-50-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Y por segunda vez todos se postraban,
 
 para recibir la bendición del Altísimo.
 
 ## Exhortación.
-<sup>22</sup> Y ahora bendecid al Dios del universo*,
+<sup>22</sup> Y ahora bendecid al Dios del universo<span class="note-ref" data-ref="si-50-22" title="Ver comentario">&#42;</span>,
 
 el que hace grandes cosas por doquier,
 
@@ -6465,23 +6465,23 @@ en Israel por los siglos de los siglos.
 
 <sup>24</sup> Que su misericordia permanezca con nosotros
 
-y en nuestros días nos libere*.
+y en nuestros días nos libere<span class="note-ref" data-ref="si-50-24" title="Ver comentario">&#42;</span>.
 
 ## Proverbio numérico.
 <sup>25</sup> Hay dos naciones que mi alma detesta,
 
 y la tercera ni siquiera es nación:
 
-<sup>26</sup> los habitantes de la montaña de Seír*, los filisteos
+<sup>26</sup> los habitantes de la montaña de Seír<span class="note-ref" data-ref="si-50-26-a" title="Ver comentario">&#42;</span>, los filisteos
 
-y el pueblo necio que mora en Siquén*.
+y el pueblo necio que mora en Siquén<span class="note-ref" data-ref="si-50-26-b" title="Ver comentario">&#42;</span>.
 
 ## Conclusión.
 <sup>27</sup> Doctrina de ciencia e inteligencia
 
 ha condensado en este libro
 
-Jesús, hijo de Sirá, Eleazar, de Jerusalén*,
+Jesús, hijo de Sirá, Eleazar, de Jerusalén<span class="note-ref" data-ref="si-50-27" title="Ver comentario">&#42;</span>,
 
 que de su corazón derramó sabiduría a raudales.
 
@@ -6491,7 +6491,7 @@ el que las guarde en su corazón se hará sabio.
 
 <sup>29</sup> Y si las pone en práctica, en todo será fuerte,
 
-porque la luz del Señor iluminará su camino*.
+porque la luz del Señor iluminará su camino<span class="note-ref" data-ref="si-50-29" title="Ver comentario">&#42;</span>.
 
 ## Himno de acción de gracias.
 <span id="chapter-51" class="chapter-marker" data-chapter="51">51</span><sup>1</sup> Te doy gracias, Rey y Señor,
@@ -6502,7 +6502,7 @@ a tu nombre doy gracias.
 
 <sup>2</sup> Porque fuiste mi protector y mi auxilio,
 
-y libraste mi cuerpo de la perdición*,
+y libraste mi cuerpo de la perdición<span class="note-ref" data-ref="si-51-2" title="Ver comentario">&#42;</span>,
 
 del lazo de una lengua traicionera,
 
@@ -6548,9 +6548,9 @@ y los salvas de la mano de enemigos.
 
 <sup>9</sup> Y desde la tierra elevé mi plegaria,
 
-supliqué ser librado de la muerte*.
+supliqué ser librado de la muerte<span class="note-ref" data-ref="si-51-9" title="Ver comentario">&#42;</span>.
 
-<sup>10</sup> Clamé al Señor, padre de mi Señor*:
+<sup>10</sup> Clamé al Señor, padre de mi Señor<span class="note-ref" data-ref="si-51-10" title="Ver comentario">&#42;</span>:
 
 «No me abandones en el día del peligro,
 
@@ -6568,9 +6568,9 @@ y me libraste de aquel mal momento.
 
 <sup>12</sup> Por eso te daré gracias y te alabaré,
 
-bendeciré el nombre del Señor*.
+bendeciré el nombre del Señor<span class="note-ref" data-ref="si-51-12" title="Ver comentario">&#42;</span>.
 
-## En busca de la sabiduría*.
+## En busca de la sabiduría<span class="note-ref" data-ref="si-51-13" title="Ver comentario">&#42;</span>.
 <sup>13</sup> Cuando aún era joven, antes de viajar por el mundo,
 
 busqué sinceramente la sabiduría en la oración.
@@ -6593,11 +6593,11 @@ y me encontré con una gran enseñanza.
 
 <sup>17</sup> Gracias a ella he progresado mucho;
 
-daré gloria a quien me ha dado la sabiduría*.
+daré gloria a quien me ha dado la sabiduría<span class="note-ref" data-ref="si-51-17" title="Ver comentario">&#42;</span>.
 
 <sup>18</sup> Pues he decidido ponerla en práctica,
 
-me he dedicado al bien y no quedaré defraudado*.
+me he dedicado al bien y no quedaré defraudado<span class="note-ref" data-ref="si-51-18" title="Ver comentario">&#42;</span>.
 
 <sup>19</sup> He luchado para obtenerla,
 
@@ -6605,7 +6605,7 @@ he observado la práctica de la ley,
 
 he tendido mis manos hacia el cielo
 
-y he lamentado haberla ignorado*.
+y he lamentado haberla ignorado<span class="note-ref" data-ref="si-51-19" title="Ver comentario">&#42;</span>.
 
 <sup>20</sup> Hacia ella he orientado mi vida,
 
@@ -6613,7 +6613,7 @@ y en la pureza la he encontrado.
 
 Desde el principio me dediqué a ella,
 
-por eso no quedaré defraudado*.
+por eso no quedaré defraudado<span class="note-ref" data-ref="si-51-20" title="Ver comentario">&#42;</span>.
 
 <sup>21</sup> Mis entrañas se conmovieron al buscarla,
 
@@ -6639,13 +6639,13 @@ Adquiridla sin dinero;
 
 y recibid instrucción:
 
-está ahí, a vuestro alcance*.
+está ahí, a vuestro alcance<span class="note-ref" data-ref="si-51-26" title="Ver comentario">&#42;</span>.
 
 <sup>27</sup> Ved personalmente lo poco que he trabajado
 
 y qué descanso tan grande he encontrado.
 
-<sup>28</sup> No escatiméis dinero para recibir instrucción*,
+<sup>28</sup> No escatiméis dinero para recibir instrucción<span class="note-ref" data-ref="si-51-28" title="Ver comentario">&#42;</span>,
 
 pues con ella adquiriréis gran cantidad de oro.
 
@@ -6655,6 +6655,6 @@ no os avergoncéis de su alabanza.
 
 <sup>30</sup> Realizad vuestras obras antes del momento final
 
-y él os dará a su tiempo vuestra recompensa*.
+y él os dará a su tiempo vuestra recompensa<span class="note-ref" data-ref="si-51-30-a" title="Ver comentario">&#42;</span>.
 
-[Firma*:] Sabiduría de Jesús, hijo de Sirá.
+[Firma<span class="note-ref" data-ref="si-51-30-b" title="Ver comentario">&#42;</span>:] Sabiduría de Jesús, hijo de Sirá.

@@ -38,6 +38,7 @@ const BOOK_PATHS: Record<string, string> = {
   'qo': 'antiguo-testamento/04-libros-sapienciales/02-eclesiastes',
   'sb': 'antiguo-testamento/04-libros-sapienciales/03-sabiduria',
   'si': 'antiguo-testamento/04-libros-sapienciales/04-eclesiastico',
+  'siprol': 'antiguo-testamento/04-libros-sapienciales/04-eclesiastico',
   // Proféticos
   'is': 'antiguo-testamento/05-libros-profeticos/01-isaias',
   'jr': 'antiguo-testamento/05-libros-profeticos/02-jeremias',
@@ -94,7 +95,7 @@ const ABBREV_TO_KEY: Record<string, string> = {
   '1 Cro': '1cro', '2 Cro': '2cro', 'Esd': 'esd', 'Ne': 'ne',
   'Tb': 'tb', 'Jdt': 'jdt', 'Est': 'est', '1 M': '1m', '2 M': '2m',
   'Jb': 'jb', 'Sal': 'sal', 'Ct': 'ct', 'Lm': 'lm',
-  'Pr': 'pr', 'Qo': 'qo', 'Sb': 'sb', 'Si': 'si',
+  'Pr': 'pr', 'Qo': 'qo', 'Sb': 'sb', 'Si': 'si', 'SiPról.': 'siprol',
   'Is': 'is', 'Jr': 'jr', 'Ba': 'ba', 'Ez': 'ez', 'Dn': 'dn',
   'Os': 'os', 'Jl': 'jl', 'Am': 'am', 'Abd': 'abd', 'Jon': 'jon',
   'Mi': 'mi', 'Na': 'na', 'Ha': 'ha', 'So': 'so', 'Ag': 'ag', 'Za': 'za', 'Ml': 'ml',
@@ -219,9 +220,10 @@ export const POST: APIRoute = async ({ request }) => {
       searchPattern = `${bookAbbrev} ${chapter} ${verse}`;
       searchTitle = `${bookAbbrev} ${chapter},${verse}`;
     } else {
-      // Buscar comentario del capítulo: "Gn 1 " seguido de texto (no número)
-      searchPattern = `${bookAbbrev} ${chapter} `;
-      searchTitle = `${bookAbbrev} ${chapter}`;
+      // Buscar comentario de capítulo o sección (ej: "Si 1 ", "SiPról. ")
+      // chapter puede ser undefined para refs tipo "siprol" sin número
+      searchPattern = chapter ? `${bookAbbrev} ${chapter} ` : `${bookAbbrev} `;
+      searchTitle = chapter ? `${bookAbbrev} ${chapter}` : bookAbbrev;
     }
 
     // Dividir en párrafos y buscar el comentario

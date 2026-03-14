@@ -1,5 +1,5 @@
 ---
-import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown, AArrowUp } from "lucide-astro";
+import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown, AArrowUp, Globe } from "lucide-astro";
 
 interface Props {
 	title: string;
@@ -19,10 +19,18 @@ const { title } = Astro.props;
 			<button
 				id="searchToggle"
 				class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition"
-				aria-label="Buscar en el libro"
-				title="Buscar"
+				aria-label="Buscar en este libro"
+				title="Buscar en este libro"
 			>
 				<Search class="h-5 w-5" />
+			</button>
+			<button
+				id="globalSearchToggle"
+				class="bg-amber-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-700 transition"
+				aria-label="Buscar en toda la Biblia"
+				title="Buscar en toda la Biblia"
+			>
+				<Globe class="h-5 w-5" />
 			</button>
 			<!-- Botón tamaño de texto -->
 			<button
@@ -367,6 +375,16 @@ const { title } = Astro.props;
 	document.addEventListener('DOMContentLoaded', initSearch);
 	document.addEventListener('astro:page-load', initSearch);
 
+	// Botón de búsqueda global
+	function initGlobalSearchToggle() {
+		const btn = document.getElementById('globalSearchToggle');
+		btn?.addEventListener('click', () => {
+			(window as any).openGlobalSearch?.();
+		});
+	}
+	document.addEventListener('DOMContentLoaded', initGlobalSearchToggle);
+	document.addEventListener('astro:page-load', initGlobalSearchToggle);
+
 	// Control de tamaño de texto
 	let fontSizeInitialized = false;
 
@@ -466,6 +484,27 @@ const { title } = Astro.props;
 			});
 		}
 
+		// Obtener el elemento más cercano al centro visible del scroll para restaurar posición
+		function getScrollAnchor(): Element | null {
+			const main = document.querySelector('main');
+			if (!main) return null;
+			const mainRect = main.getBoundingClientRect();
+			const targetY = mainRect.top + mainRect.height * 0.25;
+			const candidates = document.querySelectorAll('.bible-content sup, .bible-content .chapter-marker');
+			let best: Element | null = null;
+			let bestDist = Infinity;
+			for (const el of candidates) {
+				const rect = el.getBoundingClientRect();
+				if (rect.top < mainRect.top) continue;
+				const dist = Math.abs(rect.top - targetY);
+				if (dist < bestDist) {
+					bestDist = dist;
+					best = el;
+				}
+			}
+			return best;
+		}
+
 		// Opciones de tamaño
 		fontSizeOptions.forEach(option => {
 			if (!option.hasAttribute('data-initialized')) {
@@ -473,11 +512,17 @@ const { title } = Astro.props;
 				option.addEventListener('click', (e) => {
 					e.stopPropagation();
 					const size = (option as HTMLElement).dataset.size || 'medium';
+					const anchor = getScrollAnchor();
 					applyFontSize(size);
 					updateActiveOption(size);
 					localStorage.setItem('bibleFontSize', size);
 					fontSizePanel!.style.display = 'none';
 					panelOpen = false;
+					if (anchor) {
+						requestAnimationFrame(() => {
+							anchor.scrollIntoView({ block: 'center' });
+						});
+					}
 				});
 			}
 		});

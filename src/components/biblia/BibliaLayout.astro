@@ -7,6 +7,7 @@ import LoadingState from "./LoadingState.astro";
 import BibleContent from "./BibleContent.astro";
 import CommentDialog from "./CommentDialog.astro";
 import ParallelsDialog from "./ParallelsDialog.astro";
+import GlobalSearchDialog from "./GlobalSearchDialog.astro";
 import type { EstructuraBiblia } from "../../lib/biblia/types";
 
 interface Props {
@@ -71,6 +72,7 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		<!-- Dialogs -->
 		<CommentDialog />
 		<ParallelsDialog />
+		<GlobalSearchDialog />
 	</div>
 </Layout>
 

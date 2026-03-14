@@ -41,13 +41,20 @@ const librosprincipales = libros.filter(libro =>
 	!libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos')
 );
 const comentarios = libros.filter(libro => libro.slug.includes('-comentarios'));
+const paralelos = libros.filter(libro => libro.slug.includes('-paralelos'));
 
 // Crear un mapa de comentarios por libro base
 const comentariosPorLibro = new Map<string, typeof libros[0]>();
 comentarios.forEach(comentario => {
-	// Extraer el slug base (sin -comentarios)
 	const slugBase = comentario.slug.replace('-comentarios', '');
 	comentariosPorLibro.set(slugBase, comentario);
+});
+
+// Crear un mapa de paralelos por libro base
+const paralelosPorLibro = new Map<string, typeof libros[0]>();
+paralelos.forEach(paralelo => {
+	const slugBase = paralelo.slug.replace('-paralelos', '');
+	paralelosPorLibro.set(slugBase, paralelo);
 });
 
 // Clasificar los libros en sus secciones
@@ -58,10 +65,10 @@ librosprincipales.forEach(libro => {
 		const seccion = slugParts[1] as keyof typeof estructura[typeof testamento]['secciones'];
 
 		if (estructura[testamento]?.secciones?.[seccion]) {
-			// Añadir el libro con su comentario asociado si existe
 			const libroConComentario = {
 				...libro,
-				comentario: comentariosPorLibro.get(libro.slug)
+				comentario: comentariosPorLibro.get(libro.slug),
+				paralelo: paralelosPorLibro.get(libro.slug)
 			};
 			(estructura[testamento].secciones as any)[seccion].libros.push(libroConComentario);
 		}
@@ -96,7 +103,7 @@ Object.values(estructura).forEach(testamento => {
 								</h3>
 								<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 									{seccion.libros.map(libro => {
-										const { slug, data, comentario } = libro;
+										const { slug, data, comentario, paralelo } = libro;
 										const { title } = data;
 
 										return (
@@ -153,6 +160,21 @@ Object.values(estructura).forEach(testamento => {
 																title="Formatear párrafos de comentarios"
 															>
 																FC
+															</button>
+														</div>
+													</div>
+												)}
+												{/* Paralelos del libro */}
+												{paralelo && (
+													<div class="mt-2 pt-2 border-t border-gray-100 flex items-center justify-between gap-2">
+														<span class="text-xs text-gray-500 italic truncate flex-1">Paralelos</span>
+														<div class="flex gap-1 flex-shrink-0">
+															<button
+																data-slug={slug}
+																class="format-parallels-btn px-2 py-1 bg-orange-600 text-white rounded hover:bg-orange-700 transition text-xs"
+																title="Insertar cabeceras Si X Y automáticamente"
+															>
+																FP
 															</button>
 														</div>
 													</div>
@@ -556,6 +578,76 @@ Object.values(estructura).forEach(testamento => {
 					button.textContent = originalText;
 					button.classList.remove('bg-red-600');
 					button.classList.add('bg-indigo-600', 'hover:bg-indigo-700');
+					button.disabled = false;
+				}, 2000);
+			}
+		});
+	});
+
+	// Botón Formatear Paralelos (FP) - Inserta cabeceras Si X Y con modo add-headers
+	document.querySelectorAll('.format-parallels-btn').forEach(btn => {
+		btn.addEventListener('click', async (e) => {
+			const button = e.target as HTMLButtonElement;
+			const slug = button.dataset.slug;
+			const originalText = button.textContent;
+
+			button.textContent = '...';
+			button.disabled = true;
+
+			try {
+				const response = await fetch('/api/format-parallels', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slug, mode: 'add-headers' })
+				});
+
+				const data = await response.json();
+
+				if (response.ok) {
+					button.textContent = '✓';
+					button.classList.remove('bg-orange-600', 'hover:bg-orange-700');
+					button.classList.add('bg-green-600');
+
+					dialogTitle.textContent = `Paralelos: ${slug.split('/').pop()}`;
+					dialogContent.innerHTML = `
+						<div class="text-center py-8">
+							<div class="text-6xl mb-4">✅</div>
+							<p class="text-green-600 font-bold text-lg">¡Cabeceras insertadas!</p>
+							<p class="text-gray-600">${data.message}</p>
+							<p class="text-xs text-gray-500 mt-2">Ahora los paralelos están asociados a cada versículo</p>
+						</div>
+					`;
+					fixVersesBtn.classList.add('hidden');
+					dialog.showModal();
+
+					setTimeout(() => {
+						button.textContent = originalText;
+						button.classList.remove('bg-green-600');
+						button.classList.add('bg-orange-600', 'hover:bg-orange-700');
+						button.disabled = false;
+					}, 2000);
+				} else {
+					throw new Error(data.error || 'Error desconocido');
+				}
+			} catch (error) {
+				console.error('Error:', error);
+				button.textContent = '✗';
+				button.classList.remove('bg-orange-600', 'hover:bg-orange-700');
+				button.classList.add('bg-red-600');
+
+				dialogTitle.textContent = 'Error';
+				dialogContent.innerHTML = `
+					<div class="text-center py-8">
+						<div class="text-6xl mb-4">❌</div>
+						<p class="text-red-600 font-bold">${error instanceof Error ? error.message : 'Error desconocido'}</p>
+					</div>
+				`;
+				dialog.showModal();
+
+				setTimeout(() => {
+					button.textContent = originalText;
+					button.classList.remove('bg-red-600');
+					button.classList.add('bg-orange-600', 'hover:bg-orange-700');
 					button.disabled = false;
 				}, 2000);
 			}

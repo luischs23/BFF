@@ -1,4 +1,5 @@
 ---
+import { Search } from "lucide-astro";
 import type { EstructuraBiblia } from "../../lib/biblia/types";
 
 interface Props {
@@ -31,7 +32,17 @@ const { estructura, currentSlug } = Astro.props;
 				</svg>
 			</button>
 		</div>
-		<h2 class="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">Sagrada Biblia</h2>
+		<div class="flex items-center justify-between mb-4">
+			<h2 class="text-lg font-bold text-gray-900 dark:text-gray-100">Sagrada Biblia</h2>
+			<button
+				id="sidebarGlobalSearch"
+				class="p-1.5 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-amber-700 dark:hover:text-amber-400 transition-colors"
+				aria-label="Buscar en toda la Biblia"
+				title="Buscar en toda la Biblia"
+			>
+				<Search class="h-4 w-4" />
+			</button>
+		</div>
 
 		{Object.entries(estructura).map(([testamentoKey, testamento]) => (
 			<div class="mb-6">
@@ -78,3 +89,14 @@ const { estructura, currentSlug } = Astro.props;
 		))}
 	</div>
 </aside>
+
+<script>
+	function initSidebarSearch() {
+		const btn = document.getElementById('sidebarGlobalSearch');
+		btn?.addEventListener('click', () => {
+			(window as any).openGlobalSearch?.();
+		});
+	}
+	document.addEventListener('DOMContentLoaded', initSidebarSearch);
+	document.addEventListener('astro:page-load', initSidebarSearch);
+</script>

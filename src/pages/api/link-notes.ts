@@ -58,34 +58,80 @@ const bookAbbrevMap: Record<string, string> = {
 // Extraer referencias de comentarios del archivo de comentarios
 function extractCommentRefs(content: string, bookAbbrev: string): string[] {
   const refs: string[] = [];
+  const abbrevLower = bookAbbrevMap[bookAbbrev] || bookAbbrev.toLowerCase();
 
-  // Patrón para detectar inicio de comentario: "Gn 1 2 (a)" o "Gn 1" o "Gn 1 2"
-  // El formato es: ABBREV CAPITULO [VERSICULO] [(LETRA)]
-  // Para abreviaturas como "1S", "2S", etc., el archivo puede tener "1 S" con espacio
+  // Procesar párrafo a párrafo para respetar el orden del archivo
+  // y manejar prefijos especiales como SiPról.
+  const frontmatterMatch = content.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/);
+  const body = frontmatterMatch ? frontmatterMatch[1] : content;
+  const paragraphs = body.split('\n\n');
+
   // Escapamos caracteres especiales y permitimos espacio opcional después del número inicial
   const escapedAbbrev = bookAbbrev.replace(/([123])([A-Za-z])/, '$1\\s?$2');
-  const commentPattern = new RegExp(
-    `^${escapedAbbrev}\\s+(\\d+)(?:\\s+(\\d+))?(?:\\s+\\(([a-z])\\))?\\s`,
-    'gm'
-  );
 
-  let match;
-  while ((match = commentPattern.exec(content)) !== null) {
-    const chapter = match[1];
-    const verse = match[2];
-    const letter = match[3];
+  for (const para of paragraphs) {
+    const trimmed = para.trim();
+    if (!trimmed) continue;
 
-    const abbrevLower = bookAbbrevMap[bookAbbrev] || bookAbbrev.toLowerCase();
-
-    let ref = `${abbrevLower}-${chapter}`;
-    if (verse) {
-      ref += `-${verse}`;
+    // Caso especial: entradas SiPról. del Eclesiástico
+    if (bookAbbrev === 'Si') {
+      // SiPról. sin número de versículo (intro del prólogo)
+      if (/^SiPról\. [^0-9]/.test(trimmed)) {
+        refs.push('siprol');
+        continue;
+      }
+      // SiPról. N (con número de versículo)
+      const prolVerse = trimmed.match(/^SiPról\. (\d+) /);
+      if (prolVerse) {
+        refs.push(`siprol-${prolVerse[1]}`);
+        continue;
+      }
     }
-    if (letter) {
-      ref += `-${letter}`;
+
+    // Sub-letra: "Est 1 1 a (b)" → est-1-1-a-b
+    const subLetterMatch = trimmed.match(
+      new RegExp(`^${escapedAbbrev}\\s+(\\d+)\\s+(\\d+)\\s+([a-z])\\s+\\(([a-z])\\)\\s`)
+    );
+    if (subLetterMatch) {
+      refs.push(`${abbrevLower}-${subLetterMatch[1]}-${subLetterMatch[2]}-${subLetterMatch[3]}-${subLetterMatch[4]}`);
+      continue;
     }
 
-    refs.push(ref);
+    // Versículo con letra entre paréntesis: "Si 1 6 (a)" → si-1-6-a
+    const parenMatch = trimmed.match(
+      new RegExp(`^${escapedAbbrev}\\s+(\\d+)\\s+(\\d+)\\s+\\(([a-z])\\)\\s`)
+    );
+    if (parenMatch) {
+      refs.push(`${abbrevLower}-${parenMatch[1]}-${parenMatch[2]}-${parenMatch[3]}`);
+      continue;
+    }
+
+    // Versículo con letra sin paréntesis: "Est 10 3 i" → est-10-3-i
+    const letterMatch = trimmed.match(
+      new RegExp(`^${escapedAbbrev}\\s+(\\d+)\\s+(\\d+)\\s+([a-z])\\s`)
+    );
+    if (letterMatch) {
+      refs.push(`${abbrevLower}-${letterMatch[1]}-${letterMatch[2]}-${letterMatch[3]}`);
+      continue;
+    }
+
+    // Versículo simple: "Si 1 1" → si-1-1
+    const verseMatch = trimmed.match(
+      new RegExp(`^${escapedAbbrev}\\s+(\\d+)\\s+(\\d+)\\s`)
+    );
+    if (verseMatch) {
+      refs.push(`${abbrevLower}-${verseMatch[1]}-${verseMatch[2]}`);
+      continue;
+    }
+
+    // Intro de capítulo: "Si 1 Este..." → si-1 (el siguiente token no es dígito)
+    const chMatch = trimmed.match(
+      new RegExp(`^${escapedAbbrev}\\s+(\\d+)\\s+([^\\d])`)
+    );
+    if (chMatch) {
+      refs.push(`${abbrevLower}-${chMatch[1]}`);
+      continue;
+    }
   }
 
   return refs;

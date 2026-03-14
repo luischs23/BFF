@@ -22,11 +22,47 @@ function handleCopy(event: Event): void {
 	const citation = buildCitation(range);
 	if (!citation) return;
 
-	const clipboardEvent = event as ClipboardEvent;
-	if (clipboardEvent.clipboardData) {
-		clipboardEvent.clipboardData.setData('text/plain', `${selectedText}\n— ${citation}`);
-		event.preventDefault();
+	// Construir URL al versículo inicial de la selección
+	const slug = (window as any).currentBibliaSlug || '';
+	const startChapter = findChapterForNode(range.startContainer);
+	const { firstVerse } = startChapter
+		? findVersesInSelection(range, startChapter)
+		: { firstVerse: null };
+
+	let url = '';
+	if (slug && startChapter) {
+		const hash = firstVerse
+			? `#chapter-${startChapter}-verse-${firstVerse}`
+			: `#chapter-${startChapter}`;
+		url = `${window.location.origin}/biblia/${slug}${hash}`;
 	}
+
+	const clipboardEvent = event as ClipboardEvent;
+	if (!clipboardEvent.clipboardData) return;
+
+	// text/plain: texto + cita + URL en línea propia
+	const plain = url
+		? `${selectedText}\n— ${citation}\n${url}`
+		: `${selectedText}\n— ${citation}`;
+
+	// text/html: texto + cita como hipervínculo (Word, Google Docs, email…)
+	const escapedText = escapeHtml(selectedText);
+	const escapedCitation = escapeHtml(citation);
+	const html = url
+		? `<p>${escapedText}</p><p>— <a href="${url}">${escapedCitation}</a></p>`
+		: `<p>${escapedText}</p><p>— ${escapedCitation}</p>`;
+
+	clipboardEvent.clipboardData.setData('text/plain', plain);
+	clipboardEvent.clipboardData.setData('text/html', html);
+	event.preventDefault();
+}
+
+function escapeHtml(str: string): string {
+	return str
+		.replace(/&/g, '&amp;')
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;')
+		.replace(/"/g, '&quot;');
 }
 
 export function buildCitation(range: Range): string {

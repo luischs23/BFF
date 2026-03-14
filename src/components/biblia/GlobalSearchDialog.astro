@@ -1,0 +1,257 @@
+---
+import { Search, X, BookOpen } from "lucide-astro";
+---
+
+<!-- Overlay de búsqueda global -->
+<div
+  id="globalSearchOverlay"
+  class="hidden fixed inset-0 bg-black/60 z-[200] flex items-start justify-center p-4 pt-14 md:pt-10"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Búsqueda global"
+>
+  <div class="w-full max-w-2xl bg-white dark:bg-gray-900 rounded-xl shadow-2xl flex flex-col max-h-[88vh] overflow-hidden">
+
+    <!-- Header del modal -->
+    <div class="flex items-center gap-3 px-4 py-3 border-b border-gray-200 dark:border-gray-700 flex-shrink-0">
+      <Search class="h-5 w-5 text-amber-600 dark:text-amber-400 flex-shrink-0" />
+      <input
+        type="text"
+        id="globalSearchInput"
+        placeholder="Buscar en toda la Biblia..."
+        autocomplete="off"
+        class="flex-1 bg-transparent text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 text-base outline-none"
+      />
+      <button
+        id="globalSearchClose"
+        class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400 transition-colors flex-shrink-0"
+        aria-label="Cerrar búsqueda"
+      >
+        <X class="h-5 w-5" />
+      </button>
+    </div>
+
+    <!-- Barra de estado -->
+    <div id="gsStatus" class="px-4 py-2 text-xs text-gray-500 dark:text-gray-400 border-b border-gray-100 dark:border-gray-800 flex-shrink-0 hidden">
+    </div>
+
+    <!-- Resultados -->
+    <div id="gsResults" class="overflow-y-auto flex-1 p-3 space-y-2">
+      <!-- Estado inicial -->
+      <div id="gsInitial" class="flex flex-col items-center justify-center py-16 text-center">
+        <BookOpen class="h-12 w-12 text-gray-300 dark:text-gray-600 mb-3" />
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Escribe al menos 3 letras para buscar</p>
+        <p class="text-gray-400 dark:text-gray-500 text-xs mt-1">en todos los libros de la Biblia</p>
+      </div>
+      <!-- Estado de carga -->
+      <div id="gsLoading" class="hidden flex flex-col items-center justify-center py-16">
+        <div class="w-8 h-8 border-3 border-amber-500 border-t-transparent rounded-full animate-spin mb-3"></div>
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Buscando...</p>
+      </div>
+      <!-- Sin resultados -->
+      <div id="gsEmpty" class="hidden flex flex-col items-center justify-center py-16 text-center">
+        <Search class="h-10 w-10 text-gray-300 dark:text-gray-600 mb-3" />
+        <p class="text-gray-600 dark:text-gray-400 text-sm font-medium">Sin resultados</p>
+        <p class="text-gray-400 dark:text-gray-500 text-xs mt-1">Intenta con otras palabras</p>
+      </div>
+      <!-- Lista de resultados (se llena dinámicamente) -->
+      <div id="gsResultsList" class="hidden space-y-2"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #gsResults::-webkit-scrollbar {
+    width: 5px;
+  }
+  #gsResults::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  #gsResults::-webkit-scrollbar-thumb {
+    background: #d6d3d1;
+    border-radius: 3px;
+  }
+  .dark #gsResults::-webkit-scrollbar-thumb {
+    background: #4b5563;
+  }
+  .search-match {
+    background-color: #fef08a;
+    border-radius: 2px;
+    padding: 0 1px;
+  }
+  .dark .search-match {
+    background-color: #713f12;
+    color: #fef9c3;
+  }
+</style>
+
+<script>
+  function initGlobalSearch() {
+    const overlay = document.getElementById('globalSearchOverlay');
+    const input = document.getElementById('globalSearchInput') as HTMLInputElement;
+    const closeBtn = document.getElementById('globalSearchClose');
+    const statusEl = document.getElementById('gsStatus');
+    const initialEl = document.getElementById('gsInitial');
+    const loadingEl = document.getElementById('gsLoading');
+    const emptyEl = document.getElementById('gsEmpty');
+    const listEl = document.getElementById('gsResultsList');
+
+    if (!overlay) return;
+
+    function openDialog() {
+      overlay!.classList.remove('hidden');
+      overlay!.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+      setTimeout(() => input?.focus(), 50);
+    }
+
+    function closeDialog() {
+      overlay!.classList.add('hidden');
+      overlay!.classList.remove('flex');
+      document.body.style.overflow = '';
+      if (input) input.value = '';
+      showState('initial');
+      if (statusEl) {
+        statusEl.textContent = '';
+        statusEl.classList.add('hidden');
+      }
+      if (listEl) listEl.innerHTML = '';
+    }
+
+    function showState(state: 'initial' | 'loading' | 'empty' | 'results') {
+      initialEl?.classList.toggle('hidden', state !== 'initial');
+      loadingEl?.classList.toggle('hidden', state !== 'loading');
+      emptyEl?.classList.toggle('hidden', state !== 'empty');
+      listEl?.classList.toggle('hidden', state !== 'results');
+    }
+
+    function highlightText(text: string, query: string): string {
+      if (!query) return escapeHtml(text);
+      const normalized = (t: string) =>
+        t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[,;:.!?¡¿'"«»""'']/g, '').toLowerCase();
+      const normText = normalized(text);
+      const normQuery = normalized(query);
+      const idx = normText.indexOf(normQuery);
+      if (idx === -1) return escapeHtml(text);
+      return (
+        escapeHtml(text.slice(0, idx)) +
+        `<mark class="search-match">${escapeHtml(text.slice(idx, idx + query.length))}</mark>` +
+        escapeHtml(text.slice(idx + query.length))
+      );
+    }
+
+    function escapeHtml(str: string): string {
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    let searchTimeout: ReturnType<typeof setTimeout>;
+    let lastQuery = '';
+
+    async function performSearch(query: string) {
+      if (query === lastQuery) return;
+      lastQuery = query;
+
+      if (!query || query.length < 3) {
+        showState('initial');
+        if (statusEl) {
+          statusEl.textContent = '';
+          statusEl.classList.add('hidden');
+        }
+        return;
+      }
+
+      showState('loading');
+      if (statusEl) statusEl.classList.add('hidden');
+
+      try {
+        const res = await fetch(`/api/global-search?q=${encodeURIComponent(query)}`);
+        const data = await res.json();
+
+        if (query !== lastQuery) return; // Query cambió durante la fetch
+
+        const { results, total } = data;
+
+        if (!results || results.length === 0) {
+          showState('empty');
+          if (statusEl) statusEl.classList.add('hidden');
+          return;
+        }
+
+        // Actualizar status
+        if (statusEl) {
+          statusEl.textContent = total >= 150
+            ? `Más de 150 resultados encontrados (mostrando los primeros 150)`
+            : `${total} resultado${total !== 1 ? 's' : ''} encontrado${total !== 1 ? 's' : ''}`;
+          statusEl.classList.remove('hidden');
+        }
+
+        // Construir cards
+        if (listEl) {
+          listEl.innerHTML = results.map((r: {
+            title: string;
+            slug: string;
+            chapter: number;
+            verse: string;
+            snippet: string;
+          }) => `
+            <a
+              href="/biblia/${r.slug}#chapter-${r.chapter}-verse-${r.verse}"
+              class="result-card block p-3 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-amber-400 dark:hover:border-amber-600 hover:bg-amber-50 dark:hover:bg-amber-950/30 transition-all"
+            >
+              <div class="flex items-start justify-between gap-2 mb-1">
+                <span class="font-semibold text-amber-800 dark:text-amber-400 text-sm">${escapeHtml(r.title)}</span>
+                <span class="text-xs text-gray-500 dark:text-gray-400 whitespace-nowrap flex-shrink-0">
+                  Cap. ${r.chapter}, v. ${r.verse}
+                </span>
+              </div>
+              <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                ${highlightText(r.snippet, query)}
+              </p>
+            </a>
+          `).join('');
+        }
+
+        showState('results');
+
+        // Cerrar al hacer clic en un resultado
+        listEl?.querySelectorAll('.result-card').forEach(card => {
+          card.addEventListener('click', () => {
+            closeDialog();
+          });
+        });
+
+      } catch (err) {
+        showState('empty');
+      }
+    }
+
+    // Input con debounce
+    input?.addEventListener('input', () => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        performSearch(input.value.trim());
+      }, 400);
+    });
+
+    // Cerrar botón
+    closeBtn?.addEventListener('click', closeDialog);
+
+    // Cerrar al hacer clic fuera del modal
+    overlay?.addEventListener('click', (e) => {
+      if (e.target === overlay) closeDialog();
+    });
+
+    // Cerrar con Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !overlay!.classList.contains('hidden')) {
+        closeDialog();
+      }
+    });
+
+    // Exponer openDialog globalmente
+    (window as any).openGlobalSearch = openDialog;
+  }
+
+  document.addEventListener('DOMContentLoaded', initGlobalSearch);
+  document.addEventListener('astro:page-load', initGlobalSearch);
+</script>
