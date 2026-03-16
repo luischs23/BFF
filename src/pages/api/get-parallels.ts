@@ -101,6 +101,9 @@ const BOOK_NAMES: Record<string, string> = {
   '1Jn': '1 Juan', '2Jn': '2 Juan', '3Jn': '3 Juan', 'Jds': 'Judas', 'Ap': 'Apocalipsis',
 };
 
+// Libros de un solo capítulo: un único número en la referencia es verso (capítulo implícito = 1)
+const SINGLE_CHAPTER_BOOKS = new Set(['Flm', '2Jn', '3Jn', 'Jds', 'Abd']);
+
 // Abreviaturas válidas de libros
 const BOOK_ABBREVS = new Set([
   'Gn', 'Ex', 'Lv', 'Nm', 'Dt', 'Jos', 'Jc', 'Rt', '1S', '2S', '1R', '2R',
@@ -220,6 +223,9 @@ const BOOK_ABBREV_ALIASES: Record<string, string> = {
   '1Mac': '1M', '2Mac': '2M',
   '1Sam': '1S', '2Sam': '2S',
   '1Rey': '1R', '2Rey': '2R',
+  // Nombres completos usados en algunos archivos de paralelos
+  'Judas': 'Jds',
+  'Filemón': 'Flm', 'Filemon': 'Flm',
 };
 
 function resolveAbbrev(raw: string): string {
@@ -281,6 +287,10 @@ function parseParallelReference(ref: string, currentChapter: string, currentBook
       // Formato especial como "38-39" podría ser capítulos
       chapter = singlePart;
       verses = '';
+    } else if (SINGLE_CHAPTER_BOOKS.has(bookAbbrev)) {
+      // Libro de un solo capítulo: el número es verso del capítulo 1
+      chapter = '1';
+      verses = singlePart;
     } else if (singlePart.match(/^\d+$/)) {
       // Solo un número - podría ser capítulo o versículo
       // Si el libro es diferente, es capítulo

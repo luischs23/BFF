@@ -1,5 +1,5 @@
 ---
-import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown, Globe, ArrowLeft } from "lucide-astro";
+import { BookOpen, Menu, X, Search, ChevronLeft, ChevronUp, ChevronDown, Globe } from "lucide-astro";
 
 interface Props {
 	title: string;
@@ -45,16 +45,6 @@ const title = SHORT_TITLES[rawTitle] ?? rawTitle;
 
 		<!-- Controles a la derecha -->
 		<div class="absolute right-3 flex items-center gap-2">
-			<!-- Botón volver al lugar de lectura (oculto por defecto) -->
-			<button
-				id="backToReadingBtn"
-				class="hidden bg-indigo-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-indigo-700 transition"
-				aria-label="Volver al lugar de lectura"
-				title="Volver al lugar de lectura"
-			>
-				<ArrowLeft class="h-5 w-5" />
-			</button>
-
 			<!-- Botón navegación de capítulos -->
 			<button
 				id="chapterNavToggle"
@@ -423,20 +413,21 @@ const title = SHORT_TITLES[rawTitle] ?? rawTitle;
 	}
 
 	function refreshBackButton(): void {
+		const wrapper = document.getElementById('backToReadingWrapper');
 		const btn = document.getElementById('backToReadingBtn');
-		if (!btn) return;
+		if (!wrapper || !btn) return;
 		const saved = sessionStorage.getItem('bibleReturnAnchor');
 		if (saved) {
 			try {
 				const { label } = JSON.parse(saved);
 				btn.title = `Volver a ${label}`;
 				btn.setAttribute('aria-label', `Volver a ${label}`);
-				btn.classList.remove('hidden');
+				wrapper.classList.remove('hidden');
 			} catch {
-				btn.classList.add('hidden');
+				wrapper.classList.add('hidden');
 			}
 		} else {
-			btn.classList.add('hidden');
+			wrapper.classList.add('hidden');
 		}
 	}
 
@@ -472,7 +463,7 @@ const title = SHORT_TITLES[rawTitle] ?? rawTitle;
 			try {
 				const { url } = JSON.parse(saved);
 				sessionStorage.removeItem('bibleReturnAnchor');
-				btn.classList.add('hidden');
+				document.getElementById('backToReadingWrapper')?.classList.add('hidden');
 				const savedUrl = new URL(url);
 				if (savedUrl.pathname === window.location.pathname) {
 					window.location.hash = savedUrl.hash;

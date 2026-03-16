@@ -1,5 +1,5 @@
 ---
-import { Search, AArrowUp } from "lucide-astro";
+import { Search, AArrowUp, ArrowLeft } from "lucide-astro";
 import type { EstructuraBiblia } from "../../lib/biblia/types";
 
 interface Props {
@@ -18,6 +18,23 @@ const { estructura, currentSlug } = Astro.props;
 		<div class="flex items-center justify-between mb-4">
 			<a href="/" class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:underline text-sm transition-colors">&larr; Inicio</a>
 			<div class="flex items-center gap-2">
+			<!-- Botón volver al lugar de lectura (oculto por defecto) -->
+			<div id="backToReadingWrapper" class="hidden relative">
+				<button
+					id="backToReadingBtn"
+					class="p-2 rounded-lg bg-indigo-100 dark:bg-indigo-900 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors"
+					aria-label="Volver al lugar de lectura"
+					title="Volver al lugar de lectura"
+				>
+					<ArrowLeft class="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
+				</button>
+				<button
+					id="backToReadingDismiss"
+					class="absolute -top-1.5 -right-1.5 w-4 h-4 bg-gray-400 dark:bg-gray-600 hover:bg-gray-600 dark:hover:bg-gray-400 text-white rounded-full flex items-center justify-center leading-none text-[10px]"
+					aria-label="Cerrar"
+					title="No mostrar"
+				>✕</button>
+			</div>
 			<button
 				id="fontSizeToggle"
 				class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
@@ -238,4 +255,17 @@ const { estructura, currentSlug } = Astro.props;
 
 	document.addEventListener('DOMContentLoaded', initFontSize);
 	document.addEventListener('astro:page-load', initFontSize);
+
+	function initBackToReadingDismiss() {
+		const dismissBtn = document.getElementById('backToReadingDismiss');
+		if (!dismissBtn || dismissBtn.hasAttribute('data-initialized')) return;
+		dismissBtn.setAttribute('data-initialized', 'true');
+		dismissBtn.addEventListener('click', (e) => {
+			e.stopPropagation();
+			sessionStorage.removeItem('bibleReturnAnchor');
+			document.getElementById('backToReadingWrapper')?.classList.add('hidden');
+		});
+	}
+	document.addEventListener('DOMContentLoaded', initBackToReadingDismiss);
+	document.addEventListener('astro:page-load', initBackToReadingDismiss);
 </script>

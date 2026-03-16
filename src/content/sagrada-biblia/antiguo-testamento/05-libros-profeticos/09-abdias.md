@@ -3,19 +3,19 @@ title: 'Abdías'
 description: 'Libro del Profeta Abdías'
 img: blog-placeholder-4.jpg
 ---
-# ABDÍAS
+## ABDÍAS
 ## Título y prólogo.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Visión de Abdías.
 
 Esto dice el Señor Yahvé a Edom:
 
-Hemos oído* un mensaje de parte de Yahvé,
+Hemos oído<span class="note-ref" data-ref="abd-1-1-a" title="Ver comentario">&#42;</span> un mensaje de parte de Yahvé,
 
-un embajador ha sido enviado a las naciones*:
+un embajador ha sido enviado a las naciones<span class="note-ref" data-ref="abd-1-1-b" title="Ver comentario">&#42;</span>:
 
 «¡Arriba, desencadenemos la guerra contra él!»
 
-## Sentencia contra Edom*.
+## Sentencia contra Edom<span class="note-ref" data-ref="abd-1-2" title="Ver comentario">&#42;</span>.
 <sup>2</sup> Mira, te he hecho el más insignificante de los pueblos,
 
 el más despreciable.
@@ -26,7 +26,7 @@ te ha engañado,
 
 a ti que habitas
 
-en las grietas de la roca*,
+en las grietas de la roca<span class="note-ref" data-ref="abd-1-3-a" title="Ver comentario">&#42;</span>,
 
 que pones tu morada en las alturas,
 
@@ -51,9 +51,9 @@ o ladrones nocturnos,
 
 Si vinieran a ti vendimiadores,
 
-¿no te dejarían la rebusca*?
+¿no te dejarían la rebusca<span class="note-ref" data-ref="abd-1-5-a" title="Ver comentario">&#42;</span>?
 
-¡Cómo has sido arrasado*!
+¡Cómo has sido arrasado<span class="note-ref" data-ref="abd-1-5-b" title="Ver comentario">&#42;</span>!
 
 <sup>6</sup> ¡Cómo ha sido registrado Esaú,
 
@@ -69,30 +69,30 @@ Los que compartían tu pan
 
 te han tendido una trampa:
 
-«¡Ha perdido el juicio*!»
+«¡Ha perdido el juicio<span class="note-ref" data-ref="abd-1-7" title="Ver comentario">&#42;</span>!»
 
-<sup>8</sup> Pero aquel día* —oráculo de Yahvé—
+<sup>8</sup> Pero aquel día<span class="note-ref" data-ref="abd-1-8-a" title="Ver comentario">&#42;</span> —oráculo de Yahvé—
 
-exterminaré los sabios de Edom*
+exterminaré los sabios de Edom<span class="note-ref" data-ref="abd-1-8-b" title="Ver comentario">&#42;</span>
 
-y la sensatez de la montaña de Esaú*.
+y la sensatez de la montaña de Esaú<span class="note-ref" data-ref="abd-1-8-c" title="Ver comentario">&#42;</span>.
 
-<sup>9</sup> Y se acobardarán tus guerreros, Temán*,
+<sup>9</sup> Y se acobardarán tus guerreros, Temán<span class="note-ref" data-ref="abd-1-9-a" title="Ver comentario">&#42;</span>,
 
 y no quedará un solo hombre
 
 en la montaña de Esaú.
 
-## Las culpas de Edom*.
+## Las culpas de Edom<span class="note-ref" data-ref="abd-1-9-b" title="Ver comentario">&#42;</span>.
 Por la violencia <sup>10</sup> criminal
 
-contra tu hermano Jacob*,
+contra tu hermano Jacob<span class="note-ref" data-ref="abd-1-9" title="Ver comentario">&#42;</span>,
 
 te cubrirá la vergüenza,
 
 y serás aniquilado para siempre.
 
-<sup>11</sup> El día* en que le diste de lado,
+<sup>11</sup> El día<span class="note-ref" data-ref="abd-1-11" title="Ver comentario">&#42;</span> en que le diste de lado,
 
 cuando los extranjeros apresaban su ejército,
 
@@ -140,20 +140,20 @@ para todas las naciones.
 
 Lo mismo que tú has hecho, se te hará:
 
-sobre tí recaerá tu merecido*.
+sobre tí recaerá tu merecido<span class="note-ref" data-ref="abd-1-15" title="Ver comentario">&#42;</span>.
 
-## El Día de Yahvé*.
+## El Día de Yahvé<span class="note-ref" data-ref="abd-1-16-a" title="Ver comentario">&#42;</span>.
 <sup>16</sup> ¡Sí, como bebisteis vosotros
 
 sobre mi santo monte,
 
 beberán sin cesar todas las naciones,
 
-beberán* relamiéndose
+beberán<span class="note-ref" data-ref="abd-1-16-b" title="Ver comentario">&#42;</span> relamiéndose
 
 y desaparecerán sin dejar huella.
 
-<sup>17</sup> Pero en el monte Sión sobrevivirá un resto*
+<sup>17</sup> Pero en el monte Sión sobrevivirá un resto<span class="note-ref" data-ref="abd-1-17" title="Ver comentario">&#42;</span>
 
 que será santo,
 
@@ -161,7 +161,7 @@ y la casa de Jacob recobrará sus posesiones.
 
 <sup>18</sup> La casa de Jacob será el fuego,
 
-la casa de José* la llama,
+la casa de José<span class="note-ref" data-ref="abd-1-18" title="Ver comentario">&#42;</span> la llama,
 
 y la casa de Esaú la estopa:
 
@@ -188,7 +188,7 @@ y la campiña de Samaría,
 
 <sup>20</sup> La multitud de los deportados de Israel
 
-ocupará Canaán* hasta Sarepta,
+ocupará Canaán<span class="note-ref" data-ref="abd-1-20" title="Ver comentario">&#42;</span> hasta Sarepta,
 
 y los deportados de Jerusalén
 
@@ -198,6 +198,6 @@ ocuparán las ciudades del Negueb.
 
 <sup>21</sup> Subirán victoriosos al monte Sión
 
-para juzgar a la montaña de Esaú*.
+para juzgar a la montaña de Esaú<span class="note-ref" data-ref="abd-1-21-a" title="Ver comentario">&#42;</span>.
 
-¡Y Yahvé reinará*!
+¡Y Yahvé reinará<span class="note-ref" data-ref="abd-1-21-b" title="Ver comentario">&#42;</span>!
