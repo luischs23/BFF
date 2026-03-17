@@ -156,13 +156,6 @@ function hideToolbar(): void {
 // Acciones
 // ─────────────────────────────────────────────
 
-function escapeHtml(str: string): string {
-	return str
-		.replace(/&/g, '&amp;')
-		.replace(/</g, '&lt;')
-		.replace(/>/g, '&gt;')
-		.replace(/"/g, '&quot;');
-}
 
 function onCopyClick(e: Event): void {
 	e.preventDefault();
@@ -173,55 +166,12 @@ function onCopyClick(e: Event): void {
 	const citation = buildCitation(currentRange);
 	const checkSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
 
-	if (!citation) {
-		navigator.clipboard.writeText(text).then(() => {
-			showFeedback(copyBtn!, checkSvg);
-			setTimeout(hideToolbar, 1200);
-		}).catch(console.error);
-		return;
-	}
+	const full = citation ? `${text}\n— ${citation}` : text;
 
-	// Construir URL al versículo
-	const slug = (window as any).currentBibliaSlug || '';
-	const startChapter = findChapterForNode(currentRange.startContainer);
-	const { firstVerse } = startChapter
-		? findVersesInSelection(currentRange, startChapter)
-		: { firstVerse: null };
-
-	let url = '';
-	if (slug && startChapter) {
-		const hash = firstVerse
-			? `#chapter-${startChapter}-verse-${firstVerse}`
-			: `#chapter-${startChapter}`;
-		url = `${window.location.origin}/biblia/${slug}${hash}`;
-	}
-
-	const plainText = url
-		? `${text}\n— ${citation}\n${url}`
-		: `${text}\n— ${citation}`;
-
-	const htmlContent = url
-		? `<p>${escapeHtml(text)}</p><p>— <a href="${url}">${escapeHtml(citation)}</a></p>`
-		: `<p>${escapeHtml(text)}</p><p>— ${escapeHtml(citation)}</p>`;
-
-	const onSuccess = () => {
+	navigator.clipboard.writeText(full).then(() => {
 		showFeedback(copyBtn!, checkSvg);
 		setTimeout(hideToolbar, 1200);
-	};
-
-	// Intentar con ClipboardItem (soporta text/html → hipervínculo al pegar)
-	try {
-		const item = new ClipboardItem({
-			'text/plain': new Blob([plainText], { type: 'text/plain' }),
-			'text/html': new Blob([htmlContent], { type: 'text/html' }),
-		});
-		navigator.clipboard.write([item]).then(onSuccess).catch(() => {
-			// Fallback a solo texto plano
-			navigator.clipboard.writeText(plainText).then(onSuccess).catch(console.error);
-		});
-	} catch {
-		navigator.clipboard.writeText(plainText).then(onSuccess).catch(console.error);
-	}
+	}).catch(console.error);
 }
 
 function onShareClick(e: Event): void {
