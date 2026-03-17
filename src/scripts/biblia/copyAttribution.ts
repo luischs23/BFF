@@ -25,26 +25,12 @@ function handleCopy(event: Event): void {
 	const clipboardEvent = event as ClipboardEvent;
 	if (!clipboardEvent.clipboardData) return;
 
-	// text/plain: texto + cita (sin URL para compatibilidad con WhatsApp)
 	const plain = `${selectedText}\n— ${citation}`;
 
-	// text/html: texto + cita sin hipervínculo
-	const escapedText = escapeHtml(selectedText);
-	const escapedCitation = escapeHtml(citation);
-	const html = `<p>${escapedText}</p><p>— ${escapedCitation}</p>`;
-
 	clipboardEvent.clipboardData.setData('text/plain', plain);
-	clipboardEvent.clipboardData.setData('text/html', html);
 	event.preventDefault();
 }
 
-function escapeHtml(str: string): string {
-	return str
-		.replace(/&/g, '&amp;')
-		.replace(/</g, '&lt;')
-		.replace(/>/g, '&gt;')
-		.replace(/"/g, '&quot;');
-}
 
 export function buildCitation(range: Range): string {
 	const h1 = document.querySelector('.bible-content h1');
