@@ -11,6 +11,15 @@ const sagradaBiblia = defineCollection({
 	}),
 });
 
+const staFaustina = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		numero: z.number().optional(),
+	}),
+});
+
 // Mantener blog por compatibilidad temporal (puede eliminarse después)
 const blog = defineCollection({
 	type: 'content',
@@ -23,5 +32,6 @@ const blog = defineCollection({
 
 export const collections = {
 	'sagrada-biblia': sagradaBiblia,
+	'Sta-Faustina': staFaustina,
 	blog
 };
