@@ -4,32 +4,6 @@ import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 import vercel from '@astrojs/vercel';
 import AstroPWA from '@vite-pwa/astro';
-import { readdirSync, statSync } from 'fs';
-import { join, basename, extname } from 'path';
-import { fileURLToPath } from 'url';
-
-/** Genera la lista de URLs de páginas de la Biblia para precachear */
-function getBiblePageEntries() {
-  const contentRoot = fileURLToPath(new URL('./src/content/sagrada-biblia', import.meta.url));
-  const entries = [{ url: '/biblia', revision: null }];
-
-  function walk(dir, relPath = '') {
-    for (const entry of readdirSync(dir)) {
-      const full = join(dir, entry);
-      if (statSync(full).isDirectory()) {
-        walk(full, relPath ? `${relPath}/${entry}` : entry);
-      } else if (extname(entry) === '.md') {
-        const name = basename(entry, '.md');
-        if (name.endsWith('-comentarios') || name.endsWith('-paralelos')) continue;
-        const slug = relPath ? `${relPath}/${name}` : name;
-        entries.push({ url: `/biblia/${slug}`, revision: null });
-      }
-    }
-  }
-
-  walk(contentRoot);
-  return entries;
-}
 
 // https://astro.build/config
 export default defineConfig({
@@ -40,36 +14,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'auto',
       workbox: {
-        globPatterns: ['**/*.{html,js,css,woff2,png,svg,ico}'],
-        additionalManifestEntries: getBiblePageEntries(),
+        globPatterns: ['**/*.{js,css,woff2,png,svg,ico}'],
         navigateFallback: null,
-        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
-        runtimeCaching: [
-          {
-            // Páginas de libros: se cachean al visitarlas, funcionan offline después
-            urlPattern: /\/biblia\/.+/,
-            handler: 'NetworkFirst',
-            options: {
-              cacheName: 'bible-pages-cache',
-              networkTimeoutSeconds: 4,
-              expiration: {
-                maxEntries: 200,
-                maxAgeSeconds: 60 * 60 * 24 * 90, // 90 días
-              },
-            },
-          },
-          {
-            urlPattern: /\/api\/(get-comment|get-parallels|get-parallels-list)(\?.*)?$/,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'bible-api-cache',
-              expiration: {
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 365,
-              },
-            },
-          },
-        ],
       },
       manifest: {
         name: 'BFF Biblia',
