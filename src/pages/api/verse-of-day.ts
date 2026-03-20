@@ -67,7 +67,7 @@ function parseIntoVerses(body: string): VerseChunk[] {
   return result;
 }
 
-export const GET: APIRoute = async () => {
+export const GET: APIRoute = async ({ url }) => {
   const books = await getCollection('sagrada-biblia');
 
   const mainBooks = books.filter(b =>
@@ -82,9 +82,16 @@ export const GET: APIRoute = async () => {
 
   const seed = getDateSeed();
 
-  // Elegir libro del día
-  const bookIdx = Math.floor(seededRand(seed + 42) * mainBooks.length);
-  const book = mainBooks[bookIdx];
+  // Si se pasa ?slug=..., usar ese libro; si no, elegir uno aleatorio del día
+  const slugParam = url.searchParams.get('slug');
+  const saltParam = parseInt(url.searchParams.get('salt') ?? '0');
+  let book = slugParam
+    ? mainBooks.find(b => b.slug === slugParam)
+    : undefined;
+  if (!book) {
+    const bookIdx = Math.floor(seededRand(seed + 42 + saltParam) * mainBooks.length);
+    book = mainBooks[bookIdx];
+  }
 
   // Parsear sus versículos
   const verses = parseIntoVerses(book.body ?? '').filter(v => v.text.length >= 20);
@@ -93,8 +100,8 @@ export const GET: APIRoute = async () => {
     return new Response(JSON.stringify({ error: 'No verses found' }), { status: 500 });
   }
 
-  // Elegir versículo del día
-  const verseIdx = Math.floor(seededRand(seed + 99) * verses.length);
+  // Elegir versículo del día (salt para que cada sección tenga uno distinto)
+  const verseIdx = Math.floor(seededRand(seed + 99 + saltParam) * verses.length);
   const verse = verses[verseIdx];
 
   // Derivar la abreviatura del libro desde el slug (ej: "01-genesis" → slug ya incluye el title)
