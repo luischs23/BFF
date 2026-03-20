@@ -33,42 +33,523 @@ const isWelcomePage = !book;
 const title = book ? book.data.title : "Sagrada Biblia";
 const slug = book ? book.slug : "";
 const Content = book ? (await book.render()).Content : null;
+
+const FALLBACK_COLOR = 'bg-gray-500';
+const FALLBACK_LABEL = 'text-gray-400';
+
+const DOT_AT: Record<string, string> = {
+	'01-pentateuco': 'bg-blue-500', '02-libros-historicos': 'bg-amber-500',
+	'03-lirica': 'bg-violet-500', '04-libros-sapienciales': 'bg-emerald-500',
+	'05-libros-profeticos': 'bg-rose-500',
+};
+const LABEL_AT: Record<string, string> = {
+	'01-pentateuco': 'text-blue-500 dark:text-blue-400',
+	'02-libros-historicos': 'text-amber-500 dark:text-amber-400',
+	'03-lirica': 'text-violet-500 dark:text-violet-400',
+	'04-libros-sapienciales': 'text-emerald-500 dark:text-emerald-400',
+	'05-libros-profeticos': 'text-rose-500 dark:text-rose-400',
+};
+const DOT_NT: Record<string, string> = {
+	'01-evangelios': 'bg-yellow-500', '02-hechos': 'bg-orange-500',
+	'03-epistolas-pablo': 'bg-sky-500', '04-hebreos': 'bg-indigo-500',
+	'05-epistolas-catolicas': 'bg-teal-500', '06-apocalipsis': 'bg-red-500',
+};
+const LABEL_NT: Record<string, string> = {
+	'01-evangelios': 'text-yellow-500 dark:text-yellow-400',
+	'02-hechos': 'text-orange-500 dark:text-orange-400',
+	'03-epistolas-pablo': 'text-sky-500 dark:text-sky-400',
+	'04-hebreos': 'text-indigo-500 dark:text-indigo-400',
+	'05-epistolas-catolicas': 'text-teal-500 dark:text-teal-400',
+	'06-apocalipsis': 'text-red-500 dark:text-red-400',
+};
+
+function buildRows(secciones: any, dotMap: any, labelMap: any) {
+	return (Object.entries(secciones) as [string, any][]).map(([key, sec]) => ({
+		key,
+		titulo: sec.titulo as string,
+		dot: (dotMap[key] as string) ?? FALLBACK_COLOR,
+		label: (labelMap[key] as string) ?? FALLBACK_LABEL,
+		libros: (sec.libros as any[])
+			.filter((l: any) => !l.data.isIntro && !l.slug.includes('-comentarios') && !l.slug.includes('-paralelos'))
+			.map((l: any) => ({ slug: l.slug as string, title: l.data.title as string })),
+	})).filter(r => r.libros.length > 0);
+}
+
+const rowsAT = buildRows(estructura['antiguo-testamento'].secciones, DOT_AT, LABEL_AT);
+const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL_NT);
 ---
 
 <BibliaLayout title={title} slug={slug} estructura={estructura} isWelcomePage={isWelcomePage}>
 	{Content ? (
 		<Content />
 	) : (
-		<div class="welcome-content max-w-3xl mx-auto py-8 px-4">
-			<h1 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800 dark:text-gray-100">Bienvenido a la Biblia de Jerusalén</h1>
-			<p class="text-gray-600 dark:text-gray-300 mb-8">
-				<span class="hidden md:inline">Selecciona un libro del menú lateral para comenzar a leer.</span>
-				<span class="md:hidden">Toca el botón del menú para seleccionar un libro.</span>
-			</p>
+		<div class="welcome-content max-w-xl mx-auto py-8 px-5">
 
-			<div class="grid md:grid-cols-2 gap-4 md:gap-6">
-				<div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded-lg p-4 md:p-6">
-					<h2 class="text-lg md:text-xl font-bold text-amber-800 dark:text-amber-300 mb-2">Antiguo Testamento</h2>
-					<p class="text-amber-700 dark:text-amber-400 text-sm mb-4">
-						Los libros de la antigua alianza, desde el Génesis hasta los Profetas.
-					</p>
-					<p class="text-xl md:text-2xl font-bold text-amber-800 dark:text-amber-300">
-						{Object.values(estructura['antiguo-testamento'].secciones)
-							.reduce((acc, s) => acc + s.libros.filter(l => !l.data.isIntro && !l.slug.includes('-comentarios') && !l.slug.includes('-paralelos')).length, 0)} libros disponibles
-					</p>
+			<!-- Card versículo del día -->
+			<a id="verseOfDayCard" href="#" class="block rounded-3xl overflow-hidden mb-10 group relative">
+				<!-- fondo con gradiente cálido -->
+				<div class="absolute inset-0 bg-gradient-to-br from-amber-950 via-gray-900 to-gray-950 opacity-95"></div>
+				<div class="absolute inset-0 border border-amber-700/20 rounded-3xl pointer-events-none"></div>
+				<div class="relative p-6">
+					<!-- comilla decorativa -->
+					<div class="text-6xl leading-none text-amber-600/25 font-serif mb-1 select-none">"</div>
+					<p id="verseOfDayText" class="text-gray-200 text-base leading-relaxed italic mb-5 font-serif min-h-[3rem]"></p>
+					<div class="flex items-center gap-3">
+						<span id="verseOfDayDot" class="shrink-0 w-2 h-2 rounded-full bg-amber-500"></span>
+						<span id="verseOfDaySection" class="text-[10px] font-semibold uppercase tracking-widest text-amber-500/80"></span>
+						<span id="verseOfDayBook" class="text-gray-300 text-sm font-medium"></span>
+						<span class="flex-1"></span>
+						<span id="verseOfDayRef" class="text-amber-600/70 text-xs font-mono"></span>
+						<svg class="w-4 h-4 text-amber-700/60 group-hover:text-amber-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+						</svg>
+					</div>
 				</div>
+			</a>
 
-				<div class="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-4 md:p-6">
-					<h2 class="text-lg md:text-xl font-bold text-blue-800 dark:text-blue-300 mb-2">Nuevo Testamento</h2>
-					<p class="text-blue-700 dark:text-blue-400 text-sm mb-4">
-						Los Evangelios, Hechos, Epístolas y el Apocalipsis.
-					</p>
-					<p class="text-xl md:text-2xl font-bold text-blue-800 dark:text-blue-300">
-						{Object.values(estructura['nuevo-testamento'].secciones)
-							.reduce((acc, s) => acc + s.libros.filter(l => !l.data.isIntro && !l.slug.includes('-comentarios') && !l.slug.includes('-paralelos')).length, 0)} libros disponibles
-					</p>
+			<!-- Antiguo Testamento -->
+			<div class="mb-10">
+				<p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-gray-400/60 dark:text-gray-600 mb-5">Antiguo Testamento</p>
+				<div class="space-y-6">
+					{rowsAT.map(row => (
+						<div>
+							<div class={`flex items-center gap-2 mb-2.5 pl-3 border-l-2 ${row.dot.replace('bg-', 'border-')}`}>
+								<span class={`text-[10px] font-bold uppercase tracking-widest ${row.label}`}>{row.titulo}</span>
+							</div>
+							<div class="flex flex-col gap-1.5">
+								{row.libros.map(libro => (
+									<a
+										href={`/biblia/${libro.slug}`}
+										data-book-card
+										data-slug={libro.slug}
+										data-dot={row.dot}
+										data-label={row.label}
+										data-section={row.titulo}
+										data-book-title={libro.title}
+										class="flex items-center gap-3 px-4 py-3 rounded-2xl bg-gray-900 hover:bg-gray-800 border border-white/5 hover:border-white/10 transition-all duration-150 group"
+									>
+										<span class={`shrink-0 w-2 h-2 rounded-full ${row.dot}`}></span>
+										<div class="min-w-0 flex-1">
+											<div class="flex items-baseline gap-1.5 mb-0.5">
+												<span class={`text-[9px] font-bold uppercase tracking-wider ${row.label} shrink-0`}>{row.titulo}</span>
+												<span class="text-gray-300 text-xs font-medium truncate">{libro.title}</span>
+											</div>
+											<p class="book-verse text-gray-500 text-[11px] leading-snug italic truncate"></p>
+										</div>
+										<span class="book-ref text-gray-600 text-[10px] font-mono shrink-0"></span>
+										<svg class="shrink-0 w-3 h-3 text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+											<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+										</svg>
+									</a>
+								))}
+							</div>
+						</div>
+					))}
 				</div>
 			</div>
+
+			<!-- Nuevo Testamento -->
+			<div>
+				<p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-gray-400/60 dark:text-gray-600 mb-5">Nuevo Testamento</p>
+				<div class="space-y-6">
+					{rowsNT.map(row => (
+						<div>
+							<div class={`flex items-center gap-2 mb-2.5 pl-3 border-l-2 ${row.dot.replace('bg-', 'border-')}`}>
+								<span class={`text-[10px] font-bold uppercase tracking-widest ${row.label}`}>{row.titulo}</span>
+							</div>
+							<div class="flex flex-col gap-1.5">
+								{row.libros.map(libro => (
+									<a
+										href={`/biblia/${libro.slug}`}
+										data-book-card
+										data-slug={libro.slug}
+										data-dot={row.dot}
+										data-label={row.label}
+										data-section={row.titulo}
+										data-book-title={libro.title}
+										class="flex items-center gap-3 px-4 py-3 rounded-2xl bg-gray-900 hover:bg-gray-800 border border-white/5 hover:border-white/10 transition-all duration-150 group"
+									>
+										<span class={`shrink-0 w-2 h-2 rounded-full ${row.dot}`}></span>
+										<div class="min-w-0 flex-1">
+											<div class="flex items-baseline gap-1.5 mb-0.5">
+												<span class={`text-[9px] font-bold uppercase tracking-wider ${row.label} shrink-0`}>{row.titulo}</span>
+												<span class="text-gray-300 text-xs font-medium truncate">{libro.title}</span>
+											</div>
+											<p class="book-verse text-gray-500 text-[11px] leading-snug italic truncate"></p>
+										</div>
+										<span class="book-ref text-gray-600 text-[10px] font-mono shrink-0"></span>
+										<svg class="shrink-0 w-3 h-3 text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+											<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+										</svg>
+									</a>
+								))}
+							</div>
+						</div>
+					))}
+				</div>
+			</div>
+
 		</div>
 	)}
+<script>
+// Citas por libro: 2 por libro para rotación diaria
+type V = { t: string; r: string; c: number; v: number };
+const BV: Record<string, V[]> = {
+  'antiguo-testamento/01-pentateuco/01-genesis': [
+    { t: 'En el principio creó Dios el cielo y la tierra.', r: 'Gn 1,1', c: 1, v: 1 },
+    { t: 'Y vio Dios todo lo que había hecho: era muy bueno.', r: 'Gn 1,31', c: 1, v: 31 },
+  ],
+  'antiguo-testamento/01-pentateuco/02-exodo': [
+    { t: 'Yo soy el que soy.', r: 'Ex 3,14', c: 3, v: 14 },
+    { t: 'No tendrás otros dioses delante de mí.', r: 'Ex 20,3', c: 20, v: 3 },
+  ],
+  'antiguo-testamento/01-pentateuco/03-levitico': [
+    { t: 'Amarás a tu prójimo como a ti mismo.', r: 'Lv 19,18', c: 19, v: 18 },
+    { t: 'Seréis santos, porque yo, el Señor vuestro Dios, soy santo.', r: 'Lv 19,2', c: 19, v: 2 },
+  ],
+  'antiguo-testamento/01-pentateuco/04-numeros': [
+    { t: 'Que el Señor te bendiga y te proteja.', r: 'Nm 6,24', c: 6, v: 24 },
+    { t: 'Dios no es hombre para mentir, ni hijo de hombre para arrepentirse.', r: 'Nm 23,19', c: 23, v: 19 },
+  ],
+  'antiguo-testamento/01-pentateuco/05-deuteronomio': [
+    { t: 'Escucha, Israel: el Señor es nuestro Dios, el Señor es uno.', r: 'Dt 6,4', c: 6, v: 4 },
+    { t: 'Elige la vida, para que vivas tú y tu descendencia.', r: 'Dt 30,19', c: 30, v: 19 },
+  ],
+  'antiguo-testamento/02-libros-historicos/01-josue': [
+    { t: 'Yo y mi casa serviremos al Señor.', r: 'Jos 24,15', c: 24, v: 15 },
+    { t: 'Sé fuerte y valiente. No temas ni desmayes.', r: 'Jos 1,9', c: 1, v: 9 },
+  ],
+  'antiguo-testamento/02-libros-historicos/02-jueces': [
+    { t: 'Ve con esta fuerza tuya y salva a Israel.', r: 'Jue 6,14', c: 6, v: 14 },
+    { t: 'El Señor suscitó jueces que los libraron de sus opresores.', r: 'Jue 2,16', c: 2, v: 16 },
+  ],
+  'antiguo-testamento/02-libros-historicos/03-rut': [
+    { t: 'Donde tú vayas, iré yo; donde tú mueras, moriré yo.', r: 'Rt 1,16', c: 1, v: 16 },
+    { t: 'El Señor recompense tu obra y tengas plena recompensa de su parte.', r: 'Rt 2,12', c: 2, v: 12 },
+  ],
+  'antiguo-testamento/02-libros-historicos/04-1samuel': [
+    { t: 'El Señor no mira como el hombre; el Señor mira el corazón.', r: '1Sm 16,7', c: 16, v: 7 },
+    { t: 'Habla, Señor, que tu siervo escucha.', r: '1Sm 3,10', c: 3, v: 10 },
+  ],
+  'antiguo-testamento/02-libros-historicos/05-2samuel': [
+    { t: 'Bendito sea el Señor, mi roca, que es mi salvación.', r: '2Sm 22,47', c: 22, v: 47 },
+    { t: 'Soy quien ha pecado, yo soy el culpable.', r: '2Sm 24,17', c: 24, v: 17 },
+  ],
+  'antiguo-testamento/02-libros-historicos/06-1reyes': [
+    { t: '¡El Señor es Dios! ¡El Señor es Dios!', r: '1Re 18,39', c: 18, v: 39 },
+    { t: 'Tras el fuego, una voz de suave silencio.', r: '1Re 19,12', c: 19, v: 12 },
+  ],
+  'antiguo-testamento/02-libros-historicos/07-2reyes': [
+    { t: 'Señor, abre los ojos de este joven para que vea.', r: '2Re 6,17', c: 6, v: 17 },
+    { t: 'Se apoyó en el Señor Dios de Israel sin apartarse de él.', r: '2Re 18,6', c: 18, v: 6 },
+  ],
+  'antiguo-testamento/02-libros-historicos/08-1cronicas': [
+    { t: 'Todo viene de ti y te damos lo que es tuyo.', r: '1Cr 29,14', c: 29, v: 14 },
+    { t: 'Dad gracias al Señor, invocad su nombre.', r: '1Cr 16,34', c: 16, v: 34 },
+  ],
+  'antiguo-testamento/02-libros-historicos/09-2cronicas': [
+    { t: 'Si mi pueblo se humilla, ora y busca mi rostro, yo lo escucharé.', r: '2Cr 7,14', c: 7, v: 14 },
+    { t: 'Porque para siempre es su misericordia.', r: '2Cr 5,13', c: 5, v: 13 },
+  ],
+  'antiguo-testamento/02-libros-historicos/10-esdras': [
+    { t: 'La mano de su Dios estuvo sobre él favorablemente.', r: 'Esd 7,6', c: 7, v: 6 },
+    { t: 'Porque bueno es el Señor; para siempre su amor.', r: 'Esd 3,11', c: 3, v: 11 },
+  ],
+  'antiguo-testamento/02-libros-historicos/11-nehemias': [
+    { t: 'La alegría del Señor es vuestra fortaleza.', r: 'Ne 8,10', c: 8, v: 10 },
+    { t: 'No temáis. Recordad al Señor, grande y terrible.', r: 'Ne 4,14', c: 4, v: 14 },
+  ],
+  'antiguo-testamento/02-libros-historicos/12-tobias': [
+    { t: 'La oración con ayuno y limosna y justicia es mejor que la riqueza.', r: 'Tb 12,8', c: 12, v: 8 },
+    { t: 'Lo que no quieras para ti, no lo hagas a nadie.', r: 'Tb 4,15', c: 4, v: 15 },
+  ],
+  'antiguo-testamento/02-libros-historicos/13-judit': [
+    { t: 'El Señor Todopoderoso los ha frustrado por mano de mujer.', r: 'Jdt 16,6', c: 16, v: 6 },
+    { t: 'Vosotros no temáis al hombre; poned vuestra esperanza en Dios.', r: 'Jdt 8,20', c: 8, v: 20 },
+  ],
+  'antiguo-testamento/02-libros-historicos/14-ester': [
+    { t: 'Si he de morir, que muera.', r: 'Est 4,16', c: 4, v: 16 },
+    { t: 'El Señor libró a su pueblo e Israel fue libre de aquel mal.', r: 'Est 8,12', c: 8, v: 12 },
+  ],
+  'antiguo-testamento/02-libros-historicos/15-1macabeos': [
+    { t: 'Más vale morir en la batalla que contemplar la desgracia de nuestro pueblo.', r: '1Mac 3,59', c: 3, v: 59 },
+    { t: 'Mostrad celo por la ley y dad vuestras vidas por la alianza.', r: '1Mac 2,50', c: 2, v: 50 },
+  ],
+  'antiguo-testamento/02-libros-historicos/16-2macabeos': [
+    { t: 'Es santa y saludable la idea de orar por los difuntos.', r: '2Mac 12,45', c: 12, v: 45 },
+    { t: 'El que dio las leyes del mundo dará también el espíritu vital.', r: '2Mac 7,23', c: 7, v: 23 },
+  ],
+  'antiguo-testamento/03-lirica/01-job': [
+    { t: 'El Señor dio, el Señor quitó; ¡bendito sea el nombre del Señor!', r: 'Jb 1,21', c: 1, v: 21 },
+    { t: 'Yo sé que mi Redentor vive y al final se alzará sobre el polvo.', r: 'Jb 19,25', c: 19, v: 25 },
+  ],
+  'antiguo-testamento/03-lirica/02-salmos': [
+    { t: 'El Señor es mi pastor, nada me falta.', r: 'Sal 23,1', c: 23, v: 1 },
+    { t: 'El Señor es mi luz y mi salvación, ¿a quién temeré?', r: 'Sal 27,1', c: 27, v: 1 },
+  ],
+  'antiguo-testamento/03-lirica/03-cantar-de-los-cantares': [
+    { t: 'Mi amado es mío y yo soy suya.', r: 'Ct 2,16', c: 2, v: 16 },
+    { t: 'Fuerte es el amor como la muerte.', r: 'Ct 8,6', c: 8, v: 6 },
+  ],
+  'antiguo-testamento/03-lirica/04-lamentaciones': [
+    { t: 'Grande es tu fidelidad.', r: 'Lm 3,23', c: 3, v: 23 },
+    { t: 'Bueno es el Señor para quien en él espera.', r: 'Lm 3,25', c: 3, v: 25 },
+  ],
+  'antiguo-testamento/04-libros-sapienciales/01-proverbios': [
+    { t: 'Confía en el Señor con todo tu corazón y no te apoyes en tu propia inteligencia.', r: 'Pr 3,5', c: 3, v: 5 },
+    { t: 'Sobre todas las cosas guarda tu corazón, porque de él mana la vida.', r: 'Pr 4,23', c: 4, v: 23 },
+  ],
+  'antiguo-testamento/04-libros-sapienciales/02-eclesiastes': [
+    { t: 'Vanidad de vanidades, todo es vanidad.', r: 'Qo 1,2', c: 1, v: 2 },
+    { t: 'Teme a Dios y guarda sus mandamientos: esto es todo el hombre.', r: 'Qo 12,13', c: 12, v: 13 },
+  ],
+  'antiguo-testamento/04-libros-sapienciales/03-sabiduria': [
+    { t: 'Las almas de los justos están en manos de Dios.', r: 'Sb 3,1', c: 3, v: 1 },
+    { t: 'El espíritu del Señor llena el universo y, como lo abarca todo, sabe todo.', r: 'Sb 1,7', c: 1, v: 7 },
+  ],
+  'antiguo-testamento/04-libros-sapienciales/04-eclesiastico': [
+    { t: 'Hijo, si te acercas a servir al Señor, prepara tu alma para la prueba.', r: 'Si 2,1', c: 2, v: 1 },
+    { t: 'En toda sabiduría hay ejercicio de la ley; en toda sabiduría, conocimiento de Dios.', r: 'Si 19,20', c: 19, v: 20 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/01-isaias': [
+    { t: 'He aquí que la Virgen concebirá y dará a luz un hijo.', r: 'Is 7,14', c: 7, v: 14 },
+    { t: 'Porque nos ha nacido un niño, se nos ha dado un hijo.', r: 'Is 9,5', c: 9, v: 5 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/02-jeremias': [
+    { t: 'Conozco los planes que tengo para vosotros: planes de paz y no de desgracia.', r: 'Jr 29,11', c: 29, v: 11 },
+    { t: 'Antes de formarte en el seno materno, te conocí.', r: 'Jr 1,5', c: 1, v: 5 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/03-baruc': [
+    { t: 'Este es nuestro Dios, no hay otro comparable a él.', r: 'Ba 3,35', c: 3, v: 35 },
+    { t: 'Feliz el que conoce la sabiduría y tiene inteligencia.', r: 'Ba 4,4', c: 4, v: 4 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/04-ezequiel': [
+    { t: 'Os daré un corazón nuevo, pondré en vuestro interior un espíritu nuevo.', r: 'Ez 36,26', c: 36, v: 26 },
+    { t: 'Yo mismo apacentaré mis ovejas, yo mismo las haré reposar.', r: 'Ez 34,15', c: 34, v: 15 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/05-daniel': [
+    { t: 'Mi Dios envió su ángel y cerró la boca de los leones.', r: 'Dn 6,23', c: 6, v: 23 },
+    { t: 'Nuestro Dios puede librarnos del horno ardiente.', r: 'Dn 3,17', c: 3, v: 17 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/06-oseas': [
+    { t: 'Quiero amor, no sacrificios; conocimiento de Dios, no holocaustos.', r: 'Os 6,6', c: 6, v: 6 },
+    { t: 'Te desposaré conmigo para siempre en amor y ternura.', r: 'Os 2,21', c: 2, v: 21 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/07-joel': [
+    { t: 'Después derramaré mi espíritu sobre todo mortal.', r: 'Jl 3,1', c: 3, v: 1 },
+    { t: 'Rasgad vuestros corazones y no vuestros vestidos.', r: 'Jl 2,13', c: 2, v: 13 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/08-amos': [
+    { t: 'Que fluya el juicio como el agua, y la justicia como arroyo perenne.', r: 'Am 5,24', c: 5, v: 24 },
+    { t: 'Buscadme y viviréis.', r: 'Am 5,4', c: 5, v: 4 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/09-abdias': [
+    { t: 'Ese día subirá en el monte Sión un resto que se salvará.', r: 'Abd 1,17', c: 1, v: 17 },
+    { t: 'Tu soberbia te ha engañado.', r: 'Abd 1,3', c: 1, v: 3 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/10-jonas': [
+    { t: 'Levántate y ve a Nínive, la gran ciudad.', r: 'Jon 1,2', c: 1, v: 2 },
+    { t: 'Los habitantes de Nínive creyeron a Dios.', r: 'Jon 3,5', c: 3, v: 5 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/11-miqueas': [
+    { t: '¿Qué pide el Señor de ti sino practicar la justicia y amar la misericordia?', r: 'Mi 6,8', c: 6, v: 8 },
+    { t: 'De ti, Belén, saldrá el que ha de ser señor de Israel.', r: 'Mi 5,1', c: 5, v: 1 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/12-nahum': [
+    { t: 'El Señor es bueno, refugio en el día del peligro.', r: 'Na 1,7', c: 1, v: 7 },
+    { t: 'El Señor es tardo para la ira, pero de grande poder.', r: 'Na 1,3', c: 1, v: 3 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/13-habacuc': [
+    { t: 'El justo vivirá por su fe.', r: 'Ha 2,4', c: 2, v: 4 },
+    { t: 'Yo me alegraré en el Señor, me gozaré en el Dios de mi salvación.', r: 'Ha 3,18', c: 3, v: 18 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/14-sofonias': [
+    { t: '¡Canta, hija de Sión! ¡Lanza gritos de júbilo, Israel!', r: 'So 3,14', c: 3, v: 14 },
+    { t: 'El Señor tu Dios está en medio de ti como poderoso salvador.', r: 'So 3,17', c: 3, v: 17 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/15-ageo': [
+    { t: 'Mi espíritu permanece en medio de vosotros; no temáis.', r: 'Ag 2,5', c: 2, v: 5 },
+    { t: 'Reflexionad sobre vuestros caminos.', r: 'Ag 1,7', c: 1, v: 7 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/16-zacarias': [
+    { t: 'No por el poder ni por la fuerza, sino por mi espíritu, dice el Señor.', r: 'Za 4,6', c: 4, v: 6 },
+    { t: 'Alégrate mucho, hija de Sión; tu rey viene a ti, justo y victorioso.', r: 'Za 9,9', c: 9, v: 9 },
+  ],
+  'antiguo-testamento/05-libros-profeticos/17-malaquias': [
+    { t: '¿Acaso no tenemos todos un mismo padre? ¿No nos ha creado un mismo Dios?', r: 'Ml 2,10', c: 2, v: 10 },
+    { t: 'He aquí que envío mi mensajero para que prepare el camino ante mí.', r: 'Ml 3,1', c: 3, v: 1 },
+  ],
+  'nuevo-testamento/01-evangelios/01-mateo': [
+    { t: 'Id, pues, y haced discípulos a todos los pueblos.', r: 'Mt 28,19', c: 28, v: 19 },
+    { t: 'Venid a mí todos los que estáis cansados y agobiados, y yo os aliviaré.', r: 'Mt 11,28', c: 11, v: 28 },
+  ],
+  'nuevo-testamento/01-evangelios/02-marcos': [
+    { t: 'El tiempo se ha cumplido y el Reino de Dios está cerca.', r: 'Mc 1,15', c: 1, v: 15 },
+    { t: 'El Hijo del hombre no ha venido a ser servido, sino a servir.', r: 'Mc 10,45', c: 10, v: 45 },
+  ],
+  'nuevo-testamento/01-evangelios/03-lucas': [
+    { t: 'Hoy os ha nacido en la ciudad de David un Salvador, que es el Cristo Señor.', r: 'Lc 2,11', c: 2, v: 11 },
+    { t: 'Habrá más alegría en el cielo por un pecador que se convierta.', r: 'Lc 15,7', c: 15, v: 7 },
+  ],
+  'nuevo-testamento/01-evangelios/04-juan': [
+    { t: 'Tanto amó Dios al mundo que dio a su Hijo único.', r: 'Jn 3,16', c: 3, v: 16 },
+    { t: 'Yo soy el camino, la verdad y la vida.', r: 'Jn 14,6', c: 14, v: 6 },
+  ],
+  'nuevo-testamento/02-hechos/01-hechos': [
+    { t: 'Recibiréis la fuerza del Espíritu Santo que vendrá sobre vosotros.', r: 'Hch 1,8', c: 1, v: 8 },
+    { t: 'No hay bajo el cielo otro nombre dado a los hombres por el que podamos salvarnos.', r: 'Hch 4,12', c: 4, v: 12 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/01-romanos': [
+    { t: 'En todas las cosas interviene Dios para bien de los que le aman.', r: 'Rm 8,28', c: 8, v: 28 },
+    { t: 'Ni la muerte, ni la vida nos podrán separar del amor de Dios.', r: 'Rm 8,38', c: 8, v: 38 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/02-1corintios': [
+    { t: 'El amor es paciente, es bondadoso; el amor no es envidioso.', r: '1Co 13,4', c: 13, v: 4 },
+    { t: '¿Dónde está, oh muerte, tu victoria? ¿Dónde, oh muerte, tu aguijón?', r: '1Co 15,55', c: 15, v: 55 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/03-2corintios': [
+    { t: 'Mi gracia te basta, que mi fuerza se muestra perfecta en la flaqueza.', r: '2Co 12,9', c: 12, v: 9 },
+    { t: 'Si alguien está en Cristo, es una nueva creación.', r: '2Co 5,17', c: 5, v: 17 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/04-galatas': [
+    { t: 'Ya no hay judío ni griego, ni esclavo ni libre: todos sois uno en Cristo Jesús.', r: 'Ga 3,28', c: 3, v: 28 },
+    { t: 'El fruto del Espíritu es amor, alegría, paz, paciencia.', r: 'Ga 5,22', c: 5, v: 22 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/05-efesios': [
+    { t: 'Somos hechura suya, creados en Cristo Jesús para obras buenas.', r: 'Ef 2,10', c: 2, v: 10 },
+    { t: 'Revestíos de la armadura de Dios para resistir las asechanzas del diablo.', r: 'Ef 6,11', c: 6, v: 11 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/06-filipenses': [
+    { t: 'Todo lo puedo en aquel que me conforta.', r: 'Flp 4,13', c: 4, v: 13 },
+    { t: 'La paz de Dios, que supera todo entendimiento, guardará vuestros corazones.', r: 'Flp 4,7', c: 4, v: 7 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/07-colosenses': [
+    { t: 'Cristo lo es todo en todos.', r: 'Col 3,11', c: 3, v: 11 },
+    { t: 'Todo cuanto hagáis, hacedlo de corazón, como para el Señor.', r: 'Col 3,23', c: 3, v: 23 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/08-1tesalonicenses': [
+    { t: 'Estad siempre alegres. Orad sin cesar. Dad gracias en todo.', r: '1Ts 5,16', c: 5, v: 16 },
+    { t: 'El Señor mismo bajará del cielo con su voz de mando.', r: '1Ts 4,16', c: 4, v: 16 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/09-2tesalonicenses': [
+    { t: 'El Señor es fiel; él os afianzará y guardará del Maligno.', r: '2Ts 3,3', c: 3, v: 3 },
+    { t: 'Manteneos firmes y conservad las tradiciones que habéis aprendido.', r: '2Ts 2,15', c: 2, v: 15 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/10-1timoteo': [
+    { t: 'Cristo Jesús vino al mundo a salvar a los pecadores.', r: '1Tm 1,15', c: 1, v: 15 },
+    { t: 'La piedad con contentamiento es una gran ganancia.', r: '1Tm 6,6', c: 6, v: 6 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/11-2timoteo': [
+    { t: 'Toda Escritura está inspirada por Dios y es útil para enseñar.', r: '2Tm 3,16', c: 3, v: 16 },
+    { t: 'He combatido el buen combate, he terminado la carrera, he guardado la fe.', r: '2Tm 4,7', c: 4, v: 7 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/12-tito': [
+    { t: 'Él nos salvó, no por obras de justicia que hubiéramos hecho nosotros.', r: 'Tt 3,5', c: 3, v: 5 },
+    { t: 'La gracia de Dios se ha manifestado para salvación de todos los hombres.', r: 'Tt 2,11', c: 2, v: 11 },
+  ],
+  'nuevo-testamento/03-epistolas-pablo/13-filemon': [
+    { t: 'Te ruego por mi hijo, al que he engendrado en la prisión.', r: 'Flm 1,10', c: 1, v: 10 },
+    { t: 'Ya no como esclavo, sino como algo mejor: como hermano querido.', r: 'Flm 1,16', c: 1, v: 16 },
+  ],
+  'nuevo-testamento/04-hebreos/01-hebreos': [
+    { t: 'La fe es garantía de lo que se espera, prueba de las realidades que no se ven.', r: 'Hb 11,1', c: 11, v: 1 },
+    { t: 'La palabra de Dios es viva y eficaz, y más cortante que toda espada.', r: 'Hb 4,12', c: 4, v: 12 },
+  ],
+  'nuevo-testamento/05-epistolas-catolicas/01-santiago': [
+    { t: 'La fe sin obras está muerta.', r: 'St 2,26', c: 2, v: 26 },
+    { t: 'Si alguno de vosotros se ve falto de sabiduría, que se la pida a Dios.', r: 'St 1,5', c: 1, v: 5 },
+  ],
+  'nuevo-testamento/05-epistolas-catolicas/02-1pedro': [
+    { t: 'Echad sobre él todas vuestras preocupaciones, porque él cuida de vosotros.', r: '1P 5,7', c: 5, v: 7 },
+    { t: 'Vosotros sois linaje elegido, sacerdocio real, nación santa.', r: '1P 2,9', c: 2, v: 9 },
+  ],
+  'nuevo-testamento/05-epistolas-catolicas/03-2pedro': [
+    { t: 'Para el Señor, un día es como mil años y mil años son como un día.', r: '2P 3,8', c: 3, v: 8 },
+    { t: 'Su divino poder nos ha dado todo lo necesario para la vida y la piedad.', r: '2P 1,3', c: 1, v: 3 },
+  ],
+  'nuevo-testamento/05-epistolas-catolicas/04-1juan': [
+    { t: 'Dios es amor, y quien permanece en el amor permanece en Dios.', r: '1Jn 4,16', c: 4, v: 16 },
+    { t: 'Si confesamos nuestros pecados, él es fiel y justo para perdonárnoslos.', r: '1Jn 1,9', c: 1, v: 9 },
+  ],
+  'nuevo-testamento/05-epistolas-catolicas/05-2juan': [
+    { t: 'Os ruego que nos amemos unos a otros.', r: '2Jn 1,5', c: 1, v: 5 },
+    { t: 'El que permanece en la doctrina de Cristo posee al Padre y al Hijo.', r: '2Jn 1,9', c: 1, v: 9 },
+  ],
+  'nuevo-testamento/05-epistolas-catolicas/06-3juan': [
+    { t: 'Me alegra mucho que progreses en todo y que estés bien.', r: '3Jn 1,2', c: 1, v: 2 },
+    { t: 'No imites el mal, sino el bien. El que hace el bien es de Dios.', r: '3Jn 1,11', c: 1, v: 11 },
+  ],
+  'nuevo-testamento/05-epistolas-catolicas/07-judas': [
+    { t: 'Conservaos en el amor de Dios esperando la misericordia de Nuestro Señor Jesucristo.', r: 'Jds 1,21', c: 1, v: 21 },
+    { t: 'Combatid por la fe transmitida de una vez para siempre a los santos.', r: 'Jds 1,3', c: 1, v: 3 },
+  ],
+  'nuevo-testamento/06-apocalipsis/01-apocalipsis': [
+    { t: 'He aquí que estoy a la puerta y llamo.', r: 'Ap 3,20', c: 3, v: 20 },
+    { t: 'Dios enjugará las lágrimas de sus ojos, y no habrá ya muerte.', r: 'Ap 21,4', c: 21, v: 4 },
+  ],
+};
+
+// También usamos VERSES para la card de versículo del día (tomado del pool de BV)
+const VERSES_POOL = Object.entries(BV).map(([slug, arr]) => ({ slug, arr }));
+
+function seededRand(seed: number): number {
+  const x = Math.sin(seed + 1) * 10000;
+  return x - Math.floor(x);
+}
+
+function getDateSeed(): number {
+  const d = new Date();
+  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+}
+
+function initVerseOfDay() {
+  const card = document.getElementById('verseOfDayCard') as HTMLAnchorElement | null;
+  if (!card) return;
+  const dateSeed = getDateSeed();
+  const poolIdx = Math.floor(seededRand(dateSeed + 42) * VERSES_POOL.length);
+  const { slug, arr } = VERSES_POOL[poolIdx];
+  const vIdx = Math.floor(seededRand(dateSeed + 99) * arr.length);
+  const v = arr[vIdx];
+  const dotEl = document.getElementById('verseOfDayDot');
+  const sectionEl = document.getElementById('verseOfDaySection');
+  const bookEl = document.getElementById('verseOfDayBook');
+  const textEl = document.getElementById('verseOfDayText');
+  const refEl = document.getElementById('verseOfDayRef');
+  if (textEl) textEl.textContent = v.t;
+  if (refEl) refEl.textContent = v.r;
+  // find book name from a data-book-card
+  const bookCard = document.querySelector(`[data-book-card][data-slug="${slug}"]`) as HTMLElement | null;
+  if (bookCard && bookEl) bookEl.textContent = bookCard.dataset.bookTitle || slug.split('/').pop() || '';
+  if (bookCard && sectionEl) sectionEl.textContent = bookCard.dataset.section || '';
+  if (bookCard && dotEl) {
+    const dot = bookCard.dataset.dot || 'bg-amber-500';
+    dotEl.className = `shrink-0 w-2 h-2 rounded-full ${dot}`;
+    sectionEl!.className = `text-[10px] font-semibold uppercase tracking-widest ${(bookCard.dataset.label || 'text-amber-500/80')}`;
+  }
+  card.href = `/biblia/${slug}#chapter-${v.c}-verse-${v.v}`;
+}
+
+function initBookCards() {
+  const cards = document.querySelectorAll<HTMLElement>('[data-book-card]');
+  if (!cards.length) return;
+  const dateSeed = getDateSeed();
+  cards.forEach((card, i) => {
+    const slug = card.dataset.slug;
+    if (!slug) return;
+    const verses = BV[slug];
+    if (!verses?.length) return;
+    const idx = Math.floor(seededRand(dateSeed + i * 37 + 7) * verses.length);
+    const v = verses[idx];
+    const verseEl = card.querySelector('.book-verse');
+    const refEl = card.querySelector('.book-ref');
+    if (verseEl) verseEl.textContent = `"${v.t}"`;
+    if (refEl) refEl.textContent = v.r;
+    (card as HTMLAnchorElement).href = `/biblia/${slug}#chapter-${v.c}-verse-${v.v}`;
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => { initBookCards(); initVerseOfDay(); });
+document.addEventListener('astro:page-load', () => { initBookCards(); initVerseOfDay(); });
+</script>
+
 </BibliaLayout>

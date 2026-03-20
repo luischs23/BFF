@@ -1,40 +1,420 @@
 ---
 import Layout from '../layouts/Layout.astro';
+const isDev = import.meta.env.DEV;
+
+// Seeded random basado en la fecha del día
+const today = new Date();
+const dateSeed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+function seededRandom(seed: number): number {
+  const x = Math.sin(seed + 1) * 10000;
+  return x - Math.floor(x);
+}
+function pickOne<T>(arr: T[], salt: number): T {
+  return arr[Math.floor(seededRandom(dateSeed + salt) * arr.length)];
+}
+
+type BookCard = {
+  book: string;
+  slug: string;
+  verse: string;
+  ref: string;
+  chapter: number;
+  verseNum: number;
+};
+type Section = {
+  name: string;
+  color: string;      // Tailwind bg color class para el dot/badge
+  textColor: string;  // Tailwind text color
+  books: BookCard[];
+};
+
+const SECTIONS: Section[] = [
+  {
+    name: 'Pentateuco',
+    color: 'bg-blue-500',
+    textColor: 'text-blue-600 dark:text-blue-400',
+    books: [
+      { book: 'Génesis', slug: 'antiguo-testamento/01-pentateuco/01-genesis', verse: 'En el principio creó Dios el cielo y la tierra.', ref: 'Gn 1,1', chapter: 1, verseNum: 1 },
+      { book: 'Éxodo', slug: 'antiguo-testamento/01-pentateuco/02-exodo', verse: 'Yo soy el que soy.', ref: 'Ex 3,14', chapter: 3, verseNum: 14 },
+      { book: 'Levítico', slug: 'antiguo-testamento/01-pentateuco/03-levitico', verse: 'Amarás a tu prójimo como a ti mismo.', ref: 'Lv 19,18', chapter: 19, verseNum: 18 },
+      { book: 'Números', slug: 'antiguo-testamento/01-pentateuco/04-numeros', verse: 'Que el Señor te bendiga y te proteja.', ref: 'Nm 6,24', chapter: 6, verseNum: 24 },
+      { book: 'Deuteronomio', slug: 'antiguo-testamento/01-pentateuco/05-deuteronomio', verse: 'Escucha, Israel: el Señor es nuestro Dios, el Señor es uno.', ref: 'Dt 6,4', chapter: 6, verseNum: 4 },
+    ],
+  },
+  {
+    name: 'Libros Históricos',
+    color: 'bg-amber-500',
+    textColor: 'text-amber-600 dark:text-amber-400',
+    books: [
+      { book: 'Josué', slug: 'antiguo-testamento/02-libros-historicos/01-josue', verse: 'Yo y mi casa serviremos al Señor.', ref: 'Jos 24,15', chapter: 24, verseNum: 15 },
+      { book: 'Jueces', slug: 'antiguo-testamento/02-libros-historicos/02-jueces', verse: 'El Señor envió al ángel a Joás y le dijo: ¿Por qué lloras?', ref: 'Jue 6,22', chapter: 6, verseNum: 22 },
+      { book: 'Rut', slug: 'antiguo-testamento/02-libros-historicos/03-rut', verse: 'Donde tú vayas, iré yo; donde tú mueras, moriré yo.', ref: 'Rt 1,16', chapter: 1, verseNum: 16 },
+      { book: '1 Samuel', slug: 'antiguo-testamento/02-libros-historicos/04-1samuel', verse: 'El Señor no mira como el hombre; el Señor mira el corazón.', ref: '1Sm 16,7', chapter: 16, verseNum: 7 },
+      { book: '2 Samuel', slug: 'antiguo-testamento/02-libros-historicos/05-2samuel', verse: 'Soy quien ha pecado, yo soy el culpable.', ref: '2Sm 24,17', chapter: 24, verseNum: 17 },
+      { book: '1 Reyes', slug: 'antiguo-testamento/02-libros-historicos/06-1reyes', verse: '¡El Señor es Dios! ¡El Señor es Dios!', ref: '1Re 18,39', chapter: 18, verseNum: 39 },
+      { book: '2 Reyes', slug: 'antiguo-testamento/02-libros-historicos/07-2reyes', verse: 'Señor, abre los ojos de este joven para que vea.', ref: '2Re 6,17', chapter: 6, verseNum: 17 },
+      { book: '1 Crónicas', slug: 'antiguo-testamento/02-libros-historicos/08-1cronicas', verse: 'Todo viene de ti y te damos lo que es tuyo.', ref: '1Cr 29,14', chapter: 29, verseNum: 14 },
+      { book: '2 Crónicas', slug: 'antiguo-testamento/02-libros-historicos/09-2cronicas', verse: 'Si mi pueblo se humilla, ora y busca mi rostro, yo lo escucharé.', ref: '2Cr 7,14', chapter: 7, verseNum: 14 },
+      { book: 'Esdras', slug: 'antiguo-testamento/02-libros-historicos/10-esdras', verse: 'La mano de su Dios estuvo sobre él favorablemente.', ref: 'Esd 7,6', chapter: 7, verseNum: 6 },
+      { book: 'Nehemías', slug: 'antiguo-testamento/02-libros-historicos/11-nehemias', verse: 'La alegría del Señor es vuestra fortaleza.', ref: 'Ne 8,10', chapter: 8, verseNum: 10 },
+      { book: 'Tobías', slug: 'antiguo-testamento/02-libros-historicos/12-tobias', verse: 'La oración con ayuno y limosna es mejor que la riqueza con injusticia.', ref: 'Tb 12,8', chapter: 12, verseNum: 8 },
+      { book: 'Judit', slug: 'antiguo-testamento/02-libros-historicos/13-judit', verse: 'El Señor Todopoderoso los ha frustrado por mano de mujer.', ref: 'Jdt 16,6', chapter: 16, verseNum: 6 },
+      { book: 'Ester', slug: 'antiguo-testamento/02-libros-historicos/14-ester', verse: 'Si he de morir, que muera.', ref: 'Est 4,16', chapter: 4, verseNum: 16 },
+      { book: '1 Macabeos', slug: 'antiguo-testamento/02-libros-historicos/15-1macabeos', verse: 'Más vale morir en la batalla que contemplar la desgracia de nuestro pueblo.', ref: '1Mac 3,59', chapter: 3, verseNum: 59 },
+      { book: '2 Macabeos', slug: 'antiguo-testamento/02-libros-historicos/16-2macabeos', verse: 'Es santa y saludable la idea de orar por los difuntos.', ref: '2Mac 12,45', chapter: 12, verseNum: 45 },
+    ],
+  },
+  {
+    name: 'Lírica',
+    color: 'bg-violet-500',
+    textColor: 'text-violet-600 dark:text-violet-400',
+    books: [
+      { book: 'Job', slug: 'antiguo-testamento/03-lirica/01-job', verse: 'El Señor dio, el Señor quitó; ¡bendito sea el nombre del Señor!', ref: 'Jb 1,21', chapter: 1, verseNum: 21 },
+      { book: 'Salmos', slug: 'antiguo-testamento/03-lirica/02-salmos', verse: 'El Señor es mi pastor, nada me falta.', ref: 'Sal 23,1', chapter: 23, verseNum: 1 },
+      { book: 'Cantar de los Cantares', slug: 'antiguo-testamento/03-lirica/03-cantar-de-los-cantares', verse: 'Mi amado es mío y yo soy suya.', ref: 'Ct 2,16', chapter: 2, verseNum: 16 },
+      { book: 'Lamentaciones', slug: 'antiguo-testamento/03-lirica/04-lamentaciones', verse: 'Grande es tu fidelidad.', ref: 'Lm 3,23', chapter: 3, verseNum: 23 },
+    ],
+  },
+  {
+    name: 'Libros Sapienciales',
+    color: 'bg-emerald-500',
+    textColor: 'text-emerald-600 dark:text-emerald-400',
+    books: [
+      { book: 'Proverbios', slug: 'antiguo-testamento/04-libros-sapienciales/01-proverbios', verse: 'Confía en el Señor con todo tu corazón y no te apoyes en tu propia inteligencia.', ref: 'Pr 3,5', chapter: 3, verseNum: 5 },
+      { book: 'Eclesiastés', slug: 'antiguo-testamento/04-libros-sapienciales/02-eclesiastes', verse: 'Vanidad de vanidades, todo es vanidad.', ref: 'Qo 1,2', chapter: 1, verseNum: 2 },
+      { book: 'Sabiduría', slug: 'antiguo-testamento/04-libros-sapienciales/03-sabiduria', verse: 'Las almas de los justos están en manos de Dios.', ref: 'Sb 3,1', chapter: 3, verseNum: 1 },
+      { book: 'Eclesiástico', slug: 'antiguo-testamento/04-libros-sapienciales/04-eclesiastico', verse: 'Hijo, si te acercas a servir al Señor, prepara tu alma para la prueba.', ref: 'Si 2,1', chapter: 2, verseNum: 1 },
+    ],
+  },
+  {
+    name: 'Libros Proféticos',
+    color: 'bg-rose-500',
+    textColor: 'text-rose-600 dark:text-rose-400',
+    books: [
+      { book: 'Isaías', slug: 'antiguo-testamento/05-libros-profeticos/01-isaias', verse: 'He aquí que la Virgen concebirá y dará a luz un hijo.', ref: 'Is 7,14', chapter: 7, verseNum: 14 },
+      { book: 'Jeremías', slug: 'antiguo-testamento/05-libros-profeticos/02-jeremias', verse: 'Conozco los planes que tengo para vosotros: planes de paz y no de desgracia.', ref: 'Jr 29,11', chapter: 29, verseNum: 11 },
+      { book: 'Baruc', slug: 'antiguo-testamento/05-libros-profeticos/03-baruc', verse: 'Este es nuestro Dios, no hay otro comparable a él.', ref: 'Ba 3,35', chapter: 3, verseNum: 35 },
+      { book: 'Ezequiel', slug: 'antiguo-testamento/05-libros-profeticos/04-ezequiel', verse: 'Os daré un corazón nuevo, pondré en vuestro interior un espíritu nuevo.', ref: 'Ez 36,26', chapter: 36, verseNum: 26 },
+      { book: 'Daniel', slug: 'antiguo-testamento/05-libros-profeticos/05-daniel', verse: 'Mi Dios envió su ángel y cerró la boca de los leones.', ref: 'Dn 6,23', chapter: 6, verseNum: 23 },
+      { book: 'Oseas', slug: 'antiguo-testamento/05-libros-profeticos/06-oseas', verse: 'Quiero amor, no sacrificios; conocimiento de Dios, no holocaustos.', ref: 'Os 6,6', chapter: 6, verseNum: 6 },
+      { book: 'Joel', slug: 'antiguo-testamento/05-libros-profeticos/07-joel', verse: 'Después derramaré mi espíritu sobre todo mortal.', ref: 'Jl 3,1', chapter: 3, verseNum: 1 },
+      { book: 'Amós', slug: 'antiguo-testamento/05-libros-profeticos/08-amos', verse: 'Que fluya el juicio como el agua, y la justicia como arroyo perenne.', ref: 'Am 5,24', chapter: 5, verseNum: 24 },
+      { book: 'Abdías', slug: 'antiguo-testamento/05-libros-profeticos/09-abdias', verse: 'Ese día subirá en el monte Sión un resto que se salvará.', ref: 'Abd 1,17', chapter: 1, verseNum: 17 },
+      { book: 'Jonás', slug: 'antiguo-testamento/05-libros-profeticos/10-jonas', verse: 'Levántate y ve a Nínive, la gran ciudad.', ref: 'Jon 1,2', chapter: 1, verseNum: 2 },
+      { book: 'Miqueas', slug: 'antiguo-testamento/05-libros-profeticos/11-miqueas', verse: '¿Qué pide el Señor de ti sino practicar la justicia, amar la misericordia y caminar humildemente con tu Dios?', ref: 'Mi 6,8', chapter: 6, verseNum: 8 },
+      { book: 'Nahum', slug: 'antiguo-testamento/05-libros-profeticos/12-nahum', verse: 'El Señor es bueno, refugio en el día del peligro.', ref: 'Na 1,7', chapter: 1, verseNum: 7 },
+      { book: 'Habacuc', slug: 'antiguo-testamento/05-libros-profeticos/13-habacuc', verse: 'El justo vivirá por su fe.', ref: 'Ha 2,4', chapter: 2, verseNum: 4 },
+      { book: 'Sofonías', slug: 'antiguo-testamento/05-libros-profeticos/14-sofonias', verse: '¡Canta, hija de Sión! ¡Lanza gritos de júbilo, Israel!', ref: 'So 3,14', chapter: 3, verseNum: 14 },
+      { book: 'Ageo', slug: 'antiguo-testamento/05-libros-profeticos/15-ageo', verse: 'Mi espíritu permanece en medio de vosotros; no temáis.', ref: 'Ag 2,5', chapter: 2, verseNum: 5 },
+      { book: 'Zacarías', slug: 'antiguo-testamento/05-libros-profeticos/16-zacarias', verse: 'No por el poder ni por la fuerza, sino por mi espíritu, dice el Señor.', ref: 'Za 4,6', chapter: 4, verseNum: 6 },
+      { book: 'Malaquías', slug: 'antiguo-testamento/05-libros-profeticos/17-malaquias', verse: '¿Acaso no tenemos todos un mismo padre? ¿No nos ha creado un mismo Dios?', ref: 'Ml 2,10', chapter: 2, verseNum: 10 },
+    ],
+  },
+  {
+    name: 'Evangelios',
+    color: 'bg-yellow-500',
+    textColor: 'text-yellow-600 dark:text-yellow-400',
+    books: [
+      { book: 'Mateo', slug: 'nuevo-testamento/01-evangelios/01-mateo', verse: 'Id, pues, y haced discípulos a todos los pueblos.', ref: 'Mt 28,19', chapter: 28, verseNum: 19 },
+      { book: 'Marcos', slug: 'nuevo-testamento/01-evangelios/02-marcos', verse: 'El tiempo se ha cumplido y el Reino de Dios está cerca.', ref: 'Mc 1,15', chapter: 1, verseNum: 15 },
+      { book: 'Lucas', slug: 'nuevo-testamento/01-evangelios/03-lucas', verse: 'Hoy os ha nacido en la ciudad de David un Salvador, que es el Cristo Señor.', ref: 'Lc 2,11', chapter: 2, verseNum: 11 },
+      { book: 'Juan', slug: 'nuevo-testamento/01-evangelios/04-juan', verse: 'Tanto amó Dios al mundo que dio a su Hijo único.', ref: 'Jn 3,16', chapter: 3, verseNum: 16 },
+    ],
+  },
+  {
+    name: 'Hechos',
+    color: 'bg-orange-500',
+    textColor: 'text-orange-600 dark:text-orange-400',
+    books: [
+      { book: 'Hechos de los Apóstoles', slug: 'nuevo-testamento/02-hechos/01-hechos', verse: 'Recibiréis la fuerza del Espíritu Santo que vendrá sobre vosotros.', ref: 'Hch 1,8', chapter: 1, verseNum: 8 },
+    ],
+  },
+  {
+    name: 'Epístolas de Pablo',
+    color: 'bg-sky-500',
+    textColor: 'text-sky-600 dark:text-sky-400',
+    books: [
+      { book: 'Romanos', slug: 'nuevo-testamento/03-epistolas-pablo/01-romanos', verse: 'Sabemos que en todas las cosas interviene Dios para bien de los que le aman.', ref: 'Rm 8,28', chapter: 8, verseNum: 28 },
+      { book: '1 Corintios', slug: 'nuevo-testamento/03-epistolas-pablo/02-1corintios', verse: 'El amor es paciente, es bondadoso; el amor no es envidioso.', ref: '1Co 13,4', chapter: 13, verseNum: 4 },
+      { book: '2 Corintios', slug: 'nuevo-testamento/03-epistolas-pablo/03-2corintios', verse: 'Mi gracia te basta, que mi fuerza se muestra perfecta en la flaqueza.', ref: '2Co 12,9', chapter: 12, verseNum: 9 },
+      { book: 'Gálatas', slug: 'nuevo-testamento/03-epistolas-pablo/04-galatas', verse: 'Ya no hay judío ni griego, ni esclavo ni libre, ni hombre ni mujer: todos sois uno en Cristo Jesús.', ref: 'Ga 3,28', chapter: 3, verseNum: 28 },
+      { book: 'Efesios', slug: 'nuevo-testamento/03-epistolas-pablo/05-efesios', verse: 'Somos hechura suya, creados en Cristo Jesús para obras buenas.', ref: 'Ef 2,10', chapter: 2, verseNum: 10 },
+      { book: 'Filipenses', slug: 'nuevo-testamento/03-epistolas-pablo/06-filipenses', verse: 'Todo lo puedo en aquel que me conforta.', ref: 'Flp 4,13', chapter: 4, verseNum: 13 },
+      { book: 'Colosenses', slug: 'nuevo-testamento/03-epistolas-pablo/07-colosenses', verse: 'Cristo lo es todo en todos.', ref: 'Col 3,11', chapter: 3, verseNum: 11 },
+      { book: '1 Tesalonicenses', slug: 'nuevo-testamento/03-epistolas-pablo/08-1tesalonicenses', verse: 'Estad siempre alegres. Orad sin cesar. Dad gracias en todo.', ref: '1Ts 5,16', chapter: 5, verseNum: 16 },
+      { book: '2 Tesalonicenses', slug: 'nuevo-testamento/03-epistolas-pablo/09-2tesalonicenses', verse: 'El Señor es fiel; él os afianzará y guardará del Maligno.', ref: '2Ts 3,3', chapter: 3, verseNum: 3 },
+      { book: '1 Timoteo', slug: 'nuevo-testamento/03-epistolas-pablo/10-1timoteo', verse: 'Cristo Jesús vino al mundo a salvar a los pecadores.', ref: '1Tm 1,15', chapter: 1, verseNum: 15 },
+      { book: '2 Timoteo', slug: 'nuevo-testamento/03-epistolas-pablo/11-2timoteo', verse: 'Toda Escritura está inspirada por Dios y es útil para enseñar.', ref: '2Tm 3,16', chapter: 3, verseNum: 16 },
+      { book: 'Tito', slug: 'nuevo-testamento/03-epistolas-pablo/12-tito', verse: 'Él nos salvó, no por obras de justicia que hubiéramos hecho nosotros.', ref: 'Tt 3,5', chapter: 3, verseNum: 5 },
+      { book: 'Filemón', slug: 'nuevo-testamento/03-epistolas-pablo/13-filemon', verse: 'Te ruego por mi hijo, al que he engendrado en la prisión.', ref: 'Flm 1,10', chapter: 1, verseNum: 10 },
+    ],
+  },
+  {
+    name: 'Hebreos',
+    color: 'bg-indigo-500',
+    textColor: 'text-indigo-600 dark:text-indigo-400',
+    books: [
+      { book: 'Hebreos', slug: 'nuevo-testamento/04-hebreos/01-hebreos', verse: 'La fe es garantía de lo que se espera, prueba de las realidades que no se ven.', ref: 'Hb 11,1', chapter: 11, verseNum: 1 },
+    ],
+  },
+  {
+    name: 'Epístolas Católicas',
+    color: 'bg-teal-500',
+    textColor: 'text-teal-600 dark:text-teal-400',
+    books: [
+      { book: 'Santiago', slug: 'nuevo-testamento/05-epistolas-catolicas/01-santiago', verse: 'La fe sin obras está muerta.', ref: 'St 2,26', chapter: 2, verseNum: 26 },
+      { book: '1 Pedro', slug: 'nuevo-testamento/05-epistolas-catolicas/02-1pedro', verse: 'Echad sobre él todas vuestras preocupaciones, porque él cuida de vosotros.', ref: '1P 5,7', chapter: 5, verseNum: 7 },
+      { book: '2 Pedro', slug: 'nuevo-testamento/05-epistolas-catolicas/03-2pedro', verse: 'Para el Señor, un día es como mil años y mil años son como un día.', ref: '2P 3,8', chapter: 3, verseNum: 8 },
+      { book: '1 Juan', slug: 'nuevo-testamento/05-epistolas-catolicas/04-1juan', verse: 'Dios es amor, y quien permanece en el amor permanece en Dios.', ref: '1Jn 4,16', chapter: 4, verseNum: 16 },
+      { book: '2 Juan', slug: 'nuevo-testamento/05-epistolas-catolicas/05-2juan', verse: 'Os ruego que nos amemos unos a otros.', ref: '2Jn 1,5', chapter: 1, verseNum: 5 },
+      { book: '3 Juan', slug: 'nuevo-testamento/05-epistolas-catolicas/06-3juan', verse: 'Me alegra mucho que progreses en todo y estés bien, así como prospera tu alma.', ref: '3Jn 1,2', chapter: 1, verseNum: 2 },
+      { book: 'Judas', slug: 'nuevo-testamento/05-epistolas-catolicas/07-judas', verse: 'Conservaos en el amor de Dios esperando la misericordia de Nuestro Señor Jesucristo.', ref: 'Jds 1,21', chapter: 1, verseNum: 21 },
+    ],
+  },
+  {
+    name: 'Apocalipsis',
+    color: 'bg-red-500',
+    textColor: 'text-red-600 dark:text-red-400',
+    books: [
+      { book: 'Apocalipsis', slug: 'nuevo-testamento/06-apocalipsis/01-apocalipsis', verse: 'He aquí que estoy a la puerta y llamo.', ref: 'Ap 3,20', chapter: 3, verseNum: 20 },
+    ],
+  },
+];
+
+// Selección del día: un libro por sección
+const dailyCards = SECTIONS.map((section, i) => ({
+  section: section.name,
+  color: section.color,
+  textColor: section.textColor,
+  card: pickOne(section.books, i * 97),
+}));
 ---
 
 <Layout title="Sagrada Biblia">
-	<main class="min-h-screen flex flex-col items-center justify-center">
-		<h1 class="text-center text-5xl font-bold mb-8">Sagrada Biblia</h1>
-		<p class="text-gray-600 text-center mb-12 max-w-md">
-			Biblia Jerusalén - Explora las Sagradas Escrituras
+	<!-- Botón de configuración (esquina superior izquierda) -->
+	<button
+		id="settingsBtn"
+		class="fixed top-4 left-4 z-50 w-12 h-12 rounded-2xl bg-gray-800 dark:bg-gray-700 hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors shadow-lg flex items-center justify-center"
+		aria-label="Configuración"
+	>
+		<svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h10M4 18h7" />
+			<circle cx="18" cy="12" r="2" fill="currentColor" stroke="none"/>
+			<circle cx="14" cy="6" r="2" fill="currentColor" stroke="none"/>
+			<circle cx="11" cy="18" r="2" fill="currentColor" stroke="none"/>
+		</svg>
+	</button>
+
+	<!-- Diálogo de configuración -->
+	<div id="settingsDialog" class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/60 backdrop-blur-sm">
+		<div class="bg-white dark:bg-gray-900 rounded-2xl p-6 mx-4 w-full max-w-xs shadow-2xl border border-gray-200 dark:border-gray-700">
+			<div class="flex items-center justify-between mb-5">
+				<h2 class="text-lg font-bold text-gray-900 dark:text-gray-100">Configuración</h2>
+				<button id="settingsClose" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-500 dark:text-gray-400">
+					<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</button>
+			</div>
+
+			<!-- Modo oscuro -->
+			<div class="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
+				<div class="flex items-center gap-3">
+					<div class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+						<svg class="w-4 h-4 text-gray-600 dark:text-gray-400 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+						</svg>
+						<svg class="w-4 h-4 text-gray-600 dark:text-gray-400 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+						</svg>
+					</div>
+					<span class="text-sm font-medium text-gray-700 dark:text-gray-300">Modo oscuro</span>
+				</div>
+				<!-- Toggle switch -->
+				<button
+					id="darkModeToggle"
+					role="switch"
+					aria-checked="false"
+					class="relative w-11 h-6 rounded-full transition-colors duration-200 focus:outline-none bg-gray-300 dark:bg-amber-500"
+				>
+					<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform duration-200 dark:translate-x-5"></span>
+					<!-- Sol (modo claro) -->
+					<svg id="sunIcon" class="hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg>
+					<!-- Luna (modo oscuro) — necesarios para el script darkMode.ts -->
+					<svg id="moonIcon" class="hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg>
+				</button>
+			</div>
+
+			<!-- Tamaño de texto -->
+			<div class="py-3">
+				<div class="flex items-center gap-3 mb-3">
+					<div class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+						<svg class="w-4 h-4 text-gray-600 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+						</svg>
+					</div>
+					<span class="text-sm font-medium text-gray-700 dark:text-gray-300">Tamaño de texto</span>
+				</div>
+				<div class="grid grid-cols-4 gap-1.5">
+					{[
+						{ size: 'small', label: 'A', style: 'text-xs' },
+						{ size: 'medium', label: 'A', style: 'text-sm' },
+						{ size: 'large', label: 'A', style: 'text-base' },
+						{ size: 'xlarge', label: 'A', style: 'text-lg' },
+					].map(({ size, label, style }) => (
+						<button
+							class={`font-size-option py-2 rounded-lg border border-gray-200 dark:border-gray-700 font-bold transition-colors hover:border-amber-400 dark:hover:border-amber-500 text-gray-700 dark:text-gray-300 ${style}`}
+							data-size={size}
+						>
+							{label}
+						</button>
+					))}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="min-h-screen flex flex-col items-center px-5 pt-20 pb-12">
+		<h1 class="text-center text-3xl font-bold mb-1 text-gray-900 dark:text-gray-100 tracking-tight">BFF</h1>
+		<p class="text-gray-400 dark:text-gray-500 text-center mb-8 text-xs tracking-widest uppercase">
+			Bases para una Fe Firme
 		</p>
 
-		<div class="flex flex-col sm:flex-row gap-4 flex-wrap justify-center">
+		<!-- Tarjetas principales -->
+		<div class="grid grid-cols-2 gap-3 w-full max-w-xs mb-8">
+			<!-- Biblia Jerusalén -->
 			<a
 				href="/biblia"
-				class="px-8 py-4 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition text-lg font-semibold text-center"
+				class="flex flex-col p-4 rounded-3xl bg-gray-900 hover:bg-gray-800 transition-all duration-200 hover:scale-[1.02] group border border-white/5"
 			>
-				Leer la Biblia
+				<div class="w-12 h-12 rounded-2xl bg-amber-500 flex items-center justify-center mb-3 shadow-lg shadow-amber-900/40">
+					<svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+					</svg>
+				</div>
+				<span class="text-white font-semibold text-sm leading-tight">Biblia</span>
+				<span class="text-gray-500 text-xs mt-0.5">Jerusalén</span>
 			</a>
+
+			<!-- Diario de Sta. Faustina -->
 			<a
 				href="/faustina"
-				class="px-8 py-4 bg-rose-400 text-white rounded-lg hover:bg-rose-500 transition text-lg font-semibold text-center"
+				class="flex flex-col p-4 rounded-3xl bg-gray-900 hover:bg-gray-800 transition-all duration-200 hover:scale-[1.02] group border border-white/5"
 			>
-				Diario de Sta. Faustina
-			</a>
-			<a
-				href="/buscar"
-				class="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-lg font-semibold text-center"
-			>
-				Buscar Pasajes
-			</a>
-			<a
-				href="/admin"
-				class="px-8 py-4 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition text-lg font-semibold text-center"
-			>
-				Administrar
+				<div class="w-12 h-12 rounded-2xl bg-rose-400 flex items-center justify-center mb-3 shadow-lg shadow-rose-900/40">
+					<svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+					</svg>
+				</div>
+				<span class="text-white font-semibold text-sm leading-tight">Sta. Faustina</span>
+				<span class="text-gray-500 text-xs mt-0.5">Diario</span>
 			</a>
 		</div>
 
+		<!-- Cards de libros del día -->
+		<div class="w-full max-w-xs">
+			<p class="text-[10px] font-semibold uppercase tracking-[0.2em] text-gray-500 dark:text-gray-600 mb-3">
+				Lecturas del día
+			</p>
+			<div class="flex flex-col gap-1.5">
+				{dailyCards.map(({ section, color, textColor, card }) => (
+					<a
+						href={`/biblia/${card.slug}#chapter-${card.chapter}-verse-${card.verseNum}`}
+						class="flex items-center gap-3 px-4 py-3 rounded-2xl bg-gray-900 hover:bg-gray-800 border border-white/5 hover:border-white/10 transition-all duration-150 group"
+					>
+						<span class={`shrink-0 w-2 h-2 rounded-full ${color}`}></span>
+						<div class="min-w-0 flex-1">
+							<div class="flex items-baseline gap-1.5 mb-0.5">
+								<span class={`text-[9px] font-bold uppercase tracking-wider ${textColor} shrink-0`}>{section}</span>
+								<span class="text-gray-300 text-xs font-medium truncate">{card.book}</span>
+							</div>
+							<p class="text-gray-500 text-[11px] leading-snug italic truncate">"{card.verse}"</p>
+						</div>
+						<span class="text-gray-600 text-[10px] font-mono shrink-0">{card.ref}</span>
+						<svg class="shrink-0 w-3 h-3 text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+						</svg>
+					</a>
+				))}
+			</div>
+		</div>
+
+		<!-- Links solo en desarrollo -->
+		{isDev && (
+			<div class="flex flex-col sm:flex-row gap-3 flex-wrap justify-center mt-6">
+				<a
+					href="/buscar"
+					class="px-6 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-sm font-semibold text-center"
+				>
+					Buscar Pasajes
+				</a>
+				<a
+					href="/admin"
+					class="px-6 py-2.5 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition text-sm font-semibold text-center"
+				>
+					Administrar
+				</a>
+			</div>
+		)}
 	</main>
 </Layout>
+
+<script>
+	import { initDarkMode } from '../scripts/biblia/darkMode';
+
+	// Inicializar dark mode (toggle en el diálogo)
+	document.addEventListener('DOMContentLoaded', initDarkMode);
+	document.addEventListener('astro:page-load', initDarkMode);
+
+	// Diálogo de configuración
+	function initSettings() {
+		const btn = document.getElementById('settingsBtn');
+		const dialog = document.getElementById('settingsDialog');
+		const closeBtn = document.getElementById('settingsClose');
+
+		if (!btn || !dialog) return;
+
+		btn.addEventListener('click', () => {
+			dialog.classList.remove('hidden');
+			dialog.classList.add('flex');
+			syncSettingsState();
+		});
+
+		closeBtn?.addEventListener('click', closeDialog);
+
+		dialog.addEventListener('click', (e) => {
+			if (e.target === dialog) closeDialog();
+		});
+
+		function closeDialog() {
+			dialog.classList.add('hidden');
+			dialog.classList.remove('flex');
+		}
+
+		// Tamaño de texto
+		const fontSizeOptions = document.querySelectorAll<HTMLButtonElement>('.font-size-option');
+
+		function syncSettingsState() {
+			// Tamaño activo
+			const saved = localStorage.getItem('bibleFontSize') || 'medium';
+			fontSizeOptions.forEach(opt => {
+				const isActive = opt.dataset.size === saved;
+				opt.classList.toggle('bg-amber-100', isActive);
+				opt.classList.toggle('dark:bg-amber-900', isActive);
+				opt.classList.toggle('border-amber-400', isActive);
+				opt.classList.toggle('dark:border-amber-500', isActive);
+			});
+		}
+
+		fontSizeOptions.forEach(opt => {
+			opt.addEventListener('click', () => {
+				const size = opt.dataset.size || 'medium';
+				localStorage.setItem('bibleFontSize', size);
+				syncSettingsState();
+			});
+		});
+	}
+
+	document.addEventListener('DOMContentLoaded', initSettings);
+	document.addEventListener('astro:page-load', initSettings);
+</script>

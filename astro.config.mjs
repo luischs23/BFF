@@ -72,10 +72,10 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: 'Biblia en Línea',
-        short_name: 'Biblia',
+        name: 'BFF Biblia',
+        short_name: 'BFF Biblia',
         description: 'Lee la Biblia en cualquier momento y lugar',
-        start_url: '/biblia',
+        start_url: '/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#0f172a',
