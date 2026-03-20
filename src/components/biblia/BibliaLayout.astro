@@ -21,7 +21,7 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 ---
 
 <Layout title={`${title} - Sagrada Biblia`}>
-	<div id="bibliaContainer" class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300">
+	<div id="bibliaContainer" class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300" data-welcome={isWelcomePage ? 'true' : undefined}>
 		<!-- Overlay para móvil -->
 		<div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
 
@@ -146,8 +146,8 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		transform: translateY(-100%);
 	}
 
-	/* Ajustar padding del contenido principal para el header fijo */
-	#bibliaContainer > main {
+	/* Ajustar padding del contenido principal para el header fijo (solo cuando hay header) */
+	#bibliaContainer:not([data-welcome]) > main {
 		padding-top: 4rem !important;
 	}
 
@@ -155,17 +155,16 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		padding-top: 0.5rem;
 	}
 
+	/* En la welcome page no hay MobileHeader: quitar el pt-16 del sidebar en móvil */
+	#bibliaContainer[data-welcome] #sidebar > div {
+		padding-top: 1rem;
+	}
+
 	/* Asegurar que el header esté por encima de todo */
 	#mobileHeader {
 		z-index: 60 !important;
 	}
 
-	/* Padding para compensar la barra de progreso en móvil */
-	@media (max-width: 767px) {
-		#bibliaContainer > main {
-			padding-left: 0.5rem;
-		}
-	}
 
 	/* Panel de navegación de capítulos */
 	#chapterNavPanel {

@@ -19,15 +19,15 @@ const { class: className = '' } = Astro.props;
 		prose-p:text-gray-700 dark:prose-p:text-gray-300
 		dark:prose-invert
 		bg-amber-50 dark:bg-gray-800
-		border-x border-stone-300 dark:border-gray-700
-		shadow-lg
+		md:border-x md:border-stone-300 md:dark:border-gray-700
+		md:shadow-lg
 		px-6 py-4 md:px-8 md:py-6"
 	style="-webkit-touch-callout: none;">
 		<slot />
 	</article>
 
 	<!-- Pie del libro -->
-	<div class="bible-page-footer bg-amber-50 dark:bg-gray-800 border border-stone-300 dark:border-gray-700 border-t-0 rounded-b-sm shadow-lg px-8 py-3">
+	<div class="bible-page-footer bg-amber-50 dark:bg-gray-800 md:border md:border-stone-300 md:dark:border-gray-700 md:border-t-0 md:rounded-b-sm md:shadow-lg px-8 py-3">
 		<div class="flex justify-center">
 			<span class="text-sm text-stone-400 dark:text-gray-500 font-serif">— ✝ —</span>
 		</div>

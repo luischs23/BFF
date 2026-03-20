@@ -83,20 +83,17 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 	{Content ? (
 		<Content />
 	) : (
-		<div class="welcome-content max-w-xl mx-auto py-8 px-5">
+		<div class="welcome-content max-w-2xl mx-auto py-8 px-5">
 
 			<!-- Card versículo del día -->
+			<p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-gray-400/60 dark:text-gray-600 mb-3">Biblia Jerusalén</p>
 			<a id="verseOfDayCard" href="#" class="no-underline block rounded-3xl overflow-hidden mb-10 group relative">
 				<!-- fondo con gradiente cálido -->
 				<div class="absolute inset-0 bg-amber-50 dark:bg-gradient-to-br dark:from-amber-950 dark:via-gray-900 dark:to-gray-950"></div>
 				<div class="absolute inset-0 border border-amber-300/50 dark:border-amber-700/20 rounded-3xl pointer-events-none"></div>
 				<div class="relative p-6">
-					<!-- comilla decorativa -->
-					<div class="text-3xl leading-none text-amber-500/40 dark:text-amber-600/25 font-serif mb-1 select-none">"</div>
 					<p id="verseOfDayText" class="text-gray-700 dark:text-gray-200 text-base leading-relaxed italic mb-5 font-serif min-h-[3rem]"></p>
 					<div class="flex items-center gap-3">
-						<span id="verseOfDayDot" class="shrink-0 w-2 h-2 rounded-full bg-amber-500"></span>
-						<span id="verseOfDaySection" class="text-[10px] font-semibold uppercase tracking-widest text-amber-600/80 dark:text-amber-500/80"></span>
 						<span id="verseOfDayBook" class="text-gray-600 dark:text-gray-300 text-sm font-medium"></span>
 						<span class="flex-1"></span>
 						<span id="verseOfDayRef" class="text-amber-600/70 text-xs font-mono"></span>
@@ -131,11 +128,8 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 									>
 										<span class={`shrink-0 w-2 h-2 rounded-full ${row.dot}`}></span>
 										<div class="min-w-0 flex-1">
-											<div class="flex items-baseline gap-1.5 mb-0.5">
-												<span class={`text-[9px] font-bold uppercase tracking-wider ${row.label} shrink-0`}>{row.titulo}</span>
-												<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate">{libro.title}</span>
-											</div>
-											<p class="book-verse text-gray-400 dark:text-gray-500 text-[11px] leading-snug italic truncate"></p>
+											<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate block mb-0.5">{libro.title}</span>
+											<p class="book-verse text-gray-400 dark:text-gray-500 text-[11px] leading-snug italic line-clamp-2"></p>
 										</div>
 										<span class="book-ref text-gray-400 dark:text-gray-600 text-[10px] font-mono shrink-0"></span>
 										<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
@@ -173,11 +167,8 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 									>
 										<span class={`shrink-0 w-2 h-2 rounded-full ${row.dot}`}></span>
 										<div class="min-w-0 flex-1">
-											<div class="flex items-baseline gap-1.5 mb-0.5">
-												<span class={`text-[9px] font-bold uppercase tracking-wider ${row.label} shrink-0`}>{row.titulo}</span>
-												<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate">{libro.title}</span>
-											</div>
-											<p class="book-verse text-gray-400 dark:text-gray-500 text-[11px] leading-snug italic truncate"></p>
+											<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate block mb-0.5">{libro.title}</span>
+											<p class="book-verse text-gray-400 dark:text-gray-500 text-[11px] leading-snug italic line-clamp-2"></p>
 										</div>
 										<span class="book-ref text-gray-400 dark:text-gray-600 text-[10px] font-mono shrink-0"></span>
 										<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
