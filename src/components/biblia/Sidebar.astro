@@ -128,6 +128,29 @@ const { estructura, currentSlug } = Astro.props;
 </aside>
 
 <script>
+	function initSidebarBookLinks() {
+		document.querySelectorAll<HTMLAnchorElement>('#sidebar a[href^="/biblia/"]').forEach(link => {
+			if (link.hasAttribute('data-nav-init')) return;
+			link.setAttribute('data-nav-init', 'true');
+			link.addEventListener('click', () => {
+				// Quitar estado activo previo
+				document.querySelectorAll('#sidebar a[data-loading]').forEach(el => {
+					el.removeAttribute('data-loading');
+					(el as HTMLElement).style.opacity = '';
+				});
+				link.setAttribute('data-loading', 'true');
+				link.style.opacity = '0.5';
+				// Limpiar al terminar la navegación
+				document.addEventListener('astro:page-load', () => {
+					link.removeAttribute('data-loading');
+					link.style.opacity = '';
+				}, { once: true });
+			});
+		});
+	}
+	document.addEventListener('DOMContentLoaded', initSidebarBookLinks);
+	document.addEventListener('astro:page-load', initSidebarBookLinks);
+
 	function initSidebarSearch() {
 		const btn = document.getElementById('sidebarGlobalSearch');
 		btn?.addEventListener('click', () => {

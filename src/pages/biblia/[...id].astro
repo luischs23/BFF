@@ -206,6 +206,23 @@ async function initVerseOfDay() {
 
 document.addEventListener('DOMContentLoaded', () => { initVerseOfDay(); });
 document.addEventListener('astro:page-load', () => { if (!verseOfDayLoaded) { verseOfDayLoaded = true; initVerseOfDay(); } });
+
+function initBookCardFeedback() {
+  document.querySelectorAll<HTMLAnchorElement>('[data-book-card]').forEach(card => {
+    if (card.hasAttribute('data-nav-init')) return;
+    card.setAttribute('data-nav-init', 'true');
+    card.addEventListener('click', () => {
+      card.style.opacity = '0.5';
+      card.style.pointerEvents = 'none';
+      document.addEventListener('astro:page-load', () => {
+        card.style.opacity = '';
+        card.style.pointerEvents = '';
+      }, { once: true });
+    });
+  });
+}
+document.addEventListener('DOMContentLoaded', initBookCardFeedback);
+document.addEventListener('astro:page-load', initBookCardFeedback);
 </script>
 
 </BibliaLayout>
