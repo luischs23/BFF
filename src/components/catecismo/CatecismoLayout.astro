@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import CatecismoSidebar from "./CatecismoSidebar.astro";
+import CatecismoSearchDialog from "./CatecismoSearchDialog.astro";
 import type { EstructuraCatecismo } from "../../lib/catecismo/types";
 
 interface Props {
@@ -55,6 +56,9 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 
 		<!-- Sidebar -->
 		<CatecismoSidebar estructura={estructura} currentSlug={slug} />
+
+		<!-- Diálogo de búsqueda -->
+		<CatecismoSearchDialog />
 
 		<!-- Contenido principal -->
 		<main
@@ -164,4 +168,17 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		initCatecismo();
 	}
 	document.addEventListener('astro:page-load', initCatecismo);
+
+	// Scroll al numeral desde hash #n-{N}
+	function scrollToNumeral() {
+		const hash = window.location.hash;
+		if (!hash.startsWith('#n-')) return;
+		const el = document.getElementById(hash.slice(1));
+		if (el) {
+			setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+		}
+	}
+
+	document.addEventListener('DOMContentLoaded', scrollToNumeral);
+	document.addEventListener('astro:page-load', scrollToNumeral);
 </script>

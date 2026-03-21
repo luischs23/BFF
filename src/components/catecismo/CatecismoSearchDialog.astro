@@ -1,0 +1,236 @@
+---
+import { Search, X, BookOpen } from "lucide-astro";
+---
+
+<div
+  id="catecismoSearchOverlay"
+  class="hidden fixed inset-0 bg-black/60 z-[200] flex items-start justify-center p-4 pt-14 md:pt-10"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Búsqueda en el Catecismo"
+>
+  <div class="w-full max-w-2xl bg-white dark:bg-gray-900 rounded-xl shadow-2xl flex flex-col max-h-[88vh] overflow-hidden">
+
+    <!-- Header del modal -->
+    <div class="flex items-center gap-3 px-4 py-3 border-b border-gray-200 dark:border-gray-700 flex-shrink-0">
+      <Search class="h-5 w-5 text-indigo-600 dark:text-indigo-400 flex-shrink-0" />
+      <input
+        type="text"
+        id="catecismoSearchInput"
+        placeholder="Buscar en el Catecismo..."
+        autocomplete="off"
+        class="flex-1 bg-transparent text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 text-base outline-none min-w-0"
+      />
+      <div class="flex items-center gap-1.5 shrink-0 border-l border-gray-200 dark:border-gray-700 pl-3">
+        <span class="text-xs text-gray-400 dark:text-gray-500 font-mono">#</span>
+        <input
+          type="number"
+          id="catecismoNumeralInput"
+          placeholder="33"
+          min="1"
+          autocomplete="off"
+          class="w-16 bg-transparent text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 text-sm outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+        />
+      </div>
+      <button
+        id="catecismoSearchClose"
+        class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400 transition-colors flex-shrink-0"
+        aria-label="Cerrar búsqueda"
+      >
+        <X class="h-5 w-5" />
+      </button>
+    </div>
+
+    <!-- Barra de estado -->
+    <div id="csStatus" class="px-4 py-2 text-xs text-gray-500 dark:text-gray-400 border-b border-gray-100 dark:border-gray-800 flex-shrink-0 hidden"></div>
+
+    <!-- Resultados -->
+    <div id="csResults" class="overflow-y-auto flex-1 p-3 space-y-2">
+      <div id="csInitial" class="flex flex-col items-center justify-center py-16 text-center">
+        <BookOpen class="h-12 w-12 text-gray-300 dark:text-gray-600 mb-3" />
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Escribe al menos 3 letras para buscar</p>
+        <p class="text-gray-400 dark:text-gray-500 text-xs mt-1">en todo el Catecismo de la Iglesia Católica</p>
+      </div>
+      <div id="csLoading" class="hidden flex flex-col items-center justify-center py-16">
+        <div class="w-8 h-8 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin mb-3"></div>
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Buscando...</p>
+      </div>
+      <div id="csEmpty" class="hidden flex flex-col items-center justify-center py-16 text-center">
+        <Search class="h-10 w-10 text-gray-300 dark:text-gray-600 mb-3" />
+        <p class="text-gray-600 dark:text-gray-400 text-sm font-medium">Sin resultados</p>
+        <p class="text-gray-400 dark:text-gray-500 text-xs mt-1">Intenta con otras palabras</p>
+      </div>
+      <div id="csResultsList" class="hidden space-y-2"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function normalizeText(text: string): string {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  function highlight(text: string, query: string): string {
+    const norm = normalizeText(text);
+    const normQ = normalizeText(query);
+    const idx = norm.indexOf(normQ);
+    if (idx === -1) return text;
+    return (
+      text.slice(0, idx) +
+      '<mark class="bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 rounded px-0.5">' +
+      text.slice(idx, idx + query.length) +
+      '</mark>' +
+      text.slice(idx + query.length)
+    );
+  }
+
+  function initCatecismoSearch() {
+    const overlay = document.getElementById('catecismoSearchOverlay');
+    const input = document.getElementById('catecismoSearchInput') as HTMLInputElement;
+    const numeralInput = document.getElementById('catecismoNumeralInput') as HTMLInputElement;
+    const closeBtn = document.getElementById('catecismoSearchClose');
+    const status = document.getElementById('csStatus');
+    const initial = document.getElementById('csInitial');
+    const loading = document.getElementById('csLoading');
+    const empty = document.getElementById('csEmpty');
+    const resultsList = document.getElementById('csResultsList');
+
+    if (!overlay || !input) return;
+
+    let debounceTimer: ReturnType<typeof setTimeout>;
+    let lastQuery = '';
+
+    function openDialog() {
+      overlay!.classList.remove('hidden');
+      input.value = '';
+      numeralInput.value = '';
+      showInitial();
+      setTimeout(() => input.focus(), 50);
+    }
+
+    function closeDialog() {
+      overlay!.classList.add('hidden');
+    }
+
+    function showInitial() {
+      initial!.classList.remove('hidden');
+      loading!.classList.add('hidden');
+      empty!.classList.add('hidden');
+      resultsList!.classList.add('hidden');
+      status!.classList.add('hidden');
+    }
+
+    function showLoading() {
+      initial!.classList.add('hidden');
+      loading!.classList.remove('hidden');
+      empty!.classList.add('hidden');
+      resultsList!.classList.add('hidden');
+      status!.classList.add('hidden');
+    }
+
+    function buildCard(r: any, queryText: string, isNumeral = false): string {
+      const titleHtml = isNumeral ? r.title : highlight(r.title, queryText);
+      const snippetHtml = isNumeral ? r.snippet : highlight(r.snippet, queryText);
+      const href = isNumeral && r.matchedNumeral
+        ? `/catecismo/${r.slug}#n-${r.matchedNumeral}`
+        : `/catecismo/${r.slug}`;
+      return `
+        <a
+          href="${href}"
+          class="cs-result-link block px-4 py-3 rounded-xl bg-gray-50 hover:bg-indigo-50 dark:bg-gray-800 dark:hover:bg-indigo-950 border border-gray-200 dark:border-gray-700 hover:border-indigo-300 dark:hover:border-indigo-700 transition-all no-underline group"
+        >
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <span class="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-indigo-800 dark:group-hover:text-indigo-300 leading-tight">
+              ${titleHtml}
+            </span>
+            ${r.numeracion ? `<span class="text-[11px] text-gray-400 dark:text-gray-500 font-mono shrink-0 mt-0.5">${r.numeracion}</span>` : ''}
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-2">${snippetHtml}</p>
+        </a>
+      `;
+    }
+
+    function showResults(results: any[], queryText: string, isNumeral = false) {
+      initial!.classList.add('hidden');
+      loading!.classList.add('hidden');
+
+      if (results.length === 0) {
+        empty!.classList.remove('hidden');
+        resultsList!.classList.add('hidden');
+        status!.classList.add('hidden');
+        return;
+      }
+
+      empty!.classList.add('hidden');
+      status!.textContent = `${results.length} resultado${results.length !== 1 ? 's' : ''}`;
+      status!.classList.remove('hidden');
+      resultsList!.innerHTML = results.map(r => buildCard(r, queryText, isNumeral)).join('');
+      resultsList!.classList.remove('hidden');
+    }
+
+    async function doTextSearch(query: string) {
+      if (query.length < 3) { showInitial(); return; }
+      if (query === lastQuery) return;
+      lastQuery = query;
+      showLoading();
+      try {
+        const res = await fetch(`/api/catecismo-search?q=${encodeURIComponent(query)}`);
+        const data = await res.json();
+        showResults(data.results ?? [], query, false);
+      } catch {
+        showInitial();
+      }
+    }
+
+    async function doNumeralSearch(numeral: string) {
+      if (!numeral) { showInitial(); lastQuery = ''; return; }
+      const key = `#${numeral}`;
+      if (key === lastQuery) return;
+      lastQuery = key;
+      showLoading();
+      try {
+        const res = await fetch(`/api/catecismo-search?numeral=${encodeURIComponent(numeral)}`);
+        const data = await res.json();
+        showResults(data.results ?? [], numeral, true);
+      } catch {
+        showInitial();
+      }
+    }
+
+    input.addEventListener('input', () => {
+      const q = input.value.trim();
+      // Si hay algo en numeral, limpiarlo al escribir en texto
+      if (numeralInput.value) { numeralInput.value = ''; lastQuery = ''; }
+      clearTimeout(debounceTimer);
+      if (q.length < 3) { showInitial(); lastQuery = ''; return; }
+      debounceTimer = setTimeout(() => doTextSearch(q), 300);
+    });
+
+    numeralInput.addEventListener('input', () => {
+      const n = numeralInput.value.trim();
+      // Si hay algo en texto, limpiarlo al escribir numeral
+      if (input.value) { input.value = ''; lastQuery = ''; }
+      clearTimeout(debounceTimer);
+      if (!n) { showInitial(); lastQuery = ''; return; }
+      debounceTimer = setTimeout(() => doNumeralSearch(n), 300);
+    });
+
+    closeBtn?.addEventListener('click', closeDialog);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeDialog();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDialog();
+    });
+
+    resultsList?.addEventListener('click', (e) => {
+      const link = (e.target as HTMLElement).closest('.cs-result-link');
+      if (link) closeDialog();
+    });
+
+    (window as any).openCatecismoSearch = openDialog;
+  }
+
+  document.addEventListener('DOMContentLoaded', initCatecismoSearch);
+  document.addEventListener('astro:page-load', initCatecismoSearch);
+</script>

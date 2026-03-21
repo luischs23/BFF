@@ -242,11 +242,22 @@ const currentSlug = cuaderno?.slug ?? "";
 				<input
 					type="text"
 					id="faustinaSearchInput"
-					placeholder="Buscar en el Diario de Santa Faustina..."
+					placeholder="Buscar en el Diario..."
 					autocomplete="off"
-					class="flex-1 bg-transparent text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 text-base outline-none"
+					class="flex-1 min-w-0 bg-transparent text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 text-base outline-none"
 				/>
-				<button id="faustinaSearchClose" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 transition">
+				<div class="flex items-center gap-1.5 shrink-0 border-l border-gray-200 dark:border-gray-700 pl-3">
+					<span class="text-xs text-gray-400 dark:text-gray-500 font-mono">#</span>
+					<input
+						type="number"
+						id="faustinaSearchNumeral"
+						placeholder="1231"
+						min="1"
+						autocomplete="off"
+						class="w-16 bg-transparent text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 text-sm outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+					/>
+				</div>
+				<button id="faustinaSearchClose" class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 transition flex-shrink-0">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
 					</svg>
@@ -468,6 +479,7 @@ const currentSlug = cuaderno?.slug ?? "";
 	function initFaustinaSearch() {
 		const overlay = document.getElementById('faustinaSearchOverlay');
 		const input = document.getElementById('faustinaSearchInput') as HTMLInputElement;
+		const numeralInput = document.getElementById('faustinaSearchNumeral') as HTMLInputElement;
 		const closeBtn = document.getElementById('faustinaSearchClose');
 		const openBtn = document.getElementById('faustinaSearchBtn');
 		const statusEl = document.getElementById('fsStatus');
@@ -490,6 +502,7 @@ const currentSlug = cuaderno?.slug ?? "";
 			overlay!.classList.remove('flex');
 			document.body.style.overflow = '';
 			if (input) input.value = '';
+			if (numeralInput) numeralInput.value = '';
 			showState('initial');
 			if (statusEl) { statusEl.textContent = ''; statusEl.classList.add('hidden'); }
 			if (listEl) listEl.innerHTML = '';
@@ -516,6 +529,39 @@ const currentSlug = cuaderno?.slug ?? "";
 				+ escapeHtml(text.slice(idx + query.length));
 		}
 
+		function renderResults(results: { title: string; slug: string; entryNum: string; snippet: string }[], query: string, isNumeral = false) {
+			if (!results?.length) { showState('empty'); return; }
+
+			if (statusEl) {
+				const total = results.length;
+				statusEl.textContent = isNumeral
+					? `Entrada ${results[0].entryNum} — ${results[0].title}`
+					: total >= 100
+						? `Más de 100 resultados (mostrando los primeros 100)`
+						: `${total} resultado${total !== 1 ? 's' : ''} encontrado${total !== 1 ? 's' : ''}`;
+				statusEl.classList.remove('hidden');
+			}
+
+			if (listEl) {
+				listEl.innerHTML = results.map(r => `
+					<a href="/faustina/${r.slug}#entry-${r.entryNum}"
+						class="fs-card block p-3 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-rose-300 dark:hover:border-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/20 transition-all"
+					>
+						<div class="flex items-start justify-between gap-2 mb-1">
+							<span class="font-semibold text-rose-600 dark:text-rose-400 text-sm">${escapeHtml(r.title)}</span>
+							<span class="text-xs text-gray-500 dark:text-gray-400 whitespace-nowrap flex-shrink-0">Entrada ${r.entryNum}</span>
+						</div>
+						<p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">${isNumeral ? escapeHtml(r.snippet) : highlight(r.snippet, query)}</p>
+					</a>
+				`).join('');
+			}
+
+			showState('results');
+			listEl?.querySelectorAll('.fs-card').forEach(card => {
+				card.addEventListener('click', closeDialog);
+			});
+		}
+
 		let searchTimeout: ReturnType<typeof setTimeout>;
 		let lastQuery = '';
 
@@ -529,44 +575,44 @@ const currentSlug = cuaderno?.slug ?? "";
 
 			try {
 				const res = await fetch(`/api/faustina-search?q=${encodeURIComponent(query)}`);
-				const { results, total } = await res.json();
+				const { results } = await res.json();
 				if (query !== lastQuery) return;
+				renderResults(results, query, false);
+			} catch {
+				showState('empty');
+			}
+		}
 
-				if (!results?.length) { showState('empty'); return; }
+		async function performNumeralSearch(numeral: string) {
+			const key = `#${numeral}`;
+			if (key === lastQuery) return;
+			lastQuery = key;
 
-				if (statusEl) {
-					statusEl.textContent = total >= 100
-						? `Más de 100 resultados (mostrando los primeros 100)`
-						: `${total} resultado${total !== 1 ? 's' : ''} encontrado${total !== 1 ? 's' : ''}`;
-					statusEl.classList.remove('hidden');
-				}
+			showState('loading');
+			if (statusEl) statusEl.classList.add('hidden');
 
-				if (listEl) {
-					listEl.innerHTML = results.map((r: { title: string; slug: string; entryNum: string; snippet: string }) => `
-						<a href="/faustina/${r.slug}#entry-${r.entryNum}"
-							class="fs-card block p-3 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-rose-300 dark:hover:border-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/20 transition-all"
-						>
-							<div class="flex items-start justify-between gap-2 mb-1">
-								<span class="font-semibold text-rose-600 dark:text-rose-400 text-sm">${escapeHtml(r.title)}</span>
-								<span class="text-xs text-gray-500 dark:text-gray-400 whitespace-nowrap flex-shrink-0">Entrada ${r.entryNum}</span>
-							</div>
-							<p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">${highlight(r.snippet, query)}</p>
-						</a>
-					`).join('');
-				}
-
-				showState('results');
-				listEl?.querySelectorAll('.fs-card').forEach(card => {
-					card.addEventListener('click', closeDialog);
-				});
+			try {
+				const res = await fetch(`/api/faustina-search?numeral=${encodeURIComponent(numeral)}`);
+				const { results } = await res.json();
+				if (key !== lastQuery) return;
+				renderResults(results, numeral, true);
 			} catch {
 				showState('empty');
 			}
 		}
 
 		input?.addEventListener('input', () => {
+			if (numeralInput.value) { numeralInput.value = ''; lastQuery = ''; }
 			clearTimeout(searchTimeout);
 			searchTimeout = setTimeout(() => performSearch(input.value.trim()), 400);
+		});
+
+		numeralInput?.addEventListener('input', () => {
+			const n = numeralInput.value.trim();
+			if (input.value) { input.value = ''; lastQuery = ''; }
+			clearTimeout(searchTimeout);
+			if (!n) { showState('initial'); lastQuery = ''; return; }
+			searchTimeout = setTimeout(() => performNumeralSearch(n), 400);
 		});
 
 		openBtn?.addEventListener('click', openDialog);

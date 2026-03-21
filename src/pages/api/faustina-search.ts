@@ -45,7 +45,34 @@ function parseIntoEntries(body: string): EntryChunk[] {
 
 export const GET: APIRoute = async ({ url }) => {
   const query = url.searchParams.get('q')?.trim() || '';
+  const numeralParam = url.searchParams.get('numeral')?.trim() || '';
 
+  const cuadernos = (await getCollection('Sta-Faustina')).sort(
+    (a, b) => (a.data.numero ?? 0) - (b.data.numero ?? 0)
+  );
+
+  // Búsqueda por numeral exacto
+  if (numeralParam !== '') {
+    const results: Array<{ title: string; slug: string; entryNum: string; snippet: string }> = [];
+    for (const c of cuadernos) {
+      const entries = parseIntoEntries(c.body ?? '');
+      const found = entries.find(e => e.entryNum === numeralParam);
+      if (found) {
+        results.push({
+          title: c.data.title,
+          slug: c.slug,
+          entryNum: found.entryNum,
+          snippet: found.text.slice(0, 200) + (found.text.length > 200 ? '...' : ''),
+        });
+        break;
+      }
+    }
+    return new Response(JSON.stringify({ results, total: results.length }), {
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Búsqueda por texto
   if (!query || query.length < 3) {
     return new Response(JSON.stringify({ results: [], total: 0 }), {
       headers: { 'Content-Type': 'application/json' },
@@ -53,16 +80,7 @@ export const GET: APIRoute = async ({ url }) => {
   }
 
   const normalizedQuery = normalizeText(query);
-  const cuadernos = (await getCollection('Sta-Faustina')).sort(
-    (a, b) => (a.data.numero ?? 0) - (b.data.numero ?? 0)
-  );
-
-  const results: Array<{
-    title: string;
-    slug: string;
-    entryNum: string;
-    snippet: string;
-  }> = [];
+  const results: Array<{ title: string; slug: string; entryNum: string; snippet: string }> = [];
 
   for (const c of cuadernos) {
     if (results.length >= 100) break;
