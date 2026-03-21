@@ -1,0 +1,302 @@
+---
+import { AArrowUp } from "lucide-astro";
+import type { EstructuraCatecismo } from "../../lib/catecismo/types";
+
+interface Props {
+	estructura: EstructuraCatecismo;
+	currentSlug: string;
+}
+
+const { estructura, currentSlug } = Astro.props;
+
+// Lista plana de slugs para navegación adyacente
+const allSlugs: string[] = [];
+for (const parte of Object.values(estructura)) {
+	for (const seccion of Object.values(parte.secciones)) {
+		for (const capitulo of Object.values(seccion.capitulos)) {
+			for (const entrada of capitulo.entradas) {
+				allSlugs.push(entrada.slug);
+			}
+		}
+	}
+}
+const currentIndex = allSlugs.indexOf(currentSlug);
+const adjacentSlugs = new Set(
+	[allSlugs[currentIndex - 1], allSlugs[currentIndex + 1]].filter(Boolean)
+);
+
+// Determinar qué parte/sección/capítulo está activo
+const slugParts = currentSlug.split('/');
+const activeParteKey = slugParts[0] ?? '';
+const activeSeccionKey = slugParts[1] ?? '';
+const activeCapituloKey = slugParts[2] ?? '';
+---
+
+<aside
+	id="sidebar"
+	class="fixed md:relative w-72 h-full bg-white dark:bg-gray-950 border-r border-gray-200 dark:border-gray-800 overflow-y-auto flex-shrink-0 z-50 transform -translate-x-full md:translate-x-0 transition-all duration-300 ease-in-out"
+>
+	<div class="p-4 pt-16 md:pt-4">
+		<!-- Encabezado -->
+		<div class="flex items-center justify-between mb-4">
+			<a href="/" class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:underline text-sm transition-colors">&larr; Inicio</a>
+			<div class="flex items-center gap-2">
+				<button
+					id="fontSizeToggle"
+					class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+					aria-label="Cambiar tamaño de texto"
+					title="Tamaño de texto"
+				>
+					<AArrowUp class="w-5 h-5 text-gray-600 dark:text-gray-400" />
+				</button>
+				<button
+					id="darkModeToggle"
+					class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+					aria-label="Cambiar tema"
+				>
+					<svg id="sunIcon" class="w-5 h-5 text-gray-600 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+					</svg>
+					<svg id="moonIcon" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+					</svg>
+				</button>
+			</div>
+		</div>
+
+		<!-- Título y enlace de inicio -->
+		<h2 class="text-base font-bold text-gray-900 dark:text-gray-100 mb-1 leading-tight">Catecismo de la Iglesia Católica</h2>
+		<a
+			href="/catecismo"
+			data-astro-prefetch="hover"
+			class="no-underline inline-flex items-center gap-1.5 mb-4 text-[11px] font-medium text-indigo-700 dark:text-indigo-400 hover:text-indigo-900 dark:hover:text-indigo-300 transition-colors"
+		>
+			<svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+			</svg>
+			Inicio Catecismo
+		</a>
+
+		<!-- Prólogo -->
+		<a
+			href="/catecismo/prologo"
+			class:list={[
+				"block px-3 py-1.5 text-sm rounded mb-4 transition",
+				currentSlug === 'prologo'
+					? "bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 font-semibold"
+					: "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-gray-200"
+			]}
+		>
+			Prólogo <span class="text-gray-400 dark:text-gray-600 text-xs ml-1">1-25</span>
+		</a>
+
+		<!-- Partes -->
+		{Object.entries(estructura).map(([parteKey, parte]) => {
+			const parteActiva = parteKey === activeParteKey;
+			return (
+				<div class="mb-5">
+					<!-- Cabecera de parte (colapsable) -->
+					<button
+						class="parte-toggle w-full flex items-center justify-between text-[11px] font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-400 mb-2 px-2 py-1.5 bg-indigo-50 dark:bg-indigo-950 hover:bg-indigo-100 dark:hover:bg-indigo-900 rounded transition-all border-l-2 border-indigo-400 dark:border-indigo-600"
+						data-parte={parteKey}
+					>
+						<span class="text-left leading-tight">{parte.titulo}</span>
+						<svg class="toggle-icon w-3.5 h-3.5 flex-shrink-0 ml-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+						</svg>
+					</button>
+
+					<div class="parte-content section-content pl-1" data-parte={parteKey}>
+						{Object.entries(parte.secciones).map(([seccionKey, seccion]) => {
+							const seccionActiva = parteActiva && seccionKey === activeSeccionKey;
+							const tieneEntradas = Object.values(seccion.capitulos).some(c => c.entradas.length > 0);
+							if (!tieneEntradas) return null;
+							return (
+								<div class="mb-3">
+									<!-- Cabecera de sección (colapsable) -->
+									<button
+										class="seccion-toggle w-full flex items-center justify-between text-[10px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-1 px-2 py-1 bg-gray-50 dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-l-2 border-gray-300 dark:border-gray-600 transition-all"
+										data-seccion={`${parteKey}-${seccionKey}`}
+									>
+										<span class="text-left leading-tight">{seccion.titulo}</span>
+										<svg class="toggle-icon w-3 h-3 flex-shrink-0 ml-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+										</svg>
+									</button>
+
+									<div class="seccion-content section-content pl-2" data-seccion={`${parteKey}-${seccionKey}`}>
+										{Object.entries(seccion.capitulos).map(([capituloKey, capitulo]) => {
+											const capActivo = seccionActiva && capituloKey === activeCapituloKey;
+											if (capitulo.entradas.length === 0) return null;
+											return (
+												<div class="mb-2">
+													<!-- Cabecera de capítulo (colapsable) -->
+													<button
+														class="capitulo-toggle w-full flex items-center justify-between text-[10px] font-medium text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 mb-0.5 px-2 py-1 rounded hover:bg-gray-50 dark:hover:bg-gray-900 transition-all text-left"
+														data-capitulo={`${parteKey}-${seccionKey}-${capituloKey}`}
+													>
+														<span class="leading-tight">{capitulo.titulo}</span>
+														<svg class="toggle-icon w-3 h-3 flex-shrink-0 ml-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+															<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+														</svg>
+													</button>
+
+													<ul class="capitulo-content section-content pl-2 space-y-0.5" data-capitulo={`${parteKey}-${seccionKey}-${capituloKey}`}>
+														{capitulo.entradas.map(entrada => (
+															<li>
+																<a
+																	href={`/catecismo/${entrada.slug}`}
+																	data-astro-prefetch={adjacentSlugs.has(entrada.slug) ? "hover" : undefined}
+																	class:list={[
+																		"block px-2 py-1 text-xs rounded transition leading-tight",
+																		entrada.slug === currentSlug
+																			? "bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 font-semibold"
+																			: "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-800 dark:hover:text-gray-200"
+																	]}
+																>
+																	{entrada.data.title}
+																	{entrada.data.numeracion && (
+																		<span class="text-gray-400 dark:text-gray-600 ml-1 text-[10px]">{entrada.data.numeracion}</span>
+																	)}
+																</a>
+															</li>
+														))}
+													</ul>
+												</div>
+											);
+										})}
+									</div>
+								</div>
+							);
+						})}
+					</div>
+				</div>
+			);
+		})}
+	</div>
+</aside>
+
+<script>
+	function initCatecismoSidebar() {
+		// Inicializar todos los toggles (parte, sección, capítulo)
+		const allToggles = document.querySelectorAll<HTMLButtonElement>(
+			'#sidebar .parte-toggle, #sidebar .seccion-toggle, #sidebar .capitulo-toggle'
+		);
+
+		allToggles.forEach(btn => {
+			if (btn.hasAttribute('data-toggle-init')) return;
+			btn.setAttribute('data-toggle-init', 'true');
+
+			const parteKey = btn.dataset.parte;
+			const seccionKey = btn.dataset.seccion;
+			const capituloKey = btn.dataset.capitulo;
+
+			let contentEl: HTMLElement | null = null;
+			if (parteKey) contentEl = document.querySelector(`.parte-content[data-parte="${parteKey}"]`);
+			else if (seccionKey) contentEl = document.querySelector(`.seccion-content[data-seccion="${seccionKey}"]`);
+			else if (capituloKey) contentEl = document.querySelector(`.capitulo-content[data-capitulo="${capituloKey}"]`);
+
+			if (!contentEl) return;
+
+			btn.addEventListener('click', () => {
+				const isCollapsed = contentEl!.classList.contains('collapsed');
+				contentEl!.classList.toggle('collapsed', !isCollapsed);
+				btn.querySelector('.toggle-icon')?.classList.toggle('rotated', !isCollapsed);
+			});
+		});
+
+		// Colapsar todo excepto la parte/sección/capítulo activo
+		const activeLink = document.querySelector<HTMLAnchorElement>('#sidebar a.bg-indigo-100, #sidebar a.dark\\:bg-indigo-900');
+		if (!activeLink) return;
+
+		const activeSlug = activeLink.getAttribute('href')?.replace('/catecismo/', '') ?? '';
+		const [activeParteKey, activeSeccionKey, activeCapituloKey] = activeSlug.split('/');
+
+		// Colapsar todas las partes primero
+		document.querySelectorAll<HTMLElement>('#sidebar .parte-content').forEach(el => {
+			const parteKey = el.dataset.parte;
+			if (parteKey !== activeParteKey) {
+				el.classList.add('collapsed');
+				const btn = document.querySelector<HTMLElement>(`.parte-toggle[data-parte="${parteKey}"] .toggle-icon`);
+				btn?.classList.add('rotated');
+			}
+		});
+
+		// Colapsar todas las secciones excepto la activa
+		document.querySelectorAll<HTMLElement>('#sidebar .seccion-content').forEach(el => {
+			const key = el.dataset.seccion;
+			const expectedKey = `${activeParteKey}-${activeSeccionKey}`;
+			if (key !== expectedKey) {
+				el.classList.add('collapsed');
+				const btn = document.querySelector<HTMLElement>(`.seccion-toggle[data-seccion="${key}"] .toggle-icon`);
+				btn?.classList.add('rotated');
+			}
+		});
+
+		// Colapsar todos los capítulos excepto el activo
+		document.querySelectorAll<HTMLElement>('#sidebar .capitulo-content').forEach(el => {
+			const key = el.dataset.capitulo;
+			const expectedKey = `${activeParteKey}-${activeSeccionKey}-${activeCapituloKey}`;
+			if (key !== expectedKey) {
+				el.classList.add('collapsed');
+				const btn = document.querySelector<HTMLElement>(`.capitulo-toggle[data-capitulo="${key}"] .toggle-icon`);
+				btn?.classList.add('rotated');
+			}
+		});
+
+		// Scroll al elemento activo
+		activeLink.scrollIntoView({ block: 'nearest' });
+	}
+
+	document.addEventListener('DOMContentLoaded', initCatecismoSidebar);
+	document.addEventListener('astro:page-load', initCatecismoSidebar);
+
+	// Modo oscuro
+	function initDarkModeCatecismo() {
+		const btn = document.getElementById('darkModeToggle');
+		const sunIcon = document.getElementById('sunIcon');
+		const moonIcon = document.getElementById('moonIcon');
+		if (!btn || btn.hasAttribute('data-dm-init')) return;
+		btn.setAttribute('data-dm-init', 'true');
+
+		const isDark = document.documentElement.classList.contains('dark');
+		sunIcon?.classList.toggle('hidden', !isDark);
+		moonIcon?.classList.toggle('hidden', isDark);
+
+		btn.addEventListener('click', () => {
+			const dark = document.documentElement.classList.toggle('dark');
+			localStorage.setItem('theme', dark ? 'dark' : 'light');
+			sunIcon?.classList.toggle('hidden', !dark);
+			moonIcon?.classList.toggle('hidden', dark);
+		});
+	}
+
+	document.addEventListener('DOMContentLoaded', initDarkModeCatecismo);
+	document.addEventListener('astro:page-load', initDarkModeCatecismo);
+
+	// Tamaño de texto (reutiliza la misma lógica que la Biblia)
+	function initFontSizeCatecismo() {
+		const savedSize = localStorage.getItem('bibleFontSize') || 'medium';
+		const fontSizes: Record<string, string> = {
+			small: 'text-sm', medium: 'text-base', large: 'text-lg', xlarge: 'text-xl'
+		};
+		Object.values(fontSizes).forEach(cls => document.body.classList.remove(cls));
+		document.body.classList.add(fontSizes[savedSize] || fontSizes.medium);
+
+		const toggle = document.getElementById('fontSizeToggle');
+		if (!toggle || toggle.hasAttribute('data-fs-init')) return;
+		toggle.setAttribute('data-fs-init', 'true');
+
+		const sizes = ['small', 'medium', 'large', 'xlarge'];
+		toggle.addEventListener('click', () => {
+			const current = localStorage.getItem('bibleFontSize') || 'medium';
+			const next = sizes[(sizes.indexOf(current) + 1) % sizes.length];
+			Object.values(fontSizes).forEach(cls => document.body.classList.remove(cls));
+			document.body.classList.add(fontSizes[next]);
+			localStorage.setItem('bibleFontSize', next);
+		});
+	}
+
+	document.addEventListener('DOMContentLoaded', initFontSizeCatecismo);
+	document.addEventListener('astro:page-load', initFontSizeCatecismo);
+</script>

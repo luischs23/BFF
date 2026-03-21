@@ -182,15 +182,12 @@ const adjacentSlugs = new Set([
 
 	function initFontSize() {
 		// Aplicar tamaño guardado siempre (incluso en re-navegaciones SPA)
-		const bibleContent = document.querySelector('.bible-content');
 		const savedSize = localStorage.getItem('bibleFontSize') || 'medium';
 		const fontSizes: Record<string, string> = {
 			small: 'text-sm', medium: 'text-base', large: 'text-lg', xlarge: 'text-xl'
 		};
-		if (bibleContent) {
-			Object.values(fontSizes).forEach(cls => bibleContent.classList.remove(cls));
-			bibleContent.classList.add(fontSizes[savedSize] || fontSizes.medium);
-		}
+		Object.values(fontSizes).forEach(cls => document.body.classList.remove(cls));
+		document.body.classList.add(fontSizes[savedSize] || fontSizes.medium);
 
 		if (fontSizeInitialized && document.getElementById('fontSizePanel')) return;
 		fontSizeInitialized = true;
@@ -289,10 +286,8 @@ const adjacentSlugs = new Set([
 		});
 
 		function applyFontSize(size: string) {
-			const bc = document.querySelector('.bible-content');
-			if (!bc) return;
-			Object.values(fontSizes).forEach(cls => bc.classList.remove(cls));
-			bc.classList.add(fontSizes[size] || fontSizes.medium);
+			Object.values(fontSizes).forEach(cls => document.body.classList.remove(cls));
+			document.body.classList.add(fontSizes[size] || fontSizes.medium);
 		}
 
 		function updateActiveOption(size: string) {

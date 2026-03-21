@@ -1,0 +1,33 @@
+---
+import { getCollection } from "astro:content";
+import CatecismoLayout from "../../components/catecismo/CatecismoLayout.astro";
+import { organizarCatecismo } from "../../lib/catecismo/organizarCatecismo";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+	const entradas = await getCollection("catecismo");
+
+	return [
+		{ params: { id: undefined }, props: { entrada: null } },
+		...entradas.map((entrada) => ({
+			params: { id: entrada.slug },
+			props: { entrada }
+		}))
+	];
+}
+
+const { entrada } = Astro.props;
+
+const todasLasEntradas = await getCollection("catecismo");
+const estructura = organizarCatecismo(todasLasEntradas);
+
+const isWelcomePage = !entrada;
+const title = entrada ? entrada.data.title : "Catecismo de la Iglesia Católica";
+const slug = entrada ? entrada.slug : "";
+const Content = entrada ? (await entrada.render()).Content : null;
+---
+
+<CatecismoLayout title={title} slug={slug} estructura={estructura} isWelcomePage={isWelcomePage}>
+	{Content && <Content />}
+</CatecismoLayout>

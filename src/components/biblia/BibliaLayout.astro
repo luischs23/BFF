@@ -452,11 +452,11 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		font-family: "Times New Roman", Times, serif;
 	}
 
-	/* Tamaños de texto dinámicos */
-	.bible-content.text-sm p { font-size: 0.875rem !important; }
-	.bible-content.text-base p { font-size: 1rem !important; }
-	.bible-content.text-lg p { font-size: 1.125rem !important; }
-	.bible-content.text-xl p { font-size: 1.25rem !important; }
+	/* Tamaños de texto dinámicos — clase en body, afecta biblia y resto de la página */
+	body.text-sm .bible-content p { font-size: 0.875rem !important; }
+	body.text-base .bible-content p { font-size: 1rem !important; }
+	body.text-lg .bible-content p { font-size: 1.125rem !important; }
+	body.text-xl .bible-content p { font-size: 1.25rem !important; }
 
 	/* Divisor de página */
 	.bible-content .page-divider {

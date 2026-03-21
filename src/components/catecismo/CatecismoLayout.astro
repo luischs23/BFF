@@ -1,0 +1,196 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import CatecismoSidebar from "./CatecismoSidebar.astro";
+import type { EstructuraCatecismo } from "../../lib/catecismo/types";
+
+interface Props {
+	title: string;
+	slug: string;
+	estructura: EstructuraCatecismo;
+	isWelcomePage?: boolean;
+}
+
+const { title, slug, estructura, isWelcomePage = false } = Astro.props;
+---
+
+<Layout title={`${title} - Catecismo de la Iglesia Católica`}>
+	<div
+		id="catecismoContainer"
+		class="flex h-screen relative bg-slate-50 dark:bg-gray-900 transition-colors duration-300"
+		data-welcome={isWelcomePage ? 'true' : undefined}
+	>
+		<!-- Overlay para móvil -->
+		<div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
+
+		{!isWelcomePage ? (
+			<!-- Header móvil -->
+			<header
+				id="mobileHeader"
+				class="md:hidden fixed top-0 left-0 right-0 z-60 bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between"
+			>
+				<button
+					id="menuToggle"
+					class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+					aria-label="Abrir menú"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				</button>
+				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">{title}</h1>
+				<div class="w-8"></div>
+			</header>
+		) : (
+			<!-- Botón menú móvil para welcome page -->
+			<button
+				id="menuToggle"
+				class="md:hidden fixed top-4 right-4 z-50 bg-indigo-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-indigo-800 transition backdrop-blur-sm"
+				aria-label="Abrir menú"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+				</svg>
+			</button>
+		)}
+
+		<!-- Sidebar -->
+		<CatecismoSidebar estructura={estructura} currentSlug={slug} />
+
+		<!-- Contenido principal -->
+		<main
+			class="flex-1 overflow-y-auto
+				bg-slate-50 dark:bg-gray-800
+				md:bg-slate-200 md:dark:bg-gray-950
+				transition-colors duration-300"
+		>
+			<div class="p-0 md:p-8">
+				{isWelcomePage ? (
+					<!-- Página de bienvenida -->
+					<div class="max-w-2xl mx-auto px-6 py-16 text-center">
+						<div class="w-16 h-16 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center mx-auto mb-6">
+							<svg class="w-8 h-8 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+							</svg>
+						</div>
+						<h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3">
+							Catecismo de la Iglesia Católica
+						</h1>
+						<p class="text-gray-500 dark:text-gray-400 mb-8 leading-relaxed">
+							Selecciona una sección en el menú lateral para comenzar a leer.
+						</p>
+						<a
+							href="/catecismo/prologo"
+							class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+						>
+							Comenzar por el Prólogo
+							<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+							</svg>
+						</a>
+					</div>
+				) : (
+					<!-- Contenido del artículo -->
+					<article class="catecismo-content max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 md:p-10">
+						<slot />
+					</article>
+				)}
+			</div>
+		</main>
+	</div>
+</Layout>
+
+<style is:global>
+	/* Header auto-hide móvil */
+	#mobileHeader {
+		z-index: 60 !important;
+	}
+
+	/* Padding top para el header fijo en móvil */
+	#catecismoContainer:not([data-welcome]) > main {
+		padding-top: 4rem !important;
+	}
+
+	/* Sidebar toggle animations */
+	.section-content {
+		overflow: hidden;
+		transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+		max-height: 2000px;
+		opacity: 1;
+	}
+	.section-content.collapsed {
+		max-height: 0;
+		opacity: 0;
+	}
+	.toggle-icon {
+		transition: transform 0.3s ease;
+	}
+	.toggle-icon.rotated {
+		transform: rotate(-90deg);
+	}
+
+	/* Catecismo content typography */
+	.catecismo-content {
+		font-family: Georgia, "Times New Roman", serif;
+		color: #1f2937;
+		line-height: 1.8;
+	}
+	.dark .catecismo-content {
+		color: #e5e7eb;
+	}
+	.catecismo-content h1 {
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+		color: #1e1b4b;
+		line-height: 1.3;
+	}
+	.dark .catecismo-content h1 {
+		color: #c7d2fe;
+	}
+	.catecismo-content h2 {
+		font-size: 1.2rem;
+		font-weight: 600;
+		margin-top: 1.5rem;
+		margin-bottom: 0.5rem;
+		color: #312e81;
+	}
+	.dark .catecismo-content h2 {
+		color: #a5b4fc;
+	}
+	.catecismo-content p {
+		margin-bottom: 1rem;
+		text-align: justify;
+	}
+	.catecismo-content em {
+		font-style: italic;
+	}
+
+	/* Scrollbar */
+	#catecismoContainer aside::-webkit-scrollbar,
+	#catecismoContainer main::-webkit-scrollbar { width: 6px; }
+	#catecismoContainer aside::-webkit-scrollbar-track,
+	#catecismoContainer main::-webkit-scrollbar-track { background: #f8fafc; }
+	#catecismoContainer aside::-webkit-scrollbar-thumb,
+	#catecismoContainer main::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+	.dark #catecismoContainer aside::-webkit-scrollbar-track,
+	.dark #catecismoContainer main::-webkit-scrollbar-track { background: #1f2937; }
+	.dark #catecismoContainer aside::-webkit-scrollbar-thumb,
+	.dark #catecismoContainer main::-webkit-scrollbar-thumb { background: #4b5563; }
+</style>
+
+<script>
+	import { initMobileMenu } from "../../scripts/biblia/mobileMenu";
+	import { initDarkMode } from "../../scripts/biblia/darkMode";
+
+	function initCatecismo() {
+		initMobileMenu();
+		initDarkMode();
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initCatecismo);
+	} else {
+		initCatecismo();
+	}
+	document.addEventListener('astro:page-load', initCatecismo);
+</script>

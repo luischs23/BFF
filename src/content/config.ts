@@ -30,8 +30,18 @@ const blog = defineCollection({
 	}),
 });
 
+const catecismo = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		numeracion: z.string().optional(),
+	}),
+});
+
 export const collections = {
 	'sagrada-biblia': sagradaBiblia,
 	'Sta-Faustina': staFaustina,
+	'catecismo': catecismo,
 	blog
 };

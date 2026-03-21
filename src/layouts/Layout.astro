@@ -65,6 +65,25 @@ const {title} = Astro.props;
 			})();
 		</script>
 		<script is:inline>
+			// Aplicar tamaño de fuente guardado en todas las páginas
+			(function() {
+				var sizes = ['text-sm', 'text-base', 'text-lg', 'text-xl'];
+				var saved = localStorage.getItem('bibleFontSize') || 'medium';
+				var map = { small: 'text-sm', medium: 'text-base', large: 'text-lg', xlarge: 'text-xl' };
+				var cls = map[saved] || 'text-base';
+				sizes.forEach(function(s) { document.body.classList.remove(s); });
+				document.body.classList.add(cls);
+			})();
+			document.addEventListener('astro:after-swap', function() {
+				var sizes = ['text-sm', 'text-base', 'text-lg', 'text-xl'];
+				var saved = localStorage.getItem('bibleFontSize') || 'medium';
+				var map = { small: 'text-sm', medium: 'text-base', large: 'text-lg', xlarge: 'text-xl' };
+				var cls = map[saved] || 'text-base';
+				sizes.forEach(function(s) { document.body.classList.remove(s); });
+				document.body.classList.add(cls);
+			});
+		</script>
+		<script is:inline>
 			function __applyDark(doc) {
 				var val = localStorage.getItem('biblia-dark-mode');
 				var dark = val === 'true' || (val === null && window.matchMedia('(prefers-color-scheme: dark)').matches);
