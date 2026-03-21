@@ -26,8 +26,130 @@ const isWelcomePage = !entrada;
 const title = entrada ? entrada.data.title : "Catecismo de la Iglesia Católica";
 const slug = entrada ? entrada.slug : "";
 const Content = entrada ? (await entrada.render()).Content : null;
+
+// Colores por parte para el índice de bienvenida
+const PARTE_COLORS: Record<string, { dot: string; border: string; label: string }> = {
+	'01-primera-parte': { dot: 'bg-indigo-500',  border: 'border-indigo-400',  label: 'text-indigo-600 dark:text-indigo-400'  },
+	'02-segunda-parte': { dot: 'bg-purple-500',  border: 'border-purple-400',  label: 'text-purple-600 dark:text-purple-400'  },
+	'03-tercera-parte': { dot: 'bg-emerald-500', border: 'border-emerald-400', label: 'text-emerald-600 dark:text-emerald-400' },
+	'04-cuarta-parte':  { dot: 'bg-sky-500',     border: 'border-sky-400',     label: 'text-sky-600 dark:text-sky-400'         },
+};
 ---
 
 <CatecismoLayout title={title} slug={slug} estructura={estructura} isWelcomePage={isWelcomePage}>
-	{Content && <Content />}
+	{Content ? (
+		<article class="catecismo-content max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 md:p-10">
+			<Content />
+		</article>
+	) : (
+		<div class="welcome-content max-w-2xl mx-auto pb-12 pt-0 px-5">
+
+			<p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-gray-400/60 dark:text-gray-600 mb-5">
+				Catecismo de la Iglesia Católica
+			</p>
+
+			<!-- Prólogo -->
+			<a
+				href="/catecismo/prologo"
+				class="no-underline flex items-center gap-3 px-4 py-3 mb-8 rounded-2xl bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 border border-gray-200 hover:border-gray-300 dark:border-white/5 dark:hover:border-white/10 transition-all duration-150 group"
+			>
+				<span class="shrink-0 w-2 h-2 rounded-full bg-gray-400"></span>
+				<div class="min-w-0 flex-1">
+					<span class="text-gray-700 dark:text-gray-300 text-xs font-semibold block">Prólogo</span>
+				</div>
+				<span class="text-gray-400 dark:text-gray-600 text-[11px] font-mono shrink-0">1-25</span>
+				<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+				</svg>
+			</a>
+
+			<!-- Las cuatro partes -->
+			{Object.entries(estructura).map(([parteKey, parte]) => {
+				const colors = PARTE_COLORS[parteKey] ?? { dot: 'bg-gray-500', border: 'border-gray-400', label: 'text-gray-500' };
+				return (
+					<div class="mb-10">
+						<p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-gray-400/60 dark:text-gray-600 mb-5">
+							{parte.titulo}
+						</p>
+
+						<div class="space-y-7">
+							{Object.entries(parte.secciones).map(([seccionKey, seccion]) => {
+								const tieneEntradas = Object.values(seccion.capitulos).some(c => c.entradas.length > 0);
+								if (!tieneEntradas) return null;
+								return (
+									<div>
+										<!-- Cabecera de sección con borde de color -->
+										<div class={`flex items-center gap-2 mb-3 pl-3 border-l-2 ${colors.border}`}>
+											<span class={`text-[10px] font-bold uppercase tracking-widest ${colors.label}`}>
+												{seccion.titulo}
+											</span>
+										</div>
+
+										<div class="space-y-4">
+											{Object.entries(seccion.capitulos).map(([capKey, capitulo]) => {
+												if (capitulo.entradas.length === 0) return null;
+												return (
+													<div>
+														<!-- Subcabecera de capítulo -->
+														<p class="text-[10px] font-medium text-gray-400 dark:text-gray-600 uppercase tracking-wider mb-1.5 pl-1">
+															{capitulo.titulo}
+														</p>
+														<!-- Artículos como cards -->
+														<div class="flex flex-col gap-1.5">
+															{capitulo.entradas.map(ent => (
+																<a
+																	href={`/catecismo/${ent.slug}`}
+																	data-catecismo-card
+																	data-astro-prefetch="false"
+																	class="no-underline flex items-center gap-3 px-4 py-3 rounded-2xl bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 border border-gray-200 hover:border-gray-300 dark:border-white/5 dark:hover:border-white/10 transition-all duration-150 group"
+																>
+																	<span class={`shrink-0 w-2 h-2 rounded-full ${colors.dot}`}></span>
+																	<div class="min-w-0 flex-1">
+																		<span class="text-gray-700 dark:text-gray-300 text-xs font-medium block leading-snug">
+																			{ent.data.title}
+																		</span>
+																	</div>
+																	{ent.data.numeracion && (
+																		<span class="text-gray-400 dark:text-gray-600 text-[11px] font-mono shrink-0">
+																			{ent.data.numeracion}
+																		</span>
+																	)}
+																	<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+																		<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+																	</svg>
+																</a>
+															))}
+														</div>
+													</div>
+												);
+											})}
+										</div>
+									</div>
+								);
+							})}
+						</div>
+					</div>
+				);
+			})}
+		</div>
+	)}
+
+	<script>
+		function initCatecismoCardFeedback() {
+			document.querySelectorAll<HTMLAnchorElement>('[data-catecismo-card]').forEach(card => {
+				if (card.hasAttribute('data-nav-init')) return;
+				card.setAttribute('data-nav-init', 'true');
+				card.addEventListener('click', () => {
+					card.style.opacity = '0.5';
+					card.style.pointerEvents = 'none';
+					document.addEventListener('astro:page-load', () => {
+						card.style.opacity = '';
+						card.style.pointerEvents = '';
+					}, { once: true });
+				});
+			});
+		}
+		document.addEventListener('DOMContentLoaded', initCatecismoCardFeedback);
+		document.addEventListener('astro:page-load', initCatecismoCardFeedback);
+	</script>
 </CatecismoLayout>
