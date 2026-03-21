@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Deshabilitar transitions durante el swap SPA para evitar flash de dark mode */
+.no-transition * {
+	transition: none !important;
+}

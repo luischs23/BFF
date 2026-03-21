@@ -55,7 +55,7 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		<!-- Contenido principal -->
 		<main
 			class="flex-1 overflow-y-auto
-					bg-amber-50 dark:bg-gray-950
+					bg-amber-50 dark:bg-gray-800
 					md:bg-stone-300 md:dark:bg-gray-950
 					transition-colors duration-300">
 			<div class="p-0 md:p-8">
@@ -146,13 +146,16 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		transform: translateY(-100%);
 	}
 
-	/* Ajustar padding del contenido principal para el header fijo (solo cuando hay header) */
+	/* Ajustar padding del contenido principal para el header fijo (todas las pantallas) */
 	#bibliaContainer:not([data-welcome]) > main {
 		padding-top: 4rem !important;
 	}
 
-	#bibliaContainer > main > div:first-child {
-		padding-top: 0.5rem;
+	/* En desktop, pequeño respiro visual entre header y contenido del libro */
+	@media (min-width: 768px) {
+		#bibliaContainer:not([data-welcome]) > main > div:first-child {
+			padding-top: 0.5rem;
+		}
 	}
 
 	/* En la welcome page no hay MobileHeader: quitar el pt-16 del sidebar en móvil */
