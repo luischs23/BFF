@@ -1,5 +1,16 @@
 // Sistema de comentarios (notas al pie)
 
+function getCached(key: string): any | null {
+	try {
+		const raw = sessionStorage.getItem(key);
+		return raw ? JSON.parse(raw) : null;
+	} catch { return null; }
+}
+
+function setCached(key: string, value: any): void {
+	try { sessionStorage.setItem(key, JSON.stringify(value)); } catch {}
+}
+
 export function initCommentSystem(currentSlug: string): void {
 	const commentDialog = document.getElementById('commentDialog') as HTMLDialogElement | null;
 	const commentTitle = document.getElementById('commentTitle');
@@ -22,7 +33,18 @@ export function initCommentSystem(currentSlug: string): void {
 				const ref = (e.target as HTMLElement).dataset.ref;
 				if (!ref) return;
 
-				// Mostrar loading
+				const cacheKey = `comment:${currentSlug}:${ref}`;
+				const cached = getCached(cacheKey);
+
+				// Si hay caché, mostrar directamente sin loading
+				if (cached) {
+					if (commentTitle) commentTitle.textContent = cached.title;
+					if (commentContent) commentContent.innerHTML = `<p>${cached.comment}</p>`;
+					commentDialog?.showModal();
+					return;
+				}
+
+				// Sin caché: mostrar loading y hacer fetch
 				if (commentTitle) commentTitle.textContent = 'Cargando...';
 				if (commentContent) commentContent.innerHTML = '<div class="text-center py-4"><span class="animate-pulse">Cargando comentario...</span></div>';
 				commentDialog?.showModal();
@@ -37,6 +59,7 @@ export function initCommentSystem(currentSlug: string): void {
 					const data = await response.json();
 
 					if (response.ok && data.success) {
+						setCached(cacheKey, data);
 						if (commentTitle) commentTitle.textContent = data.title;
 						if (commentContent) commentContent.innerHTML = `<p>${data.comment}</p>`;
 					} else {

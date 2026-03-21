@@ -42,6 +42,10 @@ export default defineConfig({
   ],
   output: 'server',
   adapter: vercel(),
+  prefetch: {
+    prefetchAll: false,
+    defaultStrategy: 'hover',
+  },
   devToolbar: {
     enabled: false,
   },

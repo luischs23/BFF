@@ -1,5 +1,16 @@
 // Sistema de paralelos (referencias cruzadas)
 
+function getCached(key: string): any | null {
+	try {
+		const raw = sessionStorage.getItem(key);
+		return raw ? JSON.parse(raw) : null;
+	} catch { return null; }
+}
+
+function setCached(key: string, value: any): void {
+	try { sessionStorage.setItem(key, JSON.stringify(value)); } catch {}
+}
+
 // Variable para rastrear el capítulo actual
 let currentChapter = 1;
 
@@ -75,7 +86,18 @@ async function initVerseClickHandlers(currentSlug: string): Promise<void> {
 			// Actualizar capítulo actual para futuras referencias
 			currentChapter = chapter;
 
-			// Mostrar loading
+			const cacheKey = `parallels:${currentSlug}:${chapter}:${verse}`;
+			const cached = getCached(cacheKey);
+
+			// Si hay caché, mostrar directamente sin loading
+			if (cached) {
+				if (parallelsTitle) parallelsTitle.textContent = cached.title;
+				if (parallelsContent) parallelsContent.innerHTML = cached._html;
+				parallelsDialog?.showModal();
+				return;
+			}
+
+			// Sin caché: mostrar loading y hacer fetch
 			if (parallelsTitle) parallelsTitle.textContent = 'Cargando...';
 			if (parallelsContent) parallelsContent.innerHTML = '<div class="text-center py-4"><span class="animate-pulse">Buscando referencias paralelas...</span></div>';
 			parallelsDialog?.showModal();
@@ -96,8 +118,8 @@ async function initVerseClickHandlers(currentSlug: string): Promise<void> {
 				if (response.ok && data.success) {
 					if (parallelsTitle) parallelsTitle.textContent = data.title;
 
+					let html = '';
 					if (data.parallels && data.parallels.length > 0) {
-						// Marcar este versículo como que tiene paralelos
 						sup.classList.add('has-parallels');
 
 						const listItems = data.parallels.map((p: any) => {
@@ -105,7 +127,6 @@ async function initVerseClickHandlers(currentSlug: string): Promise<void> {
 								? '<span class="parallel-badge nt">NT</span>'
 								: '<span class="parallel-badge at">AT</span>';
 
-							// Construir el hash para navegación precisa
 							let hash = `#chapter-${p.firstChapter}`;
 							if (p.firstVerse) {
 								hash += `-verse-${p.firstVerse}`;
@@ -118,26 +139,26 @@ async function initVerseClickHandlers(currentSlug: string): Promise<void> {
 							return `<li>${badge}${link}<span class="text-gray-500 dark:text-gray-400 text-xs ml-auto">${p.bookName}</span></li>`;
 						}).join('');
 
-						if (parallelsContent) {
-							parallelsContent.innerHTML = `
-								<p class="text-sm text-gray-500 dark:text-gray-400 mb-3">
-									${data.count} referencia${data.count !== 1 ? 's' : ''} paralela${data.count !== 1 ? 's' : ''} encontrada${data.count !== 1 ? 's' : ''}
-								</p>
-								<ul class="parallels-list">${listItems}</ul>
-							`;
-						}
+						html = `
+							<p class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+								${data.count} referencia${data.count !== 1 ? 's' : ''} paralela${data.count !== 1 ? 's' : ''} encontrada${data.count !== 1 ? 's' : ''}
+							</p>
+							<ul class="parallels-list">${listItems}</ul>
+						`;
 					} else {
-						if (parallelsContent) {
-							parallelsContent.innerHTML = `
-								<div class="text-center py-6 text-gray-500">
-									<svg class="w-12 h-12 mx-auto mb-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-									</svg>
-									<p>No hay referencias paralelas para este versículo.</p>
-								</div>
-							`;
-						}
+						html = `
+							<div class="text-center py-6 text-gray-500">
+								<svg class="w-12 h-12 mx-auto mb-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+								</svg>
+								<p>No hay referencias paralelas para este versículo.</p>
+							</div>
+						`;
 					}
+
+					if (parallelsContent) parallelsContent.innerHTML = html;
+					// Guardar en caché incluyendo el HTML pre-construido
+					setCached(cacheKey, { title: data.title, _html: html });
 				} else {
 					if (parallelsTitle) parallelsTitle.textContent = 'Sin paralelos';
 					if (parallelsContent) parallelsContent.innerHTML = `
@@ -158,18 +179,20 @@ async function initVerseClickHandlers(currentSlug: string): Promise<void> {
 // Función para pre-cargar y marcar versículos con paralelos (una sola petición)
 async function preloadParallels(currentSlug: string): Promise<void> {
 	try {
-		// Obtener lista de todos los versículos con paralelos en una sola petición
-		const response = await fetch('/api/get-parallels-list', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ bookSlug: currentSlug })
-		});
+		const cacheKey = `parallels-list:${currentSlug}`;
+		let data = getCached(cacheKey);
 
-		const data = await response.json();
-
-		if (!response.ok || !data.success || !data.verses) {
-			return;
+		if (!data) {
+			const response = await fetch('/api/get-parallels-list', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ bookSlug: currentSlug })
+			});
+			data = await response.json();
+			if (response.ok && data.success) setCached(cacheKey, data);
 		}
+
+		if (!data?.success || !data.verses) return;
 
 		// Crear un Set para búsqueda rápida
 		const versesWithParallels = new Set(data.verses);

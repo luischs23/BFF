@@ -752,9 +752,10 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 	}
 </style>
 
-<script define:vars={{ slug }}>
-	// Variable global para el slug actual
+<script define:vars={{ slug, isWelcomePage }}>
+	// Variables globales para el slug y tipo de página
 	window.currentBibliaSlug = slug;
+	window.isWelcomePage = isWelcomePage;
 </script>
 
 <script>
@@ -768,48 +769,68 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 	import { initHeaderAutoHide } from "../../scripts/biblia/headerAutoHide";
 	import { initVerseNavigation } from "../../scripts/biblia/verseNavigation";
 	import { initBibleCopyAttribution } from "../../scripts/biblia/copyAttribution";
-	import { initSelectionToolbar } from "../../scripts/biblia/selectionToolbar";
+	// selectionToolbar se carga bajo demanda (lazy) al primer evento de selección
+
+	// Carga lazy de selectionToolbar: solo cuando el usuario selecciona texto en el contenido bíblico.
+	// Los event listeners del módulo van sobre document y sobreviven SPA navigation,
+	// así que con cargar el módulo una sola vez es suficiente.
+	let selectionToolbarReady = false;
+	function initSelectionToolbarOnDemand(): void {
+		if (selectionToolbarReady) return;
+		const handler = async () => {
+			const sel = window.getSelection();
+			if (!sel || sel.isCollapsed) return;
+			const range = sel.rangeCount > 0 ? sel.getRangeAt(0) : null;
+			const bibleContent = document.querySelector('.bible-content');
+			if (!range || !bibleContent?.contains(range.commonAncestorContainer)) return;
+			// Primera selección dentro del contenido: cargar el módulo y no volver a escuchar
+			selectionToolbarReady = true;
+			document.removeEventListener('selectionchange', handler);
+			const { initSelectionToolbar } = await import("../../scripts/biblia/selectionToolbar");
+			initSelectionToolbar();
+		};
+		document.addEventListener('selectionchange', handler);
+	}
 
 	// Función para inicializar todos los sistemas
 	function initializeAll() {
 		const currentSlug = (window as any).currentBibliaSlug;
+		const isWelcome = (window as any).isWelcomePage;
 
-		// Sistemas básicos
+		// Sistemas básicos — siempre necesarios (sidebar, menú, tema)
 		initSectionToggles(currentSlug);
 		scrollToActiveBook();
 		initMobileMenu();
 		initDarkMode();
 
-		// Organizar páginas y mostrar contenido inmediatamente
+		// La welcome page no tiene contenido de libro: saltar scripts específicos
+		if (isWelcome) return;
+
+		// Organizar páginas y sistemas del libro
 		requestAnimationFrame(() => {
 			organizeBiblePages();
-
-			// Inicializar sistemas después de que el contenido esté visible
 			initCommentSystem(currentSlug);
 			initParallelsSystem(currentSlug);
 			initVerseNavigation();
 		});
 
-		// Navegación
 		initChapterNavigation();
 		initHeaderAutoHide();
 		initBibleCopyAttribution();
-		initSelectionToolbar();
+		initSelectionToolbarOnDemand();
 	}
 
 	// Inicializar en la primera carga
-	// Verificar si el documento ya está cargado (puede pasar con scripts type="module")
 	if (document.readyState === 'loading') {
 		document.addEventListener('DOMContentLoaded', initializeAll);
 	} else {
-		// El DOM ya está listo, ejecutar inmediatamente
 		initializeAll();
 	}
 
 	// Re-inicializar cuando Astro hace una navegación SPA (ClientRouter)
 	document.addEventListener('astro:page-load', initializeAll);
 
-	// También ejecutar navegación si el hash cambia
+	// Ejecutar navegación de versículo si el hash cambia
 	window.addEventListener('hashchange', () => {
 		initVerseNavigation();
 	});
