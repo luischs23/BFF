@@ -18,7 +18,8 @@
       "Bash(npm install:*)",
       "Bash(npx astro:*)",
       "Bash(grep -r \"lazy\\\\|loading\\\\|defer\\\\|async\" c:UsersUsuarioDocumentsPlatziBFFsrccomponentsbiblia*.astro)",
-      "Bash(wc -l \"c:\\\\Users\\\\Usuario\\\\Documents\\\\Platzi\\\\BFF\\\\src\\\\scripts\\\\biblia\"/*.ts)"
+      "Bash(wc -l \"c:\\\\Users\\\\Usuario\\\\Documents\\\\Platzi\\\\BFF\\\\src\\\\scripts\\\\biblia\"/*.ts)",
+      "Bash(node \"c:/Users/Usuario/Documents/Platzi/BFF/create-agustin.mjs\")"
     ]
   }
 }

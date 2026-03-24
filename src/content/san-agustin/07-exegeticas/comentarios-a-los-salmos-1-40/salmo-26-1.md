@@ -1,0 +1,34 @@
+---
+title: "Salmo 26, I"
+description: ""
+bac: "19"
+---
+EXPOSICIÓN PRIMERA DEL SALMO 26
+
+1. [v.1] Para David mismo, antes de ser ungido. El recluta de Cristo dice cuando se acerca a la fe: El Señor es mi luz y mi salvación, ¿a quién temeré? El Señor me proporcionará el conocimiento de él y su salvación, ¿quién me separará de él? El Señor es el protector de mi vida, ¿quién me hará temblar? El Señor rechazará todas las embestidas y estratagemas de mi enemigo; no temeré a nadie.
+
+2. [v.2] Cuando se me aproximan los malvados para devorar mis carnes: cuando se me acercan los malvados para conocerme e insultarme, y preferirse a mí que estoy cambiando para mejor, no me aniquilen con los dientes de la maledicencia, sino que devoren más bien mis deseos carnales. Mis enemigos que me afligen: no sólo los que me afligen reprendiéndome en tono amistoso e intentando apartarme de mi propósito, sino también mis enemigos. Ellos mismos se debilitaron y sucumbieron: pues al actuar con ánimo de defender su causa, se debilitaron e incapacitaron para creer en cosas mejores, y comenzaron a odiar la palabra de salvación por cuyo medio yo hago lo que les desagrada.
+
+3. [v.3] Aunque se levante contra mí un campamento, no temerá mi corazón: aunque se levante contra mí una multitud conspirando y contradiciéndome, mi corazón no tendrá miedo como para hacer que me ponga de su parte. Aunque estalle una guerra contra mí, en esta yo esperaré: si estalla contra mí la persecución de este siglo, anclaré mi esperanza en esta petición que tengo en el pensamiento.
+
+4. [v.4] Una cosa he pedido al Señor, esta buscaré: he hecho una petición al Señor, esta buscaré. Habitar en la casa del Señor todos los días de mi vida: mientras me hallo en esta vida, que ninguna adversidad me excluya del número de quienes a lo largo y a lo ancho del orbe mantienen la unidad y la verdad de la fe en el Señor. Para contemplar la dulzura del Señor: con la finalidad, claro está, de que, perseverando en la fe, se me manifieste la belleza gozosa para contemplarla cara a cara. Y que sea protegido como su templo: y que una vez que la muerte quede absorbida en la victoria1, sea revestido de inmortalidad, convertido en templo suyo.
+
+5. [v.5] Porque me ha escondido en su tienda en el día de mis desdichas: porque me ha escondido en la economía de su Palabra hecha carne, en la época de las tentaciones a las que está sujeta mi vida mortal. Me ha protegido en lo oculto de su tienda: me ha protegido, pues con el corazón he creído con vistas a la justicia2.
+
+6. [v.6] Me ensalzó en la roca: y para que, además, quedara claro que he creído para la salvación, hizo que mi confesión destacase sobre su solidez. Y ahora, ahí lo tenéis, ensalzó mi cabeza por encima de mis enemigos: ¿qué me reserva para el final, cuando incluso ahora que el cuerpo está muerto por culpa del pecado3, siento que mi mente está al servicio de la ley de Dios y no la llevan cautiva bajo la ley rebelde del pecado4? He hecho el recorrido alrededor y he inmolado en su tienda un sacrificio de júbilo: he considerado que el orbe cree en Cristo, y ante el hecho de que Dios se ha humillado por nosotros en el tiempo, le he alabado lleno de gozo, pues este es el sacrificio que le agrada. Cantaré y tocaré para el Señor: me alegraré en el Señor con el corazón y con las obras.
+
+7. [v.7] Escucha, Señor, mi voz con la que te he gritado: escucha, Señor, la voz interior que con todas las ganas he dirigido a tus oídos. Ten piedad de mí y respóndeme: ten piedad de mí y escúchame en ella.
+
+8. [v.8] A ti te ha dicho mi corazón: He buscado tu rostro. No me he exhibido ante los hombres, sino que en el secreto donde solo tú escuchas te ha dicho mi corazón: no he buscado en ti ningún premio que no seas tú; he buscado tu rostro. Tu rostro buscaré, Señor: insistiré incansablemente en esta búsqueda, porque no voy en busca de algo vil, sino de tu rostro, para amarte sin nada a cambio, dado que no encuentro nada más precioso.
+
+9. [v.9] No me ocultes tu rostro: para que encuentre lo que busco. No te alejes airado de tu siervo: no sea que, al buscarte a ti, tropiece con algo distinto. ¿Qué mayor castigo que este puede haber para quien ama y busca la verdad de tu rostro? Sé tú mi auxilio: ¿y cuándo voy a encontrar la verdad si no me ayudas tú? No me abandones, ni me rechaces, Dios, salvación mía: no desdeñes el hecho de que un mortal se atreva a buscar lo eterno, porque tú, Dios, curas la herida de mi pecado.
+
+10. [v.10] Porque que mi padre y mi madre me abandonaron: porque el reino de este siglo y la ciudad de este siglo, de los que nací en el tiempo y nací para morir, me han abandonado mientras te busco y desestimo lo que ellos me prometían, al ser incapaces de darme lo que busco. Pero el Señor me acogió: pero el Señor, que puede dárseme a sí mismo, me ha acogido a mí.
+
+11. [v.11] Establece para mí una ley, Señor, en tu camino: Señor, dado que tiendo hacia ti y que emprendo desde la base del temor la gran tarea de llegar a la sabiduría, establéceme una ley en tu camino, a fin de que tu disciplina no me abandone por haberme desviado. Y guíame por el sendero recto a causa de mis enemigos: y guíame en la rectitud en medio de sus estrecheces, porque no basta con empezar cuando los enemigos no descansan hasta que uno no llega.
+
+12. [v.12] No me entregues a las almas de los que me atormentan: no permitas que mis atormentadores se sacien de mis males. Pues se han alzado contra mí testigos malvados: porque se han levantado contra mí diciendo falsedades de mi persona para apartarme y desarraigarme de ti, como si lo que yo busco fuera gloria humana. Y la iniquidad se ha mentido a sí misma: la iniquidad, por tanto, se ha regocijado con su propia mentira. De hecho no me ha movido a mí a quien por este motivo se me ha prometido mayor recompensa en el cielo.
+
+13. [v.13] Tengo fe en que veré los bienes del Señor en la tierra de los vivos: y puesto que el primero en sufrir todo esto fue mi Señor, si también yo desprecio las lenguas de los que mueren —ya que la boca que miente mata al alma5—, tengo fe en que veré los bienes del Señor en la tierra de los vivos donde no hay sitio para la falsedad.
+
+14. [v.14] Ten paciencia con el Señor, compórtate como un hombre: que se conforte tu corazón y ten paciencia con el Señor. Pero, ¿cuándo tendrá su realización todo eso? Ardua tarea para el mortal, lenta para el enamorado; de todos modos, presta atención a la voz no engañosa del que dice: Ten paciencia con el Señor. Aguanta como un hombre el cauterio de las entrañas y con coraje el abrasamiento del corazón. No pienses que se te ha negado lo que aún no has recibido. No sucumbas a la desesperación y fíjate en lo que se te dice: Ten paciencia con el Señor.

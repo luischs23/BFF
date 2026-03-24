@@ -1,0 +1,151 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import SanAgustinLayout from "../../components/san-agustin/SanAgustinLayout.astro";
+import type { CategoryTree, TreeNode } from "../../components/san-agustin/SanAgustinSidebar.astro";
+
+// SSR: se renderiza en el servidor bajo demanda, sin pre-generar 611 páginas
+const { id } = Astro.params;
+
+// Categorías con nombre legible y color
+const CATEGORIAS: Record<string, { label: string; color: string; accent: string }> = {
+	"01-autobiograficas":    { label: "Autobiográficas",       color: "bg-amber-100 dark:bg-amber-900/30",  accent: "text-amber-700 dark:text-amber-300" },
+	"02-filosoficas":        { label: "Filosóficas",           color: "bg-yellow-100 dark:bg-yellow-900/30", accent: "text-yellow-700 dark:text-yellow-300" },
+	"03-apologeticas":       { label: "Apologéticas",          color: "bg-orange-100 dark:bg-orange-900/30", accent: "text-orange-700 dark:text-orange-300" },
+	"04-dogmaticas":         { label: "Dogmáticas",            color: "bg-red-100 dark:bg-red-900/30",       accent: "text-red-700 dark:text-red-300" },
+	"05-morales-y-pastorales": { label: "Morales y Pastorales", color: "bg-green-100 dark:bg-green-900/30",  accent: "text-green-700 dark:text-green-300" },
+	"06-monasticas":         { label: "Monásticas",            color: "bg-teal-100 dark:bg-teal-900/30",     accent: "text-teal-700 dark:text-teal-300" },
+	"07-exegeticas":         { label: "Exegéticas",            color: "bg-sky-100 dark:bg-sky-900/30",       accent: "text-sky-700 dark:text-sky-300" },
+	"08-polemicas":          { label: "Polémicas",             color: "bg-rose-100 dark:bg-rose-900/30",     accent: "text-rose-700 dark:text-rose-300" },
+	"09-cartas":             { label: "Cartas",                color: "bg-violet-100 dark:bg-violet-900/30", accent: "text-violet-700 dark:text-violet-300" },
+	"10-homileticas":        { label: "Homiléticas",           color: "bg-indigo-100 dark:bg-indigo-900/30", accent: "text-indigo-700 dark:text-indigo-300" },
+	"11-atribuidas":         { label: "Atribuidas",            color: "bg-gray-100 dark:bg-gray-800",        accent: "text-gray-600 dark:text-gray-400" },
+};
+
+function formatFolderName(folder: string): string {
+	return folder
+		.replace(/^\d+-/, '')
+		.replace(/-/g, ' ')
+		.replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function buildTree(obras: Awaited<ReturnType<typeof getCollection<"san-agustin">>>): CategoryTree[] {
+	const cats: CategoryTree[] = [];
+	for (const [catKey, catMeta] of Object.entries(CATEGORIAS)) {
+		const catObras = obras.filter(o => o.slug.startsWith(catKey + '/'));
+		const nodeMap = new Map<string, TreeNode>();
+		const roots: TreeNode[] = [];
+		const sorted = catObras.sort((a, b) => a.slug.localeCompare(b.slug));
+		for (const o of sorted) {
+			const parts = o.slug.split('/');
+			for (let depth = 1; depth < parts.length; depth++) {
+				const currentKey = parts.slice(0, depth + 1).join('/');
+				if (!nodeMap.has(currentKey)) {
+					const isLeaf = depth === parts.length - 1;
+					const node: TreeNode = {
+						slug: isLeaf ? o.slug : '',
+						title: isLeaf ? o.data.title : formatFolderName(parts[depth]),
+						children: [],
+					};
+					nodeMap.set(currentKey, node);
+					if (depth === 1) {
+						roots.push(node);
+					} else {
+						nodeMap.get(parts.slice(0, depth).join('/'))?.children.push(node);
+					}
+				} else if (depth === parts.length - 1) {
+					const node = nodeMap.get(currentKey)!;
+					node.slug = o.slug;
+					node.title = o.data.title;
+				}
+			}
+		}
+		if (roots.length > 0) cats.push({ key: catKey, ...catMeta, nodes: roots });
+	}
+	return cats;
+}
+
+// getCollection está cacheado por Astro: solo lee disco una vez por proceso
+const allObras = await getCollection("san-agustin");
+const tree = buildTree(allObras);
+
+// Buscar la obra actual
+const currentSlug = Array.isArray(id) ? id.join('/') : (id ?? '');
+const obra = currentSlug ? allObras.find(o => o.slug === currentSlug) ?? null : null;
+
+// 404 si la ruta no corresponde a ninguna obra conocida
+if (currentSlug && !obra) {
+	return Astro.redirect('/san-agustin');
+}
+
+const Content = obra ? (await obra.render()).Content : null;
+const title = obra ? obra.data.title : "San Agustín";
+---
+
+<SanAgustinLayout title={title} currentSlug={currentSlug} tree={tree}>
+	{Content ? (
+		<article class="agustin-content bg-white dark:bg-gray-900 rounded-xl shadow-sm md:shadow-md p-6 md:p-10">
+			<div class="mb-6 pb-4 border-b border-stone-200 dark:border-gray-700">
+				<p class="text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400 mb-1">
+					{obra?.data.bac ? `BAC vol. ${obra.data.bac}` : 'San Agustín'}
+				</p>
+				<h1 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100">{obra?.data.title}</h1>
+			</div>
+			<Content />
+		</article>
+	) : (
+		<div>
+			<div class="text-center mb-10">
+				<div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-amber-100 dark:bg-amber-900/40 mb-4">
+					<svg class="h-10 w-10 text-amber-700 dark:text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+					</svg>
+				</div>
+				<h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-3">
+					San Agustín de Hipona
+				</h1>
+				<p class="text-amber-700 dark:text-amber-400 font-semibold text-lg mb-2">
+					354 — 430 d.C.
+				</p>
+				<p class="text-gray-600 dark:text-gray-300 max-w-xl mx-auto text-sm leading-relaxed">
+					Doctor de la Iglesia y uno de los padres más influyentes del pensamiento cristiano occidental.
+					Sus obras abarcan teología, filosofía, exégesis, predicación y polémica,
+					recogidas aquí según la edición de la Biblioteca de Autores Cristianos (BAC).
+				</p>
+			</div>
+
+			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+				{tree.map(cat => (
+					<div class={`${cat.color} border border-stone-200 dark:border-gray-700 rounded-xl p-5`}>
+						<h2 class={`font-bold text-sm uppercase tracking-wide ${cat.accent} mb-3`}>
+							{cat.label}
+						</h2>
+						<ul class="space-y-1">
+							{cat.nodes.slice(0, 5).map(node => (
+								<li class="text-xs text-gray-600 dark:text-gray-400 truncate">
+									{node.slug
+										? <a href={`/san-agustin/${node.slug}`} class="hover:underline">{node.title}</a>
+										: <span>{node.title}</span>
+									}
+								</li>
+							))}
+							{cat.nodes.length > 5 && (
+								<li class="text-xs text-gray-400 dark:text-gray-500 italic">
+									y {cat.nodes.length - 5} más...
+								</li>
+							)}
+						</ul>
+					</div>
+				))}
+			</div>
+
+			<div class="mt-10 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl p-6 text-center">
+				<p class="text-amber-800 dark:text-amber-300 italic text-lg font-medium">
+					«Nos hiciste para ti, Señor, y nuestro corazón está inquieto hasta que descanse en ti.»
+				</p>
+				<p class="text-amber-600 dark:text-amber-400 text-sm mt-2">
+					— Confesiones, Libro I
+				</p>
+			</div>
+		</div>
+	)}
+</SanAgustinLayout>

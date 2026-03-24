@@ -1,0 +1,18 @@
+---
+title: "Salmo 14"
+description: ""
+bac: "19"
+---
+EXPOSICIÓN DEL SALMO 14
+
+1. [v.1] Salmo de David mismo. Acerca de este título no hay ninguna cuestión. Señor, ¿quién habitará en tu tienda? Aunque, a veces, «tienda» se pone por la morada eterna1, sin embargo, cuando «tienda» se toma en sentido propio, es cosa de la guerra. Por eso, a los soldados se los llama conturbernales como a quienes tienen juntas las tiendas. Este sentido se ve secundado según lo que está dicho: ¿Quién habitará? En efecto, en el momento oportuno luchamos con el diablo y, entonces, para reponer fuerzas se necesita una tienda, la cual significa ante todo la fe en la gestión temporal que en favor nuestro se realizó en el tiempo mediante la encarnación del Señor. ¿Y quién descansará en tu monte santo? Este significa quizás la morada eterna, de modo que por «monte» entendamos la sobreeminencia de la caridad de Cristo2 en la vida eterna.
+
+2. [v.2] El que entra sin mancha y practica la justicia: esto ha propuesto, después se lleva a cabo.
+
+3. [v.3] El que en su corazón dice la verdad. En efecto, algunos tienen en los labios la verdad, mas no la tienen en el corazón. Igual que si uno muestra a otro un camino, sabedor de que en él hay bandidos, y le dice «Si vas por aquí, estarás libre de bandidos»: si se da la casualidad de que, verdaderamente, allí no hay bandidos, aquel dijo la verdad, pero no en su corazón, pues pensaba otra cosa y dijo la verdad sin saberla. Es, pues, poco decir la verdad, si en el corazón no está también así.
+
+El que no ha practicado el engaño con su lengua. Con la lengua se practica el engaño, cuando una cosa se profiere con la boca, y otra se oculta en el interior. Y no ha hecho mal a su prójimo. Es sabido que es preciso entender por prójimo a todo hombre. Y no ha aceptado injuria contra su prójimo, esto es, ni gustosa ni temerariamente ha dado crédito al que lo acusaba.
+
+4. [v.4] En su presencia, el maligno quedó reducido a nada. La perfección es esta: que el maligno no pueda nada contra el hombre, y que esto ocurra en su presencia, esto es, que sepa certísimamente que el maligno no está, sino cuando el ánimo se desvía de la belleza eterna e inmutable de su Creador hacia la belleza de la criatura, que ha sido hecha de la nada. En cambio, glorifica a quienes temen al Señor, por supuesto, el Señor mismo. Por otra parte, el inicio de la sabiduría es el temor del Señor3. Como, pues, lo de antes tiene que ver con los perfectos, así lo que ahora va a decir tiene que ver con los incipientes.
+
+5. [v.4—5] El que jura a su prójimo y no engaña; el que no ha suministrado su dinero con usura y no ha aceptado regalos contra los inocentes. Estas cosas no son extraordinarias. Pero quien ni siquiera esto puede, mucho menos puede decir la verdad en su corazón y no practicar el engaño con su lengua, sino proferir la verdad como está en su corazón y tener en la boca: Es, es; no, no4. Tampoco será capaz de no hacer el mal a su prójimo, esto es, a ningún hombre, ni de no aceptar injuria contra su prójimo. Estas cosas son de los perfectos, en cuya presencia el malvado ha quedado reducido a nada. No obstante, aunque son cosas menores, concluye así: El que hace estas cosas, nunca será perturbado, esto es, llegará a aquellas mayores, en las que está la magna e inamovible estabilidad. Por cierto, los tiempos se han variado quizá no sin razón, de modo que en la conclusión primera se ha usado el tiempo pretérito y, en cambio, en esta el futuro, porque allí está dicho: En su presencia, el malvado quedó reducido a nada5 y, en cambio, aquí: Nunca será perturbado.

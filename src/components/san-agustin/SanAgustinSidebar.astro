@@ -1,0 +1,127 @@
+---
+export type TreeNode = {
+	slug: string;
+	title: string;
+	children: TreeNode[];
+};
+
+export type CategoryTree = {
+	key: string;
+	label: string;
+	color: string;
+	accent: string;
+	nodes: TreeNode[];
+};
+
+interface Props {
+	tree: CategoryTree[];
+	currentSlug: string;
+}
+
+const { tree, currentSlug } = Astro.props;
+---
+
+<aside id="agustinsidebar" class="agustin-sidebar h-screen overflow-y-auto bg-stone-100 dark:bg-gray-800 border-r border-stone-200 dark:border-gray-700 flex flex-col">
+	<!-- Cabecera -->
+	<div class="px-4 py-5 border-b border-stone-200 dark:border-gray-700">
+		<a href="/" class="flex items-center gap-2 text-amber-700 dark:text-amber-400 hover:text-amber-800 transition text-sm mb-3">
+			<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+			</svg>
+			Inicio
+		</a>
+		<a href="/san-agustin" class="block">
+			<h1 class="text-base font-bold text-gray-800 dark:text-gray-100 leading-tight">San Agustín</h1>
+			<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Obras completas · BAC</p>
+		</a>
+	</div>
+
+	<!-- Árbol de navegación -->
+	<nav class="flex-1 py-3 px-2 overflow-y-auto">
+		{tree.map(cat => (
+			<details class="mb-1 group/cat" open={currentSlug.startsWith(cat.key)}>
+				<summary class={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-bold uppercase tracking-wider cursor-pointer select-none ${cat.accent} hover:bg-stone-200 dark:hover:bg-gray-700 list-none`}>
+					<svg class="h-3 w-3 transition-transform group-open/cat:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+					</svg>
+					{cat.label}
+				</summary>
+				<div class="mt-1 ml-2">
+					{cat.nodes.map(node => (
+						<div>
+							{node.children.length > 0 ? (
+								<details open={currentSlug.includes(node.title.toLowerCase().replace(/\s+/g, '-'))}>
+									<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-semibold uppercase tracking-wide cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-700 list-none">
+										<svg class="h-2.5 w-2.5 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+										</svg>
+										{node.title}
+									</summary>
+									<div class="ml-2">
+										{node.children.map(child => (
+											<div>
+												{child.children.length > 0 ? (
+													<details open={currentSlug.startsWith(child.slug || '')}>
+														<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-medium cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-700 list-none">
+															<svg class="h-2.5 w-2.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+															</svg>
+															{child.title}
+														</summary>
+														<div class="ml-2">
+															{child.children.map(leaf => (
+																<a
+																	href={`/san-agustin/${leaf.slug}`}
+																	class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm transition ${
+																		leaf.slug === currentSlug
+																			? "bg-amber-200 dark:bg-amber-800/40 text-amber-900 dark:text-amber-100 font-semibold"
+																			: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-700"
+																	}`}
+																>
+																	{leaf.title}
+																</a>
+															))}
+														</div>
+													</details>
+												) : child.slug ? (
+													<a
+														href={`/san-agustin/${child.slug}`}
+														class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm transition ${
+															child.slug === currentSlug
+																? "bg-amber-200 dark:bg-amber-800/40 text-amber-900 dark:text-amber-100 font-semibold"
+																: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-700"
+														}`}
+													>
+														{child.title}
+													</a>
+												) : null}
+											</div>
+										))}
+									</div>
+								</details>
+							) : node.slug ? (
+								<a
+									href={`/san-agustin/${node.slug}`}
+									class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm transition ${
+										node.slug === currentSlug
+											? "bg-amber-200 dark:bg-amber-800/40 text-amber-900 dark:text-amber-100 font-semibold"
+											: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-700"
+									}`}
+								>
+									{node.title}
+								</a>
+							) : null}
+						</div>
+					))}
+				</div>
+			</details>
+		))}
+	</nav>
+
+	<!-- Pie -->
+	<div class="px-4 py-3 border-t border-stone-200 dark:border-gray-700">
+		<p class="text-xs text-gray-400 dark:text-gray-500 text-center">
+			San Agustín de Hipona<br/>354 – 430
+		</p>
+	</div>
+</aside>
