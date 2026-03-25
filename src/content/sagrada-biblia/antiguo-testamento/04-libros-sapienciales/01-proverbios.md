@@ -1823,7 +1823,7 @@ la humildad precede a la fama.
 
 <span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> El hombre tiene proyectos,
 
-## Yahvé, la última palabra<span class="note-ref" data-ref="pr-16-1" title="Ver comentario">&#42;</span>.
+Yahvé, la última palabra<span class="note-ref" data-ref="pr-16-1" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> El hombre piensa que su conducta es limpia,
 
