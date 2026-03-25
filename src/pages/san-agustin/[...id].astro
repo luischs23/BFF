@@ -1,5 +1,4 @@
 ---
-import { marked } from 'marked';
 import SanAgustinLayout from "../../components/san-agustin/SanAgustinLayout.astro";
 import type { CategoryTree, TreeNode } from "../../components/san-agustin/SanAgustinSidebar.astro";
 
@@ -13,7 +12,7 @@ import type { CategoryTree, TreeNode } from "../../components/san-agustin/SanAgu
  * - rawModules (eager:true, ?raw): Vite empaqueta solo el TEXTO CRUDO de 611 archivos.
  *   ~31MB raw → ~3MB gzipped. Sin remark/rehype, sin AST, sin componentes.
  *   Con eager:true los valores ya son strings (no funciones) → buildTree() es síncrono.
- * - marked: renderiza el markdown del archivo actual en el servidor. ~47KB.
+ * - mdToHtml: conversor inline sin dependencias. Renderiza el archivo actual.
  * - Sin contentModules: cero módulos JS compilados de markdown en el bundle.
  */
 
@@ -59,6 +58,31 @@ function parseFrontmatter(raw: string): { title: string; bac?: string } {
 // Elimina el bloque frontmatter y devuelve solo el cuerpo markdown
 function getBody(raw: string): string {
 	return raw.replace(/^---[\r\n][\s\S]*?[\r\n]---[\r\n]?/, '');
+}
+
+// Conversor markdown → HTML sin dependencias externas.
+// Soporta lo que usan los textos de San Agustín:
+// párrafos, encabezados (#/##/###), **negrita**, *cursiva*, > citas, --- separador.
+function mdToHtml(md: string): string {
+	const inline = (t: string) =>
+		t.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+		 .replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+	return md
+		.trim()
+		.split(/\n{2,}/)
+		.filter(b => b.trim())
+		.map(block => {
+			const b = block.trim();
+			if (b.startsWith('#### ')) return `<h4>${inline(b.slice(5))}</h4>`;
+			if (b.startsWith('### '))  return `<h3>${inline(b.slice(4))}</h3>`;
+			if (b.startsWith('## '))   return `<h2>${inline(b.slice(3))}</h2>`;
+			if (b.startsWith('# '))    return `<h1>${inline(b.slice(2))}</h1>`;
+			if (/^---+$/.test(b))      return '<hr />';
+			if (b.startsWith('> '))    return `<blockquote><p>${inline(b.slice(2).replace(/\n> /g, '\n'))}</p></blockquote>`;
+			return `<p>${inline(b.replace(/\n/g, ' '))}</p>`;
+		})
+		.join('\n');
 }
 
 // ── Árbol de navegación (caché de módulo, síncrono con eager:true) ───────────
@@ -135,8 +159,7 @@ if (currentSlug) {
 	pageTitle = fm.title || 'San Agustín';
 	pageBac = fm.bac;
 
-	// marked: parsea solo 1 archivo. Sin bundle bloat.
-	htmlContent = await marked.parse(getBody(raw));
+	htmlContent = mdToHtml(getBody(raw));
 }
 
 // CDN cache: Vercel sirve el HTML generado sin tocar la lambda
