@@ -1,91 +1,79 @@
 ---
+import { marked } from 'marked';
 import SanAgustinLayout from "../../components/san-agustin/SanAgustinLayout.astro";
 import type { CategoryTree, TreeNode } from "../../components/san-agustin/SanAgustinSidebar.astro";
 
 /*
- * ESTRATEGIA DE CARGA:
+ * BUNDLE SIZE FIX:
  *
- * El problema con Content Collections es que Astro parsea los 611 archivos
- * markdown completos al arrancar el servidor (remark + rehype + AST) → 4GB RAM.
+ * El glob contentModules (eager:false) hacía que Vite empaquetara los 611 archivos
+ * markdown compilados como módulos JS → 250MB+ → error en Vercel.
  *
- * Solución:
- * 1. "?raw" glob → obtiene cada .md como texto crudo (sin parseo markdown).
- *    Solo se usa para extraer el frontmatter (título) con una regex simple.
- *    Costo: leer texto plano × 611 archivos ≈ 30MB (vs 4GB parseado).
- *    Se cachea en módulo → se ejecuta 1 sola vez por sesión de servidor.
- *
- * 2. Import normal (eager:false) → solo para el 1 archivo que se está viendo.
- *    Procesa el markdown completo solo bajo demanda.
+ * Solución final:
+ * - rawModules (eager:true, ?raw): Vite empaqueta solo el TEXTO CRUDO de 611 archivos.
+ *   ~31MB raw → ~3MB gzipped. Sin remark/rehype, sin AST, sin componentes.
+ *   Con eager:true los valores ya son strings (no funciones) → buildTree() es síncrono.
+ * - marked: renderiza el markdown del archivo actual en el servidor. ~47KB.
+ * - Sin contentModules: cero módulos JS compilados de markdown en el bundle.
  */
 
-/*
- * eager: true  → Vite empaqueta los 611 textos crudos en el bundle durante el build.
- *               En la lambda de Vercel no hay I/O: los datos ya están en memoria.
- * eager: false → Solo se procesa el 1 archivo que el usuario pidió. El resto queda
- *               como lazy import dentro del bundle pero no se ejecuta.
- */
-
-// Texto crudo de cada archivo — solo para extraer el título del frontmatter
+// Record<string, string> — con eager:true los valores son strings directos, no funciones
 const rawModules = import.meta.glob<string>(
 	'/src/content/san-agustin/**/*.md',
 	{ query: '?raw', import: 'default', eager: true }
 );
 
-// Módulo completo con renderizado markdown — carga solo 1 archivo por solicitud
-const contentModules = import.meta.glob(
-	'/src/content/san-agustin/**/*.md',
-	{ eager: false }
-);
-
-// ── Categorías ──────────────────────────────────────────────────────────────
+// ── Categorías ───────────────────────────────────────────────────────────────
 
 const CATEGORIAS: Record<string, { label: string; color: string; accent: string }> = {
-	"01-autobiograficas":      { label: "Autobiográficas",        color: "bg-amber-100 dark:bg-amber-900/30",   accent: "text-amber-700 dark:text-amber-300" },
-	"02-filosoficas":          { label: "Filosóficas",            color: "bg-yellow-100 dark:bg-yellow-900/30", accent: "text-yellow-700 dark:text-yellow-300" },
-	"03-apologeticas":         { label: "Apologéticas",           color: "bg-orange-100 dark:bg-orange-900/30", accent: "text-orange-700 dark:text-orange-300" },
-	"04-dogmaticas":           { label: "Dogmáticas",             color: "bg-red-100 dark:bg-red-900/30",       accent: "text-red-700 dark:text-red-300" },
-	"05-morales-y-pastorales": { label: "Morales y Pastorales",   color: "bg-green-100 dark:bg-green-900/30",   accent: "text-green-700 dark:text-green-300" },
-	"06-monasticas":           { label: "Monásticas",             color: "bg-teal-100 dark:bg-teal-900/30",     accent: "text-teal-700 dark:text-teal-300" },
-	"07-exegeticas":           { label: "Exegéticas",             color: "bg-sky-100 dark:bg-sky-900/30",       accent: "text-sky-700 dark:text-sky-300" },
-	"08-polemicas":            { label: "Polémicas",              color: "bg-rose-100 dark:bg-rose-900/30",     accent: "text-rose-700 dark:text-rose-300" },
-	"09-cartas":               { label: "Cartas",                 color: "bg-violet-100 dark:bg-violet-900/30", accent: "text-violet-700 dark:text-violet-300" },
-	"10-homileticas":          { label: "Homiléticas",            color: "bg-indigo-100 dark:bg-indigo-900/30", accent: "text-indigo-700 dark:text-indigo-300" },
-	"11-atribuidas":           { label: "Atribuidas",             color: "bg-gray-100 dark:bg-gray-800",        accent: "text-gray-600 dark:text-gray-400" },
+	"01-autobiograficas":      { label: "Autobiográficas",       color: "bg-amber-100 dark:bg-amber-900/30",   accent: "text-amber-700 dark:text-amber-300" },
+	"02-filosoficas":          { label: "Filosóficas",           color: "bg-yellow-100 dark:bg-yellow-900/30", accent: "text-yellow-700 dark:text-yellow-300" },
+	"03-apologeticas":         { label: "Apologéticas",          color: "bg-orange-100 dark:bg-orange-900/30", accent: "text-orange-700 dark:text-orange-300" },
+	"04-dogmaticas":           { label: "Dogmáticas",            color: "bg-red-100 dark:bg-red-900/30",       accent: "text-red-700 dark:text-red-300" },
+	"05-morales-y-pastorales": { label: "Morales y Pastorales",  color: "bg-green-100 dark:bg-green-900/30",   accent: "text-green-700 dark:text-green-300" },
+	"06-monasticas":           { label: "Monásticas",            color: "bg-teal-100 dark:bg-teal-900/30",     accent: "text-teal-700 dark:text-teal-300" },
+	"07-exegeticas":           { label: "Exegéticas",            color: "bg-sky-100 dark:bg-sky-900/30",       accent: "text-sky-700 dark:text-sky-300" },
+	"08-polemicas":            { label: "Polémicas",             color: "bg-rose-100 dark:bg-rose-900/30",     accent: "text-rose-700 dark:text-rose-300" },
+	"09-cartas":               { label: "Cartas",                color: "bg-violet-100 dark:bg-violet-900/30", accent: "text-violet-700 dark:text-violet-300" },
+	"10-homileticas":          { label: "Homiléticas",           color: "bg-indigo-100 dark:bg-indigo-900/30", accent: "text-indigo-700 dark:text-indigo-300" },
+	"11-atribuidas":           { label: "Atribuidas",            color: "bg-gray-100 dark:bg-gray-800",        accent: "text-gray-600 dark:text-gray-400" },
 };
 
 function formatFolderName(s: string): string {
 	return s.replace(/^\d+-/, '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
 
-// Extrae el título del frontmatter a partir del texto crudo del archivo
-function parseTitleFromRaw(raw: string): string {
+// Extrae título y bac del bloque frontmatter
+function parseFrontmatter(raw: string): { title: string; bac?: string } {
 	const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-	if (!match) return '';
-	for (const line of match[1].split(/\r?\n/)) {
-		if (line.startsWith('title:')) {
-			return line.slice(6).trim().replace(/^["']|["']$/g, '');
+	const fields: Record<string, string> = {};
+	if (match) {
+		for (const line of match[1].split(/\r?\n/)) {
+			const i = line.indexOf(':');
+			if (i > 0) fields[line.slice(0, i).trim()] = line.slice(i + 1).trim().replace(/^["']|["']$/g, '');
 		}
 	}
-	return '';
+	return { title: fields.title ?? '', bac: fields.bac };
 }
 
-// ── Árbol de navegación (caché de módulo) ───────────────────────────────────
+// Elimina el bloque frontmatter y devuelve solo el cuerpo markdown
+function getBody(raw: string): string {
+	return raw.replace(/^---[\r\n][\s\S]*?[\r\n]---[\r\n]?/, '');
+}
+
+// ── Árbol de navegación (caché de módulo, síncrono con eager:true) ───────────
 
 let _tree: CategoryTree[] | null = null;
 
-async function buildTree(): Promise<CategoryTree[]> {
+function buildTree(): CategoryTree[] {
 	if (_tree) return _tree;
 
-	// Leer todos los archivos como texto crudo en paralelo
-	// Costo: texto plano × 611 archivos, sin parsear markdown
-	const allFiles = await Promise.all(
-		Object.entries(rawModules).map(async ([path, importFn]) => {
-			const raw = await importFn();
-			const slug = path.replace('/src/content/san-agustin/', '').replace('.md', '');
-			const title = parseTitleFromRaw(raw) || formatFolderName(slug.split('/').pop() ?? slug);
-			return { slug, title };
-		})
-	);
+	// rawModules ya está en memoria (empaquetado en el bundle) — sin I/O
+	const allFiles = Object.entries(rawModules).map(([path, raw]) => {
+		const slug = path.replace('/src/content/san-agustin/', '').replace('.md', '');
+		const { title } = parseFrontmatter(raw);
+		return { slug, title: title || formatFolderName(slug.split('/').pop() ?? slug) };
+	});
 
 	allFiles.sort((a, b) => a.slug.localeCompare(b.slug));
 
@@ -127,32 +115,31 @@ async function buildTree(): Promise<CategoryTree[]> {
 	return cats;
 }
 
-// ── Render de la página actual ───────────────────────────────────────────────
+// ── Render de la página actual ────────────────────────────────────────────────
 
 const { id } = Astro.params;
 const currentSlug = Array.isArray(id) ? id.join('/') : (id ?? '');
 
-const tree = await buildTree();
+const tree = buildTree(); // Síncrono — datos ya en memoria
 
-let Content: any = null;
+let htmlContent = '';
 let pageTitle = 'San Agustín';
 let pageBac: string | undefined;
 
 if (currentSlug) {
 	const key = `/src/content/san-agustin/${currentSlug}.md`;
-	const importFn = contentModules[key];
-	if (!importFn) return Astro.redirect('/san-agustin');
+	const raw = rawModules[key];
+	if (!raw) return Astro.redirect('/san-agustin');
 
-	// Solo este 1 archivo se procesa como markdown completo
-	const mod = await importFn() as any;
-	Content = mod.default;
-	pageTitle = mod.frontmatter?.title ?? 'San Agustín';
-	pageBac = mod.frontmatter?.bac;
+	const fm = parseFrontmatter(raw);
+	pageTitle = fm.title || 'San Agustín';
+	pageBac = fm.bac;
+
+	// marked: parsea solo 1 archivo. Sin bundle bloat.
+	htmlContent = await marked.parse(getBody(raw));
 }
 
-// Cachear en el CDN de Vercel: páginas ya renderizadas se sirven sin tocar la lambda.
-// s-maxage=3600       → CDN guarda 1 hora
-// stale-while-revalidate=86400 → renueva en segundo plano al día siguiente
+// CDN cache: Vercel sirve el HTML generado sin tocar la lambda
 Astro.response.headers.set(
 	'Cache-Control',
 	'public, s-maxage=3600, stale-while-revalidate=86400'
@@ -160,7 +147,7 @@ Astro.response.headers.set(
 ---
 
 <SanAgustinLayout title={pageTitle} currentSlug={currentSlug} tree={tree}>
-	{Content ? (
+	{htmlContent ? (
 		<article class="agustin-content bg-white dark:bg-gray-900 rounded-xl shadow-sm md:shadow-md p-6 md:p-10">
 			<div class="mb-6 pb-4 border-b border-stone-200 dark:border-gray-700">
 				<p class="text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400 mb-1">
@@ -168,7 +155,7 @@ Astro.response.headers.set(
 				</p>
 				<h1 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100">{pageTitle}</h1>
 			</div>
-			<Content />
+			<div set:html={htmlContent} />
 		</article>
 	) : (
 		<div>
@@ -178,9 +165,7 @@ Astro.response.headers.set(
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
 					</svg>
 				</div>
-				<h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-3">
-					San Agustín de Hipona
-				</h1>
+				<h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-3">San Agustín de Hipona</h1>
 				<p class="text-amber-700 dark:text-amber-400 font-semibold text-lg mb-2">354 — 430 d.C.</p>
 				<p class="text-gray-600 dark:text-gray-300 max-w-xl mx-auto text-sm leading-relaxed">
 					Doctor de la Iglesia y uno de los padres más influyentes del pensamiento cristiano occidental.
