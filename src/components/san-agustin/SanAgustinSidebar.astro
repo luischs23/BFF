@@ -72,6 +72,7 @@ const { tree, currentSlug } = Astro.props;
 															{child.children.map(leaf => (
 																<a
 																	href={`/san-agustin/${leaf.slug}`}
+																	data-astro-prefetch="hover"
 																	class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm transition ${
 																		leaf.slug === currentSlug
 																			? "bg-amber-200 dark:bg-amber-800/40 text-amber-900 dark:text-amber-100 font-semibold"
@@ -86,6 +87,7 @@ const { tree, currentSlug } = Astro.props;
 												) : child.slug ? (
 													<a
 														href={`/san-agustin/${child.slug}`}
+														data-astro-prefetch="hover"
 														class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm transition ${
 															child.slug === currentSlug
 																? "bg-amber-200 dark:bg-amber-800/40 text-amber-900 dark:text-amber-100 font-semibold"
@@ -102,6 +104,7 @@ const { tree, currentSlug } = Astro.props;
 							) : node.slug ? (
 								<a
 									href={`/san-agustin/${node.slug}`}
+									data-astro-prefetch="hover"
 									class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm transition ${
 										node.slug === currentSlug
 											? "bg-amber-200 dark:bg-amber-800/40 text-amber-900 dark:text-amber-100 font-semibold"
