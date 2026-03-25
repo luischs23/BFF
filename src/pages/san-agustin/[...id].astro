@@ -58,6 +58,16 @@ function buildTree(obras: Awaited<ReturnType<typeof getCollection<"san-agustin">
 	return cats;
 }
 
+function sortNodes(nodes: TreeNode[]): TreeNode[] {
+	return [...nodes].sort((a, b) => {
+		const aFolder = a.children.length > 0;
+		const bFolder = b.children.length > 0;
+		if (aFolder && !bFolder) return -1;
+		if (!aFolder && bFolder) return 1;
+		return 0;
+	});
+}
+
 const { id } = Astro.params;
 const currentSlug = Array.isArray(id) ? id.join('/') : (id ?? '');
 
@@ -106,22 +116,52 @@ const pageBac = obra?.data.bac;
 				</p>
 			</div>
 
-			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
 				{tree.map(cat => (
-					<div class={`${cat.color} border border-stone-200 dark:border-gray-700 rounded-xl p-5`}>
+					<div class={`${cat.color} border border-stone-200 dark:border-gray-700 rounded-xl p-5 min-w-0`}>
 						<h2 class={`font-bold text-sm uppercase tracking-wide ${cat.accent} mb-3`}>{cat.label}</h2>
-						<ul class="space-y-1">
-							{cat.nodes.slice(0, 5).map(node => (
-								<li class="text-xs text-gray-600 dark:text-gray-400 truncate">
-									{node.slug
-										? <a href={`/san-agustin/${node.slug}`} class="hover:underline">{node.title}</a>
-										: <span>{node.title}</span>
-									}
-								</li>
+						<ul class="space-y-0.5 min-w-0">
+							{sortNodes(cat.nodes).map(node => (
+								node.children.length > 0 ? (
+									<li class="min-w-0 mt-2 first:mt-0">
+										<div class="flex items-center gap-1 text-xs font-semibold text-gray-500 dark:text-gray-400 mb-0.5 min-w-0">
+											<svg class="h-3 w-3 flex-shrink-0 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" />
+											</svg>
+											<span class="truncate">{node.title}</span>
+										</div>
+										<ul class="ml-4 space-y-0.5 min-w-0">
+											{sortNodes(node.children).map(child => (
+												child.children.length > 0 ? (
+													<li class="min-w-0 mt-1 first:mt-0">
+														<div class="flex items-center gap-1 text-xs font-medium text-gray-400 dark:text-gray-500 mb-0.5 min-w-0">
+															<svg class="h-2.5 w-2.5 flex-shrink-0 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" />
+															</svg>
+															<span class="truncate">{child.title}</span>
+														</div>
+														<ul class="ml-3 space-y-0.5 min-w-0">
+															{child.children.map(leaf => (
+																<li class="min-w-0">
+																	<a href={`/san-agustin/${leaf.slug}`} class="block text-xs text-gray-600 dark:text-gray-400 hover:underline truncate">{leaf.title}</a>
+																</li>
+															))}
+														</ul>
+													</li>
+												) : child.slug ? (
+													<li class="min-w-0">
+														<a href={`/san-agustin/${child.slug}`} class="block text-xs text-gray-600 dark:text-gray-400 hover:underline truncate">{child.title}</a>
+													</li>
+												) : null
+											))}
+										</ul>
+									</li>
+								) : node.slug ? (
+									<li class="min-w-0">
+										<a href={`/san-agustin/${node.slug}`} class="block text-xs text-gray-600 dark:text-gray-400 hover:underline truncate">{node.title}</a>
+									</li>
+								) : null
 							))}
-							{cat.nodes.length > 5 && (
-								<li class="text-xs text-gray-400 dark:text-gray-500 italic">y {cat.nodes.length - 5} más...</li>
-							)}
 						</ul>
 					</div>
 				))}

@@ -19,6 +19,21 @@ interface Props {
 }
 
 const { tree, currentSlug } = Astro.props;
+
+function containsSlug(node: TreeNode, slug: string): boolean {
+	if (node.slug === slug) return true;
+	return node.children.some(child => containsSlug(child, slug));
+}
+
+function sortNodes(nodes: TreeNode[]): TreeNode[] {
+	return [...nodes].sort((a, b) => {
+		const aFolder = a.children.length > 0;
+		const bFolder = b.children.length > 0;
+		if (aFolder && !bFolder) return -1;
+		if (!aFolder && bFolder) return 1;
+		return 0;
+	});
+}
 ---
 
 <aside id="sidebar" class="fixed md:relative w-[280px] h-full bg-stone-100 dark:bg-gray-800 border-r border-stone-200 dark:border-gray-700 overflow-y-auto flex-shrink-0 flex flex-col z-50 transform -translate-x-full md:translate-x-0 transition-all duration-300 ease-in-out">
@@ -39,7 +54,7 @@ const { tree, currentSlug } = Astro.props;
 	<!-- Árbol de navegación -->
 	<nav class="flex-1 py-3 px-2 overflow-y-auto">
 		{tree.map(cat => (
-			<details class="mb-1 group/cat" open={currentSlug.startsWith(cat.key)}>
+			<details class="mb-1 group/cat" open={cat.nodes.some(n => containsSlug(n, currentSlug))}>
 				<summary class={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-bold uppercase tracking-wider cursor-pointer select-none ${cat.accent} hover:bg-stone-200 dark:hover:bg-gray-700 list-none`}>
 					<svg class="h-3 w-3 transition-transform group-open/cat:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -47,10 +62,10 @@ const { tree, currentSlug } = Astro.props;
 					{cat.label}
 				</summary>
 				<div class="mt-1 ml-2">
-					{cat.nodes.map(node => (
+					{sortNodes(cat.nodes).map(node => (
 						<div>
 							{node.children.length > 0 ? (
-								<details open={currentSlug.includes(node.title.toLowerCase().replace(/\s+/g, '-'))}>
+								<details open={node.children.some(child => containsSlug(child, currentSlug))}>
 									<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-semibold uppercase tracking-wide cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-700 list-none">
 										<svg class="h-2.5 w-2.5 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -58,10 +73,10 @@ const { tree, currentSlug } = Astro.props;
 										{node.title}
 									</summary>
 									<div class="ml-2">
-										{node.children.map(child => (
+										{sortNodes(node.children).map(child => (
 											<div>
 												{child.children.length > 0 ? (
-													<details open={currentSlug.startsWith(child.slug || '')}>
+													<details open={child.children.some(leaf => containsSlug(leaf, currentSlug))}>
 														<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-medium cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-700 list-none">
 															<svg class="h-2.5 w-2.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
