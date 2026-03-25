@@ -10,52 +10,62 @@ interface Props {
 }
 
 const { title, currentSlug, tree } = Astro.props;
+const isWelcomePage = !currentSlug;
 ---
 
 <Layout title={`${title} — San Agustín`}>
-	<style>
-		.agustin-sidebar {
-			width: 280px;
-			flex-shrink: 0;
-		}
-		@media (max-width: 767px) {
-			.agustin-sidebar {
-				position: fixed;
-				top: 0;
-				left: -280px;
-				height: 100%;
-				z-index: 55;
-				transition: left 0.3s ease;
-			}
-			.agustin-sidebar.open {
-				left: 0;
-			}
-		}
-	</style>
-
-	<div class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300">
+	<div
+		id="agustinContainer"
+		class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300"
+		data-welcome={isWelcomePage ? 'true' : undefined}
+	>
 		<!-- Overlay móvil -->
 		<div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
 
-		<!-- Botón menú móvil -->
-		<button
-			id="menuToggle"
-			class="md:hidden fixed top-4 right-4 z-[60] bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition backdrop-blur-sm"
-			aria-label="Abrir menú"
-		>
-			<svg id="menuIcon" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-			</svg>
-			<svg id="closeIcon" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-			</svg>
-		</button>
+		{isWelcomePage ? (
+			<!-- Botón menú móvil flotante (página de inicio) -->
+			<button
+				id="menuToggle"
+				class="md:hidden fixed top-4 right-4 z-[60] bg-amber-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-amber-800 transition backdrop-blur-sm"
+				aria-label="Abrir menú"
+			>
+				<svg id="menuIcon" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+				</svg>
+				<svg id="closeIcon" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+			</button>
+		) : (
+			<!-- Header móvil con título (páginas de lectura) -->
+			<header
+				id="mobileHeader"
+				class="md:hidden fixed top-0 left-0 right-0 z-[60] bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between"
+			>
+				<button
+					id="menuToggle"
+					class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+					aria-label="Abrir menú"
+				>
+					<svg id="menuIcon" class="h-5 w-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+					<svg id="closeIcon" class="h-5 w-5 hidden text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</button>
+				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">{title}</h1>
+				<div class="w-8"></div>
+			</header>
+		)}
 
 		<!-- Sidebar -->
 		<SanAgustinSidebar tree={tree} currentSlug={currentSlug} />
 
 		<!-- Contenido principal -->
-		<main class="flex-1 overflow-y-auto bg-amber-50 dark:bg-gray-950 transition-colors duration-300">
+		<main
+			class="flex-1 overflow-y-auto bg-amber-50 dark:bg-gray-950 transition-colors duration-300"
+		>
 			<div class="max-w-3xl mx-auto px-4 py-8 md:py-10">
 				<slot />
 			</div>
@@ -64,6 +74,15 @@ const { title, currentSlug, tree } = Astro.props;
 </Layout>
 
 <style is:global>
+	#agustinContainer:not([data-welcome]) > main {
+		padding-top: 3.5rem;
+	}
+	@media (min-width: 768px) {
+		#agustinContainer:not([data-welcome]) > main {
+			padding-top: 0;
+		}
+	}
+
 	.agustin-content p {
 		margin: 0.9rem 0;
 		line-height: 1.85;
@@ -102,32 +121,18 @@ const { title, currentSlug, tree } = Astro.props;
 </style>
 
 <script>
-	function initSidebar() {
-		const menuToggle = document.getElementById('menuToggle');
-		const sidebar = document.getElementById('agustinsidebar');
-		const overlay = document.getElementById('sidebarOverlay');
-		const menuIcon = document.getElementById('menuIcon');
-		const closeIcon = document.getElementById('closeIcon');
+	import { initMobileMenu } from "../../scripts/biblia/mobileMenu";
+	import { initDarkMode } from "../../scripts/biblia/darkMode";
 
-		function openSidebar() {
-			sidebar?.classList.add('open');
-			overlay?.classList.remove('hidden');
-			menuIcon?.classList.add('hidden');
-			closeIcon?.classList.remove('hidden');
-		}
-		function closeSidebar() {
-			sidebar?.classList.remove('open');
-			overlay?.classList.add('hidden');
-			menuIcon?.classList.remove('hidden');
-			closeIcon?.classList.add('hidden');
-		}
-
-		menuToggle?.addEventListener('click', () => {
-			sidebar?.classList.contains('open') ? closeSidebar() : openSidebar();
-		});
-		overlay?.addEventListener('click', closeSidebar);
+	function initAgustin() {
+		initMobileMenu();
+		initDarkMode();
 	}
 
-	document.addEventListener('astro:page-load', initSidebar);
-	initSidebar();
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initAgustin);
+	} else {
+		initAgustin();
+	}
+	document.addEventListener('astro:page-load', initAgustin);
 </script>
