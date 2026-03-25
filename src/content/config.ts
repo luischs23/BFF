@@ -48,10 +48,22 @@ const sanAgustin = defineCollection({
 	}),
 });
 
+const sumaTeologica = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		cuestion: z.number(),
+		articulos: z.number(),
+		parte: z.string(),
+		seccion: z.string(),
+	}),
+});
+
 export const collections = {
 	'sagrada-biblia': sagradaBiblia,
 	'Sta-Faustina': staFaustina,
 	'catecismo': catecismo,
 	'san-agustin': sanAgustin,
+	'suma-teologica': sumaTeologica,
 	blog
 };

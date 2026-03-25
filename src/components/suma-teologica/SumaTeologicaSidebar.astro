@@ -1,0 +1,133 @@
+---
+export type TreeNode = {
+	slug: string;
+	title: string;
+	children: TreeNode[];
+};
+
+export type PartTree = {
+	key: string;
+	label: string;
+	nodes: TreeNode[];
+};
+
+interface Props {
+	tree: PartTree[];
+	currentSlug: string;
+}
+
+const { tree, currentSlug } = Astro.props;
+
+function containsSlug(node: TreeNode, slug: string): boolean {
+	if (node.slug === slug) return true;
+	return node.children.some(child => containsSlug(child, slug));
+}
+---
+
+<aside id="sidebar" class="fixed md:relative w-[288px] h-full bg-stone-50 dark:bg-gray-900 border-r border-stone-200 dark:border-gray-700 overflow-y-auto flex-shrink-0 flex flex-col z-50 transform -translate-x-full md:translate-x-0 transition-all duration-300 ease-in-out">
+	<!-- Cabecera -->
+	<div class="px-4 py-5 border-b border-stone-200 dark:border-gray-700">
+		<a href="/" class="flex items-center gap-2 text-red-700 dark:text-red-400 hover:text-red-800 transition text-sm mb-3">
+			<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+			</svg>
+			Inicio
+		</a>
+		<a href="/suma-teologica" class="block">
+			<h1 class="text-base font-bold text-gray-800 dark:text-gray-100 leading-tight">Suma Teológica</h1>
+			<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Santo Tomás de Aquino</p>
+		</a>
+	</div>
+
+	<!-- Árbol de navegación -->
+	<nav class="flex-1 py-3 px-2 overflow-y-auto">
+		{tree.map(parte => (
+			<details class="mb-1 group/parte" open={parte.nodes.some(n => containsSlug(n, currentSlug))}>
+				<summary class="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-bold uppercase tracking-wider cursor-pointer select-none text-red-700 dark:text-red-400 hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
+					<svg class="h-3 w-3 transition-transform group-open/parte:rotate-90 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+					</svg>
+					{parte.label}
+				</summary>
+				<div class="mt-1 ml-2">
+					{parte.nodes.map(node => (
+						<div>
+							{node.children.length > 0 ? (
+								<details open={node.children.some(child => containsSlug(child, currentSlug))}>
+									<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-semibold uppercase tracking-wide cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
+										<svg class="h-2.5 w-2.5 transition-transform group-open:rotate-90 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+										</svg>
+										{node.title}
+									</summary>
+									<div class="ml-2">
+										{node.children.map(child => (
+											<div>
+												{child.children.length > 0 ? (
+													<details open={child.children.some(leaf => containsSlug(leaf, currentSlug))}>
+														<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-medium cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
+															<svg class="h-2.5 w-2.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+															</svg>
+															{child.title}
+														</summary>
+														<div class="ml-2">
+															{child.children.map(leaf => (
+																<a
+																	href={`/suma-teologica/${leaf.slug}`}
+																	data-astro-prefetch="hover"
+																	class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs transition ${
+																		leaf.slug === currentSlug
+																			? "bg-red-100 dark:bg-red-900/30 text-red-900 dark:text-red-100 font-semibold"
+																			: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-800"
+																	}`}
+																>
+																	{leaf.title}
+																</a>
+															))}
+														</div>
+													</details>
+												) : child.slug ? (
+													<a
+														href={`/suma-teologica/${child.slug}`}
+														data-astro-prefetch="hover"
+														class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs transition ${
+															child.slug === currentSlug
+																? "bg-red-100 dark:bg-red-900/30 text-red-900 dark:text-red-100 font-semibold"
+																: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-800"
+														}`}
+													>
+														{child.title}
+													</a>
+												) : null}
+											</div>
+										))}
+									</div>
+								</details>
+							) : node.slug ? (
+								<a
+									href={`/suma-teologica/${node.slug}`}
+									data-astro-prefetch="hover"
+									class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs transition ${
+										node.slug === currentSlug
+											? "bg-red-100 dark:bg-red-900/30 text-red-900 dark:text-red-100 font-semibold"
+											: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-800"
+									}`}
+								>
+									{node.title}
+								</a>
+							) : null}
+						</div>
+					))}
+				</div>
+			</details>
+		))}
+	</nav>
+
+	<!-- Pie -->
+	<div class="px-4 py-3 border-t border-stone-200 dark:border-gray-700">
+		<p class="text-xs text-gray-400 dark:text-gray-500 text-center">
+			Santo Tomás de Aquino<br/>1225 – 1274
+		</p>
+	</div>
+</aside>
