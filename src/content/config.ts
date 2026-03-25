@@ -39,9 +39,19 @@ const catecismo = defineCollection({
 	}),
 });
 
+const sanAgustin = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string(),
+		description: z.string().optional().default(''),
+		bac: z.string().optional(),
+	}),
+});
+
 export const collections = {
 	'sagrada-biblia': sagradaBiblia,
 	'Sta-Faustina': staFaustina,
 	'catecismo': catecismo,
+	'san-agustin': sanAgustin,
 	blog
 };

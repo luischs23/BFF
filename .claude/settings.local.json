@@ -19,7 +19,8 @@
       "Bash(npx astro:*)",
       "Bash(grep -r \"lazy\\\\|loading\\\\|defer\\\\|async\" c:UsersUsuarioDocumentsPlatziBFFsrccomponentsbiblia*.astro)",
       "Bash(wc -l \"c:\\\\Users\\\\Usuario\\\\Documents\\\\Platzi\\\\BFF\\\\src\\\\scripts\\\\biblia\"/*.ts)",
-      "Bash(node \"c:/Users/Usuario/Documents/Platzi/BFF/create-agustin.mjs\")"
+      "Bash(node \"c:/Users/Usuario/Documents/Platzi/BFF/create-agustin.mjs\")",
+      "Bash(head -30 src/pages/catecismo/[...id].astro)"
     ]
   }
 }
