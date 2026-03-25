@@ -66,7 +66,7 @@ const isWelcomePage = !currentSlug;
 		<main
 			class="flex-1 overflow-y-auto bg-amber-50 dark:bg-gray-950 transition-colors duration-300"
 		>
-			<div class="max-w-3xl mx-auto px-4 py-8 md:py-10">
+			<div class="max-w-3xl mx-auto px-0 py-0 md:px-4 md:py-10">
 				<slot />
 			</div>
 		</main>
@@ -109,6 +109,18 @@ const isWelcomePage = !currentSlug;
 		margin-bottom: 0.5rem;
 	}
 	:is(.dark) .agustin-content h3 { color: #fcd34d; }
+
+	.agustin-content ol {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+	}
+	.agustin-content ol > li {
+		padding-left: 0;
+	}
+	.agustin-content ol > li::before {
+		display: none;
+	}
 
 	.agustin-content blockquote {
 		border-left: 3px solid #d97706;
