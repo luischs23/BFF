@@ -12,7 +12,8 @@ const sagradaBiblia = defineCollection({
 		description: z.string(),
 		img: z.string().optional(),
 		type: z.enum(['libro', 'comentarios', 'paralelos']).optional(),
-		libro: z.string().optional()
+		libro: z.string().optional(),
+		isIntro: z.boolean().optional(),
 	}),
 });
 

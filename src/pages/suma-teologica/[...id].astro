@@ -62,31 +62,15 @@ function buildTree(cuestiones: Awaited<ReturnType<typeof getCollection<"suma-teo
 	return parts;
 }
 
-// En producción se prerenderizan todas las páginas. En dev → SSR bajo demanda.
-export const prerender = import.meta.env.PROD;
-
-export async function getStaticPaths() {
-	const cuestiones = await getCollection("suma-teologica");
-	return [
-		{ params: { id: undefined }, props: { cuestion: null } },
-		...cuestiones.map(c => ({
-			params: { id: c.id },
-			props: { cuestion: c },
-		})),
-	];
-}
-
 const { id } = Astro.params;
 const currentSlug = Array.isArray(id) ? id.join('/') : (id ?? '');
 
 const allCuestiones = await getCollection("suma-teologica");
 const tree = buildTree(allCuestiones);
 
-// En prod los props vienen de getStaticPaths; en dev los buscamos por slug
-let cuestion = Astro.props.cuestion ?? null;
-if (import.meta.env.DEV && currentSlug) {
-	cuestion = allCuestiones.find(c => c.id === currentSlug) ?? null;
-}
+const cuestion = currentSlug
+	? (allCuestiones.find(c => c.id === currentSlug) ?? null)
+	: null;
 
 const Content = cuestion ? (await render(cuestion)).Content : null;
 const pageTitle = cuestion ? cuestion.data.title : "Suma Teológica";
