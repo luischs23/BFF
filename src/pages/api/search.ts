@@ -255,7 +255,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     const books = await getCollection('sagrada-biblia');
     const file = books.find((b) => {
-      const slug = b.slug.toLowerCase()
+      const slug = b.id.toLowerCase()
         .replace(/\s+/g, '')
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '');

@@ -69,7 +69,7 @@ export const GET: APIRoute = async ({ url }) => {
         const plainText = stripMarkdown(entry.body ?? '');
         results.push({
           title: entry.data.title,
-          slug: entry.slug,
+          slug: entry.id,
           numeracion: entry.data.numeracion,
           snippet: getNumeralSnippet(plainText, n),
           matchedNumeral: n,
@@ -97,7 +97,7 @@ export const GET: APIRoute = async ({ url }) => {
     if (normalizeText(titleAndText).includes(normQ)) {
       results.push({
         title: entry.data.title,
-        slug: entry.slug,
+        slug: entry.id,
         numeracion: entry.data.numeracion,
         snippet: getSnippet(plainText, q),
       });

@@ -6,7 +6,7 @@ export function organizarLibrosPorSeccion(libros: Libro[]): EstructuraBiblia {
 	const estructura = crearEstructuraBase();
 
 	libros.forEach(libro => {
-		const slugParts = libro.slug.split('/');
+		const slugParts = libro.id.split('/');
 		if (slugParts.length >= 2) {
 			const testamento = slugParts[0] as keyof typeof estructura;
 			const seccion = slugParts[1] as keyof typeof estructura[typeof testamento]['secciones'];
@@ -19,7 +19,7 @@ export function organizarLibrosPorSeccion(libros: Libro[]): EstructuraBiblia {
 	// Ordenar libros dentro de cada sección
 	Object.values(estructura).forEach(testamento => {
 		Object.values(testamento.secciones).forEach(seccion => {
-			seccion.libros.sort((a, b) => a.slug.localeCompare(b.slug));
+			seccion.libros.sort((a, b) => a.id.localeCompare(b.id));
 		});
 	});
 

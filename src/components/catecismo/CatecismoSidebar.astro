@@ -15,7 +15,7 @@ for (const parte of Object.values(estructura)) {
 	for (const seccion of Object.values(parte.secciones)) {
 		for (const capitulo of Object.values(seccion.capitulos)) {
 			for (const entrada of capitulo.entradas) {
-				allSlugs.push(entrada.slug);
+				allSlugs.push(entrada.id);
 			}
 		}
 	}
@@ -149,11 +149,11 @@ const activeCapituloKey = slugParts[2] ?? '';
 														{capitulo.entradas.map(entrada => (
 															<li>
 																<a
-																	href={`/catecismo/${entrada.slug}`}
-																	data-astro-prefetch={adjacentSlugs.has(entrada.slug) ? "hover" : undefined}
+																	href={`/catecismo/${entrada.id}`}
+																	data-astro-prefetch={adjacentSlugs.has(entrada.id) ? "hover" : undefined}
 																	class:list={[
 																		"block px-2 py-1 text-xs rounded transition leading-tight",
-																		entrada.slug === currentSlug
+																		entrada.id === currentSlug
 																			? "bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 font-semibold"
 																			: "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-800 dark:hover:text-gray-200"
 																	]}

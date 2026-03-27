@@ -4,6 +4,11 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "NODE_OPTIONS=--max-old-space-size=8192 astro dev",
+    "dev:biblia": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=biblia astro dev",
+    "dev:suma": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=suma astro dev",
+    "dev:catecismo": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=catecismo astro dev",
+    "dev:faustina": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=faustina astro dev",
+    "dev:agustin": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=agustin astro dev",
     "build": "NODE_OPTIONS=--max-old-space-size=8192 astro build",
     "preview": "astro preview",
     "astro": "astro"

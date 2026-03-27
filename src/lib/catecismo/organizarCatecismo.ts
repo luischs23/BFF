@@ -8,7 +8,7 @@ export function organizarCatecismo(entradas: EntraCatecismo[]): EstructuraCateci
 	const estructura = crearEstructuraBaseCatecismo();
 
 	for (const entrada of entradas) {
-		const partes = entrada.slug.split('/');
+		const partes = entrada.id.split('/');
 		if (partes.length < 4) continue; // prologo y otros especiales no van en el sidebar
 
 		const [parteKey, seccionKey, capituloKey] = partes;
@@ -27,7 +27,7 @@ export function organizarCatecismo(entradas: EntraCatecismo[]): EstructuraCateci
 	for (const parte of Object.values(estructura)) {
 		for (const seccion of Object.values(parte.secciones)) {
 			for (const capitulo of Object.values(seccion.capitulos)) {
-				capitulo.entradas.sort((a, b) => a.slug.localeCompare(b.slug));
+				capitulo.entradas.sort((a, b) => a.id.localeCompare(b.id));
 			}
 		}
 	}

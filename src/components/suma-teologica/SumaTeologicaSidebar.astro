@@ -17,6 +17,7 @@ interface Props {
 }
 
 const { tree, currentSlug } = Astro.props;
+const isDev = import.meta.env.DEV;
 
 function containsSlug(node: TreeNode, slug: string): boolean {
 	if (node.slug === slug) return true;
@@ -42,85 +43,121 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 	<!-- Árbol de navegación -->
 	<nav class="flex-1 py-3 px-2 overflow-y-auto">
 		{tree.map(parte => (
-			<details class="mb-1 group/parte" open={parte.nodes.some(n => containsSlug(n, currentSlug))}>
-				<summary class="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-bold uppercase tracking-wider cursor-pointer select-none text-red-700 dark:text-red-400 hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
-					<svg class="h-3 w-3 transition-transform group-open/parte:rotate-90 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
-					</svg>
+			<div class="mb-1">
+				<!-- Etiqueta de parte (siempre visible) -->
+				<p class="px-3 py-2 text-[10px] font-bold uppercase tracking-widest text-red-600 dark:text-red-500">
 					{parte.label}
-				</summary>
-				<div class="mt-1 ml-2">
+				</p>
+
+				<div class="space-y-0.5">
 					{parte.nodes.map(node => (
 						<div>
 							{node.children.length > 0 ? (
-								<details open={node.children.some(child => containsSlug(child, currentSlug))}>
-									<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-semibold uppercase tracking-wide cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
-										<svg class="h-2.5 w-2.5 transition-transform group-open:rotate-90 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								/* Sección con hijos: siempre abierta, colapsable */
+								<details open class="group/node">
+									<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] text-gray-500 dark:text-gray-400 font-semibold uppercase tracking-wide cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
+										<svg class="h-2.5 w-2.5 flex-shrink-0 transition-transform group-open/node:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
 										</svg>
 										{node.title}
 									</summary>
-									<div class="ml-2">
+									<div class="ml-3 mt-0.5 space-y-0.5">
 										{node.children.map(child => (
 											<div>
 												{child.children.length > 0 ? (
-													<details open={child.children.some(leaf => containsSlug(leaf, currentSlug))}>
-														<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-gray-500 dark:text-gray-400 font-medium cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
-															<svg class="h-2.5 w-2.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+													/* Sub-sección con hijos: cerrada por defecto, abre si hay slug activo */
+													<details open={containsSlug(child, currentSlug)} class="group/child">
+														<summary class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] text-gray-400 dark:text-gray-500 font-medium cursor-pointer select-none hover:bg-stone-200 dark:hover:bg-gray-800 list-none">
+															<svg class="h-2 w-2 flex-shrink-0 transition-transform group-open/child:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 																<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
 															</svg>
 															{child.title}
 														</summary>
-														<div class="ml-2">
+														<div class="ml-3 mt-0.5 space-y-0.5">
 															{child.children.map(leaf => (
-																<a
-																	href={`/suma-teologica/${leaf.slug}`}
-																	data-astro-prefetch="hover"
-																	class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs transition ${
-																		leaf.slug === currentSlug
-																			? "bg-red-100 dark:bg-red-900/30 text-red-900 dark:text-red-100 font-semibold"
-																			: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-800"
-																	}`}
-																>
-																	{leaf.title}
-																</a>
+																<div class="flex items-center gap-1">
+																	<a
+																		href={`/suma-teologica/${leaf.slug}`}
+																		data-astro-prefetch="hover"
+																		class={`flex-1 min-w-0 px-3 py-1 rounded-lg text-xs transition truncate ${
+																			leaf.slug === currentSlug
+																				? "bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200 font-semibold"
+																				: "text-gray-600 dark:text-gray-400 hover:bg-stone-200 dark:hover:bg-gray-800"
+																		}`}
+																	>
+																		{leaf.title}
+																	</a>
+																	{isDev && (
+																		<button
+																			class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-0 group-hover/node:opacity-100"
+																			data-slug={leaf.slug}
+																			title={`Formatear: ${leaf.title}`}
+																		>
+																			F
+																		</button>
+																	)}
+																</div>
 															))}
 														</div>
 													</details>
 												) : child.slug ? (
-													<a
-														href={`/suma-teologica/${child.slug}`}
-														data-astro-prefetch="hover"
-														class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs transition ${
-															child.slug === currentSlug
-																? "bg-red-100 dark:bg-red-900/30 text-red-900 dark:text-red-100 font-semibold"
-																: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-800"
-														}`}
-													>
-														{child.title}
-													</a>
+													/* Hoja directa dentro de una sección */
+													<div class="flex items-center gap-1">
+														<a
+															href={`/suma-teologica/${child.slug}`}
+															data-astro-prefetch="hover"
+															class={`flex-1 min-w-0 px-3 py-1 rounded-lg text-xs transition truncate ${
+																child.slug === currentSlug
+																	? "bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200 font-semibold"
+																	: "text-gray-600 dark:text-gray-400 hover:bg-stone-200 dark:hover:bg-gray-800"
+															}`}
+														>
+															{child.title}
+														</a>
+														{isDev && (
+															<button
+																class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-0 group-hover/node:opacity-100"
+																data-slug={child.slug}
+																title={`Formatear: ${child.title}`}
+															>
+																F
+															</button>
+														)}
+													</div>
 												) : null}
 											</div>
 										))}
 									</div>
 								</details>
 							) : node.slug ? (
-								<a
-									href={`/suma-teologica/${node.slug}`}
-									data-astro-prefetch="hover"
-									class={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs transition ${
-										node.slug === currentSlug
-											? "bg-red-100 dark:bg-red-900/30 text-red-900 dark:text-red-100 font-semibold"
-											: "text-gray-700 dark:text-gray-300 hover:bg-stone-200 dark:hover:bg-gray-800"
-									}`}
-								>
-									{node.title}
-								</a>
+								/* Hoja directa en la parte (sin carpeta) */
+								<div class="flex items-center gap-1">
+									<a
+										href={`/suma-teologica/${node.slug}`}
+										data-astro-prefetch="hover"
+										class={`flex-1 min-w-0 px-3 py-1.5 rounded-lg text-xs transition truncate ${
+											node.slug === currentSlug
+												? "bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-200 font-semibold"
+												: "text-gray-600 dark:text-gray-400 hover:bg-stone-200 dark:hover:bg-gray-800"
+										}`}
+									>
+										{node.title}
+									</a>
+									{isDev && (
+										<button
+											class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-0 group-hover/node:opacity-100"
+											data-slug={node.slug}
+											title={`Formatear: ${node.title}`}
+										>
+											F
+										</button>
+									)}
+								</div>
 							) : null}
 						</div>
 					))}
 				</div>
-			</details>
+			</div>
 		))}
 	</nav>
 
@@ -131,3 +168,50 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 		</p>
 	</div>
 </aside>
+
+{isDev && (
+	<script is:inline>
+		function initFormatSuma() {
+			document.querySelectorAll('.format-btn').forEach(btn => {
+				if (btn.dataset.initDone) return;
+				btn.dataset.initDone = 'true';
+
+				btn.addEventListener('click', async (e) => {
+					e.preventDefault();
+					e.stopPropagation();
+					const slug = btn.dataset.slug;
+					if (!slug) return;
+					const original = btn.textContent;
+					btn.textContent = '…';
+					btn.setAttribute('disabled', '');
+					try {
+						const res = await fetch('/api/format-suma', {
+							method: 'POST',
+							headers: { 'Content-Type': 'application/json' },
+							body: JSON.stringify({ slug }),
+						});
+						const data = await res.json();
+						if (data.ok) {
+							btn.textContent = '✓';
+							// Si estamos viendo esa cuestión, recargar
+							const currentSlug = window.location.pathname.replace(/^\/suma-teologica\/?/, '').replace(/\/$/, '');
+							if (currentSlug === slug) setTimeout(() => location.reload(), 500);
+							else setTimeout(() => { btn.textContent = original; btn.removeAttribute('disabled'); }, 1500);
+						} else {
+							alert('Error: ' + data.error);
+							btn.textContent = original;
+							btn.removeAttribute('disabled');
+						}
+					} catch (e) {
+						alert('Error de red: ' + e);
+						btn.textContent = original;
+						btn.removeAttribute('disabled');
+					}
+				});
+			});
+		}
+
+		document.addEventListener('DOMContentLoaded', initFormatSuma);
+		document.addEventListener('astro:page-load', initFormatSuma);
+	</script>
+)}

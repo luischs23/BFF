@@ -60,7 +60,7 @@ export const GET: APIRoute = async ({ url }) => {
       if (found) {
         results.push({
           title: c.data.title,
-          slug: c.slug,
+          slug: c.id,
           entryNum: found.entryNum,
           snippet: found.text.slice(0, 200) + (found.text.length > 200 ? '...' : ''),
         });
@@ -103,7 +103,7 @@ export const GET: APIRoute = async ({ url }) => {
 
         results.push({
           title: c.data.title,
-          slug: c.slug,
+          slug: c.id,
           entryNum: entry.entryNum,
           snippet,
         });

@@ -34,7 +34,7 @@ export const POST: APIRoute = async ({ request }) => {
       .replace(/[\u0300-\u036f]/g, '');
 
     const file = books.find((b) => {
-      const bookSlug = b.slug.toLowerCase()
+      const bookSlug = b.id.toLowerCase()
         .replace(/\s+/g, '')
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '');

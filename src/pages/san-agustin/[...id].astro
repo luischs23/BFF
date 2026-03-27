@@ -1,7 +1,12 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import SanAgustinLayout from "../../components/san-agustin/SanAgustinLayout.astro";
 import type { CategoryTree, TreeNode } from "../../components/san-agustin/SanAgustinSidebar.astro";
+
+// En desarrollo, San Agustín se deshabilita para no bloquear el servidor
+if (import.meta.env.DEV) {
+	return Astro.redirect('/');
+}
 
 const CATEGORIAS: Record<string, { label: string; color: string; accent: string }> = {
 	"01-autobiograficas":      { label: "Autobiográficas",       color: "bg-amber-100 dark:bg-amber-900/30",   accent: "text-amber-700 dark:text-amber-300" },
@@ -24,21 +29,21 @@ function formatFolderName(s: string): string {
 function buildTree(obras: Awaited<ReturnType<typeof getCollection<"san-agustin">>>): CategoryTree[] {
 	const cats: CategoryTree[] = [];
 	for (const [catKey, catMeta] of Object.entries(CATEGORIAS)) {
-		const catObras = obras.filter(o => o.slug.startsWith(catKey + '/'));
+		const catObras = obras.filter(o => o.id.startsWith(catKey + '/'));
 		if (catObras.length === 0) continue;
 
 		const nodeMap = new Map<string, TreeNode>();
 		const roots: TreeNode[] = [];
-		const sorted = catObras.sort((a, b) => a.slug.localeCompare(b.slug));
+		const sorted = catObras.sort((a, b) => a.id.localeCompare(b.id));
 
 		for (const o of sorted) {
-			const parts = o.slug.split('/');
+			const parts = o.id.split('/');
 			for (let depth = 1; depth < parts.length; depth++) {
 				const currentKey = parts.slice(0, depth + 1).join('/');
 				if (!nodeMap.has(currentKey)) {
 					const isLeaf = depth === parts.length - 1;
 					const node: TreeNode = {
-						slug: isLeaf ? o.slug : '',
+						slug: isLeaf ? o.id : '',
 						title: isLeaf ? o.data.title : formatFolderName(parts[depth]),
 						children: [],
 					};
@@ -47,7 +52,7 @@ function buildTree(obras: Awaited<ReturnType<typeof getCollection<"san-agustin">
 					else nodeMap.get(parts.slice(0, depth).join('/'))?.children.push(node);
 				} else if (depth === parts.length - 1) {
 					const node = nodeMap.get(currentKey)!;
-					node.slug = o.slug;
+					node.slug = o.id;
 					node.title = o.data.title;
 				}
 			}
@@ -75,13 +80,13 @@ const currentSlug = Array.isArray(id) ? id.join('/') : (id ?? '');
 const allObras = await getCollection("san-agustin");
 const tree = buildTree(allObras);
 
-const obra = currentSlug ? allObras.find(o => o.slug === currentSlug) ?? null : null;
+const obra = currentSlug ? allObras.find(o => o.id === currentSlug) ?? null : null;
 
 if (currentSlug && !obra) {
 	return Astro.redirect('/san-agustin');
 }
 
-const Content = obra ? (await obra.render()).Content : null;
+const Content = obra ? (await render(obra)).Content : null;
 const pageTitle = obra ? obra.data.title : "San Agustín";
 const pageBac = obra?.data.bac;
 ---

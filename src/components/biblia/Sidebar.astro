@@ -14,8 +14,8 @@ const allSlugs: string[] = [];
 for (const testamento of Object.values(estructura)) {
 	for (const seccion of Object.values(testamento.secciones)) {
 		for (const libro of seccion.libros) {
-			if (!libro.data.isIntro && !libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos')) {
-				allSlugs.push(libro.slug);
+			if (!libro.data.isIntro && !libro.id.includes('-comentarios') && !libro.id.includes('-paralelos')) {
+				allSlugs.push(libro.id);
 			}
 		}
 	}
@@ -118,15 +118,15 @@ const adjacentSlugs = new Set([
 							</button>
 							<ul class="section-content space-y-1" data-section={`${testamentoKey}-${seccionKey}`}>
 								{seccion.libros
-									.filter(libro => !libro.data.isIntro && !libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos'))
+									.filter(libro => !libro.data.isIntro && !libro.id.includes('-comentarios') && !libro.id.includes('-paralelos'))
 									.map(libro => (
 										<li>
 											<a
-												href={`/biblia/${libro.slug}`}
-												data-astro-prefetch={adjacentSlugs.has(libro.slug) ? "hover" : undefined}
+												href={`/biblia/${libro.id}`}
+												data-astro-prefetch={adjacentSlugs.has(libro.id) ? "hover" : undefined}
 												class:list={[
 													"block px-3 py-1.5 text-sm rounded transition",
-													libro.slug === currentSlug
+													libro.id === currentSlug
 														? "bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100 font-semibold"
 														: "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-gray-200"
 												]}

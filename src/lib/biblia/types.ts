@@ -7,9 +7,8 @@ export interface LibroData {
 }
 
 export interface Libro {
-	slug: string;
+	id: string;
 	data: LibroData;
-	render: () => Promise<{ Content: any }>;
 }
 
 export interface Seccion {

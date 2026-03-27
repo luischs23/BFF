@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 
 export const prerender = true;
@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 	const paths = [
 		{ params: { id: undefined }, props: { cuaderno: null } },
 		...cuadernos.map((c) => ({
-			params: { id: c.slug },
+			params: { id: c.id },
 			props: { cuaderno: c },
 		})),
 	];
@@ -22,8 +22,8 @@ const cuadernos = (await getCollection("Sta-Faustina")).sort(
 );
 
 const title = cuaderno ? cuaderno.data.title : "Diario de Santa Faustina";
-const Content = cuaderno ? (await cuaderno.render()).Content : null;
-const currentSlug = cuaderno?.slug ?? "";
+const Content = cuaderno ? (await render(cuaderno)).Content : null;
+const currentSlug = cuaderno?.id ?? "";
 ---
 
 <Layout title={`${title} — Diario de Santa Faustina`}>
@@ -122,15 +122,15 @@ const currentSlug = cuaderno?.slug ?? "";
 				{cuadernos.map((c) => (
 					<div class="mb-1">
 						<a
-							href={`/faustina/${c.slug}`}
+							href={`/faustina/${c.id}`}
 							class={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition ${
-								c.slug === currentSlug
+								c.id === currentSlug
 									? "bg-rose-300 dark:bg-rose-400/40 text-rose-900 dark:text-rose-100 font-semibold"
 									: "text-gray-700 dark:text-gray-200 hover:bg-stone-200 dark:hover:bg-gray-700"
 							}`}
 						>
 							<span class={`flex-shrink-0 w-6 h-6 rounded-full text-xs font-bold flex items-center justify-center ${
-								c.slug === currentSlug
+								c.id === currentSlug
 									? "bg-rose-200/60 text-rose-800"
 									: "bg-rose-100 dark:bg-rose-900/40 text-rose-500 dark:text-rose-400"
 							}`}>
@@ -138,9 +138,9 @@ const currentSlug = cuaderno?.slug ?? "";
 							</span>
 							{c.data.title}
 						</a>
-						{c.slug === currentSlug && import.meta.env.DEV && (
+						{c.id === currentSlug && import.meta.env.DEV && (
 							<button
-								data-slug={c.slug}
+								data-slug={c.id}
 								class="format-faustina-btn mt-1 ml-2 flex items-center gap-1.5 px-2.5 py-1 rounded text-xs bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-300 hover:bg-amber-200 dark:hover:bg-amber-800/40 transition w-fit"
 								title="Formatear numerales sin etiqueta"
 							>
@@ -195,7 +195,7 @@ const currentSlug = cuaderno?.slug ?? "";
 						<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 							{cuadernos.map((c) => (
 								<a
-									href={`/faustina/${c.slug}`}
+									href={`/faustina/${c.id}`}
 									class="group bg-amber-50 dark:bg-gray-800 border border-amber-200 dark:border-gray-700 rounded-xl p-5 hover:border-rose-400 dark:hover:border-rose-500 hover:shadow-md transition-all"
 								>
 									<div class="flex items-start gap-3">

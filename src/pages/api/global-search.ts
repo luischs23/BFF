@@ -97,8 +97,8 @@ export const GET: APIRoute = async ({ url }) => {
 
   const mainBooks = books.filter(b =>
     !b.data.isIntro &&
-    !b.slug.includes('-comentarios') &&
-    !b.slug.includes('-paralelos')
+    !b.id.includes('-comentarios') &&
+    !b.id.includes('-paralelos')
   );
 
   const results: Array<{
@@ -130,7 +130,7 @@ export const GET: APIRoute = async ({ url }) => {
 
         results.push({
           title: book.data.title,
-          slug: book.slug,
+          slug: book.id,
           chapter: v.chapter,
           verse: v.verse,
           snippet

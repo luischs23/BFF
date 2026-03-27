@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import BibliaLayout from "../../components/biblia/BibliaLayout.astro";
 import { organizarLibrosPorSeccion } from "../../lib/biblia/organizarLibros";
 
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 	const paths = [
 		{ params: { id: undefined }, props: { book: null } },
 		...libros.map((book) => ({
-			params: { id: book.slug },
+			params: { id: book.id },
 			props: { book }
 		}))
 	];
@@ -31,8 +31,8 @@ const estructura = organizarLibrosPorSeccion(libros);
 // Si no hay libro seleccionado, mostrar página de bienvenida
 const isWelcomePage = !book;
 const title = book ? book.data.title : "Sagrada Biblia";
-const slug = book ? book.slug : "";
-const Content = book ? (await book.render()).Content : null;
+const slug = book ? book.id : "";
+const Content = book ? (await render(book)).Content : null;
 
 const FALLBACK_COLOR = 'bg-gray-500';
 const FALLBACK_LABEL = 'text-gray-400';
@@ -70,8 +70,8 @@ function buildRows(secciones: any, dotMap: any, labelMap: any) {
 		dot: (dotMap[key] as string) ?? FALLBACK_COLOR,
 		label: (labelMap[key] as string) ?? FALLBACK_LABEL,
 		libros: (sec.libros as any[])
-			.filter((l: any) => !l.data.isIntro && !l.slug.includes('-comentarios') && !l.slug.includes('-paralelos'))
-			.map((l: any) => ({ slug: l.slug as string, title: l.data.title as string })),
+			.filter((l: any) => !l.data.isIntro && !l.id.includes('-comentarios') && !l.id.includes('-paralelos'))
+			.map((l: any) => ({ slug: l.id as string, title: l.data.title as string })),
 	})).filter(r => r.libros.length > 0);
 }
 

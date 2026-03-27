@@ -78,8 +78,8 @@ export const GET: APIRoute = async ({ url }) => {
 
   const mainBooks = books.filter(b =>
     !b.data.isIntro &&
-    !b.slug.includes('-comentarios') &&
-    !b.slug.includes('-paralelos')
+    !b.id.includes('-comentarios') &&
+    !b.id.includes('-paralelos')
   );
 
   if (!mainBooks.length) {
@@ -92,7 +92,7 @@ export const GET: APIRoute = async ({ url }) => {
   const slugParam = url.searchParams.get('slug');
   const saltParam = parseInt(url.searchParams.get('salt') ?? '0');
   let book = slugParam
-    ? mainBooks.find(b => b.slug === slugParam)
+    ? mainBooks.find(b => b.id === slugParam)
     : undefined;
   if (!book) {
     const bookIdx = Math.floor(seededRand(seed + 42 + saltParam) * mainBooks.length);
@@ -118,7 +118,7 @@ export const GET: APIRoute = async ({ url }) => {
     chapter: verse.chapter,
     verse: verse.verse,
     verseNum: isNaN(verseNum) ? 1 : verseNum,
-    slug: book.slug,
+    slug: book.id,
     bookTitle: book.data.title,
   }), {
     headers: { 'Content-Type': 'application/json' }

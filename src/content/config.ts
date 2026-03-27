@@ -1,7 +1,12 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
+
+// generateId elimina la extensión .md y normaliza separadores (Windows usa \)
+const stripExt = ({ entry }: { entry: string }) =>
+	entry.replace(/\.mdx?$/, '').replace(/\\/g, '/');
 
 const sagradaBiblia = defineCollection({
-	type: 'content',
+	loader: glob({ pattern: '**/*.md', base: './src/content/sagrada-biblia', generateId: stripExt }),
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
@@ -12,7 +17,7 @@ const sagradaBiblia = defineCollection({
 });
 
 const staFaustina = defineCollection({
-	type: 'content',
+	loader: glob({ pattern: '**/*.md', base: './src/content/Sta-Faustina', generateId: stripExt }),
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
@@ -20,18 +25,8 @@ const staFaustina = defineCollection({
 	}),
 });
 
-// Mantener blog por compatibilidad temporal (puede eliminarse después)
-const blog = defineCollection({
-	type: 'content',
-	schema: z.object({
-		title: z.string(),
-		description: z.string(),
-		img: z.string().optional()
-	}),
-});
-
 const catecismo = defineCollection({
-	type: 'content',
+	loader: glob({ pattern: '**/*.md', base: './src/content/catecismo', generateId: stripExt }),
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
@@ -40,7 +35,7 @@ const catecismo = defineCollection({
 });
 
 const sanAgustin = defineCollection({
-	type: 'content',
+	loader: glob({ pattern: '**/*.md', base: './src/content/san-agustin', generateId: stripExt }),
 	schema: z.object({
 		title: z.string(),
 		description: z.string().optional().default(''),
@@ -49,7 +44,7 @@ const sanAgustin = defineCollection({
 });
 
 const sumaTeologica = defineCollection({
-	type: 'content',
+	loader: glob({ pattern: '**/*.md', base: './src/content/suma-teologica', generateId: stripExt }),
 	schema: z.object({
 		title: z.string(),
 		cuestion: z.number(),
@@ -59,11 +54,30 @@ const sumaTeologica = defineCollection({
 	}),
 });
 
-export const collections = {
-	'sagrada-biblia': sagradaBiblia,
-	'Sta-Faustina': staFaustina,
-	'catecismo': catecismo,
-	'san-agustin': sanAgustin,
-	'suma-teologica': sumaTeologica,
-	blog
+// En desarrollo se carga solo el módulo activo para reducir el sync inicial.
+// Usa: ACTIVE_MODULE=biblia|suma|catecismo|faustina|agustin (vacío = todo)
+const isDev = process.env.NODE_ENV !== 'production';
+const mod = process.env.ACTIVE_MODULE ?? '';
+
+function include(modules: string[]) {
+	// En producción siempre incluir. En dev solo si coincide con ACTIVE_MODULE o no hay filtro.
+	return !isDev || mod === '' || modules.includes(mod);
+}
+
+// Tipo explícito para que InferEntrySchema resuelva los schemas correctamente
+// aunque algunas colecciones se excluyan en dev con el spread condicional.
+type AllCollections = {
+	'sagrada-biblia': typeof sagradaBiblia;
+	'Sta-Faustina': typeof staFaustina;
+	'catecismo': typeof catecismo;
+	'san-agustin': typeof sanAgustin;
+	'suma-teologica': typeof sumaTeologica;
 };
+
+export const collections = {
+	...(include(['biblia']) && { 'sagrada-biblia': sagradaBiblia }),
+	...(include(['faustina']) && { 'Sta-Faustina': staFaustina }),
+	...(include(['catecismo']) && { 'catecismo': catecismo }),
+	...(include(['agustin']) && { 'san-agustin': sanAgustin }),
+	...(include(['suma']) && { 'suma-teologica': sumaTeologica }),
+} as unknown as AllCollections;

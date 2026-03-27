@@ -38,28 +38,28 @@ const estructura = {
 
 // Separar libros principales de comentarios y paralelos
 const librosprincipales = libros.filter(libro =>
-	!libro.slug.includes('-comentarios') && !libro.slug.includes('-paralelos')
+	!libro.id.includes('-comentarios') && !libro.id.includes('-paralelos')
 );
-const comentarios = libros.filter(libro => libro.slug.includes('-comentarios'));
-const paralelos = libros.filter(libro => libro.slug.includes('-paralelos'));
+const comentarios = libros.filter(libro => libro.id.includes('-comentarios'));
+const paralelos = libros.filter(libro => libro.id.includes('-paralelos'));
 
 // Crear un mapa de comentarios por libro base
 const comentariosPorLibro = new Map<string, typeof libros[0]>();
 comentarios.forEach(comentario => {
-	const slugBase = comentario.slug.replace('-comentarios', '');
+	const slugBase = comentario.id.replace('-comentarios', '');
 	comentariosPorLibro.set(slugBase, comentario);
 });
 
 // Crear un mapa de paralelos por libro base
 const paralelosPorLibro = new Map<string, typeof libros[0]>();
 paralelos.forEach(paralelo => {
-	const slugBase = paralelo.slug.replace('-paralelos', '');
+	const slugBase = paralelo.id.replace('-paralelos', '');
 	paralelosPorLibro.set(slugBase, paralelo);
 });
 
 // Clasificar los libros en sus secciones
 librosprincipales.forEach(libro => {
-	const slugParts = libro.slug.split('/');
+	const slugParts = libro.id.split('/');
 	if (slugParts.length >= 2) {
 		const testamento = slugParts[0] as keyof typeof estructura;
 		const seccion = slugParts[1] as keyof typeof estructura[typeof testamento]['secciones'];
@@ -67,8 +67,8 @@ librosprincipales.forEach(libro => {
 		if (estructura[testamento]?.secciones?.[seccion]) {
 			const libroConComentario = {
 				...libro,
-				comentario: comentariosPorLibro.get(libro.slug),
-				paralelo: paralelosPorLibro.get(libro.slug)
+				comentario: comentariosPorLibro.get(libro.id),
+				paralelo: paralelosPorLibro.get(libro.id)
 			};
 			(estructura[testamento].secciones as any)[seccion].libros.push(libroConComentario);
 		}
@@ -78,7 +78,7 @@ librosprincipales.forEach(libro => {
 // Ordenar libros dentro de cada sección
 Object.values(estructura).forEach(testamento => {
 	Object.values(testamento.secciones).forEach(seccion => {
-		seccion.libros.sort((a, b) => a.slug.localeCompare(b.slug));
+		seccion.libros.sort((a, b) => a.id.localeCompare(b.id));
 	});
 });
 ---
@@ -103,7 +103,7 @@ Object.values(estructura).forEach(testamento => {
 								</h3>
 								<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 									{seccion.libros.map(libro => {
-										const { slug, data, comentario, paralelo } = libro;
+										const { id: slug, data, comentario, paralelo } = libro;
 										const { title } = data;
 
 										return (
@@ -155,7 +155,7 @@ Object.values(estructura).forEach(testamento => {
 														<span class="text-xs text-gray-500 italic truncate flex-1">Comentarios</span>
 														<div class="flex gap-1 flex-shrink-0">
 															<button
-																data-slug={comentario.slug}
+																data-slug={comentario.id}
 																class="format-comments-btn px-2 py-1 bg-teal-600 text-white rounded hover:bg-teal-700 transition text-xs"
 																title="Formatear párrafos de comentarios"
 															>

@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import SumaTeologicaLayout from "../../components/suma-teologica/SumaTeologicaLayout.astro";
 import type { PartTree, TreeNode } from "../../components/suma-teologica/SumaTeologicaSidebar.astro";
 
@@ -27,21 +27,21 @@ function buildTree(cuestiones: Awaited<ReturnType<typeof getCollection<"suma-teo
 	const parts: PartTree[] = [];
 
 	for (const [parteKey, parteMeta] of Object.entries(PARTES)) {
-		const parteCuestiones = cuestiones.filter(c => c.slug.startsWith(parteKey + '/'));
+		const parteCuestiones = cuestiones.filter(c => c.id.startsWith(parteKey + '/'));
 		if (parteCuestiones.length === 0) continue;
 
 		const nodeMap = new Map<string, TreeNode>();
 		const roots: TreeNode[] = [];
-		const sorted = parteCuestiones.sort((a, b) => a.slug.localeCompare(b.slug));
+		const sorted = parteCuestiones.sort((a, b) => a.id.localeCompare(b.id));
 
 		for (const c of sorted) {
-			const slugParts = c.slug.split('/');
+			const slugParts = c.id.split('/');
 			for (let depth = 1; depth < slugParts.length; depth++) {
 				const currentKey = slugParts.slice(0, depth + 1).join('/');
 				if (!nodeMap.has(currentKey)) {
 					const isLeaf = depth === slugParts.length - 1;
 					const node: TreeNode = {
-						slug: isLeaf ? c.slug : '',
+						slug: isLeaf ? c.id : '',
 						title: isLeaf ? c.data.title : formatFolderName(slugParts[depth]),
 						children: [],
 					};
@@ -50,7 +50,7 @@ function buildTree(cuestiones: Awaited<ReturnType<typeof getCollection<"suma-teo
 					else nodeMap.get(slugParts.slice(0, depth).join('/'))?.children.push(node);
 				} else if (depth === slugParts.length - 1) {
 					const node = nodeMap.get(currentKey)!;
-					node.slug = c.slug;
+					node.slug = c.id;
 					node.title = c.data.title;
 				}
 			}
@@ -62,27 +62,33 @@ function buildTree(cuestiones: Awaited<ReturnType<typeof getCollection<"suma-teo
 	return parts;
 }
 
-export const prerender = true;
+// En producción se prerenderizan todas las páginas. En dev → SSR bajo demanda.
+export const prerender = import.meta.env.PROD;
 
 export async function getStaticPaths() {
 	const cuestiones = await getCollection("suma-teologica");
 	return [
 		{ params: { id: undefined }, props: { cuestion: null } },
 		...cuestiones.map(c => ({
-			params: { id: c.slug },
+			params: { id: c.id },
 			props: { cuestion: c },
 		})),
 	];
 }
 
-const { cuestion } = Astro.props;
 const { id } = Astro.params;
 const currentSlug = Array.isArray(id) ? id.join('/') : (id ?? '');
 
 const allCuestiones = await getCollection("suma-teologica");
 const tree = buildTree(allCuestiones);
 
-const Content = cuestion ? (await cuestion.render()).Content : null;
+// En prod los props vienen de getStaticPaths; en dev los buscamos por slug
+let cuestion = Astro.props.cuestion ?? null;
+if (import.meta.env.DEV && currentSlug) {
+	cuestion = allCuestiones.find(c => c.id === currentSlug) ?? null;
+}
+
+const Content = cuestion ? (await render(cuestion)).Content : null;
 const pageTitle = cuestion ? cuestion.data.title : "Suma Teológica";
 ---
 
