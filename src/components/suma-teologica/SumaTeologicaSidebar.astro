@@ -89,7 +89,7 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 																	</a>
 																	{isDev && (
 																		<button
-																			class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-0 group-hover/node:opacity-100"
+																			class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-40 hover:opacity-100"
 																			data-slug={leaf.slug}
 																			title={`Formatear: ${leaf.title}`}
 																		>
@@ -116,7 +116,7 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 														</a>
 														{isDev && (
 															<button
-																class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-0 group-hover/node:opacity-100"
+																class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-40 hover:opacity-100"
 																data-slug={child.slug}
 																title={`Formatear: ${child.title}`}
 															>
@@ -145,7 +145,7 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 									</a>
 									{isDev && (
 										<button
-											class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-0 group-hover/node:opacity-100"
+											class="format-btn shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-red-400 dark:text-red-600 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-700 dark:hover:text-red-400 transition-colors opacity-40 hover:opacity-100"
 											data-slug={node.slug}
 											title={`Formatear: ${node.title}`}
 										>
@@ -193,10 +193,8 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 						const data = await res.json();
 						if (data.ok) {
 							btn.textContent = '✓';
-							// Si estamos viendo esa cuestión, recargar
-							const currentSlug = window.location.pathname.replace(/^\/suma-teologica\/?/, '').replace(/\/$/, '');
-							if (currentSlug === slug) setTimeout(() => location.reload(), 500);
-							else setTimeout(() => { btn.textContent = original; btn.removeAttribute('disabled'); }, 1500);
+							// Astro HMR detecta el cambio de archivo automáticamente
+							setTimeout(() => { btn.textContent = original; btn.removeAttribute('disabled'); }, 2000);
 						} else {
 							alert('Error: ' + data.error);
 							btn.textContent = original;
