@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Ahora toca estudiar lo referente a la pluralidad de las personas divinas. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Hay o no hay varias personas en Dios?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Cuántas son?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Puesto que ya hemos tratado sobre cómo es Dios en sí mismo, falta por tratar cómo es en nuestro conocimiento, esto es, de qué manera es conocido por las criaturas. Esta cuestión plantea y exige respuesta a trece problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Algún entendimiento creado, ¿puede o no puede ver la esencia de Dios?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> La esencia de Dios, ¿es o no es vista por el entendimiento a través de alguna especie creada?

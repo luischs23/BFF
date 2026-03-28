@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Ahora hay que adentrarse en el estudio sobre la persona del Hijo. Al Hijo se le atribuyen tres nombres: Hijo, Palabra e Imagen. El concepto de Hijo se ha tratado desde la perspectiva del Padre. Ahora falta por estudiar lo referente a Palabra e Imagen. La cuestión sobre la Palabra plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> En Dios, la Palabra, ¿tiene sentido esencial o personal?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Es o no es el nombre propio de Hijo?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Ahora hay que tratar lo referente a la eternidad de Dios. Esta cuestión plantea y exige respuesta a seis problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Que es la eternidad?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Dios, ¿es o no es eterno?

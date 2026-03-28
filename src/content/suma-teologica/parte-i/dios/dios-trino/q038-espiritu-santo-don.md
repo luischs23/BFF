@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Ahora hay que analizar lo referente al nombre Don. Esta cuestión plantea y exige respuesta a dos problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Don, ¿puede o no puede ser nombre personal?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Es o no es propio del Espíritu Santo?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Ahora hay que tratar sobre la falsedad. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> La falsedad, ¿está o no está en las cosas?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Está o no está en el sentido?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación y las criaturas"
 ---
 Ahora hay que tratar lo referente a la diversificación de las cosas en especial. En primer lugar, la diversificación entre lo bueno y lo malo; después, entre la criatura espiritual y la corporal. Al analizar lo primero hay que estudiar el mal y la causa del mal. La cuestión referente al mal plantea y exige respuesta a seis problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El mal, ¿es o no es alguna naturaleza?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El mal, ¿se encuentra o no se encuentra en las cosas?

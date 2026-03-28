@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Siguiendo el plan trazado, hay que tratar ahora lo referente a la voluntad de los ángeles. En primer lugar trataremos la voluntad en sí misma; despues, su movimiento, que es el amor o la dilección. La cuestión referente a la voluntad de los ángeles en sí misma, plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Hay o no hay voluntad en los ángeles?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> La voluntad de los ángeles, ¿es su misma naturaleza o también su mismo entendimiento?

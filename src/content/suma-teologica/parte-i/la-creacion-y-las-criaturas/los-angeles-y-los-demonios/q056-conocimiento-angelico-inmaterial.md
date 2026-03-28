@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Ahora hay que estudiar lo referente al conocimiento de los ángeles en lo que se refiere a lo conocido. En primer lugar, el conocimiento de lo inmaterial; en segundo lugar, el conocimiento de lo material. La cuestión referente al conocimiento de lo inmaterial plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El ángel, ¿se conoce o no se conoce a sí mismo?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Un ángel, ¿conoce o no conoce al otro?

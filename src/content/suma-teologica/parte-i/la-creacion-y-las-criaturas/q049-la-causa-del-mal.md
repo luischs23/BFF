@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación y las criaturas"
 ---
 Siguiendo el plan trazado, ahora hay que tratar lo referente a la causa del mal. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El bien, ¿puede o no puede ser causa del mal?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El sumo bien, Dios, ¿es o no es causa del mal?

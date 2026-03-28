@@ -62,7 +62,15 @@ function formatSuma(content: string): string {
 
 	for (let line of lines) {
 		// ── Nuevo formato → idempotente ─────────────────────────────────────────
-		if (line.startsWith('<h2') || line.startsWith('<span class="suma-n"') || line.startsWith('<strong>')) {
+		if (line.startsWith('<h2') || line.startsWith('<strong>')) {
+			output.push(line);
+			continue;
+		}
+		if (line.startsWith('<span class="suma-n"')) {
+			// Garantizar línea vacía antes de numerales de índice (los que enlazan al artículo)
+			if (line.includes('<a href="#art-') && output.length > 0 && output[output.length - 1] !== '') {
+				output.push('');
+			}
 			output.push(line);
 			continue;
 		}

@@ -140,6 +140,16 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 		font-style: italic;
 	}
 
+	/* Numerales del Catecismo */
+	.catecismo-content .catecismo-num {
+		font-weight: 700;
+		color: #4338ca;
+		margin-right: 0.2em;
+	}
+	.dark .catecismo-content .catecismo-num {
+		color: #a5b4fc;
+	}
+
 	/* Scrollbar */
 	#catecismoContainer aside::-webkit-scrollbar,
 	#catecismoContainer main::-webkit-scrollbar { width: 6px; }

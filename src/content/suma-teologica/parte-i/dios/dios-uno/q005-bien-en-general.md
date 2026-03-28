@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 A continuación hay que tratar del bien. Primero, del bien en general; segundo, de la bondad de Dios. Lo primero plantea y exige respuestas a seis problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El bien y el ser, ¿son o no son en realidad lo mismo?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Supuesto que se diferencian sólo con distinción de razón, en el orden del entendimiento, ¿cuál es primero, el bien o el ser?

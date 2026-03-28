@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Por último, y después de haber tratado lo referente a la unidad de la esencia divina, hay que hacerlo ahora sobre la bienaventuranza divina. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> La bienaventuranza, ¿le corresponde o no le corresponde a Dios?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Por qué se dice que Dios es bienaventurado? ¿Por el acto del entendimiento?

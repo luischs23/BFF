@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Ahora hay que tratar lo referente al conocimiento que los ángeles tienen de lo material. Esta cuestión plantea y exige respuesta a cinco problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Los ángeles, ¿conocen o no conocen las naturalezas de las cosas materiales?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Conocen o no conocen lo singular?

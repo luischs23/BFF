@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Hay que tratar ahora lo referente a la misión de las personas divinas. Esta cuestión plantea y exige respuesta a ocho problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> A alguna persona divina, ¿le corresponde o no le corresponde ser enviada?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> La misión, ¿es eterna o solamente temporal?

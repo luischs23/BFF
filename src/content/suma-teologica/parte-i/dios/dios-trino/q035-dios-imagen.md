@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Ahora hay que analizar lo referente a la Imagen. Esta cuestión plantea y exige respuesta a dos problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> En Dios, Imagen, ¿tiene o no tiene sentido personal?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Es o no es nombre propio del Hijo?

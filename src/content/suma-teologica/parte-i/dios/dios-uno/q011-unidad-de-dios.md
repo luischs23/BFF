@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Ahora hay que tratar lo referente a la unidad divina. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El ser uno, ¿añade o no añade algo al ser?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Hay o no hay oposición entre el uno y lo múltiple?

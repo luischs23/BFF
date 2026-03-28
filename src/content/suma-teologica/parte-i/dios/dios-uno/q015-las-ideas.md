@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Después de haber estudiado la ciencia de Dios, queda por analizar lo referente a las ideas. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Hay o no hay ideas?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Son muchas o una sola?

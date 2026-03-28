@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Hay que tratar ahora lo referente a las relaciones de las personas entre sí. Primero, en cuanto a la igualdad y la semejanza. Segundo, en cuanto a la misión. La cuestión sobre lo primero, plantea y exige respuesta a seis problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Hay o no hay igualdad en las personas divinas?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> La persona que procede, ¿es o no es igual a aquella de la que procede en lo que se refiere a la eternidad?

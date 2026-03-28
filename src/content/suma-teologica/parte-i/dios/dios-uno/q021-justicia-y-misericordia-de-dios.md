@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Después de haber investigado sobre el amor de Dios, ahora hay que hacerlo sobre su justicia y su misericordia. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> En Dios, ¿hay o no hay justicia?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Su justicia, ¿puede o no puede ser llamada verdad?

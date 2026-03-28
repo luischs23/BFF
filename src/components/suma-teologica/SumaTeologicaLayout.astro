@@ -7,9 +7,10 @@ interface Props {
 	title: string;
 	currentSlug: string;
 	tree: PartTree[];
+	cuestionNum?: number;
 }
 
-const { title, currentSlug, tree } = Astro.props;
+const { title, currentSlug, tree, cuestionNum } = Astro.props;
 const isWelcomePage = !currentSlug;
 ---
 
@@ -41,7 +42,9 @@ const isWelcomePage = !currentSlug;
 				class="md:hidden fixed top-0 left-0 right-0 z-[60] bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between"
 			>
 				<div class="w-8"></div>
-				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">{title}</h1>
+				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">
+					{cuestionNum ? <span class="text-red-500 dark:text-red-400 mr-1">C.{cuestionNum}</span> : null}{title}
+				</h1>
 				<button
 					id="menuToggle"
 					class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"

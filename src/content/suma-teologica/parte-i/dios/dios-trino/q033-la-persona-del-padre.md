@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Corresponde ahora tratar sobre las Personas en especial. En primer lugar, la del Padre. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Al Padre, ¿le corresponde o no le corresponde ser Principio?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El nombre Padre, ¿expresa o no expresa propiamente a la persona del Padre?

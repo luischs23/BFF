@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Siguiendo el plan trazado, ahora hay que tratar lo referente al movimiento local de los ángeles. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El ángel, ¿puede o no puede moverse localmente?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Se mueve o no se mueve de un lugar a otro pasando por el medio?

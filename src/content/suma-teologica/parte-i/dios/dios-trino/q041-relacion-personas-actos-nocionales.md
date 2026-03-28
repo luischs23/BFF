@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Hay que tratar ahora lo referente a la relación personas-actos nocionales. Esta cuestión plantea y exige respuesta a seis problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Los actos nocionales, ¿son o no son atribuibles a las personas?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Dichos actos, ¿son necesarios o voluntarios?

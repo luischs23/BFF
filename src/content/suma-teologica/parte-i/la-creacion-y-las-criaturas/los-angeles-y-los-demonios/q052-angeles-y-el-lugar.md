@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Ahora hay que tratar lo referente al lugar del ángel. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El ángel, ¿ocupa o no ocupa lugar?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El ángel, ¿puede o no puede estar en muchos lugares a la vez?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 A continuación hay que tratar lo referente a la bondad de Dios. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> A Dios, ¿le corresponde o no le corresponde ser bueno?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Dios, ¿es o no es el sumo bien?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Puesto que la ciencia lo es de lo verdadero, después de haber analizado lo referente a la ciencia de Dios, hay que investigar ahora lo concerniente a la verdad. Esta cuestión plantea y exige respuesta a ocho problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> La verdad, ¿está en las cosas o sólo en el entendimiento?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Está o no está sólo en el entendimiento que compone y divide?

@@ -26,7 +26,13 @@ function formatSuma(content) {
 	const output = [];
 
 	for (let line of lines) {
-		if (line.startsWith('<h2') || line.startsWith('<span class="suma-n"') || line.startsWith('<strong>')) {
+		if (line.startsWith('<h2') || line.startsWith('<strong>')) {
+			output.push(line); continue;
+		}
+		if (line.startsWith('<span class="suma-n"')) {
+			if (line.includes('<a href="#art-') && output.length > 0 && output[output.length - 1] !== '') {
+				output.push('');
+			}
 			output.push(line); continue;
 		}
 		const supOld = line.match(/^<sup>(?:<a[^>]*>)?(\d+)(?:<\/a>)?<\/sup>\s*(.*)$/);

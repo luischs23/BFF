@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 De lo dicho se sigue que hay que tratar ahora sobre la inmutabilidad y la eternidad divina que se sigue de la inmutabilidad. La cuestión sobre la inmutabilidad divina plantea y exige respuesta a dos problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Dios, ¿es o no es completamente inmutable?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Es o no es propio de Dios ser inmutable?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Ahora hay que tratar lo referente a las relaciones de las personas divinas. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Hay o no hay en Dios algunas relaciones reales?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Aquellas relaciones, ¿son su misma esencia o algo añadido?

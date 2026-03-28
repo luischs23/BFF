@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Ahora hay que estudiar lo referente al nombre Amor. Esta cuestión plantea y exige respuesta a dos problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Es o no es el nombre propio del Espíritu Santo?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El Padre y el Hijo, ¿se aman o no se aman por el Espíritu Santo?

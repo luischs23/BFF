@@ -1,4 +1,5 @@
 ---
+const isDev = import.meta.env.DEV;
 export type TreeNode = {
 	slug: string;
 	title: string;
@@ -38,6 +39,22 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 			<p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Santo Tomás de Aquino</p>
 		</a>
 	</div>
+
+	<!-- Botón dev: fix blank lines -->
+	{isDev && (
+		<div class="px-4 pb-3">
+			<button
+				id="sumaFixBlankLinesBtn"
+				class="w-full flex items-center justify-center gap-1.5 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider rounded border border-dashed border-orange-400 text-orange-600 dark:text-orange-400 hover:bg-orange-50 dark:hover:bg-orange-950 transition-colors"
+				title="Solo visible en desarrollo"
+			>
+				<svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+				</svg>
+				<span id="sumaFixLabel">Fix separación numerales</span>
+			</button>
+		</div>
+	)}
 
 	<!-- Árbol de navegación -->
 	<nav class="flex-1 py-3 px-2 overflow-y-auto">
@@ -129,3 +146,43 @@ function containsSlug(node: TreeNode, slug: string): boolean {
 		</p>
 	</div>
 </aside>
+
+<script>
+	function initSumaFixBtn() {
+		const btn = document.getElementById('sumaFixBlankLinesBtn');
+		const label = document.getElementById('sumaFixLabel');
+		if (!btn || btn.hasAttribute('data-fix-init')) return;
+		btn.setAttribute('data-fix-init', 'true');
+
+		btn.addEventListener('click', async () => {
+			if (label) label.textContent = 'Buscando archivos…';
+			btn.setAttribute('disabled', 'true');
+			try {
+				// Obtener todos los slugs de suma desde el árbol del sidebar
+				const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('#sidebar a[href^="/suma-teologica/"]'));
+				const slugs = links.map(a => a.getAttribute('href')!.replace('/suma-teologica/', '')).filter(Boolean);
+				if (label) label.textContent = `Procesando ${slugs.length} archivos…`;
+				const res = await fetch('/api/format-suma', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ slugs }),
+				});
+				const data = await res.json();
+				if (data.ok) {
+					const changed = data.results.filter((r: any) => r.changed).length;
+					if (label) label.textContent = `✓ ${changed} archivo(s) corregidos`;
+				} else {
+					if (label) label.textContent = 'Error';
+				}
+			} catch {
+				if (label) label.textContent = 'Error de red';
+			} finally {
+				btn.removeAttribute('disabled');
+				setTimeout(() => { if (label) label.textContent = 'Fix separación numerales'; }, 4000);
+			}
+		});
+	}
+
+	document.addEventListener('DOMContentLoaded', initSumaFixBtn);
+	document.addEventListener('astro:page-load', initSumaFixBtn);
+</script>

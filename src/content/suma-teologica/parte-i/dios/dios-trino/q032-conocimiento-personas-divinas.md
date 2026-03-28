@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Siguiendo el plan trazado, ahora hay que estudiar lo referente al conocimiento de las personas divinas. Esta cuestión plantea y exige respuesta a cuatro problemas.
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Las personas divinas, ¿pueden o no pueden ser conocidas por razón natural?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Hay o no hay que atribuir a las personas divinas algunas nociones?

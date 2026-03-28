@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Después de lo tratado, ahora hay que estudiar el modo de conocer de los ángeles. Esta cuestión plantea y exige respuesta a siete problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El entendimiento de los ángeles, ¿está o no está a veces en potencia y a veces en acto?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El ángel, ¿puede o no puede conocer simultáneamente muchas cosas?

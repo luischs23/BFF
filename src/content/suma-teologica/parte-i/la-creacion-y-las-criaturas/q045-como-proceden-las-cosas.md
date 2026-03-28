@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación y las criaturas"
 ---
 Ahora hay que tratar sobre cómo proceden las cosas del primer principio. Modo de proceder que llamamos creación. Esta cuestión plantea y exige respuesta a ocho problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Qué es la creación?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Dios, ¿puede o no puede crear algo?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Hay que tratar ahora lo referente a la relación personas-propiedades. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Relación, ¿es o no es lo mismo que persona?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Las relaciones, ¿distinguen y constituyen las personas?

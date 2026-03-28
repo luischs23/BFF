@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Porque parece cierto que al infinito le corresponde estar en todas partes y en todos los seres, hay que tratar si esto también le corresponde o no le corresponde a Dios. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Dios, ¿está o no está en todas las cosas?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Dios, ¿está o no está en todas partes?

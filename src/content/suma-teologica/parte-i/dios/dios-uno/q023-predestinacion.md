@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Tras el estudio de la providencia divina, hay que hacer ahora el de la predestinación y el del libro de la vida. La cuestión sobre la predestinación plantea y exige respuesta a ocho problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Le corresponde o no le corresponde a Dios la predestinación?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Qué es la predestinación? ¿Pone o no pone algo en el predestinado?

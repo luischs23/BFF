@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Después de haber tratado lo referente al conocimiento de lo divino, hay que introducirse ahora en el estudio de los nombres divinos, pues nosotros llamamos a cada cosa según el conocimiento que de ella tenemos. Esta cuestión plantea y exige respuesta a doce problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Puede o no puede Dios tener un nombre dado por nosotros?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Los nombres dados a Dios, ¿le son o no le son atribuibles sustancialmente?

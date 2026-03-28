@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Después de haber estudiado la ciencia y la voluntad divinas y todo lo relacionado con ellas, falta por analizar el poder de Dios. Esta cuestión plantea y exige respuesta a seis problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Hay o no hay poder en Dios?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Es o no es infinito su poder?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación y las criaturas"
 ---
 Siguiendo el plan trazado, ahora hay que tratar lo referente al principio de duración de las cosas creadas. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Las criaturas, ¿existieron o no existieron siempre?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El comienzo de las criaturas, ¿es o no es artículo de fe?

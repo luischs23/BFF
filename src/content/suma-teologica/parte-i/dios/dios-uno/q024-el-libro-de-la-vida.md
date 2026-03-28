@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Ahora hay que tratar lo referente al libro de la vida. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Qué es el libro de la vida?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿De qué vida es libro?

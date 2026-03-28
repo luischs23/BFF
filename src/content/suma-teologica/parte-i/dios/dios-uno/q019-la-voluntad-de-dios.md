@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Después de haber tratado lo referente a la ciencia divina, hay que estudiar ahora lo correspondiente a la voluntad divina. En primer lugar, la misma voluntad de Dios; después, lo que pertenece absolutamente a la voluntad divina; por último, lo que pertenece al entendimiento en su relación con la voluntad. La cuestión sobre la voluntad de Dios en sí misma plantea y exige respuesta a doce problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> En Dios, ¿hay o no hay voluntad?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Quiere o no quiere Dios lo distinto a El?

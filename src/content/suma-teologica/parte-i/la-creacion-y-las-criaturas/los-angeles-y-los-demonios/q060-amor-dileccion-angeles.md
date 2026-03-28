@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Ahora hay que tratar sobre el acto de la voluntad llamado amor o dilección, pues todo acto de la capacidad apetitiva deriva del amor o dilección. Esta cuestión plantea y exige respuesta a cinco problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> En los ángeles, ¿hay o no hay amor natural?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Y electivo?

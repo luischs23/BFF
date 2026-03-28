@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Ahora hay que tratar lo referente al medio del conocimiento angélico. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Los ángeles, ¿lo conocen todo por su sustancia o por algunas especies?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> Si es por las especies, ¿se trata de especies naturales o de especies tomadas de las cosas?

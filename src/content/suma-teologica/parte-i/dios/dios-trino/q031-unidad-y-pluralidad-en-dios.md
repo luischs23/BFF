@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios trino"
 ---
 Hay que tratar ahora lo referente a la unidad y pluralidad en Dios. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El mismo nombre Trinidad.
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Puede o no puede decirse: El Hijo es distinto del Padre?

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Puesto que entender lo hacen los vivientes, después de haber tratado lo referente a la ciencia y entendimiento de Dios, hay que analizar ahora lo concerniente a su vida. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Vivir, ¿quién lo hace?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Qué es la vida?
