@@ -3,16 +3,43 @@ import { readFile, writeFile } from "fs/promises";
 import { join } from "path";
 
 export const POST: APIRoute = async ({ request }) => {
-	const { slug } = await request.json();
+	const body = await request.json();
+
+	// Modo batch: { slugs: string[] }
+	if (Array.isArray(body.slugs)) {
+		const results: { slug: string; changed: boolean; error?: string }[] = [];
+		for (const slug of body.slugs) {
+			const filePath = join(process.cwd(), "src/content/suma-teologica", slug + ".md");
+			try {
+				const content = await readFile(filePath, "utf-8");
+				const formatted = formatSuma(content);
+				if (formatted === content) {
+					results.push({ slug, changed: false });
+				} else {
+					await writeFile(filePath, formatted, "utf-8");
+					results.push({ slug, changed: true });
+				}
+			} catch (e) {
+				results.push({ slug, changed: false, error: String(e) });
+			}
+		}
+		return new Response(JSON.stringify({ ok: true, results }), {
+			status: 200,
+			headers: { "Content-Type": "application/json" },
+		});
+	}
+
+	// Modo individual: { slug: string }
+	const { slug } = body;
 	if (!slug) return new Response(JSON.stringify({ error: "Missing slug" }), { status: 400 });
 
 	const filePath = join(process.cwd(), "src/content/suma-teologica", slug + ".md");
-
 	try {
 		const content = await readFile(filePath, "utf-8");
 		const formatted = formatSuma(content);
-		await writeFile(filePath, formatted, "utf-8");
-		return new Response(JSON.stringify({ ok: true }), {
+		const changed = formatted !== content;
+		if (changed) await writeFile(filePath, formatted, "utf-8");
+		return new Response(JSON.stringify({ ok: true, changed }), {
 			status: 200,
 			headers: { "Content-Type": "application/json" },
 		});

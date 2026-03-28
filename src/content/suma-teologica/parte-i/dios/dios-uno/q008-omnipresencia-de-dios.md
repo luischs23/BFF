@@ -6,42 +6,78 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Porque parece cierto que al infinito le corresponde estar en todas partes y en todos los seres, hay que tratar si esto también le corresponde o no le corresponde a Dios. Esta cuestión plantea y exige respuesta a cuatro problemas:
-1. Dios, ¿está o no está en todas las cosas?
-2. Dios, ¿está o no está en todas partes?
-3. Dios, ¿está o no está en todas partes por esencia, potencia y presencia?
-4. ¿Es o no es propio de Dios estar en todas partes?
-Artículo 1: Dios, ¿está o no está en todas las cosas?lat
-Objeciones por las que parece que Dios no está en todas las cosas:
-1. Lo que está sobre todo no está en todo. Pero Dios está sobre todo, siguiendo aquello del Sal 112,4: Excelso es el Señor sobre todos los pueblos. Luego Dios no está en todas las cosas.
-2. Lo que está en algo, está contenido. Pero Dios no está contenido por las cosas, sino que, más bien, Dios contiene lo creado. Luego Dios no está en las cosas sino, más bien, las cosas están en Él. De ahí que Agustín en el libro Octoginta trium quaest. diga que todas las cosas están en El más que El en parte alguna.
-3. Cuanto más poderoso es un agente, tanto más lejos llega su eficacia. Pero Dios es el más poderoso agente. Luego su acción puede llegar hasta las cosas más distantes de El; no siendo necesario que esté en todas las cosas.
-4. También los demonios son realidades creadas. Pero Dios no está en los demonios, ya que, como se dice en 2 Cor 6,14, no hay comunión posible entre la luz y las tinieblas. Luego Dios no está en todas las cosas.
-Contra esto: allí donde algo actúa, allí está presente. Pero Dios actúa en todos, según aquello de Is 26,12: Señor, Tú lo has hecho todo en nosotros. Luego Dios está en todas las cosas.
-Respondo: Dios está en todas las cosas, no dividiendo su esencia, o por accidente, sino como el agente está presente en lo que hace. Es imprescindible que el agente esté en contacto con lo que hace directamente y lo llene con su poder. En el VII Physic. se prueba que el motor y lo movido van juntos. Como quiera que Dios es por esencia el mismo ser, es necesario que el ser creado sea su propio efecto, como quemar es el efecto propio del fuego. Este efecto lo causa Dios en las cosas no sólo cuando empiezan a existir, sino a lo largo de su existir, como la luz que el sol provoca en el aire se mantiene mientras el aire está iluminado. Así, pues, cuanto más existe una cosa, tanto más es necesaria en ella la presencia de Dios según el modo propio de ser. Además, el ser es lo más íntimo de una cosa, lo que más la penetra, ya que es lo formal de todo lo que hay en la realidad, como quedó demostrado (q.4 a.1 ad 3). Por todo lo cual se concluye que Dios está en todas las cosas íntimamente.
-A las objeciones:
-1. Dios está sobre todo por la excelencia de su naturaleza; sin embargo, está en todas las cosas como causa de su ser, como se dijo anteriormente.
-2. Puede decirse que lo corporal está en algo como en su continente; sin embargo, lo espiritual contiene aquello en lo que está, como el alma contiene el cuerpo. De ahí que Dios esté en todas las cosas como el que contiene la realidad. Sin embargo, por cierta semejanza con lo corporal, se dice que todas las cosas están en Dios en cuanto están contenidas por El.
-3. No hay acción de ningún agente, sea cual sea su fuerza, que llegue a algo distante sin mediación. Y esto corresponde a la absoluta fuerza de Dios, que obra directamente en todos. De ahí que nada esté distante de El, pues nada hay que no tenga en sí a Dios. Sin embargo, se dice que las cosas están distantes de Dios por la desemejanza entre naturaleza y gracia, pues El está sobre todo por la excelencia de su naturaleza.
-4. En los demonios hay que distinguir entre su naturaleza, que proviene de Dios, y su culpa, que no proviene de El. Así, no es admisible en absoluto sostener que Dios esté en los demonios, sino sólo añadiendo: en cuanto son determinadas cosas. Por otra parte, en las cosas cuya naturaleza no está deformada, se puede sostener absolutamente que Dios está presente.
-Artículo 2: Dios, ¿está o no está en todas partes?lat
-Objeciones por las que parece que Dios no está en todas partes:
-1. Estar en todas partes significa estar en cualquier lugar. Pero estar en cualquier lugar no es propio de Dios, pues no le corresponde tener lugar, ya que, como dice Boecio en el libro de Hebdomad., lo incorporal no tiene lugar. Luego Dios no está en todas partes.
-2. La relación existente entre tiempo y sucesión es proporcional a la existente entre lugar y permanencia. Pero la unidad indivisible de la acción o del motor no puede darse en tiempos distintos. Consecuentemente, la unidad indivisible de lo permanente puede darse en todos los lugares. El ser divino no es sucesivo, sino permanente. Luego Dios no está en muchos lugares. Así, pues, no está en todas partes.
-3. El ser que está totalmente en algún lugar no puede tener parte fuera de él. Pero Dios, si está en algún lugar, está totalmente en él, pues no tiene partes. Luego nada de El está fuera de aquel lugar. Consecuentemente, Dios no está en todas partes.
-Contra esto: está lo que dice Jer 23,24: Yo lleno el cielo y la tierra.
-Respondo: Como quiera que el lugar es una cosa determinada, estar en algún lugar puede entenderse de dos maneras: O como están las demás cosas, es decir, como algo está del modo que sea en otras cosas, así los accidentes del lugar están en un lugar; o como algo que está según el modo propio de un lugar, así los seres colocados están en un lugar. En cierta manera, de ambos modos está Dios presente en todo lugar, que es lo mismo que estar en todas partes. El primer modo, porque así como está en todas las cosas dándoles ser, virtud y acción, así también está en todo lugar dándole virtud locativa. Así, las cosas colocadas están en un lugar llenándolo; y Dios lo llena todo. Pero no como el cuerpo; pues se dice que el cuerpo llena un lugar en cuanto que no lo puede ocupar otro cuerpo. En cambio, el que Dios esté en algún lugar, no impide que otros estén allí. Precisamente El llena todos los lugares, porque da ser a todas las cosas colocadas que son las que llenan todos los lugares.
-A las objeciones:
-1. Lo incorporal no está en un lugar por dimensión de volumen, sino por acción de poder.
-2. Lo indivisible hay que entenderlo de dos maneras. 1) Lo indivisible como límite de la cantidad continua, como el punto en lo permanente y el momento en lo sucesivo. Lo indivisible en lo permanente o tener un sitio determinado, no puede estar en muchas partes del lugar, o en muchos lugares. Igualmente, lo indivisible de la acción o del movimiento no puede estar en muchas partes del tiempo porque tiene un determinado orden en el movimiento o en la acción. 2) Otra manera de entender lo indivisible es lo indivisible como aquello que está fuera de todo género de lo continuo. Así, las sustancias incorporales, como Dios, el ángel, el alma, se dice que son indivisibles. Este tipo de indivisible no se aplica a la cantidad continua como si formase parte de ella, sino en cuanto actúa en ella con su poder operativo. De ahí que, como quiera que su poder puede llegar a uno o a muchos, a lo pequeño o a lo grande, por tal motivo puede estar en uno o en muchos lugares, en un lugar pequeño o grande.
-3. Algo es todo respecto a las partes. La parte puede entenderse de dos maneras. A saber: Parte de la esencia, como la forma y la materia son llamadas partes de un compuesto, o el género y la diferencia partes de una especie, y también parte de la cantidad. Aquel todo que está en un lugar con toda su cantidad no puede estar fuera de aquel lugar, porque toda cantidad colocada coincide exactamente con la cantidad del lugar; pues no puede haber un todo cuantitativo sin un todo locativo. En cambio, la totalidad de la esencia no se mide por la totalidad del lugar. De ahí que sea necesario que aquello que está con toda su esencia en un lugar no pueda estar de ningún modo fuera. Esto también se da en las formas accidentales que tienen una cantidad accidental. Ejemplo: Lo blanco, tomado en el sentido de toda la esencia de la blancura, se encuentra en todas las partes de una superficie blanca porque en cada uno de ellas tiene toda su perfección específica. Si, en cambio, se atiende a la cantidad accidental que posee, es evidente que no está en cada una de las partes de una superficie. En las sustancias incorporales no hay totalidad ni esencial ni accidentalmente, a no ser atendiendo sólo a la perfecta razón de ser de su esencia. Así como el alma está en cualquier parte del cuerpo, así Dios está totalmente en todos y cada uno.
-Artículo 3: Dios, ¿está o no está en todas partes por esencia, presencia y potencia?lat
-Objeciones por las que parece que se designa incorrectamente la presencia de Dios en las cosas cuando se dice que está por esencia, presencia y potencia:
-1. Estar por esencia en algo es ser esencial a aquello. Dios no está por esencia en las cosas, pues no es esencia de cosa alguna. Luego no debe decirse que Dios está en todas las cosas por esencia, presencia y potencia.
-2. Estar presente en alguna cosa significa no dejarla. Que Dios esté por esencia en alguna cosa significa no dejarla. Luego es lo mismo estar Dios en las cosas por esencia que por presencia. Por lo cual resulta superfluo decir que Dios está en las cosas por esencia, presencia y potencia.
-3. Como quiera que Dios es principio de todas las cosas por potencia, así también lo es por ciencia y voluntad. Pero no se dice que Dios esté en las cosas por ciencia y voluntad. Luego tampoco lo está por potencia.
-4. Como la gracia es una cierta perfección que se añade a la sustancia, así también se le añaden otras muchas perfecciones. Si se dice que Dios está de un modo especial presente en algunas cosas por gracia, también habrá un modo especial de estar Dios en las cosas para cualquier otra perfección.
-Contra esto: está lo que dice Gregorio en el comentario al Cant. Cantic.: Dios está en las cosas de un modo general por presencia, potencia y sustancia; y de un modo especial se dice que está en algunos por gracia.
-Respondo: Dios está en las cosas de un modo doble. 1) Uno, como causa agente; y así se dice que está en todas las cosas creadas por él. 2) Otro, como está en el agente el objeto de la acción. Esto es propio de las operaciones del alma como lo conocido está en el que conoce, y lo deseado en el que desea. De este segundo modo está Dios especialmente en las criaturas racionales, que le conocen y le aman actual o habitualmente. Como quiera que la criatura racional tiene esto por gracia, como veremos (q.43 a.3), se dice que está en los santos por gracia.
+<span class="suma-n"><a href="#art-1">1.</a></span> Dios, ¿está o no está en todas las cosas?
+
+<span class="suma-n"><a href="#art-2">2.</a></span> Dios, ¿está o no está en todas partes?
+
+<span class="suma-n"><a href="#art-3">3.</a></span> Dios, ¿está o no está en todas partes por esencia, potencia y presencia?
+
+<span class="suma-n"><a href="#art-4">4.</a></span> ¿Es o no es propio de Dios estar en todas partes?
+
+<h2 id="art-1">Artículo 1: Dios, ¿está o no está en todas las cosas?</h2>
+
+<strong>Objeciones por las que parece que Dios no está en todas las cosas:</strong>
+
+<span class="suma-n">1</span> Lo que está sobre todo no está en todo. Pero Dios está sobre todo, siguiendo aquello del Sal 112,4: Excelso es el Señor sobre todos los pueblos. Luego Dios no está en todas las cosas.
+
+<span class="suma-n">2</span> Lo que está en algo, está contenido. Pero Dios no está contenido por las cosas, sino que, más bien, Dios contiene lo creado. Luego Dios no está en las cosas sino, más bien, las cosas están en Él. De ahí que Agustín en el libro Octoginta trium quaest. diga que todas las cosas están en El más que El en parte alguna.
+
+<span class="suma-n">3</span> Cuanto más poderoso es un agente, tanto más lejos llega su eficacia. Pero Dios es el más poderoso agente. Luego su acción puede llegar hasta las cosas más distantes de El; no siendo necesario que esté en todas las cosas.
+
+<span class="suma-n">4</span> También los demonios son realidades creadas. Pero Dios no está en los demonios, ya que, como se dice en 2 Cor 6,14, no hay comunión posible entre la luz y las tinieblas. Luego Dios no está en todas las cosas.
+
+<strong>Contra esto:</strong> allí donde algo actúa, allí está presente. Pero Dios actúa en todos, según aquello de Is 26,12: Señor, Tú lo has hecho todo en nosotros. Luego Dios está en todas las cosas.
+
+<strong>Respondo:</strong> Dios está en todas las cosas, no dividiendo su esencia, o por accidente, sino como el agente está presente en lo que hace. Es imprescindible que el agente esté en contacto con lo que hace directamente y lo llene con su poder. En el VII Physic. se prueba que el motor y lo movido van juntos. Como quiera que Dios es por esencia el mismo ser, es necesario que el ser creado sea su propio efecto, como quemar es el efecto propio del fuego. Este efecto lo causa Dios en las cosas no sólo cuando empiezan a existir, sino a lo largo de su existir, como la luz que el sol provoca en el aire se mantiene mientras el aire está iluminado. Así, pues, cuanto más existe una cosa, tanto más es necesaria en ella la presencia de Dios según el modo propio de ser. Además, el ser es lo más íntimo de una cosa, lo que más la penetra, ya que es lo formal de todo lo que hay en la realidad, como quedó demostrado (q.4 a.1 ad 3). Por todo lo cual se concluye que Dios está en todas las cosas íntimamente.
+
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Dios está sobre todo por la excelencia de su naturaleza; sin embargo, está en todas las cosas como causa de su ser, como se dijo anteriormente.
+
+<span class="suma-n">2</span> Puede decirse que lo corporal está en algo como en su continente; sin embargo, lo espiritual contiene aquello en lo que está, como el alma contiene el cuerpo. De ahí que Dios esté en todas las cosas como el que contiene la realidad. Sin embargo, por cierta semejanza con lo corporal, se dice que todas las cosas están en Dios en cuanto están contenidas por El.
+
+<span class="suma-n">3</span> No hay acción de ningún agente, sea cual sea su fuerza, que llegue a algo distante sin mediación. Y esto corresponde a la absoluta fuerza de Dios, que obra directamente en todos. De ahí que nada esté distante de El, pues nada hay que no tenga en sí a Dios. Sin embargo, se dice que las cosas están distantes de Dios por la desemejanza entre naturaleza y gracia, pues El está sobre todo por la excelencia de su naturaleza.
+
+<span class="suma-n">4</span> En los demonios hay que distinguir entre su naturaleza, que proviene de Dios, y su culpa, que no proviene de El. Así, no es admisible en absoluto sostener que Dios esté en los demonios, sino sólo añadiendo: en cuanto son determinadas cosas. Por otra parte, en las cosas cuya naturaleza no está deformada, se puede sostener absolutamente que Dios está presente.
+
+<h2 id="art-2">Artículo 2: Dios, ¿está o no está en todas partes?</h2>
+
+<strong>Objeciones por las que parece que Dios no está en todas partes:</strong>
+
+<span class="suma-n">1</span> Estar en todas partes significa estar en cualquier lugar. Pero estar en cualquier lugar no es propio de Dios, pues no le corresponde tener lugar, ya que, como dice Boecio en el libro de Hebdomad., lo incorporal no tiene lugar. Luego Dios no está en todas partes.
+
+<span class="suma-n">2</span> La relación existente entre tiempo y sucesión es proporcional a la existente entre lugar y permanencia. Pero la unidad indivisible de la acción o del motor no puede darse en tiempos distintos. Consecuentemente, la unidad indivisible de lo permanente puede darse en todos los lugares. El ser divino no es sucesivo, sino permanente. Luego Dios no está en muchos lugares. Así, pues, no está en todas partes.
+
+<span class="suma-n">3</span> El ser que está totalmente en algún lugar no puede tener parte fuera de él. Pero Dios, si está en algún lugar, está totalmente en él, pues no tiene partes. Luego nada de El está fuera de aquel lugar. Consecuentemente, Dios no está en todas partes.
+
+<strong>Contra esto:</strong> está lo que dice Jer 23,24: Yo lleno el cielo y la tierra.
+
+<strong>Respondo:</strong> Como quiera que el lugar es una cosa determinada, estar en algún lugar puede entenderse de dos maneras: O como están las demás cosas, es decir, como algo está del modo que sea en otras cosas, así los accidentes del lugar están en un lugar; o como algo que está según el modo propio de un lugar, así los seres colocados están en un lugar. En cierta manera, de ambos modos está Dios presente en todo lugar, que es lo mismo que estar en todas partes. El primer modo, porque así como está en todas las cosas dándoles ser, virtud y acción, así también está en todo lugar dándole virtud locativa. Así, las cosas colocadas están en un lugar llenándolo; y Dios lo llena todo. Pero no como el cuerpo; pues se dice que el cuerpo llena un lugar en cuanto que no lo puede ocupar otro cuerpo. En cambio, el que Dios esté en algún lugar, no impide que otros estén allí. Precisamente El llena todos los lugares, porque da ser a todas las cosas colocadas que son las que llenan todos los lugares.
+
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Lo incorporal no está en un lugar por dimensión de volumen, sino por acción de poder.
+
+<span class="suma-n">2</span> Lo indivisible hay que entenderlo de dos maneras. 1) Lo indivisible como límite de la cantidad continua, como el punto en lo permanente y el momento en lo sucesivo. Lo indivisible en lo permanente o tener un sitio determinado, no puede estar en muchas partes del lugar, o en muchos lugares. Igualmente, lo indivisible de la acción o del movimiento no puede estar en muchas partes del tiempo porque tiene un determinado orden en el movimiento o en la acción. 2) Otra manera de entender lo indivisible es lo indivisible como aquello que está fuera de todo género de lo continuo. Así, las sustancias incorporales, como Dios, el ángel, el alma, se dice que son indivisibles. Este tipo de indivisible no se aplica a la cantidad continua como si formase parte de ella, sino en cuanto actúa en ella con su poder operativo. De ahí que, como quiera que su poder puede llegar a uno o a muchos, a lo pequeño o a lo grande, por tal motivo puede estar en uno o en muchos lugares, en un lugar pequeño o grande.
+
+<span class="suma-n">3</span> Algo es todo respecto a las partes. La parte puede entenderse de dos maneras. A saber: Parte de la esencia, como la forma y la materia son llamadas partes de un compuesto, o el género y la diferencia partes de una especie, y también parte de la cantidad. Aquel todo que está en un lugar con toda su cantidad no puede estar fuera de aquel lugar, porque toda cantidad colocada coincide exactamente con la cantidad del lugar; pues no puede haber un todo cuantitativo sin un todo locativo. En cambio, la totalidad de la esencia no se mide por la totalidad del lugar. De ahí que sea necesario que aquello que está con toda su esencia en un lugar no pueda estar de ningún modo fuera. Esto también se da en las formas accidentales que tienen una cantidad accidental. Ejemplo: Lo blanco, tomado en el sentido de toda la esencia de la blancura, se encuentra en todas las partes de una superficie blanca porque en cada uno de ellas tiene toda su perfección específica. Si, en cambio, se atiende a la cantidad accidental que posee, es evidente que no está en cada una de las partes de una superficie. En las sustancias incorporales no hay totalidad ni esencial ni accidentalmente, a no ser atendiendo sólo a la perfecta razón de ser de su esencia. Así como el alma está en cualquier parte del cuerpo, así Dios está totalmente en todos y cada uno.
+
+<h2 id="art-3">Artículo 3: Dios, ¿está o no está en todas partes por esencia, presencia y potencia?</h2>
+
+<strong>Objeciones por las que parece que se designa incorrectamente la presencia de Dios en las cosas cuando se dice que está por esencia, presencia y potencia:</strong>
+
+<span class="suma-n">1</span> Estar por esencia en algo es ser esencial a aquello. Dios no está por esencia en las cosas, pues no es esencia de cosa alguna. Luego no debe decirse que Dios está en todas las cosas por esencia, presencia y potencia.
+
+<span class="suma-n">2</span> Estar presente en alguna cosa significa no dejarla. Que Dios esté por esencia en alguna cosa significa no dejarla. Luego es lo mismo estar Dios en las cosas por esencia que por presencia. Por lo cual resulta superfluo decir que Dios está en las cosas por esencia, presencia y potencia.
+
+<span class="suma-n">3</span> Como quiera que Dios es principio de todas las cosas por potencia, así también lo es por ciencia y voluntad. Pero no se dice que Dios esté en las cosas por ciencia y voluntad. Luego tampoco lo está por potencia.
+
+<span class="suma-n">4</span> Como la gracia es una cierta perfección que se añade a la sustancia, así también se le añaden otras muchas perfecciones. Si se dice que Dios está de un modo especial presente en algunas cosas por gracia, también habrá un modo especial de estar Dios en las cosas para cualquier otra perfección.
+
+<strong>Contra esto:</strong> está lo que dice Gregorio en el comentario al Cant. Cantic.: Dios está en las cosas de un modo general por presencia, potencia y sustancia; y de un modo especial se dice que está en algunos por gracia.
+
+<strong>Respondo:</strong> Dios está en las cosas de un modo doble. 1) Uno, como causa agente; y así se dice que está en todas las cosas creadas por él. 2) Otro, como está en el agente el objeto de la acción. Esto es propio de las operaciones del alma como lo conocido está en el que conoce, y lo deseado en el que desea. De este segundo modo está Dios especialmente en las criaturas racionales, que le conocen y le aman actual o habitualmente. Como quiera que la criatura racional tiene esto por gracia, como veremos (q.43 a.3), se dice que está en los santos por gracia.
+
 Lo referente a cómo está en las demás criaturas se puede entender considerando lo que sucede en las demás cosas humanas. Se dice que el rey está en potencia en todo su reino, aunque no esté presente físicamente en todas partes. Se dice que alguien está por presencia en todo lo que cae bajo su mirada. Así se dice que alguien está en casa y, sin embargo, sustancialmente no está en todas y cada una de las partes de la casa. Por sustancia o esencia se dice de aquel que está presente en un lugar ocupado por su totalidad física.
 
 Hubo algunos, los maniqueos en concreto, que enseñaban que, así como las realidades espirituales e incorporales eran tales por potestad divina, las realidades visibles y corporales lo eran por potestad de su principio contrario. Contra ellos hay que decir que Dios está en todos por su poder. Hubo otros que, aun cuando confesaron que todo está sujeto al poder de Dios, sin embargo, negaban que la Providencia divina se ocupara de las cosas de este mundo siguiendo lo que se dice en Job 22,14: Se pasea por la bóveda del firmamento y se desentiende de lo nuestro. Contra éstos hubo que decir que está en todas partes.
@@ -50,27 +86,48 @@ Además hubo quienes, aun cuando admitieron la providencia de Dios sobre todo, s
 
 Así, pues, hay que decir que está en todos por potencia en cuanto que todo está sometido a su poder; que está por presencia en todos en cuanto que todo queda al descubierto ante El; que está en todos por esencia en cuanto que está presente en todos como razón de ser, como se dijo (a.1).
 
-A las objeciones:
-1. Dios está presente en todos por esencia, pero no la esencia de las cosas, como si El fuera de la esencia de las cosas, sino por su esencia, porque su sustancia está presente en todos como causa de su ser, como ya se dijo (a.1).
-2. Algo puede estar en presencia de alguien por estar al alcance de la mirada, y, sin embargo, sustancialmente estar distante como ya se dijo. Así, es preciso establecer dos modos de estar: uno por esencia; otro, por presencia.
-3. Al concepto de ciencia y de voluntad pertenece el que lo conocido esté en el que conoce, y lo querido en el que lo quiere. Por eso, y atendiendo a la ciencia y a la voluntad, lo creado está más en Dios que Dios en lo creado. En cambio, propio del poder es que sea principio de actuar en otro, de ahí que todo agente esté orientado, por su poder operativo, a algo externo a él. Es así como se puede decir que alguien está por potencia en otro.
-4. Ninguna perfección añadida a la sustancia hace que Dios esté en alguien como algo conocido y amado. Sólo la gracia. Así, sólo la gracia hace que Dios esté de un modo especial en las cosas. Sin embargo, hay otro modo especial de estar Dios en el hombre: por unión. Pero esto ya lo trataremos (3 q.2).
-Artículo 4: ¿Es o no es propio de Dios estar en todas partes?lat
-Objeciones por las que parece que estar en todas partes no es propio de Dios:
-1. Según el Filósofo, lo universal está en todas partes permanentemente. También la materia prima, por estar en todos los cuerpos, está en todas partes. Pero Dios no es nada de todo eso, como quedó demostrado (q.3 a.5,8). Luego no es propio de Dios estar en todas partes.
-2. El número está en lo numerado. Pero el universo entero está constituido en el número, como consta en Sab 11,21. Luego hay algún número que está en todo el universo; y, por tanto, en todas partes.
-3. Como se dice en I Caeli et Mundi, el universo entero es como un todo corpóreo perfecto. Pero el universo entero está en todas partes, porque fuera de él no hay lugar. Luego no sólo Dios está en todas partes.
-4. Si algún cuerpo fuera infinito, no habría lugar fuera de él. Luego estaría en todas partes. Así, no parece que sea propio de Dios estar en todas partes.
-5. Dice Agustín en VI De Trin.: El alma está toda en el cuerpo, y toda en cada una de sus partes. Por tanto, si no hubiera en el mundo más que un único animal, su alma estaría en todas partes. Y así, no parece que sea propio de Dios estar en todas partes.
-6. Escribe Agustín en su carta a Volusiano: Donde el alma ve, allí siente; donde siente, allí vive; donde vive, allí existe. Pero el alma lo ve casi todo, porque de forma sucesiva ve también en el cielo. Luego el alma está en todas partes.
-Contra esto: está lo que dice Ambrosio en el libro De Spiritu Sancto: ¿Quién se atreverá a decir que el Espíritu Santo es una criatura, precisamente El que está en todo, en todas partes permanentemente, lo cual es propio de la divinidad?
-Respondo: Ante todo y sobre todo, estar en todas partes es propio de Dios. Digo ante todo porque, en cuanto tal, Dios está totalmente en todas partes. Pues si algo estuviese en todas partes, estando en diversos lugares según sus partes, no podría decirse que ante todo está en todas partes, ya que no puede aplicarse el ante todo a lo que es una particularidad de la parte. Ejemplo: Si un hombre tiene los dientes blancos, la blancura no corresponde ante todo al hombre, sino a los dientes. Y digo sobre todo porque no le corresponde estar accidentalmente en todas partes, es decir, como consecuencia de una suposición. Ejemplo: Un grano de mijo está en todas partes suponiendo que no existiera nada más que aquel grano de mijo.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Dios está presente en todos por esencia, pero no la esencia de las cosas, como si El fuera de la esencia de las cosas, sino por su esencia, porque su sustancia está presente en todos como causa de su ser, como ya se dijo (a.1).
+
+<span class="suma-n">2</span> Algo puede estar en presencia de alguien por estar al alcance de la mirada, y, sin embargo, sustancialmente estar distante como ya se dijo. Así, es preciso establecer dos modos de estar: uno por esencia; otro, por presencia.
+
+<span class="suma-n">3</span> Al concepto de ciencia y de voluntad pertenece el que lo conocido esté en el que conoce, y lo querido en el que lo quiere. Por eso, y atendiendo a la ciencia y a la voluntad, lo creado está más en Dios que Dios en lo creado. En cambio, propio del poder es que sea principio de actuar en otro, de ahí que todo agente esté orientado, por su poder operativo, a algo externo a él. Es así como se puede decir que alguien está por potencia en otro.
+
+<span class="suma-n">4</span> Ninguna perfección añadida a la sustancia hace que Dios esté en alguien como algo conocido y amado. Sólo la gracia. Así, sólo la gracia hace que Dios esté de un modo especial en las cosas. Sin embargo, hay otro modo especial de estar Dios en el hombre: por unión. Pero esto ya lo trataremos (3 q.2).
+
+<h2 id="art-4">Artículo 4: ¿Es o no es propio de Dios estar en todas partes?</h2>
+
+<strong>Objeciones por las que parece que estar en todas partes no es propio de Dios:</strong>
+
+<span class="suma-n">1</span> Según el Filósofo, lo universal está en todas partes permanentemente. También la materia prima, por estar en todos los cuerpos, está en todas partes. Pero Dios no es nada de todo eso, como quedó demostrado (q.3 a.5,8). Luego no es propio de Dios estar en todas partes.
+
+<span class="suma-n">2</span> El número está en lo numerado. Pero el universo entero está constituido en el número, como consta en Sab 11,21. Luego hay algún número que está en todo el universo; y, por tanto, en todas partes.
+
+<span class="suma-n">3</span> Como se dice en I Caeli et Mundi, el universo entero es como un todo corpóreo perfecto. Pero el universo entero está en todas partes, porque fuera de él no hay lugar. Luego no sólo Dios está en todas partes.
+
+<span class="suma-n">4</span> Si algún cuerpo fuera infinito, no habría lugar fuera de él. Luego estaría en todas partes. Así, no parece que sea propio de Dios estar en todas partes.
+
+<span class="suma-n">5</span> Dice Agustín en VI De Trin.: El alma está toda en el cuerpo, y toda en cada una de sus partes. Por tanto, si no hubiera en el mundo más que un único animal, su alma estaría en todas partes. Y así, no parece que sea propio de Dios estar en todas partes.
+
+<span class="suma-n">6</span> Escribe Agustín en su carta a Volusiano: Donde el alma ve, allí siente; donde siente, allí vive; donde vive, allí existe. Pero el alma lo ve casi todo, porque de forma sucesiva ve también en el cielo. Luego el alma está en todas partes.
+
+<strong>Contra esto:</strong> está lo que dice Ambrosio en el libro De Spiritu Sancto: ¿Quién se atreverá a decir que el Espíritu Santo es una criatura, precisamente El que está en todo, en todas partes permanentemente, lo cual es propio de la divinidad?
+
+<strong>Respondo:</strong> Ante todo y sobre todo, estar en todas partes es propio de Dios. Digo ante todo porque, en cuanto tal, Dios está totalmente en todas partes. Pues si algo estuviese en todas partes, estando en diversos lugares según sus partes, no podría decirse que ante todo está en todas partes, ya que no puede aplicarse el ante todo a lo que es una particularidad de la parte. Ejemplo: Si un hombre tiene los dientes blancos, la blancura no corresponde ante todo al hombre, sino a los dientes. Y digo sobre todo porque no le corresponde estar accidentalmente en todas partes, es decir, como consecuencia de una suposición. Ejemplo: Un grano de mijo está en todas partes suponiendo que no existiera nada más que aquel grano de mijo.
+
 Así, pues, estar en todas partes sobre todo es propio de aquello que, considerado bajo cualquier aspecto o suposición, le corresponde estar en todas partes. Esto es lo que propiamente le corresponde a Dios. Pues, a pesar de que sean muchos los lugares que se supongan, incluso si hubiera muchos más de los que hay, necesariamente Dios estaría en todos porque nada puede existir si no es por El. Así, pues, ante todo y sobre todo le corresponde a Dios estar en todas partes, y es propio de El, porque, por muchos que sean los lugares que se pongan, es necesario que en cualquiera esté Dios. Y no una parte suya, sino todo El en sí mismo.
 
-A las objeciones:
-1. Lo universal y la materia prima están en todas partes ciertamente, pero no con el mismo ser.
-2. Al número, por ser un accidente, no le corresponde estar en un lugar más que por accidente. Y en lo enumerado no está totalmente, sino en parte. Consecuentemente no está ante todo y sobre todo en todas partes.
-3. El cuerpo entero del universo está en todas partes, pero no ante todo, pues su totalidad no está en cualquier lugar, sino sólo por partes. Y tampoco está simplemente por ser tal, pues, supuestos otros lugares, no estaría en ellos.
-4. Si hubiera un cuerpo infinito, estaría por doquier, pero sólo por partes.
-5. Si no hubiera más que un solo animal, efectivamente su alma estaría ante todo en todas partes, pero por accidente.
-6. El alma puede ver en alguna parte, puede entenderse de dos maneras. La primera, cuando el adverbio en alguna parte indica el acto de ver por parte del objeto. Así es cierto que ver el cielo es ver en el cielo; y, por el mismo motivo, siente en el cielo. Sin embargo, no puede deducirse que viva y esté en el cielo, porque vivir y estar no conllevan el acto de pasar a algo externo a uno mismo. La segunda manera de entenderlo es cuando el adverbio significa el acto de ver que procede del que ve. Así es cierto que, hablando en este sentido, el alma donde siente y ve, allí está y vive. Pero no se sigue que esté en todas partes.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Lo universal y la materia prima están en todas partes ciertamente, pero no con el mismo ser.
+
+<span class="suma-n">2</span> Al número, por ser un accidente, no le corresponde estar en un lugar más que por accidente. Y en lo enumerado no está totalmente, sino en parte. Consecuentemente no está ante todo y sobre todo en todas partes.
+
+<span class="suma-n">3</span> El cuerpo entero del universo está en todas partes, pero no ante todo, pues su totalidad no está en cualquier lugar, sino sólo por partes. Y tampoco está simplemente por ser tal, pues, supuestos otros lugares, no estaría en ellos.
+
+<span class="suma-n">4</span> Si hubiera un cuerpo infinito, estaría por doquier, pero sólo por partes.
+
+<span class="suma-n">5</span> Si no hubiera más que un solo animal, efectivamente su alma estaría ante todo en todas partes, pero por accidente.
+
+<span class="suma-n">6</span> El alma puede ver en alguna parte, puede entenderse de dos maneras. La primera, cuando el adverbio en alguna parte indica el acto de ver por parte del objeto. Así es cierto que ver el cielo es ver en el cielo; y, por el mismo motivo, siente en el cielo. Sin embargo, no puede deducirse que viva y esté en el cielo, porque vivir y estar no conllevan el acto de pasar a algo externo a uno mismo. La segunda manera de entenderlo es cuando el adverbio significa el acto de ver que procede del que ve. Así es cierto que, hablando en este sentido, el alma donde siente y ve, allí está y vive. Pero no se sigue que esté en todas partes.

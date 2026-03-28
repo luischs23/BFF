@@ -6,21 +6,36 @@ parte: "I"
 seccion: "Dios uno"
 ---
 Puesto que la ciencia lo es de lo verdadero, después de haber analizado lo referente a la ciencia de Dios, hay que investigar ahora lo concerniente a la verdad. Esta cuestión plantea y exige respuesta a ocho problemas:
-1. La verdad, ¿está en las cosas o sólo en el entendimiento?
-2. ¿Está o no está sólo en el entendimiento que compone y divide?
-3. Relación entre verdadero y ser.
-4. Relación entre verdadero y bien.
-5. Dios, ¿es o no es la verdad?
-6. ¿Todo es verdadero con una sola verdad o con muchas?
-7. Sobre la eternidad de la verdad.
-8. Sobre su inmutabilidad.
-Artículo 1: La verdad, ¿está o no está sólo en el entendimiento?lat
-Objeciones por las que parece que la verdad no está sólo en el entendimiento, sino más bien en las cosas.
-1. Agustín, en el libro Soliloq. rechaza la siguiente definición de verdadero: Verdadero es lo que se ve; porque, de ser así, las piedras que están en lo más profundo de la tierra, porque no se ven, no serían verdaderas piedras. También rechaza la siguiente: Verdadero es aquello que es tal como le parece al que lo conoce, si quiere y puede conocerlo; porque, de ser así, si nada pudiera ser conocido, nada sería verdadero. Y define lo verdadero de la siguiente manera: Verdadero es lo que existe. Por lo que parece que la verdad está en las cosas y no en el entendimiento.
-2. Lo que es verdadero, lo es por la verdad. Así pues, si la verdad está sólo en el entendimiento, nada será verdadero más que cuando es conocido; y éste es uno de los errores de los antiguos filósofos cuando decían: Es verdadero todo lo que lo parece. De ser así, cosas contradictorias serían simultáneamente verdaderas si a diversos pensadores simultáneamente les pareciera que cosas contradictorias son verdaderas.
-3. Como consta en I Poster.: Aquello de lo que depende una cosa es más que ella. Pero, tal como dice el Filósofo en Praedicamentis: De que una cosa sea o no sea depende que una opinión u oración gramatical sea verdadera o falsa. Luego la verdad está más en las cosas que en el entendimiento.
-Contra esto: está lo que el Filósofo dice en VI Metaphys.: Lo verdadero y lo falso no están en las cosas, sino en el entendimiento.
-Respondo: Así como se llama bien aquello a lo que tiende el apetito, se llama verdadero aquello a lo que tiende el entendimiento. La diferencia entre el apetito, el entendimiento o cualquier otro tipo de facultad, está en que el conocimiento es tal según está lo conocido en quien lo conoce; y el apetito es tal según el que apetece tiende hacia lo apetecido. De este modo, el fin del apetito, que es el bien, está en lo apetecido; pero el fin del conocimiento, que es lo verdadero, está en el mismo entendimiento. Como el bien está en la cosa, en cuanto que está relacionada con el apetito; y por eso la razón de bondad deriva de la cosa apetecida al apetito, por lo cual, si es apetito del bien se llama apetito bueno; así también, como lo verdadero está en el entendimiento en cuanto que hay conformidad entre éste y lo conocido, es necesario que la razón de verdadero derive del entendimiento a lo conocido, como también se llama verdadera aquella cosa conocida en cuanto que tiene alguna relación con el entendimiento.
+<span class="suma-n"><a href="#art-1">1.</a></span> La verdad, ¿está en las cosas o sólo en el entendimiento?
+
+<span class="suma-n"><a href="#art-2">2.</a></span> ¿Está o no está sólo en el entendimiento que compone y divide?
+
+<span class="suma-n"><a href="#art-3">3.</a></span> Relación entre verdadero y ser.
+
+<span class="suma-n"><a href="#art-4">4.</a></span> Relación entre verdadero y bien.
+
+<span class="suma-n"><a href="#art-5">5.</a></span> Dios, ¿es o no es la verdad?
+
+<span class="suma-n"><a href="#art-6">6.</a></span> ¿Todo es verdadero con una sola verdad o con muchas?
+
+<span class="suma-n"><a href="#art-7">7.</a></span> Sobre la eternidad de la verdad.
+
+<span class="suma-n"><a href="#art-8">8.</a></span> Sobre su inmutabilidad.
+
+<h2 id="art-1">Artículo 1: La verdad, ¿está o no está sólo en el entendimiento?</h2>
+
+<strong>Objeciones por las que parece que la verdad no está sólo en el entendimiento, sino más bien en las cosas.</strong>
+
+<span class="suma-n">1</span> Agustín, en el libro Soliloq. rechaza la siguiente definición de verdadero: Verdadero es lo que se ve; porque, de ser así, las piedras que están en lo más profundo de la tierra, porque no se ven, no serían verdaderas piedras. También rechaza la siguiente: Verdadero es aquello que es tal como le parece al que lo conoce, si quiere y puede conocerlo; porque, de ser así, si nada pudiera ser conocido, nada sería verdadero. Y define lo verdadero de la siguiente manera: Verdadero es lo que existe. Por lo que parece que la verdad está en las cosas y no en el entendimiento.
+
+<span class="suma-n">2</span> Lo que es verdadero, lo es por la verdad. Así pues, si la verdad está sólo en el entendimiento, nada será verdadero más que cuando es conocido; y éste es uno de los errores de los antiguos filósofos cuando decían: Es verdadero todo lo que lo parece. De ser así, cosas contradictorias serían simultáneamente verdaderas si a diversos pensadores simultáneamente les pareciera que cosas contradictorias son verdaderas.
+
+<span class="suma-n">3</span> Como consta en I Poster.: Aquello de lo que depende una cosa es más que ella. Pero, tal como dice el Filósofo en Praedicamentis: De que una cosa sea o no sea depende que una opinión u oración gramatical sea verdadera o falsa. Luego la verdad está más en las cosas que en el entendimiento.
+
+<strong>Contra esto:</strong> está lo que el Filósofo dice en VI Metaphys.: Lo verdadero y lo falso no están en las cosas, sino en el entendimiento.
+
+<strong>Respondo:</strong> Así como se llama bien aquello a lo que tiende el apetito, se llama verdadero aquello a lo que tiende el entendimiento. La diferencia entre el apetito, el entendimiento o cualquier otro tipo de facultad, está en que el conocimiento es tal según está lo conocido en quien lo conoce; y el apetito es tal según el que apetece tiende hacia lo apetecido. De este modo, el fin del apetito, que es el bien, está en lo apetecido; pero el fin del conocimiento, que es lo verdadero, está en el mismo entendimiento. Como el bien está en la cosa, en cuanto que está relacionada con el apetito; y por eso la razón de bondad deriva de la cosa apetecida al apetito, por lo cual, si es apetito del bien se llama apetito bueno; así también, como lo verdadero está en el entendimiento en cuanto que hay conformidad entre éste y lo conocido, es necesario que la razón de verdadero derive del entendimiento a lo conocido, como también se llama verdadera aquella cosa conocida en cuanto que tiene alguna relación con el entendimiento.
+
 La relación que lo conocido tiene con el entendimiento puede ser esencial o accidental. Es esencial cuando su propio existir depende del entendimiento; y accidental en cuanto que es cognoscible por el entendimiento. Ejemplo: Una casa tiene relación esencial con el entendimiento de su constructor; y accidental con cualquier otro entendimiento del que no dependa.
 
 Pues bien, el juicio sobre una cosa se fundamenta en lo que es esencial en ella, no en lo que en ella es accidental. Por eso, cualquier cosa se dice que es absolutamente verdadera según la relación que tiene con el entendimiento del que depende. Por eso también, se dice que las cosas artificiales son llamadas verdaderas por su relación con nuestro entendimiento. Así, se dice que una casa es verdadera cuando se asemeja a la imagen que hay en la mente del constructor; y que una frase es verdadera cuando expresa un pensamiento verdadero.
@@ -29,90 +44,168 @@ Asimismo, se dice que las cosas son verdaderas por asemejarse a la imagen de las
 
 Según todo esto, la verdad puede ser definida de varias maneras. Pues Agustín, en el libro De Vera Relig., dice: La verdad es aquello con lo que se pone al descubierto lo que algo es. E Hilario dice: Verdadero es el ser que desvela, que deja en evidencia. Todo eso se refiere a la verdad en cuanto que está en el entendimiento. A la verdad de algo en cuanto relacionado con el entendimiento pertenece la definición que Agustín da en el libro De Vera Relig.: La verdad es la semejanza total con el principio; en ella no hay ninguna disimilitud. Y aquella definición que da Anselmo: Verdad es la rectitud sólo perceptible por la mente; pues coherencia es lo que concuerda con el principio. También la definición que da Avicena: La verdad de una cosa es la propiedad del ser que está afincado en ella. Cuando se dice: Verdad es la adecuación entre objeto y entendimiento, esto incluye los dos aspectos indicados.
 
-A las objeciones:
-1. Agustín habla de la verdad del objeto, excluyendo, del concepto de este tipo de verdad, su relación con nuestro entendimiento. Pues todo lo accidental queda excluido de cualquier definición.
-2. Los antiguos no sostenían que las especies naturales provenían de algún entendimiento, sino de la casualidad. Y porque consideraban que lo verdadero conlleva relación con el entendimiento, se vieron obligados a construir la verdad de las cosas en relación con nuestro entendimiento. De todo lo cual se seguían una serie de inconvenientes que el Filósofo menciona en IV Metaphys. Estos inconvenientes no se dan si la verdad de las cosas la constituimos en relación con el entendimiento divino.
-3. Aun cuando la verdad de nuestro entendimiento está causada por el objeto, sin embargo, no es necesario que la razón de verdad se encuentre primero en el objeto. Ejemplo: La razón de salud no se encuentra antes en la medicina que en el animal; pues el poder de la medicina, no su salud, causa salud, ya que no es agente unívoco. Igualmente, el ser del objeto, no su verdad, causa la verdad del entendimiento. Por eso, el Filósofo dice que la opinión y la oración gramatical verdadera lo es Por aquello que algo es; no Por aquello que algo es verdadero.
-Artículo 2: La verdad, ¿está o no está en el entendimiento que compone y divide?lat
-Objeciones por las que parece que la verdad no está sólo en el entendimiento que compone y divide:
-1. El Filósofo, en el III De Anima dice que, así como los sentidos, que captan lo sensible, siempre son verdaderos, así también lo es el entendimiento, que conoce de algo aquello que es. Pero la composición y división no están ni en el sentido ni en el entendimiento que conoce lo que es. Luego la verdad no está sólo en el entendimiento que compone y divide.
-2. En el libro De definitionibus, Isaac dice que la verdad es la adecuación entre el objeto y el entendimiento. Pero así como el entendimiento de lo complejo puede adecuarse a las cosas, también lo podrá hacer el entendimiento de lo no complejo, y también el sentido que siente una cosa como es. Luego la verdad no está sólo en el entendimiento que compone y divide.
-Contra esto: está lo que dice el Filósofo en VI Metaphys.: Sobre lo simple y sobre lo que algo es no hay verdad ni en el entendimiento ni en las cosas.
-Respondo: Como ya se dijo (a.1), lo verdadero, en cuanto a su primera razón, está en el entendimiento. Como toda cosa es verdadera en cuanto que tiene la forma propia de su naturaleza, es necesario que el entendimiento, en cuanto que conoce, sea verdadero en cuanto tiene la imagen de lo conocido, que es la forma del entendimiento en cuanto que conoce. Y por eso, la verdad se define como la adecuación entre el entendimiento y el objeto. De ahí que conocer tal adecuación sea conocer la verdad. Esto no lo conocen de ninguna manera los sentidos; pues aunque la vista tenga la imagen de lo visible, sin embargo, no conoce la adecuación existente entre lo visto y lo que aprehende de él. No obstante, el entendimiento puede conocer la adecuación existente entre él y lo conocido; pero no la aprehende por conocer de algo aquello que es, sino cuando juzga que hay adecuación entre la realidad y la forma que de tal realidad aprehende. Entonces, en primer lugar conoce y dice lo verdadero. Y esto lo hace componiendo y dividiendo; pues en toda proposición, la forma indicada por el predicado o la aplica a alguna cosa concretada en el sujeto, o la separa de ella. Así, parece bien que sea verdadero el sentido al sentir algo, o que lo sea el entendimiento conociendo de algo lo que es; pero no porque conozca o diga lo verdadero. Lo mismo cabe decir de frases complejas o incomplejas.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Agustín habla de la verdad del objeto, excluyendo, del concepto de este tipo de verdad, su relación con nuestro entendimiento. Pues todo lo accidental queda excluido de cualquier definición.
+
+<span class="suma-n">2</span> Los antiguos no sostenían que las especies naturales provenían de algún entendimiento, sino de la casualidad. Y porque consideraban que lo verdadero conlleva relación con el entendimiento, se vieron obligados a construir la verdad de las cosas en relación con nuestro entendimiento. De todo lo cual se seguían una serie de inconvenientes que el Filósofo menciona en IV Metaphys. Estos inconvenientes no se dan si la verdad de las cosas la constituimos en relación con el entendimiento divino.
+
+<span class="suma-n">3</span> Aun cuando la verdad de nuestro entendimiento está causada por el objeto, sin embargo, no es necesario que la razón de verdad se encuentre primero en el objeto. Ejemplo: La razón de salud no se encuentra antes en la medicina que en el animal; pues el poder de la medicina, no su salud, causa salud, ya que no es agente unívoco. Igualmente, el ser del objeto, no su verdad, causa la verdad del entendimiento. Por eso, el Filósofo dice que la opinión y la oración gramatical verdadera lo es Por aquello que algo es; no Por aquello que algo es verdadero.
+
+<h2 id="art-2">Artículo 2: La verdad, ¿está o no está en el entendimiento que compone y divide?</h2>
+
+<strong>Objeciones por las que parece que la verdad no está sólo en el entendimiento que compone y divide:</strong>
+
+<span class="suma-n">1</span> El Filósofo, en el III De Anima dice que, así como los sentidos, que captan lo sensible, siempre son verdaderos, así también lo es el entendimiento, que conoce de algo aquello que es. Pero la composición y división no están ni en el sentido ni en el entendimiento que conoce lo que es. Luego la verdad no está sólo en el entendimiento que compone y divide.
+
+<span class="suma-n">2</span> En el libro De definitionibus, Isaac dice que la verdad es la adecuación entre el objeto y el entendimiento. Pero así como el entendimiento de lo complejo puede adecuarse a las cosas, también lo podrá hacer el entendimiento de lo no complejo, y también el sentido que siente una cosa como es. Luego la verdad no está sólo en el entendimiento que compone y divide.
+
+<strong>Contra esto:</strong> está lo que dice el Filósofo en VI Metaphys.: Sobre lo simple y sobre lo que algo es no hay verdad ni en el entendimiento ni en las cosas.
+
+<strong>Respondo:</strong> Como ya se dijo (a.1), lo verdadero, en cuanto a su primera razón, está en el entendimiento. Como toda cosa es verdadera en cuanto que tiene la forma propia de su naturaleza, es necesario que el entendimiento, en cuanto que conoce, sea verdadero en cuanto tiene la imagen de lo conocido, que es la forma del entendimiento en cuanto que conoce. Y por eso, la verdad se define como la adecuación entre el entendimiento y el objeto. De ahí que conocer tal adecuación sea conocer la verdad. Esto no lo conocen de ninguna manera los sentidos; pues aunque la vista tenga la imagen de lo visible, sin embargo, no conoce la adecuación existente entre lo visto y lo que aprehende de él. No obstante, el entendimiento puede conocer la adecuación existente entre él y lo conocido; pero no la aprehende por conocer de algo aquello que es, sino cuando juzga que hay adecuación entre la realidad y la forma que de tal realidad aprehende. Entonces, en primer lugar conoce y dice lo verdadero. Y esto lo hace componiendo y dividiendo; pues en toda proposición, la forma indicada por el predicado o la aplica a alguna cosa concretada en el sujeto, o la separa de ella. Así, parece bien que sea verdadero el sentido al sentir algo, o que lo sea el entendimiento conociendo de algo lo que es; pero no porque conozca o diga lo verdadero. Lo mismo cabe decir de frases complejas o incomplejas.
+
 Así, pues, la verdad puede estar en el sentido, o en el entendimiento que conoce de algo lo que es, o en una cosa verdadera. Pero no como lo conocido en el que lo conoce, que es lo que conlleva el nombre de verdadero; ya que la perfección del entendimiento es lo verdadero como conocido. Por lo tanto, hablando con propiedad, la verdad está en el entendimiento que compone y divide; no en el sentido o en el entendimiento que conoce de algo lo que es.
 
-A las objeciones: Está incluida en lo dicho.
-Artículo 3: ¿Se identifican o no se identifican lo verdadero y el ser?lat
-Objeciones por las que parece que lo verdadero y el ser no se identifican:
-1. Propiamente, lo verdadero está en el entendimiento, como se dijo (a.1). Y propiamente, el ser está en las cosas. Luego no se identifican.
-2. Lo que es aplicable al ser y al no ser no se identifican con el ser. Pero lo verdadero es aplicable al ser y al no ser, ya que verdadero es lo que el ser es; y lo que no es el no ser. Luego lo verdadero y el ser no se identifican.
-3. Las cosas que entre sí unas son anteriores y otras posteriores, no parece que se identifiquen. Pero lo verdadero parece ser anterior al ser, pues el ser no es conocido más que bajo la razón de lo verdadero. Luego no parece que sean convertibles.
-Contra esto: está lo que dice el Filósofo en II Metaphys.: La posición de las cosas es la misma en el ser y en la verdad.
-Respondo: Como lo bueno está relacionado con el apetito, lo verdadero lo está con el conocimiento. Algo es tanto más cognoscible en cuanto más tiene ser. Por eso, en el III De Anima se dice que, en cuanto al sentido y al entendimiento, el alma en cierto modo lo es todo. Así, como el bien se identifica con el ser, también lo verdadero. Sin embargo, así como lo bueno añade al ser la razón de apetecible, también lo verdadero añade algo por su relación con el entendimiento.
-A las objeciones:
-1. Como se dijo (a.1), lo verdadero está en las cosas y en el entendimiento. Lo verdadero que hay en las cosas se identifica con el ser sustancialmente. Pero lo verdadero que hay en el entendimiento se identifica con el ser como lo que pone en evidencia con lo puesto en evidencia. Ya que esto entra en la razón de verdadero, como se dijo (a.1).
+<strong>A las objeciones:</strong> Está incluida en lo dicho.
+
+<h2 id="art-3">Artículo 3: ¿Se identifican o no se identifican lo verdadero y el ser?</h2>
+
+<strong>Objeciones por las que parece que lo verdadero y el ser no se identifican:</strong>
+
+<span class="suma-n">1</span> Propiamente, lo verdadero está en el entendimiento, como se dijo (a.1). Y propiamente, el ser está en las cosas. Luego no se identifican.
+
+<span class="suma-n">2</span> Lo que es aplicable al ser y al no ser no se identifican con el ser. Pero lo verdadero es aplicable al ser y al no ser, ya que verdadero es lo que el ser es; y lo que no es el no ser. Luego lo verdadero y el ser no se identifican.
+
+<span class="suma-n">3</span> Las cosas que entre sí unas son anteriores y otras posteriores, no parece que se identifiquen. Pero lo verdadero parece ser anterior al ser, pues el ser no es conocido más que bajo la razón de lo verdadero. Luego no parece que sean convertibles.
+
+<strong>Contra esto:</strong> está lo que dice el Filósofo en II Metaphys.: La posición de las cosas es la misma en el ser y en la verdad.
+
+<strong>Respondo:</strong> Como lo bueno está relacionado con el apetito, lo verdadero lo está con el conocimiento. Algo es tanto más cognoscible en cuanto más tiene ser. Por eso, en el III De Anima se dice que, en cuanto al sentido y al entendimiento, el alma en cierto modo lo es todo. Así, como el bien se identifica con el ser, también lo verdadero. Sin embargo, así como lo bueno añade al ser la razón de apetecible, también lo verdadero añade algo por su relación con el entendimiento.
+
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Como se dijo (a.1), lo verdadero está en las cosas y en el entendimiento. Lo verdadero que hay en las cosas se identifica con el ser sustancialmente. Pero lo verdadero que hay en el entendimiento se identifica con el ser como lo que pone en evidencia con lo puesto en evidencia. Ya que esto entra en la razón de verdadero, como se dijo (a.1).
+
 Asimismo, puede decirse que, como lo verdadero, también el ser está en las cosas y en el entendimiento; si bien principalmente lo verdadero está en el entendimiento y el ser lo está en las cosas. Esto es así porque lo verdadero y el ser son conceptos distintos.
 
-2. El no ser no tiene en sí mismo nada por lo que se le pueda conocer, sino que es conocido porque el entendimiento lo hace cognoscible. De ahí que lo verdadero se fundamente en el ser, puesto que el no ser es un determinado ente de razón, es decir, aprehendido por la razón.
-3. Cuando se dice que el ser no puede ser aprehendido sin la razón de lo verdadero, esto puede entenderse de dos maneras. Una, que el ser no es aprehendido más que cuando la razón de lo verdadero es consecuencia de la aprehensión del ser. En este sentido, la frase contiene verdad. Otra, que el ser no puede ser aprehendido más que cuando se aprehende la razón de lo verdadero. En este sentido, la frase expresa algo falso; porque el ser entra en la razón de lo verdadero. Lo mismo sucedería si comparáramos lo inteligible al ser. Pues, de no ser inteligible, el ser no sería entendido; sin embargo, puede ser entendido a pesar de no entenderse su inteligibilidad. Por lo mismo, es verdadero el ser conocido; sin embargo, conociendo al ser no se conoce lo verdadero.
-Artículo 4: Conceptualmente, ¿es o no es anterior el bien a lo verdadero?lat
-Objeciones por las que parece que, conceptualmente, el bien es anterior a lo verdadero:
-1. Como consta en I Physic., lo que es universal, conceptualmente es lo primero. Pero el bien es más universal que lo verdadero, ya que lo verdadero es un determinado bien, es decir, un bien del entendimiento. Luego conceptualmente el bien es anterior a lo verdadero.
-2. Como se dijo (a.2), el bien está en las cosas; lo verdadero está en la composición y división que hace el entendimiento. Pero lo que está en las cosas es anterior a lo que está en el entendimiento. Luego conceptualmente el bien es anterior a lo verdadero.
-3. Como consta en IV Ethic., la verdad es una especie de virtud. Pero la virtud se encuentra dentro del bien, ya que, como dice Agustín, es una buena cualidad de la mente. Luego el bien es anterior a lo verdadero.
-Contra esto: lo que está en muchos, conceptualmente es lo primero. Pero lo verdadero está en cosas en las que no se encuentra lo bueno, por ejemplo en las matemáticas. Luego lo verdadero es anterior al bien.
-Respondo: Aun cuando en la realidad el bien y lo verdadero se identifiquen con el ser, sin embargo, se diferencian conceptualmente. Por eso, hablando en sentido absoluto, lo verdadero es anterior al bien. Esto es así por dos motivos: 1) Primero, porque lo verdadero está más cerca que el bien del ser, que es anterior. Pues lo verdadero contempla al mismo ser de forma total e inmediata; pero el concepto de bien sigue al ser, en cuanto que de algún modo es perfecto; lo cual lo convierte en apetecible. 2) Segundo, porque el conocimiento por naturaleza precede al apetito. Por eso, como lo verdadero está vinculado con el conocimiento, y el bien con el apetito, conceptualmente lo verdadero es anterior al bien.
-A las objeciones:
-1. La voluntad y el entendimiento se incluyen mutuamente; pues el entendimiento conoce la voluntad y la voluntad quiere conocer al entendimiento. Así, entre las cosas que son orientadas hacia el objeto de la voluntad, también están incluidas las del entendimiento, y viceversa. De ahí que, en el orden de lo apetecible, el bien es tenido como universal, y lo verdadero como particular. En el orden de lo inteligible es al revés. Y en cuanto que lo verdadero es un determinado bien, se sigue que el bien es anterior en el orden de lo apetecible, pero no porque sea anterior en sentido absoluto.
-2. Conceptualmente es anterior lo que primero concibe el entendimiento. Lo primero que aprehende el entendimiento es el mismo ser; lo segundo, que conoce el ser; lo tercero, que apetece el ser. Luego primero se da el concepto de ser; después, el de lo verdadero; por último, el de bien aun cuando éste se dé en las cosas.
-3. La virtud llamada verdad no es una verdad común, sino una determinada verdad según la cual el hombre, en dichos y hechos, se manifiesta como es. Y particularmente, se llama verdad de la vida, en cuanto que el hombre cumple aquello a lo que está ordenado por el entendimiento divino. Como se dijo (a.1), la verdad está en ciertas cosas. Y la verdad de la justicia lo es en cuanto que el hombre cumple lo que la ley ordena con respecto a la relación entre los hombres. De todas estas verdades particulares no se puede pasar a la verdad en general.
-Artículo 5: Dios, ¿es o no es la verdad?lat
-Objeciones por las que parece que Dios no es la verdad:
-1. La verdad consiste en la composición y división que hace el entendimiento. Pero en Dios no hay ni composición ni división. Luego en El no está la verdad.
-2. Según Agustín en el libro De Vera Religione 21: La verdad es la imagen del principio. Pero en Dios no hay imagen de ningún principio. Luego en Dios no está la verdad.
-3. Lo que se dice de Dios se dice en cuanto que El es la primera causa de todo. Como el ser de Dios causa todo ser, y su bondad todo bien, si en Dios está la verdad, todo lo verdadero lo será por El. Que se peca es algo verdadero. Luego también lo será por El. Esto es evidentemente falso.
-Contra esto: está lo que dice el Señor en Jn 14,6: Yo soy el camino, la verdad y la vida.
-Respondo: Como ya se dijo (a.1), la verdad se encuentra en el entendimiento en cuanto que aprehende las cosas como son; y en las cosas en cuanto que son adecuables al entendimiento. Todo esto es así en Dios en grado sumo. Pues su ser no sólo se conforma a su entendimiento, sino que también es su mismo entendimiento. Y su conocer es la medida y causa de cualquier otro ser y entendimiento. Y Él mismo es su ser y su conocer. Por lo tanto, en Él no sólo está la verdad, sino que Él mismo es la primera y suma verdad.
-A las objeciones:
-1. Aun cuando en el entendimiento divino no hay composición ni división, sin embargo, por su inteligencia simple todo lo juzga y todo lo complejo lo conoce. Así, en su entendimiento está la verdad.
-2. Lo verdadero de nuestro entendimiento se da cuando se conforma a su principio, esto es, a las cosas, de las cuales toma el conocer. La verdad de las cosas se da cuando se conforman a su principio, esto es, al entendimiento divino. Por esto, propiamente no se puede decir de la verdad divina, a no ser, tal vez, si se le aplica al Hijo, que tiene principio. Pero si hablamos de la verdad esencialmente, no es admisible, a no ser que la convirtamos en una proposición afirmativa o negativa. Ejemplo: El Padre existe por sí mismo porque no existe por otro. Igualmente puede decirse: La verdad divina es imagen del principio, en cuanto que su ser no es distinto de su entendimiento.
-3. El no ser y las privaciones por sí mismas no contienen verdad, sólo la tienen por la aprehensión del entendimiento. Toda aprehensión del entendimiento proviene de Dios. Por eso, lo que de verdad tiene la frase: Este acto de fornicar es verdadero, proviene de Dios totalmente. Pero si se argumenta: Luego este acto de fornicar proviene de Dios, la frase no es más que el llamado sofisma de accidente.
-Artículo 6: ¿Hay o no hay una sola verdad como criterio de todo lo verdadero?lat
-Objeciones por las que parece que sólo hay una verdad, criterio de todo lo verdadero:
-1. Según Agustín, superior a la mente humana sólo lo es Dios. Pero la verdad es superior a la mente humana; pues aun cuando la mente juzga sobre la verdad, sin embargo, lo hace no según propios principios, sino según los de la verdad. Luego sólo Dios es la verdad. Por lo tanto, no hay más verdad que Dios.
-2. Dice Anselmo en el libro De veritate: Así como el tiempo está relacionado con lo temporal, la verdad lo está con lo verdadero. Pero sólo hay un tiempo para todo lo temporal. Luego sólo hay una verdad para todo lo verdadero.
-Contra esto: está lo que se dice en el Sal 11,2: ¡Cuán pocas son las verdades entre los hombres!
-Respondo: En cierto modo una es la verdad por la que todo es verdadero, y en cierto modo no lo es. Para probarlo hay que tener presente que, cuando algo se atribuye a muchos unívocamente, aquello mismo se encuentra en cada uno propiamente, como animal se encuentra en cualquier especie de animal. Pero cuando algo se dice de muchos análogamente, aquello mismo se encuentra en uno solo de ellos propiamente, por el que son denominados todos los demás. Como sano se dice del animal, de la orina y de la medicina, no porque la salud esté en el animal sólo, sino porque por la salud del animal se llama medicina sana porque la produce, y orina sana porque la manifiesta. Y cuando la salud no está ni en la medicina ni en la orina, sin embargo, en ambas hay algo por lo que una la produce y otra la manifiesta.
+<span class="suma-n">2</span> El no ser no tiene en sí mismo nada por lo que se le pueda conocer, sino que es conocido porque el entendimiento lo hace cognoscible. De ahí que lo verdadero se fundamente en el ser, puesto que el no ser es un determinado ente de razón, es decir, aprehendido por la razón.
+
+<span class="suma-n">3</span> Cuando se dice que el ser no puede ser aprehendido sin la razón de lo verdadero, esto puede entenderse de dos maneras. Una, que el ser no es aprehendido más que cuando la razón de lo verdadero es consecuencia de la aprehensión del ser. En este sentido, la frase contiene verdad. Otra, que el ser no puede ser aprehendido más que cuando se aprehende la razón de lo verdadero. En este sentido, la frase expresa algo falso; porque el ser entra en la razón de lo verdadero. Lo mismo sucedería si comparáramos lo inteligible al ser. Pues, de no ser inteligible, el ser no sería entendido; sin embargo, puede ser entendido a pesar de no entenderse su inteligibilidad. Por lo mismo, es verdadero el ser conocido; sin embargo, conociendo al ser no se conoce lo verdadero.
+
+<h2 id="art-4">Artículo 4: Conceptualmente, ¿es o no es anterior el bien a lo verdadero?</h2>
+
+<strong>Objeciones por las que parece que, conceptualmente, el bien es anterior a lo verdadero:</strong>
+
+<span class="suma-n">1</span> Como consta en I Physic., lo que es universal, conceptualmente es lo primero. Pero el bien es más universal que lo verdadero, ya que lo verdadero es un determinado bien, es decir, un bien del entendimiento. Luego conceptualmente el bien es anterior a lo verdadero.
+
+<span class="suma-n">2</span> Como se dijo (a.2), el bien está en las cosas; lo verdadero está en la composición y división que hace el entendimiento. Pero lo que está en las cosas es anterior a lo que está en el entendimiento. Luego conceptualmente el bien es anterior a lo verdadero.
+
+<span class="suma-n">3</span> Como consta en IV Ethic., la verdad es una especie de virtud. Pero la virtud se encuentra dentro del bien, ya que, como dice Agustín, es una buena cualidad de la mente. Luego el bien es anterior a lo verdadero.
+
+<strong>Contra esto:</strong> lo que está en muchos, conceptualmente es lo primero. Pero lo verdadero está en cosas en las que no se encuentra lo bueno, por ejemplo en las matemáticas. Luego lo verdadero es anterior al bien.
+
+<strong>Respondo:</strong> Aun cuando en la realidad el bien y lo verdadero se identifiquen con el ser, sin embargo, se diferencian conceptualmente. Por eso, hablando en sentido absoluto, lo verdadero es anterior al bien. Esto es así por dos motivos: 1) Primero, porque lo verdadero está más cerca que el bien del ser, que es anterior. Pues lo verdadero contempla al mismo ser de forma total e inmediata; pero el concepto de bien sigue al ser, en cuanto que de algún modo es perfecto; lo cual lo convierte en apetecible. 2) Segundo, porque el conocimiento por naturaleza precede al apetito. Por eso, como lo verdadero está vinculado con el conocimiento, y el bien con el apetito, conceptualmente lo verdadero es anterior al bien.
+
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> La voluntad y el entendimiento se incluyen mutuamente; pues el entendimiento conoce la voluntad y la voluntad quiere conocer al entendimiento. Así, entre las cosas que son orientadas hacia el objeto de la voluntad, también están incluidas las del entendimiento, y viceversa. De ahí que, en el orden de lo apetecible, el bien es tenido como universal, y lo verdadero como particular. En el orden de lo inteligible es al revés. Y en cuanto que lo verdadero es un determinado bien, se sigue que el bien es anterior en el orden de lo apetecible, pero no porque sea anterior en sentido absoluto.
+
+<span class="suma-n">2</span> Conceptualmente es anterior lo que primero concibe el entendimiento. Lo primero que aprehende el entendimiento es el mismo ser; lo segundo, que conoce el ser; lo tercero, que apetece el ser. Luego primero se da el concepto de ser; después, el de lo verdadero; por último, el de bien aun cuando éste se dé en las cosas.
+
+<span class="suma-n">3</span> La virtud llamada verdad no es una verdad común, sino una determinada verdad según la cual el hombre, en dichos y hechos, se manifiesta como es. Y particularmente, se llama verdad de la vida, en cuanto que el hombre cumple aquello a lo que está ordenado por el entendimiento divino. Como se dijo (a.1), la verdad está en ciertas cosas. Y la verdad de la justicia lo es en cuanto que el hombre cumple lo que la ley ordena con respecto a la relación entre los hombres. De todas estas verdades particulares no se puede pasar a la verdad en general.
+
+<h2 id="art-5">Artículo 5: Dios, ¿es o no es la verdad?</h2>
+
+<strong>Objeciones por las que parece que Dios no es la verdad:</strong>
+
+<span class="suma-n">1</span> La verdad consiste en la composición y división que hace el entendimiento. Pero en Dios no hay ni composición ni división. Luego en El no está la verdad.
+
+<span class="suma-n">2</span> Según Agustín en el libro De Vera Religione 21: La verdad es la imagen del principio. Pero en Dios no hay imagen de ningún principio. Luego en Dios no está la verdad.
+
+<span class="suma-n">3</span> Lo que se dice de Dios se dice en cuanto que El es la primera causa de todo. Como el ser de Dios causa todo ser, y su bondad todo bien, si en Dios está la verdad, todo lo verdadero lo será por El. Que se peca es algo verdadero. Luego también lo será por El. Esto es evidentemente falso.
+
+<strong>Contra esto:</strong> está lo que dice el Señor en Jn 14,6: Yo soy el camino, la verdad y la vida.
+
+<strong>Respondo:</strong> Como ya se dijo (a.1), la verdad se encuentra en el entendimiento en cuanto que aprehende las cosas como son; y en las cosas en cuanto que son adecuables al entendimiento. Todo esto es así en Dios en grado sumo. Pues su ser no sólo se conforma a su entendimiento, sino que también es su mismo entendimiento. Y su conocer es la medida y causa de cualquier otro ser y entendimiento. Y Él mismo es su ser y su conocer. Por lo tanto, en Él no sólo está la verdad, sino que Él mismo es la primera y suma verdad.
+
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Aun cuando en el entendimiento divino no hay composición ni división, sin embargo, por su inteligencia simple todo lo juzga y todo lo complejo lo conoce. Así, en su entendimiento está la verdad.
+
+<span class="suma-n">2</span> Lo verdadero de nuestro entendimiento se da cuando se conforma a su principio, esto es, a las cosas, de las cuales toma el conocer. La verdad de las cosas se da cuando se conforman a su principio, esto es, al entendimiento divino. Por esto, propiamente no se puede decir de la verdad divina, a no ser, tal vez, si se le aplica al Hijo, que tiene principio. Pero si hablamos de la verdad esencialmente, no es admisible, a no ser que la convirtamos en una proposición afirmativa o negativa. Ejemplo: El Padre existe por sí mismo porque no existe por otro. Igualmente puede decirse: La verdad divina es imagen del principio, en cuanto que su ser no es distinto de su entendimiento.
+
+<span class="suma-n">3</span> El no ser y las privaciones por sí mismas no contienen verdad, sólo la tienen por la aprehensión del entendimiento. Toda aprehensión del entendimiento proviene de Dios. Por eso, lo que de verdad tiene la frase: Este acto de fornicar es verdadero, proviene de Dios totalmente. Pero si se argumenta: Luego este acto de fornicar proviene de Dios, la frase no es más que el llamado sofisma de accidente.
+
+<h2 id="art-6">Artículo 6: ¿Hay o no hay una sola verdad como criterio de todo lo verdadero?</h2>
+
+<strong>Objeciones por las que parece que sólo hay una verdad, criterio de todo lo verdadero:</strong>
+
+<span class="suma-n">1</span> Según Agustín, superior a la mente humana sólo lo es Dios. Pero la verdad es superior a la mente humana; pues aun cuando la mente juzga sobre la verdad, sin embargo, lo hace no según propios principios, sino según los de la verdad. Luego sólo Dios es la verdad. Por lo tanto, no hay más verdad que Dios.
+
+<span class="suma-n">2</span> Dice Anselmo en el libro De veritate: Así como el tiempo está relacionado con lo temporal, la verdad lo está con lo verdadero. Pero sólo hay un tiempo para todo lo temporal. Luego sólo hay una verdad para todo lo verdadero.
+
+<strong>Contra esto:</strong> está lo que se dice en el Sal 11,2: ¡Cuán pocas son las verdades entre los hombres!
+
+<strong>Respondo:</strong> En cierto modo una es la verdad por la que todo es verdadero, y en cierto modo no lo es. Para probarlo hay que tener presente que, cuando algo se atribuye a muchos unívocamente, aquello mismo se encuentra en cada uno propiamente, como animal se encuentra en cualquier especie de animal. Pero cuando algo se dice de muchos análogamente, aquello mismo se encuentra en uno solo de ellos propiamente, por el que son denominados todos los demás. Como sano se dice del animal, de la orina y de la medicina, no porque la salud esté en el animal sólo, sino porque por la salud del animal se llama medicina sana porque la produce, y orina sana porque la manifiesta. Y cuando la salud no está ni en la medicina ni en la orina, sin embargo, en ambas hay algo por lo que una la produce y otra la manifiesta.
+
 Se ha dicho (a.1) que la verdad está primero en el entendimiento y después en las cosas, en cuanto que están orientadas hacia el entendimiento divino. Por lo tanto, si hablamos de la verdad en cuanto que está en el entendimiento, según su propia razón, en muchos entendimientos creados hay muchas verdades; lo mismo que en un solo entendimiento si conoce muchas cosas. Por eso, la Glosa al Sal. 11,2: ¡Cuan pocas son las verdades entre los hombres!, etc., dice que así como por una sola cara humana resultan muchas imágenes en un espejo, así para una sola verdad divina resultan muchas verdades. Y si hablamos de la verdad según está en las cosas, todas serían verdaderas con una sola verdad, a la que cada una se asemeja según su propia entidad. De este modo, aun cuando sean muchas las esencias o formas de las cosas, sin embargo, una sola es la verdad del entendimiento divino, según la cual todas las cosas son llamadas verdaderas.
 
-A las objeciones:
-1. El alma no juzga todas las cosas según la verdad de cada una, sino según la verdad primera reflejada en ella como en un espejo según los primeros principios. De ahí se sigue que la verdad primera es mayor que el alma. Y, sin embargo, también la verdad creada, presente en nuestro entendimiento, es mayor que el alma, no absolutamente, sino en cierto modo, esto es, en cuanto que la perfecciona. Así, también puede decirse que la ciencia es superior al alma. Pero es verdad que ningún ser subsistente es superior al alma. Sólo Dios.
-2. Lo dicho por Anselmo contiene verdad por cuanto que las cosas son llamadas verdaderas por relación con el entendimiento divino.
-Artículo 7: La verdad creada, ¿es o no es eterna?lat
-Objeciones por las que parece que la verdad creada es eterna:
-1. Agustín, en el libro De libero arbitrio, dice que nada hay más eterno que la razón de círculo y que dos y tres son cinco. Pero se trata de una verdad creada. Luego la verdad creada es eterna.
-2. Todo lo que existe siempre es eterno. Pero los universales están en todas partes y siempre. Luego son eternos. Por lo tanto, también lo verdadero que es universal en grado sumo.
-3. Todo lo que es absolutamente verdadero, siempre fue verdadero y siempre lo será. Pero como la verdad de la proposición referida al presente es una verdad creada, también lo es la del futuro. Luego alguna verdad creada es eterna.
-4. Todo lo que carece de principio y de fin es eterno. Pero la verdad de lo enunciable carece de principio y de fin. Porque si la verdad comenzó antes de que existiese, verdadero será que la verdad no existía; y como era verdadero por alguna verdad, verdadero será que había verdad antes que comenzara a existir. Igualmente, si se dice que la verdad tiene final, se sigue que es después de dejar de existir; pues verdadero será que la verdad no existe. Luego la verdad es eterna.
-Contra esto: como se ha establecido anteriormente (q.10 a.3), sólo Dios es eterno.
-Respondo: La verdad de lo enunciable no es más que una verdad del entendimiento. Pues lo enunciable está en el entendimiento y en la palabra. En cuanto que está en el entendimiento, en sí mismo contiene verdad. En cuanto que está en la palabra, es un enunciable verdadero si expresa la verdad del entendimiento; no por alguna verdad existente en el enunciable como en su sujeto. Ejemplo: Se dice que la orina es sana, no por la salud que contiene, sino porque indica la salud existente en el animal. Igualmente, como se dijo (a.1), las cosas son llamadas verdaderas por la verdad del entendimiento. Por eso, si ningún entendimiento fuera eterno, ninguna verdad lo sería. Pero, porque el único entendimiento eterno es el divino, sólo en Él la verdad es eterna. Tampoco por eso se sigue que algo sea eterno como Dios, pues la verdad del entendimiento divino es el mismo Dios, como ya se demostró (a.5).
-A las objeciones:
-1. La razón de círculo y que dos y tres son cinco tienen eternidad en la mente divina.
-2. Algo exista siempre y en todas partes, puede ser entendido de dos maneras. 1) Una, en cuanto que tiene la capacidad de extenderse a todo tiempo y lugar, como Dios a quien le corresponde estar en todas partes y siempre. 2) Otra, cuando no contiene nada que esté determinado por algún lugar o tiempo; como la materia prima, de la que se dice que es una, no porque tenga una forma, como el hombre es uno por la unidad de una forma, sino porque no tiene ninguna forma que produzca distinciones. Es en este sentido en el que se dice que cualquier universal está en todas partes y siempre, es decir, en cuanto que los universales prescinden del aquí y ahora. Pero no se sigue que sean eternos a no ser en el entendimiento si éste es el entendimiento eterno.
-3. Aquello que ahora es, el que fuera antes de ser responde a que en su causa estaba el poder ser. Por eso, anulada la causa, hubiera sido anulado su poder ser. Sólo la causa primera es eterna. Pero de ahí no se sigue que lo que ahora es, en aquella causa siempre hubiera sido real el llegar a ser, a no ser en cuanto que en la causa eterna siempre fue real que llegara a ser. Esta causa sólo lo es Dios.
-4. Porque nuestro entendimiento no es eterno, tampoco lo es la verdad de los enunciables formados por nosotros, sino que empezó. Y antes de que existiera la verdad, no era verdadero decir que tal verdad no existiese, a no ser por el entendimiento divino, el único en el que la verdad es eterna. Pero ahora es verdadero decir que entonces la verdad no existía. Y que algo no es verdadero, no lo es más que por la verdad que ahora hay en nuestro entendimiento; no por alguna verdad que provenga de la cosa. Porque ésta es la verdad del no ser, pues el no ser nada tiene en sí que sea verdadero, sino sólo por parte de nuestro entendimiento cuando lo concibe. Por eso, decir que la verdad no existía sería verdadero en tanto en cuanto concibamos el mismo no ser como previo a su ser.
-Artículo 8: La verdad, ¿es o no es inmutable?lat
-Objeciones por las que parece que la verdad es inmutable:
-1. Agustín, en el libro II De libero arbitrio, dice que la verdad no es igual a la mente porque sería mutable como lo es la mente.
-2. Es inmutable lo que permanece después de todo cambio, como la materia prima, que es ingénita e incorruptible porque permanece después de toda generación y corrupción. Pero la verdad permanece después de todo cambio, porque después de todo cambio es verdadero decir ser o no ser. Luego la verdad es inmutable.
-3. Si cambia la verdad de un enunciado, en grado sumo cambiaría si cambiase lo enunciado. Pero ni así cambia. Pues, según Anselmo, la verdad es una determinada rectitud por la que algo cumple lo que de él hay en la mente divina. La proposición Sócrates está sentado, de la mente divina recibe el significado de estar sentado Sócrates; y también el mismo significado cuando no está sentado. Luego la verdad de la proposición en nada cambia.
-4. Donde hay una misma causa, hay un mismo efecto. Pero una misma cosa es causa de estas tres proposiciones: Sócrates está sentado, estará sentado, estuvo sentado. Luego la misma verdad hay en las tres. Por lo tanto, la verdad de tales proposiciones permanece inmutable. Lo mismo que la verdad de cualquier otra proposición.
-Contra esto: está lo que se dice en el Sal 11,2: ¡Cuán pocas son las verdades entre los hombres!
-Respondo: Como ya se dijo (a.1), propiamente la verdad está en el entendimiento, y las cosas son llamadas verdaderas por la verdad que hay en algún entendimiento. Por lo tanto, la mutabilidad de la verdad hay que analizarla con respecto al entendimiento, cuya verdad consiste en que tenga conformidad con las cosas conocidas. Y dicha conformidad puede cambiar de dos maneras, lo mismo que cualquier otra semejanza, según el cambio de uno de los términos de la comparación. Una manera, por parte del entendimiento, que se tenga una u otra opinión de una misma cosa. La otra manera, si, manteniendo la misma opinión de una cosa, esa cosa cambia.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> El alma no juzga todas las cosas según la verdad de cada una, sino según la verdad primera reflejada en ella como en un espejo según los primeros principios. De ahí se sigue que la verdad primera es mayor que el alma. Y, sin embargo, también la verdad creada, presente en nuestro entendimiento, es mayor que el alma, no absolutamente, sino en cierto modo, esto es, en cuanto que la perfecciona. Así, también puede decirse que la ciencia es superior al alma. Pero es verdad que ningún ser subsistente es superior al alma. Sólo Dios.
+
+<span class="suma-n">2</span> Lo dicho por Anselmo contiene verdad por cuanto que las cosas son llamadas verdaderas por relación con el entendimiento divino.
+
+<h2 id="art-7">Artículo 7: La verdad creada, ¿es o no es eterna?</h2>
+
+<strong>Objeciones por las que parece que la verdad creada es eterna:</strong>
+
+<span class="suma-n">1</span> Agustín, en el libro De libero arbitrio, dice que nada hay más eterno que la razón de círculo y que dos y tres son cinco. Pero se trata de una verdad creada. Luego la verdad creada es eterna.
+
+<span class="suma-n">2</span> Todo lo que existe siempre es eterno. Pero los universales están en todas partes y siempre. Luego son eternos. Por lo tanto, también lo verdadero que es universal en grado sumo.
+
+<span class="suma-n">3</span> Todo lo que es absolutamente verdadero, siempre fue verdadero y siempre lo será. Pero como la verdad de la proposición referida al presente es una verdad creada, también lo es la del futuro. Luego alguna verdad creada es eterna.
+
+<span class="suma-n">4</span> Todo lo que carece de principio y de fin es eterno. Pero la verdad de lo enunciable carece de principio y de fin. Porque si la verdad comenzó antes de que existiese, verdadero será que la verdad no existía; y como era verdadero por alguna verdad, verdadero será que había verdad antes que comenzara a existir. Igualmente, si se dice que la verdad tiene final, se sigue que es después de dejar de existir; pues verdadero será que la verdad no existe. Luego la verdad es eterna.
+
+<strong>Contra esto:</strong> como se ha establecido anteriormente (q.10 a.3), sólo Dios es eterno.
+
+<strong>Respondo:</strong> La verdad de lo enunciable no es más que una verdad del entendimiento. Pues lo enunciable está en el entendimiento y en la palabra. En cuanto que está en el entendimiento, en sí mismo contiene verdad. En cuanto que está en la palabra, es un enunciable verdadero si expresa la verdad del entendimiento; no por alguna verdad existente en el enunciable como en su sujeto. Ejemplo: Se dice que la orina es sana, no por la salud que contiene, sino porque indica la salud existente en el animal. Igualmente, como se dijo (a.1), las cosas son llamadas verdaderas por la verdad del entendimiento. Por eso, si ningún entendimiento fuera eterno, ninguna verdad lo sería. Pero, porque el único entendimiento eterno es el divino, sólo en Él la verdad es eterna. Tampoco por eso se sigue que algo sea eterno como Dios, pues la verdad del entendimiento divino es el mismo Dios, como ya se demostró (a.5).
+
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> La razón de círculo y que dos y tres son cinco tienen eternidad en la mente divina.
+
+<span class="suma-n">2</span> Algo exista siempre y en todas partes, puede ser entendido de dos maneras. 1) Una, en cuanto que tiene la capacidad de extenderse a todo tiempo y lugar, como Dios a quien le corresponde estar en todas partes y siempre. 2) Otra, cuando no contiene nada que esté determinado por algún lugar o tiempo; como la materia prima, de la que se dice que es una, no porque tenga una forma, como el hombre es uno por la unidad de una forma, sino porque no tiene ninguna forma que produzca distinciones. Es en este sentido en el que se dice que cualquier universal está en todas partes y siempre, es decir, en cuanto que los universales prescinden del aquí y ahora. Pero no se sigue que sean eternos a no ser en el entendimiento si éste es el entendimiento eterno.
+
+<span class="suma-n">3</span> Aquello que ahora es, el que fuera antes de ser responde a que en su causa estaba el poder ser. Por eso, anulada la causa, hubiera sido anulado su poder ser. Sólo la causa primera es eterna. Pero de ahí no se sigue que lo que ahora es, en aquella causa siempre hubiera sido real el llegar a ser, a no ser en cuanto que en la causa eterna siempre fue real que llegara a ser. Esta causa sólo lo es Dios.
+
+<span class="suma-n">4</span> Porque nuestro entendimiento no es eterno, tampoco lo es la verdad de los enunciables formados por nosotros, sino que empezó. Y antes de que existiera la verdad, no era verdadero decir que tal verdad no existiese, a no ser por el entendimiento divino, el único en el que la verdad es eterna. Pero ahora es verdadero decir que entonces la verdad no existía. Y que algo no es verdadero, no lo es más que por la verdad que ahora hay en nuestro entendimiento; no por alguna verdad que provenga de la cosa. Porque ésta es la verdad del no ser, pues el no ser nada tiene en sí que sea verdadero, sino sólo por parte de nuestro entendimiento cuando lo concibe. Por eso, decir que la verdad no existía sería verdadero en tanto en cuanto concibamos el mismo no ser como previo a su ser.
+
+<h2 id="art-8">Artículo 8: La verdad, ¿es o no es inmutable?</h2>
+
+<strong>Objeciones por las que parece que la verdad es inmutable:</strong>
+
+<span class="suma-n">1</span> Agustín, en el libro II De libero arbitrio, dice que la verdad no es igual a la mente porque sería mutable como lo es la mente.
+
+<span class="suma-n">2</span> Es inmutable lo que permanece después de todo cambio, como la materia prima, que es ingénita e incorruptible porque permanece después de toda generación y corrupción. Pero la verdad permanece después de todo cambio, porque después de todo cambio es verdadero decir ser o no ser. Luego la verdad es inmutable.
+
+<span class="suma-n">3</span> Si cambia la verdad de un enunciado, en grado sumo cambiaría si cambiase lo enunciado. Pero ni así cambia. Pues, según Anselmo, la verdad es una determinada rectitud por la que algo cumple lo que de él hay en la mente divina. La proposición Sócrates está sentado, de la mente divina recibe el significado de estar sentado Sócrates; y también el mismo significado cuando no está sentado. Luego la verdad de la proposición en nada cambia.
+
+<span class="suma-n">4</span> Donde hay una misma causa, hay un mismo efecto. Pero una misma cosa es causa de estas tres proposiciones: Sócrates está sentado, estará sentado, estuvo sentado. Luego la misma verdad hay en las tres. Por lo tanto, la verdad de tales proposiciones permanece inmutable. Lo mismo que la verdad de cualquier otra proposición.
+
+<strong>Contra esto:</strong> está lo que se dice en el Sal 11,2: ¡Cuán pocas son las verdades entre los hombres!
+
+<strong>Respondo:</strong> Como ya se dijo (a.1), propiamente la verdad está en el entendimiento, y las cosas son llamadas verdaderas por la verdad que hay en algún entendimiento. Por lo tanto, la mutabilidad de la verdad hay que analizarla con respecto al entendimiento, cuya verdad consiste en que tenga conformidad con las cosas conocidas. Y dicha conformidad puede cambiar de dos maneras, lo mismo que cualquier otra semejanza, según el cambio de uno de los términos de la comparación. Una manera, por parte del entendimiento, que se tenga una u otra opinión de una misma cosa. La otra manera, si, manteniendo la misma opinión de una cosa, esa cosa cambia.
+
 Por lo tanto, si hay algún entendimiento en el que no pueda darse un cambio de opinión, o al que no se le escape nada, en él la verdad es inmutable. Como se demostró (q.14 a.15), un entendimiento así lo es el divino. Por eso, la verdad del entendimiento divino es inmutable. En cambio, la verdad de nuestro entendimiento es cambiable. No porque ella esté sometida a mutación, sino porque nuestro entendimiento pasa de la verdad a la falsedad. Así, puede decirse que las formas son cambiables. Pero la verdad del entendimiento divino, criterio de que todo lo demás sea o no sea verdadero, es completamente inmutable.
 
-A las objeciones:
-1. Agustín está hablando de la verdad divina.
-2. Lo verdadero y el ser son convertibles. Por eso, así como el ser no se genera ni se corrompe en cuanto tal, sino sólo accidentalmente, esto es, en cuanto que se genera o se corrompe esto o aquello, como se dice en I Physic., así también la verdad cambia no porque en ella no permanezca ninguna verdad, sino porque no permanece la verdad que era antes.
-3. La proposición no sólo contiene verdad como otras cosas de las que se dice que la contienen, en cuanto que cumplen lo que está ordenado por el entendimiento divino, sino que se dice que contiene verdad de un modo especial, en cuanto que expresa la verdad del entendimiento, la cual consiste en la conformidad entre el entendimiento y la cosa. Anulada dicha conformidad, cambia la verdad de la opinión y, consecuentemente, la verdad de la proposición. Así, pues, la proposición Sócrates está sentado, al estar sentado la proposición será verdadera por la verdad del hecho, en cuanto que lo indica; y también por la verdad del significado, en cuanto que expresa una opinión verdadera. Pero al levantarse Sócrates, la primera verdad permanece y cambia la segunda.
-4. La acción de estar sentado de Sócrates, que es la causa de la verdad de la proposición Sócrates está sentado, no es tenida por igual mientras Sócrates está sentado que después ó antes de estar sentado. De ahí que la verdad causada por el hecho sea tenida de diversas maneras; y de diversas maneras se expresa con proposiciones en presente, en pretérito o en futuro. De ahí no se sigue que, aun cuando una de las tres proposiciones sea verdadera, la misma verdad permanezca invariable.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Agustín está hablando de la verdad divina.
+
+<span class="suma-n">2</span> Lo verdadero y el ser son convertibles. Por eso, así como el ser no se genera ni se corrompe en cuanto tal, sino sólo accidentalmente, esto es, en cuanto que se genera o se corrompe esto o aquello, como se dice en I Physic., así también la verdad cambia no porque en ella no permanezca ninguna verdad, sino porque no permanece la verdad que era antes.
+
+<span class="suma-n">3</span> La proposición no sólo contiene verdad como otras cosas de las que se dice que la contienen, en cuanto que cumplen lo que está ordenado por el entendimiento divino, sino que se dice que contiene verdad de un modo especial, en cuanto que expresa la verdad del entendimiento, la cual consiste en la conformidad entre el entendimiento y la cosa. Anulada dicha conformidad, cambia la verdad de la opinión y, consecuentemente, la verdad de la proposición. Así, pues, la proposición Sócrates está sentado, al estar sentado la proposición será verdadera por la verdad del hecho, en cuanto que lo indica; y también por la verdad del significado, en cuanto que expresa una opinión verdadera. Pero al levantarse Sócrates, la primera verdad permanece y cambia la segunda.
+
+<span class="suma-n">4</span> La acción de estar sentado de Sócrates, que es la causa de la verdad de la proposición Sócrates está sentado, no es tenida por igual mientras Sócrates está sentado que después ó antes de estar sentado. De ahí que la verdad causada por el hecho sea tenida de diversas maneras; y de diversas maneras se expresa con proposiciones en presente, en pretérito o en futuro. De ahí no se sigue que, aun cuando una de las tres proposiciones sea verdadera, la misma verdad permanezca invariable.
