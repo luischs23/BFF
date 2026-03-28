@@ -29,6 +29,8 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 				id="mobileHeader"
 				class="md:hidden fixed top-0 left-0 right-0 z-60 bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between"
 			>
+				<div class="w-8"></div>
+				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">{title}</h1>
 				<button
 					id="menuToggle"
 					class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
@@ -38,8 +40,6 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 					</svg>
 				</button>
-				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">{title}</h1>
-				<div class="w-8"></div>
 			</header>
 		) : (
 			<!-- Botón menú móvil para welcome page -->

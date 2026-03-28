@@ -423,10 +423,7 @@ const currentSlug = cuaderno?.id ?? "";
 	}
 
 	document.addEventListener('astro:page-load', initEntryAnchors);
-	initEntryAnchors();
-
 	document.addEventListener('astro:page-load', initSidebar);
-	initSidebar();
 
 	// Botón formatear numerales
 	function initFormatBtn() {
@@ -471,7 +468,6 @@ const currentSlug = cuaderno?.id ?? "";
 	}
 
 	document.addEventListener('astro:page-load', initFormatBtn);
-	initFormatBtn();
 
 	// Búsqueda Faustina
 	function initFaustinaSearch() {
@@ -622,5 +618,4 @@ const currentSlug = cuaderno?.id ?? "";
 	}
 
 	document.addEventListener('astro:page-load', initFaustinaSearch);
-	initFaustinaSearch();
 </script>
