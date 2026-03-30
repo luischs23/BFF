@@ -26,6 +26,7 @@ if (isDev && mod) {
 
 // https://astro.build/config
 export default defineConfig({
+  cacheDir: isDev && mod ? `./.astro-${mod}` : './.astro',
   vite: {
     server: {
       watch: { ignored: watchIgnored },

@@ -85,13 +85,12 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 	) : (
 		<div class="welcome-content max-w-2xl mx-auto pb-8 pt-0 px-5">
 
-			<div class="text-center mb-6">
+			<div class="text-center mb-6 mt-2">
 				<div class="inline-flex items-center justify-center w-20 h-20 rounded-full overflow-hidden shadow-lg">
 					<img src="/Biblia.jpg" alt="Sagrada Biblia" class="w-full h-full object-cover" />
 				</div>
 			</div>
 
-			<!-- Card versículo del día -->
 			<p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-gray-400/60 dark:text-gray-600 mb-3">Biblia Jerusalén</p>		
 
 			<!-- Antiguo Testamento -->
@@ -103,7 +102,7 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 							<div class={`flex items-center gap-2 mb-2.5 pl-3 border-l-2 ${row.dot.replace('bg-', 'border-')}`}>
 								<span class={`text-[10px] font-bold uppercase tracking-widest ${row.label}`}>{row.titulo}</span>
 							</div>
-							<div class="flex flex-col gap-1.5">
+							<div class="columns-2 gap-1.5 space-y-1.5">
 								{row.libros.map(libro => (
 									<a
 										href={`/biblia/${libro.slug}`}
@@ -114,15 +113,9 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 										data-section={row.titulo}
 										data-book-title={libro.title}
 										data-astro-prefetch="false"
-										class="no-underline flex items-center gap-3 px-4 py-3 rounded-2xl bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 border border-gray-200 hover:border-gray-300 dark:border-white/5 dark:hover:border-white/10 transition-all duration-150 group"
+										class="no-underline flex items-center gap-2 px-3 py-2.5 rounded-2xl bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 border border-gray-200 hover:border-gray-300 dark:border-white/5 dark:hover:border-white/10 transition-all duration-150 group"
 									>
-										<span class={`shrink-0 w-2 h-2 rounded-full ${row.dot}`}></span>
-										<div class="min-w-0 flex-1">
-											<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate block">{libro.title}</span>
-										</div>
-										<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-											<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-										</svg>
+										<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate">{libro.title}</span>
 									</a>
 								))}
 							</div>
@@ -140,7 +133,7 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 							<div class={`flex items-center gap-2 mb-2.5 pl-3 border-l-2 ${row.dot.replace('bg-', 'border-')}`}>
 								<span class={`text-[10px] font-bold uppercase tracking-widest ${row.label}`}>{row.titulo}</span>
 							</div>
-							<div class="flex flex-col gap-1.5">
+							<div class="columns-2 gap-1.5 space-y-1.5">
 								{row.libros.map(libro => (
 									<a
 										href={`/biblia/${libro.slug}`}
@@ -151,15 +144,9 @@ const rowsNT = buildRows(estructura['nuevo-testamento'].secciones, DOT_NT, LABEL
 										data-section={row.titulo}
 										data-book-title={libro.title}
 										data-astro-prefetch="false"
-										class="no-underline flex items-center gap-3 px-4 py-3 rounded-2xl bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 border border-gray-200 hover:border-gray-300 dark:border-white/5 dark:hover:border-white/10 transition-all duration-150 group"
+										class="no-underline flex items-center gap-2 px-3 py-2.5 rounded-2xl bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 border border-gray-200 hover:border-gray-300 dark:border-white/5 dark:hover:border-white/10 transition-all duration-150 group"
 									>
-										<span class={`shrink-0 w-2 h-2 rounded-full ${row.dot}`}></span>
-										<div class="min-w-0 flex-1">
-											<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate block">{libro.title}</span>
-										</div>
-										<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-											<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-										</svg>
+										<span class="text-gray-700 dark:text-gray-300 text-xs font-medium truncate">{libro.title}</span>
 									</a>
 								))}
 							</div>

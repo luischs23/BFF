@@ -4,18 +4,22 @@ description: 'Primer Libro de las Crónicas'
 img: blog-placeholder-4.jpg
 ---
 # LOS LIBROS DE LAS CRÓNICAS
-## LIBRO PRIMERO DE LAS CRÓNICAS
-## I. En torno a David: Las Genealogías<span class="note-ref" data-ref="1cro-1-a" title="Ver comentario">&#42;</span>
-## 1. DE ADÁN A ISRAEL<span class="note-ref" data-ref="1cro-1-b" title="Ver comentario">&#42;</span>
+<span class="section-title">LIBRO PRIMERO DE LAS CRÓNICAS</span>
+<span class="section-intro">I. En torno a David: Las Genealogías<span class="note-ref" data-ref="1cro-1-a" title="Ver comentario">&#42;</span></span>
+
+## <span class="subsection-title">1. DE ADÁN A ISRAEL<span class="note-ref" data-ref="1cro-1-b" title="Ver comentario">&#42;</span></span>
 ## Origen de los tres grandes grupos.
+<span class="parallel-ref">||Gn <strong>5</strong>.</span>
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Adán, Set, Enós; <sup>2</sup> Quenán, Mahalalel, Yéred; <sup>3</sup> Henoc, Matusalén, Lámec; <sup>4</sup> Noé, Sem, Cam y Jafet.
 
 ## Los jafetitas.
+<span class="parallel-ref">||Gn <strong>10</strong> 2-4.</span>
 <sup>5</sup> Hijos de Jafet: Gómer, Magog, los medos, Yaván, Túbal, Mésec y Tirás.
 
 <sup>6</sup> Hijos de Gómer: Asquenaz, Rifat<span class="note-ref" data-ref="1cro-1-6" title="Ver comentario">&#42;</span> y Togarmá. <sup>7</sup> Hijos de Yaván: Elisá, Tarsis, los queteos y los rodenses.
 
 ## Los camitas.
+<span class="parallel-ref">||Gn <strong>10</strong> 6-8.</span>
 <sup>8</sup> Hijos de Cam: Cus y Egipto, Put y Canaán.
 
 <sup>9</sup> Hijos de Cus: Sebá, Javilá, Sabtá, Ramá y Sabtecá.
@@ -25,6 +29,7 @@ Hijos de Ramá: Sebá y Dedán. <sup>10</sup> Cus engendró a Nimrod, que fue el
 <sup>11</sup> Egipto engendró a los lidios, anamitas, lehabitas, naftujitas, <sup>12</sup> patrusitas, caslujitas y caftoritas, de donde proceden los filisteos. <sup>13</sup> Canaán engendró a Sidón, su primogénito, a Het, <sup>14</sup> y a los jebuseos, amorreos, guirgaseos, <sup>15</sup> jivitas, arquitas, sinitas, <sup>16</sup> arvaditas, semaritas y jamatitas.
 
 ## Los semitas.
+<span class="parallel-ref">||Gn <strong>10</strong> 22-29.</span>
 <sup>17</sup> Hijos de Sem: Elam, Asur, Arfacsad, Lud y Aram. Hijos de Aram: Us, Jul, Guéter y Mésec.
 
 <sup>18</sup> Arfacsad engendró a Sélaj, y éste engendró a Héber. <sup>19</sup> A Héber le nacieron dos hijos: el primero se llamaba Péleg, porque en sus días fue dividida la tierra, y su hermano era Yoctán.
@@ -32,36 +37,44 @@ Hijos de Ramá: Sebá y Dedán. <sup>10</sup> Cus engendró a Nimrod, que fue el
 <sup>20</sup> Yoctán engendró a Almodad, Sélef, Jasarmávet, Yéraj, <sup>21</sup> Hadorán, Uzal, Diclá, <sup>22</sup> Ebal, Abimael, Sebá, <sup>23</sup> Ofir, Javilá y Yobab. Todos ellos eran hijos de Yoctán.
 
 ## De Sem a Abrahán.
+<span class="parallel-ref">||Gn <strong>11</strong> 10-26.</span>
 <sup>24</sup> Sem, Arfacsad, Sélaj, <sup>25</sup> Héber, Péleg, Reú, <sup>26</sup> Serug, Najor, Téraj, <sup>27</sup> Abrán, o sea Abrahán. <sup>28</sup> Hijos de Abrahán: Isaac e Ismael.
 
 <sup>29</sup> Sus descendientes son éstos:
 
 ## Los ismaelitas.
+<span class="parallel-ref">||Gn <strong>25</strong> 13-16.</span>
 El primogénito de Ismael fue Nebayot; después nacieron Quedar, Adbeel, Mibsán, <sup>30</sup> Mismá, Dumá, Masá, Jadad, Temá, <sup>31</sup> Yetur, Nafís y Quedmá. Éstos son los hijos de Ismael.
 
 <sup>32</sup> Queturá, concubina de Abrahán, dio a luz a Zimrán, Yocsán, Medán, Madián, Yisbac y Súaj. Hijos de Yocsán: Sebá y Dedán. <sup>33</sup> Hijos de Madián: Efá, Éfer, Henoc, Abidá y Eldaá. Todos ellos fueron hijos de Queturá.
 
 ## Isaac y Esaú.
+<span class="parallel-ref">||Gn <strong>25</strong> 19; <strong>36</strong> 10-13.15-17.</span>
 <sup>34</sup> Abrahán engendró a Isaac. Hijos de Isaac: Esaú e Israel.
 
 <sup>35</sup> Hijos de Esaú: Elifaz, Reuel, Yeús, Yalán y Coré. <sup>36</sup> Hijos de Elifaz: Temán, Omar, Sefó, Gatán, Quenaz, Timná y Amalec. <sup>37</sup> Hijos de Reuel: Nájat, Zéraj, Samá y Mizá.
 
 ## Seír.
+<span class="parallel-ref">||Gn <strong>36</strong> 20-28.</span>
 <sup>38</sup> Hijos de Seír: Lotán, Sobal, Sibeón, Aná, Disón, Éser y Disán. <sup>39</sup> Hijos de Lotán: Jorí y Homán. Hermana de Lotán fue Timná. <sup>40</sup> Hijos de Sobal: Alván, Manájat, Ebal, Sefó y Onán. Hijos de Sibeón: Ayá y Aná.
 
 <sup>41</sup> Hijos de Aná: Disón. Hijos de Disón: Jamrán, Esbán, Yitrán y Querán. <sup>42</sup> Hijos de Éser: Bilán, Zaaván y Acán. Hijos de Disón: Us y Arán.
 
 ## Los reyes de Edom.
+<span class="parallel-ref">||Gn <strong>36</strong> 31-39.</span>
 <sup>43</sup> Éstos son los reyes que reinaron en el país de Edom antes de que hubiera rey entre los israelitas: Belá, hijo de Beor; su ciudad se llamaba Dinhabá. <sup>44</sup> A la muerte de Belá, le sucedió en el trono Yobab, hijo de Zéraj, de Bosrá. <sup>45</sup> A la muerte de Yobab, le sucedió en el trono Jusán, del país de los temanitas. <sup>46</sup> A la muerte de Jusán, le sucedió en el trono Hodad, hijo de Bedad, que derrotó a los madianitas en los campos de Moab; su ciudad se llamaba Avit. <sup>47</sup> A la muerte de Hodad, le sucedió en el trono Samlá, de Masrecá. <sup>48</sup> A la muerte de Samlá, le sucedió en el trono Saúl, de Rejobot del Río. <sup>49</sup> A la muerte de Saúl, le sucedió en el trono Baal Janán, hijo de Acbor. <sup>50</sup> A la muerte de Baal Janán, le sucedió en el trono Hodad. Su ciudad se llamaba Pau, y su mujer Mehetabel, hija de Matred, hija de Mezahab.
 
 ## Los jeques de Edom.
+<span class="parallel-ref">||Gn <strong>36</strong> 40-43.</span>
 <sup>51</sup> Murió Hodad, y hubo jeques en Edom: el jeque Timná, el jeque Alvá, el jeque Yetet, <sup>52</sup> el jeque Oholibamá, el jeque Elá, el jeque Pinón, <sup>53</sup> el jeque Quenaz, el jeque Temán, el jeque Mibsar, <sup>54</sup> el jeque Magdiel, el jeque Irán. Éstos fueron los jeques de Edom.
 
+## <span class="subsection-title">2. JUDÁ</span>
 ## Hijos de Israel.
-## 2. JUDÁ
+<span class="parallel-ref">||Gn <strong>35</strong> 23-26.</span>
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Éstos son los hijos de Israel: Rubén, Simeón, Leví y Judá, Isacar y Zabulón, <sup>2</sup> Dan, José y Benjamín, Neftalí, Gad y Aser.
 
 ## Descendientes de Judá<span class="note-ref" data-ref="1cro-2-3" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||Gn <strong>38</strong> 2-5.7.27-30.</span>
 <sup>3</sup> Hijos de Judá: Er, Onán y Selá; los tres le nacieron de Bat Súa la cananea. Yahvé consideraba malo a Er, primogénito de Judá, y le quitó la vida. <sup>4</sup> Tamar, nuera de Judá, le dio a luz a Peres y Zéraj. En total, Judá tuvo cinco hijos.
 
 <sup>5</sup> Hijos de Peres: Jesrón y Jamul.
@@ -74,10 +87,11 @@ El primogénito de Ismael fue Nebayot; después nacieron Quedar, Adbeel, Mibsán
 
 ## Orígenes de David.
 <sup>9</sup> Hijos que le nacieron a Jesrón: Yerajmeel, Ram y Quelubay<span class="note-ref" data-ref="1cro-2-9" title="Ver comentario">&#42;</span>.
-
+<span class="parallel-ref">||Nm <strong>1</strong> 7; ||Rt <strong>4</strong> 19-22.</span>
 <sup>10</sup> Ram engendró a Aminadab, y éste engendró a Najsón, príncipe de los hombres de Judá. <sup>11</sup> Najsón engendró a Salmá, y éste engendró a Booz. <sup>12</sup> Booz engendró a Obed, y éste engendró a Jesé. <sup>13</sup> Jesé engendró a su primogénito Eliab; Abinadab fue el segundo; Simá, el tercero; <sup>14</sup> Netanel, el cuarto; Raday, el quinto; <sup>15</sup> Osen, el sexto; David, el séptimo. <sup>16</sup> Hermanas suyas fueron Sarvia y Abigail. Sarvia tuvo tres hijos: Abisay, Joab y Asael. <sup>17</sup> Abigail dio a luz a Amasá; el padre de éste fue Yéter el ismaelita.
 
 ## Caleb.
+<span class="parallel-ref">Jos <strong>14</strong> 6+; 1 Cro <strong>2</strong> 42s; <strong>4</strong> 11s.</span>
 <sup>18</sup> Caleb, hijo de Jesrón, engendró a Yeriot, de su mujer Azubá<span class="note-ref" data-ref="1cro-2-18" title="Ver comentario">&#42;</span>. Éstos fueron sus hijos: Yéser, Sobab y Ardón. <sup>19</sup> Murió Azubá y Caleb tomó por mujer a Efratá, de la que tuvo a Jur. <sup>20</sup> Jur engendró a Urí, y éste engendró a Besalel.
 
 <sup>21</sup> Después se unió Jesrón a la hija de Maquir, padre de Galaad. Cuando la tomó por mujer, él tenía sesenta años; y le dio a luz a Segub. <sup>22</sup> Segub engendró a Yaír, que poseyó veintitrés ciudades en el país de Galaad. <sup>23</sup> Los guesuritas y los arameos les tomaron sesenta ciudades: las aldeas de Yaír, Quenat y sus aduares. Todo esto pertenece a los hijos de Maquir<span class="note-ref" data-ref="1cro-2-23" title="Ver comentario">&#42;</span>, padre de Galaad.
@@ -113,8 +127,9 @@ Hijos de Jur, primogénito de Efratá: Sobal, padre de Quiriat Yearín; <sup>51<
 
 <sup>54</sup> Hijos de Salmá: Belén y los netofatitas, Atrot Bet Joab, la otra mitad de los manajatitas, los soraítas <sup>55</sup> y los clanes de los sofritas que habitaban en Yabés, los tirateos, los simateos, los sucateos. Éstos son quenitas, descendientes de Jamat, padre de la casa de Recab.
 
-## 3. LA CASA DE DAVID<span class="note-ref" data-ref="1cro-3" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">3. LA CASA DE DAVID<span class="note-ref" data-ref="1cro-3" title="Ver comentario">&#42;</span></span>
 ## Hijos de David.
+<span class="parallel-ref">||2 S <strong>3</strong> 2-5.</span>
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Éstos son los hijos que le nacieron a David en Hebrón: el primogénito fue Amnón, hijo de Ajinoán, de Yizreel; el segundo, Daniel, hijo de Abigail, de Carmelo; <sup>2</sup> el tercero, Absalón, hijo de Maacá, hija de Talmay, rey de Guesur; el cuarto, Adonías, hijo de Jaguit; <sup>3</sup> el quinto, Sefatías, de Abital; el sexto, Yitreán, de su mujer Eglá. <sup>4</sup> Estos seis le nacieron en Hebrón, donde reinó siete años y seis meses.
 
 Reinó en Jerusalén treinta y tres años. <sup>5</sup> Éstos son los que le nacieron en Jerusalén: Simá, Sobab, Natán, Salomón, los cuatro de Bat Súa<span class="note-ref" data-ref="1cro-3-5" title="Ver comentario">&#42;</span>, hija de Amiel. <sup>6</sup> Además, estos nueve: Yibjar, Elisamá, Elifélet, <sup>7</sup> Nogah, Néfeg, Yafía, <sup>8</sup> Elisamá, Elyadá y Elifélet.
@@ -127,7 +142,7 @@ Reinó en Jerusalén treinta y tres años. <sup>5</sup> Éstos son los que le na
 ## Linaje monárquico post-exílico<span class="note-ref" data-ref="1cro-3-17" title="Ver comentario">&#42;</span>.
 <sup>17</sup> Hijos de Jeconías, el cautivo: Sealtiel, <sup>18</sup> Malquirán, Pedayas, Senasar, Yecamías, Hosamá, Nedabías. <sup>19</sup> Hijos de Pedayas: Zorobabel<span class="note-ref" data-ref="1cro-3-19" title="Ver comentario">&#42;</span> y Semeí. Hijos de Zorobabel: Mesulán, Jananías y Selomit, su hermana. <sup>20</sup> Hijos de Mesulán<span class="note-ref" data-ref="1cro-3-20" title="Ver comentario">&#42;</span>: Jasubá, Ohel, Berequías, Jasadías y Yusab Jésed; cinco en total. <sup>21</sup> Hijos de Jananías: Pelatías; Isaías, hijo suyo; Refayas, hijo suyo; Arnán, hijo suyo; Abdías, hijo suyo; Secanías, hijo suyo<span class="note-ref" data-ref="1cro-3-21" title="Ver comentario">&#42;</span>. <sup>22</sup> Hijos de Secanías: Semaías, Jatús, Yigal, Baríaj, Nearías y Safat: seis. <sup>23</sup> Hijos de Nearías: Eljoenay, Ezequías, Azricán: tres. <sup>24</sup> Eljoenay tuvo siete hijos: Hodavías, Eliasib, Pelayas, Acub, Juan, Delaías y Ananí.
 
-## 4. LAS TRIBUS MERIDIONALES<span class="note-ref" data-ref="1cro-4" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">4. LAS TRIBUS MERIDIONALES<span class="note-ref" data-ref="1cro-4" title="Ver comentario">&#42;</span></span>
 ## Judá. Sobal.
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Hijos de Judá: Peres, Jesrón, Carmí, Jur y Sobal.
 
@@ -163,13 +178,13 @@ Reinó en Jerusalén treinta y tres años. <sup>5</sup> Éstos son los que le na
 <sup>19</sup> Hijos de la mujer de Hodías, hermana de Naján, padre de Queilá el garmita y Estemoa el maacatita.
 
 <sup>20</sup> Hijos de Simón: Amnón y Riná, Ben Janán y Tilón.
-
-## Hijos de Yisí: Zójet y Ben Zójet.
+Hijos de Yisí: Zójet y Ben Zójet.
 
 ## Hijos de Selá<span class="note-ref" data-ref="1cro-4-21" title="Ver comentario">&#42;</span>.
 <sup>21</sup> Hijos de Selá, hijo de Judá: Er, padre de Lecá, y Ladá, padre de Maresá, y las familias de los que trabajan el lino en Bet Asbea. <sup>22</sup> Yoquín, los hombres de Cozebá; y Joás y Saraf, que se casaron en Moab<span class="note-ref" data-ref="1cro-4-22-a" title="Ver comentario">&#42;</span>, antes de volver a Belén<span class="note-ref" data-ref="1cro-4-22-b" title="Ver comentario">&#42;</span>. Éstas son cosas muy antiguas. <sup>23</sup> Ellos eran alfareros y habitaban en Netaín y Guederá<span class="note-ref" data-ref="1cro-4-23" title="Ver comentario">&#42;</span>; moraban allí con el rey, trabajando a su servicio.
 
 ## Descendientes de Simeón<span class="note-ref" data-ref="1cro-4-24" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||Gn <strong>46</strong> 10; ||Nm <strong>26</strong> 12S</span>
 <sup>24</sup> Hijos de Simeón: Yemuel, Yamín, Yarib, Zéraj y Saúl. <sup>25</sup> Salún, su hijo; Mibsán, su hijo; Mismá, su hijo. <sup>26</sup> Hijos de Mismá: Jamuel, hijo suyo; Zacur, hijo suyo; Semeí, hijo suyo. <sup>27</sup> Semeí tuvo dieciséis hijos y seis hijas, pero sus hermanos no tuvieron muchos hijos, ni todos sus clanes se multiplicaron como los hijos de Judá.
 
 <sup>28</sup> Habitaban en Berseba, Moladá, Jasar-Sual, <sup>29</sup> Balá, Esen y Tolad, <sup>30</sup> Betuel, Jormá, Sicelag, <sup>31</sup> Bet Marcabot, Jasar Susá, Bet Birí y Saaráin. Éstas fueron sus ciudades hasta el reino de David. <sup>32</sup> También sus aldeas: Etán, Ayin, Rimón, Toquén y Asán, cinco ciudades, <sup>33</sup> y todas sus aldeas que están en torno a aquellas ciudades, hasta Baalat. Aquí habitaron y éste fue su registro genealógico.
@@ -180,7 +195,7 @@ Reinó en Jerusalén treinta y tres años. <sup>5</sup> Éstos son los que le na
 
 <sup>42</sup> Algunos de los descendientes de Simeón, en número de quinientos hombres, se fueron a la montaña de Seír. Sus jefes eran Pelatías, Nearías, Refayas, Uziel, hijos de Yisí. <sup>43</sup> Derrotaron a los restos de Amalec que habían escapado, y habitaron allí hasta el día de hoy.
 
-## 5. LAS TRIBUS DE TRANSJORDANIA
+## <span class="subsection-title">5. LAS TRIBUS DE TRANSJORDANIA</span>
 ## Descendientes de Rubén.
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Hijos de Rubén, primogénito de Israel. Verdad es que había nacido el primero, pero por haber manchado el tálamo de su padre se dio su primogenitura a los hijos de José, hijo de Israel. Con todo, José no fue inscrito en las genealogías como el primogénito, <sup>2</sup> pues Judá se hizo poderoso entre sus hermanos y de él procede el príncipe, pero la primogenitura pertenece a José<span class="note-ref" data-ref="1cro-5-2" title="Ver comentario">&#42;</span>.
 
@@ -192,11 +207,13 @@ Reinó en Jerusalén treinta y tres años. <sup>5</sup> Éstos son los que le na
 <sup>7</sup> Hermanos suyos, por clanes, agrupados según sus genealogías: el primero, Yeiel, Zacarías, <sup>8</sup> Belá, hijo de Azaz, hijo de Sema, hijo de Joel.
 
 ## Lugar de residencia.
+<span class="parallel-ref">Nm <strong>32</strong> 37s.</span>
 Éste habitaba en Aroer, y llegaba hasta Nebo y Baal Meón. <sup>9</sup> Habitaban, asimismo, al oriente hasta el borde del desierto que se extiende desde el río Éufrates, pues sus ganados se habían multiplicado en la tierra de Galaad.
 
 <sup>10</sup> En los días de Saúl hicieron guerra contra los agarenos, que cayeron en sus manos; y habitaron en sus tiendas por toda la parte oriental de Galaad.
 
 ## Descendencia de Gad<span class="note-ref" data-ref="1cro-5-11" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Jos <strong>13</strong> 24-28; Gn <strong>46</strong> 16; Nm <strong>26</strong> 15-18; Dt <strong>3</strong> 10s.</span>
 <sup>11</sup> Los hijos de Gad habitaban junto a ellos en la tierra de Basán, hasta Salcá. <sup>12</sup> Joel fue el primero, Safán el segundo; luego Yanay y Safat, en Basán.
 
 <sup>13</sup> Sus hermanos, por casas paternas, fueron siete: Miguel, Mesulán, Seba, Yoray, Yacán, Zía y Héber.
@@ -208,19 +225,22 @@ Reinó en Jerusalén treinta y tres años. <sup>5</sup> Éstos son los que le na
 <sup>18</sup> Los miembros de Rubén, los de Gad y la media tribu de Manasés eran hombres valientes. Llevaban escudo y espada, manejaban el arco y eran diestros en la guerra. Salían a campaña en número de 44.760. <sup>19</sup> Hicieron guerra contra los agarenos, contra Yetur, Nafís y Nodab, <sup>20</sup> y Dios les ayudó contra ellos, de suerte que los agarenos y todos los que con ellos estaban fueron entregados en sus manos; pues en la batalla clamaron a Dios y les fue propicio, por cuanto confiaban en él. <sup>21</sup> Capturaron sus ganados: 50.000 camellos, 250.000 ovejas, 2.000 asnos y 100.000 personas, <sup>22</sup> pues, por ser guerra santa, cayeron muertos muchos. Y habitaron sus territorios hasta el destierro<span class="note-ref" data-ref="1cro-5-22" title="Ver comentario">&#42;</span>.
 
 ## La media tribu de Manasés.
+<span class="parallel-ref">||Nm <strong>32</strong> 39.</span>
 <sup>23</sup> Los miembros de la media tribu de Manasés habitaron en el país desde Basán hasta Baal Hermón, Senir y la montaña de Hermón.
 
 Eran muy numerosos. <sup>24</sup> Éstos fueron los jefes de sus casas paternas: Éfer, Yisí, Eliel, Azriel, Jeremías, Hodavías y Yajdiel, hombres valerosos y renombrados, jefes de sus casas paternas.
 
 <sup>25</sup> Pero fueron infieles al Dios de sus antepasados y se prostituyeron siguiendo a los dioses de los pueblos del país que Dios había destruido a su paso. <sup>26</sup> Entonces el Dios de Israel suscitó el espíritu de Pul<span class="note-ref" data-ref="1cro-5-26" title="Ver comentario">&#42;</span>, rey de Asiria, y el espíritu de Teglatfalasar, rey de Asiria, que deportó a los rubenitas, los gaditas y la media tribu de Manasés, y los llevó a Jalaj, Jabor, Jará y el río Gozán, hasta el día de hoy.
 
-## 6. LEVÍ<span class="note-ref" data-ref="1cro-5-27" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">6. LEVÍ<span class="note-ref" data-ref="1cro-5-27" title="Ver comentario">&#42;</span></span>
 ## Ascendencia de los Sumos Sacerdotes.
+<span class="parallel-ref">||Gn <strong>46</strong> 11; ||Nm <strong>26</strong> 59-60.</span>
 <sup>27</sup> Hijos de Leví: Guersón, Queat y Merarí. <sup>28</sup> Hijos de Queat: Amrán, Yisar, Hebrón y Uziel. <sup>29</sup> Hijos de Amrán: Aarón, Moisés y María. Hijos de Aarón: Nadab, Abihú, Eleazar e Itamar.
 
 <sup>30</sup> Eleazar engendró a Pinjás, y éste engendró a Abisúa. <sup>31</sup> Abisúa engendró a Buquí, y éste engendró a Uzí; <sup>32</sup> Uzí engendró a Zerajías, y éste engendró a Merayot; <sup>33</sup> Merayot engendró a Amarías, y éste engendró a Ajitub; <sup>34</sup> Ajitub engendró a Sadoc, y éste engendró a Ajimás; <sup>35</sup> Ajimás engendró a Azarías, y éste engendró a Juan; <sup>36</sup> Juan engendró a Azarías, que ejerció el sacerdocio en el templo que Salomón edificó en Jerusalén. <sup>37</sup> Azarías engendró a Amarías, y éste engendró a Ajitub; <sup>38</sup> Ajitub engendró a Sadoc, y éste engendró a Salún; <sup>39</sup> Salún engendró a Jilquías, y éste engendró a Azarías; <sup>40</sup> Azarías engendró a Serayas, y éste engendró a Josadac. <sup>41</sup> Josadac marchó cuando Yahvé deportó a Judá y Jerusalén por mano de Nabucodonosor.
 
 ## Hijos de Leví.
+<span class="parallel-ref">||Nm <strong>3</strong> 17-20.</span>
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Hijos de Leví: Guersón, Queat y Merarí.
 
 <sup>2</sup> Éstos son los nombres de los hijos de Guersón: Libní y Semeí. <sup>3</sup> Hijos de Queat: Amrán, Yisar, Hebrón y Uziel. <sup>4</sup> Hijos de Merarí: Majlí y Musí. Éstos son los clanes de los levitas según sus casas paternas.
@@ -248,11 +268,13 @@ De los descendientes de Queat: Hemán el cantor, hijo de Joel, hijo de Samuel, <
 <sup>35</sup> Éstos fueron los descendientes de Aarón: Eleazar, su hijo; Pinjás, su hijo; Abisúa, su hijo; <sup>36</sup> Buquí, su hijo; Uzí, su hijo; Zerajías, su hijo; <sup>37</sup> Merayot, su hijo; Amarías, su hijo; Ajitub, su hijo; <sup>38</sup> Sadoc, su hijo; Ajimás, su hijo.
 
 ## Ciudades aaronitas.
+<span class="parallel-ref">Jos <strong>21</strong> 4-40.</span>
 <sup>39</sup> Éstas fueron sus residencias según el orden de sus fronteras:
 
 A los hijos de Aarón, del clan de los queatitas —pues a ellos les tocó en suerte—<sup>40</sup> se les dio Hebrón en la tierra de Judá, con sus ejidos circundantes; <sup>41</sup> pero el campo de la ciudad y sus aldeas se lo dieron a Caleb, hijo de Jefoné. <sup>42</sup> Los hijos de Aarón recibieron como ciudades de asilo: Hebrón, Libná con sus ejidos, Yatir y Estemoa con sus ejidos, <sup>43</sup> Jilaz con sus ejidos, Debir con sus ejidos, <sup>44</sup> Asán con sus ejidos y Bet Semes con sus ejidos. <sup>45</sup> De la tribu de Benjamín: Gueba con sus ejidos, Alémet con sus ejidos y Anatot con sus ejidos. El total de sus ciudades fue trece, según sus clanes.
 
 ## Ciudades de los restantes levitas.
+<span class="parallel-ref">Jos <strong>21</strong> 5-8.9.20-39.</span>
 <sup>46</sup> A los otros queatitas les dieron por sorteo, conforme a sus clanes, diez ciudades de la tribu de Efraín, de la tribu de Dan y de la media tribu de Manasés. <sup>47</sup> A los hijos de Guersón, según sus clanes, trece ciudades de la tribu de Isacar, de la tribu de Aser, de la tribu de Neftalí y de la tribu de Manasés en Basán. <sup>48</sup> A los hijos de Merarí, según sus clanes, les tocaron en suerte doce ciudades de la tribu de Rubén, de la tribu de Gad y de la tribu de Zabulón. <sup>49</sup> Los israelitas dieron a los levitas estas ciudades con sus ejidos.
 
 <sup>50</sup> Les tocaron, pues, en suerte, estas ciudades de la tribu de Judá, de la tribu de Simeón y de la tribu de Benjamín, a las que pusieron sus nombres.
@@ -263,8 +285,9 @@ A los hijos de Aarón, del clan de los queatitas —pues a ellos les tocó en su
 
 <sup>62</sup> Para el resto de los meraritas: de la tribu de Zabulón: Rimón con sus ejidos y Tabor con sus ejidos. <sup>63</sup> Y en la otra parte del Jordán, frente a Jericó, al oriente del Jordán, de la tribu de Rubén: Béser en el desierto, con sus ejidos, y Yahas con sus ejidos, <sup>64</sup> Quedemot con sus ejidos y Mefaat con sus ejidos. <sup>65</sup> De la tribu de Gad: Ramot en Galaad con sus ejidos, Majanáin con sus ejidos, <sup>66</sup> Jesbón con sus ejidos y Yazer con sus ejidos.
 
-## 7. LAS TRIBUS DEL NORTE<span class="note-ref" data-ref="1cro-7" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">7. LAS TRIBUS DEL NORTE<span class="note-ref" data-ref="1cro-7" title="Ver comentario">&#42;</span></span>
 ## Descendientes de Isacar.
+<span class="parallel-ref">||Gn <strong>46</strong> 13; ||Nm <strong>26</strong> 23-24; Jc <strong>10</strong> 1.</span>
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Los cuatro hijos de Isacar fueron Tolá, Puá, Yasub y Simrón.
 
 <sup>2</sup> Hijos de Tolá: Uzí, Refayas, Yeriel, Yajmay, Yibsán y Samuel, jefes de las casas paternas de Tolá. En los días de David, su número era, según sus genealogías, de 22.600 guerreros esforzados.
@@ -272,6 +295,7 @@ A los hijos de Aarón, del clan de los queatitas —pues a ellos les tocó en su
 <sup>3</sup> Hijos de Uzí: Yizrajías; hijos de Yizrajías: Miguel, Abdías, Joel y Yisías. En total cinco jefes. <sup>4</sup> Según sus genealogías, por sus casas paternas, sus escuadrones de tropas de guerra sumaban 36.000 hombres, pues tenían muchas mujeres e hijos. <sup>5</sup> Sus hermanos de todos los clanes de Isacar eran 87.000, guerreros esforzados, inscritos todos ellos en las genealogías.
 
 ## Descendientes de Benjamín.
+<span class="parallel-ref">Ver <strong>8</strong> 1s; ||Gn <strong>46</strong> 21; ||Nm <strong>26</strong> 38.</span>
 <sup>6</sup> Los tres hijos de Benjamín fueron Belá, Béquer y Yediael.
 
 <sup>7</sup> Los hijos de Belá fueron Esbón, Uzí, Uziel, Yerimot e Irí: cinco jefes de las casas paternas, esforzados guerreros, inscritos en las genealogías en número de 22.034.
@@ -283,6 +307,7 @@ A los hijos de Aarón, del clan de los queatitas —pues a ellos les tocó en su
 <sup>12</sup> Supín y Jupín eran hijos de Irí. Jusín era de Ajer.
 
 ## Descendencia de Neftalí.
+<span class="parallel-ref">||Gn <strong>46</strong> 24; ||Nm <strong>26</strong> 48-50.</span>
 <sup>13</sup> Hijos de Neftalí: Yajseel, Guní, Yéser y Salún, hijos de Bilhá<span class="note-ref" data-ref="1cro-7-13" title="Ver comentario">&#42;</span>.
 
 ## Descendencia de Manasés<span class="note-ref" data-ref="1cro-7-14" title="Ver comentario">&#42;</span>.
@@ -299,6 +324,7 @@ A los hijos de Aarón, del clan de los queatitas —pues a ellos les tocó en su
 <sup>19</sup> Los hijos de Semidá fueron Ajián, Siquén, Licjí y Anián.
 
 ## Descendencia de Efraín<span class="note-ref" data-ref="1cro-7-20" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||Nm <strong>26</strong> 35.</span>
 <sup>20</sup> Hijos de Efraín: Sutélaj, Béred, su hijo; Tájat, su hijo; Eladá, su hijo; Tájat, su hijo; <sup>21</sup> Zabad, su hijo; Sutélaj, su hijo; Ézer y Elad<span class="note-ref" data-ref="1cro-7-21" title="Ver comentario">&#42;</span>.
 
 Pero los hombres de Gat, nativos del país, los mataron, pues habían bajado a apoderarse de sus ganados. <sup>22</sup> Su padre Efraín los lloró durante muchos días, y sus hermanos vinieron a consolarle. <sup>23</sup> Después se unió a su mujer, que concibió y le dio un hijo, a quien llamó Beriá, porque la desgracia<span class="note-ref" data-ref="1cro-7-23" title="Ver comentario">&#42;</span> estaba en su casa. <sup>24</sup> Hija suya fue Seerá, que edificó Bet Jorón de Arriba y de Abajo, y Uzén Seerá.
@@ -308,6 +334,7 @@ Pero los hombres de Gat, nativos del país, los mataron, pues habían bajado a a
 <sup>28</sup> Tenían propiedades y habitaban en Betel y sus aldeas anejas, en Naará hacia el oriente, en Guézer y sus aldeas anejas hacia el occidente, en Siquén<span class="note-ref" data-ref="1cro-7-28" title="Ver comentario">&#42;</span> y sus aldeas hasta Ayá y sus aldeas. <sup>29</sup> Y en manos de los hijos de Manasés estaban Betsán y sus aldeas anejas, Tanac y sus aldeas, Meguidó y sus aldeas, Dor y sus aldeas. En ellas habitaron los hijos de José, hijo de Israel.
 
 ## Descendencia de Aser<span class="note-ref" data-ref="1cro-7-30" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||Gn <strong>46</strong> 17; ||Nm <strong>26</strong> 35.</span>
 <sup>30</sup> Hijos de Aser: Yimná, Yisvá, Yisví y Beriá, y Séraj, su hermana.
 
 <sup>31</sup> Hijos de Beriá: Jéber y Malquiel, que fue padre de Birzait. <sup>32</sup> Jéber engendró a Yaflet, Semer y Jotán, y a Suá, su hermana.
@@ -322,8 +349,9 @@ Pero los hombres de Gat, nativos del país, los mataron, pues habían bajado a a
 
 <sup>40</sup> Todos éstos fueron hijos de Aser, jefes de familia, gente escogida, esforzados guerreros, jefes de príncipes. En los registros genealógicos estaban inscritos en número de 26.000 hombres, aptos para la milicia y la guerra.
 
-## 8. BENJAMÍN Y JERUSALÉN
+## <span class="subsection-title">8. BENJAMÍN Y JERUSALÉN</span>
 ## Descendencia de Benjamín<span class="note-ref" data-ref="1cro-8" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||Gn <strong>46</strong> 21; ||Nm <strong>26</strong> 38-40.</span>
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> Benjamín engendró a Belá, su primogénito; Asbel fue el segundo; Ajirán<span class="note-ref" data-ref="1cro-8-1" title="Ver comentario">&#42;</span>, el tercero; <sup>2</sup> Nojá, el cuarto; y Rafá, el quinto. <sup>3</sup> Los hijos de Belá fueron Adar y Guerá, padre de Ehúd<span class="note-ref" data-ref="1cro-8-3" title="Ver comentario">&#42;</span>, <sup>4</sup> Abisúa, Naamán, Ajóaj, <sup>5</sup> Guerá, Sefufán y Jurán.
 
 ## En Gueba<span class="note-ref" data-ref="1cro-8-6" title="Ver comentario">&#42;</span>.
@@ -357,11 +385,12 @@ Yeremot, <sup>15</sup> Zebadías, Arad, Éder, <sup>16</sup> Miguel, Yispá y Yo
 <sup>29</sup> En Gabaón habitaba Yeiel, padre de Gabaón, cuya mujer se llamaba Maacá, <sup>30</sup> y su primogénito Abdón. Después nacieron Sur, Quis, Baal, Ner, Nadab, <sup>31</sup> Guedor, Ajió y Zéquer. <sup>32</sup> Miclot engendró a Simá. También éstos habitaron, igual que sus hermanos, en Jerusalén, con sus hermanos<span class="note-ref" data-ref="1cro-8-32" title="Ver comentario">&#42;</span>.
 
 ## Saúl y su familia<span class="note-ref" data-ref="1cro-8-33" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||1 S <strong>14</strong> 49-51, =<strong>1</strong> Cro <strong>9</strong> 39-43.</span>
 <sup>33</sup> Ner engendró a Quis y éste a Saúl; Saúl engendró a Jonatán, Malquisúa, Abinadab y Esbaal. <sup>34</sup> Hijo de Jonatán fue Meribaal, que engendró a Micá. <sup>35</sup> Hijos de Micá fueron Pitón, Mélec, Tarea y Ajaz. <sup>36</sup> Ajaz engendró a Joadá, y éste engendró a Alémet, Azmávet y Zimrí. Zimrí engendró a Mosá, <sup>37</sup> que a su vez engendró a Biná, cuyo hijo fue Rafá, su nieto, Elasá, y su biznieto, Asel. <sup>38</sup> Asel tuvo seis hijos, cuyos nombres eran: Azricán, su primogénito<span class="note-ref" data-ref="1cro-8-38" title="Ver comentario">&#42;</span>; después nacieron Ismael, Searías, Abdías y Janán. Todos ellos fueron hijos de Asel.
 
 <sup>39</sup> Los hijos de su hermano Ésec eran Ulán, su primogénito, Yeús, el segundo, y Elifélet, el tercero. <sup>40</sup> Los hijos de Ulán fueron esforzados guerreros que manejaban el arco<span class="note-ref" data-ref="1cro-8-40" title="Ver comentario">&#42;</span>. Tuvieron muchos hijos y nietos: ciento cincuenta en total.
 
-## Todos éstos eran descendientes de Benjamín.
+Todos éstos eran descendientes de Benjamín.
 
 ## Jerusalén, ciudad israelita y ciudad santa<span class="note-ref" data-ref="1cro-9" title="Ver comentario">&#42;</span>.
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Todos los israelitas estaban registrados en las genealogías e inscritos en el libro de los reyes de Israel y de Judá, cuando fueron deportados a Babilonia por sus infidelidades.
@@ -388,8 +417,9 @@ Yeremot, <sup>15</sup> Zebadías, Arad, Éder, <sup>16</sup> Miguel, Yispá y Yo
 
 <sup>34</sup> Éstos eran, según sus genealogías, los cabezas de familia de los levitas, jefes de sus linajes que habitaban en Jerusalén.
 
-## 9. SAÚL, PREDECESOR DE DAVID
+## <span class="subsection-title">9. SAÚL, PREDECESOR DE DAVID</span>
 ## Orígenes de Saúl.
+<span class="parallel-ref">=<strong>8</strong> 29-38</span>
 <sup>35</sup> En Gabaón moraban el padre de Gabaón, Yeiel, cuya mujer se llamaba Maacá, <sup>36</sup> y Abdón su hijo primogénito. Otros fueron Sur, Quis, Baal, Ner, Nadab, <sup>37</sup> Guedor, Ajió, Zacarías y Miclot. <sup>38</sup> Miclot engendró a Simá. También éstos habitaron en Jerusalén junto a sus hermanos y en unión con éstos<span class="note-ref" data-ref="1cro-9-38" title="Ver comentario">&#42;</span>.
 
 <sup>39</sup> Ner engendró a Quis, y éste a Saúl; Saúl engendró a Jonatán, Malquisúa, Abinadab y Esbaal. <sup>40</sup> Meribaal, que era hijo de Jonatán, engendró a Micá. <sup>41</sup> Hijos de Micá fueron Pitón, Mélec y Tarea. <sup>42</sup> Ajaz engendró a Yará, y éste engendró a Alémet, Azmávet y Zimrí. Zimrí engendró a Mosá.
@@ -397,6 +427,7 @@ Yeremot, <sup>15</sup> Zebadías, Arad, Éder, <sup>16</sup> Miguel, Yispá y Yo
 <sup>43</sup> Mosá engendró a Biná, cuyo hijo fue Refayas, su nieto, Elasá, y su biznieto, Asel. <sup>44</sup> Éste tuvo seis hijos, cuyos nombres fueron Azricán, su primogénito, Ismael, Searías, Abdías y Janán. Éstos fueron los hijos de Asel.
 
 ## Batalla de Gelboé, muerte de Saúl <span class="note-ref" data-ref="1cro-10" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||1 S <strong>31</strong> 1-13</span>
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Cuando trabaron batalla los filisteos contra Israel, los israelitas huyeron ante los filisteos, y cayeron heridos de muerte en el monte Gelboé. <sup>2</sup> Los filisteos acosaron de cerca a Saúl y a sus hijos, y mataron a Jonatán, Abinadab y Malquisúa, hijos de Saúl. <sup>3</sup> El peso de la batalla cargó sobre Saúl; los arqueros lo descubrieron y lo hirieron con flechas. <sup>4</sup> Dijo Saúl a su escudero: «Saca tu espada y traspásame con ella, no sea que vengan esos incircuncisos y hagan mofa de mí.» Pero el escudero no quiso, pues estaba lleno de temor. Entonces tomó Saúl la espada y se arrojó sobre ella. <sup>5</sup> Al ver el escudero que Saúl había muerto, se arrojó, también él, sobre la espada y murió con él. <sup>6</sup> Así murió Saúl con sus tres hijos; y toda su casa murió juntamente con él. <sup>7</sup> Al ver todos los hombres de Israel, que estaban en el valle, que las tropas de Israel se daban a la fuga y que Saúl y sus hijos habían muerto, abandonaron sus ciudades y huyeron. Los filisteos llegaron y se establecieron en ellas.
 
 <sup>8</sup> Al otro día, al venir los filisteos para despojar a los muertos, encontraron a Saúl y a sus hijos muertos en el monte Gelboé. <sup>9</sup> Lo despojaron, se llevaron su cabeza y sus armas, y mandaron anunciar la buena nueva por el contorno del país de los filisteos, a sus dioses y al pueblo. <sup>10</sup> Depositaron sus armas en el templo de su dios y clavaron su cabeza en el templo de Dagón.
@@ -405,15 +436,19 @@ Yeremot, <sup>15</sup> Zebadías, Arad, Éder, <sup>16</sup> Miguel, Yispá y Yo
 
 <sup>13</sup> Saúl murió a causa de la infidelidad que había cometido contra Yahvé, porque no guardó la palabra de Yahvé y también por haber interrogado y consultado a una nigromante, <sup>14</sup> en vez de consultar a Yahvé. Por eso le hizo morir y transfirió el reino a David, hijo de Jesé<span class="note-ref" data-ref="1cro-10-14" title="Ver comentario">&#42;</span>.
 
-## II. David, fundador del culto del templo
-## 1. LA MONARQUÍA DE DAVID
+<span class="section-intro">II. David, fundador del culto del templo</span>
+
+## <span class="subsection-title">1. LA MONARQUÍA DE DAVID</span>
 ## Unción de David <span class="note-ref" data-ref="1cro-11" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||2 S <strong>5</strong> 1-3.</span>
 <span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Todos los israelitas se congregaron en torno a David, en Hebrón, y le dijeron: «Mira, nosotros somos hueso tuyo y carne tuya. <sup>2</sup> Ya de antes, cuando Saúl era nuestro rey, eras tú el que dirigías las idas y venidas de Israel. Yahvé, tu Dios, te ha dicho: ‘Tú apacentarás a mi pueblo Israel’.» <sup>3</sup> Vinieron, pues, todos los ancianos de Israel adonde el rey, a Hebrón, y David hizo allí un pacto con ellos, en presencia de Yahvé. Y ellos ungieron a David como rey sobre Israel, según la palabra que Yahvé había pronunciado por boca de Samuel.
 
 ## Conquista de Jerusalén.
+<span class="parallel-ref">||2 S <strong>5</strong> 6-10.</span>
 <sup>4</sup> Después marchó David con todo Israel<span class="note-ref" data-ref="1cro-11-4" title="Ver comentario">&#42;</span> contra Jerusalén, o sea, Jebús (los habitantes del país eran jebuseos). <sup>5</sup> Los habitantes de Jebús dijeron a David: «No entrarás aquí.» Pero David conquistó la fortaleza de Sión, que es la Ciudad de David. <sup>6</sup> Dijo David: «El primero que ataque al jebuseo, será jefe y capitán.» Subió el primero Joab, hijo de Sarvia, y pasó a ser jefe. <sup>7</sup> Se instaló David en la fortaleza; por eso la llamaron Ciudad de David. <sup>8</sup> Edificó en derredor de la ciudad tanto el Miló como la circunvalación; Joab restauró el resto de la ciudad<span class="note-ref" data-ref="1cro-11-8" title="Ver comentario">&#42;</span>. <sup>9</sup> David iba medrando, y Yahvé Sebaot estaba con él.
 
 ## Los valientes de David.
+<span class="parallel-ref">||2 S <strong>23</strong> 8-39.</span>
 <sup>10</sup> Éstos son los jefes de los valientes que tenía David, y que, durante su reinado, se esforzaron con él y con todo Israel para hacerle reinar, conforme a la palabra de Yahvé respecto de Israel. <sup>11</sup> Ésta es la lista de los valientes que tenía David: Yasobán, hijo de Jacmoní, jefe de los Treinta<span class="note-ref" data-ref="1cro-11-11" title="Ver comentario">&#42;</span>, que blandió su lanza e hizo más de trescientas bajas de una sola vez.
 
 <sup>12</sup> Después de él Eleazar, hijo de Dodó, el ajotita, que era uno de los Tres héroes. <sup>13</sup> Éste estaba con David en Fesdamín, donde los filisteos se habían concentrado para la batalla. Había allí una parcela sembrada de cebada, y la tropa estaba ya huyendo delante de los filisteos; <sup>14</sup> pero él se apostó en medio de la parcela, la defendió y derrotó a los filisteos. Yahvé obró allí una gran victoria<span class="note-ref" data-ref="1cro-11-14" title="Ver comentario">&#42;</span>.
@@ -489,19 +524,21 @@ pues tu Dios te ayuda a ti!»
 
 <sup>12</sup> Aquel día tuvo David miedo de Dios, y pensó: «¿Cómo voy a llevar a mi casa el arca de Dios?» <sup>13</sup> Así que David no trasladó el arca de Dios junto a sí, a la Ciudad de David, sino que la hizo llevar a casa de Obededón, el de Gat. <sup>14</sup> El arca de Dios estuvo tres meses en la casa de Obededón, en su propio hogar. Y bendijo Yahvé la casa de Obededón y cuanto tenía.
 
-David en Jerusalén. Su familia <span class="note-ref" data-ref="1cro-14" title="Ver comentario">&#42;</span>.
+## David en Jerusalén. Su familia <span class="note-ref" data-ref="1cro-14" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||2 S <strong>5</strong> 11-16.</span>
 <span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Jirán, rey de Tiro, envió a David mensajeros y maderas de cedro, y también albañiles y carpinteros, para edificarle una casa. <sup>2</sup> David había advertido que Yahvé le había confirmado como rey de Israel, pues había ensalzado su realeza en atención a su pueblo Israel.
 
 <sup>3</sup> Tomó David otras mujeres en Jerusalén y engendró más hijos e hijas. <sup>4</sup> Éstos son los nombres de los que tuvo en Jerusalén: Samúa, Sobab, Natán, Salomón, <sup>5</sup> Yibjar, Elisúa, Elpálet, <sup>6</sup> Nogah, Néfeg, Yafía, <sup>7</sup> Elisamá, Baalyadá y Elifélet.
 
 ## Guerras contra los filisteos.
+<span class="parallel-ref">||2 S <strong>5</strong> 17-25.</span>
 <sup>8</sup> Cuando los filisteos oyeron que David había sido ungido rey de todo Israel, subieron todos en su busca. David, al enterarse, les salió al paso. <sup>9</sup> Llegaron los filisteos y se desplegaron por el Valle de Refaín. <sup>10</sup> Entonces consultó David a Dios: «¿Debo atacar a los filisteos? ¿Los entregarás en mis manos?» Yahvé le respondió: «Atácales, pues yo los entregaré en tu mano.» <sup>11</sup> Así que subieron a Baal Perasín, donde David los derrotó. Dijo entonces David: «Dios ha abierto brecha entre mis enemigos por mi mano, como una brecha causada por las aguas.» Por eso llamaron a aquel lugar Baal Perasín. <sup>12</sup> Abandonaron allí a sus ídolos, que David mandó arrojar al fuego.
 
 <sup>13</sup> Volvieron otra vez los filisteos y se desplegaron por el valle. <sup>14</sup> David consultó de nuevo a Dios, que le contestó: «No te lances contra ellos. Da un rodeo y atácalos desde las balsameras. <sup>15</sup> Y cuando oigas un ruido de pasos en la cima de las balsameras, preséntales batalla, porque Dios sale delante de ti para derrotar al ejército de los filisteos.» <sup>16</sup> Hizo David como le había mandado Dios, y derrotaron al campamento de los filisteos desde Gabaón hasta Guézer.
 
 <sup>17</sup> La fama de David se extendió por todas las regiones, pues Yahvé le hizo temible a todas las naciones.
 
-## 2. EL ARCA EN LA CIUDAD DE DAVID
+## <span class="subsection-title">2. EL ARCA EN LA CIUDAD DE DAVID</span>
 ## Preparativos para el traslado<span class="note-ref" data-ref="1cro-15" title="Ver comentario">&#42;</span>.
 <span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Se construyó casas en la Ciudad de David, preparó un lugar para el arca de Dios y le levantó una Tienda para ella. <sup>2</sup> Entonces dijo David: «Solamente los levitas han de llevar el arca de Dios, pues a ellos los escogió Yahvé para llevar el arca de Yahvé y servirle siempre<span class="note-ref" data-ref="1cro-15-2" title="Ver comentario">&#42;</span>.»
 
@@ -514,6 +551,7 @@ David en Jerusalén. Su familia <span class="note-ref" data-ref="1cro-14" title=
 <sup>16</sup> Dijo David a los jefes de los levitas que colocaran a sus parientes los cantores, con instrumentos músicos, salterios, cítaras y címbalos, para que los hiciesen resonar, alzando la voz con júbilo. <sup>17</sup> Los levitas designaron a Hemán, hijo de Joel; y de sus parientes, a Asaf, hijo de Berequías; y de los descendientes de Merarí, parientes suyos, a Etán, hijo de Cusayas. <sup>18</sup> Y con ellos, como segundos, a sus parientes Zacarías, hijo de Yaaziel, Semiramot, Yejiel, Uní, Eliab, Benaías, Maasías, Matitías, Eliflehú, Micnías, Obededón y Yeiel, porteros. <sup>19</sup> Los cantores Hemán, Asaf y Etán hacían resonar címbalos de bronce. <sup>20</sup> Zacarías, Yaaziel, Semiramot, Yejiel, Uní, Eliab, Maasías y Benaías tenían salterios de tonos altos<span class="note-ref" data-ref="1cro-15-20" title="Ver comentario">&#42;</span>. <sup>21</sup> Matitías, Eliflehú, Micnías, Obededón, Yeiel y Azazías tenían cítaras de octava, para dirigir el canto. <sup>22</sup> Quenanías, jefe de los levitas encargados del transporte<span class="note-ref" data-ref="1cro-15-22" title="Ver comentario">&#42;</span>, dirigía el traslado, porque era hombre entendido. <sup>23</sup> Berequías y Elcaná eran porteros del arca. <sup>24</sup> Los sacerdotes Sebanías, Josafat, Natanael, Amasay, Zacarías, Benaías y Eliezer tocaban las trompetas delante del arca de Dios. Obededón y Yejías eran porteros del arca.
 
 ## Traslado del arca.
+<span class="parallel-ref">||2 S <strong>6</strong> 12-19.</span>
 <sup>25</sup> Así pues, David, los ancianos de Israel y los jefes de millares fueron a traer el arca de la alianza de Yahvé, desde la casa de Obededón, con alborozo. <sup>26</sup> Y como Dios había ayudado a los levitas portadores del arca de la alianza de Yahvé, sacrificaron siete becerros y siete carneros. <sup>27</sup> David iba revestido de un manto de lino fino, lo mismo que todos los levitas que portaban el arca, los cantores y Quenanías, el jefe que dirigía el traslado<span class="note-ref" data-ref="1cro-15-27" title="Ver comentario">&#42;</span>. Llevaba también David sobre sí un efod de lino. <sup>28</sup> Todo Israel subía el arca de la alianza de Yahvé entre clamores y resonar de cuernos, trompetas y címbalos, y haciendo sonar los salterios y las cítaras. <sup>29</sup> Cuando el arca de la alianza de Yahvé entró en la Ciudad de David, Mical, hija de Saúl, que estaba mirando por la ventana, vio al rey David que saltaba y bailaba, y lo despreció en su interior.
 
 <span id="chapter-16" class="chapter-marker" data-chapter="16">16</span><sup>1</sup> Introdujeron el arca de Dios y la colocaron en medio de la Tienda que David había hecho levantar para ella; y ofrecieron holocaustos y sacrificios de comunión en presencia de Dios. <sup>2</sup> Cuando David hubo acabado de ofrecer los holocaustos y sacrificios de comunión, bendijo al pueblo en nombre de Yahvé, <sup>3</sup> y repartió a cada uno de los israelitas, hombres y mujeres, una torta de pan, un pastel de dátiles y un pastel de pasas.
@@ -627,6 +665,7 @@ Decid a las naciones: «¡Yahvé es rey!»
 
 ante Yahvé, pues viene a juzgar la tierra.
 
+<span class="parallel-ref">||Sal <strong>106</strong> 1.47-48.</span>
 <sup>34</sup> ¡Dad gracias a Yahvé, porque es bueno,
 
 porque es eterna su misericordia!
@@ -650,6 +689,7 @@ Y todo el pueblo dijo: «Amén.» Y alabó a Yahvé.
 <sup>43</sup> Luego, todo el pueblo se fue, cada cual a su casa. También David se volvió para bendecir su casa.
 
 ## La profecía de Natán <span class="note-ref" data-ref="1cro-17" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||2 S <strong>7</strong> 1-17.</span>
 <span id="chapter-17" class="chapter-marker" data-chapter="17">17</span><sup>1</sup> Una vez instalado en su casa, dijo David al profeta Natán: «Ya ves, yo habito en una casa de cedro, mientras que el arca de la alianza de Yahvé está bajo una lona.» <sup>2</sup> Respondió Natán a David: «Haz lo que dicte el corazón, porque Dios está contigo.»
 
 <sup>3</sup> Pero aquella misma noche dirigió Dios la palabra a Natán en estos términos: <sup>4</sup> «Ve y di a mi siervo David: Esto dice Yahvé: No serás tú quien me edifique una Casa para que habite yo en ella. <sup>5</sup> Yo no he habitado en casa alguna desde el día en que hice subir a los israelitas hasta el día de hoy, sino que he andado de tienda en tienda y de refugio en refugio. <sup>6</sup> En todo el tiempo que he ido de un lado para otro con todo Israel, nunca dije a ninguno de los Jueces de Israel, a los que mandé que apacentaran a mi pueblo, que por qué no me edificaban una casa de cedro. <sup>7</sup> Di, pues, ahora esto a mi siervo David: Esto dice Yahvé Sebaot: Yo te he tomado del pastizal, de detrás del rebaño, para que seas caudillo de mi pueblo Israel. <sup>8</sup> He estado contigo dondequiera que hayas ido, he eliminado de delante de ti a todos tus enemigos y voy a hacer que tu nombre sea famoso, como el de los grandes de la tierra. <sup>9</sup> Fijaré un lugar a mi pueblo Israel, y lo plantaré allí para que more en él. Ya no será perturbado, y los malhechores no seguirán oprimiéndole como al principio, <sup>10</sup> y como en los días en que instituí Jueces sobre mi pueblo Israel. Someteré a todos tus enemigos. Y te anuncio que Yahvé te edificará una casa<span class="note-ref" data-ref="1cro-17-10" title="Ver comentario">&#42;</span>. <sup>11</sup> Cuando se acaben tus días y te reúnas con tus antepasados, reafirmaré a tu descendencia, al fruto de tu virilidad, y consolidaré su reino. <sup>12</sup> Él me construirá una casa y yo consolidaré su trono para siempre. <sup>13</sup> Yo seré para él padre y él será para mí hijo, y no apartaré de él mi amor, como lo aparté de aquel que te precedió. <sup>14</sup> Yo le estableceré en mi Casa y en mi reino para siempre, y su trono estará firme eternamente.»
@@ -657,9 +697,11 @@ Y todo el pueblo dijo: «Amén.» Y alabó a Yahvé.
 <sup>15</sup> Natán habló a David conforme a todas estas palabras y conforme a toda esta visión.
 
 ## Acción de gracias de David.
+<span class="parallel-ref">||2 S <strong>7</strong> 18-29.</span>
 <sup>16</sup> El rey David entró, se puso delante de Yahvé y dijo: «¿Quién soy yo, Yahvé Dios, y qué mi casa, para que me hayas traído hasta aquí? <sup>17</sup> Y aun esto te parece poco, Dios mío, que hablas también a la casa de tu siervo con relación a un futuro lejano y me miras, Yahvé Dios, como si fuera un hombre distinguido<span class="note-ref" data-ref="1cro-17-17" title="Ver comentario">&#42;</span>. <sup>18</sup> ¿Qué más podrá añadirte David ante esta gloria que concedes a tu siervo? Tú ya me conoces bien. <sup>19</sup> Yahvé, tú has hecho todas estas cosas tan grandes por amor de tu siervo, y según tu designio, para manifestar todas estas grandezas. <sup>20</sup> Yahvé, nadie es como tú, ni hay Dios fuera de ti, según todo lo que ha llegado a nuestros oídos. <sup>21</sup> ¿Qué otro pueblo hay sobre la tierra como tu pueblo Israel, a quien un dios haya ido a rescatar para hacerle su pueblo, dándole renombre por medio de obras grandes y terribles, arrojando naciones al paso de tu pueblo, al que rescataste de Egipto<span class="note-ref" data-ref="1cro-17-21" title="Ver comentario">&#42;</span>? <sup>22</sup> Tú has constituido a Israel tu pueblo como pueblo tuyo para siempre; y tú, Yahvé, eres su Dios. <sup>23</sup> Ahora, Yahvé, mantén firme eternamente la palabra que has dirigido a tu siervo y a su casa; y actúa conforme a lo que has dicho. <sup>24</sup> Sí, sea firme; y sea tu nombre por siempre engrandecido; que se diga: ‘Yahvé Sebaot, Dios de Israel, es el Dios para Israel’. Y que la casa de tu siervo David subsista en tu presencia. <sup>25</sup> Ya que tú, Dios mío, has revelado a tu siervo que vas a edificarle una casa, tu siervo ha encontrado valor para orar en tu presencia. <sup>26</sup> Yahvé, tú eres Dios y has prometido a tu siervo esta dicha; <sup>27</sup> y ahora te has dignado bendecir la casa de tu siervo, para que permanezca por siempre en tu presencia, porque lo que tú bendices, Yahvé, queda bendito por siempre.»
 
 ## Victorias de David <span class="note-ref" data-ref="1cro-18" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||2 S <strong>8</strong> 1-14.</span>
 <span id="chapter-18" class="chapter-marker" data-chapter="18">18</span><sup>1</sup> Después de esto, batió David a los filisteos, los humilló y arrancó de sus manos Gat y sus dependencias. <sup>2</sup> Batió también a los moabitas, que quedaron sometidos a David y pagaron tributo.
 
 <sup>3</sup> Batió David a Hadadézer, rey de Sobá, en Jamat, cuando éste iba a establecer su dominio sobre el río Éufrates. <sup>4</sup> David apresó mil carros, siete mil soldados de carro y veinte mil infantes, y desjarretó toda la caballería de los carros, reservándose cien tiros. <sup>5</sup> Los arameos de Damasco vinieron en socorro de Hadadézer, rey de Sobá, pero David causó veintidós mil bajas a los arameos. <sup>6</sup> Estableció David gobernadores en Aram de Damasco. Los arameos quedaron sometidos a David y pagaron tributo. Yahvé hizo triunfar a David por dondequiera que iba. <sup>7</sup> Tomó David los escudos de oro que llevaban los hombres de Hadadézer y los llevó a Jerusalén. <sup>8</sup> De Tibjat y Cun, ciudades de Hadadézer, tomó David una gran cantidad de bronce, con el cual fabricó Salomón el Mar de bronce, las columnas y los utensilios de bronce.
@@ -669,32 +711,40 @@ Y todo el pueblo dijo: «Amén.» Y alabó a Yahvé.
 <sup>12</sup> Abisay, hijo de Sarvia, derrotó en el Valle de la Sal a dieciocho mil edomitas. <sup>13</sup> Puso gobernadores en Edom, y todos los edomitas quedaron sometidos a David. Yahvé hizo triunfar a David dondequiera que iba.
 
 ## Altos cargos del reino.
+<span class="parallel-ref">||2 S <strong>8</strong> 15-18.</span>
 <sup>14</sup> Reinó David sobre todo Israel, administrando derecho y justicia a todo su pueblo.
 
 <sup>15</sup> Joab, hijo de Sarvia, era jefe del ejército; Josafat, hijo de Ajilud, hacía de heraldo; <sup>16</sup> Sadoc<span class="note-ref" data-ref="1cro-18-16" title="Ver comentario">&#42;</span>, hijo de Ajitub, y Ajimélec, hijo de Abiatar, ejercían como sacerdotes; Serayas era secretario; <sup>17</sup> Benaías, hijo de Joadá, mandaba a los quereteos y a los peleteos; y los hijos de David eran los primeros junto al rey<span class="note-ref" data-ref="1cro-18-17" title="Ver comentario">&#42;</span>.
 
 ## Guerra contra Amón y Aram.
+<span class="parallel-ref">||2 S <strong>10</strong> 1-5.</span>
 <span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> Después de esto, murió Najás, rey de los amonitas, y le sucedió en el trono su hijo. <sup>2</sup> Pensó entonces David: «Tendré con Janún, hijo de Najás, la misma benevolencia que su padre tuvo conmigo.» Así que envió mensajeros para que le consolaran por la muerte de su padre. Pero cuando los enviados llegaron al país de los amonitas, donde Janún, para consolarle, <sup>3</sup> dijeron los príncipes de los amonitas a Janún: «¿Piensas que David ha enviado a consolarte porque quiere que veas que honra a tu padre? Seguro que sus hombres han venido a explorar y destruir, y a espiar el país» <sup>4</sup> Entonces Janún prendió a los mensajeros de David, les rapó, cortó a media altura sus vestidos, y los despachó. <sup>5</sup> Cuando comunicaron a David lo sucedido, envió gente a su encuentro, porque los hombres estaban cubiertos de vergüenza. El rey les dijo que se quedasen en Jericó hasta que les creciese la barba, y que volviesen después.
 
 ## Primera campaña amonita.
+<span class="parallel-ref">||2 S <strong>10</strong> 6-14.</span>
 <sup>6</sup> Cuando los amonitas vieron que se habían hecho odiosos a David y Janún, enviaron mil talentos de plata para tomar a sueldo carros y hombres de carro de Aram Naharáin, de Aram de Maacá y de Sobá. <sup>7</sup> Tomaron a sueldo treinta y dos mil carros y al rey de Maacá con su ejército, los cuales vinieron y acamparon frente a Mádaba. Los amonitas se congregaron también desde sus ciudades y salieron a campaña. <sup>8</sup> Cuando se enteró David, mandó a Joab con toda la tropa y con los valientes. <sup>9</sup> Salieron a campaña los amonitas y se ordenaron en batalla a la entrada de la ciudad, mientras que los reyes que habían venido se situaron aparte en el campo. <sup>10</sup> Viendo Joab que tenía un frente de combate por delante y otro por detrás, escogió a los mejores de Israel y los situó en línea contra Aram. <sup>11</sup> Puso el resto del ejército al mando de su hermano Abisay y lo ordenó en batalla frente a los amonitas. <sup>12</sup> Y le dijo: «Si los arameos me dominan, ven en mi ayuda; y si los amonitas te dominan a ti, iré en tu socorro. <sup>13</sup> Ten fortaleza y esforcémonos por nuestro pueblo y por las ciudades de nuestro Dios. Y que Yahvé haga lo que bien le parezca.» <sup>14</sup> Y avanzó Joab con su ejército para luchar contra los arameos, que huyeron delante de él. <sup>15</sup> Al ver los amonitas que los arameos emprendían la fuga, huyeron también ellos ante Abisay, hermano de Joab, y entraron en la ciudad. Joab, por su parte, volvió a Jerusalén.
 
 ## Victoria sobre los arameos.
+<span class="parallel-ref">||2 S <strong>10</strong> 15-19.</span>
 <sup>16</sup> Al ver los arameos que habían sido vencidos por Israel, enviaron emisarios para hacer venir a los arameos del otro lado del Río. Al frente llegó Sofac, jefe del ejército de Hadadézer. <sup>17</sup> Se dio aviso a David, que reunió a todo Israel, pasó el Jordán, llegó donde estaban y tomó posiciones frente a ellos. Se puso David en orden de batalla contra los arameos y éstos trabaron combate con él, <sup>18</sup> pero acabaron huyendo ante Israel. David mató a los arameos siete mil jinetes y cuarenta mil hombres de a pie. Mató también a Sofac, jefe del ejército. <sup>19</sup> Cuando los vasallos de Hadadézer vieron que habían sido batidos ante Israel, hicieron la paz con David y le quedaron sometidos. Los arameos no se atrevieron a seguir ayudando a los amonitas.
 
 ## Segunda campaña amonita.
+<span class="parallel-ref">||2 S <strong>11</strong> 1; <strong>12</strong> 26.30-31.</span>
 <span id="chapter-20" class="chapter-marker" data-chapter="20">20</span><sup>1</sup> A la vuelta del año, por la época en que los reyes salen a campaña, llevó Joab el grueso del ejército y asoló el país de los amonitas. Después fue a poner sitio a Rabá. Mientras, David se quedó en Jerusalén. Entretanto Joab conquistó Rabá y la destruyó. <sup>2</sup> David tomó de la cabeza de Milcón<span class="note-ref" data-ref="1cro-20-2" title="Ver comentario">&#42;</span> la corona, que pesaba un talento de oro (había en ella una piedra preciosa que pusieron en la cabeza de David). El rey se llevó un enorme botín de la ciudad. <sup>3</sup> Hizo salir a la gente que había en ella y la puso a trabajar en las sierras, los trillos de dientes de hierro y las hachas de hierro. Hizo lo mismo con todas las ciudades de los amonitas. Luego David se volvió con todo el ejército a Jerusalén.
 
 ## Hazañas contra los filisteos.
+<span class="parallel-ref">||2 S <strong>21</strong> 18-22.</span>
 <sup>4</sup> Después de esto, tuvo lugar una batalla en Guézer contra los filisteos, en la que Sibecay, jusatita, mató a Saf, uno de los descendientes de Rafá. Los filisteos fueron sometidos.
 
 <sup>5</sup> Hubo otra guerra contra los filisteos, en la que Eljanán, hijo de Yaír, mató a Lajmí, hermano de Goliat el de Gat<span class="note-ref" data-ref="1cro-20-5" title="Ver comentario">&#42;</span>. El asta de su lanza era como un enjullo de tejedor. <sup>6</sup> Hubo guerra de nuevo en Gat, y había un campeón que tenía veinticuatro dedos, seis en cada extremidad. También él descendía de Rafá. <sup>7</sup> Desafió a Israel, pero Jonatán, hijo de Simá, hermano de David, lo mató. <sup>8</sup> Éstos descendían de Rafá de Gat y sucumbieron a manos de David y de sus servidores.
 
-## 3. HACIA LA CONSTRUCCIÓN DEL TEMPLO<span class="note-ref" data-ref="1cro-21-a" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">3. HACIA LA CONSTRUCCIÓN DEL TEMPLO<span class="note-ref" data-ref="1cro-21-a" title="Ver comentario">&#42;</span></span>
 ## El censo <span class="note-ref" data-ref="1cro-21-b" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||2 S <strong>24</strong> 1-9.</span>
 <span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> Alzóse Satán<span class="note-ref" data-ref="1cro-21-1" title="Ver comentario">&#42;</span> contra Israel, e incitó a David a hacer el censo del pueblo. <sup>2</sup> Dijo, pues, David a Joab y a los jefes del ejército: «Id y contad los israelitas desde Berseba hasta Dan, y volved después para que yo sepa su número.» <sup>3</sup> Respondió Joab: «¡Ojalá multiplicase Yahvé su pueblo cien veces más de lo que es! ¿Pero acaso no son, majestad, todos ellos siervos de mi señor? ¿Por qué, pues, pides esto? ¿Por qué acarrear culpa sobre Israel?» <sup>4</sup> Pero prevaleció la orden del rey sobre Joab, que salió y recorrió todo Israel, para volver después a Jerusalén. <sup>5</sup> Joab entregó a David la cifra del censo del pueblo: había en todo Israel 1.100.000 hombres capaces de manejar las armas; y en Judá 470.000 hombres capaces de manejar las armas<span class="note-ref" data-ref="1cro-21-5" title="Ver comentario">&#42;</span>. <sup>6</sup> No incluyó en este censo a Leví y Benjamín, porque Joab detestaba la orden del rey.
 
 ## La peste y el perdón.
+<span class="parallel-ref">||2 S <strong>24</strong> 10-17.</span>
 <sup>7</sup> Desagradó esto a Dios, por lo cual castigó a Israel. <sup>8</sup> Entonces dijo David a Dios: «He cometido un gran pecado haciendo esto. Pero ahora te ruego que perdones la falta de tu siervo, pues he sido muy necio.» <sup>9</sup> Yahvé habló a Gad, vidente de David, en estos términos: <sup>10</sup> «Anda y di a David: Esto dice Yahvé: Te propongo tres cosas; elige una de ellas y la llevaré a cabo.» <sup>11</sup> Llegó Gad donde David y le dijo: «Esto dice Yahvé: Elige: <sup>12</sup> tres años de hambre, o tres meses de derrotas ante tus enemigos, perseguido por su espada, o bien tres días durante los cuales la espada de Yahvé y la peste anden por la tierra y el ángel de Yahvé haga estragos en todo el territorio de Israel. Ahora piensa bien qué debo responder al que me envía.» <sup>13</sup> David contestó a Gad: «La angustia me atenaza. Pero caigamos en manos de Yahvé, que es grande su misericordia. No caiga yo en manos de los hombres.»
 
 <sup>14</sup> Yahvé envió la peste sobre Israel, y cayeron 70.000 hombres. <sup>15</sup> Mandó Dios un ángel contra Jerusalén para destruirla; pero, cuando ya estaba destruyéndola, miró Yahvé y se arrepintió del estrago. Y dijo al ángel Exterminador: «¡Basta ya; retira tu mano!»
@@ -702,6 +752,7 @@ Y todo el pueblo dijo: «Amén.» Y alabó a Yahvé.
 El ángel de Yahvé estaba junto a la era de Ornán el jebuseo. <sup>16</sup> <span class="note-ref" data-ref="1cro-21-16" title="Ver comentario">&#42;</span>Al alzar David la mirada, vio al ángel de Yahvé situado entre la tierra y el cielo, con una espada desenvainada en su mano, extendida contra Jerusalén. Entonces David y los ancianos, cubiertos de sayal, cayeron rostro en tierra. <sup>17</sup> Y dijo David a Dios: «Yo fui quien mandé hacer el censo del pueblo. Yo fui quien pequé, yo cometí el mal. Pero estas ovejas, ¿qué han hecho? ¡Yahvé, Dios mío, caiga tu mano sobre mí y sobre la casa de mi padre, y no haya plaga entre tu pueblo!»
 
 ## Se erige el altar <span class="note-ref" data-ref="1cro-21-18" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||2 S <strong>24</strong> 18-25.</span>
 <sup>18</sup> Entonces el ángel de Yahvé dijo a Gad que diera a David la orden de subir para alzar un altar a Yahvé en la era de Ornán el jebuseo. <sup>19</sup> Subió David, según la palabra que Gad le había dado en nombre de Yahvé. <sup>20</sup> Ornán, que estaba trillando el trigo, se volvió y, al ver al ángel, él y sus cuatro hijos se escondieron. <sup>21</sup> Cuando David llegó junto a Ornán, miró éste y, viendo a David, salió de la era y se postró ante él, rostro en tierra. <sup>22</sup> Dijo David a Ornán: «Dame el sitio de esta era para erigir en él un altar a Yahvé —dámelo por su justo valor en plata—, para que la plaga se retire del pueblo.» <sup>23</sup> Respondió Ornán a David: «Tómalo, y haga mi señor el rey lo que bien le parezca. Mira, te doy además los bueyes para holocaustos, los trillos para leña y el trigo para la ofrenda. Todo te lo doy.» <sup>24</sup> Replicó el rey David a Ornán: «No. Quiero comprártelo por su justo precio, pues no tomaré para Yahvé lo que es tuyo, ni ofreceré holocaustos de balde.» <sup>25</sup> Y David pagó a Ornán por el sitio la suma de seiscientos siclos de oro.
 
 <sup>26</sup> David erigió allí un altar a Yahvé y ofreció holocaustos y sacrificios de comunión. Y allí invocó a Yahvé, que le respondió con fuego del cielo sobre el altar del holocausto. <sup>27</sup> Entonces Yahvé ordenó al ángel que volviera la espada a la vaina. <sup>28</sup> En aquel tiempo, al ver David que Yahvé le había respondido en la era de Ornán el jebuseo, ofreció allí sacrificios, <sup>29</sup> pues la Morada de Yahvé, que Moisés había construido en el desierto, y el altar de los holocaustos estaban a la sazón en el alto de Gabaón. <sup>30</sup> Pero David no se había atrevido a presentarse delante de Dios para consultarle, porque estaba aterrado ante la espada del ángel de Yahvé<span class="note-ref" data-ref="1cro-21-30" title="Ver comentario">&#42;</span>.
@@ -731,6 +782,7 @@ El ángel de Yahvé estaba junto a la era de Ornán el jebuseo. <sup>16</sup> <s
 <sup>25</sup> Pues David había dicho: «Yahvé, Dios de Israel, ha dado reposo a su pueblo y mora en Jerusalén para siempre. <sup>26</sup> Y en cuanto a los levitas, ya no tendrán que transportar la Morada, con todos los utensilios de su servicio.» <sup>27</sup> Conforme a estas últimas disposiciones de David, se hizo el cómputo de los descendientes de Leví de veinte años para arriba. <sup>28</sup> Estaban a las órdenes de los descendientes de Aarón, para el servicio del templo de Yahvé, teniendo a su cargo los atrios y las cámaras, la limpieza de todas las cosas sagradas y la obra del servicio del templo de Dios. <sup>29</sup> Asimismo tenían a su cargo disponer en filas los panes, la flor de harina para la oblación, las tortas sin levadura, lo frito en la sartén, lo cocido y toda clase de medidas de capacidad y longitud<span class="note-ref" data-ref="1cro-23-29" title="Ver comentario">&#42;</span>. <sup>30</sup> Tenían que estar presentes todas las mañanas y todas las tardes para celebrar y alabar a Yahvé, <sup>31</sup> y para ofrecer todos los holocaustos a Yahvé en los sábados, novilunios y solemnidades, según su número y su rito especial, delante de Yahvé para siempre, <sup>32</sup> observando en el servicio del templo de Dios el ritual de la Tienda del Encuentro, el ritual del santuario y el ritual de los descendientes de Aarón, sus colegas.
 
 ## Organización de los sacerdotes.
+<span class="parallel-ref">||Nm <strong>3</strong> 2-4.</span>
 <span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> Éstas son las clases de los descendientes de Aarón. Hijos de Aarón: Nadab, Abihú, Eleazar e Itamar. <sup>2</sup> Nadab y Abihú murieron antes que su padre, sin tener hijos, de modo que ejercieron las funciones sacerdotales Eleazar e Itamar. <sup>3</sup> David, junto con Sadoc, descendiente de Eleazar, y con Ajimélec, descendiente de Itamar<span class="note-ref" data-ref="1cro-24-3" title="Ver comentario">&#42;</span>, los clasificó y los inscribió en el registro según sus funciones. <sup>4</sup> Entre los hijos de Eleazar había más varones que entre los hijos de Itamar, por lo que se dividió a los hijos de aquél en dieciséis jefes de casas paternas y a los de Itamar en ocho jefes de casas paternas. <sup>5</sup> Los repartieron por suertes a unos y otros, porque había jefes del santuario y jefes de Dios, tanto entre los hijos de Eleazar como entre los de Itamar. <sup>6</sup> Los inscribió el escriba Semaías, hijo de Natanael, de la tribu de Leví, en presencia del rey y de los jefes, y en presencia del sacerdote Sadoc, de Ajimélec, hijo de Abiatar, y de los jefes de familias sacerdotales y levíticas. Se sacaba a suertes: una vez para Itamar y dos veces para Eleazar<span class="note-ref" data-ref="1cro-24-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Tocó la primera suerte a Joarib; la segunda a Yedaías; <sup>8</sup> la tercera a Jarín; la cuarta a Seorín; <sup>9</sup> la quinta a Malquías; la sexta a Miyamín; <sup>10</sup> la séptima a Hacós; la octava a Abías<span class="note-ref" data-ref="1cro-24-10" title="Ver comentario">&#42;</span>; <sup>11</sup> la novena a Yesúa; la décima a Secanías; <sup>12</sup> la once a Eliasib; la doce a Yaquín; <sup>13</sup> la trece a Jupá; la catorce a Yisbaal; <sup>14</sup> la quince a Bilgá; la dieciséis a Imer; <sup>15</sup> la diecisiete a Jezir; la dieciocho a Hapisés; <sup>16</sup> la diecinueve a Petajías; la veinte a Ezequiel; <sup>17</sup> la veintiuna a Yaquín; la veintidós a Gamul; <sup>18</sup> la veintitrés a Delaías; la veinticuatro a Maazías<span class="note-ref" data-ref="1cro-24-18" title="Ver comentario">&#42;</span>.
@@ -753,6 +805,7 @@ De los hijos de Amrán: Subael. De los hijos de Subael: Yejdías. <sup>21</sup> 
 <sup>4</sup> De Hemán, sus hijos Buquías, Matanías, Uziel, Sebuel, Yerimot, Jananías, Jananí, Eliatá, Guidaltí, Romanti Ézer, Yosbecasa, Malotí, Hotir y Majaziot. <sup>5</sup> Todos éstos eran hijos de Hemán, vidente del rey; a las palabras de Dios debían hacer sonar la trompa<span class="note-ref" data-ref="1cro-25-5" title="Ver comentario">&#42;</span>. Dios había dado a Hemán catorce hijos y tres hijas. <sup>6</sup> Todos ellos se hallaban bajo la dirección de su padre para el canto del templo de Yahvé. Usaban címbalos, salterios y cítaras al servicio del templo de Dios, y seguían las indicaciones del rey, de Asaf, Yedutún y Hemán. <sup>7</sup> Su número, contando a sus hermanos, los que estaban instruidos en el canto de Yahvé, todos ellos maestros, era de doscientos ochenta y ocho. <sup>8</sup> Echaron a suertes el turno del servicio, tanto el pequeño como el grande, el maestro como el discípulo. <sup>9</sup> La primera suerte recayó sobre el asafita José; la segunda sobre Godolías con sus hermanos e hijos, doce; <sup>10</sup> la tercera, sobre Zacur, sus hijos y hermanos, doce; <sup>11</sup> la cuarta sobre Yisrí, sus hijos y hermanos, doce; <sup>12</sup> la quinta sobre Natanías, sus hijos y hermanos, doce; <sup>13</sup> la sexta sobre Buquías, sus hijos y hermanos, doce; <sup>14</sup> la séptima sobre Yesarela, sus hijos y hermanos, doce; <sup>15</sup> la octava sobre Isaías, sus hijos y hermanos, doce; <sup>16</sup> la novena sobre Matanías, sus hijos y hermanos, doce; <sup>17</sup> la décima sobre Semeí, sus hijos y hermanos, doce; <sup>18</sup> la once sobre Azarel, sus hijos y hermanos, doce; <sup>19</sup> la doce sobre Jasabías, sus hijos y hermanos, doce; <sup>20</sup> la trece, sobre Sebuel, sus hijos y hermanos, doce; <sup>21</sup> la catorce, sobre Matitías, sus hijos y hermanos, doce; <sup>22</sup> la quince, sobre Yerimot, sus hijos y hermanos, doce; <sup>23</sup> la dieciséis, sobre Jananías, sus hijos y hermanos, doce; <sup>24</sup> la diecisiete, sobre Yosbecasa, sus hijos y hermanos, doce; <sup>25</sup> la dieciocho, sobre Jananí, sus hijos y hermanos, doce; <sup>26</sup> la diecinueve, sobre Malotí, sus hijos y hermanos, doce; <sup>27</sup> la veinte, sobre Eliatá, sus hijos y hermanos, doce; <sup>28</sup> la veintiuna, sobre Hotir, sus hijos y hermanos, doce; <sup>29</sup> la veintidós, sobre Guidaltí, sus hijos y hermanos, doce; <sup>30</sup> la veintitrés, sobre Majaziot, sus hijos y hermanos, doce; <sup>31</sup> la veinticuatro, sobre Romanti Ézer, sus hijos y hermanos, doce.
 
 ## Organización de los porteros <span class="note-ref" data-ref="1cro-26" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Ver <strong>9</strong> 17-27.</span>
 <span id="chapter-26" class="chapter-marker" data-chapter="26">26</span><sup>1</sup> Éstas son las clases de porteros. De los coreítas: Meselemías, hijo de Coré, de los hijos de Abiasaf<span class="note-ref" data-ref="1cro-26-1" title="Ver comentario">&#42;</span>. <sup>2</sup> Meselemías tuvo hijos: el primogénito, Zacarías; el segundo, Yediael; el tercero, Zebadías; el cuarto, Yatniel; <sup>3</sup> el quinto, Elam; el sexto, Juan; el séptimo, Eljoenay.
 
 <sup>4</sup> Hijos de Obededón: Semaías, el primogénito; Jozabad, el segundo; Joaj, el tercero; Sacar, el cuarto; Natanael, el quinto; <sup>5</sup> Amiel, el sexto; Isacar el séptimo; Peuletay, el octavo; pues Dios le había bendecido. <sup>6</sup> A su hijo Semaías le nacieron hijos, que se impusieron en sus familias paternas, pues eran hombres valerosos. <sup>7</sup> Hijos de Semaías: Otní, Rafael, Obed, Elzabad y sus hermanos, hombres valerosos, Elihú y Semaquías. <sup>8</sup> Todos éstos eran hijos de Obededón; ellos, sus hijos y sus hermanos eran hombres de gran valor para el servicio. Sesenta y dos de Obededón.

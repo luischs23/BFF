@@ -3,9 +3,10 @@ title: '2 Crónicas'
 description: 'Segundo Libro de las Crónicas'
 img: blog-placeholder-4.jpg
 ---
-# LIBRO SEGUNDO DE LAS CRÓNICAS
+## LIBRO SEGUNDO DE LAS CRÓNICAS
 ## III. Salomón y la construcción del templo<span class="note-ref" data-ref="2cro-1-a" title="Ver comentario">&#42;</span>
 ## Salomón recibe la Sabiduría<span class="note-ref" data-ref="2cro-1-b" title="Ver comentario">&#42;</span>.
+## 1 R 3 4-15.
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Salomón, hijo de David, se afianzó en su reino. Yahvé, su Dios, estaba con él y le engrandeció sobremanera. <sup>2</sup> Salomón habló a todo Israel, a los jefes de millar y de cien, a los jueces y a todos los jefes de todo Israel, cabezas de casas paternas. <sup>3</sup> Después se dirigió con toda la asamblea al alto de Gabaón, porque allí se hallaba la Tienda del Encuentro de Dios, que Moisés, siervo de Yahvé, había construido en el desierto. <sup>4</sup> Cuanto al arca de Dios, David la había llevado de Quiriat Yearín al lugar preparado para ella, pues le había alzado una tienda en Jerusalén. <sup>5</sup> Estaba también allí, delante de la Morada de Yahvé, el altar de bronce que había hecho Besalel, hijo de Urí, hijo de Jur. Fueron, pues, Salomón y la asamblea para consultarle. <sup>6</sup> Subió Salomón allí, al altar de bronce que estaba ante Yahvé, junto a la Tienda del Encuentro, y ofreció sobre él mil holocaustos<span class="note-ref" data-ref="2cro-1-6" title="Ver comentario">&#42;</span>.
 
