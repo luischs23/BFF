@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Ahora hay que tratar lo referente a cómo los ángeles se hicieron malos. Primero, en cuanto al mal de culpa; segundo, en cuanto al mal de pena. La cuestión referente al mal de culpa plantea y exige respuesta a nueve problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> En el ángel, ¿puede o no puede haber mal de culpa?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Qué tipos de pecados puede haber en ellos?

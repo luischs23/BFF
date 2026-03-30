@@ -9,6 +9,7 @@
     "dev:catecismo": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=catecismo astro dev",
     "dev:faustina": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=faustina astro dev",
     "dev:agustin": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=agustin astro dev",
+    "dev:apologetica": "NODE_OPTIONS=--max-old-space-size=8192 ACTIVE_MODULE=apologetica astro dev",
     "build": "NODE_OPTIONS=--max-old-space-size=8192 astro build",
     "preview": "astro preview",
     "astro": "astro"

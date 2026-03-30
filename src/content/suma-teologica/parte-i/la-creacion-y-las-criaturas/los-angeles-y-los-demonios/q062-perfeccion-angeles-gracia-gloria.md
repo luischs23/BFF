@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Siguiendo el plan trazado, hay que tratar ahora lo referente a los ángeles en su estado de gracia y de gloria. Esta cuestión plantea y exige respuesta a nueve problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> Los ángeles, desde el momento de su creación, ¿fueron o no fueron bienaventurados?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Necesitaron o no necesitaron de la gracia para volverse a Dios?

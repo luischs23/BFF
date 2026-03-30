@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación del mundo"
 ---
 Ahora hay que tratar los siete días en conjunto. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> La suficiencia de estos días.
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Son uno o muchos?

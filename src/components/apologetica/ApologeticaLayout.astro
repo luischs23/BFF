@@ -1,0 +1,228 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ApologeticaSidebar from "./ApologeticaSidebar.astro";
+import type { SeccionEntry } from "./ApologeticaSidebar.astro";
+
+interface Props {
+	title: string;
+	currentId: string;
+	catequesis: SeccionEntry[];
+	defensaDeLaFe: SeccionEntry[];
+}
+
+const { title, currentId, catequesis, defensaDeLaFe } = Astro.props;
+const isWelcomePage = !currentId;
+---
+
+<Layout title={`${title} — Apologética`}>
+	<div
+		id="apologeticaContainer"
+		class="flex h-screen relative bg-stone-50 dark:bg-gray-950 transition-colors duration-300"
+		data-welcome={isWelcomePage ? 'true' : undefined}
+	>
+		<!-- Overlay móvil -->
+		<div id="sidebarOverlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"></div>
+
+		{isWelcomePage ? (
+			<button
+				id="menuToggle"
+				class="md:hidden fixed top-4 right-4 z-[60] bg-emerald-600/90 text-white p-2.5 rounded-full shadow-lg hover:bg-emerald-700 transition backdrop-blur-sm"
+				aria-label="Abrir menú"
+			>
+				<svg id="menuIcon" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+				</svg>
+				<svg id="closeIcon" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+			</button>
+		) : (
+			<header
+				id="mobileHeader"
+				class="md:hidden fixed top-0 left-0 right-0 z-[60] bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between"
+			>
+				<div class="w-8"></div>
+				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">
+					{title}
+				</h1>
+				<button
+					id="menuToggle"
+					class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+					aria-label="Abrir menú"
+				>
+					<svg id="menuIcon" class="h-5 w-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+					<svg id="closeIcon" class="h-5 w-5 hidden text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</button>
+			</header>
+		)}
+
+		<!-- Sidebar -->
+		<ApologeticaSidebar
+			catequesis={catequesis}
+			defensaDeLaFe={defensaDeLaFe}
+			currentId={currentId}
+		/>
+
+		<!-- Contenido principal -->
+		<main class="flex-1 overflow-y-auto bg-stone-50 dark:bg-gray-950 transition-colors duration-300">
+			<div class="max-w-3xl mx-auto px-0 py-0 md:px-4 md:py-10">
+				<slot />
+			</div>
+		</main>
+	</div>
+</Layout>
+
+<style is:global>
+	#apologeticaContainer:not([data-welcome]) > main {
+		padding-top: 3.5rem;
+	}
+	@media (min-width: 768px) {
+		#apologeticaContainer:not([data-welcome]) > main {
+			padding-top: 0;
+		}
+	}
+
+	.apol-content p {
+		margin: 0.9rem 0;
+		line-height: 1.9;
+		color: #1c1917;
+		text-align: justify;
+		hyphens: auto;
+	}
+	:is(.dark) .apol-content p { color: #e7e5e4; }
+
+	.apol-content h1 {
+		font-size: 1.6rem;
+		font-weight: 800;
+		color: #065f46;
+		margin-bottom: 0.25rem;
+		text-align: center;
+	}
+	:is(.dark) .apol-content h1 { color: #6ee7b7; }
+
+	.apol-content h2 {
+		font-size: 1rem;
+		font-weight: 700;
+		color: #064e3b;
+		text-align: center;
+		margin-top: 2.5rem;
+		margin-bottom: 1rem;
+		padding-top: 1.25rem;
+		border-top: 1px solid #a7f3d0;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+	:is(.dark) .apol-content h2 { color: #34d399; border-top-color: #065f46; }
+
+	.apol-content h3 {
+		font-size: 1.05rem;
+		font-weight: 700;
+		color: #065f46;
+		margin-top: 1.75rem;
+		margin-bottom: 0.5rem;
+	}
+	:is(.dark) .apol-content h3 { color: #6ee7b7; }
+
+	.apol-content ul {
+		list-style-type: disc;
+		padding-left: 1.5rem;
+		margin: 0.75rem 0;
+	}
+	.apol-content ul ul {
+		list-style-type: circle;
+		margin: 0.25rem 0;
+	}
+	.apol-content ol {
+		list-style-type: decimal;
+		padding-left: 1.5rem;
+		margin: 0.75rem 0;
+	}
+	.apol-content li {
+		margin: 0.3rem 0;
+		line-height: 1.75;
+		color: #1c1917;
+	}
+	:is(.dark) .apol-content li { color: #e7e5e4; }
+	.apol-content li::marker {
+		color: #059669;
+	}
+	:is(.dark) .apol-content li::marker { color: #34d399; }
+
+	.apol-content blockquote {
+		border-left: 3px solid #6ee7b7;
+		padding: 0.5rem 1rem;
+		margin: 1rem 0;
+		background: #ecfdf5;
+		border-radius: 0 0.5rem 0.5rem 0;
+		font-style: italic;
+		color: #065f46;
+	}
+	:is(.dark) .apol-content blockquote {
+		background: rgba(6, 78, 59, 0.2);
+		border-left-color: #059669;
+		color: #a7f3d0;
+	}
+	.apol-content blockquote p { margin: 0; color: inherit; }
+
+	.apol-content strong {
+		color: #064e3b;
+		font-weight: 700;
+	}
+	:is(.dark) .apol-content strong { color: #34d399; }
+
+	.apol-content table {
+		width: 100%;
+		border-collapse: collapse;
+		margin: 1.5rem 0;
+		font-size: 0.9rem;
+	}
+	.apol-content th {
+		background: #d1fae5;
+		color: #065f46;
+		font-weight: 700;
+		padding: 0.5rem 0.75rem;
+		text-align: left;
+		border: 1px solid #a7f3d0;
+	}
+	:is(.dark) .apol-content th {
+		background: #064e3b;
+		color: #6ee7b7;
+		border-color: #065f46;
+	}
+	.apol-content td {
+		padding: 0.5rem 0.75rem;
+		border: 1px solid #d1fae5;
+		color: #1c1917;
+	}
+	:is(.dark) .apol-content td { border-color: #065f46; color: #e7e5e4; }
+	.apol-content tr:nth-child(even) td { background: #f0fdf4; }
+	:is(.dark) .apol-content tr:nth-child(even) td { background: rgba(5, 46, 22, 0.3); }
+
+	.apol-content hr {
+		border: none;
+		border-top: 1px solid #a7f3d0;
+		margin: 2rem 0;
+	}
+	:is(.dark) .apol-content hr { border-top-color: #065f46; }
+</style>
+
+<script>
+	import { initMobileMenu } from "../../scripts/biblia/mobileMenu";
+	import { initDarkMode } from "../../scripts/biblia/darkMode";
+
+	function initApologetica() {
+		initMobileMenu();
+		initDarkMode();
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initApologetica);
+	} else {
+		initApologetica();
+	}
+	document.addEventListener('astro:page-load', initApologetica);
+</script>

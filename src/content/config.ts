@@ -44,6 +44,15 @@ const sanAgustin = defineCollection({
 	}),
 });
 
+const apologetica = defineCollection({
+	loader: glob({ pattern: '**/*.md', base: './src/content/apologetica', generateId: stripExt }),
+	schema: z.object({
+		title: z.string(),
+		description: z.string().optional().default(''),
+		numero: z.number().optional(),
+	}),
+});
+
 const sumaTeologica = defineCollection({
 	loader: glob({ pattern: '**/*.md', base: './src/content/suma-teologica', generateId: stripExt }),
 	schema: z.object({
@@ -73,6 +82,7 @@ type AllCollections = {
 	'catecismo': typeof catecismo;
 	'san-agustin': typeof sanAgustin;
 	'suma-teologica': typeof sumaTeologica;
+	'apologetica': typeof apologetica;
 };
 
 export const collections = {
@@ -81,4 +91,5 @@ export const collections = {
 	...(include(['catecismo']) && { 'catecismo': catecismo }),
 	...(include(['agustin']) && { 'san-agustin': sanAgustin }),
 	...(include(['suma']) && { 'suma-teologica': sumaTeologica }),
+	...(include(['apologetica']) && { 'apologetica': apologetica }),
 } as unknown as AllCollections;

@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Ahora hay que tratar sobre la pena de los demonios. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> La obcecación del entendimiento.
 
 <span class="suma-n"><a href="#art-2">2.</a></span> La obstinación de la voluntad.

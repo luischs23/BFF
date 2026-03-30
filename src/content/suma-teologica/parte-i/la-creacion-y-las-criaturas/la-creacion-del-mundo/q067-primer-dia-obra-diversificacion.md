@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación del mundo"
 ---
 Siguiendo el plan trazado, hay que adentrarse ahora en el estudio sobre la obra de diversificación en cuanto tal. En primer lugar, lo referente al primer día; después, lo referente al segundo día; por último, lo referente al tercer día. La cuestión sobre lo referente al primer día plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> ¿Puede o no puede aplicarse propiamente la luz a los seres espirituales?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> La luz corporal, ¿es o no es cuerpo?

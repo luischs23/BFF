@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación del mundo"
 ---
 Ahora hay que tratar lo referente a la obra del tercer día. Esta cuestión plantea y exige respuesta a dos problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> La acumulación de aguas.
 
 <span class="suma-n"><a href="#art-2">2.</a></span> La producción de plantas.

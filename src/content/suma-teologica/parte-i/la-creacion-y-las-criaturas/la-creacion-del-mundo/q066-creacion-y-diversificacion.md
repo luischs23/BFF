@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación del mundo"
 ---
 Ahora hay que tratar lo referente a la obra de diversificación. En primer lugar hay que analizar la relación creación-diversificación. En segundo lugar, la diversificación en sí misma. La primera cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El estado informe de la materia creada, ¿precedió o no precedió temporalmente a la obra de diversificación?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Hay o no hay una sola materia para todos los seres corporales?

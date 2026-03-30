@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación del mundo"
 ---
 Ahora hay que tratar lo referente al séptimo día. Esta cuestión plantea y exige respuesta a tres problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> La conclusión de las obras.
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El descanso de Dios.

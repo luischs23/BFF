@@ -6,6 +6,7 @@ parte: "I"
 seccion: "La creación del mundo"
 ---
 Ahora hay que tratar lo referente al segundo día. Esta cuestión plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El firmamento, ¿fue o no fue hecho en el segundo día?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> ¿Hay o no hay aguas sobre el firmamento?

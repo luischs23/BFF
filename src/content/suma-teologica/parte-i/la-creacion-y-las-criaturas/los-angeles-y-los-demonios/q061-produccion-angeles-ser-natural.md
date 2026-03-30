@@ -6,6 +6,7 @@ parte: "I"
 seccion: "Los ángeles y los demonios"
 ---
 Después de lo que ha sido establecido sobre la naturaleza de los ángeles, sobre su conocimiento y voluntad, ahora falta por tratar lo referente a su creación o, en general, a su origen. Dicho estudio abarcará tres partes: Pues primero trataremos lo referente a cómo son producidos en su ser natural; segundo, cómo son perfectos en gracia o gloria; tercero, cómo algunos de ellos se hicieron malos. La cuestión referente a la producción de los ángeles en su ser natural plantea y exige respuesta a cuatro problemas:
+
 <span class="suma-n"><a href="#art-1">1.</a></span> El ángel, ¿es o no es causado?
 
 <span class="suma-n"><a href="#art-2">2.</a></span> El ángel, ¿existe o no existe desde la eternidad?
