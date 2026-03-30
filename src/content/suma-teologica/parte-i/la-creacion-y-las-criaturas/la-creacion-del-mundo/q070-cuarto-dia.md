@@ -8,58 +8,100 @@ seccion: "La creación del mundo"
 Siguiendo el plan trazado, hay que analizar ahora lo referente a la ornamentación. Primero, de cada día en particular; después, de los seis días conjuntamente. Con respecto a lo primero, hay que tratar: 1) la obra en el cuarto día; 2) en el quinto; 3) en el sexto; 4) lo referente al séptimo día.
 La cuestión referente a la obra realizada en el cuarto día plantea y exige respuesta a tres problemas:
 
-1. La producción de astros luminosos.
-2. Objetivo.
-3. ¿Son o no son animados?
-Artículo 1: Los astros luminosos, ¿debieron o no debieron ser producidos en el cuarto día?lat
-Objeciones por las que parece que los astros luminosos no debieron ser producidos en el cuarto día:
-1. Los astros luminosos son cuerpos incorruptibles por naturaleza. Por lo tanto, su materia no puede existir sin su forma. Pero su materia fue creada en la obra de la creación, antes de los días. Luego también su forma. Por lo tanto, no fueron hechos en el cuarto día.
-2. Los astros luminosos son como vasos de luz. Pero la luz fue hecha en el primer día. Por lo tanto, los astros luminosos debieron ser hechos en el primer día y no en el cuarto.
-3. Así como las plantas están fijas en la tierra, los astros luminosos lo están en el firmamento. Por eso dice la Escritura: Los colocó en el firmamento. Pero la producción de plantas se describe juntamente con la formación de la tierra a la que están adheridas. Por lo tanto, la producción de los astros debió colocarse en el segundo día juntamente con la producción del firmamento.
-4. El sol, la luna y otros astros luminosos son causas de las plantas. Pero en el orden natural la causa precede al efecto. Por lo tanto, los astros luminosos no debieron ser hechos en el cuarto día, sino en el tercero o antes.
-5. Según los astrólogos, muchas estrellas son mayores que la luna. Por lo tanto, no debieron ponerse solamente el sol y la luna como dos grandes astros luminosos.
-Contra esto: es suficiente la autoridad de la Escritura (Gén 1,14ss.).
-Respondo: En la recapitulación de las obras divinas, la Escritura dice (Gén 2,1): Así, pues, fueron acabados los cielos y la tierra y toda su ornamentación. En estas palabras puede entenderse la triple obra: La de creación, por la que se dice que fueron hechos el cielo y la tierra, si bien en estado informe; la de diversificación, por la que el cielo y la tierra fueron acabados, tanto por las formas sustanciales atribuidas a la materia informe, según Agustín, como por lo que respecta a la adecuada ornamentación y orden, según otros santos. Y a estas dos obras se añade la de ornamentación.
+<span class="suma-n"><a href="#art-1">1.</a></span> La producción de astros luminosos.
+
+<span class="suma-n"><a href="#art-2">2.</a></span> Objetivo.
+
+<span class="suma-n"><a href="#art-3">3.</a></span> ¿Son o no son animados?
+
+<h2 id="art-1">Artículo 1: Los astros luminosos, ¿debieron o no debieron ser producidos en el cuarto día?</h2>
+
+<strong>Objeciones por las que parece que los astros luminosos no debieron ser producidos en el cuarto día:</strong>
+
+<span class="suma-n">1</span> Los astros luminosos son cuerpos incorruptibles por naturaleza. Por lo tanto, su materia no puede existir sin su forma. Pero su materia fue creada en la obra de la creación, antes de los días. Luego también su forma. Por lo tanto, no fueron hechos en el cuarto día.
+
+<span class="suma-n">2</span> Los astros luminosos son como vasos de luz. Pero la luz fue hecha en el primer día. Por lo tanto, los astros luminosos debieron ser hechos en el primer día y no en el cuarto.
+
+<span class="suma-n">3</span> Así como las plantas están fijas en la tierra, los astros luminosos lo están en el firmamento. Por eso dice la Escritura: Los colocó en el firmamento. Pero la producción de plantas se describe juntamente con la formación de la tierra a la que están adheridas. Por lo tanto, la producción de los astros debió colocarse en el segundo día juntamente con la producción del firmamento.
+
+<span class="suma-n">4</span> El sol, la luna y otros astros luminosos son causas de las plantas. Pero en el orden natural la causa precede al efecto. Por lo tanto, los astros luminosos no debieron ser hechos en el cuarto día, sino en el tercero o antes.
+
+<span class="suma-n">5</span> Según los astrólogos, muchas estrellas son mayores que la luna. Por lo tanto, no debieron ponerse solamente el sol y la luna como dos grandes astros luminosos.
+
+<strong>Contra esto:</strong> es suficiente la autoridad de la Escritura (Gén 1,14ss.).
+
+<strong>Respondo:</strong> En la recapitulación de las obras divinas, la Escritura dice (Gén 2,1): Así, pues, fueron acabados los cielos y la tierra y toda su ornamentación. En estas palabras puede entenderse la triple obra: La de creación, por la que se dice que fueron hechos el cielo y la tierra, si bien en estado informe; la de diversificación, por la que el cielo y la tierra fueron acabados, tanto por las formas sustanciales atribuidas a la materia informe, según Agustín, como por lo que respecta a la adecuada ornamentación y orden, según otros santos. Y a estas dos obras se añade la de ornamentación.
+
 Hay diferencia entre ornamentación y acabado. Pues al acabado del cielo y de la tierra pertenece lo intrínseco; y, en cambio, a la ornamentación pertenece aquello por lo que se diversifican cielo y tierra. Así como el hombre se completa con las propias partes y formas, y se adorna con vestidos y otras cosas parecidas. La diversificación de algunos seres se manifiesta fundamentalmente por el movimiento local, por el que se separan entre sí. De este modo, a la obra de ornamentación pertenece la producción de aquellas cosas que tienen movimiento en el cielo y la tierra.
 
 Como ya dijimos (q.69, a.1), en la creación se mencionan tres cosas: El cielo, el agua y la tierra. Y estas tres son formadas mediante la obra de diversificación en tres días. En el primero, el cielo; en el segundo, las aguas; y en el tercero, la tierra diversificando mar y tierra seca. De manera parecida sucede con la obra de ornamentación. En el primer día, que corresponde al cuarto, son producidos los astros como ornamentación en el cielo en el que se mueven. En el segundo, que corresponde al quinto, las aves y los peces, como ornamentación del elemento de en medio, porque se mueven en el aire o en el agua tomados ambos como uno solo. En el tercer día, que corresponde al sexto, fueron producidos los animales para ornamentación de la tierra en la que se mueven.
 
 Pero hay que tener presente que en la producción de los astros luminosos no hay discrepancia entre Agustín y los otros santos. Pues dice que los astros luminosos fueron hechos en acto, no sólo en potencia, pues el firmamento no tiene la capacidad de producir astros luminosos como la tierra puede producir plantas. Por eso la Escritura no dice: Produzca el firmamento astros luminosos; como dice: Produzca la tierra hierba verde.
 
-A las objeciones:
-1. Según Agustín, aquí no se plantea ninguna dificultad. Pues en estas obras no pone sucesión temporal, y, por lo tanto, no es necesario decir que la materia de los astros luminosos existiera bajo otra forma. Según los que sostienen que los cuerpos celestes están hechos a partir de la naturaleza de los cuatro elementos, tampoco hay dificultad, porque puede decirse que fueron hechos con la materia previa a su formación, como los animales y las plantas. Pero según los que sostienen que los cuerpos celestes son de naturaleza distinta a la de los elementos, e incorruptibles por naturaleza, hay que decir que la sustancia de los astros luminosos fue creada desde el principio. Pero antes era informe y ahora ha sido formada; no en cuanto a la forma sustancial, sino por la impresión de un determinado poder. Sin embargo, no se habla de ellos al principio, sino sólo en el cuarto día, para que, como dice el Crisóstomo, así se apartara al pueblo de la idolatría, demostrando que los astros no son dioses partiendo del hecho de que no existieran al principio.
-2. Según Agustín, tampoco aquí hay dificultad, porque la luz mencionada en el primer día es la luz espiritual; mientras que la que ahora es hecha, es la luz corporal. No obstante, si por la luz mencionada en el primer día se entiende la luz corporal, hay que decir que aquella luz fue producida según la naturaleza común de la luz; y en el cuarto día, a los astros luminosos se les atribuye una determinada capacidad para unos determinados efectos; por lo cual vemos que unos son los efectos de los rayos del sol, y otros los de la luna; y lo mismo cabe decir de otros efectos. Por esa concreta capacidad, Dionisio dice en el c.4 De Div. Nom. que la luz del sol, informe al principio, en el cuarto día recibió su forma.
-3. Según Tolomeo, los astros luminosos no están fijos en las esferas, sino que tienen movimiento independiente del de las esferas. Por eso el Crisóstomo estima que no se dice que los puso en el firmamento porque allí están fijos; sino porque había mandado que estuvieran allí; como puso al hombre en el paraíso para que estuviera allí.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Según Agustín, aquí no se plantea ninguna dificultad. Pues en estas obras no pone sucesión temporal, y, por lo tanto, no es necesario decir que la materia de los astros luminosos existiera bajo otra forma. Según los que sostienen que los cuerpos celestes están hechos a partir de la naturaleza de los cuatro elementos, tampoco hay dificultad, porque puede decirse que fueron hechos con la materia previa a su formación, como los animales y las plantas. Pero según los que sostienen que los cuerpos celestes son de naturaleza distinta a la de los elementos, e incorruptibles por naturaleza, hay que decir que la sustancia de los astros luminosos fue creada desde el principio. Pero antes era informe y ahora ha sido formada; no en cuanto a la forma sustancial, sino por la impresión de un determinado poder. Sin embargo, no se habla de ellos al principio, sino sólo en el cuarto día, para que, como dice el Crisóstomo, así se apartara al pueblo de la idolatría, demostrando que los astros no son dioses partiendo del hecho de que no existieran al principio.
+
+<span class="suma-n">2</span> Según Agustín, tampoco aquí hay dificultad, porque la luz mencionada en el primer día es la luz espiritual; mientras que la que ahora es hecha, es la luz corporal. No obstante, si por la luz mencionada en el primer día se entiende la luz corporal, hay que decir que aquella luz fue producida según la naturaleza común de la luz; y en el cuarto día, a los astros luminosos se les atribuye una determinada capacidad para unos determinados efectos; por lo cual vemos que unos son los efectos de los rayos del sol, y otros los de la luna; y lo mismo cabe decir de otros efectos. Por esa concreta capacidad, Dionisio dice en el c.4 De Div. Nom. que la luz del sol, informe al principio, en el cuarto día recibió su forma.
+
+<span class="suma-n">3</span> Según Tolomeo, los astros luminosos no están fijos en las esferas, sino que tienen movimiento independiente del de las esferas. Por eso el Crisóstomo estima que no se dice que los puso en el firmamento porque allí están fijos; sino porque había mandado que estuvieran allí; como puso al hombre en el paraíso para que estuviera allí.
+
 Pero, según la opinión de Aristóteles, las estrellas están fijas en las esferas, y en realidad no se mueven más que con el movimiento de las esferas. Sin embargo, el movimiento de los astros luminosos puede percibirse con los sentidos; no así el movimiento de las esferas. No obstante, Moisés, poniéndose al nivel de aquel rudo pueblo, y como se ha dicho (q.68 a.3), se centra sólo en lo que se percibe con los sentidos. Por lo demás, si el firmamento hecho en el segundo día es distinto por naturaleza de aquel en el que fueron colocadas las estrellas, aunque los sentidos no puedan discernirlo, y Moisés sigue este criterio tal como dijimos (q.68 a.3), entonces desaparece la objeción. Pues en el segundo día fue hecho el firmamento en cuanto a su parte inferior. En el cuarto día fueron colocadas las estrellas en la parte superior. Y ambas partes se toman por un todo, que es como lo perciben los sentidos.
 
-4. Como dice Basilio, la producción de las plantas se relata antes de la de los astros luminosos para evitar la idolatría. Pues quienes creen que los astros luminosos son dioses, sostienen que el origen de las plantas radica en los astros luminosos. Aunque, como observa el Crisóstomo, así como los hombres trabajando la tierra contribuyen a la producción de las plantas, así también los astros contribuyen con sus movimientos.
-5. Como dice el Crisóstomo, se habla de dos grandes astros luminosos no tanto por la cantidad como por su eficacia y poder. Porque, aun cuando otras estrellas sean mucho más grandes que la luna, sin embargo, el efecto de la luna se siente más en los cuerpos de aquí. Y también a los sentidos les parece mayor.
-Artículo 2: El porqué de la producción de los astros luminosos, ¿fue o no fue descrito correctamente?lat
-Objeciones por las que parece que el porqué de la producción de los astros luminosos no fue descrito correctamente:
-1. Se dice en Jer 10,2: No os espantéis de los signos del cielo; que lo hagan los paganos. Por lo tanto, los astros del cielo no han sido constituidos como signos.
-2. El signo y la causa se contraponen. Pero los astros luminosos son causa de lo que se hace aquí. Por lo tanto, no son signos.
-3. La distinción de estaciones y días comenzó en el primer día. Por lo tanto, los astros luminosos no han sido hechos para distinguir las estaciones, los días y los años.
-4. Nada ha sido hecho para algo de menor calidad; porque el fin es mejor que aquellos que se ordenan a tal fin. Pero los astros luminosos son mejores que la tierra. Por lo tanto, no han sido hechos para que iluminen la tierra.
-5. La luna nueva no preside la noche. Pero es probable que la luna fuese creada en su fase de nueva. De hecho los hombres computan el tiempo a partir de ella. Por lo tanto, no ha sido hecha para que presidiera la noche.
-Contra esto: es suficiente la autoridad de la Escritura (Gén l,14ss).
-Respondo: Como se indicó anteriormente (q.65 a.2), puede decirse que la criatura corporal ha sido hecha o para, simplemente, actuar, o para otra criatura, o para todo el universo, o para la gloria de Dios. Pero Moisés, a fin de alejar al pueblo de la idolatría, sólo puso como causa: ser útiles al hombre. Por eso se dice en Dt 4,19: Al poner los ojos en el cielo y ver el sol, la luna y todos los astros del cielo, no te dejes llevar por el error, y los adores y honres, pues el Señor Dios los creó para bien de los pueblos.
+<span class="suma-n">4</span> Como dice Basilio, la producción de las plantas se relata antes de la de los astros luminosos para evitar la idolatría. Pues quienes creen que los astros luminosos son dioses, sostienen que el origen de las plantas radica en los astros luminosos. Aunque, como observa el Crisóstomo, así como los hombres trabajando la tierra contribuyen a la producción de las plantas, así también los astros contribuyen con sus movimientos.
+
+<span class="suma-n">5</span> Como dice el Crisóstomo, se habla de dos grandes astros luminosos no tanto por la cantidad como por su eficacia y poder. Porque, aun cuando otras estrellas sean mucho más grandes que la luna, sin embargo, el efecto de la luna se siente más en los cuerpos de aquí. Y también a los sentidos les parece mayor.
+
+<h2 id="art-2">Artículo 2: El porqué de la producción de los astros luminosos, ¿fue o no fue descrito correctamente?</h2>
+
+<strong>Objeciones por las que parece que el porqué de la producción de los astros luminosos no fue descrito correctamente:</strong>
+
+<span class="suma-n">1</span> Se dice en Jer 10,2: No os espantéis de los signos del cielo; que lo hagan los paganos. Por lo tanto, los astros del cielo no han sido constituidos como signos.
+
+<span class="suma-n">2</span> El signo y la causa se contraponen. Pero los astros luminosos son causa de lo que se hace aquí. Por lo tanto, no son signos.
+
+<span class="suma-n">3</span> La distinción de estaciones y días comenzó en el primer día. Por lo tanto, los astros luminosos no han sido hechos para distinguir las estaciones, los días y los años.
+
+<span class="suma-n">4</span> Nada ha sido hecho para algo de menor calidad; porque el fin es mejor que aquellos que se ordenan a tal fin. Pero los astros luminosos son mejores que la tierra. Por lo tanto, no han sido hechos para que iluminen la tierra.
+
+<span class="suma-n">5</span> La luna nueva no preside la noche. Pero es probable que la luna fuese creada en su fase de nueva. De hecho los hombres computan el tiempo a partir de ella. Por lo tanto, no ha sido hecha para que presidiera la noche.
+
+<strong>Contra esto:</strong> es suficiente la autoridad de la Escritura (Gén l,14ss).
+
+<strong>Respondo:</strong> Como se indicó anteriormente (q.65 a.2), puede decirse que la criatura corporal ha sido hecha o para, simplemente, actuar, o para otra criatura, o para todo el universo, o para la gloria de Dios. Pero Moisés, a fin de alejar al pueblo de la idolatría, sólo puso como causa: ser útiles al hombre. Por eso se dice en Dt 4,19: Al poner los ojos en el cielo y ver el sol, la luna y todos los astros del cielo, no te dejes llevar por el error, y los adores y honres, pues el Señor Dios los creó para bien de los pueblos.
+
 Este bien es concretado en tres aspectos al principio del Génesis. 1) Primero, por la utilidad que representan para los hombres y los animales, ya que pueden ver, orientando así sus obras, y es fundamental para conocer las cosas. Y en este sentido dice: Luzcan en el firmamento e iluminen la tierra. 2) Segundo, para indicar los cambios de estaciones, con los que desaparece el decaimiento, se conserva la salud y se dan las cosechas necesarias para vivir. Todo esto no se daría si siempre fuera verano o invierno. Y en este sentido dice: Para que haya estaciones y días y años. 3) Tercero, para llevar adelante asuntos y trabajos, en cuanto que por los astros se indica si el tiempo será lluvioso o seco, que son buenos para asuntos distintos. Y en este sentido dice: Para que sean signos.
 
-A las objeciones:
-1. Los astros luminosos son signos de los cambios en los cuerpos; pero no son signos de los cambios que dependen del libre albedrío.
-2. Por causas sensibles a veces llegamos a conocer efectos ocultos; y al revés. Por eso nada impide que una causa sensible sea signo. Sin embargo, es mucho mejor decir signos que causas, para evitar la idolatría.
-3. En el primer día se hizo la común distinción del tiempo en día y noche, atendiendo al movimiento diurno, que es común a todo el cielo. Puede aceptarse que empezó en el primer día. Pero las distinciones especiales de días y estaciones, por las que un día es más caluroso que otro, o una estación que otra, o un año que otro, esto ya se debe al movimiento especial de las estrellas. Puede aceptarse que esto empezó en el cuarto día.
-4. En la iluminación de la tierra está comprendida la utilidad del hombre, el cual, por su alma, aventaja a los astros luminosos. Sin embargo, nada impide decir que la criatura superior esté al servicio de la inferior, no en cuanto se la considera en sí misma, sino en cuanto que está ordenada a la plenitud del universo.
-5. La luna, cuando es llena, aparece por la noche y desaparece por la mañana, y, así, preside la noche. Es bastante probable que la luna fuera hecha llena; como las hierbas fueron hechas perfectas produciendo semilla, lo mismo que los animales y el hombre. Pues, aun cuando por el proceso natural se pase de lo imperfecto a lo perfecto, sin embargo, y en sentido absoluto, lo perfecto es anterior a lo imperfecto. No obstante, Agustín no afirma esto, porque dice que nada impide que Dios hiciera algo imperfecto, y que después El mismo lo perfeccionara.
-Artículo 3: Los astros luminosos del cielo, ¿son o no son animados?lat
-Objeciones por las que parece que los astros luminosos del cielo son animados:
-1. El cuerpo de arriba debe adornarse con lo más admirable. Pero lo que pertenece a la ornamentación de los cuerpos de aquí abajo está animado. Ejemplo: Los peces, las aves, los animales terrestres. Luego los astros luminosos, que pertenecen a la ornamentación del cielo, también son animados.
-2. La forma de un cuerpo de más categoría es de más categoría. Pero el sol, la luna y los otros astros luminosos son de más categoría que los cuerpos de las plantas y de los animales. Por lo tanto, tienen una forma de más categoría. Y la forma de más categoría es el alma, principio vital; porque, como dice Agustín en el libro De Vera Relig.: Toda sustancia viviente es preferida a la no viviente. Por lo tanto, los astros luminosos del cielo son animados.
-3. La causa es de más categoría que el efecto. Pero el sol, la luna y los astros luminosos son causa de vida; esto resulta evidente, sobre todo, en los animales que surgen a partir de la putrefacción, que, por el poder del sol y de las estrellas, obtienen vida. Por lo tanto, con mucha más razón los cuerpos celestes viven y son animados.
-4. Como se demuestra en el I De caelo, los movimientos del cielo y de los cuerpos celestes son naturales. El movimiento natural tiene un principio intrínseco. Así, pues, como el movimiento de los cuerpos celestes es alguna sustancia aprehensiva que se mueve como el que desea por lo deseado, según se dice en XII Metaphys., parece que el principio aprehendente es el principio intrínseco en los cuerpos celestes. Por lo tanto, son animados.
-5. El primer móvil es el cielo. En el género de los móviles, el primero es el que se mueve en sí mismo, como se demuestra en VIII Physic., porque lo que es por sí mismo es anterior a lo que es por otro. Sólo los cuerpos animados se mueven a sí mismos, como queda demostrado en el mismo libro. Por lo tanto, los cuerpos celestes son animados.
-Contra esto: está lo que dice el Damasceno en el libro II: No tengas por animados los cielos y los astros luminosos; pues son inanimados e insensibles.
-Respondo: Sobre este problema los filósofos opinaron de forma distinta. Como nos cuenta Agustín en el libro XVIII De Civ. Dei, Anaxágoras fue hecho prisionero por los atenienses porque dijo que el sol era una piedra ardiente negando que fuera dios, o algo animado. Los platónicos, en cambio, sostuvieron que los cuerpos celestes eran animados.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Los astros luminosos son signos de los cambios en los cuerpos; pero no son signos de los cambios que dependen del libre albedrío.
+
+<span class="suma-n">2</span> Por causas sensibles a veces llegamos a conocer efectos ocultos; y al revés. Por eso nada impide que una causa sensible sea signo. Sin embargo, es mucho mejor decir signos que causas, para evitar la idolatría.
+
+<span class="suma-n">3</span> En el primer día se hizo la común distinción del tiempo en día y noche, atendiendo al movimiento diurno, que es común a todo el cielo. Puede aceptarse que empezó en el primer día. Pero las distinciones especiales de días y estaciones, por las que un día es más caluroso que otro, o una estación que otra, o un año que otro, esto ya se debe al movimiento especial de las estrellas. Puede aceptarse que esto empezó en el cuarto día.
+
+<span class="suma-n">4</span> En la iluminación de la tierra está comprendida la utilidad del hombre, el cual, por su alma, aventaja a los astros luminosos. Sin embargo, nada impide decir que la criatura superior esté al servicio de la inferior, no en cuanto se la considera en sí misma, sino en cuanto que está ordenada a la plenitud del universo.
+
+<span class="suma-n">5</span> La luna, cuando es llena, aparece por la noche y desaparece por la mañana, y, así, preside la noche. Es bastante probable que la luna fuera hecha llena; como las hierbas fueron hechas perfectas produciendo semilla, lo mismo que los animales y el hombre. Pues, aun cuando por el proceso natural se pase de lo imperfecto a lo perfecto, sin embargo, y en sentido absoluto, lo perfecto es anterior a lo imperfecto. No obstante, Agustín no afirma esto, porque dice que nada impide que Dios hiciera algo imperfecto, y que después El mismo lo perfeccionara.
+
+<h2 id="art-3">Artículo 3: Los astros luminosos del cielo, ¿son o no son animados?</h2>
+
+<strong>Objeciones por las que parece que los astros luminosos del cielo son animados:</strong>
+
+<span class="suma-n">1</span> El cuerpo de arriba debe adornarse con lo más admirable. Pero lo que pertenece a la ornamentación de los cuerpos de aquí abajo está animado. Ejemplo: Los peces, las aves, los animales terrestres. Luego los astros luminosos, que pertenecen a la ornamentación del cielo, también son animados.
+
+<span class="suma-n">2</span> La forma de un cuerpo de más categoría es de más categoría. Pero el sol, la luna y los otros astros luminosos son de más categoría que los cuerpos de las plantas y de los animales. Por lo tanto, tienen una forma de más categoría. Y la forma de más categoría es el alma, principio vital; porque, como dice Agustín en el libro De Vera Relig.: Toda sustancia viviente es preferida a la no viviente. Por lo tanto, los astros luminosos del cielo son animados.
+
+<span class="suma-n">3</span> La causa es de más categoría que el efecto. Pero el sol, la luna y los astros luminosos son causa de vida; esto resulta evidente, sobre todo, en los animales que surgen a partir de la putrefacción, que, por el poder del sol y de las estrellas, obtienen vida. Por lo tanto, con mucha más razón los cuerpos celestes viven y son animados.
+
+<span class="suma-n">4</span> Como se demuestra en el I De caelo, los movimientos del cielo y de los cuerpos celestes son naturales. El movimiento natural tiene un principio intrínseco. Así, pues, como el movimiento de los cuerpos celestes es alguna sustancia aprehensiva que se mueve como el que desea por lo deseado, según se dice en XII Metaphys., parece que el principio aprehendente es el principio intrínseco en los cuerpos celestes. Por lo tanto, son animados.
+
+<span class="suma-n">5</span> El primer móvil es el cielo. En el género de los móviles, el primero es el que se mueve en sí mismo, como se demuestra en VIII Physic., porque lo que es por sí mismo es anterior a lo que es por otro. Sólo los cuerpos animados se mueven a sí mismos, como queda demostrado en el mismo libro. Por lo tanto, los cuerpos celestes son animados.
+
+<strong>Contra esto:</strong> está lo que dice el Damasceno en el libro II: No tengas por animados los cielos y los astros luminosos; pues son inanimados e insensibles.
+
+<strong>Respondo:</strong> Sobre este problema los filósofos opinaron de forma distinta. Como nos cuenta Agustín en el libro XVIII De Civ. Dei, Anaxágoras fue hecho prisionero por los atenienses porque dijo que el sol era una piedra ardiente negando que fuera dios, o algo animado. Los platónicos, en cambio, sostuvieron que los cuerpos celestes eran animados.
+
 También los doctores de la fe tienen opiniones distintas. Orígenes dijo que eran animados. Jerónimo, al parecer, es de la misma opinión cuando expone aquello de Ecl 1,6: Recorriendo el mundo, el viento va dando vueltas. Basilio y el Damasceno afirman que los cuerpos celestes no son animados. Agustín duda y mantiene una opinión intermedia, como se puede observar en II Super Gen. ad litt. y en el Enchirid., donde también dice que, si los cuerpos celestes son animados, sus almas pertenecen al grupo de los ángeles.
 
 Ante tal muestrario de opiniones, para esclarecer la verdad hay que tener presente que la unión del alma y del cuerpo no se debe al cuerpo, sino al alma; pues la forma no se debe a la materia, sino al revés. La naturaleza y el poder del alma se deduce de su acción, que, en cierto modo, también es su fin. Él cuerpo es necesario para alguna operación del alma que se realiza por medio del cuerpo; esto se da en las operaciones del alma sensitiva y nutritiva. Por eso es necesario que tales almas estén unidas a los cuerpos para sus operaciones.
@@ -80,9 +122,14 @@ Que los cuerpos celestes son movidos por alguna sustancia aprehendente, y no só
 
 Así, pues, los cuerpos celestes no son animados en el mismo sentido que lo son las plantas y los animales. Lo son en sentido equívoco. Por eso, entre los que sostienen que son animados y los que dicen que son inanimados, la diferencia es mínima o inexistente, y, más que real, sólo verbal.
 
-A las objeciones:
-1. Algunas cosas pertenecen, por su propio movimiento, a la ornamentación. Y con respecto a esto, los astros luminosos del cielo coinciden con aquellas otras cosas que pertenecen a la ornamentación; porque son movidos por una sustancia viviente.
-2. Nada impide que, en cuanto tal, algo sea de más categoría; y, sin embargo, con respecto a algo, no serlo. La forma del cuerpo celeste, aun cuando, en cuanto tal, no sea de más categoría que el alma animal, sin embargo, lo es con respecto a la razón de forma; pues completa totalmente su materia, que no está en potencia para recibir otra forma. Esto no lo hace el alma. Y en cuanto al movimiento, también los cuerpos celestes son movidos por motores de mayor categoría.
-3. El cuerpo celeste, al ser motor movido, tiene razón de instrumento que actúa en virtud del agente principal. De este modo, partiendo del poder de su motor, que es una sustancia viviente, puede causar vida.
-4. El movimiento del cuerpo celeste es natural, no por un principio activo, sino pasivo. Es decir, porque en su naturaleza está la aptitud para que con tal movimiento sea movido por un entendimiento.
-5. Se dice que el cielo se mueve a sí mismo en cuanto que está compuesto a partir del motor y del móvil, y no como lo están la materia y la forma, sino por contacto de poder, como ya se dijo. Y en este sentido, también puede decirse que su motor es principio intrínseco, y así también, el movimiento del cielo es natural por parte del principio activo; de la misma forma que se dice que el movimiento voluntario es natural al animal en cuanto animal, como se dice en VIII Physic.
+<strong>A las objeciones:</strong>
+
+<span class="suma-n">1</span> Algunas cosas pertenecen, por su propio movimiento, a la ornamentación. Y con respecto a esto, los astros luminosos del cielo coinciden con aquellas otras cosas que pertenecen a la ornamentación; porque son movidos por una sustancia viviente.
+
+<span class="suma-n">2</span> Nada impide que, en cuanto tal, algo sea de más categoría; y, sin embargo, con respecto a algo, no serlo. La forma del cuerpo celeste, aun cuando, en cuanto tal, no sea de más categoría que el alma animal, sin embargo, lo es con respecto a la razón de forma; pues completa totalmente su materia, que no está en potencia para recibir otra forma. Esto no lo hace el alma. Y en cuanto al movimiento, también los cuerpos celestes son movidos por motores de mayor categoría.
+
+<span class="suma-n">3</span> El cuerpo celeste, al ser motor movido, tiene razón de instrumento que actúa en virtud del agente principal. De este modo, partiendo del poder de su motor, que es una sustancia viviente, puede causar vida.
+
+<span class="suma-n">4</span> El movimiento del cuerpo celeste es natural, no por un principio activo, sino pasivo. Es decir, porque en su naturaleza está la aptitud para que con tal movimiento sea movido por un entendimiento.
+
+<span class="suma-n">5</span> Se dice que el cielo se mueve a sí mismo en cuanto que está compuesto a partir del motor y del móvil, y no como lo están la materia y la forma, sino por contacto de poder, como ya se dijo. Y en este sentido, también puede decirse que su motor es principio intrínseco, y así también, el movimiento del cielo es natural por parte del principio activo; de la misma forma que se dice que el movimiento voluntario es natural al animal en cuanto animal, como se dice en VIII Physic.
