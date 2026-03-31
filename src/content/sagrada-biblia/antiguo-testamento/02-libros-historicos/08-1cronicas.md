@@ -3,7 +3,6 @@ title: '1 Crónicas'
 description: 'Primer Libro de las Crónicas'
 img: blog-placeholder-4.jpg
 ---
-# LOS LIBROS DE LAS CRÓNICAS
 <span class="section-title">LIBRO PRIMERO DE LAS CRÓNICAS</span>
 <span class="section-intro">I. En torno a David: Las Genealogías<span class="note-ref" data-ref="1cro-1-a" title="Ver comentario">&#42;</span></span>
 
