@@ -342,7 +342,8 @@ const dailyCards = SECTIONS.map((section, i) => ({
 				<span class="text-gray-400 dark:text-gray-500 text-xs mt-0.5">Sto. Tomás</span>
 			</a>
 
-			<!-- Apologética -->
+			<!-- Apologética (solo en desarrollo) -->
+			{isDev && (
 			<a
 				href="/apologetica"
 				class="no-underline flex flex-col p-4 rounded-3xl bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800 transition-all duration-200 hover:scale-[1.02] group border border-gray-200 dark:border-white/5"
@@ -355,6 +356,7 @@ const dailyCards = SECTIONS.map((section, i) => ({
 				<span class="text-gray-900 dark:text-white font-semibold text-sm leading-tight">Apologética</span>
 				<span class="text-gray-400 dark:text-gray-500 text-xs mt-0.5">Defensa de la fe</span>
 			</a>
+			)}
 		</div>
 
 		<!-- Cards de libros del día -->
