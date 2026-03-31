@@ -16,7 +16,7 @@ img: blog-placeholder-4.jpg
 
 lo que se hizo, eso se hará.
 
-## Nada nuevo hay bajo el sol.
+Nada nuevo hay bajo el sol.
 
 <sup>10</sup> Si de algo se dice: «Mira, eso sí que es nuevo», aun eso ya sucedía en los siglos que nos precedieron. <sup>11</sup> No hay recuerdo de los antiguos, como tampoco de los venideros quedará memoria entre los que después vendrán.
 
@@ -41,7 +41,7 @@ quien acumula ciencia acumula dolor.
 
 pero el necio camina en tinieblas<span class="note-ref" data-ref="qo-2-14-b" title="Ver comentario">&#42;</span>.
 
-## Pero también sé que la misma suerte alcanza a ambos.
+Pero también sé que la misma suerte alcanza a ambos.
 
 <sup>15</sup> Entonces me dije: Como la suerte del necio será la mía, ¿para qué sirve mi sabiduría<span class="note-ref" data-ref="qo-2-15" title="Ver comentario">&#42;</span>? Y pensé que hasta eso mismo es vanidad. <sup>16</sup> No hay recuerdo duradero ni del sabio ni del necio; al correr de los días, todos son olvidados. Pues el sabio muere igual que el necio.
 
@@ -118,15 +118,15 @@ y su tiempo la paz.
 
 <sup>14</sup> Sé bien que cuanto Dios hace es duradero<span class="note-ref" data-ref="qo-3-14" title="Ver comentario">&#42;</span>.
 
-## Nada hay que añadir ni nada que quitar.
+Nada hay que añadir ni nada que quitar.
 
-## Y así hace Dios que se le tema.
+Y así hace Dios que se le tema.
 
 <sup>15</sup> Lo que es, ya antes fue;
 
 lo que será, ya es.
 
-## Y Dios restaura lo pasado<span class="note-ref" data-ref="qo-3-15" title="Ver comentario">&#42;</span>.
+Y Dios restaura lo pasado<span class="note-ref" data-ref="qo-3-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> Más cosas todavía he visto bajo el sol:
 
@@ -173,7 +173,7 @@ en atrapar vientos<span class="note-ref" data-ref="qo-4-6" title="Ver comentario
 
 <sup>7</sup> Observé otra vanidad bajo el sol: <sup>8</sup> hay quien vive solo, sin sucesor, sin hijos ni hermano; su fatiga no tiene límites, y sus ojos no se hartan de riquezas: «¿Para quién me fatigo entonces y me privo de felicidad?»
 
-## También esto es vanidad y mal negocio.
+También esto es vanidad y mal negocio.
 
 <sup>9</sup> Más valen dos que uno solo, pues obtienen mayor ganancia de su esfuerzo. <sup>10</sup> Si uno cae, lo levantará su compañero; pero ¡ay del solo que cae!, que no tiene quien lo levante. <sup>11</sup> Si dos se acuestan, se calientan entre sí; pero el que está solo, ¿cómo se calentará?
 
@@ -209,14 +209,14 @@ la voz del necio.
 
 más vanidades y palabrería<span class="note-ref" data-ref="qo-5-6" title="Ver comentario">&#42;</span>.
 
-## Pero tú teme a Dios.
+Pero tú teme a Dios.
 
 <sup>7</sup> Si en la región ves al pobre oprimido y violados el derecho y la justicia, no te asombres por eso. Se te dirá que una dignidad vigila sobre otra dignidad, y otras más dignas sobre ambas. <sup>8</sup> Se invocará el interés común y el servicio del rey<span class="note-ref" data-ref="qo-5-8" title="Ver comentario">&#42;</span>.
 
 ## El dinero<span class="note-ref" data-ref="qo-5-9" title="Ver comentario">&#42;</span>.
 <sup>9</sup> Quien ama el dinero, no se harta de él; para quien ama la abundancia, no bastan ganancias.
 
-## También esto es vanidad.
+También esto es vanidad.
 
 <sup>10</sup> A muchos bienes,
 
@@ -256,7 +256,7 @@ y a pesar de todo su apetito no se sacia.
 
 <sup>9</sup> Mejor es lo que los ojos ven que lo que el alma desea<span class="note-ref" data-ref="qo-6-9" title="Ver comentario">&#42;</span>.
 
-## También esto es vanidad y atrapar vientos.
+También esto es vanidad y atrapar vientos.
 
 <sup>10</sup> De lo que existe, ya se anunció su nombre, y se sabe lo que es un hombre: no puede pleitear con quien es más fuerte que él.
 
@@ -435,7 +435,7 @@ Hay honrados tratados según la conducta de los malvados,
 
 y malvados tratados según la conducta de los honrados.
 
-## Digo que éste es otro absurdo.
+Digo que éste es otro absurdo.
 
 <sup>15</sup> Por eso alabaré la alegría, pues no hay otra cosa buena para el hombre bajo el sol sino comer, beber y divertirse; eso le acompañará en sus fatigas los días de vida que Dios le conceda bajo el sol.
 
@@ -444,7 +444,7 @@ y malvados tratados según la conducta de los honrados.
 ## La muerte.
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Pues bien, a todo esto me he aplicado con interés y todo lo he explorado, y he visto que los justos y los sabios, así como sus obras, están en manos de Dios<span class="note-ref" data-ref="qo-9-1-a" title="Ver comentario">&#42;</span>.
 
-## Y nada saben los hombres de amor ni de odio<span class="note-ref" data-ref="qo-9-1-b" title="Ver comentario">&#42;</span>:
+Y nada saben los hombres de amor ni de odio<span class="note-ref" data-ref="qo-9-1-b" title="Ver comentario">&#42;</span>:
 
 todo les resulta <sup>2</sup> absurdo.
 
