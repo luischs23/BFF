@@ -778,7 +778,15 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 	// Los event listeners del módulo van sobre document y sobreviven SPA navigation,
 	// así que con cargar el módulo una sola vez es suficiente.
 	let selectionToolbarReady = false;
+	let reinitSelectionToolbar: (() => void) | null = null;
+
 	function initSelectionToolbarOnDemand(): void {
+		// Si el módulo ya fue cargado en una navegación anterior, re-inyectar
+		// estilos y toolbar (el <head> swap de Astro los elimina entre páginas)
+		if (reinitSelectionToolbar) {
+			reinitSelectionToolbar();
+			return;
+		}
 		if (selectionToolbarReady) return;
 		const handler = async () => {
 			const sel = window.getSelection();
@@ -786,10 +794,11 @@ const { title, slug, estructura, isWelcomePage = false } = Astro.props;
 			const range = sel.rangeCount > 0 ? sel.getRangeAt(0) : null;
 			const bibleContent = document.querySelector('.bible-content');
 			if (!range || !bibleContent?.contains(range.commonAncestorContainer)) return;
-			// Primera selección dentro del contenido: cargar el módulo y no volver a escuchar
+			// Primera selección dentro del contenido: cargar el módulo
 			selectionToolbarReady = true;
 			document.removeEventListener('selectionchange', handler);
 			const { initSelectionToolbar } = await import("../../scripts/biblia/selectionToolbar");
+			reinitSelectionToolbar = initSelectionToolbar;
 			initSelectionToolbar();
 		};
 		document.addEventListener('selectionchange', handler);

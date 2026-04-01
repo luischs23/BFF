@@ -179,7 +179,7 @@ const dailyCards = SECTIONS.map((section, i) => ({
 }));
 ---
 
-<Layout title="Sagrada Biblia">
+<Layout title="BFF Biblia">
 	<!-- Botón de configuración (esquina superior izquierda) -->
 	<button
 		id="settingsBtn"
@@ -270,7 +270,7 @@ const dailyCards = SECTIONS.map((section, i) => ({
 		</p>
 
 		<!-- Tarjetas principales -->
-		<div class="grid grid-cols-2 md:grid-cols-3 gap-3 w-full max-w-xs md:max-w-sm mb-8">
+		<div class="grid grid-cols-2 md:grid-cols-5 gap-3 w-full max-w-xs md:max-w-4xl mb-8">
 			<!-- Biblia Jerusalén -->
 			<a
 				href="/biblia"
@@ -360,11 +360,11 @@ const dailyCards = SECTIONS.map((section, i) => ({
 		</div>
 
 		<!-- Cards de libros del día -->
-		<div class="w-full max-w-xs">
+		<div class="w-full max-w-4xl">
 			<p class="text-[10px] font-semibold uppercase tracking-[0.2em] text-gray-500 dark:text-gray-600 mb-3">
 				Lecturas del día
 			</p>
-			<div class="flex flex-col gap-1.5">
+			<div class="grid grid-cols-1 sm:grid-cols-3 gap-1.5">
 				{dailyCards.map(({ section, color, textColor, card, salt }) => (
 					<a
 						href={`/biblia/${card.slug}`}
@@ -379,7 +379,7 @@ const dailyCards = SECTIONS.map((section, i) => ({
 								<span class="text-gray-700 dark:text-gray-300 text-sm font-semibold truncate">{card.book}</span>
 								<span class="daily-ref text-gray-400 dark:text-gray-600 text-[11px] font-mono shrink-0"></span>
 							</div>
-							<p class="daily-verse text-gray-400 dark:text-gray-500 text-xs leading-snug italic w-full"></p>
+							<p class="daily-verse text-gray-600 dark:text-gray-400 text-sm leading-snug w-full"></p>
 						</div>
 						<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
