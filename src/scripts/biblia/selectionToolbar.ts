@@ -179,22 +179,44 @@ function onShareClick(e: Event): void {
 	e.stopPropagation();
 	if (!currentRange) return;
 
+	const text = currentRange.toString().trim();
+	const citation = buildCitation(currentRange);
+	const checkSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
+
+	// Construir URL del versículo
 	const slug = (window as any).currentBibliaSlug as string | undefined;
 	const chapter = findChapterForNode(currentRange.startContainer);
 	const { firstVerse } = findVersesInSelection(currentRange, chapter ?? 1);
-
 	const hash = chapter
 		? firstVerse ? `#chapter-${chapter}-verse-${firstVerse}` : `#chapter-${chapter}`
 		: '';
+	const verseUrl = slug
+		? `${window.location.origin}/biblia/${slug}${hash}`
+		: window.location.href.split('#')[0] + hash;
 
-	const base = slug
-		? `${window.location.origin}/biblia/${slug}`
-		: window.location.href.split('#')[0];
+	// La URL va dentro del texto (no como campo url) para que WhatsApp
+	// la muestre como enlace clicable sin generar el card de OG preview.
+	const shareText = citation
+		? `${citation}\n"${text}"\n${verseUrl}`
+		: `"${text}"\n${verseUrl}`;
 
-	navigator.clipboard.writeText(base + hash).then(() => {
-		showFeedback(shareBtn!, `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`);
-		setTimeout(hideToolbar, 1200);
-	}).catch(console.error);
+	if (navigator.share) {
+		navigator.share({ text: shareText })
+			.then(() => {
+				showFeedback(shareBtn!, checkSvg);
+				setTimeout(hideToolbar, 1200);
+			})
+			.catch((err) => {
+				// El usuario canceló el share sheet — no hacer nada
+				if ((err as DOMException).name !== 'AbortError') console.error(err);
+			});
+	} else {
+		// Fallback: copiar al portapapeles
+		navigator.clipboard.writeText(shareText).then(() => {
+			showFeedback(shareBtn!, checkSvg);
+			setTimeout(hideToolbar, 1200);
+		}).catch(console.error);
+	}
 }
 
 function showFeedback(btn: HTMLButtonElement, checkSvg: string): void {
@@ -235,7 +257,7 @@ function ensureToolbar(): void {
 	shareBtn = makeBtn(
 		'bst-share',
 		`<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`,
-		'Compartir enlace al versículo',
+		'Compartir versículo',
 		onShareClick
 	);
 
