@@ -4,7 +4,8 @@ description: 'Libro de la Sabiduría'
 img: blog-placeholder-4.jpg
 ---
 # LIBRO DE LA SABIDURÍA
-## I. La sabiduría y el destino del hombre
+<span class="section-intro">I. La sabiduría y el destino del hombre</span>
+
 ## Buscar a Dios y huir del pecado.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Amad la justicia<span class="note-ref" data-ref="sb-1-1-a" title="Ver comentario">&#42;</span>, los que gobernáis el mundo<span class="note-ref" data-ref="sb-1-1-b" title="Ver comentario">&#42;</span>,
 
@@ -222,8 +223,7 @@ y lo hizo a imagen de su mismo ser<span class="note-ref" data-ref="sb-2-23" titl
 
 y la experimentan sus secuaces.
 
-## Comparación de la suerte de los justos
-## y de los impíos.
+## Comparación de la suerte de los justos y de los impíos.
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> En cambio, la vida de los justos está en manos de Dios<span class="note-ref" data-ref="sb-3-1" title="Ver comentario">&#42;</span>
 
 y ningún tormento les afectará.
@@ -552,7 +552,8 @@ Así la iniquidad asolará toda la tierra
 
 y la maldad derrocará los tronos de los poderosos.
 
-## II. Salomón y la búsqueda de la sabiduría
+<span class="section-intro">II. Salomón y la búsqueda de la sabiduría</span>
+
 ## Los reyes deben buscar la Sabiduría.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> <span class="note-ref" data-ref="sb-6-1-a" title="Ver comentario">&#42;</span>Escuchad, reyes, y entended<span class="note-ref" data-ref="sb-6-1-b" title="Ver comentario">&#42;</span>. Aprended, gobernantes
 
@@ -1024,7 +1025,8 @@ los hombres aprendieron lo que te agrada
 
 y se salvaron gracias a la sabiduría<span class="note-ref" data-ref="sb-9-18" title="Ver comentario">&#42;</span>.»
 
-## III. La sabiduría en la historia
+<span class="section-intro">III. La sabiduría en la historia</span>
+
 ## Desde Adán hasta Moisés.
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Ella fue la que protegió al primer hombre, padre del mundo; creado solo<span class="note-ref" data-ref="sb-10-1-a" title="Ver comentario">&#42;</span>, lo rescató de su caída<span class="note-ref" data-ref="sb-10-1-b" title="Ver comentario">&#42;</span>
 
@@ -1233,7 +1235,7 @@ perseguidos por la Justicia
 
 o barridos por tu aliento poderoso.
 
-## Pero tú regulaste todo con medida, número y peso.
+Pero tú regulaste todo con medida, número y peso.
 
 ## Motivos de esta moderación.
 <sup>21</sup> Tú siempre puedes utilizar tu poder.
@@ -1314,7 +1316,7 @@ y de que su mentalidad no cambiaría nunca<span class="note-ref" data-ref="sb-12
 <sup>11</sup> pues era una raza maldita desde su origen.
 
 ## Motivos de esta moderación.
-## Tampoco por temor a nadie indultabas sus pecados.
+Tampoco por temor a nadie indultabas sus pecados.
 
 <sup>12</sup> Pues ¿quién podría decirte: «¿Qué has hecho?»
 
@@ -1400,7 +1402,7 @@ abrieron los ojos y reconocieron como Dios verdadero
 
 a aquel que antes se negaban a conocer.
 
-## Por eso, les sobrevino el peor de los castigos<span class="note-ref" data-ref="sb-12-27" title="Ver comentario">&#42;</span>.
+Por eso, les sobrevino el peor de los castigos<span class="note-ref" data-ref="sb-12-27" title="Ver comentario">&#42;</span>.
 
 ## Crítica de la idolatría<span class="note-ref" data-ref="sb-13-1-a" title="Ver comentario">&#42;</span>. Divinización de la naturaleza.
 <span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Son necios por naturaleza todos los hombres que han desconocido a Dios

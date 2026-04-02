@@ -3,8 +3,9 @@ title: 'Judit'
 description: 'Libro de Judit'
 img: blog-placeholder-4.jpg
 ---
-## JUDIT<span class="note-ref" data-ref="jdt-1" title="Ver comentario">&#42;</span>
-## I. La campaña de Holofernes
+<span class="section-title">JUDIT<span class="note-ref" data-ref="jdt-1" title="Ver comentario">&#42;</span></span>
+<span class="section-intro">I. La campaña de Holofernes</span>
+
 ## Nabucodonosor y Arfaxad.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> El año doce del reinado de Nabucodonosor<span class="note-ref" data-ref="jdt-1-1-a" title="Ver comentario">&#42;</span>, que reinó sobre los asirios en la gran ciudad de Nínive, Arfaxad<span class="note-ref" data-ref="jdt-1-1-b" title="Ver comentario">&#42;</span>, que por aquel tiempo era rey de los medos, en Ecbátana, <sup>2</sup> rodeó esta ciudad con un muro de piedras de sillería, de tres codos de anchura y seis de longitud, y dio al muro una altura de setenta codos y una anchura de cincuenta. <sup>3</sup> Alzó torres de cien codos junto a las puertas; sus cimientos medían sesenta codos de anchura. <sup>4</sup> Las puertas se elevaban a setenta codos de altura, y tenían cuarenta de ancho, de modo que permitiesen la salida de sus fuerzas y el desfile ordenado de la infantería.
 
@@ -59,7 +60,8 @@ El pueblo ayunó largos días en toda Judea y en Jerusalén, ante el santuario d
 
 <sup>14</sup> Los israelitas bajaron de su ciudad, se acercaron y, tras desatarle, lo llevaron a Betulia y lo presentaron a los jefes de la ciudad, <sup>15</sup> que en aquel tiempo eran Ozías, hijo de Miqueas, de la tribu de Simeón<span class="note-ref" data-ref="jdt-6-15" title="Ver comentario">&#42;</span>, Jabrís, hijo de Gotoniel, y Jarmís, hijo de Melquiel. <sup>16</sup> Éstos mandaron convocar a todos los ancianos de la ciudad. Se unieron también a la asamblea todos los jóvenes y las mujeres; pusieron a Ajior en medio de toda la gente, y Ozías le interrogó acerca de lo sucedido. <sup>17</sup> Ajior respondió narrándoles las deliberaciones habidas en el Consejo de Holofernes, todas las cosas que él mismo había dicho ante todos los jefes de los asirios y las bravatas que Holofernes había proferido contra la casa de Israel. <sup>18</sup> Entonces el pueblo se postró, adoró a Dios y clamó: <sup>19</sup> «Señor, Dios del cielo, mira su soberbia, compadécete de la humillación de nuestra raza y mira con piedad a los que te están consagrados<span class="note-ref" data-ref="jdt-6-19" title="Ver comentario">&#42;</span>.» <sup>20</sup> Después dieron ánimos a Ajior y le felicitaron calurosamente, <sup>21</sup> y a la salida de la asamblea, Ozías lo condujo a su propia casa y ofreció un banquete a los ancianos. Y estuvieron invocando la ayuda del Dios de Israel durante toda la noche.
 
-## II. El asedio de Betulia
+<span class="section-intro">II. El asedio de Betulia</span>
+
 ## Campaña contra Israel.
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Al día siguiente, ordenó Holofernes a todo su ejército y a toda la gente que iban como tropas auxiliares que avanzasen contra Betulia, ocupasen los accesos de la montaña y comenzasen las hostilidades contra los israelitas. <sup>2</sup> El mismo día levantaron el campamento todos los hombres de su ejército. Sus guerreros sumaban ciento veinte mil infantes<span class="note-ref" data-ref="jdt-7-2" title="Ver comentario">&#42;</span> y doce mil jinetes, sin contar los encargados del bagaje y la gran cantidad de hombres que iban a pie con ellos. <sup>3</sup> Acamparon en el valle que hay cerca de Betulia, junto a la fuente, y se desplegaron a lo largo y a lo ancho: desde Dotán hasta Belbáin, y desde Betulia hasta Quiamón, que está frente a Esdrelón. <sup>4</sup> Cuando los israelitas vieron tal muchedumbre, quedaron sobrecogidos y se dijeron unos a otros: «Ahora arrasarán éstos toda la tierra y ni los montes más altos ni los barrancos ni las colinas podrán soportar su peso.» <sup>5</sup> Tomó cada cual su equipo de guerra, encendieron hogueras en las torres y permanecieron junto a las armas toda aquella noche.
 
@@ -75,7 +77,8 @@ El pueblo ayunó largos días en toda Judea y en Jerusalén, ante el santuario d
 
 <sup>30</sup> Ozías les dijo: «Tened confianza, hermanos; resistamos aún cinco días, y en este tiempo el Señor nuestro Dios se mostrará compasivo con nosotros, porque no nos ha de abandonar por siempre. <sup>31</sup> Pero si pasan estos días sin recibir ayuda, cumpliré vuestros deseos.» <sup>32</sup> Despidió a la gente, y cada cual ocupó su puesto. Los hombres fueron a las murallas y torres de la ciudad, y a las mujeres y a los niños los enviaron a casa. Había en la ciudad un gran abatimiento.
 
-## III. Judit
+<span class="section-intro">III. Judit</span>
+
 ## Presentación de Judit.
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> Se enteró entonces de ello Judit<span class="note-ref" data-ref="jdt-8-1-a" title="Ver comentario">&#42;</span>, hija de Merarí, hijo de Ox, hijo de José, hijo de Oziel, hijo de Elcías, hijo de Ananías, hijo de Gedeón, hijo de Rafaín, hijo de Ajitob, hijo de Elías, hijo de Jilquías, hijo de Eliab, hijo de Natanael, hijo de Salamiel, hijo de Sarasaday, hijo de Israel<span class="note-ref" data-ref="jdt-8-1-b" title="Ver comentario">&#42;</span>. <sup>2</sup> Su marido Manasés, de la misma tribu y familia que ella, había muerto durante la recolección de la cebada. <sup>3</sup> Mientras estaba en el campo vigilando a los que ataban las gavillas, le dio una insolación a la cabeza, cayó en cama y vino a morir en su ciudad de Betulia. Fue sepultado junto a sus padres, en el campo que hay entre Dotán y Balamón. <sup>4</sup> Judit llevaba ya tres años y cuatro meses viuda, recogida en su casa. <sup>5</sup> Se había hecho construir un aposento sobre el terrado de la casa, se había ceñido de sayal y vestía ropas de viuda; ayunaba <sup>6</sup> desde que había enviudado, a excepción de los sábados y las vigilias de los sábados, los novilunios y sus vigilias, las solemnidades y los días en que los israelitas celebraban alguna fiesta. <sup>7</sup> Era muy bella y muy bien parecida. Su marido Manasés le había dejado oro y plata, siervos y siervas, ganados y campos, de los que ella era dueña. <sup>8</sup> No había nadie que pudiera decir de ella una palabra maliciosa, porque era muy temerosa de Dios.
 
@@ -269,7 +272,8 @@ y que no hay protector fuera de ti
 
 para la estirpe de Israel.
 
-## IV. Judit y Holofernes
+<span class="section-intro">IV. Judit y Holofernes</span>
+
 ## Judit se dirige al campamento de Holofernes.
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Acabada su plegaria al Dios de Israel, y dichas todas estas palabras, <sup>2</sup> se levantó Judit del suelo, llamó a su sierva y, bajando a la sala donde pasaba los sábados y solemnidades, <sup>3</sup> se quitó el sayal que vestía y se despojó de sus vestidos de viuda. Se bañó, se ungió con perfumes exquisitos, se peinó, se puso una diadema en el cabello y se vistió la ropa que llevaba cuando era feliz, en vida de su marido Manasés. <sup>4</sup> Se calzó las sandalias, se puso los collares, brazaletes y anillos, sus pendientes y todas sus joyas, y realzó su hermosura cuanto pudo, con ánimo de seducir a todos los hombres que la viesen<span class="note-ref" data-ref="jdt-10-4" title="Ver comentario">&#42;</span>. <sup>5</sup> Luego entregó a su sierva un odre de vino y un cántaro de aceite, llenó una alforja con harina de cebada, tortas de higos y panes puros<span class="note-ref" data-ref="jdt-10-5" title="Ver comentario">&#42;</span>, empaquetó las provisiones y se lo entregó todo igualmente a su sierva. <sup>6</sup> A continuación, se dirigieron a la puerta de la ciudad de Betulia, donde se encontraron con Ozías y con Jabrís y Jarmís, ancianos de la ciudad. <sup>7</sup> Cuando vieron a Judit con el rostro transformado y mudada de vestidos, se quedaron maravillados de su extremada hermosura y le dijeron:
 
@@ -372,7 +376,8 @@ procediendo rectamente ante nuestro Dios.»
 
 Todo el pueblo respondió: «¡Amén, amén!»
 
-## V. La victoria
+<span class="section-intro">V. La victoria</span>
+
 ## Los judíos asaltan el campamento asirio.
 <span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Judit les dijo: «Escuchadme, hermanos. Tomad esta cabeza y colgadla en el saliente de nuestras murallas. <sup>2</sup> Y apenas despunte el alba y salga el sol sobre la tierra, empuñaréis cada uno vuestras armas y saldréis fuera de la ciudad todos los hombres capaces. Que se ponga uno al frente, como si intentarais bajar a la llanura para atacar la avanzada de los asirios. Pero no bajéis. <sup>3</sup> Los asirios tomarán sus armas y marcharán a su campamento para despertar a los jefes del ejército de Asiria. Correrán a la tienda de Holofernes, pero, al no dar con él, quedarán aterrorizados y huirán ante vosotros. <sup>4</sup> Entonces, vosotros y todos los habitantes del territorio de Israel saldréis en su persecución y los batiréis en retirada.
 

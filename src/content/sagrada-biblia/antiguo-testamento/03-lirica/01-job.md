@@ -4,7 +4,8 @@ description: 'Libro de Job'
 img: blog-placeholder-4.jpg
 ---
 # JOB
-## I. Prólogo<span class="note-ref" data-ref="jb-1" title="Ver comentario">&#42;</span>
+<span class="section-intro">I. Prólogo<span class="note-ref" data-ref="jb-1" title="Ver comentario">&#42;</span></span>
+
 ## Satán prueba a Job.
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Érase una vez un hombre llamado Job, que vivía en el país de Us<span class="note-ref" data-ref="jb-1-1" title="Ver comentario">&#42;</span>. Era un hombre íntegro y recto, temeroso de Dios y apartado del mal. <sup>2</sup> Tenía siete hijos y tres hijas. <sup>3</sup> Poseía siete mil ovejas, tres mil camellos y quinientas yuntas de bueyes, quinientas burras y numerosos siervos. Era el más rico de toda la gente de Oriente<span class="note-ref" data-ref="jb-1-3" title="Ver comentario">&#42;</span>. <sup>4</sup> Sus hijos tenían por costumbre juntarse para comer en casa de uno de ellos, por turnos; y mandaban llamar a las tres hermanas para que comieran con ellos. <sup>5</sup> Una vez acabados estos días de fiesta, Job los llamaba para purificarlos<span class="note-ref" data-ref="jb-1-5-a" title="Ver comentario">&#42;</span>; al día siguiente, de madrugada, ofrecía un holocausto por cada uno de ellos, pues pensaba que a lo mejor habían pecado maldiciendo<span class="note-ref" data-ref="jb-1-5-b" title="Ver comentario">&#42;</span> a Dios en su interior. Siempre hacía lo mismo.
@@ -17,9 +18,9 @@ img: blog-placeholder-4.jpg
 
 y desnudo volveré a él<span class="note-ref" data-ref="jb-1-21" title="Ver comentario">&#42;</span>.
 
-## Yahvé me lo ha dado y Yahvé me lo ha quitado.
+Yahvé me lo ha dado y Yahvé me lo ha quitado.
 
-## Bendito sea el nombre de Yahvé».
+Bendito sea el nombre de Yahvé».
 
 <sup>22</sup> A pesar de todo, Job no pecó ni imputó nada indigno a Dios.
 
@@ -29,9 +30,11 @@ E hirió a Job con úlceras malignas<span class="note-ref" data-ref="jb-2-7" tit
 
 <sup>11</sup> Tres amigos de Job se enteraron de la desgracia que le había sobrevenido y acudieron desde sus respectivos países. Eran Elifaz de Temán, Bildad de Súaj y Sofar de Naamat<span class="note-ref" data-ref="jb-2-11" title="Ver comentario">&#42;</span>. Los tres se pusieron de acuerdo para ir a compartir su pena y consolarlo. <sup>12</sup> Al verlo de lejos, no lo reconocieron. Empezaron entonces a llorar a gritos, rasgaron sus mantos y echaron polvo sobre sus cabezas<span class="note-ref" data-ref="jb-2-12" title="Ver comentario">&#42;</span>. <sup>13</sup> Se sentaron en el suelo a su lado durante siete días y siete noches, sin decirle una sola palabra, viendo su terrible dolor.
 
-## II. Diálogo
-## 1. PRIMER CICLO DE DISCURSOS
+<span class="section-intro">II. Diálogo</span>
+
+## <span class="subsection-title">1. PRIMER CICLO DE DISCURSOS</span>
 ## Job maldice el día de su nacimiento.
+<span class="parallel-ref">Jr <strong>20</strong> 14-18. </span>
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Finalmente Job empezó a hablar y maldijo el día de su nacimiento <sup>2</sup> con estas palabras:
 
 <sup>3</sup> Muera el día en que nací,
@@ -333,7 +336,7 @@ como gavilla de trigo en sazón.
 
 <sup>27</sup> Esto lo tenemos comprobado; así es la cosa.
 
-## Escúchalo y saca tu lección.
+Escúchalo y saca tu lección.
 
 ## El hombre rendido sólo conoce su miseria.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Job respondió así:
@@ -474,7 +477,7 @@ noches de agobio me tocan en suerte.
 
 y al levantarme: «¿Cuándo se hará de noche<span class="note-ref" data-ref="jb-7-4" title="Ver comentario">&#42;</span>?
 
-## Me harto de pesadillas hasta el alba.
+Me harto de pesadillas hasta el alba.
 
 <sup>5</sup> Me cubren la carne gusanos y costras,
 
@@ -982,7 +985,7 @@ en nada me superáis,
 
 cuando clama a Dios en busca de respuestas.
 
-## Se ríen de quien es justo e íntegro.
+Se ríen de quien es justo e íntegro.
 
 <sup>5</sup> ¡Ante el infortunio, desprecio -dice el satisfecho-,
 
@@ -1144,7 +1147,7 @@ yo sé que soy inocente.
 
 <sup>19</sup> ¿Quién quiere pleitear conmigo<span class="note-ref" data-ref="jb-13-19" title="Ver comentario">&#42;</span>?
 
-## Si ahora callo, moriré.
+Si ahora callo, moriré.
 
 <sup>20</sup> Hazme dos concesiones<span class="note-ref" data-ref="jb-13-20" title="Ver comentario">&#42;</span>
 
@@ -1160,7 +1163,7 @@ o mejor, yo hablaré y tú replicarás.
 
 <sup>23</sup> ¿Cuántos son mis errores y culpas?
 
-## Hazme ver mis delitos y errores.
+Hazme ver mis delitos y errores.
 
 <sup>24</sup> ¿Por qué me ocultas tu rostro<span class="note-ref" data-ref="jb-13-24" title="Ver comentario">&#42;</span>
 
@@ -1284,7 +1287,7 @@ son despreciados y no lo advierte.
 
 tan sólo se lamenta por su vida<span class="note-ref" data-ref="jb-14-22" title="Ver comentario">&#42;</span>.
 
-## 2. SEGUNDO CICLO DE DISCURSOS
+## <span class="subsection-title">2. SEGUNDO CICLO DE DISCURSOS</span>
 ## Job se condena por su lenguaje.
 <span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Elifaz de Temán respondió así:
 
@@ -1598,7 +1601,7 @@ nos hundiremos juntos en el polvo<span class="note-ref" data-ref="jb-17-16" titl
 
 <sup>2</sup> ¿Cuándo acabaréis con tanta palabra?
 
-## Pensad bien las cosas y luego hablaremos<span class="note-ref" data-ref="jb-18-2" title="Ver comentario">&#42;</span>.
+Pensad bien las cosas y luego hablaremos<span class="note-ref" data-ref="jb-18-2" title="Ver comentario">&#42;</span>.
 
 <sup>3</sup> ¿Por qué considerarnos animales
 
@@ -1800,6 +1803,7 @@ la espada que castiga el delito<span class="note-ref" data-ref="jb-19-29" title=
 y sabréis que existe un juez.
 
 ## No hay excepción para el orden de la justicia.
+<span class="parallel-ref">Ver <strong>27</strong> 12-23</span>
 <span id="chapter-20" class="chapter-marker" data-chapter="20">20</span><sup>1</sup> Sofar de Naamat respondió así:
 
 <sup>2</sup> Mis pensamientos me obligan a responder,
@@ -2055,7 +2059,7 @@ tras él desfila todo el mundo<span class="note-ref" data-ref="jb-21-33" title="
 
 con argumentos llenos de engaño?
 
-## 3. TERCER CICLO DE DISCURSOS
+## <span class="subsection-title">3. TERCER CICLO DE DISCURSOS</span>
 ## Dios sólo castiga en nombre de la justicia.
 <span id="chapter-22" class="chapter-marker" data-chapter="22">22</span><sup>1</sup> Elifaz de Temán respondió así:
 
@@ -2196,7 +2200,7 @@ sabría lo que me quiere decir.
 
 <sup>6</sup> ¿Pleitearía conmigo con toda su fuerza?
 
-## No lo creo; tendría que escucharme.
+No lo creo; tendría que escucharme.
 
 <sup>7</sup> Vería en su adversario a un hombre recto,
 
@@ -2336,7 +2340,7 @@ así el Seol a todo pecador<span class="note-ref" data-ref="jb-24-19" title="Ver
 
 su nombre no es recordado<span class="note-ref" data-ref="jb-24-20" title="Ver comentario">&#42;</span>.
 
-## La injusticia es tronchada como un árbol.
+La injusticia es tronchada como un árbol.
 
 <sup>21</sup> Maltrataba<span class="note-ref" data-ref="jb-24-21" title="Ver comentario">&#42;</span> a la estéril sin hijos,
 
@@ -2532,7 +2536,7 @@ aunque trata de evitar su ímpetu.
 
 le silban por donde pasa.
 
-## 4. ELOGIO DE LA SABIDURÍA
+## <span class="subsection-title">4. ELOGIO DE LA SABIDURÍA</span>
 ## La sabiduría inaccesible al hombre<span class="note-ref" data-ref="jb-28" title="Ver comentario">&#42;</span>.
 <span id="chapter-28" class="chapter-marker" data-chapter="28">28</span><sup>1</sup> Existen minas de plata,
 
@@ -2652,7 +2656,7 @@ la penetró<span class="note-ref" data-ref="jb-28-27" title="Ver comentario">&#4
 
 apartarse del mal, inteligencia».
 
-## 5. CONCLUSIÓN DEL DIÁLOGO
+## <span class="subsection-title">5. CONCLUSIÓN DEL DIÁLOGO</span>
 ## Quejas y apología de Job<span class="note-ref" data-ref="jb-29" title="Ver comentario">&#42;</span>:
 ## A. Los días de antaño.
 <span id="chapter-29" class="chapter-marker" data-chapter="29">29</span><sup>1</sup> Continuó Job con su discurso y dijo:  
@@ -3049,7 +3053,7 @@ en silencio, sin salir a la calle<span class="note-ref" data-ref="jb-31-34" titl
 
 ¡He dicho mi última palabra<span class="note-ref" data-ref="jb-31-35" title="Ver comentario">&#42;</span>!
 
-## A Shaddai le toca responder.
+A Shaddai le toca responder.
 
 El libelo que haya escrito mi adversario
 
@@ -3063,7 +3067,8 @@ me acercaría a él como un príncipe.
 
 <sup>40b</sup> Fin de las palabras de Job<span class="note-ref" data-ref="jb-31-40-b" title="Ver comentario">&#42;</span>.
 
-## III. Discursos de Elihú<span class="note-ref" data-ref="jb-32" title="Ver comentario">&#42;</span>
+<span class="section-intro">III. Discursos de Elihú<span class="note-ref" data-ref="jb-32" title="Ver comentario">&#42;</span></span>
+
 ## Intervención de Elihú.
 <span id="chapter-32" class="chapter-marker" data-chapter="32">32</span><sup>1</sup> Aquellos tres hombres ya no contestaron a Job, dado que estaba convencido de su inocencia<span class="note-ref" data-ref="jb-32-1" title="Ver comentario">&#42;</span>. <sup>2</sup> Pero Elihú, hijo de Baraquel el buzita, del clan de Ram, descargó su cólera contra Job porque pretendía tener razón frente a Dios. <sup>3</sup> También se enfadó con sus tres compañeros, por no haber encontrado respuesta y haber dejado así culpable a Dios<span class="note-ref" data-ref="jb-32-3" title="Ver comentario">&#42;</span>. <sup>4</sup> Mientras hablaban con Job<span class="note-ref" data-ref="jb-32-4" title="Ver comentario">&#42;</span>, Elihú había esperado, pues los otros eran mayores que él. <sup>5</sup> Pero Elihú se molestó al ver que los tres hombres no habían sabido responder. <sup>6</sup> Entonces Elihú, hijo de Baraquel el buzita, intervino diciendo:  
 
@@ -3497,7 +3502,7 @@ porque son malvados arrogantes;
 
 <sup>13</sup> Dios no escucha falsedades,
 
-## Shaddai no presta atención.
+Shaddai no presta atención.
 
 <sup>14</sup> Mucho menos cuando dices: «No lo veo,
 
@@ -3601,6 +3606,7 @@ en que la gente es echada de su sitio<span class="note-ref" data-ref="jb-36-20" 
 que por eso probaste la aflicción.
 
 ## Himno a la Sabiduría todopoderosa <span class="note-ref" data-ref="jb-36-22" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Si <strong>42</strong> 15-43 33</span>
 <sup>22</sup> ¡Qué sublime es Dios en poder!
 
 ¿Hay algún maestro como él?
@@ -3757,8 +3763,9 @@ maestro de justicia que no oprime.
 
 ¡que lo veneren todos los sabios<span class="note-ref" data-ref="jb-37-24" title="Ver comentario">&#42;</span>!
 
-## IV. Los discursos de Yahvé
-# PRIMER DISCURSO
+<span class="section-intro">IV. Los discursos de Yahvé</span>
+
+## <span class="subsection-title">PRIMER DISCURSO</span>
 ## La Sabiduría del Creador confunde a Job.
 <span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> Yahvé se dirigió a Job desde la tormenta<span class="note-ref" data-ref="jb-38-1" title="Ver comentario">&#42;</span>:
 
@@ -3772,7 +3779,7 @@ te voy a preguntar y tú me instruirás<span class="note-ref" data-ref="jb-38-3"
 
 <sup>4</sup> ¿Dónde estabas cuando cimenté la tierra?
 
-## Dilo, si tanto sabes y entiendes.
+Dilo, si tanto sabes y entiendes.
 
 <sup>5</sup> ¿Sabes quién fijó sus medidas,
 
@@ -3828,7 +3835,7 @@ y quede roto el brazo sublevado?
 
 <sup>18</sup> ¿Tienes idea de las dimensiones de la tierra?
 
-## Dilo, si todo lo sabes.
+Dilo, si todo lo sabes.
 
 <sup>19</sup> ¿Por dónde habita la luz<span class="note-ref" data-ref="jb-38-19" title="Ver comentario">&#42;</span>?,
 
@@ -4056,13 +4063,13 @@ donde hay muertos, allí está ella.
 
 <sup>4</sup> «Hablé a la ligera, ¿qué replicaré?
 
-## Mejor si me tapo la boca con la mano.
+Mejor si me tapo la boca con la mano.
 
 <sup>5</sup> Hablé una vez, no responderé;
 
 dos veces y nada añadiré».
 
-# SEGUNDO DISCURSO
+## <span class="subsection-title">SEGUNDO DISCURSO</span>
 ## Señorío de Dios sobre las fuerzas del mal.
 <sup>6</sup> Yahvé respondió a Job desde la tormenta:
 
@@ -4303,7 +4310,8 @@ pero ahora te han visto mis ojos<span class="note-ref" data-ref="jb-42-5" title=
 
 echado en el polvo y la ceniza<span class="note-ref" data-ref="jb-42-6" title="Ver comentario">&#42;</span>.
 
-## V. Epílogo
+<span class="section-intro">V. Epílogo</span>
+
 ## Yahvé censura a los tres sabios.
 <sup>7</sup> Después de pronunciar estos discursos a Job, dijo Yahvé a Elifaz de Temán: «Estoy enfadado contigo y con tus dos amigos, pues no habéis hablado bien de mí, como mi siervo Job. <sup>8</sup> Coged ahora siete terneras y siete carneros, acudid a mi siervo Job y ofrecedlos por vosotros en holocausto. Mi siervo Job intercederá por vosotros. Sólo en consideración a él<span class="note-ref" data-ref="jb-42-8" title="Ver comentario">&#42;</span> no os infligiré castigo alguno por no haber hablado bien de mí, como ha hecho mi siervo Job». <sup>9</sup> Elifaz de Temán, Bildad de Súaj y Sofar de Naamat fueron a ejecutar la orden de Yahvé. Y Yahvé tuvo en consideración a Job.
 

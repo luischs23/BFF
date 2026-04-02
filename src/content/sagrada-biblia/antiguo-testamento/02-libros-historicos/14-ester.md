@@ -3,8 +3,9 @@ title: 'Ester'
 description: 'Libro de Ester'
 img: blog-placeholder-4.jpg
 ---
-## ESTER<span class="note-ref" data-ref="est-1" title="Ver comentario">&#42;</span>
-## Preliminares
+<span class="section-title">ESTER<span class="note-ref" data-ref="est-1" title="Ver comentario">&#42;</span></span>
+<span class="section-intro">Preliminares</span>
+
 ## Sueño de Mardoqueo.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1a</sup> El año segundo del reinado del rey Asuero<span class="note-ref" data-ref="est-1-1-a-a" title="Ver comentario">&#42;</span> el Grande, el día primero del mes de Nisán, tuvo un sueño<span class="note-ref" data-ref="est-1-1-a-b" title="Ver comentario">&#42;</span> Mardoqueo, hijo de Yaír, hijo de Semeí, hijo de Quis, de la tribu de Benjamín. <sup>1b</sup> Era un judío que habitaba en la ciudad de Susa<span class="note-ref" data-ref="est-1-1-b" title="Ver comentario">&#42;</span>, varón ilustre, adscrito al servicio del palacio real. <sup>1c</sup> Formó parte del grupo de deportados que Nabucodonosor, rey de Babilonia, había llevado cautivos de Jerusalén con Jeconías, rey de Judá<span class="note-ref" data-ref="est-1-1-c" title="Ver comentario">&#42;</span>.
 
@@ -15,7 +16,8 @@ img: blog-placeholder-4.jpg
 ## Conjura contra el rey.
 <sup>1m</sup> Vivía Mardoqueo en el palacio con Bigtán y Teres<span class="note-ref" data-ref="est-1" title="Ver comentario">&#42;</span>, dos eunucos del rey, guardianes del palacio. <sup>1n</sup> Les oyó sus proyectos, descubrió sus intenciones y se enteró de que estaban dispuestos a poner sus manos en el rey Asuero. Entonces Mardoqueo los denunció al rey, <sup>1o</sup> que sometió a interrogatorio a los dos eunucos. Una vez que ellos confesaron la verdad, fueron llevados al suplicio. <sup>1p</sup> El rey hizo guardar memoria escrita de todo esto; también Mardoqueo, por su parte, escribió sobre estos sucesos. <sup>1q</sup> Por aquel servicio, el rey confió a Mardoqueo un puesto en palacio y le hizo regalos. <sup>1r</sup> Pero Amán, hijo de Hamdatá, del país de Agag, que gozaba del favor real, buscaba la ruina de Mardoqueo y de su pueblo, por el asunto de los dos eunucos del rey.
 
-## I. Asuero y Vastí
+<span class="section-intro">I. Asuero y Vastí</span>
+
 ## Banquete de Asuero.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Sucedió en tiempo del rey Asuero, el que reinó desde la India hasta Etiopía sobre ciento veintisiete provincias. <sup>2</sup> En aquellos días, estando el rey sentado en el trono real, en la ciudadela de Susa, <sup>3</sup> en el año tercero de su reinado, ofreció un banquete en su presencia a todos sus servidores: a jefes del ejército<span class="note-ref" data-ref="est-1-3" title="Ver comentario">&#42;</span> de los persas y los medos, a los nobles y a los gobernadores de las provincias. <sup>4</sup> Les hizo ver la riqueza y la gloria de su reino y el magnífico esplendor de su grandeza durante ciento ochenta días.
 
@@ -26,7 +28,8 @@ img: blog-placeholder-4.jpg
 
 <sup>21</sup> Pareció bueno el consejo al rey y a los jefes, y el rey ordenó que se pusiera en práctica la sugerencia de Memucán. <sup>22</sup> Envió el rey cartas a todas las provincias, a cada provincia según su escritura, y a cada pueblo según su lengua, para que todo marido fuese señor de su casa<span class="note-ref" data-ref="est-1-22" title="Ver comentario">&#42;</span>.
 
-## II. Mardoqueo y Ester
+<span class="section-intro">II. Mardoqueo y Ester</span>
+
 ## Ester, elegida reina.
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Después de estos sucesos, se aplacó la cólera del rey Asuero y se acordó de Vastí, de cuanto había hecho, y de lo que acerca de ella se había decidido<span class="note-ref" data-ref="est-2-1" title="Ver comentario">&#42;</span>. <sup>2</sup> Dijeron los cortesanos que estaban al servicio del rey: «Que se busquen para el rey jóvenes vírgenes y bellas. <sup>3</sup> Que el rey nombre inspectores en todas las provincias de su reino para que reúnan en la ciudadela de Susa, en el harén, a todas las jóvenes vírgenes y bellas, bajo la vigilancia de Hegué, eunuco del rey, encargado de las mujeres, y que él les proporcione cuanto necesiten para su adorno. <sup>4</sup> Y la joven que agrade al rey reinará en lugar de Vastí.» Le pareció bien al rey, y así se hizo.
 
@@ -45,7 +48,8 @@ img: blog-placeholder-4.jpg
 
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Después de esto, el rey Asuero elevó al poder a Amán, hijo de Hamdatá, del país de Agag<span class="note-ref" data-ref="est-3-1" title="Ver comentario">&#42;</span>. Lo encumbró y lo situó por encima de todos los dignatarios que estaban con él; <sup>2</sup> todos los funcionarios del rey adscritos a la Puerta Real doblaban la rodilla y se postraban ante Amán, porque así lo había ordenado el rey. Pero Mardoqueo ni doblaba la rodilla ni se postraba<span class="note-ref" data-ref="est-3-2" title="Ver comentario">&#42;</span>. <sup>3</sup> Los funcionarios del rey adscritos a la Puerta Real dijeron a Mardoqueo: «¿Por qué incumples la orden del rey?» <sup>4</sup> Y como se lo repitieran día tras día y él no les hiciera caso, se lo comunicaron a Amán, para ver si Mardoqueo persistía en su decisión, pues les había manifestado que él era judío. <sup>5</sup> Al comprobar Amán que Mardoqueo no doblaba la rodilla ni se postraba ente él, montó en cólera. <sup>6</sup> Y cuando le notificaron a qué pueblo pertenecía Mardoqueo, no contentándose con poner la mano sobre él solo, intentó exterminar, junto con él, a todos los judíos de todo el reino de Asuero.
 
-## III. Los judíos amenazados
+<span class="section-intro">III. Los judíos amenazados</span>
+
 ## Decreto de exterminio de los judíos.
 <sup>7</sup> El año doce del rey Asuero, el mes primero, es decir, el mes de Nisán, se sacó el «Pur<span class="note-ref" data-ref="est-3-7" title="Ver comentario">&#42;</span>» (o sea, las suertes) en presencia de Amán, por días y por meses. Salió el doce, que es el mes de Adar. <sup>8</sup> <span class="note-ref" data-ref="est-3-8-a" title="Ver comentario">&#42;</span>Amán dijo al rey Asuero: «Hay un pueblo disperso y diseminado entre los pueblos de todas las provincias de tu reino, con sus leyes, distintas de las de todas las naciones, y que no cumplen las leyes reales<span class="note-ref" data-ref="est-3-8-b" title="Ver comentario">&#42;</span>. No conviene al rey dejarlos en paz. <sup>9</sup> Si el rey juzga conveniente publicar un decreto para exterminarlos, yo haré que se entreguen diez mil talentos de plata a los intendentes, para que los ingresen en la cámara del tesoro.»
 
@@ -303,7 +307,8 @@ y líbrame a mí de mi temor.
 
 <sup>9</sup> Aquel día salía Amán contento y con alegre corazón; pero, al ver a Mardoqueo en la Puerta Real, que no se levantaba, ni siquiera se movía ante él, se llenó Amán de ira contra Mardoqueo. <sup>10</sup> Pero se dominó y, yéndose a su casa, mandó venir a sus amigos y a su mujer Zeres <sup>11</sup> y les habló de su gloria y sus riquezas, de sus muchos hijos y de cómo el rey lo había encumbrado, elevándolo por encima de los jefes y funcionarios del rey. <sup>12</sup> Y añadió: «Más aún, la reina Ester me ha invitado a mí solo, junto con el rey, a un banquete que ha preparado; también para mañana estoy invitado por ella, junto con el rey. <sup>13</sup> Pero todo esto nada significa para mí, mientras vea que el judío Mardoqueo sigue apostado en la Puerta Real.» <sup>14</sup> Su mujer Zeres y todos sus amigos le respondieron: «Manda preparar una horca de cincuenta codos de altura y mañana por la mañana pides al rey que cuelguen de ella a Mardoqueo; así podrás ir satisfecho al banquete con el rey.» Agradó el consejo a Amán y mandó preparar la horca.
 
-## IV. Desquite de los judíos
+<span class="section-intro">IV. Desquite de los judíos</span>
+
 ## Desgracia de Amán.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> <span class="note-ref" data-ref="est-6-1" title="Ver comentario">&#42;</span>Aquella misma noche, no pudiendo el rey conciliar el sueño, mandó que trajeran y leyeran en su presencia el libro de las Memorias, o Crónica. <sup>2</sup> Estaba allí, consignada por escrito, la denuncia que Mardoqueo había hecho contra Bigtán y Teres, los dos eunucos del rey, guardianes del umbral, que habían intentado poner las manos sobre el rey Asuero. <sup>3</sup> Preguntó el rey: «¿Qué honor o dignidad se concedió por esto a Mardoqueo?» Los jóvenes del servicio del rey dijeron: «No se hizo nada en su favor<span class="note-ref" data-ref="est-6-3" title="Ver comentario">&#42;</span>.» <sup>4</sup> Continuó el rey: «¿Quién está en el atrio?» —Justamente entonces llegaba Amán al atrio exterior de la casa del rey, para pedir al rey que colgaran a Mardoqueo de la horca que él había hecho levantar—. <sup>5</sup> Los jóvenes del servicio del rey le respondieron: «Es Amán el que está en el atrio.» Dijo el rey: «Que entre.» <sup>6</sup> Entró, pues, Amán, y el rey le preguntó: «¿Qué debe hacerse al hombre a quien el rey quiere honrar?» Amán pensó: «¿A quién ha de querer honrar el rey, sino a mí?» <sup>7</sup> Respondió, pues, Amán al rey: «Para el hombre a quien el rey quiere honrar, <sup>8</sup> deben tomarse regias vestiduras que el rey haya vestido, y un caballo que el rey haya montado, y en cuya cabeza<span class="note-ref" data-ref="est-6-8" title="Ver comentario">&#42;</span> se haya puesto una diadema real. <sup>9</sup> Los vestidos y el caballo deben darse a uno de los funcionarios más principales del rey, para que vista al hombre a quien el rey desea honrar; y le hará cabalgar sobre el caballo por la plaza mayor de la ciudad gritando delante de él: «¡Así se trata al hombre a quien el rey quiere honrar!» <sup>10</sup> Dijo el rey a Amán: «Toma al momento vestidos y caballo, tal como lo has dicho, y hazlo así con el judío Mardoqueo, que está en la Puerta Real. No dejes de cumplir ni un solo detalle.»
 
@@ -347,7 +352,8 @@ y líbrame a mí de mi temor.
 
 <sup>16</sup> Los judíos de las restantes provincias del rey se reunieron para defender, contra sus enemigos, sus vidas y su seguridad. Mataron a setenta y cinco mil<span class="note-ref" data-ref="est-9-16" title="Ver comentario">&#42;</span> adversarios, pero no saquearon sus bienes. <sup>17</sup> Ocurrió esto el día trece del mes de Adar; y el día catorce descansaron, convirtiéndolo en un día de alegres festines. <sup>18</sup> En cuanto a los judíos de Susa, que se habían reunido los días trece y catorce, descansaron el día quince, convirtiéndolo en un día de alegres festines<span class="note-ref" data-ref="est-9-18" title="Ver comentario">&#42;</span>. <sup>19</sup> Por eso, los judíos diseminados en las ciudades no fortificadas celebran el día catorce del mes de Adar con alegres festines, como día de fiesta, y se intercambian regalos, <sup>19a</sup> mientras que los que habitan en las ciudades celebran su día de gozo y envían regalos a sus vecinos el día quince del mes de Adar.
 
-## V. La fiesta de los Purim
+<span class="section-intro">V. La fiesta de los Purim</span>
+
 ## Institución oficial de la fiesta de los Purim.
 <sup>20</sup> Mardoqueo consignó por escrito todas estas cosas y envió cartas a los judíos de todas las provincias del rey Asuero, tanto lejanos como próximos, <sup>21</sup> ordenándoles que celebraran todos los años el día catorce y el día quince del mes de Adar, <sup>22</sup> porque en tales días obtuvieron los judíos paz frente a sus enemigos, y en este mes la aflicción se trocó en alegría y el llanto en festividad; que los convirtieran en días de alegres festines y mutuos regalos, y de donaciones a los pobres.
 

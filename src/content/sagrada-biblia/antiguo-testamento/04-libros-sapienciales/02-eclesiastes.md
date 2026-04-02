@@ -7,7 +7,8 @@ img: blog-placeholder-4.jpg
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabras de Cohélet<span class="note-ref" data-ref="qo-1-1-a" title="Ver comentario">&#42;</span>, hijo de David, rey de Jerusalén<span class="note-ref" data-ref="qo-1-1-b" title="Ver comentario">&#42;</span>.
 
-## Primera parte
+<span class="section-intro">Primera parte</span>
+
 ## Prólogo<span class="note-ref" data-ref="qo-1-2-a" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> ¡Vanidad de vanidades<span class="note-ref" data-ref="qo-1-2-b" title="Ver comentario">&#42;</span>! —dice Cohélet—, ¡vanidad de vanidades, todo es vanidad! <sup>3</sup> ¿Qué saca el hombre de toda la fatiga<span class="note-ref" data-ref="qo-1-3" title="Ver comentario">&#42;</span> con que se afana bajo el sol? <sup>4</sup> Una generación va, otra generación viene; pero la tierra permanece donde está. <sup>5</sup> Sale el sol, se pone el sol; corre hacia su lugar y de allí vuelve a salir. <sup>6</sup> Sopla hacia el sur el viento y gira al norte; gira que te gira el viento, y vuelve el viento a girar. <sup>7</sup> Todos los ríos van al mar, y el mar nunca se llena; al lugar donde los ríos van, allá vuelven a fluir. <sup>8</sup> Todas las cosas cansan. Nadie puede decir<span class="note-ref" data-ref="qo-1-8" title="Ver comentario">&#42;</span> que no se cansa el ojo de ver ni el oído de oír.
@@ -266,7 +267,8 @@ También esto es vanidad y atrapar vientos.
 
 <sup>12</sup> Porque, ¿quién sabe lo que conviene al hombre en su vida, durante los días contados de su vano vivir, que él los vive como una sombra? Pues ¿quién dirá al hombre lo que sucederá después de él bajo el sol?
 
-## Segunda parte
+<span class="section-intro">Segunda parte</span>
+
 ## Prólogo<span class="note-ref" data-ref="qo-7" title="Ver comentario">&#42;</span>
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Más vale buena fama que suaves perfumes;
 

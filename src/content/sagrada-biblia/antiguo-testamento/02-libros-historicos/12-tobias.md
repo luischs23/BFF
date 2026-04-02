@@ -3,11 +3,11 @@ title: 'Tobías'
 description: 'Libro de Tobías'
 img: blog-placeholder-4.jpg
 ---
-## TOBÍAS<span class="note-ref" data-ref="tb-1" title="Ver comentario">&#42;</span>
+<span class="section-title">TOBÍAS<span class="note-ref" data-ref="tb-1" title="Ver comentario">&#42;</span></span>
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Historia de Tobit<span class="note-ref" data-ref="tb-1-1" title="Ver comentario">&#42;</span>, hijo de Tobiel, hijo de Ananiel, hijo de Aduel, hijo de Gabael, del linaje de Asiel, de la tribu de Neftalí. <sup>2</sup> En tiempo de Salmanasar<span class="note-ref" data-ref="tb-1-2" title="Ver comentario">&#42;</span>, rey de Asiria, fue deportado de Tibé, que queda al sur de Cadés de Neftalí, en la Galilea superior, por encima de Jasor, detrás del camino del oeste y al norte de Sefat.
 
-## I. El deportado
+<span class="section-intro">I. El deportado</span>
 <sup>3</sup> Yo, Tobit, he andado por caminos de verdad y justicia todos los días de mi vida<span class="note-ref" data-ref="tb-1-3" title="Ver comentario">&#42;</span>, y he repartido muchas limosmas entre mis hermanos y compatriotas, deportados conmigo a Nínive, al país de los asirios. <sup>4</sup> Siendo yo joven todavía y estando en mi país, en la tierra de Israel, toda la tribu de mi antepasado Neftalí se apartó de la casa de David y de Jerusalén, la ciudad elegida entre todas las tribus de Israel para ofrecer allí sacrificios, y en la que había sido edificado y consagrado, para todas las generaciones venideras, el Templo de la Morada del Altísimo. <sup>5</sup> Todos mis paisanos y la tribu de mi antepasado Neftalí ofrecían sacrificios al becerro que Jeroboán, rey de Israel, había erigido en Dan, en los montes de Galilea.
 
 <sup>6</sup> Muchas veces era yo el único que iba a Jerusalén, con ocasión de las fiestas, tal como está prescrito para todo Israel por decreto perpetuo. En cuanto cobraba las primicias y las crías primeras, los diezmos de mis bienes y el primer esquileo de mis ovejas, acudía presuroso a Jerusalén <sup>7</sup> y se lo entregaba a los sacerdotes, descendientes de Aarón, para el altar. Daba a los levitas, que hacían el servicio en Jerusalén, el diezmo del vino, del grano, del olivo, de los granados, de los higos y demás frutales; tomaba en metálico el segundo diezmo, de los seis años, y lo gastaba en Jerusalén. <sup>8</sup> Entregaba el tercer diezmo<span class="note-ref" data-ref="tb-1-8" title="Ver comentario">&#42;</span> a los huérfanos, a las viudas y a los prosélitos que vivían con los israelitas; se lo llevaba y entregaba cada tres años, celebrando una comida con ellos conforme a lo que se prescribe en la Ley de Moisés y conforme a los preceptos que me dio Débora, madre de nuestro padre Ananiel, pues mi padre había muerto dejándome huérfano. <sup>9</sup> Una vez llegado a la edad adulta, me casé con Ana, mujer de nuestra parentela; y ella dio a luz a Tobías.
@@ -18,7 +18,7 @@ img: blog-placeholder-4.jpg
 
 <sup>21</sup> Aún no habían transcurrido cuarenta días, cuando Senaquerib fue asesinado por sus dos hijos, que huyeron luego hacia los montes Ararat. Le sucedió su hijo Asaradón. Este rey puso a Ajicar<span class="note-ref" data-ref="tb-1-21" title="Ver comentario">&#42;</span>, hijo de mi hermano Anael, al frente de las finanzas de su reino, de modo que dirigía toda la administración. <sup>22</sup> Ajicar intercedió por mí y pude regresar a Nínive. Ajicar, de hecho, había sido copero mayor, custodio del sello, administrador y encargado de las finanzas bajo Senaquerib, rey de Asiria; y Asaradón le confirmó en los cargos. Era sobrino mío, de mi propia parentela.
 
-## II. El ciego
+<span class="section-intro">II. El ciego</span>
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> En el reinado de Asaradón pude regresar a mi casa y me devolvieron a mi mujer Ana y a mi hijo Tobías. En nuestra solemnidad de Pentecostés, que es la santa solemnidad de las Semanas, me habían preparado una excelente comida y me dispuse a comer. <sup>2</sup> Cuando me presentaron la mesa, con numerosos manjares, dije a mi hijo Tobías: «Hijo, ve a buscar entre nuestros hermanos deportados en Nínive a algún indigente que se acuerde del Señor y tráelo para que coma con nosotros. Te esperaré hasta que vuelvas, hijo mío.» <sup>3</sup> Se fue, pues, Tobías a buscar a alguno de nuestros hermanos pobres, y cuando regresó me dijo: «Padre.» Le respondí: «¿Qué hay, hijo?» Contestó: «Padre, han asesinado a uno de los nuestros; lo han estrangulado y lo han arrojado en la plaza del mercado, y aún está allí.» <sup>4</sup> Me levanté al punto y, sin probar la comida, me llevé el cadáver de la plaza y lo dejé en una habitación, en espera de que se pusiera el sol, para enterrarlo. <sup>5</sup> Volví a entrar, me lavé y comí con aflicción, <sup>6</sup> acordándome de las palabras que el profeta Amós dijo contra Betel:
 
 Convertiré vuestra fiesta en lamento,
@@ -41,7 +41,7 @@ Misericordia y verdad
 
 son todos tus caminos.
 
-## Tú eres el Juez del Universo.
+Tú eres el Juez del Universo.
 
 <sup>3</sup> Y ahora, Señor,
 
@@ -113,7 +113,7 @@ a pasar tanta aflicción durante la vida
 
 y tener que seguir oyendo injurias.
 
-## III. Sarra
+<span class="section-intro">III. Sarra</span>
 <sup>7</sup> Aquel mismo día, también Sarra, hija de Ragüel, el de Ecbátana de Media, fue insultada por una de las esclavas de su padre, <sup>8</sup> porque había sido dada en matrimonio a siete hombres, pero el malvado demonio Asmodeo<span class="note-ref" data-ref="tb-3-8-a" title="Ver comentario">&#42;</span> los había matado antes de que se unieran a ella como esposa. La esclava le decía: «¡Eres tú la que matas a tus maridos! Ya has tenido siete, pero ni de uno siquiera has disfrutado<span class="note-ref" data-ref="tb-3-8-b" title="Ver comentario">&#42;</span>. <sup>9</sup> ¿Nos castigas porque se te mueren los maridos? ¡Vete con ellos y que nunca veamos hijo ni hija tuyos!» <sup>10</sup> Entonces Sarra, con el alma llena de tristeza, se echó a llorar y subió al aposento de su padre con intención de ahorcarse. Pero, reflexionando, pensó: «Acaso esto sirva para que injurien a mi padre y le digan: ‘Tenías una hija única, amada y se ha ahorcado porque se sentía desgraciada.’ No puedo consentir que mi padre, en su ancianidad, baje con tristeza a la mansión de los muertos<span class="note-ref" data-ref="tb-3-10" title="Ver comentario">&#42;</span>. Es mejor que, en vez de ahorcarme, suplique al Señor que me envíe la muerte para no tener que oír injurias durante mi vida.» <sup>11</sup> Y en aquel momento, extendiendo las manos hacia la ventana, oró así:
 
 Bendito seas tú, Dios de misericordias,
@@ -142,7 +142,7 @@ ni el nombre de mi padre
 
 en el país donde estoy cautiva.
 
-## Soy la única hija de mi padre.
+Soy la única hija de mi padre.
 
 No tiene otros hijos que le hereden,
 
@@ -158,11 +158,11 @@ Si no te place, Señor, darme la muerte,
 
 ¡mírame con compasión!
 
-## Que no tenga yo que escuchar injurias<span class="note-ref" data-ref="tb-3-15" title="Ver comentario">&#42;</span>.
+Que no tenga yo que escuchar injurias<span class="note-ref" data-ref="tb-3-15" title="Ver comentario">&#42;</span>.
 
 <sup>16</sup> En aquel instante, fue escuchada en la Gloria de Dios la plegaria de ambos, <sup>17</sup> y fue enviado Rafael<span class="note-ref" data-ref="tb-3-17" title="Ver comentario">&#42;</span> a curar a los dos: a Tobit, para que se le quitaran las manchas blancas de los ojos y pudiera con sus mismos ojos ver la luz de Dios; y a Sarra, la de Ragüel, para entregarla por mujer a Tobías, hijo de Tobit, y librarla de Asmodeo, el demonio malvado. (Es que Tobías tenía más derechos sobre ella que todos cuantos la pretendían.) En aquel mismo momento regresaba Tobit del patio a la casa, y Sarra, la de Ragüel, descendía del aposento.
 
-## IV. Tobías
+<span class="section-intro">IV. Tobías</span>
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Aquel día, se acordó Tobit del dinero que había dejado en depósito a Gabael, en Ragués de Media, <sup>2</sup> y se dijo para sí: «Yo estoy deseando ya morir. Así que voy a llamar a mi hijo Tobías y le voy a hablar de este dinero antes de morirme.» <sup>3</sup> Llamó, pues, Tobit a su hijo, que se presentó ante él. Tobit le dijo:
 
 «Cuando yo muera<span class="note-ref" data-ref="tb-4-3" title="Ver comentario">&#42;</span>, me darás una digna sepultura. Honra a tu madre y no le des un disgusto en todos los días de su vida; haz lo que le agrade y no le causes tristeza por ningún motivo. <sup>4</sup> Acuérdate, hijo, de que ella pasó muchos trabajos por ti cuando te llevaba en su seno. Y cuando ella muera, entiérrala junto a mí, en el mismo sepulcro.
@@ -181,7 +181,7 @@ Si no te place, Señor, darme la muerte,
 
 <sup>20</sup> «También quiero decirte que dejé en depósito a Gabael, hijo de Gabrí, en Ragués de Media, diez talentos de plata. <sup>21</sup> No debes preocuparte, hijo, porque seamos pobres. Muchos bienes posees si temes a Dios, huyes de todo pecado y haces lo que es bueno ante el Señor, tu Dios.»
 
-## V. El compañero
+<span class="section-intro">V. El compañero</span>
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Entonces Tobías respondió a su padre Tobit: «Haré cuanto me has mandado, padre. <sup>2</sup> Pero ¿cómo podré recuperar el depósito? Ni él me conoce a mí ni yo a él. ¿Qué señal debo darle para que me reconozca, me crea y me devuelva el dinero? Por otra parte, desconozco la ruta que conduce a Media.» <sup>3</sup> Tobit respondió a su hijo Tobías: «Él me dio un recibo y yo a él otro; lo partí en dos, tomé una parte<span class="note-ref" data-ref="tb-5-3" title="Ver comentario">&#42;</span> y dejé la otra con el dinero. ¡Ya va para veinte años que deposité esta suma! Ahora, hijo, busca un hombre de confianza que vaya contigo, y lo tomaremos a sueldo hasta tu vuelta; y vete a recuperar ese dinero.»
 
 <sup>4</sup> Salió Tobías a buscar un hombre que conociera la ruta y fuera con él a Media. Al salir, encontró a Rafael, el ángel<span class="note-ref" data-ref="tb-5-4" title="Ver comentario">&#42;</span>, parado ante él; pero no sabía que era un ángel de Dios. <sup>5</sup> Díjole, pues: «¿De dónde eres, joven?» Le respondió: «De los israelitas, tus hermanos, y ando en busca de trabajo.» Díjole Tobías: «¿Conoces la ruta de Media?» <sup>6</sup> Respondió: «Sí; he estado allá muchas veces y conozco al detalle todos los caminos. He ido a Media con frecuencia y he sido huésped de Gabael, nuestro pariente, el que vive en Ragués de Media<span class="note-ref" data-ref="tb-5-6-a" title="Ver comentario">&#42;</span>. Hay dos jornadas de camino entre Ecbátana y Ragués, pues Ragués está en la montaña y Ecbátana en el llano<span class="note-ref" data-ref="tb-5-6-b" title="Ver comentario">&#42;</span>.» <sup>7</sup> Tobías le dijo: «Espérame, joven, que voy a decírselo a mi padre, porque necesito que vengas conmigo; y yo te pagaré tu sueldo.» <sup>8</sup> Él le dijo: «Te espero, pero no tardes.»
@@ -196,7 +196,7 @@ Tobías se dispuso a emprender la marcha y besó a su padre y a su madre. Tobit 
 
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Y ella dejó de llorar.
 
-## VI. El pez
+<span class="section-intro">VI. El pez</span>
 <sup>2</sup> Partió el muchacho en compañía del ángel, y el perro los seguía. Una noche, yendo de camino, acamparon junto al río Tigris. <sup>3</sup> Bajó el muchacho al río a lavarse los pies, cuando saltó del agua un gran pez que quería devorar el pie del muchacho. Éste gritó, <sup>4</sup> pero el ángel le dijo: «¡Agarra el pez y tenlo bien sujeto!» El muchacho se apoderó del pez y lo arrastró a tierra. <sup>5</sup> El ángel añadió: «Abre el pez, sácale la hiel, el corazón y el hígado y guárdatelos, y tira los intestinos; porque su hiel, su corazón y su hígado son remedios útiles.» <sup>6</sup> El joven abrió el pez y tomó la hiel, el corazón y el hígado. Asó parte del pez y lo comió, salando el resto. Luego continuaron juntos su camino, hasta cerca de Media.
 
 <sup>7</sup> Preguntó entonces el muchacho al ángel: «Hermano Azarías, ¿qué remedios hay en el corazón, el hígado y la hiel del pez?» <sup>8</sup> Le respondió: «Si se quema el corazón o el hígado del pez ante un hombre o una mujer atormentados por un demonio o un espíritu malo, el humo ahuyenta todo mal y le hace desaparecer para siempre. <sup>9</sup> En cuanto a la hiel, untando con ella los ojos de un hombre atacado por manchas blancas, y soplando sobre las manchas, queda curado.»
@@ -205,14 +205,14 @@ Tobías se dispuso a emprender la marcha y besó a su padre y a su madre. Tobit 
 
 <sup>14</sup> Tobías respondió a Rafael: «Hermano Azarías, he oído decir que ya ha sido dada a siete maridos y que todos han muerto la noche de bodas; que cuando entraban donde ella, morían. También he oído decir que un demonio los mataba; <sup>15</sup> así que tengo miedo. A ella no le hace ningún daño, porque la ama<span class="note-ref" data-ref="tb-6-15" title="Ver comentario">&#42;</span>; pero al que intenta acercarse a ella, lo mata. Y yo soy hijo único; si muero, haré bajar en tristeza al sepulcro, por mi causa, la vida de mi padre y de mi madre. Ellos no tienen otro hijo que les dé sepultura.» <sup>16</sup> Respondió el ángel<span class="note-ref" data-ref="tb-6-16" title="Ver comentario">&#42;</span>: «¿Has olvidado las recomendaciones de tu padre, que te mandó tomar mujer de entre su parentela? Escúchame bien, hermano: no tengas miedo a ese demonio y tómala; sé bien que esta noche te la darán por mujer. <sup>17</sup> Cuando entres en la cámara nupcial, tomas el corazón del pez y parte del hígado, y lo pones sobre las brasas de los perfumes. Se difundirá el aroma y cuando el demonio lo huela, huirá y nunca aparecerá ya a su lado. <sup>18</sup> Y cuando vayas a unirte a ella, levantaos primero los dos y haced oración y suplicad al Señor del Cielo que se apiade de vosotros y os salve. Y no tengas miedo, porque para ti está destinada desde el principio. Tú la salvarás; ella se vendrá contigo y te aseguro que te dará hijos que serán para ti como hermanos. No te preocupes.» <sup>19</sup> Cuando Tobías oyó las razones de Rafael y que era pariente suya, del linaje de su padre, se enamoró de tal modo que se le apegó el corazón a ella.
 
-## VII. Ragüel
+<span class="section-intro">VII. Ragüel</span>
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Cuando entraron en Ecbátana, dijo Tobías: «Hermano Azarías, guíame en derechura a casa de Ragüel, nuestro hermano.» Lo condujo, pues, a casa de Ragüel y lo encontraron sentado a la puerta del patio. Le saludaron ellos primero, y él les contestó: «Mucha dicha os deseo, hermanos, y en buena salud vengáis.» Los llevó a su casa <sup>2</sup> y dijo a su mujer Edna: «¡Cómo se parece este muchacho a mi hermano Tobit!» <sup>3</sup> Edna les preguntó: «¿De dónde sois, hermanos?» Respondieron: «Somos de la tribu de Neftalí, de los deportados de Nínive.» <sup>4</sup> Les dijo: «¿Conocéis a Tobit, nuestro pariente<span class="note-ref" data-ref="tb-7-4" title="Ver comentario">&#42;</span>?» Ellos contestaron: «Sí, le conocemos.» —«¿Está bien?» —<sup>5</sup> «Vive y está bien.» Y Tobías añadió: «Es mi padre.» <sup>6</sup> Ragüel se puso en pie de un salto, lo besó entre sollozos y le dijo: «¡Bendito seas, hijo! Tienes un padre honrado y bueno. ¡Qué gran desgracia, haberse quedado ciego un hombre tan justo y tan limosnero!» Y echándose al cuello de su pariente Tobías, rompió a llorar. <sup>7</sup> También lloró su mujer Edna y su hija Sarra. <sup>8</sup> Mató luego un carnero del rebaño y los acogió con toda cordialidad.
 
 <sup>9</sup> Después de lavarse y bañarse, se pusieron a comer. Tobías dijo entonces a Rafael: «Hermano Azarías, di a Ragüel que me dé por mujer a mi hermana Sarra.» <sup>10</sup> Al oír Ragüel estas palabras, dijo al joven: «Come, bebe y disfruta esta noche, porque ningún hombre hay, fuera de ti, que tenga derecho a tomar a mi hija Sarra, de modo que ni yo mismo estoy facultado para darla a otro, si no es a ti, que eres mi pariente más próximo. Pero voy a hablarte con franqueza, muchacho. <sup>11</sup> Ya la he dado a siete maridos, de nuestros hermanos, y todos murieron la misma noche que entraron donde ella. Así que, muchacho, ahora come y bebe, y el Señor os dará su gracia y su paz<span class="note-ref" data-ref="tb-7-11-a" title="Ver comentario">&#42;</span>.» Pero Tobías replicó: «No comeré ni beberé hasta que no hayas tomado una decisión acerca de lo que te he pedido.» Ragüel le dijo<span class="note-ref" data-ref="tb-7-11-b" title="Ver comentario">&#42;</span>: «¡Está bien! A ti se te debe dar, según la sentencia del libro de Moisés, y el Cielo decreta que te sea dada. Recibe a tu hermana. A partir de ahora, tú eres su hermano y ella es tu hermana. Tuya es desde hoy por siempre. Que el Señor del Cielo os guíe a buen fin esta noche, hijo, y os dé su gracia y su paz.» <sup>12</sup> Llamó Ragüel a su hija Sarra, y cuando ella se presentó, la tomó de la mano y se la entregó a Tobías, diciendo: «Recíbela, pues se te da por mujer, según la ley y la sentencia escrita en el libro de Moisés. Tómala y llévala con bien a la casa de tu padre. Y que el Dios del Cielo os guíe en paz por el buen camino.» <sup>13</sup> Llamó luego a la madre, mandó traer una hoja de papiro y redactó el contrato matrimonial, con lo cual se la entregó por mujer, conforme a la sentencia de la ley de Moisés.
 
 <sup>14</sup> Y acabado esto, empezaron a comer y beber. <sup>15</sup> Ragüel llamó a su mujer Edna y le dijo: «Hermana, prepara la otra habitación y lleva allí a Sarra.» <sup>16</sup> Ella fue y preparó un lecho en la habitación, tal como se lo había ordenado, y llevó allí a Sarra. La madre lloraba, pero, secándose las lágrimas, le dijo: «Ten confianza, hija; que el Señor del Cielo te dé alegría en vez de esta tristeza. Ten confianza, hija.» Y salió.
 
-## VIII. La tumba
+<span class="section-intro">VIII. La tumba</span>
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> Cuando acabaron de comer y beber, decidieron acostarse y llevaron al joven al aposento.
 
 <sup>2</sup> Recordó Tobías las palabras de Rafael y, tomando el hígado y el corazón del pez de la bolsa donde los tenía, los puso sobre las brasas de los perfumes. <sup>3</sup> El olor del pez expulsó al demonio, que escapó por los aires hacia la región de Egipto<span class="note-ref" data-ref="tb-8-3" title="Ver comentario">&#42;</span>. Fue Rafael a su alcance, lo ató de pies y manos y, en un instante, lo encadenó.
@@ -295,7 +295,7 @@ en alegría y piedad.
 
 <sup>19</sup> Mandó a su mujer cocer una gran hornada. Él, por su parte, fue al establo, tomó dos bueyes y cuatro carneros y ordenó que los aderezaran. Y comenzaron los preparativos. <sup>20</sup> Hizo llamar a Tobías y le dijo: «Durante catorce días no te moverás de aquí; te quedarás conmigo comiendo y bebiendo y llenarás de gozo el corazón de mi hija por sus tristezas pasadas. <sup>21</sup> Luego, tomarás la mitad de todo cuanto aquí poseo y volverás feliz a casa de tu padre<span class="note-ref" data-ref="tb-8-21" title="Ver comentario">&#42;</span>. Cuando mi mujer y yo hayamos muerto, también será para vosotros la otra mitad. Ten confianza, hijo; yo soy tu padre y Edna tu madre; estaremos junto a ti y junto a tu hermana desde ahora en adelante. Ten confianza, hijo.»
 
-## IX. La boda
+<span class="section-intro">IX. La boda</span>
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Entonces Tobías llamó a Rafael y le dijo: <sup>2</sup> «Hermano Azarías, toma contigo cuatro criados y dos camellos y vete a Ragués. <sup>3</sup> Dirígete a Gabael, dale el recibo y hazte cargo del dinero. Invítale también a que se venga contigo a la boda. <sup>4</sup> Tú sabes que mi padre lleva cuenta de los días y, si me demoro uno solo, le daré un gran disgusto. <sup>5</sup> Ya ves que Ragüel me ha conjurado, y que no puedo desatender su deseo.» Rafael se puso en camino para Ragués de Media con los cuatro criados y los dos camellos, y fueron a pernoctar en casa de Gabael. Le presentó el recibo y le dio la noticia de que Tobías, hijo de Tobit, se había prometido y le invitaba a la boda. Gabael fue y le entregó todos los sacos de dinero, con los sellos intactos, y los cargaron sobre los camellos<span class="note-ref" data-ref="tb-9-5" title="Ver comentario">&#42;</span>. <sup>6</sup> Se levantaron de madrugada y partieron juntos para la boda. Llegados a casa de Ragüel, encontraron a Tobías puesto a la mesa. Y como se levantara a toda prisa para saludarle, Gabael rompió a llorar y le bendijo con estas palabras: «¡Hombre bueno y honrado, hijo de un hombre honrado y bueno, justo y limosnero! Que el Señor te conceda las bendiciones del cielo a ti, a tu mujer, al padre y a la madre<span class="note-ref" data-ref="tb-9-6-a" title="Ver comentario">&#42;</span> de tu mujer. ¡Bendito sea Dios, que me ha permitido ver un vivo retrato de mi primo Tobit<span class="note-ref" data-ref="tb-9-6-b" title="Ver comentario">&#42;</span>!»
 
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Tobit, mientras tanto, llevaba cuenta, uno por uno, de los días de ida y vuelta. Cuando se cumplió el plazo sin que el hijo hubiera regresado, <sup>2</sup> pensó: «¿Habrá algo que lo retenga allí? ¡Es posible que haya muerto Gabael y que no haya nadie que le entregue el dinero!» <sup>3</sup> Y empezó a ponerse triste. <sup>4</sup> Ana, su mujer, decía: «Mi hijo ha muerto y ya no se cuenta entre los vivos.» Y rompió a llorar y a lamentarse por su hijo: <sup>5</sup> «¡Ay de mí, hijo mío! ¡Por qué te dejaría marchar, luz de mis ojos!» <sup>6</sup> Tobit le dijo: «Calla, hermana, no pienses eso. Él está bien. Habrán tenido algún contratiempo allí, pero su compañero es hombre de fiar y uno de los nuestros; no te inquietes por él, que debe de estar cerca.» <sup>7</sup> Ella le replicó: «Déjame, no intentes engañarme. Mi hijo ha muerto.» Y todos los días se iba a mirar el camino por donde su hijo había marchado. No creía a nadie. Y cuando se ponía el sol, entraba en casa y pasaba las noches gimiendo y llorando, sin poder dormir.
@@ -306,7 +306,7 @@ en alegría y piedad.
 
 <sup>14</sup> Tobías salió de casa de Ragüel contento y gozoso, y bendiciendo al Señor del Cielo y de la tierra, rey de todas las cosas, porque había llevado a buen término su viaje. Bendijo a Ragüel y a su mujer Edna y les dijo: «Que pueda yo honraros todos los días de mi vida<span class="note-ref" data-ref="tb-10-14" title="Ver comentario">&#42;</span>.»
 
-## X. La curación
+<span class="section-intro">X. La curación</span>
 <span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Cuando llegaron cerca de Caserín, que está frente a Nínive, <sup>2</sup> dijo Rafael: «Tú sabes bien en qué situación dejamos a tu padre; <sup>3</sup> vamos a adelantarnos nosotros a tu mujer para preparar la casa, mientras llegan los demás.» <sup>4</sup> Prosiguieron, pues, los dos juntos. El ángel le dijo: «Toma contigo la hiel.» El perro seguía detrás de ellos<span class="note-ref" data-ref="tb-11-4" title="Ver comentario">&#42;</span>.
 
 <sup>5</sup> Estaba Ana sentada, con la mirada fija en el camino de su hijo. <sup>6</sup> Tuvo la corazonada de que él venía y dijo al padre: «Mira, ya viene tu hijo y el hombre que lo acompañaba.»
@@ -335,7 +335,7 @@ Tobías entró en casa lleno de gozo y bendiciendo a Dios con toda su voz<span c
 
 <sup>16</sup> Tobit salió al encuentro de su nuera hasta las puertas de Nínive, bendiciendo a Dios, lleno de gozo. Cuando los de Nínive lo vieron caminar, avanzando con su antigua firmeza, sin necesidad de lazarillo, se maravillaron. Tobit proclamó delante de ellos que Dios se había compadecido de él y le había abierto los ojos. <sup>17</sup> Se acercó Tobit a Sarra, la mujer de su hijo, y la bendijo diciendo: «¡Bienvenida seas, hija! Y bendito sea tu Dios, hija, que te ha traído hasta nosotros. Bendito sea tu padre, y bendito Tobías, mi hijo, y bendita tú misma, hija. Bienvenida seas, entra en tu casa con gozo y bendición.» <sup>18</sup> Todos los judíos de Nínive celebraron fiesta aquel día. <sup>19</sup> También Ajicar y Nabad, primos de Tobit, vinieron a darle la enhorabuena<span class="note-ref" data-ref="tb-11-19" title="Ver comentario">&#42;</span>.
 
-## XI. Rafael
+<span class="section-intro">XI. Rafael</span>
 <span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Acabados los días de la boda, llamó Tobit a su hijo Tobías y le dijo: «Hijo, ya es tiempo de pagar el salario al hombre que te acompañó. Y añádele una gratificación.» <sup>2</sup> Respondió Tobías: «Padre, ¿qué salario puedo darle? Aun entregándole la mitad de la hacienda que traje contigo, no salgo perdiendo. <sup>3</sup> Me ha guiado incólume, ha cuidado de mi mujer, me ha traído el dinero y te ha curado a ti. ¿Qué salario voy a darle?» <sup>4</sup> Díjole Tobit: «Hijo, bien merece que tome la mitad de cuanto trajo.» <sup>5</sup> Lo llamó, pues, Tobías y le dijo: «Toma como salario la mitad de todo lo que has traído y vete en paz.»
 
 <sup>6</sup> Entonces Rafael llevó aparte a los dos y les dijo: «Bendecid a Dios y proclamad ante todos los vivientes los bienes que os ha concedido, para bendecir y cantar su Nombre. Manifestad a todos los hombres las acciones de Dios, dignas de honra, y no seáis remisos en confesarle. <sup>7</sup> Bueno es mantener oculto el secreto del rey, pero también es bueno proclamar y publicar las obras gloriosas de Dios. Practicad el bien y no tropezaréis con el mal.
@@ -346,7 +346,7 @@ Tobías entró en casa lleno de gozo y bendiciendo a Dios con toda su voz<span c
 
 <sup>16</sup> Se turbaron ambos y cayeron sobre sus rostros, llenos de terror. <sup>17</sup> Él les dijo: «No temáis. La paz sea con vosotros. Bendecid a Dios por siempre. <sup>18</sup> Si he estado con vosotros no ha sido por pura benevolencia mía hacia vosotros, sino por voluntad de Dios. A él debéis bendecir por todos los días, a él debéis cantar. <sup>19</sup> Os ha parecido que yo comía, pero sólo era apariencia<span class="note-ref" data-ref="tb-12-19" title="Ver comentario">&#42;</span>. <sup>20</sup> Y ahora bendecid al Señor sobre la tierra y confesad a Dios. Mirad, yo subo al que me ha enviado. Poned por escrito todo cuanto os ha sucedido.» Y se elevó. <sup>21</sup> Ellos se levantaron, pero ya no lo vieron más. Alabaron a Dios y entonaron himnos, dándole gracias por aquella gran maravilla, pues se les había aparecido un ángel de Dios.
 
-##  XII. Sión
+<span class="section-intro"> XII. Sión</span>
 <span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Y dijo<span class="note-ref" data-ref="tb-13-1" title="Ver comentario">&#42;</span>:
 
 ¡Bendito sea Dios,
@@ -415,7 +415,7 @@ a gente pecadora.
 
 ¡Volved, pecadores!
 
-## Practicad la justica en su presencia.
+Practicad la justica en su presencia.
 
 ¡Quién sabe si os amará
 
@@ -563,7 +563,7 @@ por todos los siglos de los siglos.
 
 <span id="chapter-14" class="chapter-marker" data-chapter="14">14</span><sup>1</sup> Aquí acabaron las palabras de acción de gracias de Tobit.
 
-## XIII. Nínive
+<span class="section-intro">XIII. Nínive</span>
 Tobit murió en paz a la edad de ciento doce años y recibió honrosa sepultura en Nínive. <sup>2</sup> Tenía sesenta y dos años cuando perdió la vista; y, después de recuperarla, vivió feliz, practicando la limosna, bendiciendo siempre a Dios y proclamando sus grandezas. <sup>3</sup> Cercana ya su muerte, llamó a su hijo Tobías y le recomendó: «Hijo mío, toma tus hijos <sup>4</sup> y vete a Media, porque yo creo en la profecía que pronunció Dios por Nahúm<span class="note-ref" data-ref="tb-14-4-a" title="Ver comentario">&#42;</span> sobre Nínive. Todo cuanto los profetas de Israel, enviados por Dios, anunciaron sobre Asur y Nínive, todo vendrá y se realizará. Todo tendrá cumplimiento. No se rebajará ni una sola de sus palabras. Todo llegará a su tiempo<span class="note-ref" data-ref="tb-14-4-b" title="Ver comentario">&#42;</span>. Habrá más seguridad en Media que en Asiria y Babilonia, porque sé y creo que cuanto ha dicho Dios se cumplirá, sucederá y no fallará ni una de sus palabras.
 
 «Todos nuestros hermanos que habitan en la tierra de Israel serán numerados y deportados de aquella tierra venturosa. Todo el país de Israel quedará desierto. Un desierto serán Jerusalén y Samaría. La Casa de Dios quedará desolada y quemada durante algún tiempo. <sup>5</sup> Pero Dios tendrá una vez más compasión de ellos y los volverá a la tierra de Israel; construirán de nuevo la Casa, aunque no como la primera, hasta que se cumplan los tiempos. Entonces volverán todos del destierro, edificarán una Jerusalén maravillosa y construirán en ella la Casa de Dios, como lo anunciaron los profetas de Israel. <sup>6</sup> Todas las naciones del universo se volverán sinceramente a Dios y le respetarán; abandonarán los ídolos que los extraviaron con la falsedad de sus errores <sup>7</sup> y bendecirán al Dios de los siglos en justicia. Todos los israelitas salvados aquellos días se acordarán sinceramente de Dios, se reunirán e irán a Jerusalén, y les será dada la tierra de Abrahán, que ellos habitarán por siempre y en seguridad. Y los que aman sinceramente a Dios se alegrarán. Pero los que cometen pecados e injusticias desaparecerán de toda la tierra.

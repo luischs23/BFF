@@ -4,7 +4,8 @@ description: 'Libro de las Lamentaciones'
 img: blog-placeholder-4.jpg
 ---
 # LAMENTACIONES
-## Primera lamentación<span class="note-ref" data-ref="lm-1" title="Ver comentario">&#42;</span>
+<span class="section-intro">Primera lamentación<span class="note-ref" data-ref="lm-1" title="Ver comentario">&#42;</span></span>
+
 ## Álef.
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> ¡Qué solitaria se encuentra
@@ -313,7 +314,8 @@ Que estoy harta de gemir
 
 y languidece mi corazón.
 
-## Segunda lamentación<span class="note-ref" data-ref="lm-2" title="Ver comentario">&#42;</span>
+<span class="section-intro">Segunda lamentación<span class="note-ref" data-ref="lm-2" title="Ver comentario">&#42;</span></span>
+
 ## Álef.
 
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> ¡Cómo ha nublado en su cólera,
@@ -626,7 +628,8 @@ Los que yo había criado y mantenido
 
 fueron exterminados por mi enemigo.
 
-## Tercera lamentación<span class="note-ref" data-ref="lm-3" title="Ver comentario">&#42;</span>
+<span class="section-intro">Tercera lamentación<span class="note-ref" data-ref="lm-3" title="Ver comentario">&#42;</span></span>
+
 ## Álef.
 
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Soy el hombre que ha visto la aflicción
@@ -859,7 +862,7 @@ ya no habrá alivio
 
 <sup>50</sup> hasta que mire y vea
 
-## Yahvé desde los cielos.
+Yahvé desde los cielos.
 
 <sup>51</sup> Me duelen los ojos de llorar
 
@@ -935,7 +938,8 @@ según la obra de sus manos.
 
 de debajo de tus cielos<span class="note-ref" data-ref="lm-3-66" title="Ver comentario">&#42;</span>!
 
-## Cuarta lamentación
+<span class="section-intro">Cuarta lamentación</span>
+
 ## Álef.
 
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> ¡Qué deslucido quedó el oro,
@@ -1156,7 +1160,8 @@ ya no volverá a desterrarte!
 
 pondrá al desnudo tus pecados!
 
-## Quinta lamentación<span class="note-ref" data-ref="lm-5" title="Ver comentario">&#42;</span>
+<span class="section-intro">Quinta lamentación<span class="note-ref" data-ref="lm-5" title="Ver comentario">&#42;</span></span>
+
 ## Álef.
 
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> ¡Recuerda, Yahvé, lo que hemos pasado,

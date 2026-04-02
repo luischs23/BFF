@@ -4,7 +4,7 @@ description: 'Libro del Eclesiástico (Sirácida)'
 img: blog-placeholder-4.jpg
 ---
 # ECLESIÁSTICO
-## Prólogo del traductor<span class="note-ref" data-ref="siprol" title="Ver comentario">&#42;</span>
+<span class="section-intro">Prólogo del traductor<span class="note-ref" data-ref="siprol" title="Ver comentario">&#42;</span></span>
 <sup>1</sup> La ley, los profetas y los escritos<span class="note-ref" data-ref="siprol-1" title="Ver comentario">&#42;</span> que les siguieron <sup>2</sup> nos han transmitido muchas e importantes lecciones, <sup>3</sup> que hacen a Israel digno de elogio por su instrucción y sabiduría.
 
 <sup>4</sup> Ahora bien, no basta con que los lectores se hagan sabios; <sup>5</sup> es necesario también que, como expertos, puedan ayudar a los de fuera, <sup>6</sup> tanto de palabra como por escrito. <sup>7</sup> Por eso, mi abuelo Jesús, después de haberse dedicado intensamente a la lectura <sup>8</sup> de la Ley, <sup>9</sup> los Profetas <sup>10</sup> y los otros escritos de los antepasados, <sup>11</sup> y de haber adquirido un gran dominio sobre ellos, <sup>12</sup> se propuso escribir sobre cuestiones de instrucción y sabiduría. <sup>13</sup> Su objetivo era que los deseosos de aprender aceptaran sus enseñanzas <sup>14</sup> y pudieran progresar, llevando una vida más acorde con la Ley.
@@ -15,7 +15,8 @@ img: blog-placeholder-4.jpg
 
 <sup>31</sup> He dedicado muchas horas de vigilia y trabajo <sup>32</sup> durante este período, <sup>33</sup> hasta poder terminar y publicar el libro, <sup>34</sup> para uso de aquellos que, viviendo en el extranjero, desean aprender y reformar sus costumbres <sup>35</sup> para vivir conforme a la Ley.
 
-## I. El camino hacia la sabiduría
+<span class="section-intro">I. El camino hacia la sabiduría</span>
+
 ## Origen divino de la sabiduría<span class="note-ref" data-ref="si-1" title="Ver comentario">&#42;</span>.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Toda sabiduría viene del Señor<span class="note-ref" data-ref="si-1-1" title="Ver comentario">&#42;</span>,
 
@@ -320,6 +321,7 @@ pues la planta del mal ha echado en él sus raíces.
 un oído atento es el anhelo del sabio.
 
 ## Caridad para con los pobres.
+<span class="parallel-ref">Dt <strong>15</strong> 7-11; Si <strong>29</strong> 8-13; <strong>7</strong> 32-36.</span>
 <sup>30</sup> El agua apaga el fuego ardiente,
 
 la limosma perdona los pecados.
@@ -557,6 +559,7 @@ y te quedes como un tronco seco.
 y lo convierten en el hazmerreír del enemigo.
 
 ## La amistad.
+<span class="parallel-ref">Ver <strong>37</strong> 1-6.</span>
 <sup>5</sup> Las palabras amables multiplican los amigos,
 
 la lengua afable multiplica los saludos.
@@ -833,6 +836,7 @@ el sacrificio de santificación
 y las primicias de las cosas santas.
 
 ## Los pobres y afligidos.
+<span class="parallel-ref"><strong>3</strong> 30 - 4 10; <strong>29</strong> 8-13.</span>
 <sup>32</sup> Tiende también tu mano al pobre,
 
 para que tu bendición<span class="note-ref" data-ref="si-7-32" title="Ver comentario">&#42;</span> sea completa.
@@ -1331,6 +1335,7 @@ y podría deshonrarte para siempre.
 te hará sentir extraño con tu propia familia.
 
 ## Los favores.
+<span class="parallel-ref">Mt <strong>5</strong> 43-48; Lc <strong>14</strong> 12-14.</span>
 <span id="chapter-12" class="chapter-marker" data-chapter="12">12</span><sup>1</sup> Si haces el bien, mira a quién,
 
 y tus favores serán recompensados.
@@ -1368,6 +1373,7 @@ y dará a los malvados el castigo que merecen.
 pero no ayudes al pecador.
 
 ## Verdaderos y falsos amigos.
+<span class="parallel-ref">Ver <strong>6</strong> 5-17.</span>
 <sup>8</sup> No se conoce al amigo en la prosperidad,
 
 ni se oculta el enemigo en la adversidad.
@@ -1564,6 +1570,7 @@ ni sufre remordimientos por sus pecados.
 ni ha perdido la esperanza.
 
 ## El uso de las riquezas.
+<span class="parallel-ref">Qo <strong>5</strong> 9; <strong>6</strong> 2.</span>
 <sup>3</sup> No es buena la riqueza para el tacaño,
 
 y al envidioso, ¿de qué le sirve el dinero?
@@ -2736,7 +2743,7 @@ la oscuridad me envuelve, las paredes me encubren,
 
 nadie me ve, ¿qué he de temer?
 
-## El Altísimo no se acordará de mis pecados».
+El Altísimo no se acordará de mis pecados».
 
 <sup>19</sup> Sólo teme los ojos de los hombres;
 
@@ -2757,6 +2764,7 @@ y, después de acabadas, todavía las conoce<span class="note-ref" data-ref="si-
 será detenido donde menos lo esperaba.
 
 ## La adúltera.
+<span class="parallel-ref">Pr <strong>2</strong> 16; <strong>5</strong> 2-20; <strong>6</strong> 24-35; <strong>7</strong> 5.</span>
 <sup>22</sup> Lo mismo la mujer que ha sido infiel a su marido
 
 y le ha dado como heredero el hijo de otro hombre.
@@ -2788,6 +2796,7 @@ que nada es mejor que el temor del Señor,
 nada más dulce que guardar sus mandamientos<span class="note-ref" data-ref="si-23-27" title="Ver comentario">&#42;</span>.
 
 ## Elogio de la Sabiduría <span class="note-ref" data-ref="si-24" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Pr <strong>1</strong> 20-33; <strong>8</strong> 1-36; <strong>9</strong> 1-6; Jb <strong>28</strong>; Ba <strong>3</strong> 9-4 4.</span>
 <span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> La sabiduría hace su propio elogio,
 
 se vanagloria en medio de su pueblo.
@@ -3150,7 +3159,7 @@ hombres inteligentes tratados con desprecio
 
 y quien se pasa de la justicia al pecado.
 
-## A éste el Señor lo destina a la espada.
+A éste el Señor lo destina a la espada.
 
 ## El negocio.
 <sup>29</sup> Difícilmente está libre de culpa el negociante;
@@ -3341,7 +3350,7 @@ disputa precipitada hace verter sangre.
 
 si le escupes encima, se apagará.
 
-## Y ambas cosas salen de tu boca.
+Y ambas cosas salen de tu boca.
 
 ## Las malas lenguas.
 <sup>13</sup> Maldice al mentiroso que pasa el soplo,
@@ -3456,6 +3465,7 @@ y, en lugar de honor, le devolverá desprecio.
 sino por miedo a que les despojen sin razón.
 
 ## La limosna.
+<span class="parallel-ref"><strong>3</strong> 30-4 10; <strong>7</strong> 32-36; Tb <strong>12</strong> 8-9; Mt <strong>6</strong> 19-21; <strong>19</strong> 21.</span>
 <sup>8</sup> En cambio, sé generoso con el humilde,
 
 y no le hagas esperar por tu limosna.
@@ -3543,6 +3553,7 @@ mi hermano viene a hospedarse y necesito la casa.»
 reproches del casero e insultos del prestamista.
 
 ## La educación.
+<span class="parallel-ref">Pr <strong>13</strong> 24; <strong>23</strong> 13.14; <strong>29</strong> 15.</span>
 <span id="chapter-30" class="chapter-marker" data-chapter="30">30</span><sup>1</sup> El que ama a su hijo le castiga sin cesar,
 
 para poder alegrarse en el futuro.
@@ -3624,7 +3635,7 @@ las ofrendas depositadas sobre una tumba<span class="note-ref" data-ref="si-30-1
 
 ¡No la puede comer ni beber!
 
-## Así sucede a quien persigue el Señor<span class="note-ref" data-ref="si-30-19" title="Ver comentario">&#42;</span>:
+Así sucede a quien persigue el Señor<span class="note-ref" data-ref="si-30-19" title="Ver comentario">&#42;</span>:
 
 <sup>20</sup> mira con sus ojos y suspira,
 
@@ -3694,7 +3705,7 @@ pues ha hecho maravillas en su pueblo.
 
 <sup>10</sup> ¿Quién sufrió esta prueba y siguió siendo íntegro?
 
-## Será para él motivo de gloria.
+Será para él motivo de gloria.
 
 ¿Quién pudo transgredir la ley y no la transgredió,
 
@@ -3705,6 +3716,7 @@ hacer mal y no lo hizo?
 y la asamblea proclamará su bondad<span class="note-ref" data-ref="si-31-11" title="Ver comentario">&#42;</span>.
 
 ## Los banquetes.
+<span class="parallel-ref">Pr <strong>23</strong> 1-3; 6-8.</span>
 <sup>12</sup> ¿Te has sentado en una mesa opulenta?
 
 No abras la boca de par en par,
@@ -3770,6 +3782,7 @@ y la fama de su generosidad es duradera.
 y la fama de su tacañería es duradera.
 
 ## El vino.
+<span class="parallel-ref">Pr <strong>20</strong> 1; <strong>23</strong> 20-21.29-35; <strong>31</strong> 4-7; Is <strong>5</strong> 22; <strong>28</strong> 1-4.</span>
 <sup>25</sup> Con el vino no te hagas el valiente,
 
 porque a muchos ha perdido el vino.
@@ -4379,6 +4392,7 @@ que va saltando de ciudad en ciudad?
 que se cobija donde la noche le sorprende.
 
 ## Falsos amigos.
+<span class="parallel-ref">Ver <strong>6</strong> 5-17.</span>
 <span id="chapter-37" class="chapter-marker" data-chapter="37">37</span><sup>1</sup> Todo amigo dice: «También yo soy tu amigo»,
 
 pero hay amigo que lo es sólo de nombre.
@@ -4815,7 +4829,7 @@ todas sus órdenes se cumplen a su tiempo.
 
 No hay por qué decir: ¿Qué es esto? Y esto ¿para qué sirve?
 
-## Todo se indagará a su tiempo<span class="note-ref" data-ref="si-39-16" title="Ver comentario">&#42;</span>.
+Todo se indagará a su tiempo<span class="note-ref" data-ref="si-39-16" title="Ver comentario">&#42;</span>.
 
 <sup>17</sup> A su palabra el agua se detuvo como una masa,
 
@@ -5250,8 +5264,9 @@ y de la mujer la malicia femenina.
 
 la mujer acarrea vergüenza y deshonra<span class="note-ref" data-ref="si-42-14" title="Ver comentario">&#42;</span>.
 
-## II. La sabiduría en la naturaleza y en la historia
-## 1. EN LA NATURALEZA
+<span class="section-intro">II. La sabiduría en la naturaleza y en la historia</span>
+
+## <span class="subsection-title">1. EN LA NATURALEZA</span>
 <sup>15</sup> Voy a recordar las obras del Señor,
 
 contaré todo lo que he visto.
@@ -5298,7 +5313,7 @@ y no necesita de ningún consejero.
 
 <sup>22</sup> ¡Qué admirables son todas sus obras!
 
-## Y lo que contemplamos es apenas un destello.
+Y lo que contemplamos es apenas un destello.
 
 <sup>23</sup> Todas viven y permanecen eternamente,
 
@@ -5364,6 +5379,7 @@ radiante ornamento en las alturas del Señor.
 y no abandonan su puesto de guardia.
 
 ## El arco iris.
+<span class="parallel-ref">Gn <strong>9</strong> 13; Ez <strong>1</strong> 28; Si <strong>50</strong> 7.</span>
 <sup>11</sup> Mira el arco iris y bendice a su Hacedor;
 
 ¡qué maravilloso esplendor!
@@ -5373,6 +5389,7 @@ y no abandonan su puesto de guardia.
 tendido por las manos del Altísimo.
 
 ## Maravillas de la naturaleza.
+<span class="parallel-ref">Sal <strong>147</strong> 16-18; Jb <strong>38</strong> 22s.</span>
 <sup>13</sup> Con una orden suya hace caer la nieve;
 
 según su decreto fulmina los rayos.
@@ -5469,7 +5486,8 @@ pues nosotros hemos visto sólo una parte de sus obras.
 
 y a los piadosos les ha dado la sabiduría.
 
-## 2. EN LA HISTORIA
+## <span class="subsection-title">2. EN LA HISTORIA</span>
+<span class="parallel-ref">1 M <strong>2</strong> 51-64; Hb <strong>11</strong>.</span>
 ## Elogio de los antepasados <span class="note-ref" data-ref="si-44" title="Ver comentario">&#42;</span>.
 <span id="chapter-44" class="chapter-marker" data-chapter="44">44</span><sup>1</sup> Hagamos el elogio de los hombres ilustres<span class="note-ref" data-ref="si-44-1" title="Ver comentario">&#42;</span>,
 
@@ -5542,6 +5560,7 @@ y su nombre vive por generaciones.
 y la asamblea proclamará su alabanza.
 
 ## Henoc.
+<span class="parallel-ref">Gn <strong>5</strong> 24; Hb <strong>11</strong> 5.</span>
 <sup>16</sup> Henoc, que agradó al Señor y fue arrebatado,
 
 es ejemplo de conversión<span class="note-ref" data-ref="si-44-16" title="Ver comentario">&#42;</span> para todas las generaciones.
@@ -5585,6 +5604,7 @@ y darle una herencia de mar a mar,
 desde el Río hasta los confines de la tierra.
 
 ## Isaac y Jacob.
+<span class="parallel-ref">Gn <strong>17</strong> 19; <strong>26</strong> 3-5.</span>
 <sup>22</sup> A Isaac le aseguró lo mismo,
 
 por amor de su padre Abrahán.
@@ -5608,7 +5628,7 @@ que gozó del favor de todos<span class="note-ref" data-ref="si-45-1" title="Ver
 
 amado de Dios y de los hombres:
 
-## Moisés, de bendita memoria.
+Moisés, de bendita memoria.
 
 <sup>2</sup> Le dio gloria como a los santos,
 
@@ -5764,6 +5784,7 @@ ni parte en el pueblo,
 porque: «Yo soy tu parte y tu heredad».
 
 ## Pinjás.
+<span class="parallel-ref">Nm <strong>25</strong> 7-13.</span>
 <sup>23</sup> Pinjás, hijo de Eleazar, es el tercero en gloria,
 
 porque se mostró fiel en el temor del Señor.
@@ -5888,6 +5909,7 @@ y sus nombres se renueven
 en los hijos de estos hombres ilustres!
 
 ## Samuel.
+<span class="parallel-ref">1 S <strong>10</strong> 1; <strong>16</strong> 13; <strong>7</strong> 9-13; 12; <strong>28</strong> 6-25.</span>
 <sup>13</sup> Samuel fue amado de su Señor;
 
 como profeta del Señor estableció la monarquía,
@@ -5935,6 +5957,7 @@ del seno de la tierra alzó su voz de profeta,
 para borrar la iniquidad del pueblo.
 
 ## Natán.
+<span class="parallel-ref">2 S <strong>7</strong>; 12.</span>
 <span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> Después de él surgió Natán,
 
 que profetizó en tiempos de David.
@@ -6076,7 +6099,7 @@ dejó en el trono a uno de su linaje,
 
 lo más loco del pueblo, falto de inteligencia<span class="note-ref" data-ref="si-47-23" title="Ver comentario">&#42;</span>:
 
-## Roboán, que alienó al pueblo con sus decisiones.
+Roboán, que alienó al pueblo con sus decisiones.
 
 ## Jeroboán.
 <sup>24</sup> También Jeroboán, hijo de Nabat, hizo pecar a Israel,
@@ -6092,6 +6115,7 @@ que fueron expulsados de su tierra.
 hasta que el castigo cayó sobre ellos.
 
 ## Elías.
+<span class="parallel-ref">1 R 17-19</span>
 <span id="chapter-48" class="chapter-marker" data-chapter="48">48</span><sup>1</sup> Entonces surgió el profeta Elías como un fuego:
 
 su palabra quemaba como antorcha.
@@ -6143,9 +6167,10 @@ y se durmieron en el amor,
 porque también nosotros viviremos<span class="note-ref" data-ref="si-48-11" title="Ver comentario">&#42;</span>.
 
 ## Eliseo.
+<span class="parallel-ref">2 R <strong>2</strong> 9-12; <strong>13</strong> 21.</span>
 <sup>12</sup> Cuando Elías fue arrebatado en el torbellino,
 
-## Eliseo se llenó de su espíritu.
+Eliseo se llenó de su espíritu.
 
 Durante su vida ningún príncipe lo hizo temblar,
 
@@ -6231,6 +6256,7 @@ y consoló a los afligidos de Sión.
 y las cosas ocultas antes que sucedieran<span class="note-ref" data-ref="si-48-25" title="Ver comentario">&#42;</span>.
 
 ## Josías.
+<span class="parallel-ref">2 R 22-23</span>
 <span id="chapter-49" class="chapter-marker" data-chapter="49">49</span><sup>1</sup> El recuerdo de Josías es una mezcla de incienso
 
 preparada por el arte del perfumista.
@@ -6289,6 +6315,7 @@ porque ellos consolaron a Jacob
 y lo salvaron con esperanza confiada.
 
 ## Zorobabel y Josué.
+<span class="parallel-ref">Za <strong>3</strong> 1; <strong>4</strong> 6-12.</span>
 <sup>11</sup> ¿Cómo elogiaremos a Zorobabel?
 
 ¡Es como un anillo en la mano derecha,

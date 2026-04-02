@@ -4,8 +4,9 @@ description: 'Libro del Profeta Isaías'
 img: blog-placeholder-4.jpg
 ---
 # ISAÍAS
-## I. Primera parte del libro de Isaías
-## 1. ORÁCULOS ANTERIORES A LA GUERRA SIRO-EFRAINITA
+<span class="section-intro">I. Primera parte del libro de Isaías</span>
+
+## <span class="subsection-title">1. ORÁCULOS ANTERIORES A LA GUERRA SIRO-EFRAINITA</span>
 ## Título<span class="note-ref" data-ref="is-1" title="Ver comentario">&#42;</span>.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Visión que tuvo Isaías, hijo de Amós, tocante a Judá y Jerusalén en tiempo de Ozías, Jotán, Ajaz y Ezequías, reyes de Judá.
 
@@ -138,7 +139,7 @@ aunque menudeéis la plegaria,
 
 no pienso oírla.
 
-## Vuestras manos están llenas de sangre<span class="note-ref" data-ref="is-1-15" title="Ver comentario">&#42;</span>:
+Vuestras manos están llenas de sangre<span class="note-ref" data-ref="is-1-15" title="Ver comentario">&#42;</span>:
 
 <sup>16</sup> lavaos, purificaos,
 
@@ -178,7 +179,7 @@ lo bueno de la tierra comeréis;
 
 por la espada seréis devorados<span class="note-ref" data-ref="is-1-20" title="Ver comentario">&#42;</span>.
 
-## Ha hablado la boca de Yahvé.
+Ha hablado la boca de Yahvé.
 
 ## Lamentación por Jerusalén<span class="note-ref" data-ref="is-1-21-a" title="Ver comentario">&#42;</span>.
 <sup>21</sup> ¡Cómo se ha prostituido
@@ -229,7 +230,7 @@ y a tus consejeros como al principio.
 
 Tras de lo cual te llamarán
 
-## Ciudad de Justicia, Villa-leal<span class="note-ref" data-ref="is-1-26" title="Ver comentario">&#42;</span>.
+Ciudad de Justicia, Villa-leal<span class="note-ref" data-ref="is-1-26" title="Ver comentario">&#42;</span>.
 
 <sup>27</sup> Rescataré a Sión con la equidad,
 
@@ -649,6 +650,11 @@ para servir de abrigo y reparo
 contra el aguacero y la lluvia.
 
 ## Canción de la viña <span class="note-ref" data-ref="is-5" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Os <strong>10</strong> 1; Jr <strong>2</strong> 21; <strong>5</strong> 10; <strong>6</strong> 9; <strong>12</strong> 10;</span>
+<span class="parallel-ref">Ez <strong>15</strong> 1-8; <strong>17</strong> 3-0; <strong>19</strong> 10-14;</span>
+<span class="parallel-ref">Sal <strong>80</strong> 9-19; Is <strong>27</strong> 2-5;</span>
+<span class="parallel-ref">↗Mt <strong>21</strong> 33-44+; ↗Mt <strong>21</strong> 18-19+;</span>
+<span class="parallel-ref">Jn <strong>15</strong> 1-2+.</span>
 <span id="chapter-5" class="chapter-marker" data-chapter="5">5</span><sup>1</sup> Voy a cantar a mi amigo
 
 la canción de su amor<span class="note-ref" data-ref="is-5-1" title="Ver comentario">&#42;</span> por su viña.
@@ -679,7 +685,7 @@ venid a juzgar entre mi viña y yo:
 
 que no se lo haya hecho yo?
 
-## Yo esperaba que diese uvas.
+Yo esperaba que diese uvas.
 
 ¿Por qué ha dado agraces?
 
@@ -718,6 +724,9 @@ esperaba de ellos honradez,
 pero se oyeron alaridos.
 
 ## Las maldiciones <span class="note-ref" data-ref="is-5-8" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Am <strong>6</strong> 1-7; Mi <strong>2</strong> 1-5; Jr <strong>22</strong> 13-19;</span>
+<span class="parallel-ref">Ez <strong>7</strong> 5-26; Ha <strong>2</strong> 6-20; Lc <strong>6</strong> 24-26;</span>
+<span class="parallel-ref">Mt <strong>23</strong>.</span>
 <sup>8</sup> ¡Ay, los que juntáis casa con casa,
 
 y campo a campo anexionáis,
@@ -857,7 +866,7 @@ la ira de Yahvé contra su pueblo,
 
 extendió su mano contra él y le golpeó.
 
-## Mató a los príncipes<span class="note-ref" data-ref="is-5-25-b" title="Ver comentario">&#42;</span>:
+Mató a los príncipes<span class="note-ref" data-ref="is-5-25-b" title="Ver comentario">&#42;</span>:
 
 sus cadáveres yacían
 
@@ -912,7 +921,7 @@ pues la luz se habrá oscurecido
 
 metida en espesa tiniebla<span class="note-ref" data-ref="is-5-30-b" title="Ver comentario">&#42;</span>.
 
-# 2. LIBRO DEL EMMANUEL
+## <span class="subsection-title">2. LIBRO DEL EMMANUEL</span>
 ## Vocación de Isaías<span class="note-ref" data-ref="is-6" title="Ver comentario">&#42;</span>.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> El año de la muerte del rey Ozías<span class="note-ref" data-ref="is-6-1-a" title="Ver comentario">&#42;</span> vi al Señor sentado en un trono excelso y elevado, y sus haldas llenaban el templo<span class="note-ref" data-ref="is-6-1-b" title="Ver comentario">&#42;</span>. <sup>2</sup> Unos serafines<span class="note-ref" data-ref="is-6-2-a" title="Ver comentario">&#42;</span> se mantenían erguidos por encima de él; cada uno tenía seis alas: con un par se cubrían la faz<span class="note-ref" data-ref="is-6-2-b" title="Ver comentario">&#42;</span>, con otro par se cubrían los pies<span class="note-ref" data-ref="is-6-2-c" title="Ver comentario">&#42;</span>, y con el otro par aleteaban.
 
@@ -991,7 +1000,7 @@ semilla santa será su tocón<span class="note-ref" data-ref="is-6-13" title="Ve
 
 «¡Alerta, pero ten calma! No temas ni desmaye tu corazón por ese par de cabos de tizones humeantes, es decir, por la cólera de Rasín, de los arameos y del hijo de Romelías. <sup>5</sup> Pues los arameos, Efraín y el hijo de Romelías han maquinado tu ruina diciendo: <sup>6</sup> ‘Ataquemos Judá, asediémoslo<span class="note-ref" data-ref="is-7-6-a" title="Ver comentario">&#42;</span> y abramos brecha en él, y pongamos allí por rey al hijo de Tabel<span class="note-ref" data-ref="is-7-6-b" title="Ver comentario">&#42;</span>.’ <sup>7</sup> Pero esto ha dicho el Señor Yahvé:
 
-## No tendrá éxito, ni será así.
+No tendrá éxito, ni será así.
 
 <sup>8</sup> La capital de Aram es Damasco,
 
@@ -1001,7 +1010,7 @@ pues bien, en cuanto pasen
 
 sesenta y cinco años,
 
-## Efraín dejará de ser pueblo.
+Efraín dejará de ser pueblo.
 
 <sup>9</sup> La capital de Efraín es Samaría,
 
@@ -1207,7 +1216,7 @@ a los muertos en favor de los vivos?»
 
 <sup>20b</sup> ¡Vaya si dirán cosa tal!
 
-## Lo que no tiene provecho<span class="note-ref" data-ref="is-8-20" title="Ver comentario">&#42;</span>.
+Lo que no tiene provecho<span class="note-ref" data-ref="is-8-20" title="Ver comentario">&#42;</span>.
 
 ## La marcha en la noche<span class="note-ref" data-ref="is-8-21" title="Ver comentario">&#42;</span>.
 <sup>21</sup> Cruzará el país abatido y hambriento,
@@ -1271,6 +1280,8 @@ y el manto empapado en sangre
 
 serán para la quema, pasto del fuego.
 
+<span class="parallel-ref"><strong>7</strong> 14+; Gn <strong>3</strong> 15; <strong>49</strong> 10; Nm <strong>24</strong> 17;</span>
+<span class="parallel-ref">Mi <strong>5</strong> 1-3; Za <strong>9</strong> 9; 2 S <strong>7</strong> 12-16.</span>
 <sup>5</sup> Porque una criatura nos ha nacido,
 
 un hijo se nos ha dado.
@@ -1547,7 +1558,7 @@ sus zarzas en un solo día,
 
 será consumido: su savia y su madera.
 
-## Será el languidecer de un enfermo.
+Será el languidecer de un enfermo.
 
 <sup>19</sup> Tan poco será lo que quede
 
@@ -1576,7 +1587,7 @@ numeroso como la arena del mar,
 
 sólo un resto de él volverá.
 
-## El exterminio decidido rebosa justicia.
+El exterminio decidido rebosa justicia.
 
 <sup>23</sup> Porque es un exterminio decidido
 
@@ -1585,6 +1596,7 @@ lo que Yahvé Sebaot realizará
 en medio de toda la tierra.
 
 ## Confianza en Dios <span class="note-ref" data-ref="is-10-24-a" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>14</strong> 24-27; <strong>30</strong> 27-33; <strong>31</strong> 4-9; <strong>37</strong> 22-29.</span>
 <sup>24</sup> Por tanto, esto dice el Señor Yahvé Sebaot:
 
 «No temas a Asiria,
@@ -1673,6 +1685,7 @@ y el Líbano caerá
 con todo su esplendor.
 
 ## El descendiente de David<span class="note-ref" data-ref="is-11" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>42</strong> 1-12; Sal <strong>72</strong>.</span>
 <span id="chapter-11" class="chapter-marker" data-chapter="11">11</span><sup>1</sup> Dará un vástago el tronco de Jesé<span class="note-ref" data-ref="is-11-1" title="Ver comentario">&#42;</span>, un retoño de sus raíces brotará.
 
 <sup>2</sup> Reposará sobre él
@@ -1853,8 +1866,9 @@ grande es en medio de ti
 
 el Santo de Israel.»
 
-# 3. ORÁCULOS SOBRE LOS PUEBLOS EXTRANJEROS<span class="note-ref" data-ref="is-13" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">3. ORÁCULOS SOBRE LOS PUEBLOS EXTRANJEROS<span class="note-ref" data-ref="is-13" title="Ver comentario">&#42;</span></span>
 ## Contra Babilonia <span class="note-ref" data-ref="is-13" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>21</strong> 1-10; <strong>47</strong> 1-15; Jr 50-51; Ap 17-18.</span>
 <span id="chapter-13" class="chapter-marker" data-chapter="13">13</span><sup>1</sup> Oráculo contra Babilonia, que recibió Isaías, hijo de Amós.
 
 <sup>2</sup> Izad la bandera sobre un otero,
@@ -2236,13 +2250,14 @@ a los mensajeros de esa gente<span class="note-ref" data-ref="is-14-32" title="V
 y en ella se refugiarán los pobres de su pueblo.»
 
 ## Lamentación por Moab <span class="note-ref" data-ref="is-15" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||Jr <strong>48</strong>; Ez <strong>25</strong> 8-11; Am <strong>2</strong> 1-3.</span>
 <span id="chapter-15" class="chapter-marker" data-chapter="15">15</span><sup>1</sup> Oráculo sobre Moab. Porque de noche ha sido saqueada<span class="note-ref" data-ref="is-15-1" title="Ver comentario">&#42;</span>,
 
-## Ar Moab ha perecido.
+Ar Moab ha perecido.
 
 Porque de noche ha sido saqueada,
 
-## Quir Moab ha perecido.
+Quir Moab ha perecido.
 
 <sup>2</sup> Subía la hija de Dibón<span class="note-ref" data-ref="is-15-2" title="Ver comentario">&#42;</span>
 
@@ -2250,7 +2265,7 @@ a los oteros llorando:
 
 sobre el Nebo y sobre Mádaba
 
-## Moab ulula.
+Moab ulula.
 
 En todas sus cabezas, calvicie;
 
@@ -2378,6 +2393,7 @@ Su altanería, su arrogancia y su furor
 y sus bravatas sin fuerza<span class="note-ref" data-ref="is-16-6" title="Ver comentario">&#42;</span>.
 
 ## Lamentación por Moab.
+<span class="parallel-ref">||Jr <strong>48</strong> 29-33.</span>
 <sup>7</sup> Por eso, que ulule Moab por Moab;
 
 ulule todo él.
@@ -2605,6 +2621,7 @@ y las fieras del campo allí invernarán.
 <sup>7</sup> En aquel tiempo traerá tributo a Yahvé Sebaot, al lugar donde reside el nombre de Yahvé Sebaot, al monte Sión, una nación esbelta y de tez brillante, un pueblo temible por doquier, una nación vigorosa y dominadora, con una tierra surcada por ríos<span class="note-ref" data-ref="is-18-7" title="Ver comentario">&#42;</span>.
 
 ## Contra Egipto.
+<span class="parallel-ref">Jr <strong>46</strong>; Ez 29-32.</span>
 <span id="chapter-19" class="chapter-marker" data-chapter="19">19</span><sup>1</sup> Oráculo contra Egipto<span class="note-ref" data-ref="is-19-1" title="Ver comentario">&#42;</span>.
 
 Yahvé cabalga sobre nube ligera,
@@ -2699,7 +2716,7 @@ tocante a Egipto.
 
 cómo se engañan los príncipes de Nof<span class="note-ref" data-ref="is-19-13" title="Ver comentario">&#42;</span>!
 
-## Sus jefes de tribu extravían a Egipto.
+Sus jefes de tribu extravían a Egipto.
 
 <sup>14</sup> Yahvé ha infundido en el país
 
@@ -2730,6 +2747,7 @@ lo haga la palma o el junco.
 <span id="chapter-20" class="chapter-marker" data-chapter="20">20</span><sup>1</sup> El año en que vino el copero mayor a Asdod —cuando le envió Sargón, rey de Asiria, y atacó a Asdod y la tomó—, <sup>2</sup> en aquella sazón habló Yahvé por medio de Isaías, hijo de Amós, en estos términos: «Desátate el sayal de tu cintura y quítate las sandalias de los pies.» Él lo hizo así, y anduvo desnudo y descalzo<span class="note-ref" data-ref="is-20-2" title="Ver comentario">&#42;</span>. <sup>3</sup> Dijo Yahvé: «Así como ha andado mi siervo desnudo y descalzo tres años como señal y presagio respecto a Egipto y Cus, <sup>4</sup> así conducirá el rey de Asiria a los cautivos de Egipto y a los deportados de Cus, mozos y viejos, desnudos y descalzos, con el trasero al aire —desnudez de Egipto—<span class="note-ref" data-ref="is-20-4" title="Ver comentario">&#42;</span>. <sup>5</sup> Se quedarán asustados y confusos por Cus, su esperanza, y por Egipto, su prez. <sup>6</sup> Y dirán los habitantes de esta costa<span class="note-ref" data-ref="is-20-6" title="Ver comentario">&#42;</span> aquel día: ‘Ahí tenéis en qué ha parado nuestra esperanza, adonde acudíamos en busca de auxilio para librarnos del rey de Asiria. ¿Cómo podremos ponernos a salvo?’»
 
 ## Caída de Babilonia <span class="note-ref" data-ref="is-21" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">13-14; <strong>47</strong> 1-15; Jr 50-51; Ap 17-18.</span>
 <span id="chapter-21" class="chapter-marker" data-chapter="21">21</span><sup>1</sup> Oráculo sobre el Desierto Marítimo<span class="note-ref" data-ref="is-21-1" title="Ver comentario">&#42;</span>.
 
 Igual que torbellinos
@@ -2836,7 +2854,7 @@ os anuncio lo que he oído
 
 de parte de Yahvé Sebaot,
 
-## Dios de Israel.
+Dios de Israel.
 
 ## Sobre Edom<span class="note-ref" data-ref="is-21-11" title="Ver comentario">&#42;</span>.
 <sup>11</sup> Oráculo sobre Dumá.
@@ -2929,7 +2947,7 @@ llega a la montaña.
 
 la caballeria de Aram se despliega,
 
-## Quir desnuda el escudo<span class="note-ref" data-ref="is-22-6" title="Ver comentario">&#42;</span>.
+Quir desnuda el escudo<span class="note-ref" data-ref="is-22-6" title="Ver comentario">&#42;</span>.
 
 <sup>7</sup> Tus mejores valles
 
@@ -3073,6 +3091,7 @@ para la casa de su padre.
 <sup>24</sup> Colgarán allí todo lo de valor de la casa de su padre —sus descendientes y su posteridad—, todo el ajuar menudo, todas las tazas y cántaros. <sup>25</sup> Aquel día — oráculo de Yahvé Sebaot— se removerá la clavija hincada en sitio seguro, cederá y caerá, y se hará añicos el peso que sostenía, porque Yahvé ha hablado<span class="note-ref" data-ref="is-22-25" title="Ver comentario">&#42;</span>.
 
 ## Contra Tiro.
+<span class="parallel-ref">Ez 26-28; Am <strong>1</strong> 9-10; Za <strong>9</strong> 2-4.</span>
 <span id="chapter-23" class="chapter-marker" data-chapter="23">23</span><sup>1</sup> Oráculo sobre Tiro<span class="note-ref" data-ref="is-23-1-a" title="Ver comentario">&#42;</span>.
 
 Haced duelo, naves de Tarsis:
@@ -3191,7 +3210,7 @@ a ver si te recuerdan.»
 
 <sup>17</sup> Pues bien, después de setenta años Yahvé visitará Tiro, que volverá a cobrar sus servicios y a prostituirse con todos los reinos a lo largo y ancho de la faz de la tierra. <sup>18</sup> Pero su mercadería y sus servicios serán consagrados a Yahvé. No serán atesorados ni almacenados, sino que servirán para que los que moran junto a Yahvé coman hasta saciarse y vistan espléndidamente<span class="note-ref" data-ref="is-23-18" title="Ver comentario">&#42;</span>.
 
-# 4. APOCALIPSIS<span class="note-ref" data-ref="is-24" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">4. APOCALIPSIS<span class="note-ref" data-ref="is-24" title="Ver comentario">&#42;</span></span>
 ## El juicio de Yahvé.
 <span id="chapter-24" class="chapter-marker" data-chapter="24">24</span><sup>1</sup> Vedlo, Yahvé ha decidido  devastar y despoblar la tierra;
 
@@ -3427,7 +3446,7 @@ y acabará con el oprobio de su pueblo
 
 en toda la superficie del país.
 
-## Lo ha dicho Yahvé.
+Lo ha dicho Yahvé.
 
 <sup>9</sup> Aquel día se dirá:
 
@@ -3625,7 +3644,7 @@ La riego de vez en cuando
 
 para que no le falten hojas.
 
-## De noche y de día la guardo.
+De noche y de día la guardo.
 
 <sup>4</sup> —Ya no tengo muralla.
 
@@ -3721,7 +3740,7 @@ y adorarán a Yahvé
 
 en el monte santo de Jerusalén.
 
-# 5. POEMAS SOBRE ISRAEL Y JUDÁ
+## <span class="subsection-title">5. POEMAS SOBRE ISRAEL Y JUDÁ</span>
 ## Contra Samaría<span class="note-ref" data-ref="is-28" title="Ver comentario">&#42;</span>.
 <span id="chapter-28" class="chapter-marker" data-chapter="28">28</span><sup>1</sup> ¡Ay de la arrogante corona
 
@@ -3828,7 +3847,7 @@ dad descanso al fatigado.
 
 Esto es lugar de reposo.»
 
-## Pero no quisieron escuchar.
+Pero no quisieron escuchar.
 
 <sup>13</sup> Ahora Yahvé les dice:
 
@@ -4072,6 +4091,7 @@ diciéndole: «A ver, léelo»,
 y responde: «¡Si no sé leer!<span class="note-ref" data-ref="is-29-12" title="Ver comentario">&#42;</span>»
 
 ## Oráculo <span class="note-ref" data-ref="is-29-13" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>1</strong> 10-20+.</span>
 <sup>13</sup> Dice el Señor:
 
 Este pueblo se me acerca de palabra,
@@ -4472,7 +4492,7 @@ que Yahvé descargue sobre ella,
 
 se celebrará con adufes y con arpas.
 
-## La combatirá con guerras violentas<span class="note-ref" data-ref="is-30-32" title="Ver comentario">&#42;</span>.
+La combatirá con guerras violentas<span class="note-ref" data-ref="is-30-32" title="Ver comentario">&#42;</span>.
 
 <sup>33</sup> Pues ya está preparado un Tófet<span class="note-ref" data-ref="is-30-33" title="Ver comentario">&#42;</span>
 
@@ -5104,8 +5124,9 @@ seguidos de regocijo y alegría.
 
 ¡Adiós, penas y suspiros!
 
-# APÉNDICE<span class="note-ref" data-ref="is-36" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">APÉNDICE<span class="note-ref" data-ref="is-36" title="Ver comentario">&#42;</span></span>
 ## Invasión de Senaquerib.
+<span class="parallel-ref">||2 R <strong>18</strong> 13-37; ||Is <strong>37</strong> 10s.</span>
 <span id="chapter-36" class="chapter-marker" data-chapter="36">36</span><sup>1</sup> En el año catorce del rey Ezequías atacó Senaquerib, rey de Asiria, todas las ciudades fortificadas de Judá y se apoderó de ellas. <sup>2</sup> El rey de Asiria envió desde Laquis a Jerusalén, donde el rey Ezequías, al copero mayor con un fuerte destacamento. Se colocó éste en el canal de la alberca superior, que está junto al camino del campo del Batanero. <sup>3</sup> El mayordomo de palacio, Eliaquín, hijo de Jilquías, el secretario Sebná y el heraldo Joaj, hijo de Asaf, salieron a su encuentro. <sup>4</sup> El copero mayor les dijo: «Comunicad esto a Ezequías: Así habla el gran rey, el rey de Asiria: ¿Qué confianza es ésa en la que te apoyas? <sup>5</sup> Te has pensado<span class="note-ref" data-ref="is-36-5" title="Ver comentario">&#42;</span> que meras palabras de los labios son consejo y bravura para la guerra. Pero ahora, ¿en quién confías, que te has rebelado contra mí? <sup>6</sup> Mira: te has confiado al apoyo de esa caña rota, de Egipto, que penetra y traspasa la mano del que se apoya sobre ella. Pues así es el faraón, rey de Egipto, para todos los que confían en él. <sup>7</sup> Pero vais a decirme: ‘Nosotros confiamos en Yahvé nuestro Dios.’ ¿No ha sido él, Ezequías, quien ha suprimido los altos y los altares y ha dicho a Judá y a Jerusalén: ‘Os postraréis delante de este altar?’ <sup>8</sup> Pues apuesta ahora con mi señor, el rey de Asiria: te daré dos mil caballos si eres capaz de encontrar jinetes que los monten. <sup>9</sup> ¿Cómo harías retroceder a uno solo<span class="note-ref" data-ref="is-36-9" title="Ver comentario">&#42;</span> de los más pequeños servidores de mi señor? ¡Te fías de Egipto para tener carros y jinetes! <sup>10</sup> Además, ¿crees que he invadido esta tierra para destruirla, sin contar con Yahvé? Yahvé me ha dicho: ‘Ataca esta tierra y destrúyela.’»
 
 <sup>11</sup> Dijeron Eliaquín, Sebná y Joaj al copero mayor: «Por favor, háblanos a nosotros tus siervos en arameo, que lo entendemos; no nos hables en la lengua de Judá a oídos de la gente que está sobre la muralla.» <sup>12</sup> El copero mayor dijo: «¿Acaso mi señor me ha enviado a decir estas cosas a tu señor, o a ti, y no a los hombres que se encuentran sobre la muralla, que tienen que comer sus excrementos y beber sus orinas con vosotros?»
@@ -5115,14 +5136,17 @@ seguidos de regocijo y alegría.
 <sup>21</sup> Calló la gente y nada le respondieron, porque el rey había dado la orden de que no le contestasen. <sup>22</sup> Eliaquín, hijo de Jilquías, mayordomo de palacio, el secretario Sebná y el heraldo Joaj, hijo de Asaf, fueron donde Ezequías, desgarrados los vestidos, y le relataron las palabras del copero mayor.
 
 ## Recurso al profeta Isaías.
+<span class="parallel-ref">||2 R <strong>19</strong> 1-7.</span>
 <span id="chapter-37" class="chapter-marker" data-chapter="37">37</span><sup>1</sup> Cuando lo oyó el rey Ezequías, desgarró sus vestidos, se cubrió de sayal y se fue al templo de Yahvé. <sup>2</sup> Envió a Eliaquín, mayordomo, a Sebná, secretario, y a los sacerdotes ancianos cubiertos de sayal donde el profeta Isaías, hijo de Amós. <sup>3</sup> Ellos le dijeron: «Así habla Ezequías: Este día es día de angustia, de castigo y de vergüenza. Los hijos están para salir del seno, pero no hay fuerza para dar a luz. <sup>4</sup> ¿No habrá oído Yahvé tu Dios las palabras del copero mayor al que ha enviado el rey de Asiria, su señor, para insultar al Dios vivo? ¿No castigará Yahvé tu Dios las palabras que ha oído? ¡Dirige una plegaria en favor del Resto que aún queda!»
 
 <sup>5</sup> Cuando los siervos del rey Ezequías llegaron donde Isaías, <sup>6</sup> éste les dijo: «Así diréis a vuestro señor: Esto dice Yahvé: No tengas miedo por las palabras que has oído, con las que me insultaron los criados del rey de Asiria. <sup>7</sup> Voy a infundirle un espíritu tal que, cuando oiga cierta noticia, se volverá a su tierra, y en su tierra yo lo haré caer a espada.»
 
 ## Partida del copero mayor.
+<span class="parallel-ref">||2 R <strong>19</strong> 8-9.</span>
 <sup>8</sup> El copero mayor se volvió y encontró al rey de Asiria atacando a Libná, pues había oído que había partido de Laquis, <sup>9</sup> porque había recibido esta noticia acerca de Tirhacá, rey de Cus: «Ha salido a guerrear contra ti.»
 
 ## Segundo relato de la intervención de Senaquerib.
+<span class="parallel-ref">||2 R <strong>19</strong> 9-19.</span>
 Senaquerib volvió a enviar<span class="note-ref" data-ref="is-37-9" title="Ver comentario">&#42;</span> mensajeros para decir a Ezequías: <sup>10</sup> «Así hablaréis a Ezequías, rey de Judá: No te engañe tu Dios en el que confías pensando: ‘No será entregada Jerusalén en manos del rey de Asiria’. <sup>11</sup> Bien has oído lo que los reyes de Asiria han hecho a todos los países, entregándolos al anatema, ¡y tú te vas a librar! <sup>12</sup> ¿Acaso los dioses de las naciones salvaron a aquellos que mis padres aniquilaron, a Gozán, a Jarán, a Résef, a los edenitas que estaban en Tel Basar<span class="note-ref" data-ref="is-37-12" title="Ver comentario">&#42;</span>? <sup>13</sup> ¿Dónde está el rey de Jamat, el rey de Arpad, el rey de Laír<span class="note-ref" data-ref="is-37-13" title="Ver comentario">&#42;</span>, de Sefarváin, de Hená y de Avá?»
 
 <sup>14</sup> Ezequías tomó la carta de manos de los mensajeros y la leyó. Luego subió al templo de Yahvé y Ezequías la desenrolló ante Yahvé. <sup>15</sup> Ezequías elevó esta plegaria a Yahvé: <sup>16</sup> «Yahvé Sebaot, Dios de Israel, entronizado sobre los Querubines, tú sólo eres Dios en todos los reinos de la tierra, tú el que has hecho los cielos y la tierra.
@@ -5138,6 +5162,7 @@ ha enviado a insultar al Dios vivo.
 <sup>18</sup> Es verdad, Yahvé, que los reyes de Asiria han exterminado a todas las naciones y su territorio, <sup>19</sup> y que han entregado sus dioses al fuego, pero es que ellos no son dioses, sino confecciones humanas hechas con madera y con piedra, y por eso han sido aniquilados. <sup>20</sup> Ahora, pues, Yahvé, Dios nuestro, sálvanos de su mano, para que sepan todos los reinos de la tierra que sólo tú eres Dios, Yahvé.»
 
 ## Intervención de Isaías.
+<span class="parallel-ref">||2 R <strong>19</strong> 20-28.</span>
 <sup>21</sup> Isaías, hijo de Amós, envió a decir a Ezequías: «Esto dice Yahvé, Dios de Israel, a quien has suplicado acerca de Senaquerib, rey de Asiria. <sup>22</sup> Ésta es la palabra que Yahvé pronuncia contra él:
 
 Te desprecia, se burla de ti,
@@ -5223,6 +5248,7 @@ y te devolveré por la ruta
 por la que has venido.
 
 ## La señal para Ezequías.
+<span class="parallel-ref">||2 R <strong>19</strong> 29-31.</span>
 <sup>30</sup> La señal será ésta:
 
 Este año se comerá lo que rebrote,
@@ -5248,6 +5274,7 @@ supervivientes del monte Sión;
   el celo de Yahvé Sebaot lo hará.
 
 ## Oráculo sobre Asiria.
+<span class="parallel-ref">||2 R <strong>19</strong> 32-34.</span>
 <sup>33</sup> Por eso, así dice Yahvé del rey de Asiria:
 
 No entrará en esta ciudad,
@@ -5269,11 +5296,13 @@ y no entrará en esta ciudad
 por quien soy y por mi siervo David.»
 
 ## Castigo de Senaquerib.
+<span class="parallel-ref">||2 R <strong>19</strong> 35-37.</span>
 <sup>36</sup> Aquella misma noche<span class="note-ref" data-ref="is-37-36" title="Ver comentario">&#42;</span> salió el Ángel de Yahvé e hirió en el campamento asirio a ciento ochenta y cinco mil hombres; a la hora de despertarse, por la mañana, no había más que cadáveres.
 
 <sup>37</sup> Senaquerib, rey de Asiria, regresó a su país y se estableció en Nínive. <sup>38</sup> Y resulta que, estando él haciendo oración en el templo de su dios Nisroc, sus hijos Adramélec y Saréser lo mataron a golpe de espada y se pusieron a salvo en el país de Ararat. Su hijo Asaradón reinó en su lugar.
 
 ## Enfermedad y curación de Ezequías.
+<span class="parallel-ref">||2 R <strong>20</strong> 1-11.</span>
 <span id="chapter-38" class="chapter-marker" data-chapter="38">38</span><sup>1</sup> En aquellos días Ezequías cayó enfermo de muerte. El profeta Isaías, hijo de Amós, vino a decirle: «Esto dice Yahvé: Haz testamento<span class="note-ref" data-ref="is-38-1" title="Ver comentario">&#42;</span>, porque vas a morir; no vivirás.» <sup>2</sup> Ezequías volvió su rostro a la pared y oró a Yahvé. <sup>3</sup> Dijo: «¡Ah, Yahvé! Dígnate recordar que me he conducido en tu presencia con fidelidad y corazón perfecto, haciendo lo que tú consideras correcto.» Después Ezequías estalló en un copioso llanto.
 
 <sup>4</sup> Entonces le fue dirigida a Isaías la palabra de Yahvé en estos términos: <sup>5</sup> «Ve y di a Ezequías: Esto dice Yahvé, Dios de tu padre David: He oído tu plegaria, he visto tus lágrimas y he decidido curarte. Dentro de tres días subirás al templo de Yahvé<span class="note-ref" data-ref="is-38-5" title="Ver comentario">&#42;</span>. Añadiré quince años a tus días. <sup>6</sup> Te libraré a ti y a esta ciudad de la mano del rey de Asiria, y ampararé a esta ciudad.»
@@ -5281,6 +5310,7 @@ por quien soy y por mi siervo David.»
 <sup>21</sup> <span class="note-ref" data-ref="is-38-21" title="Ver comentario">&#42;</span>Isaías dijo: «Traed una masa de higos, aplicadla sobre la úlcera y sanará.» <sup>22</sup> Ezequías dijo: «¿Cuál será la señal de que subiré al templo de Yahvé?» <sup>7</sup> Isaías respondió<span class="note-ref" data-ref="is-38-7" title="Ver comentario">&#42;</span>: «Ésta será para ti, de parte de Yahvé, la señal de que Yahvé hará lo que ha dicho. <sup>8</sup> Mira, voy a hacer retroceder la sombra diez gradas de las que ha descendido el sol por las gradas de Ajaz.» Y desanduvo el sol diez gradas por las que había descendido<span class="note-ref" data-ref="is-38-8" title="Ver comentario">&#42;</span>.
 
 ## Cántico de Ezequías <span class="note-ref" data-ref="is-38-9-a" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Sal <strong>116</strong>.</span>
 <sup>9</sup> Cántico<span class="note-ref" data-ref="is-38-9-b" title="Ver comentario">&#42;</span> de Ezequías, rey de Judá, cuando estuvo enfermo y sanó de su mal:
 
 <sup>10</sup> Pensé: He de irme en plena vida;
@@ -5321,7 +5351,7 @@ Mis ojos se van consumiendo
 
 de tanto mirar hacia arriba.
 
-## Yahvé, estoy oprimido, sal por mí.
+Yahvé, estoy oprimido, sal por mí.
 
 <sup>15</sup> ¿Qué diré? ¿De qué le hablaré<span class="note-ref" data-ref="is-38-15" title="Ver comentario">&#42;</span>,
 
@@ -5372,13 +5402,15 @@ todos los días de nuestra vida
 junto a la Casa de Yahvé.
 
 ## Embajada babilónica.
+<span class="parallel-ref">||2 R <strong>20</strong> 12-19.</span>
 <span id="chapter-39" class="chapter-marker" data-chapter="39">39</span><sup>1</sup> En aquel tiempo, Merodac Baladán, hijo de Baladán, rey de Babilonia, envió cartas y un presente a Ezequías porque había oído que había estado enfermo y se había curado. <sup>2</sup> Se alegró Ezequías por ello y enseñó a los enviados su cámara del tesoro, la plata, el oro, los aromas, el aceite precioso, su arsenal y todo cuanto había en los tesoros; no hubo nada que Ezequías no les mostrara en su casa y en todo su dominio.
 
 <sup>3</sup> Entonces el profeta fue donde el rey Ezequías y le dijo: «¿Qué han dicho esos hombres y de dónde han venido a ti?» Respondió Ezequías: «Han venido de un país lejano, de Babilonia.» <sup>4</sup> Dijo: «¿Qué han visto en tu casa?» Respondió Ezequías: «Han visto cuanto hay en mi casa; no hay nada de mis tesoros que no les haya enseñado.»
 
 <sup>5</sup> Dijo a Ezequías: «Escucha la palabra de Yahvé Sebaot: <sup>6</sup> Vendrán días en que todo cuanto hay en tu casa y cuanto reunieron tus padres hasta el día de hoy, será llevado a Babilonia; nada quedará, dice Yahvé. <sup>7</sup> También se llevarán a algunos de tus hijos, los que han salido de ti, los que has engendrado, para que sean eunucos en el palacio del rey de Babilonia.» <sup>8</sup> Respondió Ezequías a Isaías: «Acepto de buen grado la palabra de Yahvé que me transmites.» (Pues pensaba: «¡Con tal que haya paz y seguridad mientras yo viva!»)
 
-# II. Libro de la consolación de Israel<span class="note-ref" data-ref="is-40" title="Ver comentario">&#42;</span>
+<span class="section-intro">II. Libro de la consolación de Israel<span class="note-ref" data-ref="is-40" title="Ver comentario">&#42;</span></span>
+
 ## Anuncio de la liberación<span class="note-ref" data-ref="is-40" title="Ver comentario">&#42;</span>.
 <span id="chapter-40" class="chapter-marker" data-chapter="40">40</span><sup>1</sup> Consolad, consolad a mi pueblo—dice vuestro Dios—.
 
@@ -5495,7 +5527,7 @@ una gota escurrida de un cazo,
 
 un grano de tierra en la balanza.
 
-## Ved lo que son las islas<span class="note-ref" data-ref="is-40-15" title="Ver comentario">&#42;</span>:
+Ved lo que son las islas<span class="note-ref" data-ref="is-40-15" title="Ver comentario">&#42;</span>:
 
 una mota de polvo en un peso.
 
@@ -5610,6 +5642,7 @@ correrán sin fatigarse
 y andarán sin cansarse.
 
 ## Ciro instrumento de Yahvé <span class="note-ref" data-ref="is-41" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>45</strong> 1-8.</span>
 <span id="chapter-41" class="chapter-marker" data-chapter="41">41</span><sup>1</sup> Escuchadme en silencio, islas; esperad mi reprensión, naciones.
 
 Que se acerquen y entonces hablarán,
@@ -5634,7 +5667,7 @@ el sendero con sus pies no toca<span class="note-ref" data-ref="is-41-3" title="
 
 <sup>4</sup> ¿Quién lo realizó y lo hizo?
 
-## El que llama al futuro desde el principio.
+El que llama al futuro desde el principio.
 
 Yo, Yahvé, soy el primero,
 
@@ -5659,6 +5692,7 @@ Y fija el ídolo con clavos
 para que no se mueva<span class="note-ref" data-ref="is-41-7" title="Ver comentario">&#42;</span>.
 
 ## Dios está con Israel.
+<span class="parallel-ref"><strong>45</strong> 1-7.</span>
 <sup>8</sup> Y tú, Israel, siervo mío<span class="note-ref" data-ref="is-41-8" title="Ver comentario">&#42;</span>,
 
 Jacob, a quien yo elegí,
@@ -5837,6 +5871,7 @@ nulidad todas sus obras,
 viento y vacuidad sus estatuas.
 
 ## Canto primero del Siervo de Yahvé <span class="note-ref" data-ref="is-42" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">↗Mt <strong>12</strong> 18-21.</span>
 <span id="chapter-42" class="chapter-marker" data-chapter="42">42</span><sup>1</sup> Éste es mi siervo a quien yo sostengo,
 
 mi elegido en quien me complazco.
@@ -5899,7 +5934,7 @@ ni mi prez a los ídolos.
 
 voy a anunciaros cosas nuevas.
 
-## Antes de que germinen os lo digo.
+Antes de que germinen os lo digo.
 
 ## Himno de victoria.
 <sup>10</sup> Cantad a Yahvé un cántico nuevo<span class="note-ref" data-ref="is-42-10" title="Ver comentario">&#42;</span>,
@@ -6187,7 +6222,7 @@ para abrevar a mi pueblo, mi elegido,
 
 <sup>21</sup> ese pueblo que yo me he formado.
 
-## Él proclamará mis alabanzas.
+Él proclamará mis alabanzas.
 
 ## La ingratitud de Israel<span class="note-ref" data-ref="is-43-22" title="Ver comentario">&#42;</span>.
 <sup>22</sup> Pero tú no me llamaste, Jacob,
@@ -6239,7 +6274,7 @@ que te plasmó en el seno y te ayuda:
 
 «No temas, siervo mío, Jacob,
 
-## Yesurún<span class="note-ref" data-ref="is-44-2" title="Ver comentario">&#42;</span> a quien yo elegí.
+Yesurún<span class="note-ref" data-ref="is-44-2" title="Ver comentario">&#42;</span> a quien yo elegí.
 
 <sup>3</sup> Derramaré agua en secano,
 
@@ -6262,6 +6297,7 @@ el otro llevará el nombre de Jacob;
 y se le llamará Israel.»
 
 ## No hay más que un Dios.
+<span class="parallel-ref"><strong>42</strong> 8+.</span>
 <sup>6</sup> Esto dice Yahvé el rey de Israel,
 
 su redentor, Yahvé Sebaot:
@@ -6272,7 +6308,7 @@ fuera de mí, no hay ningún dios.
 
 <sup>7</sup> ¿Quién como yo? ¡Que lo diga!
 
-## Que hable y lo argumente ante mí.
+Que hable y lo argumente ante mí.
 
 Desde que fundé un pueblo eterno,
 
@@ -6291,6 +6327,7 @@ Vosotros sois testigos:
 ¡No hay otra Roca, yo no la conozco!»
 
 ## Sátira contra la idolatría <span class="note-ref" data-ref="is-44-9" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Jr <strong>10</strong> 1-16; <strong>2</strong> 26-28.</span>
 <sup>9</sup> ¡Escultores de ídolos! Todos ellos son vacuidad; de nada sirven sus obras más estimadas; sus testigos nada ven y nada saben, y por eso quedarán abochornados. <sup>10</sup> ¿Quién modela un dios o funde un ídolo, sin esperar una ganancia? <sup>11</sup> Pero todos sus devotos quedarán abochornados, lo mismo que sus artífices, que no son más que hombres; se reunirán todos y comparecerán; y todos temblarán avergonzados.
 
 <sup>12</sup> El forjador<span class="note-ref" data-ref="is-44-12" title="Ver comentario">&#42;</span> trabaja en las brasas, configura a golpe de martillo, ejecuta su obra a fuerza de brazo; pasa hambre y se extenúa; no bebe agua y queda agotado.
@@ -6370,6 +6407,7 @@ ordenará que reconstruyan Jerusalén
 y que pongan los cimientos del santuario<span class="note-ref" data-ref="is-44-28" title="Ver comentario">&#42;</span>.
 
 ## Ciro instrumento de Dios <span class="note-ref" data-ref="is-45" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>45</strong> 1-5.</span>
 <span id="chapter-45" class="chapter-marker" data-chapter="45">45</span><sup>1</sup> Esto dice Yahvé a su Ungido Ciro, a quien he tomado de la diestra
 
 para someter ante él a las naciones
@@ -6420,7 +6458,7 @@ aunque tú no me conozcas,
 
 que todo es nada fuera de mí.
 
-## Yo soy Yahvé, no hay ningún otro.
+Yo soy Yahvé, no hay ningún otro.
 
 <sup>7</sup> Yo modelo la luz y creo la tiniebla,
 
@@ -6429,6 +6467,7 @@ yo hago la dicha y creo la desgracia,
 yo soy Yahvé, el que hago todo esto.
 
 ## Plegaria<span class="note-ref" data-ref="is-45-8-a" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Sal <strong>85</strong> 11-12.</span>
 <sup>8</sup> Destilad, cielos, rocío de lo alto,
 
 derramad, nubes, la victoria.
@@ -6437,7 +6476,7 @@ derramad, nubes, la victoria.
 
 que produzca juntamente la justicia<span class="note-ref" data-ref="is-45-8-b" title="Ver comentario">&#42;</span>.
 
-## Yo, Yahvé, lo he creado.
+Yo, Yahvé, lo he creado.
 
 ## Poder soberano de Yahvé.
 <sup>9</sup> ¡Ay de quien litiga con su hacedor,
@@ -6698,6 +6737,7 @@ Concederé mi salvación en Sión,
 mi gloria será para Israel.
 
 ## Lamentación sobre Babilonia<span class="note-ref" data-ref="is-47" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Ver 13+.</span>
 <span id="chapter-47" class="chapter-marker" data-chapter="47">47</span><sup>1</sup> ¡Abájate, siéntate en el polvo, doncella, capital de Babilonia<span class="note-ref" data-ref="is-47-1" title="Ver comentario">&#42;</span>!
 
 ¡Siéntate en tierra, destronada,
@@ -6921,7 +6961,7 @@ te afiné en el crisol de la aflicción<span class="note-ref" data-ref="is-48-10
 
 si no, mi nombre<span class="note-ref" data-ref="is-48-11" title="Ver comentario">&#42;</span> sería profanado.
 
-## No cederé a otro mi gloria.
+No cederé a otro mi gloria.
 
 ## Ciro es el amado de Yahvé.
 <sup>12</sup> Escúchame, Jacob,
@@ -7005,6 +7045,7 @@ hendió la roca y corrieron las aguas.
 dice Yahvé.
 
 ## Segundo canto del Siervo <span class="note-ref" data-ref="is-49" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">42+.</span>
 <span id="chapter-49" class="chapter-marker" data-chapter="49">49</span><sup>1</sup> ¡Oídme, islas,  atended, pueblos lejanos!
 
 Yahvé me llamó desde el seno materno;
@@ -7278,6 +7319,7 @@ y mueren sus bestias de sed.
 y los cubro de sayal de luto<span class="note-ref" data-ref="is-50-3" title="Ver comentario">&#42;</span>.
 
 ## Tercer canto del Siervo <span class="note-ref" data-ref="is-50-4" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">42+.</span>
 <sup>4</sup> El Señor Yahvé me ha dado
 
 una lengua avezada,
@@ -7494,7 +7536,7 @@ ni andará escaso de pan.
 
 que agito el mar y braman sus olas;
 
-## Yahvé Sebaot es su nombre.
+Yahvé Sebaot es su nombre.
 
 <sup>16</sup> Yo puse mis palabras en tu boca
 
@@ -7684,6 +7726,7 @@ que va al frente de vosotros Yahvé,
 y en retaguardia el Dios de Israel<span class="note-ref" data-ref="is-52-12" title="Ver comentario">&#42;</span>.
 
 ## Cuarto canto del Siervo<span class="note-ref" data-ref="is-52-13" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>42</strong> 1+; Sal <strong>22</strong>; Sb <strong>2</strong> 12-24.</span>
 <sup>13</sup> Veréis a mi Siervo prosperar;
 
 será enaltecido, levantado
@@ -7728,7 +7771,7 @@ hombre doliente y enfermizo,
 
 como de taparse el rostro por no verle.
 
-## Despreciable, un Don Nadie.
+Despreciable, un Don Nadie.
 
 <sup>4</sup> ¡Y de hecho cargó con nuestros males
 
@@ -8052,7 +8095,8 @@ Será para renombre de Yahvé,
 
 para señal eterna e imborrable.
 
-# III. Tercera parte del libro de Isaías<span class="note-ref" data-ref="is-56" title="Ver comentario">&#42;</span>
+<span class="section-intro">III. Tercera parte del libro de Isaías<span class="note-ref" data-ref="is-56" title="Ver comentario">&#42;</span></span>
+
 ## Promesa a los extranjeros<span class="note-ref" data-ref="is-56" title="Ver comentario">&#42;</span>.
 <span id="chapter-56" class="chapter-marker" data-chapter="56">56</span><sup>1</sup> Esto dice Yahvé: Velad por la equidad y practicad la justicia, que mi salvación está a punto de llegar y mi victoria se va a manifestar.
 
@@ -8415,7 +8459,7 @@ y te alimentaré con la heredad
 
 de tu padre Jacob.
 
-## Ha hablado la boca de Yahvé.
+Ha hablado la boca de Yahvé.
 
 ## Salmo de penitencia<span class="note-ref" data-ref="is-59" title="Ver comentario">&#42;</span>.
 <span id="chapter-59" class="chapter-marker" data-chapter="59">59</span><sup>1</sup> Mirad, no es demasiado corta
@@ -8584,6 +8628,7 @@ a los arrepentidos que haya en Jacob
 <sup>21</sup> Cuanto a mí, ésta es mi alianza con ellos, dice Yahvé: Mi espíritu que he derramado sobre ti y mis palabras que he puesto en tus labios no caerán de tu boca ni de la boca de tu descendencia ni de la boca de la descendencia de tu descendencia, dice Yahvé, desde ahora y para siempre.
 
 ## Esplendor de Jerusalén <span class="note-ref" data-ref="is-60" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Is <strong>45</strong> 14+; Ap <strong>21</strong> 9-27.</span>
 <span id="chapter-60" class="chapter-marker" data-chapter="60">60</span><sup>1</sup> ¡Álzate y brilla, que llega tu luz, la gloria de Yahvé amanece sobre ti!
 
 <sup>2</sup> Mira: la oscuridad cubre la tierra,
@@ -9206,7 +9251,7 @@ ten en cuenta que somos tu pueblo.
 
 Sión desierta ha quedado,
 
-## Jerusalén, desolada.
+Jerusalén, desolada.
 
 <sup>10</sup> Nuestro templo santo y glorioso,
 
@@ -9411,7 +9456,7 @@ que os rechazan a causa de mi Nombre:
 
 y participemos de vuestra alegría.»
 
-## Pero quedaron corridos.
+Pero quedaron corridos.
 
 <sup>6</sup> ¡Voz estruendosa por la ciudad!
 

@@ -3,7 +3,7 @@ title: 'Proverbios'
 description: 'Libro de los Proverbios'
 img: blog-placeholder-4.jpg
 ---
-## PROVERBIOS
+# PROVERBIOS
 ## Título general y propósito.
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Proverbios de Salomón, hijo de David, rey de Israel:
@@ -32,8 +32,9 @@ y el inteligente adquiere destreza.
 
 los necios desprecian la sabiduría y la instrucción.
 
-## I. Prólogo
-## RECOMENDACIONES DE LA SABIDURÍA
+<span class="section-intro">I. Prólogo</span>
+
+## <span class="subsection-title">RECOMENDACIONES DE LA SABIDURÍA</span>
 ## Las malas compañías.
 
 <sup>8</sup> Escucha, hijo mío, la instrucción de tu padre,
@@ -852,6 +853,7 @@ y sus víctimas son incontables.
 y baja a la morada de la muerte.
 
 ## Discurso de la sabiduría <span class="note-ref" data-ref="pr-8" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>1</strong> 20-33</span>
 <span id="chapter-8" class="chapter-marker" data-chapter="8">8</span><sup>1</sup> La sabiduría está gritando,
 
 la prudencia levanta su voz.
@@ -897,6 +899,7 @@ y el conocimiento antes que oro puro;
 y nada valioso se le puede comparar.
 
 ## La sabiduría se elogia a sí misma.
+<span class="parallel-ref">Si <strong>24</strong>.</span>
 <sup>12</sup> «Yo, la sabiduría, habito con la prudencia,
 
 y tengo el arte de la discreción.
@@ -940,6 +943,7 @@ a través de senderos rectos,
 y completar sus tesoros.»
 
 ## La Sabiduría creadora <span class="note-ref" data-ref="pr-8-22-a" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Jn <strong>1</strong> 1-4+.</span>
 <sup>22</sup> «Yahvé me creó, primicia de su actividad<span class="note-ref" data-ref="pr-8-22-b" title="Ver comentario">&#42;</span>,
 
 antes de sus obras antiguas.
@@ -1008,6 +1012,7 @@ y obtiene el favor de Yahvé.
 los que me odian, aman la muerte.»
 
 ## Invitación de la sabiduría.
+<span class="parallel-ref">Mt <strong>22</strong> 1-14p.</span>
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> La Sabiduría ha edificado su casa,
 
 ha tallado sus siete columnas<span class="note-ref" data-ref="pr-9-1" title="Ver comentario">&#42;</span>,
@@ -1082,7 +1087,7 @@ el pan a escondidas es sabroso.»
 
 y que sus huéspedes están en el fondo del abismo.
 
-## II. La gran colección salomónica<span class="note-ref" data-ref="pr-10-1" title="Ver comentario">&#42;</span>
+<span class="section-intro">II. La gran colección salomónica<span class="note-ref" data-ref="pr-10-1" title="Ver comentario">&#42;</span></span>
 <span id="chapter-10" class="chapter-marker" data-chapter="10">10</span><sup>1</sup> Proverbios de Salomón.
 
 Hijo sabio, alegría del padre;
@@ -2189,7 +2194,7 @@ todos son amigos del espléndido.
 
 ¡con más razón lo abandonarán sus amigos!
 
-## Persigue palabras, pero no hay<span class="note-ref" data-ref="pr-19-7" title="Ver comentario">&#42;</span>.
+Persigue palabras, pero no hay<span class="note-ref" data-ref="pr-19-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> El que adquiere cordura se ama a sí mismo,
 
@@ -2409,7 +2414,7 @@ pero el que sondea los corazones es Yahvé.
 
 <sup>3</sup> Practicar la justicia y el derecho
 
-## Yahvé lo prefiere a los sacrificios<span class="note-ref" data-ref="pr-21-3" title="Ver comentario">&#42;</span>.
+Yahvé lo prefiere a los sacrificios<span class="note-ref" data-ref="pr-21-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Ojos altivos, corazón arrogante
 
@@ -2587,7 +2592,7 @@ la vara de la corrección lo separará de ella.
 
 da a un rico para empobrecerse<span class="note-ref" data-ref="pr-22-16" title="Ver comentario">&#42;</span>.
 
-## III. Colección de los sabios
+<span class="section-intro">III. Colección de los sabios</span>
 <sup>17</sup> Presta atención y escucha las palabras de los sabios<span class="note-ref" data-ref="pr-22-17" title="Ver comentario">&#42;</span>,
 
 dispón tu corazón a mi experiencia;
@@ -2668,7 +2673,7 @@ ni codicies sus exquisiteces;
 
 <sup>7</sup> porque son como un pelo en la garganta.
 
-## Te dice: «¡Come y bebe!», pero piensa otra cosa<span class="note-ref" data-ref="pr-23-7" title="Ver comentario">&#42;</span>.
+Te dice: «¡Come y bebe!», pero piensa otra cosa<span class="note-ref" data-ref="pr-23-7" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> Vomitarías lo que has comido
 
@@ -2880,7 +2885,7 @@ no te extralimites con ninguno de los dos,
 
 y nadie conoce el furor de uno y otro<span class="note-ref" data-ref="pr-24-22" title="Ver comentario">&#42;</span>.
 
-## IV. Otros proverbios de los sabios
+<span class="section-intro">IV. Otros proverbios de los sabios</span>
 <sup>23</sup> También esto pertenece a los sabios<span class="note-ref" data-ref="pr-24-23-a" title="Ver comentario">&#42;</span>:
 
   No está bien ser parcial en el juicio<span class="note-ref" data-ref="pr-24-23-b" title="Ver comentario">&#42;</span>.
@@ -2933,7 +2938,7 @@ un rato de descanso con los brazos cruzados
 
 la penuria del mendigo<span class="note-ref" data-ref="pr-24-34" title="Ver comentario">&#42;</span>.»
 
-## V. Segunda colección salomónica
+<span class="section-intro">V. Segunda colección salomónica</span>
 <span id="chapter-25" class="chapter-marker" data-chapter="25">25</span><sup>1</sup> Otros proverbios de Salomón<span class="note-ref" data-ref="pr-25-1" title="Ver comentario">&#42;</span>, recopilados por los hombres de Ezequías, rey de Judá.
 
 <sup>2</sup> Es gloria de Dios ocultar una cosa,
@@ -3202,7 +3207,7 @@ la dulzura del amigo consuela el alma.
 
 no vayas a la casa de tu hermano cuando estés en apuros.
 
-## Más vale vecino cerca que hermano lejos.
+Más vale vecino cerca que hermano lejos.
 
 <sup>11</sup> Hazte sabio, hijo mío, y alegra mi corazón,
 
@@ -3434,7 +3439,7 @@ creerá malvados a todos sus servidores.
 
 <sup>13</sup> El pobre y el estafador coinciden:
 
-## Yahvé ilumina los ojos de ambos.
+Yahvé ilumina los ojos de ambos.
 
 <sup>14</sup> Rey que juzga con justicia a los débiles
 
@@ -3492,7 +3497,7 @@ pero sólo Yahvé hace justicia.
 
 y el malvado detesta al honrado.
 
-## VI. Palabras de Agur
+<span class="section-intro">VI. Palabras de Agur</span>
 <span id="chapter-30" class="chapter-marker" data-chapter="30">30</span><sup>1</sup> Palabras de Agur, hijo de Jaqué, de Masá<span class="note-ref" data-ref="pr-30-1-a" title="Ver comentario">&#42;</span>. Oráculo de este hombre para Itiel, para Itiel y para Ucal<span class="note-ref" data-ref="pr-30-1-b" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> ¡Soy el más estúpido de los hombres!
@@ -3565,7 +3570,7 @@ para devorar a los humildes del país
 
 y a los pobres de la tierra<span class="note-ref" data-ref="pr-30-14" title="Ver comentario">&#42;</span>.
 
-## VII. Proverbios numéricos<span class="note-ref" data-ref="pr-30-15" title="Ver comentario">&#42;</span>
+<span class="section-intro">VII. Proverbios numéricos<span class="note-ref" data-ref="pr-30-15" title="Ver comentario">&#42;</span></span>
 <sup>15</sup> La sanguijuela tiene dos hijas: «¡Dame, dame!»
 
   Hay tres cosas insaciables
@@ -3658,7 +3663,7 @@ aprietas la nariz y sale sangre,
 
 aprietas la ira y sale discordia.
 
-## VIII. Palabras de Lemuel
+<span class="section-intro">VIII. Palabras de Lemuel</span>
 <span id="chapter-31" class="chapter-marker" data-chapter="31">31</span><sup>1</sup> Palabras de Lemuel, rey de Masá<span class="note-ref" data-ref="pr-31-1" title="Ver comentario">&#42;</span>, que le enseñó su madre:
 
 <sup>2</sup> ¿Qué te diré<span class="note-ref" data-ref="pr-31-2" title="Ver comentario">&#42;</span>, hijo mío, hijo de mis entrañas,
@@ -3695,12 +3700,13 @@ y defiende la causa de los desvalidos;
 
 y defiende la causa del humilde y del pobre.
 
-## IX. La mujer ideal<span class="note-ref" data-ref="pr-31-10-a" title="Ver comentario">&#42;</span>
+<span class="section-intro">IX. La mujer ideal<span class="note-ref" data-ref="pr-31-10-a" title="Ver comentario">&#42;</span></span>
+
 ## Álef.
 
 <sup>10</sup> ¿Quién encontrará a una mujer ideal<span class="note-ref" data-ref="pr-31-10-b" title="Ver comentario">&#42;</span>?
 
-## Vale mucho más que las piedras preciosas.
+Vale mucho más que las piedras preciosas.
 
 ## Bet.
 

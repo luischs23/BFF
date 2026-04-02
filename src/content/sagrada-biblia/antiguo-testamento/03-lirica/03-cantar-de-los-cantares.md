@@ -4,7 +4,7 @@ description: 'Cantar de los Cantares'
 img: blog-placeholder-4.jpg
 ---
 # CANTAR DE LOS CANTARES
-## Título y prólogo
+<span class="section-intro">Título y prólogo</span>
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Cantar de los cantares, de Salomón<span class="note-ref" data-ref="ct-1-1" title="Ver comentario">&#42;</span>.
 
 ## LA AMADA<span class="note-ref" data-ref="ct-1-2" title="Ver comentario">&#42;</span>.
@@ -29,7 +29,8 @@ alabemos tus amores más que el vino.
 
 ¡Con razón eres amado!
 
-## Primer poema
+<span class="section-intro">Primer poema</span>
+
 ## LA AMADA.
 
 <sup>5</sup> Soy morena<span class="note-ref" data-ref="ct-1-5-a" title="Ver comentario">&#42;</span>, pero hermosa,
@@ -154,7 +155,8 @@ que no despertéis ni desveléis,
 
 a mi amor hasta que quiera.
 
-## Segundo poema
+<span class="section-intro">Segundo poema</span>
+
 ## LA AMADA<span class="note-ref" data-ref="ct-2-8" title="Ver comentario">&#42;</span>.
 
 <sup>8</sup> ¡La voz de mi amado!
@@ -281,7 +283,8 @@ que no despertéis ni desveléis
 
 a mi amor hasta que quiera.
 
-## Tercer poema
+<span class="section-intro">Tercer poema</span>
+
 ## EL POETA<span class="note-ref" data-ref="ct-3-6" title="Ver comentario">&#42;</span>.
 
 <sup>6</sup> ¿Qué es eso que sube del desierto,
@@ -492,7 +495,8 @@ a beber de mi vino y de mi leche.
 
 queridos, embriagaos<span class="note-ref" data-ref="ct-5-1" title="Ver comentario">&#42;</span>!
 
-## Cuarto poema
+<span class="section-intro">Cuarto poema</span>
+
 ## LA AMADA<span class="note-ref" data-ref="ct-5-2" title="Ver comentario">&#42;</span>.
 
 <sup>2</sup> Yo dormía, velaba mi corazón.
@@ -533,7 +537,7 @@ en el pestillo de la cerradura<span class="note-ref" data-ref="ct-5-5" title="Ve
 
 pero mi amado se había marchado.
 
-## El alma se me fue con su huida<span class="note-ref" data-ref="ct-5-6" title="Ver comentario">&#42;</span>.
+El alma se me fue con su huida<span class="note-ref" data-ref="ct-5-6" title="Ver comentario">&#42;</span>.
 
 Lo busqué y no lo hallé,
 
@@ -557,7 +561,7 @@ si encontráis a mi amado,
 
 ¿qué le habéis de decir?
 
-## Que estoy enferma de amor.
+Que estoy enferma de amor.
 
 ## EL CORO<span class="note-ref" data-ref="ct-5-9" title="Ver comentario">&#42;</span>.
 
@@ -645,7 +649,8 @@ y recoger azucenas.
 
 que pasta entre azucenas.
 
-## Quinto poema
+<span class="section-intro">Quinto poema</span>
+
 ## EL AMADO<span class="note-ref" data-ref="ct-6-4-a" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Eres bella, amiga mía, como Tirsá,
@@ -844,7 +849,7 @@ que no despertéis ni desveléis,
 
 a mi amor hasta que quiera.
 
-## Epílogo<span class="note-ref" data-ref="ct-8-5" title="Ver comentario">&#42;</span>
+<span class="section-intro">Epílogo<span class="note-ref" data-ref="ct-8-5" title="Ver comentario">&#42;</span></span>
 <sup>5</sup> ¿Quién es ésta que sube del desierto,
 
 apoyada en su amado?
@@ -879,7 +884,8 @@ su patrimonio a cambio de amor,
 
 quedaría cubierto de baldón.
 
-## Apéndices
+<span class="section-intro">Apéndices</span>
+
 ## Dos epigramas<span class="note-ref" data-ref="ct-8-8-a" title="Ver comentario">&#42;</span>
 
 <sup>8</sup> Tenemos una hermanita
