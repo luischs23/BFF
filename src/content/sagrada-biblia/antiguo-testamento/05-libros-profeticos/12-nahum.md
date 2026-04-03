@@ -6,7 +6,8 @@ img: blog-placeholder-4.jpg
 # NAHÚM
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Oráculo sobre Nínive. Libro de la visión de Nahúm de Elcós.
 
-## Preludio
+<span class="section-intro">Preludio</span>
+
 ## Salmo. La ira de Yahvé<span class="note-ref" data-ref="na-1-2" title="Ver comentario">&#42;</span>.
 <sup>2</sup> ¡Dios celoso y vengador Yahvé,
 
@@ -141,6 +142,8 @@ Devastadores la habían devastado,
 
 habían destruido sus sarmientos.
 
+<span class="section-intro">Ruina de Ninive</span>
+
 ## El asalto.
 <sup>2</sup> ¡Avanza un destructor contra ti!
 
@@ -196,7 +199,7 @@ cuyas aguas<span class="note-ref" data-ref="na-2-9" title="Ver comentario">&#42;
 
 «¡Deteneos, deteneos!»
 
-## Pero nadie se vuelve.
+Pero nadie se vuelve.
 
 <sup>10</sup> «Saquead la plata, saquead el oro.»
 

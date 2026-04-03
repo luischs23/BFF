@@ -3,8 +3,9 @@ title: 'Zacarías'
 description: 'Libro del Profeta Zacarías'
 img: blog-placeholder-4.jpg
 ---
-## ZACARÍAS
-## Primera parte
+# ZACARÍAS
+<span class="section-intro">Primera parte</span>
+
 ## Exhortación a la conversión.
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> El octavo mes del año segundo de Darío<span class="note-ref" data-ref="za-1-1-a" title="Ver comentario">&#42;</span> dirigió Yahvé la palabra al profeta Zacarías (hijo de Berequías<span class="note-ref" data-ref="za-1-1-b" title="Ver comentario">&#42;</span>), hijo de Idó, en estos términos: <sup>2</sup> «Yahvé se irritó mucho con vuestros antepasados» <sup>3</sup> Les dirás: «Así dice Yahvé Sebaot: Volveos a mí —oráculo de Yahvé Sebaot— y yo me volveré a vosotros, dice Yahvé Sebaot.
@@ -12,6 +13,7 @@ img: blog-placeholder-4.jpg
 <sup>4</sup> No seáis como vuestros antepasados, a quienes los antiguos profetas predicaban así: ‘¡Convertíos de vuestra mala conducta y de vuestras malas obras!’ Pero ellos no escucharon ni me hicieron caso —oráculo de Yahvé—. <sup>5</sup> ¿Dónde están ahora vuestros antepasados? ¿Vivirán siempre vuestros profetas? <sup>6</sup> Sin embargo, mis palabras y preceptos encomendados a mis siervos los profetas ¿no alcanzaron a vuestros padres<span class="note-ref" data-ref="za-1-6" title="Ver comentario">&#42;</span>? Por eso se convirtieron diciendo: ‘Yahvé Sebaot nos ha tratado como había decidido, según nuestra conducta y nuestras obras’.»
 
 ## Primera visión: los jinetes.
+<span class="parallel-ref"><strong>6</strong> 1-7; Ap <strong>6</strong> 1-9.</span>
 <sup>7</sup> El día veinticuatro del undécimo mes (el mes de Sebat), el año segundo de Darío<span class="note-ref" data-ref="za-1-7" title="Ver comentario">&#42;</span>, Yahvé dirigió la palabra al profeta Zacarías (hijo de Berequías), hijo de Idó, en estos términos: <sup>8</sup> He tenido una visión esta noche. Un hombre, a lomos de un caballo alazán, estaba parado entre los mirtos de la hondonada; detrás de él había caballos rojos, alazanes y blancos<span class="note-ref" data-ref="za-1-8" title="Ver comentario">&#42;</span>. <sup>9</sup> Yo pregunté: «¿Quiénes son éstos, señor?» El ángel que hablaba conmigo me contestó: «Yo te enseñaré quiénes son.» <sup>10</sup> Y el hombre que estaba entre los mirtos intervino diciendo: «Éstos son los que ha enviado Yahvé a recorrer la tierra.» <sup>11</sup> Entonces ellos se dirigieron al ángel de Yahvé<span class="note-ref" data-ref="za-1-11-a" title="Ver comentario">&#42;</span> que estaba entre los mirtos y dijeron: «Hemos recorrido la tierra y hemos visto que toda la tierra vive en paz<span class="note-ref" data-ref="za-1-11-b" title="Ver comentario">&#42;</span>.» <sup>12</sup> Tomó la palabra el ángel de Yahvé y dijo: «Oh Yahvé Sebaot, ¿hasta cuándo seguirás sin apiadarte de Jerusalén y de las ciudades de Judá, contra las que estás irritado desde hace setenta años?» <sup>13</sup> Yahvé respondió al ángel que hablaba conmigo palabras buenas, palabras de consuelo. <sup>14</sup> Y el ángel que hablaba conmigo me dijo: «Proclama lo siguiente: Así dice Yahvé Sebaot: Siento celos de Jerusalén y de Sión, unos celos terribles, <sup>15</sup> y estoy sobremanera encolerizado contra las naciones que se sienten seguras<span class="note-ref" data-ref="za-1-15" title="Ver comentario">&#42;</span> y que, cuando me vieron poco encolerizado, contribuyeron al mal. <sup>16</sup> Por eso, así dice Yahvé: Me vuelvo con piedad hacia Jerusalén: en ella será reedificado mi templo —oráculo de Yahvé Sebaot— y el cordel de medir será aplicado a Jerusalén. <sup>17</sup> Clama también y di: Así dice Yahvé Sebaot: Aún han de rebosar mis ciudades de bienes; aún consolará Yahvé a Sión y aún elegirá a Jerusalén.»
 
 ## Segunda visión: cuernos y herreros.
@@ -47,7 +49,7 @@ toca a la niña de mis ojos<span class="note-ref" data-ref="za-2-12" title="Ver 
 
 y serán despojo de sus propios vasallos.
 
-## Sabréis así que Yahvé Sebaot me ha enviado.
+Sabréis así que Yahvé Sebaot me ha enviado.
 
 <sup>14</sup> Grita de gozo y alborozo, Sión capital,
 
@@ -194,7 +196,7 @@ con fidelidad y con justicia.
 
 <sup>23</sup> Así dice Yahvé Sebaot: Aquellos días, diez hombres de todas las lenguas de las naciones asirán por la orla del manto a un judío diciendo: «Queremos ir con vosotros, porque hemos oído decir que Dios está con vosotros.»
 
-## Segunda parte
+<span class="section-intro">Segunda parte</span>
 <span id="chapter-9" class="chapter-marker" data-chapter="9">9</span><sup>1</sup> Oráculo.
 
 ## La nueva tierra<span class="note-ref" data-ref="za-9-1-a" title="Ver comentario">&#42;</span>.

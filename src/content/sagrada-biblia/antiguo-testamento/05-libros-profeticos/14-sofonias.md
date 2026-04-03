@@ -3,13 +3,14 @@ title: 'Sofonías'
 description: 'Libro del Profeta Sofonías'
 img: blog-placeholder-4.jpg
 ---
-## SOFONÍAS
+# SOFONÍAS
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabra de Yahvé dirigida a Sofonías, hijo de Cusí, hijo de Godolías,
 
 hijo de Amarías, hijo de Ezequías, en tiempo de Josías, hijo de Amón, rey de Judá.
 
-## I. El día de Yahvé en Judá
+<span class="section-intro">I. El día de Yahvé en Judá</span>
+
 ## Preludio cósmico.
 <sup>2</sup> ¡Voy a aventarlo todo
 
@@ -195,15 +196,18 @@ quizá encontréis cobijo
 
 el Día de la ira de Yahvé.
 
-## II. Contra las naciones
+<span class="section-intro">II. Contra las naciones</span>
+
 ## El enemigo por occidente: los filisteos <span class="note-ref" data-ref="so-2-4" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Jos <strong>13</strong> 2+; Am <strong>1</strong> 6-8;</span>
+<span class="parallel-ref">Is <strong>14</strong> 28-32; Jr <strong>47</strong>; Ez <strong>25</strong> 15-17</span>
 <sup>4</sup> Gaza quedará desamparada,
 
 Ascalón desolada,
 
 Asdod, expulsada al mediodía,
 
-## Ecrón, arrancada de raíz.
+Ecrón, arrancada de raíz.
 
 <sup>5</sup> ¡Ay de los habitantes de la costa,
 
@@ -234,6 +238,8 @@ cuando los visite Yahvé su Dios
 y los traiga de su cautiverio.
 
 ## Enemigos por oriente: Moab y Amón.
+<span class="parallel-ref">Am <strong>1</strong> 13 - 2 3; Is 15-16;</span>
+<span class="parallel-ref">Jr <strong>48</strong> 1 - 49 6; Ez <strong>25</strong> 1-11.</span>
 <sup>8</sup> He oído los insultos de Moab,
 
 los denuestos lanzados por Amón,
@@ -279,6 +285,7 @@ cada una en su lugar,
 todas las islas de los paganos<span class="note-ref" data-ref="so-2-11" title="Ver comentario">&#42;</span>.
 
 ## El enemigo por el sur: Cus<span class="note-ref" data-ref="so-2-12" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">Is 18-20; Jr <strong>46</strong>; Ez 29-32.</span>
 <sup>12</sup> También vosotros, nubios:
 
 «Seréis atravesados por mi espada».
@@ -322,7 +329,8 @@ Todo el que pasa a su lado
 
 silba y agita su mano.
 
-## III. Contra Jerusalén
+<span class="section-intro">III. Contra Jerusalén</span>
+
 ## Contra los dirigentes de la nación.
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> ¡Ay de la rebelde, la impura,
 
@@ -403,7 +411,8 @@ todo el ardor de mi cólera.
 
 devorará la tierra entera<span class="note-ref" data-ref="so-3-8" title="Ver comentario">&#42;</span>.)
 
-## IV.   Promesas
+<span class="section-intro">IV.   Promesas</span>
+
 ## Conversión de los pueblos.
 <sup>9</sup> Entonces purificaré el labio de los pueblos,
 

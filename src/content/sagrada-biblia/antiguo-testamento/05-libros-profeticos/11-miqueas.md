@@ -6,8 +6,9 @@ img: blog-placeholder-4.jpg
 # MIQUEAS
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabra de Yahvé dirigida a Miqueas de Moréset, en tiempos de Jotán, Ajaz y Ezequías, reyes de Judá; y visiones sobre Samaría y Jerusalén.
 
-## I. El proceso de Israel
-## AMENAZAS Y CONDENAS
+<span class="section-intro">I. El proceso de Israel</span>
+
+## <span class="subsection-title">AMENAZAS Y CONDENAS</span>
 
 ## Juicio de Samaría <span class="note-ref" data-ref="mi-1-2-a" title="Ver comentario">&#42;</span>.
 <sup>2</sup> ¡Escuchad, pueblos todos;
@@ -379,8 +380,10 @@ y el monte del templo,
 
 un cerro agreste.
 
-## II. Promesas a Sión
+<span class="section-intro">II. Promesas a Sión</span>
+
 ## El reino futuro de Yahvé en Sión<span class="note-ref" data-ref="mi-4" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref">||Is <strong>2</strong> 2-4.</span>
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> En días futuros,
 
 el monte del templo de Yahvé
@@ -650,8 +653,9 @@ y destruiré tus ídolos<span class="note-ref" data-ref="mi-5-13" title="Ver com
 
 de las naciones que no escucharon!
 
-## III. Nuevo proceso de Israel
-# REPROCHES Y AMENAZAS
+<span class="section-intro">III. Nuevo proceso de Israel</span>
+
+## <span class="subsection-title">REPROCHES Y AMENAZAS</span>
 ## Yahvé pleitea con su pueblo<span class="note-ref" data-ref="mi-6" title="Ver comentario">&#42;</span>.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Escuchad lo que dice Yahvé:
 
@@ -675,7 +679,7 @@ se querella contra Israel:
 
 ¿En qué te he molestado?
 
-## Respóndeme<span class="note-ref" data-ref="mi-6-3" title="Ver comentario">&#42;</span>.
+Respóndeme<span class="note-ref" data-ref="mi-6-3" title="Ver comentario">&#42;</span>.
 
 <sup>4</sup> Pues yo te saqué del país de Egipto,
 
@@ -683,7 +687,7 @@ te rescaté de la esclavitud
 
 y mandé delante de ti a Moisés,
 
-## Aarón y María.
+Aarón y María.
 
 <sup>5</sup> Pueblo mío,
 
@@ -852,7 +856,8 @@ espero en el Dios de mi salvación:
 
 mi Dios me escuchará<span class="note-ref" data-ref="mi-7-7" title="Ver comentario">&#42;</span>.
 
-## IV. Esperanzas
+<span class="section-intro">IV. Esperanzas</span>
+
 ## Sión bajo los insultos de su enemiga<span class="note-ref" data-ref="mi-7-8" title="Ver comentario">&#42;</span>.
 <sup>8</sup> No te alegres por mí, enemiga mía,
 
@@ -860,7 +865,7 @@ pues aunque caí, me levantaré,
 
 y aunque estoy postrada en tinieblas,
 
-## Yahvé es mi luz.
+Yahvé es mi luz.
 
 <sup>9</sup> Soportaré la cólera de Yahvé,
 

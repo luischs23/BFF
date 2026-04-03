@@ -3,7 +3,7 @@ title: 'Jonás'
 description: 'Libro del Profeta Jonás'
 img: blog-placeholder-4.jpg
 ---
-## JONÁS
+# JONÁS
 ## Jonás, rebelde a su misión.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Yahvé habló a Jonás, hijo de Amitay, diciéndole: <sup>2</sup> «Prepárate y vete a Nínive, la metrópoli, para anunciarle que su maldad ha llegado hasta mí.» <sup>3</sup> Jonás se preparó para huir a Tarsis<span class="note-ref" data-ref="jon-1-3" title="Ver comentario">&#42;</span>, lejos de Yahvé. Bajó a Jope, donde encontró un barco que zarpaba para Tarsis; pagó su pasaje y se embarcó para ir con ellos a Tarsis, lejos de Yahvé. <sup>4</sup> Pero Yahvé desencadenó un viento tempestuoso sobre el mar, y se desencadenó una borrasca tan violenta que el barco amenazaba naufragar. <sup>5</sup> Los marineros se asustaron y cada cual pedía auxilio a su dios<span class="note-ref" data-ref="jon-1-5" title="Ver comentario">&#42;</span>; luego arrojaron por la borda la carga del barco para aligerarlo. En cambio, Jonás había bajado a la bodega del barco y dormía profundamente. <sup>6</sup> El capitán se acercó a él y le dijo: «¿Qué haces aquí durmiendo? ¡Levántate e invoca a tu Dios! A ver si tu Dios se apiada de nosotros y no perecemos.» <sup>7</sup> Luego propusieron entre todos: «Vamos a echar suertes para saber quién de nosotros es el culpable de este castigo<span class="note-ref" data-ref="jon-1-7" title="Ver comentario">&#42;</span>.» Echaron suertes y le tocó a Jonás.
 
@@ -50,7 +50,7 @@ la tierra se cerró para siempre sobre mí.
 
 Pero tú sacaste mi vida de la tumba,
 
-## Yahvé, Dios mío.
+Yahvé, Dios mío.
 
 <sup>8</sup> Cuando mi aliento desfallecía,
 

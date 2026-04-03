@@ -3,7 +3,7 @@ title: 'Abdías'
 description: 'Libro del Profeta Abdías'
 img: blog-placeholder-4.jpg
 ---
-## ABDÍAS
+# ABDÍAS
 ## Título y prólogo.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Visión de Abdías.
 
@@ -16,6 +16,7 @@ un embajador ha sido enviado a las naciones<span class="note-ref" data-ref="abd-
 «¡Arriba, desencadenemos la guerra contra él!»
 
 ## Sentencia contra Edom<span class="note-ref" data-ref="abd-1-2" title="Ver comentario">&#42;</span>.
+## ||Jr 49 7-22.
 <sup>2</sup> Mira, te he hecho el más insignificante de los pueblos,
 
 el más despreciable.
@@ -184,7 +185,7 @@ la campiña de Efraín
 
 y la campiña de Samaría,
 
-## Benjamín y Galaad.
+Benjamín y Galaad.
 
 <sup>20</sup> La multitud de los deportados de Israel
 

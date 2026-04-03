@@ -3,7 +3,7 @@ title: 'Amós'
 description: 'Libro del Profeta Amós'
 img: blog-placeholder-4.jpg
 ---
-## AMÓS
+# AMÓS
 ## Título.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabras de Amós, uno de los pastores de Técoa<span class="note-ref" data-ref="am-1-1-a" title="Ver comentario">&#42;</span>. Visiones que tuvo acerca de Israel, en tiempo de Ozías, rey de Judá, y en tiempo de Jeroboán<span class="note-ref" data-ref="am-1-1-b" title="Ver comentario">&#42;</span>, hijo de Joás, rey de Israel, dos años antes del terremoto<span class="note-ref" data-ref="am-1-1-c" title="Ver comentario">&#42;</span>.
 
@@ -18,8 +18,10 @@ los pastizales de los pastores quedan desolados
 
 y la cumbre del Carmelo se seca.
 
-## I. Juicio de las naciones limítrofes de Israel y del mismo Israel<span class="note-ref" data-ref="am-1-3-a" title="Ver comentario">&#42;</span>
+<span class="section-intro">I. Juicio de las naciones limítrofes de Israel y del mismo Israel<span class="note-ref" data-ref="am-1-3-a" title="Ver comentario">&#42;</span></span>
+
 ## Damasco.
+<span class="parallel-ref">Is <strong>17</strong> 1-3; Jr <strong>49</strong> 23-27.</span>
 <sup>3</sup> Esto dice Yahvé:
 
 ¡Por tres crímenes de Damasco y por cuatro<span class="note-ref" data-ref="am-1-3-b" title="Ver comentario">&#42;</span>,
@@ -43,6 +45,7 @@ El pueblo de Aram irá cautivo a Quir<span class="note-ref" data-ref="am-1-5-b" 
 dice Yahvé.
 
 ## Gaza y Filistea.
+<span class="parallel-ref">Jos <strong>13</strong>; Jr <strong>47</strong>; So <strong>2</strong> 4-7.</span>
 <sup>6</sup> Esto dice Yahvé:
 
 ¡Por tres crímenes de Gaza y por cuatro,
@@ -68,6 +71,7 @@ y perecerá lo que queda<span class="note-ref" data-ref="am-1-8-b" title="Ver co
 dice el Señor Yahvé.
 
 ## Tiro y Fenicia.
+<span class="parallel-ref">Is <strong>23</strong>; Ez 26-28</span>
 <sup>9</sup> Esto dice Yahvé:
 
 ¡Por tres crímenes de Tiro y por cuatro,
@@ -83,6 +87,7 @@ sin acordarse de la alianza entre hermanos<span class="note-ref" data-ref="am-1-
 que devorará sus palacios.
 
 ## Edom.
+<span class="parallel-ref">Is <strong>34</strong>; Jr <strong>49</strong> 7-22; Ez <strong>25</strong> 12-14; 35.</span>
 <sup>11</sup> Esto dice Yahvé:
 
 ¡Por tres crímenes de Edom y por cuatro,
@@ -102,6 +107,7 @@ y guardar incesante su rencor,
 que devorará los palacios de Bosrá.
 
 ## Amón.
+<span class="parallel-ref">Jr <strong>49</strong> 1-6; Ez <strong>25</strong> 1-7; So <strong>2</strong> 8-11.</span>
 <sup>13</sup> Esto dice Yahvé:
 
 ¡Por tres crímenes de los hijos de Amón y por cuatro,
@@ -127,6 +133,7 @@ juntamente con sus príncipes,
 dice Yahvé.
 
 ## Moab.
+<span class="parallel-ref">Is 15-16; Jr <strong>48</strong>; Ez <strong>25</strong> 8-11; So <strong>2</strong> 8-11.</span>
 <span id="chapter-2" class="chapter-marker" data-chapter="2">2</span><sup>1</sup> Esto dice Yahvé:
 
 ¡Por tres crímenes de Moab y por cuatro,
@@ -253,7 +260,8 @@ huirá desnudo aquel día,
 
 oráculo de Yahvé.
 
-## II. Amonestaciones y amenazas a Israel
+<span class="section-intro">II. Amonestaciones y amenazas a Israel</span>
+
 ## Elección y castigo.
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Escuchad esta palabra que pronuncia Yahvé contra vosotros, hijos de Israel, contra la entera familia que hice subir del país de Egipto<span class="note-ref" data-ref="am-3-1" title="Ver comentario">&#42;</span>:
 
@@ -373,6 +381,7 @@ y muchas casas desaparecerán
 —oráculo de Yahvé—.
 
 ## Contra las mujeres de Samaría.
+<span class="parallel-ref">Is <strong>3</strong> 16-24; <strong>32</strong> 9-14.</span>
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Escuchad esta palabra, vacas de Basán<span class="note-ref" data-ref="am-4-1" title="Ver comentario">&#42;</span>,
 
 que moráis en la montaña de Samaría,
@@ -833,7 +842,8 @@ desde la Entrada de Jamat
 
 hasta el torrente de la Arabá<span class="note-ref" data-ref="am-6-14-b" title="Ver comentario">&#42;</span>!
 
-## III. Las visiones
+<span class="section-intro">III. Las visiones</span>
+
 ## Primera visión: las langostas.
 <span id="chapter-7" class="chapter-marker" data-chapter="7">7</span><sup>1</sup> Esto me hizo ver el Señor Yahvé:Estaba él formando langostas,
 
@@ -971,6 +981,7 @@ y se arrojarán por todas partes.
 ¡Silencio<span class="note-ref" data-ref="am-8-3" title="Ver comentario">&#42;</span>!
 
 ## Contra los defraudadores y explotadores <span class="note-ref" data-ref="am-8-4" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>2</strong> 6-8; <strong>4</strong> 1.</span>
 <sup>4</sup> Escuchad esto
 
 los que pisoteáis a los pobres,
@@ -1116,6 +1127,7 @@ Pondré en ellos mis ojos
 para mal y no para bien.
 
 ## Doxología <span class="note-ref" data-ref="am-9-5" title="Ver comentario">&#42;</span>.
+<span class="parallel-ref"><strong>3</strong> 13; <strong>5</strong> 8.</span>
 <sup>5</sup> ¡El Señor Yahvé Sebaot...!,
 
 el que toca la tierra y ella se derrite,
@@ -1181,7 +1193,7 @@ todos los pecadores de mi pueblo<span class="note-ref" data-ref="am-9-10-a" titl
 
 no nos alcanzará la desgracia<span class="note-ref" data-ref="am-9-10-b" title="Ver comentario">&#42;</span>!»
 
-## IV. Perspectivas de restauración y de fecundidad paradisíaca<span class="note-ref" data-ref="am-9-11-a" title="Ver comentario">&#42;</span>
+<span class="section-intro">IV. Perspectivas de restauración y de fecundidad paradisíaca<span class="note-ref" data-ref="am-9-11-a" title="Ver comentario">&#42;</span></span>
 <sup>11</sup> Aquel día levantaré
 
 la cabaña ruinosa de David;

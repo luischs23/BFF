@@ -3,11 +3,12 @@ title: 'Joel'
 description: 'Libro del Profeta Joel'
 img: blog-placeholder-4.jpg
 ---
-## JOEL
+# JOEL
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Palabra de Yahvé que fue dirigida a Joel, hijo de Petuel.
 
-## I. La plaga de langosta
-## 1. LITURGIA DE DUELO Y DE SÚPLICA
+<span class="section-intro">I. La plaga de langosta</span>
+
+## <span class="subsection-title">1. LITURGIA DE DUELO Y DE SÚPLICA</span>
 ## Lamentación por la ruina del país.
 <sup>2</sup> ¡Escuchad esto, ancianos,
 
@@ -340,7 +341,7 @@ Que no se diga entre los pueblos:
 
 ¿Dónde está su Dios?»
 
-# 2. RESPUESTA DE YAHVÉ
+## <span class="subsection-title">2. RESPUESTA DE YAHVÉ</span>
 ## Fin del azote y liberación.
 <sup>18</sup> Yahvé sintió añoranza de su tierra
 
@@ -427,8 +428,9 @@ que hizo maravillas con vosotros.
 
 ¡Y mi pueblo no volverá a ser avergonzado!»
 
-# II. La nueva era y el día de Yahvé
-## 1. LA EFUSIÓN DEL ESPÍRITU<span class="note-ref" data-ref="jl-3" title="Ver comentario">&#42;</span>
+<span class="section-intro">II. La nueva era y el día de Yahvé</span>
+
+## <span class="subsection-title">1. LA EFUSIÓN DEL ESPÍRITU<span class="note-ref" data-ref="jl-3" title="Ver comentario">&#42;</span></span>
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> «Después de esto
 
 yo derramaré mi espíritu sobre todo mortal
@@ -471,7 +473,7 @@ y entre los supervivientes
 
 estarán los que llame Yahvé.
 
-# 2. JUICIO DE LOS PUEBLOS<span class="note-ref" data-ref="jl-4" title="Ver comentario">&#42;</span>
+## <span class="subsection-title">2. JUICIO DE LOS PUEBLOS<span class="note-ref" data-ref="jl-4" title="Ver comentario">&#42;</span></span>
 ## Temas generales.
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> «Pues mirad: en esos días, en aquel tiempo,
 
@@ -610,7 +612,7 @@ Jerusalén será lugar santo<span class="note-ref" data-ref="jl-4-17" title="Ver
 
 y los extranjeros no volverán a pasar por ella.»
 
-# 3. ERA PARADISÍACA DE LA RESTAURACIÓN DE ISRAEL
+## <span class="subsection-title">3. ERA PARADISÍACA DE LA RESTAURACIÓN DE ISRAEL</span>
 <sup>18</sup> Aquel día
 
 los montes destilarán vino

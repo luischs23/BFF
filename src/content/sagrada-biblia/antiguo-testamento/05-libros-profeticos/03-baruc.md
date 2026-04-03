@@ -4,15 +4,17 @@ description: 'Libro del Profeta Baruc'
 img: blog-placeholder-4.jpg
 ---
 # BARUC
-## Introducción
-### Baruc y la asamblea de los judíos en Babilonia<span class="note-ref" data-ref="ba-1" title="Ver comentario">&#42;</span>.
+<span class="section-intro">Introducción</span>
+
+## Baruc y la asamblea de los judíos en Babilonia<span class="note-ref" data-ref="ba-1" title="Ver comentario">&#42;</span>.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Éste es el texto del libro que Baruc, hijo de Nerías, hijo de Maasías, hijo de Sedecías, hijo de Asadías, hijo de Jelcías, escribió en Babilonia, <sup>2</sup> el año quinto<span class="note-ref" data-ref="ba-1-2" title="Ver comentario">&#42;</span>, el día siete del mes en que los caldeos conquistaron e incendiaron Jerusalén.
 
 <sup>3</sup> Baruc leyó el texto de este libro ante Jeconías, hijo de Joaquín, rey de Judá, y ante todo el pueblo congregado para escuchar el libro; <sup>4</sup> ante los dignatarios y los hijos del rey<span class="note-ref" data-ref="ba-1-4" title="Ver comentario">&#42;</span>, ante los ancianos y ante todo el pueblo, desde el menor al mayor, todos los que vivían en Babilonia, a orillas del río Sud. <sup>5</sup> Todos lloraron, ayunaron y suplicaron al Señor. <sup>6</sup> Luego hicieron una colecta, según las posibilidades de cada uno, <sup>7</sup> y la enviaron a Jerusalén, al sacerdote Joaquín<span class="note-ref" data-ref="ba-1-7" title="Ver comentario">&#42;</span>, hijo de Jelcías, hijo de Salún, a los demás sacerdotes y a toda la gente que vivía con él en Jerusalén. <sup>8</sup> Ya Baruc, el día diez del mes de Siván, había recuperado los utensilios robados del templo del Señor, con el fin de restituirlos<span class="note-ref" data-ref="ba-1-8" title="Ver comentario">&#42;</span> a Judá. Se trataba de los objetos de plata que había mandado hacer Sedecías, hijo de Josías, rey de Judá, <sup>9</sup> después que Nabucodonosor, rey de Babilonia, deportara de Jerusalén a Babilonia a Jeconías, a los gobernantes, a los cerrajeros<span class="note-ref" data-ref="ba-1-9" title="Ver comentario">&#42;</span>, a los dignatarios y a la gente del pueblo.
 
 <sup>10</sup> Se les decía: Ahí os enviamos dinero; comprad con él holocaustos, víctimas expiatorias e incienso, y haced ofrendas y sacrificios sobre el altar del Señor, nuestro Dios. <sup>11</sup> Rezad por la vida de Nabucodonosor, rey de Babilonia, y por la de su hijo Baltasar, para que duren tanto como el cielo sobre la tierra. <sup>12</sup> El Señor nos dé fuerzas y nos ilumine para que vivamos protegidos por Nabucodonosor, rey de Babilonia, y por su hijo Baltasar; para que les sirvamos por mucho tiempo y gocemos de su favor. <sup>13</sup> Y rezad también por nosotros al Señor, nuestro Dios, porque hemos pecado contra Él, y todavía hoy no se han apartado de nosotros el furor y la cólera del Señor. <sup>14</sup> Leed este libro que os enviamos para su proclamación en el templo del Señor, en el día de la fiesta<span class="note-ref" data-ref="ba-1-14" title="Ver comentario">&#42;</span> y en las fechas oportunas. <sup>15</sup> Diréis:
 
-# I. Oración de los desterrados
+<span class="section-intro">I. Oración de los desterrados</span>
+
 ## Confesión de los pecados.
 El Señor, nuestro Dios, es justo; nosotros, en cambio, nos sentimos hoy abochornados, igual que los habitantes de Judá y de Jerusalén <sup>16</sup> y nuestros reyes, príncipes, sacerdotes, profetas y antepasados. <sup>17</sup> Porque hemos pecado contra el Señor, <sup>18</sup> le hemos desobedecido, no hemos escuchado la voz del Señor, nuestro Dios, ni hemos cumplido los mandamientos que el Señor nos había dado. <sup>19</sup> Desde el día en que el Señor sacó a nuestros padres de Egipto hasta hoy hemos sido rebeldes al Señor, nuestro Dios, y ligeros para no escuchar su voz. <sup>20</sup> Por esto se nos acumulan ahora las desgracias y maldiciones que el Señor anunció a su siervo Moisés cuando sacó a nuestros padres de Egipto para darnos una tierra que mana leche y miel. <sup>21</sup> Nosotros no hemos escuchado la voz del Señor, nuestro Dios, que nos habló por medio de sus enviados, los profetas. <sup>22</sup> Cada uno de nosotros ha seguido los planes de su corazón obstinado, sirviendo a dioses ajenos y haciendo el mal ante el Señor, nuestro Dios.
 
@@ -29,7 +31,7 @@ El Señor, nuestro Dios, es justo; nosotros, en cambio, nos sentimos hoy abochor
 
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Señor topoderoso, Dios de Israel, un alma angustiada y un espíritu abatido claman a ti. <sup>2</sup> Escucha, Señor, y ten piedad, porque hemos pecado contra ti. <sup>3</sup> Pues tú reinas eternamente, mas nosotros perecemos para siempre. <sup>4</sup> Señor topoderoso, Dios de Israel, escucha la oración de los muertos de Israel<span class="note-ref" data-ref="ba-3-4" title="Ver comentario">&#42;</span> y de los hijos de aquellos que pecaron contra ti. Ellos desobedecieron al Señor, su Dios, y por eso se nos acumulan las desgracias. <sup>5</sup> No te acuerdes de los delitos de nuestros antepasados; acuérdate hoy de tu poder y de tu fama. <sup>6</sup> Puesto que eres el Señor, nuestro Dios, nosotros te alabaremos, Señor. <sup>7</sup> Tú nos infundiste tu temor para que invocáramos tu nombre. Queremos alabarte en nuestro destierro, porque hemos apartado de nuestro corazón toda la maldad con que nuestros antepasados pecaron contra ti. <sup>8</sup> Y aquí estamos hoy en nuestro destierro, donde tú nos dispersaste, convirtiéndonos en objeto de burla, maldición y condenación por todos los delitos de nuestros antepasados, que se apartaron del Señor, nuestro Dios.
 
-## II. La sabiduría, privilegio de Israel
+<span class="section-intro">II. La sabiduría, privilegio de Israel</span>
 <sup>9</sup> Escucha, Israel, los mandamientos de vida,
 
 presta atención para aprender sensatez.
@@ -192,7 +194,7 @@ ni tus privilegios a pueblo extranjero.
 
 pues se nos ha revelado lo que agrada al Señor.
 
-## III. Quejas y esperanzas de Jerusalen <span class="note-ref" data-ref="ba-4-5-a" title="Ver comentario">&#42;</span>
+<span class="section-intro">III. Quejas y esperanzas de Jerusalen <span class="note-ref" data-ref="ba-4-5-a" title="Ver comentario">&#42;</span></span>
 <sup>5</sup> ¡Ánimo, pueblo mío,
 
 memoria de Israel<span class="note-ref" data-ref="ba-4-5-b" title="Ver comentario">&#42;</span>!
@@ -219,7 +221,7 @@ el castigo de Dios, dijo:
 
 Escuchad, vecinas de Sión,
 
-## Dios me ha enviado una gran pena.
+Dios me ha enviado una gran pena.
 
 <sup>10</sup> He visto el destierro que el Eterno
 
@@ -333,7 +335,7 @@ os enviará la alegría eterna de vuestra salvación.
 
 <sup>30</sup> ¡Ánimo, Jerusalén!
 
-## Aquel que te dio nombre<span class="note-ref" data-ref="ba-4-30" title="Ver comentario">&#42;</span> te consolará.
+Aquel que te dio nombre<span class="note-ref" data-ref="ba-4-30" title="Ver comentario">&#42;</span> te consolará.
 
 <sup>31</sup> ¡Malditos los que te hicieron daño
 
@@ -435,7 +437,7 @@ con alegría a la luz de su gloria,
 
 con su misericordia y su justicia.
 
-## IV. Carta de Jeremías
+<span class="section-intro">IV. Carta de Jeremías</span>
 Copia de la carta que envió Jeremías a los prisioneros que iban a ser deportados a Babilonia por el rey de los babilonios, para comunicarles lo que Dios le había encargado.
 
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> Por los pecados que habéis cometido contra Dios, vais a ser deportados a Babilonia por su rey, Nabucodonosor. <sup>2</sup> Llegados a Babilonia, permaneceréis allí muchos años, un largo periodo de siete generaciones; pero después yo os sacaré de allí en paz. <sup>3</sup> En ese tiempo veréis en Babilonia dioses de plata, oro y madera, que son transportados a hombros<span class="note-ref" data-ref="ba-6-3" title="Ver comentario">&#42;</span> y que infunden temor a los paganos. <sup>4</sup> Tened cuidado, no vayais a imitar también vosotros a esos extranjeros y os domine el temor hacia ellos. <sup>5</sup> Cuando veáis a la multitud delante y detrás de ellos adorándolos, decid entonces en vuestro interior: «A ti solo hay que adorar, Señor,» <sup>6</sup> pues mi ángel os acompaña y protege vuestras vidas.

@@ -3,12 +3,12 @@ title: 'Oseas'
 description: 'Libro del Profeta Oseas'
 img: blog-placeholder-4.jpg
 ---
-## OSEAS
+# OSEAS
 ## Título.
 
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> En tiempo de Ozías, Jotán, Ajaz y Ezequías, reyes de Judá, y en tiempo de Jeroboán, hijo de Joás, rey de Israel<span class="note-ref" data-ref="os-1-1" title="Ver comentario">&#42;</span>, fue dirigida la palabra de Yahvé a Oseas, hijo de Beerí.
 
-## I. Matrimonio de Oseas y su valor simbólico<span class="note-ref" data-ref="os-1-2-a" title="Ver comentario">&#42;</span>
+<span class="section-intro">I. Matrimonio de Oseas y su valor simbólico<span class="note-ref" data-ref="os-1-2-a" title="Ver comentario">&#42;</span></span>
 
 ## Matrimonio e hijos de Oseas.
 <sup>2</sup> Comienzo de las palabras de Yahvé, transmitidas por medio de Oseas.
@@ -255,7 +255,8 @@ y él responderá: «¡Dios mío<span class="note-ref" data-ref="os-2-25-b" titl
 
 <sup>4</sup> Porque los israelitas se quedarán durante mucho tiempo sin rey ni príncipe, sin sacrificios ni estela, sin efod ni terafim. <sup>5</sup> Después volverán los israelitas; buscarán a Yahvé su Dios y a David, su rey<span class="note-ref" data-ref="os-3-5" title="Ver comentario">&#42;</span>, y acudirán con temor a Yahvé y a sus bienes en los días venideros.
 
-## II. Crímenes y castigo de Israel
+<span class="section-intro">II. Crímenes y castigo de Israel</span>
+
 ## Corrupción general.
 <span id="chapter-4" class="chapter-marker" data-chapter="4">4</span><sup>1</sup> Escuchad la palabra de Yahvé,
 
@@ -531,7 +532,7 @@ hasta que expíen su falta<span class="note-ref" data-ref="os-5-15-b" title="Ver
 
 y acudan a buscarme.
 
-## En su angustia me buscarán.
+En su angustia me buscarán.
 
 ## Vuelta superficial a Yahvé<span class="note-ref" data-ref="os-6" title="Ver comentario">&#42;</span>.
 <span id="chapter-6" class="chapter-marker" data-chapter="6">6</span><sup>1</sup> «Venid, volvamos a Yahvé;
@@ -864,7 +865,7 @@ habrán de volver a Egipto.
 
 y edifica templos;
 
-## Judá multiplica ciudades fortificadas.
+Judá multiplica ciudades fortificadas.
 
 Pero yo prenderé fuego a sus ciudades,
 
@@ -1099,7 +1100,7 @@ los altozanos de Bet Avén,
 
 el pecado de Israel.
 
-## Cardos y zarzas cubrirán sus altares.
+Cardos y zarzas cubrirán sus altares.
 
 Entonces dirán a los montes:
 
@@ -1136,7 +1137,7 @@ Montaré a Efraín,
 
 Judá abrirá surco,
 
-## Jacob destripará terrones.
+Jacob destripará terrones.
 
 <sup>12</sup> Sembrad justicia<span class="note-ref" data-ref="os-10-12" title="Ver comentario">&#42;</span>,
 
@@ -1321,7 +1322,7 @@ y allí habló con él<span class="note-ref" data-ref="os-12-5-b" title="Ver com
 
 <sup>6</sup> Sí, Yahvé Dios Sebaot,
 
-## Yahvé es su título.
+Yahvé es su título.
 
 <sup>7</sup> Y tú conviértete a tu Dios:
 
@@ -1496,7 +1497,7 @@ voy a rescatarlos de la muerte?
 
 dónde tu contagio, Seol<span class="note-ref" data-ref="os-13-14" title="Ver comentario">&#42;</span>?
 
-## La compasión se esconde a mis ojos.
+La compasión se esconde a mis ojos.
 
 <sup>15</sup> Aunque Efraín<span class="note-ref" data-ref="os-13-15-a" title="Ver comentario">&#42;</span> dé fruto
 
@@ -1526,7 +1527,8 @@ sus niños serán estrellados,
 
 y sus embarazadas abiertas en canal.
 
-## III. Conversión de Israel y vuelta a la gracia<span class="note-ref" data-ref="os-14-2" title="Ver comentario">&#42;</span>
+<span class="section-intro">III. Conversión de Israel y vuelta a la gracia<span class="note-ref" data-ref="os-14-2" title="Ver comentario">&#42;</span></span>
+
 ## Vuelta sincera de Israel a Yahvé.
 <sup>2</sup> Vuelve, Israel, a Yahvé tu Dios,
 

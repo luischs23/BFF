@@ -7,7 +7,8 @@ img: blog-placeholder-4.jpg
 ## Título.
 <span id="chapter-1" class="chapter-marker" data-chapter="1">1</span><sup>1</sup> Oráculo<span class="note-ref" data-ref="ha-1-1" title="Ver comentario">&#42;</span> que tuvo en visión el profeta Habacuc.
 
-## I. Diálogo entre el profeta y su Dios
+<span class="section-intro">I. Diálogo entre el profeta y su Dios</span>
+
 ## Primera queja del profeta: la bancarrota de la justicia<span class="note-ref" data-ref="ha-1-2" title="Ver comentario">&#42;</span>.
 <sup>2</sup> ¿Hasta cuándo, Yahvé, pediré auxilio,
 
@@ -159,7 +160,8 @@ pues vendrá ciertamente, sin retraso.
 
 mas el justo por su fidelidad vivirá<span class="note-ref" data-ref="ha-2-4-b" title="Ver comentario">&#42;</span>.»
 
-## II. Maldiciones contra el opresor
+<span class="section-intro">II. Maldiciones contra el opresor</span>
+
 ## Preludio.
 <sup>5</sup> ¡Ciertamente es traidora la riqueza<span class="note-ref" data-ref="ha-2-5" title="Ver comentario">&#42;</span>!
 
@@ -177,10 +179,10 @@ acapara para sí los pueblos todos!
 
 sátiras, adivinanzas y enigmas?
 
-## Dirán<span class="note-ref" data-ref="ha-2-6-a" title="Ver comentario">&#42;</span>:
+Dirán<span class="note-ref" data-ref="ha-2-6-a" title="Ver comentario">&#42;</span>:
 
 ## Las cinco imprecaciones.
-## I
+## <span class="subsection-title">I</span>
 
 ¡Ay<span class="note-ref" data-ref="ha-2-6-b" title="Ver comentario">&#42;</span> del que se enriquece con lo ajeno
 
@@ -202,7 +204,7 @@ por tus crímenes, por la violencia al país,
 
 a la ciudad y a todos los que la habitan.
 
-## II
+## <span class="subsection-title">II</span>
 
 <sup>9</sup> ¡Ay<span class="note-ref" data-ref="ha-2-9" title="Ver comentario">&#42;</span> de quien saca ganancia
 
@@ -222,7 +224,7 @@ tú mismo te malogras!
 
 y la viga de madera le responde<span class="note-ref" data-ref="ha-2-11" title="Ver comentario">&#42;</span>.
 
-## III
+## <span class="subsection-title">III</span>
 
 <sup>12</sup> ¡Ay<span class="note-ref" data-ref="ha-2-12" title="Ver comentario">&#42;</span> de quien construye con sangre una ciudad,
 
@@ -240,7 +242,7 @@ del conocimiento de la gloria de Yahvé,
 
 como las aguas llenan el mar!
 
-## IV
+## <span class="subsection-title">IV</span>
 
 <sup>15</sup> ¡Ay<span class="note-ref" data-ref="ha-2-15-a" title="Ver comentario">&#42;</span> del que emborracha a sus vecinos,
 
@@ -264,7 +266,7 @@ y la matanza de animales te<span class="note-ref" data-ref="ha-2-17-b" title="Ve
 
 a la ciudad y a todos los que la habitan<span class="note-ref" data-ref="ha-2-17-c" title="Ver comentario">&#42;</span>).
 
-## V
+## <span class="subsection-title">V</span>
 
 <sup>19</sup> ¡Ay<span class="note-ref" data-ref="ha-2-19-a" title="Ver comentario">&#42;</span> de quien dice al madero: «Despierta»,
 
@@ -288,7 +290,7 @@ artífice de ídolos mudos?
 
 ¡silencio ante él, tierra entera<span class="note-ref" data-ref="ha-2-20-b" title="Ver comentario">&#42;</span>!
 
-## III. Llamada a la intervención de Yahvé
+<span class="section-intro">III. Llamada a la intervención de Yahvé</span>
 <span id="chapter-3" class="chapter-marker" data-chapter="3">3</span><sup>1</sup> Oración<span class="note-ref" data-ref="ha-3-1-a" title="Ver comentario">&#42;</span> del profeta Habacuc<span class="note-ref" data-ref="ha-3-1-b" title="Ver comentario">&#42;</span>, en el tono de las lamentaciones.
 
 ## Preludio. Súplica.
@@ -372,7 +374,7 @@ con cólera aplastas naciones.
 
 a salvar a tu ungido<span class="note-ref" data-ref="ha-3-13" title="Ver comentario">&#42;</span>.
 
-## Derrumbas la casa del impío, Pausa.
+Derrumbas la casa del impío, Pausa.
 
 desnudas sus cimientos hasta el fondo.
 
