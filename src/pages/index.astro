@@ -313,7 +313,7 @@ const dailyCards = SECTIONS.map((section, i) => ({
 				<span class="text-gray-900 dark:text-white font-semibold text-sm leading-tight">Catecismo</span>
 				<span class="text-gray-400 dark:text-gray-500 text-xs mt-0.5">Iglesia Católica</span>
 			</a>
-
+			{isDev && (
 			<!-- San Agustín -->
 			<a
 				href="/san-agustin"
@@ -327,6 +327,7 @@ const dailyCards = SECTIONS.map((section, i) => ({
 				<span class="text-gray-900 dark:text-white font-semibold text-sm leading-tight">San Agustín</span>
 				<span class="text-gray-400 dark:text-gray-500 text-xs mt-0.5">Obras completas</span>
 			</a>
+			)}
 
 			<!-- Suma Teológica -->
 			<a

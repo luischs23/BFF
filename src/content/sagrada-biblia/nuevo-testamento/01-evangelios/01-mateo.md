@@ -782,7 +782,7 @@ pues enseñan doctrinas que son preceptos de hombres.»
 <span class="parallel-ref">||Mc <strong>9</strong> 14-29; ||Lc <strong>9</strong> 37-42.</span>
 <sup>14</sup> Cuando llegaron donde la gente, se acercó a él un hombre que, tras arrodillarse ante él, <sup>15</sup> le suplicó: «Señor, ten piedad de mi hijo, porque es lunático y sufre mucho. Muchas veces cae en el fuego y otras muchas en el agua. <sup>16</sup> Se lo he presentado a tus discípulos, pero ellos no han podido curarlo.» <sup>17</sup> Jesús exclamó: «¡Ay, generación incrédula y perversa! ¿Hasta cuándo estaré con vosotros? ¿Hasta cuándo habré de soportaros? ¡Traédmelo acá!» <sup>18</sup> Jesús le increpó y el demonio salió de él; y quedó sano el niño desde aquel momento.
 
-<sup>19</sup> Entonces los discípulos se acercaron a Jesús, en privado, y le preguntaron: «¿Por qué nosotros no pudimos expulsarlo?» <sup>20</sup> Les respondió: «Por vuestra poca fe<span class="note-ref" data-ref="mt-17-20-a" title="Ver comentario">&#42;</span>. Porque yo os aseguro que si tenéis fe como un grano de mostaza, diréis a este monte: ‘Desplázate de aquí allá’, y se desplazará. Y nada os será imposible<span class="note-ref" data-ref="mt-17-20-b" title="Ver comentario">&#42;</span>.» [21]
+<sup>19</sup> Entonces los discípulos se acercaron a Jesús, en privado, y le preguntaron: «¿Por qué nosotros no pudimos expulsarlo?» <sup>20</sup> Les respondió: «Por vuestra poca fe<span class="note-ref" data-ref="mt-17-20-a" title="Ver comentario">&#42;</span>. Porque yo os aseguro que si tenéis fe como un grano de mostaza, diréis a este monte: ‘Desplázate de aquí allá’, y se desplazará. Y nada os será imposible<span class="note-ref" data-ref="mt-17-20-b" title="Ver comentario">&#42;</span>.»
 
 ## Segundo anuncio de la Pasión.
 <span class="parallel-ref">||Mc <strong>9</strong> 30-32; ||Lc <strong>9</strong> 44-45.</span>
@@ -804,7 +804,7 @@ pues enseñan doctrinas que son preceptos de hombres.»
 <span class="parallel-ref">||Mc <strong>9</strong> 43-47; =Mt <strong>5</strong> 29-30.</span>
 <sup>8</sup> «Por eso, si tu mano o tu pie te es ocasión de tropiezo<span class="note-ref" data-ref="mt-18-8-a" title="Ver comentario">&#42;</span>, córtatelo y arrójalo de ti; más te vale entrar en la Vida<span class="note-ref" data-ref="mt-18-8-b" title="Ver comentario">&#42;</span> manco o cojo que ser arrojado en el fuego eterno con las dos manos o los dos pies. <sup>9</sup> Y si tu ojo te es ocasión de tropiezo, sácatelo y arrójalo de ti; más te vale entrar en la Vida con un solo ojo que ser arrojado a la Gehenna del fuego<span class="note-ref" data-ref="mt-18-9" title="Ver comentario">&#42;</span> con los dos ojos.
 
-<sup>10</sup> «Guardaos de menospreciar a uno de estos pequeños, porque yo os digo que sus ángeles, en los cielos, ven continuamente el rostro<span class="note-ref" data-ref="mt-18-10-a" title="Ver comentario">&#42;</span> de mi Padre que está en los cielos<span class="note-ref" data-ref="mt-18-10-b" title="Ver comentario">&#42;</span>. [11]
+<sup>10</sup> «Guardaos de menospreciar a uno de estos pequeños, porque yo os digo que sus ángeles, en los cielos, ven continuamente el rostro<span class="note-ref" data-ref="mt-18-10-a" title="Ver comentario">&#42;</span> de mi Padre que está en los cielos<span class="note-ref" data-ref="mt-18-10-b" title="Ver comentario">&#42;</span>.
 
 ## La oveja perdida.
 <span class="parallel-ref">||Lc <strong>15</strong> 3-7.</span>
@@ -973,7 +973,7 @@ debajo de tus pies?
 
 ## Siete maldiciones contra los escribas y fariseos.
 <span class="parallel-ref">||Lc <strong>11</strong> 39-48.52.</span>
-<sup>13</sup> «¡Ay de vosotros, escribas y fariseos hipócritas, que cerráis a los hombres el Reino de los Cielos! Vosotros ciertamente no entráis, pero además impedís el paso a los que están entrando<span class="note-ref" data-ref="mt-23-13" title="Ver comentario">&#42;</span>. [14]
+<sup>13</sup> «¡Ay de vosotros, escribas y fariseos hipócritas, que cerráis a los hombres el Reino de los Cielos! Vosotros ciertamente no entráis, pero además impedís el paso a los que están entrando<span class="note-ref" data-ref="mt-23-13" title="Ver comentario">&#42;</span>. 
 
 <sup>15</sup> «¡Ay de vosotros, escribas y fariseos hipócritas, que recorréis mar y tierra para hacer un prosélito<span class="note-ref" data-ref="mt-23-15" title="Ver comentario">&#42;</span>, y, cuando llega a serlo, lo hacéis hijo de condenación el doble que vosotros!
 
