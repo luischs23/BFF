@@ -20,6 +20,19 @@ function normalizeText(text: string): string {
     .toLowerCase();
 }
 
+// Maps a position in the normalized text back to the original text position.
+// Punctuation is removed during normalization, so the indexes can diverge.
+function normToOrigIndex(original: string, normIdx: number): number {
+  const punc = /[,;:.!?¡¿'"«»""'']/;
+  let ni = 0;
+  for (let i = 0; i < original.length; i++) {
+    if (ni === normIdx) return i;
+    const nc = original[i].normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    if (nc.length > 0 && !punc.test(nc)) ni++;
+  }
+  return original.length;
+}
+
 interface Marker {
   pos: number;
   end: number;
@@ -121,8 +134,9 @@ export const GET: APIRoute = async ({ url }) => {
       const idx = normalizedText.indexOf(normalizedQuery);
 
       if (idx !== -1) {
-        const snippetStart = Math.max(0, idx - 70);
-        const snippetEnd = Math.min(v.text.length, idx + query.length + 70);
+        const origIdx = normToOrigIndex(v.text, idx);
+        const snippetStart = Math.max(0, origIdx - 70);
+        const snippetEnd = Math.min(v.text.length, origIdx + query.length + 70);
         const snippet =
           (snippetStart > 0 ? '...' : '') +
           v.text.slice(snippetStart, snippetEnd) +

@@ -127,16 +127,31 @@ import { Search, X, BookOpen } from "lucide-astro";
 
     function highlightText(text: string, query: string): string {
       if (!query) return escapeHtml(text);
-      const normalized = (t: string) =>
+      const norm = (t: string) =>
         t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[,;:.!?¡¿'"«»""'']/g, '').toLowerCase();
-      const normText = normalized(text);
-      const normQuery = normalized(query);
-      const idx = normText.indexOf(normQuery);
-      if (idx === -1) return escapeHtml(text);
+      const normIdx = norm(text).indexOf(norm(query));
+      if (normIdx === -1) return escapeHtml(text);
+
+      // Map normalized index back to original text positions
+      // Punctuation chars are removed in normalization, so norm and orig indexes can diverge
+      const punc = /[,;:.!?¡¿'"«»""'']/;
+      const normQueryLen = norm(query).length;
+      let ni = 0;
+      let origStart = -1, origEnd = text.length;
+      for (let i = 0; i < text.length; i++) {
+        const nc = text[i].normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        const contributes = nc.length > 0 && !punc.test(nc);
+        if (contributes) {
+          if (origStart === -1 && ni === normIdx) origStart = i;
+          if (ni === normIdx + normQueryLen) { origEnd = i; break; }
+          ni++;
+        }
+      }
+      if (origStart === -1) return escapeHtml(text);
       return (
-        escapeHtml(text.slice(0, idx)) +
-        `<mark class="search-match">${escapeHtml(text.slice(idx, idx + query.length))}</mark>` +
-        escapeHtml(text.slice(idx + query.length))
+        escapeHtml(text.slice(0, origStart)) +
+        `<mark class="search-match">${escapeHtml(text.slice(origStart, origEnd))}</mark>` +
+        escapeHtml(text.slice(origEnd))
       );
     }
 

@@ -516,11 +516,28 @@ const currentSlug = cuaderno?.id ?? "";
 
 		function highlight(text: string, query: string): string {
 			const norm = (t: string) => t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[,;:.!?¡¿'"«»""'']/g,'').toLowerCase();
-			const idx = norm(text).indexOf(norm(query));
-			if (idx === -1) return escapeHtml(text);
-			return escapeHtml(text.slice(0, idx))
-				+ `<mark class="fs-match">${escapeHtml(text.slice(idx, idx + query.length))}</mark>`
-				+ escapeHtml(text.slice(idx + query.length));
+			const normIdx = norm(text).indexOf(norm(query));
+			if (normIdx === -1) return escapeHtml(text);
+
+			// Map normalized index back to original text positions
+			// Punctuation chars are removed in normalization, so orig and norm indexes can diverge
+			const punc = /[,;:.!?¡¿'"«»""'']/;
+			let ni = 0;
+			let origStart = -1, origEnd = text.length;
+			const normQueryLen = norm(query).length;
+			for (let i = 0; i < text.length; i++) {
+				const nc = text[i].normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+				const contributes = nc.length > 0 && !punc.test(nc);
+				if (contributes) {
+					if (origStart === -1 && ni === normIdx) origStart = i;
+					if (ni === normIdx + normQueryLen) { origEnd = i; break; }
+					ni++;
+				}
+			}
+			if (origStart === -1) return escapeHtml(text);
+			return escapeHtml(text.slice(0, origStart))
+				+ `<mark class="fs-match">${escapeHtml(text.slice(origStart, origEnd))}</mark>`
+				+ escapeHtml(text.slice(origEnd));
 		}
 
 		function renderResults(results: { title: string; slug: string; entryNum: string; snippet: string }[], query: string, isNumeral = false) {
@@ -551,8 +568,18 @@ const currentSlug = cuaderno?.id ?? "";
 			}
 
 			showState('results');
-			listEl?.querySelectorAll('.fs-card').forEach(card => {
-				card.addEventListener('click', closeDialog);
+			listEl?.querySelectorAll<HTMLAnchorElement>('.fs-card').forEach(card => {
+				card.addEventListener('click', (e) => {
+					e.preventDefault();
+					const href = card.href;
+					closeDialog();
+					// Cerrar sidebar móvil si está abierto
+					document.getElementById('faustinasidebar')?.classList.remove('open');
+					document.getElementById('sidebarOverlay')?.classList.add('hidden');
+					document.getElementById('menuIcon')?.classList.remove('hidden');
+					document.getElementById('closeIcon')?.classList.add('hidden');
+					window.location.href = href;
+				});
 			});
 		}
 
