@@ -45,7 +45,7 @@ Sor Faustina Del Santísimo Sacramento
 
 <span class="faustina-num">1324</span> Cracovia, 20 X 1937
 
-+ Te saludo, oh Pan de los ángeles,
+Te saludo, oh Pan de los ángeles,
 Con profunda fe, esperanza, amor,
 Y de lo profundo del alma Te adoro,
 Aunque soy una nulidad.
@@ -291,7 +291,7 @@ Y unida a Ti de este modo, viviré por la eternidad.
 
 <span class="faustina-num">1413</span> Me he preparado no solamente con la novena común que hace toda la Comunidad, sino que me he propuesto además saludarla mil veces al día, rezando cada día en su honor mil Avemarías durante nueve días.
 
-+ Ya es la tercera vez que hago esta novena a la Virgen María que consiste en rezar mil Avemarías diarias, es decir nueve mil saludos forman toda la novena.  No obstante, aunque la he hecho ya tres veces en mi vida, y dos veces fueron cuando cumplía mis deberes, no he perjudicado en nada mis tareas cumpliéndolas con máxima exactitud, y además [la he hecho] fuera de los ejercicios de piedad, o sea ni durante la Santa Misa, ni durante la bendición, he rezado estas Avemarías.  Una vez hice esta novena cuando (44) estaba en el hospital.  Más hace el que quiere que el que puede.  Fuera del recreo, rezaba y trabajaba; en esos días no he pronunciado ni una sola palabra que no fuera absolutamente necesaria, pero tengo que reconocer que esto requiere mucha atención y esfuerzo, más para honrar a la Inmaculada no hay nada que sea demasiado.
+Ya es la tercera vez que hago esta novena a la Virgen María que consiste en rezar mil Avemarías diarias, es decir nueve mil saludos forman toda la novena.  No obstante, aunque la he hecho ya tres veces en mi vida, y dos veces fueron cuando cumplía mis deberes, no he perjudicado en nada mis tareas cumpliéndolas con máxima exactitud, y además [la he hecho] fuera de los ejercicios de piedad, o sea ni durante la Santa Misa, ni durante la bendición, he rezado estas Avemarías.  Una vez hice esta novena cuando (44) estaba en el hospital.  Más hace el que quiere que el que puede.  Fuera del recreo, rezaba y trabajaba; en esos días no he pronunciado ni una sola palabra que no fuera absolutamente necesaria, pero tengo que reconocer que esto requiere mucha atención y esfuerzo, más para honrar a la Inmaculada no hay nada que sea demasiado.
 
 <span class="faustina-num">1414</span> Solemnidad a la Inmaculada Concepción.  Antes de la Santa Comunión he visto a la Santísima Madre de una belleza inconcebible.  Sonriéndome me dijo:  Hija Mía, por mandato de Dios, he de ser tu madre de modo exclusivo
 

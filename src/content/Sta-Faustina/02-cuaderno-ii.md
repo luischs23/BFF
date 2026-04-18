@@ -382,7 +382,7 @@ Junio
 
 <span class="faustina-num">664</span> + Oh Jesús mío, cuánto me alegro de que me hayas asegurado que esta Congregación surgirá.  Ya no tengo más dudas en esto, ni una sombra, y veo la gran gloria que dará a Dios; será un reflejo del mayor atributo que tiene Dios, es decir, la Divina Misericordia.  Impetrarán incesantemente (115) la Divina Misericordia para sí y para el mundo entero, y cada acto de misericordia brotará del amor de Dios del que estarán colmadas.  Este gran atributo de Dios, tratarán de asimilarlo y vivir de él, y procurarán que los demás lo conozcan y tengan confianza en la bondad de Dios.  Esta Congregación de la Divina Misericordia será en la Iglesia de Dios como una colmena en un magnifico jardín, escondida, silenciosa.  Las hermanas como abejas trabajarán para alimentar con miel las almas de los prójimos y la cera fluirá en honor de Dios.
 
-+ 29 de junio de 1936
+29 de junio de 1936
 
 <span class="faustina-num">665</span> El Padre Andrasz me recomendó hacer una novena según la intención de conocer mejor la voluntad de Dios.  Recé con fervor agregando una mortificación del cuerpo.  Al final de la novena recibí una luz interior y la seguridad de que la Congregación surgiría y que era agradable a Dios.  A pesar de las dificultades (116) y las contrariedades, en mi alma entró una tranquilidad absoluta y una fuerza desde lo alto.  Conocí que a la voluntad de Dios nada se opondría, nada la anularía; comprendí que debía cumplir esta voluntad de Dios a pesar de las contrariedades, las persecuciones, los sufrimientos de todo tipo, a pesar de la aversión y el temor de la naturaleza.
 
@@ -406,13 +406,13 @@ Tengo una gran veneración por San Miguel arcángel, él no tuvo ejemplos en el 
 
 <span class="faustina-num">674</span> se presentó junto a mí y dijo:  ¿A dónde piensas ir?  No contesté nada a Jesús, pero desahogué ante Él todo mi dolor y cesaron todas las insidias de Satanás.  Jesús me dijo que:  La paz interior que tienes es una gracia, y desapareció súbitamente.  Yo me sentía feliz y extrañamente tranquilizada.  De verdad, solo Jesús, Él, el Señor Altísimo, puede hacer que en un momento vuelva una tranquilidad tan completa.
 
-+ 7 de agosto de 1936
+7 de agosto de 1936
 
 <span class="faustina-num">675</span> Cuando recibí este artículo [241] sobre la Divina Misericordia junto con la imagen [242], la presencia de Dios me envolvió de modo singular.  Cuando me sumergí en la oración de agradecimiento, de repente vi al Señor Jesús en una gran claridad tal y como está pintado y a los pies de Jesús vi al Padre Andrasz y al Padre Sopocko, los dos tenían plumás en la mano y de las puntas de ambas plumás salían resplandores y fuego semejantes a un relámpago que tocaba a una gran multitud de gente que corría no sé a dónde.  Apenas [alguien] era alcanzado por aquel rayo, daba la espalda a la muchedumbre y tendía los brazos a Jesús; algunos volvían con gran alegría y otros con gran dolor y pena.  Jesús miraba con gran amabilidad a los dos.  Un momento después me quedé a solas con Jesús y le dije:  Jesús, llévame ahora, porque Tu voluntad ya está cumplida, y Jesús me contestó:  (122) Todavía no toda Mi voluntad se ha cumplido en ti, sufrirás todavía mucho, pero Yo estoy contigo, no tengas miedo.
 
 <span class="faustina-num">676</span> Hablo mucho con el Señor del Padre Andrasz y también del Padre Sopocko; sé que lo que pido al Señor, no me lo niega y les concede lo que le pido.  He sentido, y sé, cuánto Jesús los ama; no lo describo con detalles, pero lo sé y me alegro enormemente.
 
-+ 15 de agosto de 1936
+15 de agosto de 1936
 
 <span class="faustina-num">677</span> Durante la Santa Misa celebrada por el Padre Andrasz, un momento antes de la elevación, la presencia de Dios penetró mi alma y que fue atraída hacia el altar.  Luego vi a la Santísima Virgen con el Niñito Jesús.  El Niño Jesús se tenía de la mano de la Virgen; en un momento el Niño Jesús corrió alegremente al centro del altar, y la Santísima Virgen me dijo:  Mira, con qué tranquilidad confío a Jesús en sus manos, así también tú debes (123) confiar tu alma y ser como una niña frente a Él.  Después de estas palabras mi alma fue llenada de una misteriosa confianza.  La Santísima Virgen vestía una túnica blanca, singularmente blanca, transparente, sobre la espalda tenía un manto transparente de color del cielo, es decir como el azul, la cabeza descubierta, el cabello suelto; esplendida e indeciblemente bella.  La Santísima Virgen miraba al sacerdote con gran benevolencia, pero un momento después el Padre partió este esplendido Niño y salio sangre verdaderamente viva; el sacerdote se inclinó y tomó en si a Jesús vivo y verdadero.  Lo comió, no sé cómo esto sucede.  Oh Jesús, Jesús, no alcanzo a seguirte, porque Tú en un momento Te haces inconcebible para mí.
 
@@ -454,7 +454,7 @@ Oh Jesús mío, haz mi corazón semejante a Tu corazón misericordioso.  Jesús,
 
 <span class="faustina-num">695</span> En cierta ocasión, recibí dentro de mí la luz respecto a dos hermanas; comprendí que no con todos podemos comportarnos de la misma manera.  Hay personas que, de un modo extraño, saben trabar amistad y como amigas, sacar palabra tras palabra, como para aliviar, pero en un momento oportuno usan las mismas palabras para causar disgustos.  Oh Jesús mío, qué extraña es la debilidad humana.  Tu amor, Jesús, da al alma esta gran sensatez en las relaciones con los demás.
 
-+ 24 de septiembre de 1936
+24 de septiembre de 1936
 
 <span class="faustina-num">696</span> La Madre Superiora [245] me ordenó rezar un misterio del rosario en lugar de los demás ejercicios y acostarme de inmediato.  Una vez acostada me dormí en seguida porque estaba muy cansada.  Sin embargo, un momento después me despertó un sufrimiento.  Era un sufrimiento tan grande que no me permitía hacer el más pequeño movimiento, ni siquiera pude pasar la saliva.  Duró unas tres horas.  Pensé despertar a la hermana novicia con la que compartía el cuarto, pero pensé:  ella no me ayudará nada, pues que duerma, me da pena despertarla.  Me sometí completamente a la voluntad de Dios y pensaba que estaba llegando para mi el día de la muerte, día por mi deseado.  tenía la posibilidad de unirme a Jesús doliente en la cruz, no podía rezar de otro modo.  Cuando el sufrimiento cedió, comencé (136) a sudar, pero no podía hacer ningún movimiento, porque volvía el dolor anterior.  En la mañana me sentía muy cansada, pero físicamente no sufría más; no obstante no pude levantarme para la Santa Misa.  Pensé:  Si después de tales sufrimientos no hay muerte, entonces ¿qué grandes deben ser los sufrimientos mortales?
 
@@ -516,7 +516,7 @@ Oh Jesús mío, haz mi corazón semejante a Tu corazón misericordioso.  Jesús,
 
 <span class="faustina-num">724</span> (152)  En víspera de los ejercicios espirituales empecé a rogar que Jesús me diera al menos un poco de salud para que pudiera participar en los ejercicios, porque me sentía tan mal que posiblemente fuesen los últimos para mi.  Pero en cuanto empecé a rezar, sentí en seguida un extraño descontento; interrumpí la plegaria de suplica y me puse a agradecer al Señor por todo lo que me enviaba, sometiéndome completamente a su santa voluntad, de inmediato sentí en el alma una profunda calma.
 
-+ La fiel sumisión a la voluntad de Dios siempre y en todas partes, en todos los casos y todas las circunstancias de la vida, da a Dios una gran gloria; tal sumisión a la voluntad de Dios, a sus ojos tiene un valor mayor que largos ayunos, mortificaciones, y las más severas penitencias.  Oh, qué grande es la recompensa por un solo acto de amorosa sumisión a la voluntad de Dios.  Mientras lo escribo mi alma cae en éxtasis, ¡cuánto Dios la ama y de cuánta paz goza el alma ya aquí en la tierra!
+La fiel sumisión a la voluntad de Dios siempre y en todas partes, en todos los casos y todas las circunstancias de la vida, da a Dios una gran gloria; tal sumisión a la voluntad de Dios, a sus ojos tiene un valor mayor que largos ayunos, mortificaciones, y las más severas penitencias.  Oh, qué grande es la recompensa por un solo acto de amorosa sumisión a la voluntad de Dios.  Mientras lo escribo mi alma cae en éxtasis, ¡cuánto Dios la ama y de cuánta paz goza el alma ya aquí en la tierra!
 	           
 (153) JMJ  Cracovia – 1936
 
@@ -568,7 +568,7 @@ Yo, Sor Faustina, por orden de Dios, estuve en los abismos del infierno para hab
 
 Te doy tres formas de ejercer misericordia al prójimo: la primera – la acción, la segunda – la palabra, la tercera – la oración.  En estas tres formas está contenida la plenitud de la misericordia y es el testimonio irrefutable del amor hacia Mi.  De este modo el alma alaba y adora Mi misericordia.  Sí, el primer domingo después de Pascua es la Fiesta de la Misericordia, pero también debe estar presente la acción y pido se rinda culto a Mi misericordia con la solemne celebración de esta Fiesta y con el culto a la imagen que ha sido pintada.  A través de esta imagen concederé muchas gracias a las almas; ella ha de recordar a los hombres las exigencias de Mi misericordia, porque la fe sin obras, por fuerte (163) que sea, es inútil.  Oh Jesús mío, ayúdame en todo, porque ves lo pequeña que soy, por eso cuento únicamente con Tu bondad, oh Dios.
 
-+ Examen de conciencia particular
+Examen de conciencia particular
 
 <span class="faustina-num">743</span> Unión con Cristo misericordioso.  Con el corazón abarco el mundo entero y, especialmente, los países salvajes y perseguidos, para ellos pido misericordia.
 
@@ -836,7 +836,7 @@ Oh Dios, esta misericordia insondable lleva a un nuevo éxtasis a las almas sant
 
 <span class="faustina-num">855</span> 30 XII 1936.  Termina el año.  Hoy hice el retiro espiritual mensual.  Mi espíritu penetró en los beneficios con los cuales Dios me colmó durante todo el año.  Mi alma tembló a la vista de la inmensidad de las gracias del Señor.  De mi alma brotó el himno de agradecimiento a Dios.  Durante una hora entera me sumergí en la adoración y en el agradecimiento, considerando cada beneficio de Dios y también mis pequeñas imperfecciones.  (235)  Todo lo que este año encerró en sí, se fue al abismo de la eternidad.  Nada se pierde, me alegro de que nada se pierda.
 
-+ 30 XII [1936] Ejercicios espirituales de un día.
+30 XII [1936] Ejercicios espirituales de un día.
 
 <span class="faustina-num">856</span> Durante la meditación matutina sentí aversión y repugnancia por todo lo que está creado.  Todo es pálido a mis ojos, mi espíritu está apartado de todo, deseo solamente a Dios Mismo, sin embargo tengo que vivir.  Es un martirio indescriptible.  Dios se entrega al alma de manera amorosa y la atrae al abismo de su divinidad inconcebible, pero al mismo tiempo la deja aquí en la tierra solamente para que sufra y agonice de nostalgia por Él.  Y este amor fuerte es tan puro que Dios Mismo tiene en él su complacencia y a sus acciones el amor propio no tiene acceso, porque aquí todo está lleno completamente de amargura y entonces también es completamente puro.  La vida es una muerte continua, dolorosa y tremenda y al mismo tiempo es el núcleo de una vida verdadera y de una felicidad inconcebible y la fuerza del espíritu, a través de eso [el alma] es capaz de hacer grandes obras para Dios.
 
@@ -848,7 +848,7 @@ Oh Dios, esta misericordia insondable lleva a un nuevo éxtasis a las almas sant
 
 <span class="faustina-num">859</span> Jesús, en tí confío
 
-+ Hoy a medianoche despedí el Año Viejo 1936 y di la bienvenida al año 1937.  En esta primera hora del año, con temblor y temor, me enfrenté a nuevo periodo.  Oh Jesús misericordioso, Contigo enfrentaré con arrojo y audacia luchas y batallas.  En Tu nombre cumpliré todo y superaré todo.  Oh Dios mío, Bondad infinita Te ruego que Tu misericordia ilimitada me acompañe siempre y en todo.
+Hoy a medianoche despedí el Año Viejo 1936 y di la bienvenida al año 1937.  En esta primera hora del año, con temblor y temor, me enfrenté a nuevo periodo.  Oh Jesús misericordioso, Contigo enfrentaré con arrojo y audacia luchas y batallas.  En Tu nombre cumpliré todo y superaré todo.  Oh Dios mío, Bondad infinita Te ruego que Tu misericordia ilimitada me acompañe siempre y en todo.
 
 Entrando en este año, me envuelve el temor frente a la vida, pero Jesús me saca de este temor dándome a conocer la gran gloria que le traerá esta obra de la misericordia.
 
@@ -856,7 +856,7 @@ Entrando en este año, me envuelve el temor frente a la vida, pero Jesús me sac
 
 (238) JMJ   Jesús, en Ti confío
 
-+ Propósitos para el año 1937, día 1, mes I
+Propósitos para el año 1937, día 1, mes I
 
 <span class="faustina-num">861</span> Propósito particular:  continuar con lo mismo, es decir, unirme a Cristo misericordioso, o sea ¿qué haría Cristo en ese o en aquel caso?, y con el espíritu abrazar el mundo entero, especialmente Rusia y España.
 

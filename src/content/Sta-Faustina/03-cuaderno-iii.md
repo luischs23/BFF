@@ -14,7 +14,7 @@ numero: 3
 Por haberme transformado toda en Ti
 Y porque me acompañas a través de las adversidades de la vida
 No temo nada cuando estás en mi corazón.
-+ JMJ
+JMJ
 
 <span class="faustina-num">1002</span> La cena del Señor está servida,
 Jesús se sienta a la mesa con los Apóstoles,
@@ -45,7 +45,7 @@ La cena terminada,
 Vamos al Getsemaní,
 El amor saciado,
 Y allí ya está esperando el traidor.
-+ (2)	JMJ
+(2)	JMJ
 
 <span class="faustina-num">1003</span> Oh, voluntad de Dios, tú eres mi alimento, tú eres mi deleite.  Anticipa, oh Señor, la Fiesta de la Misericordia para que las almas conozcan el manantial de Tu bondad.
 
@@ -76,7 +76,7 @@ Porque tú eres todo mi deleite y el amor de mi alma,
 Y yo, igualmente, derramo ante Ti el torrente de mis confidencias.
 
 Cracovia 1 III 1937
-+ Tercer Cuaderno
+Tercer Cuaderno
 
 <span class="faustina-num">1005</span> Dios y las almas
 

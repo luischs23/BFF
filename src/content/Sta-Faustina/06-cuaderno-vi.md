@@ -74,7 +74,7 @@ En aquel momento, profundamente humillada, me sumergí ante la Majestad de Dios.
 
 <span class="faustina-num">1609</span> Oh Jesús mío, qué bueno es estar en la cruz, pero Contigo.  Contigo, amor mío, mi alma está continuamente tendida en la cruz y se llena de amargura.  El vinagre y la hiel rozan mis labios, pero está bien, está bien que sea así, ya que tu Corazón divino, durante toda la vida, siempre bebió amargura y a cambio del amor recibiste la ingratitud.  Estabas tan dolorido que de Tus labios se escapó esta queja dolorosa con la cual buscabas a quien Te consolara y no lo encontraste [391].
 
-+ Mientras pedía al Señor que se dignara mirar cierta alma que lucha sola contra muchas dificultades, en un solo
+Mientras pedía al Señor que se dignara mirar cierta alma que lucha sola contra muchas dificultades, en un solo
 
 <span class="faustina-num">1610</span> instante el Señor me dijo que todos son como el polvo bajo sus pies.  Pues, no te aflijas, ves que por si mismos ellos no pueden nada, y si les permito parecer triunfar, lo hago por Mis impenetrables (12) designios.  Experimenté una gran serenidad al ver que todo depende del Señor.
 

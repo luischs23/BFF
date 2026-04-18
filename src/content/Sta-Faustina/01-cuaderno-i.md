@@ -438,7 +438,7 @@ El amor del alma no es todavía como Dios lo desea.  De repente el alma pierde l
 
 <span class="faustina-num">97</span> La fe queda expuesta al fuego, la lucha es dura, el alma hace esfuerzos, persevera junto a Dios con un acto de voluntad.  Con el permiso de Dios, Satanás sigue más adelante, la esperanza y el amor están puestos a prueba.  Estas tentaciones son terribles, Dios sostiene al alma ocultamente.  Ella no lo sabe, ya que de otra forma no podría resistir.  Y Dios sabe lo que puede mandar al alma.  El alma [es] tentada de incredulidad respecto a las verdades reveladas, a la falta de sinceridad frente al confesor.  Satanás le dice:  Mira, nadie te comprenderá ¿para qué hablar de todo esto?  En sus oídos suenan las palabras de las cuales ella queda aterrorizada y le parece que las pronuncia contra Dios.  Ve lo que no le gustaría ver.  Oye lo que no quiere oír, y es terrible no tener en tales momentos al confesor experto.  Ella soporta sola todo el peso; pero dentro de lo que está en su poder, debe buscar a un confesor bien informado, porque puede quebrarse bajo este peso, y ocurre con frecuencia que está al borde del abismo.  (46)  Todas estas pruebas son duras y difíciles.  Dios no las da a un alma que anteriormente no haya sido admitida a una comunión más profunda con Él, y no haya disfrutado de las dulzuras del Señor, y también Dios tiene en eso Sus fines insondables para nosotros.  Muchas veces Dios prepara de modo semejante al alma a los designios futuros y a grandes obras.  Y quiere probarla como oro puro, pero éste no es todavía el fin de la prueba.  Existe todavía la prueba de las pruebas, esto es [sentir] el rechazo total por parte de Dios.
 
-+ La aprueba de las pruebas,
+La aprueba de las pruebas,
 
 El abandono absoluto – la desesperación.
 
@@ -519,7 +519,7 @@ Ella reconoce a Dios desde lejos y goza de Dios incesantemente.  En muy poco tie
 
 <span class="faustina-num">121</span> (57) + Una serie de gracias que Dios derrama sobre el alma después de aquellas pruebas de fuego.  Goza de una estrecha unión con Dios.  Tiene muchas visiones sensibles y espirituales, oye muchas palabras sobrenaturales y a veces órdenes precisas; pero a pesar de estas gracias, no se basta a sí misma.  Tanto menos precisamente, porque Dios la visita con estas gracias, debido a que está expuesta a varios peligros y puede fácilmente caer en la ilusión.  Debería pedir a Dios un guía espiritual, pero no solamente pedir un guía, sino que solicitar y buscar a un director que entienda las cosas como el caudillo que tiene que conocer los caminos por los cuales conduce a la batalla.  A un alma que está unida a Dios, es necesario prepararla para grandes y encarnizados combates.
 
-+ Después de estas purificaciones y pruebas, Dios trata con el alma de modo especial, pero el alma no siempre colabora con estas gracias.  No porque ella misma de por sí no quiera colaborar, sino que enfrenta tan grandes dificultades interiores y exteriores que, de verdad, hace falta un milagro para que esa alma se mantenga a estas alturas.  Aquí necesita obligatoriamente al director.  A menudo llenaban mi alma de dudas y algunas veces [mi alma] se asustaba de por sí, al pensar que después de todo yo era una ignorante, no entendía muchas cosas y menos todavía las cosas espirituales.  No obstante, cuando las dudas aumentaban, buscaba luz en un confesor o en las Superioras.  Pero no obtenía lo que deseaba.
+Después de estas purificaciones y pruebas, Dios trata con el alma de modo especial, pero el alma no siempre colabora con estas gracias.  No porque ella misma de por sí no quiera colaborar, sino que enfrenta tan grandes dificultades interiores y exteriores que, de verdad, hace falta un milagro para que esa alma se mantenga a estas alturas.  Aquí necesita obligatoriamente al director.  A menudo llenaban mi alma de dudas y algunas veces [mi alma] se asustaba de por sí, al pensar que después de todo yo era una ignorante, no entendía muchas cosas y menos todavía las cosas espirituales.  No obstante, cuando las dudas aumentaban, buscaba luz en un confesor o en las Superioras.  Pero no obtenía lo que deseaba.
 
 <span class="faustina-num">122</span> Cuando me descubrí ante las Superioras, una de ellas [71] conoció mi alma y el camino por el cual Dios quería conducirme.  Siguiendo sus indicaciones, empecé a avanzar rápidamente en el camino de la perfección.  Sin embargo eso no duró mucho tiempo.  Al descubrir mi alma más a fondo, no recibí lo que deseaba y a la Superiora estas gracias le parecieron inverosímiles, así que ya no pude obtener nada de ella.  Me decía que no era posible que Dios conviviera tan íntimamente con una criatura.  Yo temo por usted, hermana, si acaso no sea alguna ilusión.  (58) Tomé consejo de un sacerdote.  Pero el confesor no me entendió y dijo:  Es mejor que usted, hermana, hable de estas cosas con las Superioras.  Y así andaba de las Superioras al confesor, del confesor a la Superioras, pero sin encontrar la paz.  Estas gracias de Dios empezaron a ser para mí un gran sufrimiento.  Más de una vez dije directamente al Señor: Jesús, tengo miedo de Ti, ¿no eres acaso algún fantasma?  Jesús siempre me tranquilizaba, pero yo siempre desconfiaba.  Una cosa extraña, cuanto más yo desconfiaba, tanto Jesús me daba más pruebas de que Él era el autor de estas cosas.
 
@@ -573,9 +573,9 @@ El amor puro no se equivoca, tiene singularmente mucha luz y no hará nada que n
 
 <span class="faustina-num">145</span> Oh, qué mísera es mi alma que malgastó tantas gracias.  Me escapaba de Dios, y Él me perseguía con Sus gracias.  Muchas veces recibía las gracias de Dios cuando menos las esperaba.  Desde el momento en que el Señor me dio un director espiritual, soy más fiel a la gracia.  Gracias al director y su vigilancia sobre mi alma entendí lo que es la dirección espiritual y cómo la ve Jesús.  Jesús me amonestaba por el menor descuido y acentuaba que los asuntos que yo confiaba al confesor, Él Mismo los juzgaba, y cualquier desobediencia frente a él, Me alcanza a Mi.  Cuando, bajo su dirección, mi alma empezó a gozar del profundo recogimiento y paz, a menudo oía en el alma estas palabras:  Fortalécete para la lucha, a veces repetidas más de una vez.
 
-+ Muchas veces Jesús me da a conocer lo que no le agrada en mi alma, y más de una vez me amonestó por cosas que parecían insignificantes, pero que en realidad tenían gran importancia, me amonestaba y adiestraba como un Maestro.  Durante muchos años me educó Él Mismo, hasta el momento en que me dio un director espiritual.  Antes Él Mismo me daba a conocer lo que no entendía, y ahora me hace preguntar [por] todo al confesor y a menudo me dice así:  Y Yo te contestaré por su boca, quédate tranquila.  (68)  No me ha sucedido todavía recibir una respuesta contraria a lo que exigía el Señor y que yo presenté al director espiritual [80].  A veces ocurre que Jesús me recomienda algunas cosas, de las cuales nadie tiene conocimiento y cuando me acerco a la rejilla, lo mismo me recomienda el confesor, pero eso no es frecuente.
+Muchas veces Jesús me da a conocer lo que no le agrada en mi alma, y más de una vez me amonestó por cosas que parecían insignificantes, pero que en realidad tenían gran importancia, me amonestaba y adiestraba como un Maestro.  Durante muchos años me educó Él Mismo, hasta el momento en que me dio un director espiritual.  Antes Él Mismo me daba a conocer lo que no entendía, y ahora me hace preguntar [por] todo al confesor y a menudo me dice así:  Y Yo te contestaré por su boca, quédate tranquila.  (68)  No me ha sucedido todavía recibir una respuesta contraria a lo que exigía el Señor y que yo presenté al director espiritual [80].  A veces ocurre que Jesús me recomienda algunas cosas, de las cuales nadie tiene conocimiento y cuando me acerco a la rejilla, lo mismo me recomienda el confesor, pero eso no es frecuente.
 
-+ Cuando el alma recibió mucha luz y muchas inspiraciones durante largo tiempo y cuando los confesores le confirmaron la tranquilidad y la procedencia de ellas [las inspiraciones], si su amor es grande, ahora Jesús le da a conocer que es el tiempo para poner en práctica lo que recibió.  El alma conoce que el Señor cuenta con ella y este conocimiento le da más fuerza, ella sabe que, para ser fiel, tendrá que exponerse a distintas dificultades más de una vez, pero ella confía en Dios y gracias a esta confianza llega allí a donde Dios la llama.  Las dificultades no la espantan, son para ella como el pan de cada día, no la espantan nada, ni asustan, como al soldado que continuamente está en el combate, no le espanta el tronar de los cañones.  [Está] lejos de asustarse, pero aguza los oídos, de qué lado ataca el enemigo, para vencerlo.  No hace nada ciegamente, sino que examina, reflexiona profundamente y sin contar consigo, reza ardientemente y pide consejo de oficiales expertos y con discernimiento; y comportándose así, gana casi siempre.
+Cuando el alma recibió mucha luz y muchas inspiraciones durante largo tiempo y cuando los confesores le confirmaron la tranquilidad y la procedencia de ellas [las inspiraciones], si su amor es grande, ahora Jesús le da a conocer que es el tiempo para poner en práctica lo que recibió.  El alma conoce que el Señor cuenta con ella y este conocimiento le da más fuerza, ella sabe que, para ser fiel, tendrá que exponerse a distintas dificultades más de una vez, pero ella confía en Dios y gracias a esta confianza llega allí a donde Dios la llama.  Las dificultades no la espantan, son para ella como el pan de cada día, no la espantan nada, ni asustan, como al soldado que continuamente está en el combate, no le espanta el tronar de los cañones.  [Está] lejos de asustarse, pero aguza los oídos, de qué lado ataca el enemigo, para vencerlo.  No hace nada ciegamente, sino que examina, reflexiona profundamente y sin contar consigo, reza ardientemente y pide consejo de oficiales expertos y con discernimiento; y comportándose así, gana casi siempre.
 
 Hay ataques, cuando el alma no tiene tiempo de reflexionar, ni de pedir consejo, ni de nada; entonces se debe luchar por la vida o por la muerte; a veces es bueno recurrir a la herida del corazón de Jesús, sin contestar una sola palabra y por ese [acto] mismo el enemigo está derrotado.
 
@@ -725,9 +725,9 @@ Diciembre		Dios y el alma, silencio.  Victorias, caídas.
 
 Ejercicio general
 
-+ Cuantas veces respira mi pecho, cuantas veces late mi corazón, cuantas veces pulsa la sangre en mi cuerpo, esa cantidad por mil, es el número de veces que deseo glorificar Tu misericordia, oh Santísima Trinidad.
+Cuantas veces respira mi pecho, cuantas veces late mi corazón, cuantas veces pulsa la sangre en mi cuerpo, esa cantidad por mil, es el número de veces que deseo glorificar Tu misericordia, oh Santísima Trinidad.
 
-+ Deseo transformarme toda en Tu misericordia y ser un vivo reflejo de Ti, oh Señor.  Que este más grande atributo de Dios, es decir Su insondable misericordia, pase a través de mi corazón al prójimo.
+Deseo transformarme toda en Tu misericordia y ser un vivo reflejo de Ti, oh Señor.  Que este más grande atributo de Dios, es decir Su insondable misericordia, pase a través de mi corazón al prójimo.
 
 Ayúdame, oh Señor, a que mis ojos sean misericordiosos, para que yo jamás recele o juzgue según las apariencias, sino que busque lo bello en el alma de mi prójimo y acuda a ayudarla.
 
@@ -741,7 +741,7 @@ Ayúdame a que mis pies sean misericordiosos para que siempre me apresure a soco
 
 Ayúdame, oh Señor, a que mi corazón sea misericordioso para que yo sienta todos los sufrimientos de mi prójimo.  A nadie le rehusaré mi corazón.  Seré sincera incluso con aquellos de los cuales sé que abusarán de mi bondad.  Y yo misma me encerrare en el misericordiosísimo Corazón de Jesús.  Soportaré mis propios sufrimientos en silencio.  Que tu misericordia, oh Señor mío, repose dentro de mí.
 
-+ Tú Mismo me mandas ejercitar los tres grados de la misericordia.  El primero:  la obra de misericordia, de cualquier tipo que sea.  El segundo:  la palabra de misericordia; si no puedo llevar a cabo una obra de misericordia, ayudaré con mis palabras.  El tercero:  la oración.  Si no puedo mostrar misericordia por medio de obras o palabras, siempre puedo mostrarla por medio de la oración.  Mi oración llega hasta donde físicamente no puedo llegar.
+Tú Mismo me mandas ejercitar los tres grados de la misericordia.  El primero:  la obra de misericordia, de cualquier tipo que sea.  El segundo:  la palabra de misericordia; si no puedo llevar a cabo una obra de misericordia, ayudaré con mis palabras.  El tercero:  la oración.  Si no puedo mostrar misericordia por medio de obras o palabras, siempre puedo mostrarla por medio de la oración.  Mi oración llega hasta donde físicamente no puedo llegar.
 
 Oh Jesús mío, transfórmame en Ti, porque Tú puedes hacer todo.
 
@@ -803,7 +803,7 @@ El tercer atributo fue el Amor y la Misericordia.  Y entendí que el mayor atrib
 
 <span class="faustina-num">182</span> Comprendí que algunas personas tienen un don especial de atormentar a los demás.  Los  ejercitan a más no poder.  Pobre aquella alma que cae bajo su mano.  No cuenta nada, las mejores cosas son juzgadas al revés.
 
-+ Vigila de la Noche Buena
+Vigila de la Noche Buena
 
 Hoy me uní estrechamente a la Santísima Virgen, viví sus momentos íntimos.  Por la noche, antes de partir “oplatek”*, entré en la capilla, para intercambiarlo espiritualmente con las personas queridas y pedí a la Virgen las gracias para ellas.  Mi espíritu estaba sumergido completamente en Dios.  Durante la Santa Misa de Medianoche vi al Niño Jesús en la Hostia; mi Espíritu se sumergió en Él.  Aunque era un Niñito, su Majestad penetró mi alma.  Me impresionó profundamente este misterio, este gran humillarse de Dios, este inconcebible anonadamiento Suyo.  Durante toda la fiesta de la Navidad lo tuve vivo en el alma.  Oh, nosotros nunca comprenderemos este gran humillarse de Dios; cuanto más lo medito [aquí la frase ha quedado interrumpida].
 
@@ -888,7 +888,7 @@ Jesús, cuando yo misma no puedo cantarte el himno del amor, admiro el canto de 
 
 (102)						Cracovia 21 IV 1933
 
-+ A la mayor gloria de Dios.
+A la mayor gloria de Dios.
 
 Ejercicios espirituales de ocho días antes de los votos perpetuos.
 
@@ -984,7 +984,7 @@ Oh, Jesús, Te recomiendo las personas siguientes:  mis confesores, las personas
 
 Oh Madre de Dios, Santísima María, Madre mía, Tú ahora eres mi Madre de modo más particular y esto porque Tu amado Hijo es mi Esposo, pues los dos somos Tus hijos.  Por consideración a Tu Hijo, debes amarme, Oh María, Madre mía amadísima, dirige mi vida interior de modo que sea agradable a Tu Hijo.
 
-+ Oh Santo, Omnipotente Dios en este momento de la enorme gracia con la cual me unes a Ti para siempre, yo, pequeña nulidad, me arrojo a Tus pies con el mayor agradecimiento, como una pequeña, desconocida florcita y la fragancia de esta flor de amor subirá todos los días a Tu trono.
+Oh Santo, Omnipotente Dios en este momento de la enorme gracia con la cual me unes a Ti para siempre, yo, pequeña nulidad, me arrojo a Tus pies con el mayor agradecimiento, como una pequeña, desconocida florcita y la fragancia de esta flor de amor subirá todos los días a Tu trono.
 
 En los momentos de la lucha y los sufrimientos, de las tinieblas y las tempestades, de la añoranza y la tristeza, en los momentos de las pruebas difíciles, en los momentos en los cuales no seré comprendida por ninguna criatura y más bien seré condenada y despreciada por todos, recordaré el día de los votos perpetuos, el día de una inconcebible gracia de Dios.
 
@@ -1174,9 +1174,9 @@ Estos rayos protegen a las almas de la indignación de Mi Padre.  Bienaventurado
 
 <span class="faustina-num">300</span> + Pide a Mi siervo fiel [132] que en aquel día hable al mundo entero de esta gran misericordia Mía; que quien se acerque ese día a la Fuente de Vida, recibirá el perdón total de las culpas y de las penas.
 
-+ La humanidad no conseguirá la paz hasta que no se dirija con confianza a Mi misericordia.
+La humanidad no conseguirá la paz hasta que no se dirija con confianza a Mi misericordia.
 
-+ Oh, cuánto Me hiere la desconfianza del alma.  Esta alma reconoce que soy santo y justo, y no cree que Yo soy la Misericordia, no confía en Mi bondad.  También los demonios admiran Mi justicia, pero no creen en Mi bondad.
+Oh, cuánto Me hiere la desconfianza del alma.  Esta alma reconoce que soy santo y justo, y no cree que Yo soy la Misericordia, no confía en Mi bondad.  También los demonios admiran Mi justicia, pero no creen en Mi bondad.
 
 Mi Corazón se alegra de este titulo de misericordia.
 
