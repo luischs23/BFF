@@ -38,9 +38,7 @@ const { title, cuadernoNum } = Astro.props;
 		<!-- Título centrado -->
 		<h1 class="flex-1 flex items-center justify-center min-w-0 px-28 text-sm font-semibold text-gray-800 dark:text-gray-200">
 			<span class="truncate min-w-0">
-				{cuadernoNum ? (
-					<span class="text-rose-500 dark:text-rose-400 mr-1">C.{cuadernoNum}</span>
-				) : null}<span id="faustinaHeaderTitle">{title}</span>
+				<span id="faustinaHeaderTitle">{title}</span>
 			</span>
 			<span id="faustinaEntryLabel" class="hidden shrink-0 text-rose-400 dark:text-rose-300 ml-1.5">· <span id="faustinaEntryNum"></span></span>
 		</h1>
@@ -287,10 +285,14 @@ const { title, cuadernoNum } = Astro.props;
 		const header = document.getElementById('faustinaHeader');
 		if (!header) return;
 
-		// Siempre sincronizar el padding del main con la altura del header
+		// Sincronizar padding del main y posición del sidebar con la altura del header
 		const main = document.querySelector<HTMLElement>('#faustinaContainer main');
-		if (main) {
-			main.style.paddingTop = `${header.offsetHeight}px`;
+		const sidebar = document.getElementById('faustinasidebar');
+		const h = header.offsetHeight;
+		if (main) main.style.paddingTop = `${h}px`;
+		if (sidebar && window.innerWidth < 768) {
+			sidebar.style.top = `${h}px`;
+			sidebar.style.height = `calc(100vh - ${h}px)`;
 		}
 
 		if (header.hasAttribute('data-header-init')) return;
@@ -346,6 +348,9 @@ const { title, cuadernoNum } = Astro.props;
 		}
 	}
 
-	document.addEventListener('DOMContentLoaded', () => { initFaustinaHeader(); initFaustinaLocalSearch(); });
-	document.addEventListener('astro:page-load', () => { initFaustinaHeader(); initFaustinaLocalSearch(); });
+	function syncLayout() { initFaustinaHeader(); }
+
+	document.addEventListener('DOMContentLoaded', () => { syncLayout(); initFaustinaLocalSearch(); });
+	document.addEventListener('astro:page-load', () => { syncLayout(); initFaustinaLocalSearch(); });
+	window.addEventListener('resize', syncLayout);
 </script>
