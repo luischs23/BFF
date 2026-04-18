@@ -1,0 +1,351 @@
+---
+import { Search, Globe, ChevronLeft, ChevronUp, ChevronDown } from "lucide-astro";
+
+interface Props {
+	title: string;
+	cuadernoNum?: number;
+}
+
+const { title, cuadernoNum } = Astro.props;
+---
+
+<header
+	id="faustinaHeader"
+	class="fixed top-0 left-0 right-0 z-[60] bg-white/95 dark:bg-gray-950/95 backdrop-blur-sm border-b border-stone-200 dark:border-gray-800 shadow-sm md:left-[260px] transition-transform duration-300"
+>
+	<!-- Vista normal -->
+	<div id="faustinaHeaderNormal" class="flex items-center justify-between px-4 py-4">
+		<!-- Botones izquierda: búsqueda local + global -->
+		<div class="absolute left-3 flex items-center gap-2">
+			<button
+				id="faustinaLocalSearchToggle"
+				class="bg-rose-400/90 text-white p-2.5 rounded-full shadow-lg hover:bg-rose-500 transition"
+				aria-label="Buscar en este cuaderno"
+				title="Buscar en este cuaderno"
+			>
+				<Search class="h-5 w-5" />
+			</button>
+			<button
+				id="faustinaGlobalSearchToggle"
+				class="bg-rose-400/90 text-white p-2.5 rounded-full shadow-lg hover:bg-rose-500 transition"
+				aria-label="Buscar en el Diario completo"
+				title="Buscar en el Diario completo"
+			>
+				<Globe class="h-5 w-5" />
+			</button>
+		</div>
+
+		<!-- Título centrado -->
+		<h1 class="flex-1 flex items-center justify-center min-w-0 px-28 text-sm font-semibold text-gray-800 dark:text-gray-200">
+			<span class="truncate min-w-0">
+				{cuadernoNum ? (
+					<span class="text-rose-500 dark:text-rose-400 mr-1">C.{cuadernoNum}</span>
+				) : null}<span id="faustinaHeaderTitle">{title}</span>
+			</span>
+			<span id="faustinaEntryLabel" class="hidden shrink-0 text-rose-400 dark:text-rose-300 ml-1.5">· <span id="faustinaEntryNum"></span></span>
+		</h1>
+
+		<!-- Botón derecha: menú -->
+		<div class="absolute right-3">
+			<button
+				id="menuToggle"
+				class="md:hidden p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+				aria-label="Abrir menú"
+			>
+				<svg id="menuIcon" class="h-5 w-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+				</svg>
+				<svg id="closeIcon" class="h-5 w-5 hidden text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+			</button>
+		</div>
+	</div>
+
+	<!-- Vista búsqueda local expandida -->
+	<div id="faustinaHeaderSearch" class="hidden items-center gap-2 px-3 py-2">
+		<button
+			id="faustinaLocalSearchClose"
+			class="text-gray-600 dark:text-gray-300 p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition"
+			aria-label="Cerrar búsqueda"
+		>
+			<ChevronLeft class="h-5 w-5" />
+		</button>
+		<div class="flex-1 relative">
+			<input
+				type="text"
+				id="faustinaLocalSearchInput"
+				placeholder="Buscar en este cuaderno..."
+				class="w-full px-4 py-2 pr-10 rounded-full bg-white dark:bg-gray-800 border border-stone-300 dark:border-gray-600 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-rose-400 focus:border-transparent"
+			/>
+			<Search class="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+		</div>
+		<div id="faustinaSearchNavigation" class="hidden items-center gap-1">
+			<span id="faustinaSearchCount" class="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap"></span>
+			<button id="faustinaSearchPrev" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Resultado anterior">
+				<ChevronUp class="h-4 w-4" />
+			</button>
+			<button id="faustinaSearchNext" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Siguiente resultado">
+				<ChevronDown class="h-4 w-4" />
+			</button>
+		</div>
+	</div>
+</header>
+
+<style>
+	#faustinaHeader {
+		transform: translateY(0);
+		transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	#faustinaHeader.header-hidden {
+		transform: translateY(-100%);
+	}
+</style>
+
+<script>
+	// ─── Búsqueda local ──────────────────────────────────────────
+	function initFaustinaLocalSearch() {
+		const localToggle = document.getElementById('faustinaLocalSearchToggle');
+		if (!localToggle || localToggle.hasAttribute('data-local-search-init')) return;
+		localToggle.setAttribute('data-local-search-init', 'true');
+
+		const headerNormal = document.getElementById('faustinaHeaderNormal');
+		const headerSearch = document.getElementById('faustinaHeaderSearch');
+		const searchClose = document.getElementById('faustinaLocalSearchClose');
+		const searchInput = document.getElementById('faustinaLocalSearchInput') as HTMLInputElement;
+		const searchNavigation = document.getElementById('faustinaSearchNavigation');
+		const searchCount = document.getElementById('faustinaSearchCount');
+		const searchPrev = document.getElementById('faustinaSearchPrev');
+		const searchNext = document.getElementById('faustinaSearchNext');
+
+		let searchResults: Element[] = [];
+		let currentResultIndex = 0;
+
+		localToggle.addEventListener('click', () => {
+			headerNormal?.classList.add('hidden');
+			headerSearch?.classList.remove('hidden');
+			headerSearch?.classList.add('flex');
+			searchInput?.focus();
+		});
+
+		searchClose?.addEventListener('click', closeSearch);
+
+		function closeSearch() {
+			headerSearch?.classList.add('hidden');
+			headerSearch?.classList.remove('flex');
+			headerNormal?.classList.remove('hidden');
+			clearHighlights();
+			if (searchInput) searchInput.value = '';
+			searchNavigation?.classList.add('hidden');
+			searchNavigation?.classList.remove('flex');
+		}
+
+		function clearHighlights() {
+			document.querySelectorAll('.faustina-search-highlight').forEach(el => {
+				const parent = el.parentNode;
+				if (parent) {
+					parent.replaceChild(document.createTextNode(el.textContent || ''), el);
+					parent.normalize();
+				}
+			});
+			searchResults = [];
+			currentResultIndex = 0;
+		}
+
+		function normalizeText(text: string): string {
+			return text
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.replace(/[,;:.!?¡¿'"«»""'']/g, '')
+				.toLowerCase();
+		}
+
+		function performSearch(query: string) {
+			clearHighlights();
+			if (!query || query.length < 2) {
+				searchNavigation?.classList.add('hidden');
+				searchNavigation?.classList.remove('flex');
+				return;
+			}
+			const content = document.querySelector('.faustina-content');
+			if (!content) return;
+
+			const walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+				acceptNode: (node) => {
+					const parent = node.parentElement;
+					if (!parent) return NodeFilter.FILTER_REJECT;
+					const tag = parent.tagName.toLowerCase();
+					if (['script', 'style', 'noscript'].includes(tag)) return NodeFilter.FILTER_REJECT;
+					return NodeFilter.FILTER_ACCEPT;
+				}
+			});
+
+			const textNodes: Text[] = [];
+			let node: Node | null;
+			while ((node = walker.nextNode())) textNodes.push(node as Text);
+
+			const normQuery = normalizeText(query);
+			textNodes.forEach(textNode => {
+				const text = textNode.textContent || '';
+				const normText = normalizeText(text);
+				const matches: { start: number; end: number }[] = [];
+				let searchStart = 0;
+				while (true) {
+					const idx = normText.indexOf(normQuery, searchStart);
+					if (idx === -1) break;
+					// Mapear índice normalizado al original
+					let ni = 0, origStart = 0;
+					for (let i = 0; i < text.length && ni < idx; i++) {
+						if (normalizeText(text[i]).length > 0) ni++;
+						origStart = i + 1;
+					}
+					let origEnd = origStart, matched = 0;
+					for (let i = origStart; i < text.length && matched < normQuery.length; i++) {
+						if (normalizeText(text[i]).length > 0) matched++;
+						origEnd = i + 1;
+					}
+					matches.push({ start: origStart, end: origEnd });
+					searchStart = idx + 1;
+				}
+				if (matches.length === 0) return;
+				const fragment = document.createDocumentFragment();
+				let lastIndex = 0;
+				matches.forEach(m => {
+					if (m.start > lastIndex) fragment.appendChild(document.createTextNode(text.slice(lastIndex, m.start)));
+					const mark = document.createElement('mark');
+					mark.className = 'faustina-search-highlight bg-yellow-200 dark:bg-yellow-700 rounded px-0.5';
+					mark.textContent = text.slice(m.start, m.end);
+					fragment.appendChild(mark);
+					lastIndex = m.end;
+				});
+				if (lastIndex < text.length) fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+				textNode.parentNode?.replaceChild(fragment, textNode);
+			});
+
+			searchResults = Array.from(document.querySelectorAll('.faustina-search-highlight'));
+			if (searchResults.length > 0) {
+				searchNavigation?.classList.remove('hidden');
+				searchNavigation?.classList.add('flex');
+				currentResultIndex = 0;
+				updateCount();
+				scrollToResult(0);
+			} else {
+				searchNavigation?.classList.add('hidden');
+				searchNavigation?.classList.remove('flex');
+			}
+		}
+
+		function updateCount() {
+			if (searchCount) searchCount.textContent = `${currentResultIndex + 1}/${searchResults.length}`;
+			searchResults.forEach((el, i) => {
+				if (i === currentResultIndex) el.classList.add('ring-2', 'ring-rose-500');
+				else el.classList.remove('ring-2', 'ring-rose-500');
+			});
+		}
+
+		function scrollToResult(index: number) {
+			if (searchResults[index]) {
+				searchResults[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+				updateCount();
+			}
+		}
+
+		let searchTimeout: ReturnType<typeof setTimeout>;
+		searchInput?.addEventListener('input', (e) => {
+			clearTimeout(searchTimeout);
+			searchTimeout = setTimeout(() => performSearch((e.target as HTMLInputElement).value), 300);
+		});
+
+		searchPrev?.addEventListener('click', () => {
+			if (searchResults.length > 0) {
+				currentResultIndex = (currentResultIndex - 1 + searchResults.length) % searchResults.length;
+				scrollToResult(currentResultIndex);
+			}
+		});
+
+		searchNext?.addEventListener('click', () => {
+			if (searchResults.length > 0) {
+				currentResultIndex = (currentResultIndex + 1) % searchResults.length;
+				scrollToResult(currentResultIndex);
+			}
+		});
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape' && !headerSearch?.classList.contains('hidden')) closeSearch();
+			if (e.key === 'Enter' && document.activeElement === searchInput) {
+				e.preventDefault();
+				if (searchResults.length > 0) {
+					currentResultIndex = (currentResultIndex + 1) % searchResults.length;
+					scrollToResult(currentResultIndex);
+				}
+			}
+		});
+	}
+
+	// ─── Header principal ────────────────────────────────────────
+	function initFaustinaHeader() {
+		const header = document.getElementById('faustinaHeader');
+		if (!header) return;
+
+		// Siempre sincronizar el padding del main con la altura del header
+		const main = document.querySelector<HTMLElement>('#faustinaContainer main');
+		if (main) {
+			main.style.paddingTop = `${header.offsetHeight}px`;
+		}
+
+		if (header.hasAttribute('data-header-init')) return;
+		header.setAttribute('data-header-init', 'true');
+
+		// Ocultar al hacer scroll hacia abajo
+		const scroller = document.querySelector<HTMLElement>('#faustinaContainer main');
+		if (scroller) {
+			let lastScrollTop = 0;
+			scroller.addEventListener('scroll', () => {
+				const current = scroller.scrollTop;
+				if (Math.abs(current - lastScrollTop) < 5) return;
+				if (current > lastScrollTop && current > header.offsetHeight) {
+					header.classList.add('header-hidden');
+				} else {
+					header.classList.remove('header-hidden');
+				}
+				lastScrollTop = current;
+			}, { passive: true });
+		}
+
+		// Botón búsqueda global → abrir overlay
+		document.getElementById('faustinaGlobalSearchToggle')?.addEventListener('click', () => {
+			(window as any).openFaustinaSearch?.();
+		});
+
+		// Título dinámico: número de entrada al hacer scroll
+		const entryLabel = document.getElementById('faustinaEntryLabel');
+		const entryNumEl = document.getElementById('faustinaEntryNum');
+		if (entryLabel && entryNumEl && scroller) {
+			let ticking = false;
+			scroller.addEventListener('scroll', () => {
+				if (ticking) return;
+				ticking = true;
+				requestAnimationFrame(() => {
+					const threshold = header.offsetHeight + 16;
+					const spans = Array.from(document.querySelectorAll<HTMLElement>('.faustina-num'));
+					let active: HTMLElement | null = null;
+					for (const span of spans) {
+						if (span.getBoundingClientRect().top <= threshold) active = span;
+						else break;
+					}
+					const num = active?.textContent?.trim() ?? null;
+					if (num) {
+						entryNumEl.textContent = num;
+						entryLabel.classList.remove('hidden');
+					} else {
+						entryLabel.classList.add('hidden');
+					}
+					ticking = false;
+				});
+			}, { passive: true });
+		}
+	}
+
+	document.addEventListener('DOMContentLoaded', () => { initFaustinaHeader(); initFaustinaLocalSearch(); });
+	document.addEventListener('astro:page-load', () => { initFaustinaHeader(); initFaustinaLocalSearch(); });
+</script>

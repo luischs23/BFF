@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import FaustinaMobileHeader from "../../components/faustina/FaustinaMobileHeader.astro";
 
 export const prerender = true;
 
@@ -47,26 +48,30 @@ const currentSlug = cuaderno?.id ?? "";
 		}
 	</style>
 
-	<div class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300">
+	<div id="faustinaContainer" class="flex h-screen relative bg-amber-50/70 dark:bg-gray-900 transition-colors duration-300">
 		<!-- Overlay móvil -->
 		<div
 			id="sidebarOverlay"
 			class="fixed inset-0 bg-black/50 z-40 hidden md:hidden"
 		></div>
 
-		<!-- Botón menú móvil -->
-		<button
-			id="menuToggle"
-			class="md:hidden fixed top-4 right-4 z-[60] bg-rose-400/90 text-white p-2.5 rounded-full shadow-lg hover:bg-rose-500 transition backdrop-blur-sm"
-			aria-label="Abrir menú"
-		>
-			<svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-			</svg>
-			<svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-			</svg>
-		</button>
+		<!-- Header móvil (solo en cuadernos, no en la bienvenida) -->
+		{cuaderno ? (
+			<FaustinaMobileHeader title={title} cuadernoNum={cuaderno.data.numero} />
+		) : (
+			<button
+				id="menuToggle"
+				class="md:hidden fixed top-4 right-4 z-[60] bg-rose-400/90 text-white p-2.5 rounded-full shadow-lg hover:bg-rose-500 transition backdrop-blur-sm"
+				aria-label="Abrir menú"
+			>
+				<svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+				</svg>
+				<svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+			</button>
+		)}
 
 		<!-- Sidebar -->
 		<aside
@@ -286,6 +291,11 @@ const currentSlug = cuaderno?.id ?? "";
 
 <style is:global>
 	/* Estilos del contenido del Diario */
+	/* Fuente serif para todo el contenido, igual que la Biblia */
+	.faustina-content {
+		font-family: "Times New Roman", Times, serif;
+	}
+
 	.faustina-content h1 {
 		font-size: 1.75rem;
 		font-weight: 800;
@@ -326,15 +336,24 @@ const currentSlug = cuaderno?.id ?? "";
 	}
 
 	.faustina-content p {
-		margin: 0.9rem 0;
-		line-height: 1.85;
+		margin: 0.75rem 0;
+		line-height: 1.7;
 		color: #292524;
 		text-align: justify;
 		hyphens: auto;
 		white-space: pre-line;
+		font-size: 1rem;
+		text-indent: 1.5em;
 	}
 	:is(.dark) .faustina-content p {
 		color: #e7e5e4;
+	}
+
+	/* Sin sangría tras encabezados ni en el primer párrafo (tipografía de libro) */
+	.faustina-content h1 + p,
+	.faustina-content h2 + p,
+	.faustina-content p:first-child {
+		text-indent: 0;
 	}
 
 	.faustina-num {
@@ -490,6 +509,7 @@ const currentSlug = cuaderno?.id ?? "";
 			document.body.style.overflow = 'hidden';
 			setTimeout(() => input?.focus(), 50);
 		}
+		(window as any).openFaustinaSearch = openDialog;
 
 		function closeDialog() {
 			overlay!.classList.add('hidden');

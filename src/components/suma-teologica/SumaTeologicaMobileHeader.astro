@@ -11,10 +11,10 @@ const { title, cuestionNum } = Astro.props;
 
 <header
 	id="mobileHeader"
-	class="fixed top-0 left-0 right-0 z-[60] bg-white/95 dark:bg-gray-950/95 backdrop-blur-sm border-b border-stone-200 dark:border-gray-800 shadow-sm md:left-72"
+	class="fixed top-0 left-0 right-0 z-[60] bg-white/95 dark:bg-gray-950/95 backdrop-blur-sm border-b border-stone-200 dark:border-gray-800 shadow-sm md:left-72 transition-transform duration-300"
 >
 	<!-- Vista normal -->
-	<div id="headerNormal" class="flex items-center justify-between px-4 py-3">
+	<div id="headerNormal" class="flex items-center justify-between px-4 py-4">
 		<!-- Botones izquierda -->
 		<div class="absolute left-3 flex items-center gap-2">
 			<button
@@ -36,10 +36,12 @@ const { title, cuestionNum } = Astro.props;
 		</div>
 
 		<!-- Título centrado -->
-		<h1 class="flex-1 text-center text-sm font-semibold text-gray-800 dark:text-gray-200 truncate px-28">
-			{cuestionNum ? (
-				<span class="text-red-600 dark:text-red-400 mr-1">C.{cuestionNum}</span>
-			) : null}<span id="headerTitleFull">{title}</span><span id="headerArticleLabel" class="hidden text-red-500 dark:text-red-400 ml-1.5">· A<span id="headerArticleNum"></span></span>
+		<h1 class="flex-1 flex items-center justify-center min-w-0 px-28 text-sm font-semibold text-gray-800 dark:text-gray-200">
+			<span class="truncate min-w-0">
+				{cuestionNum ? (
+					<span class="text-red-600 dark:text-red-400 mr-1">C.{cuestionNum}</span>
+				) : null}<span id="headerTitleFull">{title}</span>
+			</span><span id="headerArticleLabel" class="hidden shrink-0 text-red-500 dark:text-red-400 ml-1.5">· A<span id="headerArticleNum"></span></span>
 		</h1>
 
 		<!-- Botones derecha -->
@@ -104,6 +106,16 @@ const { title, cuestionNum } = Astro.props;
 		<ul id="articleNavList" class="py-1"></ul>
 	</div>
 </header>
+
+<style>
+	#mobileHeader {
+		transform: translateY(0);
+		transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	#mobileHeader.header-hidden {
+		transform: translateY(-100%);
+	}
+</style>
 
 <script>
 	// ─── Búsqueda local ──────────────────────────────────────────
@@ -406,11 +418,33 @@ const { title, cuestionNum } = Astro.props;
 		});
 	}
 
+	// ─── Ocultar header al hacer scroll ──────────────────────
+	function initHideOnScroll() {
+		const header = document.getElementById('mobileHeader');
+		const scroller = document.querySelector<HTMLElement>('#sumaContainer main');
+		if (!header || !scroller) return;
+		if (scroller.hasAttribute('data-scroll-hide-init')) return;
+		scroller.setAttribute('data-scroll-hide-init', 'true');
+
+		let lastScrollTop = 0;
+		scroller.addEventListener('scroll', () => {
+			const current = scroller.scrollTop;
+			if (Math.abs(current - lastScrollTop) < 5) return;
+			if (current > lastScrollTop && current > header.offsetHeight) {
+				header.classList.add('header-hidden');
+			} else {
+				header.classList.remove('header-hidden');
+			}
+			lastScrollTop = current;
+		}, { passive: true });
+	}
+
 	function init() {
 		initSearch();
 		initArticleNav();
 		initScrollTitle();
 		initGlobalSearch();
+		initHideOnScroll();
 	}
 
 	document.addEventListener('DOMContentLoaded', init);

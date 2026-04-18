@@ -57,14 +57,29 @@ const isWelcomePage = !currentSlug;
 </Layout>
 
 <style is:global>
+	/* Fuente serif para todo el contenido, igual que la Biblia */
+	.suma-content {
+		font-family: "Times New Roman", Times, serif;
+	}
+
 	.suma-content p {
-		margin: 0.9rem 0;
-		line-height: 1.9;
+		margin: 0.75rem 0;
+		line-height: 1.7;
 		color: #1c1917;
 		text-align: justify;
 		hyphens: auto;
+		font-size: 1rem;
+		text-indent: 1.5em;
 	}
 	:is(.dark) .suma-content p { color: #e7e5e4; }
+
+	/* Sin sangría tras encabezados ni en blockquotes (tipografía de libro) */
+	.suma-content h2 + p,
+	.suma-content h3 + p,
+	.suma-content blockquote p,
+	.suma-content p:first-child {
+		text-indent: 0;
+	}
 
 	.suma-content h2 {
 		font-size: 1rem;
