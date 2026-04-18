@@ -168,15 +168,15 @@ const currentSlug = cuaderno?.id ?? "";
 		</aside>
 
 		<!-- Contenido principal -->
-		<main class="flex-1 overflow-y-auto bg-amber-50 dark:bg-gray-950 md:bg-stone-200 md:dark:bg-gray-950 transition-colors duration-300">
-			<div class="max-w-3xl mx-auto px-4 py-8 md:py-10">
+		<main class="flex-1 overflow-y-auto bg-amber-50 dark:bg-gray-800 md:bg-stone-300 md:dark:bg-gray-950 transition-colors duration-300">
+			<div class="max-w-3xl mx-auto p-0 md:p-8">
 				{Content ? (
-					<article class="faustina-content bg-amber-50 dark:bg-gray-900 rounded-xl shadow-sm md:shadow-md p-6 md:p-10 prose-faustina">
+					<article class="faustina-content bg-amber-50 dark:bg-gray-800 rounded-none md:rounded-xl shadow-none md:shadow-md px-6 py-5 md:px-10 md:py-8 prose-faustina">
 						<Content />
 					</article>
 				) : (
 					<!-- Página de bienvenida -->
-					<div class="welcome-faustina">
+					<div class="welcome-faustina px-4 py-8 md:py-0">
 						<div class="text-center mb-10">
 							<div class="inline-flex items-center justify-center w-20 h-20 rounded-full overflow-hidden mb-4 shadow-lg">
 								<img src="/Faustina.jpg" alt="Diario de Santa Faustina" class="w-full h-full object-cover" />
