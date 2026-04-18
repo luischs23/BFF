@@ -381,6 +381,11 @@ const dailyCards = SECTIONS.map((section, i) => ({
 								<span class="daily-ref text-gray-400 dark:text-gray-600 text-[11px] font-mono shrink-0"></span>
 							</div>
 							<p class="daily-verse text-gray-600 dark:text-gray-400 text-sm leading-snug w-full"></p>
+							<div class="daily-skeleton animate-pulse space-y-1.5 mt-1">
+								<div class="h-1.5 w-8 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+								<div class="h-2 w-full bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+								<div class="h-2 w-2/3 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+							</div>
 						</div>
 						<svg class="shrink-0 w-3 h-3 text-gray-300 dark:text-gray-700 group-hover:text-gray-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -495,11 +500,16 @@ const dailyCards = SECTIONS.map((section, i) => ({
 					}
 				} catch {}
 			}
-			if (!data) continue;
+			const skeletonEl = card.querySelector('.daily-skeleton');
+			if (!data) {
+				if (skeletonEl) skeletonEl.classList.add('hidden');
+				continue;
+			}
 			const verseEl = card.querySelector('.daily-verse');
 			const refEl = card.querySelector('.daily-ref');
 			if (verseEl) verseEl.textContent = `"${data.text}"`;
 			if (refEl) refEl.textContent = `${data.chapter},${data.verse}`;
+			if (skeletonEl) skeletonEl.classList.add('hidden');
 			card.href = `/biblia/${slug}#chapter-${data.chapter}-verse-${data.verseNum}`;
 		}
 		try { sessionStorage.setItem(cacheKey, JSON.stringify(cache)); } catch {}
