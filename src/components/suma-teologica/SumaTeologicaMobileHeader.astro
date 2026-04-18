@@ -1,0 +1,418 @@
+---
+import { Search, BookOpen, Globe, ChevronLeft, ChevronUp, ChevronDown } from "lucide-astro";
+
+interface Props {
+	title: string;
+	cuestionNum?: number;
+}
+
+const { title, cuestionNum } = Astro.props;
+---
+
+<header
+	id="mobileHeader"
+	class="fixed top-0 left-0 right-0 z-[60] bg-white/95 dark:bg-gray-950/95 backdrop-blur-sm border-b border-stone-200 dark:border-gray-800 shadow-sm md:left-72"
+>
+	<!-- Vista normal -->
+	<div id="headerNormal" class="flex items-center justify-between px-4 py-3">
+		<!-- Botones izquierda -->
+		<div class="absolute left-3 flex items-center gap-2">
+			<button
+				id="searchToggle"
+				class="bg-red-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-red-800 transition"
+				aria-label="Buscar en esta cuestión"
+				title="Buscar en esta cuestión"
+			>
+				<Search class="h-5 w-5" />
+			</button>
+			<button
+				id="globalSearchToggle"
+				class="bg-red-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-red-800 transition"
+				aria-label="Buscar en la Suma Teológica"
+				title="Buscar en la Suma Teológica"
+			>
+				<Globe class="h-5 w-5" />
+			</button>
+		</div>
+
+		<!-- Título centrado -->
+		<h1 class="flex-1 text-center text-sm font-semibold text-gray-800 dark:text-gray-200 truncate px-28">
+			{cuestionNum ? (
+				<span class="text-red-600 dark:text-red-400 mr-1">C.{cuestionNum}</span>
+			) : null}<span id="headerTitleFull">{title}</span><span id="headerArticleLabel" class="hidden text-red-500 dark:text-red-400 ml-1.5">· A<span id="headerArticleNum"></span></span>
+		</h1>
+
+		<!-- Botones derecha -->
+		<div class="absolute right-3 flex items-center gap-2">
+			<button
+				id="articleNavToggle"
+				class="bg-red-700/90 text-white p-2.5 rounded-full shadow-lg hover:bg-red-800 transition"
+				aria-label="Ir a artículo"
+				title="Ir a artículo"
+			>
+				<BookOpen class="h-5 w-5" />
+			</button>
+			<button
+				id="menuToggle"
+				class="md:hidden p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+				aria-label="Abrir menú"
+			>
+				<svg id="menuIcon" class="h-5 w-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+				</svg>
+				<svg id="closeIcon" class="h-5 w-5 hidden text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+			</button>
+		</div>
+	</div>
+
+	<!-- Vista búsqueda expandida -->
+	<div id="headerSearch" class="hidden items-center gap-2 px-3 py-2">
+		<button
+			id="searchClose"
+			class="text-gray-600 dark:text-gray-300 p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition"
+			aria-label="Cerrar búsqueda"
+		>
+			<ChevronLeft class="h-5 w-5" />
+		</button>
+		<div class="flex-1 relative">
+			<input
+				type="text"
+				id="searchInput"
+				placeholder="Buscar en esta cuestión..."
+				class="w-full px-4 py-2 pr-10 rounded-full bg-white dark:bg-gray-800 border border-stone-300 dark:border-gray-600 text-gray-800 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
+			/>
+			<Search class="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+		</div>
+		<div id="searchNavigation" class="hidden items-center gap-1">
+			<span id="searchCount" class="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap"></span>
+			<button id="searchPrev" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Resultado anterior">
+				<ChevronUp class="h-4 w-4" />
+			</button>
+			<button id="searchNext" class="text-gray-600 dark:text-gray-300 p-1.5 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition" aria-label="Siguiente resultado">
+				<ChevronDown class="h-4 w-4" />
+			</button>
+		</div>
+	</div>
+
+	<!-- Panel de navegación de artículos -->
+	<div
+		id="articleNavPanel"
+		class="hidden border-t border-stone-200 dark:border-gray-800 bg-white/98 dark:bg-gray-950/98 max-h-64 overflow-y-auto"
+	>
+		<ul id="articleNavList" class="py-1"></ul>
+	</div>
+</header>
+
+<script>
+	// ─── Búsqueda local ──────────────────────────────────────────
+	function initSearch() {
+		const searchToggle = document.getElementById('searchToggle');
+		if (!searchToggle || searchToggle.hasAttribute('data-search-init')) return;
+		searchToggle.setAttribute('data-search-init', 'true');
+		const searchClose = document.getElementById('searchClose');
+		const headerNormal = document.getElementById('headerNormal');
+		const headerSearch = document.getElementById('headerSearch');
+		const searchInput = document.getElementById('searchInput') as HTMLInputElement;
+		const searchNavigation = document.getElementById('searchNavigation');
+		const searchCount = document.getElementById('searchCount');
+		const searchPrev = document.getElementById('searchPrev');
+		const searchNext = document.getElementById('searchNext');
+
+		let searchResults: Element[] = [];
+		let currentResultIndex = 0;
+
+		searchToggle?.addEventListener('click', () => {
+			headerNormal?.classList.add('hidden');
+			headerSearch?.classList.remove('hidden');
+			headerSearch?.classList.add('flex');
+			searchInput?.focus();
+		});
+
+		searchClose?.addEventListener('click', closeSearch);
+
+		function closeSearch() {
+			headerSearch?.classList.add('hidden');
+			headerSearch?.classList.remove('flex');
+			headerNormal?.classList.remove('hidden');
+			clearHighlights();
+			if (searchInput) searchInput.value = '';
+			searchNavigation?.classList.add('hidden');
+			searchNavigation?.classList.remove('flex');
+		}
+
+		function clearHighlights() {
+			document.querySelectorAll('.search-highlight').forEach(el => {
+				const parent = el.parentNode;
+				if (parent) {
+					parent.replaceChild(document.createTextNode(el.textContent || ''), el);
+					parent.normalize();
+				}
+			});
+			searchResults = [];
+			currentResultIndex = 0;
+		}
+
+		function normalizeText(text: string): string {
+			return text
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.replace(/[,;:.!?¡¿'"«»""'']/g, '')
+				.toLowerCase();
+		}
+
+		function findFlexibleMatches(text: string, query: string): { start: number; end: number }[] {
+			const normalizedText = normalizeText(text);
+			const normalizedQuery = normalizeText(query);
+			const matches: { start: number; end: number }[] = [];
+			if (!normalizedQuery) return matches;
+			let searchStart = 0;
+			while (true) {
+				const foundIndex = normalizedText.indexOf(normalizedQuery, searchStart);
+				if (foundIndex === -1) break;
+				let originalStart = 0;
+				let normalizedCount = 0;
+				for (let i = 0; i < text.length && normalizedCount < foundIndex; i++) {
+					const normalizedChar = normalizeText(text[i]);
+					if (normalizedChar.length > 0) normalizedCount++;
+					originalStart = i + 1;
+				}
+				let originalEnd = originalStart;
+				let matchedLength = 0;
+				for (let i = originalStart; i < text.length && matchedLength < normalizedQuery.length; i++) {
+					const normalizedChar = normalizeText(text[i]);
+					if (normalizedChar.length > 0) matchedLength++;
+					originalEnd = i + 1;
+				}
+				matches.push({ start: originalStart, end: originalEnd });
+				searchStart = foundIndex + 1;
+			}
+			return matches;
+		}
+
+		function performSearch(query: string) {
+			clearHighlights();
+			if (!query || query.length < 2) {
+				searchNavigation?.classList.add('hidden');
+				searchNavigation?.classList.remove('flex');
+				return;
+			}
+			const content = document.querySelector('.suma-content');
+			if (!content) return;
+
+			const walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+				acceptNode: (node) => {
+					const parent = node.parentElement;
+					if (!parent) return NodeFilter.FILTER_REJECT;
+					const tag = parent.tagName.toLowerCase();
+					if (['script', 'style', 'noscript'].includes(tag)) return NodeFilter.FILTER_REJECT;
+					return NodeFilter.FILTER_ACCEPT;
+				}
+			});
+
+			const textNodes: Text[] = [];
+			let node: Node | null;
+			while ((node = walker.nextNode())) textNodes.push(node as Text);
+
+			textNodes.forEach(textNode => {
+				const text = textNode.textContent || '';
+				const matches = findFlexibleMatches(text, query);
+				if (matches.length === 0) return;
+				const fragment = document.createDocumentFragment();
+				let lastIndex = 0;
+				matches.forEach(match => {
+					if (match.start > lastIndex) fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.start)));
+					const mark = document.createElement('mark');
+					mark.className = 'search-highlight bg-yellow-200 dark:bg-yellow-700 rounded px-0.5';
+					mark.textContent = text.slice(match.start, match.end);
+					fragment.appendChild(mark);
+					lastIndex = match.end;
+				});
+				if (lastIndex < text.length) fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+				textNode.parentNode?.replaceChild(fragment, textNode);
+			});
+
+			searchResults = Array.from(document.querySelectorAll('.search-highlight'));
+			if (searchResults.length > 0) {
+				searchNavigation?.classList.remove('hidden');
+				searchNavigation?.classList.add('flex');
+				currentResultIndex = 0;
+				updateCount();
+				scrollToResult(0);
+			} else {
+				searchNavigation?.classList.add('hidden');
+				searchNavigation?.classList.remove('flex');
+			}
+		}
+
+		function updateCount() {
+			if (searchCount) searchCount.textContent = `${currentResultIndex + 1}/${searchResults.length}`;
+			searchResults.forEach((el, i) => {
+				if (i === currentResultIndex) el.classList.add('ring-2', 'ring-red-500');
+				else el.classList.remove('ring-2', 'ring-red-500');
+			});
+		}
+
+		function scrollToResult(index: number) {
+			if (searchResults[index]) {
+				searchResults[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+				updateCount();
+			}
+		}
+
+		let searchTimeout: ReturnType<typeof setTimeout>;
+		searchInput?.addEventListener('input', (e) => {
+			clearTimeout(searchTimeout);
+			searchTimeout = setTimeout(() => performSearch((e.target as HTMLInputElement).value), 300);
+		});
+
+		searchPrev?.addEventListener('click', () => {
+			if (searchResults.length > 0) {
+				currentResultIndex = (currentResultIndex - 1 + searchResults.length) % searchResults.length;
+				scrollToResult(currentResultIndex);
+			}
+		});
+
+		searchNext?.addEventListener('click', () => {
+			if (searchResults.length > 0) {
+				currentResultIndex = (currentResultIndex + 1) % searchResults.length;
+				scrollToResult(currentResultIndex);
+			}
+		});
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape' && !headerSearch?.classList.contains('hidden')) closeSearch();
+			if (e.key === 'Enter' && document.activeElement === searchInput) {
+				e.preventDefault();
+				if (searchResults.length > 0) {
+					currentResultIndex = (currentResultIndex + 1) % searchResults.length;
+					scrollToResult(currentResultIndex);
+				}
+			}
+		});
+	}
+
+	// ─── Navegación de artículos ────────────────────────────────
+	function initArticleNav() {
+		const btn = document.getElementById('articleNavToggle');
+		const panel = document.getElementById('articleNavPanel');
+		const list = document.getElementById('articleNavList');
+		if (!btn || !panel || !list) return;
+		if (btn.hasAttribute('data-nav-init')) return;
+		btn.setAttribute('data-nav-init', 'true');
+
+		btn.addEventListener('click', () => {
+			const isOpen = !panel.classList.contains('hidden');
+			if (isOpen) {
+				panel.classList.add('hidden');
+				return;
+			}
+			// Construir lista de artículos desde el DOM
+			const articles = Array.from(document.querySelectorAll<HTMLElement>('.suma-content h2[id]'));
+			list.innerHTML = '';
+			if (articles.length === 0) {
+				list.innerHTML = '<li class="px-4 py-3 text-xs text-gray-400 dark:text-gray-500">Sin artículos en esta cuestión</li>';
+			} else {
+				articles.forEach((h2) => {
+					const li = document.createElement('li');
+					const a = document.createElement('a');
+					a.href = '#' + h2.id;
+					// Extraer "Artículo N" del texto del h2
+					const text = h2.textContent?.trim() || '';
+					const match = text.match(/Art[íi]culo\s+(\d+)/i);
+					const artNum = match ? `Artículo ${match[1]}` : text.slice(0, 40);
+					const rest = match ? text.replace(/Art[íi]culo\s+\d+\s*[:\-]?\s*/i, '').trim() : '';
+					a.className = 'flex items-start gap-3 px-4 py-2.5 text-xs hover:bg-red-50 dark:hover:bg-red-950/20 transition';
+					a.innerHTML = `<span class="text-red-600 dark:text-red-400 font-semibold shrink-0 mt-0.5">${artNum}</span><span class="text-gray-600 dark:text-gray-400 line-clamp-2">${rest}</span>`;
+					a.addEventListener('click', (e) => {
+						e.preventDefault();
+						panel.classList.add('hidden');
+						const target = document.getElementById(h2.id);
+						const scroller = document.querySelector<HTMLElement>('#sumaContainer main');
+						if (target && scroller) {
+							const headerHeight = document.getElementById('mobileHeader')?.offsetHeight ?? 56;
+							const y = target.getBoundingClientRect().top + scroller.scrollTop - headerHeight - 8;
+							scroller.scrollTo({ top: y, behavior: 'smooth' });
+							history.pushState(null, '', '#' + h2.id);
+						}
+					});
+					li.appendChild(a);
+					list.appendChild(li);
+				});
+			}
+			panel.classList.remove('hidden');
+		});
+
+		// Cerrar panel al hacer clic fuera
+		document.addEventListener('click', (e) => {
+			if (!panel.classList.contains('hidden') && !btn.contains(e.target as Node) && !panel.contains(e.target as Node)) {
+				panel.classList.add('hidden');
+			}
+		});
+	}
+
+	// ─── Título dinámico al hacer scroll ──────────────────────
+	function initScrollTitle() {
+		const titleFull = document.getElementById('headerTitleFull');
+		const articleLabel = document.getElementById('headerArticleLabel');
+		const articleNum = document.getElementById('headerArticleNum');
+		if (!titleFull || !articleLabel || !articleNum) return;
+		if (titleFull.hasAttribute('data-scroll-init')) return;
+		titleFull.setAttribute('data-scroll-init', 'true');
+
+		function getActiveArticleNum(): number | null {
+			const scroller = document.querySelector<HTMLElement>('#sumaContainer main');
+			const articles = Array.from(document.querySelectorAll<HTMLElement>('.suma-content h2[id]'));
+			if (articles.length === 0) return null;
+			const headerHeight = document.getElementById('mobileHeader')?.offsetHeight ?? 56;
+			const threshold = headerHeight + 16;
+			let active: HTMLElement | null = null;
+			for (const h2 of articles) {
+				const top = scroller
+					? h2.getBoundingClientRect().top - scroller.getBoundingClientRect().top
+					: h2.getBoundingClientRect().top;
+				if (top <= threshold) active = h2;
+				else break;
+			}
+			if (!active) return null;
+			const match = active.textContent?.trim().match(/Art[íi]culo\s+(\d+)/i);
+			return match ? parseInt(match[1]) : null;
+		}
+
+		let ticking = false;
+		const scroller = document.querySelector<HTMLElement>('#sumaContainer main');
+		(scroller ?? window).addEventListener('scroll', () => {
+			if (ticking) return;
+			ticking = true;
+			requestAnimationFrame(() => {
+				const num = getActiveArticleNum();
+				if (num !== null) {
+					articleNum.textContent = String(num);
+					articleLabel.classList.remove('hidden');
+				} else {
+					articleLabel.classList.add('hidden');
+				}
+				ticking = false;
+			});
+		}, { passive: true });
+	}
+
+	// ─── Botón búsqueda global ─────────────────────────────────
+	function initGlobalSearch() {
+		const btn = document.getElementById('globalSearchToggle');
+		btn?.addEventListener('click', () => {
+			(window as any).openSumaGlobalSearch?.();
+		});
+	}
+
+	function init() {
+		initSearch();
+		initArticleNav();
+		initScrollTitle();
+		initGlobalSearch();
+	}
+
+	document.addEventListener('DOMContentLoaded', init);
+	document.addEventListener('astro:page-load', init);
+</script>

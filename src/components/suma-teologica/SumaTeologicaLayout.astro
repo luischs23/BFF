@@ -1,6 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import SumaTeologicaSidebar from "./SumaTeologicaSidebar.astro";
+import SumaTeologicaMobileHeader from "./SumaTeologicaMobileHeader.astro";
+import SumaGlobalSearchDialog from "./SumaGlobalSearchDialog.astro";
 import type { PartTree } from "./SumaTeologicaSidebar.astro";
 
 interface Props {
@@ -37,27 +39,7 @@ const isWelcomePage = !currentSlug;
 				</svg>
 			</button>
 		) : (
-			<header
-				id="mobileHeader"
-				class="md:hidden fixed top-0 left-0 right-0 z-[60] bg-white dark:bg-gray-950 border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between"
-			>
-				<div class="w-8"></div>
-				<h1 class="text-sm font-semibold text-gray-800 dark:text-gray-200 truncate mx-3 flex-1 text-center">
-					{cuestionNum ? <span class="text-red-500 dark:text-red-400 mr-1">C.{cuestionNum}</span> : null}{title}
-				</h1>
-				<button
-					id="menuToggle"
-					class="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-					aria-label="Abrir menú"
-				>
-					<svg id="menuIcon" class="h-5 w-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-					</svg>
-					<svg id="closeIcon" class="h-5 w-5 hidden text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-					</svg>
-				</button>
-			</header>
+			<SumaTeologicaMobileHeader title={title} cuestionNum={cuestionNum} />
 		)}
 
 		<!-- Sidebar -->
@@ -65,23 +47,16 @@ const isWelcomePage = !currentSlug;
 
 		<!-- Contenido principal -->
 		<main class="flex-1 overflow-y-auto bg-stone-50 dark:bg-gray-950 transition-colors duration-300">
-			<div class="max-w-3xl mx-auto px-0 py-0 md:px-4 md:py-10">
+			<div class="max-w-3xl mx-auto px-0 py-0 md:px-4 md:pb-10">
 				<slot />
 			</div>
 		</main>
 	</div>
+
+	<SumaGlobalSearchDialog />
 </Layout>
 
 <style is:global>
-	#sumaContainer:not([data-welcome]) > main {
-		padding-top: 3.5rem;
-	}
-	@media (min-width: 768px) {
-		#sumaContainer:not([data-welcome]) > main {
-			padding-top: 0;
-		}
-	}
-	
 	.suma-content p {
 		margin: 0.9rem 0;
 		line-height: 1.9;
@@ -140,9 +115,32 @@ const isWelcomePage = !currentSlug;
 	import { initMobileMenu } from "../../scripts/biblia/mobileMenu";
 	import { initDarkMode } from "../../scripts/biblia/darkMode";
 
+	function syncSidebarToHeader() {
+		const header = document.getElementById('mobileHeader');
+		const sidebar = document.getElementById('sidebar');
+		const main = document.querySelector<HTMLElement>('#sumaContainer main');
+		const container = document.getElementById('sumaContainer');
+		if (!header || !sidebar || !main) return;
+		const isWelcome = container?.hasAttribute('data-welcome');
+		if (isWelcome) return;
+
+		const h = header.offsetHeight;
+		// Solo aplica en móvil; en desktop el sidebar es relative y main no necesita ajuste JS
+		if (window.innerWidth < 768) {
+			sidebar.style.top = `${h}px`;
+			sidebar.style.height = `calc(100vh - ${h}px)`;
+			main.style.paddingTop = `${h}px`;
+		} else {
+			sidebar.style.top = '';
+			sidebar.style.height = '';
+			main.style.paddingTop = `${h}px`;
+		}
+	}
+
 	function initSuma() {
 		initMobileMenu();
 		initDarkMode();
+		syncSidebarToHeader();
 	}
 
 	if (document.readyState === 'loading') {
@@ -151,4 +149,5 @@ const isWelcomePage = !currentSlug;
 		initSuma();
 	}
 	document.addEventListener('astro:page-load', initSuma);
+	window.addEventListener('resize', syncSidebarToHeader);
 </script>
