@@ -335,8 +335,7 @@ const currentSlug = cuaderno?.id ?? "";
 		color: #d97706;
 	}
 
-	.faustina-content p,
-	.faustina-content ul li {
+	.faustina-content p {
 		margin: 0.75rem 0;
 		line-height: 1.7;
 		color: #292524;
@@ -346,21 +345,8 @@ const currentSlug = cuaderno?.id ?? "";
 		font-size: 1rem;
 		text-indent: 1.5em;
 	}
-	:is(.dark) .faustina-content p,
-	:is(.dark) .faustina-content ul li {
+	:is(.dark) .faustina-content p {
 		color: #e7e5e4;
-	}
-
-	/* Listas de diálogo: sin bullets ni sangría de lista */
-	.faustina-content ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-	/* Lista "suelta": el <li> ya tiene <p> dentro — evitar doble sangría */
-	.faustina-content ul li > p {
-		margin: 0;
-		text-indent: 0;
 	}
 
 	/* Sin sangría tras encabezados ni en el primer párrafo (tipografía de libro) */
